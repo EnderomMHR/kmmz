@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Linie autobusowe KMMZ</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:linear-gradient(135deg,#005bbb,#009966);
+    min-height:100vh;
+    padding:20px;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:40px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.25);
+}
+
+h1{
+    text-align:center;
+    color:#005bbb;
+    margin-bottom:30px;
+}
+
+.back{
+    display:inline-block;
+    margin-bottom:30px;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line{
+    display:flex;
+    align-items:center;
+    gap:20px;
+    padding:15px;
+    border-bottom:1px solid #ddd;
+}
+
+.line-button{
+    width:70px;
+    min-width:70px;
+    height:50px;
+    background:#f5c400;
+    color:#222;
+    text-decoration:none;
+    font-size:24px;
+    font-weight:bold;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:10px;
+}
+
+.line-button:hover{
+    background:#ffd84d;
+}
+
+.route{
+    font-size:18px;
+}
+
+@media(max-width:700px){
+
+    .line{
+        flex-direction:column;
+        align-items:flex-start;
+    }
+
+    .route{
+        font-size:16px;
+    }
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<a class="back" href="index.html">← Strona główna</a>
+
+<h1>Linie autobusowe KMMZ</h1>
+
+<div class="line">
+<a class="line-button" href="linie/1.html">1</a>
+<div class="route">
+(Krzeszowice Czatkowice Dolne Kopalnia) - Miękinia Stawiska - Libiąż Kopalnia Janina
+</div>
+</div>
+
+<div class="line">
+<a class="line-button" href="linie/2.html">2</a>
+<div class="route">
+Trasa zostanie uzupełniona
+</div>
+</div>
+
+<div class="line">
+<a class="line-button" href="linie/3.html">3</a>
+<div class="route">
+Trasa zostanie uzupełniona
+</div>
+</div>
+
+<div class="line">
+<a class="line-button" href="linie/4.html">4</a>
+<div class="route">
+Trasa zostanie uzupełniona
+</div>
+</div>
+
+</div>
+
+</body>
+</html>
