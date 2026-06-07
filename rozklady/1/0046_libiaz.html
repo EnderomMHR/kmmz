@@ -63,7 +63,7 @@ body{
     border-bottom:1px dashed #ccc;
     color:#222;
     text-decoration:none;
-    font-size:13px;
+    font-size:12px;
 }
 
 .stop:hover{
@@ -74,6 +74,7 @@ body{
 .current-stop{
     background:#fff3c4;
     font-weight:bold;
+    font-size:9px;
 }
 
 .variant{
@@ -82,7 +83,7 @@ body{
 }
 
 .timetable{
-    padding:25px;
+    padding:20px;
 }
 
 .header{
@@ -96,16 +97,16 @@ body{
 .line-button{
     background:#f5c400;
     color:#222;
-    font-size:46px;
+    font-size:36px;
     font-weight:bold;
     text-align:center;
-    padding:18px;
+    padding:14px;
     border-radius:12px;
     text-decoration:none;
 }
 
 .stop-name{
-    font-size:26px;
+    font-size:21px;
     font-weight:bold;
     color:#005bbb;
     text-decoration:none;
@@ -118,12 +119,12 @@ body{
     border-radius:6px;
     font-weight:bold;
     margin-right:8px;
-    font-size:17px;
+    font-size:14px;
 }
 
 .direction{
     margin-top:10px;
-    font-size:18px;
+    font-size:15px;
 }
 
 .map-button{
@@ -132,45 +133,49 @@ body{
     border:2px solid #005bbb;
     color:#005bbb;
     border-radius:12px;
-    padding:12px;
+    font-size:13px;
+    padding:9px;
     text-align:center;
     font-weight:bold;
 }
 
 .map-icon{
-    font-size:32px;
+    font-size:26px;
     display:block;
 }
 
 .section-title{
-    margin-top:18px;
-    padding:9px 12px;
+    margin-top:14px;
+    padding:7px 10px;
     font-weight:bold;
     border-radius:6px;
+    font-size:14px;
 }
 
 .workday{background:#eaf4ff;}
 .saturday{background:#eef7df;}
 .sunday{background:#ffe5e5;}
+.holiday{background:#fff3c4;}
 
 .times{
     display:grid;
-    grid-template-columns:repeat(5,1fr);
+    grid-template-columns:repeat(8,1fr);
     gap:0;
-    padding:10px 0 18px 0;
+    padding:6px 0 12px 0;
     border-bottom:1px dashed #ccc;
 }
 
 .time{
     text-align:center;
-    padding:7px;
-    font-size:17px;
+    padding:5px;
+    font-size:14px;
 }
 
 .no-service{
-    padding:12px;
+    padding:9px;
     color:#777;
     font-style:italic;
+    font-size:14px;
 }
 
 .legend{
@@ -186,11 +191,11 @@ body{
     font-weight:bold;
     padding:12px;
     background:linear-gradient(90deg,#f5c400,#005bbb,#009966);
-    font-size:20px;
+    font-size:17px;
 }
 
 .legend-row{
-    padding:10px 18px;
+    padding:8px 15px;
     border-bottom:1px dashed #ccc;
 }
 
@@ -333,10 +338,10 @@ Mapa
 </div>
 
 <div class="section-title sunday">Niedziele</div>
-<div class="no-service">Brak kursów</div>
+<div class="no-service">Nie kursuje</div>
 
-<div class="section-title sunday">Święta</div>
-<div class="no-service">Brak kursów</div>
+<div class="section-title holiday">Święta</div>
+<div class="no-service">Nie kursuje</div>
 
 <div class="legend">
 <div class="legend-title">Legenda</div>
