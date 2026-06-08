@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KMMZ | Linia 1 | 0065 Miękinia Stawiska</title>
+
+<style>
+*{box-sizing:border-box}
+
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:linear-gradient(135deg,#005bbb,#009966);
+    padding:20px;
+}
+
+.page{
+    max-width:1400px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:330px 1fr;
+    gap:20px;
+}
+
+.panel, .timetable{
+    background:white;
+    border-radius:16px;
+    box-shadow:0 8px 25px rgba(0,0,0,.22);
+}
+
+.panel{
+    padding:15px;
+}
+
+.back{
+    display:block;
+    margin-bottom:15px;
+    color:#005bbb;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+.route-title{
+    text-align:center;
+    padding:12px;
+    background:#f5c400;
+    font-weight:bold;
+    border-radius:10px 10px 0 0;
+}
+
+.route-subtitle{
+    text-align:center;
+    background:#009966;
+    color:white;
+    padding:8px;
+    font-weight:bold;
+}
+
+.stop{
+    display:block;
+    padding:5px 8px;
+    border-bottom:1px dashed #ccc;
+    color:#222;
+    text-decoration:none;
+    font-size:12px;
+}
+
+.stop:hover{
+    background:#eef5ff;
+    color:#005bbb;
+}
+
+.current-stop{
+    background:#fff3c4;
+    font-weight:bold;
+    font-size:12px;
+}
+
+.variant{
+    margin-left:25px;
+    font-style:italic;
+}
+
+.timetable{
+    padding:20px;
+}
+
+.header{
+    display:grid;
+    grid-template-columns:110px 1fr 90px;
+    gap:20px;
+    align-items:center;
+    margin-bottom:25px;
+}
+
+.line-button{
+    background:#f5c400;
+    color:#222;
+    font-size:36px;
+    font-weight:bold;
+    text-align:center;
+    padding:14px;
+    border-radius:12px;
+    text-decoration:none;
+}
+
+.stop-name{
+    font-size:21px;
+    font-weight:bold;
+    color:#005bbb;
+    text-decoration:none;
+}
+
+.stop-code{
+    background:#dcecff;
+    color:#005bbb;
+    padding:6px 10px;
+    border-radius:6px;
+    font-weight:bold;
+    margin-right:8px;
+    font-size:14px;
+}
+
+.direction{
+    margin-top:10px;
+    font-size:15px;
+}
+
+.map-button{
+    text-decoration:none;
+    background:#eaf4ff;
+    border:2px solid #005bbb;
+    color:#005bbb;
+    border-radius:12px;
+    font-size:13px;
+    padding:9px;
+    text-align:center;
+    font-weight:bold;
+}
+
+.map-icon{
+    font-size:26px;
+    display:block;
+}
+
+.section-title{
+    margin-top:14px;
+    padding:7px 10px;
+    font-weight:bold;
+    border-radius:6px;
+    font-size:14px;
+}
+
+.workday{background:#eaf4ff;}
+.saturday{background:#eef7df;}
+.sunday{background:#ffe5e5;}
+.holiday{background:#fff3c4;}
+
+.times{
+    display:grid;
+    grid-template-columns:repeat(8,1fr);
+    gap:0;
+    padding:6px 0 12px 0;
+    border-bottom:1px dashed #ccc;
+}
+
+.time{
+    text-align:center;
+    padding:5px;
+    font-size:14px;
+}
+
+.no-service{
+    padding:9px;
+    color:#777;
+    font-style:italic;
+    font-size:14px;
+}
+
+.legend{
+    margin-top:30px;
+    border:2px solid #ccc;
+    border-radius:14px;
+    overflow:hidden;
+}
+
+.legend-title{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    padding:12px;
+    background:linear-gradient(90deg,#f5c400,#005bbb,#009966);
+    font-size:17px;
+}
+
+.legend-row{
+    padding:8px 15px;
+    border-bottom:1px dashed #ccc;
+}
+
+.legend-row:last-child{
+    border-bottom:none;
+}
+
+.symbol{
+    color:#005bbb;
+    font-weight:bold;
+    display:inline-block;
+    width:35px;
+}
+
+@media(max-width:900px){
+    .page{
+        grid-template-columns:1fr;
+    }
+
+    .header{
+        grid-template-columns:1fr;
+        text-align:center;
+    }
+
+    .times{
+        grid-template-columns:repeat(3,1fr);
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="page">
+
+<div class="panel">
+<a class="back" href="../../linie/1.html">← Powrót do trasy linii 1</a>
+
+<div class="route-title">Kierunek: Libiąż Kopalnia Janina</div>
+<div class="route-subtitle">Trasa przejazdu od tego przystanku</div>
+
+<a class="stop current-stop" href="0065_libiaz.html">0065 Miękinia Stawiska (0)</a>
+<a class="stop" href="0066_libiaz.html">0066 Filipowice Wzgórze (1)</a>
+<a class="stop" href="0067_libiaz.html">0067 Filipowice Transformator (1)</a>
+<a class="stop" href="0068_libiaz.html">0068 Filipowice Kościół (1)</a>
+<a class="stop" href="0069_libiaz.html">0069 Filipowice Szkoła (1)</a>
+<a class="stop" href="0070_libiaz.html">0070 Filipowice Skała (1)</a>
+<a class="stop" href="0071_libiaz.html">0071 Filipowice Palikówka (1)</a>
+<a class="stop" href="0072_libiaz.html">0072 Filipowice Sklep (1)</a>
+<a class="stop" href="0073_libiaz.html">0073 Filipowice Blych (1)</a>
+<a class="stop" href="0074_libiaz.html">0074 Wola Filipowska Białka (1)</a>
+<a class="stop" href="0075_libiaz.html">0075 Dulowa Sklep (1)</a>
+<a class="stop" href="0076_libiaz.html">0076 Dulowa (2)</a>
+<a class="stop" href="0077_libiaz.html">0077 Młoszowa Leśniczówka (2)</a>
+
+<a class="stop variant" href="0078_libiaz.html">0078 Młoszowa Florkiewicza (0)</a>
+<a class="stop variant" href="0079_libiaz.html">0079 Młoszowa Studium (1)</a>
+<a class="stop variant" href="0080_libiaz.html">0080 Młoszowa Wzgórze I (2)</a>
+<a class="stop variant" href="0081_libiaz.html">0081 Młoszowa Wzgórze na żądanie (2)</a>
+<a class="stop variant" href="0082_libiaz.html">0082 Młoszowa Wzgórze II (2)</a>
+<a class="stop variant" href="0083_libiaz.html">0083 Młoszowa Wzgórze na żądanie (1)</a>
+<a class="stop variant" href="0084_libiaz.html">0084 Młoszowa Wzgórze I (1)</a>
+<a class="stop variant" href="0085_libiaz.html">0085 Młoszowa Studium (2)</a>
+
+<a class="stop" href="0086_libiaz.html">0086 Młoszowa (1)</a>
+<a class="stop" href="0087_libiaz.html">0087 Trzebinia Szkoła (1)</a>
+<a class="stop" href="0088_libiaz.html">0088 Trzebinia Mały Rynek Kościuszki (0)</a>
+<a class="stop" href="0089_libiaz.html">0089 Trzebinia Dworzec PKP (1)</a>
+<a class="stop" href="0090_libiaz.html">0090 Trzebinia Długa (1)</a>
+<a class="stop" href="0091_libiaz.html">0091 Trzebinia Berezka (2)</a>
+<a class="stop variant" href="0092_libiaz.html">0092 Chrzanów Valeo (2)</a>
+<a class="stop" href="0093_libiaz.html">0093 Chrzanów Szpital (2)</a>
+<a class="stop" href="0094_libiaz.html">0094 Chrzanów Szpitalna (1)</a>
+<a class="stop" href="0095_libiaz.html">0095 Chrzanów Dworzec Autobusowy (3)</a>
+<a class="stop" href="0096_libiaz.html">0096 Chrzanów Plac Tysiąclecia (3)</a>
+<a class="stop" href="0097_libiaz.html">0097 Chrzanów Park (1)</a>
+<a class="stop" href="0098_libiaz.html">0098 Chrzanów Kąty Bloki (1)</a>
+<a class="stop" href="0099_libiaz.html">0099 Chrzanów Kąty Kościół (1)</a>
+<a class="stop" href="0100_libiaz.html">0100 Chrzanów Kąty Osiedle Malarzy (1)</a>
+<a class="stop" href="0101_libiaz.html">0101 Chrzanów Kroczymiech (1)</a>
+<a class="stop" href="0102_libiaz.html">0102 Chrzanów Fadom (2)</a>
+<a class="stop" href="0103_libiaz.html">0103 Libiąż Chrzanowska Kamieniec (2)</a>
+<a class="stop" href="0104_libiaz.html">0104 Libiąż Dworzec Autobusowy (1)</a>
+<a class="stop" href="0105_libiaz.html">0105 Libiąż Kopalnia Janina (0)</a>
+</div>
+
+<div class="timetable">
+
+<div class="header">
+<a class="line-button" href="../../linie/1.html">1</a>
+
+<div>
+<a class="stop-name" href="../../przystanki/0046.html">
+<span class="stop-code">0065</span>Miękinia Stawiska (0)
+</a>
+<div class="direction">Kierunek: <strong>Libiąż Kopalnia Janina</strong></div>
+</div>
+
+<a class="map-button" href="https://umap.openstreetmap.fr/pl/map/mapa-kmmz-mhr_1315858#17/50.169869/19.563126" target="_blank">
+<span class="map-icon">🗺️</span>
+Mapa
+</a>
+</div>
+
+<div class="section-title workday">Dni robocze</div>
+<div class="times">
+<div class="time">04:37<sup>V</sup></div>
+<div class="time">06:20<sup>M</sup></div>
+<div class="time">07:30</div>
+<div class="time">09:30<sup>M</sup></div>
+<div class="time">10:38</div>
+<div class="time">12:18<sup>V</sup></div>
+<div class="time">13:57<sup>M</sup></div>
+<div class="time">15:40</div>
+<div class="time">16:23<sup>M</sup></div>
+<div class="time">18:51<sup>C</sup></div>
+<div class="time">19:43<sup>V</sup></div>
+<div class="time">22:00<sup>V</sup></div>
+</div>
+
+<div class="section-title saturday">Soboty</div>
+<div class="times">
+<div class="time">04:43<sup>M</sup></div>
+<div class="time">08:28</div>
+<div class="time">10:47</div>
+<div class="time">13:22<sup>M</sup></div>
+<div class="time">16:59</div>
+<div class="time">19:26<sup>M</sup></div>
+<div class="time">22:17</div>
+</div>
+
+<div class="section-title sunday">Niedziele</div>
+<div class="no-service">Nie kursuje</div>
+
+<div class="section-title holiday">Święta</div>
+<div class="no-service">Nie kursuje</div>
+
+<div class="legend">
+<div class="legend-title">Legenda</div>
+<div class="legend-row"><span class="symbol">C</span> - do: Chrzanów Dworzec Autobusowy</div>
+<div class="legend-row"><span class="symbol">M</span> - przez: Młoszowa Wzgórze II</div>
+<div class="legend-row"><span class="symbol">V</span> - przez: Chrzanów Valeo, z pominięciem: Trzebinia Berezka</div>
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
