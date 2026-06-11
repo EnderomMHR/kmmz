@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KMMZ | Linia 1 | 0105 Libiąż Kopalnia Janina</title>
+
+<style>
+*{box-sizing:border-box}
+
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:linear-gradient(135deg,#005bbb,#009966);
+    padding:20px;
+}
+
+.page{
+    max-width:1400px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:330px 1fr;
+    gap:20px;
+}
+
+.panel, .timetable{
+    background:white;
+    border-radius:16px;
+    box-shadow:0 8px 25px rgba(0,0,0,.22);
+}
+
+.panel{
+    padding:15px;
+}
+
+.back{
+    display:block;
+    margin-bottom:15px;
+    color:#005bbb;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+.route-title{
+    text-align:center;
+    padding:12px;
+    background:#f5c400;
+    font-weight:bold;
+    border-radius:10px 10px 0 0;
+}
+
+.route-subtitle{
+    text-align:center;
+    background:#009966;
+    color:white;
+    padding:8px;
+    font-weight:bold;
+}
+
+.stop{
+    display:block;
+    padding:5px 8px;
+    border-bottom:1px dashed #ccc;
+    color:#222;
+    text-decoration:none;
+    font-size:12px;
+}
+
+.stop:hover{
+    background:#eef5ff;
+    color:#005bbb;
+}
+
+.current-stop{
+    background:#fff3c4;
+    font-weight:bold;
+    font-size:12px;
+}
+
+.variant{
+    margin-left:25px;
+    font-style:italic;
+}
+
+.timetable{
+    padding:20px;
+}
+
+.header{
+    display:grid;
+    grid-template-columns:110px 1fr 90px;
+    gap:20px;
+    align-items:center;
+    margin-bottom:25px;
+}
+
+.line-button{
+    background:#f5c400;
+    color:#222;
+    font-size:36px;
+    font-weight:bold;
+    text-align:center;
+    padding:14px;
+    border-radius:12px;
+    text-decoration:none;
+}
+
+.stop-name{
+    font-size:21px;
+    font-weight:bold;
+    color:#005bbb;
+    text-decoration:none;
+}
+
+.stop-code{
+    background:#dcecff;
+    color:#005bbb;
+    padding:6px 10px;
+    border-radius:6px;
+    font-weight:bold;
+    margin-right:8px;
+    font-size:14px;
+}
+
+.direction{
+    margin-top:10px;
+    font-size:15px;
+}
+
+.map-button{
+    text-decoration:none;
+    background:#eaf4ff;
+    border:2px solid #005bbb;
+    color:#005bbb;
+    border-radius:12px;
+    font-size:13px;
+    padding:9px;
+    text-align:center;
+    font-weight:bold;
+}
+
+.map-icon{
+    font-size:26px;
+    display:block;
+}
+
+.section-title{
+    margin-top:14px;
+    padding:7px 10px;
+    font-weight:bold;
+    border-radius:6px;
+    font-size:14px;
+}
+
+.workday{background:#eaf4ff;}
+.saturday{background:#eef7df;}
+.sunday{background:#ffe5e5;}
+.holiday{background:#fff3c4;}
+
+.times{
+    display:grid;
+    grid-template-columns:repeat(8,1fr);
+    gap:0;
+    padding:6px 0 12px 0;
+    border-bottom:1px dashed #ccc;
+}
+
+.time{
+    text-align:center;
+    padding:5px;
+    font-size:14px;
+}
+
+.no-service{
+    padding:9px;
+    color:#777;
+    font-style:italic;
+    font-size:14px;
+}
+
+.legend{
+    margin-top:30px;
+    border:2px solid #ccc;
+    border-radius:14px;
+    overflow:hidden;
+}
+
+.legend-title{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    padding:12px;
+    background:linear-gradient(90deg,#f5c400,#005bbb,#009966);
+    font-size:17px;
+}
+
+.legend-row{
+    padding:8px 15px;
+    border-bottom:1px dashed #ccc;
+}
+
+.legend-row:last-child{
+    border-bottom:none;
+}
+
+.symbol{
+    color:#005bbb;
+    font-weight:bold;
+    display:inline-block;
+    width:35px;
+}
+
+@media(max-width:900px){
+    .page{
+        grid-template-columns:1fr;
+    }
+
+    .header{
+        grid-template-columns:1fr;
+        text-align:center;
+    }
+
+    .times{
+        grid-template-columns:repeat(3,1fr);
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="page">
+
+<div class="panel">
+<a class="back" href="../../linie/1.html">← Powrót do trasy linii 1</a>
+
+<div class="route-title">Kierunek: Libiąż Kopalnia Janina</div>
+<div class="route-subtitle">Trasa przejazdu od tego przystanku</div>
+
+<a class="stop current-stop" href="0105_miekinia.html">0105 Libiąż Kopalnia Janina (0)</a>
+<a class="stop" href="../rozklady/1/0107_miekinia.html">0107 Libiąż Dworzec Autobusowy (2)</a>
+<a class="stop" href="../rozklady/1/0108_miekinia.html">0108 Libiąż Chrzanowska Kamieniec (1)</a>
+<a class="stop" href="../rozklady/1/0109_miekinia.html">0109 Chrzanów Fadom (1)</a>
+<a class="stop" href="../rozklady/1/0110_miekinia.html">0110 Chrzanów Kroczymiech (2)</a>
+<a class="stop" href="../rozklady/1/0111_miekinia.html">0111 Chrzanów Kąty Osiedle Malarzy (2)</a>
+<a class="stop" href="../rozklady/1/0112_miekinia.html">0112 Chrzanów Kąty Kościół (2)</a>
+<a class="stop" href="../rozklady/1/0113_miekinia.html">0113 Chrzanów Kąty Bloki (2)</a>
+<a class="stop" href="../rozklady/1/0114_miekinia.html">0114 Chrzanów Księdza Skorupki (0)</a>
+<a class="stop" href="../rozklady/1/0115_miekinia.html">0115 Chrzanów Plac Tysiąclecia (2)</a>
+<a class="stop" href="../rozklady/1/0116_miekinia.html">0116 Chrzanów Dworzec Autobusowy (1)</a>
+<a class="stop" href="../rozklady/1/0117_miekinia.html">0117 Chrzanów Szpitalna (3)</a>
+<a class="stop" href="../rozklady/1/0118_miekinia.html">0118 Chrzanów Szpital (1)</a>
+<a class="stop variant" href="../rozklady/1/0119_miekinia.html">0119 Chrzanów Valeo (1)</a>
+<a class="stop" href="../rozklady/1/0120_miekinia.html">0120 Trzebinia Berezka (1)</a>
+<a class="stop" href="../rozklady/1/0121_miekinia.html">0121 Trzebinia Długa (2)</a>
+<a class="stop" href="../rozklady/1/0122_miekinia.html">0122 Trzebinia Dworzec PKP (2)</a>
+<a class="stop" href="../rozklady/1/0123_miekinia.html">0123 Trzebinia Krakowska (0)</a>
+<a class="stop" href="../rozklady/1/0124_miekinia.html">0124 Trzebinia Szkoła (2)</a>
+<a class="stop variant" href="../rozklady/1/0078_miekinia.html">0078 Młoszowa Florkiewicza (0)</a>
+<a class="stop variant" href="../rozklady/1/0079_miekinia.html">0079 Młoszowa Studium (1)</a>
+<a class="stop variant" href="../rozklady/1/0080_miekinia.html"><span class="stop-id">0080</span>Młoszowa Wzgórze I (2)</a>
+<a class="stop variant" href="../rozklady/1/0081_miekinia.html"><span class="stop-id">0081</span>Młoszowa Wzgórze na żądanie (2)</a>
+<a class="stop variant" href="../rozklady/1/0082_miekinia.html"><span class="stop-id">0082</span>Młoszowa Wzgórze II (2)</a>
+<a class="stop variant" href="../rozklady/1/0083_miekinia.html"><span class="stop-id">0083</span>Młoszowa Wzgórze na żądanie (1)</a>
+<a class="stop variant" href="../rozklady/1/0084_miekinia.html"><span class="stop-id">0084</span>Młoszowa Wzgórze I (1)</a>
+<a class="stop variant" href="../rozklady/1/0085_miekinia.html"><span class="stop-id">0085</span>Młoszowa Studium (2)</a>
+<a class="stop" href="../rozklady/1/0125_miekinia.html"><span class="stop-id">0125</span>Młoszowa (2)</a>
+<a class="stop" href="../rozklady/1/0126_miekinia.html"><span class="stop-id">0126</span>Młoszowa Leśniczówka (1)</a>
+<a class="stop" href="../rozklady/1/0127_miekinia.html"><span class="stop-id">0127</span>Dulowa (1)</a>
+<a class="stop" href="../rozklady/1/0128_miekinia.html"><span class="stop-id">0128</span>Dulowa Sklep (2)</a>
+<a class="stop" href="../rozklady/1/0129_miekinia.html"><span class="stop-id">0129</span>Wola Filipowska Białka (2)</a>
+<a class="stop" href="../rozklady/1/0057_miekinia.html"><span class="stop-id">0057</span>Filipowice Blych (2)</a>
+<a class="stop" href="../rozklady/1/0058_miekinia.html"><span class="stop-id">0058</span>Filipowice Sklep (2)</a>
+<a class="stop" href="../rozklady/1/0059_miekinia.html"><span class="stop-id">0059</span>Filipowice Palikówka (2)</a>
+<a class="stop" href="../rozklady/1/0060_miekinia.html"><span class="stop-id">0060</span>Filipowice Skała (2)</a>
+<a class="stop" href="../rozklady/1/0061_miekinia.html"><span class="stop-id">0061</span>Filipowice Szkoła (2)</a>
+<a class="stop" href="../rozklady/1/0062_miekinia.html"><span class="stop-id">0062</span>Filipowice Kościół (2)</a>
+<a class="stop" href="../rozklady/1/0063_miekinia.html"><span class="stop-id">0063</span>Filipowice Transformator (2)</a>
+<a class="stop" href="../rozklady/1/0064_miekinia.html"><span class="stop-id">0064</span>Filipowice Wzgórze (2)</a>
+<a class="stop" href="../rozklady/1/0065_miekinia.html"><span class="stop-id">0065</span>Miękinia Stawiska (0)</a>
+<a class="stop variant" href="../rozklady/1/0066_miekinia.html"><span class="stop-id">0066</span>Filipowice Wzgórze (1)</a>
+<a class="stop variant" href="../rozklady/1/0067_miekinia.html"><span class="stop-id">0067</span>Filipowice Transformator (1)</a>
+<a class="stop variant" href="../rozklady/1/0068_miekinia.html"><span class="stop-id">0068</span>Filipowice Kościół (1)</a>
+<a class="stop variant" href="../rozklady/1/0069_miekinia.html"><span class="stop-id">0069</span>Filipowice Szkoła (1)</a>
+<a class="stop variant" href="../rozklady/1/0070_miekinia.html"><span class="stop-id">0070</span>Filipowice Skała (1)</a>
+<a class="stop variant" href="../rozklady/1/0071_miekinia.html"><span class="stop-id">0071</span>Filipowice Palikówka (1)</a>
+<a class="stop variant" href="../rozklady/1/0072_miekinia.html"><span class="stop-id">0072</span>Filipowice Sklep (1)</a>
+<a class="stop variant" href="../rozklady/1/0073_miekinia.html"><span class="stop-id">0073</span>Filipowice Blych (1)</a>
+<a class="stop variant" href="../rozklady/1/0130_miekinia.html"><span class="stop-id">0130</span>Wola Filipowska II (2)</a>
+<a class="stop variant" href="../rozklady/1/0131_miekinia.html"><span class="stop-id">0131</span>Wola Filipowska I (2)</a>
+<a class="stop variant" href="../rozklady/1/0132_miekinia.html"><span class="stop-id">0132</span>Krzeszowice Zielona (1)</a>
+<a class="stop variant" href="../rozklady/1/0133_miekinia.html"><span class="stop-id">0133</span>Krzeszowice Centrum (1)</a>
+<a class="stop variant" href="../rozklady/1/0134_miekinia.html"><span class="stop-id">0134</span>Krzeszowice Dworzec Autobusowy (3)</a>
+<a class="stop variant" href="../rozklady/1/0135_miekinia.html"><span class="stop-id">0135</span>Krzeszowice 3-ego Maja (1)</a>
+<a class="stop variant" href="../rozklady/1/0049_miekinia.html"><span class="stop-id">0049</span>Krzeszowice Aleja Solidarności Szkoła (1)</a>
+<a class="stop variant" href="../rozklady/1/0136_miekinia.html"><span class="stop-id">0136</span>Krzeszowice Aleja Solidarności Przedszkole (2)</a>
+<a class="stop variant" href="../rozklady/1/0137_miekinia.html"><span class="stop-id">0137</span>Krzeszowice Czatkowice EDEN (1)</a>
+<a class="stop variant" href="../rozklady/1/0138_miekinia.html"><span class="stop-id">0138</span>Krzeszowice Czatkowice Dolne Kopalnia (2)</a>
+</div>
+
+<div class="timetable">
+
+<div class="header">
+<a class="line-button" href="../../linie/1.html">1</a>
+
+<div>
+<a class="stop-name" href="../../przystanki/0046.html">
+<span class="stop-code">0105</span>Libiąż Kopalnia Janina (0)
+</a>
+<div class="direction">Kierunek: <strong>Miękinia Stawiska</strong></div>
+</div>
+
+<a class="map-button" href="https://umap.openstreetmap.fr/pl/map/mapa-kmmz-mhr_1315858#17/50.096206/19.329913" target="_blank">
+<span class="map-icon">🗺️</span>
+Mapa
+</a>
+</div>
+
+<div class="section-title workday">Dni robocze</div>
+<div class="times">
+<div class="time">04:07<sup>KMV</sup></div>
+<div class="time">05:50<sup>V</sup></div>
+<div class="time">07:30<sup>K</sup></div>
+<div class="time">08:59<sup>M</sup></div>
+<div class="time">10:40</div>
+<div class="time">11:42<sup>KM</sup></div>
+<div class="time">13:27<sup>KV</sup></div>
+<div class="time">15:10</div>
+<div class="time">16:50<sup>KV</sup></div>
+<div class="time">18:30<sup>M</sup></div>
+<div class="time">20:50<sup>K</sup></div>
+</div>
+
+<div class="section-title saturday">Soboty</div>
+<div class="times">
+<div class="time">06:06<sup>KM</sup></div>
+<div class="time">09:32</div>
+<div class="time">12:07</div>
+<div class="time">14:45<sup>K</sup></div>
+<div class="time">18:02<sup>M</sup></div>
+<div class="time">20:54<sup>M</sup></div>
+</div>
+
+<div class="legend">
+<div class="legend-title">Legenda</div>
+<div class="legend-row"><span class="symbol">K</span> - do: Krzeszowice Czatkowice Dolne Kopalnia</div>
+<div class="legend-row"><span class="symbol">M</span> - przez: Młoszowa Wzgórze II</div>
+<div class="legend-row"><span class="symbol">V</span> - przez: Chrzanów Valeo, z pominięciem: Trzebinia Berezka</div>
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
