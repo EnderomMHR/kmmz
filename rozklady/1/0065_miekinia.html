@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KMMZ | Linia 1 | 0065 Miękinia Stawiska</title>
+
+<style>
+*{box-sizing:border-box}
+
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:linear-gradient(135deg,#005bbb,#009966);
+    padding:20px;
+}
+
+.page{
+    max-width:1400px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:330px 1fr;
+    gap:20px;
+}
+
+.panel, .timetable{
+    background:white;
+    border-radius:16px;
+    box-shadow:0 8px 25px rgba(0,0,0,.22);
+}
+
+.panel{
+    padding:15px;
+}
+
+.back{
+    display:block;
+    margin-bottom:15px;
+    color:#005bbb;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+.route-title{
+    text-align:center;
+    padding:12px;
+    background:#f5c400;
+    font-weight:bold;
+    border-radius:10px 10px 0 0;
+}
+
+.route-subtitle{
+    text-align:center;
+    background:#009966;
+    color:white;
+    padding:8px;
+    font-weight:bold;
+}
+
+.stop{
+    display:block;
+    padding:5px 8px;
+    border-bottom:1px dashed #ccc;
+    color:#222;
+    text-decoration:none;
+    font-size:12px;
+}
+
+.stop:hover{
+    background:#eef5ff;
+    color:#005bbb;
+}
+
+.current-stop{
+    background:#fff3c4;
+    font-weight:bold;
+    font-size:12px;
+}
+
+.variant{
+    margin-left:25px;
+    font-style:italic;
+}
+
+.timetable{
+    padding:20px;
+}
+
+.header{
+    display:grid;
+    grid-template-columns:110px 1fr 90px;
+    gap:20px;
+    align-items:center;
+    margin-bottom:25px;
+}
+
+.line-button{
+    background:#f5c400;
+    color:#222;
+    font-size:36px;
+    font-weight:bold;
+    text-align:center;
+    padding:14px;
+    border-radius:12px;
+    text-decoration:none;
+}
+
+.stop-name{
+    font-size:21px;
+    font-weight:bold;
+    color:#005bbb;
+    text-decoration:none;
+}
+
+.stop-code{
+    background:#dcecff;
+    color:#005bbb;
+    padding:6px 10px;
+    border-radius:6px;
+    font-weight:bold;
+    margin-right:8px;
+    font-size:14px;
+}
+
+.direction{
+    margin-top:10px;
+    font-size:15px;
+}
+
+.map-button{
+    text-decoration:none;
+    background:#eaf4ff;
+    border:2px solid #005bbb;
+    color:#005bbb;
+    border-radius:12px;
+    font-size:13px;
+    padding:9px;
+    text-align:center;
+    font-weight:bold;
+}
+
+.map-icon{
+    font-size:26px;
+    display:block;
+}
+
+.section-title{
+    margin-top:14px;
+    padding:7px 10px;
+    font-weight:bold;
+    border-radius:6px;
+    font-size:14px;
+}
+
+.workday{background:#eaf4ff;}
+.saturday{background:#eef7df;}
+.sunday{background:#ffe5e5;}
+.holiday{background:#fff3c4;}
+
+.times{
+    display:grid;
+    grid-template-columns:repeat(8,1fr);
+    gap:0;
+    padding:6px 0 12px 0;
+    border-bottom:1px dashed #ccc;
+}
+
+.time{
+    text-align:center;
+    padding:5px;
+    font-size:14px;
+}
+
+.no-service{
+    padding:9px;
+    color:#777;
+    font-style:italic;
+    font-size:14px;
+}
+
+.legend{
+    margin-top:30px;
+    border:2px solid #ccc;
+    border-radius:14px;
+    overflow:hidden;
+}
+
+.legend-title{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    padding:12px;
+    background:linear-gradient(90deg,#f5c400,#005bbb,#009966);
+    font-size:17px;
+}
+
+.legend-row{
+    padding:8px 15px;
+    border-bottom:1px dashed #ccc;
+}
+
+.legend-row:last-child{
+    border-bottom:none;
+}
+
+.symbol{
+    color:#005bbb;
+    font-weight:bold;
+    display:inline-block;
+    width:35px;
+}
+
+@media(max-width:900px){
+    .page{
+        grid-template-columns:1fr;
+    }
+
+    .header{
+        grid-template-columns:1fr;
+        text-align:center;
+    }
+
+    .times{
+        grid-template-columns:repeat(3,1fr);
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="page">
+
+<div class="panel">
+<a class="back" href="../../linie/1.html">← Powrót do trasy linii 1</a>
+
+<div class="route-title">Kierunek: Miękinia Stawiska</div>
+<div class="route-subtitle">Trasa przejazdu od tego przystanku</div>
+
+<a class="stop current-stop" href="0065_miekinia.html">0065 Miękinia Stawiska (0)</a>
+<a class="stop" href="0066_miekinia.html">0066 Filipowice Wzgórze (1)</a>
+<a class="stop" href="0067_miekinia.html">0067 Filipowice Transformator (1)</a>
+<a class="stop" href="0068_miekinia.html">0068 Filipowice Kościół (1)</a>
+<a class="stop" href="0069_miekinia.html">0069 Filipowice Szkoła (1)</a>
+<a class="stop" href="0070_miekinia.html">0070 Filipowice Skała (1)</a>
+<a class="stop" href="0071_miekinia.html">0071 Filipowice Palikówka (1)</a>
+<a class="stop" href="0072_miekinia.html">0072 Filipowice Sklep (1)</a>
+<a class="stop" href="0073_miekinia.html">0073 Filipowice Blych (1)</a>
+<a class="stop" href="0130_miekinia.html">0130 Wola Filipowska II (2)</a>
+<a class="stop" href="0131_miekinia.html">0131 Wola Filipowska I (2)</a>
+<a class="stop" href="0132_miekinia.html">0132 Krzeszowice Zielona (1)</a>
+<a class="stop" href="0133_miekinia.html">0133 Krzeszowice Centrum (1)</a>
+<a class="stop" href="0134_miekinia.html">0134 Krzeszowice Dworzec Autobusowy (3)</a>
+<a class="stop" href="0135_miekinia.html">0135 Krzeszowice 3-ego Maja (1)</a>
+<a class="stop" href="0049_miekinia.html">0049 Krzeszowice Aleja Solidarności Szkoła (1)</a>
+<a class="stop" href="0136_miekinia.html">0136 Krzeszowice Aleja Solidarności Przedszkole (2)</a>
+<a class="stop" href="0137_miekinia.html">0137 Krzeszowice Czatkowice EDEN (1)</a>
+<a class="stop" href="0138_miekinia.html">0138 Krzeszowice Czatkowice Dolne Kopalnia (2)</a>
+</div>
+
+<div class="timetable">
+
+<div class="header">
+<a class="line-button" href="../../linie/1.html">1</a>
+
+<div>
+<a class="stop-name" href="../../przystanki/0065.html">
+<span class="stop-code">0065</span>Miękinia Stawiska (0)
+</a>
+<div class="direction">Kierunek: <strong>Miękinia Stawiska</strong></div>
+</div>
+
+<a class="map-button" href="https://umap.openstreetmap.fr/pl/map/mapa-kmmz-mhr_1315858#17/50.170137/19.563169" target="_blank">
+<span class="map-icon">🗺️</span>
+Mapa
+</a>
+</div>
+
+<div class="section-title workday">Dni robocze</div>
+<div class="times">
+<div class="time">05:16</div>
+<div class="time">08:30</div>
+<div class="time">12:50</div>
+<div class="time">14:28</div>
+<div class="time">17:51</div>
+<div class="time">20:34</div>
+<div class="time">21:50</div>
+</div>
+
+<div class="section-title saturday">Soboty</div>
+<div class="times">
+<div class="time">07:14</div>
+<div class="time">15:45</div>
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
