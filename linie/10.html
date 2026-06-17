@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 10</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-bukowno{
+    background:#93c47d;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">10</div>
+
+<div class="route">
+Bukowno Dworzec PKP - Bukowno Bór Biskupi Pętla - Bukowno Przymiarki - Bukowno Dworzec PKP
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Bukowno Dworzec PKP</h2>
+
+<div class="zone zone-bukowno">STREFA BUKOWNO</div>
+  
+<a class="stop" href="../10/0147-okrezna-1.html"><span class="stop-id">0147</span>Bukowno Dworzec PKP (0)</a>
+<a class="stop" href="../10/0148-okrezna-1.html"><span class="stop-id">0148</span>Bukowno Urząd Miasta (1)</a>
+<a class="stop" href="../10/0724-okrezna-1.html"><span class="stop-id">0724</span>Bukowno Leśna (1)</a>
+<a class="stop" href="../10/0725-okrezna-1.html"><span class="stop-id">0725</span>Bukowno Leśna Krzyżówka (2)</a>
+<a class="stop" href="../10/0726-okrezna-1.html"><span class="stop-id">0726</span>Bukowno Leśna Pętla (0)</a>
+<a class="stop" href="../10/0727-okrezna-1.html"><span class="stop-id">0727</span>Bukowno Stadion (1)</a>
+<a class="stop" href="../10/0728-okrezna-1.html"><span class="stop-id">0728</span>Bukowno Park (2)</a>
+<a class="stop" href="../10/0729-okrezna-1.html"><span class="stop-id">0729</span>Bukowno Tunel (1)</a>
+<a class="stop" href="../10/0730-okrezna-1.html"><span class="stop-id">0730</span>Bukowno Kościół (1)</a>
+<a class="stop" href="../10/0731-okrezna-1.html"><span class="stop-id">0731</span>Bukowno Skrzyżowanie (2)</a>
+<a class="stop" href="../10/0732-okrezna-1.html"><span class="stop-id">0732</span>Bukowno Borowska (1)</a>
+<a class="stop" href="../10/0733-okrezna-1.html"><span class="stop-id">0733</span>Bukowno Bór Biskupi Przeń (2)</a>
+<a class="stop" href="../10/0734-okrezna-1.html"><span class="stop-id">0734</span>Bukowno Bór Biskupi (1)</a>
+<a class="stop" href="../10/0735-okrezna-1.html"><span class="stop-id">0735</span>Bukowno Bór Biskupi OSP (0)</a>
+<a class="stop" href="../10/0736-okrezna-1.html"><span class="stop-id">0736</span>Bukowno Bór Biskupi Pętla (0)</a>
+<a class="stop" href="../10/0737-okrezna-1.html"><span class="stop-id">0737</span>Bukowno Bór Biskupi (2)</a>
+<a class="stop" href="../10/0738-okrezna-1.html"><span class="stop-id">0738</span>Bukowno Bór Biskupi Przeń (1)</a>
+<a class="stop" href="../10/0739-okrezna-1.html"><span class="stop-id">0739</span>Bukowno Borowska (2)</a>
+<a class="stop" href="../10/0252-okrezna-1.html"><span class="stop-id">0252</span>Bukowno Cmentarz (1)</a>
+<a class="stop" href="../10/0253-okrezna-1.html"><span class="stop-id">0253</span>Bukowno Remiza (0)</a>
+<a class="stop" href="../10/0254-okrezna-1.html"><span class="stop-id">0254</span>Bukowno Skotnica (1)</a>
+<a class="stop" href="../10/0255-okrezna-1.html"><span class="stop-id">0255</span>Bukowno Sklep (1)</a>
+<a class="stop" href="../10/0256-okrezna-1.html"><span class="stop-id">0256</span>Bukowno Przymiarki PKP (1)</a>
+<a class="stop" href="../10/0106-okrezna-1.html"><span class="stop-id">0106</span>Bukowno Przymiarki (0)</a>
+<a class="stop" href="../10/0139-okrezna-1.html"><span class="stop-id">0139</span>Bukowno Przymiarki PKP (2)</a>
+<a class="stop" href="../10/0140-okrezna-1.html"><span class="stop-id">0140</span>Bukowno Sklep (2)</a>
+<a class="stop" href="../10/0141-okrezna-1.html"><span class="stop-id">0141</span>Bukowno Skotnica (2)</a>
+<a class="stop" href="../10/0142-okrezna-1.html"><span class="stop-id">0142</span>Bukowno Stare Skrzyżowanie (0)</a>
+<a class="stop" href="../10/0143-okrezna-1.html"><span class="stop-id">0143</span>Bukowno Cmentarz (2)</a>
+<a class="stop" href="../10/0144-okrezna-1.html"><span class="stop-id">0144</span>Bukowno Nowa OSP (1)</a>
+<a class="stop" href="../10/0145-okrezna-1.html"><span class="stop-id">0145</span>Bukowno Nowa (2)</a>
+<a class="stop" href="../10/0146-okrezna-1.html"><span class="stop-id">0146</span>Bukowno Urząd Miasta (2)</a>
+<a class="stop" href="../10/0147-okrezna-1.html"><span class="stop-id">0147</span>Bukowno Dworzec PKP (0)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Bukowno Dworzec PKP</h2>
+
+<div class="zone zone-bukowno">STREFA BUKOWNO</div>
+  
+<a class="stop" href="../10/0147-okrezna-2.html"><span class="stop-id">0147</span>Bukowno Dworzec PKP (0)</a>
+<a class="stop" href="../10/0148-okrezna-2.html"><span class="stop-id">0148</span>Bukowno Urząd Miasta (1)</a>
+<a class="stop" href="../10/0252-okrezna-2.html"><span class="stop-id">0252</span>Bukowno Cmentarz (1)</a>
+<a class="stop" href="../10/0253-okrezna-2.html"><span class="stop-id">0253</span>Bukowno Remiza (0)</a>
+<a class="stop" href="../10/0254-okrezna-2.html"><span class="stop-id">0254</span>Bukowno Skotnica (1)</a>
+<a class="stop" href="../10/0255-okrezna-2.html"><span class="stop-id">0255</span>Bukowno Sklep (1)</a>
+<a class="stop" href="../10/0256-okrezna-2.html"><span class="stop-id">0256</span>Bukowno Przymiarki PKP (1)</a>
+<a class="stop" href="../10/0106-okrezna-2.html"><span class="stop-id">0106</span>Bukowno Przymiarki (0)</a>
+<a class="stop" href="../10/0139-okrezna-2.html"><span class="stop-id">0139</span>Bukowno Przymiarki PKP (2)</a>
+<a class="stop" href="../10/0140-okrezna-2.html"><span class="stop-id">0140</span>Bukowno Sklep (2)</a>
+<a class="stop" href="../10/0141-okrezna-2.html"><span class="stop-id">0141</span>Bukowno Skotnica (2)</a>
+<a class="stop" href="../10/0142-okrezna-2.html"><span class="stop-id">0142</span>Bukowno Stare Skrzyżowanie (0)</a>
+<a class="stop" href="../10/0143-okrezna-2.html"><span class="stop-id">0143</span>Bukowno Cmentarz (2)</a>
+<a class="stop" href="../10/0732-okrezna-2.html"><span class="stop-id">0732</span>Bukowno Borowska (1)</a>
+<a class="stop" href="../10/0733-okrezna-2.html"><span class="stop-id">0733</span>Bukowno Bór Biskupi Przeń (2)</a>
+<a class="stop" href="../10/0734-okrezna-2.html"><span class="stop-id">0734</span>Bukowno Bór Biskupi (1)</a>
+<a class="stop" href="../10/0735-okrezna-2.html"><span class="stop-id">0735</span>Bukowno Bór Biskupi OSP (0)</a>
+<a class="stop" href="../10/0736-okrezna-2.html"><span class="stop-id">0736</span>Bukowno Bór Biskupi Pętla (0)</a>
+<a class="stop" href="../10/0737-okrezna-2.html"><span class="stop-id">0737</span>Bukowno Bór Biskupi (2)</a>
+<a class="stop" href="../10/0738-okrezna-2.html"><span class="stop-id">0738</span>Bukowno Bór Biskupi Przeń (1)</a>
+<a class="stop" href="../10/0739-okrezna-2.html"><span class="stop-id">0739</span>Bukowno Borowska (2)</a>
+<a class="stop" href="../10/0740-okrezna-2.html"><span class="stop-id">0740</span>Bukowno Skrzyżowanie (1)</a>
+<a class="stop" href="../10/0741-okrezna-2.html"><span class="stop-id">0741</span>Bukowno Kościół (2)</a>
+<a class="stop" href="../10/0742-okrezna-2.html"><span class="stop-id">0742</span>Bukowno Tunel (2)</a>
+<a class="stop" href="../10/0743-okrezna-2.html"><span class="stop-id">0743</span>Bukowno Park (1)</a>
+<a class="stop" href="../10/0744-okrezna-2.html"><span class="stop-id">0744</span>Bukowno Stadion (2)</a>
+<a class="stop" href="../10/0726-okrezna-2.html"><span class="stop-id">0726</span>Bukowno Leśna Pętla (0)</a>
+<a class="stop" href="../10/0745-okrezna-2.html"><span class="stop-id">0745</span>Bukowno Leśna Krzyżówka (1)</a>
+<a class="stop" href="../10/0746-okrezna-2.html"><span class="stop-id">0746</span>Bukowno Leśna (2)</a>
+<a class="stop" href="../10/0146-okrezna-2.html"><span class="stop-id">0146</span>Bukowno Urząd Miasta (2)</a>
+<a class="stop" href="../10/0147-okrezna-2.html"><span class="stop-id">0147</span>Bukowno Dworzec PKP (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
