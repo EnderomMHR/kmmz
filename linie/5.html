@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 5</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-slawkow{
+    background:#af00ff;
+    color:#222;
+}
+
+.zone-boleslaw{
+    background:#cccccc;
+    color:#222;
+}
+
+.zone-olkusz{
+    background:#ffe599;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">5</div>
+
+<div class="route">
+Sławków Dębowa Góra - Krzykawka - Krzykawa - Małobądz - Ujków Nowy - Krze - Bolesław - Olkusz Dworzec PKS
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Olkusz Dworzec PKS</h2>
+
+<div class="zone zone-slawkow">STREFA SŁAWKÓW</div>
+  
+<a class="stop" href="../rozklady/5/0439-olkusz.html"><span class="stop-id">0439</span>Sławków Dębowa Góra (1)</a>
+<a class="stop" href="../rozklady/5/0440-olkusz.html"><span class="stop-id">0440</span>Sławków Dębowa Góra Stawki (1)</a>
+<a class="stop" href="../rozklady/5/0441-olkusz.html"><span class="stop-id">0441</span>Sławków Stawki (1)</a>
+<a class="stop" href="../rozklady/5/0442-olkusz.html"><span class="stop-id">0442</span>Sławków Korzenna (1)</a>
+<a class="stop" href="../rozklady/5/0443-olkusz.html"><span class="stop-id">0443</span>Sławków Owocowa (2)</a>
+<a class="stop" href="../rozklady/5/0444-olkusz.html"><span class="stop-id">0444</span>Sławków Kolejowa (2)</a>
+<a class="stop" href="../rozklady/5/0445-olkusz.html"><span class="stop-id">0445</span>Sławków Dworzec PKP (2)</a>
+<a class="stop" href="../rozklady/5/0446-olkusz.html"><span class="stop-id">0446</span>Sławków Poczta (2)</a>
+<a class="stop" href="../rozklady/5/0447-olkusz.html"><span class="stop-id">0447</span>Sławków Rynek (2)</a>
+<a class="stop" href="../rozklady/5/0448-olkusz.html"><span class="stop-id">0448</span>Sławków Olkuska (2)</a>
+<a class="stop" href="../rozklady/5/0449-olkusz.html"><span class="stop-id">0449</span>Sławków ZWM (2)</a>
+<a class="stop" href="../rozklady/5/0450-olkusz.html"><span class="stop-id">0450</span>Sławków Chwaliboskie (2)</a>
+
+<div class="zone zone-boleslaw">STREFA BOLESŁAW</div>
+  
+<a class="stop" href="../rozklady/5/0451-olkusz.html"><span class="stop-id">0451</span>Krzykawka Wąwóz (1)</a>
+<a class="stop" href="../rozklady/5/0452-olkusz.html"><span class="stop-id">0452</span>Krzykawka Słoneczna (2)</a>
+<a class="stop" href="../rozklady/5/0453-olkusz.html"><span class="stop-id">0453</span>Krzykawka Dworek (1)</a>
+<a class="stop" href="../rozklady/5/0454-olkusz.html"><span class="stop-id">0454</span>Krzykawa Nullo (2)</a>
+<a class="stop" href="../rozklady/5/0455-olkusz.html"><span class="stop-id">0455</span>Krzykawa Szkoła (2)</a>
+<a class="stop" href="../rozklady/5/0456-olkusz.html"><span class="stop-id">0456</span>Małobądz DINO (1)</a>
+<a class="stop" href="../rozklady/5/0457-olkusz.html"><span class="stop-id">0457</span>Małobądz (2)</a>
+<a class="stop" href="../rozklady/5/0458-olkusz.html"><span class="stop-id">0458</span>Ujków Nowy Górna (2)</a>
+<a class="stop" href="../rozklady/5/0459-olkusz.html"><span class="stop-id">0459</span>Ujków Nowy Sklep (1)</a>
+<a class="stop" href="../rozklady/5/0460-olkusz.html"><span class="stop-id">0460</span>Krze Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/5/0461-olkusz.html"><span class="stop-id">0461</span>Krze Plac Rekreacyjny (2)</a>
+<a class="stop" href="../rozklady/5/0462-olkusz.html"><span class="stop-id">0462</span>Ujków Nowy Krze (1)</a>
+<a class="stop" href="../rozklady/5/0463-olkusz.html"><span class="stop-id">0463</span>Bolesław Ponikowska (2)</a>
+<a class="stop" href="../rozklady/5/0464-olkusz.html"><span class="stop-id">0464</span>Bolesław Wyzwolenia Bida (1)</a>
+<a class="stop" href="../rozklady/5/0465-olkusz.html"><span class="stop-id">0465</span>Bolesław Wyzwolenia Biedronka (2)</a>
+<a class="stop" href="../rozklady/5/0164-olkusz.html"><span class="stop-id">0164</span>Bolesław Remiza (2)</a>
+<a class="stop" href="../rozklady/5/0165-olkusz.html"><span class="stop-id">0165</span>Bolesław Dąbrówka (1)</a>
+<a class="stop" href="../rozklady/5/0171-olkusz.html"><span class="stop-id">0171</span>Bolesław Osadowa (2)</a>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+  
+<a class="stop" href="../rozklady/5/0172-olkusz.html"><span class="stop-id">0172</span>Olkusz Stary (2)</a>
+<a class="stop" href="../rozklady/5/0173-olkusz.html"><span class="stop-id">0173</span>Olkusz Stacja Paliw (1)</a>
+<a class="stop" href="../rozklady/5/0435-olkusz.html"><span class="stop-id">0435</span>Olkusz Supersam (1)</a>
+<a class="stop" href="../rozklady/5/0415-olkusz.html"><span class="stop-id">0415</span>Olkusz Słowiki (2)</a>
+<a class="stop" href="../rozklady/5/0226-olkusz.html"><span class="stop-id">0226</span>Olkusz Wiadukt (2)</a>
+<a class="stop" href="../rozklady/5/0200-olkusz.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Sławków Dębowa Góra</h2>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+  
+<a class="stop" href="../rozklady/5/0200-slawkow.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
+<a class="stop" href="../rozklady/5/0202-slawkow.html"><span class="stop-id">0202</span>Olkusz Wiadukt (1)</a>
+<a class="stop" href="../rozklady/5/0433-slawkow.html"><span class="stop-id">0433</span>Olkusz Słowiki (1)</a>
+<a class="stop" href="../rozklady/5/0238-slawkow.html"><span class="stop-id">0238</span>Olkusz Supersam (2)</a>
+<a class="stop" href="../rozklady/5/0239-slawkow.html"><span class="stop-id">0239</span>Olkusz Stacja Paliw (2)</a>
+<a class="stop" href="../rozklady/5/0240-slawkow.html"><span class="stop-id">0240</span>Olkusz Stary (1)</a>
+
+<div class="zone zone-boleslaw">STREFA BOLESŁAW</div>
+  
+<a class="stop" href="../rozklady/5/0241-slawkow.html"><span class="stop-id">0241</span>Bolesław Osadowa (1)</a>
+<a class="stop" href="../rozklady/5/0242-slawkow.html"><span class="stop-id">0242</span>Bolesław Dąbrówka (2)</a>
+<a class="stop" href="../rozklady/5/0156-slawkow.html"><span class="stop-id">0156</span>Bolesław Remiza (1)</a>
+<a class="stop" href="../rozklady/5/0466-slawkow.html"><span class="stop-id">0466</span>Bolesław Wyzwolenia Biedronka (1)</a>
+<a class="stop" href="../rozklady/5/0467-slawkow.html"><span class="stop-id">0467</span>Bolesław Wyzwolenia Bida (2)</a>
+<a class="stop" href="../rozklady/5/0468-slawkow.html"><span class="stop-id">0468</span>Bolesław Ponikowska (1)</a>
+<a class="stop" href="../rozklady/5/0469-slawkow.html"><span class="stop-id">0469</span>Kolonia Laski (1)</a>
+<a class="stop" href="../rozklady/5/0470-slawkow.html"><span class="stop-id">0470</span>Krze (1)</a>
+<a class="stop" href="../rozklady/5/0471-slawkow.html"><span class="stop-id">0471</span>Krze Plac Rekreacyjny (1)</a>
+<a class="stop" href="../rozklady/5/0472-slawkow.html"><span class="stop-id">0472</span>Krze Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/5/0473-slawkow.html"><span class="stop-id">0473</span>Ujków Nowy Sklep (2)</a>
+<a class="stop" href="../rozklady/5/0474-slawkow.html"><span class="stop-id">0474</span>Ujków Nowy Górna (1)</a>
+<a class="stop" href="../rozklady/5/0475-slawkow.html"><span class="stop-id">0475</span>Małobądz (1)</a>
+<a class="stop" href="../rozklady/5/0476-slawkow.html"><span class="stop-id">0476</span>Małobądz DINO (2)</a>
+<a class="stop" href="../rozklady/5/0477-slawkow.html"><span class="stop-id">0477</span>Krzykawa Szkoła (1)</a>
+<a class="stop" href="../rozklady/5/0478-slawkow.html"><span class="stop-id">0478</span>Krzykawa Nullo (1)</a>
+<a class="stop" href="../rozklady/5/0479-slawkow.html"><span class="stop-id">0479</span>Krzykawka Dworek (2)</a>
+<a class="stop" href="../rozklady/5/0480-slawkow.html"><span class="stop-id">0480</span>Krzykawka Słoneczna (1)</a>
+<a class="stop" href="../rozklady/5/0481-slawkow.html"><span class="stop-id">0481</span>Krzykawka Wąwóz (2)</a>
+
+<div class="zone zone-slawkow">STREFA SŁAWKÓW</div>
+  
+<a class="stop" href="../rozklady/5/0482-slawkow.html"><span class="stop-id">0482</span>Sławków Chwaliboskie (1)</a>
+<a class="stop" href="../rozklady/5/0483-slawkow.html"><span class="stop-id">0483</span>Sławków ZWM (1)</a>
+<a class="stop" href="../rozklady/5/0484-slawkow.html"><span class="stop-id">0484</span>Sławków Olkuska (1)</a>
+<a class="stop" href="../rozklady/5/0485-slawkow.html"><span class="stop-id">0485</span>Sławków Rynek (1)</a>
+<a class="stop" href="../rozklady/5/0486-slawkow.html"><span class="stop-id">0486</span>Sławków Poczta (1)</a>
+<a class="stop" href="../rozklady/5/0487-slawkow.html"><span class="stop-id">0487</span>Sławków Dworzec PKP (1)</a>
+<a class="stop" href="../rozklady/5/0488-slawkow.html"><span class="stop-id">0488</span>Sławków Kolejowa (1)</a>
+<a class="stop" href="../rozklady/5/0489-slawkow.html"><span class="stop-id">0489</span>Sławków Owocowa (1)</a>
+<a class="stop" href="../rozklady/5/0490-slawkow.html"><span class="stop-id">0490</span>Sławków Korzenna (2)</a>
+<a class="stop" href="../rozklady/5/0491-slawkow.html"><span class="stop-id">0491</span>Sławków Stawki (2)</a>
+<a class="stop" href="../rozklady/5/0439-slawkow.html"><span class="stop-id">0439</span>Sławków Dębowa Góra (1)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
