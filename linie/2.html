@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 2</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-bukowno{
+    background:#93c47d;
+    color:#222;
+}
+
+.zone-boleslaw{
+    background:#cccccc;
+    color:#222;
+}
+
+.zone-olkusz{
+    background:#ffe599;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">2</div>
+
+<div class="route">
+(Bukowno Przymiarki) - (Bukowno Dworzec PKP) - (Krążek) - (Bolesław) - (Kolonia) - Laski Pętla - Kolonia - Bolesław - (Hutki) - Olkusz - Żurada - Olkusz Dworzec PKS - Sieniczno - Wiśliczka - Kosmolów - Zadole Kosmolowskie Pętla
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Zadole Kosmolowskie Pętla</h2>
+
+<div class="zone zone-bukowno">STREFA BUKOWNO</div>
+
+<a class="stop variant" href="../rozklady/2/0106-zadole.html"><span class="stop-id">0106</span>Bukowno Przymiarki (0)</a>
+<a class="stop variant" href="../rozklady/2/0139-zadole.html"><span class="stop-id">0139</span>Bukowno Przymiarki PKP (2)</a>
+<a class="stop variant" href="../rozklady/2/0140-zadole.html"><span class="stop-id">0140</span>Bukowno Sklep (2)</a>
+<a class="stop variant" href="../rozklady/2/0141-zadole.html"><span class="stop-id">0141</span>Bukowno Skotnica (2)</a>
+<a class="stop variant" href="../rozklady/2/0142-zadole.html"><span class="stop-id">0142</span>Bukowno Stare Skrzyżowanie (0)</a>
+<a class="stop variant" href="../rozklady/2/0143-zadole.html"><span class="stop-id">0143</span>Bukowno Cmentarz (2)</a>
+<a class="stop variant" href="../rozklady/2/0144-zadole.html"><span class="stop-id">0144</span>Bukowno Nowa OSP (1)</a>
+<a class="stop variant" href="../rozklady/2/0145-zadole.html"><span class="stop-id">0145</span>Bukowno Nowa (2)</a>
+<a class="stop variant" href="../rozklady/2/0146-zadole.html"><span class="stop-id">0146</span>Bukowno Urząd Miasta (2)</a>
+<a class="stop variant" href="../rozklady/2/0147-zadole.html"><span class="stop-id">0147</span>Bukowno Dworzec PKP (0)</a>
+<a class="stop variant" href="../rozklady/2/0148-zadole.html"><span class="stop-id">0148</span>Bukowno Urząd Miasta (1)</a>
+<a class="stop variant" href="../rozklady/2/0149-zadole.html"><span class="stop-id">0149</span>Bukowno Skałka (1)</a>
+<a class="stop variant" href="../rozklady/2/0150-zadole.html"><span class="stop-id">0150</span>Bukowno ZGH (2)</a>
+<a class="stop variant" href="../rozklady/2/0151-zadole.html"><span class="stop-id">0151</span>Bukowno Diana (1)</a>
+
+<div class="zone zone-boleslaw">STREFA BOLESŁAW</div>
+  
+<a class="stop variant" href="../rozklady/2/0152-zadole.html"><span class="stop-id">0152</span>Krążek Skrzyżowanie (1)</a>
+<a class="stop variant" href="../rozklady/2/0153-zadole.html"><span class="stop-id">0153</span>Bolesław Cmentarz (1)</a>
+<a class="stop variant" href="../rozklady/2/0154-zadole.html"><span class="stop-id">0154</span>Bolesław Szkoła (2)</a>
+<a class="stop variant" href="../rozklady/2/0155-zadole.html"><span class="stop-id">0155</span>Bolesław Centrum (2)</a>
+<a class="stop variant" href="../rozklady/2/0156-zadole.html"><span class="stop-id">0156</span>Bolesław Remiza (1)</a>
+<a class="stop variant" href="../rozklady/2/0157-zadole.html"><span class="stop-id">0157</span>Kolonia Bolesławska (2)</a>
+<a class="stop variant" href="../rozklady/2/0158-zadole.html"><span class="stop-id">0158</span>Kolonia Poręba (1)</a>
+<a class="stop variant" href="../rozklady/2/0159-zadole.html"><span class="stop-id">0159</span>Kolonia Cicha (2)</a>
+<a class="stop" href="../rozklady/2/0160-zadole.html"><span class="stop-id">0160</span>Laski Pętla (0)</a>
+<a class="stop" href="../rozklady/2/0161-zadole.html"><span class="stop-id">0161</span>Kolonia Cicha (1)</a>
+<a class="stop" href="../rozklady/2/0162-zadole.html"><span class="stop-id">0162</span>Kolonia Poręba (2)</a>
+<a class="stop" href="../rozklady/2/0163-zadole.html"><span class="stop-id">0163</span>Kolonia Bolesławska (1)</a>
+<a class="stop" href="../rozklady/2/0164-zadole.html"><span class="stop-id">0164</span>Bolesław Remiza (2)</a>
+<a class="stop" href="../rozklady/2/0165-zadole.html"><span class="stop-id">0165</span>Bolesław Dąbrówka (1)</a>
+<a class="stop variant" href="../rozklady/2/0166-zadole.html"><span class="stop-id">0166</span>Bolesław Kluczewska (2)</a>
+<a class="stop variant" href="../rozklady/2/0167-zadole.html"><span class="stop-id">0167</span>Bolesław Kluczewska Mostek (2)</a>
+<a class="stop variant" href="../rozklady/2/0168-zadole.html"><span class="stop-id">0168</span>Hutki Pętla (1)</a>
+<a class="stop variant" href="../rozklady/2/0169-zadole.html"><span class="stop-id">0169</span>Bolesław Kluczewska Mostek (1)</a>
+<a class="stop variant" href="../rozklady/2/0170-zadole.html"><span class="stop-id">0170</span>Bolesław Kluczewska (1)</a>
+<a class="stop" href="../rozklady/2/0171-zadole.html"><span class="stop-id">0171</span>Bolesław Osadowa (2)</a>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+  
+<a class="stop" href="../rozklady/2/0172-zadole.html"><span class="stop-id">0172</span>Olkusz Stary (2)</a>
+<a class="stop" href="../rozklady/2/0173-zadole.html"><span class="stop-id">0173</span>Olkusz Stacja Paliw (1)</a>
+<a class="stop" href="../rozklady/2/0174-zadole.html"><span class="stop-id">0174</span>Olkusz Supersam (0)</a>
+<a class="stop" href="../rozklady/2/0175-zadole.html"><span class="stop-id">0175</span>Olkusz Górnicza (1)</a>
+<a class="stop" href="../rozklady/2/0176-zadole.html"><span class="stop-id">0176</span>Olkusz Mickiewicza (1)</a>
+<a class="stop variant" href="../rozklady/2/0177-zadole.html"><span class="stop-id">0177</span>Olkusz Szpitalna (2)</a>
+<a class="stop" href="../rozklady/2/0178-zadole.html"><span class="stop-id">0178</span>Olkusz Szpitalna (1)</a>
+<a class="stop" href="../rozklady/2/0179-zadole.html"><span class="stop-id">0179</span>Olkusz Żuradzka (2)</a>
+<a class="stop" href="../rozklady/2/0180-zadole.html"><span class="stop-id">0180</span>Olkusz Mazaniec Boczna (1)</a>
+<a class="stop" href="../rozklady/2/0181-zadole.html"><span class="stop-id">0181</span>Olkusz Mazaniec (1)</a>
+<a class="stop" href="../rozklady/2/0182-zadole.html"><span class="stop-id">0182</span>Żurada Druga Kolonia (1)</a>
+<a class="stop" href="../rozklady/2/0183-zadole.html"><span class="stop-id">0183</span>Żurada Starowiejska (2)</a>
+<a class="stop" href="../rozklady/2/0184-zadole.html"><span class="stop-id">0184</span>Żurada Wierzbie (2)</a>
+<a class="stop" href="../rozklady/2/0185-zadole.html"><span class="stop-id">0185</span>Żurada Wieś (2)</a>
+<a class="stop" href="../rozklady/2/0186-zadole.html"><span class="stop-id">0186</span>Żurada Trzecia Kolonia (1)</a>
+<a class="stop" href="../rozklady/2/0187-zadole.html"><span class="stop-id">0187</span>Żurada Pętla (0)</a>
+<a class="stop" href="../rozklady/2/0188-zadole.html"><span class="stop-id">0188</span>Żurada Trzecia Kolonia (2)</a>
+<a class="stop" href="../rozklady/2/0189-zadole.html"><span class="stop-id">0189</span>Żurada Wieś (1)</a>
+<a class="stop" href="../rozklady/2/0190-zadole.html"><span class="stop-id">0190</span>Żurada Wierzbie (1)</a>
+<a class="stop" href="../rozklady/2/0191-zadole.html"><span class="stop-id">0191</span>Żurada Starowiejska (1)</a>
+<a class="stop" href="../rozklady/2/0192-zadole.html"><span class="stop-id">0192</span>Żurada Szkoła (2)</a>
+<a class="stop" href="../rozklady/2/0193-zadole.html"><span class="stop-id">0193</span>Żurada Remiza (1)</a>
+<a class="stop" href="../rozklady/2/0194-zadole.html"><span class="stop-id">0194</span>Żurada Kolonia (2)</a>
+<a class="stop" href="../rozklady/2/0195-zadole.html"><span class="stop-id">0195</span>Żurada (1)</a>
+<a class="stop" href="../rozklady/2/0196-zadole.html"><span class="stop-id">0196</span>Olkusz Kamyk (1)</a>
+<a class="stop" href="../rozklady/2/0197-zadole.html"><span class="stop-id">0197</span>Olkusz Basen (1)</a>
+<a class="stop" href="../rozklady/2/0198-zadole.html"><span class="stop-id">0198</span>Olkusz Dworek Machnickich (0)</a>
+<a class="stop" href="../rozklady/2/0199-zadole.html"><span class="stop-id">0199</span>Olkusz Skarbek (2)</a>
+<a class="stop variant" href="../rozklady/2/0200-zadole.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
+<a class="stop" href="../rozklady/2/0201-zadole.html"><span class="stop-id">0201</span>Olkusz Dworzec PKP (1)</a>
+<a class="stop" href="../rozklady/2/0202-zadole.html"><span class="stop-id">0202</span>Olkusz Wiadukt (1)</a>
+<a class="stop" href="../rozklady/2/0203-zadole.html"><span class="stop-id">0203</span>Olkusz Aleja Tysiąclecia (1)</a>
+<a class="stop" href="../rozklady/2/0204-zadole.html"><span class="stop-id">0204</span>Sieniczno (1)</a>
+<a class="stop" href="../rozklady/2/0205-zadole.html"><span class="stop-id">0205</span>Sieniczno Ojcowska (2)</a>
+<a class="stop" href="../rozklady/2/0206-zadole.html"><span class="stop-id">0206</span>Wiśliczka (2)</a>
+<a class="stop" href="../rozklady/2/0207-zadole.html"><span class="stop-id">0207</span>Kosmolów Las (2)</a>
+<a class="stop" href="../rozklady/2/0208-zadole.html"><span class="stop-id">0208</span>Kosmolów Szkoła (2)</a>
+<a class="stop" href="../rozklady/2/0209-zadole.html"><span class="stop-id">0209</span>Kosmolów Sklep (2)</a>
+<a class="stop" href="../rozklady/2/0210-zadole.html"><span class="stop-id">0210</span>Kosmolów Na Górze (2)</a>
+<a class="stop" href="../rozklady/2/0211-zadole.html"><span class="stop-id">0211</span>Kosmolów Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/2/0212-zadole.html"><span class="stop-id">0212</span>Zadole Kosmolowskie Początek (2)</a>
+<a class="stop" href="../rozklady/2/0213-zadole.html"><span class="stop-id">0213</span>Zadole Kosmolowskie (2)</a>
+<a class="stop" href="../rozklady/2/0214-zadole.html"><span class="stop-id">0214</span>Zadole Kosmolowskie Pętla (0)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Laski Pętla</h2>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+
+<a class="stop" href="../rozklady/2/0214-laski.html"><span class="stop-id">0214</span>Zadole Kosmolowskie Pętla (0)</a>
+<a class="stop" href="../rozklady/2/0215-laski.html"><span class="stop-id">0215</span>Zadole Kosmolowskie (1)</a>
+<a class="stop" href="../rozklady/2/0216-laski.html"><span class="stop-id">0216</span>Zadole Kosmolowskie Początek (1)</a>
+<a class="stop" href="../rozklady/2/0217-laski.html"><span class="stop-id">0217</span>Kosmolów Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/2/0218-laski.html"><span class="stop-id">0218</span>Kosmolów Na Górze (1)</a>
+<a class="stop" href="../rozklady/2/0219-laski.html"><span class="stop-id">0219</span>Kosmolów Sklep (1)</a>
+<a class="stop" href="../rozklady/2/0220-laski.html"><span class="stop-id">0220</span>Kosmolów Szkoła (1)</a>
+<a class="stop" href="../rozklady/2/0221-laski.html"><span class="stop-id">0221</span>Kosmolów Las (1)</a>
+<a class="stop" href="../rozklady/2/0222-laski.html"><span class="stop-id">0222</span>Wiśliczka (1)</a>
+<a class="stop" href="../rozklady/2/0223-laski.html"><span class="stop-id">0223</span>Sieniczno Ojcowska (1)</a>
+<a class="stop" href="../rozklady/2/0224-laski.html"><span class="stop-id">0224</span>Sieniczno (2)</a>
+<a class="stop" href="../rozklady/2/0225-laski.html"><span class="stop-id">0225</span>Olkusz Aleja Tysiąclecia (2)</a>
+<a class="stop" href="../rozklady/2/0226-laski.html"><span class="stop-id">0226</span>Olkusz Wiadukt (2)</a>
+<a class="stop" href="../rozklady/2/0227-laski.html"><span class="stop-id">0227</span>Olkusz Dworzec PKP (2)</a>
+<a class="stop variant" href="../rozklady/2/0200-laski.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
+<a class="stop" href="../rozklady/2/0228-laski.html"><span class="stop-id">0228</span>Olkusz Skarbek (1)</a>
+<a class="stop" href="../rozklady/2/0175-laski.html"><span class="stop-id">0175</span>Olkusz Górnicza (1)</a>
+<a class="stop" href="../rozklady/2/0176-laski.html"><span class="stop-id">0176</span>Olkusz Mickiewicza (1)</a>
+<a class="stop" href="../rozklady/2/0177-laski-zurada.html"><span class="stop-id">0177</span>Olkusz Szpitalna (2)</a>
+<a class="stop" href="../rozklady/2/0229-laski.html"><span class="stop-id">0229</span>Olkusz Basen (2)</a>
+<a class="stop" href="../rozklady/2/0230-laski.html"><span class="stop-id">0230</span>Olkusz Kamyk (2)</a>
+<a class="stop" href="../rozklady/2/0231-laski.html"><span class="stop-id">0231</span>Żurada Kolonia (1)</a>
+<a class="stop" href="../rozklady/2/0232-laski.html"><span class="stop-id">0232</span>Żurada Remiza (2)</a>
+<a class="stop" href="../rozklady/2/0233-laski.html"><span class="stop-id">0233</span>Żurada Szkoła (1)</a>
+<a class="stop" href="../rozklady/2/0183-laski.html"><span class="stop-id">0183</span>Żurada Starowiejska (2)</a>
+<a class="stop" href="../rozklady/2/0184-laski.html"><span class="stop-id">0184</span>Żurada Wierzbie (2)</a>
+<a class="stop" href="../rozklady/2/0185-laski.html"><span class="stop-id">0185</span>Żurada Wieś (2)</a>
+<a class="stop" href="../rozklady/2/0186-laski.html"><span class="stop-id">0186</span>Żurada Trzecia Kolonia (1)</a>
+<a class="stop" href="../rozklady/2/0187-laski.html"><span class="stop-id">0187</span>Żurada Pętla (0)</a>
+<a class="stop" href="../rozklady/2/0188-laski.html"><span class="stop-id">0188</span>Żurada Trzecia Kolonia (2)</a>
+<a class="stop" href="../rozklady/2/0189-laski.html"><span class="stop-id">0189</span>Żurada Wieś (1)</a>
+<a class="stop" href="../rozklady/2/0190-laski.html"><span class="stop-id">0190</span>Żurada Wierzbie (1)</a>
+<a class="stop" href="../rozklady/2/0191-laski.html"><span class="stop-id">0191</span>Żurada Starowiejska (1)</a>
+<a class="stop" href="../rozklady/2/0234-laski.html"><span class="stop-id">0234</span>Żurada Druga Kolonia (2)</a>
+<a class="stop" href="../rozklady/2/0235-laski.html"><span class="stop-id">0235</span>Olkusz Mazaniec (2)</a>
+<a class="stop" href="../rozklady/2/0236-laski.html"><span class="stop-id">0236</span>Olkusz Mazaniec Boczna (2)</a>
+<a class="stop" href="../rozklady/2/0237-laski.html"><span class="stop-id">0237</span>Olkusz Żuradzka (1)</a>
+<a class="stop" href="../rozklady/2/0177-laski.html"><span class="stop-id">0177</span>Olkusz Szpitalna (2)</a>
+<a class="stop" href="../rozklady/2/0238-laski.html"><span class="stop-id">0238</span>Olkusz Supersam (2)</a>
+<a class="stop" href="../rozklady/2/0239-laski.html"><span class="stop-id">0239</span>Olkusz Stacja Paliw (2)</a>
+<a class="stop" href="../rozklady/2/0240-laski.html"><span class="stop-id">0240</span>Olkusz Stary (1)</a>
+
+<div class="zone zone-boleslaw">STREFA BOLESŁAW</div>
+  
+<a class="stop" href="../rozklady/2/0241-laski.html"><span class="stop-id">0241</span>Bolesław Osadowa (1)</a>
+<a class="stop" href="../rozklady/2/0242-laski.html"><span class="stop-id">0242</span>Bolesław Dąbrówka (2)</a>
+<a class="stop variant" href="../rozklady/2/0166-laski.html"><span class="stop-id">0166</span>Bolesław Kluczewska (2)</a>
+<a class="stop variant" href="../rozklady/2/0167-laski.html"><span class="stop-id">0167</span>Bolesław Kluczewska Mostek (2)</a>
+<a class="stop variant" href="../rozklady/2/0168-laski.html"><span class="stop-id">0168</span>Hutki Pętla (1)</a>
+<a class="stop variant" href="../rozklady/2/0169-laski.html"><span class="stop-id">0169</span>Bolesław Kluczewska Mostek (1)</a>
+<a class="stop variant" href="../rozklady/2/0170-laski.html"><span class="stop-id">0170</span>Bolesław Kluczewska (1)</a>
+<a class="stop" href="../rozklady/2/0156-laski.html"><span class="stop-id">0156</span>Bolesław Remiza (1)</a>
+<a class="stop" href="../rozklady/2/0157-laski.html"><span class="stop-id">0157</span>Kolonia Bolesławska (2)</a>
+<a class="stop" href="../rozklady/2/0158-laski.html"><span class="stop-id">0158</span>Kolonia Poręba (1)</a>
+<a class="stop" href="../rozklady/2/0159-laski.html"><span class="stop-id">0159</span>Kolonia Cicha (2)</a>
+<a class="stop" href="../rozklady/2/0160-laski.html"><span class="stop-id">0160</span>Laski Pętla (0)</a>
+<a class="stop variant" href="../rozklady/2/0161-laski.html"><span class="stop-id">0161</span>Kolonia Cicha (1)</a>
+<a class="stop variant" href="../rozklady/2/0162-laski.html"><span class="stop-id">0162</span>Kolonia Poręba (2)</a>
+<a class="stop variant" href="../rozklady/2/0163-laski.html"><span class="stop-id">0163</span>Kolonia Bolesławska (1)</a>
+<a class="stop variant" href="../rozklady/2/0164-laski.html"><span class="stop-id">0164</span>Bolesław Remiza (2)</a>
+<a class="stop variant" href="../rozklady/2/0243-laski.html"><span class="stop-id">0243</span>Bolesław Centrum (1)</a>
+<a class="stop variant" href="../rozklady/2/0244-laski.html"><span class="stop-id">0244</span>Bolesław Szkoła (1)</a>
+<a class="stop variant" href="../rozklady/2/0245-laski.html"><span class="stop-id">0245</span>Bolesław Cmentarz (2)</a>
+<a class="stop variant" href="../rozklady/2/0246-laski.html"><span class="stop-id">0246</span>Krążek (2)</a>
+
+<div class="zone zone-bukowno">STREFA BUKOWNO</div>
+  
+<a class="stop variant" href="../rozklady/2/0247-laski.html"><span class="stop-id">0247</span>Bukowno Diana (2)</a>
+<a class="stop variant" href="../rozklady/2/0248-laski.html"><span class="stop-id">0248</span>Bukowno ZGH (1)</a>
+<a class="stop variant" href="../rozklady/2/0249-laski.html"><span class="stop-id">0249</span>Bukowno Skałka (2)</a>
+<a class="stop variant" href="../rozklady/2/0146-laski.html"><span class="stop-id">0146</span>Bukowno Urząd Miasta (2)</a>
+<a class="stop variant" href="../rozklady/2/0147-laski.html"><span class="stop-id">0147</span>Bukowno Dworzec PKP (0)</a>
+<a class="stop variant" href="../rozklady/2/0148-laski.html"><span class="stop-id">0148</span>Bukowno Urząd Miasta (1)</a>
+<a class="stop variant" href="../rozklady/2/0250-laski.html"><span class="stop-id">0250</span>Bukowno Nowa (1)</a>
+<a class="stop variant" href="../rozklady/2/0251-laski.html"><span class="stop-id">0251</span>Bukowno Nowa OSP (2)</a>
+<a class="stop variant" href="../rozklady/2/0252-laski.html"><span class="stop-id">0252</span>Bukowno Cmentarz (1)</a>
+<a class="stop variant" href="../rozklady/2/0253-laski.html"><span class="stop-id">0253</span>Bukowno Remiza (0)</a>
+<a class="stop variant" href="../rozklady/2/0254-laski.html"><span class="stop-id">0254</span>Bukowno Skotnica (1)</a>
+<a class="stop variant" href="../rozklady/2/0255-laski.html"><span class="stop-id">0255</span>Bukowno Sklep (1)</a>
+<a class="stop variant" href="../rozklady/2/0256-laski.html"><span class="stop-id">0256</span>Bukowno Przymiarki PKP (1)</a>
+<a class="stop variant" href="../rozklady/2/0106-laski.html"><span class="stop-id">0106</span>Bukowno Przymiarki (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
