@@ -78,6 +78,23 @@ body{
     font-size:18px;
 }
 
+.columns.single-column {
+  display: block;
+}
+
+.columns.single-column .column {
+  max-width: 560px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.columns.single-column .stop {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+}
+
 .stop{
     display:block;
     position:relative;
@@ -146,16 +163,6 @@ body{
 .zone-olkusz{
     background:#ffe599;
     color:#222;
-}
-
-.columns.single-column {
-  justify-content: center;
-}
-
-.columns.single-column .column {
-  flex: 0 1 560px;
-  max-width: 560px;
-  width: 100%;
 }
 
 @media (max-width: 700px) {
