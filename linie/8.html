@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 8</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-olkusz{
+    background:#ffe599;
+    color:#222;
+}
+
+.columns.single-column {
+  justify-content: center;
+}
+
+.columns.single-column .column {
+  flex: 0 1 560px;
+  max-width: 560px;
+  width: 100%;
+}
+
+@media (max-width: 700px) {
+  .columns.single-column .column {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+  
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">8</div>
+
+<div class="route">
+Olkusz Dworzec PKS - Olkusz Parcze - Olkusz Pomorzany Szkoła - Olkusz Dworzec PKS
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Olkusz Dworzec PKS</h2>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+  
+<a class="stop" href="../rozklady/8/0200-okrezna.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
+<a class="stop" href="../rozklady/8/0228-okrezna.html"><span class="stop-id">0228</span>Olkusz Skarbek (1)</a>
+<a class="stop" href="../rozklady/8/0238-okrezna.html"><span class="stop-id">0238</span>Olkusz Supersam (2)</a>
+<a class="stop" href="../rozklady/8/0685-okrezna.html"><span class="stop-id">0685</span>Olkusz Kasztanowa (2)</a>
+<a class="stop" href="../rozklady/8/0686-okrezna.html"><span class="stop-id">0686</span>Olkusz Parcze (2)</a>
+<a class="stop" href="../rozklady/8/0687-okrezna.html"><span class="stop-id">0687</span>Bogucin Mały (1)</a>
+<a class="stop" href="../rozklady/8/0688-okrezna.html"><span class="stop-id">0688</span>Olkusz Pomorzany Las (2)</a>
+<a class="stop" href="../rozklady/8/0689-okrezna.html"><span class="stop-id">0689</span>Olkusz Pomorzany Wzniesienie (1)</a>
+<a class="stop" href="../rozklady/8/0690-okrezna.html"><span class="stop-id">0690</span>Olkusz Pomorzany Szkoła (1)</a>
+<a class="stop" href="../rozklady/8/0691-okrezna.html"><span class="stop-id">0691</span>Olkusz Pomorzany Remiza (1)</a>
+<a class="stop" href="../rozklady/8/0692-okrezna.html"><span class="stop-id">0692</span>Olkusz Pomorzany Stadion (1)</a>
+<a class="stop" href="../rozklady/8/0693-okrezna.html"><span class="stop-id">0693</span>Olkusz Skatepark (1)</a>
+<a class="stop" href="../rozklady/8/0173-okrezna.html"><span class="stop-id">0173</span>Olkusz Stacja Paliw (1)</a>
+<a class="stop" href="../rozklady/8/0174-okrezna.html"><span class="stop-id">0174</span>Olkusz Supersam (0)</a>
+<a class="stop" href="../rozklady/8/0199-okrezna.html"><span class="stop-id">0199</span>Olkusz Skarbek (2)</a>
+<a class="stop" href="../rozklady/8/0200-okrezna.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
