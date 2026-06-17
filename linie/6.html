@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 6</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-oswiecim{
+    background:#9fc4e8;
+    color:#222;
+}
+
+.zone-brzeszcze{
+    background:#a2c4c9;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">6</div>
+
+<div class="route">
+Oświęcim Dwory Pętla - Oświęcim Dąbrowskiego Miasto - Oświęcim Park Zasole - Rajsko - Wilczkowice Pętla
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Wilczkowice Pętla</h2>
+
+<div class="zone zone-oswiecim">STREFA OŚWIĘCIM</div>
+  
+<a class="stop" href="../rozklady/6/0616-wilczkowice.html"><span class="stop-id">0616</span>Oświęcim Dwory Pętla (1)</a>
+<a class="stop" href="../rozklady/6/0617-wilczkowice.html"><span class="stop-id">0617</span>Oświęcim SKR (1)</a>
+<a class="stop" href="../rozklady/6/0618-wilczkowice.html"><span class="stop-id">0618</span>Oświęcim Spółdzielnia (2)</a>
+<a class="stop" href="../rozklady/6/0619-wilczkowice.html"><span class="stop-id">0619</span>Oświęcim Cichy Kącik (2)</a>
+<a class="stop" href="../rozklady/6/0620-wilczkowice.html"><span class="stop-id">0620</span>Oświęcim Zwycięstwa (2)</a>
+<a class="stop" href="../rozklady/6/0621-wilczkowice.html"><span class="stop-id">0621</span>Oświęcim Lodowisko (1)</a>
+<a class="stop" href="../rozklady/6/0622-wilczkowice.html"><span class="stop-id">0622</span>Oświęcim Technikum Chemiczne (2)</a>
+<a class="stop" href="../rozklady/6/0623-wilczkowice.html"><span class="stop-id">0623</span>Oświęcim Osiedle OCK (1)</a>
+<a class="stop" href="../rozklady/6/0624-wilczkowice.html"><span class="stop-id">0624</span>Oświęcim Szpitalna Osiedle (1)</a>
+<a class="stop" href="../rozklady/6/0625-wilczkowice.html"><span class="stop-id">0625</span>Oświęcim Kruki (1)</a>
+<a class="stop" href="../rozklady/6/0626-wilczkowice.html"><span class="stop-id">0626</span>Oświęcim Bakutil (1)</a>
+<a class="stop" href="../rozklady/6/0627-wilczkowice.html"><span class="stop-id">0627</span>Oświęcim Szpital (2)</a>
+<a class="stop" href="../rozklady/6/0628-wilczkowice.html"><span class="stop-id">0628</span>Oświęcim Dąbrowskiego Miasto (1)</a>
+<a class="stop" href="../rozklady/6/0629-wilczkowice.html"><span class="stop-id">0629</span>Oświęcim Stacja BP (2)</a>
+<a class="stop" href="../rozklady/6/0630-wilczkowice.html"><span class="stop-id">0630</span>Oświęcim Niwa (1)</a>
+<a class="stop" href="../rozklady/6/0631-wilczkowice.html"><span class="stop-id">0631</span>Oświęcim Dworzec PKP (1)</a>
+<a class="stop" href="../rozklady/6/0632-wilczkowice.html"><span class="stop-id">0632</span>Oświęcim Obozowa (1)</a>
+<a class="stop" href="../rozklady/6/0633-wilczkowice.html"><span class="stop-id">0633</span>Oświęcim Park Zasole (0)</a>
+<a class="stop" href="../rozklady/6/0634-wilczkowice.html"><span class="stop-id">0634</span>Oświęcim Muzeum II (2)</a>
+<a class="stop" href="../rozklady/6/0635-wilczkowice.html"><span class="stop-id">0635</span>Oświęcim Zasole I (2)</a>
+<a class="stop" href="../rozklady/6/0636-wilczkowice.html"><span class="stop-id">0636</span>Oświęcim Zasole Walcownia (1)</a>
+<a class="stop" href="../rozklady/6/0637-wilczkowice.html"><span class="stop-id">0637</span>Oświęcim MZK (1)</a>
+<a class="stop" href="../rozklady/6/0638-wilczkowice.html"><span class="stop-id">0638</span>Oświęcim Szkoła (2)</a>
+<a class="stop" href="../rozklady/6/0639-wilczkowice.html"><span class="stop-id">0639</span>Oświęcim Szajny (1)</a>
+<a class="stop" href="../rozklady/6/0640-wilczkowice.html"><span class="stop-id">0640</span>Oświęcim Uczelnia (2)</a>
+<a class="stop" href="../rozklady/6/0641-wilczkowice.html"><span class="stop-id">0641</span>Rajsko Ogrody (1)</a>
+<a class="stop" href="../rozklady/6/0642-wilczkowice.html"><span class="stop-id">0642</span>Rajsko Centrum (1)</a>
+<a class="stop" href="../rozklady/6/0643-wilczkowice.html"><span class="stop-id">0643</span>Rajsko Pomnik (1)</a>
+<a class="stop" href="../rozklady/6/0644-wilczkowice.html"><span class="stop-id">0644</span>Rajsko Kościół (2)</a>
+<a class="stop" href="../rozklady/6/0645-wilczkowice.html"><span class="stop-id">0645</span>Rajsko Żwirownia (1)</a>
+<a class="stop" href="../rozklady/6/0646-wilczkowice.html"><span class="stop-id">0646</span>Rajsko Cmentarz (1)</a>
+
+<div class="zone zone-brzeszcze">STREFA BRZESZCZE</div>
+  
+<a class="stop" href="../rozklady/6/0647-wilczkowice.html"><span class="stop-id">0647</span>Wilczkowice NŻ (2)</a>
+<a class="stop" href="../rozklady/6/0648-wilczkowice.html"><span class="stop-id">0648</span>Wilczkowice (2)</a>
+<a class="stop" href="../rozklady/6/0649-wilczkowice.html"><span class="stop-id">0649</span>Wilczkowice Pętla (0)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Oświęcim Dwory Pętla</h2>
+
+<div class="zone zone-brzeszcze">STREFA BRZESZCZE</div>
+  
+<a class="stop" href="../rozklady/6/0649-oswiecim.html"><span class="stop-id">0649</span>Wilczkowice Pętla (0)</a>
+<a class="stop" href="../rozklady/6/0650-oswiecim.html"><span class="stop-id">0650</span>Wilczkowice (1)</a>
+<a class="stop" href="../rozklady/6/0651-oswiecim.html"><span class="stop-id">0651</span>Wilczkowice NŻ (1)</a>
+
+<div class="zone zone-oswiecim">STREFA OŚWIĘCIM</div>
+  
+<a class="stop" href="../rozklady/6/0652-oswiecim.html"><span class="stop-id">0652</span>Rajsko Cmentarz (2)</a>
+<a class="stop" href="../rozklady/6/0653-oswiecim.html"><span class="stop-id">0653</span>Rajsko Żwirownia (2)</a>
+<a class="stop" href="../rozklady/6/0654-oswiecim.html"><span class="stop-id">0654</span>Rajsko Kościół (1)</a>
+<a class="stop" href="../rozklady/6/0655-oswiecim.html"><span class="stop-id">0655</span>Rajsko Pomnik (2)</a>
+<a class="stop" href="../rozklady/6/0656-oswiecim.html"><span class="stop-id">0656</span>Rajsko Centrum (2)</a>
+<a class="stop" href="../rozklady/6/0657-oswiecim.html"><span class="stop-id">0657</span>Rajsko Ogrody (2)</a>
+<a class="stop" href="../rozklady/6/0658-oswiecim.html"><span class="stop-id">0658</span>Oświęcim Uczelnia (1)</a>
+<a class="stop" href="../rozklady/6/0659-oswiecim.html"><span class="stop-id">0659</span>Oświęcim Leszczyńskiej Muzeum (2)</a>
+<a class="stop" href="../rozklady/6/0660-oswiecim.html"><span class="stop-id">0660</span>Oświęcim Szkoła (1)</a>
+<a class="stop" href="../rozklady/6/0661-oswiecim.html"><span class="stop-id">0661</span>Oświęcim MZK (2)</a>
+<a class="stop" href="../rozklady/6/0662-oswiecim.html"><span class="stop-id">0662</span>Oświęcim Zasole Walcownia (2)</a>
+<a class="stop" href="../rozklady/6/0663-oswiecim.html"><span class="stop-id">0663</span>Oświęcim Zasole I (1)</a>
+<a class="stop" href="../rozklady/6/0664-oswiecim.html"><span class="stop-id">0664</span>Oświęcim Muzeum I (1)</a>
+<a class="stop" href="../rozklady/6/0633-oswiecim.html"><span class="stop-id">0633</span>Oświęcim Park Zasole (0)</a>
+<a class="stop" href="../rozklady/6/0665-oswiecim.html"><span class="stop-id">0665</span>Oświęcim Obozowa (2)</a>
+<a class="stop" href="../rozklady/6/0666-oswiecim.html"><span class="stop-id">0666</span>Oświęcim Dworzec PKP (2)</a>
+<a class="stop" href="../rozklady/6/0667-oswiecim.html"><span class="stop-id">0667</span>Oświęcim Niwa (2)</a>
+<a class="stop" href="../rozklady/6/0668-oswiecim.html"><span class="stop-id">0668</span>Oświęcim Stacja BP (1)</a>
+<a class="stop" href="../rozklady/6/0669-oswiecim.html"><span class="stop-id">0669</span>Oświęcim Dąbrowskiego Kościół (1)</a>
+<a class="stop" href="../rozklady/6/0670-oswiecim.html"><span class="stop-id">0670</span>Oświęcim Dąbrowskiego Cmentarz (0)</a>
+<a class="stop" href="../rozklady/6/0671-oswiecim.html"><span class="stop-id">0671</span>Oświęcim Szpital (1)</a>
+<a class="stop" href="../rozklady/6/0672-oswiecim.html"><span class="stop-id">0672</span>Oświęcim Bakutil (2)</a>
+<a class="stop" href="../rozklady/6/0673-oswiecim.html"><span class="stop-id">0673</span>Oświęcim Szpitalna Osiedle (2)</a>
+<a class="stop" href="../rozklady/6/0674-oswiecim.html"><span class="stop-id">0674</span>Oświęcim Osiedle OCK (2)</a>
+<a class="stop" href="../rozklady/6/0675-oswiecim.html"><span class="stop-id">0675</span>Oświęcim Technikum Chemiczne (1)</a>
+<a class="stop" href="../rozklady/6/0676-oswiecim.html"><span class="stop-id">0676</span>Oświęcim Lodowisko (2)</a>
+<a class="stop" href="../rozklady/6/0677-oswiecim.html"><span class="stop-id">0677</span>Oświęcim Zwycięstwa (1)</a>
+<a class="stop" href="../rozklady/6/0678-oswiecim.html"><span class="stop-id">0678</span>Oświęcim Cichy Kącik (1)</a>
+<a class="stop" href="../rozklady/6/0679-oswiecim.html"><span class="stop-id">0679</span>Oświęcim Spółdzielnia (1)</a>
+<a class="stop" href="../rozklady/6/0680-oswiecim.html"><span class="stop-id">0680</span>Oświęcim SKR (2)</a>
+<a class="stop" href="../rozklady/6/0616-oswiecim.html"><span class="stop-id">0616</span>Oświęcim Dwory Pętla (1)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
