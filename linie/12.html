@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 12</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-oswiecim{
+    background:#9fc4e8;
+    color:#222;
+}
+
+.zone-brzeszcze{
+    background:#a2c4c9;
+    color:#222;
+}
+  
+.zone-chelmek{
+    background:#b4a7d6;
+    color:#222;
+}
+  
+.zone-libiaz{
+    background:#b6d7a8;
+    color:#222;
+}
+  
+.zone-babice-alwernia{
+    background:#dd7e6b;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">12</div>
+
+<div class="route">
+Jawiszowice Kółko - Brzeszcze - Rajsko - Oświęcim - Bobrek - Gorzów - Chełmek - Libiąż - Zagórcze - Żarki - Mętków Mały
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Mętków Mały</h2>
+
+<div class="zone zone-brzeszcze">STREFA BRZESZCZE</div>
+  
+<a class="stop" href="../rozklady/12/2568-metkow.html"><span class="stop-id">2568</span>Jawiszowice Kółko (2)</a>
+<a class="stop" href="../rozklady/12/2558-metkow.html"><span class="stop-id">2558</span>Jawiszowice Mickiewicza (1)</a>
+<a class="stop" href="../rozklady/12/2566-metkow.html"><span class="stop-id">2566</span>Jawiszowice Osiedle Paderewskiego (2)</a>
+<a class="stop" href="../rozklady/12/2553-metkow.html"><span class="stop-id">2553</span>Brzeszcze Dworzec PKP (0)</a>
+<a class="stop" href="../rozklady/12/2554-metkow.html"><span class="stop-id">2554</span>Brzeszcze Jawiszowice Osiedle (1)</a>
+<a class="stop" href="../rozklady/12/2556-metkow.html"><span class="stop-id">2556</span>Brzeszcze Osiedle (2)</a>
+<a class="stop" href="../rozklady/12/2565-metkow.html"><span class="stop-id">2565</span>Brzeszcze Strażnica (2)</a>
+<a class="stop" href="../rozklady/12/2564-metkow.html"><span class="stop-id">2564</span>Brzeszcze Kościół (2)</a>
+<a class="stop" href="../rozklady/12/2563-metkow.html"><span class="stop-id">2563</span>Brzeszcze Szkoła (2)</a>
+<a class="stop" href="../rozklady/12/2569-metkow.html"><span class="stop-id">2569</span>Brzeszcze KWK (2)</a>
+<a class="stop" href="../rozklady/12/2580-metkow.html"><span class="stop-id">2580</span>Brzeszcze Bór (Ofiar Oświęcimia) (2)</a>
+<a class="stop" href="../rozklady/12/2579-metkow.html"><span class="stop-id">2579</span>Brzeszcze Partyzantów (2)</a>
+<a class="stop" href="../rozklady/12/2545-metkow.html"><span class="stop-id">2545</span>Brzeszcze Budy (2)</a>
+
+<div class="zone zone-oswiecim">STREFA OŚWIĘCIM</div>
+  
+<a class="stop" href="../rozklady/12/2546-metkow.html"><span class="stop-id">2546</span>Rajsko Cegielnia (2)</a>
+<a class="stop" href="../rozklady/12/2535-metkow.html"><span class="stop-id">2535</span>Rajsko Pałac (1)</a>
+<a class="stop" href="../rozklady/12/0655-metkow.html"><span class="stop-id">0655</span>Rajsko Pomnik (2)</a>
+<a class="stop" href="../rozklady/12/0656-metkow.html"><span class="stop-id">0656</span>Rajsko Centrum (2)</a>
+<a class="stop" href="../rozklady/12/0657-metkow.html"><span class="stop-id">0657</span>Rajsko Ogrody (2)</a>
+<a class="stop" href="../rozklady/12/0658-metkow.html"><span class="stop-id">0658</span>Oświęcim Uczelnia (1)</a>
+<a class="stop" href="../rozklady/12/0659-metkow.html"><span class="stop-id">0659</span>Oświęcim Leszczyńskiej Muzeum (2)</a>
+<a class="stop" href="../rozklady/12/0660-metkow.html"><span class="stop-id">0660</span>Oświęcim Szkoła (1)</a>
+<a class="stop" href="../rozklady/12/0661-metkow.html"><span class="stop-id">0661</span>Oświęcim MZK (2)</a>
+<a class="stop" href="../rozklady/12/0666-metkow.html"><span class="stop-id">0666</span>Oświęcim Dworzec PKP (2)</a>
+<a class="stop" href="../rozklady/12/0667-metkow.html"><span class="stop-id">0667</span>Oświęcim Niwa (2)</a>
+<a class="stop" href="../rozklady/12/0668-metkow.html"><span class="stop-id">0668</span>Oświęcim Stacja BP (1)</a>
+<a class="stop" href="../rozklady/12/0669-metkow.html"><span class="stop-id">0669</span>Oświęcim Dąbrowskiego Kościół (1)</a>
+<a class="stop" href="../rozklady/12/0670-metkow.html"><span class="stop-id">0670</span>Oświęcim Dąbrowskiego Cmentarz (0)</a>
+<a class="stop" href="../rozklady/12/0671-metkow.html"><span class="stop-id">0671</span>Oświęcim Szpital (1)</a>
+<a class="stop" href="../rozklady/12/0672-metkow.html"><span class="stop-id">0672</span>Oświęcim Bakutil (2)</a>
+<a class="stop" href="../rozklady/12/2646-metkow.html"><span class="stop-id">2646</span>Oświęcim Kruki I (1)</a>
+<a class="stop" href="../rozklady/12/2647-metkow.html"><span class="stop-id">2647</span>Oświęcim Kruki II (1)</a>
+
+<div class="zone zone-chelmek">STREFA CHEŁMEK</div>
+  
+<a class="stop" href="../rozklady/12/1536-metkow.html"><span class="stop-id">1536</span>Bobrek Szkoła (1)</a>
+<a class="stop" href="../rozklady/12/1537-metkow.html"><span class="stop-id">1537</span>Bobrek Poczta (1)</a>
+<a class="stop" href="../rozklady/12/1539-metkow.html"><span class="stop-id">1539</span>Bobrek Wyszogrodzkiego (1)</a>
+<a class="stop" href="../rozklady/12/1531-metkow.html"><span class="stop-id">1531</span>Bobrek Podkumorek (2)</a>
+<a class="stop" href="../rozklady/12/0842-metkow.html"><span class="stop-id">0842</span>Gorzów Szkolna (2)</a>
+<a class="stop" href="../rozklady/12/0843-metkow.html"><span class="stop-id">0843</span>Gorzów Szkoła (2)</a>
+<a class="stop" href="../rozklady/12/0844-metkow.html"><span class="stop-id">0844</span>Gorzów Remiza (2)</a>
+<a class="stop" href="../rozklady/12/0845-metkow.html"><span class="stop-id">0845</span>Gorzów Granica (2)</a>
+<a class="stop" href="../rozklady/12/0846-metkow.html"><span class="stop-id">0846</span>Chełmek Oświęcimska (2)</a>
+<a class="stop" href="../rozklady/12/0849-metkow.html"><span class="stop-id">0849</span>Chełmek Mieszka I (2)</a>
+<a class="stop" href="../rozklady/12/0380-metkow.html"><span class="stop-id">0380</span>Chełmek Chrobrego Szkoła (1)</a>
+<a class="stop" href="../rozklady/12/0381-metkow.html"><span class="stop-id">0381</span>Chełmek Policja (1)</a>
+<a class="stop" href="../rozklady/12/0382-metkow.html"><span class="stop-id">0382</span>Chełmek Osiedle DW780 (1)</a>
+
+<div class="zone zone-libiaz">STREFA LIBIĄŻ</div>
+  
+<a class="stop" href="../rozklady/12/0383-metkow.html"><span class="stop-id">0383</span>Libiąż Krakowska Kruczek (2)</a>
+<a class="stop" href="../rozklady/12/0384-metkow.html"><span class="stop-id">0384</span>Libiąż Przy Rondach (2)</a>
+<a class="stop" href="../rozklady/12/0391-metkow.html"><span class="stop-id">0391</span>Libiąż Oświęcimska Cmentarz (1)</a>
+<a class="stop" href="../rozklady/12/0392-metkow.html"><span class="stop-id">0392</span>Libiąż Oświęcimska Kościół (1)</a>
+<a class="stop" href="../rozklady/12/0393-metkow.html"><span class="stop-id">0393</span>Libiąż Urząd Miejski (1)</a>
+<a class="stop" href="../rozklady/12/0104-metkow.html"><span class="stop-id">0104</span>Libiąż Dworzec Autobusowy (1)</a>
+<a class="stop" href="../rozklady/12/0105-metkow.html"><span class="stop-id">0105</span>Libiąż Kopalnia Janina (0)</a>
+<a class="stop" href="../rozklady/12/1177-metkow.html"><span class="stop-id">1177</span>Libiąż Rondo Siedmiu Dróg (1)</a>
+<a class="stop" href="../rozklady/12/1175-metkow.html"><span class="stop-id">1175</span>Libiąż Myśliwska (2)</a>
+<a class="stop" href="../rozklady/12/1174-metkow.html"><span class="stop-id">1174</span>Libiąż Jaworek (1)</a>
+<a class="stop" href="../rozklady/12/1094-metkow.html"><span class="stop-id">1094</span>Żarki Zagórcze (2)</a>
+<a class="stop" href="../rozklady/12/1091-metkow.html"><span class="stop-id">1091</span>Żarki Zagórcze Astronautów (1)</a>
+<a class="stop" href="../rozklady/12/1088-metkow.html"><span class="stop-id">1088</span>Żarki Centrum (1)</a>
+<a class="stop" href="../rozklady/12/1089-metkow.html"><span class="stop-id">1089</span>Żarki Młyn (1)</a>
+
+<div class="zone zone-babice-alwernia">STREFA BABICE-ALWERNIA</div>
+
+<a class="stop" href="../rozklady/12/1494-metkow.html"><span class="stop-id">1494</span>Mętków Duży (1)</a>
+<a class="stop" href="../rozklady/12/0351-metkow.html"><span class="stop-id">0351</span>Mętków Szkoła (2)</a>
+<a class="stop" href="../rozklady/12/0311-metkow.html"><span class="stop-id">0311</span>Mętków Mały (0)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Jawiszowice Kółko</h2>
+
+<div class="zone zone-babice-alwernia">STREFA BABICE-ALWERNIA</div>
+  
+<a class="stop" href="../rozklady/12/0311-jawiszowice.html"><span class="stop-id">0311</span>Mętków Mały (0)</a>
+<a class="stop" href="../rozklady/12/0312-jawiszowice.html"><span class="stop-id">0312</span>Mętków Szkoła (1)</a>
+<a class="stop" href="../rozklady/12/0350-jawiszowice.html"><span class="stop-id">0350</span>Mętków Duży (2)</a>
+
+<div class="zone zone-libiaz">STREFA LIBIĄŻ</div>
+  
+<a class="stop" href="../rozklady/12/1090-jawiszowice.html"><span class="stop-id">1090</span>Żarki Młyn (2)</a>
+<a class="stop" href="../rozklady/12/1087-jawiszowice.html"><span class="stop-id">1087</span>Żarki Szkoła (1)</a>
+<a class="stop" href="../rozklady/12/1092-jawiszowice.html"><span class="stop-id">1092</span>Żarki Zagórcze Astronautów (2)</a>
+<a class="stop" href="../rozklady/12/1093-jawiszowice.html"><span class="stop-id">1093</span>Żarki Zagórcze (1)</a>
+<a class="stop" href="../rozklady/12/1173-jawiszowice.html"><span class="stop-id">1173</span>Libiąż Jaworek (2)</a>
+<a class="stop" href="../rozklady/12/2761-jawiszowice.html"><span class="stop-id">2761</span>Libiąż Myśliwska (1)</a>
+<a class="stop" href="../rozklady/12/1176-jawiszowice.html"><span class="stop-id">1176</span>Libiąż Rondo Siedmiu Dróg (2)</a>
+<a class="stop" href="../rozklady/12/0105-jawiszowice.html"><span class="stop-id">0105</span>Libiąż Kopalnia Janina (0)</a>
+<a class="stop" href="../rozklady/12/0104-jawiszowice.html"><span class="stop-id">0104</span>Libiąż Dworzec Autobusowy (1)</a>
+<a class="stop" href="../rozklady/12/0362-jawiszowice.html"><span class="stop-id">0362</span>Libiąż Urząd Miejski (2)</a>
+<a class="stop" href="../rozklady/12/0363-jawiszowice.html"><span class="stop-id">0363</span>Libiąż Oświęcimska Kościół (2)</a>
+<a class="stop" href="../rozklady/12/0364-jawiszowice.html"><span class="stop-id">0364</span>Libiąż Oświęcimska Cmentarz (2)</a>
+<a class="stop" href="../rozklady/12/0371-jawiszowice.html"><span class="stop-id">0371</span>Libiąż Przy Rondach (1)</a>
+<a class="stop" href="../rozklady/12/0372-jawiszowice.html"><span class="stop-id">0372</span>Libiąż Krakowska Kruczek (1)</a>
+
+<div class="zone zone-chelmek">STREFA CHEŁMEK</div>
+  
+<a class="stop" href="../rozklady/12/0373-jawiszowice.html"><span class="stop-id">0373</span>Chełmek Osiedle DW780 (2)</a>
+<a class="stop" href="../rozklady/12/0374-jawiszowice.html"><span class="stop-id">0374</span>Chełmek Policja (2)</a>
+<a class="stop" href="../rozklady/12/2878-jawiszowice.html"><span class="stop-id">2878</span>Chełmek Chrobrego Szkoła (2)</a>
+<a class="stop" href="../rozklady/12/0861-jawiszowice.html"><span class="stop-id">0861</span>Chełmek Mieszka I (1)</a>
+<a class="stop" href="../rozklady/12/0862-jawiszowice.html"><span class="stop-id">0862</span>Chełmek Oświęcimska (1)</a>
+<a class="stop" href="../rozklady/12/0863-jawiszowice.html"><span class="stop-id">0863</span>Gorzów Granica (1)</a>
+<a class="stop" href="../rozklady/12/0864-jawiszowice.html"><span class="stop-id">0864</span>Gorzów Remiza (1)</a>
+<a class="stop" href="../rozklady/12/0865-jawiszowice.html"><span class="stop-id">0865</span>Gorzów Szkoła (1)</a>
+<a class="stop" href="../rozklady/12/0866-jawiszowice.html"><span class="stop-id">0866</span>Gorzów Szkolna (1)</a>
+<a class="stop" href="../rozklady/12/1532-jawiszowice.html"><span class="stop-id">1532</span>Bobrek Podkumorek (1)</a>
+<a class="stop" href="../rozklady/12/1540-jawiszowice.html"><span class="stop-id">1540</span>Bobrek Wyszogrodzkiego (2)</a>
+<a class="stop" href="../rozklady/12/1538-jawiszowice.html"><span class="stop-id">1538</span>Bobrek Poczta (2)</a>
+<a class="stop" href="../rozklady/12/1535-jawiszowice.html"><span class="stop-id">1535</span>Bobrek Szkoła (2)</a>
+
+<div class="zone zone-oswiecim">STREFA OŚWIĘCIM</div>
+  
+<a class="stop" href="../rozklady/12/2645-jawiszowice.html"><span class="stop-id">2645</span>Oświęcim Kruki II (2)</a>
+<a class="stop" href="../rozklady/12/2644-jawiszowice.html"><span class="stop-id">2644</span>Oświęcim Kruki I (2)</a>
+<a class="stop" href="../rozklady/12/0626-jawiszowice.html"><span class="stop-id">0626</span>Oświęcim Bakutil (1)</a>
+<a class="stop" href="../rozklady/12/0627-jawiszowice.html"><span class="stop-id">0627</span>Oświęcim Szpital (2)</a>
+<a class="stop" href="../rozklady/12/0628-jawiszowice.html"><span class="stop-id">0628</span>Oświęcim Dąbrowskiego Miasto (1)</a>
+<a class="stop" href="../rozklady/12/0629-jawiszowice.html"><span class="stop-id">0629</span>Oświęcim Stacja BP (2)</a>
+<a class="stop" href="../rozklady/12/0630-jawiszowice.html"><span class="stop-id">0630</span>Oświęcim Niwa (1)</a>
+<a class="stop" href="../rozklady/12/0631-jawiszowice.html"><span class="stop-id">0631</span>Oświęcim Dworzec PKP (1)</a>
+<a class="stop" href="../rozklady/12/0637-jawiszowice.html"><span class="stop-id">0637</span>Oświęcim MZK (1)</a>
+<a class="stop" href="../rozklady/12/0638-jawiszowice.html"><span class="stop-id">0638</span>Oświęcim Szkoła (2)</a>
+<a class="stop" href="../rozklady/12/0639-jawiszowice.html"><span class="stop-id">0639</span>Oświęcim Szajny (1)</a>
+<a class="stop" href="../rozklady/12/0640-jawiszowice.html"><span class="stop-id">0640</span>Oświęcim Uczelnia (2)</a>
+<a class="stop" href="../rozklady/12/0641-jawiszowice.html"><span class="stop-id">0641</span>Rajsko Ogrody (1)</a>
+<a class="stop" href="../rozklady/12/0642-jawiszowice.html"><span class="stop-id">0642</span>Rajsko Centrum (1)</a>
+<a class="stop" href="../rozklady/12/0643-jawiszowice.html"><span class="stop-id">0643</span>Rajsko Pomnik (1)</a>
+<a class="stop" href="../rozklady/12/2547-jawiszowice.html"><span class="stop-id">2547</span>Rajsko Pałac (2)</a>
+<a class="stop" href="../rozklady/12/2536-jawiszowice.html"><span class="stop-id">2536</span>Rajsko Cegielnia (1)</a>
+
+<div class="zone zone-brzeszcze">STREFA BRZESZCZE</div>
+  
+<a class="stop" href="../rozklady/12/2537-jawiszowice.html"><span class="stop-id">2537</span>Brzeszcze Budy (1)</a>
+<a class="stop" href="../rozklady/12/2572-jawiszowice.html"><span class="stop-id">2572</span>Brzeszcze Partyzantów (1)</a>
+<a class="stop" href="../rozklady/12/2571-jawiszowice.html"><span class="stop-id">2571</span>Brzeszcze Bór (Ofiar Oświęcimia) (1)</a>
+<a class="stop" href="../rozklady/12/2582-jawiszowice.html"><span class="stop-id">2582</span>Brzeszcze KWK (1)</a>
+<a class="stop" href="../rozklady/12/2562-jawiszowice.html"><span class="stop-id">2562</span>Brzeszcze Szkoła (1)</a>
+<a class="stop" href="../rozklady/12/2561-jawiszowice.html"><span class="stop-id">2561</span>Brzeszcze Kościół (1)</a>
+<a class="stop" href="../rozklady/12/2560-jawiszowice.html"><span class="stop-id">2560</span>Brzeszcze Strażnica (1)</a>
+<a class="stop" href="../rozklady/12/2555-jawiszowice.html"><span class="stop-id">2555</span>Brzeszcze Osiedle (1)</a>
+<a class="stop" href="../rozklady/12/2553-jawiszowice.html"><span class="stop-id">2553</span>Brzeszcze Dworzec PKP (0)</a>
+<a class="stop" href="../rozklady/12/2554-jawiszowice.html"><span class="stop-id">2554</span>Brzeszcze Jawiszowice Osiedle (1)</a>
+<a class="stop" href="../rozklady/12/2559-jawiszowice.html"><span class="stop-id">2559</span>Jawiszowice Osiedle Paderewskiego (1)</a>
+<a class="stop" href="../rozklady/12/2567-jawiszowice.html"><span class="stop-id">2567</span>Jawiszowice Mickiewicza (2)</a>
+<a class="stop" href="../rozklady/12/2557-jawiszowice.html"><span class="stop-id">2557</span>Jawiszowice Kółko (1)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
