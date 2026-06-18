@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 15</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-oswiecim{
+    background:#9fc4e8;
+    color:#222;
+}
+
+.zone-brzeszcze{
+    background:#a2c4c9;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">15</div>
+
+<div class="route">
+Jawiszowice Jaźnik - Brzeszcze - Przecieszyn - Skidziń - Wilczkowice - Rajsko - Oświęcim Dworzec Fabryczny
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Oświęcim Dworzec Fabryczny</h2>
+
+<div class="zone zone-brzeszcze">STREFA BRZESZCZE</div>
+  
+<a class="stop" href="../rozklady/15/2627-oswiecim.html"><span class="stop-id">2627</span>Jawiszowice Jaźnik (1)</a>
+<a class="stop" href="../rozklady/15/2628-oswiecim.html"><span class="stop-id">2628</span>Jawiszowice Olszyny (2)</a>
+<a class="stop" href="../rozklady/15/2630-oswiecim.html"><span class="stop-id">2630</span>Jawiszowice na żądanie (1)</a>
+<a class="stop" href="../rozklady/15/2633-oswiecim.html"><span class="stop-id">2633</span>Jawiszowice Cmentarz (1)</a>
+<a class="stop" href="../rozklady/15/2613-oswiecim.html"><span class="stop-id">2613</span>Jawiszowice Przeczna (1)</a>
+<a class="stop" href="../rozklady/15/2615-oswiecim.html"><span class="stop-id">2615</span>Jawiszowice Las (1)</a>
+<a class="stop" href="../rozklady/15/2616-oswiecim.html"><span class="stop-id">2616</span>Jawiszowice Krzyżówka (1)</a>
+<a class="stop" href="../rozklady/15/2617-oswiecim.html"><span class="stop-id">2617</span>Jawiszowice Przeczna I (1)</a>
+<a class="stop" href="../rozklady/15/2618-oswiecim.html"><span class="stop-id">2618</span>Jawiszowice Przeczna II (1)</a>
+<a class="stop" href="../rozklady/15/2619-oswiecim.html"><span class="stop-id">2619</span>Jawiszowice Przeczna III (1)</a>
+<a class="stop" href="../rozklady/15/2614-oswiecim.html"><span class="stop-id">2614</span>Jawiszowice Przeczna (2)</a>
+<a class="stop" href="../rozklady/15/2568-oswiecim.html"><span class="stop-id">2568</span>Jawiszowice Kółko (2)</a>
+<a class="stop" href="../rozklady/15/2558-oswiecim.html"><span class="stop-id">2558</span>Jawiszowice Mickiewicza (1)</a>
+<a class="stop" href="../rozklady/15/2566-oswiecim.html"><span class="stop-id">2566</span>Jawiszowice Osiedle Paderewskiego (2)</a>
+<a class="stop" href="../rozklady/15/2553-oswiecim.html"><span class="stop-id">2553</span>Brzeszcze Dworzec PKP (0)</a>
+<a class="stop" href="../rozklady/15/2554-oswiecim.html"><span class="stop-id">2554</span>Brzeszcze Jawiszowice Osiedle (1)</a>
+<a class="stop" href="../rozklady/15/2556-oswiecim.html"><span class="stop-id">2556</span>Brzeszcze Osiedle (2)</a>
+<a class="stop" href="../rozklady/15/2565-oswiecim.html"><span class="stop-id">2565</span>Brzeszcze Strażnica (2)</a>
+<a class="stop" href="../rozklady/15/2564-oswiecim.html"><span class="stop-id">2564</span>Brzeszcze Kościół (2)</a>
+<a class="stop" href="../rozklady/15/2563-oswiecim.html"><span class="stop-id">2563</span>Brzeszcze Szkoła (2)</a>
+<a class="stop" href="../rozklady/15/2581-oswiecim.html"><span class="stop-id">2581</span>Brzeszcze Super Sam (1)</a>
+<a class="stop" href="../rozklady/15/2578-oswiecim.html"><span class="stop-id">2578</span>Brzeszcze Chałpy (2)</a>
+<a class="stop" href="../rozklady/15/2577-oswiecim.html"><span class="stop-id">2577</span>Przecieszyn Krzyżówka (2)</a>
+<a class="stop" href="../rozklady/15/2576-oswiecim.html"><span class="stop-id">2576</span>Przecieszyn Poczta (1)</a>
+<a class="stop" href="../rozklady/15/2588-oswiecim.html"><span class="stop-id">2588</span>Skidziń Sklep (2)</a>
+<a class="stop" href="../rozklady/15/2586-oswiecim.html"><span class="stop-id">2586</span>Skidziń Kuźnia (2)</a>
+<a class="stop" href="../rozklady/15/2584-oswiecim.html"><span class="stop-id">2584</span>Skidziń Szkoła (2)</a>
+<a class="stop" href="../rozklady/15/0650-oswiecim.html"><span class="stop-id">0650</span>Wilczkowice (1)</a>
+<a class="stop" href="../rozklady/15/0651-oswiecim.html"><span class="stop-id">0651</span>Wilczkowice na żądanie (1)</a>
+
+<div class="zone zone-oswiecim">STREFA OŚWIĘCIM</div>
+  
+<a class="stop" href="../rozklady/15/0652-oswiecim.html"><span class="stop-id">0652</span>Rajsko Cmentarz (2)</a>
+<a class="stop" href="../rozklady/15/0653-oswiecim.html"><span class="stop-id">0653</span>Rajsko Żwirownia (2)</a>
+<a class="stop" href="../rozklady/15/0654-oswiecim.html"><span class="stop-id">0654</span>Rajsko Kościół (1)</a>
+<a class="stop" href="../rozklady/15/0655-oswiecim.html"><span class="stop-id">0655</span>Rajsko Pomnik (2)</a>
+<a class="stop" href="../rozklady/15/0656-oswiecim.html"><span class="stop-id">0656</span>Rajsko Centrum (2)</a>
+<a class="stop" href="../rozklady/15/0657-oswiecim.html"><span class="stop-id">0657</span>Rajsko Ogrody (2)</a>
+<a class="stop" href="../rozklady/15/0658-oswiecim.html"><span class="stop-id">0658</span>Oświęcim Uczelnia (1)</a>
+<a class="stop" href="../rozklady/15/0659-oswiecim.html"><span class="stop-id">0659</span>Oświęcim Leszczyńskiej Muzeum (2)</a>
+<a class="stop" href="../rozklady/15/0660-oswiecim.html"><span class="stop-id">0660</span>Oświęcim Szkoła (1)</a>
+<a class="stop" href="../rozklady/15/0661-oswiecim.html"><span class="stop-id">0661</span>Oświęcim MZK (2)</a>
+<a class="stop" href="../rozklady/15/0666-oswiecim.html"><span class="stop-id">0666</span>Oświęcim Dworzec PKP (2)</a>
+<a class="stop" href="../rozklady/15/0667-oswiecim.html"><span class="stop-id">0667</span>Oświęcim Niwa (2)</a>
+<a class="stop" href="../rozklady/15/0668-oswiecim.html"><span class="stop-id">0668</span>Oświęcim Stacja BP (1)</a>
+<a class="stop" href="../rozklady/15/0669-oswiecim.html"><span class="stop-id">0669</span>Oświęcim Dąbrowskiego Kościół (1)</a>
+<a class="stop" href="../rozklady/15/0670-oswiecim.html"><span class="stop-id">0670</span>Oświęcim Dąbrowskiego Cmentarz (0)</a>
+<a class="stop" href="../rozklady/15/0873-oswiecim.html"><span class="stop-id">0873</span>Oświęcim Dąbrowskiego Szpital (2)</a>
+<a class="stop" href="../rozklady/15/1508-oswiecim.html"><span class="stop-id">1508</span>Oświęcim Dąbrowskiego (2)</a>
+<a class="stop" href="../rozklady/15/1506-oswiecim.html"><span class="stop-id">1506</span>Oświęcim Transchemia (1)</a>
+<a class="stop" href="../rozklady/15/0621-oswiecim.html"><span class="stop-id">0621</span>Oświęcim Lodowisko (1)</a>
+<a class="stop" href="../rozklady/15/0874-oswiecim.html"><span class="stop-id">0874</span>Oświęcim Pod Borem 2 (2)</a>
+<a class="stop" href="../rozklady/15/0875-oswiecim.html"><span class="stop-id">0875</span>Oświęcim Monowice Inkubator Przedsiębiorczości (1)</a>
+<a class="stop" href="../rozklady/15/0876-oswiecim.html"><span class="stop-id">0876</span>Oświęcim Brama (2)</a>
+<a class="stop" href="../rozklady/15/0877-oswiecim.html"><span class="stop-id">0877</span>Oświęcim Monowice (1)</a>
+<a class="stop" href="../rozklady/15/0878-oswiecim.html"><span class="stop-id">0878</span>Oświęcim Gazy Techniczne (2)</a>
+<a class="stop" href="../rozklady/15/0879-oswiecim.html"><span class="stop-id">0879</span>Oświęcim Dworzec Fabryczny (2)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Jawiszowice Jaźnik</h2>
+
+<div class="zone zone-oswiecim">STREFA OŚWIĘCIM</div>
+
+<a class="stop" href="../rozklady/15/0830-jawiszowice.html"><span class="stop-id">0830</span>Oświęcim Dworzec Fabryczny (1)</a>
+<a class="stop" href="../rozklady/15/0831-jawiszowice.html"><span class="stop-id">0831</span>Oświęcim Gazy Techniczne (1)</a>
+<a class="stop" href="../rozklady/15/0832-jawiszowice.html"><span class="stop-id">0832</span>Oświęcim Monowice (2)</a>
+<a class="stop" href="../rozklady/15/0833-jawiszowice.html"><span class="stop-id">0833</span>Oświęcim Brama (1)</a>
+<a class="stop" href="../rozklady/15/0834-jawiszowice.html"><span class="stop-id">0834</span>Oświęcim Monowice Inkubator Przedsiębiorczości (2)</a>
+<a class="stop" href="../rozklady/15/0835-jawiszowice.html"><span class="stop-id">0835</span>Oświęcim Pod Borem 2 (1)</a>
+<a class="stop" href="../rozklady/15/0676-jawiszowice.html"><span class="stop-id">0676</span>Oświęcim Lodowisko (2)</a>
+<a class="stop" href="../rozklady/15/1505-jawiszowice.html"><span class="stop-id">1505</span>Oświęcim Transchemia (2)</a>
+<a class="stop" href="../rozklady/15/1507-jawiszowice.html"><span class="stop-id">1507</span>Oświęcim Dąbrowskiego (1)</a>
+<a class="stop" href="../rozklady/15/0836-jawiszowice.html"><span class="stop-id">0836</span>Oświęcim Dąbrowskiego Szpital (1)</a>
+<a class="stop" href="../rozklady/15/0628-jawiszowice.html"><span class="stop-id">0628</span>Oświęcim Dąbrowskiego Miasto (1)</a>
+<a class="stop" href="../rozklady/15/0629-jawiszowice.html"><span class="stop-id">0629</span>Oświęcim Stacja BP (2)</a>
+<a class="stop" href="../rozklady/15/0630-jawiszowice.html"><span class="stop-id">0630</span>Oświęcim Niwa (1)</a>
+<a class="stop" href="../rozklady/15/0631-jawiszowice.html"><span class="stop-id">0631</span>Oświęcim Dworzec PKP (1)</a>
+<a class="stop" href="../rozklady/15/0637-jawiszowice.html"><span class="stop-id">0637</span>Oświęcim MZK (1)</a>
+<a class="stop" href="../rozklady/15/0638-jawiszowice.html"><span class="stop-id">0638</span>Oświęcim Szkoła (2)</a>
+<a class="stop" href="../rozklady/15/0639-jawiszowice.html"><span class="stop-id">0639</span>Oświęcim Szajny (1)</a>
+<a class="stop" href="../rozklady/15/0640-jawiszowice.html"><span class="stop-id">0640</span>Oświęcim Uczelnia (2)</a>
+<a class="stop" href="../rozklady/15/0641-jawiszowice.html"><span class="stop-id">0641</span>Rajsko Ogrody (1)</a>
+<a class="stop" href="../rozklady/15/0642-jawiszowice.html"><span class="stop-id">0642</span>Rajsko Centrum (1)</a>
+<a class="stop" href="../rozklady/15/0643-jawiszowice.html"><span class="stop-id">0643</span>Rajsko Pomnik (1)</a>
+<a class="stop" href="../rozklady/15/0644-jawiszowice.html"><span class="stop-id">0644</span>Rajsko Kościół (2)</a>
+<a class="stop" href="../rozklady/15/0645-jawiszowice.html"><span class="stop-id">0645</span>Rajsko Żwirownia (1)</a>
+<a class="stop" href="../rozklady/15/0646-jawiszowice.html"><span class="stop-id">0646</span>Rajsko Cmentarz (1)</a>
+
+<div class="zone zone-brzeszcze">STREFA BRZESZCZE</div>
+  
+<a class="stop" href="../rozklady/15/0647-jawiszowice.html"><span class="stop-id">0647</span>Wilczkowice na żądanie (2)</a>
+<a class="stop" href="../rozklady/15/0648-jawiszowice.html"><span class="stop-id">0648</span>Wilczkowice (2)</a>
+<a class="stop" href="../rozklady/15/2583-jawiszowice.html"><span class="stop-id">2583</span>Skidziń Szkoła (1)</a>
+<a class="stop" href="../rozklady/15/2585-jawiszowice.html"><span class="stop-id">2585</span>Skidziń Kuźnia (1)</a>
+<a class="stop" href="../rozklady/15/2587-jawiszowice.html"><span class="stop-id">2587</span>Skidziń Sklep (1)</a>
+<a class="stop" href="../rozklady/15/2575-jawiszowice.html"><span class="stop-id">2575</span>Przecieszyn Poczta (2)</a>
+<a class="stop" href="../rozklady/15/2574-jawiszowice.html"><span class="stop-id">2574</span>Przecieszyn Krzyżówka (1)</a>
+<a class="stop" href="../rozklady/15/2573-jawiszowice.html"><span class="stop-id">2573</span>Brzeszcze Chałpy (1)</a>
+<a class="stop" href="../rozklady/15/2570-jawiszowice.html"><span class="stop-id">2570</span>Brzeszcze Super Sam (2)</a>
+<a class="stop" href="../rozklady/15/2562-jawiszowice.html"><span class="stop-id">2562</span>Brzeszcze Szkoła (1)</a>
+<a class="stop" href="../rozklady/15/2561-jawiszowice.html"><span class="stop-id">2561</span>Brzeszcze Kościół (1)</a>
+<a class="stop" href="../rozklady/15/2560-jawiszowice.html"><span class="stop-id">2560</span>Brzeszcze Strażnica (1)</a>
+<a class="stop" href="../rozklady/15/2555-jawiszowice.html"><span class="stop-id">2555</span>Brzeszcze Osiedle (1)</a>
+<a class="stop" href="../rozklady/15/2553-jawiszowice.html"><span class="stop-id">2553</span>Brzeszcze Dworzec PKP (0)</a>
+<a class="stop" href="../rozklady/15/2554-jawiszowice.html"><span class="stop-id">2554</span>Brzeszcze Jawiszowice Osiedle (1)</a>
+<a class="stop" href="../rozklady/15/2559-jawiszowice.html"><span class="stop-id">2559</span>Jawiszowice Osiedle Paderewskiego (1)</a>
+<a class="stop" href="../rozklady/15/2567-jawiszowice.html"><span class="stop-id">2567</span>Jawiszowice Mickiewicza (2)</a>
+<a class="stop" href="../rozklady/15/2557-jawiszowice.html"><span class="stop-id">2557</span>Jawiszowice Kółko (1)</a>
+<a class="stop" href="../rozklady/15/2613-jawiszowice.html"><span class="stop-id">2613</span>Jawiszowice Przeczna (1)</a>
+<a class="stop" href="../rozklady/15/2615-jawiszowice.html"><span class="stop-id">2615</span>Jawiszowice Las (1)</a>
+<a class="stop" href="../rozklady/15/2616-jawiszowice.html"><span class="stop-id">2616</span>Jawiszowice Krzyżówka (1)</a>
+<a class="stop" href="../rozklady/15/2617-jawiszowice.html"><span class="stop-id">2617</span>Jawiszowice Przeczna I (1)</a>
+<a class="stop" href="../rozklady/15/2618-jawiszowice.html"><span class="stop-id">2618</span>Jawiszowice Przeczna II (1)</a>
+<a class="stop" href="../rozklady/15/2619-jawiszowice.html"><span class="stop-id">2619</span>Jawiszowice Przeczna III (1)</a>
+<a class="stop" href="../rozklady/15/2614-jawiszowice.html"><span class="stop-id">2614</span>Jawiszowice Przeczna (2)</a>
+<a class="stop" href="../rozklady/15/2631-jawiszowice.html"><span class="stop-id">2631</span>Jawiszowice na żądanie (2)</a>
+<a class="stop" href="../rozklady/15/2629-jawiszowice.html"><span class="stop-id">2629</span>Jawiszowice Olszyny (1)</a>
+<a class="stop" href="../rozklady/15/2627-jawiszowice.html"><span class="stop-id">2627</span>Jawiszowice Jaźnik (1)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
