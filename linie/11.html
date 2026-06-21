@@ -131,6 +131,67 @@ body{
     height:8px;
 }
 
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
 .zone{
     text-align:center;
     color:white;
@@ -188,7 +249,7 @@ Olkusz Dworzec PKS - Rabsztyn - Troks - Braciejówka - Michałówka - Jangrot - 
 
 <div class="zone zone-olkusz">STREFA OLKUSZ</div>
   
-<a class="stop" href="../rozklady/11/0200-tarnawa.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
+<a class="stop terminal" href="../rozklady/11/0200-tarnawa.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
 <a class="stop" href="../rozklady/11/0228-tarnawa.html"><span class="stop-id">0228</span>Olkusz Skarbek (1)</a>
 <a class="stop" href="../rozklady/11/0284-tarnawa.html"><span class="stop-id">0284</span>Olkusz Rabsztyńska Supermarket (0)</a>
 <a class="stop" href="../rozklady/11/0285-tarnawa.html"><span class="stop-id">0285</span>Olkusz Rabsztyńska (2)</a>
@@ -230,14 +291,14 @@ Olkusz Dworzec PKS - Rabsztyn - Troks - Braciejówka - Michałówka - Jangrot - 
 <a class="stop" href="../11/0762-tarnawa.html"><span class="stop-id">0762</span>Tarnawa Parcela (2)</a>
 <a class="stop" href="../11/0759-tarnawa.html"><span class="stop-id">0759</span>Tarnawa Kościół (1)</a>
 <a class="stop" href="../11/0758-tarnawa.html"><span class="stop-id">0758</span>Tarnawa Wieś (2)</a>
-<a class="stop" href="../11/0755-tarnawa.html"><span class="stop-id">0755</span>Tarnawa Podlas (1)</a>
+<a class="stop terminal" href="../11/0755-tarnawa.html"><span class="stop-id">0755</span>Tarnawa Podlas (1)</a>
 
 <div class="zone zone-suloszowa-skala">STREFA SUŁOSZOWA-SKAŁA</div>
   
 <a class="stop variant" href="../11/0752-tarnawa.html"><span class="stop-id">0752</span>Barbarka Wesoła Ściborzanka (1)</a>
 <a class="stop variant" href="../11/0751-tarnawa.html"><span class="stop-id">0751</span>Barbarka Remiza (2)</a>
 <a class="stop variant" href="../11/0749-tarnawa.html"><span class="stop-id">0749</span>Barbarka Pogorzelec (2)</a>
-<a class="stop variant" href="../11/0747-tarnawa.html"><span class="stop-id">0747</span>Poręba Laskowska (0)</a>
+<a class="stop variant terminal" href="../11/0747-tarnawa.html"><span class="stop-id">0747</span>Poręba Laskowska (0)</a>
 
 </div>
 
@@ -247,7 +308,7 @@ Olkusz Dworzec PKS - Rabsztyn - Troks - Braciejówka - Michałówka - Jangrot - 
 
 <div class="zone zone-suloszowa-skala">STREFA SUŁOSZOWA-SKAŁA</div>
   
-<a class="stop variant" href="../11/0747-olkusz.html"><span class="stop-id">0747</span>Poręba Laskowska (0)</a>
+<a class="stop variant terminal" href="../11/0747-olkusz.html"><span class="stop-id">0747</span>Poręba Laskowska (0)</a>
 <a class="stop variant" href="../11/0748-olkusz.html"><span class="stop-id">0748</span>Barbarka Pogorzelec (1)</a>
 <a class="stop variant" href="../11/0750-olkusz.html"><span class="stop-id">0750</span>Barbarka Remiza (1)</a>
 <a class="stop variant" href="../11/0753-olkusz.html"><span class="stop-id">0753</span>Barbarka Wesoła Ściborzanka (2)</a>
@@ -255,7 +316,7 @@ Olkusz Dworzec PKS - Rabsztyn - Troks - Braciejówka - Michałówka - Jangrot - 
 
 <div class="zone zone-trzyciaz">STREFA TRZYCIĄŻ</div>
   
-<a class="stop" href="../11/0756-olkusz.html"><span class="stop-id">0756</span>Tarnawa Podlas (2)</a>
+<a class="stop terminal" href="../11/0756-olkusz.html"><span class="stop-id">0756</span>Tarnawa Podlas (2)</a>
 <a class="stop" href="../11/0757-olkusz.html"><span class="stop-id">0757</span>Tarnawa Wieś (1)</a>
 <a class="stop" href="../11/0760-olkusz.html"><span class="stop-id">0760</span>Tarnawa Kościół (2)</a>
 <a class="stop" href="../11/0761-olkusz.html"><span class="stop-id">0761</span>Tarnawa Parcela (1)</a>
@@ -297,7 +358,7 @@ Olkusz Dworzec PKS - Rabsztyn - Troks - Braciejówka - Michałówka - Jangrot - 
 <a class="stop" href="../11/0283-olkusz.html"><span class="stop-id">0283</span>Olkusz Rabsztyńska (1)</a>
 <a class="stop" href="../11/0174-olkusz.html"><span class="stop-id">0174</span>Olkusz Supersam (0)</a>
 <a class="stop" href="../11/0199-olkusz.html"><span class="stop-id">0199</span>Olkusz Skarbek (2)</a>
-<a class="stop" href="../11/0200-olkusz.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
+<a class="stop terminal" href="../11/0200-olkusz.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
 
 </div>
 
