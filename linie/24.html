@@ -160,6 +160,66 @@ body{
   font-style: italic;
 }
 
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
 
 .zone{
     text-align:center;
@@ -215,7 +275,7 @@ Chrzanów Dworzec Autobusowy - Chrzanów ZUS - (Chrzanów Fablok) - Chrzanów Ka
 
 <div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
 
-<a class="stop" href="../rozklady/24/0684-okrezna.html"><span class="stop-id">0684</span>Chrzanów Dworzec Autobusowy (2)</a>
+<a class="stop terminal terminal-start" href="../rozklady/24/0684-okrezna.html"><span class="stop-id">0684</span>Chrzanów Dworzec Autobusowy (2)</a>
 <a class="stop" href="../rozklady/24/0096-okrezna.html"><span class="stop-id">0096</span>Chrzanów Plac Tysiąclecia (3)</a>
 <a class="stop" href="../rozklady/24/0352-okrezna.html"><span class="stop-id">0352</span>Chrzanów ZUS (1)</a>
 <a class="stop" href="../rozklady/24/0332-okrezna.html"><span class="stop-id">0332</span>Chrzanów Sienna (1)</a>
@@ -231,7 +291,7 @@ Chrzanów Dworzec Autobusowy - Chrzanów ZUS - (Chrzanów Fablok) - Chrzanów Ka
 <a class="stop" href="../rozklady/24/0117-okrezna.html"><span class="stop-id">0117</span>Chrzanów Szpitalna (3)</a>
 <a class="stop" href="../rozklady/24/0093-okrezna.html"><span class="stop-id">0093</span>Chrzanów Szpital (2)</a>
 <a class="stop" href="../rozklady/24/0094-okrezna.html"><span class="stop-id">0094</span>Chrzanów Szpitalna (1)</a>
-<a class="stop" href="../rozklady/24/0334-okrezna.html"><span class="stop-id">0334</span>Chrzanów Dworzec Autobusowy (4)</a>
+<a class="stop terminal terminal-end" href="../rozklady/24/0334-okrezna.html"><span class="stop-id">0334</span>Chrzanów Dworzec Autobusowy (4)</a>
 
 </div>
 
