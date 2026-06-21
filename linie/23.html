@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 23</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-olkusz{
+    background:#ffe599;
+    color:#222;
+}
+
+.zone-trzyciaz{
+    background:#2c17ba1;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">23</div>
+
+<div class="route">
+Imbramowice Dolne - Zagórowa - Milonki - Zadroże - Trzyciąż - Jangrot - Michałówka - Braciejówka - Troks - Rabsztyn - Słowiki - Olkusz Dworzec PKS
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Olkusz Dworzec PKS</h2>
+
+<div class="zone zone-trzyciaz">STREFA TRZYCIĄŻ</div>
+  
+<a class="stop" href="../rozklady/23/2485-olkusz.html"><span class="stop-id">2485</span>Imbramowice Dolne (1)</a>
+<a class="stop" href="../rozklady/23/2499-olkusz.html"><span class="stop-id">2499</span>Imbramowice Szkoła (1)</a>
+<a class="stop" href="../rozklady/23/2507-olkusz.html"><span class="stop-id">2507</span>Imbramowice Kolonia Dolna II (1)</a>
+<a class="stop" href="../rozklady/23/2505-olkusz.html"><span class="stop-id">2505</span>Imbramowice Kolonia Dolna I (1)</a>
+<a class="stop" href="../rozklady/23/0775-olkusz.html"><span class="stop-id">0775</span>Zagórowa Centrum (1)</a>
+<a class="stop" href="../rozklady/23/0773-olkusz.html"><span class="stop-id">0773</span>Zagórowa (1)</a>
+<a class="stop" href="../rozklady/23/0769-olkusz.html"><span class="stop-id">0769</span>Milonki II (1)</a>
+<a class="stop" href="../rozklady/23/0767-olkusz.html"><span class="stop-id">0767</span>Milonki Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/23/0778-olkusz.html"><span class="stop-id">0778</span>Zadroże OSP (2)</a>
+<a class="stop" href="../rozklady/23/0779-olkusz.html"><span class="stop-id">0779</span>Zadroże Kościół (1)</a>
+<a class="stop" href="../rozklady/23/0781-olkusz.html"><span class="stop-id">0781</span>Zadroże Skotnica (1)</a>
+<a class="stop" href="../rozklady/23/0783-olkusz.html"><span class="stop-id">0783</span>Zadroże Studzianki (1)</a>
+<a class="stop" href="../rozklady/23/0786-olkusz.html"><span class="stop-id">0786</span>Zadroże Gołębia Góra (2)</a>
+<a class="stop" href="../rozklady/23/0264-olkusz.html"><span class="stop-id">0264</span>Trzyciąż Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/23/0265-olkusz.html"><span class="stop-id">0265</span>Jangrot Źródło Dłubni (1)</a>
+<a class="stop" href="../rozklady/23/0266-olkusz.html"><span class="stop-id">0266</span>Jangrot Centrum (2)</a>
+<a class="stop" href="../rozklady/23/0267-olkusz.html"><span class="stop-id">0267</span>Jangrot Kosmolów (1)</a>
+<a class="stop" href="../rozklady/23/0268-olkusz.html"><span class="stop-id">0268</span>Jangrot Granica (2)</a>
+<a class="stop" href="../rozklady/23/0269-olkusz.html"><span class="stop-id">0269</span>Michałówka Granica (1)</a>
+<a class="stop" href="../rozklady/23/0270-olkusz.html"><span class="stop-id">0270</span>Michałówka OSP (2)</a>
+<a class="stop" href="../rozklady/23/0271-olkusz.html"><span class="stop-id">0271</span>Michałówka (2)</a>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+  
+<a class="stop" href="../rozklady/23/0272-olkusz.html"><span class="stop-id">0272</span>Braciejówka Granica (1)</a>
+<a class="stop" href="../rozklady/23/0273-olkusz.html"><span class="stop-id">0273</span>Braciejówka Szkoła (1)</a>
+<a class="stop" href="../rozklady/23/0274-olkusz.html"><span class="stop-id">0274</span>Braciejówka Zalew (2)</a>
+<a class="stop" href="../rozklady/23/0275-olkusz.html"><span class="stop-id">0275</span>Braciejówka Cmentarz (1)</a>
+<a class="stop" href="../rozklady/23/0276-olkusz.html"><span class="stop-id">0276</span>Troks Granica (1)</a>
+<a class="stop" href="../rozklady/23/0277-olkusz.html"><span class="stop-id">0277</span>Troks Szkoła (1)</a>
+<a class="stop" href="../rozklady/23/0278-olkusz.html"><span class="stop-id">0278</span>Troks (1)</a>
+<a class="stop" href="../rozklady/23/0279-olkusz.html"><span class="stop-id">0279</span>Troks Las (1)</a>
+<a class="stop" href="../rozklady/23/0280-olkusz.html"><span class="stop-id">0280</span>Rabsztyn (1)</a>
+<a class="stop" href="../rozklady/23/0281-olkusz.html"><span class="stop-id">0281</span>Rabsztyn Ogródki Działkowe (1)</a>
+<a class="stop" href="../rozklady/23/0282-olkusz.html"><span class="stop-id">0282</span>Olkusz Sikorka (1)</a>
+<a class="stop" href="../rozklady/23/0283-olkusz.html"><span class="stop-id">0283</span>Olkusz Rabsztyńska (1)</a>
+<a class="stop" href="../rozklady/23/0435-olkusz.html"><span class="stop-id">0435</span>Olkusz Supersam (1)</a>
+<a class="stop" href="../rozklady/23/2460-olkusz.html"><span class="stop-id">2460</span>Olkusz Rataja (2)</a>
+<a class="stop" href="../rozklady/23/2454-olkusz.html"><span class="stop-id">2454</span>Olkusz Rataja Szkoła (1)</a>
+<a class="stop" href="../rozklady/23/2462-olkusz.html"><span class="stop-id">2462</span>Olkusz Witosa (2)</a>
+<a class="stop" href="../rozklady/23/2452-olkusz.html"><span class="stop-id">2452</span>Olkusz Pakuska Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/23/2464-olkusz.html"><span class="stop-id">2464</span>Olkusz Pakuska (2)</a>
+<a class="stop" href="../rozklady/23/0226-olkusz.html"><span class="stop-id">0226</span>Olkusz Wiadukt (2)</a>
+<a class="stop" href="../rozklady/23/0200-olkusz.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Imbramowice Dolne</h2>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+  
+<a class="stop" href="../rozklady/23/0200-imbramowice.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
+<a class="stop" href="../rozklady/23/0202-imbramowice.html"><span class="stop-id">0202</span>Olkusz Wiadukt (1)</a>
+<a class="stop" href="../rozklady/23/2451-imbramowice.html"><span class="stop-id">2451</span>Olkusz Pakuska (1)</a>
+<a class="stop" href="../rozklady/23/2463-imbramowice.html"><span class="stop-id">2463</span>Olkusz Pakuska Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/23/2453-imbramowice.html"><span class="stop-id">2453</span>Olkusz Witosa (1)</a>
+<a class="stop" href="../rozklady/23/2461-imbramowice.html"><span class="stop-id">2461</span>Olkusz Rataja Szkoła (2)</a>
+<a class="stop" href="../rozklady/23/2455-imbramowice.html"><span class="stop-id">2455</span>Olkusz Rataja (1)</a>
+<a class="stop" href="../rozklady/23/0284-imbramowice.html"><span class="stop-id">0284</span>Olkusz Rabsztyńska Supermarket (0)</a>
+<a class="stop" href="../rozklady/23/0285-imbramowice.html"><span class="stop-id">0285</span>Olkusz Rabsztyńska (2)</a>
+<a class="stop" href="../rozklady/23/0286-imbramowice.html"><span class="stop-id">0286</span>Olkusz Sikorka (2)</a>
+<a class="stop" href="../rozklady/23/0287-imbramowice.html"><span class="stop-id">0287</span>Rabsztyn Ogródki Działkowe (2)</a>
+<a class="stop" href="../rozklady/23/0288-imbramowice.html"><span class="stop-id">0288</span>Rabsztyn (2)</a>
+<a class="stop" href="../rozklady/23/0289-imbramowice.html"><span class="stop-id">0289</span>Troks Las (2)</a>
+<a class="stop" href="../rozklady/23/0290-imbramowice.html"><span class="stop-id">0290</span>Troks (2)</a>
+<a class="stop" href="../rozklady/23/0291-imbramowice.html"><span class="stop-id">0291</span>Troks Szkoła (2)</a>
+<a class="stop" href="../rozklady/23/0292-imbramowice.html"><span class="stop-id">0292</span>Troks Granica (2)</a>
+<a class="stop" href="../rozklady/23/0293-imbramowice.html"><span class="stop-id">0293</span>Braciejówka Cmentarz (2)</a>
+<a class="stop" href="../rozklady/23/0294-imbramowice.html"><span class="stop-id">0294</span>Braciejówka Zalew (1)</a>
+<a class="stop" href="../rozklady/23/0295-imbramowice.html"><span class="stop-id">0295</span>Braciejówka Szkoła (2)</a>
+<a class="stop" href="../rozklady/23/0296-imbramowice.html"><span class="stop-id">0296</span>Braciejówka Granica (2)</a>
+
+<div class="zone zone-trzyciaz">STREFA TRZYCIĄŻ</div>
+  
+<a class="stop" href="../rozklady/23/0297-imbramowice.html"><span class="stop-id">0297</span>Michałówka (1)</a>
+<a class="stop" href="../rozklady/23/0298-imbramowice.html"><span class="stop-id">0298</span>Michałówka OSP (1)</a>
+<a class="stop" href="../rozklady/23/0299-imbramowice.html"><span class="stop-id">0299</span>Michałówka Granica (2)</a>
+<a class="stop" href="../rozklady/23/0300-imbramowice.html"><span class="stop-id">0300</span>Jangrot Granica (1)</a>
+<a class="stop" href="../rozklady/23/0301-imbramowice.html"><span class="stop-id">0301</span>Jangrot Kosmolów (2)</a>
+<a class="stop" href="../rozklady/23/0302-imbramowice.html"><span class="stop-id">0302</span>Jangrot Centrum (1)</a>
+<a class="stop" href="../rozklady/23/0303-imbramowice.html"><span class="stop-id">0303</span>Jangrot Źródło Dłubni (2)</a>
+<a class="stop" href="../rozklady/23/0304-imbramowice.html"><span class="stop-id">0304</span>Trzyciąż Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/23/0785-imbramowice.html"><span class="stop-id">0785</span>Zadroże Gołębia Góra (1)</a>
+<a class="stop" href="../rozklady/23/0784-imbramowice.html"><span class="stop-id">0784</span>Zadroże Studzianki (2)</a>
+<a class="stop" href="../rozklady/23/0782-imbramowice.html"><span class="stop-id">0782</span>Zadroże Skotnica (2)</a>
+<a class="stop" href="../rozklady/23/0780-imbramowice.html"><span class="stop-id">0780</span>Zadroże Kościół (2)</a>
+<a class="stop" href="../rozklady/23/0777-imbramowice.html"><span class="stop-id">0777</span>Zadroże OSP (1)</a>
+<a class="stop" href="../rozklady/23/0770-imbramowice.html"><span class="stop-id">0770</span>Milonki II (2)</a>
+<a class="stop" href="../rozklady/23/0774-imbramowice.html"><span class="stop-id">0774</span>Zagórowa (2)</a>
+<a class="stop" href="../rozklady/23/0776-imbramowice.html"><span class="stop-id">0776</span>Zagórowa Centrum (2)</a>
+<a class="stop" href="../rozklady/23/2506-imbramowice.html"><span class="stop-id">2506</span>Imbramowice Kolonia Dolna I (2)</a>
+<a class="stop" href="../rozklady/23/2508-imbramowice.html"><span class="stop-id">2508</span>Imbramowice Kolonia Dolna II (2)</a>
+<a class="stop" href="../rozklady/23/2500-imbramowice.html"><span class="stop-id">2500</span>Imbramowice Szkoła (2)</a>
+<a class="stop" href="../rozklady/23/2488-imbramowice.html"><span class="stop-id">2488</span>Imbramowice Dolne (2)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
