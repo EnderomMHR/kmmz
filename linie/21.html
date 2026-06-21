@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 21</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-trzebinia{
+    background:#d9d2e9;
+    color:#222;
+}
+  
+.zone-bukowno{
+    background:#93c47d;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">21</div>
+
+<div class="route">
+Trzebinia Dworzec PKP - Myślachowice - Czyżówka - Podlesie - Bukowno Dworzec PKP
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Bukowno Dworzec PKP</h2>
+
+<div class="zone zone-trzebinia">STREFA TRZEBINIA</div>
+  
+<a class="stop" href="../rozklady/21/0122-bukowno.html"><span class="stop-id">0122</span>Trzebinia Dworzec PKP (2)</a>
+<a class="stop" href="../rozklady/21/3295-bukowno.html"><span class="stop-id">3295</span>Trzebinia Mały Rynek (1)</a>
+<a class="stop" href="../rozklady/21/0983-bukowno.html"><span class="stop-id">0983</span>Trzebinia Piłsudskiego Kościół (1)</a>
+<a class="stop" href="../rozklady/21/0941-bukowno.html"><span class="stop-id">0941</span>Trzebinia Zbyszek (1)</a>
+<a class="stop" href="../rozklady/21/0934-bukowno.html"><span class="stop-id">0934</span>Myślachowice Centrum I (1)</a>
+<a class="stop" href="../rozklady/21/0939-bukowno.html"><span class="stop-id">0939</span>Myślachowice Sierszecka (2)</a>
+<a class="stop" href="../rozklady/21/3296-bukowno.html"><span class="stop-id">3296</span>Myślachowice Piekarnia (2)</a>
+<a class="stop" href="../rozklady/21/0927-bukowno.html"><span class="stop-id">0927</span>Czyżówka Piła Myślachowicka (2)</a>
+<a class="stop" href="../rozklady/21/0809-bukowno.html"><span class="stop-id">0809</span>Czyżówka Mostek (2)</a>
+<a class="stop" href="../rozklady/21/0924-bukowno.html"><span class="stop-id">0924</span>Czyżówka Kaplica (1)</a>
+<a class="stop" href="../rozklady/21/2921-bukowno.html"><span class="stop-id">2921</span>Czyżówka Pętla (1)</a>
+
+<div class="zone zone-bukowno">STREFA BUKOWNO</div>
+  
+<a class="stop" href="../rozklady/21/0960-bukowno.html"><span class="stop-id">0960</span>Bukowno Podlesie Kościół (1)</a>
+<a class="stop" href="../rozklady/21/0959-bukowno.html"><span class="stop-id">0959</span>Bukowno Podlesie Ogrodowa Pętla (0)</a>
+<a class="stop" href="../rozklady/21/0961-bukowno.html"><span class="stop-id">0961</span>Bukowno Podlesie Kościół (2)</a>
+<a class="stop" href="../rozklady/21/0957-bukowno.html"><span class="stop-id">0957</span>Bukowno Podlesie Ogrodowa (1)</a>
+<a class="stop" href="../rozklady/21/0955-bukowno.html"><span class="stop-id">0955</span>Bukowno Diabla Góra (1)</a>
+<a class="stop" href="../rozklady/21/0962-bukowno.html"><span class="stop-id">0962</span>Bukowno Ogrodowa na żądanie (1)</a>
+<a class="stop" href="../rozklady/21/0964-bukowno.html"><span class="stop-id">0964</span>Bukowno Ogrodowa (1)</a>
+<a class="stop" href="../rozklady/21/1496-bukowno.html"><span class="stop-id">1496</span>Bukowno Mostowa (2)</a>
+<a class="stop" href="../rozklady/21/1498-bukowno.html"><span class="stop-id">1498</span>Bukowno Pocztowa (2)</a>
+<a class="stop" href="../rozklady/21/0743-bukowno.html"><span class="stop-id">0743</span>Bukowno Park (1)</a>
+<a class="stop" href="../rozklady/21/0744-bukowno.html"><span class="stop-id">0744</span>Bukowno Stadion (2)</a>
+<a class="stop" href="../rozklady/21/0726-bukowno.html"><span class="stop-id">0726</span>Bukowno Leśna Pętla (0)</a>
+<a class="stop" href="../rozklady/21/0745-bukowno.html"><span class="stop-id">0745</span>Bukowno Leśna Krzyżówka (1)</a>
+<a class="stop" href="../rozklady/21/0746-bukowno.html"><span class="stop-id">0746</span>Bukowno Leśna (2)</a>
+<a class="stop" href="../rozklady/21/0146-bukowno.html"><span class="stop-id">0146</span>Bukowno Urząd Miasta (2)</a>
+<a class="stop" href="../rozklady/21/0147-bukowno.html"><span class="stop-id">0147</span>Bukowno Dworzec PKP (0)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Trzebinia Dworzec PKP</h2>
+
+<div class="zone zone-bukowno">STREFA BUKOWNO</div>
+  
+<a class="stop" href="../rozklady/21/0147-trzebinia.html"><span class="stop-id">0147</span>Bukowno Dworzec PKP (0)</a>
+<a class="stop" href="../rozklady/21/0148-trzebinia.html"><span class="stop-id">0148</span>Bukowno Urząd Miasta (1)</a>
+<a class="stop" href="../rozklady/21/0724-trzebinia.html"><span class="stop-id">0724</span>Bukowno Leśna (1)</a>
+<a class="stop" href="../rozklady/21/0725-trzebinia.html"><span class="stop-id">0725</span>Bukowno Leśna Krzyżówka (2)</a>
+<a class="stop" href="../rozklady/21/0726-trzebinia.html"><span class="stop-id">0726</span>Bukowno Leśna Pętla (0)</a>
+<a class="stop" href="../rozklady/21/0727-trzebinia.html"><span class="stop-id">0727</span>Bukowno Stadion (1)</a>
+<a class="stop" href="../rozklady/21/0728-trzebinia.html"><span class="stop-id">0728</span>Bukowno Park (2)</a>
+<a class="stop" href="../rozklady/21/1497-trzebinia.html"><span class="stop-id">1497</span>Bukowno Pocztowa (1)</a>
+<a class="stop" href="../rozklady/21/1495-trzebinia.html"><span class="stop-id">1495</span>Bukowno Mostowa (1)</a>
+<a class="stop" href="../rozklady/21/0965-trzebinia.html"><span class="stop-id">0965</span>Bukowno Ogrodowa (2)</a>
+<a class="stop" href="../rozklady/21/0963-trzebinia.html"><span class="stop-id">0963</span>Bukowno Ogrodowa na żądanie (2)</a>
+<a class="stop" href="../rozklady/21/0956-trzebinia.html"><span class="stop-id">0956</span>Bukowno Diabla Góra (2)</a>
+<a class="stop" href="../rozklady/21/0958-trzebinia.html"><span class="stop-id">0958</span>Bukowno Podlesie Ogrodowa (2)</a>
+<a class="stop" href="../rozklady/21/0960-trzebinia.html"><span class="stop-id">0960</span>Bukowno Podlesie Kościół (1)</a>
+<a class="stop" href="../rozklady/21/0959-trzebinia.html"><span class="stop-id">0959</span>Bukowno Podlesie Ogrodowa Pętla (0)</a>
+<a class="stop" href="../rozklady/21/0961-trzebinia.html"><span class="stop-id">0961</span>Bukowno Podlesie Kościół (2)</a>
+
+<div class="zone zone-trzebinia">STREFA TRZEBINIA</div>
+  
+<a class="stop" href="../rozklady/21/2921-trzebinia.html"><span class="stop-id">2921</span>Czyżówka Pętla (1)</a>
+<a class="stop" href="../rozklady/21/0925-trzebinia.html"><span class="stop-id">0925</span>Czyżówka Kaplica (2)</a>
+<a class="stop" href="../rozklady/21/0808-trzebinia.html"><span class="stop-id">0808</span>Czyżówka Mostek (1)</a>
+<a class="stop" href="../rozklady/21/0926-trzebinia.html"><span class="stop-id">0926</span>Czyżówka Piła Myślachowicka (1)</a>
+<a class="stop" href="../rozklady/21/0940-trzebinia.html"><span class="stop-id">0940</span>Myślachowice Piekarnia (2)</a>
+<a class="stop" href="../rozklady/21/0938-trzebinia.html"><span class="stop-id">0938</span>Myślachowice Sierszecka (1)</a>
+<a class="stop" href="../rozklady/21/0935-trzebinia.html"><span class="stop-id">0935</span>Myślachowice Centrum I (2)</a>
+<a class="stop" href="../rozklady/21/0942-trzebinia.html"><span class="stop-id">0942</span>Trzebinia Zbyszek (2)</a>
+<a class="stop" href="../rozklady/21/0982-trzebinia.html"><span class="stop-id">0982</span>Trzebinia Piłsudskiego Kościół (2)</a>
+<a class="stop" href="../rozklady/21/0088-trzebinia.html"><span class="stop-id">0088</span>Trzebinia Mały Rynek Kościuszki (0)</a>
+<a class="stop" href="../rozklady/21/0089-trzebinia.html"><span class="stop-id">0089</span>Trzebinia Dworzec PKP (1)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
