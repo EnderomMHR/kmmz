@@ -131,6 +131,67 @@ body{
     height:8px;
 }
 
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
 .zone{
     text-align:center;
     color:white;
@@ -183,7 +244,7 @@ Jawiszowice Jaźnik - Brzeszcze - Przecieszyn - Skidziń - Wilczkowice - Rajsko 
 
 <div class="zone zone-brzeszcze">STREFA BRZESZCZE</div>
   
-<a class="stop" href="../rozklady/15/2627-oswiecim.html"><span class="stop-id">2627</span>Jawiszowice Jaźnik (1)</a>
+<a class="stop terminal" href="../rozklady/15/2627-oswiecim.html"><span class="stop-id">2627</span>Jawiszowice Jaźnik (1)</a>
 <a class="stop" href="../rozklady/15/2628-oswiecim.html"><span class="stop-id">2628</span>Jawiszowice Olszyny (2)</a>
 <a class="stop" href="../rozklady/15/2630-oswiecim.html"><span class="stop-id">2630</span>Jawiszowice na żądanie (1)</a>
 <a class="stop" href="../rozklady/15/2633-oswiecim.html"><span class="stop-id">2633</span>Jawiszowice Cmentarz (1)</a>
@@ -239,7 +300,7 @@ Jawiszowice Jaźnik - Brzeszcze - Przecieszyn - Skidziń - Wilczkowice - Rajsko 
 <a class="stop" href="../rozklady/15/0876-oswiecim.html"><span class="stop-id">0876</span>Oświęcim Brama (2)</a>
 <a class="stop" href="../rozklady/15/0877-oswiecim.html"><span class="stop-id">0877</span>Oświęcim Monowice (1)</a>
 <a class="stop" href="../rozklady/15/0878-oswiecim.html"><span class="stop-id">0878</span>Oświęcim Gazy Techniczne (2)</a>
-<a class="stop" href="../rozklady/15/0879-oswiecim.html"><span class="stop-id">0879</span>Oświęcim Dworzec Fabryczny (2)</a>
+<a class="stop terminal" href="../rozklady/15/0879-oswiecim.html"><span class="stop-id">0879</span>Oświęcim Dworzec Fabryczny (2)</a>
 
 </div>
 
@@ -249,7 +310,7 @@ Jawiszowice Jaźnik - Brzeszcze - Przecieszyn - Skidziń - Wilczkowice - Rajsko 
 
 <div class="zone zone-oswiecim">STREFA OŚWIĘCIM</div>
 
-<a class="stop" href="../rozklady/15/0830-jawiszowice.html"><span class="stop-id">0830</span>Oświęcim Dworzec Fabryczny (1)</a>
+<a class="stop terminal" href="../rozklady/15/0830-jawiszowice.html"><span class="stop-id">0830</span>Oświęcim Dworzec Fabryczny (1)</a>
 <a class="stop" href="../rozklady/15/0831-jawiszowice.html"><span class="stop-id">0831</span>Oświęcim Gazy Techniczne (1)</a>
 <a class="stop" href="../rozklady/15/0832-jawiszowice.html"><span class="stop-id">0832</span>Oświęcim Monowice (2)</a>
 <a class="stop" href="../rozklady/15/0833-jawiszowice.html"><span class="stop-id">0833</span>Oświęcim Brama (1)</a>
@@ -304,7 +365,7 @@ Jawiszowice Jaźnik - Brzeszcze - Przecieszyn - Skidziń - Wilczkowice - Rajsko 
 <a class="stop" href="../rozklady/15/2632-jawiszowice.html"><span class="stop-id">2632</span>Jawiszowice Cmentarz (2)</a>
 <a class="stop" href="../rozklady/15/2631-jawiszowice.html"><span class="stop-id">2631</span>Jawiszowice na żądanie (2)</a>
 <a class="stop" href="../rozklady/15/2629-jawiszowice.html"><span class="stop-id">2629</span>Jawiszowice Olszyny (1)</a>
-<a class="stop" href="../rozklady/15/2627-jawiszowice.html"><span class="stop-id">2627</span>Jawiszowice Jaźnik (1)</a>
+<a class="stop terminal" href="../rozklady/15/2627-jawiszowice.html"><span class="stop-id">2627</span>Jawiszowice Jaźnik (1)</a>
 
 </div>
 
