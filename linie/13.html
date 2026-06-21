@@ -131,6 +131,67 @@ body{
     height:8px;
 }
 
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
 .zone{
     text-align:center;
     color:white;
@@ -183,7 +244,7 @@ Sławków Groniec Świerkowa - Niwa - Sławków ZWM - (Krzykawka) - (Małobądz)
 
 <div class="zone zone-slawkow">STREFA SŁAWKÓW</div>
   
-<a class="stop" href="../rozklady/13/2769-zwm.html"><span class="stop-id">2769</span>Sławków Groniec Świerkowa (1)</a>
+<a class="stop terminal" href="../rozklady/13/2769-zwm.html"><span class="stop-id">2769</span>Sławków Groniec Świerkowa (1)</a>
 <a class="stop" href="../rozklady/13/2770-zwm.html"><span class="stop-id">2770</span>Sławków Groniec Kozibródek (1)</a>
 <a class="stop" href="../rozklady/13/2767-zwm.html"><span class="stop-id">2767</span>Sławków Groniec (2)</a>
 <a class="stop" href="../rozklady/13/2772-zwm.html"><span class="stop-id">2772</span>Sławków Niwa (1)</a>
@@ -196,7 +257,7 @@ Sławków Groniec Świerkowa - Niwa - Sławków ZWM - (Krzykawka) - (Małobądz)
 <a class="stop" href="../rozklady/13/0446-zwm.html"><span class="stop-id">0446</span>Sławków Poczta (2)</a>
 <a class="stop" href="../rozklady/13/0447-zwm.html"><span class="stop-id">0447</span>Sławków Rynek (2)</a>
 <a class="stop" href="../rozklady/13/0448-zwm.html"><span class="stop-id">0448</span>Sławków Olkuska (2)</a>
-<a class="stop" href="../rozklady/13/0449-zwm.html"><span class="stop-id">0449</span>Sławków ZWM (2)</a>
+<a class="stop terminal" href="../rozklady/13/0449-zwm.html"><span class="stop-id">0449</span>Sławków ZWM (2)</a>
 <a class="stop variant" href="../rozklady/13/0450-zwm.html"><span class="stop-id">0450</span>Sławków Chwaliboskie (2)</a>
 
 <div class="zone zone-boleslaw">STREFA BOLESŁAW</div>
@@ -218,7 +279,7 @@ Sławków Groniec Świerkowa - Niwa - Sławków ZWM - (Krzykawka) - (Małobądz)
 <a class="stop variant" href="../rozklady/13/0165-zwm.html"><span class="stop-id">0165</span>Bolesław Dąbrówka (1)</a>
 <a class="stop variant" href="../rozklady/13/0166-zwm.html"><span class="stop-id">0166</span>Bolesław Kluczewska (2)</a>
 <a class="stop variant" href="../rozklady/13/0167-zwm.html"><span class="stop-id">0167</span>Bolesław Kluczewska Mostek (2)</a>
-<a class="stop variant" href="../rozklady/13/0168-zwm.html"><span class="stop-id">0168</span>Hutki Pętla (1)</a>
+<a class="stop variant terminal" href="../rozklady/13/0168-zwm.html"><span class="stop-id">0168</span>Hutki Pętla (1)</a>
 
 </div>
 
@@ -228,7 +289,7 @@ Sławków Groniec Świerkowa - Niwa - Sławków ZWM - (Krzykawka) - (Małobądz)
 
 <div class="zone zone-boleslaw">STREFA BOLESŁAW</div>
   
-<a class="stop variant" href="../rozklady/13/0168-groniec.html"><span class="stop-id">0168</span>Hutki Pętla (1)</a>
+<a class="stop variant terminal" href="../rozklady/13/0168-groniec.html"><span class="stop-id">0168</span>Hutki Pętla (1)</a>
 <a class="stop variant" href="../rozklady/13/0169-groniec.html"><span class="stop-id">0169</span>Bolesław Kluczewska Mostek (1)</a>
 <a class="stop variant" href="../rozklady/13/0170-groniec.html"><span class="stop-id">0170</span>Bolesław Kluczewska (1)</a>
 <a class="stop variant" href="../rozklady/13/0243-groniec.html"><span class="stop-id">0243</span>Bolesław Centrum (1)</a>
@@ -249,7 +310,7 @@ Sławków Groniec Świerkowa - Niwa - Sławków ZWM - (Krzykawka) - (Małobądz)
 <div class="zone zone-slawkow">STREFA SŁAWKÓW</div>
   
 <a class="stop variant" href="../rozklady/13/0482-groniec.html"><span class="stop-id">0482</span>Sławków Chwaliboskie (1)</a>
-<a class="stop" href="../rozklady/13/0483-groniec.html"><span class="stop-id">0483</span>Sławków ZWM (1)</a>
+<a class="stop terminal" href="../rozklady/13/0483-groniec.html"><span class="stop-id">0483</span>Sławków ZWM (1)</a>
 <a class="stop" href="../rozklady/13/0484-groniec.html"><span class="stop-id">0484</span>Sławków Olkuska (1)</a>
 <a class="stop" href="../rozklady/13/0485-groniec.html"><span class="stop-id">0485</span>Sławków Rynek (1)</a>
 <a class="stop" href="../rozklady/13/0486-groniec.html"><span class="stop-id">0486</span>Sławków Poczta (1)</a>
@@ -262,7 +323,7 @@ Sławków Groniec Świerkowa - Niwa - Sławków ZWM - (Krzykawka) - (Małobądz)
 <a class="stop" href="../rozklady/13/2766-groniec.html"><span class="stop-id">2766</span>Sławków Niwa (2)</a>
 <a class="stop" href="../rozklady/13/2771-groniec.html"><span class="stop-id">2771</span>Sławków Groniec (1)</a>
 <a class="stop" href="../rozklady/13/2768-groniec.html"><span class="stop-id">2768</span>Sławków Groniec Kozibródek (2)</a>
-<a class="stop" href="../rozklady/13/2769-groniec.html"><span class="stop-id">2769</span>Sławków Groniec Świerkowa (1)</a>
+<a class="stop terminal" href="../rozklady/13/2769-groniec.html"><span class="stop-id">2769</span>Sławków Groniec Świerkowa (1)</a>
 
 </div>
 
