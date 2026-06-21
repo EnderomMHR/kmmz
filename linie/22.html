@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 22</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-wolbrom{
+    background:#2a8be8;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">22</div>
+
+<div class="route">
+(Wolbrom Pod Lasem) - Wolbrom Nowa PKS - Łobzów - Poręba Dzierżna - Miechówka - Kąpiele Wielkie - Dłużec - Domaniewice - Dłużec - Kąpiele Wielkie - Łobzów - Wolbrom Nowa PKS
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Wolbrom Nowa PKS</h2>
+
+<div class="zone zone-wolbrom">STREFA WOLBROM</div>
+  
+<a class="stop variant" href="../rozklady/22/0015-okrezna-1.html"><span class="stop-id">0015</span>Wolbrom Pod Lasem (1)</a>
+<a class="stop variant" href="../rozklady/22/0016-okrezna-1.html"><span class="stop-id">0016</span>Wolbrom Dworzec PKP (0)</a>
+<a class="stop variant" href="../rozklady/22/0017-okrezna-1.html"><span class="stop-id">0017</span>Wolbrom 1-ego Maja I (1)</a>
+<a class="stop variant" href="../rozklady/22/0018-okrezna-1.html"><span class="stop-id">0018</span>Wolbrom 1-ego Maja (1)</a>
+<a class="stop" href="../rozklady/22/0001-okrezna-1.html"><span class="stop-id">0001</span>Wolbrom Nowa PKS (0)</a>
+<a class="stop" href="../rozklady/22/0022-okrezna-1.html"><span class="stop-id">0022</span>Wolbrom Kościuszki (1)</a>
+<a class="stop" href="../rozklady/22/0694-okrezna-1.html"><span class="stop-id">0694</span>Łobzów Granica (1)</a>
+<a class="stop" href="../rozklady/22/0695-okrezna-1.html"><span class="stop-id">0695</span>Łobzów OSP (1)</a>
+<a class="stop" href="../rozklady/22/0696-okrezna-1.html"><span class="stop-id">0696</span>Łobzów Sieradzkie (2)</a>
+<a class="stop" href="../rozklady/22/2357-okrezna-1.html"><span class="stop-id">2357</span>Poręba Dzierżna Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/22/3276-okrezna-1.html"><span class="stop-id">3276</span>Poręba Dzierżna (2)</a>
+<a class="stop" href="../rozklady/22/2384-okrezna-1.html"><span class="stop-id">2384</span>Poręba Dzierżna Kościelna (1)</a>
+<a class="stop" href="../rozklady/22/2342-okrezna-1.html"><span class="stop-id">2342</span>Poręba Dzierżna Cmentarz (1)</a>
+<a class="stop" href="../rozklady/22/2348-okrezna-1.html"><span class="stop-id">2348</span>Miechówka (2)</a>
+<a class="stop" href="../rozklady/22/2340-okrezna-1.html"><span class="stop-id">2340</span>Kąpiele Wielkie Góra (1)</a>
+<a class="stop" href="../rozklady/22/2354-okrezna-1.html"><span class="stop-id">2354</span>Kąpiele Wielkie (2)</a>
+<a class="stop" href="../rozklady/22/2355-okrezna-1.html"><span class="stop-id">2355</span>Kąpiele Wielkie Remiza (2)</a>
+<a class="stop" href="../rozklady/22/2336-okrezna-1.html"><span class="stop-id">2336</span>Kąpiele Wielkie Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/22/2352-okrezna-1.html"><span class="stop-id">2352</span>Kąpiele Wielkie Sarnie Doły (2)</a>
+<a class="stop" href="../rozklady/22/2351-okrezna-1.html"><span class="stop-id">2351</span>Kąpiele Wielkie Domiarki (2)</a>
+<a class="stop" href="../rozklady/22/2372-okrezna-1.html"><span class="stop-id">2372</span>Dłużec Szkoła (1)</a>
+<a class="stop" href="../rozklady/22/2299-okrezna-1.html"><span class="stop-id">2299</span>Dłużec Ośrodek Zdrowia (2)</a>
+<a class="stop" href="../rozklady/22/2300-okrezna-1.html"><span class="stop-id">2300</span>Dłużec Nowa Wieś (2)</a>
+<a class="stop" href="../rozklady/22/2296-okrezna-1.html"><span class="stop-id">2296</span>Dłużec Niezdara (1)</a>
+<a class="stop" href="../rozklady/22/2302-okrezna-1.html"><span class="stop-id">2302</span>Dłużec Granica (2)</a>
+<a class="stop" href="../rozklady/22/2331-okrezna-1.html"><span class="stop-id">2331</span>Domaniewice Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/22/2310-okrezna-1.html"><span class="stop-id">2310</span>Domaniewice Remiza (0)</a>
+<a class="stop" href="../rozklady/22/2311-okrezna-1.html"><span class="stop-id">2311</span>Domaniewice Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/22/2295-okrezna-1.html"><span class="stop-id">2295</span>Dłużec Granica (1)</a>
+<a class="stop" href="../rozklady/22/2301-okrezna-1.html"><span class="stop-id">2301</span>Dłużec Niezdara (2)</a>
+<a class="stop" href="../rozklady/22/2297-okrezna-1.html"><span class="stop-id">2297</span>Dłużec Nowa Wieś (1)</a>
+<a class="stop" href="../rozklady/22/2298-okrezna-1.html"><span class="stop-id">2298</span>Dłużec Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/22/2375-okrezna-1.html"><span class="stop-id">2375</span>Dłużec Szkoła (2)</a>
+<a class="stop" href="../rozklady/22/2338-okrezna-1.html"><span class="stop-id">2338</span>Kąpiele Wielkie Domiarki (1)</a>
+<a class="stop" href="../rozklady/22/2337-okrezna-1.html"><span class="stop-id">2337</span>Kąpiele Wielkie Sarnie Doły (1)</a>
+<a class="stop" href="../rozklady/22/2353-okrezna-1.html"><span class="stop-id">2353</span>Kąpiele Wielkie Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/22/2377-okrezna-1.html"><span class="stop-id">2377</span>Kąpiele Wielkie Remiza (3)</a>
+<a class="stop" href="../rozklady/22/2378-okrezna-1.html"><span class="stop-id">2378</span>Kąpiele Wielkie Kąpielska (2)</a>
+<a class="stop" href="../rozklady/22/2381-okrezna-1.html"><span class="stop-id">2381</span>Łobzów Kolonia Kąpielska (2)</a>
+<a class="stop" href="../rozklady/22/2382-okrezna-1.html"><span class="stop-id">2382</span>Łobzów Rozdarta Wrona (2)</a>
+<a class="stop" href="../rozklady/22/0709-okrezna-1.html"><span class="stop-id">0709</span>Łobzów OSP (2)</a>
+<a class="stop" href="../rozklady/22/0710-okrezna-1.html"><span class="stop-id">0710</span>Łobzów Granica (2)</a>
+<a class="stop" href="../rozklady/22/0021-okrezna-1.html"><span class="stop-id">0021</span>Wolbrom Kościuszki (2)</a>
+<a class="stop" href="../rozklady/22/0001-okrezna-1.html"><span class="stop-id">0001</span>Wolbrom Nowa PKS (0)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Wolbrom Nowa PKS</h2>
+
+<div class="zone zone-wolbrom">STREFA WOLBROM</div>
+  
+<a class="stop" href="../rozklady/22/0001-okrezna-2.html"><span class="stop-id">0001</span>Wolbrom Nowa PKS (0)</a>
+<a class="stop" href="../rozklady/22/0022-okrezna-2.html"><span class="stop-id">0022</span>Wolbrom Kościuszki (1)</a>
+<a class="stop" href="../rozklady/22/0694-okrezna-2.html"><span class="stop-id">0694</span>Łobzów Granica (1)</a>
+<a class="stop" href="../rozklady/22/0695-okrezna-2.html"><span class="stop-id">0695</span>Łobzów OSP (1)</a>
+<a class="stop" href="../rozklady/22/2383-okrezna-2.html"><span class="stop-id">2383</span>Łobzów Rozdarta Wrona (1)</a>
+<a class="stop" href="../rozklady/22/2380-okrezna-2.html"><span class="stop-id">2380</span>Łobzów Kolonia Kąpielska (1)</a>
+<a class="stop" href="../rozklady/22/2379-okrezna-2.html"><span class="stop-id">2379</span>Kąpiele Wielkie Kąpielska (1)</a>
+<a class="stop" href="../rozklady/22/2355-okrezna-2.html"><span class="stop-id">2355</span>Kąpiele Wielkie Remiza (2)</a>
+<a class="stop" href="../rozklady/22/2336-okrezna-2.html"><span class="stop-id">2336</span>Kąpiele Wielkie Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/22/2352-okrezna-2.html"><span class="stop-id">2352</span>Kąpiele Wielkie Sarnie Doły (2)</a>
+<a class="stop" href="../rozklady/22/2351-okrezna-2.html"><span class="stop-id">2351</span>Kąpiele Wielkie Domiarki (2)</a>
+<a class="stop" href="../rozklady/22/2372-okrezna-2.html"><span class="stop-id">2372</span>Dłużec Szkoła (1)</a>
+<a class="stop" href="../rozklady/22/2299-okrezna-2.html"><span class="stop-id">2299</span>Dłużec Ośrodek Zdrowia (2)</a>
+<a class="stop" href="../rozklady/22/2300-okrezna-2.html"><span class="stop-id">2300</span>Dłużec Nowa Wieś (2)</a>
+<a class="stop" href="../rozklady/22/2296-okrezna-2.html"><span class="stop-id">2296</span>Dłużec Niezdara (1)</a>
+<a class="stop" href="../rozklady/22/2302-okrezna-2.html"><span class="stop-id">2302</span>Dłużec Granica (2)</a>
+<a class="stop" href="../rozklady/22/2331-okrezna-2.html"><span class="stop-id">2331</span>Domaniewice Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/22/2310-okrezna-2.html"><span class="stop-id">2310</span>Domaniewice Remiza (0)</a>
+<a class="stop" href="../rozklady/22/2311-okrezna-2.html"><span class="stop-id">2311</span>Domaniewice Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/22/2295-okrezna-2.html"><span class="stop-id">2295</span>Dłużec Granica (1)</a>
+<a class="stop" href="../rozklady/22/2301-okrezna-2.html"><span class="stop-id">2301</span>Dłużec Niezdara (2)</a>
+<a class="stop" href="../rozklady/22/2297-okrezna-2.html"><span class="stop-id">2297</span>Dłużec Nowa Wieś (1)</a>
+<a class="stop" href="../rozklady/22/2298-okrezna-2.html"><span class="stop-id">2298</span>Dłużec Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/22/2375-okrezna-2.html"><span class="stop-id">2375</span>Dłużec Szkoła (2)</a>
+<a class="stop" href="../rozklady/22/2338-okrezna-2.html"><span class="stop-id">2338</span>Kąpiele Wielkie Domiarki (1)</a>
+<a class="stop" href="../rozklady/22/2337-okrezna-2.html"><span class="stop-id">2337</span>Kąpiele Wielkie Sarnie Doły (1)</a>
+<a class="stop" href="../rozklady/22/2353-okrezna-2.html"><span class="stop-id">2353</span>Kąpiele Wielkie Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/22/2334-okrezna-2.html"><span class="stop-id">2334</span>Kąpiele Wielkie Remiza (1)</a>
+<a class="stop" href="../rozklady/22/2335-okrezna-2.html"><span class="stop-id">2335</span>Kąpiele Wielkie (1)</a>
+<a class="stop" href="../rozklady/22/2349-okrezna-2.html"><span class="stop-id">2349</span>Kąpiele Wielkie Góra (2)</a>
+<a class="stop" href="../rozklady/22/2341-okrezna-2.html"><span class="stop-id">2341</span>Miechówka (1)</a>
+<a class="stop" href="../rozklady/22/2347-okrezna-2.html"><span class="stop-id">2347</span>Poręba Dzierżna Cmentarz (2)</a>
+<a class="stop" href="../rozklady/22/2422-okrezna-2.html"><span class="stop-id">2422</span>Poręba Dzierżna Kościelna (2)</a>
+<a class="stop" href="../rozklady/22/3275-okrezna-2.html"><span class="stop-id">3275</span>Poręba Dzierżna (1)</a>
+<a class="stop" href="../rozklady/22/2356-okrezna-2.html"><span class="stop-id">2356</span>Poręba Dzierżna Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/22/0723-okrezna-2.html"><span class="stop-id">0723</span>Łobzów Sieradzkie (1)</a>
+<a class="stop" href="../rozklady/22/0709-okrezna-2.html"><span class="stop-id">0709</span>Łobzów OSP (2)</a>
+<a class="stop" href="../rozklady/22/0710-okrezna-2.html"><span class="stop-id">0710</span>Łobzów Granica (2)</a>
+<a class="stop" href="../rozklady/22/0021-okrezna-2.html"><span class="stop-id">0021</span>Wolbrom Kościuszki (2)</a>
+<a class="stop" href="../rozklady/22/0001-okrezna-2.html"><span class="stop-id">0001</span>Wolbrom Nowa PKS (0)</a>
+<a class="stop variant" href="../rozklady/22/0029-okrezna-2.html"><span class="stop-id">0029</span>Wolbrom 1-ego Maja I (2)</a>
+<a class="stop variant" href="../rozklady/22/0016-okrezna-2.html"><span class="stop-id">0016</span>Wolbrom Dworzec PKP (0)</a>
+<a class="stop variant" href="../rozklady/22/0015-okrezna-2.html"><span class="stop-id">0015</span>Wolbrom Pod Lasem (1)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
