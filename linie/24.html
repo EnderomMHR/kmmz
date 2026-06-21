@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 24</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.columns.single-column {
+  display: block;
+}
+
+.columns.single-column .column {
+  max-width: 560px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.columns.single-column .stop {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-chrzanow{
+    background:#a4c2f4;
+    color:#222;
+}
+
+@media (max-width: 700px) {
+  .columns.single-column .column {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+  
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">24</div>
+
+<div class="route">
+Chrzanów Dworzec Autobusowy - Chrzanów ZUS - (Chrzanów Fablok) - Chrzanów Kasztanowa - Chrzanów Dworzec Autobusowy
+</div>
+
+<div class="columns single-column">
+
+<div class="column">
+
+<h2>Kierunek: Chrzanów Dworzec Autobusowy</h2>
+
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+
+<a class="stop" href="../rozklady/24/0684-okrezna.html"><span class="stop-id">0684</span>Chrzanów Dworzec Autobusowy (2)</a>
+<a class="stop" href="../rozklady/24/0096-okrezna.html"><span class="stop-id">0096</span>Chrzanów Plac Tysiąclecia (3)</a>
+<a class="stop" href="../rozklady/24/0352-okrezna.html"><span class="stop-id">0352</span>Chrzanów ZUS (1)</a>
+<a class="stop" href="../rozklady/24/0332-okrezna.html"><span class="stop-id">0332</span>Chrzanów Sienna (1)</a>
+<a class="stop variant" href="../rozklady/24/0681-okrezna.html"><span class="stop-id">0681</span>Chrzanów Dworzec PKP (2)</a>
+<a class="stop variant" href="../rozklady/24/0682-okrezna.html"><span class="stop-id">0682</span>Chrzanów Fablok (0)</a>
+<a class="stop variant" href="../rozklady/24/0683-okrezna.html"><span class="stop-id">0683</span>Chrzanów Dworzec PKP (1)</a>
+<a class="stop" href="../rozklady/24/0333-okrezna.html"><span class="stop-id">0333</span>Chrzanów Podwale (1)</a>
+<a class="stop" href="../rozklady/24/1058-okrezna.html"><span class="stop-id">1058</span>Chrzanów Szpitalna (2)</a>
+<a class="stop" href="../rozklady/24/1161-okrezna.html"><span class="stop-id">1161</span>Chrzanów Kościelec Staw (1)</a>
+<a class="stop" href="../rozklady/24/1160-okrezna.html"><span class="stop-id">1160</span>Chrzanów Sendlerowej (0)</a>
+<a class="stop" href="../rozklady/24/1159-okrezna.html"><span class="stop-id">1159</span>Chrzanów Kasztanowa (0)</a>
+<a class="stop" href="../rozklady/24/1164-okrezna.html"><span class="stop-id">1164</span>Chrzanów Kościelec Staw (2)</a>
+<a class="stop" href="../rozklady/24/0117-okrezna.html"><span class="stop-id">0117</span>Chrzanów Szpitalna (3)</a>
+<a class="stop" href="../rozklady/24/0093-okrezna.html"><span class="stop-id">0093</span>Chrzanów Szpital (2)</a>
+<a class="stop" href="../rozklady/24/0094-okrezna.html"><span class="stop-id">0094</span>Chrzanów Szpitalna (1)</a>
+<a class="stop" href="../rozklady/24/0334-okrezna.html"><span class="stop-id">0334</span>Chrzanów Dworzec Autobusowy (4)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
