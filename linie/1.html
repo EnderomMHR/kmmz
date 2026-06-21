@@ -131,6 +131,67 @@ body{
     height:8px;
 }
 
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
 .zone{
     text-align:center;
     color:white;
@@ -193,7 +254,7 @@ body{
 
 <div class="zone zone-krzeszowice">STREFA KRZESZOWICE</div>
     
-<a class="stop variant" href="../rozklady/1/0046_libiaz.html"><span class="stop-id">0046</span>Krzeszowice Czatkowice Dolne Kopalnia (1)</a>
+<a class="stop variant terminal" href="../rozklady/1/0046_libiaz.html"><span class="stop-id">0046</span>Krzeszowice Czatkowice Dolne Kopalnia (1)</a>
 <a class="stop variant" href="../rozklady/1/0047_libiaz.html"><span class="stop-id">0047</span>Krzeszowice Czatkowice Dolne (1)</a>
 <a class="stop variant" href="../rozklady/1/0048_libiaz.html"><span class="stop-id">0048</span>Krzeszowice Aleja Solidarności Przedszkole (1)</a>
 <a class="stop variant" href="../rozklady/1/0049_libiaz.html"><span class="stop-id">0049</span>Krzeszowice Aleja Solidarności Szkoła (1)</a>
@@ -213,7 +274,7 @@ body{
 <a class="stop variant" href="../rozklady/1/0063_libiaz.html"><span class="stop-id">0063</span>Filipowice Transformator (2)</a>
 <a class="stop variant" href="../rozklady/1/0064_libiaz.html"><span class="stop-id">0064</span>Filipowice Wzgórze (2)</a>
 
-<a class="stop" href="../rozklady/1/0065_libiaz.html"><span class="stop-id">0065</span>Miękinia Stawiska (0)</a>
+<a class="stop terminal" href="../rozklady/1/0065_libiaz.html"><span class="stop-id">0065</span>Miękinia Stawiska (0)</a>
 <a class="stop" href="../rozklady/1/0066_libiaz.html"><span class="stop-id">0066</span>Filipowice Wzgórze (1)</a>
 <a class="stop" href="../rozklady/1/0067_libiaz.html"><span class="stop-id">0067</span>Filipowice Transformator (1)</a>
 <a class="stop" href="../rozklady/1/0068_libiaz.html"><span class="stop-id">0068</span>Filipowice Kościół (1)</a>
@@ -252,7 +313,7 @@ body{
 
 <a class="stop" href="../rozklady/1/0093_libiaz.html"><span class="stop-id">0093</span>Chrzanów Szpital (2)</a>
 <a class="stop" href="../rozklady/1/0094_libiaz.html"><span class="stop-id">0094</span>Chrzanów Szpitalna (1)</a>
-<a class="stop" href="../rozklady/1/0095_libiaz.html"><span class="stop-id">0095</span>Chrzanów Dworzec Autobusowy (3)</a>
+<a class="stop terminal" href="../rozklady/1/0095_libiaz.html"><span class="stop-id">0095</span>Chrzanów Dworzec Autobusowy (3)</a>
 <a class="stop" href="../rozklady/1/0096_libiaz.html"><span class="stop-id">0096</span>Chrzanów Plac Tysiąclecia (3)</a>
 <a class="stop" href="../rozklady/1/0097_libiaz.html"><span class="stop-id">0097</span>Chrzanów Park (1)</a>
 <a class="stop" href="../rozklady/1/0098_libiaz.html"><span class="stop-id">0098</span>Chrzanów Kąty Bloki (1)</a>
@@ -265,7 +326,7 @@ body{
     
 <a class="stop" href="../rozklady/1/0103_libiaz.html"><span class="stop-id">0103</span>Libiąż Chrzanowska Kamieniec (2)</a>
 <a class="stop" href="../rozklady/1/0104_libiaz.html"><span class="stop-id">0104</span>Libiąż Dworzec Autobusowy (1)</a>
-<a class="stop" href="../rozklady/1/0105_libiaz.html"><span class="stop-id">0105</span>Libiąż Kopalnia Janina (0)</a>
+<a class="stop terminal" href="../rozklady/1/0105_libiaz.html"><span class="stop-id">0105</span>Libiąż Kopalnia Janina (0)</a>
 
 </div>
 
@@ -275,7 +336,7 @@ body{
 
 <div class="zone zone-libiaz">STREFA LIBIĄŻ</div>
     
-<a class="stop" href="../rozklady/1/0105_miekinia.html"><span class="stop-id">0105</span>Libiąż Kopalnia Janina (0)</a>
+<a class="stop terminal" href="../rozklady/1/0105_miekinia.html"><span class="stop-id">0105</span>Libiąż Kopalnia Janina (0)</a>
 <a class="stop" href="../rozklady/1/0107_miekinia.html"><span class="stop-id">0107</span>Libiąż Dworzec Autobusowy (2)</a>
 <a class="stop" href="../rozklady/1/0108_miekinia.html"><span class="stop-id">0108</span>Libiąż Chrzanowska Kamieniec (1)</a>
 
@@ -288,7 +349,7 @@ body{
 <a class="stop" href="../rozklady/1/0113_miekinia.html"><span class="stop-id">0113</span>Chrzanów Kąty Bloki (2)</a>
 <a class="stop" href="../rozklady/1/0114_miekinia.html"><span class="stop-id">0114</span>Chrzanów Księdza Skorupki (0)</a>
 <a class="stop" href="../rozklady/1/0115_miekinia.html"><span class="stop-id">0115</span>Chrzanów Plac Tysiąclecia (2)</a>
-<a class="stop" href="../rozklady/1/0116_miekinia.html"><span class="stop-id">0116</span>Chrzanów Dworzec Autobusowy (1)</a>
+<a class="stop terminal" href="../rozklady/1/0116_miekinia.html"><span class="stop-id">0116</span>Chrzanów Dworzec Autobusowy (1)</a>
 <a class="stop" href="../rozklady/1/0117_miekinia.html"><span class="stop-id">0117</span>Chrzanów Szpitalna (3)</a>
 <a class="stop" href="../rozklady/1/0118_miekinia.html"><span class="stop-id">0118</span>Chrzanów Szpital (1)</a>
 
@@ -327,7 +388,7 @@ body{
 <a class="stop" href="../rozklady/1/0062_miekinia.html"><span class="stop-id">0062</span>Filipowice Kościół (2)</a>
 <a class="stop" href="../rozklady/1/0063_miekinia.html"><span class="stop-id">0063</span>Filipowice Transformator (2)</a>
 <a class="stop" href="../rozklady/1/0064_miekinia.html"><span class="stop-id">0064</span>Filipowice Wzgórze (2)</a>
-<a class="stop" href="../rozklady/1/0065_miekinia.html"><span class="stop-id">0065</span>Miękinia Stawiska (0)</a>
+<a class="stop terminal" href="../rozklady/1/0065_miekinia.html"><span class="stop-id">0065</span>Miękinia Stawiska (0)</a>
 
 <a class="stop variant" href="../rozklady/1/0066_miekinia.html"><span class="stop-id">0066</span>Filipowice Wzgórze (1)</a>
 <a class="stop variant" href="../rozklady/1/0067_miekinia.html"><span class="stop-id">0067</span>Filipowice Transformator (1)</a>
@@ -346,7 +407,7 @@ body{
 <a class="stop variant" href="../rozklady/1/0049_miekinia.html"><span class="stop-id">0049</span>Krzeszowice Aleja Solidarności Szkoła (1)</a>
 <a class="stop variant" href="../rozklady/1/0136_miekinia.html"><span class="stop-id">0136</span>Krzeszowice Aleja Solidarności Przedszkole (2)</a>
 <a class="stop variant" href="../rozklady/1/0137_miekinia.html"><span class="stop-id">0137</span>Krzeszowice Czatkowice EDEN (1)</a>
-<a class="stop variant" href="../rozklady/1/0138_miekinia.html"><span class="stop-id">0138</span>Krzeszowice Czatkowice Dolne Kopalnia (2)</a>
+<a class="stop variant terminal" href="../rozklady/1/0138_miekinia.html"><span class="stop-id">0138</span>Krzeszowice Czatkowice Dolne Kopalnia (2)</a>
 
 </div>
 
