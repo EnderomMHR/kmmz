@@ -131,6 +131,67 @@ body{
     height:8px;
 }
 
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
 .zone{
     text-align:center;
     color:white;
@@ -178,7 +239,7 @@ Bukowno Dworzec PKP - Bukowno Bór Biskupi Pętla - Bukowno Przymiarki - Bukowno
 
 <div class="zone zone-bukowno">STREFA BUKOWNO</div>
   
-<a class="stop" href="../rozklady/10/0147-okrezna-1.html"><span class="stop-id">0147</span>Bukowno Dworzec PKP (0)</a>
+<a class="stop terminal" href="../rozklady/10/0147-okrezna-1.html"><span class="stop-id">0147</span>Bukowno Dworzec PKP (0)</a>
 <a class="stop" href="../rozklady/10/0148-okrezna-1.html"><span class="stop-id">0148</span>Bukowno Urząd Miasta (1)</a>
 <a class="stop" href="../rozklady/10/0724-okrezna-1.html"><span class="stop-id">0724</span>Bukowno Leśna (1)</a>
 <a class="stop" href="../rozklady/10/0725-okrezna-1.html"><span class="stop-id">0725</span>Bukowno Leśna Krzyżówka (2)</a>
@@ -210,7 +271,7 @@ Bukowno Dworzec PKP - Bukowno Bór Biskupi Pętla - Bukowno Przymiarki - Bukowno
 <a class="stop" href="../rozklady/10/0144-okrezna-1.html"><span class="stop-id">0144</span>Bukowno Nowa OSP (1)</a>
 <a class="stop" href="../rozklady/10/0145-okrezna-1.html"><span class="stop-id">0145</span>Bukowno Nowa (2)</a>
 <a class="stop" href="../rozklady/10/0146-okrezna-1.html"><span class="stop-id">0146</span>Bukowno Urząd Miasta (2)</a>
-<a class="stop" href="../rozklady/10/0147-okrezna-1.html"><span class="stop-id">0147</span>Bukowno Dworzec PKP (0)</a>
+<a class="stop terminal" href="../rozklady/10/0147-okrezna-1.html"><span class="stop-id">0147</span>Bukowno Dworzec PKP (0)</a>
 
 </div>
 
@@ -220,7 +281,7 @@ Bukowno Dworzec PKP - Bukowno Bór Biskupi Pętla - Bukowno Przymiarki - Bukowno
 
 <div class="zone zone-bukowno">STREFA BUKOWNO</div>
   
-<a class="stop" href="../rozklady/10/0147-okrezna-2.html"><span class="stop-id">0147</span>Bukowno Dworzec PKP (0)</a>
+<a class="stop terminal" href="../rozklady/10/0147-okrezna-2.html"><span class="stop-id">0147</span>Bukowno Dworzec PKP (0)</a>
 <a class="stop" href="../rozklady/10/0148-okrezna-2.html"><span class="stop-id">0148</span>Bukowno Urząd Miasta (1)</a>
 <a class="stop" href="../rozklady/10/0250-okrezna-2.html"><span class="stop-id">0250</span>Bukowno Nowa (1)</a>
 <a class="stop" href="../rozklady/10/0251-okrezna-2.html"><span class="stop-id">0251</span>Bukowno Nowa OSP (2)</a>
@@ -229,7 +290,7 @@ Bukowno Dworzec PKP - Bukowno Bór Biskupi Pętla - Bukowno Przymiarki - Bukowno
 <a class="stop" href="../rozklady/10/0254-okrezna-2.html"><span class="stop-id">0254</span>Bukowno Skotnica (1)</a>
 <a class="stop" href="../rozklady/10/0255-okrezna-2.html"><span class="stop-id">0255</span>Bukowno Sklep (1)</a>
 <a class="stop" href="../rozklady/10/0256-okrezna-2.html"><span class="stop-id">0256</span>Bukowno Przymiarki PKP (1)</a>
-<a class="stop" href="../rozklady/10/0106-okrezna-2.html"><span class="stop-id">0106</span>Bukowno Przymiarki (0)</a>
+<a class="stop terminal" href="../rozklady/10/0106-okrezna-2.html"><span class="stop-id">0106</span>Bukowno Przymiarki (0)</a>
 <a class="stop" href="../rozklady/10/0139-okrezna-2.html"><span class="stop-id">0139</span>Bukowno Przymiarki PKP (2)</a>
 <a class="stop" href="../rozklady/10/0140-okrezna-2.html"><span class="stop-id">0140</span>Bukowno Sklep (2)</a>
 <a class="stop" href="../rozklady/10/0141-okrezna-2.html"><span class="stop-id">0141</span>Bukowno Skotnica (2)</a>
@@ -252,7 +313,7 @@ Bukowno Dworzec PKP - Bukowno Bór Biskupi Pętla - Bukowno Przymiarki - Bukowno
 <a class="stop" href="../rozklady/10/0745-okrezna-2.html"><span class="stop-id">0745</span>Bukowno Leśna Krzyżówka (1)</a>
 <a class="stop" href="../rozklady/10/0746-okrezna-2.html"><span class="stop-id">0746</span>Bukowno Leśna (2)</a>
 <a class="stop" href="../rozklady/10/0146-okrezna-2.html"><span class="stop-id">0146</span>Bukowno Urząd Miasta (2)</a>
-<a class="stop" href="../rozklady/10/0147-okrezna-2.html"><span class="stop-id">0147</span>Bukowno Dworzec PKP (0)</a>
+<a class="stop terminal" href="../rozklady/10/0147-okrezna-2.html"><span class="stop-id">0147</span>Bukowno Dworzec PKP (0)</a>
 
 </div>
 
