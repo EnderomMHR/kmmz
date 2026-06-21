@@ -131,6 +131,67 @@ body{
     height:8px;
 }
 
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
 .zone{
     text-align:center;
     color:white;
@@ -198,7 +259,7 @@ Jawiszowice Kółko - Brzeszcze - Rajsko - Oświęcim - Bobrek - Gorzów - Cheł
 
 <div class="zone zone-brzeszcze">STREFA BRZESZCZE</div>
   
-<a class="stop" href="../rozklady/12/2568-metkow.html"><span class="stop-id">2568</span>Jawiszowice Kółko (2)</a>
+<a class="stop terminal" href="../rozklady/12/2568-metkow.html"><span class="stop-id">2568</span>Jawiszowice Kółko (2)</a>
 <a class="stop" href="../rozklady/12/2558-metkow.html"><span class="stop-id">2558</span>Jawiszowice Mickiewicza (1)</a>
 <a class="stop" href="../rozklady/12/2566-metkow.html"><span class="stop-id">2566</span>Jawiszowice Osiedle Paderewskiego (2)</a>
 <a class="stop" href="../rozklady/12/2553-metkow.html"><span class="stop-id">2553</span>Brzeszcze Dworzec PKP (0)</a>
@@ -270,7 +331,7 @@ Jawiszowice Kółko - Brzeszcze - Rajsko - Oświęcim - Bobrek - Gorzów - Cheł
 
 <a class="stop" href="../rozklady/12/1494-metkow.html"><span class="stop-id">1494</span>Mętków Duży (1)</a>
 <a class="stop" href="../rozklady/12/0351-metkow.html"><span class="stop-id">0351</span>Mętków Szkoła (2)</a>
-<a class="stop" href="../rozklady/12/0311-metkow.html"><span class="stop-id">0311</span>Mętków Mały (0)</a>
+<a class="stop terminal" href="../rozklady/12/0311-metkow.html"><span class="stop-id">0311</span>Mętków Mały (0)</a>
 
 </div>
 
@@ -280,7 +341,7 @@ Jawiszowice Kółko - Brzeszcze - Rajsko - Oświęcim - Bobrek - Gorzów - Cheł
 
 <div class="zone zone-babice-alwernia">STREFA BABICE-ALWERNIA</div>
   
-<a class="stop" href="../rozklady/12/0311-jawiszowice.html"><span class="stop-id">0311</span>Mętków Mały (0)</a>
+<a class="stop terminal" href="../rozklady/12/0311-jawiszowice.html"><span class="stop-id">0311</span>Mętków Mały (0)</a>
 <a class="stop" href="../rozklady/12/0312-jawiszowice.html"><span class="stop-id">0312</span>Mętków Szkoła (1)</a>
 <a class="stop" href="../rozklady/12/0350-jawiszowice.html"><span class="stop-id">0350</span>Mętków Duży (2)</a>
 
@@ -351,7 +412,7 @@ Jawiszowice Kółko - Brzeszcze - Rajsko - Oświęcim - Bobrek - Gorzów - Cheł
 <a class="stop" href="../rozklady/12/2554-jawiszowice.html"><span class="stop-id">2554</span>Brzeszcze Jawiszowice Osiedle (1)</a>
 <a class="stop" href="../rozklady/12/2559-jawiszowice.html"><span class="stop-id">2559</span>Jawiszowice Osiedle Paderewskiego (1)</a>
 <a class="stop" href="../rozklady/12/2567-jawiszowice.html"><span class="stop-id">2567</span>Jawiszowice Mickiewicza (2)</a>
-<a class="stop" href="../rozklady/12/2557-jawiszowice.html"><span class="stop-id">2557</span>Jawiszowice Kółko (1)</a>
+<a class="stop terminal" href="../rozklady/12/2557-jawiszowice.html"><span class="stop-id">2557</span>Jawiszowice Kółko (1)</a>
 
 </div>
 
