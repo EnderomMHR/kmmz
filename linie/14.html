@@ -131,6 +131,67 @@ body{
     height:8px;
 }
 
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
 .zone{
     text-align:center;
     color:white;
@@ -188,7 +249,7 @@ body{
 
 <div class="zone zone-krzeszowice">STREFA KRZESZOWICE</div>
 
-<a class="stop variant" href="../rozklady/14/1399-chrzanow.html"><span class="stop-id">1399</span>Sanka Głuchówki (0)</a>
+<a class="stop variant terminal" href="../rozklady/14/1399-chrzanow.html"><span class="stop-id">1399</span>Sanka Głuchówki (0)</a>
 <a class="stop variant" href="../rozklady/14/1400-chrzanow.html"><span class="stop-id">1400</span>Sanka Wzgórze (1)</a>
 <a class="stop variant" href="../rozklady/14/1401-chrzanow.html"><span class="stop-id">1401</span>Sanka Kościół (1)</a>
 <a class="stop variant" href="../rozklady/14/1402-chrzanow.html"><span class="stop-id">1402</span>Sanka Dół (1)</a>
@@ -204,8 +265,8 @@ body{
 <div class="zone zone-babice-alwernia">STREFA BABICE-ALWERNIA</div>
   
 <a class="stop variant" href="../rozklady/14/1529-chrzanow.html"><span class="stop-id">1529</span>Grojec Sklep (1)</a>
-<a class="stop" href="../rozklady/14/1486-chrzanow.html"><span class="stop-id">1486</span>Grojec Zajezdnia (2)</a>
-<a class="stop" href="../rozklady/14/1484-chrzanow.html"><span class="stop-id">1484</span>Grojec Zajezdnia (1)</a>
+<a class="stop variant" href="../rozklady/14/1486-chrzanow.html"><span class="stop-id">1486</span>Grojec Zajezdnia (2)</a>
+<a class="stop terminal" href="../rozklady/14/1484-chrzanow.html"><span class="stop-id">1484</span>Grojec Zajezdnia (1)</a>
 <a class="stop" href="../rozklady/14/1487-chrzanow.html"><span class="stop-id">1487</span>Grojec Szkoła (2)</a>
 <a class="stop" href="../rozklady/14/1488-chrzanow.html"><span class="stop-id">1488</span>Grojec II (2)</a>
 <a class="stop" href="../rozklady/14/1480-chrzanow.html"><span class="stop-id">1480</span>Grojec Waga (1)</a>
@@ -235,7 +296,7 @@ body{
 <a class="stop variant" href="../rozklady/14/0117-chrzanow.html"><span class="stop-id">0117</span>Chrzanów Szpitalna (3)</a>
 <a class="stop variant" href="../rozklady/14/0093-chrzanow.html"><span class="stop-id">0093</span>Chrzanów Szpital (2)</a>
 <a class="stop" href="../rozklady/14/0094-chrzanow.html"><span class="stop-id">0094</span>Chrzanów Szpitalna (1)</a>
-<a class="stop" href="../rozklady/14/0334-chrzanow.html"><span class="stop-id">0334</span>Chrzanów Dworzec Autobusowy (4)</a>
+<a class="stop terminal" href="../rozklady/14/0334-chrzanow.html"><span class="stop-id">0334</span>Chrzanów Dworzec Autobusowy (4)</a>
 
 </div>
 
@@ -245,7 +306,7 @@ body{
 
 <div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
   
-<a class="stop" href="../rozklady/14/0334-grojec.html"><span class="stop-id">0334</span>Chrzanów Dworzec Autobusowy (4)</a>
+<a class="stop terminal" href="../rozklady/14/0334-grojec.html"><span class="stop-id">0334</span>Chrzanów Dworzec Autobusowy (4)</a>
 <a class="stop" href="../rozklady/14/0096-grojec.html"><span class="stop-id">0096</span>Chrzanów Plac Tysiąclecia (3)</a>
 <a class="stop" href="../rozklady/14/0352-grojec.html"><span class="stop-id">0352</span>Chrzanów ZUS (1)</a>
 <a class="stop" href="../rozklady/14/0332-grojec.html"><span class="stop-id">0332</span>Chrzanów Sienna (1)</a>
@@ -278,7 +339,7 @@ body{
 <a class="stop" href="../rozklady/14/1355-grojec.html"><span class="stop-id">1355</span>Alwernia Garncarska (2)</a>
 <a class="stop" href="../rozklady/14/1481-grojec.html"><span class="stop-id">1481</span>Grojec Waga (2)</a>
 <a class="stop" href="../rozklady/14/1483-grojec.html"><span class="stop-id">1483</span>Grojec Szkoła (1)</a>
-<a class="stop" href="../rozklady/14/1484-grojec.html"><span class="stop-id">1484</span>Grojec Zajezdnia (1)</a>
+<a class="stop terminal" href="../rozklady/14/1484-grojec.html"><span class="stop-id">1484</span>Grojec Zajezdnia (1)</a>
 <a class="stop variant" href="../rozklady/14/1485-grojec.html"><span class="stop-id">1485</span>Grojec Sklep (2)</a>
 
 <div class="zone zone-krzeszowice">STREFA KRZESZOWICE</div>
@@ -294,7 +355,7 @@ body{
 <a class="stop variant" href="../rozklady/14/1396-grojec.html"><span class="stop-id">1396</span>Sanka Dół (2)</a>
 <a class="stop variant" href="../rozklady/14/1397-grojec.html"><span class="stop-id">1397</span>Sanka Kościół (2)</a>
 <a class="stop variant" href="../rozklady/14/1398-grojec.html"><span class="stop-id">1398</span>Sanka Wzgórze (2)</a>
-<a class="stop variant" href="../rozklady/14/1399-grojec.html"><span class="stop-id">1399</span>Sanka Głuchówki (0)</a>
+<a class="stop variant terminal" href="../rozklady/14/1399-grojec.html"><span class="stop-id">1399</span>Sanka Głuchówki (0)</a>
 
 </div>
 
