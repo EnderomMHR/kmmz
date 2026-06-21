@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 19</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-chrzanow{
+    background:#a4c2f4;
+    color:#222;
+}
+
+.zone-trzebinia{
+    background:#d9d2e9;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">19</div>
+
+<div class="route">
+Chrzanów Osiedle Młodości Witosa - Trzebinia - Młoszowa - Dulowa - Karniowice - Psary Centrum
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Psary Centrum</h2>
+
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+  
+<a class="stop" href="../rozklady/19/1079-psary.html"><span class="stop-id">1079</span>Chrzanów Osiedle Młodości Witosa (1)</a>
+<a class="stop" href="../rozklady/19/1081-psary.html"><span class="stop-id">1081</span>Chrzanów Osiedle Młodości Szarych Szeregów (2)</a>
+<a class="stop" href="../rozklady/19/0614-psary.html"><span class="stop-id">0614</span>Chrzanów Pogorska Przychodnia (2)</a>
+<a class="stop" href="../rozklady/19/0615-psary.html"><span class="stop-id">0615</span>Chrzanów Pogorska Szkoła (1)</a>
+<a class="stop" href="../rozklady/19/0333-psary.html"><span class="stop-id">0333</span>Chrzanów Podwale (1)</a>
+<a class="stop" href="../rozklady/19/0398-psary.html"><span class="stop-id">0398</span>Chrzanów Trzebińska (2)</a>
+<a class="stop variant" href="../rozklady/19/0119-psary.html"><span class="stop-id">0119</span>Chrzanów Valeo (1)</a>
+
+<div class="zone zone-trzebinia">STREFA TRZEBINIA</div>
+  
+<a class="stop" href="../rozklady/19/0120-psary.html"><span class="stop-id">0120</span>Trzebinia Berezka (1)</a>
+<a class="stop" href="../rozklady/19/0121-psary.html"><span class="stop-id">0121</span>Trzebinia Długa (2)</a>
+<a class="stop" href="../rozklady/19/0122-psary.html"><span class="stop-id">0122</span>Trzebinia Dworzec PKP (2)</a>
+<a class="stop variant" href="../rozklady/19/1026-psary.html"><span class="stop-id">1026</span>Trzebinia Harcerska Przychodnia (0)</a>
+<a class="stop" href="../rozklady/19/0123-psary.html"><span class="stop-id">0123</span>Trzebinia Krakowska (0)</a>
+<a class="stop" href="../rozklady/19/0356-psary.html"><span class="stop-id">0356</span>Trzebinia Os. Widokowe Schody (2)</a>
+<a class="stop" href="../rozklady/19/0357-psary.html"><span class="stop-id">0357</span>Trzebinia Os. Widokowe Kiosk (2)</a>
+<a class="stop" href="../rozklady/19/0358-psary.html"><span class="stop-id">0358</span>Trzebinia Os. Widokowe Szkoła (1)</a>
+<a class="stop" href="../rozklady/19/0125-psary.html"><span class="stop-id">0125</span>Młoszowa (2)</a>
+<a class="stop" href="../rozklady/19/0126-psary.html"><span class="stop-id">0126</span>Młoszowa Leśniczówka (1)</a>
+<a class="stop" href="../rozklady/19/0127-psary.html"><span class="stop-id">0127</span>Dulowa (1)</a>
+<a class="stop" href="../rozklady/19/1195-psary.html"><span class="stop-id">1195</span>Dulowa Paderewskiego (1)</a>
+<a class="stop" href="../rozklady/19/1194-psary.html"><span class="stop-id">1194</span>Karniowice Kościół (1)</a>
+<a class="stop" href="../rozklady/19/1192-psary.html"><span class="stop-id">1192</span>Karniowice Poczta (1)</a>
+<a class="stop" href="../rozklady/19/1171-psary.html"><span class="stop-id">1171</span>Karniowice (1)</a>
+<a class="stop" href="../rozklady/19/1304-psary.html"><span class="stop-id">1304</span>Psary Ośrodek Zdrowia (1)</a>
+<a class="stop" href="../rozklady/19/1168-psary.html"><span class="stop-id">1168</span>Psary Centrum (0)</a>
+<a class="stop variant" href="../rozklady/19/1166-psary.html"><span class="stop-id">1166</span>Psary Ostra Góra (1)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Chrzanów Osiedle Młodości Witosa</h2>
+
+<div class="zone zone-trzebinia">STREFA TRZEBINIA</div>
+  
+<a class="stop variant" href="../rozklady/19/1165-chrzanow.html"><span class="stop-id">1165</span>Psary Ostra Góra (2)</a>
+<a class="stop variant" href="../rozklady/19/1167-chrzanow.html"><span class="stop-id">1167</span>Psary Ostra Góra Lewiatan (1)</a>
+<a class="stop" href="../rozklady/19/1168-chrzanow.html"><span class="stop-id">1168</span>Psary Centrum (0)</a>
+<a class="stop" href="../rozklady/19/1169-chrzanow.html"><span class="stop-id">1169</span>Psary Ośrodek Zdrowia (2)</a>
+<a class="stop" href="../rozklady/19/1170-chrzanow.html"><span class="stop-id">1170</span>Karniowice (2)</a>
+<a class="stop" href="../rozklady/19/1193-chrzanow.html"><span class="stop-id">1193</span>Karniowice Poczta (2)</a>
+<a class="stop" href="../rozklady/19/1191-chrzanow.html"><span class="stop-id">1191</span>Karniowice Kościół (2)</a>
+<a class="stop" href="../rozklady/19/1190-chrzanow.html"><span class="stop-id">1190</span>Dulowa Paderewskiego (2)</a>
+<a class="stop" href="../rozklady/19/0076-chrzanow.html"><span class="stop-id">0076</span>Dulowa (2)</a>
+<a class="stop" href="../rozklady/19/0077-chrzanow.html"><span class="stop-id">0077</span>Młoszowa Leśniczówka (2)</a>
+<a class="stop" href="../rozklady/19/0086-chrzanow.html"><span class="stop-id">0086</span>Młoszowa (1)</a>
+<a class="stop" href="../rozklady/19/0353-chrzanow.html"><span class="stop-id">0353</span>Trzebinia Os. Widokowe Szkoła (2)</a>
+<a class="stop" href="../rozklady/19/0354-chrzanow.html"><span class="stop-id">0354</span>Trzebinia Os. Widokowe Kiosk (1)</a>
+<a class="stop" href="../rozklady/19/0355-chrzanow.html"><span class="stop-id">0355</span>Trzebinia Os. Widokowe Schody (1)</a>
+<a class="stop" href="../rozklady/19/0088-chrzanow.html"><span class="stop-id">0088</span>Trzebinia Mały Rynek Kościuszki (0)</a>
+<a class="stop variant" href="../rozklady/19/1026-chrzanow.html"><span class="stop-id">1026</span>Trzebinia Harcerska Przychodnia (0)</a>
+<a class="stop" href="../rozklady/19/0089-chrzanow.html"><span class="stop-id">0089</span>Trzebinia Dworzec PKP (1)</a>
+<a class="stop" href="../rozklady/19/0090-chrzanow.html"><span class="stop-id">0090</span>Trzebinia Długa (1)</a>
+<a class="stop" href="../rozklady/19/0091-chrzanow.html"><span class="stop-id">0091</span>Trzebinia Berezka (2)</a>
+
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+  
+<a class="stop variant" href="../rozklady/19/0092-chrzanow.html"><span class="stop-id">0092</span>Chrzanów Valeo (2)</a>
+<a class="stop" href="../rozklady/19/0397-chrzanow.html"><span class="stop-id">0397</span>Chrzanów Trzebińska (1)</a>
+<a class="stop" href="../rozklady/19/0567-chrzanow.html"><span class="stop-id">0567</span>Chrzanów Głowackiego (1)</a>
+<a class="stop" href="../rozklady/19/0568-chrzanow.html"><span class="stop-id">0568</span>Chrzanów Pogorska Szkoła (2)</a>
+<a class="stop" href="../rozklady/19/0569-chrzanow.html"><span class="stop-id">0569</span>Chrzanów Pogorska Przychodnia (1)</a>
+<a class="stop" href="../rozklady/19/1080-chrzanow.html"><span class="stop-id">1080</span>Chrzanów Osiedle Młodości Szarych Szeregów (1)</a>
+<a class="stop" href="../rozklady/19/1082-chrzanow.html"><span class="stop-id">1082</span>Chrzanów Osiedle Młodości Witosa (2)</a>
