@@ -131,6 +131,67 @@ body{
     height:8px;
 }
 
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
 .zone{
     text-align:center;
     color:white;
@@ -188,7 +249,7 @@ Sławków Dębowa Góra - Krzykawka - Krzykawa - Małobądz - Ujków Nowy - Krze
 
 <div class="zone zone-slawkow">STREFA SŁAWKÓW</div>
   
-<a class="stop" href="../rozklady/5/0439-olkusz.html"><span class="stop-id">0439</span>Sławków Dębowa Góra (1)</a>
+<a class="stop terminal" href="../rozklady/5/0439-olkusz.html"><span class="stop-id">0439</span>Sławków Dębowa Góra (1)</a>
 <a class="stop" href="../rozklady/5/0440-olkusz.html"><span class="stop-id">0440</span>Sławków Dębowa Góra Stawki (1)</a>
 <a class="stop" href="../rozklady/5/0441-olkusz.html"><span class="stop-id">0441</span>Sławków Stawki (1)</a>
 <a class="stop" href="../rozklady/5/0442-olkusz.html"><span class="stop-id">0442</span>Sławków Korzenna (1)</a>
@@ -229,7 +290,7 @@ Sławków Dębowa Góra - Krzykawka - Krzykawa - Małobądz - Ujków Nowy - Krze
 <a class="stop" href="../rozklady/5/0435-olkusz.html"><span class="stop-id">0435</span>Olkusz Supersam (1)</a>
 <a class="stop" href="../rozklady/5/0415-olkusz.html"><span class="stop-id">0415</span>Olkusz Słowiki (2)</a>
 <a class="stop" href="../rozklady/5/0226-olkusz.html"><span class="stop-id">0226</span>Olkusz Wiadukt (2)</a>
-<a class="stop" href="../rozklady/5/0200-olkusz.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
+<a class="stop terminal" href="../rozklady/5/0200-olkusz.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
 
 </div>
 
@@ -239,7 +300,7 @@ Sławków Dębowa Góra - Krzykawka - Krzykawa - Małobądz - Ujków Nowy - Krze
 
 <div class="zone zone-olkusz">STREFA OLKUSZ</div>
   
-<a class="stop" href="../rozklady/5/0200-slawkow.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
+<a class="stop terminal" href="../rozklady/5/0200-slawkow.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
 <a class="stop" href="../rozklady/5/0202-slawkow.html"><span class="stop-id">0202</span>Olkusz Wiadukt (1)</a>
 <a class="stop" href="../rozklady/5/0433-slawkow.html"><span class="stop-id">0433</span>Olkusz Słowiki (1)</a>
 <a class="stop" href="../rozklady/5/0238-slawkow.html"><span class="stop-id">0238</span>Olkusz Supersam (2)</a>
@@ -280,7 +341,7 @@ Sławków Dębowa Góra - Krzykawka - Krzykawa - Małobądz - Ujków Nowy - Krze
 <a class="stop" href="../rozklady/5/0489-slawkow.html"><span class="stop-id">0489</span>Sławków Owocowa (1)</a>
 <a class="stop" href="../rozklady/5/0490-slawkow.html"><span class="stop-id">0490</span>Sławków Korzenna (2)</a>
 <a class="stop" href="../rozklady/5/0491-slawkow.html"><span class="stop-id">0491</span>Sławków Stawki (2)</a>
-<a class="stop" href="../rozklady/5/0439-slawkow.html"><span class="stop-id">0439</span>Sławków Dębowa Góra (1)</a>
+<a class="stop terminal" href="../rozklady/5/0439-slawkow.html"><span class="stop-id">0439</span>Sławków Dębowa Góra (1)</a>
 
 </div>
 
