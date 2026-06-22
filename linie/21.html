@@ -131,6 +131,67 @@ body{
     height:8px;
 }
 
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
 .zone{
     text-align:center;
     color:white;
@@ -183,7 +244,7 @@ Trzebinia Dworzec PKP - Myślachowice - Czyżówka - Podlesie - Bukowno Dworzec 
 
 <div class="zone zone-trzebinia">STREFA TRZEBINIA</div>
   
-<a class="stop" href="../rozklady/21/0122-bukowno.html"><span class="stop-id">0122</span>Trzebinia Dworzec PKP (2)</a>
+<a class="stop terminal" href="../rozklady/21/0122-bukowno.html"><span class="stop-id">0122</span>Trzebinia Dworzec PKP (2)</a>
 <a class="stop" href="../rozklady/21/3295-bukowno.html"><span class="stop-id">3295</span>Trzebinia Mały Rynek (1)</a>
 <a class="stop" href="../rozklady/21/0983-bukowno.html"><span class="stop-id">0983</span>Trzebinia Piłsudskiego Kościół (1)</a>
 <a class="stop" href="../rozklady/21/0941-bukowno.html"><span class="stop-id">0941</span>Trzebinia Zbyszek (1)</a>
@@ -212,7 +273,7 @@ Trzebinia Dworzec PKP - Myślachowice - Czyżówka - Podlesie - Bukowno Dworzec 
 <a class="stop" href="../rozklady/21/0745-bukowno.html"><span class="stop-id">0745</span>Bukowno Leśna Krzyżówka (1)</a>
 <a class="stop" href="../rozklady/21/0746-bukowno.html"><span class="stop-id">0746</span>Bukowno Leśna (2)</a>
 <a class="stop" href="../rozklady/21/0146-bukowno.html"><span class="stop-id">0146</span>Bukowno Urząd Miasta (2)</a>
-<a class="stop" href="../rozklady/21/0147-bukowno.html"><span class="stop-id">0147</span>Bukowno Dworzec PKP (0)</a>
+<a class="stop terminal" href="../rozklady/21/0147-bukowno.html"><span class="stop-id">0147</span>Bukowno Dworzec PKP (0)</a>
 
 </div>
 
@@ -222,7 +283,7 @@ Trzebinia Dworzec PKP - Myślachowice - Czyżówka - Podlesie - Bukowno Dworzec 
 
 <div class="zone zone-bukowno">STREFA BUKOWNO</div>
   
-<a class="stop" href="../rozklady/21/0147-trzebinia.html"><span class="stop-id">0147</span>Bukowno Dworzec PKP (0)</a>
+<a class="stop terminal" href="../rozklady/21/0147-trzebinia.html"><span class="stop-id">0147</span>Bukowno Dworzec PKP (0)</a>
 <a class="stop" href="../rozklady/21/0148-trzebinia.html"><span class="stop-id">0148</span>Bukowno Urząd Miasta (1)</a>
 <a class="stop" href="../rozklady/21/0724-trzebinia.html"><span class="stop-id">0724</span>Bukowno Leśna (1)</a>
 <a class="stop" href="../rozklady/21/0725-trzebinia.html"><span class="stop-id">0725</span>Bukowno Leśna Krzyżówka (2)</a>
@@ -251,7 +312,7 @@ Trzebinia Dworzec PKP - Myślachowice - Czyżówka - Podlesie - Bukowno Dworzec 
 <a class="stop" href="../rozklady/21/0942-trzebinia.html"><span class="stop-id">0942</span>Trzebinia Zbyszek (2)</a>
 <a class="stop" href="../rozklady/21/0982-trzebinia.html"><span class="stop-id">0982</span>Trzebinia Piłsudskiego Kościół (2)</a>
 <a class="stop" href="../rozklady/21/0088-trzebinia.html"><span class="stop-id">0088</span>Trzebinia Mały Rynek Kościuszki (0)</a>
-<a class="stop" href="../rozklady/21/0089-trzebinia.html"><span class="stop-id">0089</span>Trzebinia Dworzec PKP (1)</a>
+<a class="stop terminal" href="../rozklady/21/0089-trzebinia.html"><span class="stop-id">0089</span>Trzebinia Dworzec PKP (1)</a>
 
 </div>
 
