@@ -131,6 +131,67 @@ body{
     height:8px;
 }
 
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
 .zone{
     text-align:center;
     color:white;
@@ -183,7 +244,7 @@ Oświęcim Dwory Pętla - Oświęcim Dąbrowskiego Miasto - Oświęcim Park Zaso
 
 <div class="zone zone-oswiecim">STREFA OŚWIĘCIM</div>
   
-<a class="stop" href="../rozklady/6/0616-wilczkowice.html"><span class="stop-id">0616</span>Oświęcim Dwory Pętla (1)</a>
+<a class="stop terminal" href="../rozklady/6/0616-wilczkowice.html"><span class="stop-id">0616</span>Oświęcim Dwory Pętla (1)</a>
 <a class="stop" href="../rozklady/6/0617-wilczkowice.html"><span class="stop-id">0617</span>Oświęcim SKR (1)</a>
 <a class="stop" href="../rozklady/6/0618-wilczkowice.html"><span class="stop-id">0618</span>Oświęcim Spółdzielnia (2)</a>
 <a class="stop" href="../rozklady/6/0619-wilczkowice.html"><span class="stop-id">0619</span>Oświęcim Cichy Kącik (2)</a>
@@ -195,12 +256,12 @@ Oświęcim Dwory Pętla - Oświęcim Dąbrowskiego Miasto - Oświęcim Park Zaso
 <a class="stop" href="../rozklady/6/0625-wilczkowice.html"><span class="stop-id">0625</span>Oświęcim Kruki (1)</a>
 <a class="stop" href="../rozklady/6/0626-wilczkowice.html"><span class="stop-id">0626</span>Oświęcim Bakutil (1)</a>
 <a class="stop" href="../rozklady/6/0627-wilczkowice.html"><span class="stop-id">0627</span>Oświęcim Szpital (2)</a>
-<a class="stop" href="../rozklady/6/0628-wilczkowice.html"><span class="stop-id">0628</span>Oświęcim Dąbrowskiego Miasto (1)</a>
+<a class="stop terminal" href="../rozklady/6/0628-wilczkowice.html"><span class="stop-id">0628</span>Oświęcim Dąbrowskiego Miasto (1)</a>
 <a class="stop" href="../rozklady/6/0629-wilczkowice.html"><span class="stop-id">0629</span>Oświęcim Stacja BP (2)</a>
 <a class="stop" href="../rozklady/6/0630-wilczkowice.html"><span class="stop-id">0630</span>Oświęcim Niwa (1)</a>
 <a class="stop" href="../rozklady/6/0631-wilczkowice.html"><span class="stop-id">0631</span>Oświęcim Dworzec PKP (1)</a>
 <a class="stop" href="../rozklady/6/0632-wilczkowice.html"><span class="stop-id">0632</span>Oświęcim Obozowa (1)</a>
-<a class="stop" href="../rozklady/6/0633-wilczkowice.html"><span class="stop-id">0633</span>Oświęcim Park Zasole (0)</a>
+<a class="stop terminal" href="../rozklady/6/0633-wilczkowice.html"><span class="stop-id">0633</span>Oświęcim Park Zasole (0)</a>
 <a class="stop" href="../rozklady/6/0634-wilczkowice.html"><span class="stop-id">0634</span>Oświęcim Muzeum II (2)</a>
 <a class="stop" href="../rozklady/6/0635-wilczkowice.html"><span class="stop-id">0635</span>Oświęcim Zasole I (2)</a>
 <a class="stop" href="../rozklady/6/0636-wilczkowice.html"><span class="stop-id">0636</span>Oświęcim Zasole Walcownia (1)</a>
@@ -219,7 +280,7 @@ Oświęcim Dwory Pętla - Oświęcim Dąbrowskiego Miasto - Oświęcim Park Zaso
   
 <a class="stop" href="../rozklady/6/0647-wilczkowice.html"><span class="stop-id">0647</span>Wilczkowice na żądanie (2)</a>
 <a class="stop" href="../rozklady/6/0648-wilczkowice.html"><span class="stop-id">0648</span>Wilczkowice (2)</a>
-<a class="stop" href="../rozklady/6/0649-wilczkowice.html"><span class="stop-id">0649</span>Wilczkowice Pętla (0)</a>
+<a class="stop terminal" href="../rozklady/6/0649-wilczkowice.html"><span class="stop-id">0649</span>Wilczkowice Pętla (0)</a>
 
 </div>
 
@@ -229,7 +290,7 @@ Oświęcim Dwory Pętla - Oświęcim Dąbrowskiego Miasto - Oświęcim Park Zaso
 
 <div class="zone zone-brzeszcze">STREFA BRZESZCZE</div>
   
-<a class="stop" href="../rozklady/6/0649-oswiecim.html"><span class="stop-id">0649</span>Wilczkowice Pętla (0)</a>
+<a class="stop terminal" href="../rozklady/6/0649-oswiecim.html"><span class="stop-id">0649</span>Wilczkowice Pętla (0)</a>
 <a class="stop" href="../rozklady/6/0650-oswiecim.html"><span class="stop-id">0650</span>Wilczkowice (1)</a>
 <a class="stop" href="../rozklady/6/0651-oswiecim.html"><span class="stop-id">0651</span>Wilczkowice na żądanie (1)</a>
 
@@ -248,12 +309,12 @@ Oświęcim Dwory Pętla - Oświęcim Dąbrowskiego Miasto - Oświęcim Park Zaso
 <a class="stop" href="../rozklady/6/0662-oswiecim.html"><span class="stop-id">0662</span>Oświęcim Zasole Walcownia (2)</a>
 <a class="stop" href="../rozklady/6/0663-oswiecim.html"><span class="stop-id">0663</span>Oświęcim Zasole I (1)</a>
 <a class="stop" href="../rozklady/6/0664-oswiecim.html"><span class="stop-id">0664</span>Oświęcim Muzeum I (1)</a>
-<a class="stop" href="../rozklady/6/0633-oswiecim.html"><span class="stop-id">0633</span>Oświęcim Park Zasole (0)</a>
+<a class="stop terminal" href="../rozklady/6/0633-oswiecim.html"><span class="stop-id">0633</span>Oświęcim Park Zasole (0)</a>
 <a class="stop" href="../rozklady/6/0665-oswiecim.html"><span class="stop-id">0665</span>Oświęcim Obozowa (2)</a>
 <a class="stop" href="../rozklady/6/0666-oswiecim.html"><span class="stop-id">0666</span>Oświęcim Dworzec PKP (2)</a>
 <a class="stop" href="../rozklady/6/0667-oswiecim.html"><span class="stop-id">0667</span>Oświęcim Niwa (2)</a>
 <a class="stop" href="../rozklady/6/0668-oswiecim.html"><span class="stop-id">0668</span>Oświęcim Stacja BP (1)</a>
-<a class="stop" href="../rozklady/6/0669-oswiecim.html"><span class="stop-id">0669</span>Oświęcim Dąbrowskiego Kościół (1)</a>
+<a class="stop terminal" href="../rozklady/6/0669-oswiecim.html"><span class="stop-id">0669</span>Oświęcim Dąbrowskiego Kościół (1)</a>
 <a class="stop" href="../rozklady/6/0670-oswiecim.html"><span class="stop-id">0670</span>Oświęcim Dąbrowskiego Cmentarz (0)</a>
 <a class="stop" href="../rozklady/6/0671-oswiecim.html"><span class="stop-id">0671</span>Oświęcim Szpital (1)</a>
 <a class="stop" href="../rozklady/6/0672-oswiecim.html"><span class="stop-id">0672</span>Oświęcim Bakutil (2)</a>
@@ -265,7 +326,7 @@ Oświęcim Dwory Pętla - Oświęcim Dąbrowskiego Miasto - Oświęcim Park Zaso
 <a class="stop" href="../rozklady/6/0678-oswiecim.html"><span class="stop-id">0678</span>Oświęcim Cichy Kącik (1)</a>
 <a class="stop" href="../rozklady/6/0679-oswiecim.html"><span class="stop-id">0679</span>Oświęcim Spółdzielnia (1)</a>
 <a class="stop" href="../rozklady/6/0680-oswiecim.html"><span class="stop-id">0680</span>Oświęcim SKR (2)</a>
-<a class="stop" href="../rozklady/6/0616-oswiecim.html"><span class="stop-id">0616</span>Oświęcim Dwory Pętla (1)</a>
+<a class="stop terminal" href="../rozklady/6/0616-oswiecim.html"><span class="stop-id">0616</span>Oświęcim Dwory Pętla (1)</a>
 
 </div>
 
