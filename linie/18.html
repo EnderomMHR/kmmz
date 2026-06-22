@@ -131,6 +131,67 @@ body{
     height:8px;
 }
 
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
 .zone{
     text-align:center;
     color:white;
@@ -179,7 +240,7 @@ Olkusz Dworzec PKS - Osiek Pętla - (Zimnodół) - (Zawada Pętla)
 
 <div class="zone zone-olkusz">STREFA OLKUSZ</div>
   
-<a class="stop" href="../rozklady/18/0200-osiek.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
+<a class="stop terminal" href="../rozklady/18/0200-osiek.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
 <a class="stop" href="../rozklady/18/0228-osiek.html"><span class="stop-id">0228</span>Olkusz Skarbek (1)</a>
 <a class="stop" href="../rozklady/18/0175-osiek.html"><span class="stop-id">0175</span>Olkusz Górnicza (1)</a>
 <a class="stop" href="../rozklady/18/0176-osiek.html"><span class="stop-id">0176</span>Olkusz Mickiewicza (1)</a>
@@ -200,7 +261,7 @@ Olkusz Dworzec PKS - Osiek Pętla - (Zimnodół) - (Zawada Pętla)
 <a class="stop" href="../rozklady/18/2056-osiek.html"><span class="stop-id">2056</span>Osiek Stara Pętla (1)</a>
 <a class="stop" href="../rozklady/18/2055-osiek.html"><span class="stop-id">2055</span>Osiek Leśna (1)</a>
 <a class="stop" href="../rozklady/18/2886-osiek.html"><span class="stop-id">2886</span>Osiek Leśniczówka (1)</a>
-<a class="stop" href="../rozklady/18/2054-osiek.html"><span class="stop-id">2054</span>Osiek Pętla (0)</a>
+<a class="stop terminal" href="../rozklady/18/2054-osiek.html"><span class="stop-id">2054</span>Osiek Pętla (0)</a>
 <a class="stop variant" href="../rozklady/18/2889-osiek.html"><span class="stop-id">2889</span>Osiek Leśniczówka (2)</a>
 <a class="stop variant" href="../rozklady/18/2053-osiek.html"><span class="stop-id">2053</span>Osiek Leśna (2)</a>
 <a class="stop variant" href="../rozklady/18/2052-osiek.html"><span class="stop-id">2052</span>Osiek Stara Pętla (2)</a>
@@ -217,7 +278,7 @@ Olkusz Dworzec PKS - Osiek Pętla - (Zimnodół) - (Zawada Pętla)
 <a class="stop variant" href="../rozklady/18/2072-osiek.html"><span class="stop-id">2072</span>Zawada Szkoła (1)</a>
 <a class="stop variant" href="../rozklady/18/2073-osiek.html"><span class="stop-id">2073</span>Zawada OSP (1)</a>
 <a class="stop variant" href="../rozklady/18/2074-osiek.html"><span class="stop-id">2074</span>Zawada Sklep (1)</a>
-<a class="stop variant" href="../rozklady/18/2075-osiek.html"><span class="stop-id">2075</span>Zawada Pętla (0)</a>
+<a class="stop variant terminal" href="../rozklady/18/2075-osiek.html"><span class="stop-id">2075</span>Zawada Pętla (0)</a>
 
 </div>
 
@@ -227,7 +288,7 @@ Olkusz Dworzec PKS - Osiek Pętla - (Zimnodół) - (Zawada Pętla)
 
 <div class="zone zone-olkusz">STREFA OLKUSZ</div>
   
-<a class="stop variant" href="../rozklady/18/2075-olkusz.html"><span class="stop-id">2075</span>Zawada Pętla (0)</a>
+<a class="stop variant terminal" href="../rozklady/18/2075-olkusz.html"><span class="stop-id">2075</span>Zawada Pętla (0)</a>
 <a class="stop variant" href="../rozklady/18/2076-olkusz.html"><span class="stop-id">2076</span>Zawada Sklep (2)</a>
 <a class="stop variant" href="../rozklady/18/2077-olkusz.html"><span class="stop-id">2077</span>Zawada OSP (2)</a>
 <a class="stop variant" href="../rozklady/18/2078-olkusz.html"><span class="stop-id">2078</span>Zawada Szkoła (2)</a>
@@ -244,7 +305,7 @@ Olkusz Dworzec PKS - Osiek Pętla - (Zimnodół) - (Zawada Pętla)
 <a class="stop variant" href="../rozklady/18/2056-olkusz.html"><span class="stop-id">2056</span>Osiek Stara Pętla (1)</a>
 <a class="stop variant" href="../rozklady/18/2055-olkusz.html"><span class="stop-id">2055</span>Osiek Leśna (1)</a>
 <a class="stop variant" href="../rozklady/18/2886-olkusz.html"><span class="stop-id">2886</span>Osiek Leśniczówka (1)</a>
-<a class="stop" href="../rozklady/18/2054-olkusz.html"><span class="stop-id">2054</span>Osiek Pętla (0)</a>
+<a class="stop terminal" href="../rozklady/18/2054-olkusz.html"><span class="stop-id">2054</span>Osiek Pętla (0)</a>
 <a class="stop" href="../rozklady/18/2889-olkusz.html"><span class="stop-id">2889</span>Osiek Leśniczówka (2)</a>
 <a class="stop" href="../rozklady/18/2053-olkusz.html"><span class="stop-id">2053</span>Osiek Leśna (2)</a>
 <a class="stop" href="../rozklady/18/2052-olkusz.html"><span class="stop-id">2052</span>Osiek Stara Pętla (2)</a>
@@ -262,7 +323,7 @@ Olkusz Dworzec PKS - Osiek Pętla - (Zimnodół) - (Zawada Pętla)
 <a class="stop" href="../rozklady/18/0197-olkusz.html"><span class="stop-id">0197</span>Olkusz Basen (1)</a>
 <a class="stop" href="../rozklady/18/0198-olkusz.html"><span class="stop-id">0198</span>Olkusz Dworek Machnickich (0)</a>
 <a class="stop" href="../rozklady/18/0199-olkusz.html"><span class="stop-id">0199</span>Olkusz Skarbek (2)</a>
-<a class="stop" href="../rozklady/18/0200-olkusz.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
+<a class="stop terminal" href="../rozklady/18/0200-olkusz.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
 
 </div>
 
