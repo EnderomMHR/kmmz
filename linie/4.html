@@ -131,6 +131,67 @@ body{
     height:8px;
 }
 
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
 .zone{
     text-align:center;
     color:white;
@@ -193,12 +254,12 @@ body{
 
 <div class="zone zone-trzebinia">STREFA TRZEBINIA</div>
 
-<a class="stop variant" href="../rozklady/4/0086-libiaz.html"><span class="stop-id">0086</span>Młoszowa (1)</a>
+<a class="stop variant terminal" href="../rozklady/4/0086-libiaz.html"><span class="stop-id">0086</span>Młoszowa (1)</a>
 <a class="stop variant" href="../rozklady/4/0353-libiaz.html"><span class="stop-id">0353</span>Trzebinia Os. Widokowe Szkoła (2)</a>
 <a class="stop variant" href="../rozklady/4/0354-libiaz.html"><span class="stop-id">0354</span>Trzebinia Os. Widokowe Kiosk (1)</a>
 <a class="stop variant" href="../rozklady/4/0355-libiaz.html"><span class="stop-id">0355</span>Trzebinia Os. Widokowe Schody (1)</a>
 <a class="stop variant" href="../rozklady/4/0088-libiaz.html"><span class="stop-id">0088</span>Trzebinia Mały Rynek Kościuszki (0)</a>
-<a class="stop" href="../rozklady/4/0089-libiaz.html"><span class="stop-id">0089</span>Trzebinia Dworzec PKP (1)</a>
+<a class="stop terminal" href="../rozklady/4/0089-libiaz.html"><span class="stop-id">0089</span>Trzebinia Dworzec PKP (1)</a>
 <a class="stop" href="../rozklady/4/0090-libiaz.html"><span class="stop-id">0090</span>Trzebinia Długa (1)</a>
 <a class="stop" href="../rozklady/4/0091-libiaz.html"><span class="stop-id">0091</span>Trzebinia Berezka (2)</a>
 
@@ -206,7 +267,7 @@ body{
   
 <a class="stop variant" href="../rozklady/4/0092-libiaz.html"><span class="stop-id">0092</span>Chrzanów Valeo (2)</a>
 <a class="stop" href="../rozklady/4/0397-libiaz.html"><span class="stop-id">0397</span>Chrzanów Trzebińska (1)</a>
-<a class="stop" href="../rozklady/4/0095-libiaz.html"><span class="stop-id">0095</span>Chrzanów Dworzec Autobusowy (3)</a>
+<a class="stop terminal" href="../rozklady/4/0095-libiaz.html"><span class="stop-id">0095</span>Chrzanów Dworzec Autobusowy (3)</a>
 <a class="stop" href="../rozklady/4/0096-libiaz.html"><span class="stop-id">0096</span>Chrzanów Plac Tysiąclecia (3)</a>
 <a class="stop" href="../rozklady/4/0352-libiaz.html"><span class="stop-id">0352</span>Chrzanów ZUS (1)</a>
 <a class="stop" href="../rozklady/4/0335-libiaz.html"><span class="stop-id">0335</span>Chrzanów PZGS (2)</a>
@@ -218,13 +279,13 @@ body{
   
 <a class="stop" href="../rozklady/4/0103-libiaz.html"><span class="stop-id">0103</span>Libiąż Chrzanowska Kamieniec (2)</a>
 <a class="stop" href="../rozklady/4/0104-libiaz.html"><span class="stop-id">0104</span>Libiąż Dworzec Autobusowy (1)</a>
-<a class="stop" href="../rozklady/4/0105-libiaz.html"><span class="stop-id">0105</span>Libiąż Kopalnia Janina (0)</a>
+<a class="stop terminal" href="../rozklady/4/0105-libiaz.html"><span class="stop-id">0105</span>Libiąż Kopalnia Janina (0)</a>
 <a class="stop variant" href="../rozklady/4/0359-libiaz.html"><span class="stop-id">0359</span>Libiąż Os. Flagówka Pawilon (1)</a>
 <a class="stop variant" href="../rozklady/4/0360-libiaz.html"><span class="stop-id">0360</span>Libiąż Os. Flagówka I (1)</a>
 <a class="stop variant" href="../rozklady/4/0361-libiaz.html"><span class="stop-id">0361</span>Libiąż Os. Flagówka II (1)</a>
 <a class="stop variant" href="../rozklady/4/0362-libiaz.html"><span class="stop-id">0362</span>Libiąż Urząd Miejski (2)</a>
 <a class="stop variant" href="../rozklady/4/0363-libiaz.html"><span class="stop-id">0363</span>Libiąż Oświęcimska Kościół (2)</a>
-<a class="stop variant" href="../rozklady/4/0364-libiaz.html"><span class="stop-id">0364</span>Libiąż Oświęcimska Cmentarz (2)</a>
+<a class="stop variant terminal" href="../rozklady/4/0364-libiaz.html"><span class="stop-id">0364</span>Libiąż Oświęcimska Cmentarz (2)</a>
 <a class="stop variant" href="../rozklady/4/0365-libiaz.html"><span class="stop-id">0365</span>Libiąż Krakowska Piaski (2)</a>
 <a class="stop variant" href="../rozklady/4/0366-libiaz.html"><span class="stop-id">0366</span>Libiąż Krakowska Krzywda (1)</a>
 <a class="stop variant" href="../rozklady/4/0367-libiaz.html"><span class="stop-id">0367</span>Libiąż Dąbrowskiego (1)</a>
@@ -240,7 +301,7 @@ body{
 <a class="stop variant" href="../rozklady/4/0374-libiaz.html"><span class="stop-id">0374</span>Chełmek Policja (2)</a>
 <a class="stop variant" href="../rozklady/4/0375-libiaz.html"><span class="stop-id">0375</span>Chełmek Remiza (1)</a>
 <a class="stop variant" href="../rozklady/4/0376-libiaz.html"><span class="stop-id">0376</span>Chełmek Mickiewicza (2)</a>
-<a class="stop variant" href="../rozklady/4/0377-libiaz.html"><span class="stop-id">0377</span>Chełmek Młyny (1)</a>
+<a class="stop variant terminal" href="../rozklady/4/0377-libiaz.html"><span class="stop-id">0377</span>Chełmek Młyny (1)</a>
 
 </div>
 
@@ -250,7 +311,7 @@ body{
 
 <div class="zone zone-chelmek">STREFA CHEŁMEK</div>
   
-<a class="stop variant" href="../rozklady/4/0377-trzebinia.html"><span class="stop-id">0377</span>Chełmek Młyny (1)</a>
+<a class="stop variant terminal" href="../rozklady/4/0377-trzebinia.html"><span class="stop-id">0377</span>Chełmek Młyny (1)</a>
 <a class="stop variant" href="../rozklady/4/0378-trzebinia.html"><span class="stop-id">0378</span>Chełmek Jagiellońska (1)</a>
 <a class="stop variant" href="../rozklady/4/0379-trzebinia.html"><span class="stop-id">0379</span>Chełmek Dom Ludowy (1)</a>
 <a class="stop variant" href="../rozklady/4/0380-trzebinia.html"><span class="stop-id">0380</span>Chełmek Chrobrego Szkoła (1)</a>
@@ -263,17 +324,17 @@ body{
 <a class="stop variant" href="../rozklady/4/0384-trzebinia.html"><span class="stop-id">0384</span>Libiąż Przy Rondach (2)</a>
 <a class="stop variant" href="../rozklady/4/0385-trzebinia.html"><span class="stop-id">0385</span>Libiąż Transformator (1)</a>
 <a class="stop variant" href="../rozklady/4/0386-trzebinia.html"><span class="stop-id">0386</span>Libiąż Budzowy Skrzyżowanie (1)</a>
-<a class="stop variant" href="../rozklady/4/0387-trzebinia.html"><span class="stop-id">0387</span>Libiąż Budzowy Sklep (1)</a>
+<a class="stop variant terminal" href="../rozklady/4/0387-trzebinia.html"><span class="stop-id">0387</span>Libiąż Budzowy Sklep (1)</a>
 <a class="stop variant" href="../rozklady/4/0388-trzebinia.html"><span class="stop-id">0388</span>Libiąż Dąbrowskiego (2)</a>
 <a class="stop variant" href="../rozklady/4/0389-trzebinia.html"><span class="stop-id">0389</span>Libiąż Krakowska Krzywda (2)</a>
 <a class="stop variant" href="../rozklady/4/0390-trzebinia.html"><span class="stop-id">0390</span>Libiąż Krakowska Piaski (1)</a>
-<a class="stop variant" href="../rozklady/4/0391-trzebinia.html"><span class="stop-id">0391</span>Libiąż Oświęcimska Cmentarz (1)</a>
+<a class="stop variant terminal" href="../rozklady/4/0391-trzebinia.html"><span class="stop-id">0391</span>Libiąż Oświęcimska Cmentarz (1)</a>
 <a class="stop variant" href="../rozklady/4/0392-trzebinia.html"><span class="stop-id">0392</span>Libiąż Oświęcimska Kościół (1)</a>
 <a class="stop variant" href="../rozklady/4/0393-trzebinia.html"><span class="stop-id">0393</span>Libiąż Urząd Miejski (1)</a>
 <a class="stop variant" href="../rozklady/4/0394-trzebinia.html"><span class="stop-id">0394</span>Libiąż Os. Flagówka II (2)</a>
 <a class="stop variant" href="../rozklady/4/0395-trzebinia.html"><span class="stop-id">0395</span>Libiąż Os. Flagówka I (2)</a>
 <a class="stop variant" href="../rozklady/4/0396-trzebinia.html"><span class="stop-id">0396</span>Libiąż Os. Flagówka Pawilon (2)</a>
-<a class="stop" href="../rozklady/4/0105-trzebinia.html"><span class="stop-id">0105</span>Libiąż Kopalnia Janina (0)</a>
+<a class="stop terminal" href="../rozklady/4/0105-trzebinia.html"><span class="stop-id">0105</span>Libiąż Kopalnia Janina (0)</a>
 <a class="stop" href="../rozklady/4/0107-trzebinia.html"><span class="stop-id">0107</span>Libiąż Dworzec Autobusowy (2)</a>
 <a class="stop" href="../rozklady/4/0108-trzebinia.html"><span class="stop-id">0108</span>Libiąż Chrzanowska Kamieniec (1)</a>
 
@@ -285,7 +346,7 @@ body{
 <a class="stop" href="../rozklady/4/0331-trzebinia.html"><span class="stop-id">0331</span>Chrzanów PZGS (1)</a>
 <a class="stop" href="../rozklady/4/0332-trzebinia.html"><span class="stop-id">0332</span>Chrzanów Sienna (1)</a>
 <a class="stop" href="../rozklady/4/0333-trzebinia.html"><span class="stop-id">0333</span>Chrzanów Podwale (1)</a>
-<a class="stop variant" href="../rozklady/4/0334-trzebinia.html"><span class="stop-id">0334</span>Chrzanów Dworzec Autobusowy (4)</a>
+<a class="stop variant terminal" href="../rozklady/4/0334-trzebinia.html"><span class="stop-id">0334</span>Chrzanów Dworzec Autobusowy (4)</a>
 <a class="stop" href="../rozklady/4/0398-trzebinia.html"><span class="stop-id">0398</span>Chrzanów Trzebińska (2)</a>
 <a class="stop variant" href="../rozklady/4/0119-trzebinia.html"><span class="stop-id">0119</span>Chrzanów Valeo (1)</a>
 
@@ -293,12 +354,12 @@ body{
   
 <a class="stop" href="../rozklady/4/0120-trzebinia.html"><span class="stop-id">0120</span>Trzebinia Berezka (1)</a>
 <a class="stop" href="../rozklady/4/0121-trzebinia.html"><span class="stop-id">0121</span>Trzebinia Długa (2)</a>
-<a class="stop" href="../rozklady/4/0122-trzebinia.html"><span class="stop-id">0122</span>Trzebinia Dworzec PKP (2)</a>
+<a class="stop terminal" href="../rozklady/4/0122-trzebinia.html"><span class="stop-id">0122</span>Trzebinia Dworzec PKP (2)</a>
 <a class="stop variant" href="../rozklady/4/0123-trzebinia.html"><span class="stop-id">0123</span>Trzebinia Krakowska (0)</a>
 <a class="stop variant" href="../rozklady/4/0356-trzebinia.html"><span class="stop-id">0356</span>Trzebinia Os. Widokowe Schody (2)</a>
 <a class="stop variant" href="../rozklady/4/0357-trzebinia.html"><span class="stop-id">0357</span>Trzebinia Os. Widokowe Kiosk (2)</a>
 <a class="stop variant" href="../rozklady/4/0358-trzebinia.html"><span class="stop-id">0358</span>Trzebinia Os. Widokowe Szkoła (1)</a>
-<a class="stop variant" href="../rozklady/4/0078-trzebinia.html"><span class="stop-id">0078</span>Młoszowa Florkiewicza (0)</a>
+<a class="stop variant terminal" href="../rozklady/4/0078-trzebinia.html"><span class="stop-id">0078</span>Młoszowa Florkiewicza (0)</a>
 
 </div>
 
