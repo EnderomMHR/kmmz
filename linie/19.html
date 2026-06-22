@@ -131,6 +131,67 @@ body{
     height:8px;
 }
 
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
 .zone{
     text-align:center;
     color:white;
@@ -183,7 +244,7 @@ Chrzanów Osiedle Młodości Witosa - Trzebinia - Młoszowa - Dulowa - Karniowic
 
 <div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
   
-<a class="stop" href="../rozklady/19/1079-psary.html"><span class="stop-id">1079</span>Chrzanów Osiedle Młodości Witosa (1)</a>
+<a class="stop terminal" href="../rozklady/19/1079-psary.html"><span class="stop-id">1079</span>Chrzanów Osiedle Młodości Witosa (1)</a>
 <a class="stop" href="../rozklady/19/1081-psary.html"><span class="stop-id">1081</span>Chrzanów Osiedle Młodości Szarych Szeregów (2)</a>
 <a class="stop" href="../rozklady/19/0614-psary.html"><span class="stop-id">0614</span>Chrzanów Pogorska Przychodnia (2)</a>
 <a class="stop" href="../rozklady/19/0615-psary.html"><span class="stop-id">0615</span>Chrzanów Pogorska Szkoła (1)</a>
@@ -209,8 +270,8 @@ Chrzanów Osiedle Młodości Witosa - Trzebinia - Młoszowa - Dulowa - Karniowic
 <a class="stop" href="../rozklady/19/1192-psary.html"><span class="stop-id">1192</span>Karniowice Poczta (1)</a>
 <a class="stop" href="../rozklady/19/1171-psary.html"><span class="stop-id">1171</span>Karniowice (1)</a>
 <a class="stop" href="../rozklady/19/1304-psary.html"><span class="stop-id">1304</span>Psary Ośrodek Zdrowia (1)</a>
-<a class="stop" href="../rozklady/19/1168-psary.html"><span class="stop-id">1168</span>Psary Centrum (0)</a>
-<a class="stop variant" href="../rozklady/19/1166-psary.html"><span class="stop-id">1166</span>Psary Ostra Góra (1)</a>
+<a class="stop terminal" href="../rozklady/19/1168-psary.html"><span class="stop-id">1168</span>Psary Centrum (0)</a>
+<a class="stop variant terminal" href="../rozklady/19/1166-psary.html"><span class="stop-id">1166</span>Psary Ostra Góra (1)</a>
 
 </div>
 
@@ -220,9 +281,9 @@ Chrzanów Osiedle Młodości Witosa - Trzebinia - Młoszowa - Dulowa - Karniowic
 
 <div class="zone zone-trzebinia">STREFA TRZEBINIA</div>
   
-<a class="stop variant" href="../rozklady/19/1165-chrzanow.html"><span class="stop-id">1165</span>Psary Ostra Góra (2)</a>
+<a class="stop variant terminal" href="../rozklady/19/1165-chrzanow.html"><span class="stop-id">1165</span>Psary Ostra Góra (2)</a>
 <a class="stop variant" href="../rozklady/19/1167-chrzanow.html"><span class="stop-id">1167</span>Psary Ostra Góra Lewiatan (1)</a>
-<a class="stop" href="../rozklady/19/1168-chrzanow.html"><span class="stop-id">1168</span>Psary Centrum (0)</a>
+<a class="stop terminal" href="../rozklady/19/1168-chrzanow.html"><span class="stop-id">1168</span>Psary Centrum (0)</a>
 <a class="stop" href="../rozklady/19/1169-chrzanow.html"><span class="stop-id">1169</span>Psary Ośrodek Zdrowia (2)</a>
 <a class="stop" href="../rozklady/19/1170-chrzanow.html"><span class="stop-id">1170</span>Karniowice (2)</a>
 <a class="stop" href="../rozklady/19/1193-chrzanow.html"><span class="stop-id">1193</span>Karniowice Poczta (2)</a>
@@ -248,7 +309,7 @@ Chrzanów Osiedle Młodości Witosa - Trzebinia - Młoszowa - Dulowa - Karniowic
 <a class="stop" href="../rozklady/19/0568-chrzanow.html"><span class="stop-id">0568</span>Chrzanów Pogorska Szkoła (2)</a>
 <a class="stop" href="../rozklady/19/0569-chrzanow.html"><span class="stop-id">0569</span>Chrzanów Pogorska Przychodnia (1)</a>
 <a class="stop" href="../rozklady/19/1080-chrzanow.html"><span class="stop-id">1080</span>Chrzanów Osiedle Młodości Szarych Szeregów (1)</a>
-<a class="stop" href="../rozklady/19/1082-chrzanow.html"><span class="stop-id">1082</span>Chrzanów Osiedle Młodości Witosa (2)</a>
+<a class="stop terminal" href="../rozklady/19/1082-chrzanow.html"><span class="stop-id">1082</span>Chrzanów Osiedle Młodości Witosa (2)</a>
 
 </div>
 
