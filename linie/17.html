@@ -131,6 +131,67 @@ body{
     height:8px;
 }
 
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
 .zone{
     text-align:center;
     color:white;
@@ -188,7 +249,7 @@ Mętków Mały - Ziajki - Żarki Kadetów Koniec - Moczydło - Libiąż Dworzec 
 
 <div class="zone zone-babice-alwernia">STREFA BABICE-ALWERNIA</div>
   
-<a class="stop" href="../rozklady/17/0311-chrzanow.html"><span class="stop-id">0311</span>Mętków Mały (0)</a>
+<a class="stop terminal" href="../rozklady/17/0311-chrzanow.html"><span class="stop-id">0311</span>Mętków Mały (0)</a>
 <a class="stop" href="../rozklady/17/0312-chrzanow.html"><span class="stop-id">0312</span>Mętków Szkoła (1)</a>
 <a class="stop" href="../rozklady/17/0313-chrzanow.html"><span class="stop-id">0313</span>Mętków (1)</a>
 
@@ -200,7 +261,7 @@ Mętków Mały - Ziajki - Żarki Kadetów Koniec - Moczydło - Libiąż Dworzec 
 <a class="stop" href="../rozklady/17/0317-chrzanow.html"><span class="stop-id">0317</span>Żarki Kilińskiego (1)</a>
 <a class="stop" href="../rozklady/17/0318-chrzanow.html"><span class="stop-id">0318</span>Żarki Ks. Jana Mroza Krzyżówka (1)</a>
 <a class="stop" href="../rozklady/17/0319-chrzanow.html"><span class="stop-id">0319</span>Żarki Krakusa (1)</a>
-<a class="stop" href="../rozklady/17/0320-chrzanow.html"><span class="stop-id">0320</span>Żarki Kadetów Koniec (0)</a>
+<a class="stop terminal" href="../rozklady/17/0320-chrzanow.html"><span class="stop-id">0320</span>Żarki Kadetów Koniec (0)</a>
 <a class="stop" href="../rozklady/17/0321-chrzanow.html"><span class="stop-id">0321</span>Żarki Kadetów (1)</a>
 <a class="stop" href="../rozklady/17/0322-chrzanow.html"><span class="stop-id">0322</span>Żarki Kadetów Transformator (1)</a>
 <a class="stop" href="../rozklady/17/0323-chrzanow.html"><span class="stop-id">0323</span>Żarki Centrum (2)</a>
@@ -211,7 +272,7 @@ Mętków Mały - Ziajki - Żarki Kadetów Koniec - Moczydło - Libiąż Dworzec 
 <a class="stop" href="../rozklady/17/0328-chrzanow.html"><span class="stop-id">0328</span>Libiąż Skotnica (2)</a>
 <a class="stop" href="../rozklady/17/0329-chrzanow.html"><span class="stop-id">0329</span>Libiąż Makowa (2)</a>
 <a class="stop variant" href="../rozklady/17/0105-chrzanow.html"><span class="stop-id">0105</span>Libiąż Kopalnia Janina (0)</a>
-<a class="stop" href="../rozklady/17/0107-chrzanow.html"><span class="stop-id">0107</span>Libiąż Dworzec Autobusowy (2)</a>
+<a class="stop terminal" href="../rozklady/17/0107-chrzanow.html"><span class="stop-id">0107</span>Libiąż Dworzec Autobusowy (2)</a>
 <a class="stop" href="../rozklady/17/0108-chrzanow.html"><span class="stop-id">0108</span>Libiąż Chrzanowska Kamieniec (1)</a>
 
 <div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
@@ -222,7 +283,7 @@ Mętków Mały - Ziajki - Żarki Kadetów Koniec - Moczydło - Libiąż Dworzec 
 <a class="stop" href="../rozklady/17/0331-chrzanow.html"><span class="stop-id">0331</span>Chrzanów PZGS (1)</a>
 <a class="stop" href="../rozklady/17/0332-chrzanow.html"><span class="stop-id">0332</span>Chrzanów Sienna (1)</a>
 <a class="stop" href="../rozklady/17/0333-chrzanow.html"><span class="stop-id">0333</span>Chrzanów Podwale (1)</a>
-<a class="stop" href="../rozklady/17/0334-chrzanow.html"><span class="stop-id">0334</span>Chrzanów Dworzec Autobusowy (4)</a>
+<a class="stop terminal" href="../rozklady/17/0334-chrzanow.html"><span class="stop-id">0334</span>Chrzanów Dworzec Autobusowy (4)</a>
 
 </div>
 
@@ -232,7 +293,7 @@ Mętków Mały - Ziajki - Żarki Kadetów Koniec - Moczydło - Libiąż Dworzec 
 
 <div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
   
-<a class="stop" href="../rozklady/17/0095-metkow.html"><span class="stop-id">0095</span>Chrzanów Dworzec Autobusowy (3)</a>
+<a class="stop terminal" href="../rozklady/17/0095-metkow.html"><span class="stop-id">0095</span>Chrzanów Dworzec Autobusowy (3)</a>
 <a class="stop" href="../rozklady/17/0096-metkow.html"><span class="stop-id">0096</span>Chrzanów Plac Tysiąclecia (3)</a>
 <a class="stop" href="../rozklady/17/0352-metkow.html"><span class="stop-id">0352</span>Chrzanów ZUS (1)</a>
 <a class="stop" href="../rozklady/17/0335-metkow.html"><span class="stop-id">0335</span>Chrzanów PZGS (2)</a>
@@ -243,7 +304,7 @@ Mętków Mały - Ziajki - Żarki Kadetów Koniec - Moczydło - Libiąż Dworzec 
 <div class="zone zone-libiaz">STREFA LIBIĄŻ</div>
   
 <a class="stop" href="../rozklady/17/0103-metkow.html"><span class="stop-id">0103</span>Libiąż Chrzanowska Kamieniec (2)</a>
-<a class="stop" href="../rozklady/17/0104-metkow.html"><span class="stop-id">0104</span>Libiąż Dworzec Autobusowy (1)</a>
+<a class="stop terminal" href="../rozklady/17/0104-metkow.html"><span class="stop-id">0104</span>Libiąż Dworzec Autobusowy (1)</a>
 <a class="stop variant" href="../rozklady/17/0105-metkow.html"><span class="stop-id">0105</span>Libiąż Kopalnia Janina (0)</a>
 <a class="stop" href="../rozklady/17/0337-metkow.html"><span class="stop-id">0337</span>Libiąż Makowa (1)</a>
 <a class="stop" href="../rozklady/17/0338-metkow.html"><span class="stop-id">0338</span>Libiąż Skotnica (1)</a>
@@ -254,7 +315,7 @@ Mętków Mały - Ziajki - Żarki Kadetów Koniec - Moczydło - Libiąż Dworzec 
 <a class="stop" href="../rozklady/17/0343-metkow.html"><span class="stop-id">0343</span>Żarki Struga (1)</a>
 <a class="stop" href="../rozklady/17/0344-metkow.html"><span class="stop-id">0344</span>Żarki Kadetów Transformator (2)</a>
 <a class="stop" href="../rozklady/17/0345-metkow.html"><span class="stop-id">0345</span>Żarki Kadetów (2)</a>
-<a class="stop" href="../rozklady/17/0320-metkow.html"><span class="stop-id">0320</span>Żarki Kadetów Koniec (0)</a>
+<a class="stop terminal" href="../rozklady/17/0320-metkow.html"><span class="stop-id">0320</span>Żarki Kadetów Koniec (0)</a>
 <a class="stop" href="../rozklady/17/0346-metkow.html"><span class="stop-id">0346</span>Żarki Krakusa (2)</a>
 <a class="stop" href="../rozklady/17/0347-metkow.html"><span class="stop-id">0347</span>Żarki Ks. Jana Mroza Krzyżówka (2)</a>
 <a class="stop" href="../rozklady/17/0348-metkow.html"><span class="stop-id">0348</span>Żarki Kilińskiego (2)</a>
@@ -266,7 +327,7 @@ Mętków Mały - Ziajki - Żarki Kadetów Koniec - Moczydło - Libiąż Dworzec 
   
 <a class="stop" href="../rozklady/17/1494-metkow.html"><span class="stop-id">1494</span>Mętków Duży (1)</a>
 <a class="stop" href="../rozklady/17/0351-metkow.html"><span class="stop-id">0351</span>Mętków Szkoła (2)</a>
-<a class="stop" href="../rozklady/17/0311-metkow.html"><span class="stop-id">0311</span>Mętków Mały (0)</a>
+<a class="stop terminal" href="../rozklady/17/0311-metkow.html"><span class="stop-id">0311</span>Mętków Mały (0)</a>
 
 </div>
 
