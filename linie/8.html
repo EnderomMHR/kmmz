@@ -148,6 +148,67 @@ body{
     height:8px;
 }
 
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
 .zone{
     text-align:center;
     color:white;
@@ -202,7 +263,7 @@ Olkusz Dworzec PKS - Olkusz Parcze - Olkusz Pomorzany Szkoła - Olkusz Dworzec P
 
 <div class="zone zone-olkusz">STREFA OLKUSZ</div>
   
-<a class="stop" href="../rozklady/8/0200-okrezna.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
+<a class="stop terminal" href="../rozklady/8/0200-okrezna.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
 <a class="stop" href="../rozklady/8/0228-okrezna.html"><span class="stop-id">0228</span>Olkusz Skarbek (1)</a>
 <a class="stop" href="../rozklady/8/0238-okrezna.html"><span class="stop-id">0238</span>Olkusz Supersam (2)</a>
 <a class="stop" href="../rozklady/8/0685-okrezna.html"><span class="stop-id">0685</span>Olkusz Kasztanowa (2)</a>
@@ -217,7 +278,7 @@ Olkusz Dworzec PKS - Olkusz Parcze - Olkusz Pomorzany Szkoła - Olkusz Dworzec P
 <a class="stop" href="../rozklady/8/0173-okrezna.html"><span class="stop-id">0173</span>Olkusz Stacja Paliw (1)</a>
 <a class="stop" href="../rozklady/8/0174-okrezna.html"><span class="stop-id">0174</span>Olkusz Supersam (0)</a>
 <a class="stop" href="../rozklady/8/0199-okrezna.html"><span class="stop-id">0199</span>Olkusz Skarbek (2)</a>
-<a class="stop" href="../rozklady/8/0200-okrezna.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
+<a class="stop terminal" href="../rozklady/8/0200-okrezna.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
 
 </div>
 
