@@ -131,6 +131,67 @@ body{
     height:8px;
 }
 
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
 .zone{
     text-align:center;
     color:white;
@@ -183,7 +244,7 @@ Imbramowice Dolne - Zagórowa - Milonki - Zadroże - Trzyciąż - Jangrot - Mich
 
 <div class="zone zone-trzyciaz">STREFA TRZYCIĄŻ</div>
   
-<a class="stop" href="../rozklady/23/2485-olkusz.html"><span class="stop-id">2485</span>Imbramowice Dolne (1)</a>
+<a class="stop terminal" href="../rozklady/23/2485-olkusz.html"><span class="stop-id">2485</span>Imbramowice Dolne (1)</a>
 <a class="stop" href="../rozklady/23/2499-olkusz.html"><span class="stop-id">2499</span>Imbramowice Szkoła (1)</a>
 <a class="stop" href="../rozklady/23/2507-olkusz.html"><span class="stop-id">2507</span>Imbramowice Kolonia Dolna II (1)</a>
 <a class="stop" href="../rozklady/23/2505-olkusz.html"><span class="stop-id">2505</span>Imbramowice Kolonia Dolna I (1)</a>
@@ -226,7 +287,7 @@ Imbramowice Dolne - Zagórowa - Milonki - Zadroże - Trzyciąż - Jangrot - Mich
 <a class="stop" href="../rozklady/23/2452-olkusz.html"><span class="stop-id">2452</span>Olkusz Pakuska Skrzyżowanie (1)</a>
 <a class="stop" href="../rozklady/23/2464-olkusz.html"><span class="stop-id">2464</span>Olkusz Pakuska (2)</a>
 <a class="stop" href="../rozklady/23/0226-olkusz.html"><span class="stop-id">0226</span>Olkusz Wiadukt (2)</a>
-<a class="stop" href="../rozklady/23/0200-olkusz.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
+<a class="stop terminal" href="../rozklady/23/0200-olkusz.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
 
 </div>
 
@@ -236,7 +297,7 @@ Imbramowice Dolne - Zagórowa - Milonki - Zadroże - Trzyciąż - Jangrot - Mich
 
 <div class="zone zone-olkusz">STREFA OLKUSZ</div>
   
-<a class="stop" href="../rozklady/23/0200-imbramowice.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
+<a class="stop terminal" href="../rozklady/23/0200-imbramowice.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
 <a class="stop" href="../rozklady/23/0202-imbramowice.html"><span class="stop-id">0202</span>Olkusz Wiadukt (1)</a>
 <a class="stop" href="../rozklady/23/2451-imbramowice.html"><span class="stop-id">2451</span>Olkusz Pakuska (1)</a>
 <a class="stop" href="../rozklady/23/2463-imbramowice.html"><span class="stop-id">2463</span>Olkusz Pakuska Skrzyżowanie (2)</a>
@@ -278,7 +339,7 @@ Imbramowice Dolne - Zagórowa - Milonki - Zadroże - Trzyciąż - Jangrot - Mich
 <a class="stop" href="../rozklady/23/2506-imbramowice.html"><span class="stop-id">2506</span>Imbramowice Kolonia Dolna I (2)</a>
 <a class="stop" href="../rozklady/23/2508-imbramowice.html"><span class="stop-id">2508</span>Imbramowice Kolonia Dolna II (2)</a>
 <a class="stop" href="../rozklady/23/2500-imbramowice.html"><span class="stop-id">2500</span>Imbramowice Szkoła (2)</a>
-<a class="stop" href="../rozklady/23/2488-imbramowice.html"><span class="stop-id">2488</span>Imbramowice Dolne (2)</a>
+<a class="stop terminal" href="../rozklady/23/2488-imbramowice.html"><span class="stop-id">2488</span>Imbramowice Dolne (2)</a>
 
 </div>
 
