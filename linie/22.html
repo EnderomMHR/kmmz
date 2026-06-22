@@ -131,6 +131,67 @@ body{
     height:8px;
 }
 
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
 .zone{
     text-align:center;
     color:white;
@@ -178,11 +239,11 @@ body{
 
 <div class="zone zone-wolbrom">STREFA WOLBROM</div>
   
-<a class="stop variant" href="../rozklady/22/0015-okrezna-1.html"><span class="stop-id">0015</span>Wolbrom Pod Lasem (1)</a>
+<a class="stop variant terminal" href="../rozklady/22/0015-okrezna-1.html"><span class="stop-id">0015</span>Wolbrom Pod Lasem (1)</a>
 <a class="stop variant" href="../rozklady/22/0016-okrezna-1.html"><span class="stop-id">0016</span>Wolbrom Dworzec PKP (0)</a>
 <a class="stop variant" href="../rozklady/22/0017-okrezna-1.html"><span class="stop-id">0017</span>Wolbrom 1-ego Maja I (1)</a>
 <a class="stop variant" href="../rozklady/22/0018-okrezna-1.html"><span class="stop-id">0018</span>Wolbrom 1-ego Maja (1)</a>
-<a class="stop" href="../rozklady/22/0001-okrezna-1.html"><span class="stop-id">0001</span>Wolbrom Nowa PKS (0)</a>
+<a class="stop terminal" href="../rozklady/22/0001-okrezna-1.html"><span class="stop-id">0001</span>Wolbrom Nowa PKS (0)</a>
 <a class="stop" href="../rozklady/22/0022-okrezna-1.html"><span class="stop-id">0022</span>Wolbrom Kościuszki (1)</a>
 <a class="stop" href="../rozklady/22/0694-okrezna-1.html"><span class="stop-id">0694</span>Łobzów Granica (1)</a>
 <a class="stop" href="../rozklady/22/0695-okrezna-1.html"><span class="stop-id">0695</span>Łobzów OSP (1)</a>
@@ -221,7 +282,7 @@ body{
 <a class="stop" href="../rozklady/22/0709-okrezna-1.html"><span class="stop-id">0709</span>Łobzów OSP (2)</a>
 <a class="stop" href="../rozklady/22/0710-okrezna-1.html"><span class="stop-id">0710</span>Łobzów Granica (2)</a>
 <a class="stop" href="../rozklady/22/0021-okrezna-1.html"><span class="stop-id">0021</span>Wolbrom Kościuszki (2)</a>
-<a class="stop" href="../rozklady/22/0001-okrezna-1.html"><span class="stop-id">0001</span>Wolbrom Nowa PKS (0)</a>
+<a class="stop terminal" href="../rozklady/22/0001-okrezna-1.html"><span class="stop-id">0001</span>Wolbrom Nowa PKS (0)</a>
 
 </div>
 
@@ -231,7 +292,7 @@ body{
 
 <div class="zone zone-wolbrom">STREFA WOLBROM</div>
   
-<a class="stop" href="../rozklady/22/0001-okrezna-2.html"><span class="stop-id">0001</span>Wolbrom Nowa PKS (0)</a>
+<a class="stop terminal" href="../rozklady/22/0001-okrezna-2.html"><span class="stop-id">0001</span>Wolbrom Nowa PKS (0)</a>
 <a class="stop" href="../rozklady/22/0022-okrezna-2.html"><span class="stop-id">0022</span>Wolbrom Kościuszki (1)</a>
 <a class="stop" href="../rozklady/22/0694-okrezna-2.html"><span class="stop-id">0694</span>Łobzów Granica (1)</a>
 <a class="stop" href="../rozklady/22/0695-okrezna-2.html"><span class="stop-id">0695</span>Łobzów OSP (1)</a>
@@ -270,10 +331,10 @@ body{
 <a class="stop" href="../rozklady/22/0709-okrezna-2.html"><span class="stop-id">0709</span>Łobzów OSP (2)</a>
 <a class="stop" href="../rozklady/22/0710-okrezna-2.html"><span class="stop-id">0710</span>Łobzów Granica (2)</a>
 <a class="stop" href="../rozklady/22/0021-okrezna-2.html"><span class="stop-id">0021</span>Wolbrom Kościuszki (2)</a>
-<a class="stop" href="../rozklady/22/0001-okrezna-2.html"><span class="stop-id">0001</span>Wolbrom Nowa PKS (0)</a>
+<a class="stop terminal" href="../rozklady/22/0001-okrezna-2.html"><span class="stop-id">0001</span>Wolbrom Nowa PKS (0)</a>
 <a class="stop variant" href="../rozklady/22/0029-okrezna-2.html"><span class="stop-id">0029</span>Wolbrom 1-ego Maja I (2)</a>
 <a class="stop variant" href="../rozklady/22/0016-okrezna-2.html"><span class="stop-id">0016</span>Wolbrom Dworzec PKP (0)</a>
-<a class="stop variant" href="../rozklady/22/0015-okrezna-2.html"><span class="stop-id">0015</span>Wolbrom Pod Lasem (1)</a>
+<a class="stop variant terminal" href="../rozklady/22/0015-okrezna-2.html"><span class="stop-id">0015</span>Wolbrom Pod Lasem (1)</a>
 
 </div>
 
