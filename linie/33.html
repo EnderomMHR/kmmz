@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 33</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-chrzanow{
+    background:#a4c2f4;
+    color:#222;
+}
+
+.zone-trzebinia{
+    background:#d9d2e9;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">33</div>
+
+<div class="route">
+Lgota Szkoła - Myślachowice - Trzebinia Dworzec PKP - Os. Widokowe - Piła Kościelecka - (Trzebinia Chechło) - Chrzanów Dworzec Autobusowy
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Chrzanów Dworzec Autobusowy</h2>
+
+<a class="stop terminal" href="../rozklady/33/0946-chrzanow.html"><span class="stop-id">0946</span>Lgota Szkoła (1)</a>
+<a class="stop" href="../rozklady/33/0945-chrzanow.html"><span class="stop-id">0945</span>Lgota (2)</a>
+<a class="stop" href="../rozklady/33/0966-chrzanow.html"><span class="stop-id">0966</span>Ostrężnica Galman (1)</a>
+<a class="stop" href="../rozklady/33/0930-chrzanow.html"><span class="stop-id">0930</span>Myślachowice Leśniczówka (1)</a>
+<a class="stop" href="../rozklady/33/0936-chrzanow.html"><span class="stop-id">0936</span>Myślachowice Centrum (1)</a>
+<a class="stop" href="../rozklady/33/0942-chrzanow.html"><span class="stop-id">0942</span>Trzebinia Zbyszek (2)</a>
+<a class="stop" href="../rozklady/33/0982-chrzanow.html"><span class="stop-id">0982</span>Trzebinia Piłsudskiego Kościół (2)</a>
+<a class="stop" href="../rozklady/33/0088-chrzanow.html"><span class="stop-id">0088</span>Trzebinia Mały Rynek Kościuszki (0)</a>
+<a class="stop variant" href="../rozklady/33/1026-chrzanow.html"><span class="stop-id">1026</span>Trzebinia Harcerska Przychodnia (0)</a>
+<a class="stop terminal" href="../rozklady/33/0089-chrzanow.html"><span class="stop-id">0089</span>Trzebinia Dworzec PKP (1)</a>
+<a class="stop" href="../rozklady/33/0123-chrzanow.html"><span class="stop-id">0123</span>Trzebinia Krakowska (0)</a>
+<a class="stop" href="../rozklady/33/0356-chrzanow.html"><span class="stop-id">0356</span>Trzebinia Os. Widokowe Schody (2)</a>
+<a class="stop" href="../rozklady/33/0357-chrzanow.html"><span class="stop-id">0357</span>Trzebinia Os. Widokowe Kiosk (2)</a>
+<a class="stop" href="../rozklady/33/0358-chrzanow.html"><span class="stop-id">0358</span>Trzebinia Os. Widokowe Szkoła (1)</a>
+<a class="stop" href="../rozklady/33/1022-chrzanow.html"><span class="stop-id">1022</span>Trzebinia Słowackiego (1)</a>
+<a class="stop" href="../rozklady/33/1024-chrzanow.html"><span class="stop-id">1024</span>Trzebinia Zakłady Tłuszczowe (1)</a>
+<a class="stop" href="../rozklady/33/1279-chrzanow.html"><span class="stop-id">1279</span>Trzebinia Zakład Karny (1)</a>
+<a class="stop" href="../rozklady/33/1145-chrzanow.html"><span class="stop-id">1145</span>Piła Kościelecka Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/33/1143-chrzanow.html"><span class="stop-id">1143</span>Piła Kościelecka Folwark (1)</a>
+<a class="stop variant terminal" href="../rozklady/33/1140-chrzanow.html"><span class="stop-id">1140</span>Trzebinia Chechło (0)</a>
+<a class="stop" href="../rozklady/33/1141-chrzanow.html"><span class="stop-id">1141</span>Chrzanów Chechło Kąpielisko (1)</a>
+<a class="stop" href="../rozklady/33/0093-chrzanow.html"><span class="stop-id">0093</span>Chrzanów Szpital (2)</a>
+<a class="stop" href="../rozklady/33/0094-chrzanow.html"><span class="stop-id">0094</span>Chrzanów Szpitalna (1)</a>
+<a class="stop terminal" href="../rozklady/33/0334-chrzanow.html"><span class="stop-id">0334</span>Chrzanów Dworzec Autobusowy (4)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Lgota Szkoła</h2>
+
+<a class="stop terminal" href="../rozklady/33/0116-lgota.html"><span class="stop-id">0116</span>Chrzanów Dworzec Autobusowy (1)</a>
+<a class="stop" href="../rozklady/33/0117-lgota.html"><span class="stop-id">0117</span>Chrzanów Szpitalna (3)</a>
+<a class="stop" href="../rozklady/33/0118-lgota.html"><span class="stop-id">0118</span>Chrzanów Szpital (1)</a>
+<a class="stop variant terminal" href="../rozklady/33/1140-lgota.html"><span class="stop-id">1140</span>Trzebinia Chechło (0)</a>
+<a class="stop" href="../rozklady/33/1142-lgota.html"><span class="stop-id">1142</span>Chrzanów Chechło Kąpielisko (2)</a>
+<a class="stop" href="../rozklady/33/1144-lgota.html"><span class="stop-id">1144</span>Piła Kościelecka Folwark (2)</a>
+<a class="stop" href="../rozklady/33/1146-lgota.html"><span class="stop-id">1146</span>Piła Kościelecka Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/33/1280-lgota.html"><span class="stop-id">1280</span>Trzebinia Zakład Karny (2)</a>
+<a class="stop" href="../rozklady/33/1523-lgota.html"><span class="stop-id">1523</span>Trzebinia Zakłady Tłuszczowe (3)</a>
+<a class="stop" href="../rozklady/33/1023-lgota.html"><span class="stop-id">1023</span>Trzebinia Słowackiego (2)</a>
+<a class="stop" href="../rozklady/33/0353-lgota.html"><span class="stop-id">0353</span>Trzebinia Os. Widokowe Szkoła (2)</a>
+<a class="stop" href="../rozklady/33/0354-lgota.html"><span class="stop-id">0354</span>Trzebinia Os. Widokowe Kiosk (1)</a>
+<a class="stop" href="../rozklady/33/0355-lgota.html"><span class="stop-id">0355</span>Trzebinia Os. Widokowe Schody (1)</a>
+<a class="stop" href="../rozklady/33/0088-lgota.html"><span class="stop-id">0088</span>Trzebinia Mały Rynek Kościuszki (0)</a>
+<a class="stop variant" href="../rozklady/33/1026-lgota.html"><span class="stop-id">1026</span>Trzebinia Harcerska Przychodnia (0)</a>
+<a class="stop terminal" href="../rozklady/33/0089-lgota.html"><span class="stop-id">0089</span>Trzebinia Dworzec PKP (1)</a>
+<a class="stop" href="../rozklady/33/3295-lgota.html"><span class="stop-id">3295</span>Trzebinia Mały Rynek (1)</a>
+<a class="stop" href="../rozklady/33/0983-lgota.html"><span class="stop-id">0983</span>Trzebinia Piłsudskiego Kościół (1)</a>
+<a class="stop" href="../rozklady/33/0941-lgota.html"><span class="stop-id">0941</span>Trzebinia Zbyszek (1)</a>
+<a class="stop" href="../rozklady/33/0937-lgota.html"><span class="stop-id">0937</span>Myślachowice Centrum (2)</a>
+<a class="stop" href="../rozklady/33/0931-lgota.html"><span class="stop-id">0931</span>Myślachowice Leśniczówka (2)</a>
+<a class="stop" href="../rozklady/33/0967-lgota.html"><span class="stop-id">0967</span>Ostrężnica Galman (2)</a>
+<a class="stop" href="../rozklady/33/0944-lgota.html"><span class="stop-id">0944</span>Lgota (1)</a>
+<a class="stop terminal" href="../rozklady/33/0946-lgota.html"><span class="stop-id">0946</span>Lgota Szkoła (1)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
