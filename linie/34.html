@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 34</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-olkusz{
+    background:#ffe599;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">34</div>
+
+<div class="route">
+Gorenice Pętla - Witeradów - Olkusz Dworzec PKS - (Olewin) - (Sieniczno) - (Wiśliczka) - (Kosmolów) - (Zadole Kosmolowskie Pętla)
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Olkusz Dworzec PKS</h2>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+  
+<a class="stop terminal" href="../rozklady/34/1560-olkusz.html"><span class="stop-id">1560</span>Gorenice Pętla (1)</a>
+<a class="stop" href="../rozklady/34/1563-olkusz.html"><span class="stop-id">1563</span>Gorenice Wzniesienie (2)</a>
+<a class="stop" href="../rozklady/34/1565-olkusz.html"><span class="stop-id">1565</span>Gorenice Dołek (2)</a>
+<a class="stop" href="../rozklady/34/1585-olkusz.html"><span class="stop-id">1585</span>Gorenice Szkoła (2)</a>
+<a class="stop" href="../rozklady/34/1567-olkusz.html"><span class="stop-id">1567</span>Gorenice Remiza (1)</a>
+<a class="stop" href="../rozklady/34/2095-olkusz.html"><span class="stop-id">2095</span>Gorenice Kąty Cmentarz (2)</a>
+<a class="stop" href="../rozklady/34/2096-olkusz.html"><span class="stop-id">2096</span>Gorenice Kąty Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/34/2099-olkusz.html"><span class="stop-id">2099</span>Gorenice Leśna (2)</a>
+<a class="stop" href="../rozklady/34/2100-olkusz.html"><span class="stop-id">2100</span>Gorenice Leśna Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/34/1569-olkusz.html"><span class="stop-id">1569</span>Gorenice Wilcze Doły (1)</a>
+<a class="stop" href="../rozklady/34/1570-olkusz.html"><span class="stop-id">1570</span>Witeradów Pod Kądzielnią (1)</a>
+<a class="stop" href="../rozklady/34/1571-olkusz.html"><span class="stop-id">1571</span>Witeradów (1)</a>
+<a class="stop" href="../rozklady/34/1572-olkusz.html"><span class="stop-id">1572</span>Witeradów Wieś (1)</a>
+<a class="stop" href="../rozklady/34/1573-olkusz.html"><span class="stop-id">1573</span>Witeradów Tartak (1)</a>
+<a class="stop" href="../rozklady/34/1574-olkusz.html"><span class="stop-id">1574</span>Witeradów Zacisze (1)</a>
+<a class="stop" href="../rozklady/34/1576-olkusz.html"><span class="stop-id">1576</span>Olkusz Księdza Gajewskiego (2)</a>
+<a class="stop" href="../rozklady/34/1586-olkusz.html"><span class="stop-id">1586</span>Olkusz Kościół (2)</a>
+<a class="stop" href="../rozklady/34/1588-olkusz.html"><span class="stop-id">1588</span>Olkusz Biema (1)</a>
+<a class="stop" href="../rozklady/34/0495-olkusz.html"><span class="stop-id">0495</span>Olkusz Szpital (2)</a>
+<a class="stop" href="../rozklady/34/0197-olkusz.html"><span class="stop-id">0197</span>Olkusz Basen (1)</a>
+<a class="stop" href="../rozklady/34/0198-olkusz.html"><span class="stop-id">0198</span>Olkusz Dworek Machnickich (0)</a>
+<a class="stop" href="../rozklady/34/0199-olkusz.html"><span class="stop-id">0199</span>Olkusz Skarbek (2)</a>
+<a class="stop terminal" href="../rozklady/34/0200-olkusz.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
+<a class="stop variant" href="../rozklady/34/0201-olkusz.html"><span class="stop-id">0201</span>Olkusz Dworzec PKP (1)</a>
+<a class="stop variant" href="../rozklady/34/0202-olkusz.html"><span class="stop-id">0202</span>Olkusz Wiadukt (1)</a>
+<a class="stop variant" href="../rozklady/34/0203-olkusz.html"><span class="stop-id">0203</span>Olkusz Aleja Tysiąclecia (1)</a>
+<a class="stop variant" href="../rozklady/34/2029-olkusz.html"><span class="stop-id">2029</span>Olkusz Zagaje (2)</a>
+<a class="stop variant" href="../rozklady/34/2030-olkusz.html"><span class="stop-id">2030</span>Olkusz Zagaje II (2)</a>
+<a class="stop variant" href="../rozklady/34/2040-olkusz.html"><span class="stop-id">2040</span>Olewin Fabryka Domów (1)</a>
+<a class="stop variant" href="../rozklady/34/2039-olkusz.html"><span class="stop-id">2039</span>Olewin (1)</a>
+<a class="stop variant" href="../rozklady/34/2038-olkusz.html"><span class="stop-id">2038</span>Sieniczno Krzyżówka (1)</a>
+<a class="stop variant" href="../rozklady/34/2037-olkusz.html"><span class="stop-id">2037</span>Sieniczno Orzechówka (1)</a>
+<a class="stop variant" href="../rozklady/34/2035-olkusz.html"><span class="stop-id">2035</span>Sieniczno Granica (2)</a>
+<a class="stop variant" href="../rozklady/34/0204-olkusz.html"><span class="stop-id">0204</span>Sieniczno (1)</a>
+<a class="stop variant" href="../rozklady/34/0205-olkusz.html"><span class="stop-id">0205</span>Sieniczno Ojcowska (2)</a>
+<a class="stop variant" href="../rozklady/34/0206-olkusz.html"><span class="stop-id">0206</span>Wiśliczka (2)</a>
+<a class="stop variant" href="../rozklady/34/0207-olkusz.html"><span class="stop-id">0207</span>Kosmolów Las (2)</a>
+<a class="stop variant" href="../rozklady/34/0208-olkusz.html"><span class="stop-id">0208</span>Kosmolów Szkoła (2)</a>
+<a class="stop variant" href="../rozklady/34/0209-olkusz.html"><span class="stop-id">0209</span>Kosmolów Sklep (2)</a>
+<a class="stop variant" href="../rozklady/34/0210-olkusz.html"><span class="stop-id">0210</span>Kosmolów Na Górze (2)</a>
+<a class="stop variant" href="../rozklady/34/0211-olkusz.html"><span class="stop-id">0211</span>Kosmolów Skrzyżowanie (2)</a>
+<a class="stop variant" href="../rozklady/34/0212-olkusz.html"><span class="stop-id">0212</span>Zadole Kosmolowskie Początek (2)</a>
+<a class="stop variant" href="../rozklady/34/0213-olkusz.html"><span class="stop-id">0213</span>Zadole Kosmolowskie (2)</a>
+<a class="stop variant terminal" href="../rozklady/34/0214-olkusz.html"><span class="stop-id">0214</span>Zadole Kosmolowskie Pętla (0)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Gorenice Pętla</h2>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+  
+<a class="stop variant terminal" href="../rozklady/34/0214-gorenice.html"><span class="stop-id">0214</span>Zadole Kosmolowskie Pętla (0)</a>
+<a class="stop variant" href="../rozklady/34/0215-gorenice.html"><span class="stop-id">0215</span>Zadole Kosmolowskie (1)</a>
+<a class="stop variant" href="../rozklady/34/0216-gorenice.html"><span class="stop-id">0216</span>Zadole Kosmolowskie Początek (1)</a>
+<a class="stop variant" href="../rozklady/34/0217-gorenice.html"><span class="stop-id">0217</span>Kosmolów Skrzyżowanie (1)</a>
+<a class="stop variant" href="../rozklady/34/0218-gorenice.html"><span class="stop-id">0218</span>Kosmolów Na Górze (1)</a>
+<a class="stop variant" href="../rozklady/34/0219-gorenice.html"><span class="stop-id">0219</span>Kosmolów Sklep (1)</a>
+<a class="stop variant" href="../rozklady/34/0220-gorenice.html"><span class="stop-id">0220</span>Kosmolów Szkoła (1)</a>
+<a class="stop variant" href="../rozklady/34/0221-gorenice.html"><span class="stop-id">0221</span>Kosmolów Las (1)</a>
+<a class="stop variant" href="../rozklady/34/0222-gorenice.html"><span class="stop-id">0222</span>Wiśliczka (1)</a>
+<a class="stop variant" href="../rozklady/34/0223-gorenice.html"><span class="stop-id">0223</span>Sieniczno Ojcowska (1)</a>
+<a class="stop variant" href="../rozklady/34/0224-gorenice.html"><span class="stop-id">0224</span>Sieniczno (2)</a>
+<a class="stop variant" href="../rozklady/34/2036-gorenice.html"><span class="stop-id">2036</span>Sieniczno Granica (1)</a>
+<a class="stop variant" href="../rozklady/34/2034-gorenice.html"><span class="stop-id">2034</span>Sieniczno Orzechówka (2)</a>
+<a class="stop variant" href="../rozklady/34/2033-gorenice.html"><span class="stop-id">2033</span>Sieniczno Krzyżówka (2)</a>
+<a class="stop variant" href="../rozklady/34/2032-gorenice.html"><span class="stop-id">2032</span>Olewin (2)</a>
+<a class="stop variant" href="../rozklady/34/2031-gorenice.html"><span class="stop-id">2031</span>Olewin Fabryka Domów (2)</a>
+<a class="stop variant" href="../rozklady/34/2041-gorenice.html"><span class="stop-id">2041</span>Olkusz Zagaje II (1)</a>
+<a class="stop variant" href="../rozklady/34/2042-gorenice.html"><span class="stop-id">2042</span>Olkusz Zagaje (1)</a>
+<a class="stop variant" href="../rozklady/34/0225-gorenice.html"><span class="stop-id">0225</span>Olkusz Aleja Tysiąclecia (2)</a>
+<a class="stop variant" href="../rozklady/34/0226-gorenice.html"><span class="stop-id">0226</span>Olkusz Wiadukt (2)</a>
+<a class="stop variant" href="../rozklady/34/0227-gorenice.html"><span class="stop-id">0227</span>Olkusz Dworzec PKP (2)</a>
+<a class="stop terminal" href="../rozklady/34/0200-gorenice.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
+<a class="stop" href="../rozklady/34/0228-gorenice.html"><span class="stop-id">0228</span>Olkusz Skarbek (1)</a>
+<a class="stop" href="../rozklady/34/0175-gorenice.html"><span class="stop-id">0175</span>Olkusz Górnicza (1)</a>
+<a class="stop" href="../rozklady/34/0176-gorenice.html"><span class="stop-id">0176</span>Olkusz Mickiewicza (1)</a>
+<a class="stop" href="../rozklady/34/0177-gorenice.html"><span class="stop-id">0177</span>Olkusz Szpitalna (2)</a>
+<a class="stop" href="../rozklady/34/0229-gorenice.html"><span class="stop-id">0229</span>Olkusz Basen (2)</a>
+<a class="stop" href="../rozklady/34/0536-gorenice.html"><span class="stop-id">0536</span>Olkusz Szpital (1)</a>
+<a class="stop" href="../rozklady/34/1589-gorenice.html"><span class="stop-id">1589</span>Olkusz Biema (2)</a>
+<a class="stop" href="../rozklady/34/1587-gorenice.html"><span class="stop-id">1587</span>Olkusz Kościół (1)</a>
+<a class="stop" href="../rozklady/34/1575-gorenice.html"><span class="stop-id">1575</span>Olkusz Księdza Gajewskiego (1)</a>
+<a class="stop" href="../rozklady/34/1577-gorenice.html"><span class="stop-id">1577</span>Witeradów Zacisze (2)</a>
+<a class="stop" href="../rozklady/34/1578-gorenice.html"><span class="stop-id">1578</span>Witeradów Tartak (2)</a>
+<a class="stop" href="../rozklady/34/1579-gorenice.html"><span class="stop-id">1579</span>Witeradów Wieś (2)</a>
+<a class="stop" href="../rozklady/34/1580-gorenice.html"><span class="stop-id">1580</span>Witeradów (2)</a>
+<a class="stop" href="../rozklady/34/1581-gorenice.html"><span class="stop-id">1581</span>Witeradów Pod Kądzielnią (2)</a>
+<a class="stop" href="../rozklady/34/1582-gorenice.html"><span class="stop-id">1582</span>Gorenice Wilcze Doły (2)</a>
+<a class="stop" href="../rozklady/34/2101-gorenice.html"><span class="stop-id">2101</span>Gorenice Leśna Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/34/2098-gorenice.html"><span class="stop-id">2098</span>Gorenice Leśna (1)</a>
+<a class="stop" href="../rozklady/34/2097-gorenice.html"><span class="stop-id">2097</span>Gorenice Kąty Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/34/2094-gorenice.html"><span class="stop-id">2094</span>Gorenice Kąty Cmentarz (1)</a>
+<a class="stop" href="../rozklady/34/1584-gorenice.html"><span class="stop-id">1584</span>Gorenice Remiza (2)</a>
+<a class="stop" href="../rozklady/34/1566-gorenice.html"><span class="stop-id">1566</span>Gorenice Szkoła (1)</a>
+<a class="stop" href="../rozklady/34/1565-gorenice.html"><span class="stop-id">1565</span>Gorenice Dołek (2)</a>
+<a class="stop" href="../rozklady/34/1562-gorenice.html"><span class="stop-id">1562</span>Gorenice Wzniesienie (1)</a>
+<a class="stop" href="../rozklady/34/1561-gorenice.html"><span class="stop-id">1561</span>Gorenice (1)</a>
+<a class="stop terminal" href="../rozklady/34/1560-gorenice.html"><span class="stop-id">1560</span>Gorenice Pętla (1)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
