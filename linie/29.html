@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 29</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-krzeszowice{
+    background:#f9cb9a;
+    color:#222;
+}
+
+.zone-jerzmanowice-przeginia{
+    background:#ea9998;
+    color:#222;
+}
+
+.zone-olkusz{
+    background:#ffe599;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">29</div>
+
+<div class="route">
+Krzeszowice Dworzec Autobusowy - Dębnik - Paczółtowice - Racławice - Czubrowice - Przeginia - Zederman - Kogutek - Sieniczno - Olkusz - Witeradów - Gorenice - Czerna - Krzeszowice Dworzec Autobusowy
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Krzeszowice Dworzec Autobusowy</h2>
+
+<div class="zone zone-krzeszowice">STREFA KRZESZOWICE</div>
+  
+<a class="stop terminal" href="../rozklady/29/0134-okrezna-1.html"><span class="stop-id">0134</span>Krzeszowice Dworzec Autobusowy (3)</a>
+<a class="stop" href="../rozklady/29/0135-okrezna-1.html"><span class="stop-id">0135</span>Krzeszowice 3-ego Maja (1)</a>
+<a class="stop" href="../rozklady/29/1366-okrezna-1.html"><span class="stop-id">1366</span>Krzeszowice Czatkowice Górne (2)</a>
+<a class="stop" href="../rozklady/29/1368-okrezna-1.html"><span class="stop-id">1368</span>Dębnik Centrum Plac (0)</a>
+<a class="stop" href="../rozklady/29/1328-okrezna-1.html"><span class="stop-id">1328</span>Paczółtowice Kościół (2)</a>
+<a class="stop" href="../rozklady/29/1329-okrezna-1.html"><span class="stop-id">1329</span>Paczółtowice Podlipa Pętla (2)</a>
+
+<div class="zone zone-jerzmanowice-przeginia">STREFA JERZMANOWICE-PRZEGINIA</div>
+  
+<a class="stop" href="../rozklady/29/1613-okrezna-1.html"><span class="stop-id">1613</span>Racławice Na Końcu (1)</a>
+<a class="stop" href="../rozklady/29/1611-okrezna-1.html"><span class="stop-id">1611</span>Racławice (2)</a>
+<a class="stop" href="../rozklady/29/1615-okrezna-1.html"><span class="stop-id">1615</span>Racławice Remiza (1)</a>
+<a class="stop" href="../rozklady/29/1618-okrezna-1.html"><span class="stop-id">1618</span>Racławice Kościół (1)</a>
+<a class="stop" href="../rozklady/29/1617-okrezna-1.html"><span class="stop-id">1617</span>Racławice Koło Sioły (1)</a>
+<a class="stop" href="../rozklady/29/1608-okrezna-1.html"><span class="stop-id">1608</span>Czubrowice Rzeka (2)</a>
+<a class="stop" href="../rozklady/29/1620-okrezna-1.html"><span class="stop-id">1620</span>Czubrowice Szkoła (1)</a>
+<a class="stop" href="../rozklady/29/1621-okrezna-1.html"><span class="stop-id">1621</span>Czubrowice Remiza (1)</a>
+<a class="stop" href="../rozklady/29/1622-okrezna-1.html"><span class="stop-id">1622</span>Czubrowice (1)</a>
+<a class="stop" href="../rozklady/29/1604-okrezna-1.html"><span class="stop-id">1604</span>Przeginia Górka (1)</a>
+<a class="stop" href="../rozklady/29/1623-okrezna-1.html"><span class="stop-id">1623</span>Przeginia SKR (1)</a>
+<a class="stop" href="../rozklady/29/1624-okrezna-1.html"><span class="stop-id">1624</span>Przeginia Szkoła (1)</a>
+<a class="stop" href="../rozklady/29/1600-okrezna-1.html"><span class="stop-id">1600</span>Przeginia Kościół (2)</a>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+  
+<a class="stop" href="../rozklady/29/1598-okrezna-1.html"><span class="stop-id">1598</span>Zederman (2)</a>
+<a class="stop" href="../rozklady/29/1594-okrezna-1.html"><span class="stop-id">1594</span>Zederman Kiosk (3)</a>
+<a class="stop" href="../rozklady/29/1593-okrezna-1.html"><span class="stop-id">1593</span>Zederman Pasieka (2)</a>
+<a class="stop" href="../rozklady/29/1591-okrezna-1.html"><span class="stop-id">1591</span>Kogutek (2)</a>
+<a class="stop" href="../rozklady/29/0224-okrezna-1.html"><span class="stop-id">0224</span>Sieniczno (2)</a>
+<a class="stop" href="../rozklady/29/0225-okrezna-1.html"><span class="stop-id">0225</span>Olkusz Aleja Tysiąclecia (2)</a>
+<a class="stop" href="../rozklady/29/0433-okrezna-1.html"><span class="stop-id">0433</span>Olkusz Słowiki (1)</a>
+<a class="stop" href="../rozklady/29/0174-okrezna-1.html"><span class="stop-id">0174</span>Olkusz Supersam (0)</a>
+<a class="stop" href="../rozklady/29/0199-okrezna-1.html"><span class="stop-id">0199</span>Olkusz Skarbek (2)</a>
+<a class="stop" href="../rozklady/29/0201-okrezna-1.html"><span class="stop-id">0201</span>Olkusz Dworzec PKP (1)</a>
+<a class="stop" href="../rozklady/29/0202-okrezna-1.html"><span class="stop-id">0202</span>Olkusz Wiadukt (1)</a>
+<a class="stop" href="../rozklady/29/0492-okrezna-1.html"><span class="stop-id">0492</span>Olkusz Baza PKS (1)</a>
+<a class="stop" href="../rozklady/29/0493-okrezna-1.html"><span class="stop-id">0493</span>Olkusz Owent (2)</a>
+<a class="stop" href="../rozklady/29/0494-okrezna-1.html"><span class="stop-id">0494</span>Olkusz ZUS (2)</a>
+<a class="stop" href="../rozklady/29/1589-okrezna-1.html"><span class="stop-id">1589</span>Olkusz Biema (2)</a>
+<a class="stop" href="../rozklady/29/1587-okrezna-1.html"><span class="stop-id">1587</span>Olkusz Kościół (1)</a>
+<a class="stop" href="../rozklady/29/1575-okrezna-1.html"><span class="stop-id">1575</span>Olkusz Księdza Gajewskiego (1)</a>
+<a class="stop" href="../rozklady/29/1577-okrezna-1.html"><span class="stop-id">1577</span>Witeradów Zacisze (2)</a>
+<a class="stop" href="../rozklady/29/1578-okrezna-1.html"><span class="stop-id">1578</span>Witeradów Tartak (2)</a>
+<a class="stop" href="../rozklady/29/1579-okrezna-1.html"><span class="stop-id">1579</span>Witeradów Wieś (2)</a>
+<a class="stop" href="../rozklady/29/1580-okrezna-1.html"><span class="stop-id">1580</span>Witeradów (2)</a>
+<a class="stop" href="../rozklady/29/1581-okrezna-1.html"><span class="stop-id">1581</span>Witeradów Pod Kądzielnią (2)</a>
+<a class="stop" href="../rozklady/29/1582-okrezna-1.html"><span class="stop-id">1582</span>Gorenice Wilcze Doły (2)</a>
+<a class="stop" href="../rozklady/29/1568-okrezna-1.html"><span class="stop-id">1568</span>Gorenice Kościół (1)</a>
+<a class="stop" href="../rozklady/29/1584-okrezna-1.html"><span class="stop-id">1584</span>Gorenice Remiza (2)</a>
+<a class="stop" href="../rozklady/29/1566-okrezna-1.html"><span class="stop-id">1566</span>Gorenice Szkoła (1)</a>
+<a class="stop" href="../rozklady/29/1564-okrezna-1.html"><span class="stop-id">1564</span>Gorenice Dołek (1)</a>
+<a class="stop" href="../rozklady/29/1562-okrezna-1.html"><span class="stop-id">1562</span>Gorenice Wzniesienie (1)</a>
+<a class="stop" href="../rozklady/29/1561-okrezna-1.html"><span class="stop-id">1561</span>Gorenice (1)</a>
+
+<div class="zone zone-krzeszowice">STREFA KRZESZOWICE</div>
+  
+<a class="stop" href="../rozklady/29/1371-okrezna-1.html"><span class="stop-id">1371</span>Czerna Las (1)</a>
+<a class="stop" href="../rozklady/29/1370-okrezna-1.html"><span class="stop-id">1370</span>Czerna Klasztor (1)</a>
+<a class="stop" href="../rozklady/29/1322-okrezna-1.html"><span class="stop-id">1322</span>Czerna Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/29/0046-okrezna-1.html"><span class="stop-id">0046</span>Krzeszowice Czatkowice Dolne Kopalnia (1)</a>
+<a class="stop" href="../rozklady/29/0047-okrezna-1.html"><span class="stop-id">0047</span>Krzeszowice Czatkowice Dolne (1)</a>
+<a class="stop" href="../rozklady/29/1275-okrezna-1.html"><span class="stop-id">1275</span>Krzeszowice Urząd Miejski (1)</a>
+<a class="stop" href="../rozklady/29/0133-okrezna-1.html"><span class="stop-id">0133</span>Krzeszowice Centrum (1)</a>
+<a class="stop terminal" href="../rozklady/29/1677-okrezna-1.html"><span class="stop-id">1677</span>Krzeszowice Dworzec Autobusowy (1)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Krzeszowice Dworzec Autobusowy</h2>
+
+<div class="zone zone-krzeszowice">STREFA KRZESZOWICE</div>
+  
+<a class="stop terminal" href="../rozklady/29/0134-okrezna-2.html"><span class="stop-id">0134</span>Krzeszowice Dworzec Autobusowy (3)</a>
+<a class="stop" href="../rozklady/29/0052-okrezna-2.html"><span class="stop-id">0052</span>Krzeszowice Rondo Jana Pawła II (0)</a>
+<a class="stop" href="../rozklady/29/1278-okrezna-2.html"><span class="stop-id">1278</span>Krzeszowice Kościół (2)</a>
+<a class="stop" href="../rozklady/29/0137-okrezna-2.html"><span class="stop-id">0137</span>Krzeszowice Czatkowice EDEN (1)</a>
+<a class="stop" href="../rozklady/29/0138-okrezna-2.html"><span class="stop-id">0138</span>Krzeszowice Czatkowice Dolne Kopalnia (2)</a>
+<a class="stop" href="../rozklady/29/1323-okrezna-2.html"><span class="stop-id">1323</span>Czerna Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/29/1369-okrezna-2.html"><span class="stop-id">1369</span>Czerna Klasztor (2)</a>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+  
+<a class="stop" href="../rozklady/29/1560-okrezna-2.html"><span class="stop-id">1560</span>Gorenice Pętla (1)</a>
+<a class="stop" href="../rozklady/29/1563-okrezna-2.html"><span class="stop-id">1563</span>Gorenice Wzniesienie (2)</a>
+<a class="stop" href="../rozklady/29/1565-okrezna-2.html"><span class="stop-id">1565</span>Gorenice Dołek (2)</a>
+<a class="stop" href="../rozklady/29/1585-okrezna-2.html"><span class="stop-id">1585</span>Gorenice Szkoła (2)</a>
+<a class="stop" href="../rozklady/29/1567-okrezna-2.html"><span class="stop-id">1567</span>Gorenice Remiza (1)</a>
+<a class="stop" href="../rozklady/29/1583-okrezna-2.html"><span class="stop-id">1583</span>Gorenice Kościół (2)</a>
+<a class="stop" href="../rozklady/29/1569-okrezna-2.html"><span class="stop-id">1569</span>Gorenice Wilcze Doły (1)</a>
+<a class="stop" href="../rozklady/29/1570-okrezna-2.html"><span class="stop-id">1570</span>Witeradów Pod Kądzielnią (1)</a>
+<a class="stop" href="../rozklady/29/1571-okrezna-2.html"><span class="stop-id">1571</span>Witeradów (1)</a>
+<a class="stop" href="../rozklady/29/1572-okrezna-2.html"><span class="stop-id">1572</span>Witeradów Wieś (1)</a>
+<a class="stop" href="../rozklady/29/1573-okrezna-2.html"><span class="stop-id">1573</span>Witeradów Tartak (1)</a>
+<a class="stop" href="../rozklady/29/1574-okrezna-2.html"><span class="stop-id">1574</span>Witeradów Zacisze (1)</a>
+<a class="stop" href="../rozklady/29/1576-okrezna-2.html"><span class="stop-id">1576</span>Olkusz Księdza Gajewskiego (2)</a>
+<a class="stop" href="../rozklady/29/1586-okrezna-2.html"><span class="stop-id">1586</span>Olkusz Kościół (2)</a>
+<a class="stop" href="../rozklady/29/1588-okrezna-2.html"><span class="stop-id">1588</span>Olkusz Biema (1)</a>
+<a class="stop" href="../rozklady/29/0537-okrezna-2.html"><span class="stop-id">0537</span>Olkusz ZUS (1)</a>
+<a class="stop" href="../rozklady/29/0538-okrezna-2.html"><span class="stop-id">0538</span>Olkusz Owent (1)</a>
+<a class="stop" href="../rozklady/29/0225-okrezna-2.html"><span class="stop-id">0225</span>Olkusz Aleja Tysiąclecia (2)</a>
+<a class="stop" href="../rozklady/29/0226-okrezna-2.html"><span class="stop-id">0226</span>Olkusz Wiadukt (2)</a>
+<a class="stop" href="../rozklady/29/0227-okrezna-2.html"><span class="stop-id">0227</span>Olkusz Dworzec PKP (2)</a>
+<a class="stop" href="../rozklady/29/0228-okrezna-2.html"><span class="stop-id">0228</span>Olkusz Skarbek (1)</a>
+<a class="stop" href="../rozklady/29/0435-okrezna-2.html"><span class="stop-id">0435</span>Olkusz Supersam (1)</a>
+<a class="stop" href="../rozklady/29/0415-okrezna-2.html"><span class="stop-id">0415</span>Olkusz Słowiki (2)</a>
+<a class="stop" href="../rozklady/29/0203-okrezna-2.html"><span class="stop-id">0203</span>Olkusz Aleja Tysiąclecia (1)</a>
+<a class="stop" href="../rozklady/29/0204-okrezna-2.html"><span class="stop-id">0204</span>Sieniczno (1)</a>
+<a class="stop" href="../rozklady/29/1590-okrezna-2.html"><span class="stop-id">1590</span>Kogutek (1)</a>
+<a class="stop" href="../rozklady/29/1592-okrezna-2.html"><span class="stop-id">1592</span>Zederman Pasieka (1)</a>
+<a class="stop" href="../rozklady/29/1595-okrezna-2.html"><span class="stop-id">1595</span>Zederman Kiosk (4)</a>
+<a class="stop" href="../rozklady/29/1599-okrezna-2.html"><span class="stop-id">1599</span>Zederman (1)</a>
+
+<div class="zone zone-jerzmanowice-przeginia">STREFA JERZMANOWICE-PRZEGINIA</div>
+  
+<a class="stop" href="../rozklady/29/1601-okrezna-2.html"><span class="stop-id">1601</span>Przeginia Kościół (1)</a>
+<a class="stop" href="../rozklady/29/1602-okrezna-2.html"><span class="stop-id">1602</span>Przeginia Szkoła (2)</a>
+<a class="stop" href="../rozklady/29/1603-okrezna-2.html"><span class="stop-id">1603</span>Przeginia SKR (2)</a>
+<a class="stop" href="../rozklady/29/1761-okrezna-2.html"><span class="stop-id">1761</span>Przeginia Górka (2)</a>
+<a class="stop" href="../rozklady/29/1605-okrezna-2.html"><span class="stop-id">1605</span>Czubrowice (2)</a>
+<a class="stop" href="../rozklady/29/1606-okrezna-2.html"><span class="stop-id">1606</span>Czubrowice Remiza (2)</a>
+<a class="stop" href="../rozklady/29/1607-okrezna-2.html"><span class="stop-id">1607</span>Czubrowice Szkoła (2)</a>
+<a class="stop" href="../rozklady/29/1619-okrezna-2.html"><span class="stop-id">1619</span>Czubrowice Rzeka (1)</a>
+<a class="stop" href="../rozklady/29/1610-okrezna-2.html"><span class="stop-id">1610</span>Racławice Koło Sioły (2)</a>
+<a class="stop" href="../rozklady/29/1609-okrezna-2.html"><span class="stop-id">1609</span>Racławice Kościół (2)</a>
+<a class="stop" href="../rozklady/29/1616-okrezna-2.html"><span class="stop-id">1616</span>Racławice Remiza (2)</a>
+<a class="stop" href="../rozklady/29/1614-okrezna-2.html"><span class="stop-id">1614</span>Racławice (1)</a>
+<a class="stop" href="../rozklady/29/1612-okrezna-2.html"><span class="stop-id">1612</span>Racławice Na Końcu (2)</a>
+
+<div class="zone zone-krzeszowice">STREFA KRZESZOWICE</div>
+  
+<a class="stop" href="../rozklady/29/1330-okrezna-2.html"><span class="stop-id">1330</span>Paczółtowice Podlipa Pętla (1)</a>
+<a class="stop" href="../rozklady/29/1331-okrezna-2.html"><span class="stop-id">1331</span>Paczółtowice Kościół (1)</a>
+<a class="stop" href="../rozklady/29/1368-okrezna-2.html"><span class="stop-id">1368</span>Dębnik Centrum Plac (0)</a>
+<a class="stop" href="../rozklady/29/1367-okrezna-2.html"><span class="stop-id">1367</span>Krzeszowice Czatkowice Górne (1)</a>
+<a class="stop" href="../rozklady/29/0050-okrezna-2.html"><span class="stop-id">0050</span>Krzeszowice Pogotowie Ratunkowe (1)</a>
+<a class="stop terminal" href="../rozklady/29/1677-okrezna-2.html"><span class="stop-id">1677</span>Krzeszowice Dworzec Autobusowy (1)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
