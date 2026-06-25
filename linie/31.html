@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 31</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-krzeszowice{
+    background:#f9cb9a;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">31</div>
+
+<div class="route">
+Krzeszowice Dworzec Autobusowy - Tenczynek - Zalas - Sanka Głuchówki
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Sanka Głuchówki</h2>
+
+<a class="stop terminal" href="../rozklady/31/1678-sanka.html"><span class="stop-id">1678</span>Krzeszowice Dworzec Autobusowy (4)</a>
+<a class="stop" href="../rozklady/31/0052-sanka.html"><span class="stop-id">0052</span>Krzeszowice Rondo Jana Pawła II (0)</a>
+<a class="stop" href="../rozklady/31/1372-sanka.html"><span class="stop-id">1372</span>Tenczynek Piaski (1)</a>
+<a class="stop" href="../rozklady/31/1373-sanka.html"><span class="stop-id">1373</span>Tenczynek Centrum (1)</a>
+<a class="stop" href="../rozklady/31/1374-sanka.html"><span class="stop-id">1374</span>Tenczynek Szkoła (1)</a>
+<a class="stop" href="../rozklady/31/1375-sanka.html"><span class="stop-id">1375</span>Zalas Rogatki (1)</a>
+<a class="stop" href="../rozklady/31/1376-sanka.html"><span class="stop-id">1376</span>Zalas Podlas (1)</a>
+<a class="stop" href="../rozklady/31/1382-sanka.html"><span class="stop-id">1382</span>Zalas Rondo (1)</a>
+<a class="stop" href="../rozklady/31/1385-sanka.html"><span class="stop-id">1385</span>Zalas Plac (1)</a>
+<a class="stop" href="../rozklady/31/1386-sanka.html"><span class="stop-id">1386</span>Zalas Krótka (1)</a>
+<a class="stop" href="../rozklady/31/1388-sanka.html"><span class="stop-id">1388</span>Zalas Szkoła (2)</a>
+<a class="stop" href="../rozklady/31/1395-sanka.html"><span class="stop-id">1395</span>Zalas Kościół (2)</a>
+<a class="stop" href="../rozklady/31/1391-sanka.html"><span class="stop-id">1391</span>Zalas Ośrodek Zdrowia (1)</a>
+<a class="stop" href="../rozklady/31/1392-sanka.html"><span class="stop-id">1392</span>Zalas Krzyżówka (1)</a>
+<a class="stop" href="../rozklady/31/1396-sanka.html"><span class="stop-id">1396</span>Sanka Dół (2)</a>
+<a class="stop" href="../rozklady/31/1397-sanka.html"><span class="stop-id">1397</span>Sanka Kościół (2)</a>
+<a class="stop" href="../rozklady/31/1398-sanka.html"><span class="stop-id">1398</span>Sanka Wzgórze (2)</a>
+<a class="stop terminal" href="../rozklady/31/1399-sanka.html"><span class="stop-id">1399</span>Sanka Głuchówki (0)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Krzeszowice Dworzec Autobusowy</h2>
+
+<a class="stop terminal" href="../rozklady/31/1399-krzeszowice.html"><span class="stop-id">1399</span>Sanka Głuchówki (0)</a>
+<a class="stop" href="../rozklady/31/1400-krzeszowice.html"><span class="stop-id">1400</span>Sanka Wzgórze (1)</a>
+<a class="stop" href="../rozklady/31/1401-krzeszowice.html"><span class="stop-id">1401</span>Sanka Kościół (1)</a>
+<a class="stop" href="../rozklady/31/1402-krzeszowice.html"><span class="stop-id">1402</span>Sanka Dół (1)</a>
+<a class="stop" href="../rozklady/31/1393-krzeszowice.html"><span class="stop-id">1393</span>Zalas Krzyżówka (2)</a>
+<a class="stop" href="../rozklady/31/1394-krzeszowice.html"><span class="stop-id">1394</span>Zalas Ośrodek Zdrowia (2)</a>
+<a class="stop" href="../rozklady/31/1390-krzeszowice.html"><span class="stop-id">1390</span>Zalas Kościół (1)</a>
+<a class="stop" href="../rozklady/31/1389-krzeszowice.html"><span class="stop-id">1389</span>Zalas Szkoła (1)</a>
+<a class="stop" href="../rozklady/31/1387-krzeszowice.html"><span class="stop-id">1387</span>Zalas Krótka (2)</a>
+<a class="stop" href="../rozklady/31/1384-krzeszowice.html"><span class="stop-id">1384</span>Zalas Plac (2)</a>
+<a class="stop" href="../rozklady/31/1383-krzeszowice.html"><span class="stop-id">1383</span>Zalas Rondo (4)</a>
+<a class="stop" href="../rozklady/31/1377-krzeszowice.html"><span class="stop-id">1377</span>Zalas Podlas (2)</a>
+<a class="stop" href="../rozklady/31/1378-krzeszowice.html"><span class="stop-id">1378</span>Zalas Rogatki (2)</a>
+<a class="stop" href="../rozklady/31/1379-krzeszowice.html"><span class="stop-id">1379</span>Tenczynek Szkoła (2)</a>
+<a class="stop variant" href="../rozklady/31/1468-krzeszowice.html"><span class="stop-id">1468</span>Tenczynek Szkolna (0)</a>
+<a class="stop variant" href="../rozklady/31/1469-krzeszowice.html"><span class="stop-id">1469</span>Tenczynek Chłopickiego Sklep (1)</a>
+<a class="stop variant" href="../rozklady/31/1470-krzeszowice.html"><span class="stop-id">1470</span>Tenczynek Chłopickiego Skrzyżowanie (1)</a>
+<a class="stop variant" href="../rozklady/31/1471-krzeszowice.html"><span class="stop-id">1471</span>Tenczynek Jana III Sobieskiego (2)</a>
+<a class="stop" href="../rozklady/31/1380-krzeszowice.html"><span class="stop-id">1380</span>Tenczynek Centrum (2)</a>
+<a class="stop" href="../rozklady/31/1381-krzeszowice.html"><span class="stop-id">1381</span>Tenczynek Piaski (2)</a>
+<a class="stop" href="../rozklady/31/0133-krzeszowice.html"><span class="stop-id">0133</span>Krzeszowice Centrum (1)</a>
+<a class="stop terminal" href="../rozklady/31/1677-krzeszowice.html"><span class="stop-id">1677</span>Krzeszowice Dworzec Autobusowy (1)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
