@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 32</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-chrzanow{
+    background:#a4c2f4;
+    color:#222;
+}
+
+.zone-trzebinia{
+    background:#d9d2e9;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">32</div>
+
+<div class="route">
+Trzebinia KWK Siersza - Wodna - Chrzanów - Stella - Pogorzyce - Płaza Cmentarz
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Płaza Cmentarz</h2>
+
+<div class="zone zone-trzebinia">STREFA TRZEBINIA</div>
+  
+<a class="stop terminal" href="../rozklady/32/0973-plaza.html"><span class="stop-id">0973</span>Trzebinia KWK Siersza (2)</a>
+<a class="stop" href="../rozklady/32/0970-plaza.html"><span class="stop-id">0970</span>Trzebinia Krze I (1)</a>
+<a class="stop" href="../rozklady/32/0975-plaza.html"><span class="stop-id">0975</span>Trzebinia Górka Kościół (2)</a>
+<a class="stop" href="../rozklady/32/1055-plaza.html"><span class="stop-id">1055</span>Trzebinia Kolonia (1)</a>
+<a class="stop" href="../rozklady/32/1057-plaza.html"><span class="stop-id">1057</span>Trzebinia Wodna (2)</a>
+<a class="stop" href="../rozklady/32/0987-plaza.html"><span class="stop-id">0987</span>Trzebinia Trzebionka (2)</a>
+<a class="stop" href="../rozklady/32/1029-plaza.html"><span class="stop-id">1029</span>Trzebinia Górka (2)</a>
+<a class="stop" href="../rozklady/32/1028-plaza.html"><span class="stop-id">1028</span>Trzebinia Balaton (2)</a>
+<a class="stop" href="../rozklady/32/0088-plaza.html"><span class="stop-id">0088</span>Trzebinia Mały Rynek Kościuszki (0)</a>
+<a class="stop variant" href="../rozklady/32/1026-plaza.html"><span class="stop-id">1026</span>Trzebinia Harcerska Przychodnia (0)</a>
+<a class="stop" href="../rozklady/32/0089-plaza.html"><span class="stop-id">0089</span>Trzebinia Dworzec PKP (1)</a>
+<a class="stop" href="../rozklady/32/0090-plaza.html"><span class="stop-id">0090</span>Trzebinia Długa (1)</a>
+<a class="stop" href="../rozklady/32/0091-plaza.html"><span class="stop-id">0091</span>Trzebinia Berezka (2)</a>
+
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+  
+<a class="stop" href="../rozklady/32/0397-plaza.html"><span class="stop-id">0397</span>Chrzanów Trzebińska (1)</a>
+<a class="stop" href="../rozklady/32/0567-plaza.html"><span class="stop-id">0567</span>Chrzanów Głowackiego (1)</a>
+<a class="stop" href="../rozklady/32/0568-plaza.html"><span class="stop-id">0568</span>Chrzanów Pogorska Szkoła (2)</a>
+<a class="stop" href="../rozklady/32/0569-plaza.html"><span class="stop-id">0569</span>Chrzanów Pogorska Przychodnia (1)</a>
+<a class="stop" href="../rozklady/32/0570-plaza.html"><span class="stop-id">0570</span>Chrzanów Pogorska Kościół (2)</a>
+<a class="stop" href="../rozklady/32/0571-plaza.html"><span class="stop-id">0571</span>Chrzanów Ciepłownia (1)</a>
+<a class="stop" href="../rozklady/32/0572-plaza.html"><span class="stop-id">0572</span>Chrzanów Stella (1)</a>
+<a class="stop" href="../rozklady/32/0573-plaza.html"><span class="stop-id">0573</span>Pogorzyce PKP (1)</a>
+<a class="stop" href="../rozklady/32/0574-plaza.html"><span class="stop-id">0574</span>Pogorzyce Szkoła (1)</a>
+<a class="stop" href="../rozklady/32/0575-plaza.html"><span class="stop-id">0575</span>Pogorzyce Kościół (2)</a>
+<a class="stop" href="../rozklady/32/0576-plaza.html"><span class="stop-id">0576</span>Pogorzyce Dwór (1)</a>
+<a class="stop" href="../rozklady/32/0577-plaza.html"><span class="stop-id">0577</span>Pogorzyce Starzyny (2)</a>
+<a class="stop" href="../rozklady/32/0578-plaza.html"><span class="stop-id">0578</span>Płaza Mazerzyn (2)</a>
+<a class="stop" href="../rozklady/32/0579-plaza.html"><span class="stop-id">0579</span>Płaza Syberia (1)</a>
+<a class="stop" href="../rozklady/32/0580-plaza.html"><span class="stop-id">0580</span>Płaza Hetmańska (2)</a>
+<a class="stop terminal" href="../rozklady/32/1084-plaza.html"><span class="stop-id">1084</span>Płaza Cmentarz (3)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Trzebinia KWK Siersza</h2>
+
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+  
+<a class="stop terminal" href="../rozklady/32/1084-trzebinia.html"><span class="stop-id">1084</span>Płaza Cmentarz (3)</a>
+<a class="stop" href="../rozklady/32/0603-trzebinia.html"><span class="stop-id">0603</span>Płaza Hetmańska (1)</a>
+<a class="stop" href="../rozklady/32/0604-trzebinia.html"><span class="stop-id">0604</span>Płaza Syberia (2)</a>
+<a class="stop" href="../rozklady/32/0605-trzebinia.html"><span class="stop-id">0605</span>Płaza Mazerzyn (1)</a>
+<a class="stop" href="../rozklady/32/0606-trzebinia.html"><span class="stop-id">0606</span>Pogorzyce Starzyny (1)</a>
+<a class="stop" href="../rozklady/32/0607-trzebinia.html"><span class="stop-id">0607</span>Pogorzyce Dwór (2)</a>
+<a class="stop" href="../rozklady/32/0608-trzebinia.html"><span class="stop-id">0608</span>Pogorzyce Kościół (1)</a>
+<a class="stop" href="../rozklady/32/0609-trzebinia.html"><span class="stop-id">0609</span>Pogorzyce Szkoła (2)</a>
+<a class="stop" href="../rozklady/32/0610-trzebinia.html"><span class="stop-id">0610</span>Pogorzyce PKP (2)</a>
+<a class="stop" href="../rozklady/32/0611-trzebinia.html"><span class="stop-id">0611</span>Chrzanów Stella (2)</a>
+<a class="stop" href="../rozklady/32/0612-trzebinia.html"><span class="stop-id">0612</span>Chrzanów Ciepłownia (2)</a>
+<a class="stop" href="../rozklady/32/0613-trzebinia.html"><span class="stop-id">0613</span>Chrzanów Pogorska Kościół (1)</a>
+<a class="stop" href="../rozklady/32/0614-trzebinia.html"><span class="stop-id">0614</span>Chrzanów Pogorska Przychodnia (2)</a>
+<a class="stop" href="../rozklady/32/0615-trzebinia.html"><span class="stop-id">0615</span>Chrzanów Pogorska Szkoła (1)</a>
+<a class="stop" href="../rozklady/32/0333-trzebinia.html"><span class="stop-id">0333</span>Chrzanów Podwale (1)</a>
+<a class="stop" href="../rozklady/32/0398-trzebinia.html"><span class="stop-id">0398</span>Chrzanów Trzebińska (2)</a>
+
+<div class="zone zone-trzebinia">STREFA TRZEBINIA</div>
+  
+<a class="stop" href="../rozklady/32/0120-trzebinia.html"><span class="stop-id">0120</span>Trzebinia Berezka (1)</a>
+<a class="stop" href="../rozklady/32/0121-trzebinia.html"><span class="stop-id">0121</span>Trzebinia Długa (2)</a>
+<a class="stop" href="../rozklady/32/0122-trzebinia.html"><span class="stop-id">0122</span>Trzebinia Dworzec PKP (2)</a>
+<a class="stop variant" href="../rozklady/32/1026-trzebinia.html"><span class="stop-id">1026</span>Trzebinia Harcerska Przychodnia (0)</a>
+<a class="stop" href="../rozklady/32/3295-trzebinia.html"><span class="stop-id">3295</span>Trzebinia Mały Rynek (1)</a>
+<a class="stop" href="../rozklady/32/1027-trzebinia.html"><span class="stop-id">1027</span>Trzebinia Balaton (1)</a>
+<a class="stop" href="../rozklady/32/1032-trzebinia.html"><span class="stop-id">1032</span>Trzebinia Górka (1)</a>
+<a class="stop" href="../rozklady/32/0986-trzebinia.html"><span class="stop-id">0986</span>Trzebinia Trzebionka (1)</a>
+<a class="stop" href="../rozklady/32/1054-trzebinia.html"><span class="stop-id">1054</span>Trzebinia Wodna (1)</a>
+<a class="stop" href="../rozklady/32/1056-trzebinia.html"><span class="stop-id">1056</span>Trzebinia Kolonia (2)</a>
+<a class="stop" href="../rozklady/32/0974-trzebinia.html"><span class="stop-id">0974</span>Trzebinia Górka Kościół (1)</a>
+<a class="stop" href="../rozklady/32/0971-trzebinia.html"><span class="stop-id">0971</span>Trzebinia Krze I (2)</a>
+<a class="stop terminal" href="../rozklady/32/0973-trzebinia.html"><span class="stop-id">0973</span>Trzebinia KWK Siersza (2)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
