@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 30</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-zator{
+    background:#10ffff;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">30</div>
+
+<div class="route">
+Zator Rynek - Łowiczki - Rudze - Graboszyce - Grodzisko - Trzebieńczyce - Laskowa - Zator Rynek
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Zator Rynek</h2>
+
+<div class="zone zone-zator">STREFA ZATOR</div>
+  
+<a class="stop terminal" href="../rozklady/30/1679-okrezna-1.html"><span class="stop-id">1679</span>Zator Rynek (0)</a>
+<a class="stop" href="../rozklady/30/1690-okrezna-1.html"><span class="stop-id">1690</span>Zator Podlipki (1)</a>
+<a class="stop" href="../rozklady/30/1760-okrezna-1.html"><span class="stop-id">1760</span>Zator Dworzec Kolejowy (0)</a>
+<a class="stop" href="../rozklady/30/1691-okrezna-1.html"><span class="stop-id">1691</span>Zator Podlipki (2)</a>
+<a class="stop" href="../rozklady/30/1756-okrezna-1.html"><span class="stop-id">1756</span>Zator Słowackiego (1)</a>
+<a class="stop" href="../rozklady/30/1682-okrezna-1.html"><span class="stop-id">1682</span>Zator Bugajska (1)</a>
+<a class="stop" href="../rozklady/30/1683-okrezna-1.html"><span class="stop-id">1683</span>Zator Granica (1)</a>
+<a class="stop" href="../rozklady/30/1716-okrezna-1.html"><span class="stop-id">1716</span>Łowiczki Szkoła (1)</a>
+<a class="stop" href="../rozklady/30/1719-okrezna-1.html"><span class="stop-id">1719</span>Łowiczki (2)</a>
+<a class="stop" href="../rozklady/30/1721-okrezna-1.html"><span class="stop-id">1721</span>Łowiczki Granica (2)</a>
+<a class="stop" href="../rozklady/30/1758-okrezna-1.html"><span class="stop-id">1758</span>Rudze Młyn (1)</a>
+<a class="stop" href="../rozklady/30/2906-okrezna-1.html"><span class="stop-id">2906</span>Rudze Dworska (1)</a>
+<a class="stop" href="../rozklady/30/1744-okrezna-1.html"><span class="stop-id">1744</span>Rudze (1)</a>
+<a class="stop" href="../rozklady/30/1742-okrezna-1.html"><span class="stop-id">1742</span>Graboszyce II (1)</a>
+<a class="stop" href="../rozklady/30/1738-okrezna-1.html"><span class="stop-id">1738</span>Graboszyce I (1)</a>
+<a class="stop" href="../rozklady/30/1757-okrezna-1.html"><span class="stop-id">1757</span>Graboszyce Szkoła (1)</a>
+<a class="stop" href="../rozklady/30/1739-okrezna-1.html"><span class="stop-id">1739</span>Graboszyce I (2)</a>
+<a class="stop" href="../rozklady/30/1737-okrezna-1.html"><span class="stop-id">1737</span>Graboszyce Myto (2)</a>
+<a class="stop" href="../rozklady/30/1752-okrezna-1.html"><span class="stop-id">1752</span>Grodzisko PKP (1)</a>
+<a class="stop" href="../rozklady/30/1715-okrezna-1.html"><span class="stop-id">1715</span>Grodzisko Boisko (2)</a>
+<a class="stop" href="../rozklady/30/1713-okrezna-1.html"><span class="stop-id">1713</span>Trzebieńczyce Centrum (2)</a>
+<a class="stop" href="../rozklady/30/1708-okrezna-1.html"><span class="stop-id">1708</span>Laskowa (1)</a>
+<a class="stop" href="../rozklady/30/3298-okrezna-1.html"><span class="stop-id">3298</span>Laskowa Boisko (1)</a>
+<a class="stop" href="../rozklady/30/1753-okrezna-1.html"><span class="stop-id">1753</span>Laskowa Wiglowice (1)</a>
+<a class="stop" href="../rozklady/30/1710-okrezna-1.html"><span class="stop-id">1710</span>Zator Zaskawie II (1)</a>
+<a class="stop" href="../rozklady/30/1749-okrezna-1.html"><span class="stop-id">1749</span>Zator Osiedle Palczowice (1)</a>
+<a class="stop terminal" href="../rozklady/30/1679-okrezna-1.html"><span class="stop-id">1679</span>Zator Rynek (0)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Zator Rynek</h2>
+
+<div class="zone zone-zator">STREFA ZATOR</div>
+  
+<a class="stop terminal" href="../rozklady/30/1679-okrezna-2.html"><span class="stop-id">1679</span>Zator Rynek (0)</a>
+<a class="stop" href="../rozklady/30/1748-okrezna-2.html"><span class="stop-id">1748</span>Zator Blich (0)</a>
+<a class="stop" href="../rozklady/30/1750-okrezna-2.html"><span class="stop-id">1750</span>Zator Osiedle Palczowice (2)</a>
+<a class="stop" href="../rozklady/30/1711-okrezna-2.html"><span class="stop-id">1711</span>Zator Zaskawie II (2)</a>
+<a class="stop" href="../rozklady/30/1754-okrezna-2.html"><span class="stop-id">1754</span>Laskowa Wiglowice (2)</a>
+<a class="stop" href="../rozklady/30/3297-okrezna-2.html"><span class="stop-id">3297</span>Laskowa Boisko (2)</a>
+<a class="stop" href="../rozklady/30/1709-okrezna-2.html"><span class="stop-id">1709</span>Laskowa (2)</a>
+<a class="stop" href="../rozklady/30/1712-okrezna-2.html"><span class="stop-id">1712</span>Trzebieńczyce Centrum (1)</a>
+<a class="stop" href="../rozklady/30/1714-okrezna-2.html"><span class="stop-id">1714</span>Grodzisko Boisko (1)</a>
+<a class="stop" href="../rozklady/30/1752-okrezna-2.html"><span class="stop-id">1752</span>Grodzisko PKP (1)</a>
+<a class="stop" href="../rozklady/30/1736-okrezna-2.html"><span class="stop-id">1736</span>Graboszyce Myto (1)</a>
+<a class="stop" href="../rozklady/30/1738-okrezna-2.html"><span class="stop-id">1738</span>Graboszyce I (1)</a>
+<a class="stop" href="../rozklady/30/1757-okrezna-2.html"><span class="stop-id">1757</span>Graboszyce Szkoła (1)</a>
+<a class="stop" href="../rozklady/30/1739-okrezna-2.html"><span class="stop-id">1739</span>Graboszyce I (2)</a>
+<a class="stop" href="../rozklady/30/1743-okrezna-2.html"><span class="stop-id">1743</span>Graboszyce II (2)</a>
+<a class="stop" href="../rozklady/30/1740-okrezna-2.html"><span class="stop-id">1740</span>Rudze Szkoła (0)</a>
+<a class="stop" href="../rozklady/30/2905-okrezna-2.html"><span class="stop-id">2905</span>Rudze Dworska (2)</a>
+<a class="stop" href="../rozklady/30/1759-okrezna-2.html"><span class="stop-id">1759</span>Rudze Młyn (2)</a>
+<a class="stop" href="../rozklady/30/1720-okrezna-2.html"><span class="stop-id">1720</span>Łowiczki Granica (1)</a>
+<a class="stop" href="../rozklady/30/1718-okrezna-2.html"><span class="stop-id">1718</span>Łowiczki (1)</a>
+<a class="stop" href="../rozklady/30/1717-okrezna-2.html"><span class="stop-id">1717</span>Łowiczki Szkoła (2)</a>
+<a class="stop" href="../rozklady/30/1697-okrezna-2.html"><span class="stop-id">1697</span>Zator Granica (2)</a>
+<a class="stop" href="../rozklady/30/1698-okrezna-2.html"><span class="stop-id">1698</span>Zator Bugajska (2)</a>
+<a class="stop" href="../rozklady/30/1755-okrezna-2.html"><span class="stop-id">1755</span>Zator Słowackiego (2)</a>
+<a class="stop" href="../rozklady/30/1690-okrezna-2.html"><span class="stop-id">1690</span>Zator Podlipki (1)</a>
+<a class="stop" href="../rozklady/30/1760-okrezna-2.html"><span class="stop-id">1760</span>Zator Dworzec Kolejowy (0)</a>
+<a class="stop" href="../rozklady/30/1691-okrezna-2.html"><span class="stop-id">1691</span>Zator Podlipki (2)</a>
+<a class="stop" href="../rozklady/30/1756-okrezna-2.html"><span class="stop-id">1756</span>Zator Słowackiego (1)</a>
+<a class="stop" href="../rozklady/30/1741-okrezna-2.html"><span class="stop-id">1741</span>Zator Szkoła (0)</a>
+<a class="stop terminal" href="../rozklady/30/1679-okrezna-2.html"><span class="stop-id">1679</span>Zator Rynek (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
