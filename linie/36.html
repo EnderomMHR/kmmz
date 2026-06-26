@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 36</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.columns.single-column {
+  display: block;
+}
+
+.columns.single-column .column {
+  max-width: 560px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.columns.single-column .stop {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-wolbrom{
+    background:#2a8be8;
+    color:#222;
+}
+
+@media (max-width: 700px) {
+  .columns.single-column .column {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+  
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">36</div>
+
+<div class="route">
+Wolbrom Nowa PKS - Brzozówka - Wierzchowisko - Lgota Wielka - Wierzchowisko - Brzozówka - Wolbrom Pod Lasem - Wolbrom Ośrodek Zdrowia - Wolbrom Nowa PKS
+</div>
+
+<div class="columns single-column">
+
+<div class="column">
+
+<h2>Kierunek: Wolbrom Nowa PKS</h2>
+
+<div class="zone zone-wolbrom">STREFA WOLBROM</div>
+  
+<a class="stop terminal" href="../rozklady/36/0001-okrezna.html"><span class="stop-id">0001</span>Wolbrom Nowa PKS (0)</a>
+<a class="stop" href="../rozklady/36/0002-okrezna.html"><span class="stop-id">0002</span>Wolbrom Osiedle Chrobrego (1)</a>
+<a class="stop" href="../rozklady/36/0019-okrezna.html"><span class="stop-id">0019</span>Wolbrom Ogródki Działkowe (1)</a>
+<a class="stop" href="../rozklady/36/0036-okrezna.html"><span class="stop-id">0036</span>Brzozówka (2)</a>
+<a class="stop" href="../rozklady/36/0004-okrezna.html"><span class="stop-id">0004</span>Wierzchowisko Szkoła (1)</a>
+<a class="stop" href="../rozklady/36/0006-okrezna.html"><span class="stop-id">0006</span>Lgota Wielka Leśna I (2)</a>
+<a class="stop" href="../rozklady/36/0007-okrezna.html"><span class="stop-id">0007</span>Lgota Wielka Leśna (1)</a>
+<a class="stop" href="../rozklady/36/0008-okrezna.html"><span class="stop-id">0008</span>Lgota Wielka Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/36/0009-okrezna.html"><span class="stop-id">0009</span>Lgota Wielka Kolonia Leśna (1)</a>
+<a class="stop" href="../rozklady/36/0010-okrezna.html"><span class="stop-id">0010</span>Wierzchowisko Remiza (1)</a>
+<a class="stop" href="../rozklady/36/0011-okrezna.html"><span class="stop-id">0011</span>Wierzchowisko Klub (1)</a>
+<a class="stop" href="../rozklady/36/0012-okrezna.html"><span class="stop-id">0012</span>Brzozówka II (1)</a>
+<a class="stop" href="../rozklady/36/0013-okrezna.html"><span class="stop-id">0013</span>Brzozówka I (2)</a>
+<a class="stop" href="../rozklady/36/0014-okrezna.html"><span class="stop-id">0014</span>Wolbrom Brzozowska Rondo (2)</a>
+<a class="stop" href="../rozklady/36/0015-okrezna.html"><span class="stop-id">0015</span>Wolbrom Pod Lasem (1)</a>
+<a class="stop" href="../rozklady/36/0016-okrezna.html"><span class="stop-id">0016</span>Wolbrom Dworzec PKP (0)</a>
+<a class="stop" href="../rozklady/36/0017-okrezna.html"><span class="stop-id">0017</span>Wolbrom 1-ego Maja I (1)</a>
+<a class="stop" href="../rozklady/36/0026-okrezna.html"><span class="stop-id">0026</span>Wolbrom Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/36/0028-okrezna.html"><span class="stop-id">0028</span>Wolbrom Ośrodek Zdrowia (1)</a>
+<a class="stop" href="../rozklady/36/0027-okrezna.html"><span class="stop-id">0027</span>Wolbrom Skrzyżowanie (2)</a>
+<a class="stop terminal" href="../rozklady/36/0001-okrezna.html"><span class="stop-id">0001</span>Wolbrom Nowa PKS (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
