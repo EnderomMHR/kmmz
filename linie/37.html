@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 37</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.columns.single-column {
+  display: block;
+}
+
+.columns.single-column .column {
+  max-width: 560px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.columns.single-column .stop {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-chrzanow{
+    background:#a4c2f4;
+    color:#222;
+}
+
+.zone-trzebinia{
+    background:#d9d2e9;
+    color:#222;
+}
+
+@media (max-width: 700px) {
+  .columns.single-column .column {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+  
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">37</div>
+
+<div class="route">
+Trzebinia Parkowa Boisko - Wodna - Trzebinia - Chrzanów Dworzec Autobusowy - Chrzanów Sienna - Trzebinia - Wodna - Trzebinia Parkowa Boisko
+</div>
+
+<div class="columns single-column">
+
+<div class="column">
+
+<h2>Kierunek: Trzebinia Parkowa Boisko</h2>
+
+<div class="zone zone-trzebinia">STREFA TRZEBINIA</div>
+  
+<a class="stop terminal" href="../rozklady/37/1510-trzebinia.html"><span class="stop-id">1510</span>Trzebinia Parkowa Boisko (0)</a>
+<a class="stop" href="../rozklady/37/0985-trzebinia.html"><span class="stop-id">0985</span>Trzebinia Parkowa (2)</a>
+<a class="stop" href="../rozklady/37/0979-trzebinia.html"><span class="stop-id">0979</span>Trzebinia Górka Dwór (2)</a>
+<a class="stop" href="../rozklady/37/0977-trzebinia.html"><span class="stop-id">0977</span>Trzebinia OHP (2)</a>
+<a class="stop" href="../rozklady/37/0975-trzebinia.html"><span class="stop-id">0975</span>Trzebinia Górka Kościół (2)</a>
+<a class="stop" href="../rozklady/37/1055-trzebinia.html"><span class="stop-id">1055</span>Trzebinia Kolonia (1)</a>
+<a class="stop" href="../rozklady/37/1057-trzebinia.html"><span class="stop-id">1057</span>Trzebinia Wodna (2)</a>
+<a class="stop" href="../rozklady/37/0987-trzebinia.html"><span class="stop-id">0987</span>Trzebinia Trzebionka (2)</a>
+<a class="stop" href="../rozklady/37/1029-trzebinia.html"><span class="stop-id">1029</span>Trzebinia Górka (2)</a>
+<a class="stop" href="../rozklady/37/1028-trzebinia.html"><span class="stop-id">1028</span>Trzebinia Balaton (2)</a>
+<a class="stop" href="../rozklady/37/0123-trzebinia.html"><span class="stop-id">0123</span>Trzebinia Krakowska (0)</a>
+<a class="stop" href="../rozklady/37/1022-trzebinia.html"><span class="stop-id">1022</span>Trzebinia Słowackiego (1)</a>
+<a class="stop" href="../rozklady/37/1024-trzebinia.html"><span class="stop-id">1024</span>Trzebinia Zakłady Tłuszczowe (1)</a>
+<a class="stop" href="../rozklady/37/1215-trzebinia.html"><span class="stop-id">1215</span>Trzebinia Gumownia (1)</a>
+<a class="stop" href="../rozklady/37/0089-trzebinia.html"><span class="stop-id">0089</span>Trzebinia Dworzec PKP (1)</a>
+<a class="stop" href="../rozklady/37/0090-trzebinia.html"><span class="stop-id">0090</span>Trzebinia Długa (1)</a>
+<a class="stop" href="../rozklady/37/0091-trzebinia.html"><span class="stop-id">0091</span>Trzebinia Berezka (2)</a>
+
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+  
+<a class="stop" href="../rozklady/37/0397-trzebinia.html"><span class="stop-id">0397</span>Chrzanów Trzebińska (1)</a>
+<a class="stop" href="../rozklady/37/0116-trzebinia.html"><span class="stop-id">0116</span>Chrzanów Dworzec Autobusowy (1)</a>
+<a class="stop" href="../rozklady/37/0096-trzebinia.html"><span class="stop-id">0096</span>Chrzanów Plac Tysiąclecia (3)</a>
+<a class="stop" href="../rozklady/37/0352-trzebinia.html"><span class="stop-id">0352</span>Chrzanów ZUS (1)</a>
+<a class="stop" href="../rozklady/37/0332-trzebinia.html"><span class="stop-id">0332</span>Chrzanów Sienna (1)</a>
+<a class="stop" href="../rozklady/37/0333-trzebinia.html"><span class="stop-id">0333</span>Chrzanów Podwale (1)</a>
+<a class="stop" href="../rozklady/37/0398-trzebinia.html"><span class="stop-id">0398</span>Chrzanów Trzebińska (2)</a>
+
+<div class="zone zone-trzebinia">STREFA TRZEBINIA</div>
+  
+<a class="stop" href="../rozklady/37/0120-trzebinia.html"><span class="stop-id">0120</span>Trzebinia Berezka (1)</a>
+<a class="stop" href="../rozklady/37/0121-trzebinia.html"><span class="stop-id">0121</span>Trzebinia Długa (2)</a>
+<a class="stop" href="../rozklady/37/0122-trzebinia.html"><span class="stop-id">0122</span>Trzebinia Dworzec PKP (2)</a>
+<a class="stop" href="../rozklady/37/1216-trzebinia.html"><span class="stop-id">1216</span>Trzebinia Gumownia (2)</a>
+<a class="stop" href="../rozklady/37/1025-trzebinia.html"><span class="stop-id">1025</span>Trzebinia Zakłady Tłuszczowe (2)</a>
+<a class="stop" href="../rozklady/37/1023-trzebinia.html"><span class="stop-id">1023</span>Trzebinia Słowackiego (2)</a>
+<a class="stop" href="../rozklady/37/3295-trzebinia.html"><span class="stop-id">3295</span>Trzebinia Mały Rynek (1)</a>
+<a class="stop" href="../rozklady/37/1027-trzebinia.html"><span class="stop-id">1027</span>Trzebinia Balaton (1)</a>
+<a class="stop" href="../rozklady/37/1032-trzebinia.html"><span class="stop-id">1032</span>Trzebinia Górka (1)</a>
+<a class="stop" href="../rozklady/37/0986-trzebinia.html"><span class="stop-id">0986</span>Trzebinia Trzebionka (1)</a>
+<a class="stop" href="../rozklady/37/1054-trzebinia.html"><span class="stop-id">1054</span>Trzebinia Wodna (1)</a>
+<a class="stop" href="../rozklady/37/1056-trzebinia.html"><span class="stop-id">1056</span>Trzebinia Kolonia (2)</a>
+<a class="stop" href="../rozklady/37/0974-trzebinia.html"><span class="stop-id">0974</span>Trzebinia Górka Kościół (1)</a>
+<a class="stop" href="../rozklady/37/0976-trzebinia.html"><span class="stop-id">0976</span>Trzebinia OHP (1)</a>
+<a class="stop" href="../rozklady/37/0980-trzebinia.html"><span class="stop-id">0980</span>Trzebinia Spokojna Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/37/0984-trzebinia.html"><span class="stop-id">0984</span>Trzebinia Parkowa (1)</a>
+<a class="stop terminal" href="../rozklady/37/1510-trzebinia.html"><span class="stop-id">1510</span>Trzebinia Parkowa Boisko (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
