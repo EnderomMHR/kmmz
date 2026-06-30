@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 43</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-klucze{
+    background:#00fe00;
+    color:#222;
+}
+
+.zone-olkusz{
+    background:#ffe599;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">43</div>
+
+<div class="route">
+Klucze Osada - Bogucin Duży - Podgrabie - Olkusz Dworzec PKP - Olkusz Orzeszkowej
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Olkusz Orzeszkowej</h2>
+
+<div class="zone zone-klucze">STREFA KLUCZE</div>
+
+<a class="stop terminal" href="../rozklady/43/0510-olkusz.html"><span class="stop-id">0510</span>Klucze Osada (2)</a>
+<a class="stop" href="../rozklady/43/0511-olkusz.html"><span class="stop-id">0511</span>Klucze Osiedle 30-Lecia (2)</a>
+<a class="stop" href="../rozklady/43/0512-olkusz.html"><span class="stop-id">0512</span>Klucze Park (2)</a>
+<a class="stop" href="../rozklady/43/2174-olkusz.html"><span class="stop-id">2174</span>Klucze Bolesławska (2)</a>
+<a class="stop" href="../rozklady/43/2177-olkusz.html"><span class="stop-id">2177</span>Bogucin Duży Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/43/2186-olkusz.html"><span class="stop-id">2186</span>Bogucin Duży (2)</a>
+<a class="stop" href="../rozklady/43/2187-olkusz.html"><span class="stop-id">2187</span>Bogucin Duży Kiosk (1)</a>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+  
+<a class="stop" href="../rozklady/43/2189-olkusz.html"><span class="stop-id">2189</span>Bogucin Mały Granica (1)</a>
+<a class="stop" href="../rozklady/43/2191-olkusz.html"><span class="stop-id">2191</span>Bogucin Mały Sklep (1)</a>
+<a class="stop" href="../rozklady/43/2194-olkusz.html"><span class="stop-id">2194</span>Bogucin Mały Podgrabie (2)</a>
+<a class="stop" href="../rozklady/43/2196-olkusz.html"><span class="stop-id">2196</span>Olkusz Podgrabie Przedszkole (2)</a>
+<a class="stop" href="../rozklady/43/2198-olkusz.html"><span class="stop-id">2198</span>Olkusz Podgrabie Jurajska (2)</a>
+<a class="stop" href="../rozklady/43/2200-olkusz.html"><span class="stop-id">2200</span>Olkusz Podgrabie (2)</a>
+<a class="stop" href="../rozklady/43/2201-olkusz.html"><span class="stop-id">2201</span>Olkusz Jasna (2)</a>
+<a class="stop" href="../rozklady/43/0283-olkusz.html"><span class="stop-id">0283</span>Olkusz Rabsztyńska (1)</a>
+<a class="stop" href="../rozklady/43/0174-olkusz.html"><span class="stop-id">0174</span>Olkusz Supersam (0)</a>
+<a class="stop" href="../rozklady/43/0199-olkusz.html"><span class="stop-id">0199</span>Olkusz Skarbek (2)</a>
+<a class="stop" href="../rozklady/43/0201-olkusz.html"><span class="stop-id">0201</span>Olkusz Dworzec PKP (1)</a>
+<a class="stop" href="../rozklady/43/0202-olkusz.html"><span class="stop-id">0202</span>Olkusz Wiadukt (1)</a>
+<a class="stop" href="../rozklady/43/0492-olkusz.html"><span class="stop-id">0492</span>Olkusz Baza PKS (1)</a>
+<a class="stop" href="../rozklady/43/0493-olkusz.html"><span class="stop-id">0493</span>Olkusz Owent (2)</a>
+<a class="stop" href="../rozklady/43/0494-olkusz.html"><span class="stop-id">0494</span>Olkusz ZUS (2)</a>
+<a class="stop" href="../rozklady/43/0495-olkusz.html"><span class="stop-id">0495</span>Olkusz Szpital (2)</a>
+<a class="stop terminal" href="../rozklady/43/0496-olkusz.html"><span class="stop-id">0496</span>Olkusz Orzeszkowej (0)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Klucze Osada</h2>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+
+<a class="stop terminal" href="../rozklady/43/0496-klucze.html"><span class="stop-id">0496</span>Olkusz Orzeszkowej (0)</a>
+<a class="stop" href="../rozklady/43/0536-klucze.html"><span class="stop-id">0536</span>Olkusz Szpital (1)</a>
+<a class="stop" href="../rozklady/43/0537-klucze.html"><span class="stop-id">0537</span>Olkusz ZUS (1)</a>
+<a class="stop" href="../rozklady/43/0538-klucze.html"><span class="stop-id">0538</span>Olkusz Owent (1)</a>
+<a class="stop" href="../rozklady/43/0225-klucze.html"><span class="stop-id">0225</span>Olkusz Aleja Tysiąclecia (2)</a>
+<a class="stop" href="../rozklady/43/0226-klucze.html"><span class="stop-id">0226</span>Olkusz Wiadukt (2)</a>
+<a class="stop" href="../rozklady/43/0227-klucze.html"><span class="stop-id">0227</span>Olkusz Dworzec PKP (2)</a>
+<a class="stop" href="../rozklady/43/0228-klucze.html"><span class="stop-id">0228</span>Olkusz Skarbek (1)</a>
+<a class="stop" href="../rozklady/43/0284-klucze.html"><span class="stop-id">0284</span>Olkusz Rabsztyńska Supermarket (0)</a>
+<a class="stop" href="../rozklady/43/0285-klucze.html"><span class="stop-id">0285</span>Olkusz Rabsztyńska (2)</a>
+<a class="stop" href="../rozklady/43/2202-klucze.html"><span class="stop-id">2202</span>Olkusz Jasna (1)</a>
+<a class="stop" href="../rozklady/43/2199-klucze.html"><span class="stop-id">2199</span>Olkusz Podgrabie (1)</a>
+<a class="stop" href="../rozklady/43/2197-klucze.html"><span class="stop-id">2197</span>Olkusz Podgrabie Jurajska (1)</a>
+<a class="stop" href="../rozklady/43/2195-klucze.html"><span class="stop-id">2195</span>Olkusz Podgrabie Przedszkole (1)</a>
+<a class="stop" href="../rozklady/43/2193-klucze.html"><span class="stop-id">2193</span>Bogucin Mały Podgrabie (1)</a>
+<a class="stop" href="../rozklady/43/2192-klucze.html"><span class="stop-id">2192</span>Bogucin Mały Sklep (2)</a>
+<a class="stop" href="../rozklady/43/2190-klucze.html"><span class="stop-id">2190</span>Bogucin Mały Granica (2)</a>
+
+<div class="zone zone-klucze">STREFA KLUCZE</div>
+  
+<a class="stop" href="../rozklady/43/2188-klucze.html"><span class="stop-id">2188</span>Bogucin Duży Kiosk (2)</a>
+<a class="stop" href="../rozklady/43/2185-klucze.html"><span class="stop-id">2185</span>Bogucin Duży (1)</a>
+<a class="stop" href="../rozklady/43/2178-klucze.html"><span class="stop-id">2178</span>Bogucin Duży Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/43/2173-klucze.html"><span class="stop-id">2173</span>Klucze Bolesławska (1)</a>
+<a class="stop" href="../rozklady/43/0553-klucze.html"><span class="stop-id">0553</span>Klucze Park (1)</a>
+<a class="stop" href="../rozklady/43/0554-klucze.html"><span class="stop-id">0554</span>Klucze Osiedle 30-lecia (1)</a>
+<a class="stop terminal" href="../rozklady/43/0555-klucze.html"><span class="stop-id">0555</span>Klucze Osada (1)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
