@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 44</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-babice-alwernia{
+    background:#dd7e6b;
+    color:#222;
+}
+
+.zone-trzebinia{
+    background:#d9d2e9;
+    color:#222;
+}
+  
+.zone-chrzanow{
+    background:#a4c2f4;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">44</div>
+
+<div class="route">
+Źródła - Okleśna - Podłęże - Mirów - Brodła - Poręba Żegoty - Alwernia - Regulice - Nieporaz - Bolęcin - Piła Kościelecka - (Os. Widokowe) - Trzebinia - Chrzanów Dworzec Autobusowy
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Chrzanów Dworzec Autobusowy</h2>
+
+<div class="zone zone-babice-alwernia">STREFA BABICE-ALWERNIA</div>
+
+<a class="stop terminal" href="../rozklady/44/1049-chrzanow.html"><span class="stop-id">1049</span>Źródła (0)</a>
+<a class="stop" href="../rozklady/44/1050-chrzanow.html"><span class="stop-id">1050</span>Okleśna PKP (1)</a>
+<a class="stop" href="../rozklady/44/1052-chrzanow.html"><span class="stop-id">1052</span>Okleśna Dom Ludowy (1)</a>
+<a class="stop" href="../rozklady/44/1047-chrzanow.html"><span class="stop-id">1047</span>Podłęże (1)</a>
+<a class="stop" href="../rozklady/44/1045-chrzanow.html"><span class="stop-id">1045</span>Mirów II (1)</a>
+<a class="stop" href="../rozklady/44/1043-chrzanow.html"><span class="stop-id">1043</span>Mirów (1)</a>
+<a class="stop" href="../rozklady/44/1042-chrzanow.html"><span class="stop-id">1042</span>Brodła Szkoła (1)</a>
+<a class="stop terminal" href="../rozklady/44/1041-chrzanow.html"><span class="stop-id">1041</span>Brodła (1)</a>
+<a class="stop" href="../rozklady/44/1313-chrzanow.html"><span class="stop-id">1313</span>Brodła Działki (1)</a>
+<a class="stop" href="../rozklady/44/1312-chrzanow.html"><span class="stop-id">1312</span>Poręba Żegoty (1)</a>
+<a class="stop terminal" href="../rozklady/44/1346-chrzanow.html"><span class="stop-id">1346</span>Alwernia Szkoła (1)</a>
+<a class="stop" href="../rozklady/44/1347-chrzanow.html"><span class="stop-id">1347</span>Alwernia Osiedle (1)</a>
+<a class="stop" href="../rozklady/44/1353-chrzanow.html"><span class="stop-id">1353</span>Alwernia Spalona (2)</a>
+<a class="stop" href="../rozklady/44/1351-chrzanow.html"><span class="stop-id">1351</span>Alwernia Brzeziny (1)</a>
+<a class="stop" href="../rozklady/44/1356-chrzanow.html"><span class="stop-id">1356</span>Regulice Magazyn (1)</a>
+<a class="stop" href="../rozklady/44/1357-chrzanow.html"><span class="stop-id">1357</span>Regulice Centrum (2)</a>
+<a class="stop" href="../rozklady/44/1358-chrzanow.html"><span class="stop-id">1358</span>Regulice Szkoła (1)</a>
+<a class="stop" href="../rozklady/44/1499-chrzanow.html"><span class="stop-id">1499</span>Regulice Górne (1)</a>
+<a class="stop" href="../rozklady/44/1342-chrzanow.html"><span class="stop-id">1342</span>Nieporaz (2)</a>
+<a class="stop" href="../rozklady/44/1343-chrzanow.html"><span class="stop-id">1343</span>Nieporaz Sklep (2)</a>
+<a class="stop" href="../rozklady/44/1314-chrzanow.html"><span class="stop-id">1314</span>Nieporaz Oblaszki (2)</a>
+
+<div class="zone zone-trzebinia">STREFA TRZEBINIA</div>
+  
+<a class="stop" href="../rozklady/44/1308-chrzanow.html"><span class="stop-id">1308</span>Bolęcin Stawki (1)</a>
+<a class="stop" href="../rozklady/44/1209-chrzanow.html"><span class="stop-id">1209</span>Bolęcin Górka (1)</a>
+<a class="stop" href="../rozklady/44/1208-chrzanow.html"><span class="stop-id">1208</span>Bolęcin Centrum (2)</a>
+<a class="stop" href="../rozklady/44/1205-chrzanow.html"><span class="stop-id">1205</span>Bolęcin Cmentarz (2)</a>
+<a class="stop" href="../rozklady/44/1196-chrzanow.html"><span class="stop-id">1196</span>Piła Kościelecka Ruda (1)</a>
+<a class="stop" href="../rozklady/44/1280-chrzanow.html"><span class="stop-id">1280</span>Trzebinia Zakład Karny (2)</a>
+<a class="stop" href="../rozklady/44/1523-chrzanow.html"><span class="stop-id">1523</span>Trzebinia Zakłady Tłuszczowe (3)</a>
+<a class="stop" href="../rozklady/44/1023-chrzanow.html"><span class="stop-id">1023</span>Trzebinia Słowackiego (2)</a>
+<a class="stop variant" href="../rozklady/44/0353-chrzanow.html"><span class="stop-id">0353</span>Trzebinia Os. Widokowe Szkoła (2)</a>
+<a class="stop variant" href="../rozklady/44/0354-chrzanow.html"><span class="stop-id">0354</span>Trzebinia Os. Widokowe Kiosk (1)</a>
+<a class="stop variant" href="../rozklady/44/0355-chrzanow.html"><span class="stop-id">0355</span>Trzebinia Os. Widokowe Schody (1)</a>
+<a class="stop" href="../rozklady/44/0088-chrzanow.html"><span class="stop-id">0088</span>Trzebinia Mały Rynek Kościuszki (0)</a>
+<a class="stop variant" href="../rozklady/44/1026-chrzanow.html"><span class="stop-id">1026</span>Trzebinia Harcerska Przychodnia (0)</a>
+<a class="stop" href="../rozklady/44/0089-chrzanow.html"><span class="stop-id">0089</span>Trzebinia Dworzec PKP (1)</a>
+<a class="stop" href="../rozklady/44/0090-chrzanow.html"><span class="stop-id">0090</span>Trzebinia Długa (1)</a>
+<a class="stop" href="../rozklady/44/0091-chrzanow.html"><span class="stop-id">0091</span>Trzebinia Berezka (2)</a>
+
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+  
+<a class="stop variant" href="../rozklady/44/0092-chrzanow.html"><span class="stop-id">0092</span>Chrzanów Valeo (2)</a>
+<a class="stop" href="../rozklady/44/0397-chrzanow.html"><span class="stop-id">0397</span>Chrzanów Trzebińska (1)</a>
+<a class="stop terminal" href="../rozklady/44/0334-chrzanow.html"><span class="stop-id">0334</span>Chrzanów Dworzec Autobusowy (4)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Źródła</h2>
+
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+
+<a class="stop terminal" href="../rozklady/44/0334-zrodla.html"><span class="stop-id">0334</span>Chrzanów Dworzec Autobusowy (4)</a>
+<a class="stop" href="../rozklady/44/0096-zrodla.html"><span class="stop-id">0096</span>Chrzanów Plac Tysiąclecia (3)</a>
+<a class="stop" href="../rozklady/44/0352-zrodla.html"><span class="stop-id">0352</span>Chrzanów ZUS (1)</a>
+<a class="stop" href="../rozklady/44/0332-zrodla.html"><span class="stop-id">0332</span>Chrzanów Sienna (1)</a>
+<a class="stop" href="../rozklady/44/0333-zrodla.html"><span class="stop-id">0333</span>Chrzanów Podwale (1)</a>
+<a class="stop" href="../rozklady/44/0398-zrodla.html"><span class="stop-id">0398</span>Chrzanów Trzebińska (2)</a>
+<a class="stop variant" href="../rozklady/44/0119-zrodla.html"><span class="stop-id">0119</span>Chrzanów Valeo (1)</a>
+
+<div class="zone zone-trzebinia">STREFA TRZEBINIA</div>
+  
+<a class="stop" href="../rozklady/44/0120-zrodla.html"><span class="stop-id">0120</span>Trzebinia Berezka (1)</a>
+<a class="stop" href="../rozklady/44/0121-zrodla.html"><span class="stop-id">0121</span>Trzebinia Długa (2)</a>
+<a class="stop" href="../rozklady/44/0122-zrodla.html"><span class="stop-id">0122</span>Trzebinia Dworzec PKP (2)</a>
+<a class="stop variant" href="../rozklady/44/1026-zrodla.html"><span class="stop-id">1026</span>Trzebinia Harcerska Przychodnia (0)</a>
+<a class="stop" href="../rozklady/44/0123-zrodla.html"><span class="stop-id">0123</span>Trzebinia Krakowska (0)</a>
+<a class="stop variant" href="../rozklady/44/0356-zrodla.html"><span class="stop-id">0356</span>Trzebinia Os. Widokowe Schody (2)</a>
+<a class="stop variant" href="../rozklady/44/0357-zrodla.html"><span class="stop-id">0357</span>Trzebinia Os. Widokowe Kiosk (2)</a>
+<a class="stop variant" href="../rozklady/44/0358-zrodla.html"><span class="stop-id">0358</span>Trzebinia Os. Widokowe Szkoła (1)</a>
+<a class="stop" href="../rozklady/44/1022-zrodla.html"><span class="stop-id">1022</span>Trzebinia Słowackiego (1)</a>
+<a class="stop" href="../rozklady/44/1024-zrodla.html"><span class="stop-id">1024</span>Trzebinia Zakłady Tłuszczowe (1)</a>
+<a class="stop" href="../rozklady/44/1279-zrodla.html"><span class="stop-id">1279</span>Trzebinia Zakład Karny (1)</a>
+<a class="stop" href="../rozklady/44/1197-zrodla.html"><span class="stop-id">1197</span>Piła Kościelecka Ruda (2)</a>
+<a class="stop" href="../rozklady/44/1198-zrodla.html"><span class="stop-id">1198</span>Piła Kościelecka Jednostka Wojskowa (1)</a>
+<a class="stop" href="../rozklady/44/1206-zrodla.html"><span class="stop-id">1206</span>Bolęcin Cmentarz (1)</a>
+<a class="stop" href="../rozklady/44/1207-zrodla.html"><span class="stop-id">1207</span>Bolęcin Centrum (1)</a>
+<a class="stop" href="../rozklady/44/1210-zrodla.html"><span class="stop-id">1210</span>Bolęcin Górka (2)</a>
+<a class="stop" href="../rozklady/44/1315-zrodla.html"><span class="stop-id">1315</span>Bolęcin Stawki (2)</a>
+
+<div class="zone zone-babice-alwernia">STREFA BABICE-ALWERNIA</div>
+  
+<a class="stop" href="../rozklady/44/1309-zrodla.html"><span class="stop-id">1309</span>Nieporaz Oblaszki (1)</a>
+<a class="stop" href="../rozklady/44/1340-zrodla.html"><span class="stop-id">1340</span>Nieporaz Sklep (1)</a>
+<a class="stop" href="../rozklady/44/1341-zrodla.html"><span class="stop-id">1341</span>Nieporaz (1)</a>
+<a class="stop" href="../rozklady/44/1344-zrodla.html"><span class="stop-id">1344</span>Regulice Górne (2)</a>
+<a class="stop" href="../rozklady/44/1359-zrodla.html"><span class="stop-id">1359</span>Regulice Szkoła (2)</a>
+<a class="stop" href="../rozklady/44/1464-zrodla.html"><span class="stop-id">1464</span>Regulice Centrum (1)</a>
+<a class="stop" href="../rozklady/44/1352-zrodla.html"><span class="stop-id">1352</span>Alwernia Brzeziny (2)</a>
+<a class="stop" href="../rozklady/44/1350-zrodla.html"><span class="stop-id">1350</span>Alwernia Spalona (1)</a>
+<a class="stop" href="../rozklady/44/2885-zrodla.html"><span class="stop-id">2885</span>Alwernia Osiedle (3)</a>
+<a class="stop" href="../rozklady/44/1348-zrodla.html"><span class="stop-id">1348</span>Alwernia Szkoła (2)</a>
+<a class="stop" href="../rozklady/44/1311-zrodla.html"><span class="stop-id">1311</span>Poręba Żegoty (2)</a>
+<a class="stop" href="../rozklady/44/1310-zrodla.html"><span class="stop-id">1310</span>Brodła Działki (2)</a>
+<a class="stop terminal" href="../rozklady/44/1041-zrodla.html"><span class="stop-id">1041</span>Brodła (1)</a>
+<a class="stop" href="../rozklady/44/1044-zrodla.html"><span class="stop-id">1044</span>Mirów (2)</a>
+<a class="stop" href="../rozklady/44/1046-zrodla.html"><span class="stop-id">1046</span>Mirów II (2)</a>
+<a class="stop" href="../rozklady/44/1048-zrodla.html"><span class="stop-id">1048</span>Podłęże (2)</a>
+<a class="stop" href="../rozklady/44/1053-zrodla.html"><span class="stop-id">1053</span>Okleśna Dom Ludowy (2)</a>
+<a class="stop" href="../rozklady/44/1051-zrodla.html"><span class="stop-id">1051</span>Okleśna PKP (2)</a>
+<a class="stop terminal" href="../rozklady/44/1049-zrodla.html"><span class="stop-id">1049</span>Źródła (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
