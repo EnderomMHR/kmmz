@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 40</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-przeciszow{
+    background:#8e7cd3;
+    color:#222;
+}
+
+.zone-oswiecim{
+    background:#9fc4e8;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">40</div>
+
+<div class="route">
+Zaborze Pętla - Oświęcim Królowej Jadwigi - Oświęcim Dwory Pętla - Dwory Drugie Pętla - Las - Przeciszów Nawracanie
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Przeciszów Nawracanie</h2>
+
+<div class="zone zone-oswiecim">STREFA OŚWIĘCIM</div>
+  
+<a class="stop terminal" href="../rozklady/40/2092-przeciszow.html"><span class="stop-id">2092</span>Zaborze Pętla (0)</a>
+<a class="stop" href="../rozklady/40/2090-przeciszow.html"><span class="stop-id">2090</span>Zaborze Gościnna (1)</a>
+<a class="stop" href="../rozklady/40/1841-przeciszow.html"><span class="stop-id">1841</span>Zaborze Przedszkole (2)</a>
+<a class="stop" href="../rozklady/40/1843-przeciszow.html"><span class="stop-id">1843</span>Zaborze Polna (2)</a>
+<a class="stop" href="../rozklady/40/2091-przeciszow.html"><span class="stop-id">2091</span>Zaborze Domki Pętla (0)</a>
+<a class="stop terminal" href="../rozklady/40/1912-przeciszow.html"><span class="stop-id">1912</span>Oświęcim Królowej Jadwigi (2)</a>
+<a class="stop" href="../rozklady/40/0670-przeciszow.html"><span class="stop-id">0670</span>Oświęcim Dąbrowskiego Cmentarz (0)</a>
+<a class="stop" href="../rozklady/40/0873-przeciszow.html"><span class="stop-id">0873</span>Oświęcim Dąbrowskiego Szpital (2)</a>
+<a class="stop" href="../rozklady/40/0674-przeciszow.html"><span class="stop-id">0674</span>Oświęcim Osiedle OCK (2)</a>
+<a class="stop" href="../rozklady/40/0675-przeciszow.html"><span class="stop-id">0675</span>Oświęcim Technikum Chemiczne (1)</a>
+<a class="stop" href="../rozklady/40/0676-przeciszow.html"><span class="stop-id">0676</span>Oświęcim Lodowisko (2)</a>
+<a class="stop" href="../rozklady/40/0677-przeciszow.html"><span class="stop-id">0677</span>Oświęcim Zwycięstwa (1)</a>
+<a class="stop" href="../rozklady/40/0678-przeciszow.html"><span class="stop-id">0678</span>Oświęcim Cichy Kącik (1)</a>
+<a class="stop" href="../rozklady/40/0679-przeciszow.html"><span class="stop-id">0679</span>Oświęcim Spółdzielnia (1)</a>
+<a class="stop" href="../rozklady/40/0680-przeciszow.html"><span class="stop-id">0680</span>Oświęcim SKR (2)</a>
+<a class="stop terminal" href="../rozklady/40/0616-przeciszow.html"><span class="stop-id">0616</span>Oświęcim Dwory Pętla (1)</a>
+<a class="stop" href="../rozklady/40/1795-przeciszow.html"><span class="stop-id">1795</span>Oświęcim Żwirownia (1)</a>
+<a class="stop" href="../rozklady/40/1794-przeciszow.html"><span class="stop-id">1794</span>Oświęcim Wysypisko (1)</a>
+<a class="stop" href="../rozklady/40/1798-przeciszow.html"><span class="stop-id">1798</span>Oświęcim Śluza (2)</a>
+<a class="stop" href="../rozklady/40/1799-przeciszow.html"><span class="stop-id">1799</span>Dwory Drugie Suchodębie (2)</a>
+<a class="stop" href="../rozklady/40/1791-przeciszow.html"><span class="stop-id">1791</span>Dwory Drugie Machnaty (2)</a>
+<a class="stop terminal" href="../rozklady/40/1790-przeciszow.html"><span class="stop-id">1790</span>Dwory Drugie Pętla (0)</a>
+<a class="stop" href="../rozklady/40/1789-przeciszow.html"><span class="stop-id">1789</span>Dwory Drugie Dom Ludowy (2)</a>
+
+<div class="zone zone-przeciszow">STREFA PRZECISZÓW</div>
+  
+<a class="stop" href="../rozklady/40/1802-przeciszow.html"><span class="stop-id">1802</span>Las IV (1)</a>
+<a class="stop" href="../rozklady/40/1803-przeciszow.html"><span class="stop-id">1803</span>Las III (1)</a>
+<a class="stop" href="../rozklady/40/1804-przeciszow.html"><span class="stop-id">1804</span>Las II (1)</a>
+<a class="stop" href="../rozklady/40/1805-przeciszow.html"><span class="stop-id">1805</span>Las I (1)</a>
+<a class="stop" href="../rozklady/40/1784-przeciszow.html"><span class="stop-id">1784</span>Przeciszów Podlesie (1)</a>
+<a class="stop" href="../rozklady/40/1807-przeciszow.html"><span class="stop-id">1807</span>Przeciszów Za Torem (2)</a>
+<a class="stop" href="../rozklady/40/1782-przeciszow.html"><span class="stop-id">1782</span>Przeciszów Urząd Gminy (1)</a>
+<a class="stop" href="../rozklady/40/1852-przeciszow.html"><span class="stop-id">1852</span>Przeciszów Ośrodek Zdrowia (2)</a>
+<a class="stop" href="../rozklady/40/1850-przeciszow.html"><span class="stop-id">1850</span>Przeciszów Góra (2)</a>
+<a class="stop" href="../rozklady/40/1848-przeciszow.html"><span class="stop-id">1848</span>Przeciszów Sklep (2)</a>
+<a class="stop terminal" href="../rozklady/40/1846-przeciszow.html"><span class="stop-id">1846</span>Przeciszów Nawracanie (0)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Zaborze Pętla</h2>
+
+<div class="zone zone-przeciszow">STREFA PRZECISZÓW</div>
+  
+<a class="stop terminal" href="../rozklady/40/1846-zaborze.html"><span class="stop-id">1846</span>Przeciszów Nawracanie (0)</a>
+<a class="stop" href="../rozklady/40/1847-zaborze.html"><span class="stop-id">1847</span>Przeciszów Sklep (1)</a>
+<a class="stop" href="../rozklady/40/1849-zaborze.html"><span class="stop-id">1849</span>Przeciszów Góra (1)</a>
+<a class="stop" href="../rozklady/40/1851-zaborze.html"><span class="stop-id">1851</span>Przeciszów Ośrodek Zdrowia (1)</a>
+<a class="stop" href="../rozklady/40/1808-zaborze.html"><span class="stop-id">1808</span>Przeciszów Urząd Gminy (2)</a>
+<a class="stop" href="../rozklady/40/1783-zaborze.html"><span class="stop-id">1783</span>Przeciszów Za Torem (1)</a>
+<a class="stop" href="../rozklady/40/1806-zaborze.html"><span class="stop-id">1806</span>Przeciszów Podlesie (2)</a>
+<a class="stop" href="../rozklady/40/1785-zaborze.html"><span class="stop-id">1785</span>Las I (2)</a>
+<a class="stop" href="../rozklady/40/1786-zaborze.html"><span class="stop-id">1786</span>Las II (2)</a>
+<a class="stop" href="../rozklady/40/1787-zaborze.html"><span class="stop-id">1787</span>Las III (2)</a>
+<a class="stop" href="../rozklady/40/1788-zaborze.html"><span class="stop-id">1788</span>Las IV (2)</a>
+
+<div class="zone zone-oswiecim">STREFA OŚWIĘCIM</div>
+  
+<a class="stop" href="../rozklady/40/1801-zaborze.html"><span class="stop-id">1801</span>Dwory Drugie Dom Ludowy (1)</a>
+<a class="stop terminal" href="../rozklady/40/1790-zaborze.html"><span class="stop-id">1790</span>Dwory Drugie Pętla (0)</a>
+<a class="stop" href="../rozklady/40/1800-zaborze.html"><span class="stop-id">1800</span>Dwory Drugie Machnaty (1)</a>
+<a class="stop" href="../rozklady/40/1792-zaborze.html"><span class="stop-id">1792</span>Dwory Drugie Suchodębie (1)</a>
+<a class="stop" href="../rozklady/40/1793-zaborze.html"><span class="stop-id">1793</span>Oświęcim Śluza (1)</a>
+<a class="stop" href="../rozklady/40/1797-zaborze.html"><span class="stop-id">1797</span>Oświęcim Wysypisko (2)</a>
+<a class="stop" href="../rozklady/40/1796-zaborze.html"><span class="stop-id">1796</span>Oświęcim Żwirownia (2)</a>
+<a class="stop terminal" href="../rozklady/40/0616-zaborze.html"><span class="stop-id">0616</span>Oświęcim Dwory Pętla (1)</a>
+<a class="stop" href="../rozklady/40/0617-zaborze.html"><span class="stop-id">0617</span>Oświęcim SKR (1)</a>
+<a class="stop" href="../rozklady/40/0618-zaborze.html"><span class="stop-id">0618</span>Oświęcim Spółdzielnia (2)</a>
+<a class="stop" href="../rozklady/40/0619-zaborze.html"><span class="stop-id">0619</span>Oświęcim Cichy Kącik (2)</a>
+<a class="stop" href="../rozklady/40/0620-zaborze.html"><span class="stop-id">0620</span>Oświęcim Zwycięstwa (2)</a>
+<a class="stop" href="../rozklady/40/0621-zaborze.html"><span class="stop-id">0621</span>Oświęcim Lodowisko (1)</a>
+<a class="stop" href="../rozklady/40/0622-zaborze.html"><span class="stop-id">0622</span>Oświęcim Technikum Chemiczne (2)</a>
+<a class="stop" href="../rozklady/40/0623-zaborze.html"><span class="stop-id">0623</span>Oświęcim Osiedle OCK (1)</a>
+<a class="stop" href="../rozklady/40/0836-zaborze.html"><span class="stop-id">0836</span>Oświęcim Dąbrowskiego Szpital (1)</a>
+<a class="stop" href="../rozklady/40/0628-zaborze.html"><span class="stop-id">0628</span>Oświęcim Dąbrowskiego Miasto (1)</a>
+<a class="stop terminal" href="../rozklady/40/1913-zaborze.html"><span class="stop-id">1913</span>Oświęcim Królowej Jadwigi (1)</a>
+<a class="stop" href="../rozklady/40/2091-zaborze.html"><span class="stop-id">2091</span>Zaborze Domki Pętla (0)</a>
+<a class="stop" href="../rozklady/40/1842-zaborze.html"><span class="stop-id">1842</span>Zaborze Polna (1)</a>
+<a class="stop" href="../rozklady/40/1840-zaborze.html"><span class="stop-id">1840</span>Zaborze Przedszkole (1)</a>
+<a class="stop" href="../rozklady/40/2093-zaborze.html"><span class="stop-id">2093</span>Zaborze Gościnna (2)</a>
+<a class="stop terminal" href="../rozklady/40/2092-zaborze.html"><span class="stop-id">2092</span>Zaborze Pętla (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
