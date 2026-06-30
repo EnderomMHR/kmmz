@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 41</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-klucze{
+    background:#00fe00;
+    color:#222;
+}
+
+.zone-olkusz{
+    background:#ffe599;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">41</div>
+
+<div class="route">
+Klucze Osada - Bogucin Duży - Pomorzany - Olkusz Osiedle Młodych Pętla
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Olkusz Osiedle Młodych Pętla</h2>
+
+<div class="zone zone-klucze">STREFA KLUCZE</div>
+
+<a class="stop terminal" href="../rozklady/41/0510-olkusz.html"><span class="stop-id">0510</span>Klucze Osada (2)</a>
+<a class="stop" href="../rozklady/41/0511-olkusz.html"><span class="stop-id">0511</span>Klucze Osiedle 30-Lecia (2)</a>
+<a class="stop" href="../rozklady/41/0512-olkusz.html"><span class="stop-id">0512</span>Klucze Park (2)</a>
+<a class="stop variant" href="../rozklady/41/2174-olkusz.html"><span class="stop-id">2174</span>Klucze Bolesławska (2)</a>
+<a class="stop" href="../rozklady/41/2175-olkusz.html"><span class="stop-id">2175</span>Klucze Kościół (1)</a>
+<a class="stop" href="../rozklady/41/2177-olkusz.html"><span class="stop-id">2177</span>Bogucin Duży Skrzyżowanie (1)</a>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+  
+<a class="stop variant" href="../rozklady/41/2203-olkusz.html"><span class="stop-id">2203</span>Bogucin Mały (2)</a>
+<a class="stop variant" href="../rozklady/41/2204-olkusz.html"><span class="stop-id">2204</span>Olkusz Parcze (1)</a>
+<a class="stop variant" href="../rozklady/41/2205-olkusz.html"><span class="stop-id">2205</span>Olkusz Kasztanowa (1)</a>
+<a class="stop" href="../rozklady/41/0688-olkusz.html"><span class="stop-id">0688</span>Olkusz Pomorzany Las (2)</a>
+<a class="stop" href="../rozklady/41/0689-olkusz.html"><span class="stop-id">0689</span>Olkusz Pomorzany Wzniesienie (1)</a>
+<a class="stop" href="../rozklady/41/0690-olkusz.html"><span class="stop-id">0690</span>Olkusz Pomorzany Szkoła (1)</a>
+<a class="stop" href="../rozklady/41/0691-olkusz.html"><span class="stop-id">0691</span>Olkusz Pomorzany Remiza (1)</a>
+<a class="stop" href="../rozklady/41/0692-olkusz.html"><span class="stop-id">0692</span>Olkusz Pomorzany Stadion (1)</a>
+<a class="stop" href="../rozklady/41/0693-olkusz.html"><span class="stop-id">0693</span>Olkusz Skatepark (1)</a>
+<a class="stop" href="../rozklady/41/0173-olkusz.html"><span class="stop-id">0173</span>Olkusz Stacja Paliw (1)</a>
+<a class="stop" href="../rozklady/41/0174-olkusz.html"><span class="stop-id">0174</span>Olkusz Supersam (0)</a>
+<a class="stop" href="../rozklady/41/0199-olkusz.html"><span class="stop-id">0199</span>Olkusz Skarbek (2)</a>
+<a class="stop" href="../rozklady/41/0201-olkusz.html"><span class="stop-id">0201</span>Olkusz Dworzec PKP (1)</a>
+<a class="stop" href="../rozklady/41/0202-olkusz.html"><span class="stop-id">0202</span>Olkusz Wiadukt (1)</a>
+<a class="stop" href="../rozklady/41/0492-olkusz.html"><span class="stop-id">0492</span>Olkusz Baza PKS (1)</a>
+<a class="stop" href="../rozklady/41/0493-olkusz.html"><span class="stop-id">0493</span>Olkusz Owent (2)</a>
+<a class="stop" href="../rozklady/41/0494-olkusz.html"><span class="stop-id">0494</span>Olkusz ZUS (2)</a>
+<a class="stop" href="../rozklady/41/1589-olkusz.html"><span class="stop-id">1589</span>Olkusz Biema (2)</a>
+<a class="stop" href="../rozklady/41/1587-olkusz.html"><span class="stop-id">1587</span>Olkusz Kościół (1)</a>
+<a class="stop" href="../rozklady/41/1575-olkusz.html"><span class="stop-id">1575</span>Olkusz Księdza Gajewskiego (1)</a>
+<a class="stop" href="../rozklady/41/2026-olkusz.html"><span class="stop-id">2026</span>Olkusz Kochanowskiego (1)</a>
+<a class="stop terminal" href="../rozklady/41/3307-olkusz.html"><span class="stop-id">3307</span>Olkusz Osiedle Młodych Pętla (1)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Klucze Osada</h2>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+  
+<a class="stop terminal" href="../rozklady/41/2025-klucze.html"><span class="stop-id">2025</span>Olkusz Osiedle Młodych Pętla (0)</a>
+<a class="stop" href="../rozklady/41/2027-klucze.html"><span class="stop-id">2027</span>Olkusz Kochanowskiego (2)</a>
+<a class="stop" href="../rozklady/41/1576-klucze.html"><span class="stop-id">1576</span>Olkusz Księdza Gajewskiego (2)</a>
+<a class="stop" href="../rozklady/41/1586-klucze.html"><span class="stop-id">1586</span>Olkusz Kościół (2)</a>
+<a class="stop" href="../rozklady/41/1588-klucze.html"><span class="stop-id">1588</span>Olkusz Biema (1)</a>
+<a class="stop" href="../rozklady/41/0537-klucze.html"><span class="stop-id">0537</span>Olkusz ZUS (1)</a>
+<a class="stop" href="../rozklady/41/0538-klucze.html"><span class="stop-id">0538</span>Olkusz Owent (1)</a>
+<a class="stop" href="../rozklady/41/0225-klucze.html"><span class="stop-id">0225</span>Olkusz Aleja Tysiąclecia (2)</a>
+<a class="stop" href="../rozklady/41/0226-klucze.html"><span class="stop-id">0226</span>Olkusz Wiadukt (2)</a>
+<a class="stop" href="../rozklady/41/0227-klucze.html"><span class="stop-id">0227</span>Olkusz Dworzec PKP (2)</a>
+<a class="stop" href="../rozklady/41/0228-klucze.html"><span class="stop-id">0228</span>Olkusz Skarbek (1)</a>
+<a class="stop" href="../rozklady/41/0238-klucze.html"><span class="stop-id">0238</span>Olkusz Supersam (2)</a>
+<a class="stop variant" href="../rozklady/41/0685-klucze.html"><span class="stop-id">0685</span>Olkusz Kasztanowa (2)</a>
+<a class="stop variant" href="../rozklady/41/0686-klucze.html"><span class="stop-id">0686</span>Olkusz Parcze (2)</a>
+<a class="stop variant" href="../rozklady/41/0687-klucze.html"><span class="stop-id">0687</span>Bogucin Mały (1)</a>
+<a class="stop" href="../rozklady/41/0239-klucze.html"><span class="stop-id">0239</span>Olkusz Stacja Paliw (2)</a>
+<a class="stop" href="../rozklady/41/2179-klucze.html"><span class="stop-id">2179</span>Olkusz Skatepark (2)</a>
+<a class="stop" href="../rozklady/41/2180-klucze.html"><span class="stop-id">2180</span>Olkusz Pomorzany Stadion (2)</a>
+<a class="stop" href="../rozklady/41/2181-klucze.html"><span class="stop-id">2181</span>Olkusz Pomorzany Remiza (2)</a>
+<a class="stop" href="../rozklady/41/2182-klucze.html"><span class="stop-id">2182</span>Olkusz Pomorzany Szkoła (2)</a>
+<a class="stop" href="../rozklady/41/2183-klucze.html"><span class="stop-id">2183</span>Olkusz Pomorzany Wzniesienie (2)</a>
+<a class="stop" href="../rozklady/41/2184-klucze.html"><span class="stop-id">2184</span>Olkusz Pomorzany Las (1)</a>
+
+<div class="zone zone-klucze">STREFA KLUCZE</div>
+  
+<a class="stop" href="../rozklady/41/2178-klucze.html"><span class="stop-id">2178</span>Bogucin Duży Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/41/2176-klucze.html"><span class="stop-id">2176</span>Klucze Kościół (2)</a>
+<a class="stop variant" href="../rozklady/41/2173-klucze.html"><span class="stop-id">2173</span>Klucze Bolesławska (1)</a>
+<a class="stop" href="../rozklady/41/0553-klucze.html"><span class="stop-id">0553</span>Klucze Park (1)</a>
+<a class="stop" href="../rozklady/41/0554-klucze.html"><span class="stop-id">0554</span>Klucze Osiedle 30-lecia (1)</a>
+<a class="stop terminal" href="../rozklady/41/0555-klucze.html"><span class="stop-id">0555</span>Klucze Osada (1)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
