@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 45</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-krzeszowice{
+    background:#f9cb9a;
+    color:#222;
+}
+
+.zone-trzebinia{
+    background:#d9d2e9;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">45</div>
+
+<div class="route">
+Krzeszowice Dworzec Autobusowy - Wola Filipowska - Filipowice - Stawiska - Paryż - (Lgota) - Ostrężnica - Łany - Nowa Góra - Miękinia - Krzeszowice Dworzec Autobusowy
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Krzeszowice Dworzec Autobusowy</h2>
+
+<div class="zone zone-krzeszowice">STREFA KRZESZOWICE</div>
+
+<a class="stop terminal" href="../rozklady/45/0051-okrezna-1.html"><span class="stop-id">0051</span>Krzeszowice Dworzec Autobusowy (2)</a>
+<a class="stop" href="../rozklady/45/0052-okrezna-1.html"><span class="stop-id">0052</span>Krzeszowice Rondo Jana Pawła II (0)</a>
+<a class="stop" href="../rozklady/45/0053-okrezna-1.html"><span class="stop-id">0053</span>Krzeszowice Kościuszki (0)</a>
+<a class="stop" href="../rozklady/45/0054-okrezna-1.html"><span class="stop-id">0054</span>Krzeszowice Zielona (2)</a>
+<a class="stop" href="../rozklady/45/0055-okrezna-1.html"><span class="stop-id">0055</span>Wola Filipowska I (1)</a>
+<a class="stop" href="../rozklady/45/0056-okrezna-1.html"><span class="stop-id">0056</span>Wola Filipowska II (1)</a>
+<a class="stop" href="../rozklady/45/0057-okrezna-1.html"><span class="stop-id">0057</span>Filipowice Blych (2)</a>
+<a class="stop" href="../rozklady/45/0058-okrezna-1.html"><span class="stop-id">0058</span>Filipowice Sklep (2)</a>
+<a class="stop" href="../rozklady/45/0059-okrezna-1.html"><span class="stop-id">0059</span>Filipowice Palikówka (2)</a>
+<a class="stop" href="../rozklady/45/0060-okrezna-1.html"><span class="stop-id">0060</span>Filipowice Skała (2)</a>
+<a class="stop" href="../rozklady/45/0061-okrezna-1.html"><span class="stop-id">0061</span>Filipowice Szkoła (2)</a>
+<a class="stop" href="../rozklady/45/0062-okrezna-1.html"><span class="stop-id">0062</span>Filipowice Kościół (2)</a>
+<a class="stop" href="../rozklady/45/0063-okrezna-1.html"><span class="stop-id">0063</span>Filipowice Transformator (2)</a>
+<a class="stop" href="../rozklady/45/0064-okrezna-1.html"><span class="stop-id">0064</span>Filipowice Wzgórze (2)</a>
+<a class="stop" href="../rozklady/45/0065-okrezna-1.html"><span class="stop-id">0065</span>Miękinia Stawiska (0)</a>
+<a class="stop" href="../rozklady/45/2779-okrezna-1.html"><span class="stop-id">2779</span>Nowa Góra Paryż (2)</a>
+<a class="stop" href="../rozklady/45/0954-okrezna-1.html"><span class="stop-id">0954</span>Nowa Góra Paryż Pętla (1)</a>
+
+<div class="zone zone-trzebinia">STREFA TRZEBINIA</div>
+  
+<a class="stop variant" href="../rozklady/45/0944-okrezna-1.html"><span class="stop-id">0944</span>Lgota (1)</a>
+<a class="stop variant" href="../rozklady/45/1489-okrezna-1.html"><span class="stop-id">1489</span>Lgota Szkoła (2)</a>
+
+<div class="zone zone-krzeszowice">STREFA KRZESZOWICE</div>
+  
+<a class="stop" href="../rozklady/45/0949-okrezna-1.html"><span class="stop-id">0949</span>Ostrężnica Koło Kaplicy (0)</a>
+<a class="stop" href="../rozklady/45/0947-okrezna-1.html"><span class="stop-id">0947</span>Ostrężnica Kościół (1)</a>
+<a class="stop" href="../rozklady/45/0952-okrezna-1.html"><span class="stop-id">0952</span>Ostrężnica (1)</a>
+<a class="stop" href="../rozklady/45/0950-okrezna-1.html"><span class="stop-id">0950</span>Nowa Góra Łany (1)</a>
+<a class="stop" href="../rozklady/45/1031-okrezna-1.html"><span class="stop-id">1031</span>Nowa Góra Łany Pierwsze (2)</a>
+<a class="stop" href="../rozklady/45/1305-okrezna-1.html"><span class="stop-id">1305</span>Nowa Góra Sikorowskie (2)</a>
+<a class="stop" href="../rozklady/45/1306-okrezna-1.html"><span class="stop-id">1306</span>Nowa Góra Centrum (1)</a>
+<a class="stop" href="../rozklady/45/1307-okrezna-1.html"><span class="stop-id">1307</span>Nowa Góra Sikorowskie (1)</a>
+<a class="stop" href="../rozklady/45/1124-okrezna-1.html"><span class="stop-id">1124</span>Miękinia Wzgórze (2)</a>
+<a class="stop" href="../rozklady/45/1126-okrezna-1.html"><span class="stop-id">1126</span>Miękinia (2)</a>
+<a class="stop" href="../rozklady/45/1128-okrezna-1.html"><span class="stop-id">1128</span>Miękinia Szkoła (2)</a>
+<a class="stop" href="../rozklady/45/1129-okrezna-1.html"><span class="stop-id">1129</span>Miękinia Kamieniołom (AGH) (1)</a>
+<a class="stop" href="../rozklady/45/1132-okrezna-1.html"><span class="stop-id">1132</span>Miękinia Remiza (2)</a>
+<a class="stop" href="../rozklady/45/1133-okrezna-1.html"><span class="stop-id">1133</span>Miękinia Olchówki (2)</a>
+<a class="stop" href="../rozklady/45/1135-okrezna-1.html"><span class="stop-id">1135</span>Krzeszowice Miękińska (Szwedzka Droga) (1)</a>
+<a class="stop" href="../rozklady/45/1317-okrezna-1.html"><span class="stop-id">1317</span>Krzeszowice Miękińska Koniec (2)</a>
+<a class="stop" href="../rozklady/45/1463-okrezna-1.html"><span class="stop-id">1463</span>Krzeszowice Miękińska Początek (1)</a>
+<a class="stop" href="../rozklady/45/1275-okrezna-1.html"><span class="stop-id">1275</span>Krzeszowice Urząd Miejski (1)</a>
+<a class="stop" href="../rozklady/45/0133-okrezna-1.html"><span class="stop-id">0133</span>Krzeszowice Centrum (1)</a>
+<a class="stop terminal" href="../rozklady/45/1677-okrezna-1.html"><span class="stop-id">1677</span>Krzeszowice Dworzec Autobusowy (1)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Krzeszowice Dworzec Autobusowy</h2>
+
+<div class="zone zone-krzeszowice">STREFA KRZESZOWICE</div>
+
+<a class="stop terminal" href="../rozklady/45/0134-okrezna-2.html"><span class="stop-id">0134</span>Krzeszowice Dworzec Autobusowy (3)</a>
+<a class="stop" href="../rozklady/45/0052-okrezna-2.html"><span class="stop-id">0052</span>Krzeszowice Rondo Jana Pawła II (0)</a>
+<a class="stop" href="../rozklady/45/1278-okrezna-2.html"><span class="stop-id">1278</span>Krzeszowice Kościół (2)</a>
+<a class="stop" href="../rozklady/45/1462-okrezna-2.html"><span class="stop-id">1462</span>Krzeszowice Miękińska Początek (2)</a>
+<a class="stop" href="../rozklady/45/1316-okrezna-2.html"><span class="stop-id">1316</span>Krzeszowice Miękińska Koniec (1)</a>
+<a class="stop" href="../rozklady/45/1136-okrezna-2.html"><span class="stop-id">1136</span>Krzeszowice Miękińska (Szwedzka Droga) (2)</a>
+<a class="stop" href="../rozklady/45/1134-okrezna-2.html"><span class="stop-id">1134</span>Miękinia Olchówki (1)</a>
+<a class="stop" href="../rozklady/45/1131-okrezna-2.html"><span class="stop-id">1131</span>Miękinia Remiza (1)</a>
+<a class="stop" href="../rozklady/45/1130-okrezna-2.html"><span class="stop-id">1130</span>Miękinia Kamieniołom (AGH) (2)</a>
+<a class="stop" href="../rozklady/45/1127-okrezna-2.html"><span class="stop-id">1127</span>Miękinia Szkoła (1)</a>
+<a class="stop" href="../rozklady/45/1125-okrezna-2.html"><span class="stop-id">1125</span>Miękinia (1)</a>
+<a class="stop" href="../rozklady/45/1123-okrezna-2.html"><span class="stop-id">1123</span>Miękinia Wzgórze (1)</a>
+<a class="stop" href="../rozklady/45/1305-okrezna-2.html"><span class="stop-id">1305</span>Nowa Góra Sikorowskie (2)</a>
+<a class="stop" href="../rozklady/45/1306-okrezna-2.html"><span class="stop-id">1306</span>Nowa Góra Centrum (1)</a>
+<a class="stop" href="../rozklady/45/1307-okrezna-2.html"><span class="stop-id">1307</span>Nowa Góra Sikorowskie (1)</a>
+<a class="stop" href="../rozklady/45/1030-okrezna-2.html"><span class="stop-id">1030</span>Nowa Góra Łany Pierwsze (1)</a>
+<a class="stop" href="../rozklady/45/0951-okrezna-2.html"><span class="stop-id">0951</span>Nowa Góra Łany (2)</a>
+<a class="stop" href="../rozklady/45/0953-okrezna-2.html"><span class="stop-id">0953</span>Ostrężnica (2)</a>
+<a class="stop" href="../rozklady/45/0948-okrezna-2.html"><span class="stop-id">0948</span>Ostrężnica Kościół (2)</a>
+<a class="stop" href="../rozklady/45/0949-okrezna-2.html"><span class="stop-id">0949</span>Ostrężnica Koło Kaplicy (0)</a>
+
+<div class="zone zone-trzebinia">STREFA TRZEBINIA</div>
+  
+<a class="stop variant" href="../rozklady/45/0946-okrezna-2.html"><span class="stop-id">0946</span>Lgota Szkoła (1)</a>
+<a class="stop variant" href="../rozklady/45/0945-okrezna-2.html"><span class="stop-id">0945</span>Lgota (2)</a>
+
+<div class="zone zone-krzeszowice">STREFA KRZESZOWICE</div>
+  
+<a class="stop" href="../rozklady/45/0954-okrezna-2.html"><span class="stop-id">0954</span>Nowa Góra Paryż Pętla (1)</a>
+<a class="stop" href="../rozklady/45/2778-okrezna-2.html"><span class="stop-id">2778</span>Nowa Góra Paryż (1)</a>
+<a class="stop" href="../rozklady/45/0065-okrezna-2.html"><span class="stop-id">0065</span>Miękinia Stawiska (0)</a>
+<a class="stop" href="../rozklady/45/0066-okrezna-2.html"><span class="stop-id">0066</span>Filipowice Wzgórze (1)</a>
+<a class="stop" href="../rozklady/45/0067-okrezna-2.html"><span class="stop-id">0067</span>Filipowice Transformator (1)</a>
+<a class="stop" href="../rozklady/45/0068-okrezna-2.html"><span class="stop-id">0068</span>Filipowice Kościół (1)</a>
+<a class="stop" href="../rozklady/45/0069-okrezna-2.html"><span class="stop-id">0069</span>Filipowice Szkoła (1)</a>
+<a class="stop" href="../rozklady/45/0070-okrezna-2.html"><span class="stop-id">0070</span>Filipowice Skała (1)</a>
+<a class="stop" href="../rozklady/45/0071-okrezna-2.html"><span class="stop-id">0071</span>Filipowice Palikówka (1)</a>
+<a class="stop" href="../rozklady/45/0072-okrezna-2.html"><span class="stop-id">0072</span>Filipowice Sklep (1)</a>
+<a class="stop" href="../rozklady/45/0073-okrezna-2.html"><span class="stop-id">0073</span>Filipowice Blych (1)</a>
+<a class="stop" href="../rozklady/45/0130-okrezna-2.html"><span class="stop-id">0130</span>Wola Filipowska II (2)</a>
+<a class="stop" href="../rozklady/45/0131-okrezna-2.html"><span class="stop-id">0131</span>Wola Filipowska I (2)</a>
+<a class="stop" href="../rozklady/45/0132-okrezna-2.html"><span class="stop-id">0132</span>Krzeszowice Zielona (1)</a>
+<a class="stop" href="../rozklady/45/0133-okrezna-2.html"><span class="stop-id">0133</span>Krzeszowice Centrum (1)</a>
+<a class="stop terminal" href="../rozklady/45/1677-okrezna-2.html"><span class="stop-id">1677</span>Krzeszowice Dworzec Autobusowy (1)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
