@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 46</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-wolbrom{
+    background:#2a8be8;
+    color:#222;
+}
+
+.zone-zarnowiec{
+    background:#fffe01;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">46</div>
+
+<div class="route">
+Łany Wielkie Kościół - Zabrodzie - Żarnowiec - Wola Libertowska - Udórz - Chlina - Grabowiec - Boża Wola - Łobzów - Wolbrom Nowa PKS
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Wolbrom Nowa PKS</h2>
+
+<div class="zone zone-zarnowiec">STREFA ŻARNOWIEC</div>
+
+<a class="stop terminal" href="../rozklady/46/1334-wolbrom.html"><span class="stop-id">1334</span>Łany Wielkie Kościół (1)</a>
+<a class="stop" href="../rozklady/46/2871-wolbrom.html"><span class="stop-id">2871</span>Łany Wielkie Stara Wieś (1)</a>
+<a class="stop" href="../rozklady/46/2869-wolbrom.html"><span class="stop-id">2869</span>Łany Wielkie Droga do Łanów Małych (2)</a>
+<a class="stop" href="../rozklady/46/2858-wolbrom.html"><span class="stop-id">2858</span>Zabrodzie Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/46/2840-wolbrom.html"><span class="stop-id">2840</span>Żarnowiec Rynek (0)</a>
+<a class="stop" href="../rozklady/46/2841-wolbrom.html"><span class="stop-id">2841</span>Żarnowiec Kościuszki (2)</a>
+<a class="stop" href="../rozklady/46/2861-wolbrom.html"><span class="stop-id">2861</span>Wola Libertowska Kresy (1)</a>
+<a class="stop" href="../rozklady/46/2862-wolbrom.html"><span class="stop-id">2862</span>Wola Libertowska Posesja 146 (1)</a>
+<a class="stop" href="../rozklady/46/2863-wolbrom.html"><span class="stop-id">2863</span>Wola Libertowska Barycz (1)</a>
+<a class="stop" href="../rozklady/46/2832-wolbrom.html"><span class="stop-id">2832</span>Udórz Pohulanka (1)</a>
+<a class="stop" href="../rozklady/46/2831-wolbrom.html"><span class="stop-id">2831</span>Udórz Kaplica (1)</a>
+<a class="stop" href="../rozklady/46/2835-wolbrom.html"><span class="stop-id">2835</span>Chlina Pod Udorzem (2)</a>
+<a class="stop" href="../rozklady/46/2844-wolbrom.html"><span class="stop-id">2844</span>Chlina Dolna (1)</a>
+<a class="stop" href="../rozklady/46/2842-wolbrom.html"><span class="stop-id">2842</span>Chlina Nad Stoki (1)</a>
+
+<div class="zone zone-wolbrom ">STREFA WOLBROM</div>
+  
+<a class="stop" href="../rozklady/46/2321-wolbrom.html"><span class="stop-id">2321</span>Jeżówka Grabowiec (1)</a>
+<a class="stop" href="../rozklady/46/0721-wolbrom.html"><span class="stop-id">0721</span>Boża Wola Warszawa (1)</a>
+<a class="stop" href="../rozklady/46/0722-wolbrom.html"><span class="stop-id">0722</span>Boża Wola Piekło (1)</a>
+<a class="stop" href="../rozklady/46/0723-wolbrom.html"><span class="stop-id">0723</span>Łobzów Sieradzkie (1)</a>
+<a class="stop" href="../rozklady/46/0709-wolbrom.html"><span class="stop-id">0709</span>Łobzów OSP (2)</a>
+<a class="stop" href="../rozklady/46/0710-wolbrom.html"><span class="stop-id">0710</span>Łobzów Granica (2)</a>
+<a class="stop" href="../rozklady/46/0021-wolbrom.html"><span class="stop-id">0021</span>Wolbrom Kościuszki (2)</a>
+<a class="stop terminal" href="../rozklady/46/0001-wolbrom.html"><span class="stop-id">0001</span>Wolbrom Nowa PKS (0)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Łany Wielkie Kościół</h2>
+
+<div class="zone zone-wolbrom ">STREFA WOLBROM</div>
+  
+<a class="stop terminal" href="../rozklady/46/0001-lany.html"><span class="stop-id">0001</span>Wolbrom Nowa PKS (0)</a>
+<a class="stop" href="../rozklady/46/0022-lany.html"><span class="stop-id">0022</span>Wolbrom Kościuszki (1)</a>
+<a class="stop" href="../rozklady/46/0694-lany.html"><span class="stop-id">0694</span>Łobzów Granica (1)</a>
+<a class="stop" href="../rozklady/46/0695-lany.html"><span class="stop-id">0695</span>Łobzów OSP (1)</a>
+<a class="stop" href="../rozklady/46/0696-lany.html"><span class="stop-id">0696</span>Łobzów Sieradzkie (2)</a>
+<a class="stop" href="../rozklady/46/0697-lany.html"><span class="stop-id">0697</span>Boża Wola Piekło (2)</a>
+<a class="stop" href="../rozklady/46/0698-lany.html"><span class="stop-id">0698</span>Boża Wola Warszawa (2)</a>
+<a class="stop" href="../rozklady/46/2322-lany.html"><span class="stop-id">2322</span>Jeżówka Grabowiec (2)</a>
+
+<div class="zone zone-zarnowiec">STREFA ŻARNOWIEC</div>
+  
+<a class="stop" href="../rozklady/46/2838-lany.html"><span class="stop-id">2838</span>Chlina Nad Stoki (2)</a>
+<a class="stop" href="../rozklady/46/2836-lany.html"><span class="stop-id">2836</span>Chlina Dolna (2)</a>
+<a class="stop" href="../rozklady/46/2845-lany.html"><span class="stop-id">2845</span>Chlina Pod Udorzem (1)</a>
+<a class="stop" href="../rozklady/46/2834-lany.html"><span class="stop-id">2834</span>Udórz Kaplica (2)</a>
+<a class="stop" href="../rozklady/46/2833-lany.html"><span class="stop-id">2833</span>Udórz Pohulanka (2)</a>
+<a class="stop" href="../rozklady/46/2852-lany.html"><span class="stop-id">2852</span>Wola Libertowska Barycz (2)</a>
+<a class="stop" href="../rozklady/46/2853-lany.html"><span class="stop-id">2853</span>Wola Libertowska Posesja 146 (2)</a>
+<a class="stop" href="../rozklady/46/2854-lany.html"><span class="stop-id">2854</span>Wola Libertowska Kresy (2)</a>
+<a class="stop" href="../rozklady/46/2839-lany.html"><span class="stop-id">2839</span>Żarnowiec Kościuszki (1)</a>
+<a class="stop" href="../rozklady/46/2840-lany.html"><span class="stop-id">2840</span>Żarnowiec Rynek (0)</a>
+<a class="stop" href="../rozklady/46/2857-lany.html"><span class="stop-id">2857</span>Zabrodzie Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/46/2868-lany.html"><span class="stop-id">2868</span>Łany Wielkie Droga do Łanów Małych (1)</a>
+<a class="stop" href="../rozklady/46/2870-lany.html"><span class="stop-id">2870</span>Łany Wielkie Stara Wieś (2)</a>
+<a class="stop terminal" href="../rozklady/46/1334-lany.html"><span class="stop-id">1334</span>Łany Wielkie Kościół (1)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
