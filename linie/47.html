@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 47</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-krzeszowice{
+    background:#f9cb9a;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">47</div>
+
+<div class="route">
+Paczółtowice Podlipa Pętla - Czerna Remiza - Krzeszowice Dworzec Autobusowy
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Krzeszowice Dworzec Autobusowy</h2>
+
+<div class="zone zone-krzeszowice">STREFA KRZESZOWICE</div>
+
+<a class="stop terminal" href="../rozklady/47/1330-krzeszowice.html"><span class="stop-id">1330</span>Paczółtowice Podlipa Pętla (1)</a>
+<a class="stop" href="../rozklady/47/1331-krzeszowice.html"><span class="stop-id">1331</span>Paczółtowice Kościół (1)</a>
+<a class="stop" href="../rozklady/47/1332-krzeszowice.html"><span class="stop-id">1332</span>Paczółtowice Sklep (1)</a>
+<a class="stop" href="../rozklady/47/1333-krzeszowice.html"><span class="stop-id">1333</span>Paczółtowice (1)</a>
+<a class="stop" href="../rozklady/47/1371-krzeszowice.html"><span class="stop-id">1371</span>Czerna Las (1)</a>
+<a class="stop" href="../rozklady/47/1370-krzeszowice.html"><span class="stop-id">1370</span>Czerna Klasztor (1)</a>
+<a class="stop" href="../rozklady/47/1318-krzeszowice.html"><span class="stop-id">1318</span>Czerna Skrzyżowanie (3)</a>
+<a class="stop" href="../rozklady/47/1324-krzeszowice.html"><span class="stop-id">1324</span>Czerna Młyn (1)</a>
+<a class="stop" href="../rozklady/47/1325-krzeszowice.html"><span class="stop-id">1325</span>Czerna Skała (1)</a>
+<a class="stop terminal" href="../rozklady/47/1321-krzeszowice.html"><span class="stop-id">1321</span>Czerna Remiza (0)</a>
+<a class="stop" href="../rozklady/47/1320-krzeszowice.html"><span class="stop-id">1320</span>Czerna Skała (2)</a>
+<a class="stop" href="../rozklady/47/1319-krzeszowice.html"><span class="stop-id">1319</span>Czerna Młyn (2)</a>
+<a class="stop" href="../rozklady/47/1322-krzeszowice.html"><span class="stop-id">1322</span>Czerna Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/47/0046-krzeszowice.html"><span class="stop-id">0046</span>Krzeszowice Czatkowice Dolne Kopalnia (1)</a>
+<a class="stop" href="../rozklady/47/0047-krzeszowice.html"><span class="stop-id">0047</span>Krzeszowice Czatkowice Dolne (1)</a>
+<a class="stop" href="../rozklady/47/0048-krzeszowice.html"><span class="stop-id">0048</span>Krzeszowice Aleja Solidarności Przedszkole (1)</a>
+<a class="stop" href="../rozklady/47/0049-krzeszowice.html"><span class="stop-id">0049</span>Krzeszowice Aleja Solidarności Szkoła (1)</a>
+<a class="stop" href="../rozklady/47/0050-krzeszowice.html"><span class="stop-id">0050</span>Krzeszowice Pogotowie Ratunkowe (1)</a>
+<a class="stop terminal" href="../rozklady/47/1677-krzeszowice.html"><span class="stop-id">1677</span>Krzeszowice Dworzec Autobusowy (1)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Paczółtowice Podlipa Pętla</h2>
+
+<div class="zone zone-krzeszowice">STREFA KRZESZOWICE</div>
+
+<a class="stop terminal" href="../rozklady/47/0134-paczoltowice.html"><span class="stop-id">0134</span>Krzeszowice Dworzec Autobusowy (3)</a>
+<a class="stop" href="../rozklady/47/0135-paczoltowice.html"><span class="stop-id">0135</span>Krzeszowice 3-ego Maja (1)</a>
+<a class="stop" href="../rozklady/47/0049-paczoltowice.html"><span class="stop-id">0049</span>Krzeszowice Aleja Solidarności Szkoła (1)</a>
+<a class="stop" href="../rozklady/47/0136-paczoltowice.html"><span class="stop-id">0136</span>Krzeszowice Aleja Solidarności Przedszkole (2)</a>
+<a class="stop" href="../rozklady/47/0137-paczoltowice.html"><span class="stop-id">0137</span>Krzeszowice Czatkowice EDEN (1)</a>
+<a class="stop" href="../rozklady/47/0138-paczoltowice.html"><span class="stop-id">0138</span>Krzeszowice Czatkowice Dolne Kopalnia (2)</a>
+<a class="stop" href="../rozklady/47/1318-paczoltowice.html"><span class="stop-id">1318</span>Czerna Skrzyżowanie (3)</a>
+<a class="stop" href="../rozklady/47/1324-paczoltowice.html"><span class="stop-id">1324</span>Czerna Młyn (1)</a>
+<a class="stop" href="../rozklady/47/1325-paczoltowice.html"><span class="stop-id">1325</span>Czerna Skała (1)</a>
+<a class="stop terminal" href="../rozklady/47/1321-paczoltowice.html"><span class="stop-id">1321</span>Czerna Remiza (0)</a>
+<a class="stop" href="../rozklady/47/1320-paczoltowice.html"><span class="stop-id">1320</span>Czerna Skała (2)</a>
+<a class="stop" href="../rozklady/47/1319-paczoltowice.html"><span class="stop-id">1319</span>Czerna Młyn (2)</a>
+<a class="stop" href="../rozklady/47/1323-paczoltowice.html"><span class="stop-id">1323</span>Czerna Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/47/1369-paczoltowice.html"><span class="stop-id">1369</span>Czerna Klasztor (2)</a>
+<a class="stop" href="../rozklady/47/1326-paczoltowice.html"><span class="stop-id">1326</span>Paczółtowice (2)</a>
+<a class="stop" href="../rozklady/47/1327-paczoltowice.html"><span class="stop-id">1327</span>Paczółtowice Sklep (2)</a>
+<a class="stop" href="../rozklady/47/1328-paczoltowice.html"><span class="stop-id">1328</span>Paczółtowice Kościół (2)</a>
+<a class="stop terminal" href="../rozklady/47/1329-paczoltowice.html"><span class="stop-id">1329</span>Paczółtowice Podlipa Pętla (2)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
