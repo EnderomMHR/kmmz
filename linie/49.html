@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 49</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-krzeszowice{
+    background:#f9cb9a;
+    color:#222;
+}
+
+.zone-jerzmanowice-przeginia{
+    background:#ea9998;
+    color:#222;
+}
+
+.zone-olkusz{
+    background:#ffe599;
+    color:#222;
+}
+  
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">49</div>
+
+<div class="route">
+Olkusz Dworzec PKS - Osiek - Zimnodół - Zederman - Przeginia - Gotkowice - Jerzmanowice - Szklary - Żary Pętla
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Żary Pętla</h2>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+
+<a class="stop terminal" href="../rozklady/49/0200-zary.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
+<a class="stop" href="../rozklady/49/0202-zary.html"><span class="stop-id">0202</span>Olkusz Wiadukt (1)</a>
+<a class="stop" href="../rozklady/49/0492-zary.html"><span class="stop-id">0492</span>Olkusz Baza PKS (1)</a>
+<a class="stop" href="../rozklady/49/0493-zary.html"><span class="stop-id">0493</span>Olkusz Owent (2)</a>
+<a class="stop" href="../rozklady/49/2028-zary.html"><span class="stop-id">2028</span>Olkusz Osiecka (0)</a>
+<a class="stop" href="../rozklady/49/2922-zary.html"><span class="stop-id">2922</span>Olkusz Osiecka Plac Zabaw (1)</a>
+<a class="stop" href="../rozklady/49/2043-zary.html"><span class="stop-id">2043</span>Osiek Las (2)</a>
+<a class="stop" href="../rozklady/49/2063-zary.html"><span class="stop-id">2063</span>Osiek Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/49/2045-zary.html"><span class="stop-id">2045</span>Osiek (2)</a>
+<a class="stop" href="../rozklady/49/2061-zary.html"><span class="stop-id">2061</span>Osiek Działy (1)</a>
+<a class="stop" href="../rozklady/49/2060-zary.html"><span class="stop-id">2060</span>Osiek Szkoła (1)</a>
+<a class="stop" href="../rozklady/49/2066-zary.html"><span class="stop-id">2066</span>Osiek Zimnodół (2)</a>
+<a class="stop" href="../rozklady/49/2067-zary.html"><span class="stop-id">2067</span>Zimnodół Do Baraków (1)</a>
+<a class="stop" href="../rozklady/49/2082-zary.html"><span class="stop-id">2082</span>Zimnodół OSP (2)</a>
+<a class="stop" href="../rozklady/49/2081-zary.html"><span class="stop-id">2081</span>Zimnodół Na Pastwie (2)</a>
+<a class="stop" href="../rozklady/49/2089-zary.html"><span class="stop-id">2089</span>Zederman Podgaj (1)</a>
+<a class="stop" href="../rozklady/49/2085-zary.html"><span class="stop-id">2085</span>Zederman Remiza (2)</a>
+<a class="stop" href="../rozklady/49/2086-zary.html"><span class="stop-id">2086</span>Zederman Szkoła (2)</a>
+<a class="stop" href="../rozklady/49/1595-zary.html"><span class="stop-id">1595</span>Zederman Kiosk (4)</a>
+<a class="stop" href="../rozklady/49/1599-zary.html"><span class="stop-id">1599</span>Zederman (1)</a>
+
+<div class="zone zone-jerzmanowice-przeginia">STREFA JERZMANOWICE-PRZEGINIA</div>
+  
+<a class="stop" href="../rozklady/49/1601-zary.html"><span class="stop-id">1601</span>Przeginia Kościół (1)</a>
+<a class="stop" href="../rozklady/49/1654-zary.html"><span class="stop-id">1654</span>Przeginia Dom Ludowy (2)</a>
+<a class="stop" href="../rozklady/49/1647-zary.html"><span class="stop-id">1647</span>Przeginia Skotnica (1)</a>
+<a class="stop" href="../rozklady/49/1649-zary.html"><span class="stop-id">1649</span>Przeginia Ostra Góra (1)</a>
+<a class="stop" href="../rozklady/49/1652-zary.html"><span class="stop-id">1652</span>Gotkowice Wieś (2)</a>
+<a class="stop" href="../rozklady/49/1660-zary.html"><span class="stop-id">1660</span>Jerzmanowice Ojcowska (2)</a>
+<a class="stop" href="../rozklady/49/1638-zary.html"><span class="stop-id">1638</span>Jerzmanowice Centrum (2)</a>
+<a class="stop" href="../rozklady/49/1639-zary.html"><span class="stop-id">1639</span>Jerzmanowice Stara Wieś (2)</a>
+<a class="stop" href="../rozklady/49/1635-zary.html"><span class="stop-id">1635</span>Jerzmanowice Pióro (2)</a>
+<a class="stop" href="../rozklady/49/1640-zary.html"><span class="stop-id">1640</span>Szklary Granica (2)</a>
+<a class="stop" href="../rozklady/49/1641-zary.html"><span class="stop-id">1641</span>Szklary Cmentarz (2)</a>
+<a class="stop" href="../rozklady/49/1631-zary.html"><span class="stop-id">1631</span>Szklary Kościół (1)</a>
+<a class="stop" href="../rozklady/49/1630-zary.html"><span class="stop-id">1630</span>Szklary Remiza (1)</a>
+<a class="stop" href="../rozklady/49/1644-zary.html"><span class="stop-id">1644</span>Szklary Tartak (2)</a>
+
+<div class="zone zone-krzeszowice">STREFA KRZESZOWICE</div>
+  
+<a class="stop terminal" href="../rozklady/49/1437-zary.html"><span class="stop-id">1437</span>Żary Pętla (0)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Olkusz Dworzec PKS</h2>
+
+<div class="zone zone-krzeszowice">STREFA KRZESZOWICE</div>
+
+<a class="stop terminal" href="../rozklady/49/1437-olkusz.html"><span class="stop-id">1437</span>Żary Pętla (0)</a>
+
+<div class="zone zone-jerzmanowice-przeginia">STREFA JERZMANOWICE-PRZEGINIA</div>
+  
+<a class="stop" href="../rozklady/49/1629-olkusz.html"><span class="stop-id">1629</span>Szklary Tartak (1)</a>
+<a class="stop" href="../rozklady/49/1643-olkusz.html"><span class="stop-id">1643</span>Szklary Remiza (2)</a>
+<a class="stop" href="../rozklady/49/1642-olkusz.html"><span class="stop-id">1642</span>Szklary Kościół (2)</a>
+<a class="stop" href="../rozklady/49/1632-olkusz.html"><span class="stop-id">1632</span>Szklary Cmentarz (1)</a>
+<a class="stop" href="../rozklady/49/1633-olkusz.html"><span class="stop-id">1633</span>Szklary Granica (1)</a>
+<a class="stop" href="../rozklady/49/1634-olkusz.html"><span class="stop-id">1634</span>Jerzmanowice Pióro (1)</a>
+<a class="stop" href="../rozklady/49/1636-olkusz.html"><span class="stop-id">1636</span>Jerzmanowice Stara Wieś (1)</a>
+<a class="stop" href="../rozklady/49/1637-olkusz.html"><span class="stop-id">1637</span>Jerzmanowice Centrum (1)</a>
+<a class="stop" href="../rozklady/49/1661-olkusz.html"><span class="stop-id">1661</span>Jerzmanowice Centralna (1)</a>
+<a class="stop" href="../rozklady/49/1659-olkusz.html"><span class="stop-id">1659</span>Jerzmanowice Ojcowska (1)</a>
+<a class="stop" href="../rozklady/49/1650-olkusz.html"><span class="stop-id">1650</span>Gotkowice Wieś (1)</a>
+<a class="stop" href="../rozklady/49/1653-olkusz.html"><span class="stop-id">1653</span>Przeginia Ostra Góra (2)</a>
+<a class="stop" href="../rozklady/49/1655-olkusz.html"><span class="stop-id">1655</span>Przeginia Skotnica (2)</a>
+<a class="stop" href="../rozklady/49/1648-olkusz.html"><span class="stop-id">1648</span>Przeginia Dom Ludowy (1)</a>
+<a class="stop" href="../rozklady/49/1600-olkusz.html"><span class="stop-id">1600</span>Przeginia Kościół (2)</a>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+  
+<a class="stop" href="../rozklady/49/1598-olkusz.html"><span class="stop-id">1598</span>Zederman (2)</a>
+<a class="stop" href="../rozklady/49/1596-olkusz.html"><span class="stop-id">1596</span>Zederman Kiosk (2)</a>
+<a class="stop" href="../rozklady/49/2087-olkusz.html"><span class="stop-id">2087</span>Zederman Szkoła (1)</a>
+<a class="stop" href="../rozklady/49/2088-olkusz.html"><span class="stop-id">2088</span>Zederman Remiza (1)</a>
+<a class="stop" href="../rozklady/49/2084-olkusz.html"><span class="stop-id">2084</span>Zederman Podgaj (2)</a>
+<a class="stop" href="../rozklady/49/2069-olkusz.html"><span class="stop-id">2069</span>Zimnodół Na Pastwie (1)</a>
+<a class="stop" href="../rozklady/49/2068-olkusz.html"><span class="stop-id">2068</span>Zimnodół OSP (1)</a>
+<a class="stop" href="../rozklady/49/2083-olkusz.html"><span class="stop-id">2083</span>Zimnodół Do Baraków (2)</a>
+<a class="stop" href="../rozklady/49/2065-olkusz.html"><span class="stop-id">2065</span>Osiek Zimnodół (1)</a>
+<a class="stop" href="../rozklady/49/3259-olkusz.html"><span class="stop-id">3259</span>Osiek Remiza (1)</a>
+<a class="stop" href="../rozklady/49/2047-olkusz.html"><span class="stop-id">2047</span>Osiek Kościół (1)</a>
+<a class="stop" href="../rozklady/49/2046-olkusz.html"><span class="stop-id">2046</span>Osiek Działy (2)</a>
+<a class="stop" href="../rozklady/49/2062-olkusz.html"><span class="stop-id">2062</span>Osiek (1)</a>
+<a class="stop" href="../rozklady/49/2044-olkusz.html"><span class="stop-id">2044</span>Osiek Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/49/2064-olkusz.html"><span class="stop-id">2064</span>Osiek Las (1)</a>
+<a class="stop" href="../rozklady/49/0538-olkusz.html"><span class="stop-id">0538</span>Olkusz Owent (1)</a>
+<a class="stop" href="../rozklady/49/0225-olkusz.html"><span class="stop-id">0225</span>Olkusz Aleja Tysiąclecia (2)</a>
+<a class="stop" href="../rozklady/49/0226-olkusz.html"><span class="stop-id">0226</span>Olkusz Wiadukt (2)</a>
+<a class="stop terminal" href="../rozklady/49/0200-olkusz.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
