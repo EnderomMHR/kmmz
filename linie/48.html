@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 48</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-olkusz{
+    background:#ffe599;
+    color:#222;
+}
+
+.zone-jerzmanowice-przeginia{
+    background:#ea9998;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">48</div>
+
+<div class="route">
+Braciejówka Pętla - Troks - Rabsztyn - Olkusz Dworzec PKP - Sieniczno - Kogutek - Zederman - Przeginia - Czubrowice - Racławice - Czubrowice - Przeginia - Gotkowice - Sąspów Pętla - Jerzmanowice - Łazy Remiza
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Łazy Remiza</h2>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+
+<a class="stop terminal" href="../rozklady/48/1707-lazy.html"><span class="stop-id">1707</span>Braciejówka Pętla (0)</a>
+<a class="stop" href="../rozklady/48/0274-lazy.html"><span class="stop-id">0274</span>Braciejówka Zalew (2)</a>
+<a class="stop" href="../rozklady/48/0275-lazy.html"><span class="stop-id">0275</span>Braciejówka Cmentarz (1)</a>
+<a class="stop" href="../rozklady/48/0276-lazy.html"><span class="stop-id">0276</span>Troks Granica (1)</a>
+<a class="stop" href="../rozklady/48/0277-lazy.html"><span class="stop-id">0277</span>Troks Szkoła (1)</a>
+<a class="stop" href="../rozklady/48/0278-lazy.html"><span class="stop-id">0278</span>Troks (1)</a>
+<a class="stop" href="../rozklady/48/0279-lazy.html"><span class="stop-id">0279</span>Troks Las (1)</a>
+<a class="stop" href="../rozklady/48/0280-lazy.html"><span class="stop-id">0280</span>Rabsztyn (1)</a>
+<a class="stop" href="../rozklady/48/0281-lazy.html"><span class="stop-id">0281</span>Rabsztyn Ogródki Działkowe (1)</a>
+<a class="stop" href="../rozklady/48/0282-lazy.html"><span class="stop-id">0282</span>Olkusz Sikorka (1)</a>
+<a class="stop" href="../rozklady/48/0283-lazy.html"><span class="stop-id">0283</span>Olkusz Rabsztyńska (1)</a>
+<a class="stop" href="../rozklady/48/0174-lazy.html"><span class="stop-id">0174</span>Olkusz Supersam (0)</a>
+<a class="stop" href="../rozklady/48/0199-lazy.html"><span class="stop-id">0199</span>Olkusz Skarbek (2)</a>
+<a class="stop" href="../rozklady/48/0201-lazy.html"><span class="stop-id">0201</span>Olkusz Dworzec PKP (1)</a>
+<a class="stop" href="../rozklady/48/0202-lazy.html"><span class="stop-id">0202</span>Olkusz Wiadukt (1)</a>
+<a class="stop" href="../rozklady/48/0203-lazy.html"><span class="stop-id">0203</span>Olkusz Aleja Tysiąclecia (1)</a>
+<a class="stop" href="../rozklady/48/0204-lazy.html"><span class="stop-id">0204</span>Sieniczno (1)</a>
+<a class="stop" href="../rozklady/48/1590-lazy.html"><span class="stop-id">1590</span>Kogutek (1)</a>
+<a class="stop" href="../rozklady/48/1592-lazy.html"><span class="stop-id">1592</span>Zederman Pasieka (1)</a>
+<a class="stop" href="../rozklady/48/1595-lazy.html"><span class="stop-id">1595</span>Zederman Kiosk (4)</a>
+<a class="stop" href="../rozklady/48/1599-lazy.html"><span class="stop-id">1599</span>Zederman (1)</a>
+
+<div class="zone zone-jerzmanowice-przeginia">STREFA JERZMANOWICE-PRZEGINIA</div>
+  
+<a class="stop" href="../rozklady/48/1601-lazy.html"><span class="stop-id">1601</span>Przeginia Kościół (1)</a>
+<a class="stop" href="../rozklady/48/1602-lazy.html"><span class="stop-id">1602</span>Przeginia Szkoła (2)</a>
+<a class="stop" href="../rozklady/48/1603-lazy.html"><span class="stop-id">1603</span>Przeginia SKR (2)</a>
+<a class="stop" href="../rozklady/48/1761-lazy.html"><span class="stop-id">1761</span>Przeginia Górka (2)</a>
+<a class="stop" href="../rozklady/48/1605-lazy.html"><span class="stop-id">1605</span>Czubrowice (2)</a>
+<a class="stop" href="../rozklady/48/1606-lazy.html"><span class="stop-id">1606</span>Czubrowice Remiza (2)</a>
+<a class="stop" href="../rozklady/48/1607-lazy.html"><span class="stop-id">1607</span>Czubrowice Szkoła (2)</a>
+<a class="stop" href="../rozklady/48/1619-lazy.html"><span class="stop-id">1619</span>Czubrowice Rzeka (1)</a>
+<a class="stop" href="../rozklady/48/1610-lazy.html"><span class="stop-id">1610</span>Racławice Koło Sioły (2)</a>
+<a class="stop" href="../rozklady/48/1609-lazy.html"><span class="stop-id">1609</span>Racławice Kościół (2)</a>
+<a class="stop" href="../rozklady/48/1616-lazy.html"><span class="stop-id">1616</span>Racławice Remiza (2)</a>
+<a class="stop terminal" href="../rozklady/48/1614-lazy.html"><span class="stop-id">1614</span>Racławice (1)</a>
+<a class="stop" href="../rozklady/48/1615-lazy.html"><span class="stop-id">1615</span>Racławice Remiza (1)</a>
+<a class="stop" href="../rozklady/48/1618-lazy.html"><span class="stop-id">1618</span>Racławice Kościół (1)</a>
+<a class="stop" href="../rozklady/48/1617-lazy.html"><span class="stop-id">1617</span>Racławice Koło Sioły (1)</a>
+<a class="stop" href="../rozklady/48/1608-lazy.html"><span class="stop-id">1608</span>Czubrowice Rzeka (2)</a>
+<a class="stop" href="../rozklady/48/1620-lazy.html"><span class="stop-id">1620</span>Czubrowice Szkoła (1)</a>
+<a class="stop" href="../rozklady/48/1621-lazy.html"><span class="stop-id">1621</span>Czubrowice Remiza (1)</a>
+<a class="stop" href="../rozklady/48/1622-lazy.html"><span class="stop-id">1622</span>Czubrowice (1)</a>
+<a class="stop" href="../rozklady/48/1604-lazy.html"><span class="stop-id">1604</span>Przeginia Górka (1)</a>
+<a class="stop" href="../rozklady/48/1623-lazy.html"><span class="stop-id">1623</span>Przeginia SKR (1)</a>
+<a class="stop" href="../rozklady/48/1624-lazy.html"><span class="stop-id">1624</span>Przeginia Szkoła (1)</a>
+<a class="stop" href="../rozklady/48/1654-lazy.html"><span class="stop-id">1654</span>Przeginia Dom Ludowy (2)</a>
+<a class="stop" href="../rozklady/48/1647-lazy.html"><span class="stop-id">1647</span>Przeginia Skotnica (1)</a>
+<a class="stop" href="../rozklady/48/1649-lazy.html"><span class="stop-id">1649</span>Przeginia Ostra Góra (1)</a>
+<a class="stop" href="../rozklady/48/1652-lazy.html"><span class="stop-id">1652</span>Gotkowice Wieś (2)</a>
+<a class="stop" href="../rozklady/48/1676-lazy.html"><span class="stop-id">1676</span>Sąspów Pod Wymysłowem (2)</a>
+<a class="stop terminal" href="../rozklady/48/1674-lazy.html"><span class="stop-id">1674</span>Sąspów Pętla (0)</a>
+<a class="stop" href="../rozklady/48/1672-lazy.html"><span class="stop-id">1672</span>Sąspów Pod Wymysłowem (1)</a>
+<a class="stop" href="../rozklady/48/1660-lazy.html"><span class="stop-id">1660</span>Jerzmanowice Ojcowska (2)</a>
+<a class="stop" href="../rozklady/48/1638-lazy.html"><span class="stop-id">1638</span>Jerzmanowice Centrum (2)</a>
+<a class="stop" href="../rozklady/48/3308-lazy.html"><span class="stop-id">3308</span>Jerzmanowice Kolonia Łazowska I (2)</a>
+<a class="stop" href="../rozklady/48/3309-lazy.html"><span class="stop-id">3309</span>Jerzmanowice Kolonia Łazowska II (2)</a>
+<a class="stop" href="../rozklady/48/1557-lazy.html"><span class="stop-id">1557</span>Łazy I (1)</a>
+<a class="stop" href="../rozklady/48/1556-lazy.html"><span class="stop-id">1556</span>Łazy Schronisko (1)</a>
+<a class="stop terminal" href="../rozklady/48/1555-lazy.html"><span class="stop-id">1555</span>Łazy Remiza (1)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Braciejówka Pętla</h2>
+
+<div class="zone zone-jerzmanowice-przeginia">STREFA JERZMANOWICE-PRZEGINIA</div>
+
+<a class="stop terminal" href="../rozklady/48/1555-braciejowka.html"><span class="stop-id">1555</span>Łazy Remiza (1)</a>
+<a class="stop" href="../rozklady/48/1559-braciejowka.html"><span class="stop-id">1559</span>Łazy Schronisko (2)</a>
+<a class="stop" href="../rozklady/48/1558-braciejowka.html"><span class="stop-id">1558</span>Łazy I (2)</a>
+<a class="stop" href="../rozklady/48/2777-braciejowka.html"><span class="stop-id">2777</span>Jerzmanowice Kolonia Łazowska II (1)</a>
+<a class="stop" href="../rozklady/48/1656-braciejowka.html"><span class="stop-id">1656</span>Jerzmanowice Kolonia Łazowska I (1)</a>
+<a class="stop" href="../rozklady/48/1637-braciejowka.html"><span class="stop-id">1637</span>Jerzmanowice Centrum (1)</a>
+<a class="stop" href="../rozklady/48/1661-braciejowka.html"><span class="stop-id">1661</span>Jerzmanowice Centralna (1)</a>
+<a class="stop" href="../rozklady/48/1676-braciejowka.html"><span class="stop-id">1676</span>Sąspów Pod Wymysłowem (2)</a>
+<a class="stop terminal" href="../rozklady/48/1674-braciejowka.html"><span class="stop-id">1674</span>Sąspów Pętla (0)</a>
+<a class="stop" href="../rozklady/48/1672-braciejowka.html"><span class="stop-id">1672</span>Sąspów Pod Wymysłowem (1)</a>
+<a class="stop" href="../rozklady/48/1659-braciejowka.html"><span class="stop-id">1659</span>Jerzmanowice Ojcowska (1)</a>
+<a class="stop" href="../rozklady/48/1650-braciejowka.html"><span class="stop-id">1650</span>Gotkowice Wieś (1)</a>
+<a class="stop" href="../rozklady/48/1653-braciejowka.html"><span class="stop-id">1653</span>Przeginia Ostra Góra (2)</a>
+<a class="stop" href="../rozklady/48/1655-braciejowka.html"><span class="stop-id">1655</span>Przeginia Skotnica (2)</a>
+<a class="stop" href="../rozklady/48/1648-braciejowka.html"><span class="stop-id">1648</span>Przeginia Dom Ludowy (1)</a>
+<a class="stop" href="../rozklady/48/1602-braciejowka.html"><span class="stop-id">1602</span>Przeginia Szkoła (2)</a>
+<a class="stop" href="../rozklady/48/1603-braciejowka.html"><span class="stop-id">1603</span>Przeginia SKR (2)</a>
+<a class="stop" href="../rozklady/48/1761-braciejowka.html"><span class="stop-id">1761</span>Przeginia Górka (2)</a>
+<a class="stop" href="../rozklady/48/1605-braciejowka.html"><span class="stop-id">1605</span>Czubrowice (2)</a>
+<a class="stop" href="../rozklady/48/1606-braciejowka.html"><span class="stop-id">1606</span>Czubrowice Remiza (2)</a>
+<a class="stop" href="../rozklady/48/1607-braciejowka.html"><span class="stop-id">1607</span>Czubrowice Szkoła (2)</a>
+<a class="stop" href="../rozklady/48/1619-braciejowka.html"><span class="stop-id">1619</span>Czubrowice Rzeka (1)</a>
+<a class="stop" href="../rozklady/48/1610-braciejowka.html"><span class="stop-id">1610</span>Racławice Koło Sioły (2)</a>
+<a class="stop" href="../rozklady/48/1609-braciejowka.html"><span class="stop-id">1609</span>Racławice Kościół (2)</a>
+<a class="stop" href="../rozklady/48/1616-braciejowka.html"><span class="stop-id">1616</span>Racławice Remiza (2)</a>
+<a class="stop terminal" href="../rozklady/48/1614-braciejowka.html"><span class="stop-id">1614</span>Racławice (1)</a>
+<a class="stop" href="../rozklady/48/1615-braciejowka.html"><span class="stop-id">1615</span>Racławice Remiza (1)</a>
+<a class="stop" href="../rozklady/48/1618-braciejowka.html"><span class="stop-id">1618</span>Racławice Kościół (1)</a>
+<a class="stop" href="../rozklady/48/1617-braciejowka.html"><span class="stop-id">1617</span>Racławice Koło Sioły (1)</a>
+<a class="stop" href="../rozklady/48/1608-braciejowka.html"><span class="stop-id">1608</span>Czubrowice Rzeka (2)</a>
+<a class="stop" href="../rozklady/48/1620-braciejowka.html"><span class="stop-id">1620</span>Czubrowice Szkoła (1)</a>
+<a class="stop" href="../rozklady/48/1621-braciejowka.html"><span class="stop-id">1621</span>Czubrowice Remiza (1)</a>
+<a class="stop" href="../rozklady/48/1622-braciejowka.html"><span class="stop-id">1622</span>Czubrowice (1)</a>
+<a class="stop" href="../rozklady/48/1604-braciejowka.html"><span class="stop-id">1604</span>Przeginia Górka (1)</a>
+<a class="stop" href="../rozklady/48/1623-braciejowka.html"><span class="stop-id">1623</span>Przeginia SKR (1)</a>
+<a class="stop" href="../rozklady/48/1624-braciejowka.html"><span class="stop-id">1624</span>Przeginia Szkoła (1)</a>
+<a class="stop" href="../rozklady/48/1600-braciejowka.html"><span class="stop-id">1600</span>Przeginia Kościół (2)</a>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+
+<a class="stop" href="../rozklady/48/1598-braciejowka.html"><span class="stop-id">1598</span>Zederman (2)</a>
+<a class="stop" href="../rozklady/48/1594-braciejowka.html"><span class="stop-id">1594</span>Zederman Kiosk (3)</a>
+<a class="stop" href="../rozklady/48/1593-braciejowka.html"><span class="stop-id">1593</span>Zederman Pasieka (2)</a>
+<a class="stop" href="../rozklady/48/1591-braciejowka.html"><span class="stop-id">1591</span>Kogutek (2)</a>
+<a class="stop" href="../rozklady/48/0224-braciejowka.html"><span class="stop-id">0224</span>Sieniczno (2)</a>
+<a class="stop" href="../rozklady/48/0225-braciejowka.html"><span class="stop-id">0225</span>Olkusz Aleja Tysiąclecia (2)</a>
+<a class="stop" href="../rozklady/48/0226-braciejowka.html"><span class="stop-id">0226</span>Olkusz Wiadukt (2)</a>
+<a class="stop terminal" href="../rozklady/48/0227-braciejowka.html"><span class="stop-id">0227</span>Olkusz Dworzec PKP (2)</a>
+<a class="stop" href="../rozklady/48/0228-braciejowka.html"><span class="stop-id">0228</span>Olkusz Skarbek (1)</a>
+<a class="stop" href="../rozklady/48/0284-braciejowka.html"><span class="stop-id">0284</span>Olkusz Rabsztyńska Supermarket (0)</a>
+<a class="stop" href="../rozklady/48/0285-braciejowka.html"><span class="stop-id">0285</span>Olkusz Rabsztyńska (2)</a>
+<a class="stop" href="../rozklady/48/0286-braciejowka.html"><span class="stop-id">0286</span>Olkusz Sikorka (2)</a>
+<a class="stop" href="../rozklady/48/0287-braciejowka.html"><span class="stop-id">0287</span>Rabsztyn Ogródki Działkowe (2)</a>
+<a class="stop" href="../rozklady/48/0288-braciejowka.html"><span class="stop-id">0288</span>Rabsztyn (2)</a>
+<a class="stop" href="../rozklady/48/0289-braciejowka.html"><span class="stop-id">0289</span>Troks Las (2)</a>
+<a class="stop" href="../rozklady/48/0290-braciejowka.html"><span class="stop-id">0290</span>Troks (2)</a>
+<a class="stop" href="../rozklady/48/0291-braciejowka.html"><span class="stop-id">0291</span>Troks Szkoła (2)</a>
+<a class="stop" href="../rozklady/48/0292-braciejowka.html"><span class="stop-id">0292</span>Troks Granica (2)</a>
+<a class="stop" href="../rozklady/48/0293-braciejowka.html"><span class="stop-id">0293</span>Braciejówka Cmentarz (2)</a>
+<a class="stop" href="../rozklady/48/0294-braciejowka.html"><span class="stop-id">0294</span>Braciejówka Zalew (1)</a>
+<a class="stop terminal" href="../rozklady/48/1707-braciejowka.html"><span class="stop-id">1707</span>Braciejówka Pętla (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
