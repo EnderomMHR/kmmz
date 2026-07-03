@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 51</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-olkusz{
+    background:#ffe599;
+    color:#222;
+}
+
+.zone-bukowno{
+    background:#93c47d;
+    color:#222;
+}
+  
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">51</div>
+
+<div class="route">
+Bukowno Przymiarki - Bór Biskupi - Bukowno Dworzec PKP - Mazaniec - Olkusz Dworzec PKS
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Olkusz Dworzec PKS</h2>
+
+<div class="zone zone-bukowno">STREFA BUKOWNO</div>
+
+<a class="stop terminal" href="../rozklady/51/0106-olkusz.html"><span class="stop-id">0106</span>Bukowno Przymiarki (0)</a>
+<a class="stop" href="../rozklady/51/0139-olkusz.html"><span class="stop-id">0139</span>Bukowno Przymiarki PKP (2)</a>
+<a class="stop" href="../rozklady/51/0140-olkusz.html"><span class="stop-id">0140</span>Bukowno Sklep (2)</a>
+<a class="stop" href="../rozklady/51/0141-olkusz.html"><span class="stop-id">0141</span>Bukowno Skotnica (2)</a>
+<a class="stop" href="../rozklady/51/0142-olkusz.html"><span class="stop-id">0142</span>Bukowno Stare Skrzyżowanie (0)</a>
+<a class="stop" href="../rozklady/51/0143-olkusz.html"><span class="stop-id">0143</span>Bukowno Cmentarz (2)</a>
+<a class="stop" href="../rozklady/51/0732-olkusz.html"><span class="stop-id">0732</span>Bukowno Borowska (1)</a>
+<a class="stop" href="../rozklady/51/0733-olkusz.html"><span class="stop-id">0733</span>Bukowno Bór Biskupi Przeń (2)</a>
+<a class="stop" href="../rozklady/51/0734-olkusz.html"><span class="stop-id">0734</span>Bukowno Bór Biskupi (1)</a>
+<a class="stop" href="../rozklady/51/0735-olkusz.html"><span class="stop-id">0735</span>Bukowno Bór Biskupi OSP (0)</a>
+<a class="stop" href="../rozklady/51/0736-olkusz.html"><span class="stop-id">0736</span>Bukowno Bór Biskupi Pętla (0)</a>
+<a class="stop" href="../rozklady/51/0737-olkusz.html"><span class="stop-id">0737</span>Bukowno Bór Biskupi (2)</a>
+<a class="stop" href="../rozklady/51/0738-olkusz.html"><span class="stop-id">0738</span>Bukowno Bór Biskupi Przeń (1)</a>
+<a class="stop" href="../rozklady/51/0739-olkusz.html"><span class="stop-id">0739</span>Bukowno Borowska (2)</a>
+<a class="stop" href="../rozklady/51/0144-olkusz.html"><span class="stop-id">0144</span>Bukowno Nowa OSP (1)</a>
+<a class="stop" href="../rozklady/51/0145-olkusz.html"><span class="stop-id">0145</span>Bukowno Nowa (2)</a>
+<a class="stop" href="../rozklady/51/0146-olkusz.html"><span class="stop-id">0146</span>Bukowno Urząd Miasta (2)</a>
+<a class="stop" href="../rozklady/51/0147-olkusz.html"><span class="stop-id">0147</span>Bukowno Dworzec PKP (0)</a>
+<a class="stop" href="../rozklady/51/0148-olkusz.html"><span class="stop-id">0148</span>Bukowno Urząd Miasta (1)</a>
+<a class="stop" href="../rozklady/51/0724-olkusz.html"><span class="stop-id">0724</span>Bukowno Leśna (1)</a>
+<a class="stop" href="../rozklady/51/0725-olkusz.html"><span class="stop-id">0725</span>Bukowno Leśna Krzyżówka (2)</a>
+<a class="stop" href="../rozklady/51/0726-olkusz.html"><span class="stop-id">0726</span>Bukowno Leśna Pętla (0)</a>
+<a class="stop" href="../rozklady/51/1702-olkusz.html"><span class="stop-id">1702</span>Bukowno Parking (2)</a>
+<a class="stop" href="../rozklady/51/1704-olkusz.html"><span class="stop-id">1704</span>Bukowno Polis (2)</a>
+<a class="stop" href="../rozklady/51/1706-olkusz.html"><span class="stop-id">1706</span>Bukowno Leśniczówka (2)</a>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+
+<a class="stop" href="../rozklady/51/0235-olkusz.html"><span class="stop-id">0235</span>Olkusz Mazaniec (2)</a>
+<a class="stop" href="../rozklady/51/0236-olkusz.html"><span class="stop-id">0236</span>Olkusz Mazaniec Boczna (2)</a>
+<a class="stop" href="../rozklady/51/0237-olkusz.html"><span class="stop-id">0237</span>Olkusz Żuradzka (1)</a>
+<a class="stop" href="../rozklady/51/0177-olkusz.html"><span class="stop-id">0177</span>Olkusz Szpitalna (2)</a>
+<a class="stop" href="../rozklady/51/0199-olkusz.html"><span class="stop-id">0199</span>Olkusz Skarbek (2)</a>
+<a class="stop terminal" href="../rozklady/51/0200-olkusz.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Olkusz Dworzec PKS</h2>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+
+<a class="stop terminal" href="../rozklady/51/0200-bukowno.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
+<a class="stop" href="../rozklady/51/0228-bukowno.html"><span class="stop-id">0228</span>Olkusz Skarbek (1)</a>
+<a class="stop" href="../rozklady/51/0175-bukowno.html"><span class="stop-id">0175</span>Olkusz Górnicza (1)</a>
+<a class="stop" href="../rozklady/51/0176-bukowno.html"><span class="stop-id">0176</span>Olkusz Mickiewicza (1)</a>
+<a class="stop" href="../rozklady/51/0178-bukowno.html"><span class="stop-id">0178</span>Olkusz Szpitalna (1)</a>
+<a class="stop" href="../rozklady/51/0179-bukowno.html"><span class="stop-id">0179</span>Olkusz Żuradzka (2)</a>
+<a class="stop" href="../rozklady/51/0180-bukowno.html"><span class="stop-id">0180</span>Olkusz Mazaniec Boczna (1)</a>
+<a class="stop" href="../rozklady/51/0181-bukowno.html"><span class="stop-id">0181</span>Olkusz Mazaniec (1)</a>
+
+<div class="zone zone-bukowno">STREFA BUKOWNO</div>
+  
+<a class="stop" href="../rozklady/51/1705-bukowno.html"><span class="stop-id">1705</span>Bukowno Leśniczówka (1)</a>
+<a class="stop" href="../rozklady/51/1703-bukowno.html"><span class="stop-id">1703</span>Bukowno Polis (1)</a>
+<a class="stop" href="../rozklady/51/1701-bukowno.html"><span class="stop-id">1701</span>Bukowno Parking (1)</a>
+<a class="stop" href="../rozklady/51/0726-bukowno.html"><span class="stop-id">0726</span>Bukowno Leśna Pętla (0)</a>
+<a class="stop" href="../rozklady/51/0745-bukowno.html"><span class="stop-id">0745</span>Bukowno Leśna Krzyżówka (1)</a>
+<a class="stop" href="../rozklady/51/0746-bukowno.html"><span class="stop-id">0746</span>Bukowno Leśna (2)</a>
+<a class="stop" href="../rozklady/51/0146-bukowno.html"><span class="stop-id">0146</span>Bukowno Urząd Miasta (2)</a>
+<a class="stop terminal" href="../rozklady/51/0147-bukowno.html"><span class="stop-id">0147</span>Bukowno Dworzec PKP (0)</a>
+<a class="stop" href="../rozklady/51/0148-bukowno.html"><span class="stop-id">0148</span>Bukowno Urząd Miasta (1)</a>
+<a class="stop" href="../rozklady/51/0250-bukowno.html"><span class="stop-id">0250</span>Bukowno Nowa (1)</a>
+<a class="stop" href="../rozklady/51/0251-bukowno.html"><span class="stop-id">0251</span>Bukowno Nowa OSP (2)</a>
+<a class="stop" href="../rozklady/51/0732-bukowno.html"><span class="stop-id">0732</span>Bukowno Borowska (1)</a>
+<a class="stop" href="../rozklady/51/0733-bukowno.html"><span class="stop-id">0733</span>Bukowno Bór Biskupi Przeń (2)</a>
+<a class="stop" href="../rozklady/51/0734-bukowno.html"><span class="stop-id">0734</span>Bukowno Bór Biskupi (1)</a>
+<a class="stop" href="../rozklady/51/0735-bukowno.html"><span class="stop-id">0735</span>Bukowno Bór Biskupi OSP (0)</a>
+<a class="stop" href="../rozklady/51/0736-bukowno.html"><span class="stop-id">0736</span>Bukowno Bór Biskupi Pętla (0)</a>
+<a class="stop" href="../rozklady/51/0737-bukowno.html"><span class="stop-id">0737</span>Bukowno Bór Biskupi (2)</a>
+<a class="stop" href="../rozklady/51/0738-bukowno.html"><span class="stop-id">0738</span>Bukowno Bór Biskupi Przeń (1)</a>
+<a class="stop" href="../rozklady/51/0739-bukowno.html"><span class="stop-id">0739</span>Bukowno Borowska (2)</a>
+<a class="stop" href="../rozklady/51/0252-bukowno.html"><span class="stop-id">0252</span>Bukowno Cmentarz (1)</a>
+<a class="stop" href="../rozklady/51/0253-bukowno.html"><span class="stop-id">0253</span>Bukowno Remiza (0)</a>
+<a class="stop" href="../rozklady/51/0254-bukowno.html"><span class="stop-id">0254</span>Bukowno Skotnica (1)</a>
+<a class="stop" href="../rozklady/51/0255-bukowno.html"><span class="stop-id">0255</span>Bukowno Sklep (1)</a>
+<a class="stop" href="../rozklady/51/0256-bukowno.html"><span class="stop-id">0256</span>Bukowno Przymiarki PKP (1)</a>
+<a class="stop terminal" href="../rozklady/51/0106-bukowno.html"><span class="stop-id">0106</span>Bukowno Przymiarki (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
