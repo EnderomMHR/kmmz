@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 50</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-oswiecim{
+    background:#9fc4e8;
+    color:#222;
+}
+
+.zone-przeciszow{
+    background:#8e7cd3;
+    color:#222;
+}
+
+.zone-zator{
+    background:#10ffff;
+    color:#222;
+}
+  
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">50</div>
+
+<div class="route">
+Graboszyce Szkoła - Rudze - Zator - Przeciszów - Las - Dwory Drugie - Dwory - Oświęcim Dworzec PKP
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Oświęcim Dworzec PKP</h2>
+
+<div class="zone zone-zator">STREFA ZATOR</div>
+
+<a class="stop terminal" href="../rozklady/50/1757-oswiecim.html"><span class="stop-id">1757</span>Graboszyce Szkoła (1)</a>
+<a class="stop" href="../rozklady/50/1739-oswiecim.html"><span class="stop-id">1739</span>Graboszyce Zamek (2)</a>
+<a class="stop" href="../rozklady/50/1743-oswiecim.html"><span class="stop-id">1743</span>Graboszyce (2)</a>
+<a class="stop" href="../rozklady/50/1744-oswiecim.html"><span class="stop-id">1744</span>Rudze (1)</a>
+<a class="stop" href="../rozklady/50/1747-oswiecim.html"><span class="stop-id">1747</span>Zator Stacja Paliw (2)</a>
+<a class="stop" href="../rozklady/50/1679-oswiecim.html"><span class="stop-id">1679</span>Zator Rynek (0)</a>
+<a class="stop" href="../rozklady/50/1690-oswiecim.html"><span class="stop-id">1690</span>Zator Podlipki (1)</a>
+<a class="stop" href="../rozklady/50/1696-oswiecim.html"><span class="stop-id">1696</span>Zator Park Rozrywki (2)</a>
+
+<div class="zone zone-przeciszow">STREFA PRZECISZÓW</div>
+  
+<a class="stop" href="../rozklady/50/1780-oswiecim.html"><span class="stop-id">1780</span>Przeciszów Łowiczki Księże (1)</a>
+<a class="stop" href="../rozklady/50/1781-oswiecim.html"><span class="stop-id">1781</span>Przeciszów I (1)</a>
+<a class="stop" href="../rozklady/50/1808-oswiecim.html"><span class="stop-id">1808</span>Przeciszów Urząd Gminy (2)</a>
+<a class="stop" href="../rozklady/50/1783-oswiecim.html"><span class="stop-id">1783</span>Przeciszów Za Torem (1)</a>
+<a class="stop" href="../rozklady/50/1806-oswiecim.html"><span class="stop-id">1806</span>Przeciszów Podlesie (2)</a>
+<a class="stop" href="../rozklady/50/1785-oswiecim.html"><span class="stop-id">1785</span>Las I (2)</a>
+<a class="stop" href="../rozklady/50/1786-oswiecim.html"><span class="stop-id">1786</span>Las II (2)</a>
+<a class="stop" href="../rozklady/50/1787-oswiecim.html"><span class="stop-id">1787</span>Las III (2)</a>
+<a class="stop" href="../rozklady/50/1788-oswiecim.html"><span class="stop-id">1788</span>Las IV (2)</a>
+
+<div class="zone zone-oswiecim">STREFA OŚWIĘCIM</div>
+  
+<a class="stop" href="../rozklady/50/1801-oswiecim.html"><span class="stop-id">1801</span>Dwory Drugie Dom Ludowy (1)</a>
+<a class="stop" href="../rozklady/50/1790-oswiecim.html"><span class="stop-id">1790</span>Dwory Drugie Pętla (0)</a>
+<a class="stop" href="../rozklady/50/1800-oswiecim.html"><span class="stop-id">1800</span>Dwory Drugie Machnaty (1)</a>
+<a class="stop" href="../rozklady/50/1792-oswiecim.html"><span class="stop-id">1792</span>Dwory Drugie Suchodębie (1)</a>
+<a class="stop" href="../rozklady/50/1793-oswiecim.html"><span class="stop-id">1793</span>Oświęcim Śluza (1)</a>
+<a class="stop" href="../rozklady/50/1797-oswiecim.html"><span class="stop-id">1797</span>Oświęcim Wysypisko (2)</a>
+<a class="stop" href="../rozklady/50/1796-oswiecim.html"><span class="stop-id">1796</span>Oświęcim Żwirownia (2)</a>
+<a class="stop" href="../rozklady/50/0616-oswiecim.html"><span class="stop-id">0616</span>Oświęcim Dwory Pętla (1)</a>
+<a class="stop" href="../rozklady/50/0617-oswiecim.html"><span class="stop-id">0617</span>Oświęcim SKR (1)</a>
+<a class="stop" href="../rozklady/50/0618-oswiecim.html"><span class="stop-id">0618</span>Oświęcim Spółdzielnia (2)</a>
+<a class="stop" href="../rozklady/50/0619-oswiecim.html"><span class="stop-id">0619</span>Oświęcim Cichy Kącik (2)</a>
+<a class="stop" href="../rozklady/50/0620-oswiecim.html"><span class="stop-id">0620</span>Oświęcim Zwycięstwa (2)</a>
+<a class="stop" href="../rozklady/50/1505-oswiecim.html"><span class="stop-id">1505</span>Oświęcim Transchemia (2)</a>
+<a class="stop" href="../rozklady/50/1507-oswiecim.html"><span class="stop-id">1507</span>Oświęcim Dąbrowskiego (1)</a>
+<a class="stop" href="../rozklady/50/0836-oswiecim.html"><span class="stop-id">0836</span>Oświęcim Dąbrowskiego Szpital (1)</a>
+<a class="stop" href="../rozklady/50/0628-oswiecim.html"><span class="stop-id">0628</span>Oświęcim Dąbrowskiego Miasto (1)</a>
+<a class="stop" href="../rozklady/50/0629-oswiecim.html"><span class="stop-id">0629</span>Oświęcim Stacja BP (2)</a>
+<a class="stop" href="../rozklady/50/0630-oswiecim.html"><span class="stop-id">0630</span>Oświęcim Niwa (1)</a>
+<a class="stop terminal" href="../rozklady/50/0631-oswiecim.html"><span class="stop-id">0631</span>Oświęcim Dworzec PKP (1)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Graboszyce Szkoła</h2>
+
+<div class="zone zone-oswiecim">STREFA OŚWIĘCIM</div>
+
+<a class="stop terminal" href="../rozklady/50/0666-graboszyce.html"><span class="stop-id">0666</span>Oświęcim Dworzec PKP (2)</a>
+<a class="stop" href="../rozklady/50/0667-graboszyce.html"><span class="stop-id">0667</span>Oświęcim Niwa (2)</a>
+<a class="stop" href="../rozklady/50/0668-graboszyce.html"><span class="stop-id">0668</span>Oświęcim Stacja BP (1)</a>
+<a class="stop" href="../rozklady/50/0669-graboszyce.html"><span class="stop-id">0669</span>Oświęcim Dąbrowskiego Kościół (1)</a>
+<a class="stop" href="../rozklady/50/0670-graboszyce.html"><span class="stop-id">0670</span>Oświęcim Dąbrowskiego Cmentarz (0)</a>
+<a class="stop" href="../rozklady/50/0873-graboszyce.html"><span class="stop-id">0873</span>Oświęcim Dąbrowskiego Szpital (2)</a>
+<a class="stop" href="../rozklady/50/1508-graboszyce.html"><span class="stop-id">1508</span>Oświęcim Dąbrowskiego (2)</a>
+<a class="stop" href="../rozklady/50/1506-graboszyce.html"><span class="stop-id">1506</span>Oświęcim Transchemia (1)</a>
+<a class="stop" href="../rozklady/50/0677-graboszyce.html"><span class="stop-id">0677</span>Oświęcim Zwycięstwa (1)</a>
+<a class="stop" href="../rozklady/50/0678-graboszyce.html"><span class="stop-id">0678</span>Oświęcim Cichy Kącik (1)</a>
+<a class="stop" href="../rozklady/50/0679-graboszyce.html"><span class="stop-id">0679</span>Oświęcim Spółdzielnia (1)</a>
+<a class="stop" href="../rozklady/50/0680-graboszyce.html"><span class="stop-id">0680</span>Oświęcim SKR (2)</a>
+<a class="stop" href="../rozklady/50/0616-graboszyce.html"><span class="stop-id">0616</span>Oświęcim Dwory Pętla (1)</a>
+<a class="stop" href="../rozklady/50/1795-graboszyce.html"><span class="stop-id">1795</span>Oświęcim Żwirownia (1)</a>
+<a class="stop" href="../rozklady/50/1794-graboszyce.html"><span class="stop-id">1794</span>Oświęcim Wysypisko (1)</a>
+<a class="stop" href="../rozklady/50/1798-graboszyce.html"><span class="stop-id">1798</span>Oświęcim Śluza (2)</a>
+<a class="stop" href="../rozklady/50/1799-graboszyce.html"><span class="stop-id">1799</span>Dwory Drugie Suchodębie (2)</a>
+<a class="stop" href="../rozklady/50/1791-graboszyce.html"><span class="stop-id">1791</span>Dwory Drugie Machnaty (2)</a>
+<a class="stop" href="../rozklady/50/1790-graboszyce.html"><span class="stop-id">1790</span>Dwory Drugie Pętla (0)</a>
+<a class="stop" href="../rozklady/50/1789-graboszyce.html"><span class="stop-id">1789</span>Dwory Drugie Dom Ludowy (2)</a>
+
+<div class="zone zone-przeciszow">STREFA PRZECISZÓW</div>
+  
+<a class="stop" href="../rozklady/50/1802-graboszyce.html"><span class="stop-id">1802</span>Las IV (1)</a>
+<a class="stop" href="../rozklady/50/1803-graboszyce.html"><span class="stop-id">1803</span>Las III (1)</a>
+<a class="stop" href="../rozklady/50/1804-graboszyce.html"><span class="stop-id">1804</span>Las II (1)</a>
+<a class="stop" href="../rozklady/50/1805-graboszyce.html"><span class="stop-id">1805</span>Las I (1)</a>
+<a class="stop" href="../rozklady/50/1784-graboszyce.html"><span class="stop-id">1784</span>Przeciszów Podlesie (1)</a>
+<a class="stop" href="../rozklady/50/1807-graboszyce.html"><span class="stop-id">1807</span>Przeciszów Za Torem (2)</a>
+<a class="stop" href="../rozklady/50/1782-graboszyce.html"><span class="stop-id">1782</span>Przeciszów Urząd Gminy (1)</a>
+<a class="stop" href="../rozklady/50/1809-graboszyce.html"><span class="stop-id">1809</span>Przeciszów I (2)</a>
+<a class="stop" href="../rozklady/50/1810-graboszyce.html"><span class="stop-id">1810</span>Przeciszów Łowiczki Księże (2)</a>
+
+<div class="zone zone-zator">STREFA ZATOR</div>
+  
+<a class="stop" href="../rozklady/50/1685-graboszyce.html"><span class="stop-id">1685</span>Zator Park Rozrywki (1)</a>
+<a class="stop" href="../rozklady/50/1691-graboszyce.html"><span class="stop-id">1691</span>Zator Podlipki (2)</a>
+<a class="stop" href="../rozklady/50/1679-graboszyce.html"><span class="stop-id">1679</span>Zator Rynek (0)</a>
+<a class="stop" href="../rozklady/50/1746-graboszyce.html"><span class="stop-id">1746</span>Zator Stacja Paliw (1)</a>
+<a class="stop" href="../rozklady/50/1745-graboszyce.html"><span class="stop-id">1745</span>Rudze Trzebieńczyce (2)</a>
+<a class="stop" href="../rozklady/50/1742-graboszyce.html"><span class="stop-id">1742</span>Graboszyce (1)</a>
+<a class="stop" href="../rozklady/50/1738-graboszyce.html"><span class="stop-id">1738</span>Graboszyce Zamek (1)</a>
+<a class="stop terminal" href="../rozklady/50/1757-graboszyce.html"><span class="stop-id">1757</span>Graboszyce Szkoła (1)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
