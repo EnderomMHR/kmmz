@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 58</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-trzyciaz{
+    background:#c17ba1;
+    color:#222;
+}
+
+.zone-suloszowa-skala{
+    background:#b7b8b7;
+    color:#222;
+}
+  
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">58</div>
+
+<div class="route">
+Skała Połetka - Nowa Wieś - Minoga - Barbarka - Tarnawa - Milonki - Zagórowa - Imbramowice Dolne
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Imbramowice Dolne</h2>
+
+<div class="zone zone-suloszowa-skala">STREFA SUŁOSZOWA-SKAŁA</div>
+
+<a class="stop terminal" href="../rozklady/58/0399-imbramowice.html"><span class="stop-id">0399</span>Skała Połetka (1)</a>
+<a class="stop" href="../rozklady/58/2773-imbramowice.html"><span class="stop-id">2773</span>Skała Rynek (1)</a>
+<a class="stop" href="../rozklady/58/2798-imbramowice.html"><span class="stop-id">2798</span>Skała Ośrodek (1)</a>
+<a class="stop" href="../rozklady/58/2813-imbramowice.html"><span class="stop-id">2813</span>Nowa Wieś (2)</a>
+<a class="stop" href="../rozklady/58/2812-imbramowice.html"><span class="stop-id">2812</span>Nowa Wieś Minoga (2)</a>
+<a class="stop" href="../rozklady/58/0801-imbramowice.html"><span class="stop-id">0801</span>Minoga Kościół (2)</a>
+<a class="stop" href="../rozklady/58/0799-imbramowice.html"><span class="stop-id">0799</span>Minoga (2)</a>
+<a class="stop" href="../rozklady/58/0797-imbramowice.html"><span class="stop-id">0797</span>Barbarka Poręba Laskowska (2)</a>
+<a class="stop" href="../rozklady/58/0748-imbramowice.html"><span class="stop-id">0748</span>Barbarka Pogorzelec (1)</a>
+<a class="stop" href="../rozklady/58/0750-imbramowice.html"><span class="stop-id">0750</span>Barbarka Remiza (1)</a>
+<a class="stop" href="../rozklady/58/0753-imbramowice.html"><span class="stop-id">0753</span>Barbarka Wesoła Ściborzanka (2)</a>
+<a class="stop" href="../rozklady/58/0754-imbramowice.html"><span class="stop-id">0754</span>Barbarka Wesoła (1)</a>
+
+<div class="zone zone-trzyciaz">STREFA TRZYCIĄŻ</div>
+  
+<a class="stop" href="../rozklady/58/0756-imbramowice.html"><span class="stop-id">0756</span>Tarnawa Podlas (2)</a>
+<a class="stop" href="../rozklady/58/0757-imbramowice.html"><span class="stop-id">0757</span>Tarnawa Wieś (1)</a>
+<a class="stop" href="../rozklady/58/0760-imbramowice.html"><span class="stop-id">0760</span>Tarnawa Kościół (2)</a>
+<a class="stop" href="../rozklady/58/0761-imbramowice.html"><span class="stop-id">0761</span>Tarnawa Parcela (1)</a>
+<a class="stop" href="../rozklady/58/0764-imbramowice.html"><span class="stop-id">0764</span>Tarnawa Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/58/0766-imbramowice.html"><span class="stop-id">0766</span>Milonki Granica (2)</a>
+<a class="stop" href="../rozklady/58/0770-imbramowice.html"><span class="stop-id">0770</span>Milonki II (2)</a>
+<a class="stop" href="../rozklady/58/0774-imbramowice.html"><span class="stop-id">0774</span>Zagórowa (2)</a>
+<a class="stop" href="../rozklady/58/0776-imbramowice.html"><span class="stop-id">0776</span>Zagórowa Centrum (2)</a>
+<a class="stop" href="../rozklady/58/2506-imbramowice.html"><span class="stop-id">2506</span>Imbramowice Kolonia Dolna I (2)</a>
+<a class="stop" href="../rozklady/58/2508-imbramowice.html"><span class="stop-id">2508</span>Imbramowice Kolonia Dolna II (2)</a>
+<a class="stop" href="../rozklady/58/2500-imbramowice.html"><span class="stop-id">2500</span>Imbramowice Szkoła (2)</a>
+<a class="stop terminal" href="../rozklady/58/2488-imbramowice.html"><span class="stop-id">2488</span>Imbramowice Dolne (2)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Skała Połetka</h2>
+
+<div class="zone zone-trzyciaz">STREFA TRZYCIĄŻ</div>
+
+<a class="stop terminal" href="../rozklady/58/2485-skala.html"><span class="stop-id">2485</span>Imbramowice Dolne (1)</a>
+<a class="stop" href="../rozklady/58/2499-skala.html"><span class="stop-id">2499</span>Imbramowice Szkoła (1)</a>
+<a class="stop" href="../rozklady/58/2507-skala.html"><span class="stop-id">2507</span>Imbramowice Kolonia Dolna II (1)</a>
+<a class="stop" href="../rozklady/58/2505-skala.html"><span class="stop-id">2505</span>Imbramowice Kolonia Dolna I (1)</a>
+<a class="stop" href="../rozklady/58/0775-skala.html"><span class="stop-id">0775</span>Zagórowa Centrum (1)</a>
+<a class="stop" href="../rozklady/58/0773-skala.html"><span class="stop-id">0773</span>Zagórowa (1)</a>
+<a class="stop" href="../rozklady/58/0769-skala.html"><span class="stop-id">0769</span>Milonki II (1)</a>
+<a class="stop" href="../rozklady/58/0768-skala.html"><span class="stop-id">0768</span>Milonki Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/58/0765-skala.html"><span class="stop-id">0765</span>Milonki Granica (1)</a>
+<a class="stop" href="../rozklady/58/0763-skala.html"><span class="stop-id">0763</span>Tarnawa Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/58/0762-skala.html"><span class="stop-id">0762</span>Tarnawa Parcela (2)</a>
+<a class="stop" href="../rozklady/58/0759-skala.html"><span class="stop-id">0759</span>Tarnawa Kościół (1)</a>
+<a class="stop" href="../rozklady/58/0758-skala.html"><span class="stop-id">0758</span>Tarnawa Wieś (2)</a>
+<a class="stop" href="../rozklady/58/0755-skala.html"><span class="stop-id">0755</span>Tarnawa Podlas (1)</a>
+
+<div class="zone zone-suloszowa-skala">STREFA SUŁOSZOWA-SKAŁA</div>
+  
+<a class="stop" href="../rozklady/58/0752-skala.html"><span class="stop-id">0752</span>Barbarka Wesoła Ściborzanka (1)</a>
+<a class="stop" href="../rozklady/58/0751-skala.html"><span class="stop-id">0751</span>Barbarka Remiza (2)</a>
+<a class="stop" href="../rozklady/58/0749-skala.html"><span class="stop-id">0749</span>Barbarka Pogorzelec (2)</a>
+<a class="stop" href="../rozklady/58/0796-skala.html"><span class="stop-id">0796</span>Barbarka Poręba Laskowska (1)</a>
+<a class="stop" href="../rozklady/58/0798-skala.html"><span class="stop-id">0798</span>Minoga (1)</a>
+<a class="stop" href="../rozklady/58/0800-skala.html"><span class="stop-id">0800</span>Minoga Kościół (1)</a>
+<a class="stop" href="../rozklady/58/2803-skala.html"><span class="stop-id">2803</span>Nowa Wieś Minoga (1)</a>
+<a class="stop" href="../rozklady/58/2802-skala.html"><span class="stop-id">2802</span>Nowa Wieś (1)</a>
+<a class="stop" href="../rozklady/58/2799-skala.html"><span class="stop-id">2799</span>Skała Ośrodek (2)</a>
+<a class="stop" href="../rozklady/58/2773-skala.html"><span class="stop-id">2773</span>Skała Rynek (1)</a>
+<a class="stop terminal" href="../rozklady/58/0432-skala.html"><span class="stop-id">0432</span>Skała Połetka (2)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
