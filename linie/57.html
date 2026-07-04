@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 57</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-chrzanow{
+    background:#a4c2f4;
+    color:#222;
+}
+
+.zone-bierun{
+    background:#d5a6bd;
+    color:#222;
+}
+
+.zone-libiaz{
+    background:#b6d7a8;
+    color:#222;
+}
+
+.zone-chelmek{
+    background:#b4a7d6;
+    color:#222;
+}
+  
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">57</div>
+
+<div class="route">
+Chrzanów Dworzec Autobusowy - Libiąż - Kosówki - Chełmek - (Chełm Mały) - Kopciowice - Zarzyna - Ściernie - Bieruń Plac Autobusowy
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Bieruń Plac Autobusowy</h2>
+
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+
+<a class="stop terminal" href="../rozklady/57/0095-bierun.html"><span class="stop-id">0095</span>Chrzanów Dworzec Autobusowy (3)</a>
+<a class="stop" href="../rozklady/57/0096-bierun.html"><span class="stop-id">0096</span>Chrzanów Plac Tysiąclecia (3)</a>
+<a class="stop" href="../rozklady/57/0352-bierun.html"><span class="stop-id">0352</span>Chrzanów ZUS (1)</a>
+<a class="stop" href="../rozklady/57/0335-bierun.html"><span class="stop-id">0335</span>Chrzanów PZGS (2)</a>
+<a class="stop" href="../rozklady/57/0336-bierun.html"><span class="stop-id">0336</span>Chrzanów Osiedle Kopanina (2)</a>
+<a class="stop" href="../rozklady/57/0101-bierun.html"><span class="stop-id">0101</span>Chrzanów Kroczymiech (1)</a>
+<a class="stop" href="../rozklady/57/0102-bierun.html"><span class="stop-id">0102</span>Chrzanów Fadom (2)</a>
+
+<div class="zone zone-libiaz">STREFA LIBIĄŻ</div>
+  
+<a class="stop" href="../rozklady/57/0103-bierun.html"><span class="stop-id">0103</span>Libiąż Chrzanowska Kamieniec (2)</a>
+<a class="stop" href="../rozklady/57/0104-bierun.html"><span class="stop-id">0104</span>Libiąż Dworzec Autobusowy (1)</a>
+<a class="stop" href="../rozklady/57/0362-bierun.html"><span class="stop-id">0362</span>Libiąż Urząd Miejski (2)</a>
+<a class="stop" href="../rozklady/57/0363-bierun.html"><span class="stop-id">0363</span>Libiąż Oświęcimska Kościół (2)</a>
+<a class="stop" href="../rozklady/57/1186-bierun.html"><span class="stop-id">1186</span>Libiąż Spokojna Cmentarz (2)</a>
+<a class="stop" href="../rozklady/57/1263-bierun.html"><span class="stop-id">1263</span>Libiąż Spokojna (1)</a>
+<a class="stop" href="../rozklady/57/1266-bierun.html"><span class="stop-id">1266</span>Libiąż Jazdówka Spółdzielnia (1)</a>
+<a class="stop" href="../rozklady/57/1268-bierun.html"><span class="stop-id">1268</span>Libiąż Jazdówka (2)</a>
+<a class="stop" href="../rozklady/57/1270-bierun.html"><span class="stop-id">1270</span>Libiąż Kosówki (2)</a>
+<a class="stop" href="../rozklady/57/1300-bierun.html"><span class="stop-id">1300</span>Libiąż Kosówki Paprocia (1)</a>
+
+<div class="zone zone-chelmek">STREFA CHEŁMEK</div>
+  
+<a class="stop" href="../rozklady/57/0860-bierun.html"><span class="stop-id">0860</span>Chełmek Osiedle (2)</a>
+<a class="stop" href="../rozklady/57/0373-bierun.html"><span class="stop-id">0373</span>Chełmek Osiedle DW780 (2)</a>
+<a class="stop" href="../rozklady/57/0374-bierun.html"><span class="stop-id">0374</span>Chełmek Policja (2)</a>
+<a class="stop" href="../rozklady/57/0375-bierun.html"><span class="stop-id">0375</span>Chełmek Remiza (1)</a>
+<a class="stop" href="../rozklady/57/0376-bierun.html"><span class="stop-id">0376</span>Chełmek Mickiewicza (2)</a>
+<a class="stop" href="../rozklady/57/0377-bierun.html"><span class="stop-id">0377</span>Chełmek Młyny (1)</a>
+<a class="stop" href="../rozklady/57/0378-bierun.html"><span class="stop-id">0378</span>Chełmek Jagiellońska (1)</a>
+<a class="stop" href="../rozklady/57/0379-bierun.html"><span class="stop-id">0379</span>Chełmek Dom Ludowy (1)</a>
+<a class="stop" href="../rozklady/57/0861-bierun.html"><span class="stop-id">0861</span>Chełmek Mieszka I (1)</a>
+
+<div class="zone zone-bierun">STREFA BIERUŃ</div>
+  
+<a class="stop variant" href="../rozklady/57/1285-bierun.html"><span class="stop-id">1285</span>Chełm Mały Górnośląska (2)</a>
+<a class="stop variant" href="../rozklady/57/1284-bierun.html"><span class="stop-id">1284</span>Chełm Mały Pętla (0)</a>
+<a class="stop variant" href="../rozklady/57/1283-bierun.html"><span class="stop-id">1283</span>Chełm Mały Górnośląska (1)</a>
+<a class="stop" href="../rozklady/57/1287-bierun.html"><span class="stop-id">1287</span>Kopciowice Karłowicza (2)</a>
+<a class="stop" href="../rozklady/57/1288-bierun.html"><span class="stop-id">1288</span>Kopciowice Osada (1)</a>
+<a class="stop" href="../rozklady/57/1290-bierun.html"><span class="stop-id">1290</span>Bieruń Wawelska Paciorkowce (1)</a>
+<a class="stop" href="../rozklady/57/0881-bierun.html"><span class="stop-id">0881</span>Bieruń Warszawska Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/57/0882-bierun.html"><span class="stop-id">0882</span>Bieruń Osiedle (1)</a>
+<a class="stop" href="../rozklady/57/0883-bierun.html"><span class="stop-id">0883</span>Bieruń KWK Piast (2)</a>
+<a class="stop" href="../rozklady/57/0884-bierun.html"><span class="stop-id">0884</span>Bieruń Granitowa (2)</a>
+<a class="stop" href="../rozklady/57/0923-bierun.html"><span class="stop-id">0923</span>Bieruń Zarzyna (2)</a>
+<a class="stop" href="../rozklady/57/1294-bierun.html"><span class="stop-id">1294</span>Bieruń Ściernie (1)</a>
+<a class="stop" href="../rozklady/57/1298-bierun.html"><span class="stop-id">1298</span>Bieruń Stacja Paliw (2)</a>
+<a class="stop" href="../rozklady/57/1296-bierun.html"><span class="stop-id">1296</span>Bieruń Baraniec (1)</a>
+<a class="stop terminal" href="../rozklady/57/0895-bierun.html"><span class="stop-id">0895</span>Bieruń Plac Autobusowy (1)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Chrzanów Dworzec Autobusowy</h2>
+
+<div class="zone zone-bierun">STREFA BIERUŃ</div>
+
+<a class="stop terminal" href="../rozklady/57/0895-chrzanow.html"><span class="stop-id">0895</span>Bieruń Plac Autobusowy (1)</a>
+<a class="stop" href="../rozklady/57/1297-chrzanow.html"><span class="stop-id">1297</span>Bieruń Baraniec (2)</a>
+<a class="stop" href="../rozklady/57/1295-chrzanow.html"><span class="stop-id">1295</span>Bieruń Stacja Paliw (1)</a>
+<a class="stop" href="../rozklady/57/1299-chrzanow.html"><span class="stop-id">1299</span>Bieruń Ściernie (2)</a>
+<a class="stop" href="../rozklady/57/0918-chrzanow.html"><span class="stop-id">0918</span>Bieruń Zarzyna (1)</a>
+<a class="stop" href="../rozklady/57/0919-chrzanow.html"><span class="stop-id">0919</span>Bieruń Granitowa (1)</a>
+<a class="stop" href="../rozklady/57/0920-chrzanow.html"><span class="stop-id">0920</span>Bieruń KWK Piast (1)</a>
+<a class="stop" href="../rozklady/57/0921-chrzanow.html"><span class="stop-id">0921</span>Bieruń Osiedle (2)</a>
+<a class="stop" href="../rozklady/57/1292-chrzanow.html"><span class="stop-id">1292</span>Bieruń Poczta (1)</a>
+<a class="stop" href="../rozklady/57/1291-chrzanow.html"><span class="stop-id">1291</span>Bieruń Wawelska Paciorkowce (2)</a>
+<a class="stop" href="../rozklady/57/1289-chrzanow.html"><span class="stop-id">1289</span>Kopciowice Osada (2)</a>
+<a class="stop" href="../rozklady/57/1286-chrzanow.html"><span class="stop-id">1286</span>Kopciowice Karłowicza (1)</a>
+<a class="stop variant" href="../rozklady/57/1285-chrzanow.html"><span class="stop-id">1285</span>Chełm Mały Górnośląska (2)</a>
+<a class="stop variant" href="../rozklady/57/1284-chrzanow.html"><span class="stop-id">1284</span>Chełm Mały Pętla (0)</a>
+<a class="stop variant" href="../rozklady/57/1283-chrzanow.html"><span class="stop-id">1283</span>Chełm Mały Górnośląska (1)</a>
+
+<div class="zone zone-chelmek">STREFA CHEŁMEK</div>
+  
+<a class="stop" href="../rozklady/57/0849-chrzanow.html"><span class="stop-id">0849</span>Chełmek Mieszka I (2)</a>
+<a class="stop" href="../rozklady/57/0850-chrzanow.html"><span class="stop-id">0850</span>Chełmek Dom Ludowy (2)</a>
+<a class="stop" href="../rozklady/57/0851-chrzanow.html"><span class="stop-id">0851</span>Chełmek Jagiellońska (2)</a>
+<a class="stop" href="../rozklady/57/0852-chrzanow.html"><span class="stop-id">0852</span>Chełmek Młyny (2)</a>
+<a class="stop" href="../rozklady/57/0853-chrzanow.html"><span class="stop-id">0853</span>Chełmek Mickiewicza (1)</a>
+<a class="stop" href="../rozklady/57/0854-chrzanow.html"><span class="stop-id">0854</span>Chełmek Remiza (2)</a>
+<a class="stop" href="../rozklady/57/0381-chrzanow.html"><span class="stop-id">0381</span>Chełmek Policja (1)</a>
+<a class="stop" href="../rozklady/57/0382-chrzanow.html"><span class="stop-id">0382</span>Chełmek Osiedle DW780 (1)</a>
+<a class="stop" href="../rozklady/57/0858-chrzanow.html"><span class="stop-id">0858</span>Chełmek Osiedle (1)</a>
+
+<div class="zone zone-libiaz">STREFA LIBIĄŻ</div>
+  
+<a class="stop" href="../rozklady/57/1301-chrzanow.html"><span class="stop-id">1301</span>Libiąż Kosówki Paprocia (2)</a>
+<a class="stop" href="../rozklady/57/1269-chrzanow.html"><span class="stop-id">1269</span>Libiąż Kosówki (1)</a>
+<a class="stop" href="../rozklady/57/1267-chrzanow.html"><span class="stop-id">1267</span>Libiąż Jazdówka (1)</a>
+<a class="stop" href="../rozklady/57/1265-chrzanow.html"><span class="stop-id">1265</span>Libiąż Jazdówka Spółdzielnia (2)</a>
+<a class="stop" href="../rozklady/57/1264-chrzanow.html"><span class="stop-id">1264</span>Libiąż Spokojna (2)</a>
+<a class="stop" href="../rozklady/57/1187-chrzanow.html"><span class="stop-id">1187</span>Libiąż Spokojna Cmentarz (1)</a>
+<a class="stop" href="../rozklady/57/0392-chrzanow.html"><span class="stop-id">0392</span>Libiąż Oświęcimska Kościół (1)</a>
+<a class="stop" href="../rozklady/57/0393-chrzanow.html"><span class="stop-id">0393</span>Libiąż Urząd Miejski (1)</a>
+<a class="stop" href="../rozklady/57/0107-chrzanow.html"><span class="stop-id">0107</span>Libiąż Dworzec Autobusowy (2)</a>
+<a class="stop" href="../rozklady/57/0108-chrzanow.html"><span class="stop-id">0108</span>Libiąż Chrzanowska Kamieniec (1)</a>
+
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+  
+<a class="stop" href="../rozklady/57/0109-chrzanow.html"><span class="stop-id">0109</span>Chrzanów Fadom (1)</a>
+<a class="stop" href="../rozklady/57/0110-chrzanow.html"><span class="stop-id">0110</span>Chrzanów Kroczymiech (2)</a>
+<a class="stop" href="../rozklady/57/0330-chrzanow.html"><span class="stop-id">0330</span>Chrzanów Osiedle Kopanina (1)</a>
+<a class="stop" href="../rozklady/57/0331-chrzanow.html"><span class="stop-id">0331</span>Chrzanów PZGS (1)</a>
+<a class="stop" href="../rozklady/57/0332-chrzanow.html"><span class="stop-id">0332</span>Chrzanów Sienna (1)</a>
+<a class="stop" href="../rozklady/57/0333-chrzanow.html"><span class="stop-id">0333</span>Chrzanów Podwale (1)</a>
+<a class="stop terminal" href="../rozklady/57/0334-chrzanow.html"><span class="stop-id">0334</span>Chrzanów Dworzec Autobusowy (4)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
