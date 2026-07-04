@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 56</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-boleslaw{
+    background:#cccccc;
+    color:#222;
+}
+
+.zone-olkusz{
+    background:#ffe599;
+    color:#222;
+}
+  
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">56</div>
+
+<div class="route">
+Międzygórze - Podlipie - Krążek - Bolesław - Olkusz - Rabsztyn - Troks - Braciejówka Pętla
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Braciejówka Pętla</h2>
+
+<div class="zone zone-boleslaw">STREFA BOLESŁAW</div>
+
+<a class="stop terminal" href="../rozklady/56/3279-braciejowka.html"><span class="stop-id">3279</span>Międzygórze (2)</a>
+<a class="stop" href="../rozklady/56/2103-braciejowka.html"><span class="stop-id">2103</span>Podlipie (1)</a>
+<a class="stop" href="../rozklady/56/2115-braciejowka.html"><span class="stop-id">2115</span>Podlipie Sołtysie (2)</a>
+<a class="stop" href="../rozklady/56/2105-braciejowka.html"><span class="stop-id">2105</span>Podlipie Szkoła (1)</a>
+<a class="stop" href="../rozklady/56/2113-braciejowka.html"><span class="stop-id">2113</span>Podlipie Górka (2)</a>
+<a class="stop" href="../rozklady/56/2107-braciejowka.html"><span class="stop-id">2107</span>Podlipie Remiza (1)</a>
+<a class="stop" href="../rozklady/56/2111-braciejowka.html"><span class="stop-id">2111</span>Krążek Podlipie (2)</a>
+<a class="stop" href="../rozklady/56/2024-braciejowka.html"><span class="stop-id">2024</span>Krążek (1)</a>
+<a class="stop" href="../rozklady/56/0153-braciejowka.html"><span class="stop-id">0153</span>Bolesław Cmentarz (1)</a>
+<a class="stop" href="../rozklady/56/0154-braciejowka.html"><span class="stop-id">0154</span>Bolesław Szkoła (2)</a>
+<a class="stop" href="../rozklady/56/0155-braciejowka.html"><span class="stop-id">0155</span>Bolesław Centrum (2)</a>
+<a class="stop" href="../rozklady/56/0165-braciejowka.html"><span class="stop-id">0165</span>Bolesław Dąbrówka (1)</a>
+<a class="stop" href="../rozklady/56/0171-braciejowka.html"><span class="stop-id">0171</span>Bolesław Osadowa (2)</a>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+  
+<a class="stop" href="../rozklady/56/0172-braciejowka.html"><span class="stop-id">0172</span>Olkusz Stary (2)</a>
+<a class="stop" href="../rozklady/56/0173-braciejowka.html"><span class="stop-id">0173</span>Olkusz Stacja Paliw (1)</a>
+<a class="stop" href="../rozklady/56/0284-braciejowka.html"><span class="stop-id">0284</span>Olkusz Rabsztyńska Supermarket (0)</a>
+<a class="stop" href="../rozklady/56/0285-braciejowka.html"><span class="stop-id">0285</span>Olkusz Rabsztyńska (2)</a>
+<a class="stop" href="../rozklady/56/0286-braciejowka.html"><span class="stop-id">0286</span>Olkusz Sikorka (2)</a>
+<a class="stop" href="../rozklady/56/0287-braciejowka.html"><span class="stop-id">0287</span>Rabsztyn Ogródki Działkowe (2)</a>
+<a class="stop" href="../rozklady/56/0288-braciejowka.html"><span class="stop-id">0288</span>Rabsztyn (2)</a>
+<a class="stop" href="../rozklady/56/0289-braciejowka.html"><span class="stop-id">0289</span>Troks Las (2)</a>
+<a class="stop" href="../rozklady/56/0290-braciejowka.html"><span class="stop-id">0290</span>Troks (2)</a>
+<a class="stop" href="../rozklady/56/0291-braciejowka.html"><span class="stop-id">0291</span>Troks Szkoła (2)</a>
+<a class="stop" href="../rozklady/56/0292-braciejowka.html"><span class="stop-id">0292</span>Troks Granica (2)</a>
+<a class="stop" href="../rozklady/56/0293-braciejowka.html"><span class="stop-id">0293</span>Braciejówka Cmentarz (2)</a>
+<a class="stop" href="../rozklady/56/0294-braciejowka.html"><span class="stop-id">0294</span>Braciejówka Zalew (1)</a>
+<a class="stop terminal" href="../rozklady/56/1707-braciejowka.html"><span class="stop-id">1707</span>Braciejówka Pętla (0)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Międzygórze</h2>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+
+<a class="stop terminal" href="../rozklady/56/1707-miedzygorze.html"><span class="stop-id">1707</span>Braciejówka Pętla (0)</a>
+<a class="stop" href="../rozklady/56/0274-miedzygorze.html"><span class="stop-id">0274</span>Braciejówka Zalew (2)</a>
+<a class="stop" href="../rozklady/56/0275-miedzygorze.html"><span class="stop-id">0275</span>Braciejówka Cmentarz (1)</a>
+<a class="stop" href="../rozklady/56/0276-miedzygorze.html"><span class="stop-id">0276</span>Troks Granica (1)</a>
+<a class="stop" href="../rozklady/56/0277-miedzygorze.html"><span class="stop-id">0277</span>Troks Szkoła (1)</a>
+<a class="stop" href="../rozklady/56/0278-miedzygorze.html"><span class="stop-id">0278</span>Troks (1)</a>
+<a class="stop" href="../rozklady/56/0279-miedzygorze.html"><span class="stop-id">0279</span>Troks Las (1)</a>
+<a class="stop" href="../rozklady/56/0280-miedzygorze.html"><span class="stop-id">0280</span>Rabsztyn (1)</a>
+<a class="stop" href="../rozklady/56/0281-miedzygorze.html"><span class="stop-id">0281</span>Rabsztyn Ogródki Działkowe (1)</a>
+<a class="stop" href="../rozklady/56/0282-miedzygorze.html"><span class="stop-id">0282</span>Olkusz Sikorka (1)</a>
+<a class="stop" href="../rozklady/56/0283-miedzygorze.html"><span class="stop-id">0283</span>Olkusz Rabsztyńska (1)</a>
+<a class="stop" href="../rozklady/56/0238-miedzygorze.html"><span class="stop-id">0238</span>Olkusz Supersam (2)</a>
+<a class="stop" href="../rozklady/56/0239-miedzygorze.html"><span class="stop-id">0239</span>Olkusz Stacja Paliw (2)</a>
+<a class="stop" href="../rozklady/56/0240-miedzygorze.html"><span class="stop-id">0240</span>Olkusz Stary (1)</a>
+
+<div class="zone zone-boleslaw">STREFA BOLESŁAW</div>
+  
+<a class="stop" href="../rozklady/56/0241-miedzygorze.html"><span class="stop-id">0241</span>Bolesław Osadowa (1)</a>
+<a class="stop" href="../rozklady/56/0242-miedzygorze.html"><span class="stop-id">0242</span>Bolesław Dąbrówka (2)</a>
+<a class="stop" href="../rozklady/56/0243-miedzygorze.html"><span class="stop-id">0243</span>Bolesław Centrum (1)</a>
+<a class="stop" href="../rozklady/56/0244-miedzygorze.html"><span class="stop-id">0244</span>Bolesław Szkoła (1)</a>
+<a class="stop" href="../rozklady/56/0245-miedzygorze.html"><span class="stop-id">0245</span>Bolesław Cmentarz (2)</a>
+<a class="stop" href="../rozklady/56/0246-miedzygorze.html"><span class="stop-id">0246</span>Krążek (2)</a>
+<a class="stop" href="../rozklady/56/2108-miedzygorze.html"><span class="stop-id">2108</span>Krążek Podlipie (1)</a>
+<a class="stop" href="../rozklady/56/2107-miedzygorze.html"><span class="stop-id">2107</span>Podlipie Remiza (1)</a>
+<a class="stop" href="../rozklady/56/2106-miedzygorze.html"><span class="stop-id">2106</span>Podlipie Górka (1)</a>
+<a class="stop" href="../rozklady/56/2114-miedzygorze.html"><span class="stop-id">2114</span>Podlipie Szkoła (2)</a>
+<a class="stop" href="../rozklady/56/2104-miedzygorze.html"><span class="stop-id">2104</span>Podlipie Sołtysie (1)</a>
+<a class="stop" href="../rozklady/56/2116-miedzygorze.html"><span class="stop-id">2116</span>Podlipie (2)</a>
+<a class="stop terminal" href="../rozklady/56/2102-miedzygorze.html"><span class="stop-id">2102</span>Międzygórze (1)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
