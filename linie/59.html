@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 59</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-chrzanow{
+    background:#a4c2f4;
+    color:#222;
+}
+
+.zone-trzebinia{
+    background:#d9d2e9;
+    color:#222;
+}
+  
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">59</div>
+
+<div class="route">
+Chrzanów Dworzec Autobusowy - Kościelec - Płaza - Bolęcin - Piła Kościelecka - Kościelec - Chrzanów Dworzec Autobusowy
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Chrzanów Dworzec Autobusowy</h2>
+
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+
+<a class="stop terminal" href="../rozklady/59/0334-okrezna-1.html"><span class="stop-id">0334</span>Chrzanów Dworzec Autobusowy (4)</a>
+<a class="stop" href="../rozklady/59/0096-okrezna-1.html"><span class="stop-id">0096</span>Chrzanów Plac Tysiąclecia (3)</a>
+<a class="stop" href="../rozklady/59/0352-okrezna-1.html"><span class="stop-id">0352</span>Chrzanów ZUS (1)</a>
+<a class="stop" href="../rozklady/59/0332-okrezna-1.html"><span class="stop-id">0332</span>Chrzanów Sienna (1)</a>
+<a class="stop" href="../rozklady/59/0567-okrezna-1.html"><span class="stop-id">0567</span>Chrzanów Głowackiego (1)</a>
+<a class="stop" href="../rozklady/59/1157-okrezna-1.html"><span class="stop-id">1157</span>Chrzanów Osiedle Młodości Armii Krajowej (1)</a>
+<a class="stop" href="../rozklady/59/1158-okrezna-1.html"><span class="stop-id">1158</span>Chrzanów Kościelec Kościół (0)</a>
+<a class="stop" href="../rozklady/59/1058-okrezna-1.html"><span class="stop-id">1058</span>Chrzanów Szpitalna (2)</a>
+<a class="stop" href="../rozklady/59/1161-okrezna-1.html"><span class="stop-id">1161</span>Chrzanów Kościelec Staw (1)</a>
+<a class="stop" href="../rozklady/59/1162-okrezna-1.html"><span class="stop-id">1162</span>Chrzanów Kościelec (1)</a>
+<a class="stop" href="../rozklady/59/1217-okrezna-1.html"><span class="stop-id">1217</span>Chrzanów Kościelec Las (1)</a>
+<a class="stop" href="../rozklady/59/1524-okrezna-1.html"><span class="stop-id">1524</span>Płaza Wapiennik II (2)</a>
+<a class="stop" href="../rozklady/59/1220-okrezna-1.html"><span class="stop-id">1220</span>Płaza Wapiennik I (1)</a>
+<a class="stop" href="../rozklady/59/1223-okrezna-1.html"><span class="stop-id">1223</span>Płaza Działki (2)</a>
+<a class="stop" href="../rozklady/59/1086-okrezna-1.html"><span class="stop-id">1086</span>Płaza Cmentarz (2)</a>
+<a class="stop" href="../rozklady/59/1509-okrezna-1.html"><span class="stop-id">1509</span>Płaza Wieś (1)</a>
+
+<div class="zone zone-trzebinia">STREFA TRZEBINIA</div>
+  
+<a class="stop" href="../rozklady/59/1212-okrezna-1.html"><span class="stop-id">1212</span>Bolęcin Szkoła (2)</a>
+<a class="stop variant" href="../rozklady/59/1210-okrezna-1.html"><span class="stop-id">1210</span>Bolęcin Górka (2)</a>
+<a class="stop variant" href="../rozklady/59/1211-okrezna-1.html"><span class="stop-id">1211</span>Bolęcin Stawki (3)</a>
+<a class="stop variant" href="../rozklady/59/1209-okrezna-1.html"><span class="stop-id">1209</span>Bolęcin Górka (1)</a>
+<a class="stop" href="../rozklady/59/1208-okrezna-1.html"><span class="stop-id">1208</span>Bolęcin Centrum (2)</a>
+<a class="stop" href="../rozklady/59/1205-okrezna-1.html"><span class="stop-id">1205</span>Bolęcin Cmentarz (2)</a>
+<a class="stop" href="../rozklady/59/1196-okrezna-1.html"><span class="stop-id">1196</span>Piła Kościelecka Ruda (1)</a>
+<a class="stop" href="../rozklady/59/1199-okrezna-1.html"><span class="stop-id">1199</span>Piła Kościelecka Sklep (2)</a>
+<a class="stop" href="../rozklady/59/1202-okrezna-1.html"><span class="stop-id">1202</span>Piła Kościelecka WDK (2)</a>
+<a class="stop" href="../rozklady/59/1203-okrezna-1.html"><span class="stop-id">1203</span>Piła Kościelecka Zachód (1)</a>
+
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+  
+<a class="stop" href="../rozklady/59/1218-okrezna-1.html"><span class="stop-id">1218</span>Chrzanów Kościelec Las (2)</a>
+<a class="stop" href="../rozklady/59/1163-okrezna-1.html"><span class="stop-id">1163</span>Chrzanów Kościelec (2)</a>
+<a class="stop" href="../rozklady/59/1164-okrezna-1.html"><span class="stop-id">1164</span>Chrzanów Kościelec Staw (2)</a>
+<a class="stop" href="../rozklady/59/0094-okrezna-1.html"><span class="stop-id">0094</span>Chrzanów Szpitalna (1)</a>
+<a class="stop terminal" href="../rozklady/59/0334-okrezna-1.html"><span class="stop-id">0334</span>Chrzanów Dworzec Autobusowy (4)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Chrzanów Dworzec Autobusowy</h2>
+
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+
+<a class="stop terminal" href="../rozklady/59/0334-okrezna-2.html"><span class="stop-id">0334</span>Chrzanów Dworzec Autobusowy (4)</a>
+<a class="stop" href="../rozklady/59/0096-okrezna-2.html"><span class="stop-id">0096</span>Chrzanów Plac Tysiąclecia (3)</a>
+<a class="stop" href="../rozklady/59/0352-okrezna-2.html"><span class="stop-id">0352</span>Chrzanów ZUS (1)</a>
+<a class="stop" href="../rozklady/59/0332-okrezna-2.html"><span class="stop-id">0332</span>Chrzanów Sienna (1)</a>
+<a class="stop" href="../rozklady/59/0333-okrezna-2.html"><span class="stop-id">0333</span>Chrzanów Podwale (1)</a>
+<a class="stop" href="../rozklady/59/1058-okrezna-2.html"><span class="stop-id">1058</span>Chrzanów Szpitalna (2)</a>
+<a class="stop" href="../rozklady/59/1161-okrezna-2.html"><span class="stop-id">1161</span>Chrzanów Kościelec Staw (1)</a>
+<a class="stop" href="../rozklady/59/1162-okrezna-2.html"><span class="stop-id">1162</span>Chrzanów Kościelec (1)</a>
+<a class="stop" href="../rozklady/59/1217-okrezna-2.html"><span class="stop-id">1217</span>Chrzanów Kościelec Las (1)</a>
+
+<div class="zone zone-trzebinia">STREFA TRZEBINIA</div>
+  
+<a class="stop" href="../rozklady/59/1204-okrezna-2.html"><span class="stop-id">1204</span>Piła Kościelecka Zachód (2)</a>
+<a class="stop" href="../rozklady/59/1201-okrezna-2.html"><span class="stop-id">1201</span>Piła Kościelecka WDK (1)</a>
+<a class="stop" href="../rozklady/59/1200-okrezna-2.html"><span class="stop-id">1200</span>Piła Kościelecka Sklep (1)</a>
+<a class="stop" href="../rozklady/59/1197-okrezna-2.html"><span class="stop-id">1197</span>Piła Kościelecka Ruda (2)</a>
+<a class="stop" href="../rozklady/59/1198-okrezna-2.html"><span class="stop-id">1198</span>Piła Kościelecka Jednostka Wojskowa (1)</a>
+<a class="stop" href="../rozklady/59/1206-okrezna-2.html"><span class="stop-id">1206</span>Bolęcin Cmentarz (1)</a>
+<a class="stop" href="../rozklady/59/1207-okrezna-2.html"><span class="stop-id">1207</span>Bolęcin Centrum (1)</a>
+<a class="stop variant" href="../rozklady/59/1210-okrezna-2.html"><span class="stop-id">1210</span>Bolęcin Górka (2)</a>
+<a class="stop variant" href="../rozklady/59/1211-okrezna-2.html"><span class="stop-id">1211</span>Bolęcin Stawki (3)</a>
+<a class="stop variant" href="../rozklady/59/1209-okrezna-2.html"><span class="stop-id">1209</span>Bolęcin Górka (1)</a>
+<a class="stop" href="../rozklady/59/1213-okrezna-2.html"><span class="stop-id">1213</span>Bolęcin Szkoła (1)</a>
+
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+  
+<a class="stop" href="../rozklady/59/1214-okrezna-2.html"><span class="stop-id">1214</span>Płaza Wieś (2)</a>
+<a class="stop" href="../rozklady/59/1085-okrezna-2.html"><span class="stop-id">1085</span>Płaza Cmentarz (1)</a>
+<a class="stop" href="../rozklady/59/1222-okrezna-2.html"><span class="stop-id">1222</span>Płaza Działki (1)</a>
+<a class="stop" href="../rozklady/59/1221-okrezna-2.html"><span class="stop-id">1221</span>Płaza Wapiennik I (2)</a>
+<a class="stop" href="../rozklady/59/1219-okrezna-2.html"><span class="stop-id">1219</span>Płaza Wapiennik II (1)</a>
+<a class="stop" href="../rozklady/59/1218-okrezna-2.html"><span class="stop-id">1218</span>Chrzanów Kościelec Las (2)</a>
+<a class="stop" href="../rozklady/59/1163-okrezna-2.html"><span class="stop-id">1163</span>Chrzanów Kościelec (2)</a>
+<a class="stop" href="../rozklady/59/1160-okrezna-2.html"><span class="stop-id">1160</span>Chrzanów Sendlerowej (0)</a>
+<a class="stop" href="../rozklady/59/1159-okrezna-2.html"><span class="stop-id">1159</span>Chrzanów Kasztanowa (0)</a>
+<a class="stop" href="../rozklady/59/1158-okrezna-2.html"><span class="stop-id">1158</span>Chrzanów Kościelec Kościół (0)</a>
+<a class="stop" href="../rozklady/59/0094-okrezna-2.html"><span class="stop-id">0094</span>Chrzanów Szpitalna (1)</a>
+<a class="stop terminal" href="../rozklady/59/0334-okrezna-2.html"><span class="stop-id">0334</span>Chrzanów Dworzec Autobusowy (4)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
