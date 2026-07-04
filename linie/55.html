@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 55</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-libiaz{
+    background:#b6d7a8;
+    color:#222;
+}
+
+.zone-babice-alwernia{
+    background:#dd7e6b;
+    color:#222;
+}
+  
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">55</div>
+
+<div class="route">
+Libiąż Partyzantów PKP - Flagówka - Libiąż Dworzec Autobusowy - Zagórcze - Żarki - Maniska - Zagórze - Maniska - Żarki - Moczydło - Libiąż Dworzec Autobusowy - Libiąż Partyzantów PKP
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Libiąż Partyzantów PKP</h2>
+
+<div class="zone zone-libiaz">STREFA LIBIĄŻ</div>
+
+<a class="stop terminal" href="../rozklady/55/1180-okrezna-1.html"><span class="stop-id">1180</span>Libiąż Partyzantów PKP (0)</a>
+<a class="stop" href="../rozklady/55/1302-okrezna-1.html"><span class="stop-id">1302</span>Libiąż Konopnickiej II (2)</a>
+<a class="stop" href="../rozklady/55/1527-okrezna-1.html"><span class="stop-id">1527</span>Libiąż Konopnickiej I (2)</a>
+<a class="stop" href="../rozklady/55/1185-okrezna-1.html"><span class="stop-id">1185</span>Libiąż Konopnickiej Urząd Miejski (1)</a>
+<a class="stop" href="../rozklady/55/0394-okrezna-1.html"><span class="stop-id">0394</span>Libiąż Os. Flagówka II (2)</a>
+<a class="stop" href="../rozklady/55/0395-okrezna-1.html"><span class="stop-id">0395</span>Libiąż Os. Flagówka I (2)</a>
+<a class="stop" href="../rozklady/55/0396-okrezna-1.html"><span class="stop-id">0396</span>Libiąż Os. Flagówka Pawilon (2)</a>
+<a class="stop terminal" href="../rozklady/55/0104-okrezna-1.html"><span class="stop-id">0104</span>Libiąż Dworzec Autobusowy (1)</a>
+<a class="stop" href="../rozklady/55/1177-okrezna-1.html"><span class="stop-id">1177</span>Libiąż Rondo Siedmiu Dróg (1)</a>
+<a class="stop" href="../rozklady/55/1175-okrezna-1.html"><span class="stop-id">1175</span>Libiąż Myśliwska (2)</a>
+<a class="stop" href="../rozklady/55/1174-okrezna-1.html"><span class="stop-id">1174</span>Libiąż Jaworek (1)</a>
+<a class="stop" href="../rozklady/55/1094-okrezna-1.html"><span class="stop-id">1094</span>Żarki Zagórcze (2)</a>
+<a class="stop" href="../rozklady/55/1091-okrezna-1.html"><span class="stop-id">1091</span>Żarki Zagórcze Astronautów (1)</a>
+<a class="stop" href="../rozklady/55/1088-okrezna-1.html"><span class="stop-id">1088</span>Żarki Centrum (1)</a>
+<a class="stop" href="../rozklady/55/1089-okrezna-1.html"><span class="stop-id">1089</span>Żarki Młyn (1)</a>
+
+<div class="zone zone-babice-alwernia">STREFA BABICE-ALWERNIA</div>
+  
+<a class="stop" href="../rozklady/55/1095-okrezna-1.html"><span class="stop-id">1095</span>Maniska Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/55/1099-okrezna-1.html"><span class="stop-id">1099</span>Zagórze Wyrowiec I (Sklep) (1)</a>
+<a class="stop" href="../rozklady/55/1101-okrezna-1.html"><span class="stop-id">1101</span>Zagórze Wyrowiec II (Sklep) (1)</a>
+<a class="stop" href="../rozklady/55/1104-okrezna-1.html"><span class="stop-id">1104</span>Zagórze Kościół (1)</a>
+<a class="stop" href="../rozklady/55/1105-okrezna-1.html"><span class="stop-id">1105</span>Zagórze Poczta (0)</a>
+<a class="stop" href="../rozklady/55/1106-okrezna-1.html"><span class="stop-id">1106</span>Zagórze Piaski (2)</a>
+<a class="stop" href="../rozklady/55/1107-okrezna-1.html"><span class="stop-id">1107</span>Zagórze Kościół (2)</a>
+<a class="stop" href="../rozklady/55/1103-okrezna-1.html"><span class="stop-id">1103</span>Zagórze Szkoła (0)</a>
+<a class="stop" href="../rozklady/55/1110-okrezna-1.html"><span class="stop-id">1110</span>Zagórze Przedszkole (Żelatowa II) (2)</a>
+<a class="stop" href="../rozklady/55/1112-okrezna-1.html"><span class="stop-id">1112</span>Zagórze Żelatowa (2)</a>
+<a class="stop" href="../rozklady/55/1114-okrezna-1.html"><span class="stop-id">1114</span>Chrzanów Borowiec III (2)</a>
+<a class="stop" href="../rozklady/55/1098-okrezna-1.html"><span class="stop-id">1098</span>Maniska Las (2)</a>
+<a class="stop" href="../rozklady/55/1096-okrezna-1.html"><span class="stop-id">1096</span>Maniska Skrzyżowanie (2)</a>
+
+<div class="zone zone-libiaz">STREFA LIBIĄŻ</div>
+  
+<a class="stop" href="../rozklady/55/1090-okrezna-1.html"><span class="stop-id">1090</span>Żarki Młyn (2)</a>
+<a class="stop" href="../rozklady/55/0323-okrezna-1.html"><span class="stop-id">0323</span>Żarki Centrum (2)</a>
+<a class="stop" href="../rozklady/55/0324-okrezna-1.html"><span class="stop-id">0324</span>Żarki Kościuszki (2)</a>
+<a class="stop" href="../rozklady/55/0325-okrezna-1.html"><span class="stop-id">0325</span>Libiąż Górka Moczydlańska (2)</a>
+<a class="stop" href="../rozklady/55/0326-okrezna-1.html"><span class="stop-id">0326</span>Libiąż Krakowska Moczydło (2)</a>
+<a class="stop" href="../rozklady/55/0327-okrezna-1.html"><span class="stop-id">0327</span>Libiąż Sikorskiego Moczydło (1)</a>
+<a class="stop" href="../rozklady/55/0328-okrezna-1.html"><span class="stop-id">0328</span>Libiąż Skotnica (2)</a>
+<a class="stop" href="../rozklady/55/0329-okrezna-1.html"><span class="stop-id">0329</span>Libiąż Makowa (2)</a>
+<a class="stop" href="../rozklady/55/0105-okrezna-1.html"><span class="stop-id">0105</span>Libiąż Kopalnia Janina (0)</a>
+<a class="stop terminal" href="../rozklady/55/0104-okrezna-1.html"><span class="stop-id">0104</span>Libiąż Dworzec Autobusowy (1)</a>
+<a class="stop" href="../rozklady/55/0362-okrezna-1.html"><span class="stop-id">0362</span>Libiąż Urząd Miejski (2)</a>
+<a class="stop" href="../rozklady/55/1526-okrezna-1.html"><span class="stop-id">1526</span>Libiąż Konopnickiej I (1)</a>
+<a class="stop" href="../rozklady/55/1303-okrezna-1.html"><span class="stop-id">1303</span>Libiąż Konopnickiej II (1)</a>
+<a class="stop terminal" href="../rozklady/55/1180-okrezna-1.html"><span class="stop-id">1180</span>Libiąż Partyzantów PKP (0)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Libiąż Partyzantów PKP</h2>
+
+<div class="zone zone-libiaz">STREFA LIBIĄŻ</div>
+
+<a class="stop terminal" href="../rozklady/55/1180-okrezna-2.html"><span class="stop-id">1180</span>Libiąż Partyzantów PKP (0)</a>
+<a class="stop" href="../rozklady/55/1302-okrezna-2.html"><span class="stop-id">1302</span>Libiąż Konopnickiej II (2)</a>
+<a class="stop" href="../rozklady/55/1527-okrezna-2.html"><span class="stop-id">1527</span>Libiąż Konopnickiej I (2)</a>
+<a class="stop" href="../rozklady/55/1185-okrezna-2.html"><span class="stop-id">1185</span>Libiąż Konopnickiej Urząd Miejski (1)</a>
+<a class="stop terminal" href="../rozklady/55/0104-okrezna-2.html"><span class="stop-id">0104</span>Libiąż Dworzec Autobusowy (1)</a>
+<a class="stop" href="../rozklady/55/0105-okrezna-2.html"><span class="stop-id">0105</span>Libiąż Kopalnia Janina (0)</a>
+<a class="stop" href="../rozklady/55/0337-okrezna-2.html"><span class="stop-id">0337</span>Libiąż Makowa (1)</a>
+<a class="stop" href="../rozklady/55/0338-okrezna-2.html"><span class="stop-id">0338</span>Libiąż Skotnica (1)</a>
+<a class="stop" href="../rozklady/55/0339-okrezna-2.html"><span class="stop-id">0339</span>Libiąż Sikorskiego Moczydło (2)</a>
+<a class="stop" href="../rozklady/55/0340-okrezna-2.html"><span class="stop-id">0340</span>Libiąż Krakowska Moczydło (1)</a>
+<a class="stop" href="../rozklady/55/0341-okrezna-2.html"><span class="stop-id">0341</span>Libiąż Górka Moczydlańska (1)</a>
+<a class="stop" href="../rozklady/55/0342-okrezna-2.html"><span class="stop-id">0342</span>Żarki Kościuszki (1)</a>
+<a class="stop" href="../rozklady/55/1088-okrezna-2.html"><span class="stop-id">1088</span>Żarki Centrum (1)</a>
+<a class="stop" href="../rozklady/55/1089-okrezna-2.html"><span class="stop-id">1089</span>Żarki Młyn (1)</a>
+
+<div class="zone zone-babice-alwernia">STREFA BABICE-ALWERNIA</div>
+  
+<a class="stop" href="../rozklady/55/1095-okrezna-2.html"><span class="stop-id">1095</span>Maniska Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/55/1097-okrezna-2.html"><span class="stop-id">1097</span>Maniska Las (1)</a>
+<a class="stop" href="../rozklady/55/1113-okrezna-2.html"><span class="stop-id">1113</span>Chrzanów Borowiec III (1)</a>
+<a class="stop" href="../rozklady/55/1111-okrezna-2.html"><span class="stop-id">1111</span>Zagórze Żelatowa (1)</a>
+<a class="stop" href="../rozklady/55/1109-okrezna-2.html"><span class="stop-id">1109</span>Zagórze Przedszkole (Żelatowa II) (1)</a>
+<a class="stop" href="../rozklady/55/1104-okrezna-2.html"><span class="stop-id">1104</span>Zagórze Kościół (1)</a>
+<a class="stop" href="../rozklady/55/1105-okrezna-2.html"><span class="stop-id">1105</span>Zagórze Poczta (0)</a>
+<a class="stop" href="../rozklady/55/1106-okrezna-2.html"><span class="stop-id">1106</span>Zagórze Piaski (2)</a>
+<a class="stop" href="../rozklady/55/1107-okrezna-2.html"><span class="stop-id">1107</span>Zagórze Kościół (2)</a>
+<a class="stop" href="../rozklady/55/1102-okrezna-2.html"><span class="stop-id">1102</span>Zagórze Wyrowiec II (Sklep) (2)</a>
+<a class="stop" href="../rozklady/55/1100-okrezna-2.html"><span class="stop-id">1100</span>Zagórze Wyrowiec I (Sklep) (2)</a>
+<a class="stop" href="../rozklady/55/1096-okrezna-2.html"><span class="stop-id">1096</span>Maniska Skrzyżowanie (2)</a>
+
+<div class="zone zone-libiaz">STREFA LIBIĄŻ</div>
+  
+<a class="stop" href="../rozklady/55/1090-okrezna-2.html"><span class="stop-id">1090</span>Żarki Młyn (2)</a>
+<a class="stop" href="../rozklady/55/1087-okrezna-2.html"><span class="stop-id">1087</span>Żarki Szkoła (1)</a>
+<a class="stop" href="../rozklady/55/1092-okrezna-2.html"><span class="stop-id">1092</span>Żarki Zagórcze Astronautów (2)</a>
+<a class="stop" href="../rozklady/55/1093-okrezna-2.html"><span class="stop-id">1093</span>Żarki Zagórcze (1)</a>
+<a class="stop" href="../rozklady/55/1173-okrezna-2.html"><span class="stop-id">1173</span>Libiąż Jaworek (2)</a>
+<a class="stop" href="../rozklady/55/2761-okrezna-2.html"><span class="stop-id">2761</span>Libiąż Myśliwska (1)</a>
+<a class="stop" href="../rozklady/55/1176-okrezna-2.html"><span class="stop-id">1176</span>Libiąż Rondo Siedmiu Dróg (2)</a>
+<a class="stop terminal" href="../rozklady/55/0104-okrezna-2.html"><span class="stop-id">0104</span>Libiąż Dworzec Autobusowy (1)</a>
+<a class="stop" href="../rozklady/55/0359-okrezna-2.html"><span class="stop-id">0359</span>Libiąż Os. Flagówka Pawilon (1)</a>
+<a class="stop" href="../rozklady/55/0360-okrezna-2.html"><span class="stop-id">0360</span>Libiąż Os. Flagówka I (1)</a>
+<a class="stop" href="../rozklady/55/0361-okrezna-2.html"><span class="stop-id">0361</span>Libiąż Os. Flagówka II (1)</a>
+<a class="stop" href="../rozklady/55/0362-okrezna-2.html"><span class="stop-id">0362</span>Libiąż Urząd Miejski (2)</a>
+<a class="stop" href="../rozklady/55/1526-okrezna-2.html"><span class="stop-id">1526</span>Libiąż Konopnickiej I (1)</a>
+<a class="stop" href="../rozklady/55/1303-okrezna-2.html"><span class="stop-id">1303</span>Libiąż Konopnickiej II (1)</a>
+<a class="stop terminal" href="../rozklady/55/1180-okrezna-2.html"><span class="stop-id">1180</span>Libiąż Partyzantów PKP (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
