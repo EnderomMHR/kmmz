@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 54</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-boleslaw{
+    background:#cccccc;
+    color:#222;
+}
+
+.zone-bukowno{
+    background:#93c47d;
+    color:#222;
+}
+
+.zone-slawkow{
+    background:#af00ff;
+    color:#222;
+}
+  
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">54</div>
+
+<div class="route">
+(Bukowno Wygiełza Pętla) - Bukowno Dworzec PKP - Wodąca - Krążek - Podlipie - Sławków ZWM
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Sławków ZWM</h2>
+
+<div class="zone zone-bukowno">STREFA BUKOWNO</div>
+
+<a class="stop variant terminal" href="../rozklady/54/2021-slawkow.html"><span class="stop-id">2021</span>Bukowno Wygiełza Pętla (0)</a>
+<a class="stop variant" href="../rozklady/54/2022-slawkow.html"><span class="stop-id">2022</span>Bukowno Starczynowska (2)</a>
+<a class="stop variant" href="../rozklady/54/0146-slawkow.html"><span class="stop-id">0146</span>Bukowno Urząd Miasta (2)</a>
+<a class="stop terminal" href="../rozklady/54/0147-slawkow.html"><span class="stop-id">0147</span>Bukowno Dworzec PKP (0)</a>
+<a class="stop" href="../rozklady/54/0148-slawkow.html"><span class="stop-id">0148</span>Bukowno Urząd Miasta (1)</a>
+<a class="stop" href="../rozklady/54/0250-slawkow.html"><span class="stop-id">0250</span>Bukowno Nowa (1)</a>
+<a class="stop" href="../rozklady/54/0251-slawkow.html"><span class="stop-id">0251</span>Bukowno Nowa OSP (2)</a>
+<a class="stop" href="../rozklady/54/0252-slawkow.html"><span class="stop-id">0252</span>Bukowno Cmentarz (1)</a>
+<a class="stop" href="../rozklady/54/2121-slawkow.html"><span class="stop-id">2121</span>Bukowno Stare Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/54/2122-slawkow.html"><span class="stop-id">2122</span>Bukowno Wodąca (1)</a>
+<a class="stop" href="../rozklady/54/2125-slawkow.html"><span class="stop-id">2125</span>Bukowno Wodąca Krzyżówka (1)</a>
+
+<div class="zone zone-boleslaw">STREFA BOLESŁAW</div>
+  
+<a class="stop" href="../rozklady/54/2108-slawkow.html"><span class="stop-id">2108</span>Krążek Podlipie (1)</a>
+<a class="stop" href="../rozklady/54/2107-slawkow.html"><span class="stop-id">2107</span>Podlipie Remiza (1)</a>
+<a class="stop" href="../rozklady/54/2106-slawkow.html"><span class="stop-id">2106</span>Podlipie Górka (1)</a>
+<a class="stop" href="../rozklady/54/2114-slawkow.html"><span class="stop-id">2114</span>Podlipie Szkoła (2)</a>
+<a class="stop" href="../rozklady/54/2104-slawkow.html"><span class="stop-id">2104</span>Podlipie Sołtysie (1)</a>
+<a class="stop" href="../rozklady/54/2116-slawkow.html"><span class="stop-id">2116</span>Podlipie (2)</a>
+
+<div class="zone zone-slawkow">STREFA SŁAWKÓW</div>
+  
+<a class="stop" href="../rozklady/54/2133-slawkow.html"><span class="stop-id">2133</span>Sławków Walcownia (2)</a>
+<a class="stop" href="../rozklady/54/0485-slawkow.html"><span class="stop-id">0485</span>Sławków Rynek (1)</a>
+<a class="stop" href="../rozklady/54/2134-slawkow.html"><span class="stop-id">2134</span>Sławków Urząd Miasta (Siewierska) (0)</a>
+<a class="stop" href="../rozklady/54/0448-slawkow.html"><span class="stop-id">0448</span>Sławków Olkuska (2)</a>
+<a class="stop terminal" href="../rozklady/54/0449-slawkow.html"><span class="stop-id">0449</span>Sławków ZWM (2)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Bukowno Dworzec PKP</h2>
+
+<div class="zone zone-slawkow">STREFA SŁAWKÓW</div>
+
+<a class="stop terminal" href="../rozklady/54/0483-bukowno.html"><span class="stop-id">0483</span>Sławków ZWM (1)</a>
+<a class="stop" href="../rozklady/54/0484-bukowno.html"><span class="stop-id">0484</span>Sławków Olkuska (1)</a>
+<a class="stop" href="../rozklady/54/2135-bukowno.html"><span class="stop-id">2135</span>Sławków Świętojańska (1)</a>
+<a class="stop" href="../rozklady/54/0447-bukowno.html"><span class="stop-id">0447</span>Sławków Rynek (2)</a>
+<a class="stop" href="../rozklady/54/2132-bukowno.html"><span class="stop-id">2132</span>Sławków Walcownia (1)</a>
+
+<div class="zone zone-boleslaw">STREFA BOLESŁAW</div>
+  
+<a class="stop" href="../rozklady/54/2103-bukowno.html"><span class="stop-id">2103</span>Podlipie (1)</a>
+<a class="stop" href="../rozklady/54/2115-bukowno.html"><span class="stop-id">2115</span>Podlipie Sołtysie (2)</a>
+<a class="stop" href="../rozklady/54/2105-bukowno.html"><span class="stop-id">2105</span>Podlipie Szkoła (1)</a>
+<a class="stop" href="../rozklady/54/2113-bukowno.html"><span class="stop-id">2113</span>Podlipie Górka (2)</a>
+<a class="stop" href="../rozklady/54/2112-bukowno.html"><span class="stop-id">2112</span>Podlipie Remiza (2)</a>
+<a class="stop" href="../rozklady/54/2110-bukowno.html"><span class="stop-id">2110</span>Krążek Stawy (2)</a>
+
+<div class="zone zone-bukowno">STREFA BUKOWNO</div>
+  
+<a class="stop" href="../rozklady/54/2124-bukowno.html"><span class="stop-id">2124</span>Bukowno Wodąca Krzyżówka (2)</a>
+<a class="stop" href="../rozklady/54/2123-bukowno.html"><span class="stop-id">2123</span>Bukowno Wodąca (2)</a>
+<a class="stop" href="../rozklady/54/0142-bukowno.html"><span class="stop-id">0142</span>Bukowno Stare Skrzyżowanie (0)</a>
+<a class="stop" href="../rozklady/54/0143-bukowno.html"><span class="stop-id">0143</span>Bukowno Cmentarz (2)</a>
+<a class="stop" href="../rozklady/54/0144-bukowno.html"><span class="stop-id">0144</span>Bukowno Nowa OSP (1)</a>
+<a class="stop" href="../rozklady/54/0145-bukowno.html"><span class="stop-id">0145</span>Bukowno Nowa (2)</a>
+<a class="stop" href="../rozklady/54/0146-bukowno.html"><span class="stop-id">0146</span>Bukowno Urząd Miasta (2)</a>
+<a class="stop terminal" href="../rozklady/54/0147-bukowno.html"><span class="stop-id">0147</span>Bukowno Dworzec PKP (0)</a>
+<a class="stop variant" href="../rozklady/54/0148-bukowno.html"><span class="stop-id">0148</span>Bukowno Urząd Miasta (1)</a>
+<a class="stop variant" href="../rozklady/54/2023-bukowno.html"><span class="stop-id">2023</span>Bukowno Starczynowska (1)</a>
+<a class="stop variant terminal" href="../rozklady/54/2021-bukowno.html"><span class="stop-id">2021</span>Bukowno Wygiełza Pętla (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
