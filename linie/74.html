@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 74</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-boleslaw{
+    background:#cccccc;
+    color:#222;
+}
+
+.zone-bukowno{
+    background:#93c47d;
+    color:#222;
+}
+
+.zone-olkusz{
+    background:#ffe599;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">74</div>
+
+<div class="route">
+Olkusz Orzeszkowej - Olkusz Dworzec PKP - Bolesław - Krążek - Wodąca - Bukowno Sławkowska Pętla
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Bukowno Sławkowska Pętla</h2>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+
+<a class="stop terminal" href="../rozklady/74/0496-bukowno.html"><span class="stop-id">0496</span>Olkusz Orzeszkowej (0)</a>
+<a class="stop" href="../rozklady/74/2117-bukowno.html"><span class="stop-id">2117</span>Olkusz Nałkowskiej (1)</a>
+<a class="stop" href="../rozklady/74/2120-bukowno.html"><span class="stop-id">2120</span>Olkusz Jana Pawła II (1)</a>
+<a class="stop" href="../rozklady/74/1588-bukowno.html"><span class="stop-id">1588</span>Olkusz Biema (1)</a>
+<a class="stop" href="../rozklady/74/0537-bukowno.html"><span class="stop-id">0537</span>Olkusz ZUS (1)</a>
+<a class="stop" href="../rozklady/74/0538-bukowno.html"><span class="stop-id">0538</span>Olkusz Owent (1)</a>
+<a class="stop" href="../rozklady/74/0225-bukowno.html"><span class="stop-id">0225</span>Olkusz Aleja Tysiąclecia (2)</a>
+<a class="stop" href="../rozklady/74/0226-bukowno.html"><span class="stop-id">0226</span>Olkusz Wiadukt (2)</a>
+<a class="stop" href="../rozklady/74/0227-bukowno.html"><span class="stop-id">0227</span>Olkusz Dworzec PKP (2)</a>
+<a class="stop" href="../rozklady/74/0228-bukowno.html"><span class="stop-id">0228</span>Olkusz Skarbek (1)</a>
+<a class="stop" href="../rozklady/74/0238-bukowno.html"><span class="stop-id">0238</span>Olkusz Supersam (2)</a>
+<a class="stop" href="../rozklady/74/0239-bukowno.html"><span class="stop-id">0239</span>Olkusz Stacja Paliw (2)</a>
+<a class="stop" href="../rozklady/74/0240-bukowno.html"><span class="stop-id">0240</span>Olkusz Stary (1)</a>
+
+<div class="zone zone-boleslaw">STREFA BOLESŁAW</div>
+  
+<a class="stop" href="../rozklady/74/0241-bukowno.html"><span class="stop-id">0241</span>Bolesław Osadowa (1)</a>
+<a class="stop" href="../rozklady/74/0242-bukowno.html"><span class="stop-id">0242</span>Bolesław Dąbrówka (2)</a>
+<a class="stop" href="../rozklady/74/0243-bukowno.html"><span class="stop-id">0243</span>Bolesław Centrum (1)</a>
+<a class="stop" href="../rozklady/74/0244-bukowno.html"><span class="stop-id">0244</span>Bolesław Szkoła (1)</a>
+<a class="stop" href="../rozklady/74/0245-bukowno.html"><span class="stop-id">0245</span>Bolesław Cmentarz (2)</a>
+<a class="stop" href="../rozklady/74/0246-bukowno.html"><span class="stop-id">0246</span>Krążek (2)</a>
+<a class="stop" href="../rozklady/74/2110-bukowno.html"><span class="stop-id">2110</span>Krążek Stawy (2)</a>
+
+<div class="zone zone-bukowno">STREFA BUKOWNO</div>
+  
+<a class="stop" href="../rozklady/74/2124-bukowno.html"><span class="stop-id">2124</span>Bukowno Wodąca Krzyżówka (2)</a>
+<a class="stop" href="../rozklady/74/2123-bukowno.html"><span class="stop-id">2123</span>Bukowno Wodąca (2)</a>
+<a class="stop" href="../rozklady/74/0253-bukowno.html"><span class="stop-id">0253</span>Bukowno Remiza (0)</a>
+<a class="stop" href="../rozklady/74/0254-bukowno.html"><span class="stop-id">0254</span>Bukowno Skotnica (1)</a>
+<a class="stop" href="../rozklady/74/0255-bukowno.html"><span class="stop-id">0255</span>Bukowno Sklep (1)</a>
+<a class="stop" href="../rozklady/74/2163-bukowno.html"><span class="stop-id">2163</span>Bukowno Stare Wieś (1)</a>
+<a class="stop" href="../rozklady/74/2165-bukowno.html"><span class="stop-id">2165</span>Bukowno Świnia Góra (1)</a>
+<a class="stop terminal" href="../rozklady/74/2167-bukowno.html"><span class="stop-id">2167</span>Bukowno Sławkowska Pętla (0)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Olkusz Orzeszkowej</h2>
+
+<div class="zone zone-bukowno">STREFA BUKOWNO</div>
+
+<a class="stop terminal" href="../rozklady/74/2167-olkusz.html"><span class="stop-id">2167</span>Bukowno Sławkowska Pętla (0)</a>
+<a class="stop" href="../rozklady/74/2166-olkusz.html"><span class="stop-id">2166</span>Bukowno Świnia Góra (2)</a>
+<a class="stop" href="../rozklady/74/2164-olkusz.html"><span class="stop-id">2164</span>Bukowno Stare Wieś (2)</a>
+<a class="stop" href="../rozklady/74/0140-olkusz.html"><span class="stop-id">0140</span>Bukowno Sklep (2)</a>
+<a class="stop" href="../rozklady/74/0141-olkusz.html"><span class="stop-id">0141</span>Bukowno Skotnica (2)</a>
+<a class="stop" href="../rozklady/74/2121-olkusz.html"><span class="stop-id">2121</span>Bukowno Stare Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/74/2122-olkusz.html"><span class="stop-id">2122</span>Bukowno Wodąca (1)</a>
+<a class="stop" href="../rozklady/74/2125-olkusz.html"><span class="stop-id">2125</span>Bukowno Wodąca Krzyżówka (1)</a>
+
+<div class="zone zone-boleslaw">STREFA BOLESŁAW</div>
+  
+<a class="stop" href="../rozklady/74/2109-olkusz.html"><span class="stop-id">2109</span>Krążek Stawy (1)</a>
+<a class="stop" href="../rozklady/74/2024-olkusz.html"><span class="stop-id">2024</span>Krążek (1)</a>
+<a class="stop" href="../rozklady/74/0153-olkusz.html"><span class="stop-id">0153</span>Bolesław Cmentarz (1)</a>
+<a class="stop" href="../rozklady/74/0154-olkusz.html"><span class="stop-id">0154</span>Bolesław Szkoła (2)</a>
+<a class="stop" href="../rozklady/74/0155-olkusz.html"><span class="stop-id">0155</span>Bolesław Centrum (2)</a>
+<a class="stop" href="../rozklady/74/0165-olkusz.html"><span class="stop-id">0165</span>Bolesław Dąbrówka (1)</a>
+<a class="stop" href="../rozklady/74/0171-olkusz.html"><span class="stop-id">0171</span>Bolesław Osadowa (2)</a>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+  
+<a class="stop" href="../rozklady/74/0172-olkusz.html"><span class="stop-id">0172</span>Olkusz Stary (2)</a>
+<a class="stop" href="../rozklady/74/0173-olkusz.html"><span class="stop-id">0173</span>Olkusz Stacja Paliw (1)</a>
+<a class="stop" href="../rozklady/74/0174-olkusz.html"><span class="stop-id">0174</span>Olkusz Supersam (0)</a>
+<a class="stop" href="../rozklady/74/0199-olkusz.html"><span class="stop-id">0199</span>Olkusz Skarbek (2)</a>
+<a class="stop" href="../rozklady/74/0201-olkusz.html"><span class="stop-id">0201</span>Olkusz Dworzec PKP (1)</a>
+<a class="stop" href="../rozklady/74/0202-olkusz.html"><span class="stop-id">0202</span>Olkusz Wiadukt (1)</a>
+<a class="stop" href="../rozklady/74/0492-olkusz.html"><span class="stop-id">0492</span>Olkusz Baza PKS (1)</a>
+<a class="stop" href="../rozklady/74/0493-olkusz.html"><span class="stop-id">0493</span>Olkusz Owent (2)</a>
+<a class="stop" href="../rozklady/74/0494-olkusz.html"><span class="stop-id">0494</span>Olkusz ZUS (2)</a>
+<a class="stop" href="../rozklady/74/1589-olkusz.html"><span class="stop-id">1589</span>Olkusz Biema (2)</a>
+<a class="stop" href="../rozklady/74/2119-olkusz.html"><span class="stop-id">2119</span>Olkusz Jana Pawła II (2)</a>
+<a class="stop" href="../rozklady/74/2118-olkusz.html"><span class="stop-id">2118</span>Olkusz Nałkowskiej (2)</a>
+<a class="stop terminal" href="../rozklady/74/0496-olkusz.html"><span class="stop-id">0496</span>Olkusz Orzeszkowej (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
