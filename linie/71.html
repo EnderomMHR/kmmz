@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 71</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-bukowno{
+    background:#ffe599;
+    color:#222;
+}
+
+.zone-trzebinia{
+    background:#d9d2e9;
+    color:#222;
+}
+
+.zone-chrzanow{
+    background:#a4c2f4;
+    color:#222;
+}
+  
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">71</div>
+
+<div class="route">
+Bukowno Bór Biskupi OSP - Podlesie - Czyżówka - Płoki - Myślachowice - Trzebinia - Chrzanów Fablok
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Chrzanów Fablok</h2>
+
+<div class="zone zone-bukowno">STREFA BUKOWNO</div>
+
+<a class="stop terminal" href="../rozklady/71/0735-chrzanow.html"><span class="stop-id">0735</span>Bukowno Bór Biskupi OSP (0)</a>
+<a class="stop" href="../rozklady/71/0736-chrzanow.html"><span class="stop-id">0736</span>Bukowno Bór Biskupi Pętla (0)</a>
+<a class="stop" href="../rozklady/71/0737-chrzanow.html"><span class="stop-id">0737</span>Bukowno Bór Biskupi (2)</a>
+<a class="stop" href="../rozklady/71/0738-chrzanow.html"><span class="stop-id">0738</span>Bukowno Bór Biskupi Przeń (1)</a>
+<a class="stop" href="../rozklady/71/0739-chrzanow.html"><span class="stop-id">0739</span>Bukowno Borowska (2)</a>
+<a class="stop" href="../rozklady/71/0740-chrzanow.html"><span class="stop-id">0740</span>Bukowno Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/71/0741-chrzanow.html"><span class="stop-id">0741</span>Bukowno Kościół (2)</a>
+<a class="stop" href="../rozklady/71/0742-chrzanow.html"><span class="stop-id">0742</span>Bukowno Tunel (2)</a>
+<a class="stop" href="../rozklady/71/1497-chrzanow.html"><span class="stop-id">1497</span>Bukowno Pocztowa (1)</a>
+<a class="stop" href="../rozklady/71/1495-chrzanow.html"><span class="stop-id">1495</span>Bukowno Mostowa (1)</a>
+<a class="stop" href="../rozklady/71/0965-chrzanow.html"><span class="stop-id">0965</span>Bukowno Ogrodowa (2)</a>
+<a class="stop" href="../rozklady/71/0963-chrzanow.html"><span class="stop-id">0963</span>Bukowno Ogrodowa na żądanie (2)</a>
+<a class="stop" href="../rozklady/71/0956-chrzanow.html"><span class="stop-id">0956</span>Bukowno Diabla Góra (2)</a>
+<a class="stop" href="../rozklady/71/0958-chrzanow.html"><span class="stop-id">0958</span>Bukowno Podlesie Ogrodowa (2)</a>
+<a class="stop" href="../rozklady/71/0960-chrzanow.html"><span class="stop-id">0960</span>Bukowno Podlesie Kościół (1)</a>
+<a class="stop" href="../rozklady/71/0959-chrzanow.html"><span class="stop-id">0959</span>Bukowno Podlesie Ogrodowa Pętla (0)</a>
+<a class="stop" href="../rozklady/71/0961-chrzanow.html"><span class="stop-id">0961</span>Bukowno Podlesie Kościół (2)</a>
+
+<div class="zone zone-trzebinia">STREFA TRZEBINIA</div>
+  
+<a class="stop" href="../rozklady/71/2921-chrzanow.html"><span class="stop-id">2921</span>Czyżówka Pętla (1)</a>
+<a class="stop" href="../rozklady/71/0925-chrzanow.html"><span class="stop-id">0925</span>Czyżówka Kaplica (2)</a>
+<a class="stop" href="../rozklady/71/0803-chrzanow.html"><span class="stop-id">0803</span>Płoki Plac Zabaw (1)</a>
+<a class="stop" href="../rozklady/71/0804-chrzanow.html"><span class="stop-id">0804</span>Płoki Centrum (1)</a>
+<a class="stop" href="../rozklady/71/0806-chrzanow.html"><span class="stop-id">0806</span>Płoki Leśniczówka (1)</a>
+<a class="stop" href="../rozklady/71/0929-chrzanow.html"><span class="stop-id">0929</span>Myślachowice RSP (1)</a>
+<a class="stop" href="../rozklady/71/0936-chrzanow.html"><span class="stop-id">0936</span>Myślachowice Centrum (1)</a>
+<a class="stop" href="../rozklady/71/0942-chrzanow.html"><span class="stop-id">0942</span>Trzebinia Zbyszek (2)</a>
+<a class="stop" href="../rozklady/71/0981-chrzanow.html"><span class="stop-id">0981</span>Trzebinia Kościół (3)</a>
+<a class="stop" href="../rozklady/71/0984-chrzanow.html"><span class="stop-id">0984</span>Trzebinia Parkowa (1)</a>
+<a class="stop" href="../rozklady/71/1510-chrzanow.html"><span class="stop-id">1510</span>Trzebinia Parkowa Boisko (0)</a>
+<a class="stop" href="../rozklady/71/0985-chrzanow.html"><span class="stop-id">0985</span>Trzebinia Parkowa (2)</a>
+<a class="stop" href="../rozklady/71/0978-chrzanow.html"><span class="stop-id">0978</span>Trzebinia Górka Dwór (1)</a>
+<a class="stop" href="../rozklady/71/1028-chrzanow.html"><span class="stop-id">1028</span>Trzebinia Balaton (2)</a>
+<a class="stop variant" href="../rozklady/71/0982-chrzanow.html"><span class="stop-id">0982</span>Trzebinia Piłsudskiego Kościół (2)</a>
+<a class="stop" href="../rozklady/71/0088-chrzanow.html"><span class="stop-id">0088</span>Trzebinia Mały Rynek Kościuszki (0)</a>
+<a class="stop" href="../rozklady/71/0089-chrzanow.html"><span class="stop-id">0089</span>Trzebinia Dworzec PKP (1)</a>
+<a class="stop" href="../rozklady/71/0090-chrzanow.html"><span class="stop-id">0090</span>Trzebinia Długa (1)</a>
+<a class="stop" href="../rozklady/71/0091-chrzanow.html"><span class="stop-id">0091</span>Trzebinia Berezka (2)</a>
+
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+  
+<a class="stop" href="../rozklady/71/0397-chrzanow.html"><span class="stop-id">0397</span>Chrzanów Trzebińska (1)</a>
+<a class="stop" href="../rozklady/71/0681-chrzanow.html"><span class="stop-id">0681</span>Chrzanów Dworzec PKP (2)</a>
+<a class="stop terminal" href="../rozklady/71/0682-chrzanow.html"><span class="stop-id">0682</span>Chrzanów Fablok (0)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Bukowno Bór Biskupi OSP</h2>
+
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+
+<a class="stop terminal" href="../rozklady/71/0682-bukowno.html"><span class="stop-id">0682</span>Chrzanów Fablok (0)</a>
+<a class="stop" href="../rozklady/71/0683-bukowno.html"><span class="stop-id">0683</span>Chrzanów Dworzec PKP (1)</a>
+<a class="stop" href="../rozklady/71/0333-bukowno.html"><span class="stop-id">0333</span>Chrzanów Podwale (1)</a>
+<a class="stop" href="../rozklady/71/0398-bukowno.html"><span class="stop-id">0398</span>Chrzanów Trzebińska (2)</a>
+
+<div class="zone zone-trzebinia">STREFA TRZEBINIA</div>
+  
+<a class="stop" href="../rozklady/71/0120-bukowno.html"><span class="stop-id">0120</span>Trzebinia Berezka (1)</a>
+<a class="stop" href="../rozklady/71/0121-bukowno.html"><span class="stop-id">0121</span>Trzebinia Długa (2)</a>
+<a class="stop" href="../rozklady/71/0122-bukowno.html"><span class="stop-id">0122</span>Trzebinia Dworzec PKP (2)</a>
+<a class="stop" href="../rozklady/71/3295-bukowno.html"><span class="stop-id">3295</span>Trzebinia Mały Rynek (1)</a>
+<a class="stop" href="../rozklady/71/1027-bukowno.html"><span class="stop-id">1027</span>Trzebinia Balaton (1)</a>
+<a class="stop" href="../rozklady/71/0980-bukowno.html"><span class="stop-id">0980</span>Trzebinia Spokojna Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/71/0984-bukowno.html"><span class="stop-id">0984</span>Trzebinia Parkowa (1)</a>
+<a class="stop" href="../rozklady/71/1510-bukowno.html"><span class="stop-id">1510</span>Trzebinia Parkowa Boisko (0)</a>
+<a class="stop" href="../rozklady/71/0985-bukowno.html"><span class="stop-id">0985</span>Trzebinia Parkowa (2)</a>
+<a class="stop" href="../rozklady/71/0983-bukowno.html"><span class="stop-id">0983</span>Trzebinia Piłsudskiego Kościół (1)</a>
+<a class="stop" href="../rozklady/71/0941-bukowno.html"><span class="stop-id">0941</span>Trzebinia Zbyszek (1)</a>
+<a class="stop" href="../rozklady/71/0937-bukowno.html"><span class="stop-id">0937</span>Myślachowice Centrum (2)</a>
+<a class="stop" href="../rozklady/71/1511-bukowno.html"><span class="stop-id">1511</span>Myślachowice RSP (2)</a>
+<a class="stop" href="../rozklady/71/0807-bukowno.html"><span class="stop-id">0807</span>Płoki Leśniczówka (2)</a>
+<a class="stop" href="../rozklady/71/0805-bukowno.html"><span class="stop-id">0805</span>Płoki Centrum (2)</a>
+<a class="stop" href="../rozklady/71/1522-bukowno.html"><span class="stop-id">1522</span>Płoki Plac Zabaw (2)</a>
+<a class="stop" href="../rozklady/71/0924-bukowno.html"><span class="stop-id">0924</span>Czyżówka Kaplica (1)</a>
+<a class="stop" href="../rozklady/71/2921-bukowno.html"><span class="stop-id">2921</span>Czyżówka Pętla (1)</a>
+
+<div class="zone zone-bukowno">STREFA BUKOWNO</div>
+  
+<a class="stop" href="../rozklady/71/0960-bukowno.html"><span class="stop-id">0960</span>Bukowno Podlesie Kościół (1)</a>
+<a class="stop" href="../rozklady/71/0959-bukowno.html"><span class="stop-id">0959</span>Bukowno Podlesie Ogrodowa Pętla (0)</a>
+<a class="stop" href="../rozklady/71/0961-bukowno.html"><span class="stop-id">0961</span>Bukowno Podlesie Kościół (2)</a>
+<a class="stop" href="../rozklady/71/0957-bukowno.html"><span class="stop-id">0957</span>Bukowno Podlesie Ogrodowa (1)</a>
+<a class="stop" href="../rozklady/71/0955-bukowno.html"><span class="stop-id">0955</span>Bukowno Diabla Góra (1)</a>
+<a class="stop" href="../rozklady/71/0962-bukowno.html"><span class="stop-id">0962</span>Bukowno Ogrodowa na żądanie (1)</a>
+<a class="stop" href="../rozklady/71/0964-bukowno.html"><span class="stop-id">0964</span>Bukowno Ogrodowa (1)</a>
+<a class="stop" href="../rozklady/71/1496-bukowno.html"><span class="stop-id">1496</span>Bukowno Mostowa (2)</a>
+<a class="stop" href="../rozklady/71/1498-bukowno.html"><span class="stop-id">1498</span>Bukowno Pocztowa (2)</a>
+<a class="stop" href="../rozklady/71/0729-bukowno.html"><span class="stop-id">0729</span>Bukowno Tunel (1)</a>
+<a class="stop" href="../rozklady/71/0730-bukowno.html"><span class="stop-id">0730</span>Bukowno Kościół (1)</a>
+<a class="stop" href="../rozklady/71/0731-bukowno.html"><span class="stop-id">0731</span>Bukowno Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/71/0732-bukowno.html"><span class="stop-id">0732</span>Bukowno Borowska (1)</a>
+<a class="stop" href="../rozklady/71/0733-bukowno.html"><span class="stop-id">0733</span>Bukowno Bór Biskupi Przeń (2)</a>
+<a class="stop" href="../rozklady/71/0734-bukowno.html"><span class="stop-id">0734</span>Bukowno Bór Biskupi (1)</a>
+<a class="stop terminal" href="../rozklady/71/0735-bukowno.html"><span class="stop-id">0735</span>Bukowno Bór Biskupi OSP (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
