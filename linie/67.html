@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 67</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-wolbrom{
+    background:#2a8be8;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">67</div>
+
+<div class="route">
+Załęże Most - Domaniewice - Dłużec - Lgota Wolbromska - Zarzecze - Chrząstowice - Gołaczewy - Chełm - Wolbrom Osiedle Chrobrego
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Wolbrom Osiedle Chrobrego</h2>
+
+<div class="zone zone-wolbrom">STREFA WOLBROM</div>
+
+<a class="stop terminal" href="../rozklady/67/2305-wolbrom.html"><span class="stop-id">2305</span>Załęże Most (2)</a>
+<a class="stop" href="../rozklady/67/2293-wolbrom.html"><span class="stop-id">2293</span>Domaniewice Lasek Domaniewicki (1)</a>
+<a class="stop" href="../rozklady/67/2294-wolbrom.html"><span class="stop-id">2294</span>Domaniewice (1)</a>
+<a class="stop" href="../rozklady/67/2331-wolbrom.html"><span class="stop-id">2331</span>Domaniewice Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/67/2310-wolbrom.html"><span class="stop-id">2310</span>Domaniewice Remiza (0)</a>
+<a class="stop" href="../rozklady/67/2311-wolbrom.html"><span class="stop-id">2311</span>Domaniewice Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/67/2295-wolbrom.html"><span class="stop-id">2295</span>Dłużec Granica (1)</a>
+<a class="stop" href="../rozklady/67/2301-wolbrom.html"><span class="stop-id">2301</span>Dłużec Niezdara (2)</a>
+<a class="stop" href="../rozklady/67/2297-wolbrom.html"><span class="stop-id">2297</span>Dłużec Nowa Wieś (1)</a>
+<a class="stop" href="../rozklady/67/2298-wolbrom.html"><span class="stop-id">2298</span>Dłużec Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/67/2907-wolbrom.html"><span class="stop-id">2907</span>Dłużec (1)</a>
+<a class="stop" href="../rozklady/67/2330-wolbrom.html"><span class="stop-id">2330</span>Dłużec Kościół (1)</a>
+<a class="stop" href="../rozklady/67/2314-wolbrom.html"><span class="stop-id">2314</span>Dłużec Rędziny (2)</a>
+<a class="stop" href="../rozklady/67/2312-wolbrom.html"><span class="stop-id">2312</span>Lgota Wolbromska Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/67/2406-wolbrom.html"><span class="stop-id">2406</span>Zarzecze Piastowska (1)</a>
+<a class="stop" href="../rozklady/67/2419-wolbrom.html"><span class="stop-id">2419</span>Zarzecze Szkoła (2)</a>
+<a class="stop" href="../rozklady/67/2418-wolbrom.html"><span class="stop-id">2418</span>Zarzecze (2)</a>
+<a class="stop" href="../rozklady/67/2332-wolbrom.html"><span class="stop-id">2332</span>Zarzecze Zacisze (1)</a>
+<a class="stop" href="../rozklady/67/2411-wolbrom.html"><span class="stop-id">2411</span>Zarzecze Wyzwolenia (1)</a>
+<a class="stop" href="../rozklady/67/2410-wolbrom.html"><span class="stop-id">2410</span>Zarzecze II (1)</a>
+<a class="stop" href="../rozklady/67/2417-wolbrom.html"><span class="stop-id">2417</span>Zarzecze III (2)</a>
+<a class="stop" href="../rozklady/67/2412-wolbrom.html"><span class="stop-id">2412</span>Chrząstowice (1)</a>
+<a class="stop" href="../rozklady/67/2275-wolbrom.html"><span class="stop-id">2275</span>Gołaczewy Chrząstowice (2)</a>
+<a class="stop" href="../rozklady/67/2290-wolbrom.html"><span class="stop-id">2290</span>Gołaczewy I (1)</a>
+<a class="stop" href="../rozklady/67/2328-wolbrom.html"><span class="stop-id">2328</span>Gołaczewy Centrum (1)</a>
+<a class="stop" href="../rozklady/67/2327-wolbrom.html"><span class="stop-id">2327</span>Gołaczewy Chełmska (1)</a>
+<a class="stop" href="../rozklady/67/2326-wolbrom.html"><span class="stop-id">2326</span>Chełm Podgórska (1)</a>
+<a class="stop" href="../rozklady/67/2402-wolbrom.html"><span class="stop-id">2402</span>Chełm Szkoła (1)</a>
+<a class="stop" href="../rozklady/67/2404-wolbrom.html"><span class="stop-id">2404</span>Chełm Grabie (1)</a>
+<a class="stop" href="../rozklady/67/0028-wolbrom.html"><span class="stop-id">0028</span>Wolbrom Ośrodek Zdrowia (1)</a>
+<a class="stop" href="../rozklady/67/0027-wolbrom.html"><span class="stop-id">0027</span>Wolbrom Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/67/0001-wolbrom.html"><span class="stop-id">0001</span>Wolbrom Nowa PKS (0)</a>
+<a class="stop terminal" href="../rozklady/67/0002-wolbrom.html"><span class="stop-id">0002</span>Wolbrom Osiedle Chrobrego (1)</a>
+
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Załęże Most</h2>
+
+<div class="zone zone-wolbrom">STREFA WOLBROM</div>
+  
+<a class="stop terminal" href="../rozklady/67/0002-zaleze.html"><span class="stop-id">0002</span>Wolbrom Osiedle Chrobrego (1)</a>
+<a class="stop" href="../rozklady/67/0001-zaleze.html"><span class="stop-id">0001</span>Wolbrom Nowa PKS (0)</a>
+<a class="stop" href="../rozklady/67/0026-zaleze.html"><span class="stop-id">0026</span>Wolbrom Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/67/0028-zaleze.html"><span class="stop-id">0028</span>Wolbrom Ośrodek Zdrowia (1)</a>
+<a class="stop" href="../rozklady/67/2401-zaleze.html"><span class="stop-id">2401</span>Chełm Grabie (2)</a>
+<a class="stop" href="../rozklady/67/2403-zaleze.html"><span class="stop-id">2403</span>Chełm Szkoła (2)</a>
+<a class="stop" href="../rozklady/67/2317-zaleze.html"><span class="stop-id">2317</span>Chełm Podgórska (2)</a>
+<a class="stop" href="../rozklady/67/2316-zaleze.html"><span class="stop-id">2316</span>Gołaczewy Chełmska (2)</a>
+<a class="stop" href="../rozklady/67/2315-zaleze.html"><span class="stop-id">2315</span>Gołaczewy Centrum (2)</a>
+<a class="stop" href="../rozklady/67/2307-zaleze.html"><span class="stop-id">2307</span>Gołaczewy I (2)</a>
+<a class="stop" href="../rozklady/67/3294-zaleze.html"><span class="stop-id">3294</span>Chrząstowice (2)</a>
+<a class="stop" href="../rozklady/67/2409-zaleze.html"><span class="stop-id">2409</span>Zarzecze III (1)</a>
+<a class="stop" href="../rozklady/67/2416-zaleze.html"><span class="stop-id">2416</span>Zarzecze II (2)</a>
+<a class="stop" href="../rozklady/67/2415-zaleze.html"><span class="stop-id">2415</span>Zarzecze Wyzwolenia (2)</a>
+<a class="stop" href="../rozklady/67/2333-zaleze.html"><span class="stop-id">2333</span>Zarzecze Zacisze (2)</a>
+<a class="stop" href="../rozklady/67/2408-zaleze.html"><span class="stop-id">2408</span>Zarzecze (1)</a>
+<a class="stop" href="../rozklady/67/2407-zaleze.html"><span class="stop-id">2407</span>Zarzecze Szkoła (1)</a>
+<a class="stop" href="../rozklady/67/2420-zaleze.html"><span class="stop-id">2420</span>Zarzecze Piastowska (2)</a>
+<a class="stop terminal" href="../rozklady/67/2405-zaleze.html"><span class="stop-id">2405</span>Lgota Wolbromska Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/67/2329-zaleze.html"><span class="stop-id">2329</span>Dłużec Rędziny (1)</a>
+<a class="stop" href="../rozklady/67/2313-zaleze.html"><span class="stop-id">2313</span>Dłużec Kościół (2)</a>
+<a class="stop" href="../rozklady/67/2421-zaleze.html"><span class="stop-id">2421</span>Dłużec Ośrodek Zdrowia (1)</a>
+<a class="stop" href="../rozklady/67/2300-zaleze.html"><span class="stop-id">2300</span>Dłużec Nowa Wieś (2)</a>
+<a class="stop" href="../rozklady/67/2296-zaleze.html"><span class="stop-id">2296</span>Dłużec Niezdara (1)</a>
+<a class="stop" href="../rozklady/67/2302-zaleze.html"><span class="stop-id">2302</span>Dłużec Granica (2)</a>
+<a class="stop" href="../rozklady/67/2331-zaleze.html"><span class="stop-id">2331</span>Domaniewice Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/67/2310-zaleze.html"><span class="stop-id">2310</span>Domaniewice Remiza (0)</a>
+<a class="stop" href="../rozklady/67/2311-zaleze.html"><span class="stop-id">2311</span>Domaniewice Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/67/2303-zaleze.html"><span class="stop-id">2303</span>Domaniewice (2)</a>
+<a class="stop" href="../rozklady/67/2304-zaleze.html"><span class="stop-id">2304</span>Domaniewice Lasek Domaniewicki (2)</a>
+<a class="stop terminal" href="../rozklady/67/2292-zaleze.html"><span class="stop-id">2292</span>Załęże Most (1)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
