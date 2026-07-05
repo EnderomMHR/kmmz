@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 63</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-olkusz{
+    background:#ffe599;
+    color:#222;
+}
+
+.zone-trzebinia{
+    background:#d9d2e9;
+    color:#222;
+}
+
+.zone-bukowno{
+    background:#93c47d;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">63</div>
+
+<div class="route">
+Bukowno Sławkowska Pętla - Bukowno Stare - Bukowno Dworzec PKP - (Mazaniec) - (Olkusz) - (Żurada) - (Niesułowice) - (Lgota Szkoła)
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Bukowno Dworzec PKP</h2>
+
+<div class="zone zone-bukowno">STREFA BUKOWNO</div>
+
+<a class="stop terminal" href="../rozklady/63/2167-pkp.html"><span class="stop-id">2167</span>Bukowno Sławkowska Pętla (0)</a>
+<a class="stop" href="../rozklady/63/2166-pkp.html"><span class="stop-id">2166</span>Bukowno Świnia Góra (2)</a>
+<a class="stop" href="../rozklady/63/2164-pkp.html"><span class="stop-id">2164</span>Bukowno Stare Wieś (2)</a>
+<a class="stop" href="../rozklady/63/0140-pkp.html"><span class="stop-id">0140</span>Bukowno Sklep (2)</a>
+<a class="stop" href="../rozklady/63/0141-pkp.html"><span class="stop-id">0141</span>Bukowno Skotnica (2)</a>
+<a class="stop" href="../rozklady/63/0142-pkp.html"><span class="stop-id">0142</span>Bukowno Stare Skrzyżowanie (0)</a>
+<a class="stop" href="../rozklady/63/0143-pkp.html"><span class="stop-id">0143</span>Bukowno Cmentarz (2)</a>
+<a class="stop" href="../rozklady/63/0144-pkp.html"><span class="stop-id">0144</span>Bukowno Nowa OSP (1)</a>
+<a class="stop" href="../rozklady/63/0145-pkp.html"><span class="stop-id">0145</span>Bukowno Nowa (2)</a>
+<a class="stop" href="../rozklady/63/0146-pkp.html"><span class="stop-id">0146</span>Bukowno Urząd Miasta (2)</a>
+<a class="stop terminal" href="../rozklady/63/0147-pkp.html"><span class="stop-id">0147</span>Bukowno Dworzec PKP (0)</a>
+<a class="stop variant" href="../rozklady/63/0148-pkp.html"><span class="stop-id">0148</span>Bukowno Urząd Miasta (1)</a>
+<a class="stop variant" href="../rozklady/63/0724-pkp.html"><span class="stop-id">0724</span>Bukowno Leśna (1)</a>
+<a class="stop variant" href="../rozklady/63/0725-pkp.html"><span class="stop-id">0725</span>Bukowno Leśna Krzyżówka (2)</a>
+<a class="stop variant" href="../rozklady/63/0726-pkp.html"><span class="stop-id">0726</span>Bukowno Leśna Pętla (0)</a>
+<a class="stop variant" href="../rozklady/63/1702-pkp.html"><span class="stop-id">1702</span>Bukowno Parking (2)</a>
+<a class="stop variant" href="../rozklady/63/1704-pkp.html"><span class="stop-id">1704</span>Bukowno Polis (2)</a>
+<a class="stop variant" href="../rozklady/63/1706-pkp.html"><span class="stop-id">1706</span>Bukowno Leśniczówka (2)</a>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+  
+<a class="stop variant" href="../rozklady/63/0235-pkp.html"><span class="stop-id">0235</span>Olkusz Mazaniec (2)</a>
+<a class="stop variant" href="../rozklady/63/0236-pkp.html"><span class="stop-id">0236</span>Olkusz Mazaniec Boczna (2)</a>
+<a class="stop variant" href="../rozklady/63/0237-pkp.html"><span class="stop-id">0237</span>Olkusz Żuradzka (1)</a>
+<a class="stop variant" href="../rozklady/63/0177-pkp.html"><span class="stop-id">0177</span>Olkusz Szpitalna (2)</a>
+<a class="stop variant" href="../rozklady/63/0229-pkp.html"><span class="stop-id">0229</span>Olkusz Basen (2)</a>
+<a class="stop variant" href="../rozklady/63/0496-pkp.html"><span class="stop-id">0496</span>Olkusz Orzeszkowej (0)</a>
+<a class="stop variant" href="../rozklady/63/0230-pkp.html"><span class="stop-id">0230</span>Olkusz Kamyk (2)</a>
+<a class="stop variant" href="../rozklady/63/1516-pkp.html"><span class="stop-id">1516</span>Żurada (2)</a>
+<a class="stop variant" href="../rozklady/63/1517-pkp.html"><span class="stop-id">1517</span>Niesułowice Galicyjska (1)</a>
+<a class="stop variant" href="../rozklady/63/1518-pkp.html"><span class="stop-id">1518</span>Niesułowice Centrum (1)</a>
+
+<div class="zone zone-trzebinia">STREFA TRZEBINIA</div>
+  
+<a class="stop variant terminal" href="../rozklady/63/0946-pkp.html"><span class="stop-id">0946</span>Lgota Szkoła (1)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Bukowno Sławkowska Pętla</h2>
+
+<div class="zone zone-trzebinia">STREFA TRZEBINIA</div>
+
+<a class="stop variant terminal" href="../rozklady/63/0946-slawkowska.html"><span class="stop-id">0946</span>Lgota Szkoła (1)</a>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+  
+<a class="stop variant" href="../rozklady/63/1514-slawkowska.html"><span class="stop-id">1514</span>Niesułowice Centrum (2)</a>
+<a class="stop variant" href="../rozklady/63/1515-slawkowska.html"><span class="stop-id">1515</span>Niesułowice Galicyjska (2)</a>
+<a class="stop variant" href="../rozklady/63/0195-slawkowska.html"><span class="stop-id">0195</span>Żurada (1)</a>
+<a class="stop variant" href="../rozklady/63/0196-slawkowska.html"><span class="stop-id">0196</span>Olkusz Kamyk (1)</a>
+<a class="stop variant" href="../rozklady/63/0496-slawkowska.html"><span class="stop-id">0496</span>Olkusz Orzeszkowej (0)</a>
+<a class="stop variant" href="../rozklady/63/0197-slawkowska.html"><span class="stop-id">0197</span>Olkusz Basen (1)</a>
+<a class="stop variant" href="../rozklady/63/0198-slawkowska.html"><span class="stop-id">0198</span>Olkusz Dworek Machnickich (0)</a>
+<a class="stop variant" href="../rozklady/63/0175-slawkowska.html"><span class="stop-id">0175</span>Olkusz Górnicza (1)</a>
+<a class="stop variant" href="../rozklady/63/0176-slawkowska.html"><span class="stop-id">0176</span>Olkusz Mickiewicza (1)</a>
+<a class="stop variant" href="../rozklady/63/0178-slawkowska.html"><span class="stop-id">0178</span>Olkusz Szpitalna (1)</a>
+<a class="stop variant" href="../rozklady/63/0179-slawkowska.html"><span class="stop-id">0179</span>Olkusz Żuradzka (2)</a>
+<a class="stop variant" href="../rozklady/63/0180-slawkowska.html"><span class="stop-id">0180</span>Olkusz Mazaniec Boczna (1)</a>
+<a class="stop variant" href="../rozklady/63/0181-slawkowska.html"><span class="stop-id">0181</span>Olkusz Mazaniec (1)</a>
+
+<div class="zone zone-bukowno">STREFA BUKOWNO</div>
+  
+<a class="stop variant" href="../rozklady/63/1705-slawkowska.html"><span class="stop-id">1705</span>Bukowno Leśniczówka (1)</a>
+<a class="stop variant" href="../rozklady/63/1703-slawkowska.html"><span class="stop-id">1703</span>Bukowno Polis (1)</a>
+<a class="stop variant" href="../rozklady/63/1701-slawkowska.html"><span class="stop-id">1701</span>Bukowno Parking (1)</a>
+<a class="stop variant" href="../rozklady/63/0726-slawkowska.html"><span class="stop-id">0726</span>Bukowno Leśna Pętla (0)</a>
+<a class="stop variant" href="../rozklady/63/0745-slawkowska.html"><span class="stop-id">0745</span>Bukowno Leśna Krzyżówka (1)</a>
+<a class="stop variant" href="../rozklady/63/0746-slawkowska.html"><span class="stop-id">0746</span>Bukowno Leśna (2)</a>
+<a class="stop variant" href="../rozklady/63/0146-slawkowska.html"><span class="stop-id">0146</span>Bukowno Urząd Miasta (2)</a>
+<a class="stop terminal" href="../rozklady/63/0147-slawkowska.html"><span class="stop-id">0147</span>Bukowno Dworzec PKP (0)</a>
+<a class="stop" href="../rozklady/63/0148-slawkowska.html"><span class="stop-id">0148</span>Bukowno Urząd Miasta (1)</a>
+<a class="stop" href="../rozklady/63/0250-slawkowska.html"><span class="stop-id">0250</span>Bukowno Nowa (1)</a>
+<a class="stop" href="../rozklady/63/0251-slawkowska.html"><span class="stop-id">0251</span>Bukowno Nowa OSP (2)</a>
+<a class="stop" href="../rozklady/63/0252-slawkowska.html"><span class="stop-id">0252</span>Bukowno Cmentarz (1)</a>
+<a class="stop" href="../rozklady/63/0253-slawkowska.html"><span class="stop-id">0253</span>Bukowno Remiza (0)</a>
+<a class="stop" href="../rozklady/63/0254-slawkowska.html"><span class="stop-id">0254</span>Bukowno Skotnica (1)</a>
+<a class="stop" href="../rozklady/63/0255-slawkowska.html"><span class="stop-id">0255</span>Bukowno Sklep (1)</a>
+<a class="stop" href="../rozklady/63/2163-slawkowska.html"><span class="stop-id">2163</span>Bukowno Stare Wieś (1)</a>
+<a class="stop" href="../rozklady/63/2165-slawkowska.html"><span class="stop-id">2165</span>Bukowno Świnia Góra (1)</a>
+<a class="stop terminal" href="../rozklady/63/2167-slawkowska.html"><span class="stop-id">2167</span>Bukowno Sławkowska Pętla (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
