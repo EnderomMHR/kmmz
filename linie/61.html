@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 61</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.columns.single-column {
+  display: block;
+}
+
+.columns.single-column .column {
+  max-width: 560px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.columns.single-column .stop {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left: 28px;
+    padding-left: 42px;
+    width: calc(100% - 28px);
+    box-sizing: border-box;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.column .stop.variant {
+  margin-left: 28px;
+  width: auto;
+  box-sizing: border-box;
+  font-style: italic;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-olkusz{
+    background:#ffe599;
+    color:#222;
+}
+
+.zone-klucze{
+    background:#00fe00;
+    color:#222;
+}
+
+@media (max-width: 700px) {
+  .columns.single-column .column {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+  
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">61</div>
+
+<div class="route">
+Olkusz Dworzec PKS - Bogucin Mały - Bogucin Duży - Klucze - Jaroszowiec - Kolbark - Bydlin - Krzywopłoty - Bydlin - Kolbark - Jaroszowiec - Klucze - Bogucin Duży - Bogucin Mały - Olkusz Dworzec PKS
+</div>
+
+<div class="columns single-column">
+
+<div class="column">
+
+<h2>Kierunek: Olkusz Dworzec PKS</h2>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+
+<a class="stop terminal" href="../rozklady/61/0200-okrezna.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
+<a class="stop" href="../rozklady/61/0228-okrezna.html"><span class="stop-id">0228</span>Olkusz Skarbek (1)</a>
+<a class="stop" href="../rozklady/61/0238-okrezna.html"><span class="stop-id">0238</span>Olkusz Supersam (2)</a>
+<a class="stop" href="../rozklady/61/0685-okrezna.html"><span class="stop-id">0685</span>Olkusz Kasztanowa (2)</a>
+<a class="stop" href="../rozklady/61/0686-okrezna.html"><span class="stop-id">0686</span>Olkusz Parcze (2)</a>
+<a class="stop" href="../rozklady/61/0687-okrezna.html"><span class="stop-id">0687</span>Bogucin Mały (1)</a>
+
+<div class="zone zone-klucze">STREFA KLUCZE</div>
+  
+<a class="stop" href="../rozklady/61/2178-okrezna.html"><span class="stop-id">2178</span>Bogucin Duży Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/61/2176-okrezna.html"><span class="stop-id">2176</span>Klucze Kościół (2)</a>
+<a class="stop" href="../rozklady/61/0513-okrezna.html"><span class="stop-id">0513</span>Klucze Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/61/0514-okrezna.html"><span class="stop-id">0514</span>Klucze PKS (1)</a>
+<a class="stop" href="../rozklady/61/0515-okrezna.html"><span class="stop-id">0515</span>Jaroszowiec Szkoła (1)</a>
+<a class="stop" href="../rozklady/61/0516-okrezna.html"><span class="stop-id">0516</span>Jaroszowiec Huta Szkłomasz (2)</a>
+<a class="stop" href="../rozklady/61/0517-okrezna.html"><span class="stop-id">0517</span>Jaroszowiec Dworzec PKP (2)</a>
+<a class="stop" href="../rozklady/61/2206-okrezna.html"><span class="stop-id">2206</span>Jaroszowiec Porąbka (1)</a>
+<a class="stop" href="../rozklady/61/2207-okrezna.html"><span class="stop-id">2207</span>Jaroszowiec Kobylica (1)</a>
+<a class="stop" href="../rozklady/61/2208-okrezna.html"><span class="stop-id">2208</span>Kolbark (1)</a>
+<a class="stop" href="../rozklady/61/2209-okrezna.html"><span class="stop-id">2209</span>Bydlin Ośrodek Zdrowia (1)</a>
+<a class="stop" href="../rozklady/61/2211-okrezna.html"><span class="stop-id">2211</span>Bydlin Kościół (1)</a>
+<a class="stop" href="../rozklady/61/2212-okrezna.html"><span class="stop-id">2212</span>Bydlin Szkoła (1)</a>
+<a class="stop" href="../rozklady/61/2216-okrezna.html"><span class="stop-id">2216</span>Bydlin Cmentarz (2)</a>
+<a class="stop" href="../rozklady/61/2226-okrezna.html"><span class="stop-id">2226</span>Bydlin Zawadka (2)</a>
+<a class="stop terminal" href="../rozklady/61/2236-okrezna.html"><span class="stop-id">2236</span>Krzywopłoty (1)</a>
+<a class="stop" href="../rozklady/61/2237-okrezna.html"><span class="stop-id">2237</span>Krzywopłoty Kaplica (1)</a>
+<a class="stop" href="../rozklady/61/2214-okrezna.html"><span class="stop-id">2214</span>Krzywopłoty Na Bagnie (1)</a>
+<a class="stop" href="../rozklady/61/2217-okrezna.html"><span class="stop-id">2217</span>Bydlin Szkoła (2)</a>
+<a class="stop" href="../rozklady/61/2218-okrezna.html"><span class="stop-id">2218</span>Bydlin Kościół (2)</a>
+<a class="stop" href="../rozklady/61/2220-okrezna.html"><span class="stop-id">2220</span>Bydlin Ośrodek Zdrowia (2)</a>
+<a class="stop" href="../rozklady/61/2221-okrezna.html"><span class="stop-id">2221</span>Kolbark (2)</a>
+<a class="stop" href="../rozklady/61/2222-okrezna.html"><span class="stop-id">2222</span>Jaroszowiec Kobylica (2)</a>
+<a class="stop" href="../rozklady/61/2223-okrezna.html"><span class="stop-id">2223</span>Jaroszowiec Porąbka (2)</a>
+<a class="stop" href="../rozklady/61/0528-okrezna.html"><span class="stop-id">0528</span>Jaroszowiec Dworzec PKP (1)</a>
+<a class="stop" href="../rozklady/61/0549-okrezna.html"><span class="stop-id">0549</span>Jaroszowiec Huta Szkłomasz (1)</a>
+<a class="stop" href="../rozklady/61/0550-okrezna.html"><span class="stop-id">0550</span>Jaroszowiec Szkoła (2)</a>
+<a class="stop" href="../rozklady/61/0551-okrezna.html"><span class="stop-id">0551</span>Klucze PKS (2)</a>
+<a class="stop" href="../rozklady/61/0552-okrezna.html"><span class="stop-id">0552</span>Klucze Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/61/2175-okrezna.html"><span class="stop-id">2175</span>Klucze Kościół (1)</a>
+<a class="stop" href="../rozklady/61/2177-okrezna.html"><span class="stop-id">2177</span>Bogucin Duży Skrzyżowanie (1)</a>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+  
+<a class="stop" href="../rozklady/61/2203-okrezna.html"><span class="stop-id">2203</span>Bogucin Mały (2)</a>
+<a class="stop" href="../rozklady/61/2204-okrezna.html"><span class="stop-id">2204</span>Olkusz Parcze (1)</a>
+<a class="stop" href="../rozklady/61/2205-okrezna.html"><span class="stop-id">2205</span>Olkusz Kasztanowa (1)</a>
+<a class="stop" href="../rozklady/61/0174-okrezna.html"><span class="stop-id">0174</span>Olkusz Supersam (0)</a>
+<a class="stop" href="../rozklady/61/0199-okrezna.html"><span class="stop-id">0199</span>Olkusz Skarbek (2)</a>
+<a class="stop terminal" href="../rozklady/61/0200-okrezna.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
