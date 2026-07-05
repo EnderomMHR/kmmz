@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 64</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-olkusz{
+    background:#ffe599;
+    color:#222;
+}
+
+.zone-klucze{
+    background:#00fe00;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">64</div>
+
+<div class="route">
+Golczowice Pętla - Zalesie Golczowskie - Jaroszowiec - Klucze - Bogucin Duży - Pomorzany - Olkusz Dworzec PKS
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Olkusz Dworzec PKS</h2>
+
+<div class="zone zone-klucze">STREFA KLUCZE</div>
+
+<a class="stop terminal" href="../rozklady/64/0521-olkusz.html"><span class="stop-id">0521</span>Golczowice Pętla (0)</a>
+<a class="stop" href="../rozklady/64/0522-olkusz.html"><span class="stop-id">0522</span>Golczowice Kamieniołomy (1)</a>
+<a class="stop" href="../rozklady/64/0523-olkusz.html"><span class="stop-id">0523</span>Zalesie Golczowskie (2)</a>
+<a class="stop variant" href="../rozklady/64/0524-olkusz.html"><span class="stop-id">0524</span>Zalesie Golczowskie Górna (2)</a>
+<a class="stop variant" href="../rozklady/64/0525-olkusz.html"><span class="stop-id">0525</span>Zalesie Golczowskie Dolna (2)</a>
+<a class="stop variant" href="../rozklady/64/0526-olkusz.html"><span class="stop-id">0526</span>Zalesie Golczowskie Hotel (2)</a>
+<a class="stop" href="../rozklady/64/0527-olkusz.html"><span class="stop-id">0527</span>Jaroszowiec Szpital (2)</a>
+<a class="stop" href="../rozklady/64/0528-olkusz.html"><span class="stop-id">0528</span>Jaroszowiec Dworzec PKP (1)</a>
+<a class="stop" href="../rozklady/64/0549-olkusz.html"><span class="stop-id">0549</span>Jaroszowiec Huta Szkłomasz (1)</a>
+<a class="stop" href="../rozklady/64/0550-olkusz.html"><span class="stop-id">0550</span>Jaroszowiec Szkoła (2)</a>
+<a class="stop" href="../rozklady/64/0551-olkusz.html"><span class="stop-id">0551</span>Klucze PKS (2)</a>
+<a class="stop" href="../rozklady/64/0552-olkusz.html"><span class="stop-id">0552</span>Klucze Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/64/2175-olkusz.html"><span class="stop-id">2175</span>Klucze Kościół (1)</a>
+<a class="stop" href="../rozklady/64/2177-olkusz.html"><span class="stop-id">2177</span>Bogucin Duży Skrzyżowanie (1)</a>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+  
+<a class="stop" href="../rozklady/64/0688-olkusz.html"><span class="stop-id">0688</span>Olkusz Pomorzany Las (2)</a>
+<a class="stop" href="../rozklady/64/0689-olkusz.html"><span class="stop-id">0689</span>Olkusz Pomorzany Wzniesienie (1)</a>
+<a class="stop" href="../rozklady/64/0690-olkusz.html"><span class="stop-id">0690</span>Olkusz Pomorzany Szkoła (1)</a>
+<a class="stop" href="../rozklady/64/0691-olkusz.html"><span class="stop-id">0691</span>Olkusz Pomorzany Remiza (1)</a>
+<a class="stop" href="../rozklady/64/0692-olkusz.html"><span class="stop-id">0692</span>Olkusz Pomorzany Stadion (1)</a>
+<a class="stop" href="../rozklady/64/0693-olkusz.html"><span class="stop-id">0693</span>Olkusz Skatepark (1)</a>
+<a class="stop" href="../rozklady/64/0173-olkusz.html"><span class="stop-id">0173</span>Olkusz Stacja Paliw (1)</a>
+<a class="stop" href="../rozklady/64/0174-olkusz.html"><span class="stop-id">0174</span>Olkusz Supersam (0)</a>
+<a class="stop" href="../rozklady/64/0199-olkusz.html"><span class="stop-id">0199</span>Olkusz Skarbek (2)</a>
+<a class="stop terminal" href="../rozklady/64/0200-olkusz.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Golczowice Pętla</h2>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+
+<a class="stop terminal" href="../rozklady/64/0200-golczowice.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
+<a class="stop" href="../rozklady/64/0228-golczowice.html"><span class="stop-id">0228</span>Olkusz Skarbek (1)</a>
+<a class="stop" href="../rozklady/64/0238-golczowice.html"><span class="stop-id">0238</span>Olkusz Supersam (2)</a>
+<a class="stop" href="../rozklady/64/0239-golczowice.html"><span class="stop-id">0239</span>Olkusz Stacja Paliw (2)</a>
+<a class="stop" href="../rozklady/64/2179-golczowice.html"><span class="stop-id">2179</span>Olkusz Skatepark (2)</a>
+<a class="stop" href="../rozklady/64/2180-golczowice.html"><span class="stop-id">2180</span>Olkusz Pomorzany Stadion (2)</a>
+<a class="stop" href="../rozklady/64/2181-golczowice.html"><span class="stop-id">2181</span>Olkusz Pomorzany Remiza (2)</a>
+<a class="stop" href="../rozklady/64/2182-golczowice.html"><span class="stop-id">2182</span>Olkusz Pomorzany Szkoła (2)</a>
+<a class="stop" href="../rozklady/64/2183-golczowice.html"><span class="stop-id">2183</span>Olkusz Pomorzany Wzniesienie (2)</a>
+<a class="stop" href="../rozklady/64/2184-golczowice.html"><span class="stop-id">2184</span>Olkusz Pomorzany Las (1)</a>
+
+<div class="zone zone-klucze">STREFA KLUCZE</div>
+  
+<a class="stop" href="../rozklady/64/2178-golczowice.html"><span class="stop-id">2178</span>Bogucin Duży Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/64/2176-golczowice.html"><span class="stop-id">2176</span>Klucze Kościół (2)</a>
+<a class="stop" href="../rozklady/64/0513-golczowice.html"><span class="stop-id">0513</span>Klucze Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/64/0514-golczowice.html"><span class="stop-id">0514</span>Klucze PKS (1)</a>
+<a class="stop" href="../rozklady/64/0515-golczowice.html"><span class="stop-id">0515</span>Jaroszowiec Szkoła (1)</a>
+<a class="stop" href="../rozklady/64/0516-golczowice.html"><span class="stop-id">0516</span>Jaroszowiec Huta Szkłomasz (2)</a>
+<a class="stop" href="../rozklady/64/0517-golczowice.html"><span class="stop-id">0517</span>Jaroszowiec Dworzec PKP (2)</a>
+<a class="stop" href="../rozklady/64/0518-golczowice.html"><span class="stop-id">0518</span>Jaroszowiec Szpital (1)</a>
+<a class="stop variant" href="../rozklady/64/0546-golczowice.html"><span class="stop-id">0546</span>Zalesie Golczowskie Hotel (1)</a>
+<a class="stop variant" href="../rozklady/64/0547-golczowice.html"><span class="stop-id">0547</span>Zalesie Golczowskie Dolna (1)</a>
+<a class="stop variant" href="../rozklady/64/0548-golczowice.html"><span class="stop-id">0548</span>Zalesie Golczowskie Górna (1)</a>
+<a class="stop" href="../rozklady/64/0519-golczowice.html"><span class="stop-id">0519</span>Zalesie Golczowskie (1)</a>
+<a class="stop" href="../rozklady/64/0520-golczowice.html"><span class="stop-id">0520</span>Golczowice Kamieniołomy (2)</a>
+<a class="stop terminal" href="../rozklady/64/0521-golczowice.html"><span class="stop-id">0521</span>Golczowice Pętla (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
