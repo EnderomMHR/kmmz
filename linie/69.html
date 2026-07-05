@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 69</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.columns.single-column {
+  display: block;
+}
+
+.columns.single-column .column {
+  max-width: 560px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.columns.single-column .stop {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left: 28px;
+    padding-left: 42px;
+    width: calc(100% - 28px);
+    box-sizing: border-box;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.column .stop.variant {
+  margin-left: 28px;
+  width: auto;
+  box-sizing: border-box;
+  font-style: italic;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-oswiecim{
+    background:#9fb4e8;
+    color:#222;
+}
+
+@media (max-width: 700px) {
+  .columns.single-column .column {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+  
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">69</div>
+
+<div class="route">
+Oświęcim Kamieniec Pętla - Stare Stawy - Oświęcim Dąbrowskiego Miasto - (Babice) - (Broszkowice) - (Babice) - (Oświęcim) - Stare Stawy - Oświęcim Kamieniec Pętla
+</div>
+
+<div class="columns single-column">
+
+<div class="column">
+
+<h2>Kierunek: Oświęcim Kamieniec Pętla</h2>
+
+<div class="zone zone-oswiecim">STREFA OŚWIĘCIM</div>
+
+<a class="stop terminal" href="../rozklady/69/2640-okrezna.html"><span class="stop-id">2640</span>Oświęcim Kamieniec Pętla (2)</a>
+<a class="stop" href="../rozklady/69/2638-okrezna.html"><span class="stop-id">2638</span>Oświęcim Kamieniec (1)</a>
+<a class="stop" href="../rozklady/69/1909-okrezna.html"><span class="stop-id">1909</span>Oświęcim Stare Stawy Spółdzielnia (2)</a>
+<a class="stop" href="../rozklady/69/2635-okrezna.html"><span class="stop-id">2635</span>Oświęcim Stare Stawy Pętla (0)</a>
+<a class="stop" href="../rozklady/69/2637-okrezna.html"><span class="stop-id">2637</span>Oświęcim Świętej Barbary (2)</a>
+<a class="stop" href="../rozklady/69/1912-okrezna.html"><span class="stop-id">1912</span>Oświęcim Królowej Jadwigi (2)</a>
+<a class="stop" href="../rozklady/69/1548-okrezna.html"><span class="stop-id">1548</span>Oświęcim Szkoła Nr 2 (1)</a>
+<a class="stop" href="../rozklady/69/0675-okrezna.html"><span class="stop-id">0675</span>Oświęcim Technikum Chemiczne (1)</a>
+<a class="stop" href="../rozklady/69/0676-okrezna.html"><span class="stop-id">0676</span>Oświęcim Lodowisko (2)</a>
+<a class="stop" href="../rozklady/69/2645-okrezna.html"><span class="stop-id">2645</span>Oświęcim Kruki II (2)</a>
+<a class="stop" href="../rozklady/69/2644-okrezna.html"><span class="stop-id">2644</span>Oświęcim Kruki I (2)</a>
+<a class="stop" href="../rozklady/69/0626-okrezna.html"><span class="stop-id">0626</span>Oświęcim Bakutil (1)</a>
+<a class="stop" href="../rozklady/69/0627-okrezna.html"><span class="stop-id">0627</span>Oświęcim Szpital (2)</a>
+<a class="stop" href="../rozklady/69/0628-okrezna.html"><span class="stop-id">0628</span>Oświęcim Dąbrowskiego Miasto (1)</a>
+<a class="stop variant" href="../rozklady/69/0629-okrezna.html"><span class="stop-id">0629</span>Oświęcim Stacja BP (2)</a>
+<a class="stop variant" href="../rozklady/69/0837-okrezna.html"><span class="stop-id">0837</span>Oświęcim Błonie (1)</a>
+<a class="stop variant" href="../rozklady/69/0838-okrezna.html"><span class="stop-id">0838</span>Babice Simech (2)</a>
+<a class="stop variant" href="../rozklady/69/3321-okrezna.html"><span class="stop-id">3321</span>Broszkowice Klubowa (1)</a>
+<a class="stop variant" href="../rozklady/69/0868-okrezna.html"><span class="stop-id">0868</span>Broszkowice Jodłowa (1)</a>
+<a class="stop variant" href="../rozklady/69/0869-okrezna.html"><span class="stop-id">0869</span>Broszkowice Zgodna (1)</a>
+<a class="stop variant" href="../rozklady/69/0870-okrezna.html"><span class="stop-id">0870</span>Babice Simech (1)</a>
+<a class="stop variant" href="../rozklady/69/0871-okrezna.html"><span class="stop-id">0871</span>Oświęcim Błonie (2)</a>
+<a class="stop variant" href="../rozklady/69/0872-okrezna.html"><span class="stop-id">0872</span>Oświęcim Liceum (1)</a>
+<a class="stop variant" href="../rozklady/69/0668-okrezna.html"><span class="stop-id">0668</span>Oświęcim Stacja BP (1)</a>
+<a class="stop variant" href="../rozklady/69/0669-okrezna.html"><span class="stop-id">0669</span>Oświęcim Dąbrowskiego Kościół (1)</a>
+<a class="stop variant" href="../rozklady/69/0670-okrezna.html"><span class="stop-id">0670</span>Oświęcim Dąbrowskiego Cmentarz (0)</a>
+<a class="stop variant" href="../rozklady/69/0671-okrezna.html"><span class="stop-id">0671</span>Oświęcim Szpital (1)</a>
+<a class="stop variant" href="../rozklady/69/0672-okrezna.html"><span class="stop-id">0672</span>Oświęcim Bakutil (2)</a>
+<a class="stop variant" href="../rozklady/69/2646-okrezna.html"><span class="stop-id">2646</span>Oświęcim Kruki I (1)</a>
+<a class="stop variant" href="../rozklady/69/2647-okrezna.html"><span class="stop-id">2647</span>Oświęcim Kruki II (1)</a>
+<a class="stop variant" href="../rozklady/69/0621-okrezna.html"><span class="stop-id">0621</span>Oświęcim Lodowisko (1)</a>
+<a class="stop variant" href="../rozklady/69/0622-okrezna.html"><span class="stop-id">0622</span>Oświęcim Technikum Chemiczne (2)</a>
+<a class="stop variant" href="../rozklady/69/1549-okrezna.html"><span class="stop-id">1549</span>Oświęcim Szkoła Nr 2 (2)</a>
+<a class="stop" href="../rozklady/69/1913-okrezna.html"><span class="stop-id">1913</span>Oświęcim Królowej Jadwigi (1)</a>
+<a class="stop" href="../rozklady/69/2636-okrezna.html"><span class="stop-id">2636</span>Oświęcim Świętej Barbary (1)</a>
+<a class="stop" href="../rozklady/69/2634-okrezna.html"><span class="stop-id">2634</span>Oświęcim Stare Stawy Pętla (1)</a>
+<a class="stop" href="../rozklady/69/1908-okrezna.html"><span class="stop-id">1908</span>Oświęcim Stare Stawy Spółdzielnia (1)</a>
+<a class="stop" href="../rozklady/69/2639-okrezna.html"><span class="stop-id">2639</span>Oświęcim Kamieniec (2)</a>
+<a class="stop terminal" href="../rozklady/69/2640-okrezna.html"><span class="stop-id">2640</span>Oświęcim Kamieniec Pętla (2)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
