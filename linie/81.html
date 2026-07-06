@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 81</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-olkusz{
+    background:#ffe599;
+    color:#222;
+}
+
+.zone-jerzmanowice-przeginia{
+    background:#ea9998;
+    color:#222;
+}
+
+.zone-suloszowa-skala{
+    background:#b7b8b7;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">81</div>
+
+<div class="route">
+Olkusz Dworzec PKS - Sieniczno - Kogutek - Zederman - Przeginia - Gotkowice - Sąspów - Wola Kalinowska - Ojców - Skała Połetka - (Cianowice) - (Rzeplin Centrum)
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Skała Połetka</h2>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+
+<a class="stop terminal" href="../rozklady/81/0200-skala.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
+<a class="stop" href="../rozklady/81/0202-skala.html"><span class="stop-id">0202</span>Olkusz Wiadukt (1)</a>
+<a class="stop" href="../rozklady/81/0203-skala.html"><span class="stop-id">0203</span>Olkusz Aleja Tysiąclecia (1)</a>
+<a class="stop" href="../rozklady/81/0204-skala.html"><span class="stop-id">0204</span>Sieniczno (1)</a>
+<a class="stop" href="../rozklady/81/1590-skala.html"><span class="stop-id">1590</span>Kogutek (1)</a>
+<a class="stop" href="../rozklady/81/1592-skala.html"><span class="stop-id">1592</span>Zederman Pasieka (1)</a>
+<a class="stop" href="../rozklady/81/1595-skala.html"><span class="stop-id">1595</span>Zederman Kiosk (4)</a>
+<a class="stop" href="../rozklady/81/1599-skala.html"><span class="stop-id">1599</span>Zederman (1)</a>
+
+<div class="zone zone-jerzmanowice-przeginia">STREFA JERZMANOWICE-PRZEGINIA</div>
+  
+<a class="stop" href="../rozklady/81/1601-skala.html"><span class="stop-id">1601</span>Przeginia Kościół (1)</a>
+<a class="stop" href="../rozklady/81/1654-skala.html"><span class="stop-id">1654</span>Przeginia Dom Ludowy (2)</a>
+<a class="stop" href="../rozklady/81/1647-skala.html"><span class="stop-id">1647</span>Przeginia Skotnica (1)</a>
+<a class="stop" href="../rozklady/81/1649-skala.html"><span class="stop-id">1649</span>Przeginia Ostra Góra (1)</a>
+<a class="stop" href="../rozklady/81/1652-skala.html"><span class="stop-id">1652</span>Gotkowice Wieś (2)</a>
+<a class="stop" href="../rozklady/81/1676-skala.html"><span class="stop-id">1676</span>Sąspów Pod Wymysłowem (2)</a>
+<a class="stop" href="../rozklady/81/1673-skala.html"><span class="stop-id">1673</span>Sąspów Cmentarz (1)</a>
+
+<div class="zone zone-suloszowa-skala">STREFA SUŁOSZOWA-SKAŁA</div>
+  
+<a class="stop" href="../rozklady/81/2527-skala.html"><span class="stop-id">2527</span>Wola Kalinowska Kalinów (2)</a>
+<a class="stop" href="../rozklady/81/2528-skala.html"><span class="stop-id">2528</span>Wola Kalinowska Góra (2)</a>
+<a class="stop" href="../rozklady/81/2774-skala.html"><span class="stop-id">2774</span>Ojców Złota Góra (1)</a>
+<a class="stop" href="../rozklady/81/2776-skala.html"><span class="stop-id">2776</span>Ojców Zamek (0)</a>
+<a class="stop" href="../rozklady/81/0430-skala.html"><span class="stop-id">0430</span>Skała Grodzisko (1)</a>
+<a class="stop" href="../rozklady/81/0431-skala.html"><span class="stop-id">0431</span>Skała Rynek (2)</a>
+<a class="stop terminal" href="../rozklady/81/0399-skala.html"><span class="stop-id">0399</span>Skała Połetka (1)</a>
+<a class="stop variant" href="../rozklady/81/0431-skala.html"><span class="stop-id">0431</span>Skała Rynek (2)</a>
+<a class="stop variant" href="../rozklady/81/2792-skala.html"><span class="stop-id">2792</span>Skała Rzeplińska (2)</a>
+<a class="stop variant" href="../rozklady/81/2791-skala.html"><span class="stop-id">2791</span>Cianowice Do Cegielni (1)</a>
+<a class="stop variant" href="../rozklady/81/2790-skala.html"><span class="stop-id">2790</span>Cianowice Poręba (2)</a>
+<a class="stop variant" href="../rozklady/81/2815-skala.html"><span class="stop-id">2815</span>Cianowice Marianów (3)</a>
+<a class="stop variant" href="../rozklady/81/2817-skala.html"><span class="stop-id">2817</span>Cianowice Marianów Mogiła (1)</a>
+<a class="stop variant terminal" href="../rozklady/81/2808-skala.html"><span class="stop-id">2808</span>Rzeplin Centrum (0)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Olkusz Dworzec PKS</h2>
+
+<div class="zone zone-suloszowa-skala">STREFA SUŁOSZOWA-SKAŁA</div>
+
+<a class="stop variant terminal" href="../rozklady/81/2808-olkusz.html"><span class="stop-id">2808</span>Rzeplin Centrum (0)</a>
+<a class="stop variant" href="../rozklady/81/2816-olkusz.html"><span class="stop-id">2816</span>Cianowice Marianów Mogiła (2)</a>
+<a class="stop variant" href="../rozklady/81/2788-olkusz.html"><span class="stop-id">2788</span>Cianowice Marianów (1)</a>
+<a class="stop variant" href="../rozklady/81/2787-olkusz.html"><span class="stop-id">2787</span>Cianowice Poręba (1)</a>
+<a class="stop variant" href="../rozklady/81/2786-olkusz.html"><span class="stop-id">2786</span>Skała Wieś (1)</a>
+<a class="stop variant" href="../rozklady/81/2785-olkusz.html"><span class="stop-id">2785</span>Skała Rzeplińska (1)</a>
+<a class="stop variant" href="../rozklady/81/0431-olkusz.html"><span class="stop-id">0431</span>Skała Rynek (2)</a>
+<a class="stop terminal" href="../rozklady/81/0399-olkusz.html"><span class="stop-id">0399</span>Skała Połetka (1)</a>
+<a class="stop" href="../rozklady/81/0431-olkusz.html"><span class="stop-id">0431</span>Skała Rynek (2)</a>
+<a class="stop" href="../rozklady/81/0401-olkusz.html"><span class="stop-id">0401</span>Skała Grodzisko (2)</a>
+<a class="stop" href="../rozklady/81/2776-olkusz.html"><span class="stop-id">2776</span>Ojców Zamek (0)</a>
+<a class="stop" href="../rozklady/81/2775-olkusz.html"><span class="stop-id">2775</span>Ojców Złota Góra (2)</a>
+<a class="stop" href="../rozklady/81/2514-olkusz.html"><span class="stop-id">2514</span>Wola Kalinowska Góra (1)</a>
+<a class="stop" href="../rozklady/81/2515-olkusz.html"><span class="stop-id">2515</span>Wola Kalinowska Kalinów (1)</a>
+
+<div class="zone zone-jerzmanowice-przeginia">STREFA JERZMANOWICE-PRZEGINIA</div>
+  
+<a class="stop" href="../rozklady/81/1675-olkusz.html"><span class="stop-id">1675</span>Sąspów Cmentarz (2)</a>
+<a class="stop" href="../rozklady/81/1672-olkusz.html"><span class="stop-id">1672</span>Sąspów Pod Wymysłowem (1)</a>
+<a class="stop" href="../rozklady/81/1659-olkusz.html"><span class="stop-id">1659</span>Jerzmanowice Ojcowska (1)</a>
+<a class="stop" href="../rozklady/81/1650-olkusz.html"><span class="stop-id">1650</span>Gotkowice Wieś (1)</a>
+<a class="stop" href="../rozklady/81/1653-olkusz.html"><span class="stop-id">1653</span>Przeginia Ostra Góra (2)</a>
+<a class="stop" href="../rozklady/81/1655-olkusz.html"><span class="stop-id">1655</span>Przeginia Skotnica (2)</a>
+<a class="stop" href="../rozklady/81/1648-olkusz.html"><span class="stop-id">1648</span>Przeginia Dom Ludowy (1)</a>
+<a class="stop" href="../rozklady/81/1600-olkusz.html"><span class="stop-id">1600</span>Przeginia Kościół (2)</a>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+  
+<a class="stop" href="../rozklady/81/1598-olkusz.html"><span class="stop-id">1598</span>Zederman (2)</a>
+<a class="stop" href="../rozklady/81/1594-olkusz.html"><span class="stop-id">1594</span>Zederman Kiosk (3)</a>
+<a class="stop" href="../rozklady/81/1593-olkusz.html"><span class="stop-id">1593</span>Zederman Pasieka (2)</a>
+<a class="stop" href="../rozklady/81/1591-olkusz.html"><span class="stop-id">1591</span>Kogutek (2)</a>
+<a class="stop" href="../rozklady/81/0224-olkusz.html"><span class="stop-id">0224</span>Sieniczno (2)</a>
+<a class="stop" href="../rozklady/81/0225-olkusz.html"><span class="stop-id">0225</span>Olkusz Aleja Tysiąclecia (2)</a>
+<a class="stop" href="../rozklady/81/0226-olkusz.html"><span class="stop-id">0226</span>Olkusz Wiadukt (2)</a>
+<a class="stop terminal" href="../rozklady/81/0200-olkusz.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
