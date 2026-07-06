@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 75</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-chrzanow{
+    background:#a4c2f4;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">75</div>
+
+<div class="route">
+Chrzanów Dworzec Autobusowy - Kąty - Fablok - Os. Młodości - Chrzanów Valeo
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Chrzanów Valeo</h2>
+
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+
+<a class="stop terminal" href="../rozklady/75/0684-valeo.html"><span class="stop-id">0684</span>Chrzanów Dworzec Autobusowy (2)</a>
+<a class="stop" href="../rozklady/75/0096-valeo.html"><span class="stop-id">0096</span>Chrzanów Plac Tysiąclecia (3)</a>
+<a class="stop" href="../rozklady/75/0097-valeo.html"><span class="stop-id">0097</span>Chrzanów Park (1)</a>
+<a class="stop" href="../rozklady/75/0098-valeo.html"><span class="stop-id">0098</span>Chrzanów Kąty Bloki (1)</a>
+<a class="stop" href="../rozklady/75/0099-valeo.html"><span class="stop-id">0099</span>Chrzanów Kąty Kościół (1)</a>
+<a class="stop" href="../rozklady/75/0100-valeo.html"><span class="stop-id">0100</span>Chrzanów Kąty Osiedle Malarzy (1)</a>
+<a class="stop" href="../rozklady/75/1074-valeo.html"><span class="stop-id">1074</span>Chrzanów Stara Huta (2)</a>
+<a class="stop" href="../rozklady/75/1076-valeo.html"><span class="stop-id">1076</span>Chrzanów Osiedle Robotnicze (2)</a>
+<a class="stop" href="../rozklady/75/0332-valeo.html"><span class="stop-id">0332</span>Chrzanów Sienna (1)</a>
+<a class="stop" href="../rozklady/75/0681-valeo.html"><span class="stop-id">0681</span>Chrzanów Dworzec PKP (2)</a>
+<a class="stop" href="../rozklady/75/0682-valeo.html"><span class="stop-id">0682</span>Chrzanów Fablok (0)</a>
+<a class="stop" href="../rozklady/75/0683-valeo.html"><span class="stop-id">0683</span>Chrzanów Dworzec PKP (1)</a>
+<a class="stop" href="../rozklady/75/1077-valeo.html"><span class="stop-id">1077</span>Chrzanów Kolejowa (2)</a>
+<a class="stop" href="../rozklady/75/1079-valeo.html"><span class="stop-id">1079</span>Chrzanów Osiedle Młodości Witosa (1)</a>
+<a class="stop" href="../rozklady/75/1081-valeo.html"><span class="stop-id">1081</span>Chrzanów Osiedle Młodości Szarych Szeregów (2)</a>
+<a class="stop" href="../rozklady/75/0614-valeo.html"><span class="stop-id">0614</span>Chrzanów Pogorska Przychodnia (2)</a>
+<a class="stop" href="../rozklady/75/0615-valeo.html"><span class="stop-id">0615</span>Chrzanów Pogorska Szkoła (1)</a>
+<a class="stop" href="../rozklady/75/1157-valeo.html"><span class="stop-id">1157</span>Chrzanów Osiedle Młodości Armii Krajowej (1)</a>
+<a class="stop" href="../rozklady/75/1158-valeo.html"><span class="stop-id">1158</span>Chrzanów Kościelec Kościół (0)</a>
+<a class="stop" href="../rozklady/75/0117-valeo.html"><span class="stop-id">0117</span>Chrzanów Szpitalna (3)</a>
+<a class="stop" href="../rozklady/75/0118-valeo.html"><span class="stop-id">0118</span>Chrzanów Szpital (1)</a>
+<a class="stop terminal" href="../rozklady/75/0092-valeo.html"><span class="stop-id">0092</span>Chrzanów Valeo (2)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Chrzanów Dworzec Autobusowy</h2>
+
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+
+<a class="stop terminal" href="../rozklady/75/0092-da.html"><span class="stop-id">0092</span>Chrzanów Valeo (2)</a>
+<a class="stop" href="../rozklady/75/0093-da.html"><span class="stop-id">0093</span>Chrzanów Szpital (2)</a>
+<a class="stop" href="../rozklady/75/0094-da.html"><span class="stop-id">0094</span>Chrzanów Szpitalna (1)</a>
+<a class="stop" href="../rozklady/75/0567-da.html"><span class="stop-id">0567</span>Chrzanów Głowackiego (1)</a>
+<a class="stop" href="../rozklady/75/0568-da.html"><span class="stop-id">0568</span>Chrzanów Pogorska Szkoła (2)</a>
+<a class="stop" href="../rozklady/75/0569-da.html"><span class="stop-id">0569</span>Chrzanów Pogorska Przychodnia (1)</a>
+<a class="stop" href="../rozklady/75/1080-da.html"><span class="stop-id">1080</span>Chrzanów Osiedle Młodości Szarych Szeregów (1)</a>
+<a class="stop" href="../rozklady/75/1082-da.html"><span class="stop-id">1082</span>Chrzanów Osiedle Młodości Witosa (2)</a>
+<a class="stop" href="../rozklady/75/1078-da.html"><span class="stop-id">1078</span>Chrzanów Kolejowa (1)</a>
+<a class="stop" href="../rozklady/75/0681-da.html"><span class="stop-id">0681</span>Chrzanów Dworzec PKP (2)</a>
+<a class="stop" href="../rozklady/75/0682-da.html"><span class="stop-id">0682</span>Chrzanów Fablok (0)</a>
+<a class="stop" href="../rozklady/75/0683-da.html"><span class="stop-id">0683</span>Chrzanów Dworzec PKP (1)</a>
+<a class="stop" href="../rozklady/75/1060-da.html"><span class="stop-id">1060</span>Chrzanów Aleja Henryka (1)</a>
+<a class="stop" href="../rozklady/75/1075-da.html"><span class="stop-id">1075</span>Chrzanów Osiedle Robotnicze (1)</a>
+<a class="stop" href="../rozklady/75/1073-da.html"><span class="stop-id">1073</span>Chrzanów Stara Huta (1)</a>
+<a class="stop" href="../rozklady/75/0336-da.html"><span class="stop-id">0336</span>Chrzanów Osiedle Kopanina (2)</a>
+<a class="stop" href="../rozklady/75/0111-da.html"><span class="stop-id">0111</span>Chrzanów Kąty Osiedle Malarzy (2)</a>
+<a class="stop" href="../rozklady/75/0112-da.html"><span class="stop-id">0112</span>Chrzanów Kąty Kościół (2)</a>
+<a class="stop" href="../rozklady/75/0113-da.html"><span class="stop-id">0113</span>Chrzanów Kąty Bloki (2)</a>
+<a class="stop" href="../rozklady/75/0114-da.html"><span class="stop-id">0114</span>Chrzanów Księdza Skorupki (0)</a>
+<a class="stop" href="../rozklady/75/0115-da.html"><span class="stop-id">0115</span>Chrzanów Plac Tysiąclecia (2)</a>
+<a class="stop terminal" href="../rozklady/75/0334-da.html"><span class="stop-id">0334</span>Chrzanów Dworzec Autobusowy (4)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
