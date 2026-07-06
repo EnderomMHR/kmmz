@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 78</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-polanka{
+    background:#e16656;
+    color:#222;
+}
+
+.zone-osiek{
+    background:#d9ead3;
+    color:#222;
+}
+
+.zone-oswiecim{
+    background:#9fc4e8;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">78</div>
+
+<div class="route">
+Osiek Dom Ludowy - Głębowice - Polanka Wielka - Granica Porębska - Łazy - Grojec - Stawy Grojeckie - Stare Stawy - Oświęcim Dworzec PKP
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Oświęcim Dworzec PKP</h2>
+
+<div class="zone zone-osiek">STREFA OSIEK</div>
+
+<a class="stop terminal" href="../rozklady/78/1931-oswiecim.html"><span class="stop-id">1931</span>Osiek Dom Ludowy (1)</a>
+<a class="stop" href="../rozklady/78/1934-oswiecim.html"><span class="stop-id">1934</span>Osiek Górny Przedszkole (2)</a>
+<a class="stop" href="../rozklady/78/1930-oswiecim.html"><span class="stop-id">1930</span>Osiek Górny Szlaka (1)</a>
+<a class="stop" href="../rozklady/78/1936-oswiecim.html"><span class="stop-id">1936</span>Osiek Górny Szkoła (2)</a>
+<a class="stop" href="../rozklady/78/1928-oswiecim.html"><span class="stop-id">1928</span>Osiek Granica (1)</a>
+<a class="stop" href="../rozklady/78/1958-oswiecim.html"><span class="stop-id">1958</span>Głębowice Łazy II (2)</a>
+<a class="stop" href="../rozklady/78/1955-oswiecim.html"><span class="stop-id">1955</span>Głębowice (2)</a>
+
+<div class="zone zone-polanka">STREFA POLANKA WIELKA</div>
+  
+<a class="stop" href="../rozklady/78/1954-oswiecim.html"><span class="stop-id">1954</span>Polanka Wielka Dalachowice Granica (2)</a>
+<a class="stop variant" href="../rozklady/78/1873-oswiecim.html"><span class="stop-id">1873</span>Polanka Wielka Sklep (2)</a>
+<a class="stop variant" href="../rozklady/78/2879-oswiecim.html"><span class="stop-id">2879</span>Polanka Wielka Łąkowa (2)</a>
+<a class="stop variant" href="../rozklady/78/1870-oswiecim.html"><span class="stop-id">1870</span>Polanka Wielka Granica (2)</a>
+<a class="stop variant" href="../rozklady/78/2877-oswiecim.html"><span class="stop-id">2877</span>Polanka Wielka Łąkowa (1)</a>
+<a class="stop variant" href="../rozklady/78/1872-oswiecim.html"><span class="stop-id">1872</span>Polanka Wielka Sklep (1)</a>
+<a class="stop" href="../rozklady/78/1914-oswiecim.html"><span class="stop-id">1914</span>Polanka Wielka Ośrodek Zdrowia (1)</a>
+<a class="stop" href="../rozklady/78/1823-oswiecim.html"><span class="stop-id">1823</span>Polanka Wielka Dalachowice (2)</a>
+<a class="stop" href="../rozklady/78/1824-oswiecim.html"><span class="stop-id">1824</span>Polanka Wielka Dalachowice I (1)</a>
+<a class="stop" href="../rozklady/78/1826-oswiecim.html"><span class="stop-id">1826</span>Polanka Wielka Stawowa Pętla (0)</a>
+<a class="stop" href="../rozklady/78/1827-oswiecim.html"><span class="stop-id">1827</span>Polanka Wielka Wąska (1)</a>
+<a class="stop" href="../rozklady/78/1838-oswiecim.html"><span class="stop-id">1838</span>Polanka Wielka Madejówka (2)</a>
+<a class="stop" href="../rozklady/78/1829-oswiecim.html"><span class="stop-id">1829</span>Polanka Wielka Stawowa (1)</a>
+<a class="stop" href="../rozklady/78/1830-oswiecim.html"><span class="stop-id">1830</span>Polanka Wielka Pólka (1)</a>
+
+<div class="zone zone-oswiecim">STREFA OŚWIĘCIM</div>
+  
+<a class="stop" href="../rozklady/78/1831-oswiecim.html"><span class="stop-id">1831</span>Łazy Hyrdzie Pętla (0)</a>
+<a class="stop" href="../rozklady/78/1832-oswiecim.html"><span class="stop-id">1832</span>Łazy Staw (1)</a>
+<a class="stop" href="../rozklady/78/1833-oswiecim.html"><span class="stop-id">1833</span>Grojec Domżał (1)</a>
+<a class="stop" href="../rozklady/78/1890-oswiecim.html"><span class="stop-id">1890</span>Grojec Dom Ludowy (1)</a>
+<a class="stop" href="../rozklady/78/1893-oswiecim.html"><span class="stop-id">1893</span>Grojec Jagiellończyka (1)</a>
+<a class="stop" href="../rozklady/78/1895-oswiecim.html"><span class="stop-id">1895</span>Grojec Krzyżówka (2)</a>
+<a class="stop" href="../rozklady/78/1896-oswiecim.html"><span class="stop-id">1896</span>Grojec Leśna Grobel (2)</a>
+<a class="stop" href="../rozklady/78/1898-oswiecim.html"><span class="stop-id">1898</span>Stawy Grojeckie Radziwiłł (2)</a>
+<a class="stop" href="../rozklady/78/1900-oswiecim.html"><span class="stop-id">1900</span>Stawy Grojeckie Stary Młyn (2)</a>
+<a class="stop" href="../rozklady/78/1903-oswiecim.html"><span class="stop-id">1903</span>Stawy Grojeckie Zerwisko (2)</a>
+<a class="stop" href="../rozklady/78/1904-oswiecim.html"><span class="stop-id">1904</span>Stawy Grojeckie Adolfin (1)</a>
+<a class="stop" href="../rozklady/78/1906-oswiecim.html"><span class="stop-id">1906</span>Oświęcim Pod Olszyną (1)</a>
+<a class="stop" href="../rozklady/78/1909-oswiecim.html"><span class="stop-id">1909</span>Oświęcim Stare Stawy Spółdzielnia (2)</a>
+<a class="stop" href="../rozklady/78/1911-oswiecim.html"><span class="stop-id">1911</span>Oświęcim Osiedle Stare Stawy (2)</a>
+<a class="stop" href="../rozklady/78/1912-oswiecim.html"><span class="stop-id">1912</span>Oświęcim Królowej Jadwigi (2)</a>
+<a class="stop" href="../rozklady/78/1550-oswiecim.html"><span class="stop-id">1550</span>Oświęcim Nojego (1)</a>
+<a class="stop" href="../rozklady/78/0628-oswiecim.html"><span class="stop-id">0628</span>Oświęcim Dąbrowskiego Miasto (1)</a>
+<a class="stop" href="../rozklady/78/0629-oswiecim.html"><span class="stop-id">0629</span>Oświęcim Stacja BP (2)</a>
+<a class="stop" href="../rozklady/78/0630-oswiecim.html"><span class="stop-id">0630</span>Oświęcim Niwa (1)</a>
+<a class="stop terminal" href="../rozklady/78/0631-oswiecim.html"><span class="stop-id">0631</span>Oświęcim Dworzec PKP (1)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Osiek Dom Ludowy</h2>
+
+<div class="zone zone-oswiecim">STREFA OŚWIĘCIM</div>
+
+<a class="stop terminal" href="../rozklady/78/0666-osiek.html"><span class="stop-id">0666</span>Oświęcim Dworzec PKP (2)</a>
+<a class="stop" href="../rozklady/78/0667-osiek.html"><span class="stop-id">0667</span>Oświęcim Niwa (2)</a>
+<a class="stop" href="../rozklady/78/0668-osiek.html"><span class="stop-id">0668</span>Oświęcim Stacja BP (1)</a>
+<a class="stop" href="../rozklady/78/0669-osiek.html"><span class="stop-id">0669</span>Oświęcim Dąbrowskiego Kościół (1)</a>
+<a class="stop" href="../rozklady/78/0670-osiek.html"><span class="stop-id">0670</span>Oświęcim Dąbrowskiego Cmentarz (0)</a>
+<a class="stop" href="../rozklady/78/1551-osiek.html"><span class="stop-id">1551</span>Oświęcim Nojego (2)</a>
+<a class="stop" href="../rozklady/78/1913-osiek.html"><span class="stop-id">1913</span>Oświęcim Królowej Jadwigi (1)</a>
+<a class="stop" href="../rozklady/78/1910-osiek.html"><span class="stop-id">1910</span>Oświęcim Osiedle Stare Stawy (1)</a>
+<a class="stop" href="../rozklady/78/1908-osiek.html"><span class="stop-id">1908</span>Oświęcim Stare Stawy Spółdzielnia (1)</a>
+<a class="stop" href="../rozklady/78/1907-osiek.html"><span class="stop-id">1907</span>Oświęcim Pod Olszyną (2)</a>
+<a class="stop" href="../rozklady/78/1905-osiek.html"><span class="stop-id">1905</span>Stawy Grojeckie Adolfin (2)</a>
+<a class="stop" href="../rozklady/78/1902-osiek.html"><span class="stop-id">1902</span>Stawy Grojeckie Zerwisko (1)</a>
+<a class="stop" href="../rozklady/78/1901-osiek.html"><span class="stop-id">1901</span>Stawy Grojeckie Stary Młyn (1)</a>
+<a class="stop" href="../rozklady/78/1899-osiek.html"><span class="stop-id">1899</span>Stawy Grojeckie Radziwiłł (1)</a>
+<a class="stop" href="../rozklady/78/1897-osiek.html"><span class="stop-id">1897</span>Grojec Leśna Grobel (1)</a>
+<a class="stop" href="../rozklady/78/1894-osiek.html"><span class="stop-id">1894</span>Grojec Krzyżówka (1)</a>
+<a class="stop" href="../rozklady/78/1892-osiek.html"><span class="stop-id">1892</span>Grojec Jagiellończyka (2)</a>
+<a class="stop" href="../rozklady/78/1891-osiek.html"><span class="stop-id">1891</span>Grojec Dom Ludowy (2)</a>
+<a class="stop" href="../rozklady/78/1834-osiek.html"><span class="stop-id">1834</span>Grojec Domżał (2)</a>
+<a class="stop" href="../rozklady/78/1835-osiek.html"><span class="stop-id">1835</span>Łazy Staw (2)</a>
+<a class="stop" href="../rozklady/78/1831-osiek.html"><span class="stop-id">1831</span>Łazy Hyrdzie Pętla (0)</a>
+
+<div class="zone zone-polanka">STREFA POLANKA WIELKA</div>
+  
+<a class="stop" href="../rozklady/78/1836-osiek.html"><span class="stop-id">1836</span>Polanka Wielka Pólka (2)</a>
+<a class="stop" href="../rozklady/78/1837-osiek.html"><span class="stop-id">1837</span>Polanka Wielka Stawowa (2)</a>
+<a class="stop" href="../rozklady/78/1828-osiek.html"><span class="stop-id">1828</span>Polanka Wielka Madejówka (1)</a>
+<a class="stop" href="../rozklady/78/1839-osiek.html"><span class="stop-id">1839</span>Polanka Wielka Wąska (2)</a>
+<a class="stop" href="../rozklady/78/1826-osiek.html"><span class="stop-id">1826</span>Polanka Wielka Stawowa Pętla (0)</a>
+<a class="stop" href="../rozklady/78/1825-osiek.html"><span class="stop-id">1825</span>Polanka Wielka Dalachowice I (2)</a>
+<a class="stop" href="../rozklady/78/1822-osiek.html"><span class="stop-id">1822</span>Polanka Wielka Dalachowice (1)</a>
+<a class="stop" href="../rozklady/78/1819-osiek.html"><span class="stop-id">1819</span>Polanka Wielka Hajduga (1)</a>
+<a class="stop" href="../rozklady/78/3323-osiek.html"><span class="stop-id">3323</span>Polanka Wielka Hajduga Ogrodowa (3)</a>
+<a class="stop" href="../rozklady/78/3324-osiek.html"><span class="stop-id">3324</span>Polanka Wielka Ogrodowa I (1)</a>
+<a class="stop" href="../rozklady/78/3325-osiek.html"><span class="stop-id">3325</span>Polanka Wielka Ogrodowa (1)</a>
+<a class="stop variant" href="../rozklady/78/1873-osiek.html"><span class="stop-id">1873</span>Polanka Wielka Sklep (2)</a>
+<a class="stop variant" href="../rozklady/78/2879-osiek.html"><span class="stop-id">2879</span>Polanka Wielka Łąkowa (2)</a>
+<a class="stop variant" href="../rozklady/78/1870-osiek.html"><span class="stop-id">1870</span>Polanka Wielka Granica (2)</a>
+<a class="stop variant" href="../rozklady/78/2877-osiek.html"><span class="stop-id">2877</span>Polanka Wielka Łąkowa (1)</a>
+<a class="stop variant" href="../rozklady/78/1872-osiek.html"><span class="stop-id">1872</span>Polanka Wielka Sklep (1)</a>
+<a class="stop" href="../rozklady/78/1953-osiek.html"><span class="stop-id">1953</span>Polanka Wielka Dalachowice Granica (1)</a>
+
+<div class="zone zone-osiek">STREFA OSIEK</div>
+  
+<a class="stop" href="../rozklady/78/1956-osiek.html"><span class="stop-id">1956</span>Głębowice (1)</a>
+<a class="stop" href="../rozklady/78/1957-osiek.html"><span class="stop-id">1957</span>Głębowice Łazy II (1)</a>
+<a class="stop" href="../rozklady/78/1937-osiek.html"><span class="stop-id">1937</span>Osiek Granica (2)</a>
+<a class="stop" href="../rozklady/78/1929-osiek.html"><span class="stop-id">1929</span>Osiek Górny Szkoła (1)</a>
+<a class="stop" href="../rozklady/78/1935-osiek.html"><span class="stop-id">1935</span>Osiek Górny Szlaka (2)</a>
+<a class="stop" href="../rozklady/78/1933-osiek.html"><span class="stop-id">1933</span>Osiek Górny Przedszkole (1)</a>
+<a class="stop terminal" href="../rozklady/78/1931-osiek.html"><span class="stop-id">1931</span>Osiek Dom Ludowy (1)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
