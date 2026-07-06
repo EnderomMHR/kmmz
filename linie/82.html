@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 82</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-wolbrom{
+    background:#2a8be8;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">82</div>
+
+<div class="route">
+Sulisławice Remiza - Wierzchowisko - Brzozówka - Wolbrom Nowa PKS - Zabagnie - Dłużec - Lgota Wolbromska - Zarzecze - Chrząstowice - Gołaczewy - Chełm - Poręba Górna - Budzyń
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Budzyń</h2>
+
+<div class="zone zone-wolbrom">STREFA WOLBROM</div>
+
+<a class="stop terminal" href="../rozklady/82/2387-budzyn.html"><span class="stop-id">2387</span>Sulisławice Remiza (1)</a>
+<a class="stop" href="../rozklady/82/2386-budzyn.html"><span class="stop-id">2386</span>Sulisławice (2)</a>
+<a class="stop" href="../rozklady/82/0045-budzyn.html"><span class="stop-id">0045</span>Wierzchowisko Wymysłów (1)</a>
+<a class="stop" href="../rozklady/82/0010-budzyn.html"><span class="stop-id">0010</span>Wierzchowisko Remiza (1)</a>
+<a class="stop" href="../rozklady/82/0011-budzyn.html"><span class="stop-id">0011</span>Wierzchowisko Klub (1)</a>
+<a class="stop" href="../rozklady/82/0012-budzyn.html"><span class="stop-id">0012</span>Brzozówka II (1)</a>
+<a class="stop" href="../rozklady/82/0013-budzyn.html"><span class="stop-id">0013</span>Brzozówka I (2)</a>
+<a class="stop" href="../rozklady/82/0014-budzyn.html"><span class="stop-id">0014</span>Wolbrom Brzozowska Rondo (2)</a>
+<a class="stop" href="../rozklady/82/0016-budzyn.html"><span class="stop-id">0016</span>Wolbrom Dworzec PKP (0)</a>
+<a class="stop" href="../rozklady/82/0017-budzyn.html"><span class="stop-id">0017</span>Wolbrom 1-ego Maja I (1)</a>
+<a class="stop" href="../rozklady/82/0018-budzyn.html"><span class="stop-id">0018</span>Wolbrom 1-ego Maja (1)</a>
+<a class="stop terminal" href="../rozklady/82/0001-budzyn.html"><span class="stop-id">0001</span>Wolbrom Nowa PKS (0)</a>
+<a class="stop" href="../rozklady/82/0023-budzyn.html"><span class="stop-id">0023</span>Wolbrom Zalew (1)</a>
+<a class="stop" href="../rozklady/82/2373-budzyn.html"><span class="stop-id">2373</span>Zabagnie (1)</a>
+<a class="stop" href="../rozklady/82/2299-budzyn.html"><span class="stop-id">2299</span>Dłużec Ośrodek Zdrowia (2)</a>
+<a class="stop" href="../rozklady/82/2907-budzyn.html"><span class="stop-id">2907</span>Dłużec (1)</a>
+<a class="stop" href="../rozklady/82/2330-budzyn.html"><span class="stop-id">2330</span>Dłużec Kościół (1)</a>
+<a class="stop" href="../rozklady/82/2286-budzyn.html"><span class="stop-id">2286</span>Lgota Wolbromska II (1)</a>
+<a class="stop" href="../rozklady/82/2312-budzyn.html"><span class="stop-id">2312</span>Lgota Wolbromska Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/82/2406-budzyn.html"><span class="stop-id">2406</span>Zarzecze Piastowska (1)</a>
+<a class="stop" href="../rozklady/82/2419-budzyn.html"><span class="stop-id">2419</span>Zarzecze Szkoła (2)</a>
+<a class="stop" href="../rozklady/82/2418-budzyn.html"><span class="stop-id">2418</span>Zarzecze (2)</a>
+<a class="stop" href="../rozklady/82/2332-budzyn.html"><span class="stop-id">2332</span>Zarzecze Zacisze (1)</a>
+<a class="stop" href="../rozklady/82/2411-budzyn.html"><span class="stop-id">2411</span>Zarzecze Wyzwolenia (1)</a>
+<a class="stop" href="../rozklady/82/2410-budzyn.html"><span class="stop-id">2410</span>Zarzecze II (1)</a>
+<a class="stop" href="../rozklady/82/2417-budzyn.html"><span class="stop-id">2417</span>Zarzecze III (2)</a>
+<a class="stop" href="../rozklady/82/2412-budzyn.html"><span class="stop-id">2412</span>Chrząstowice (1)</a>
+<a class="stop" href="../rozklady/82/2275-budzyn.html"><span class="stop-id">2275</span>Gołaczewy Chrząstowice (2)</a>
+<a class="stop" href="../rozklady/82/2290-budzyn.html"><span class="stop-id">2290</span>Gołaczewy I (1)</a>
+<a class="stop terminal" href="../rozklady/82/2328-budzyn.html"><span class="stop-id">2328</span>Gołaczewy Centrum (1)</a>
+<a class="stop" href="../rozklady/82/2327-budzyn.html"><span class="stop-id">2327</span>Gołaczewy Chełmska (1)</a>
+<a class="stop" href="../rozklady/82/2326-budzyn.html"><span class="stop-id">2326</span>Chełm Podgórska (1)</a>
+<a class="stop" href="../rozklady/82/2318-budzyn.html"><span class="stop-id">2318</span>Chełm Kamienna Góra (2)</a>
+<a class="stop" href="../rozklady/82/2324-budzyn.html"><span class="stop-id">2324</span>Zasępiec (1)</a>
+<a class="stop" href="../rozklady/82/2323-budzyn.html"><span class="stop-id">2323</span>Poręba Górna Kamienna Góra (1)</a>
+<a class="stop" href="../rozklady/82/2362-budzyn.html"><span class="stop-id">2362</span>Poręba Górna Sklep (1)</a>
+<a class="stop" href="../rozklady/82/2363-budzyn.html"><span class="stop-id">2363</span>Poręba Górna (1)</a>
+<a class="stop" href="../rozklady/82/2364-budzyn.html"><span class="stop-id">2364</span>Poręba Górna Granica (1)</a>
+<a class="stop terminal" href="../rozklady/82/2366-budzyn.html"><span class="stop-id">2366</span>Budzyń (2)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Sulisławice Remiza</h2>
+
+<div class="zone zone-wolbrom">STREFA WOLBROM</div>
+
+<a class="stop terminal" href="../rozklady/82/2365-sulislawice.html"><span class="stop-id">2365</span>Budzyń (1)</a>
+<a class="stop" href="../rozklady/82/2367-sulislawice.html"><span class="stop-id">2367</span>Poręba Górna Granica (2)</a>
+<a class="stop" href="../rozklady/82/2368-sulislawice.html"><span class="stop-id">2368</span>Poręba Górna (2)</a>
+<a class="stop" href="../rozklady/82/2369-sulislawice.html"><span class="stop-id">2369</span>Poręba Górna Sklep (2)</a>
+<a class="stop" href="../rozklady/82/2320-sulislawice.html"><span class="stop-id">2320</span>Poręba Górna Kamienna Góra (2)</a>
+<a class="stop" href="../rozklady/82/2319-sulislawice.html"><span class="stop-id">2319</span>Zasępiec (2)</a>
+<a class="stop" href="../rozklady/82/2325-sulislawice.html"><span class="stop-id">2325</span>Chełm Kamienna Góra (1)</a>
+<a class="stop" href="../rozklady/82/2317-sulislawice.html"><span class="stop-id">2317</span>Chełm Podgórska (2)</a>
+<a class="stop" href="../rozklady/82/2316-sulislawice.html"><span class="stop-id">2316</span>Gołaczewy Chełmska (2)</a>
+<a class="stop" href="../rozklady/82/2315-sulislawice.html"><span class="stop-id">2315</span>Gołaczewy Centrum (2)</a>
+<a class="stop" href="../rozklady/82/2307-sulislawice.html"><span class="stop-id">2307</span>Gołaczewy I (2)</a>
+<a class="stop" href="../rozklady/82/3294-sulislawice.html"><span class="stop-id">3294</span>Chrząstowice (2)</a>
+<a class="stop" href="../rozklady/82/2409-sulislawice.html"><span class="stop-id">2409</span>Zarzecze III (1)</a>
+<a class="stop" href="../rozklady/82/2416-sulislawice.html"><span class="stop-id">2416</span>Zarzecze II (2)</a>
+<a class="stop" href="../rozklady/82/2415-sulislawice.html"><span class="stop-id">2415</span>Zarzecze Wyzwolenia (2)</a>
+<a class="stop" href="../rozklady/82/2333-sulislawice.html"><span class="stop-id">2333</span>Zarzecze Zacisze (2)</a>
+<a class="stop" href="../rozklady/82/2408-sulislawice.html"><span class="stop-id">2408</span>Zarzecze (1)</a>
+<a class="stop" href="../rozklady/82/2407-sulislawice.html"><span class="stop-id">2407</span>Zarzecze Szkoła (1)</a>
+<a class="stop" href="../rozklady/82/2420-sulislawice.html"><span class="stop-id">2420</span>Zarzecze Piastowska (2)</a>
+<a class="stop" href="../rozklady/82/2285-sulislawice.html"><span class="stop-id">2285</span>Lgota Wolbromska (1)</a>
+<a class="stop" href="../rozklady/82/2287-sulislawice.html"><span class="stop-id">2287</span>Lgota Wolbromska II (2)</a>
+<a class="stop" href="../rozklady/82/2313-sulislawice.html"><span class="stop-id">2313</span>Dłużec Kościół (2)</a>
+<a class="stop" href="../rozklady/82/2421-sulislawice.html"><span class="stop-id">2421</span>Dłużec Ośrodek Zdrowia (1)</a>
+<a class="stop" href="../rozklady/82/2374-sulislawice.html"><span class="stop-id">2374</span>Zabagnie (2)</a>
+<a class="stop" href="../rozklady/82/0023-sulislawice.html"><span class="stop-id">0023</span>Wolbrom Zalew (1)</a>
+<a class="stop terminal" href="../rozklady/82/0001-sulislawice.html"><span class="stop-id">0001</span>Wolbrom Nowa PKS (0)</a>
+<a class="stop" href="../rozklady/82/0029-sulislawice.html"><span class="stop-id">0029</span>Wolbrom 1-ego Maja I (2)</a>
+<a class="stop" href="../rozklady/82/0016-sulislawice.html"><span class="stop-id">0016</span>Wolbrom Dworzec PKP (0)</a>
+<a class="stop" href="../rozklady/82/0030-sulislawice.html"><span class="stop-id">0030</span>Wolbrom Brzozowska Rondo (1)</a>
+<a class="stop" href="../rozklady/82/0031-sulislawice.html"><span class="stop-id">0031</span>Brzozówka I (1)</a>
+<a class="stop" href="../rozklady/82/0032-sulislawice.html"><span class="stop-id">0032</span>Brzozówka II (2)</a>
+<a class="stop" href="../rozklady/82/0033-sulislawice.html"><span class="stop-id">0033</span>Wierzchowisko Klub (2)</a>
+<a class="stop" href="../rozklady/82/0034-sulislawice.html"><span class="stop-id">0034</span>Wierzchowisko Remiza (2)</a>
+<a class="stop" href="../rozklady/82/0044-sulislawice.html"><span class="stop-id">0044</span>Wierzchowisko Wymysłów (2)</a>
+<a class="stop" href="../rozklady/82/2385-sulislawice.html"><span class="stop-id">2385</span>Sulisławice (1)</a>
+<a class="stop terminal" href="../rozklady/82/2388-sulislawice.html"><span class="stop-id">2388</span>Sulisławice Remiza (2)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
