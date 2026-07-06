@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 79</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-trzebinia{
+    background:#d9d2e9;
+    color:#222;
+}
+
+.zone-olkusz{
+    background:#ffe599;
+    color:#222;
+}
+
+.zone-bukowno{
+    background:#93c47d;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">79</div>
+
+<div class="route">
+Trzebinia KWK Siersza - Siersza - Gaj - Czyżówka - Podlesie - Bukowno Dworzec PKP - Mazaniec - Olkusz Dworzec PKS
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Olkusz Dworzec PKS</h2>
+
+<div class="zone zone-trzebinia">STREFA TRZEBINIA</div>
+
+<a class="stop terminal" href="../rozklady/79/0973-olkusz.html"><span class="stop-id">0973</span>Trzebinia KWK Siersza (2)</a>
+<a class="stop" href="../rozklady/79/1005-olkusz.html"><span class="stop-id">1005</span>Trzebinia Siersza Ośrodek Zdrowia (1)</a>
+<a class="stop" href="../rozklady/79/1007-olkusz.html"><span class="stop-id">1007</span>Trzebinia Siersza Trętowiec (1)</a>
+<a class="stop" href="../rozklady/79/0991-olkusz.html"><span class="stop-id">0991</span>Trzebinia Siersza Stadion (1)</a>
+<a class="stop" href="../rozklady/79/0993-olkusz.html"><span class="stop-id">0993</span>Trzebinia Siersza Kościół (1)</a>
+<a class="stop" href="../rozklady/79/1525-olkusz.html"><span class="stop-id">1525</span>Trzebinia Siersza Liceum (2)</a>
+<a class="stop variant" href="../rozklady/79/0996-olkusz.html"><span class="stop-id">0996</span>Trzebinia Siersza Zwycięstwa (0)</a>
+<a class="stop variant" href="../rozklady/79/0999-olkusz.html"><span class="stop-id">0999</span>Trzebinia Siersza Szczakowska (1)</a>
+<a class="stop variant" href="../rozklady/79/1001-olkusz.html"><span class="stop-id">1001</span>Trzebinia Ciężkowicka (1)</a>
+<a class="stop variant" href="../rozklady/79/1002-olkusz.html"><span class="stop-id">1002</span>Trzebinia Stawowa Sklep (1)</a>
+<a class="stop variant" href="../rozklady/79/1000-olkusz.html"><span class="stop-id">1000</span>Trzebinia Siersza Szczakowska (2)</a>
+<a class="stop" href="../rozklady/79/1009-olkusz.html"><span class="stop-id">1009</span>Trzebinia Siersza Huta (1)</a>
+<a class="stop" href="../rozklady/79/1013-olkusz.html"><span class="stop-id">1013</span>Trzebinia Gaj Siersza (2)</a>
+<a class="stop" href="../rozklady/79/1021-olkusz.html"><span class="stop-id">1021</span>Trzebinia Osiedle Energetyków (1)</a>
+<a class="stop" href="../rozklady/79/0928-olkusz.html"><span class="stop-id">0928</span>Trzebinia Elektrownia Siersza (0)</a>
+<a class="stop" href="../rozklady/79/0927-olkusz.html"><span class="stop-id">0927</span>Czyżówka Piła Myślachowicka (2)</a>
+<a class="stop" href="../rozklady/79/0809-olkusz.html"><span class="stop-id">0809</span>Czyżówka Mostek (2)</a>
+<a class="stop" href="../rozklady/79/0924-olkusz.html"><span class="stop-id">0924</span>Czyżówka Kaplica (1)</a>
+<a class="stop" href="../rozklady/79/2921-olkusz.html"><span class="stop-id">2921</span>Czyżówka Pętla (1)</a>
+
+<div class="zone zone-bukowno">STREFA BUKOWNO</div>
+  
+<a class="stop" href="../rozklady/79/0957-olkusz.html"><span class="stop-id">0957</span>Bukowno Podlesie Ogrodowa (1)</a>
+<a class="stop" href="../rozklady/79/0955-olkusz.html"><span class="stop-id">0955</span>Bukowno Diabla Góra (1)</a>
+<a class="stop" href="../rozklady/79/0962-olkusz.html"><span class="stop-id">0962</span>Bukowno Ogrodowa na żądanie (1)</a>
+<a class="stop" href="../rozklady/79/0964-olkusz.html"><span class="stop-id">0964</span>Bukowno Ogrodowa (1)</a>
+<a class="stop" href="../rozklady/79/1496-olkusz.html"><span class="stop-id">1496</span>Bukowno Mostowa (2)</a>
+<a class="stop" href="../rozklady/79/1498-olkusz.html"><span class="stop-id">1498</span>Bukowno Pocztowa (2)</a>
+<a class="stop" href="../rozklady/79/0729-olkusz.html"><span class="stop-id">0729</span>Bukowno Tunel (1)</a>
+<a class="stop" href="../rozklady/79/0730-olkusz.html"><span class="stop-id">0730</span>Bukowno Kościół (1)</a>
+<a class="stop" href="../rozklady/79/0731-olkusz.html"><span class="stop-id">0731</span>Bukowno Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/79/0144-olkusz.html"><span class="stop-id">0144</span>Bukowno Nowa OSP (1)</a>
+<a class="stop" href="../rozklady/79/0145-olkusz.html"><span class="stop-id">0145</span>Bukowno Nowa (2)</a>
+<a class="stop" href="../rozklady/79/0146-olkusz.html"><span class="stop-id">0146</span>Bukowno Urząd Miasta (2)</a>
+<a class="stop terminal" href="../rozklady/79/0147-olkusz.html"><span class="stop-id">0147</span>Bukowno Dworzec PKP (0)</a>
+<a class="stop" href="../rozklady/79/0148-olkusz.html"><span class="stop-id">0148</span>Bukowno Urząd Miasta (1)</a>
+<a class="stop" href="../rozklady/79/0724-olkusz.html"><span class="stop-id">0724</span>Bukowno Leśna (1)</a>
+<a class="stop" href="../rozklady/79/0725-olkusz.html"><span class="stop-id">0725</span>Bukowno Leśna Krzyżówka (2)</a>
+<a class="stop" href="../rozklady/79/0726-olkusz.html"><span class="stop-id">0726</span>Bukowno Leśna Pętla (0)</a>
+<a class="stop" href="../rozklady/79/1702-olkusz.html"><span class="stop-id">1702</span>Bukowno Parking (2)</a>
+<a class="stop" href="../rozklady/79/1704-olkusz.html"><span class="stop-id">1704</span>Bukowno Polis (2)</a>
+<a class="stop" href="../rozklady/79/1706-olkusz.html"><span class="stop-id">1706</span>Bukowno Leśniczówka (2)</a>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+  
+<a class="stop" href="../rozklady/79/0235-olkusz.html"><span class="stop-id">0235</span>Olkusz Mazaniec (2)</a>
+<a class="stop" href="../rozklady/79/0236-olkusz.html"><span class="stop-id">0236</span>Olkusz Mazaniec Boczna (2)</a>
+<a class="stop" href="../rozklady/79/0237-olkusz.html"><span class="stop-id">0237</span>Olkusz Żuradzka (1)</a>
+<a class="stop" href="../rozklady/79/0177-olkusz.html"><span class="stop-id">0177</span>Olkusz Szpitalna (2)</a>
+<a class="stop" href="../rozklady/79/0199-olkusz.html"><span class="stop-id">0199</span>Olkusz Skarbek (2)</a>
+<a class="stop terminal" href="../rozklady/79/0200-olkusz.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Trzebinia KWK Siersza</h2>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+
+<a class="stop terminal" href="../rozklady/79/0200-trzebinia.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
+<a class="stop" href="../rozklady/79/0228-trzebinia.html"><span class="stop-id">0228</span>Olkusz Skarbek (1)</a>
+<a class="stop" href="../rozklady/79/0175-trzebinia.html"><span class="stop-id">0175</span>Olkusz Górnicza (1)</a>
+<a class="stop" href="../rozklady/79/0176-trzebinia.html"><span class="stop-id">0176</span>Olkusz Mickiewicza (1)</a>
+<a class="stop" href="../rozklady/79/0178-trzebinia.html"><span class="stop-id">0178</span>Olkusz Szpitalna (1)</a>
+<a class="stop" href="../rozklady/79/0179-trzebinia.html"><span class="stop-id">0179</span>Olkusz Żuradzka (2)</a>
+<a class="stop" href="../rozklady/79/0180-trzebinia.html"><span class="stop-id">0180</span>Olkusz Mazaniec Boczna (1)</a>
+<a class="stop" href="../rozklady/79/0181-trzebinia.html"><span class="stop-id">0181</span>Olkusz Mazaniec (1)</a>
+
+<div class="zone zone-bukowno">STREFA BUKOWNO</div>
+  
+<a class="stop" href="../rozklady/79/1705-trzebinia.html"><span class="stop-id">1705</span>Bukowno Leśniczówka (1)</a>
+<a class="stop" href="../rozklady/79/1703-trzebinia.html"><span class="stop-id">1703</span>Bukowno Polis (1)</a>
+<a class="stop" href="../rozklady/79/1701-trzebinia.html"><span class="stop-id">1701</span>Bukowno Parking (1)</a>
+<a class="stop" href="../rozklady/79/0726-trzebinia.html"><span class="stop-id">0726</span>Bukowno Leśna Pętla (0)</a>
+<a class="stop" href="../rozklady/79/0745-trzebinia.html"><span class="stop-id">0745</span>Bukowno Leśna Krzyżówka (1)</a>
+<a class="stop" href="../rozklady/79/0746-trzebinia.html"><span class="stop-id">0746</span>Bukowno Leśna (2)</a>
+<a class="stop" href="../rozklady/79/0146-trzebinia.html"><span class="stop-id">0146</span>Bukowno Urząd Miasta (2)</a>
+<a class="stop terminal" href="../rozklady/79/0147-trzebinia.html"><span class="stop-id">0147</span>Bukowno Dworzec PKP (0)</a>
+<a class="stop" href="../rozklady/79/0148-trzebinia.html"><span class="stop-id">0148</span>Bukowno Urząd Miasta (1)</a>
+<a class="stop" href="../rozklady/79/0250-trzebinia.html"><span class="stop-id">0250</span>Bukowno Nowa (1)</a>
+<a class="stop" href="../rozklady/79/0251-trzebinia.html"><span class="stop-id">0251</span>Bukowno Nowa OSP (2)</a>
+<a class="stop" href="../rozklady/79/0740-trzebinia.html"><span class="stop-id">0740</span>Bukowno Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/79/0741-trzebinia.html"><span class="stop-id">0741</span>Bukowno Kościół (2)</a>
+<a class="stop" href="../rozklady/79/0742-trzebinia.html"><span class="stop-id">0742</span>Bukowno Tunel (2)</a>
+<a class="stop" href="../rozklady/79/1497-trzebinia.html"><span class="stop-id">1497</span>Bukowno Pocztowa (1)</a>
+<a class="stop" href="../rozklady/79/1495-trzebinia.html"><span class="stop-id">1495</span>Bukowno Mostowa (1)</a>
+<a class="stop" href="../rozklady/79/0965-trzebinia.html"><span class="stop-id">0965</span>Bukowno Ogrodowa (2)</a>
+<a class="stop" href="../rozklady/79/0963-trzebinia.html"><span class="stop-id">0963</span>Bukowno Ogrodowa na żądanie (2)</a>
+<a class="stop" href="../rozklady/79/0956-trzebinia.html"><span class="stop-id">0956</span>Bukowno Diabla Góra (2)</a>
+<a class="stop" href="../rozklady/79/0958-trzebinia.html"><span class="stop-id">0958</span>Bukowno Podlesie Ogrodowa (2)</a>
+
+<div class="zone zone-trzebinia">STREFA TRZEBINIA</div>
+  
+<a class="stop" href="../rozklady/79/2921-trzebinia.html"><span class="stop-id">2921</span>Czyżówka Pętla (1)</a>
+<a class="stop" href="../rozklady/79/0925-trzebinia.html"><span class="stop-id">0925</span>Czyżówka Kaplica (2)</a>
+<a class="stop" href="../rozklady/79/0808-trzebinia.html"><span class="stop-id">0808</span>Czyżówka Mostek (1)</a>
+<a class="stop" href="../rozklady/79/0926-trzebinia.html"><span class="stop-id">0926</span>Czyżówka Piła Myślachowicka (1)</a>
+<a class="stop" href="../rozklady/79/0928-trzebinia.html"><span class="stop-id">0928</span>Trzebinia Elektrownia Siersza (0)</a>
+<a class="stop" href="../rozklady/79/1020-trzebinia.html"><span class="stop-id">1020</span>Trzebinia Osiedle Energetyków (2)</a>
+<a class="stop" href="../rozklady/79/1012-trzebinia.html"><span class="stop-id">1012</span>Trzebinia Gaj Siersza (1)</a>
+<a class="stop" href="../rozklady/79/1010-trzebinia.html"><span class="stop-id">1010</span>Trzebinia Siersza Huta (2)</a>
+<a class="stop" href="../rozklady/79/0993-trzebinia.html"><span class="stop-id">0993</span>Trzebinia Siersza Kościół (1)</a>
+<a class="stop" href="../rozklady/79/1525-trzebinia.html"><span class="stop-id">1525</span>Trzebinia Siersza Liceum (2)</a>
+<a class="stop" href="../rozklady/79/0996-trzebinia.html"><span class="stop-id">0996</span>Trzebinia Siersza Zwycięstwa (0)</a>
+<a class="stop variant" href="../rozklady/79/0999-trzebinia.html"><span class="stop-id">0999</span>Trzebinia Siersza Szczakowska (1)</a>
+<a class="stop variant" href="../rozklady/79/1001-trzebinia.html"><span class="stop-id">1001</span>Trzebinia Ciężkowicka (1)</a>
+<a class="stop variant" href="../rozklady/79/1002-trzebinia.html"><span class="stop-id">1002</span>Trzebinia Stawowa Sklep (1)</a>
+<a class="stop variant" href="../rozklady/79/1000-trzebinia.html"><span class="stop-id">1000</span>Trzebinia Siersza Szczakowska (2)</a>
+<a class="stop" href="../rozklady/79/0995-trzebinia.html"><span class="stop-id">0995</span>Trzebinia Siersza Liceum (1)</a>
+<a class="stop" href="../rozklady/79/0994-trzebinia.html"><span class="stop-id">0994</span>Trzebinia Siersza Kościół (2)</a>
+<a class="stop" href="../rozklady/79/0992-trzebinia.html"><span class="stop-id">0992</span>Trzebinia Siersza Stadion (2)</a>
+<a class="stop" href="../rozklady/79/1008-trzebinia.html"><span class="stop-id">1008</span>Trzebinia Siersza Trętowiec (2)</a>
+<a class="stop" href="../rozklady/79/1006-trzebinia.html"><span class="stop-id">1006</span>Trzebinia Siersza Ośrodek Zdrowia (2)</a>
+<a class="stop terminal" href="../rozklady/79/0973-trzebinia.html"><span class="stop-id">0973</span>Trzebinia KWK Siersza (2)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
