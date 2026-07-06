@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 77</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-krzeszowice{
+    background:#f9cb9a;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">77</div>
+
+<div class="route">
+Żary Centrum - Dubie - Siedlec - Żbik - Krzeszowice Dworzec Autobusowy - Czatkowice Górne - Dębnik Centrum Plac
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Dębnik Centrum Plac</h2>
+
+<div class="zone zone-krzeszowice">STREFA KRZESZOWICE</div>
+
+<a class="stop terminal" href="../rozklady/77/1439-debnik.html"><span class="stop-id">1439</span>Żary Centrum (0)</a>
+<a class="stop" href="../rozklady/77/1440-debnik.html"><span class="stop-id">1440</span>Dubie Most (1)</a>
+<a class="stop variant" href="../rozklady/77/1437-debnik.html"><span class="stop-id">1437</span>Żary Pętla (0)</a>
+<a class="stop" href="../rozklady/77/1434-debnik.html"><span class="stop-id">1434</span>Dubie Leśniczówka (2)</a>
+<a class="stop" href="../rozklady/77/1435-debnik.html"><span class="stop-id">1435</span>Dubie Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/77/1450-debnik.html"><span class="stop-id">1450</span>Siedlec Osiedle (2)</a>
+<a class="stop" href="../rozklady/77/1407-debnik.html"><span class="stop-id">1407</span>Siedlec Pętla (0)</a>
+<a class="stop" href="../rozklady/77/1449-debnik.html"><span class="stop-id">1449</span>Siedlec Szafraniec (2)</a>
+<a class="stop" href="../rozklady/77/1406-debnik.html"><span class="stop-id">1406</span>Krzeszowice Osiedle Żbik (1)</a>
+<a class="stop" href="../rozklady/77/2911-debnik.html"><span class="stop-id">2911</span>Krzeszowice Nowy Świat (1)</a>
+<a class="stop" href="../rozklady/77/1403-debnik.html"><span class="stop-id">1403</span>Krzeszowice Ćmany (1)</a>
+<a class="stop" href="../rozklady/77/1364-debnik.html"><span class="stop-id">1364</span>Krzeszowice Witaminka (1)</a>
+<a class="stop" href="../rozklady/77/0050-debnik.html"><span class="stop-id">0050</span>Krzeszowice Pogotowie Ratunkowe (1)</a>
+<a class="stop terminal" href="../rozklady/77/0134-debnik.html"><span class="stop-id">0134</span>Krzeszowice Dworzec Autobusowy (3)</a>
+<a class="stop" href="../rozklady/77/0135-debnik.html"><span class="stop-id">0135</span>Krzeszowice 3-ego Maja (1)</a>
+<a class="stop" href="../rozklady/77/1365-debnik.html"><span class="stop-id">1365</span>Krzeszowice Witaminka (2)</a>
+<a class="stop" href="../rozklady/77/1362-debnik.html"><span class="stop-id">1362</span>Krzeszowice Majowa (1)</a>
+<a class="stop" href="../rozklady/77/1366-debnik.html"><span class="stop-id">1366</span>Krzeszowice Czatkowice Górne (2)</a>
+<a class="stop terminal" href="../rozklady/77/1368-debnik.html"><span class="stop-id">1368</span>Dębnik Centrum Plac (0)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Żary Centrum</h2>
+
+<div class="zone zone-krzeszowice">STREFA KRZESZOWICE</div>
+  
+<a class="stop terminal" href="../rozklady/77/1368-zary.html"><span class="stop-id">1368</span>Dębnik Centrum Plac (0)</a>
+<a class="stop" href="../rozklady/77/1367-zary.html"><span class="stop-id">1367</span>Krzeszowice Czatkowice Górne (1)</a>
+<a class="stop" href="../rozklady/77/1363-zary.html"><span class="stop-id">1363</span>Krzeszowice Majowa (2)</a>
+<a class="stop" href="../rozklady/77/1364-zary.html"><span class="stop-id">1364</span>Krzeszowice Witaminka (1)</a>
+<a class="stop" href="../rozklady/77/0050-zary.html"><span class="stop-id">0050</span>Krzeszowice Pogotowie Ratunkowe (1)</a>
+<a class="stop terminal" href="../rozklady/77/1677-zary.html"><span class="stop-id">1677</span>Krzeszowice Dworzec Autobusowy (1)</a>
+<a class="stop" href="../rozklady/77/0135-zary.html"><span class="stop-id">0135</span>Krzeszowice 3-ego Maja (1)</a>
+<a class="stop" href="../rozklady/77/1365-zary.html"><span class="stop-id">1365</span>Krzeszowice Witaminka (2)</a>
+<a class="stop" href="../rozklady/77/1404-zary.html"><span class="stop-id">1404</span>Krzeszowice Ćmany (2)</a>
+<a class="stop" href="../rozklady/77/2912-zary.html"><span class="stop-id">2912</span>Krzeszowice Nowy Świat (2)</a>
+<a class="stop" href="../rozklady/77/1405-zary.html"><span class="stop-id">1405</span>Krzeszowice Osiedle Żbik (2)</a>
+<a class="stop" href="../rozklady/77/1448-zary.html"><span class="stop-id">1448</span>Siedlec Szafraniec (1)</a>
+<a class="stop" href="../rozklady/77/1407-zary.html"><span class="stop-id">1407</span>Siedlec Pętla (0)</a>
+<a class="stop" href="../rozklady/77/1451-zary.html"><span class="stop-id">1451</span>Siedlec Osiedle (1)</a>
+<a class="stop" href="../rozklady/77/1433-zary.html"><span class="stop-id">1433</span>Dubie Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/77/1436-zary.html"><span class="stop-id">1436</span>Dubie Leśniczówka (1)</a>
+<a class="stop variant" href="../rozklady/77/1437-zary.html"><span class="stop-id">1437</span>Żary Pętla (0)</a>
+<a class="stop" href="../rozklady/77/1438-zary.html"><span class="stop-id">1438</span>Dubie Most (2)</a>
+<a class="stop terminal" href="../rozklady/77/1439-zary.html"><span class="stop-id">1439</span>Żary Centrum (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
