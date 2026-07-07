@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 83</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-olkusz{
+    background:#ffe599;
+    color:#222;
+}
+
+.zone-wolbrom{
+    background:#2a8be8;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">83</div>
+
+<div class="route">
+Olkusz Orzeszkowej - Rabsztyn - Pazurek - Gołaczewy - Chełm - (Zasępiec) - Wolbrom Nowa PKS
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Wolbrom Nowa PKS</h2>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+
+<a class="stop terminal" href="../rozklady/83/0496-wolbrom.html"><span class="stop-id">0496</span>Olkusz Orzeszkowej (0)</a>
+<a class="stop" href="../rozklady/83/2117-wolbrom.html"><span class="stop-id">2117</span>Olkusz Nałkowskiej (1)</a>
+<a class="stop" href="../rozklady/83/2120-wolbrom.html"><span class="stop-id">2120</span>Olkusz Jana Pawła II (1)</a>
+<a class="stop" href="../rozklady/83/1588-wolbrom.html"><span class="stop-id">1588</span>Olkusz Biema (1)</a>
+<a class="stop" href="../rozklady/83/0537-wolbrom.html"><span class="stop-id">0537</span>Olkusz ZUS (1)</a>
+<a class="stop" href="../rozklady/83/0538-wolbrom.html"><span class="stop-id">0538</span>Olkusz Owent (1)</a>
+<a class="stop" href="../rozklady/83/0225-wolbrom.html"><span class="stop-id">0225</span>Olkusz Aleja Tysiąclecia (2)</a>
+<a class="stop" href="../rozklady/83/0226-wolbrom.html"><span class="stop-id">0226</span>Olkusz Wiadukt (2)</a>
+<a class="stop" href="../rozklady/83/0227-wolbrom.html"><span class="stop-id">0227</span>Olkusz Dworzec PKP (2)</a>
+<a class="stop" href="../rozklady/83/0228-wolbrom.html"><span class="stop-id">0228</span>Olkusz Skarbek (1)</a>
+<a class="stop" href="../rozklady/83/0284-wolbrom.html"><span class="stop-id">0284</span>Olkusz Rabsztyńska Supermarket (0)</a>
+<a class="stop" href="../rozklady/83/0285-wolbrom.html"><span class="stop-id">0285</span>Olkusz Rabsztyńska (2)</a>
+<a class="stop" href="../rozklady/83/0286-wolbrom.html"><span class="stop-id">0286</span>Olkusz Sikorka (2)</a>
+<a class="stop" href="../rozklady/83/0287-wolbrom.html"><span class="stop-id">0287</span>Rabsztyn Ogródki Działkowe (2)</a>
+<a class="stop" href="../rozklady/83/0288-wolbrom.html"><span class="stop-id">0288</span>Rabsztyn (2)</a>
+<a class="stop" href="../rozklady/83/3303-wolbrom.html"><span class="stop-id">3303</span>Podlesie Las (1)</a>
+<a class="stop" href="../rozklady/83/3301-wolbrom.html"><span class="stop-id">3301</span>Pazurek Kaplica (1)</a>
+<a class="stop" href="../rozklady/83/3299-wolbrom.html"><span class="stop-id">3299</span>Pazurek Kolonia (2)</a>
+
+<div class="zone zone-wolbrom">STREFA WOLBROM</div>
+  
+<a class="stop" href="../rozklady/83/2275-wolbrom.html"><span class="stop-id">2275</span>Gołaczewy Chrząstowice (2)</a>
+<a class="stop" href="../rozklady/83/2290-wolbrom.html"><span class="stop-id">2290</span>Gołaczewy I (1)</a>
+<a class="stop" href="../rozklady/83/2328-wolbrom.html"><span class="stop-id">2328</span>Gołaczewy Centrum (1)</a>
+<a class="stop" href="../rozklady/83/2327-wolbrom.html"><span class="stop-id">2327</span>Gołaczewy Chełmska (1)</a>
+<a class="stop" href="../rozklady/83/2326-wolbrom.html"><span class="stop-id">2326</span>Chełm Podgórska (1)</a>
+<a class="stop variant" href="../rozklady/83/2318-wolbrom.html"><span class="stop-id">2318</span>Chełm Kamienna Góra (2)</a>
+<a class="stop variant" href="../rozklady/83/2391-wolbrom.html"><span class="stop-id">2391</span>Zasępiec Szwajcary (1)</a>
+<a class="stop variant" href="../rozklady/83/0020-wolbrom.html"><span class="stop-id">0020</span>Zasępiec Remiza (3)</a>
+<a class="stop variant" href="../rozklady/83/2392-wolbrom.html"><span class="stop-id">2392</span>Zasępiec Szwajcary (2)</a>
+<a class="stop variant" href="../rozklady/83/2325-wolbrom.html"><span class="stop-id">2325</span>Chełm Kamienna Góra (1)</a>
+<a class="stop" href="../rozklady/83/2402-wolbrom.html"><span class="stop-id">2402</span>Chełm Szkoła (1)</a>
+<a class="stop" href="../rozklady/83/2404-wolbrom.html"><span class="stop-id">2404</span>Chełm Grabie (1)</a>
+<a class="stop" href="../rozklady/83/0028-wolbrom.html"><span class="stop-id">0028</span>Wolbrom Ośrodek Zdrowia (1)</a>
+<a class="stop" href="../rozklady/83/0027-wolbrom.html"><span class="stop-id">0027</span>Wolbrom Skrzyżowanie (2)</a>
+<a class="stop terminal" href="../rozklady/83/0001-wolbrom.html"><span class="stop-id">0001</span>Wolbrom Nowa PKS (0)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Olkusz Orzeszkowej</h2>
+
+<div class="zone zone-wolbrom">STREFA WOLBROM</div>
+
+<a class="stop terminal" href="../rozklady/83/0001-olkusz.html"><span class="stop-id">0001</span>Wolbrom Nowa PKS (0)</a>
+<a class="stop" href="../rozklady/83/0026-olkusz.html"><span class="stop-id">0026</span>Wolbrom Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/83/0028-olkusz.html"><span class="stop-id">0028</span>Wolbrom Ośrodek Zdrowia (1)</a>
+<a class="stop" href="../rozklady/83/2401-olkusz.html"><span class="stop-id">2401</span>Chełm Grabie (2)</a>
+<a class="stop" href="../rozklady/83/2403-olkusz.html"><span class="stop-id">2403</span>Chełm Szkoła (2)</a>
+<a class="stop variant" href="../rozklady/83/2318-olkusz.html"><span class="stop-id">2318</span>Chełm Kamienna Góra (2)</a>
+<a class="stop variant" href="../rozklady/83/2391-olkusz.html"><span class="stop-id">2391</span>Zasępiec Szwajcary (1)</a>
+<a class="stop variant" href="../rozklady/83/0020-olkusz.html"><span class="stop-id">0020</span>Zasępiec Remiza (3)</a>
+<a class="stop variant" href="../rozklady/83/2392-olkusz.html"><span class="stop-id">2392</span>Zasępiec Szwajcary (2)</a>
+<a class="stop variant" href="../rozklady/83/2325-olkusz.html"><span class="stop-id">2325</span>Chełm Kamienna Góra (1)</a>
+<a class="stop" href="../rozklady/83/2317-olkusz.html"><span class="stop-id">2317</span>Chełm Podgórska (2)</a>
+<a class="stop" href="../rozklady/83/2316-olkusz.html"><span class="stop-id">2316</span>Gołaczewy Chełmska (2)</a>
+<a class="stop" href="../rozklady/83/2315-olkusz.html"><span class="stop-id">2315</span>Gołaczewy Centrum (2)</a>
+<a class="stop" href="../rozklady/83/2307-olkusz.html"><span class="stop-id">2307</span>Gołaczewy I (2)</a>
+<a class="stop" href="../rozklady/83/2274-olkusz.html"><span class="stop-id">2274</span>Gołaczewy Chrząstowice (1)</a>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+  
+<a class="stop" href="../rozklady/83/3300-olkusz.html"><span class="stop-id">3300</span>Pazurek Kolonia (1)</a>
+<a class="stop" href="../rozklady/83/3302-olkusz.html"><span class="stop-id">3302</span>Pazurek Kaplica (2)</a>
+<a class="stop" href="../rozklady/83/3304-olkusz.html"><span class="stop-id">3304</span>Podlesie Las (2)</a>
+<a class="stop" href="../rozklady/83/0280-olkusz.html"><span class="stop-id">0280</span>Rabsztyn (1)</a>
+<a class="stop" href="../rozklady/83/0281-olkusz.html"><span class="stop-id">0281</span>Rabsztyn Ogródki Działkowe (1)</a>
+<a class="stop" href="../rozklady/83/0282-olkusz.html"><span class="stop-id">0282</span>Olkusz Sikorka (1)</a>
+<a class="stop" href="../rozklady/83/0283-olkusz.html"><span class="stop-id">0283</span>Olkusz Rabsztyńska (1)</a>
+<a class="stop" href="../rozklady/83/0174-olkusz.html"><span class="stop-id">0174</span>Olkusz Supersam (0)</a>
+<a class="stop" href="../rozklady/83/0199-olkusz.html"><span class="stop-id">0199</span>Olkusz Skarbek (2)</a>
+<a class="stop" href="../rozklady/83/0201-olkusz.html"><span class="stop-id">0201</span>Olkusz Dworzec PKP (1)</a>
+<a class="stop" href="../rozklady/83/0202-olkusz.html"><span class="stop-id">0202</span>Olkusz Wiadukt (1)</a>
+<a class="stop" href="../rozklady/83/0492-olkusz.html"><span class="stop-id">0492</span>Olkusz Baza PKS (1)</a>
+<a class="stop" href="../rozklady/83/0493-olkusz.html"><span class="stop-id">0493</span>Olkusz Owent (2)</a>
+<a class="stop" href="../rozklady/83/0494-olkusz.html"><span class="stop-id">0494</span>Olkusz ZUS (2)</a>
+<a class="stop" href="../rozklady/83/1589-olkusz.html"><span class="stop-id">1589</span>Olkusz Biema (2)</a>
+<a class="stop" href="../rozklady/83/2119-olkusz.html"><span class="stop-id">2119</span>Olkusz Jana Pawła II (2)</a>
+<a class="stop" href="../rozklady/83/2118-olkusz.html"><span class="stop-id">2118</span>Olkusz Nałkowskiej (2)</a>
+<a class="stop terminal" href="../rozklady/83/0496-olkusz.html"><span class="stop-id">0496</span>Olkusz Orzeszkowej (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
