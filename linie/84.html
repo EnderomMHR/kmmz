@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 84</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-oswiecim{
+    background:#9fc4e8;
+    color:#222;
+}
+
+.zone-zator{
+    background:#10ffff;
+    color:#222;
+}
+
+.zone-polanka{
+    background:#e16656;
+    color:#222;
+}
+
+.zone-przeciszow{
+    background:#8e7cd3;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">84</div>
+
+<div class="route">
+Oświęcim Dworzec PKP - Zaborze - Poręba Wielka - Polanka Wielka - Przeciszów - Zator Rynek
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Zator Rynek</h2>
+
+<div class="zone zone-oswiecim">STREFA OŚWIĘCIM</div>
+
+<a class="stop terminal" href="../rozklady/84/0666-zator.html"><span class="stop-id">0666</span>Oświęcim Dworzec PKP (2)</a>
+<a class="stop" href="../rozklady/84/0667-zator.html"><span class="stop-id">0667</span>Oświęcim Niwa (2)</a>
+<a class="stop" href="../rozklady/84/0668-zator.html"><span class="stop-id">0668</span>Oświęcim Stacja BP (1)</a>
+<a class="stop" href="../rozklady/84/0669-zator.html"><span class="stop-id">0669</span>Oświęcim Dąbrowskiego Kościół (1)</a>
+<a class="stop" href="../rozklady/84/0670-zator.html"><span class="stop-id">0670</span>Oświęcim Dąbrowskiego Cmentarz (0)</a>
+<a class="stop" href="../rozklady/84/1551-zator.html"><span class="stop-id">1551</span>Oświęcim Nojego (2)</a>
+<a class="stop" href="../rozklady/84/1548-zator.html"><span class="stop-id">1548</span>Oświęcim Szkoła Nr 2 (1)</a>
+<a class="stop" href="../rozklady/84/1547-zator.html"><span class="stop-id">1547</span>Oświęcim Sobieskiego (1)</a>
+<a class="stop" href="../rozklady/84/3322-zator.html"><span class="stop-id">3322</span>Zaborze Szkoła (1)</a>
+<a class="stop" href="../rozklady/84/1882-zator.html"><span class="stop-id">1882</span>Zaborze Ogrody (2)</a>
+<a class="stop" href="../rozklady/84/1883-zator.html"><span class="stop-id">1883</span>Zaborze Węgielnik (2)</a>
+<a class="stop" href="../rozklady/84/1884-zator.html"><span class="stop-id">1884</span>Poręba Wielka Przedzieleń (2)</a>
+<a class="stop" href="../rozklady/84/1885-zator.html"><span class="stop-id">1885</span>Poręba Wielka Leśniczówka (2)</a>
+<a class="stop" href="../rozklady/84/1877-zator.html"><span class="stop-id">1877</span>Poręba Wielka Ruczaj (1)</a>
+<a class="stop" href="../rozklady/84/1876-zator.html"><span class="stop-id">1876</span>Poręba Wielka Remiza (1)</a>
+<a class="stop" href="../rozklady/84/1875-zator.html"><span class="stop-id">1875</span>Poręba Wielka Szkoła (1)</a>
+<a class="stop" href="../rozklady/84/2876-zator.html"><span class="stop-id">2876</span>Poręba Wielka Podstawie (1)</a>
+<a class="stop" href="../rozklady/84/1889-zator.html"><span class="stop-id">1889</span>Poręba Wielka Gaj (2)</a>
+
+<div class="zone zone-polanka">STREFA POLANKA WIELKA</div>
+  
+<a class="stop" href="../rozklady/84/1825-zator.html"><span class="stop-id">1825</span>Polanka Wielka Dalachowice I (2)</a>
+<a class="stop" href="../rozklady/84/1822-zator.html"><span class="stop-id">1822</span>Polanka Wielka Dalachowice (1)</a>
+<a class="stop" href="../rozklady/84/1914-zator.html"><span class="stop-id">1914</span>Polanka Wielka Ośrodek Zdrowia (1)</a>
+<a class="stop" href="../rozklady/84/1819-zator.html"><span class="stop-id">1819</span>Polanka Wielka Hajduga (1)</a>
+<a class="stop" href="../rozklady/84/1817-zator.html"><span class="stop-id">1817</span>Polanka Wielka Hajduga Ogrodowa (1)</a>
+
+<div class="zone zone-przeciszow">STREFA PRZECISZÓW</div>
+  
+<a class="stop" href="../rozklady/84/1813-zator.html"><span class="stop-id">1813</span>Przeciszów RSP (1)</a>
+<a class="stop" href="../rozklady/84/1812-zator.html"><span class="stop-id">1812</span>Przeciszów Szkoła (1)</a>
+<a class="stop" href="../rozklady/84/1811-zator.html"><span class="stop-id">1811</span>Przeciszów Kościół (1)</a>
+<a class="stop" href="../rozklady/84/1809-zator.html"><span class="stop-id">1809</span>Przeciszów I (2)</a>
+<a class="stop" href="../rozklady/84/1810-zator.html"><span class="stop-id">1810</span>Przeciszów Łowiczki Księże (2)</a>
+
+<div class="zone zone-zator">STREFA ZATOR</div>
+  
+<a class="stop" href="../rozklady/84/1685-zator.html"><span class="stop-id">1685</span>Zator Park Rozrywki (1)</a>
+<a class="stop" href="../rozklady/84/1760-zator.html"><span class="stop-id">1760</span>Zator Dworzec Kolejowy (0)</a>
+<a class="stop" href="../rozklady/84/1691-zator.html"><span class="stop-id">1691</span>Zator Podlipki (2)</a>
+<a class="stop terminal" href="../rozklady/84/1679-zator.html"><span class="stop-id">1679</span>Zator Rynek (0)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Oświęcim Dworzec PKP</h2>
+
+<div class="zone zone-zator">STREFA ZATOR</div>
+
+<a class="stop terminal" href="../rozklady/84/1679-oswiecim.html"><span class="stop-id">1679</span>Zator Rynek (0)</a>
+<a class="stop" href="../rozklady/84/1690-oswiecim.html"><span class="stop-id">1690</span>Zator Podlipki (1)</a>
+<a class="stop" href="../rozklady/84/1696-oswiecim.html"><span class="stop-id">1696</span>Zator Park Rozrywki (2)</a>
+
+<div class="zone zone-przeciszow">STREFA PRZECISZÓW</div>
+  
+<a class="stop" href="../rozklady/84/1780-oswiecim.html"><span class="stop-id">1780</span>Przeciszów Łowiczki Księże (1)</a>
+<a class="stop" href="../rozklady/84/1814-oswiecim.html"><span class="stop-id">1814</span>Przeciszów Kościół (2)</a>
+<a class="stop" href="../rozklady/84/1815-oswiecim.html"><span class="stop-id">1815</span>Przeciszów Szkoła (2)</a>
+<a class="stop" href="../rozklady/84/1816-oswiecim.html"><span class="stop-id">1816</span>Przeciszów RSP (2)</a>
+
+<div class="zone zone-polanka">STREFA POLANKA WIELKA</div>
+  
+<a class="stop" href="../rozklady/84/3323-oswiecim.html"><span class="stop-id">3323</span>Polanka Wielka Hajduga Ogrodowa (3)</a>
+<a class="stop" href="../rozklady/84/3324-oswiecim.html"><span class="stop-id">3324</span>Polanka Wielka Ogrodowa I (1)</a>
+<a class="stop" href="../rozklady/84/3325-oswiecim.html"><span class="stop-id">3325</span>Polanka Wielka Ogrodowa (1)</a>
+<a class="stop" href="../rozklady/84/1823-oswiecim.html"><span class="stop-id">1823</span>Polanka Wielka Dalachowice (2)</a>
+<a class="stop" href="../rozklady/84/1824-oswiecim.html"><span class="stop-id">1824</span>Polanka Wielka Dalachowice I (1)</a>
+
+<div class="zone zone-oswiecim">STREFA OŚWIĘCIM</div>
+  
+<a class="stop" href="../rozklady/84/1874-oswiecim.html"><span class="stop-id">1874</span>Poręba Wielka Gaj (1)</a>
+<a class="stop" href="../rozklady/84/2880-oswiecim.html"><span class="stop-id">2880</span>Poręba Wielka Podstawie (2)</a>
+<a class="stop" href="../rozklady/84/1888-oswiecim.html"><span class="stop-id">1888</span>Poręba Wielka Szkoła (2)</a>
+<a class="stop" href="../rozklady/84/1887-oswiecim.html"><span class="stop-id">1887</span>Poręba Wielka Remiza (2)</a>
+<a class="stop" href="../rozklady/84/1886-oswiecim.html"><span class="stop-id">1886</span>Poręba Wielka Ruczaj (2)</a>
+<a class="stop" href="../rozklady/84/1878-oswiecim.html"><span class="stop-id">1878</span>Poręba Wielka Leśniczówka (1)</a>
+<a class="stop" href="../rozklady/84/1879-oswiecim.html"><span class="stop-id">1879</span>Poręba Wielka Przedzieleń (1)</a>
+<a class="stop" href="../rozklady/84/1880-oswiecim.html"><span class="stop-id">1880</span>Zaborze Węgielnik (1)</a>
+<a class="stop" href="../rozklady/84/1881-oswiecim.html"><span class="stop-id">1881</span>Zaborze Ogrody (1)</a>
+<a class="stop" href="../rozklady/84/1545-oswiecim.html"><span class="stop-id">1545</span>Oświęcim Starostwo (1)</a>
+<a class="stop" href="../rozklady/84/1549-oswiecim.html"><span class="stop-id">1549</span>Oświęcim Szkoła Nr 2 (2)</a>
+<a class="stop" href="../rozklady/84/1550-oswiecim.html"><span class="stop-id">1550</span>Oświęcim Nojego (1)</a>
+<a class="stop" href="../rozklady/84/0628-oswiecim.html"><span class="stop-id">0628</span>Oświęcim Dąbrowskiego Miasto (1)</a>
+<a class="stop" href="../rozklady/84/0629-oswiecim.html"><span class="stop-id">0629</span>Oświęcim Stacja BP (2)</a>
+<a class="stop" href="../rozklady/84/0630-oswiecim.html"><span class="stop-id">0630</span>Oświęcim Niwa (1)</a>
+<a class="stop terminal" href="../rozklady/84/0631-oswiecim.html"><span class="stop-id">0631</span>Oświęcim Dworzec PKP (1)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
