@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 85</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.columns.single-column {
+  display: block;
+}
+
+.columns.single-column .column {
+  max-width: 560px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.columns.single-column .stop {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-brzeszcze{
+    background:#a2c4c9;
+    color:#222;
+}
+
+.zone-oswiecim{
+    background:#9fc4e8;
+    color:#222;
+}
+
+@media (max-width: 700px) {
+  .columns.single-column .column {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+  
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">85</div>
+
+<div class="route">
+Jawiszowice Pętla - Brzeszcze Dom Ludowy - Rajsko - Oświęcim Dąbrowskiego Miasto - Rajsko - Brzeszcze Dom Ludowy - Jawiszowice Pętla
+</div>
+
+<div class="columns single-column">
+
+<div class="column">
+
+<h2>Kierunek: Jawiszowice Pętla</h2>
+
+<div class="zone zone-brzeszcze">STREFA BRZESZCZE</div>
+
+<a class="stop terminal" href="../rozklady/85/2552-okrezna.html"><span class="stop-id">2552</span>Jawiszowice Pętla (0)</a>
+<a class="stop" href="../rozklady/85/2551-okrezna.html"><span class="stop-id">2551</span>Jawiszowice Drobniaka (1)</a>
+<a class="stop" href="../rozklady/85/2555-okrezna.html"><span class="stop-id">2555</span>Brzeszcze Osiedle (1)</a>
+<a class="stop" href="../rozklady/85/2553-okrezna.html"><span class="stop-id">2553</span>Brzeszcze Dworzec PKP (0)</a>
+<a class="stop" href="../rozklady/85/2554-okrezna.html"><span class="stop-id">2554</span>Brzeszcze Jawiszowice Osiedle (1)</a>
+<a class="stop" href="../rozklady/85/2556-okrezna.html"><span class="stop-id">2556</span>Brzeszcze Osiedle (2)</a>
+<a class="stop" href="../rozklady/85/2565-okrezna.html"><span class="stop-id">2565</span>Brzeszcze Strażnica (2)</a>
+<a class="stop" href="../rozklady/85/2564-okrezna.html"><span class="stop-id">2564</span>Brzeszcze Kościół (2)</a>
+<a class="stop" href="../rozklady/85/2563-okrezna.html"><span class="stop-id">2563</span>Brzeszcze Szkoła (2)</a>
+<a class="stop" href="../rozklady/85/2569-okrezna.html"><span class="stop-id">2569</span>Brzeszcze KWK (2)</a>
+<a class="stop" href="../rozklady/85/2580-okrezna.html"><span class="stop-id">2580</span>Brzeszcze Bór (Ofiar Oświęcimia) (2)</a>
+<a class="stop" href="../rozklady/85/2579-okrezna.html"><span class="stop-id">2579</span>Brzeszcze Partyzantów (2)</a>
+<a class="stop" href="../rozklady/85/2538-okrezna.html"><span class="stop-id">2538</span>Brzeszcze Budy (3)</a>
+<a class="stop" href="../rozklady/85/2543-okrezna.html"><span class="stop-id">2543</span>Brzeszcze Bór (2)</a>
+<a class="stop" href="../rozklady/85/2540-okrezna.html"><span class="stop-id">2540</span>Brzeszcze Kapliczka (1)</a>
+<a class="stop terminal" href="../rozklady/85/2541-okrezna.html"><span class="stop-id">2541</span>Brzeszcze Dom Ludowy (0)</a>
+<a class="stop" href="../rozklady/85/2542-okrezna.html"><span class="stop-id">2542</span>Brzeszcze Kapliczka (2)</a>
+<a class="stop" href="../rozklady/85/2539-okrezna.html"><span class="stop-id">2539</span>Brzeszcze Bór (1)</a>
+<a class="stop" href="../rozklady/85/2544-okrezna.html"><span class="stop-id">2544</span>Brzeszcze Budy (4)</a>
+
+<div class="zone zone-oswiecim">STREFA OŚWIĘCIM</div>
+  
+<a class="stop" href="../rozklady/85/2546-okrezna.html"><span class="stop-id">2546</span>Rajsko Cegielnia (2)</a>
+<a class="stop" href="../rozklady/85/2535-okrezna.html"><span class="stop-id">2535</span>Rajsko Pałac (1)</a>
+<a class="stop" href="../rozklady/85/0655-okrezna.html"><span class="stop-id">0655</span>Rajsko Pomnik (2)</a>
+<a class="stop" href="../rozklady/85/0656-okrezna.html"><span class="stop-id">0656</span>Rajsko Centrum (2)</a>
+<a class="stop" href="../rozklady/85/0657-okrezna.html"><span class="stop-id">0657</span>Rajsko Ogrody (2)</a>
+<a class="stop" href="../rozklady/85/0658-okrezna.html"><span class="stop-id">0658</span>Oświęcim Uczelnia (1)</a>
+<a class="stop" href="../rozklady/85/0659-okrezna.html"><span class="stop-id">0659</span>Oświęcim Leszczyńskiej Muzeum (2)</a>
+<a class="stop" href="../rozklady/85/0660-okrezna.html"><span class="stop-id">0660</span>Oświęcim Szkoła (1)</a>
+<a class="stop" href="../rozklady/85/0661-okrezna.html"><span class="stop-id">0661</span>Oświęcim MZK (2)</a>
+<a class="stop" href="../rozklady/85/0666-okrezna.html"><span class="stop-id">0666</span>Oświęcim Dworzec PKP (2)</a>
+<a class="stop" href="../rozklady/85/0667-okrezna.html"><span class="stop-id">0667</span>Oświęcim Niwa (2)</a>
+<a class="stop" href="../rozklady/85/0668-okrezna.html"><span class="stop-id">0668</span>Oświęcim Stacja BP (1)</a>
+<a class="stop" href="../rozklady/85/2002-okrezna.html"><span class="stop-id">2002</span>Oświęcim Garbarnia (1)</a>
+<a class="stop" href="../rozklady/85/1912-okrezna.html"><span class="stop-id">1912</span>Oświęcim Królowej Jadwigi (2)</a>
+<a class="stop" href="../rozklady/85/1548-okrezna.html"><span class="stop-id">1548</span>Oświęcim Szkoła Nr 2 (1)</a>
+<a class="stop" href="../rozklady/85/1547-okrezna.html"><span class="stop-id">1547</span>Oświęcim Sobieskiego (1)</a>
+<a class="stop" href="../rozklady/85/1546-okrezna.html"><span class="stop-id">1546</span>Oświęcim Słowackiego I (1)</a>
+<a class="stop" href="../rozklady/85/1543-okrezna.html"><span class="stop-id">1543</span>Oświęcim Słowackiego II (2)</a>
+<a class="stop" href="../rozklady/85/1544-okrezna.html"><span class="stop-id">1544</span>Oświęcim Słowackiego Kowal (2)</a>
+<a class="stop" href="../rozklady/85/1507-okrezna.html"><span class="stop-id">1507</span>Oświęcim Dąbrowskiego (1)</a>
+<a class="stop" href="../rozklady/85/0836-okrezna.html"><span class="stop-id">0836</span>Oświęcim Dąbrowskiego Szpital (1)</a>
+<a class="stop terminal" href="../rozklady/85/0628-okrezna.html"><span class="stop-id">0628</span>Oświęcim Dąbrowskiego Miasto (1)</a>
+<a class="stop" href="../rozklady/85/0629-okrezna.html"><span class="stop-id">0629</span>Oświęcim Stacja BP (2)</a>
+<a class="stop" href="../rozklady/85/0630-okrezna.html"><span class="stop-id">0630</span>Oświęcim Niwa (1)</a>
+<a class="stop" href="../rozklady/85/0631-okrezna.html"><span class="stop-id">0631</span>Oświęcim Dworzec PKP (1)</a>
+<a class="stop" href="../rozklady/85/0637-okrezna.html"><span class="stop-id">0637</span>Oświęcim MZK (1)</a>
+<a class="stop" href="../rozklady/85/0638-okrezna.html"><span class="stop-id">0638</span>Oświęcim Szkoła (2)</a>
+<a class="stop" href="../rozklady/85/0639-okrezna.html"><span class="stop-id">0639</span>Oświęcim Szajny (1)</a>
+<a class="stop" href="../rozklady/85/0640-okrezna.html"><span class="stop-id">0640</span>Oświęcim Uczelnia (2)</a>
+<a class="stop" href="../rozklady/85/0641-okrezna.html"><span class="stop-id">0641</span>Rajsko Ogrody (1)</a>
+<a class="stop" href="../rozklady/85/0642-okrezna.html"><span class="stop-id">0642</span>Rajsko Centrum (1)</a>
+<a class="stop" href="../rozklady/85/0643-okrezna.html"><span class="stop-id">0643</span>Rajsko Pomnik (1)</a>
+<a class="stop" href="../rozklady/85/2547-okrezna.html"><span class="stop-id">2547</span>Rajsko Pałac (2)</a>
+<a class="stop" href="../rozklady/85/2536-okrezna.html"><span class="stop-id">2536</span>Rajsko Cegielnia (1)</a>
+
+<div class="zone zone-brzeszcze">STREFA BRZESZCZE</div>
+  
+<a class="stop" href="../rozklady/85/2538-okrezna-brzeszcze.html"><span class="stop-id">2538</span>Brzeszcze Budy (3)</a>
+<a class="stop" href="../rozklady/85/2543-okrezna-brzeszcze.html"><span class="stop-id">2543</span>Brzeszcze Bór (2)</a>
+<a class="stop" href="../rozklady/85/2540-okrezna-brzeszcze.html"><span class="stop-id">2540</span>Brzeszcze Kapliczka (1)</a>
+<a class="stop" href="../rozklady/85/2541-okrezna-brzeszcze.html"><span class="stop-id">2541</span>Brzeszcze Dom Ludowy (0)</a>
+<a class="stop" href="../rozklady/85/2542-okrezna-brzeszcze.html"><span class="stop-id">2542</span>Brzeszcze Kapliczka (2)</a>
+<a class="stop" href="../rozklady/85/2539-okrezna-brzeszcze.html"><span class="stop-id">2539</span>Brzeszcze Bór (1)</a>
+<a class="stop" href="../rozklady/85/2544-okrezna-brzeszcze.html"><span class="stop-id">2544</span>Brzeszcze Budy (4)</a>
+<a class="stop" href="../rozklady/85/2572-okrezna.html"><span class="stop-id">2572</span>Brzeszcze Partyzantów (1)</a>
+<a class="stop" href="../rozklady/85/2571-okrezna.html"><span class="stop-id">2571</span>Brzeszcze Bór (Ofiar Oświęcimia) (1)</a>
+<a class="stop" href="../rozklady/85/2582-okrezna.html"><span class="stop-id">2582</span>Brzeszcze KWK (1)</a>
+<a class="stop" href="../rozklady/85/2562-okrezna.html"><span class="stop-id">2562</span>Brzeszcze Szkoła (1)</a>
+<a class="stop" href="../rozklady/85/2561-okrezna.html"><span class="stop-id">2561</span>Brzeszcze Kościół (1)</a>
+<a class="stop" href="../rozklady/85/2560-okrezna.html"><span class="stop-id">2560</span>Brzeszcze Strażnica (1)</a>
+<a class="stop" href="../rozklady/85/2555-okrezna-brzeszcze.html"><span class="stop-id">2555</span>Brzeszcze Osiedle (1)</a>
+<a class="stop" href="../rozklady/85/2553-okrezna-brzeszcze.html"><span class="stop-id">2553</span>Brzeszcze Dworzec PKP (0)</a>
+<a class="stop" href="../rozklady/85/2554-okrezna-brzeszcze.html"><span class="stop-id">2554</span>Brzeszcze Jawiszowice Osiedle (1)</a>
+<a class="stop" href="../rozklady/85/2556-okrezna-brzeszcze.html"><span class="stop-id">2556</span>Brzeszcze Osiedle (2)</a>
+<a class="stop terminal" href="../rozklady/85/2552-okrezna.html"><span class="stop-id">2552</span>Jawiszowice Pętla (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
