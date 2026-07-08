@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 86</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.columns.single-column {
+  display: block;
+}
+
+.columns.single-column .column {
+  max-width: 560px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.columns.single-column .stop {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-jerzmanowice-przeginia{
+    background:#ea9998;
+    color:#222;
+}
+
+.zone-suloszowa-skala{
+    background:#b7b8b7;
+    color:#222;
+}
+
+@media (max-width: 700px) {
+  .columns.single-column .column {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+  
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">86</div>
+
+<div class="route">
+Racławice - Czubrowice - Przeginia - Gotkowice - Jerzmanowice - Sąspów - Wola Kalinowska - Ojców Zamek - Skała Połetka - Stoki - Nowa Wieś - Przybysławice - Zamłynie - Minoga - Nowa Wieś - Skała Połetka - Ojców Zamek - Wola Kalinowska - Sąspów - Jerzmanowice - Gotkowice - Przeginia - Czubrowice - Racławice
+</div>
+
+<div class="columns single-column">
+
+<div class="column">
+
+<h2>Kierunek: Racławice</h2>
+
+<div class="zone zone-jerzmanowice-przeginia">STREFA JERZMANOWICE-PRZEGINIA</div>
+
+<a class="stop terminal" href="../rozklady/86/1611-okrezna.html"><span class="stop-id">1611</span>Racławice (2)</a>
+<a class="stop" href="../rozklady/86/1615-okrezna.html"><span class="stop-id">1615</span>Racławice Remiza (1)</a>
+<a class="stop" href="../rozklady/86/1618-okrezna.html"><span class="stop-id">1618</span>Racławice Kościół (1)</a>
+<a class="stop" href="../rozklady/86/1617-okrezna.html"><span class="stop-id">1617</span>Racławice Koło Sioły (1)</a>
+<a class="stop" href="../rozklady/86/1608-okrezna.html"><span class="stop-id">1608</span>Czubrowice Rzeka (2)</a>
+<a class="stop" href="../rozklady/86/1620-okrezna.html"><span class="stop-id">1620</span>Czubrowice Szkoła (1)</a>
+<a class="stop" href="../rozklady/86/1621-okrezna.html"><span class="stop-id">1621</span>Czubrowice Remiza (1)</a>
+<a class="stop" href="../rozklady/86/1622-okrezna.html"><span class="stop-id">1622</span>Czubrowice (1)</a>
+<a class="stop" href="../rozklady/86/1604-okrezna.html"><span class="stop-id">1604</span>Przeginia Górka (1)</a>
+<a class="stop" href="../rozklady/86/1623-okrezna.html"><span class="stop-id">1623</span>Przeginia SKR (1)</a>
+<a class="stop" href="../rozklady/86/1624-okrezna.html"><span class="stop-id">1624</span>Przeginia Szkoła (1)</a>
+<a class="stop" href="../rozklady/86/1654-okrezna.html"><span class="stop-id">1654</span>Przeginia Dom Ludowy (2)</a>
+<a class="stop" href="../rozklady/86/1647-okrezna.html"><span class="stop-id">1647</span>Przeginia Skotnica (1)</a>
+<a class="stop" href="../rozklady/86/1649-okrezna.html"><span class="stop-id">1649</span>Przeginia Ostra Góra (1)</a>
+<a class="stop" href="../rozklady/86/1652-okrezna.html"><span class="stop-id">1652</span>Gotkowice Wieś (2)</a>
+<a class="stop" href="../rozklady/86/1660-okrezna.html"><span class="stop-id">1660</span>Jerzmanowice Ojcowska (2)</a>
+<a class="stop" href="../rozklady/86/1637-okrezna.html"><span class="stop-id">1637</span>Jerzmanowice Centrum (1)</a>
+<a class="stop" href="../rozklady/86/1661-okrezna.html"><span class="stop-id">1661</span>Jerzmanowice Centralna (1)</a>
+<a class="stop" href="../rozklady/86/1676-okrezna.html"><span class="stop-id">1676</span>Sąspów Pod Wymysłowem (2)</a>
+<a class="stop" href="../rozklady/86/1673-okrezna.html"><span class="stop-id">1673</span>Sąspów Cmentarz (1)</a>
+
+<div class="zone zone-suloszowa-skala">STREFA SUŁOSZOWA-SKAŁA</div>
+  
+<a class="stop" href="../rozklady/86/2527-okrezna.html"><span class="stop-id">2527</span>Wola Kalinowska Kalinów (2)</a>
+<a class="stop" href="../rozklady/86/2528-okrezna.html"><span class="stop-id">2528</span>Wola Kalinowska Góra (2)</a>
+<a class="stop" href="../rozklady/86/2774-okrezna.html"><span class="stop-id">2774</span>Ojców Złota Góra (1)</a>
+<a class="stop terminal" href="../rozklady/86/2776-okrezna.html"><span class="stop-id">2776</span>Ojców Zamek (0)</a>
+<a class="stop" href="../rozklady/86/0430-okrezna.html"><span class="stop-id">0430</span>Skała Grodzisko (1)</a>
+<a class="stop terminal" href="../rozklady/86/0399-okrezna.html"><span class="stop-id">0399</span>Skała Połetka (1)</a>
+<a class="stop" href="../rozklady/86/2773-okrezna.html"><span class="stop-id">2773</span>Skała Rynek (1)</a>
+<a class="stop" href="../rozklady/86/2798-okrezna.html"><span class="stop-id">2798</span>Skała Ośrodek (1)</a>
+<a class="stop" href="../rozklady/86/2809-okrezna.html"><span class="stop-id">2809</span>Stoki Centrum (1)</a>
+<a class="stop" href="../rozklady/86/2813-okrezna.html"><span class="stop-id">2813</span>Nowa Wieś (2)</a>
+<a class="stop" href="../rozklady/86/2812-okrezna.html"><span class="stop-id">2812</span>Nowa Wieś Minoga (2)</a>
+<a class="stop" href="../rozklady/86/2811-okrezna.html"><span class="stop-id">2811</span>Przybysławice Granica (2)</a>
+<a class="stop" href="../rozklady/86/2814-okrezna.html"><span class="stop-id">2814</span>Zamłynie (1)</a>
+<a class="stop" href="../rozklady/86/0802-okrezna.html"><span class="stop-id">0802</span>Minoga Zlewnia (0)</a>
+<a class="stop" href="../rozklady/86/0800-okrezna.html"><span class="stop-id">0800</span>Minoga Kościół (1)</a>
+<a class="stop" href="../rozklady/86/2803-okrezna.html"><span class="stop-id">2803</span>Nowa Wieś Minoga (1)</a>
+<a class="stop" href="../rozklady/86/2802-okrezna.html"><span class="stop-id">2802</span>Nowa Wieś (1)</a>
+<a class="stop" href="../rozklady/86/2799-okrezna.html"><span class="stop-id">2799</span>Skała Ośrodek (2)</a>
+<a class="stop" href="../rozklady/86/0431-okrezna.html"><span class="stop-id">0431</span>Skała Rynek (2)</a>
+<a class="stop terminal" href="../rozklady/86/0399-okrezna-2.html"><span class="stop-id">0399</span>Skała Połetka (1)</a>
+<a class="stop" href="../rozklady/86/0401-okrezna.html"><span class="stop-id">0401</span>Skała Grodzisko (2)</a>
+<a class="stop terminal" href="../rozklady/86/2776-okrezna-2.html"><span class="stop-id">2776</span>Ojców Zamek (0)</a>
+<a class="stop" href="../rozklady/86/2775-okrezna.html"><span class="stop-id">2775</span>Ojców Złota Góra (2)</a>
+<a class="stop" href="../rozklady/86/2514-okrezna.html"><span class="stop-id">2514</span>Wola Kalinowska Góra (1)</a>
+<a class="stop" href="../rozklady/86/2515-okrezna.html"><span class="stop-id">2515</span>Wola Kalinowska Kalinów (1)</a>
+
+<div class="zone zone-jerzmanowice-przeginia">STREFA JERZMANOWICE-PRZEGINIA</div>
+  
+<a class="stop" href="../rozklady/86/1675-okrezna.html"><span class="stop-id">1675</span>Sąspów Cmentarz (2)</a>
+<a class="stop" href="../rozklady/86/1672-okrezna.html"><span class="stop-id">1672</span>Sąspów Pod Wymysłowem (1)</a>
+<a class="stop" href="../rozklady/86/1660-okrezna-2.html"><span class="stop-id">1660</span>Jerzmanowice Ojcowska (2)</a>
+<a class="stop" href="../rozklady/86/1637-okrezna-2.html"><span class="stop-id">1637</span>Jerzmanowice Centrum (1)</a>
+<a class="stop" href="../rozklady/86/1661-okrezna-2.html"><span class="stop-id">1661</span>Jerzmanowice Centralna (1)</a>
+<a class="stop" href="../rozklady/86/1659-okrezna.html"><span class="stop-id">1659</span>Jerzmanowice Ojcowska (1)</a>
+<a class="stop" href="../rozklady/86/1650-okrezna.html"><span class="stop-id">1650</span>Gotkowice Wieś (1)</a>
+<a class="stop" href="../rozklady/86/1653-okrezna.html"><span class="stop-id">1653</span>Przeginia Ostra Góra (2)</a>
+<a class="stop" href="../rozklady/86/1655-okrezna.html"><span class="stop-id">1655</span>Przeginia Skotnica (2)</a>
+<a class="stop" href="../rozklady/86/1648-okrezna.html"><span class="stop-id">1648</span>Przeginia Dom Ludowy (1)</a>
+<a class="stop" href="../rozklady/86/1602-okrezna.html"><span class="stop-id">1602</span>Przeginia Szkoła (2)</a>
+<a class="stop" href="../rozklady/86/1603-okrezna.html"><span class="stop-id">1603</span>Przeginia SKR (2)</a>
+<a class="stop" href="../rozklady/86/1761-okrezna.html"><span class="stop-id">1761</span>Przeginia Górka (2)</a>
+<a class="stop" href="../rozklady/86/1605-okrezna.html"><span class="stop-id">1605</span>Czubrowice (2)</a>
+<a class="stop" href="../rozklady/86/1606-okrezna.html"><span class="stop-id">1606</span>Czubrowice Remiza (2)</a>
+<a class="stop" href="../rozklady/86/1607-okrezna.html"><span class="stop-id">1607</span>Czubrowice Szkoła (2)</a>
+<a class="stop" href="../rozklady/86/1619-okrezna.html"><span class="stop-id">1619</span>Czubrowice Rzeka (1)</a>
+<a class="stop" href="../rozklady/86/1610-okrezna.html"><span class="stop-id">1610</span>Racławice Koło Sioły (2)</a>
+<a class="stop" href="../rozklady/86/1609-okrezna.html"><span class="stop-id">1609</span>Racławice Kościół (2)</a>
+<a class="stop" href="../rozklady/86/1616-okrezna.html"><span class="stop-id">1616</span>Racławice Remiza (2)</a>
+<a class="stop terminal" href="../rozklady/86/1614-okrezna.html"><span class="stop-id">1614</span>Racławice (1)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
