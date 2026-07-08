@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 87</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-suloszowa-skala{
+    background:#b7b8b7;
+    color:#222;
+}
+
+.zone-iwanowice{
+    background:#e6b8af;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">87</div>
+
+<div class="route">
+Narama Remiza - Szczodrkowice - Cianowice - Skała Połetka - Sobiesęki Podjedle
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Sobiesęki Podjedle</h2>
+
+<div class="zone zone-iwanowice">STREFA IWANOWICE</div>
+
+<a class="stop terminal" href="../rozklady/87/2914-sobieseki.html"><span class="stop-id">2914</span>Narama Remiza (1)</a>
+<a class="stop" href="../rozklady/87/2917-sobieseki.html"><span class="stop-id">2917</span>Narama Kolonia (2)</a>
+<a class="stop" href="../rozklady/87/0810-sobieseki.html"><span class="stop-id">0810</span>Narama Łaziec (2)</a>
+
+<div class="zone zone-suloszowa-skala">STREFA SUŁOSZOWA-SKAŁA</div>
+  
+<a class="stop" href="../rozklady/87/2822-sobieseki.html"><span class="stop-id">2822</span>Szczodrkowice Łaziec (1)</a>
+<a class="stop" href="../rozklady/87/2821-sobieseki.html"><span class="stop-id">2821</span>Szczodrkowice Kopanina (1)</a>
+<a class="stop" href="../rozklady/87/2887-sobieseki.html"><span class="stop-id">2887</span>Szczodrkowice Zagardle (1)</a>
+<a class="stop" href="../rozklady/87/2820-sobieseki.html"><span class="stop-id">2820</span>Szczodrkowice Szkoła (1)</a>
+<a class="stop" href="../rozklady/87/2827-sobieseki.html"><span class="stop-id">2827</span>Szczodrkowice Remiza (2)</a>
+<a class="stop" href="../rozklady/87/2794-sobieseki.html"><span class="stop-id">2794</span>Cianowice Szczodrkowicka (2)</a>
+<a class="stop" href="../rozklady/87/2788-sobieseki.html"><span class="stop-id">2788</span>Cianowice Marianów (1)</a>
+<a class="stop" href="../rozklady/87/2787-sobieseki.html"><span class="stop-id">2787</span>Cianowice Poręba (1)</a>
+<a class="stop" href="../rozklady/87/2786-sobieseki.html"><span class="stop-id">2786</span>Skała Wieś (1)</a>
+<a class="stop" href="../rozklady/87/2785-sobieseki.html"><span class="stop-id">2785</span>Skała Rzeplińska (1)</a>
+<a class="stop" href="../rozklady/87/0431-sobieseki.html"><span class="stop-id">0431</span>Skała Rynek (2)</a>
+<a class="stop terminal" href="../rozklady/87/0399-sobieseki.html"><span class="stop-id">0399</span>Skała Połetka (1)</a>
+<a class="stop" href="../rozklady/87/2773-sobieseki.html"><span class="stop-id">2773</span>Skała Rynek (1)</a>
+<a class="stop" href="../rozklady/87/2923-sobieseki.html"><span class="stop-id">2923</span>Skała Sobiesęcka (2)</a>
+<a class="stop" href="../rozklady/87/0812-sobieseki.html"><span class="stop-id">0812</span>Sobiesęki Przy Rondzie (2)</a>
+<a class="stop" href="../rozklady/87/0814-sobieseki.html"><span class="stop-id">0814</span>Sobiesęki OSP (2)</a>
+<a class="stop terminal" href="../rozklady/87/0816-sobieseki.html"><span class="stop-id">0816</span>Sobiesęki Podjedle (2)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Narama Remiza</h2>
+
+<div class="zone zone-suloszowa-skala">STREFA SUŁOSZOWA-SKAŁA</div>
+
+<a class="stop terminal" href="../rozklady/87/0815-narama.html"><span class="stop-id">0815</span>Sobiesęki Podjedle (1)</a>
+<a class="stop" href="../rozklady/87/0813-narama.html"><span class="stop-id">0813</span>Sobiesęki OSP (1)</a>
+<a class="stop" href="../rozklady/87/0811-narama.html"><span class="stop-id">0811</span>Sobiesęki Przy Rondzie (1)</a>
+<a class="stop" href="../rozklady/87/2924-narama.html"><span class="stop-id">2924</span>Skała Sobiesęcka (1)</a>
+<a class="stop" href="../rozklady/87/0431-narama.html"><span class="stop-id">0431</span>Skała Rynek (2)</a>
+<a class="stop terminal" href="../rozklady/87/0399-narama.html"><span class="stop-id">0399</span>Skała Połetka (1)</a>
+<a class="stop" href="../rozklady/87/0431-narama-2.html"><span class="stop-id">0431</span>Skała Rynek (2)</a>
+<a class="stop" href="../rozklady/87/2792-narama.html"><span class="stop-id">2792</span>Skała Rzeplińska (2)</a>
+<a class="stop" href="../rozklady/87/2791-narama.html"><span class="stop-id">2791</span>Cianowice Do Cegielni (1)</a>
+<a class="stop" href="../rozklady/87/2790-narama.html"><span class="stop-id">2790</span>Cianowice Poręba (2)</a>
+<a class="stop" href="../rozklady/87/2789-narama.html"><span class="stop-id">2789</span>Cianowice Marianów (2)</a>
+<a class="stop" href="../rozklady/87/2918-narama.html"><span class="stop-id">2918</span>Cianowice Szczodrkowicka (3)</a>
+<a class="stop" href="../rozklady/87/2819-narama.html"><span class="stop-id">2819</span>Szczodrkowice Remiza (1)</a>
+<a class="stop" href="../rozklady/87/2828-narama.html"><span class="stop-id">2828</span>Szczodrkowice Szkoła (2)</a>
+<a class="stop" href="../rozklady/87/2888-narama.html"><span class="stop-id">2888</span>Szczodrkowice Zagardle (2)</a>
+<a class="stop" href="../rozklady/87/2825-narama.html"><span class="stop-id">2825</span>Szczodrkowice Kopanina (2)</a>
+<a class="stop" href="../rozklady/87/2824-narama.html"><span class="stop-id">2824</span>Szczodrkowice Łaziec (2)</a>
+
+<div class="zone zone-iwanowice">STREFA IWANOWICE</div>
+  
+<a class="stop" href="../rozklady/87/2915-narama.html"><span class="stop-id">2915</span>Narama Łaziec (1)</a>
+<a class="stop" href="../rozklady/87/2916-narama.html"><span class="stop-id">2916</span>Narama Kolonia (1)</a>
+<a class="stop terminal" href="../rozklady/87/2914-narama.html"><span class="stop-id">2914</span>Narama Remiza (1)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
