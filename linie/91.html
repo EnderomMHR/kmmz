@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 91</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-libiaz{
+    background:#b6d7a8;
+    color:#222;
+}
+
+.zone-babice-alwernia{
+    background:#dd7e6b;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">91</div>
+
+<div class="route">
+Grojec Zajezdnia - Alwernia - Kwaczała - Babice - Wygiełzów - Żarki - Moczydło - Libiąż Dworzec Autobusowy
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Libiąż Dworzec Autobusowy</h2>
+
+<div class="zone zone-babice-alwernia">STREFA BABICE-ALWERNIA</div>
+
+<a class="stop terminal" href="../rozklady/91/1484-libiaz.html"><span class="stop-id">1484</span>Grojec Zajezdnia (1)</a>
+<a class="stop" href="../rozklady/91/1487-libiaz.html"><span class="stop-id">1487</span>Grojec Szkoła (2)</a>
+<a class="stop" href="../rozklady/91/1488-libiaz.html"><span class="stop-id">1488</span>Grojec II (2)</a>
+<a class="stop" href="../rozklady/91/1480-libiaz.html"><span class="stop-id">1480</span>Grojec Waga (1)</a>
+<a class="stop" href="../rozklady/91/1519-libiaz.html"><span class="stop-id">1519</span>Alwernia Cmentarz (0)</a>
+<a class="stop" href="../rozklady/91/1354-libiaz.html"><span class="stop-id">1354</span>Alwernia Garncarska (1)</a>
+<a class="stop" href="../rozklady/91/1346-libiaz.html"><span class="stop-id">1346</span>Alwernia Szkoła (1)</a>
+<a class="stop" href="../rozklady/91/1347-libiaz.html"><span class="stop-id">1347</span>Alwernia Osiedle (1)</a>
+<a class="stop" href="../rozklady/91/1353-libiaz.html"><span class="stop-id">1353</span>Alwernia Spalona (2)</a>
+<a class="stop" href="../rozklady/91/1493-libiaz.html"><span class="stop-id">1493</span>Kwaczała Centrum (2)</a>
+<a class="stop" href="../rozklady/91/1491-libiaz.html"><span class="stop-id">1491</span>Kwaczała Łazek (1)</a>
+<a class="stop" href="../rozklady/91/1033-libiaz.html"><span class="stop-id">1033</span>Babice Zmornica (1)</a>
+<a class="stop" href="../rozklady/91/0597-libiaz.html"><span class="stop-id">0597</span>Babice Urząd Gminy (2)</a>
+<a class="stop" href="../rozklady/91/1035-libiaz.html"><span class="stop-id">1035</span>Wygiełzów Oświęcimska (1)</a>
+
+<div class="zone zone-libiaz">STREFA LIBIĄŻ</div>
+  
+<a class="stop" href="../rozklady/91/1090-libiaz.html"><span class="stop-id">1090</span>Żarki Młyn (2)</a>
+<a class="stop" href="../rozklady/91/0323-libiaz.html"><span class="stop-id">0323</span>Żarki Centrum (2)</a>
+<a class="stop" href="../rozklady/91/0324-libiaz.html"><span class="stop-id">0324</span>Żarki Kościuszki (2)</a>
+<a class="stop" href="../rozklady/91/0325-libiaz.html"><span class="stop-id">0325</span>Libiąż Górka Moczydlańska (2)</a>
+<a class="stop" href="../rozklady/91/0326-libiaz.html"><span class="stop-id">0326</span>Libiąż Krakowska Moczydło (2)</a>
+<a class="stop" href="../rozklady/91/0327-libiaz.html"><span class="stop-id">0327</span>Libiąż Sikorskiego Moczydło (1)</a>
+<a class="stop" href="../rozklady/91/0328-libiaz.html"><span class="stop-id">0328</span>Libiąż Skotnica (2)</a>
+<a class="stop" href="../rozklady/91/0329-libiaz.html"><span class="stop-id">0329</span>Libiąż Makowa (2)</a>
+<a class="stop" href="../rozklady/91/0105-libiaz.html"><span class="stop-id">0105</span>Libiąż Kopalnia Janina (0)</a>
+<a class="stop terminal" href="../rozklady/91/0107-libiaz.html"><span class="stop-id">0107</span>Libiąż Dworzec Autobusowy (2)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Grojec Zajezdnia</h2>
+
+<div class="zone zone-libiaz">STREFA LIBIĄŻ</div>
+
+<a class="stop terminal" href="../rozklady/91/0104-grojec.html"><span class="stop-id">0104</span>Libiąż Dworzec Autobusowy (1)</a>
+<a class="stop" href="../rozklady/91/0105-grojec.html"><span class="stop-id">0105</span>Libiąż Kopalnia Janina (0)</a>
+<a class="stop" href="../rozklady/91/0337-grojec.html"><span class="stop-id">0337</span>Libiąż Makowa (1)</a>
+<a class="stop" href="../rozklady/91/0338-grojec.html"><span class="stop-id">0338</span>Libiąż Skotnica (1)</a>
+<a class="stop" href="../rozklady/91/0339-grojec.html"><span class="stop-id">0339</span>Libiąż Sikorskiego Moczydło (2)</a>
+<a class="stop" href="../rozklady/91/0340-grojec.html"><span class="stop-id">0340</span>Libiąż Krakowska Moczydło (1)</a>
+<a class="stop" href="../rozklady/91/0341-grojec.html"><span class="stop-id">0341</span>Libiąż Górka Moczydlańska (1)</a>
+<a class="stop" href="../rozklady/91/0342-grojec.html"><span class="stop-id">0342</span>Żarki Kościuszki (1)</a>
+<a class="stop" href="../rozklady/91/1088-grojec.html"><span class="stop-id">1088</span>Żarki Centrum (1)</a>
+<a class="stop" href="../rozklady/91/1089-grojec.html"><span class="stop-id">1089</span>Żarki Młyn (1)</a>
+
+<div class="zone zone-babice-alwernia">STREFA BABICE-ALWERNIA</div>
+  
+<a class="stop" href="../rozklady/91/1036-grojec.html"><span class="stop-id">1036</span>Wygiełzów Oświęcimska (2)</a>
+<a class="stop" href="../rozklady/91/0586-grojec.html"><span class="stop-id">0586</span>Babice Urząd Gminy (1)</a>
+<a class="stop" href="../rozklady/91/1034-grojec.html"><span class="stop-id">1034</span>Babice Zmornica (2)</a>
+<a class="stop" href="../rozklady/91/1492-grojec.html"><span class="stop-id">1492</span>Kwaczała Łazek (2)</a>
+<a class="stop" href="../rozklady/91/1490-grojec.html"><span class="stop-id">1490</span>Kwaczała Centrum (1)</a>
+<a class="stop" href="../rozklady/91/1350-grojec.html"><span class="stop-id">1350</span>Alwernia Spalona (1)</a>
+<a class="stop" href="../rozklady/91/2885-grojec.html"><span class="stop-id">2885</span>Alwernia Osiedle (3)</a>
+<a class="stop" href="../rozklady/91/1348-grojec.html"><span class="stop-id">1348</span>Alwernia Szkoła (2)</a>
+<a class="stop" href="../rozklady/91/1355-grojec.html"><span class="stop-id">1355</span>Alwernia Garncarska (2)</a>
+<a class="stop" href="../rozklady/91/1519-grojec.html"><span class="stop-id">1519</span>Alwernia Cmentarz (0)</a>
+<a class="stop" href="../rozklady/91/1481-grojec.html"><span class="stop-id">1481</span>Grojec Waga (2)</a>
+<a class="stop" href="../rozklady/91/1483-grojec.html"><span class="stop-id">1483</span>Grojec Szkoła (1)</a>
+<a class="stop terminal" href="../rozklady/91/1484-grojec.html"><span class="stop-id">1484</span>Grojec Zajezdnia (1)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
