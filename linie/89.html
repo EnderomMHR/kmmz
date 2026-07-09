@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 89</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-olkusz{
+    background:#ffe599;
+    color:#222;
+}
+
+.zone-klucze{
+    background:#00fe00;
+    color:#222;
+}
+  
+.zone-wolbrom{
+    background:#2a8be8;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">89</div>
+
+<div class="route">
+Olkusz Dworzec PKS - Podgrabie - Bogucin Mały - Bogucin Duży - Klucze - Jaroszowiec - Kolbark - Bydlin - Krzywopłoty - Załęże - Domaniewice - Dłużec - Zabagnie - Wolbrom Osiedle Chrobrego
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Wolbrom Osiedle Chrobrego</h2>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+
+<a class="stop terminal" href="../rozklady/89/0200-wolbrom.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
+<a class="stop" href="../rozklady/89/0228-wolbrom.html"><span class="stop-id">0228</span>Olkusz Skarbek (1)</a>
+<a class="stop" href="../rozklady/89/0284-wolbrom.html"><span class="stop-id">0284</span>Olkusz Rabsztyńska Supermarket (0)</a>
+<a class="stop" href="../rozklady/89/0285-wolbrom.html"><span class="stop-id">0285</span>Olkusz Rabsztyńska (2)</a>
+<a class="stop" href="../rozklady/89/2202-wolbrom.html"><span class="stop-id">2202</span>Olkusz Jasna (1)</a>
+<a class="stop" href="../rozklady/89/2199-wolbrom.html"><span class="stop-id">2199</span>Olkusz Podgrabie (1)</a>
+<a class="stop" href="../rozklady/89/2197-wolbrom.html"><span class="stop-id">2197</span>Olkusz Podgrabie Jurajska (1)</a>
+<a class="stop" href="../rozklady/89/2195-wolbrom.html"><span class="stop-id">2195</span>Olkusz Podgrabie Przedszkole (1)</a>
+<a class="stop" href="../rozklady/89/2193-wolbrom.html"><span class="stop-id">2193</span>Bogucin Mały Podgrabie (1)</a>
+<a class="stop" href="../rozklady/89/2192-wolbrom.html"><span class="stop-id">2192</span>Bogucin Mały Sklep (2)</a>
+<a class="stop" href="../rozklady/89/2190-wolbrom.html"><span class="stop-id">2190</span>Bogucin Mały Granica (2)</a>
+
+<div class="zone zone-klucze">STREFA KLUCZE</div>
+  
+<a class="stop" href="../rozklady/89/2188-wolbrom.html"><span class="stop-id">2188</span>Bogucin Duży Kiosk (2)</a>
+<a class="stop" href="../rozklady/89/2185-wolbrom.html"><span class="stop-id">2185</span>Bogucin Duży (1)</a>
+<a class="stop" href="../rozklady/89/2178-wolbrom.html"><span class="stop-id">2178</span>Bogucin Duży Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/89/2176-wolbrom.html"><span class="stop-id">2176</span>Klucze Kościół (2)</a>
+<a class="stop" href="../rozklady/89/0513-wolbrom.html"><span class="stop-id">0513</span>Klucze Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/89/0514-wolbrom.html"><span class="stop-id">0514</span>Klucze PKS (1)</a>
+<a class="stop" href="../rozklady/89/0515-wolbrom.html"><span class="stop-id">0515</span>Jaroszowiec Szkoła (1)</a>
+<a class="stop" href="../rozklady/89/0516-wolbrom.html"><span class="stop-id">0516</span>Jaroszowiec Huta Szkłomasz (2)</a>
+<a class="stop" href="../rozklady/89/0517-wolbrom.html"><span class="stop-id">0517</span>Jaroszowiec Dworzec PKP (2)</a>
+<a class="stop" href="../rozklady/89/2206-wolbrom.html"><span class="stop-id">2206</span>Jaroszowiec Porąbka (1)</a>
+<a class="stop" href="../rozklady/89/2207-wolbrom.html"><span class="stop-id">2207</span>Jaroszowiec Kobylica (1)</a>
+<a class="stop" href="../rozklady/89/2208-wolbrom.html"><span class="stop-id">2208</span>Kolbark (1)</a>
+<a class="stop" href="../rozklady/89/2209-wolbrom.html"><span class="stop-id">2209</span>Bydlin Ośrodek Zdrowia (1)</a>
+<a class="stop" href="../rozklady/89/2211-wolbrom.html"><span class="stop-id">2211</span>Bydlin Kościół (1)</a>
+<a class="stop" href="../rozklady/89/2212-wolbrom.html"><span class="stop-id">2212</span>Bydlin Szkoła (1)</a>
+<a class="stop" href="../rozklady/89/2215-wolbrom.html"><span class="stop-id">2215</span>Krzywopłoty Na Bagnie (2)</a>
+<a class="stop" href="../rozklady/89/2224-wolbrom.html"><span class="stop-id">2224</span>Krzywopłoty Kaplica (2)</a>
+<a class="stop" href="../rozklady/89/2225-wolbrom.html"><span class="stop-id">2225</span>Krzywopłoty (2)</a>
+<a class="stop" href="../rozklady/89/2235-wolbrom.html"><span class="stop-id">2235</span>Bydlin Zawadka (1)</a>
+
+<div class="zone zone-wolbrom">STREFA WOLBROM</div>
+  
+<a class="stop" href="../rozklady/89/2306-wolbrom.html"><span class="stop-id">2306</span>Załęże (2)</a>
+<a class="stop" href="../rozklady/89/2305-wolbrom.html"><span class="stop-id">2305</span>Załęże Most (2)</a>
+<a class="stop" href="../rozklady/89/2293-wolbrom.html"><span class="stop-id">2293</span>Domaniewice Lasek Domaniewicki (1)</a>
+<a class="stop" href="../rozklady/89/2294-wolbrom.html"><span class="stop-id">2294</span>Domaniewice (1)</a>
+<a class="stop" href="../rozklady/89/2295-wolbrom.html"><span class="stop-id">2295</span>Dłużec Granica (1)</a>
+<a class="stop" href="../rozklady/89/2301-wolbrom.html"><span class="stop-id">2301</span>Dłużec Niezdara (2)</a>
+<a class="stop" href="../rozklady/89/2297-wolbrom.html"><span class="stop-id">2297</span>Dłużec Nowa Wieś (1)</a>
+<a class="stop" href="../rozklady/89/2298-wolbrom.html"><span class="stop-id">2298</span>Dłużec Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/89/2374-wolbrom.html"><span class="stop-id">2374</span>Zabagnie (2)</a>
+<a class="stop" href="../rozklady/89/0023-wolbrom.html"><span class="stop-id">0023</span>Wolbrom Zalew (1)</a>
+<a class="stop" href="../rozklady/89/0001-wolbrom.html"><span class="stop-id">0001</span>Wolbrom Nowa PKS (0)</a>
+<a class="stop terminal" href="../rozklady/89/0002-wolbrom.html"><span class="stop-id">0002</span>Wolbrom Osiedle Chrobrego (1)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Olkusz Dworzec PKS</h2>
+
+<div class="zone zone-wolbrom">STREFA WOLBROM</div>
+
+<a class="stop terminal" href="../rozklady/89/0002-olkusz.html"><span class="stop-id">0002</span>Wolbrom Osiedle Chrobrego (1)</a>
+<a class="stop" href="../rozklady/89/0001-olkusz.html"><span class="stop-id">0001</span>Wolbrom Nowa PKS (0)</a>
+<a class="stop" href="../rozklady/89/0023-olkusz.html"><span class="stop-id">0023</span>Wolbrom Zalew (1)</a>
+<a class="stop" href="../rozklady/89/2373-olkusz.html"><span class="stop-id">2373</span>Zabagnie (1)</a>
+<a class="stop" href="../rozklady/89/2299-olkusz.html"><span class="stop-id">2299</span>Dłużec Ośrodek Zdrowia (2)</a>
+<a class="stop" href="../rozklady/89/2300-olkusz.html"><span class="stop-id">2300</span>Dłużec Nowa Wieś (2)</a>
+<a class="stop" href="../rozklady/89/2296-olkusz.html"><span class="stop-id">2296</span>Dłużec Niezdara (1)</a>
+<a class="stop" href="../rozklady/89/2302-olkusz.html"><span class="stop-id">2302</span>Dłużec Granica (2)</a>
+<a class="stop" href="../rozklady/89/2303-olkusz.html"><span class="stop-id">2303</span>Domaniewice (2)</a>
+<a class="stop" href="../rozklady/89/2304-olkusz.html"><span class="stop-id">2304</span>Domaniewice Lasek Domaniewicki (2)</a>
+<a class="stop" href="../rozklady/89/2292-olkusz.html"><span class="stop-id">2292</span>Załęże Most (1)</a>
+<a class="stop" href="../rozklady/89/2291-olkusz.html"><span class="stop-id">2291</span>Załęże (1)</a>
+
+<div class="zone zone-klucze">STREFA KLUCZE</div>
+  
+<a class="stop" href="../rozklady/89/2226-olkusz.html"><span class="stop-id">2226</span>Bydlin Zawadka (2)</a>
+<a class="stop" href="../rozklady/89/2236-olkusz.html"><span class="stop-id">2236</span>Krzywopłoty (1)</a>
+<a class="stop" href="../rozklady/89/2237-olkusz.html"><span class="stop-id">2237</span>Krzywopłoty Kaplica (1)</a>
+<a class="stop" href="../rozklady/89/2214-olkusz.html"><span class="stop-id">2214</span>Krzywopłoty Na Bagnie (1)</a>
+<a class="stop" href="../rozklady/89/2217-olkusz.html"><span class="stop-id">2217</span>Bydlin Szkoła (2)</a>
+<a class="stop" href="../rozklady/89/2218-olkusz.html"><span class="stop-id">2218</span>Bydlin Kościół (2)</a>
+<a class="stop" href="../rozklady/89/2220-olkusz.html"><span class="stop-id">2220</span>Bydlin Ośrodek Zdrowia (2)</a>
+<a class="stop" href="../rozklady/89/2221-olkusz.html"><span class="stop-id">2221</span>Kolbark (2)</a>
+<a class="stop" href="../rozklady/89/2222-olkusz.html"><span class="stop-id">2222</span>Jaroszowiec Kobylica (2)</a>
+<a class="stop" href="../rozklady/89/2223-olkusz.html"><span class="stop-id">2223</span>Jaroszowiec Porąbka (2)</a>
+<a class="stop" href="../rozklady/89/0528-olkusz.html"><span class="stop-id">0528</span>Jaroszowiec Dworzec PKP (1)</a>
+<a class="stop" href="../rozklady/89/0549-olkusz.html"><span class="stop-id">0549</span>Jaroszowiec Huta Szkłomasz (1)</a>
+<a class="stop" href="../rozklady/89/0550-olkusz.html"><span class="stop-id">0550</span>Jaroszowiec Szkoła (2)</a>
+<a class="stop" href="../rozklady/89/0551-olkusz.html"><span class="stop-id">0551</span>Klucze PKS (2)</a>
+<a class="stop" href="../rozklady/89/0552-olkusz.html"><span class="stop-id">0552</span>Klucze Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/89/2175-olkusz.html"><span class="stop-id">2175</span>Klucze Kościół (1)</a>
+<a class="stop" href="../rozklady/89/2177-olkusz.html"><span class="stop-id">2177</span>Bogucin Duży Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/89/2186-olkusz.html"><span class="stop-id">2186</span>Bogucin Duży (2)</a>
+<a class="stop" href="../rozklady/89/2187-olkusz.html"><span class="stop-id">2187</span>Bogucin Duży Kiosk (1)</a>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+  
+<a class="stop" href="../rozklady/89/2189-olkusz.html"><span class="stop-id">2189</span>Bogucin Mały Granica (1)</a>
+<a class="stop" href="../rozklady/89/2191-olkusz.html"><span class="stop-id">2191</span>Bogucin Mały Sklep (1)</a>
+<a class="stop" href="../rozklady/89/2194-olkusz.html"><span class="stop-id">2194</span>Bogucin Mały Podgrabie (2)</a>
+<a class="stop" href="../rozklady/89/2196-olkusz.html"><span class="stop-id">2196</span>Olkusz Podgrabie Przedszkole (2)</a>
+<a class="stop" href="../rozklady/89/2198-olkusz.html"><span class="stop-id">2198</span>Olkusz Podgrabie Jurajska (2)</a>
+<a class="stop" href="../rozklady/89/2200-olkusz.html"><span class="stop-id">2200</span>Olkusz Podgrabie (2)</a>
+<a class="stop" href="../rozklady/89/2201-olkusz.html"><span class="stop-id">2201</span>Olkusz Jasna (2)</a>
+<a class="stop" href="../rozklady/89/0283-olkusz.html"><span class="stop-id">0283</span>Olkusz Rabsztyńska (1)</a>
+<a class="stop" href="../rozklady/89/0174-olkusz.html"><span class="stop-id">0174</span>Olkusz Supersam (0)</a>
+<a class="stop" href="../rozklady/89/0199-olkusz.html"><span class="stop-id">0199</span>Olkusz Skarbek (2)</a>
+<a class="stop terminal" href="../rozklady/89/0200-olkusz.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
