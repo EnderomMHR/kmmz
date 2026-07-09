@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 90</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-dabrowa{
+    background:#ffd966;
+    color:#222;
+}
+
+.zone-boleslaw{
+    background:#cccccc;
+    color:#222;
+}
+
+.zone-bukowno{
+    background:#93c47d;
+    color:#222;
+}
+  
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">90</div>
+
+<div class="route">
+Dąbrowa Górnicza Kuźniczka Nowa - Krzykawka - Krzykawa - Małobądz - Ujków Nowy - Krze - Bolesław - Krążek - Bukowno Dworzec PKP
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Bukowno Dworzec PKP</h2>
+
+<div class="zone zone-dabrowa">STREFA DĄBROWA GÓRNICZA</div>
+
+<a class="stop terminal" href="../rozklady/90/2162-bukowno.html"><span class="stop-id">2162</span>Dąbrowa Górnicza Kuźniczka Nowa (0)</a>
+<a class="stop" href="../rozklady/90/2160-bukowno.html"><span class="stop-id">2160</span>Dąbrowa Górnicza Kuźniczka Nowa Skrzyżowanie (1)</a>
+
+<div class="zone zone-boleslaw">STREFA BOLESŁAW</div>
+  
+<a class="stop" href="../rozklady/90/2159-bukowno.html"><span class="stop-id">2159</span>Krzykawka Miodowa (1)</a>
+<a class="stop" href="../rozklady/90/2158-bukowno.html"><span class="stop-id">2158</span>Krzykawka Dąb (2)</a>
+<a class="stop" href="../rozklady/90/0454-bukowno.html"><span class="stop-id">0454</span>Krzykawa Nullo (2)</a>
+<a class="stop" href="../rozklady/90/0455-bukowno.html"><span class="stop-id">0455</span>Krzykawa Szkoła (2)</a>
+<a class="stop" href="../rozklady/90/0456-bukowno.html"><span class="stop-id">0456</span>Małobądz DINO (1)</a>
+<a class="stop" href="../rozklady/90/0457-bukowno.html"><span class="stop-id">0457</span>Małobądz (2)</a>
+<a class="stop" href="../rozklady/90/0458-bukowno.html"><span class="stop-id">0458</span>Ujków Nowy Górna (2)</a>
+<a class="stop" href="../rozklady/90/0459-bukowno.html"><span class="stop-id">0459</span>Ujków Nowy Sklep (1)</a>
+<a class="stop" href="../rozklady/90/0460-bukowno.html"><span class="stop-id">0460</span>Krze Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/90/0461-bukowno.html"><span class="stop-id">0461</span>Krze Plac Rekreacyjny (2)</a>
+<a class="stop" href="../rozklady/90/0462-bukowno.html"><span class="stop-id">0462</span>Ujków Nowy Krze (1)</a>
+<a class="stop" href="../rozklady/90/0463-bukowno.html"><span class="stop-id">0463</span>Bolesław Ponikowska (2)</a>
+<a class="stop" href="../rozklady/90/0464-bukowno.html"><span class="stop-id">0464</span>Bolesław Wyzwolenia Bida (1)</a>
+<a class="stop" href="../rozklady/90/0465-bukowno.html"><span class="stop-id">0465</span>Bolesław Wyzwolenia Biedronka (2)</a>
+<a class="stop" href="../rozklady/90/0164-bukowno.html"><span class="stop-id">0164</span>Bolesław Remiza (2)</a>
+<a class="stop" href="../rozklady/90/0243-bukowno.html"><span class="stop-id">0243</span>Bolesław Centrum (1)</a>
+<a class="stop" href="../rozklady/90/0244-bukowno.html"><span class="stop-id">0244</span>Bolesław Szkoła (1)</a>
+<a class="stop" href="../rozklady/90/0245-bukowno.html"><span class="stop-id">0245</span>Bolesław Cmentarz (2)</a>
+<a class="stop" href="../rozklady/90/0246-bukowno.html"><span class="stop-id">0246</span>Krążek (2)</a>
+
+<div class="zone zone-bukowno">STREFA BUKOWNO</div>
+  
+<a class="stop" href="../rozklady/90/0247-bukowno.html"><span class="stop-id">0247</span>Bukowno Diana (2)</a>
+<a class="stop" href="../rozklady/90/0248-bukowno.html"><span class="stop-id">0248</span>Bukowno ZGH (1)</a>
+<a class="stop" href="../rozklady/90/0249-bukowno.html"><span class="stop-id">0249</span>Bukowno Skałka (2)</a>
+<a class="stop variant" href="../rozklady/90/2023-bukowno.html"><span class="stop-id">2023</span>Bukowno Starczynowska (1)</a>
+<a class="stop variant" href="../rozklady/90/2021-bukowno.html"><span class="stop-id">2021</span>Bukowno Wygiełza Pętla (0)</a>
+<a class="stop variant" href="../rozklady/90/2022-bukowno.html"><span class="stop-id">2022</span>Bukowno Starczynowska (2)</a>
+<a class="stop" href="../rozklady/90/0146-bukowno.html"><span class="stop-id">0146</span>Bukowno Urząd Miasta (2)</a>
+<a class="stop terminal" href="../rozklady/90/0147-bukowno.html"><span class="stop-id">0147</span>Bukowno Dworzec PKP (0)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Dąbrowa Górnicza Kuźniczka Nowa</h2>
+
+<div class="zone zone-bukowno">STREFA BUKOWNO</div>
+
+<a class="stop terminal" href="../rozklady/90/0147-dabrowa.html"><span class="stop-id">0147</span>Bukowno Dworzec PKP (0)</a>
+<a class="stop" href="../rozklady/90/0148-dabrowa.html"><span class="stop-id">0148</span>Bukowno Urząd Miasta (1)</a>
+<a class="stop variant" href="../rozklady/90/2023-dabrowa.html"><span class="stop-id">2023</span>Bukowno Starczynowska (1)</a>
+<a class="stop variant" href="../rozklady/90/2021-dabrowa.html"><span class="stop-id">2021</span>Bukowno Wygiełza Pętla (0)</a>
+<a class="stop variant" href="../rozklady/90/2022-dabrowa.html"><span class="stop-id">2022</span>Bukowno Starczynowska (2)</a>
+<a class="stop" href="../rozklady/90/0149-dabrowa.html"><span class="stop-id">0149</span>Bukowno Skałka (1)</a>
+<a class="stop" href="../rozklady/90/0150-dabrowa.html"><span class="stop-id">0150</span>Bukowno ZGH (2)</a>
+<a class="stop" href="../rozklady/90/0151-dabrowa.html"><span class="stop-id">0151</span>Bukowno Diana (1)</a>
+
+<div class="zone zone-boleslaw">STREFA BOLESŁAW</div>
+  
+<a class="stop" href="../rozklady/90/0152-dabrowa.html"><span class="stop-id">0152</span>Krążek Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/90/0153-dabrowa.html"><span class="stop-id">0153</span>Bolesław Cmentarz (1)</a>
+<a class="stop" href="../rozklady/90/0154-dabrowa.html"><span class="stop-id">0154</span>Bolesław Szkoła (2)</a>
+<a class="stop" href="../rozklady/90/0155-dabrowa.html"><span class="stop-id">0155</span>Bolesław Centrum (2)</a>
+<a class="stop" href="../rozklady/90/0156-dabrowa.html"><span class="stop-id">0156</span>Bolesław Remiza (1)</a>
+<a class="stop" href="../rozklady/90/0466-dabrowa.html"><span class="stop-id">0466</span>Bolesław Wyzwolenia Biedronka (1)</a>
+<a class="stop" href="../rozklady/90/0467-dabrowa.html"><span class="stop-id">0467</span>Bolesław Wyzwolenia Bida (2)</a>
+<a class="stop" href="../rozklady/90/0468-dabrowa.html"><span class="stop-id">0468</span>Bolesław Ponikowska (1)</a>
+<a class="stop" href="../rozklady/90/0469-dabrowa.html"><span class="stop-id">0469</span>Kolonia Laski (1)</a>
+<a class="stop" href="../rozklady/90/0470-dabrowa.html"><span class="stop-id">0470</span>Krze (1)</a>
+<a class="stop" href="../rozklady/90/0471-dabrowa.html"><span class="stop-id">0471</span>Krze Plac Rekreacyjny (1)</a>
+<a class="stop" href="../rozklady/90/0472-dabrowa.html"><span class="stop-id">0472</span>Krze Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/90/0473-dabrowa.html"><span class="stop-id">0473</span>Ujków Nowy Sklep (2)</a>
+<a class="stop" href="../rozklady/90/0474-dabrowa.html"><span class="stop-id">0474</span>Ujków Nowy Górna (1)</a>
+<a class="stop" href="../rozklady/90/0475-dabrowa.html"><span class="stop-id">0475</span>Małobądz (1)</a>
+<a class="stop" href="../rozklady/90/0476-dabrowa.html"><span class="stop-id">0476</span>Małobądz DINO (2)</a>
+<a class="stop" href="../rozklady/90/0477-dabrowa.html"><span class="stop-id">0477</span>Krzykawa Szkoła (1)</a>
+<a class="stop" href="../rozklady/90/0478-dabrowa.html"><span class="stop-id">0478</span>Krzykawa Nullo (1)</a>
+<a class="stop" href="../rozklady/90/2157-dabrowa.html"><span class="stop-id">2157</span>Krzykawka Dąb (1)</a>
+
+<div class="zone zone-dabrowa">STREFA DĄBROWA GÓRNICZA</div>
+  
+<a class="stop" href="../rozklady/90/2161-dabrowa.html"><span class="stop-id">2161</span>Dąbrowa Górnicza Kuźniczka Nowa Skrzyżowanie (2)</a>
+<a class="stop terminal" href="../rozklady/90/2162-dabrowa.html"><span class="stop-id">2162</span>Dąbrowa Górnicza Kuźniczka Nowa (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
