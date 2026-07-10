@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 94</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.columns.single-column {
+  display: block;
+}
+
+.columns.single-column .column {
+  max-width: 560px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.columns.single-column .stop {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-krzeszowice{
+    background:#f9cb9a;
+    color:#222;
+}
+
+@media (max-width: 700px) {
+  .columns.single-column .column {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+  
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">94</div>
+
+<div class="route">
+Krzeszowice Dworzec Autobusowy - Nawojowa Góra - Tenczynek - Rudno - Tenczynek - Nawojowa Góra - Krzeszowice Dworzec Autobusowy
+</div>
+
+<div class="columns single-column">
+
+<div class="column">
+
+<h2>Kierunek: Krzeszowice Dworzec Autobusowy</h2>
+
+<div class="zone zone-krzeszowice">STREFA KRZESZOWICE</div>
+
+<a class="stop terminal" href="../rozklady/94/1678-okrezna.html"><span class="stop-id">1678</span>Krzeszowice Dworzec Autobusowy (4)</a>
+<a class="stop" href="../rozklady/94/0135-okrezna.html"><span class="stop-id">0135</span>Krzeszowice 3-ego Maja (1)</a>
+<a class="stop" href="../rozklady/94/1277-okrezna.html"><span class="stop-id">1277</span>Krzeszowice Wiadukt (2)</a>
+<a class="stop" href="../rozklady/94/1441-okrezna.html"><span class="stop-id">1441</span>Nawojowa Góra Gwoździec (1)</a>
+<a class="stop" href="../rozklady/94/1465-okrezna.html"><span class="stop-id">1465</span>Krzeszowice Czycza (0)</a>
+<a class="stop" href="../rozklady/94/1467-okrezna.html"><span class="stop-id">1467</span>Krzeszowice Leśna (2)</a>
+<a class="stop" href="../rozklady/94/1471-okrezna.html"><span class="stop-id">1471</span>Tenczynek Jana III Sobieskiego (2)</a>
+<a class="stop" href="../rozklady/94/1423-okrezna.html"><span class="stop-id">1423</span>Tenczynek Wilk (1)</a>
+<a class="stop" href="../rozklady/94/1415-okrezna.html"><span class="stop-id">1415</span>Rudno Leśniczówka (1)</a>
+<a class="stop" href="../rozklady/94/1447-okrezna.html"><span class="stop-id">1447</span>Rudno Centrum (0)</a>
+<a class="stop" href="../rozklady/94/1414-okrezna.html"><span class="stop-id">1414</span>Rudno Kowal (1)</a>
+<a class="stop" href="../rozklady/94/1413-okrezna.html"><span class="stop-id">1413</span>Rudno Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/94/1412-okrezna.html"><span class="stop-id">1412</span>Rudno Satniówka (2)</a>
+<a class="stop" href="../rozklady/94/1420-okrezna.html"><span class="stop-id">1420</span>Rudno OSP (1)</a>
+<a class="stop" href="../rozklady/94/1410-okrezna.html"><span class="stop-id">1410</span>Rudno Sklep Kolonia (2)</a>
+<a class="stop" href="../rozklady/94/1422-okrezna.html"><span class="stop-id">1422</span>Rudno Zamek (1)</a>
+<a class="stop" href="../rozklady/94/1468-okrezna.html"><span class="stop-id">1468</span>Tenczynek Szkolna (0)</a>
+<a class="stop" href="../rozklady/94/1469-okrezna.html"><span class="stop-id">1469</span>Tenczynek Chłopickiego Sklep (1)</a>
+<a class="stop" href="../rozklady/94/1470-okrezna.html"><span class="stop-id">1470</span>Tenczynek Chłopickiego Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/94/1472-okrezna.html"><span class="stop-id">1472</span>Tenczynek Jana III Sobieskiego (1)</a>
+<a class="stop" href="../rozklady/94/1466-okrezna.html"><span class="stop-id">1466</span>Krzeszowice Leśna (1)</a>
+<a class="stop" href="../rozklady/94/1442-okrezna.html"><span class="stop-id">1442</span>Nawojowa Góra Gwoździec (2)</a>
+<a class="stop" href="../rozklady/94/1276-okrezna.html"><span class="stop-id">1276</span>Krzeszowice Wiadukt (1)</a>
+<a class="stop" href="../rozklady/94/1274-okrezna.html"><span class="stop-id">1274</span>Krzeszowice Krakowska Muzeum (1)</a>
+<a class="stop terminal" href="../rozklady/94/1677-okrezna.html"><span class="stop-id">1677</span>Krzeszowice Dworzec Autobusowy (1)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
