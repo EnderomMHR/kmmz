@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 93</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-olkusz{
+    background:#ffe599;
+    color:#222;
+}
+
+.zone-wolbrom{
+    background:#2a8be8;
+    color:#222;
+}
+
+.zone-bukowno{
+    background:#93c47d;
+    color:#222;
+}
+
+.zone-slawkow{
+    background:#af00ff;
+    color:#222;
+}
+  
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">93</div>
+
+<div class="route">
+(Wolbrom Pod Lasem) - Wolbrom Nowa PKS - Brzozówka - Wierzchowisko - Lgota Wielka - Budzyń - Poręba Górna - Zasępiec Remiza
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Zasępiec Remiza</h2>
+
+<div class="zone zone-wolbrom">STREFA WOLBROM</div>
+
+<a class="stop variant terminal" href="../rozklady/93/0015-zasepiec.html"><span class="stop-id">0015</span>Wolbrom Pod Lasem (1)</a>
+<a class="stop variant" href="../rozklady/93/0016-zasepiec.html"><span class="stop-id">0016</span>Wolbrom Dworzec PKP (0)</a>
+<a class="stop variant" href="../rozklady/93/0017-zasepiec.html"><span class="stop-id">0017</span>Wolbrom 1-ego Maja I (1)</a>
+<a class="stop variant" href="../rozklady/93/0018-zasepiec.html"><span class="stop-id">0018</span>Wolbrom 1-ego Maja (1)</a>
+<a class="stop terminal" href="../rozklady/93/0001-zasepiec.html"><span class="stop-id">0001</span>Wolbrom Nowa PKS (0)</a>
+<a class="stop" href="../rozklady/93/0002-zasepiec.html"><span class="stop-id">0002</span>Wolbrom Osiedle Chrobrego (1)</a>
+<a class="stop" href="../rozklady/93/0019-zasepiec.html"><span class="stop-id">0019</span>Wolbrom Ogródki Działkowe (1)</a>
+<a class="stop" href="../rozklady/93/0036-zasepiec.html"><span class="stop-id">0036</span>Brzozówka (2)</a>
+<a class="stop" href="../rozklady/93/0004-zasepiec.html"><span class="stop-id">0004</span>Wierzchowisko Szkoła (1)</a>
+<a class="stop" href="../rozklady/93/0005-zasepiec.html"><span class="stop-id">0005</span>Lgota Wielka Kolonia Leśna (2)</a>
+<a class="stop" href="../rozklady/93/0257-zasepiec.html"><span class="stop-id">0257</span>Lgota Wielka Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/93/0258-zasepiec.html"><span class="stop-id">0258</span>Lgota Wielka Kawkazy (2)</a>
+<a class="stop" href="../rozklady/93/2365-zasepiec.html"><span class="stop-id">2365</span>Budzyń (1)</a>
+<a class="stop" href="../rozklady/93/2367-zasepiec.html"><span class="stop-id">2367</span>Poręba Górna Granica (2)</a>
+<a class="stop" href="../rozklady/93/2368-zasepiec.html"><span class="stop-id">2368</span>Poręba Górna (2)</a>
+<a class="stop" href="../rozklady/93/2369-zasepiec.html"><span class="stop-id">2369</span>Poręba Górna Sklep (2)</a>
+<a class="stop terminal" href="../rozklady/93/0020-zasepiec.html"><span class="stop-id">0020</span>Zasępiec Remiza (3)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Wolbrom Nowa PKS</h2>
+
+<div class="zone zone-wolbrom">STREFA WOLBROM</div>
+
+<a class="stop terminal" href="../rozklady/93/0020-wolbrom.html"><span class="stop-id">0020</span>Zasępiec Remiza (3)</a>
+<a class="stop" href="../rozklady/93/2362-wolbrom.html"><span class="stop-id">2362</span>Poręba Górna Sklep (1)</a>
+<a class="stop" href="../rozklady/93/2363-wolbrom.html"><span class="stop-id">2363</span>Poręba Górna (1)</a>
+<a class="stop" href="../rozklady/93/2364-wolbrom.html"><span class="stop-id">2364</span>Poręba Górna Granica (1)</a>
+<a class="stop" href="../rozklady/93/2366-wolbrom.html"><span class="stop-id">2366</span>Budzyń (2)</a>
+<a class="stop" href="../rozklady/93/0310-wolbrom.html"><span class="stop-id">0310</span>Lgota Wielka Kawkazy (1)</a>
+<a class="stop" href="../rozklady/93/0008-wolbrom.html"><span class="stop-id">0008</span>Lgota Wielka Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/93/0009-wolbrom.html"><span class="stop-id">0009</span>Lgota Wielka Kolonia Leśna (1)</a>
+<a class="stop" href="../rozklady/93/0035-wolbrom.html"><span class="stop-id">0035</span>Wierzchowisko Szkoła (2)</a>
+<a class="stop" href="../rozklady/93/0003-wolbrom.html"><span class="stop-id">0003</span>Brzozówka (1)</a>
+<a class="stop" href="../rozklady/93/0019-wolbrom.html"><span class="stop-id">0019</span>Wolbrom Ogródki Działkowe (1)</a>
+<a class="stop" href="../rozklady/93/0002-wolbrom.html"><span class="stop-id">0002</span>Wolbrom Osiedle Chrobrego (1)</a>
+<a class="stop terminal" href="../rozklady/93/0001-wolbrom.html"><span class="stop-id">0001</span>Wolbrom Nowa PKS (0)</a>
+<a class="stop variant" href="../rozklady/93/0029-wolbrom.html"><span class="stop-id">0029</span>Wolbrom 1-ego Maja I (2)</a>
+<a class="stop variant" href="../rozklady/93/0016-wolbrom.html"><span class="stop-id">0016</span>Wolbrom Dworzec PKP (0)</a>
+<a class="stop variant terminal" href="../rozklady/93/0015-wolbrom.html"><span class="stop-id">0015</span>Wolbrom Pod Lasem (1)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
