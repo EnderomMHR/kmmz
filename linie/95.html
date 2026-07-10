@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 95</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-bukowno{
+    background:#93c47d;
+    color:#222;
+}
+
+.zone-boleslaw{
+    background:#cccccc;
+    color:#222;
+}
+
+.zone-slawkow{
+    background:#af00ff;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">95</div>
+
+<div class="route">
+Sławków Burki Pętla - Krzykawka - Krzykawa - Małobądz - Ujków Nowy - Bolesław - Krążek - Wodąca - Bukowno Dworzec PKP
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Bukowno Dworzec PKP</h2>
+
+<div class="zone zone-slawkow">STREFA SŁAWKÓW</div>
+
+<a class="stop terminal" href="../rozklady/95/2141-bukowno.html"><span class="stop-id">2141</span>Sławków Burki Pętla (0)</a>
+<a class="stop" href="../rozklady/95/2140-bukowno.html"><span class="stop-id">2140</span>Sławków Burki (1)</a>
+<a class="stop" href="../rozklady/95/2139-bukowno.html"><span class="stop-id">2139</span>Sławków Niwa Schronisko (1)</a>
+<a class="stop" href="../rozklady/95/2144-bukowno.html"><span class="stop-id">2144</span>Sławków Niwa Hrubieszowska (2)</a>
+<a class="stop variant" href="../rozklady/95/0439-bukowno.html"><span class="stop-id">0439</span>Sławków Dębowa Góra (1)</a>
+<a class="stop variant" href="../rozklady/95/0440-bukowno.html"><span class="stop-id">0440</span>Sławków Dębowa Góra Stawki (1)</a>
+<a class="stop" href="../rozklady/95/0442-bukowno.html"><span class="stop-id">0442</span>Sławków Korzenna (1)</a>
+<a class="stop" href="../rozklady/95/0443-bukowno.html"><span class="stop-id">0443</span>Sławków Owocowa (2)</a>
+<a class="stop" href="../rozklady/95/0444-bukowno.html"><span class="stop-id">0444</span>Sławków Kolejowa (2)</a>
+<a class="stop" href="../rozklady/95/0445-bukowno.html"><span class="stop-id">0445</span>Sławków Dworzec PKP (2)</a>
+<a class="stop" href="../rozklady/95/2136-bukowno.html"><span class="stop-id">2136</span>Sławków Szkoła (2)</a>
+<a class="stop" href="../rozklady/95/2135-bukowno.html"><span class="stop-id">2135</span>Sławków Świętojańska (1)</a>
+<a class="stop" href="../rozklady/95/0447-bukowno.html"><span class="stop-id">0447</span>Sławków Rynek (2)</a>
+<a class="stop" href="../rozklady/95/0448-bukowno.html"><span class="stop-id">0448</span>Sławków Olkuska (2)</a>
+<a class="stop" href="../rozklady/95/0449-bukowno.html"><span class="stop-id">0449</span>Sławków ZWM (2)</a>
+<a class="stop" href="../rozklady/95/0450-bukowno.html"><span class="stop-id">0450</span>Sławków Chwaliboskie (2)</a>
+
+<div class="zone zone-boleslaw">STREFA BOLESŁAW</div>
+  
+<a class="stop" href="../rozklady/95/0451-bukowno.html"><span class="stop-id">0451</span>Krzykawka Wąwóz (1)</a>
+<a class="stop" href="../rozklady/95/0452-bukowno.html"><span class="stop-id">0452</span>Krzykawka Słoneczna (2)</a>
+<a class="stop" href="../rozklady/95/0453-bukowno.html"><span class="stop-id">0453</span>Krzykawka Dworek (1)</a>
+<a class="stop" href="../rozklady/95/0454-bukowno.html"><span class="stop-id">0454</span>Krzykawa Nullo (2)</a>
+<a class="stop" href="../rozklady/95/0455-bukowno.html"><span class="stop-id">0455</span>Krzykawa Szkoła (2)</a>
+<a class="stop" href="../rozklady/95/0456-bukowno.html"><span class="stop-id">0456</span>Małobądz DINO (1)</a>
+<a class="stop" href="../rozklady/95/0457-bukowno.html"><span class="stop-id">0457</span>Małobądz (2)</a>
+<a class="stop" href="../rozklady/95/0458-bukowno.html"><span class="stop-id">0458</span>Ujków Nowy Górna (2)</a>
+<a class="stop" href="../rozklady/95/0459-bukowno.html"><span class="stop-id">0459</span>Ujków Nowy Sklep (1)</a>
+<a class="stop" href="../rozklady/95/0462-bukowno.html"><span class="stop-id">0462</span>Ujków Nowy Krze (1)</a>
+<a class="stop" href="../rozklady/95/0163-bukowno.html"><span class="stop-id">0163</span>Kolonia Bolesławska (1)</a>
+<a class="stop" href="../rozklady/95/0164-bukowno.html"><span class="stop-id">0164</span>Bolesław Remiza (2)</a>
+<a class="stop" href="../rozklady/95/0243-bukowno.html"><span class="stop-id">0243</span>Bolesław Centrum (1)</a>
+<a class="stop" href="../rozklady/95/0244-bukowno.html"><span class="stop-id">0244</span>Bolesław Szkoła (1)</a>
+<a class="stop" href="../rozklady/95/0245-bukowno.html"><span class="stop-id">0245</span>Bolesław Cmentarz (2)</a>
+<a class="stop" href="../rozklady/95/0246-bukowno.html"><span class="stop-id">0246</span>Krążek (2)</a>
+<a class="stop" href="../rozklady/95/2110-bukowno.html"><span class="stop-id">2110</span>Krążek Stawy (2)</a>
+
+<div class="zone zone-bukowno">STREFA BUKOWNO</div>
+  
+<a class="stop" href="../rozklady/95/2124-bukowno.html"><span class="stop-id">2124</span>Bukowno Wodąca Krzyżówka (2)</a>
+<a class="stop" href="../rozklady/95/2123-bukowno.html"><span class="stop-id">2123</span>Bukowno Wodąca (2)</a>
+<a class="stop" href="../rozklady/95/0142-bukowno.html"><span class="stop-id">0142</span>Bukowno Stare Skrzyżowanie (0)</a>
+<a class="stop" href="../rozklady/95/0143-bukowno.html"><span class="stop-id">0143</span>Bukowno Cmentarz (2)</a>
+<a class="stop" href="../rozklady/95/0144-bukowno.html"><span class="stop-id">0144</span>Bukowno Nowa OSP (1)</a>
+<a class="stop" href="../rozklady/95/0145-bukowno.html"><span class="stop-id">0145</span>Bukowno Nowa (2)</a>
+<a class="stop" href="../rozklady/95/0146-bukowno.html"><span class="stop-id">0146</span>Bukowno Urząd Miasta (2)</a>
+<a class="stop terminal" href="../rozklady/95/0147-bukowno.html"><span class="stop-id">0147</span>Bukowno Dworzec PKP (0)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Sławków Burki Pętla</h2>
+
+<div class="zone zone-bukowno">STREFA BUKOWNO</div>
+
+<a class="stop terminal" href="../rozklady/95/0147-slawkow.html"><span class="stop-id">0147</span>Bukowno Dworzec PKP (0)</a>
+<a class="stop" href="../rozklady/95/0148-slawkow.html"><span class="stop-id">0148</span>Bukowno Urząd Miasta (1)</a>
+<a class="stop" href="../rozklady/95/0250-slawkow.html"><span class="stop-id">0250</span>Bukowno Nowa (1)</a>
+<a class="stop" href="../rozklady/95/0251-slawkow.html"><span class="stop-id">0251</span>Bukowno Nowa OSP (2)</a>
+<a class="stop" href="../rozklady/95/0252-slawkow.html"><span class="stop-id">0252</span>Bukowno Cmentarz (1)</a>
+<a class="stop" href="../rozklady/95/2121-slawkow.html"><span class="stop-id">2121</span>Bukowno Stare Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/95/2122-slawkow.html"><span class="stop-id">2122</span>Bukowno Wodąca (1)</a>
+<a class="stop" href="../rozklady/95/2125-slawkow.html"><span class="stop-id">2125</span>Bukowno Wodąca Krzyżówka (1)</a>
+
+<div class="zone zone-boleslaw">STREFA BOLESŁAW</div>
+  
+<a class="stop" href="../rozklady/95/2109-slawkow.html"><span class="stop-id">2109</span>Krążek Stawy (1)</a>
+<a class="stop" href="../rozklady/95/2024-slawkow.html"><span class="stop-id">2024</span>Krążek (1)</a>
+<a class="stop" href="../rozklady/95/0153-slawkow.html"><span class="stop-id">0153</span>Bolesław Cmentarz (1)</a>
+<a class="stop" href="../rozklady/95/0154-slawkow.html"><span class="stop-id">0154</span>Bolesław Szkoła (2)</a>
+<a class="stop" href="../rozklady/95/0155-slawkow.html"><span class="stop-id">0155</span>Bolesław Centrum (2)</a>
+<a class="stop" href="../rozklady/95/0156-slawkow.html"><span class="stop-id">0156</span>Bolesław Remiza (1)</a>
+<a class="stop" href="../rozklady/95/0157-slawkow.html"><span class="stop-id">0157</span>Kolonia Bolesławska (2)</a>
+<a class="stop" href="../rozklady/95/0469-slawkow.html"><span class="stop-id">0469</span>Kolonia Laski (1)</a>
+<a class="stop" href="../rozklady/95/0473-slawkow.html"><span class="stop-id">0473</span>Ujków Nowy Sklep (2)</a>
+<a class="stop" href="../rozklady/95/0474-slawkow.html"><span class="stop-id">0474</span>Ujków Nowy Górna (1)</a>
+<a class="stop" href="../rozklady/95/0475-slawkow.html"><span class="stop-id">0475</span>Małobądz (1)</a>
+<a class="stop" href="../rozklady/95/0476-slawkow.html"><span class="stop-id">0476</span>Małobądz DINO (2)</a>
+<a class="stop" href="../rozklady/95/0477-slawkow.html"><span class="stop-id">0477</span>Krzykawa Szkoła (1)</a>
+<a class="stop" href="../rozklady/95/0478-slawkow.html"><span class="stop-id">0478</span>Krzykawa Nullo (1)</a>
+<a class="stop" href="../rozklady/95/0479-slawkow.html"><span class="stop-id">0479</span>Krzykawka Dworek (2)</a>
+<a class="stop" href="../rozklady/95/0480-slawkow.html"><span class="stop-id">0480</span>Krzykawka Słoneczna (1)</a>
+<a class="stop" href="../rozklady/95/0481-slawkow.html"><span class="stop-id">0481</span>Krzykawka Wąwóz (2)</a>
+
+<div class="zone zone-slawkow">STREFA SŁAWKÓW</div>
+  
+<a class="stop" href="../rozklady/95/0482-slawkow.html"><span class="stop-id">0482</span>Sławków Chwaliboskie (1)</a>
+<a class="stop" href="../rozklady/95/0483-slawkow.html"><span class="stop-id">0483</span>Sławków ZWM (1)</a>
+<a class="stop" href="../rozklady/95/0484-slawkow.html"><span class="stop-id">0484</span>Sławków Olkuska (1)</a>
+<a class="stop" href="../rozklady/95/0485-slawkow.html"><span class="stop-id">0485</span>Sławków Rynek (1)</a>
+<a class="stop" href="../rozklady/95/2134-slawkow.html"><span class="stop-id">2134</span>Sławków Urząd Miasta (Siewierska) (0)</a>
+<a class="stop" href="../rozklady/95/2137-slawkow.html"><span class="stop-id">2137</span>Sławków Szkoła (1)</a>
+<a class="stop" href="../rozklady/95/0487-slawkow.html"><span class="stop-id">0487</span>Sławków Dworzec PKP (1)</a>
+<a class="stop" href="../rozklady/95/0488-slawkow.html"><span class="stop-id">0488</span>Sławków Kolejowa (1)</a>
+<a class="stop" href="../rozklady/95/0489-slawkow.html"><span class="stop-id">0489</span>Sławków Owocowa (1)</a>
+<a class="stop" href="../rozklady/95/0490-slawkow.html"><span class="stop-id">0490</span>Sławków Korzenna (2)</a>
+<a class="stop variant" href="../rozklady/95/0439-slawkow.html"><span class="stop-id">0439</span>Sławków Dębowa Góra (1)</a>
+<a class="stop variant" href="../rozklady/95/0440-slawkow.html"><span class="stop-id">0440</span>Sławków Dębowa Góra Stawki (1)</a>
+<a class="stop" href="../rozklady/95/2138-slawkow.html"><span class="stop-id">2138</span>Sławków Niwa Hrubieszowska (1)</a>
+<a class="stop" href="../rozklady/95/2143-slawkow.html"><span class="stop-id">2143</span>Sławków Niwa Schronisko (2)</a>
+<a class="stop" href="../rozklady/95/2142-slawkow.html"><span class="stop-id">2142</span>Sławków Burki (2)</a>
+<a class="stop terminal" href="../rozklady/95/2141-slawkow.html"><span class="stop-id">2141</span>Sławków Burki Pętla (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
