@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 97</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-oswiecim{
+    background:#9fc4e8;
+    color:#222;
+}
+
+.zone-zator{
+    background:#10ffff;
+    color:#222;
+}
+
+.zone-spytkowice{
+    background:#76a5af;
+    color:#222;
+}
+
+.zone-bierun{
+    background:#d5a6bd;
+    color:#222;
+}
+
+.zone-przeciszow{
+    background:#8e7cd3;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">97</div>
+
+<div class="route">
+Bieruń Plac Autobusowy - (Jajosty) - Ściernie - Zarzyna - Babice - Oświęcim Dąbrowskiego Miasto - Oświęcim Dworzec Fabryczny - Włosienica - Przeciszów - Zator - Spytkowice Rynek - Półwieś
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Półwieś</h2>
+
+<div class="zone zone-bierun">STREFA BIERUŃ</div>
+
+<a class="stop terminal" href="../rozklady/97/0895-polwies.html"><span class="stop-id">0895</span>Bieruń Plac Autobusowy (1)</a>
+<a class="stop variant" href="../rozklady/97/0908-polwies.html"><span class="stop-id">0908</span>Bieruń Bojszowska 25 (1)</a>
+<a class="stop variant" href="../rozklady/97/0909-polwies.html"><span class="stop-id">0909</span>Bieruń Bojszowska Sklep (1)</a>
+<a class="stop variant" href="../rozklady/97/0910-polwies.html"><span class="stop-id">0910</span>Bieruń Bojszowska 124 (1)</a>
+<a class="stop variant" href="../rozklady/97/0911-polwies.html"><span class="stop-id">0911</span>Bieruń Bojszowska 168 (2)</a>
+<a class="stop variant" href="../rozklady/97/0912-polwies.html"><span class="stop-id">0912</span>Bieruń Bojszowska 196 (1)</a>
+<a class="stop variant" href="../rozklady/97/0913-polwies.html"><span class="stop-id">0913</span>Bieruń Bojszowska 187 (2)</a>
+<a class="stop variant" href="../rozklady/97/0914-polwies.html"><span class="stop-id">0914</span>Bieruń Turystyczna II (1)</a>
+<a class="stop variant" href="../rozklady/97/0915-polwies.html"><span class="stop-id">0915</span>Bieruń Turystyczna I (2)</a>
+<a class="stop" href="../rozklady/97/1297-polwies.html"><span class="stop-id">1297</span>Bieruń Baraniec (2)</a>
+<a class="stop" href="../rozklady/97/1295-polwies.html"><span class="stop-id">1295</span>Bieruń Stacja Paliw (1)</a>
+<a class="stop" href="../rozklady/97/1299-polwies.html"><span class="stop-id">1299</span>Bieruń Ściernie (2)</a>
+<a class="stop" href="../rozklady/97/0918-polwies.html"><span class="stop-id">0918</span>Bieruń Zarzyna (1)</a>
+<a class="stop" href="../rozklady/97/0919-polwies.html"><span class="stop-id">0919</span>Bieruń Granitowa (1)</a>
+<a class="stop" href="../rozklady/97/0920-polwies.html"><span class="stop-id">0920</span>Bieruń KWK Piast (1)</a>
+<a class="stop" href="../rozklady/97/0921-polwies.html"><span class="stop-id">0921</span>Bieruń Osiedle (2)</a>
+<a class="stop" href="../rozklady/97/0922-polwies.html"><span class="stop-id">0922</span>Bieruń Kościół (1)</a>
+<a class="stop" href="../rozklady/97/2661-polwies.html"><span class="stop-id">2661</span>Bieruń Zabrzeg (2)</a>
+
+<div class="zone zone-oswiecim">STREFA OŚWIĘCIM</div>
+  
+<a class="stop" href="../rozklady/97/2657-polwies.html"><span class="stop-id">2657</span>Babice Śląska II (1)</a>
+<a class="stop" href="../rozklady/97/2656-polwies.html"><span class="stop-id">2656</span>Babice Śląska I (2)</a>
+<a class="stop" href="../rozklady/97/0667-polwies.html"><span class="stop-id">0667</span>Oświęcim Niwa (2)</a>
+<a class="stop" href="../rozklady/97/0668-polwies.html"><span class="stop-id">0668</span>Oświęcim Stacja BP (1)</a>
+<a class="stop" href="../rozklady/97/0669-polwies.html"><span class="stop-id">0669</span>Oświęcim Dąbrowskiego Kościół (1)</a>
+<a class="stop" href="../rozklady/97/0670-polwies.html"><span class="stop-id">0670</span>Oświęcim Dąbrowskiego Cmentarz (0)</a>
+<a class="stop" href="../rozklady/97/0873-polwies.html"><span class="stop-id">0873</span>Oświęcim Dąbrowskiego Szpital (2)</a>
+<a class="stop" href="../rozklady/97/1508-polwies.html"><span class="stop-id">1508</span>Oświęcim Dąbrowskiego (2)</a>
+<a class="stop" href="../rozklady/97/1506-polwies.html"><span class="stop-id">1506</span>Oświęcim Transchemia (1)</a>
+<a class="stop" href="../rozklady/97/0621-polwies.html"><span class="stop-id">0621</span>Oświęcim Lodowisko (1)</a>
+<a class="stop" href="../rozklady/97/0874-polwies.html"><span class="stop-id">0874</span>Oświęcim Pod Borem 2 (2)</a>
+<a class="stop" href="../rozklady/97/0875-polwies.html"><span class="stop-id">0875</span>Oświęcim Monowice Inkubator Przedsiębiorczości (1)</a>
+<a class="stop" href="../rozklady/97/0876-polwies.html"><span class="stop-id">0876</span>Oświęcim Brama (2)</a>
+<a class="stop" href="../rozklady/97/0877-polwies.html"><span class="stop-id">0877</span>Oświęcim Monowice (1)</a>
+<a class="stop" href="../rozklady/97/0878-polwies.html"><span class="stop-id">0878</span>Oświęcim Gazy Techniczne (2)</a>
+<a class="stop terminal" href="../rozklady/97/0879-polwies.html"><span class="stop-id">0879</span>Oświęcim Dworzec Fabryczny (2)</a>
+<a class="stop" href="../rozklady/97/2004-polwies.html"><span class="stop-id">2004</span>Włosienica 1-ego Maja (1)</a>
+<a class="stop" href="../rozklady/97/2020-polwies.html"><span class="stop-id">2020</span>Włosienica Dąbrówki (2)</a>
+<a class="stop" href="../rozklady/97/2007-polwies.html"><span class="stop-id">2007</span>Włosienica Górna (1)</a>
+<a class="stop" href="../rozklady/97/2018-polwies.html"><span class="stop-id">2018</span>Włosienica Centrum (2)</a>
+<a class="stop" href="../rozklady/97/2017-polwies.html"><span class="stop-id">2017</span>Włosienica Szkoła (2)</a>
+<a class="stop" href="../rozklady/97/2016-polwies.html"><span class="stop-id">2016</span>Włosienica Dolna (2)</a>
+<a class="stop" href="../rozklady/97/2013-polwies.html"><span class="stop-id">2013</span>Włosienica (1)</a>
+
+<div class="zone zone-przeciszow">STREFA PRZECISZÓW</div>
+  
+<a class="stop" href="../rozklady/97/1856-polwies.html"><span class="stop-id">1856</span>Przeciszów Młyn (1)</a>
+<a class="stop" href="../rozklady/97/1853-polwies.html"><span class="stop-id">1853</span>Przeciszów Centrum (2)</a>
+<a class="stop" href="../rozklady/97/1809-polwies.html"><span class="stop-id">1809</span>Przeciszów I (2)</a>
+<a class="stop" href="../rozklady/97/1810-polwies.html"><span class="stop-id">1810</span>Przeciszów Łowiczki Księże (2)</a>
+
+<div class="zone zone-zator">STREFA ZATOR</div>
+  
+<a class="stop" href="../rozklady/97/1685-polwies.html"><span class="stop-id">1685</span>Zator Park Rozrywki (1)</a>
+<a class="stop" href="../rozklady/97/1760-polwies.html"><span class="stop-id">1760</span>Zator Dworzec Kolejowy (0)</a>
+<a class="stop" href="../rozklady/97/1691-polwies.html"><span class="stop-id">1691</span>Zator Podlipki (2)</a>
+<a class="stop" href="../rozklady/97/1679-polwies.html"><span class="stop-id">1679</span>Zator Rynek (0)</a>
+<a class="stop" href="../rozklady/97/1748-polwies.html"><span class="stop-id">1748</span>Zator Blich (0)</a>
+<a class="stop" href="../rozklady/97/1750-polwies.html"><span class="stop-id">1750</span>Zator Palczowice (2)</a>
+
+<div class="zone zone-spytkowice">STREFA SPYTKOWICE</div>
+  
+<a class="stop" href="../rozklady/97/1778-polwies.html"><span class="stop-id">1778</span>Spytkowice Dworzec PKP (2)</a>
+<a class="stop" href="../rozklady/97/1768-polwies.html"><span class="stop-id">1768</span>Spytkowice Skrzyżowanie (1)</a>
+<a class="stop terminal" href="../rozklady/97/1776-polwies.html"><span class="stop-id">1776</span>Spytkowice Rynek (2)</a>
+<a class="stop" href="../rozklady/97/2437-polwies.html"><span class="stop-id">2437</span>Ryczów Wróblówki (2)</a>
+<a class="stop" href="../rozklady/97/2436-polwies.html"><span class="stop-id">2436</span>Ryczów Dworzec PKP (2)</a>
+<a class="stop" href="../rozklady/97/2430-polwies.html"><span class="stop-id">2430</span>Ryczów Kościół (1)</a>
+<a class="stop terminal" href="../rozklady/97/2432-polwies.html"><span class="stop-id">2432</span>Półwieś (2)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Bieruń Plac Autobusowy</h2>
+
+<div class="zone zone-spytkowice">STREFA SPYTKOWICE</div>
+
+<a class="stop terminal" href="../rozklady/97/2431-bierun.html"><span class="stop-id">2431</span>Półwieś (1)</a>
+<a class="stop" href="../rozklady/97/2433-bierun.html"><span class="stop-id">2433</span>Ryczów Kościół (2)</a>
+<a class="stop" href="../rozklady/97/2427-bierun.html"><span class="stop-id">2427</span>Ryczów Dworzec PKP (1)</a>
+<a class="stop" href="../rozklady/97/2426-bierun.html"><span class="stop-id">2426</span>Ryczów Wróblówki (1)</a>
+<a class="stop terminal" href="../rozklady/97/1776-bierun.html"><span class="stop-id">1776</span>Spytkowice Rynek (2)</a>
+<a class="stop" href="../rozklady/97/1777-bierun.html"><span class="stop-id">1777</span>Spytkowice Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/97/1769-bierun.html"><span class="stop-id">1769</span>Spytkowice Dworzec PKP (1)</a>
+
+<div class="zone zone-zator">STREFA ZATOR</div>
+  
+<a class="stop" href="../rozklady/97/1751-bierun.html"><span class="stop-id">1751</span>Zator Zaskawie (0)</a>
+<a class="stop" href="../rozklady/97/1749-bierun.html"><span class="stop-id">1749</span>Zator Palczowice (1)</a>
+<a class="stop" href="../rozklady/97/1679-bierun.html"><span class="stop-id">1679</span>Zator Rynek (0)</a>
+<a class="stop" href="../rozklady/97/1690-bierun.html"><span class="stop-id">1690</span>Zator Podlipki (1)</a>
+<a class="stop" href="../rozklady/97/1760-bierun.html"><span class="stop-id">1760</span>Zator Dworzec Kolejowy (0)</a>
+<a class="stop" href="../rozklady/97/1696-bierun.html"><span class="stop-id">1696</span>Zator Park Rozrywki (2)</a>
+
+<div class="zone zone-przeciszow">STREFA PRZECISZÓW</div>
+  
+<a class="stop" href="../rozklady/97/1780-bierun.html"><span class="stop-id">1780</span>Przeciszów Łowiczki Księże (1)</a>
+<a class="stop" href="../rozklady/97/1781-bierun.html"><span class="stop-id">1781</span>Przeciszów I (1)</a>
+<a class="stop" href="../rozklady/97/1854-bierun.html"><span class="stop-id">1854</span>Przeciszów Centrum (1)</a>
+<a class="stop" href="../rozklady/97/1855-bierun.html"><span class="stop-id">1855</span>Przeciszów Młyn (2)</a>
+
+<div class="zone zone-oswiecim">STREFA OŚWIĘCIM</div>
+  
+<a class="stop" href="../rozklady/97/2014-bierun.html"><span class="stop-id">2014</span>Włosienica (2)</a>
+<a class="stop" href="../rozklady/97/2010-bierun.html"><span class="stop-id">2010</span>Włosienica Dolna (1)</a>
+<a class="stop" href="../rozklady/97/2009-bierun.html"><span class="stop-id">2009</span>Włosienica Szkoła (1)</a>
+<a class="stop" href="../rozklady/97/2008-bierun.html"><span class="stop-id">2008</span>Włosienica Centrum (1)</a>
+<a class="stop" href="../rozklady/97/2019-bierun.html"><span class="stop-id">2019</span>Włosienica Górna (2)</a>
+<a class="stop" href="../rozklady/97/2006-bierun.html"><span class="stop-id">2006</span>Włosienica Dąbrówki (1)</a>
+<a class="stop" href="../rozklady/97/2005-bierun.html"><span class="stop-id">2005</span>Włosienica 1-ego Maja (2)</a>
+<a class="stop terminal" href="../rozklady/97/0830-bierun.html"><span class="stop-id">0830</span>Oświęcim Dworzec Fabryczny (1)</a>
+<a class="stop" href="../rozklady/97/0831-bierun.html"><span class="stop-id">0831</span>Oświęcim Gazy Techniczne (1)</a>
+<a class="stop" href="../rozklady/97/0832-bierun.html"><span class="stop-id">0832</span>Oświęcim Monowice (2)</a>
+<a class="stop" href="../rozklady/97/0833-bierun.html"><span class="stop-id">0833</span>Oświęcim Brama (1)</a>
+<a class="stop" href="../rozklady/97/0834-bierun.html"><span class="stop-id">0834</span>Oświęcim Monowice Inkubator Przedsiębiorczości (2)</a>
+<a class="stop" href="../rozklady/97/0835-bierun.html"><span class="stop-id">0835</span>Oświęcim Pod Borem 2 (1)</a>
+<a class="stop" href="../rozklady/97/0676-bierun.html"><span class="stop-id">0676</span>Oświęcim Lodowisko (2)</a>
+<a class="stop" href="../rozklady/97/1505-bierun.html"><span class="stop-id">1505</span>Oświęcim Transchemia (2)</a>
+<a class="stop" href="../rozklady/97/1507-bierun.html"><span class="stop-id">1507</span>Oświęcim Dąbrowskiego (1)</a>
+<a class="stop" href="../rozklady/97/0836-bierun.html"><span class="stop-id">0836</span>Oświęcim Dąbrowskiego Szpital (1)</a>
+<a class="stop terminal" href="../rozklady/97/0628-bierun.html"><span class="stop-id">0628</span>Oświęcim Dąbrowskiego Miasto (1)</a>
+<a class="stop" href="../rozklady/97/0629-bierun.html"><span class="stop-id">0629</span>Oświęcim Stacja BP (2)</a>
+<a class="stop" href="../rozklady/97/0630-bierun.html"><span class="stop-id">0630</span>Oświęcim Niwa (1)</a>
+<a class="stop" href="../rozklady/97/2655-bierun.html"><span class="stop-id">2655</span>Babice Śląska I (1)</a>
+<a class="stop" href="../rozklady/97/2658-bierun.html"><span class="stop-id">2658</span>Babice Śląska II (2)</a>
+
+<div class="zone zone-bierun">STREFA BIERUŃ</div>
+  
+<a class="stop" href="../rozklady/97/2660-bierun.html"><span class="stop-id">2660</span>Bieruń Zabrzeg (1)</a>
+<a class="stop" href="../rozklady/97/0881-bierun.html"><span class="stop-id">0881</span>Bieruń Warszawska Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/97/0882-bierun.html"><span class="stop-id">0882</span>Bieruń Osiedle (1)</a>
+<a class="stop" href="../rozklady/97/0883-bierun.html"><span class="stop-id">0883</span>Bieruń KWK Piast (2)</a>
+<a class="stop" href="../rozklady/97/0884-bierun.html"><span class="stop-id">0884</span>Bieruń Granitowa (2)</a>
+<a class="stop" href="../rozklady/97/0923-bierun.html"><span class="stop-id">0923</span>Bieruń Zarzyna (2)</a>
+<a class="stop variant" href="../rozklady/97/0887-bierun.html"><span class="stop-id">0887</span>Bieruń Turystyczna I (1)</a>
+<a class="stop variant" href="../rozklady/97/0888-bierun.html"><span class="stop-id">0888</span>Bieruń Jajosty Zajazd (1)</a>
+<a class="stop variant" href="../rozklady/97/0889-bierun.html"><span class="stop-id">0889</span>Bieruń Bojszowska 187 (1)</a>
+<a class="stop variant" href="../rozklady/97/0890-bierun.html"><span class="stop-id">0890</span>Bieruń Bojszowska 196 (2)</a>
+<a class="stop variant" href="../rozklady/97/0891-bierun.html"><span class="stop-id">0891</span>Bieruń Bojszowska 168 (1)</a>
+<a class="stop variant" href="../rozklady/97/0892-bierun.html"><span class="stop-id">0892</span>Bieruń Bojszowska 124 (2)</a>
+<a class="stop variant" href="../rozklady/97/0893-bierun.html"><span class="stop-id">0893</span>Bieruń Bojszowska Sklep (2)</a>
+<a class="stop variant" href="../rozklady/97/0894-bierun.html"><span class="stop-id">0894</span>Bieruń Bojszowska 25 (2)</a>
+<a class="stop" href="../rozklady/97/1294-bierun.html"><span class="stop-id">1294</span>Bieruń Ściernie (1)</a>
+<a class="stop" href="../rozklady/97/1298-bierun.html"><span class="stop-id">1298</span>Bieruń Stacja Paliw (2)</a>
+<a class="stop" href="../rozklady/97/1296-bierun.html"><span class="stop-id">1296</span>Bieruń Baraniec (1)</a>
+<a class="stop terminal" href="../rozklady/97/0895-bierun.html"><span class="stop-id">0895</span>Bieruń Plac Autobusowy (1)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
