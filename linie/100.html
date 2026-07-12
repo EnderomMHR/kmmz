@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 100</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-oswiecim{
+    background:#9fc4e8;
+    color:#222;
+}
+
+.zone-jaworzno{
+    background:#ead1dc;
+    color:#222;
+}
+
+.zone-chelmek{
+    background:#b4a7d6;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">100</div>
+
+<div class="route">
+Jaworzno Podłęże Osiedle - Bory - Jeleń - Jeleń Dąb - Chełmek - Gorzów - Bobrek - Oświęcim Stare Stawy Pętla
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Oświęcim Stare Stawy Pętla</h2>
+
+<div class="zone zone-jaworzno">STREFA JAWORZNO</div>
+
+<a class="stop terminal" href="../rozklady/100/2674-oswiecim.html"><span class="stop-id">2674</span>Jaworzno Podłęże Osiedle (0)</a>
+<a class="stop" href="../rozklady/100/3203-oswiecim.html"><span class="stop-id">3203</span>Jaworzno Podłęże Kościół (2)</a>
+<a class="stop" href="../rozklady/100/2677-oswiecim.html"><span class="stop-id">2677</span>Jaworzno Podłęże Szkoła (2)</a>
+<a class="stop" href="../rozklady/100/2679-oswiecim.html"><span class="stop-id">2679</span>Jaworzno Moniuszki (2)</a>
+<a class="stop" href="../rozklady/100/2680-oswiecim.html"><span class="stop-id">2680</span>Jaworzno Centrum (1)</a>
+<a class="stop" href="../rozklady/100/2756-oswiecim.html"><span class="stop-id">2756</span>Jaworzno Urząd Miejski (2)</a>
+<a class="stop" href="../rozklady/100/2757-oswiecim.html"><span class="stop-id">2757</span>Jaworzno Rogatka (2)</a>
+<a class="stop" href="../rozklady/100/2758-oswiecim.html"><span class="stop-id">2758</span>Jaworzno Krakowska Pętla (2)</a>
+<a class="stop" href="../rozklady/100/2752-oswiecim.html"><span class="stop-id">2752</span>Jaworzno Stadion Miejski (1)</a>
+<a class="stop" href="../rozklady/100/2760-oswiecim.html"><span class="stop-id">2760</span>Jaworzno Bory Czysta (2)</a>
+<a class="stop" href="../rozklady/100/2749-oswiecim.html"><span class="stop-id">2749</span>Jaworzno Jeleń Okrągle Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/100/2747-oswiecim.html"><span class="stop-id">2747</span>Jaworzno Jeleń Inwestycyjna (1)</a>
+<a class="stop" href="../rozklady/100/2722-oswiecim.html"><span class="stop-id">2722</span>Jaworzno Jeleń Centrum Handlowe (2)</a>
+<a class="stop" href="../rozklady/100/2710-oswiecim.html"><span class="stop-id">2710</span>Jaworzno Jeleń Park Przemysłowy (1)</a>
+<a class="stop" href="../rozklady/100/2724-oswiecim.html"><span class="stop-id">2724</span>Jaworzno Jeleń Dąb Leśniczówka (2)</a>
+<a class="stop" href="../rozklady/100/2708-oswiecim.html"><span class="stop-id">2708</span>Jaworzno Jeleń Dąb Sklep (1)</a>
+<a class="stop" href="../rozklady/100/2726-oswiecim.html"><span class="stop-id">2726</span>Jaworzno Jeleń Dąb Kapliczka (2)</a>
+
+<div class="zone zone-chelmek">STREFA CHEŁMEK</div>
+  
+<a class="stop" href="../rozklady/100/1281-oswiecim.html"><span class="stop-id">1281</span>Chełmek Fredry (1)</a>
+<a class="stop" href="../rozklady/100/0378-oswiecim.html"><span class="stop-id">0378</span>Chełmek Jagiellońska (1)</a>
+<a class="stop" href="../rozklady/100/0379-oswiecim.html"><span class="stop-id">0379</span>Chełmek Dom Ludowy (1)</a>
+<a class="stop" href="../rozklady/100/0861-oswiecim.html"><span class="stop-id">0861</span>Chełmek Mieszka I (1)</a>
+<a class="stop" href="../rozklady/100/0862-oswiecim.html"><span class="stop-id">0862</span>Chełmek Oświęcimska (1)</a>
+<a class="stop" href="../rozklady/100/0863-oswiecim.html"><span class="stop-id">0863</span>Gorzów Granica (1)</a>
+<a class="stop" href="../rozklady/100/0864-oswiecim.html"><span class="stop-id">0864</span>Gorzów Remiza (1)</a>
+<a class="stop" href="../rozklady/100/0865-oswiecim.html"><span class="stop-id">0865</span>Gorzów Szkoła (1)</a>
+<a class="stop" href="../rozklady/100/0866-oswiecim.html"><span class="stop-id">0866</span>Gorzów Szkolna (1)</a>
+<a class="stop" href="../rozklady/100/0867-oswiecim.html"><span class="stop-id">0867</span>Bobrek Świnna (1)</a>
+
+<div class="zone zone-oswiecim">STREFA OŚWIĘCIM</div>
+  
+<a class="stop" href="../rozklady/100/0868-oswiecim.html"><span class="stop-id">0868</span>Broszkowice Jodłowa (1)</a>
+<a class="stop" href="../rozklady/100/0869-oswiecim.html"><span class="stop-id">0869</span>Broszkowice Zgodna (1)</a>
+<a class="stop" href="../rozklady/100/0870-oswiecim.html"><span class="stop-id">0870</span>Babice Simech (1)</a>
+<a class="stop" href="../rozklady/100/0871-oswiecim.html"><span class="stop-id">0871</span>Oświęcim Błonie (2)</a>
+<a class="stop" href="../rozklady/100/0872-oswiecim.html"><span class="stop-id">0872</span>Oświęcim Liceum (1)</a>
+<a class="stop" href="../rozklady/100/0668-oswiecim.html"><span class="stop-id">0668</span>Oświęcim Stacja BP (1)</a>
+<a class="stop" href="../rozklady/100/0669-oswiecim.html"><span class="stop-id">0669</span>Oświęcim Dąbrowskiego Kościół (1)</a>
+<a class="stop" href="../rozklady/100/0670-oswiecim.html"><span class="stop-id">0670</span>Oświęcim Dąbrowskiego Cmentarz (0)</a>
+<a class="stop" href="../rozklady/100/1551-oswiecim.html"><span class="stop-id">1551</span>Oświęcim Nojego (2)</a>
+<a class="stop" href="../rozklady/100/1913-oswiecim.html"><span class="stop-id">1913</span>Oświęcim Królowej Jadwigi (1)</a>
+<a class="stop" href="../rozklady/100/2636-oswiecim.html"><span class="stop-id">2636</span>Oświęcim Świętej Barbary (1)</a>
+<a class="stop terminal" href="../rozklady/100/2634-oswiecim.html"><span class="stop-id">2634</span>Oświęcim Stare Stawy Pętla (1)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Jaworzno Podłęże Osiedle</h2>
+
+<div class="zone zone-oswiecim">STREFA OŚWIĘCIM</div>
+
+<a class="stop terminal" href="../rozklady/100/2635-jaworzno.html"><span class="stop-id">2635</span>Oświęcim Stare Stawy Pętla (0)</a>
+<a class="stop" href="../rozklady/100/2637-jaworzno.html"><span class="stop-id">2637</span>Oświęcim Świętej Barbary (2)</a>
+<a class="stop" href="../rozklady/100/1912-jaworzno.html"><span class="stop-id">1912</span>Oświęcim Królowej Jadwigi (2)</a>
+<a class="stop" href="../rozklady/100/1550-jaworzno.html"><span class="stop-id">1550</span>Oświęcim Nojego (1)</a>
+<a class="stop" href="../rozklady/100/0628-jaworzno.html"><span class="stop-id">0628</span>Oświęcim Dąbrowskiego Miasto (1)</a>
+<a class="stop" href="../rozklady/100/0629-jaworzno.html"><span class="stop-id">0629</span>Oświęcim Stacja BP (2)</a>
+<a class="stop" href="../rozklady/100/0837-jaworzno.html"><span class="stop-id">0837</span>Oświęcim Błonie (1)</a>
+<a class="stop" href="../rozklady/100/0838-jaworzno.html"><span class="stop-id">0838</span>Babice Simech (2)</a>
+<a class="stop" href="../rozklady/100/0839-jaworzno.html"><span class="stop-id">0839</span>Broszkowice Zgodna (2)</a>
+<a class="stop" href="../rozklady/100/0840-jaworzno.html"><span class="stop-id">0840</span>Broszkowice Jodłowa (2)</a>
+
+<div class="zone zone-chelmek">STREFA CHEŁMEK</div>
+  
+<a class="stop" href="../rozklady/100/0841-jaworzno.html"><span class="stop-id">0841</span>Bobrek Świnna (2)</a>
+<a class="stop" href="../rozklady/100/0842-jaworzno.html"><span class="stop-id">0842</span>Gorzów Szkolna (2)</a>
+<a class="stop" href="../rozklady/100/0843-jaworzno.html"><span class="stop-id">0843</span>Gorzów Szkoła (2)</a>
+<a class="stop" href="../rozklady/100/0844-jaworzno.html"><span class="stop-id">0844</span>Gorzów Remiza (2)</a>
+<a class="stop" href="../rozklady/100/0845-jaworzno.html"><span class="stop-id">0845</span>Gorzów Granica (2)</a>
+<a class="stop" href="../rozklady/100/0846-jaworzno.html"><span class="stop-id">0846</span>Chełmek Oświęcimska (2)</a>
+<a class="stop" href="../rozklady/100/0849-jaworzno.html"><span class="stop-id">0849</span>Chełmek Mieszka I (2)</a>
+<a class="stop" href="../rozklady/100/0850-jaworzno.html"><span class="stop-id">0850</span>Chełmek Dom Ludowy (2)</a>
+<a class="stop" href="../rozklady/100/0851-jaworzno.html"><span class="stop-id">0851</span>Chełmek Jagiellońska (2)</a>
+<a class="stop" href="../rozklady/100/1282-jaworzno.html"><span class="stop-id">1282</span>Chełmek Fredry (2)</a>
+
+<div class="zone zone-jaworzno">STREFA JAWORZNO</div>
+  
+<a class="stop" href="../rozklady/100/2706-jaworzno.html"><span class="stop-id">2706</span>Jaworzno Jeleń Dąb Pętla (1)</a>
+<a class="stop" href="../rozklady/100/2707-jaworzno.html"><span class="stop-id">2707</span>Jaworzno Jeleń Dąb Kapliczka (1)</a>
+<a class="stop" href="../rozklady/100/2725-jaworzno.html"><span class="stop-id">2725</span>Jaworzno Jeleń Dąb Sklep (2)</a>
+<a class="stop" href="../rozklady/100/2709-jaworzno.html"><span class="stop-id">2709</span>Jaworzno Jeleń Dąb Leśniczówka (1)</a>
+<a class="stop" href="../rozklady/100/2723-jaworzno.html"><span class="stop-id">2723</span>Jaworzno Jeleń Park Przemysłowy (2)</a>
+<a class="stop" href="../rozklady/100/2711-jaworzno.html"><span class="stop-id">2711</span>Jaworzno Jeleń Centrum Handlowe (1)</a>
+<a class="stop" href="../rozklady/100/2748-jaworzno.html"><span class="stop-id">2748</span>Jaworzno Jeleń Inwestycyjna (2)</a>
+<a class="stop" href="../rozklady/100/2926-jaworzno.html"><span class="stop-id">2926</span>Jaworzno Jeleń Okrągle Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/100/2750-jaworzno.html"><span class="stop-id">2750</span>Jaworzno Bory Podgórska (1)</a>
+<a class="stop" href="../rozklady/100/2751-jaworzno.html"><span class="stop-id">2751</span>Jaworzno Bory Czysta (1)</a>
+<a class="stop" href="../rozklady/100/2759-jaworzno.html"><span class="stop-id">2759</span>Jaworzno Stadion Miejski (2)</a>
+<a class="stop" href="../rozklady/100/2753-jaworzno.html"><span class="stop-id">2753</span>Jaworzno Krakowska Pętla (1)</a>
+<a class="stop" href="../rozklady/100/2754-jaworzno.html"><span class="stop-id">2754</span>Jaworzno Rogatka (1)</a>
+<a class="stop" href="../rozklady/100/2755-jaworzno.html"><span class="stop-id">2755</span>Jaworzno Urząd Miejski (1)</a>
+<a class="stop" href="../rozklady/100/2681-jaworzno.html"><span class="stop-id">2681</span>Jaworzno Centrum (2)</a>
+<a class="stop" href="../rozklady/100/2678-jaworzno.html"><span class="stop-id">2678</span>Jaworzno Moniuszki (1)</a>
+<a class="stop" href="../rozklady/100/2676-jaworzno.html"><span class="stop-id">2676</span>Jaworzno Podłęże Szkoła (1)</a>
+<a class="stop" href="../rozklady/100/2675-jaworzno.html"><span class="stop-id">2675</span>Jaworzno Podłęże Kościół (1)</a>
+<a class="stop terminal" href="../rozklady/100/2674-jaworzno.html"><span class="stop-id">2674</span>Jaworzno Podłęże Osiedle (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
