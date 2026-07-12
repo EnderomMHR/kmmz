@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 98</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-trzebinia{
+    background:#d9d2e9;
+    color:#222;
+}
+
+.zone-chrzanow{
+    background:#a4c2f4;
+    color:#222;
+}
+
+.zone-libiaz{
+    background:#b6d7a8;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">98</div>
+
+<div class="route">
+Libiąż Kopalnia Janina - Kąty - Chrzanów - Trzebinia - Górka - Siersza - Gaj - Myślachowice - Płoki Centrum
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Płoki Centrum</h2>
+
+<div class="zone zone-libiaz">STREFA LIBIĄŻ</div>
+
+<a class="stop terminal" href="../rozklady/98/0105-ploki.html"><span class="stop-id">0105</span>Libiąż Kopalnia Janina (0)</a>
+<a class="stop" href="../rozklady/98/0107-ploki.html"><span class="stop-id">0107</span>Libiąż Dworzec Autobusowy (2)</a>
+<a class="stop" href="../rozklady/98/0108-ploki.html"><span class="stop-id">0108</span>Libiąż Chrzanowska Kamieniec (1)</a>
+
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+  
+<a class="stop" href="../rozklady/98/0109-ploki.html"><span class="stop-id">0109</span>Chrzanów Fadom (1)</a>
+<a class="stop" href="../rozklady/98/0110-ploki.html"><span class="stop-id">0110</span>Chrzanów Kroczymiech (2)</a>
+<a class="stop" href="../rozklady/98/0111-ploki.html"><span class="stop-id">0111</span>Chrzanów Kąty Osiedle Malarzy (2)</a>
+<a class="stop" href="../rozklady/98/0112-ploki.html"><span class="stop-id">0112</span>Chrzanów Kąty Kościół (2)</a>
+<a class="stop" href="../rozklady/98/0113-ploki.html"><span class="stop-id">0113</span>Chrzanów Kąty Bloki (2)</a>
+<a class="stop" href="../rozklady/98/0114-ploki.html"><span class="stop-id">0114</span>Chrzanów Księdza Skorupki (0)</a>
+<a class="stop" href="../rozklady/98/0115-ploki.html"><span class="stop-id">0115</span>Chrzanów Plac Tysiąclecia (2)</a>
+<a class="stop" href="../rozklady/98/0116-ploki.html"><span class="stop-id">0116</span>Chrzanów Dworzec Autobusowy (1)</a>
+<a class="stop" href="../rozklady/98/0117-ploki.html"><span class="stop-id">0117</span>Chrzanów Szpitalna (3)</a>
+<a class="stop" href="../rozklady/98/0118-ploki.html"><span class="stop-id">0118</span>Chrzanów Szpital (1)</a>
+<a class="stop" href="../rozklady/98/0119-ploki.html"><span class="stop-id">0119</span>Chrzanów Valeo (1)</a>
+
+<div class="zone zone-trzebinia">STREFA TRZEBINIA</div>
+  
+<a class="stop" href="../rozklady/98/0121-ploki.html"><span class="stop-id">0121</span>Trzebinia Długa (2)</a>
+<a class="stop" href="../rozklady/98/0122-ploki.html"><span class="stop-id">0122</span>Trzebinia Dworzec PKP (2)</a>
+<a class="stop" href="../rozklady/98/3295-ploki.html"><span class="stop-id">3295</span>Trzebinia Mały Rynek (1)</a>
+<a class="stop" href="../rozklady/98/1027-ploki.html"><span class="stop-id">1027</span>Trzebinia Balaton (1)</a>
+<a class="stop" href="../rozklady/98/0979-ploki.html"><span class="stop-id">0979</span>Trzebinia Górka Dwór (2)</a>
+<a class="stop" href="../rozklady/98/0977-ploki.html"><span class="stop-id">0977</span>Trzebinia OHP (2)</a>
+<a class="stop" href="../rozklady/98/0971-ploki.html"><span class="stop-id">0971</span>Trzebinia Krze I (2)</a>
+<a class="stop" href="../rozklady/98/0973-ploki.html"><span class="stop-id">0973</span>Trzebinia KWK Siersza (2)</a>
+<a class="stop" href="../rozklady/98/1005-ploki.html"><span class="stop-id">1005</span>Trzebinia Siersza Ośrodek Zdrowia (1)</a>
+<a class="stop" href="../rozklady/98/1007-ploki.html"><span class="stop-id">1007</span>Trzebinia Siersza Trętowiec (1)</a>
+<a class="stop" href="../rozklady/98/0991-ploki.html"><span class="stop-id">0991</span>Trzebinia Siersza Stadion (1)</a>
+<a class="stop" href="../rozklady/98/0993-ploki.html"><span class="stop-id">0993</span>Trzebinia Siersza Kościół (1)</a>
+<a class="stop" href="../rozklady/98/1525-ploki.html"><span class="stop-id">1525</span>Trzebinia Siersza Liceum (2)</a>
+<a class="stop" href="../rozklady/98/1009-ploki.html"><span class="stop-id">1009</span>Trzebinia Siersza Huta (1)</a>
+<a class="stop" href="../rozklady/98/1013-ploki.html"><span class="stop-id">1013</span>Trzebinia Gaj Siersza (2)</a>
+<a class="stop" href="../rozklady/98/1021-ploki.html"><span class="stop-id">1021</span>Trzebinia Osiedle Energetyków (1)</a>
+<a class="stop" href="../rozklady/98/0928-ploki.html"><span class="stop-id">0928</span>Trzebinia Elektrownia Siersza (0)</a>
+<a class="stop" href="../rozklady/98/0940-ploki.html"><span class="stop-id">0940</span>Myślachowice Piekarnia (1)</a>
+<a class="stop" href="../rozklady/98/0938-ploki.html"><span class="stop-id">0938</span>Myślachowice Sierszecka (1)</a>
+<a class="stop" href="../rozklady/98/0937-ploki.html"><span class="stop-id">0937</span>Myślachowice Centrum (2)</a>
+<a class="stop" href="../rozklady/98/1511-ploki.html"><span class="stop-id">1511</span>Myślachowice RSP (2)</a>
+<a class="stop" href="../rozklady/98/0807-ploki.html"><span class="stop-id">0807</span>Płoki Leśniczówka (2)</a>
+<a class="stop terminal" href="../rozklady/98/0805-ploki.html"><span class="stop-id">0805</span>Płoki Centrum (2)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Libiąż Kopalnia Janina</h2>
+
+<div class="zone zone-trzebinia">STREFA TRZEBINIA</div>
+
+<a class="stop terminal" href="../rozklady/98/0804-libiaz.html"><span class="stop-id">0804</span>Płoki Centrum (1)</a>
+<a class="stop" href="../rozklady/98/0806-libiaz.html"><span class="stop-id">0806</span>Płoki Leśniczówka (1)</a>
+<a class="stop" href="../rozklady/98/0929-libiaz.html"><span class="stop-id">0929</span>Myślachowice RSP (1)</a>
+<a class="stop" href="../rozklady/98/0934-libiaz.html"><span class="stop-id">0934</span>Myślachowice Centrum I (1)</a>
+<a class="stop" href="../rozklady/98/0939-libiaz.html"><span class="stop-id">0939</span>Myślachowice Sierszecka (2)</a>
+<a class="stop" href="../rozklady/98/3296-libiaz.html"><span class="stop-id">3296</span>Myślachowice Piekarnia (2)</a>
+<a class="stop" href="../rozklady/98/0928-libiaz.html"><span class="stop-id">0928</span>Trzebinia Elektrownia Siersza (0)</a>
+<a class="stop" href="../rozklady/98/1020-libiaz.html"><span class="stop-id">1020</span>Trzebinia Osiedle Energetyków (2)</a>
+<a class="stop" href="../rozklady/98/1012-libiaz.html"><span class="stop-id">1012</span>Trzebinia Gaj Siersza (1)</a>
+<a class="stop" href="../rozklady/98/1010-libiaz.html"><span class="stop-id">1010</span>Trzebinia Siersza Huta (2)</a>
+<a class="stop" href="../rozklady/98/0993-libiaz.html"><span class="stop-id">0993</span>Trzebinia Siersza Kościół (1)</a>
+<a class="stop" href="../rozklady/98/1525-libiaz.html"><span class="stop-id">1525</span>Trzebinia Siersza Liceum (2)</a>
+<a class="stop" href="../rozklady/98/0996-libiaz.html"><span class="stop-id">0996</span>Trzebinia Siersza Zwycięstwa (0)</a>
+<a class="stop" href="../rozklady/98/0995-libiaz.html"><span class="stop-id">0995</span>Trzebinia Siersza Liceum (1)</a>
+<a class="stop" href="../rozklady/98/0994-libiaz.html"><span class="stop-id">0994</span>Trzebinia Siersza Kościół (2)</a>
+<a class="stop" href="../rozklady/98/0992-libiaz.html"><span class="stop-id">0992</span>Trzebinia Siersza Stadion (2)</a>
+<a class="stop" href="../rozklady/98/1008-libiaz.html"><span class="stop-id">1008</span>Trzebinia Siersza Trętowiec (2)</a>
+<a class="stop" href="../rozklady/98/1006-libiaz.html"><span class="stop-id">1006</span>Trzebinia Siersza Ośrodek Zdrowia (2)</a>
+<a class="stop" href="../rozklady/98/0972-libiaz.html"><span class="stop-id">0972</span>Trzebinia KWK Siersza (1)</a>
+<a class="stop" href="../rozklady/98/0970-libiaz.html"><span class="stop-id">0970</span>Trzebinia Krze I (1)</a>
+<a class="stop" href="../rozklady/98/0976-libiaz.html"><span class="stop-id">0976</span>Trzebinia OHP (1)</a>
+<a class="stop" href="../rozklady/98/0978-libiaz.html"><span class="stop-id">0978</span>Trzebinia Górka Dwór (1)</a>
+<a class="stop" href="../rozklady/98/1028-libiaz.html"><span class="stop-id">1028</span>Trzebinia Balaton (2)</a>
+<a class="stop" href="../rozklady/98/0088-libiaz.html"><span class="stop-id">0088</span>Trzebinia Mały Rynek Kościuszki (0)</a>
+<a class="stop" href="../rozklady/98/0089-libiaz.html"><span class="stop-id">0089</span>Trzebinia Dworzec PKP (1)</a>
+<a class="stop" href="../rozklady/98/0090-libiaz.html"><span class="stop-id">0090</span>Trzebinia Długa (1)</a>
+
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+  
+<a class="stop" href="../rozklady/98/0092-libiaz.html"><span class="stop-id">0092</span>Chrzanów Valeo (2)</a>
+<a class="stop" href="../rozklady/98/0093-libiaz.html"><span class="stop-id">0093</span>Chrzanów Szpital (2)</a>
+<a class="stop" href="../rozklady/98/0094-libiaz.html"><span class="stop-id">0094</span>Chrzanów Szpitalna (1)</a>
+<a class="stop" href="../rozklady/98/0095-libiaz.html"><span class="stop-id">0095</span>Chrzanów Dworzec Autobusowy (3)</a>
+<a class="stop" href="../rozklady/98/0096-libiaz.html"><span class="stop-id">0096</span>Chrzanów Plac Tysiąclecia (3)</a>
+<a class="stop" href="../rozklady/98/0097-libiaz.html"><span class="stop-id">0097</span>Chrzanów Park (1)</a>
+<a class="stop" href="../rozklady/98/0098-libiaz.html"><span class="stop-id">0098</span>Chrzanów Kąty Bloki (1)</a>
+<a class="stop" href="../rozklady/98/0099-libiaz.html"><span class="stop-id">0099</span>Chrzanów Kąty Kościół (1)</a>
+<a class="stop" href="../rozklady/98/0100-libiaz.html"><span class="stop-id">0100</span>Chrzanów Kąty Osiedle Malarzy (1)</a>
+<a class="stop" href="../rozklady/98/0101-libiaz.html"><span class="stop-id">0101</span>Chrzanów Kroczymiech (1)</a>
+<a class="stop" href="../rozklady/98/0102-libiaz.html"><span class="stop-id">0102</span>Chrzanów Fadom (2)</a>
+
+<div class="zone zone-libiaz">STREFA LIBIĄŻ</div>
+  
+<a class="stop" href="../rozklady/98/0103-libiaz.html"><span class="stop-id">0103</span>Libiąż Chrzanowska Kamieniec (2)</a>
+<a class="stop" href="../rozklady/98/0104-libiaz.html"><span class="stop-id">0104</span>Libiąż Dworzec Autobusowy (1)</a>
+<a class="stop terminal" href="../rozklady/98/0105-libiaz.html"><span class="stop-id">0105</span>Libiąż Kopalnia Janina (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
