@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 99</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-chelmek{
+    background:#b4a7d6;
+    color:#222;
+}
+
+.zone-oswiecim{
+    background:#9fc4e8;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">99</div>
+
+<div class="route">
+Chełmek Pętla - Gorzów - Bobrek - Oświęcim Dworzec PKP
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Oświęcim Dworzec PKP</h2>
+
+<div class="zone zone-chelmek">STREFA CHEŁMEK</div>
+
+<a class="stop terminal" href="../rozklady/99/0859-oswiecim.html"><span class="stop-id">0859</span>Chełmek Pętla (0)</a>
+<a class="stop" href="../rozklady/99/0860-oswiecim.html"><span class="stop-id">0860</span>Chełmek Osiedle (2)</a>
+<a class="stop" href="../rozklady/99/0373-oswiecim.html"><span class="stop-id">0373</span>Chełmek Osiedle DW780 (2)</a>
+<a class="stop" href="../rozklady/99/0374-oswiecim.html"><span class="stop-id">0374</span>Chełmek Policja (2)</a>
+<a class="stop" href="../rozklady/99/0375-oswiecim.html"><span class="stop-id">0375</span>Chełmek Remiza (1)</a>
+<a class="stop" href="../rozklady/99/0376-oswiecim.html"><span class="stop-id">0376</span>Chełmek Mickiewicza (2)</a>
+<a class="stop" href="../rozklady/99/0377-oswiecim.html"><span class="stop-id">0377</span>Chełmek Młyny (1)</a>
+<a class="stop" href="../rozklady/99/0378-oswiecim.html"><span class="stop-id">0378</span>Chełmek Jagiellońska (1)</a>
+<a class="stop" href="../rozklady/99/0379-oswiecim.html"><span class="stop-id">0379</span>Chełmek Dom Ludowy (1)</a>
+<a class="stop" href="../rozklady/99/0861-oswiecim.html"><span class="stop-id">0861</span>Chełmek Mieszka I (1)</a>
+<a class="stop" href="../rozklady/99/0862-oswiecim.html"><span class="stop-id">0862</span>Chełmek Oświęcimska (1)</a>
+<a class="stop" href="../rozklady/99/0863-oswiecim.html"><span class="stop-id">0863</span>Gorzów Granica (1)</a>
+<a class="stop" href="../rozklady/99/0864-oswiecim.html"><span class="stop-id">0864</span>Gorzów Remiza (1)</a>
+<a class="stop" href="../rozklady/99/0865-oswiecim.html"><span class="stop-id">0865</span>Gorzów Szkoła (1)</a>
+<a class="stop" href="../rozklady/99/0866-oswiecim.html"><span class="stop-id">0866</span>Gorzów Szkolna (1)</a>
+<a class="stop" href="../rozklady/99/1532-oswiecim.html"><span class="stop-id">1532</span>Bobrek Podkumorek (1)</a>
+<a class="stop variant" href="../rozklady/99/1533-oswiecim.html"><span class="stop-id">1533</span>Bobrek Parkowa I (1)</a>
+<a class="stop variant" href="../rozklady/99/1534-oswiecim.html"><span class="stop-id">1534</span>Bobrek Parkowa II (1)</a>
+<a class="stop variant" href="../rozklady/99/2624-oswiecim.html"><span class="stop-id">2624</span>Bobrek Długa (1)</a>
+<a class="stop" href="../rozklady/99/1540-oswiecim.html"><span class="stop-id">1540</span>Bobrek Wyszogrodzkiego (2)</a>
+<a class="stop" href="../rozklady/99/1538-oswiecim.html"><span class="stop-id">1538</span>Bobrek Poczta (2)</a>
+<a class="stop" href="../rozklady/99/1535-oswiecim.html"><span class="stop-id">1535</span>Bobrek Szkoła (2)</a>
+<a class="stop variant" href="../rozklady/99/1503-oswiecim.html"><span class="stop-id">1503</span>Bobrek Nadwiślańska (1)</a>
+<a class="stop variant" href="../rozklady/99/1501-oswiecim.html"><span class="stop-id">1501</span>Bobrek Dom Ludowy (1)</a>
+<a class="stop variant" href="../rozklady/99/1504-oswiecim.html"><span class="stop-id">1504</span>Bobrek Nadwiślańska (2)</a>
+
+<div class="zone zone-oswiecim">STREFA OŚWIĘCIM</div>
+  
+<a class="stop" href="../rozklady/99/1505-oswiecim.html"><span class="stop-id">1505</span>Oświęcim Transchemia (2)</a>
+<a class="stop" href="../rozklady/99/1541-oswiecim.html"><span class="stop-id">1541</span>Oświęcim Słowackiego Kowal (1)</a>
+<a class="stop" href="../rozklady/99/1542-oswiecim.html"><span class="stop-id">1542</span>Oświęcim Słowackiego II (1)</a>
+<a class="stop" href="../rozklady/99/1545-oswiecim.html"><span class="stop-id">1545</span>Oświęcim Starostwo (1)</a>
+<a class="stop" href="../rozklady/99/1549-oswiecim.html"><span class="stop-id">1549</span>Oświęcim Szkoła Nr 2 (2)</a>
+<a class="stop" href="../rozklady/99/1550-oswiecim.html"><span class="stop-id">1550</span>Oświęcim Nojego (1)</a>
+<a class="stop" href="../rozklady/99/0628-oswiecim.html"><span class="stop-id">0628</span>Oświęcim Dąbrowskiego Miasto (1)</a>
+<a class="stop" href="../rozklady/99/0629-oswiecim.html"><span class="stop-id">0629</span>Oświęcim Stacja BP (2)</a>
+<a class="stop" href="../rozklady/99/0630-oswiecim.html"><span class="stop-id">0630</span>Oświęcim Niwa (1)</a>
+<a class="stop terminal" href="../rozklady/99/0631-oswiecim.html"><span class="stop-id">0631</span>Oświęcim Dworzec PKP (1)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Chełmek Pętla</h2>
+
+<div class="zone zone-oswiecim">STREFA OŚWIĘCIM</div>
+
+<a class="stop terminal" href="../rozklady/99/0666-chelmek.html"><span class="stop-id">0666</span>Oświęcim Dworzec PKP (2)</a>
+<a class="stop" href="../rozklady/99/0667-chelmek.html"><span class="stop-id">0667</span>Oświęcim Niwa (2)</a>
+<a class="stop" href="../rozklady/99/0668-chelmek.html"><span class="stop-id">0668</span>Oświęcim Stacja BP (1)</a>
+<a class="stop" href="../rozklady/99/0669-chelmek.html"><span class="stop-id">0669</span>Oświęcim Dąbrowskiego Kościół (1)</a>
+<a class="stop" href="../rozklady/99/0670-chelmek.html"><span class="stop-id">0670</span>Oświęcim Dąbrowskiego Cmentarz (0)</a>
+<a class="stop variant" href="../rozklady/99/0873-chelmek.html"><span class="stop-id">0873</span>Oświęcim Dąbrowskiego Szpital (2)</a>
+<a class="stop variant" href="../rozklady/99/1508-chelmek.html"><span class="stop-id">1508</span>Oświęcim Dąbrowskiego (2)</a>
+<a class="stop" href="../rozklady/99/1551-chelmek.html"><span class="stop-id">1551</span>Oświęcim Nojego (2)</a>
+<a class="stop" href="../rozklady/99/1548-chelmek.html"><span class="stop-id">1548</span>Oświęcim Szkoła Nr 2 (1)</a>
+<a class="stop" href="../rozklady/99/1547-chelmek.html"><span class="stop-id">1547</span>Oświęcim Sobieskiego (1)</a>
+<a class="stop" href="../rozklady/99/1546-chelmek.html"><span class="stop-id">1546</span>Oświęcim Słowackiego I (1)</a>
+<a class="stop" href="../rozklady/99/1543-chelmek.html"><span class="stop-id">1543</span>Oświęcim Słowackiego II (2)</a>
+<a class="stop" href="../rozklady/99/1544-chelmek.html"><span class="stop-id">1544</span>Oświęcim Słowackiego Kowal (2)</a>
+<a class="stop" href="../rozklady/99/1506-chelmek.html"><span class="stop-id">1506</span>Oświęcim Transchemia (1)</a>
+
+<div class="zone zone-chelmek">STREFA CHEŁMEK</div>
+  
+<a class="stop variant" href="../rozklady/99/1503-chelmek.html"><span class="stop-id">1503</span>Bobrek Nadwiślańska (1)</a>
+<a class="stop variant" href="../rozklady/99/1501-chelmek.html"><span class="stop-id">1501</span>Bobrek Dom Ludowy (1)</a>
+<a class="stop variant" href="../rozklady/99/1504-chelmek.html"><span class="stop-id">1504</span>Bobrek Nadwiślańska (2)</a>
+<a class="stop" href="../rozklady/99/1536-chelmek.html"><span class="stop-id">1536</span>Bobrek Szkoła (1)</a>
+<a class="stop" href="../rozklady/99/1537-chelmek.html"><span class="stop-id">1537</span>Bobrek Poczta (1)</a>
+<a class="stop" href="../rozklady/99/1539-chelmek.html"><span class="stop-id">1539</span>Bobrek Wyszogrodzkiego (1)</a>
+<a class="stop" href="../rozklady/99/1531-chelmek.html"><span class="stop-id">1531</span>Bobrek Podkumorek (2)</a>
+<a class="stop" href="../rozklady/99/0842-chelmek.html"><span class="stop-id">0842</span>Gorzów Szkolna (2)</a>
+<a class="stop" href="../rozklady/99/0843-chelmek.html"><span class="stop-id">0843</span>Gorzów Szkoła (2)</a>
+<a class="stop" href="../rozklady/99/0844-chelmek.html"><span class="stop-id">0844</span>Gorzów Remiza (2)</a>
+<a class="stop" href="../rozklady/99/0845-chelmek.html"><span class="stop-id">0845</span>Gorzów Granica (2)</a>
+<a class="stop" href="../rozklady/99/0846-chelmek.html"><span class="stop-id">0846</span>Chełmek Oświęcimska (2)</a>
+<a class="stop" href="../rozklady/99/0849-chelmek.html"><span class="stop-id">0849</span>Chełmek Mieszka I (2)</a>
+<a class="stop" href="../rozklady/99/0850-chelmek.html"><span class="stop-id">0850</span>Chełmek Dom Ludowy (2)</a>
+<a class="stop" href="../rozklady/99/0851-chelmek.html"><span class="stop-id">0851</span>Chełmek Jagiellońska (2)</a>
+<a class="stop" href="../rozklady/99/0852-chelmek.html"><span class="stop-id">0852</span>Chełmek Młyny (2)</a>
+<a class="stop" href="../rozklady/99/0853-chelmek.html"><span class="stop-id">0853</span>Chełmek Mickiewicza (1)</a>
+<a class="stop" href="../rozklady/99/0854-chelmek.html"><span class="stop-id">0854</span>Chełmek Remiza (2)</a>
+<a class="stop" href="../rozklady/99/0381-chelmek.html"><span class="stop-id">0381</span>Chełmek Policja (1)</a>
+<a class="stop" href="../rozklady/99/0382-chelmek.html"><span class="stop-id">0382</span>Chełmek Osiedle DW780 (1)</a>
+<a class="stop" href="../rozklady/99/0858-chelmek.html"><span class="stop-id">0858</span>Chełmek Osiedle (1)</a>
+<a class="stop terminal" href="../rozklady/99/0859-chelmek.html"><span class="stop-id">0859</span>Chełmek Pętla (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
