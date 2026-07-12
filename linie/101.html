@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 101</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-trzyciaz{
+    background:#c17ba1;
+    color:#222;
+}
+
+.zone-zarnowiec{
+    background:#fffe01;
+    color:#222;
+}
+
+.zone-wolbrom{
+    background:#2a8be8;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">101</div>
+
+<div class="route">
+Ściborzyce Most - Małyszyce - Imbramowice - Glanów - Porąbka - Budzyń - Poręba Górna - Zasępiec Remiza - Chełm - Wolbrom Nowa PKS - Brzozówka - Wierzchowisko - Jeżówka - Chlina - Żarnowiec Rynek
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Żarnowiec Rynek</h2>
+
+<div class="zone zone-trzyciaz">STREFA TRZYCIĄŻ</div>
+<a class="stop terminal" href="../rozklady/101/0787-zarnowiec.html"><span class="stop-id">0787</span>Ściborzyce Most (1)</a>
+<a class="stop" href="../rozklady/101/0789-zarnowiec.html"><span class="stop-id">0789</span>Ściborzyce Granica (1)</a>
+<a class="stop" href="../rozklady/101/2486-zarnowiec.html"><span class="stop-id">2486</span>Małyszyce (1)</a>
+<a class="stop" href="../rozklady/101/2488-zarnowiec.html"><span class="stop-id">2488</span>Imbramowice Dolne (2)</a>
+<a class="stop" href="../rozklady/101/2484-zarnowiec.html"><span class="stop-id">2484</span>Imbramowice Cmentarz (1)</a>
+<a class="stop" href="../rozklady/101/2490-zarnowiec.html"><span class="stop-id">2490</span>Imbramowice Górne (2)</a>
+<a class="stop" href="../rozklady/101/3278-zarnowiec.html"><span class="stop-id">3278</span>Imbramowice Pole (2)</a>
+<a class="stop" href="../rozklady/101/2491-zarnowiec.html"><span class="stop-id">2491</span>Glanów Granica (2)</a>
+<a class="stop" href="../rozklady/101/2481-zarnowiec.html"><span class="stop-id">2481</span>Glanów Dwór (1)</a>
+<a class="stop" href="../rozklady/101/2493-zarnowiec.html"><span class="stop-id">2493</span>Glanów Rynek (2)</a>
+<a class="stop" href="../rozklady/101/2494-zarnowiec.html"><span class="stop-id">2494</span>Glanów Parcele (2)</a>
+<a class="stop" href="../rozklady/101/2495-zarnowiec.html"><span class="stop-id">2495</span>Porąbka Granica (2)</a>
+<a class="stop" href="../rozklady/101/0306-zarnowiec.html"><span class="stop-id">0306</span>Porąbka (1)</a>
+<a class="stop" href="../rozklady/101/0307-zarnowiec.html"><span class="stop-id">0307</span>Porąbka Studnia (2)</a>
+<a class="stop" href="../rozklady/101/0308-zarnowiec.html"><span class="stop-id">0308</span>Porąbka Stara Wieś (1)</a>
+<a class="stop" href="../rozklady/101/0309-zarnowiec.html"><span class="stop-id">0309</span>Porąbka Parcela (2)</a>
+<div class="zone zone-wolbrom">STREFA WOLBROM</div>
+<a class="stop" href="../rozklady/101/2365-zarnowiec.html"><span class="stop-id">2365</span>Budzyń (1)</a>
+<a class="stop" href="../rozklady/101/2367-zarnowiec.html"><span class="stop-id">2367</span>Poręba Górna Granica (2)</a>
+<a class="stop" href="../rozklady/101/2368-zarnowiec.html"><span class="stop-id">2368</span>Poręba Górna (2)</a>
+<a class="stop" href="../rozklady/101/2369-zarnowiec.html"><span class="stop-id">2369</span>Poręba Górna Sklep (2)</a>
+<a class="stop terminal" href="../rozklady/101/0020-zarnowiec.html"><span class="stop-id">0020</span>Zasępiec Remiza (3)</a>
+<a class="stop" href="../rozklady/101/2392-zarnowiec.html"><span class="stop-id">2392</span>Zasępiec Szwajcary (2)</a>
+<a class="stop" href="../rozklady/101/2390-zarnowiec.html"><span class="stop-id">2390</span>Chełm Świętojańska (2)</a>
+<a class="stop" href="../rozklady/101/0016-zarnowiec.html"><span class="stop-id">0016</span>Wolbrom Dworzec PKP (0)</a>
+<a class="stop" href="../rozklady/101/0017-zarnowiec.html"><span class="stop-id">0017</span>Wolbrom 1-ego Maja I (1)</a>
+<a class="stop" href="../rozklady/101/0018-zarnowiec.html"><span class="stop-id">0018</span>Wolbrom 1-ego Maja (1)</a>
+<a class="stop terminal" href="../rozklady/101/0001-zarnowiec.html"><span class="stop-id">0001</span>Wolbrom Nowa PKS (0)</a>
+<a class="stop" href="../rozklady/101/0002-zarnowiec.html"><span class="stop-id">0002</span>Wolbrom Osiedle Chrobrego (1)</a>
+<a class="stop" href="../rozklady/101/0019-zarnowiec.html"><span class="stop-id">0019</span>Wolbrom Ogródki Działkowe (1)</a>
+<a class="stop" href="../rozklady/101/0037-zarnowiec.html"><span class="stop-id">0037</span>Brzozówka Marianów (3)</a>
+<a class="stop" href="../rozklady/101/0038-zarnowiec.html"><span class="stop-id">0038</span>Wierzchowisko Marianów I (1)</a>
+<a class="stop" href="../rozklady/101/0039-zarnowiec.html"><span class="stop-id">0039</span>Wierzchowisko Marianów II (1)</a>
+<a class="stop" href="../rozklady/101/0040-zarnowiec.html"><span class="stop-id">0040</span>Jeżówka PKP (1)</a>
+<a class="stop" href="../rozklady/101/2859-zarnowiec.html"><span class="stop-id">2859</span>Jeżówka Powodnik (1)</a>
+<a class="stop" href="../rozklady/101/0715-zarnowiec.html"><span class="stop-id">0715</span>Jeżówka I (2)</a>
+<a class="stop" href="../rozklady/101/0716-zarnowiec.html"><span class="stop-id">0716</span>Jeżówka Świetlica (2)</a>
+<a class="stop" href="../rozklady/101/0717-zarnowiec.html"><span class="stop-id">0717</span>Jeżówka Stara Wieś I (2)</a>
+<a class="stop" href="../rozklady/101/0718-zarnowiec.html"><span class="stop-id">0718</span>Jeżówka Stara Wieś II (1)</a>
+<a class="stop" href="../rozklady/101/2359-zarnowiec.html"><span class="stop-id">2359</span>Jeżówka Sklep (2)</a>
+<a class="stop" href="../rozklady/101/2398-zarnowiec.html"><span class="stop-id">2398</span>Jeżówka Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/101/2399-zarnowiec.html"><span class="stop-id">2399</span>Jeżówka Kortne Doły (2)</a>
+<a class="stop" href="../rozklady/101/2395-zarnowiec.html"><span class="stop-id">2395</span>Jeżówka Kopaniny (1)</a>
+<div class="zone zone-zarnowiec">STREFA ŻARNOWIEC</div>
+<a class="stop" href="../rozklady/101/2830-zarnowiec.html"><span class="stop-id">2830</span>Chlina Górna Szkoła (2)</a>
+<a class="stop" href="../rozklady/101/2855-zarnowiec.html"><span class="stop-id">2855</span>Chlina Zamiechówka (2)</a>
+<a class="stop" href="../rozklady/101/2839-zarnowiec.html"><span class="stop-id">2839</span>Żarnowiec Kościuszki (1)</a>
+<a class="stop terminal" href="../rozklady/101/2840-zarnowiec.html"><span class="stop-id">2840</span>Żarnowiec Rynek (0)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Ściborzyce Most</h2>
+
+<div class="zone zone-zarnowiec">STREFA ŻARNOWIEC</div>
+<a class="stop terminal" href="../rozklady/101/2840-sciborzyce.html"><span class="stop-id">2840</span>Żarnowiec Rynek (0)</a>
+<a class="stop" href="../rozklady/101/2841-sciborzyce.html"><span class="stop-id">2841</span>Żarnowiec Kościuszki (2)</a>
+<a class="stop" href="../rozklady/101/2860-sciborzyce.html"><span class="stop-id">2860</span>Chlina Zamiechówka (1)</a>
+<a class="stop" href="../rozklady/101/2829-sciborzyce.html"><span class="stop-id">2829</span>Chlina Górna Szkoła (1)</a>
+<div class="zone zone-wolbrom">STREFA WOLBROM</div>
+<a class="stop" href="../rozklady/101/2400-sciborzyce.html"><span class="stop-id">2400</span>Jeżówka Kopaniny (2)</a>
+<a class="stop" href="../rozklady/101/2396-sciborzyce.html"><span class="stop-id">2396</span>Jeżówka Kortne Doły (1)</a>
+<a class="stop" href="../rozklady/101/2397-sciborzyce.html"><span class="stop-id">2397</span>Jeżówka Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/101/2358-sciborzyce.html"><span class="stop-id">2358</span>Jeżówka Sklep (1)</a>
+<a class="stop" href="../rozklady/101/0701-sciborzyce.html"><span class="stop-id">0701</span>Jeżówka Stara Wieś II (2)</a>
+<a class="stop" href="../rozklady/101/0702-sciborzyce.html"><span class="stop-id">0702</span>Jeżówka Stara Wieś I (1)</a>
+<a class="stop" href="../rozklady/101/0703-sciborzyce.html"><span class="stop-id">0703</span>Jeżówka Świetlica (1)</a>
+<a class="stop" href="../rozklady/101/0704-sciborzyce.html"><span class="stop-id">0704</span>Jeżówka I (1)</a>
+<a class="stop" href="../rozklady/101/2856-sciborzyce.html"><span class="stop-id">2856</span>Jeżówka Powodnik (2)</a>
+<a class="stop" href="../rozklady/101/0041-sciborzyce.html"><span class="stop-id">0041</span>Jeżówka PKP (2)</a>
+<a class="stop" href="../rozklady/101/0042-sciborzyce.html"><span class="stop-id">0042</span>Wierzchowisko Marianów II (2)</a>
+<a class="stop" href="../rozklady/101/0043-sciborzyce.html"><span class="stop-id">0043</span>Wierzchowisko Marianów I (2)</a>
+<a class="stop" href="../rozklady/101/0003-sciborzyce.html"><span class="stop-id">0003</span>Brzozówka (1)</a>
+<a class="stop" href="../rozklady/101/0019-sciborzyce.html"><span class="stop-id">0019</span>Wolbrom Ogródki Działkowe (1)</a>
+<a class="stop" href="../rozklady/101/0002-sciborzyce.html"><span class="stop-id">0002</span>Wolbrom Osiedle Chrobrego (1)</a>
+<a class="stop terminal" href="../rozklady/101/0001-sciborzyce.html"><span class="stop-id">0001</span>Wolbrom Nowa PKS (0)</a>
+<a class="stop" href="../rozklady/101/0029-sciborzyce.html"><span class="stop-id">0029</span>Wolbrom 1-ego Maja I (2)</a>
+<a class="stop" href="../rozklady/101/0016-sciborzyce.html"><span class="stop-id">0016</span>Wolbrom Dworzec PKP (0)</a>
+<a class="stop" href="../rozklady/101/0015-sciborzyce.html"><span class="stop-id">0015</span>Wolbrom Pod Lasem (1)</a>
+<a class="stop" href="../rozklady/101/2389-sciborzyce.html"><span class="stop-id">2389</span>Chełm Świętojańska (1)</a>
+<a class="stop" href="../rozklady/101/2391-sciborzyce.html"><span class="stop-id">2391</span>Zasępiec Szwajcary (1)</a>
+<a class="stop terminal" href="../rozklady/101/0020-sciborzyce.html"><span class="stop-id">0020</span>Zasępiec Remiza (3)</a>
+<a class="stop" href="../rozklady/101/2362-sciborzyce.html"><span class="stop-id">2362</span>Poręba Górna Sklep (1)</a>
+<a class="stop" href="../rozklady/101/2363-sciborzyce.html"><span class="stop-id">2363</span>Poręba Górna (1)</a>
+<a class="stop" href="../rozklady/101/2364-sciborzyce.html"><span class="stop-id">2364</span>Poręba Górna Granica (1)</a>
+<a class="stop" href="../rozklady/101/2366-sciborzyce.html"><span class="stop-id">2366</span>Budzyń (2)</a>
+<div class="zone zone-trzyciaz">STREFA TRZYCIĄŻ</div>
+<a class="stop" href="../rozklady/101/0259-sciborzyce.html"><span class="stop-id">0259</span>Porąbka Parcela (1)</a>
+<a class="stop" href="../rozklady/101/0260-sciborzyce.html"><span class="stop-id">0260</span>Porąbka Stara Wieś (2)</a>
+<a class="stop" href="../rozklady/101/0261-sciborzyce.html"><span class="stop-id">0261</span>Porąbka Studnia (1)</a>
+<a class="stop" href="../rozklady/101/0262-sciborzyce.html"><span class="stop-id">0262</span>Porąbka (2)</a>
+<a class="stop" href="../rozklady/101/2477-sciborzyce.html"><span class="stop-id">2477</span>Porąbka Granica (1)</a>
+<a class="stop" href="../rozklady/101/2478-sciborzyce.html"><span class="stop-id">2478</span>Glanów Parcele (1)</a>
+<a class="stop" href="../rozklady/101/2479-sciborzyce.html"><span class="stop-id">2479</span>Glanów Rynek (1)</a>
+<a class="stop" href="../rozklady/101/2480-sciborzyce.html"><span class="stop-id">2480</span>Glanów Sklep (1)</a>
+<a class="stop" href="../rozklady/101/2492-sciborzyce.html"><span class="stop-id">2492</span>Glanów Dwór (2)</a>
+<a class="stop" href="../rozklady/101/2482-sciborzyce.html"><span class="stop-id">2482</span>Glanów Granica (1)</a>
+<a class="stop" href="../rozklady/101/3277-sciborzyce.html"><span class="stop-id">3277</span>Imbramowice Pole (1)</a>
+<a class="stop" href="../rozklady/101/2483-sciborzyce.html"><span class="stop-id">2483</span>Imbramowice Górne (1)</a>
+<a class="stop" href="../rozklady/101/2489-sciborzyce.html"><span class="stop-id">2489</span>Imbramowice Cmentarz (2)</a>
+<a class="stop" href="../rozklady/101/2485-sciborzyce.html"><span class="stop-id">2485</span>Imbramowice Dolne (1)</a>
+<a class="stop" href="../rozklady/101/2487-sciborzyce.html"><span class="stop-id">2487</span>Małyszyce (2)</a>
+<a class="stop" href="../rozklady/101/0790-sciborzyce.html"><span class="stop-id">0790</span>Ściborzyce Granica (2)</a>
+<a class="stop terminal" href="../rozklady/101/0788-sciborzyce.html"><span class="stop-id">0788</span>Ściborzyce Most (2)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
