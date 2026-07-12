@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 102</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-chrzanow{
+    background:#a4c2f4;
+    color:#222;
+}
+
+.zone-babice-alwernia{
+    background:#dd7e6b;
+    color:#222;
+}
+
+.zone-libiaz{
+    background:#b6d7a8;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">102</div>
+
+<div class="route">
+Okradziejówka Pętla - Balin - Chrzanów Dworzec Autobusowy - Chrzanów Szpital - Rospontowa - Borowiec - (Zagórze) - Maniska - Żarki Zagórcze - (Libiąż Dworzec Autobusowy) - (Libiąż Kosówki Paprocia II)
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Żarki Zagórcze</h2>
+
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+<a class="stop terminal" href="../rozklady/102/1239-zarki.html"><span class="stop-id">1239</span>Okradziejówka Pętla (0)</a>
+<a class="stop" href="../rozklady/102/1240-zarki.html"><span class="stop-id">1240</span>Okradziejówka (1)</a>
+<a class="stop" href="../rozklady/102/1242-zarki.html"><span class="stop-id">1242</span>Balin Pańska Pawilon (2)</a>
+<a class="stop" href="../rozklady/102/1247-zarki.html"><span class="stop-id">1247</span>Balin Szkoła (2)</a>
+<a class="stop" href="../rozklady/102/1249-zarki.html"><span class="stop-id">1249</span>Balin Graniczny (2)</a>
+<a class="stop" href="../rozklady/102/1261-zarki.html"><span class="stop-id">1261</span>Balin Straż Pożarna (1)</a>
+<a class="stop" href="../rozklady/102/1251-zarki.html"><span class="stop-id">1251</span>Balin Przychodnia (2)</a>
+<a class="stop" href="../rozklady/102/1252-zarki.html"><span class="stop-id">1252</span>Balin Łąkowa (2)</a>
+<a class="stop" href="../rozklady/102/1254-zarki.html"><span class="stop-id">1254</span>Balin Warpie (2)</a>
+<a class="stop" href="../rozklady/102/1256-zarki.html"><span class="stop-id">1256</span>Balin Działki (1)</a>
+<a class="stop" href="../rozklady/102/0115-zarki.html"><span class="stop-id">0115</span>Chrzanów Plac Tysiąclecia (2)</a>
+<a class="stop terminal" href="../rozklady/102/0095-zarki.html"><span class="stop-id">0095</span>Chrzanów Dworzec Autobusowy (3)</a>
+<a class="stop terminal" href="../rozklady/102/0093-zarki.html"><span class="stop-id">0093</span>Chrzanów Szpital (2)</a>
+<a class="stop" href="../rozklady/102/0094-zarki.html"><span class="stop-id">0094</span>Chrzanów Szpitalna (1)</a>
+<a class="stop" href="../rozklady/102/1077-zarki.html"><span class="stop-id">1077</span>Chrzanów Kolejowa (2)</a>
+<a class="stop" href="../rozklady/102/1121-zarki.html"><span class="stop-id">1121</span>Chrzanów Rospontowa I (1)</a>
+<a class="stop" href="../rozklady/102/1119-zarki.html"><span class="stop-id">1119</span>Chrzanów Rospontowa II (1)</a>
+<a class="stop" href="../rozklady/102/1118-zarki.html"><span class="stop-id">1118</span>Chrzanów Borowiec I (1)</a>
+<a class="stop" href="../rozklady/102/1116-zarki.html"><span class="stop-id">1116</span>Chrzanów Borowiec II (1)</a>
+<div class="zone zone-babice-alwernia">STREFA BABICE-ALWERNIA</div>
+<a class="stop variant" href="../rozklady/102/1111-zarki.html"><span class="stop-id">1111</span>Zagórze Żelatowa (1)</a>
+<a class="stop variant" href="../rozklady/102/1109-zarki.html"><span class="stop-id">1109</span>Zagórze Przedszkole (Żelatowa II) (1)</a>
+<a class="stop variant" href="../rozklady/102/1104-zarki.html"><span class="stop-id">1104</span>Zagórze Kościół (1)</a>
+<a class="stop variant" href="../rozklady/102/1105-zarki.html"><span class="stop-id">1105</span>Zagórze Poczta (0)</a>
+<a class="stop variant" href="../rozklady/102/1106-zarki.html"><span class="stop-id">1106</span>Zagórze Piaski (2)</a>
+<a class="stop variant" href="../rozklady/102/1107-zarki.html"><span class="stop-id">1107</span>Zagórze Kościół (2)</a>
+<a class="stop variant" href="../rozklady/102/1102-zarki.html"><span class="stop-id">1102</span>Zagórze Wyrowiec II (Sklep) (2)</a>
+<a class="stop variant" href="../rozklady/102/1100-zarki.html"><span class="stop-id">1100</span>Zagórze Wyrowiec I (Sklep) (2)</a>
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+<a class="stop" href="../rozklady/102/1114-zarki.html"><span class="stop-id">1114</span>Chrzanów Borowiec III (2)</a>
+<div class="zone zone-babice-alwernia">STREFA BABICE-ALWERNIA</div>
+<a class="stop" href="../rozklady/102/1098-zarki.html"><span class="stop-id">1098</span>Maniska Las (2)</a>
+<a class="stop" href="../rozklady/102/1096-zarki.html"><span class="stop-id">1096</span>Maniska Skrzyżowanie (2)</a>
+<div class="zone zone-libiaz">STREFA LIBIĄŻ</div>
+<a class="stop" href="../rozklady/102/1090-zarki.html"><span class="stop-id">1090</span>Żarki Młyn (2)</a>
+<a class="stop" href="../rozklady/102/1087-zarki.html"><span class="stop-id">1087</span>Żarki Szkoła (1)</a>
+<a class="stop" href="../rozklady/102/1092-zarki.html"><span class="stop-id">1092</span>Żarki Zagórcze Astronautów (2)</a>
+<a class="stop terminal" href="../rozklady/102/1093-zarki.html"><span class="stop-id">1093</span>Żarki Zagórcze (1)</a>
+<a class="stop variant" href="../rozklady/102/1173-zarki.html"><span class="stop-id">1173</span>Libiąż Jaworek (2)</a>
+<a class="stop variant" href="../rozklady/102/2761-zarki.html"><span class="stop-id">2761</span>Libiąż Myśliwska (1)</a>
+<a class="stop variant" href="../rozklady/102/1176-zarki.html"><span class="stop-id">1176</span>Libiąż Rondo Siedmiu Dróg (2)</a>
+<a class="stop variant terminal" href="../rozklady/102/0104-zarki.html"><span class="stop-id">0104</span>Libiąż Dworzec Autobusowy (1)</a>
+<a class="stop variant" href="../rozklady/102/0362-zarki.html"><span class="stop-id">0362</span>Libiąż Urząd Miejski (2)</a>
+<a class="stop variant" href="../rozklady/102/0363-zarki.html"><span class="stop-id">0363</span>Libiąż Oświęcimska Kościół (2)</a>
+<a class="stop variant" href="../rozklady/102/1186-zarki.html"><span class="stop-id">1186</span>Libiąż Spokojna Cmentarz (2)</a>
+<a class="stop variant" href="../rozklady/102/1263-zarki.html"><span class="stop-id">1263</span>Libiąż Spokojna (1)</a>
+<a class="stop variant" href="../rozklady/102/1266-zarki.html"><span class="stop-id">1266</span>Libiąż Jazdówka Spółdzielnia (1)</a>
+<a class="stop variant" href="../rozklady/102/1268-zarki.html"><span class="stop-id">1268</span>Libiąż Jazdówka (2)</a>
+<a class="stop variant" href="../rozklady/102/1270-zarki.html"><span class="stop-id">1270</span>Libiąż Kosówki (2)</a>
+<a class="stop variant terminal" href="../rozklady/102/1271-zarki.html"><span class="stop-id">1271</span>Libiąż Kosówki Paprocia II (1)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Okradziejówka Pętla</h2>
+
+<div class="zone zone-libiaz">STREFA LIBIĄŻ</div>
+<a class="stop variant terminal" href="../rozklady/102/1271-okradziejowka.html"><span class="stop-id">1271</span>Libiąż Kosówki Paprocia II (1)</a>
+<a class="stop variant" href="../rozklady/102/1272-okradziejowka.html"><span class="stop-id">1272</span>Libiąż Kosówki Thermoplast (1)</a>
+<a class="stop variant" href="../rozklady/102/1273-okradziejowka.html"><span class="stop-id">1273</span>Libiąż Kosówki Wilcza (1)</a>
+<a class="stop variant" href="../rozklady/102/1269-okradziejowka.html"><span class="stop-id">1269</span>Libiąż Kosówki (1)</a>
+<a class="stop variant" href="../rozklady/102/1267-okradziejowka.html"><span class="stop-id">1267</span>Libiąż Jazdówka (1)</a>
+<a class="stop variant" href="../rozklady/102/1265-okradziejowka.html"><span class="stop-id">1265</span>Libiąż Jazdówka Spółdzielnia (2)</a>
+<a class="stop variant" href="../rozklady/102/1264-okradziejowka.html"><span class="stop-id">1264</span>Libiąż Spokojna (2)</a>
+<a class="stop variant" href="../rozklady/102/1187-okradziejowka.html"><span class="stop-id">1187</span>Libiąż Spokojna Cmentarz (1)</a>
+<a class="stop variant" href="../rozklady/102/0392-okradziejowka.html"><span class="stop-id">0392</span>Libiąż Oświęcimska Kościół (1)</a>
+<a class="stop variant" href="../rozklady/102/0393-okradziejowka.html"><span class="stop-id">0393</span>Libiąż Urząd Miejski (1)</a>
+<a class="stop variant terminal" href="../rozklady/102/0104-okradziejowka.html"><span class="stop-id">0104</span>Libiąż Dworzec Autobusowy (1)</a>
+<a class="stop variant" href="../rozklady/102/1177-okradziejowka.html"><span class="stop-id">1177</span>Libiąż Rondo Siedmiu Dróg (1)</a>
+<a class="stop variant" href="../rozklady/102/1175-okradziejowka.html"><span class="stop-id">1175</span>Libiąż Myśliwska (2)</a>
+<a class="stop variant" href="../rozklady/102/1174-okradziejowka.html"><span class="stop-id">1174</span>Libiąż Jaworek (1)</a>
+<a class="stop terminal" href="../rozklady/102/1094-okradziejowka.html"><span class="stop-id">1094</span>Żarki Zagórcze (2)</a>
+<a class="stop" href="../rozklady/102/1091-okradziejowka.html"><span class="stop-id">1091</span>Żarki Zagórcze Astronautów (1)</a>
+<a class="stop" href="../rozklady/102/1088-okradziejowka.html"><span class="stop-id">1088</span>Żarki Centrum (1)</a>
+<a class="stop" href="../rozklady/102/1089-okradziejowka.html"><span class="stop-id">1089</span>Żarki Młyn (1)</a>
+<div class="zone zone-babice-alwernia">STREFA BABICE-ALWERNIA</div>
+<a class="stop" href="../rozklady/102/1095-okradziejowka.html"><span class="stop-id">1095</span>Maniska Skrzyżowanie (1)</a>
+<a class="stop variant" href="../rozklady/102/1099-okradziejowka.html"><span class="stop-id">1099</span>Zagórze Wyrowiec I (Sklep) (1)</a>
+<a class="stop variant" href="../rozklady/102/1101-okradziejowka.html"><span class="stop-id">1101</span>Zagórze Wyrowiec II (Sklep) (1)</a>
+<a class="stop variant" href="../rozklady/102/1104-okradziejowka.html"><span class="stop-id">1104</span>Zagórze Kościół (1)</a>
+<a class="stop variant" href="../rozklady/102/1105-okradziejowka.html"><span class="stop-id">1105</span>Zagórze Poczta (0)</a>
+<a class="stop variant" href="../rozklady/102/1106-okradziejowka.html"><span class="stop-id">1106</span>Zagórze Piaski (2)</a>
+<a class="stop variant" href="../rozklady/102/1107-okradziejowka.html"><span class="stop-id">1107</span>Zagórze Kościół (2)</a>
+<a class="stop variant" href="../rozklady/102/1103-okradziejowka.html"><span class="stop-id">1103</span>Zagórze Szkoła (0)</a>
+<a class="stop variant" href="../rozklady/102/1110-okradziejowka.html"><span class="stop-id">1110</span>Zagórze Przedszkole (Żelatowa II) (2)</a>
+<a class="stop variant" href="../rozklady/102/1112-okradziejowka.html"><span class="stop-id">1112</span>Zagórze Żelatowa (2)</a>
+<a class="stop" href="../rozklady/102/1097-okradziejowka.html"><span class="stop-id">1097</span>Maniska Las (1)</a>
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+<a class="stop" href="../rozklady/102/1113-okradziejowka.html"><span class="stop-id">1113</span>Chrzanów Borowiec III (1)</a>
+<a class="stop" href="../rozklady/102/1115-okradziejowka.html"><span class="stop-id">1115</span>Chrzanów Borowiec II (2)</a>
+<a class="stop" href="../rozklady/102/1117-okradziejowka.html"><span class="stop-id">1117</span>Chrzanów Borowiec I (2)</a>
+<a class="stop" href="../rozklady/102/1120-okradziejowka.html"><span class="stop-id">1120</span>Chrzanów Rospontowa II (2)</a>
+<a class="stop" href="../rozklady/102/1122-okradziejowka.html"><span class="stop-id">1122</span>Chrzanów Rospontowa I (2)</a>
+<a class="stop" href="../rozklady/102/1078-okradziejowka.html"><span class="stop-id">1078</span>Chrzanów Kolejowa (1)</a>
+<a class="stop" href="../rozklady/102/0333-okradziejowka.html"><span class="stop-id">0333</span>Chrzanów Podwale (1)</a>
+<a class="stop" href="../rozklady/102/0117-okradziejowka.html"><span class="stop-id">0117</span>Chrzanów Szpitalna (3)</a>
+<a class="stop" href="../rozklady/102/0118-okradziejowka.html"><span class="stop-id">0118</span>Chrzanów Szpital (1)</a>
+<a class="stop terminal" href="../rozklady/102/0684-okradziejowka.html"><span class="stop-id">0684</span>Chrzanów Dworzec Autobusowy (2)</a>
+<a class="stop" href="../rozklady/102/0096-okradziejowka.html"><span class="stop-id">0096</span>Chrzanów Plac Tysiąclecia (3)</a>
+<a class="stop" href="../rozklady/102/0097-okradziejowka.html"><span class="stop-id">0097</span>Chrzanów Park (1)</a>
+<a class="stop" href="../rozklady/102/0114-okradziejowka.html"><span class="stop-id">0114</span>Chrzanów Księdza Skorupki (0)</a>
+<a class="stop" href="../rozklady/102/1255-okradziejowka.html"><span class="stop-id">1255</span>Balin Działki (2)</a>
+<a class="stop" href="../rozklady/102/1257-okradziejowka.html"><span class="stop-id">1257</span>Balin Warpie (1)</a>
+<a class="stop" href="../rozklady/102/1259-okradziejowka.html"><span class="stop-id">1259</span>Balin Łąkowa (1)</a>
+<a class="stop" href="../rozklady/102/1260-okradziejowka.html"><span class="stop-id">1260</span>Balin Przychodnia (1)</a>
+<a class="stop" href="../rozklady/102/1250-okradziejowka.html"><span class="stop-id">1250</span>Balin Straż Pożarna (2)</a>
+<a class="stop" href="../rozklady/102/1262-okradziejowka.html"><span class="stop-id">1262</span>Balin Graniczny (1)</a>
+<a class="stop" href="../rozklady/102/1246-okradziejowka.html"><span class="stop-id">1246</span>Balin Szkoła (1)</a>
+<a class="stop" href="../rozklady/102/1241-okradziejowka.html"><span class="stop-id">1241</span>Balin Pańska Pawilon (1)</a>
+<a class="stop" href="../rozklady/102/1243-okradziejowka.html"><span class="stop-id">1243</span>Okradziejówka (2)</a>
+<a class="stop terminal" href="../rozklady/102/1239-okradziejowka.html"><span class="stop-id">1239</span>Okradziejówka Pętla (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
