@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 103</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-olkusz{
+    background:#ffe599;
+    color:#222;
+}
+
+.zone-jaworzno{
+    background:#ead1dc;
+    color:#222;
+}
+
+.zone-bukowno{
+    background:#93c47d;
+    color:#222;
+}
+
+.zone-boleslaw{
+    background:#cccccc;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">103</div>
+
+<div class="route">
+(Osiek Pętla) - Olkusz Dworzec PKS - Bolesław - Krążek - Bukowno - Szczakowa - Góra Piasku - Warpie - Jaworzno Podłęże Osiedle
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Jaworzno Podłęże Osiedle</h2>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+<a class="stop variant terminal" href="../rozklady/103/2054-jaworzno.html"><span class="stop-id">2054</span>Osiek Pętla (0)</a>
+<a class="stop variant" href="../rozklady/103/2889-jaworzno.html"><span class="stop-id">2889</span>Osiek Leśniczówka (2)</a>
+<a class="stop variant" href="../rozklady/103/2053-jaworzno.html"><span class="stop-id">2053</span>Osiek Leśna (2)</a>
+<a class="stop variant" href="../rozklady/103/2052-jaworzno.html"><span class="stop-id">2052</span>Osiek Stara Pętla (2)</a>
+<a class="stop variant" href="../rozklady/103/2057-jaworzno.html"><span class="stop-id">2057</span>Osiek Zabudowanie (1)</a>
+<a class="stop variant" href="../rozklady/103/2050-jaworzno.html"><span class="stop-id">2050</span>Osiek Wieś (2)</a>
+<a class="stop variant" href="../rozklady/103/2059-jaworzno.html"><span class="stop-id">2059</span>Osiek Sklep (1)</a>
+<a class="stop variant" href="../rozklady/103/2048-jaworzno.html"><span class="stop-id">2048</span>Osiek Szkoła (2)</a>
+<a class="stop variant" href="../rozklady/103/2047-jaworzno.html"><span class="stop-id">2047</span>Osiek Kościół (1)</a>
+<a class="stop variant" href="../rozklady/103/2046-jaworzno.html"><span class="stop-id">2046</span>Osiek Działy (2)</a>
+<a class="stop variant" href="../rozklady/103/2062-jaworzno.html"><span class="stop-id">2062</span>Osiek (1)</a>
+<a class="stop variant" href="../rozklady/103/2044-jaworzno.html"><span class="stop-id">2044</span>Osiek Skrzyżowanie (2)</a>
+<a class="stop variant" href="../rozklady/103/2064-jaworzno.html"><span class="stop-id">2064</span>Osiek Las (1)</a>
+<a class="stop variant" href="../rozklady/103/0538-jaworzno.html"><span class="stop-id">0538</span>Olkusz Owent (1)</a>
+<a class="stop variant" href="../rozklady/103/0225-jaworzno.html"><span class="stop-id">0225</span>Olkusz Aleja Tysiąclecia (2)</a>
+<a class="stop variant" href="../rozklady/103/0226-jaworzno.html"><span class="stop-id">0226</span>Olkusz Wiadukt (2)</a>
+<a class="stop variant" href="../rozklady/103/0227-jaworzno.html"><span class="stop-id">0227</span>Olkusz Dworzec PKP (2)</a>
+<a class="stop terminal" href="../rozklady/103/0200-jaworzno.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
+<a class="stop" href="../rozklady/103/0228-jaworzno.html"><span class="stop-id">0228</span>Olkusz Skarbek (1)</a>
+<a class="stop" href="../rozklady/103/0238-jaworzno.html"><span class="stop-id">0238</span>Olkusz Supersam (2)</a>
+<a class="stop" href="../rozklady/103/0239-jaworzno.html"><span class="stop-id">0239</span>Olkusz Stacja Paliw (2)</a>
+<a class="stop" href="../rozklady/103/0240-jaworzno.html"><span class="stop-id">0240</span>Olkusz Stary (1)</a>
+<div class="zone zone-boleslaw">STREFA BOLESŁAW</div>
+<a class="stop" href="../rozklady/103/0241-jaworzno.html"><span class="stop-id">0241</span>Bolesław Osadowa (1)</a>
+<a class="stop" href="../rozklady/103/0242-jaworzno.html"><span class="stop-id">0242</span>Bolesław Dąbrówka (2)</a>
+<a class="stop" href="../rozklady/103/0243-jaworzno.html"><span class="stop-id">0243</span>Bolesław Centrum (1)</a>
+<a class="stop" href="../rozklady/103/0244-jaworzno.html"><span class="stop-id">0244</span>Bolesław Szkoła (1)</a>
+<a class="stop" href="../rozklady/103/0245-jaworzno.html"><span class="stop-id">0245</span>Bolesław Cmentarz (2)</a>
+<a class="stop" href="../rozklady/103/0246-jaworzno.html"><span class="stop-id">0246</span>Krążek (2)</a>
+<div class="zone zone-bukowno">STREFA BUKOWNO</div>
+<a class="stop" href="../rozklady/103/0247-jaworzno.html"><span class="stop-id">0247</span>Bukowno Diana (2)</a>
+<a class="stop" href="../rozklady/103/0248-jaworzno.html"><span class="stop-id">0248</span>Bukowno ZGH (1)</a>
+<a class="stop" href="../rozklady/103/0249-jaworzno.html"><span class="stop-id">0249</span>Bukowno Skałka (2)</a>
+<a class="stop" href="../rozklady/103/0146-jaworzno.html"><span class="stop-id">0146</span>Bukowno Urząd Miasta (2)</a>
+<a class="stop" href="../rozklady/103/0147-jaworzno.html"><span class="stop-id">0147</span>Bukowno Dworzec PKP (0)</a>
+<a class="stop" href="../rozklady/103/0148-jaworzno.html"><span class="stop-id">0148</span>Bukowno Urząd Miasta (1)</a>
+<a class="stop" href="../rozklady/103/0250-jaworzno.html"><span class="stop-id">0250</span>Bukowno Nowa (1)</a>
+<a class="stop" href="../rozklady/103/0251-jaworzno.html"><span class="stop-id">0251</span>Bukowno Nowa OSP (2)</a>
+<div class="zone zone-jaworzno">STREFA JAWORZNO</div>
+<a class="stop" href="../rozklady/103/2727-jaworzno.html"><span class="stop-id">2727</span>Jaworzno Bukowska (2)</a>
+<a class="stop" href="../rozklady/103/2697-jaworzno.html"><span class="stop-id">2697</span>Jaworzno Szczakowa Dworzec PKP (0)</a>
+<a class="stop" href="../rozklady/103/2698-jaworzno.html"><span class="stop-id">2698</span>Jaworzno Szczakowa Przychodnia (1)</a>
+<a class="stop" href="../rozklady/103/2695-jaworzno.html"><span class="stop-id">2695</span>Jaworzno Szczakowa Osiedle Gagarina (2)</a>
+<a class="stop" href="../rozklady/103/2694-jaworzno.html"><span class="stop-id">2694</span>Jaworzno Szczakowa Polna (2)</a>
+<a class="stop" href="../rozklady/103/2701-jaworzno.html"><span class="stop-id">2701</span>Jaworzno Góra Piasku (1)</a>
+<a class="stop" href="../rozklady/103/2692-jaworzno.html"><span class="stop-id">2692</span>Jaworzno Góra Piasku Kaliska (2)</a>
+<a class="stop" href="../rozklady/103/2691-jaworzno.html"><span class="stop-id">2691</span>Jaworzno Geosfera (2)</a>
+<a class="stop" href="../rozklady/103/2704-jaworzno.html"><span class="stop-id">2704</span>Jaworzno Warpie (1)</a>
+<a class="stop" href="../rozklady/103/2689-jaworzno.html"><span class="stop-id">2689</span>Jaworzno Warpie Galmany (2)</a>
+<a class="stop" href="../rozklady/103/2687-jaworzno.html"><span class="stop-id">2687</span>Jaworzno Warpie Wodociągi (2)</a>
+<a class="stop" href="../rozklady/103/2683-jaworzno.html"><span class="stop-id">2683</span>Jaworzno Obrońców Poczty Gdańskiej (1)</a>
+<a class="stop" href="../rozklady/103/2684-jaworzno.html"><span class="stop-id">2684</span>Jaworzno Biblioteka (1)</a>
+<a class="stop" href="../rozklady/103/2685-jaworzno.html"><span class="stop-id">2685</span>Jaworzno Zielona (1)</a>
+<a class="stop" href="../rozklady/103/2681-jaworzno.html"><span class="stop-id">2681</span>Jaworzno Centrum (2)</a>
+<a class="stop" href="../rozklady/103/2678-jaworzno.html"><span class="stop-id">2678</span>Jaworzno Moniuszki (1)</a>
+<a class="stop" href="../rozklady/103/2676-jaworzno.html"><span class="stop-id">2676</span>Jaworzno Podłęże Szkoła (1)</a>
+<a class="stop" href="../rozklady/103/2675-jaworzno.html"><span class="stop-id">2675</span>Jaworzno Podłęże Kościół (1)</a>
+<a class="stop terminal" href="../rozklady/103/2674-jaworzno.html"><span class="stop-id">2674</span>Jaworzno Podłęże Osiedle (0)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Olkusz Dworzec PKS</h2>
+
+<div class="zone zone-jaworzno">STREFA JAWORZNO</div>
+<a class="stop terminal" href="../rozklady/103/2674-olkusz.html"><span class="stop-id">2674</span>Jaworzno Podłęże Osiedle (0)</a>
+<a class="stop" href="../rozklady/103/3203-olkusz.html"><span class="stop-id">3203</span>Jaworzno Podłęże Kościół (2)</a>
+<a class="stop" href="../rozklady/103/2677-olkusz.html"><span class="stop-id">2677</span>Jaworzno Podłęże Szkoła (2)</a>
+<a class="stop" href="../rozklady/103/2679-olkusz.html"><span class="stop-id">2679</span>Jaworzno Moniuszki (2)</a>
+<a class="stop" href="../rozklady/103/2680-olkusz.html"><span class="stop-id">2680</span>Jaworzno Centrum (1)</a>
+<a class="stop" href="../rozklady/103/2682-olkusz.html"><span class="stop-id">2682</span>Jaworzno Rynek (1)</a>
+<a class="stop" href="../rozklady/103/2686-olkusz.html"><span class="stop-id">2686</span>Jaworzno Warpie Wodociągi (1)</a>
+<a class="stop" href="../rozklady/103/2688-olkusz.html"><span class="stop-id">2688</span>Jaworzno Warpie Galmany (1)</a>
+<a class="stop" href="../rozklady/103/2690-olkusz.html"><span class="stop-id">2690</span>Jaworzno Warpie (2)</a>
+<a class="stop" href="../rozklady/103/2703-olkusz.html"><span class="stop-id">2703</span>Jaworzno Geosfera (1)</a>
+<a class="stop" href="../rozklady/103/2702-olkusz.html"><span class="stop-id">2702</span>Jaworzno Góra Piasku Kaliska (1)</a>
+<a class="stop" href="../rozklady/103/2693-olkusz.html"><span class="stop-id">2693</span>Jaworzno Góra Piasku (2)</a>
+<a class="stop" href="../rozklady/103/2700-olkusz.html"><span class="stop-id">2700</span>Jaworzno Szczakowa Polna (1)</a>
+<a class="stop" href="../rozklady/103/2699-olkusz.html"><span class="stop-id">2699</span>Jaworzno Szczakowa Osiedle Gagarina (1)</a>
+<a class="stop" href="../rozklady/103/2696-olkusz.html"><span class="stop-id">2696</span>Jaworzno Szczakowa Przychodnia (2)</a>
+<a class="stop" href="../rozklady/103/2697-olkusz.html"><span class="stop-id">2697</span>Jaworzno Szczakowa Dworzec PKP (0)</a>
+<a class="stop" href="../rozklady/103/2705-olkusz.html"><span class="stop-id">2705</span>Jaworzno Bukowska (1)</a>
+<div class="zone zone-bukowno">STREFA BUKOWNO</div>
+<a class="stop" href="../rozklady/103/0144-olkusz.html"><span class="stop-id">0144</span>Bukowno Nowa OSP (1)</a>
+<a class="stop" href="../rozklady/103/0145-olkusz.html"><span class="stop-id">0145</span>Bukowno Nowa (2)</a>
+<a class="stop" href="../rozklady/103/0146-olkusz.html"><span class="stop-id">0146</span>Bukowno Urząd Miasta (2)</a>
+<a class="stop" href="../rozklady/103/0147-olkusz.html"><span class="stop-id">0147</span>Bukowno Dworzec PKP (0)</a>
+<a class="stop" href="../rozklady/103/0148-olkusz.html"><span class="stop-id">0148</span>Bukowno Urząd Miasta (1)</a>
+<a class="stop" href="../rozklady/103/0149-olkusz.html"><span class="stop-id">0149</span>Bukowno Skałka (1)</a>
+<a class="stop" href="../rozklady/103/0150-olkusz.html"><span class="stop-id">0150</span>Bukowno ZGH (2)</a>
+<a class="stop" href="../rozklady/103/0151-olkusz.html"><span class="stop-id">0151</span>Bukowno Diana (1)</a>
+<div class="zone zone-boleslaw">STREFA BOLESŁAW</div>
+<a class="stop" href="../rozklady/103/0152-olkusz.html"><span class="stop-id">0152</span>Krążek Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/103/0153-olkusz.html"><span class="stop-id">0153</span>Bolesław Cmentarz (1)</a>
+<a class="stop" href="../rozklady/103/0154-olkusz.html"><span class="stop-id">0154</span>Bolesław Szkoła (2)</a>
+<a class="stop" href="../rozklady/103/0155-olkusz.html"><span class="stop-id">0155</span>Bolesław Centrum (2)</a>
+<a class="stop" href="../rozklady/103/0165-olkusz.html"><span class="stop-id">0165</span>Bolesław Dąbrówka (1)</a>
+<a class="stop" href="../rozklady/103/0171-olkusz.html"><span class="stop-id">0171</span>Bolesław Osadowa (2)</a>
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+<a class="stop" href="../rozklady/103/0172-olkusz.html"><span class="stop-id">0172</span>Olkusz Stary (2)</a>
+<a class="stop" href="../rozklady/103/0173-olkusz.html"><span class="stop-id">0173</span>Olkusz Stacja Paliw (1)</a>
+<a class="stop" href="../rozklady/103/0174-olkusz.html"><span class="stop-id">0174</span>Olkusz Supersam (0)</a>
+<a class="stop" href="../rozklady/103/0199-olkusz.html"><span class="stop-id">0199</span>Olkusz Skarbek (2)</a>
+<a class="stop terminal" href="../rozklady/103/0200-olkusz.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
+<a class="stop variant" href="../rozklady/103/0201-olkusz.html"><span class="stop-id">0201</span>Olkusz Dworzec PKP (1)</a>
+<a class="stop variant" href="../rozklady/103/0202-olkusz.html"><span class="stop-id">0202</span>Olkusz Wiadukt (1)</a>
+<a class="stop variant" href="../rozklady/103/0492-olkusz.html"><span class="stop-id">0492</span>Olkusz Baza PKS (1)</a>
+<a class="stop variant" href="../rozklady/103/0493-olkusz.html"><span class="stop-id">0493</span>Olkusz Owent (2)</a>
+<a class="stop variant" href="../rozklady/103/2028-olkusz.html"><span class="stop-id">2028</span>Olkusz Osiecka (0)</a>
+<a class="stop variant" href="../rozklady/103/2922-olkusz.html"><span class="stop-id">2922</span>Olkusz Osiecka Plac Zabaw (1)</a>
+<a class="stop variant" href="../rozklady/103/2043-olkusz.html"><span class="stop-id">2043</span>Osiek Las (2)</a>
+<a class="stop variant" href="../rozklady/103/2063-olkusz.html"><span class="stop-id">2063</span>Osiek Skrzyżowanie (1)</a>
+<a class="stop variant" href="../rozklady/103/2045-olkusz.html"><span class="stop-id">2045</span>Osiek (2)</a>
+<a class="stop variant" href="../rozklady/103/2061-olkusz.html"><span class="stop-id">2061</span>Osiek Działy (1)</a>
+<a class="stop variant" href="../rozklady/103/2060-olkusz.html"><span class="stop-id">2060</span>Osiek Szkoła (1)</a>
+<a class="stop variant" href="../rozklady/103/2049-olkusz.html"><span class="stop-id">2049</span>Osiek Sklep (2)</a>
+<a class="stop variant" href="../rozklady/103/2058-olkusz.html"><span class="stop-id">2058</span>Osiek Wieś (1)</a>
+<a class="stop variant" href="../rozklady/103/2051-olkusz.html"><span class="stop-id">2051</span>Osiek Zabudowanie (2)</a>
+<a class="stop variant" href="../rozklady/103/2056-olkusz.html"><span class="stop-id">2056</span>Osiek Stara Pętla (1)</a>
+<a class="stop variant" href="../rozklady/103/2055-olkusz.html"><span class="stop-id">2055</span>Osiek Leśna (1)</a>
+<a class="stop variant" href="../rozklady/103/2886-olkusz.html"><span class="stop-id">2886</span>Osiek Leśniczówka (1)</a>
+<a class="stop variant terminal" href="../rozklady/103/2054-olkusz.html"><span class="stop-id">2054</span>Osiek Pętla (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
