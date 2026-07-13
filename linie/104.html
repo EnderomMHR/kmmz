@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 104</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-wolbrom{
+    background:#2a8be8;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">104</div>
+
+<div class="route">
+Strzegowa Remiza - (Kąpiołki) - (Kąpiele Wielkie) - Dłużec - Lgota Wolbromska - Wolbrom Nowa PKS
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Wolbrom Nowa PKS</h2>
+
+<div class="zone zone-wolbrom">STREFA WOLBROM</div>
+<a class="stop terminal" href="../rozklady/104/2370-wolbrom.html"><span class="stop-id">2370</span>Strzegowa Remiza (2)</a>
+<a class="stop variant" href="../rozklady/104/2350-wolbrom.html"><span class="stop-id">2350</span>Kąpiołki (2)</a>
+<a class="stop variant" href="../rozklady/104/2354-wolbrom.html"><span class="stop-id">2354</span>Kąpiele Wielkie (2)</a>
+<a class="stop variant" href="../rozklady/104/2346-wolbrom.html"><span class="stop-id">2346</span>Poręba Dzierżna Remiza (2)</a>
+<a class="stop variant" href="../rozklady/104/2336-wolbrom.html"><span class="stop-id">2336</span>Kąpiele Wielkie Skrzyżowanie (1)</a>
+<a class="stop variant" href="../rozklady/104/2352-wolbrom.html"><span class="stop-id">2352</span>Kąpiele Wielkie Sarnie Doły (2)</a>
+<a class="stop variant" href="../rozklady/104/2351-wolbrom.html"><span class="stop-id">2351</span>Kąpiele Wielkie Domiarki (2)</a>
+<a class="stop" href="../rozklady/104/2424-wolbrom.html"><span class="stop-id">2424</span>Strzegowa Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/104/2425-wolbrom.html"><span class="stop-id">2425</span>Strzegowa Okupniki (1)</a>
+<a class="stop" href="../rozklady/104/2376-wolbrom.html"><span class="stop-id">2376</span>Kąpiele Wielkie Granica (2)</a>
+<a class="stop" href="../rozklady/104/2372-wolbrom.html"><span class="stop-id">2372</span>Dłużec Szkoła (1)</a>
+<a class="stop" href="../rozklady/104/2299-wolbrom.html"><span class="stop-id">2299</span>Dłużec Ośrodek Zdrowia (2)</a>
+<a class="stop" href="../rozklady/104/2907-wolbrom.html"><span class="stop-id">2907</span>Dłużec (1)</a>
+<a class="stop" href="../rozklady/104/2330-wolbrom.html"><span class="stop-id">2330</span>Dłużec Kościół (1)</a>
+<a class="stop" href="../rozklady/104/2314-wolbrom.html"><span class="stop-id">2314</span>Dłużec Rędziny (2)</a>
+<a class="stop" href="../rozklady/104/2309-wolbrom.html"><span class="stop-id">2309</span>Lgota Wolbromska Rędziny (2)</a>
+<a class="stop" href="../rozklady/104/2308-wolbrom.html"><span class="stop-id">2308</span>Lgota Wolbromska Las (2)</a>
+<a class="stop terminal" href="../rozklady/104/0001-wolbrom.html"><span class="stop-id">0001</span>Wolbrom Nowa PKS (0)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Strzegowa Remiza</h2>
+
+<div class="zone zone-wolbrom">STREFA WOLBROM</div>
+<a class="stop terminal" href="../rozklady/104/0001-strzegowa.html"><span class="stop-id">0001</span>Wolbrom Nowa PKS (0)</a>
+<a class="stop" href="../rozklady/104/2289-strzegowa.html"><span class="stop-id">2289</span>Lgota Wolbromska Las (1)</a>
+<a class="stop" href="../rozklady/104/2288-strzegowa.html"><span class="stop-id">2288</span>Lgota Wolbromska Rędziny (1)</a>
+<a class="stop" href="../rozklady/104/2329-strzegowa.html"><span class="stop-id">2329</span>Dłużec Rędziny (1)</a>
+<a class="stop" href="../rozklady/104/2313-strzegowa.html"><span class="stop-id">2313</span>Dłużec Kościół (2)</a>
+<a class="stop" href="../rozklady/104/2421-strzegowa.html"><span class="stop-id">2421</span>Dłużec Ośrodek Zdrowia (1)</a>
+<a class="stop" href="../rozklady/104/2375-strzegowa.html"><span class="stop-id">2375</span>Dłużec Szkoła (2)</a>
+<a class="stop variant" href="../rozklady/104/2338-strzegowa.html"><span class="stop-id">2338</span>Kąpiele Wielkie Domiarki (1)</a>
+<a class="stop variant" href="../rozklady/104/2337-strzegowa.html"><span class="stop-id">2337</span>Kąpiele Wielkie Sarnie Doły (1)</a>
+<a class="stop variant" href="../rozklady/104/2353-strzegowa.html"><span class="stop-id">2353</span>Kąpiele Wielkie Skrzyżowanie (2)</a>
+<a class="stop variant" href="../rozklady/104/2334-strzegowa.html"><span class="stop-id">2334</span>Kąpiele Wielkie Remiza (1)</a>
+<a class="stop variant" href="../rozklady/104/2335-strzegowa.html"><span class="stop-id">2335</span>Kąpiele Wielkie (1)</a>
+<a class="stop variant" href="../rozklady/104/2339-strzegowa.html"><span class="stop-id">2339</span>Kąpiołki (1)</a>
+<a class="stop" href="../rozklady/104/2371-strzegowa.html"><span class="stop-id">2371</span>Kąpiele Wielkie Granica (1)</a>
+<a class="stop" href="../rozklady/104/2423-strzegowa.html"><span class="stop-id">2423</span>Strzegowa Skrzyżowanie (1)</a>
+<a class="stop terminal" href="../rozklady/104/2370-strzegowa.html"><span class="stop-id">2370</span>Strzegowa Remiza (2)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
