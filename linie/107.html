@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 107</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-jaworzno{
+    background:#ffe599;
+    color:#222;
+}
+
+.zone-chelmek{
+    background:#93c47d;
+    color:#222;
+}
+  
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">107</div>
+
+<div class="route">
+Chełmek Pętla - Jeleń Dąb - Jeleń - Azot - Stara Huta - Jaworzno Podłęże Osiedle
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Jaworzno Podłęże Osiedle</h2>
+
+<div class="zone zone-chelmek">STREFA CHEŁMEK</div>
+<a class="stop terminal" href="../rozklady/107/0859-jaworzno.html"><span class="stop-id">0859</span>Chełmek Pętla (0)</a>
+<a class="stop" href="../rozklady/107/0860-jaworzno.html"><span class="stop-id">0860</span>Chełmek Osiedle (2)</a>
+<a class="stop" href="../rozklady/107/0856-jaworzno.html"><span class="stop-id">0856</span>Chełmek Reymonta (1)</a>
+<a class="stop" href="../rozklady/107/0857-jaworzno.html"><span class="stop-id">0857</span>Chełmek Kasprowicza (1)</a>
+<a class="stop" href="../rozklady/107/0373-jaworzno.html"><span class="stop-id">0373</span>Chełmek Osiedle DW780 (2)</a>
+<a class="stop" href="../rozklady/107/0374-jaworzno.html"><span class="stop-id">0374</span>Chełmek Policja (2)</a>
+<a class="stop" href="../rozklady/107/0375-jaworzno.html"><span class="stop-id">0375</span>Chełmek Remiza (1)</a>
+<a class="stop" href="../rozklady/107/0376-jaworzno.html"><span class="stop-id">0376</span>Chełmek Mickiewicza (2)</a>
+<a class="stop" href="../rozklady/107/0377-jaworzno.html"><span class="stop-id">0377</span>Chełmek Młyny (1)</a>
+<div class="zone zone-jaworzno">STREFA JAWORZNO</div>
+<a class="stop" href="../rozklady/107/2706-jaworzno.html"><span class="stop-id">2706</span>Jaworzno Jeleń Dąb Pętla (1)</a>
+<a class="stop" href="../rozklady/107/2707-jaworzno.html"><span class="stop-id">2707</span>Jaworzno Jeleń Dąb Kapliczka (1)</a>
+<a class="stop" href="../rozklady/107/2725-jaworzno.html"><span class="stop-id">2725</span>Jaworzno Jeleń Dąb Sklep (2)</a>
+<a class="stop" href="../rozklady/107/2709-jaworzno.html"><span class="stop-id">2709</span>Jaworzno Jeleń Dąb Leśniczówka (1)</a>
+<a class="stop" href="../rozklady/107/2723-jaworzno.html"><span class="stop-id">2723</span>Jaworzno Jeleń Park Przemysłowy (2)</a>
+<a class="stop" href="../rozklady/107/2721-jaworzno.html"><span class="stop-id">2721</span>Jaworzno Jeleń Piekarnia (2)</a>
+<a class="stop" href="../rozklady/107/2720-jaworzno.html"><span class="stop-id">2720</span>Jaworzno Jeleń Szkoła (2)</a>
+<a class="stop" href="../rozklady/107/2714-jaworzno.html"><span class="stop-id">2714</span>Jaworzno Jeleń Dom Kultury (1)</a>
+<a class="stop" href="../rozklady/107/2715-jaworzno.html"><span class="stop-id">2715</span>Jaworzno Jeleń Przedszkole (1)</a>
+<a class="stop" href="../rozklady/107/2716-jaworzno.html"><span class="stop-id">2716</span>Jaworzno Jeleń Rynek (1)</a>
+<a class="stop" href="../rozklady/107/2728-jaworzno.html"><span class="stop-id">2728</span>Jaworzno Jeleń Cmentarz (1)</a>
+<a class="stop" href="../rozklady/107/2730-jaworzno.html"><span class="stop-id">2730</span>Jaworzno Jeleń Lipinka (1)</a>
+<a class="stop" href="../rozklady/107/2732-jaworzno.html"><span class="stop-id">2732</span>Jaworzno Sobieski Pętla (0)</a>
+<a class="stop" href="../rozklady/107/2734-jaworzno.html"><span class="stop-id">2734</span>Jaworzno Szyb Sobieski (2)</a>
+<a class="stop" href="../rozklady/107/2735-jaworzno.html"><span class="stop-id">2735</span>Jaworzno Azot (1)</a>
+<a class="stop" href="../rozklady/107/2738-jaworzno.html"><span class="stop-id">2738</span>Jaworzno Organika (1)</a>
+<a class="stop" href="../rozklady/107/2740-jaworzno.html"><span class="stop-id">2740</span>Jaworzno Azot Osiedle (2)</a>
+<a class="stop" href="../rozklady/107/2742-jaworzno.html"><span class="stop-id">2742</span>Jaworzno Stara Huta Spacerowa (2)</a>
+<a class="stop" href="../rozklady/107/2743-jaworzno.html"><span class="stop-id">2743</span>Jaworzno Matejki Arkady (1)</a>
+<a class="stop" href="../rozklady/107/2745-jaworzno.html"><span class="stop-id">2745</span>Jaworzno Matejki (1)</a>
+<a class="stop" href="../rozklady/107/2681-jaworzno.html"><span class="stop-id">2681</span>Jaworzno Centrum (2)</a>
+<a class="stop" href="../rozklady/107/2678-jaworzno.html"><span class="stop-id">2678</span>Jaworzno Moniuszki (1)</a>
+<a class="stop" href="../rozklady/107/2676-jaworzno.html"><span class="stop-id">2676</span>Jaworzno Podłęże Szkoła (1)</a>
+<a class="stop" href="../rozklady/107/2675-jaworzno.html"><span class="stop-id">2675</span>Jaworzno Podłęże Kościół (1)</a>
+<a class="stop terminal" href="../rozklady/107/2674-jaworzno.html"><span class="stop-id">2674</span>Jaworzno Podłęże Osiedle (0)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Chełmek Pętla</h2>
+
+<div class="zone zone-jaworzno">STREFA JAWORZNO</div>
+<a class="stop terminal" href="../rozklady/107/2674-chelmek.html"><span class="stop-id">2674</span>Jaworzno Podłęże Osiedle (0)</a>
+<a class="stop" href="../rozklady/107/3203-chelmek.html"><span class="stop-id">3203</span>Jaworzno Podłęże Kościół (2)</a>
+<a class="stop" href="../rozklady/107/2677-chelmek.html"><span class="stop-id">2677</span>Jaworzno Podłęże Szkoła (2)</a>
+<a class="stop" href="../rozklady/107/2679-chelmek.html"><span class="stop-id">2679</span>Jaworzno Moniuszki (2)</a>
+<a class="stop" href="../rozklady/107/2680-chelmek.html"><span class="stop-id">2680</span>Jaworzno Centrum (1)</a>
+<a class="stop" href="../rozklady/107/2746-chelmek.html"><span class="stop-id">2746</span>Jaworzno Matejki (2)</a>
+<a class="stop" href="../rozklady/107/2744-chelmek.html"><span class="stop-id">2744</span>Jaworzno Matejki Arkady (2)</a>
+<a class="stop" href="../rozklady/107/2741-chelmek.html"><span class="stop-id">2741</span>Jaworzno Stara Huta Spacerowa (1)</a>
+<a class="stop" href="../rozklady/107/2739-chelmek.html"><span class="stop-id">2739</span>Jaworzno Azot Osiedle (1)</a>
+<a class="stop" href="../rozklady/107/2737-chelmek.html"><span class="stop-id">2737</span>Jaworzno Organika (2)</a>
+<a class="stop" href="../rozklady/107/2736-chelmek.html"><span class="stop-id">2736</span>Jaworzno Azot (2)</a>
+<a class="stop" href="../rozklady/107/2733-chelmek.html"><span class="stop-id">2733</span>Jaworzno Szyb Sobieski (1)</a>
+<a class="stop" href="../rozklady/107/2732-chelmek.html"><span class="stop-id">2732</span>Jaworzno Sobieski Pętla (0)</a>
+<a class="stop" href="../rozklady/107/2731-chelmek.html"><span class="stop-id">2731</span>Jaworzno Jeleń Lipinka (2)</a>
+<a class="stop" href="../rozklady/107/2729-chelmek.html"><span class="stop-id">2729</span>Jaworzno Jeleń Cmentarz (2)</a>
+<a class="stop" href="../rozklady/107/2717-chelmek.html"><span class="stop-id">2717</span>Jaworzno Jeleń Rynek (2)</a>
+<a class="stop" href="../rozklady/107/2718-chelmek.html"><span class="stop-id">2718</span>Jaworzno Jeleń Przedszkole (2)</a>
+<a class="stop" href="../rozklady/107/2719-chelmek.html"><span class="stop-id">2719</span>Jaworzno Jeleń Dom Kultury (2)</a>
+<a class="stop" href="../rozklady/107/2713-chelmek.html"><span class="stop-id">2713</span>Jaworzno Jeleń Szkoła (1)</a>
+<a class="stop" href="../rozklady/107/2712-chelmek.html"><span class="stop-id">2712</span>Jaworzno Jeleń Piekarnia (1)</a>
+<a class="stop" href="../rozklady/107/2710-chelmek.html"><span class="stop-id">2710</span>Jaworzno Jeleń Park Przemysłowy (1)</a>
+<a class="stop" href="../rozklady/107/2724-chelmek.html"><span class="stop-id">2724</span>Jaworzno Jeleń Dąb Leśniczówka (2)</a>
+<a class="stop" href="../rozklady/107/2708-chelmek.html"><span class="stop-id">2708</span>Jaworzno Jeleń Dąb Sklep (1)</a>
+<a class="stop" href="../rozklady/107/2726-chelmek.html"><span class="stop-id">2726</span>Jaworzno Jeleń Dąb Kapliczka (2)</a>
+<div class="zone zone-chelmek">STREFA CHEŁMEK</div>
+<a class="stop" href="../rozklady/107/0852-chelmek.html"><span class="stop-id">0852</span>Chełmek Młyny (2)</a>
+<a class="stop" href="../rozklady/107/0853-chelmek.html"><span class="stop-id">0853</span>Chełmek Mickiewicza (1)</a>
+<a class="stop" href="../rozklady/107/0854-chelmek.html"><span class="stop-id">0854</span>Chełmek Remiza (2)</a>
+<a class="stop" href="../rozklady/107/0381-chelmek.html"><span class="stop-id">0381</span>Chełmek Policja (1)</a>
+<a class="stop" href="../rozklady/107/0382-chelmek.html"><span class="stop-id">0382</span>Chełmek Osiedle DW780 (1)</a>
+<a class="stop" href="../rozklady/107/0856-chelmek.html"><span class="stop-id">0856</span>Chełmek Reymonta (1)</a>
+<a class="stop" href="../rozklady/107/0857-chelmek.html"><span class="stop-id">0857</span>Chełmek Kasprowicza (1)</a>
+<a class="stop" href="../rozklady/107/0858-chelmek.html"><span class="stop-id">0858</span>Chełmek Osiedle (1)</a>
+<a class="stop terminal" href="../rozklady/107/0859-chelmek.html"><span class="stop-id">0859</span>Chełmek Pętla (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
