@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 109</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-oswiecim{
+    background:#9fc4e8;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">109</div>
+
+<div class="route">
+Oświęcim Pasternik - Dwory - Kruki - Bakutil - Oświęcim Ośrodek Zdrowia Zasole - (Oświęcim Stare Stawy Pętla)
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Oświęcim Ośrodek Zdrowia Zasole</h2>
+
+<div class="zone zone-oswiecim">STREFA OŚWIĘCIM</div>
+<a class="stop terminal" href="../rozklady/109/2641-zasole.html"><span class="stop-id">2641</span>Oświęcim Pasternik (0)</a>
+<a class="stop" href="../rozklady/109/2643-zasole.html"><span class="stop-id">2643</span>Oświęcim Bajcarki (2)</a>
+<a class="stop" href="../rozklady/109/1793-zasole.html"><span class="stop-id">1793</span>Oświęcim Śluza (1)</a>
+<a class="stop" href="../rozklady/109/1797-zasole.html"><span class="stop-id">1797</span>Oświęcim Wysypisko (2)</a>
+<a class="stop" href="../rozklady/109/1796-zasole.html"><span class="stop-id">1796</span>Oświęcim Żwirownia (2)</a>
+<a class="stop" href="../rozklady/109/0616-zasole.html"><span class="stop-id">0616</span>Oświęcim Dwory Pętla (1)</a>
+<a class="stop" href="../rozklady/109/0617-zasole.html"><span class="stop-id">0617</span>Oświęcim SKR (1)</a>
+<a class="stop" href="../rozklady/109/0618-zasole.html"><span class="stop-id">0618</span>Oświęcim Spółdzielnia (2)</a>
+<a class="stop" href="../rozklady/109/0619-zasole.html"><span class="stop-id">0619</span>Oświęcim Cichy Kącik (2)</a>
+<a class="stop" href="../rozklady/109/0620-zasole.html"><span class="stop-id">0620</span>Oświęcim Zwycięstwa (2)</a>
+<a class="stop" href="../rozklady/109/2645-zasole.html"><span class="stop-id">2645</span>Oświęcim Kruki II (2)</a>
+<a class="stop" href="../rozklady/109/2644-zasole.html"><span class="stop-id">2644</span>Oświęcim Kruki I (2)</a>
+<a class="stop" href="../rozklady/109/0626-zasole.html"><span class="stop-id">0626</span>Oświęcim Bakutil (1)</a>
+<a class="stop" href="../rozklady/109/0627-zasole.html"><span class="stop-id">0627</span>Oświęcim Szpital (2)</a>
+<a class="stop" href="../rozklady/109/0873-zasole.html"><span class="stop-id">0873</span>Oświęcim Dąbrowskiego Szpital (2)</a>
+<a class="stop" href="../rozklady/109/0674-zasole.html"><span class="stop-id">0674</span>Oświęcim Osiedle OCK (2)</a>
+<a class="stop" href="../rozklady/109/1545-zasole.html"><span class="stop-id">1545</span>Oświęcim Starostwo (1)</a>
+<a class="stop" href="../rozklady/109/1549-zasole.html"><span class="stop-id">1549</span>Oświęcim Szkoła Nr 2 (2)</a>
+<a class="stop" href="../rozklady/109/1550-zasole.html"><span class="stop-id">1550</span>Oświęcim Nojego (1)</a>
+<a class="stop" href="../rozklady/109/0628-zasole.html"><span class="stop-id">0628</span>Oświęcim Dąbrowskiego Miasto (1)</a>
+<a class="stop" href="../rozklady/109/0629-zasole.html"><span class="stop-id">0629</span>Oświęcim Stacja BP (2)</a>
+<a class="stop" href="../rozklady/109/0630-zasole.html"><span class="stop-id">0630</span>Oświęcim Niwa (1)</a>
+<a class="stop" href="../rozklady/109/0631-zasole.html"><span class="stop-id">0631</span>Oświęcim Dworzec PKP (1)</a>
+<a class="stop" href="../rozklady/109/0662-zasole.html"><span class="stop-id">0662</span>Oświęcim Zasole Walcownia (2)</a>
+<a class="stop" href="../rozklady/109/0663-zasole.html"><span class="stop-id">0663</span>Oświęcim Zasole I (1)</a>
+<a class="stop" href="../rozklady/109/0664-zasole.html"><span class="stop-id">0664</span>Oświęcim Muzeum I (1)</a>
+<a class="stop" href="../rozklady/109/0633-zasole.html"><span class="stop-id">0633</span>Oświęcim Park Zasole (0)</a>
+<a class="stop terminal" href="../rozklady/109/2550-zasole.html"><span class="stop-id">2550</span>Oświęcim Ośrodek Zdrowia Zasole (0)</a>
+<a class="stop variant" href="../rozklady/109/2548-zasole.html"><span class="stop-id">2548</span>Oświęcim Orłowskiego (1)</a>
+<a class="stop variant" href="../rozklady/109/2636-zasole.html"><span class="stop-id">2636</span>Oświęcim Świętej Barbary (1)</a>
+<a class="stop variant terminal" href="../rozklady/109/2634-zasole.html"><span class="stop-id">2634</span>Oświęcim Stare Stawy Pętla (1)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Oświęcim Pasternik</h2>
+
+<div class="zone zone-oswiecim">STREFA OŚWIĘCIM</div>
+<a class="stop variant terminal" href="../rozklady/109/2635-pasternik.html"><span class="stop-id">2635</span>Oświęcim Stare Stawy Pętla (0)</a>
+<a class="stop variant" href="../rozklady/109/2637-pasternik.html"><span class="stop-id">2637</span>Oświęcim Świętej Barbary (2)</a>
+<a class="stop variant" href="../rozklady/109/2549-pasternik.html"><span class="stop-id">2549</span>Oświęcim Orłowskiego (2)</a>
+<a class="stop terminal" href="../rozklady/109/2550-pasternik.html"><span class="stop-id">2550</span>Oświęcim Ośrodek Zdrowia Zasole (0)</a>
+<a class="stop" href="../rozklady/109/0633-pasternik.html"><span class="stop-id">0633</span>Oświęcim Park Zasole (0)</a>
+<a class="stop" href="../rozklady/109/0634-pasternik.html"><span class="stop-id">0634</span>Oświęcim Muzeum II (2)</a>
+<a class="stop" href="../rozklady/109/0635-pasternik.html"><span class="stop-id">0635</span>Oświęcim Zasole I (2)</a>
+<a class="stop" href="../rozklady/109/0636-pasternik.html"><span class="stop-id">0636</span>Oświęcim Zasole Walcownia (1)</a>
+<a class="stop" href="../rozklady/109/0666-pasternik.html"><span class="stop-id">0666</span>Oświęcim Dworzec PKP (2)</a>
+<a class="stop" href="../rozklady/109/0667-pasternik.html"><span class="stop-id">0667</span>Oświęcim Niwa (2)</a>
+<a class="stop" href="../rozklady/109/0668-pasternik.html"><span class="stop-id">0668</span>Oświęcim Stacja BP (1)</a>
+<a class="stop" href="../rozklady/109/0669-pasternik.html"><span class="stop-id">0669</span>Oświęcim Dąbrowskiego Kościół (1)</a>
+<a class="stop" href="../rozklady/109/0670-pasternik.html"><span class="stop-id">0670</span>Oświęcim Dąbrowskiego Cmentarz (0)</a>
+<a class="stop" href="../rozklady/109/1551-pasternik.html"><span class="stop-id">1551</span>Oświęcim Nojego (2)</a>
+<a class="stop" href="../rozklady/109/1548-pasternik.html"><span class="stop-id">1548</span>Oświęcim Szkoła Nr 2 (1)</a>
+<a class="stop" href="../rozklady/109/1547-pasternik.html"><span class="stop-id">1547</span>Oświęcim Sobieskiego (1)</a>
+<a class="stop terminal" href="../rozklady/109/1546-pasternik.html"><span class="stop-id">1546</span>Oświęcim Słowackiego I (1)</a>
+<a class="stop" href="../rozklady/109/0623-pasternik.html"><span class="stop-id">0623</span>Oświęcim Osiedle OCK (1)</a>
+<a class="stop" href="../rozklady/109/0836-pasternik.html"><span class="stop-id">0836</span>Oświęcim Dąbrowskiego Szpital (1)</a>
+<a class="stop" href="../rozklady/109/0671-pasternik.html"><span class="stop-id">0671</span>Oświęcim Szpital (1)</a>
+<a class="stop" href="../rozklady/109/0672-pasternik.html"><span class="stop-id">0672</span>Oświęcim Bakutil (2)</a>
+<a class="stop" href="../rozklady/109/2646-pasternik.html"><span class="stop-id">2646</span>Oświęcim Kruki I (1)</a>
+<a class="stop" href="../rozklady/109/2647-pasternik.html"><span class="stop-id">2647</span>Oświęcim Kruki II (1)</a>
+<a class="stop" href="../rozklady/109/0677-pasternik.html"><span class="stop-id">0677</span>Oświęcim Zwycięstwa (1)</a>
+<a class="stop" href="../rozklady/109/0678-pasternik.html"><span class="stop-id">0678</span>Oświęcim Cichy Kącik (1)</a>
+<a class="stop" href="../rozklady/109/0679-pasternik.html"><span class="stop-id">0679</span>Oświęcim Spółdzielnia (1)</a>
+<a class="stop" href="../rozklady/109/0680-pasternik.html"><span class="stop-id">0680</span>Oświęcim SKR (2)</a>
+<a class="stop" href="../rozklady/109/0616-pasternik.html"><span class="stop-id">0616</span>Oświęcim Dwory Pętla (1)</a>
+<a class="stop" href="../rozklady/109/1795-pasternik.html"><span class="stop-id">1795</span>Oświęcim Żwirownia (1)</a>
+<a class="stop" href="../rozklady/109/1794-pasternik.html"><span class="stop-id">1794</span>Oświęcim Wysypisko (1)</a>
+<a class="stop" href="../rozklady/109/1798-pasternik.html"><span class="stop-id">1798</span>Oświęcim Śluza (2)</a>
+<a class="stop" href="../rozklady/109/2642-pasternik.html"><span class="stop-id">2642</span>Oświęcim Bajcarki (1)</a>
+<a class="stop terminal" href="../rozklady/109/2641-pasternik.html"><span class="stop-id">2641</span>Oświęcim Pasternik (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
