@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 108</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-suloszowa-skala{
+    background:#b7b8b7;
+    color:#222;
+}
+
+.zone-jerzmanowice-przeginia{
+    background:#ea9998;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">108</div>
+
+<div class="route">
+Sobiesęki Podjedle - Skała - Ojców - Wola Kalinowska - Sąspów - Jerzmanowice - Łazy Remiza
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Łazy Remiza</h2>
+
+<div class="zone zone-suloszowa-skala">STREFA SUŁOSZOWA-SKAŁA</div>
+<a class="stop terminal" href="../rozklady/108/0815-lazy.html"><span class="stop-id">0815</span>Sobiesęki Podjedle (1)</a>
+<a class="stop" href="../rozklady/108/0813-lazy.html"><span class="stop-id">0813</span>Sobiesęki OSP (1)</a>
+<a class="stop" href="../rozklady/108/0811-lazy.html"><span class="stop-id">0811</span>Sobiesęki Przy Rondzie (1)</a>
+<a class="stop" href="../rozklady/108/2924-lazy.html"><span class="stop-id">2924</span>Skała Sobiesęcka (1)</a>
+<a class="stop" href="../rozklady/108/0431-lazy.html"><span class="stop-id">0431</span>Skała Rynek (2)</a>
+<a class="stop" href="../rozklady/108/0399-lazy.html"><span class="stop-id">0399</span>Skała Połetka (1)</a>
+<a class="stop" href="../rozklady/108/0401-lazy.html"><span class="stop-id">0401</span>Skała Grodzisko (2)</a>
+<a class="stop" href="../rozklady/108/2776-lazy.html"><span class="stop-id">2776</span>Ojców Zamek (0)</a>
+<a class="stop" href="../rozklady/108/2775-lazy.html"><span class="stop-id">2775</span>Ojców Złota Góra (2)</a>
+<a class="stop" href="../rozklady/108/2514-lazy.html"><span class="stop-id">2514</span>Wola Kalinowska Góra (1)</a>
+<a class="stop" href="../rozklady/108/2515-lazy.html"><span class="stop-id">2515</span>Wola Kalinowska Kalinów (1)</a>
+<div class="zone zone-jerzmanowice-przeginia">STREFA JERZMANOWICE-PRZEGINIA</div>
+<a class="stop" href="../rozklady/108/1675-lazy.html"><span class="stop-id">1675</span>Sąspów Cmentarz (2)</a>
+<a class="stop" href="../rozklady/108/1674-lazy.html"><span class="stop-id">1674</span>Sąspów Pętla (0)</a>
+<a class="stop" href="../rozklady/108/1672-lazy.html"><span class="stop-id">1672</span>Sąspów Pod Wymysłowem (1)</a>
+<a class="stop" href="../rozklady/108/1660-lazy.html"><span class="stop-id">1660</span>Jerzmanowice Ojcowska (2)</a>
+<a class="stop" href="../rozklady/108/1638-lazy.html"><span class="stop-id">1638</span>Jerzmanowice Centrum (2)</a>
+<a class="stop" href="../rozklady/108/3308-lazy.html"><span class="stop-id">3308</span>Jerzmanowice Kolonia Łazowska I (2)</a>
+<a class="stop" href="../rozklady/108/3309-lazy.html"><span class="stop-id">3309</span>Jerzmanowice Kolonia Łazowska II (2)</a>
+<a class="stop" href="../rozklady/108/1557-lazy.html"><span class="stop-id">1557</span>Łazy I (1)</a>
+<a class="stop" href="../rozklady/108/1556-lazy.html"><span class="stop-id">1556</span>Łazy Schronisko (1)</a>
+<a class="stop terminal" href="../rozklady/108/1555-lazy.html"><span class="stop-id">1555</span>Łazy Remiza (1)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Sobiesęki Podjedle</h2>
+
+<div class="zone zone-jerzmanowice-przeginia">STREFA JERZMANOWICE-PRZEGINIA</div>
+<a class="stop terminal" href="../rozklady/108/1555-sobieseki.html"><span class="stop-id">1555</span>Łazy Remiza (1)</a>
+<a class="stop" href="../rozklady/108/1559-sobieseki.html"><span class="stop-id">1559</span>Łazy Schronisko (2)</a>
+<a class="stop" href="../rozklady/108/1558-sobieseki.html"><span class="stop-id">1558</span>Łazy I (2)</a>
+<a class="stop" href="../rozklady/108/2777-sobieseki.html"><span class="stop-id">2777</span>Jerzmanowice Kolonia Łazowska II (1)</a>
+<a class="stop" href="../rozklady/108/1656-sobieseki.html"><span class="stop-id">1656</span>Jerzmanowice Kolonia Łazowska I (1)</a>
+<a class="stop" href="../rozklady/108/1637-sobieseki.html"><span class="stop-id">1637</span>Jerzmanowice Centrum (1)</a>
+<a class="stop" href="../rozklady/108/1661-sobieseki.html"><span class="stop-id">1661</span>Jerzmanowice Centralna (1)</a>
+<a class="stop" href="../rozklady/108/1676-sobieseki.html"><span class="stop-id">1676</span>Sąspów Pod Wymysłowem (2)</a>
+<a class="stop" href="../rozklady/108/1674-sobieseki.html"><span class="stop-id">1674</span>Sąspów Pętla (0)</a>
+<a class="stop" href="../rozklady/108/1673-sobieseki.html"><span class="stop-id">1673</span>Sąspów Cmentarz (1)</a>
+<div class="zone zone-suloszowa-skala">STREFA SUŁOSZOWA-SKAŁA</div>
+<a class="stop" href="../rozklady/108/2527-sobieseki.html"><span class="stop-id">2527</span>Wola Kalinowska Kalinów (2)</a>
+<a class="stop" href="../rozklady/108/2528-sobieseki.html"><span class="stop-id">2528</span>Wola Kalinowska Góra (2)</a>
+<a class="stop" href="../rozklady/108/2774-sobieseki.html"><span class="stop-id">2774</span>Ojców Złota Góra (1)</a>
+<a class="stop" href="../rozklady/108/2776-sobieseki.html"><span class="stop-id">2776</span>Ojców Zamek (0)</a>
+<a class="stop" href="../rozklady/108/0430-sobieseki.html"><span class="stop-id">0430</span>Skała Grodzisko (1)</a>
+<a class="stop" href="../rozklady/108/0399-sobieseki.html"><span class="stop-id">0399</span>Skała Połetka (1)</a>
+<a class="stop" href="../rozklady/108/2773-sobieseki.html"><span class="stop-id">2773</span>Skała Rynek (1)</a>
+<a class="stop" href="../rozklady/108/2923-sobieseki.html"><span class="stop-id">2923</span>Skała Sobiesęcka (2)</a>
+<a class="stop" href="../rozklady/108/0812-sobieseki.html"><span class="stop-id">0812</span>Sobiesęki Przy Rondzie (2)</a>
+<a class="stop" href="../rozklady/108/0814-sobieseki.html"><span class="stop-id">0814</span>Sobiesęki OSP (2)</a>
+<a class="stop terminal" href="../rozklady/108/0816-sobieseki.html"><span class="stop-id">0816</span>Sobiesęki Podjedle (2)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
