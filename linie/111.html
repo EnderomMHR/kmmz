@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 111</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-oswiecim{
+    background:#9fc4e8;
+    color:#222;
+}
+
+.zone-brzeszcze{
+    background:#a2c4c9;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">111</div>
+
+<div class="route">
+Wilczkowice Pętla - Skidziń - Zasole - Grojec - Łazy Hyrdzie Pętla - Poręba Wielka - Zaborze - Oświęcim Park Zasole
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Oświęcim Park Zasole</h2>
+
+<div class="zone zone-brzeszcze">STREFA BRZESZCZE</div>
+<a class="stop terminal" href="../rozklady/111/0649-oswiecim.html"><span class="stop-id">0649</span>Wilczkowice Pętla (0)</a>
+<a class="stop" href="../rozklady/111/2583-oswiecim.html"><span class="stop-id">2583</span>Skidziń Szkoła (1)</a>
+<a class="stop" href="../rozklady/111/2585-oswiecim.html"><span class="stop-id">2585</span>Skidziń Kuźnia (1)</a>
+<a class="stop" href="../rozklady/111/2587-oswiecim.html"><span class="stop-id">2587</span>Skidziń Sklep (1)</a>
+<a class="stop" href="../rozklady/111/3326-oswiecim.html"><span class="stop-id">3326</span>Skidziń Bar (2)</a>
+<a class="stop" href="../rozklady/111/2589-oswiecim.html"><span class="stop-id">2589</span>Skidziń na żądanie (1)</a>
+<a class="stop" href="../rozklady/111/2592-oswiecim.html"><span class="stop-id">2592</span>Skidziń Wentylatory (2)</a>
+<a class="stop" href="../rozklady/111/2593-oswiecim.html"><span class="stop-id">2593</span>Zasole Sklep (1)</a>
+<div class="zone zone-oswiecim">STREFA OŚWIĘCIM</div>
+<a class="stop" href="../rozklady/111/2599-oswiecim.html"><span class="stop-id">2599</span>Grojec Tarniówka (1)</a>
+<a class="stop" href="../rozklady/111/1892-oswiecim.html"><span class="stop-id">1892</span>Grojec Jagiellończyka (2)</a>
+<a class="stop" href="../rozklady/111/1891-oswiecim.html"><span class="stop-id">1891</span>Grojec Dom Ludowy (2)</a>
+<a class="stop" href="../rozklady/111/1834-oswiecim.html"><span class="stop-id">1834</span>Grojec Domżał (2)</a>
+<a class="stop" href="../rozklady/111/1835-oswiecim.html"><span class="stop-id">1835</span>Łazy Staw (2)</a>
+<a class="stop terminal" href="../rozklady/111/1831-oswiecim.html"><span class="stop-id">1831</span>Łazy Hyrdzie Pętla (0)</a>
+<a class="stop" href="../rozklady/111/2601-oswiecim.html"><span class="stop-id">2601</span>Poręba Wielka Zalesie (1)</a>
+<a class="stop variant" href="../rozklady/111/2605-oswiecim.html"><span class="stop-id">2605</span>Poręba Wielka Kmieci I (2)</a>
+<a class="stop variant" href="../rozklady/111/2609-oswiecim.html"><span class="stop-id">2609</span>Poręba Wielka Kmieci II (2)</a>
+<a class="stop variant" href="../rozklady/111/2610-oswiecim.html"><span class="stop-id">2610</span>Poręba Wielka Kmieci III (1)</a>
+<a class="stop variant" href="../rozklady/111/1874-oswiecim.html"><span class="stop-id">1874</span>Poręba Wielka Gaj (1)</a>
+<a class="stop variant" href="../rozklady/111/2880-oswiecim.html"><span class="stop-id">2880</span>Poręba Wielka Podstawie (2)</a>
+<a class="stop variant" href="../rozklady/111/1888-oswiecim.html"><span class="stop-id">1888</span>Poręba Wielka Szkoła (2)</a>
+<a class="stop" href="../rozklady/111/2603-oswiecim.html"><span class="stop-id">2603</span>Poręba Wielka Cmentarz (1)</a>
+<a class="stop" href="../rozklady/111/1887-oswiecim.html"><span class="stop-id">1887</span>Poręba Wielka Remiza (2)</a>
+<a class="stop" href="../rozklady/111/1886-oswiecim.html"><span class="stop-id">1886</span>Poręba Wielka Ruczaj (2)</a>
+<a class="stop" href="../rozklady/111/1878-oswiecim.html"><span class="stop-id">1878</span>Poręba Wielka Leśniczówka (1)</a>
+<a class="stop" href="../rozklady/111/1879-oswiecim.html"><span class="stop-id">1879</span>Poręba Wielka Przedzieleń (1)</a>
+<a class="stop" href="../rozklady/111/1880-oswiecim.html"><span class="stop-id">1880</span>Zaborze Węgielnik (1)</a>
+<a class="stop" href="../rozklady/111/2612-oswiecim.html"><span class="stop-id">2612</span>Oświęcim Gazownia (2)</a>
+<a class="stop" href="../rozklady/111/0676-oswiecim.html"><span class="stop-id">0676</span>Oświęcim Lodowisko (2)</a>
+<a class="stop" href="../rozklady/111/1505-oswiecim.html"><span class="stop-id">1505</span>Oświęcim Transchemia (2)</a>
+<a class="stop" href="../rozklady/111/1507-oswiecim.html"><span class="stop-id">1507</span>Oświęcim Dąbrowskiego (1)</a>
+<a class="stop" href="../rozklady/111/0836-oswiecim.html"><span class="stop-id">0836</span>Oświęcim Dąbrowskiego Szpital (1)</a>
+<a class="stop" href="../rozklady/111/0628-oswiecim.html"><span class="stop-id">0628</span>Oświęcim Dąbrowskiego Miasto (1)</a>
+<a class="stop" href="../rozklady/111/0629-oswiecim.html"><span class="stop-id">0629</span>Oświęcim Stacja BP (2)</a>
+<a class="stop" href="../rozklady/111/0630-oswiecim.html"><span class="stop-id">0630</span>Oświęcim Niwa (1)</a>
+<a class="stop" href="../rozklady/111/0631-oswiecim.html"><span class="stop-id">0631</span>Oświęcim Dworzec PKP (1)</a>
+<a class="stop" href="../rozklady/111/0632-oswiecim.html"><span class="stop-id">0632</span>Oświęcim Obozowa (1)</a>
+<a class="stop terminal" href="../rozklady/111/0633-oswiecim.html"><span class="stop-id">0633</span>Oświęcim Park Zasole (0)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Wilczkowice Pętla</h2>
+
+<div class="zone zone-oswiecim">STREFA OŚWIĘCIM</div>
+<a class="stop terminal" href="../rozklady/111/0633-wilczkowice.html"><span class="stop-id">0633</span>Oświęcim Park Zasole (0)</a>
+<a class="stop" href="../rozklady/111/0665-wilczkowice.html"><span class="stop-id">0665</span>Oświęcim Obozowa (2)</a>
+<a class="stop" href="../rozklady/111/0666-wilczkowice.html"><span class="stop-id">0666</span>Oświęcim Dworzec PKP (2)</a>
+<a class="stop" href="../rozklady/111/0667-wilczkowice.html"><span class="stop-id">0667</span>Oświęcim Niwa (2)</a>
+<a class="stop" href="../rozklady/111/0668-wilczkowice.html"><span class="stop-id">0668</span>Oświęcim Stacja BP (1)</a>
+<a class="stop" href="../rozklady/111/0669-wilczkowice.html"><span class="stop-id">0669</span>Oświęcim Dąbrowskiego Kościół (1)</a>
+<a class="stop" href="../rozklady/111/0670-wilczkowice.html"><span class="stop-id">0670</span>Oświęcim Dąbrowskiego Cmentarz (0)</a>
+<a class="stop" href="../rozklady/111/1506-wilczkowice.html"><span class="stop-id">1506</span>Oświęcim Transchemia (1)</a>
+<a class="stop" href="../rozklady/111/0621-wilczkowice.html"><span class="stop-id">0621</span>Oświęcim Lodowisko (1)</a>
+<a class="stop" href="../rozklady/111/2611-wilczkowice.html"><span class="stop-id">2611</span>Oświęcim Gazownia (1)</a>
+<a class="stop" href="../rozklady/111/1883-wilczkowice.html"><span class="stop-id">1883</span>Zaborze Węgielnik (2)</a>
+<a class="stop" href="../rozklady/111/1884-wilczkowice.html"><span class="stop-id">1884</span>Poręba Wielka Przedzieleń (2)</a>
+<a class="stop" href="../rozklady/111/1885-wilczkowice.html"><span class="stop-id">1885</span>Poręba Wielka Leśniczówka (2)</a>
+<a class="stop" href="../rozklady/111/1877-wilczkowice.html"><span class="stop-id">1877</span>Poręba Wielka Ruczaj (1)</a>
+<a class="stop" href="../rozklady/111/1876-wilczkowice.html"><span class="stop-id">1876</span>Poręba Wielka Remiza (1)</a>
+<a class="stop variant" href="../rozklady/111/1875-wilczkowice.html"><span class="stop-id">1875</span>Poręba Wielka Szkoła (1)</a>
+<a class="stop variant" href="../rozklady/111/2876-wilczkowice.html"><span class="stop-id">2876</span>Poręba Wielka Podstawie (1)</a>
+<a class="stop variant" href="../rozklady/111/1889-wilczkowice.html"><span class="stop-id">1889</span>Poręba Wielka Gaj (2)</a>
+<a class="stop variant" href="../rozklady/111/2607-wilczkowice.html"><span class="stop-id">2607</span>Poręba Wielka Kmieci III (2)</a>
+<a class="stop variant" href="../rozklady/111/2608-wilczkowice.html"><span class="stop-id">2608</span>Poręba Wielka Kmieci II (1)</a>
+<a class="stop variant" href="../rozklady/111/2606-wilczkowice.html"><span class="stop-id">2606</span>Poręba Wielka Kmieci I (1)</a>
+<a class="stop" href="../rozklady/111/2604-wilczkowice.html"><span class="stop-id">2604</span>Poręba Wielka Cmentarz (2)</a>
+<a class="stop" href="../rozklady/111/2602-wilczkowice.html"><span class="stop-id">2602</span>Poręba Wielka Zalesie (2)</a>
+<a class="stop terminal" href="../rozklady/111/1831-wilczkowice.html"><span class="stop-id">1831</span>Łazy Hyrdzie Pętla (0)</a>
+<a class="stop" href="../rozklady/111/1832-wilczkowice.html"><span class="stop-id">1832</span>Łazy Staw (1)</a>
+<a class="stop" href="../rozklady/111/1833-wilczkowice.html"><span class="stop-id">1833</span>Grojec Domżał (1)</a>
+<a class="stop" href="../rozklady/111/1890-wilczkowice.html"><span class="stop-id">1890</span>Grojec Dom Ludowy (1)</a>
+<a class="stop" href="../rozklady/111/1893-wilczkowice.html"><span class="stop-id">1893</span>Grojec Jagiellończyka (1)</a>
+<a class="stop" href="../rozklady/111/2598-wilczkowice.html"><span class="stop-id">2598</span>Grojec Tarniówka (2)</a>
+<div class="zone zone-brzeszcze">STREFA BRZESZCZE</div>
+<a class="stop" href="../rozklady/111/2594-wilczkowice.html"><span class="stop-id">2594</span>Zasole Sklep (2)</a>
+<a class="stop" href="../rozklady/111/2591-wilczkowice.html"><span class="stop-id">2591</span>Skidziń Wentylatory (1)</a>
+<a class="stop" href="../rozklady/111/2590-wilczkowice.html"><span class="stop-id">2590</span>Skidziń na żądanie (2)</a>
+<a class="stop" href="../rozklady/111/3327-wilczkowice.html"><span class="stop-id">3327</span>Skidziń Bar (1)</a>
+<a class="stop" href="../rozklady/111/2588-wilczkowice.html"><span class="stop-id">2588</span>Skidziń Sklep (2)</a>
+<a class="stop" href="../rozklady/111/2586-wilczkowice.html"><span class="stop-id">2586</span>Skidziń Kuźnia (2)</a>
+<a class="stop" href="../rozklady/111/2584-wilczkowice.html"><span class="stop-id">2584</span>Skidziń Szkoła (2)</a>
+<a class="stop terminal" href="../rozklady/111/0649-wilczkowice.html"><span class="stop-id">0649</span>Wilczkowice Pętla (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
