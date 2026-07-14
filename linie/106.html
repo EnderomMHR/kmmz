@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 106</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-oswiecim{
+    background:#9fc4e8;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">106</div>
+
+<div class="route">
+Stawy Monowskie Centrum - Włosienica Szkoła - Monowice - Oświęcim Lodowisko - Brzezinka - Pławy - Harmęże Pętla
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Harmęże Pętla</h2>
+
+<div class="zone zone-oswiecim">STREFA OŚWIĘCIM</div>
+  
+<a class="stop terminal" href="../rozklady/106/2012-harmeze.html"><span class="stop-id">2012</span>Stawy Monowskie Centrum (0)</a>
+<a class="stop" href="../rozklady/106/2011-harmeze.html"><span class="stop-id">2011</span>Włosienica Golcowiec (1)</a>
+<a class="stop" href="../rozklady/106/2010-harmeze.html"><span class="stop-id">2010</span>Włosienica Dolna (1)</a>
+<a class="stop" href="../rozklady/106/2009-harmeze.html"><span class="stop-id">2009</span>Włosienica Szkoła (1)</a>
+<a class="stop" href="../rozklady/106/2008-harmeze.html"><span class="stop-id">2008</span>Włosienica Centrum (1)</a>
+<a class="stop" href="../rozklady/106/2019-harmeze.html"><span class="stop-id">2019</span>Włosienica Górna (2)</a>
+<a class="stop" href="../rozklady/106/2006-harmeze.html"><span class="stop-id">2006</span>Włosienica Dąbrówki (1)</a>
+<a class="stop" href="../rozklady/106/2005-harmeze.html"><span class="stop-id">2005</span>Włosienica 1-ego Maja (2)</a>
+<a class="stop" href="../rozklady/106/0830-harmeze.html"><span class="stop-id">0830</span>Oświęcim Dworzec Fabryczny (1)</a>
+<a class="stop" href="../rozklady/106/0831-harmeze.html"><span class="stop-id">0831</span>Oświęcim Gazy Techniczne (1)</a>
+<a class="stop" href="../rozklady/106/0832-harmeze.html"><span class="stop-id">0832</span>Oświęcim Monowice (2)</a>
+<a class="stop" href="../rozklady/106/0833-harmeze.html"><span class="stop-id">0833</span>Oświęcim Brama (1)</a>
+<a class="stop" href="../rozklady/106/0834-harmeze.html"><span class="stop-id">0834</span>Oświęcim Monowice Inkubator Przedsiębiorczości (2)</a>
+<a class="stop" href="../rozklady/106/0835-harmeze.html"><span class="stop-id">0835</span>Oświęcim Pod Borem 2 (1)</a>
+<a class="stop terminal" href="../rozklady/106/0676-harmeze.html"><span class="stop-id">0676</span>Oświęcim Lodowisko (2)</a>
+<a class="stop" href="../rozklady/106/1505-harmeze.html"><span class="stop-id">1505</span>Oświęcim Transchemia (2)</a>
+<a class="stop" href="../rozklady/106/1507-harmeze.html"><span class="stop-id">1507</span>Oświęcim Dąbrowskiego (1)</a>
+<a class="stop" href="../rozklady/106/0836-harmeze.html"><span class="stop-id">0836</span>Oświęcim Dąbrowskiego Szpital (1)</a>
+<a class="stop" href="../rozklady/106/0628-harmeze.html"><span class="stop-id">0628</span>Oświęcim Dąbrowskiego Miasto (1)</a>
+<a class="stop" href="../rozklady/106/1913-harmeze.html"><span class="stop-id">1913</span>Oświęcim Królowej Jadwigi (1)</a>
+<a class="stop" href="../rozklady/106/2003-harmeze.html"><span class="stop-id">2003</span>Oświęcim Garbarnia (2)</a>
+<a class="stop" href="../rozklady/106/0629-harmeze.html"><span class="stop-id">0629</span>Oświęcim Stacja BP (2)</a>
+<a class="stop" href="../rozklady/106/0630-harmeze.html"><span class="stop-id">0630</span>Oświęcim Niwa (1)</a>
+<a class="stop" href="../rozklady/106/0631-harmeze.html"><span class="stop-id">0631</span>Oświęcim Dworzec PKP (1)</a>
+<a class="stop" href="../rozklady/106/0637-harmeze.html"><span class="stop-id">0637</span>Oświęcim MZK (1)</a>
+<a class="stop" href="../rozklady/106/1990-harmeze.html"><span class="stop-id">1990</span>Brzezinka Papownia (2)</a>
+<a class="stop" href="../rozklady/106/2000-harmeze.html"><span class="stop-id">2000</span>Brzezinka Szkoła (2)</a>
+<a class="stop" href="../rozklady/106/1999-harmeze.html"><span class="stop-id">1999</span>Brzezinka Kapliczka (2)</a>
+<a class="stop" href="../rozklady/106/1997-harmeze.html"><span class="stop-id">1997</span>Brzezinka Sportowa (2)</a>
+<a class="stop" href="../rozklady/106/1993-harmeze.html"><span class="stop-id">1993</span>Brzezinka Leśna (1)</a>
+<a class="stop" href="../rozklady/106/1992-harmeze.html"><span class="stop-id">1992</span>Brzezinka Kościół (1)</a>
+<a class="stop" href="../rozklady/106/1989-harmeze.html"><span class="stop-id">1989</span>Brzezinka Nicromet (2)</a>
+<a class="stop" href="../rozklady/106/1987-harmeze.html"><span class="stop-id">1987</span>Pławy (2)</a>
+<a class="stop" href="../rozklady/106/1984-harmeze.html"><span class="stop-id">1984</span>Pławy Zaciszna (1)</a>
+<a class="stop" href="../rozklady/106/1983-harmeze.html"><span class="stop-id">1983</span>Harmęże Szkoła (2)</a>
+<a class="stop" href="../rozklady/106/1980-harmeze.html"><span class="stop-id">1980</span>Harmęże Staw (1)</a>
+<a class="stop terminal" href="../rozklady/106/1979-harmeze.html"><span class="stop-id">1979</span>Harmęże Pętla (0)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Stawy Monowskie Centrum</h2>
+
+<div class="zone zone-oswiecim">STREFA OŚWIĘCIM</div>
+
+<a class="stop terminal" href="../rozklady/106/1979-stawy.html"><span class="stop-id">1979</span>Harmęże Pętla (0)</a>
+<a class="stop" href="../rozklady/106/1982-stawy.html"><span class="stop-id">1982</span>Harmęże Staw (2)</a>
+<a class="stop" href="../rozklady/106/1981-stawy.html"><span class="stop-id">1981</span>Harmęże Szkoła (1)</a>
+<a class="stop" href="../rozklady/106/1985-stawy.html"><span class="stop-id">1985</span>Pławy Zaciszna (2)</a>
+<a class="stop" href="../rozklady/106/1986-stawy.html"><span class="stop-id">1986</span>Pławy (1)</a>
+<a class="stop" href="../rozklady/106/1988-stawy.html"><span class="stop-id">1988</span>Brzezinka Nicromet (1)</a>
+<a class="stop" href="../rozklady/106/1995-stawy.html"><span class="stop-id">1995</span>Brzezinka Kościół (2)</a>
+<a class="stop" href="../rozklady/106/1994-stawy.html"><span class="stop-id">1994</span>Brzezinka Leśna (2)</a>
+<a class="stop" href="../rozklady/106/1996-stawy.html"><span class="stop-id">1996</span>Brzezinka Sportowa (1)</a>
+<a class="stop" href="../rozklady/106/1998-stawy.html"><span class="stop-id">1998</span>Brzezinka Kapliczka (1)</a>
+<a class="stop" href="../rozklady/106/2001-stawy.html"><span class="stop-id">2001</span>Brzezinka Szkoła (1)</a>
+<a class="stop" href="../rozklady/106/1991-stawy.html"><span class="stop-id">1991</span>Brzezinka Papownia (1)</a>
+<a class="stop" href="../rozklady/106/0666-stawy.html"><span class="stop-id">0666</span>Oświęcim Dworzec PKP (2)</a>
+<a class="stop" href="../rozklady/106/0667-stawy.html"><span class="stop-id">0667</span>Oświęcim Niwa (2)</a>
+<a class="stop" href="../rozklady/106/0668-stawy.html"><span class="stop-id">0668</span>Oświęcim Stacja BP (1)</a>
+<a class="stop" href="../rozklady/106/2002-stawy.html"><span class="stop-id">2002</span>Oświęcim Garbarnia (1)</a>
+<a class="stop" href="../rozklady/106/1912-stawy.html"><span class="stop-id">1912</span>Oświęcim Królowej Jadwigi (2)</a>
+<a class="stop" href="../rozklady/106/0670-stawy.html"><span class="stop-id">0670</span>Oświęcim Dąbrowskiego Cmentarz (0)</a>
+<a class="stop" href="../rozklady/106/0873-stawy.html"><span class="stop-id">0873</span>Oświęcim Dąbrowskiego Szpital (2)</a>
+<a class="stop" href="../rozklady/106/1508-stawy.html"><span class="stop-id">1508</span>Oświęcim Dąbrowskiego (2)</a>
+<a class="stop" href="../rozklady/106/1506-stawy.html"><span class="stop-id">1506</span>Oświęcim Transchemia (1)</a>
+<a class="stop terminal" href="../rozklady/106/0621-stawy.html"><span class="stop-id">0621</span>Oświęcim Lodowisko (1)</a>
+<a class="stop" href="../rozklady/106/0874-stawy.html"><span class="stop-id">0874</span>Oświęcim Pod Borem 2 (2)</a>
+<a class="stop" href="../rozklady/106/0875-stawy.html"><span class="stop-id">0875</span>Oświęcim Monowice Inkubator Przedsiębiorczości (1)</a>
+<a class="stop" href="../rozklady/106/0876-stawy.html"><span class="stop-id">0876</span>Oświęcim Brama (2)</a>
+<a class="stop" href="../rozklady/106/0877-stawy.html"><span class="stop-id">0877</span>Oświęcim Monowice (1)</a>
+<a class="stop" href="../rozklady/106/0878-stawy.html"><span class="stop-id">0878</span>Oświęcim Gazy Techniczne (2)</a>
+<a class="stop terminal" href="../rozklady/106/0879-stawy.html"><span class="stop-id">0879</span>Oświęcim Dworzec Fabryczny (2)</a>
+<a class="stop" href="../rozklady/106/2004-stawy.html"><span class="stop-id">2004</span>Włosienica 1-ego Maja (1)</a>
+<a class="stop" href="../rozklady/106/2020-stawy.html"><span class="stop-id">2020</span>Włosienica Dąbrówki (2)</a>
+<a class="stop" href="../rozklady/106/2007-stawy.html"><span class="stop-id">2007</span>Włosienica Górna (1)</a>
+<a class="stop" href="../rozklady/106/2018-stawy.html"><span class="stop-id">2018</span>Włosienica Centrum (2)</a>
+<a class="stop terminal" href="../rozklady/106/2017-stawy.html"><span class="stop-id">2017</span>Włosienica Szkoła (2)</a>
+<a class="stop" href="../rozklady/106/2016-stawy.html"><span class="stop-id">2016</span>Włosienica Dolna (2)</a>
+<a class="stop" href="../rozklady/106/2015-stawy.html"><span class="stop-id">2015</span>Włosienica Golcowiec (2)</a>
+<a class="stop terminal" href="../rozklady/106/2012-stawy.html"><span class="stop-id">2012</span>Stawy Monowskie Centrum (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
