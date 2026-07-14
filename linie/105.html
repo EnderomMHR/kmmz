@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 105</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-chrzanow{
+    background:#a4c2f4;
+    color:#222;
+}
+
+.zone-trzebinia{
+    background:#d9d2e9;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">105</div>
+
+<div class="route">
+Chrzanów Szpital - Trzebinia Dworzec PKP - (Os. Widokowe) - Trzebionka - Wodna - Krze - Siersza - (Podbuczyna) - Góry Luszowskie - Luszowice - Piaski - Chrzanów Dworzec Autobusowy
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Chrzanów Dworzec Autobusowy</h2>
+
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+<a class="stop terminal" href="../rozklady/105/0093-da.html"><span class="stop-id">0093</span>Chrzanów Szpital (2)</a>
+<a class="stop" href="../rozklady/105/0094-da.html"><span class="stop-id">0094</span>Chrzanów Szpitalna (1)</a>
+<a class="stop" href="../rozklady/105/0398-da.html"><span class="stop-id">0398</span>Chrzanów Trzebińska (2)</a>
+<a class="stop variant" href="../rozklady/105/0119-da.html"><span class="stop-id">0119</span>Chrzanów Valeo (1)</a>
+<div class="zone zone-trzebinia">STREFA TRZEBINIA</div>
+<a class="stop" href="../rozklady/105/0120-da.html"><span class="stop-id">0120</span>Trzebinia Berezka (1)</a>
+<a class="stop" href="../rozklady/105/0121-da.html"><span class="stop-id">0121</span>Trzebinia Długa (2)</a>
+<a class="stop terminal" href="../rozklady/105/0122-da.html"><span class="stop-id">0122</span>Trzebinia Dworzec PKP (2)</a>
+<a class="stop variant" href="../rozklady/105/1026-da.html"><span class="stop-id">1026</span>Trzebinia Harcerska Przychodnia (0)</a>
+<a class="stop variant" href="../rozklady/105/0123-da.html"><span class="stop-id">0123</span>Trzebinia Krakowska (0)</a>
+<a class="stop variant" href="../rozklady/105/0353-da.html"><span class="stop-id">0353</span>Trzebinia Os. Widokowe Szkoła (2)</a>
+<a class="stop variant" href="../rozklady/105/0354-da.html"><span class="stop-id">0354</span>Trzebinia Os. Widokowe Kiosk (1)</a>
+<a class="stop variant" href="../rozklady/105/0355-da.html"><span class="stop-id">0355</span>Trzebinia Os. Widokowe Schody (1)</a>
+<a class="stop" href="../rozklady/105/3295-da.html"><span class="stop-id">3295</span>Trzebinia Mały Rynek (1)</a>
+<a class="stop" href="../rozklady/105/1027-da.html"><span class="stop-id">1027</span>Trzebinia Balaton (1)</a>
+<a class="stop" href="../rozklady/105/1032-da.html"><span class="stop-id">1032</span>Trzebinia Górka (1)</a>
+<a class="stop" href="../rozklady/105/0986-da.html"><span class="stop-id">0986</span>Trzebinia Trzebionka (1)</a>
+<a class="stop" href="../rozklady/105/1054-da.html"><span class="stop-id">1054</span>Trzebinia Wodna (1)</a>
+<a class="stop" href="../rozklady/105/1056-da.html"><span class="stop-id">1056</span>Trzebinia Kolonia (2)</a>
+<a class="stop" href="../rozklady/105/0974-da.html"><span class="stop-id">0974</span>Trzebinia Górka Kościół (1)</a>
+<a class="stop" href="../rozklady/105/0971-da.html"><span class="stop-id">0971</span>Trzebinia Krze I (2)</a>
+<a class="stop" href="../rozklady/105/0973-da.html"><span class="stop-id">0973</span>Trzebinia KWK Siersza (2)</a>
+<a class="stop" href="../rozklady/105/1005-da.html"><span class="stop-id">1005</span>Trzebinia Siersza Ośrodek Zdrowia (1)</a>
+<a class="stop" href="../rozklady/105/1007-da.html"><span class="stop-id">1007</span>Trzebinia Siersza Trętowiec (1)</a>
+<a class="stop" href="../rozklady/105/0991-da.html"><span class="stop-id">0991</span>Trzebinia Siersza Stadion (1)</a>
+<a class="stop" href="../rozklady/105/0993-da.html"><span class="stop-id">0993</span>Trzebinia Siersza Kościół (1)</a>
+<a class="stop" href="../rozklady/105/1525-da.html"><span class="stop-id">1525</span>Trzebinia Siersza Liceum (2)</a>
+<a class="stop" href="../rozklady/105/0996-da.html"><span class="stop-id">0996</span>Trzebinia Siersza Zwycięstwa (0)</a>
+<a class="stop" href="../rozklady/105/0997-da.html"><span class="stop-id">0997</span>Trzebinia Siersza Na Moście (1)</a>
+<a class="stop" href="../rozklady/105/1004-da.html"><span class="stop-id">1004</span>Trzebinia Siersza Polna (2)</a>
+<a class="stop variant" href="../rozklady/105/0988-da.html"><span class="stop-id">0988</span>Trzebinia Podbuczyna (0)</a>
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+<a class="stop" href="../rozklady/105/0989-da.html"><span class="stop-id">0989</span>Luszowice Góry Luszowskie (1)</a>
+<a class="stop" href="../rozklady/105/1153-da.html"><span class="stop-id">1153</span>Luszowice II (2)</a>
+<a class="stop" href="../rozklady/105/1151-da.html"><span class="stop-id">1151</span>Luszowice (1)</a>
+<a class="stop" href="../rozklady/105/1155-da.html"><span class="stop-id">1155</span>Luszowice Piaski (2)</a>
+<a class="stop" href="../rozklady/105/1156-da.html"><span class="stop-id">1156</span>Chrzanów Piaski (2)</a>
+<a class="stop" href="../rozklady/105/1148-da.html"><span class="stop-id">1148</span>Chrzanów Działkowa (2)</a>
+<a class="stop" href="../rozklady/105/1061-da.html"><span class="stop-id">1061</span>Chrzanów Wodzińska (1)</a>
+<a class="stop" href="../rozklady/105/0115-da.html"><span class="stop-id">0115</span>Chrzanów Plac Tysiąclecia (2)</a>
+<a class="stop terminal" href="../rozklady/105/0334-da.html"><span class="stop-id">0334</span>Chrzanów Dworzec Autobusowy (4)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Chrzanów Szpital</h2>
+
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+<a class="stop terminal" href="../rozklady/105/0116-szpital.html"><span class="stop-id">0116</span>Chrzanów Dworzec Autobusowy (1)</a>
+<a class="stop" href="../rozklady/105/1059-szpital.html"><span class="stop-id">1059</span>Chrzanów Plac Tysiąclecia (1)</a>
+<a class="stop" href="../rozklady/105/1062-szpital.html"><span class="stop-id">1062</span>Chrzanów Wodzińska (2)</a>
+<a class="stop" href="../rozklady/105/1147-szpital.html"><span class="stop-id">1147</span>Chrzanów Działkowa (1)</a>
+<a class="stop" href="../rozklady/105/1149-szpital.html"><span class="stop-id">1149</span>Chrzanów Piaski (1)</a>
+<a class="stop" href="../rozklady/105/1150-szpital.html"><span class="stop-id">1150</span>Luszowice Piaski (1)</a>
+<a class="stop" href="../rozklady/105/1154-szpital.html"><span class="stop-id">1154</span>Luszowice (2)</a>
+<a class="stop" href="../rozklady/105/1152-szpital.html"><span class="stop-id">1152</span>Luszowice II (1)</a>
+<div class="zone zone-trzebinia">STREFA TRZEBINIA</div>
+<a class="stop" href="../rozklady/105/0990-szpital.html"><span class="stop-id">0990</span>Trzebinia Góry Luszowskie (1)</a>
+<a class="stop variant" href="../rozklady/105/0988-szpital.html"><span class="stop-id">0988</span>Trzebinia Podbuczyna (0)</a>
+<a class="stop" href="../rozklady/105/1003-szpital.html"><span class="stop-id">1003</span>Trzebinia Siersza Polna (1)</a>
+<a class="stop" href="../rozklady/105/0998-szpital.html"><span class="stop-id">0998</span>Trzebinia Siersza Na Moście (2)</a>
+<a class="stop" href="../rozklady/105/0995-szpital.html"><span class="stop-id">0995</span>Trzebinia Siersza Liceum (1)</a>
+<a class="stop" href="../rozklady/105/0994-szpital.html"><span class="stop-id">0994</span>Trzebinia Siersza Kościół (2)</a>
+<a class="stop" href="../rozklady/105/0992-szpital.html"><span class="stop-id">0992</span>Trzebinia Siersza Stadion (2)</a>
+<a class="stop" href="../rozklady/105/1008-szpital.html"><span class="stop-id">1008</span>Trzebinia Siersza Trętowiec (2)</a>
+<a class="stop" href="../rozklady/105/1006-szpital.html"><span class="stop-id">1006</span>Trzebinia Siersza Ośrodek Zdrowia (2)</a>
+<a class="stop" href="../rozklady/105/0972-szpital.html"><span class="stop-id">0972</span>Trzebinia KWK Siersza (1)</a>
+<a class="stop" href="../rozklady/105/0970-szpital.html"><span class="stop-id">0970</span>Trzebinia Krze I (1)</a>
+<a class="stop" href="../rozklady/105/0975-szpital.html"><span class="stop-id">0975</span>Trzebinia Górka Kościół (2)</a>
+<a class="stop" href="../rozklady/105/1055-szpital.html"><span class="stop-id">1055</span>Trzebinia Kolonia (1)</a>
+<a class="stop" href="../rozklady/105/1057-szpital.html"><span class="stop-id">1057</span>Trzebinia Wodna (2)</a>
+<a class="stop" href="../rozklady/105/0987-szpital.html"><span class="stop-id">0987</span>Trzebinia Trzebionka (2)</a>
+<a class="stop" href="../rozklady/105/1029-szpital.html"><span class="stop-id">1029</span>Trzebinia Górka (2)</a>
+<a class="stop" href="../rozklady/105/1028-szpital.html"><span class="stop-id">1028</span>Trzebinia Balaton (2)</a>
+<a class="stop variant" href="../rozklady/105/0123-szpital.html"><span class="stop-id">0123</span>Trzebinia Krakowska (0)</a>
+<a class="stop variant" href="../rozklady/105/0356-szpital.html"><span class="stop-id">0356</span>Trzebinia Os. Widokowe Schody (2)</a>
+<a class="stop variant" href="../rozklady/105/0357-szpital.html"><span class="stop-id">0357</span>Trzebinia Os. Widokowe Kiosk (2)</a>
+<a class="stop variant" href="../rozklady/105/0358-szpital.html"><span class="stop-id">0358</span>Trzebinia Os. Widokowe Szkoła (1)</a>
+<a class="stop" href="../rozklady/105/0088-szpital.html"><span class="stop-id">0088</span>Trzebinia Mały Rynek Kościuszki (0)</a>
+<a class="stop variant" href="../rozklady/105/1026-szpital.html"><span class="stop-id">1026</span>Trzebinia Harcerska Przychodnia (0)</a>
+<a class="stop terminal" href="../rozklady/105/0089-szpital.html"><span class="stop-id">0089</span>Trzebinia Dworzec PKP (1)</a>
+<a class="stop" href="../rozklady/105/0090-szpital.html"><span class="stop-id">0090</span>Trzebinia Długa (1)</a>
+<a class="stop" href="../rozklady/105/0091-szpital.html"><span class="stop-id">0091</span>Trzebinia Berezka (2)</a>
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+<a class="stop variant" href="../rozklady/105/0092-szpital.html"><span class="stop-id">0092</span>Chrzanów Valeo (2)</a>
+<a class="stop" href="../rozklady/105/0397-szpital.html"><span class="stop-id">0397</span>Chrzanów Trzebińska (1)</a>
+<a class="stop" href="../rozklady/105/0117-szpital.html"><span class="stop-id">0117</span>Chrzanów Szpitalna (3)</a>
+<a class="stop terminal" href="../rozklady/105/0118-szpital.html"><span class="stop-id">0118</span>Chrzanów Szpital (1)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
