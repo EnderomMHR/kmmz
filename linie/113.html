@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 113</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-trzebinia{
+    background:#d9d2e9;
+    color:#222;
+}
+
+.zone-chrzanow{
+    background:#a4c2f4;
+    color:#222;
+}
+  
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">113</div>
+
+<div class="route">
+(Chrzanów Szpital) - Trzebinia Dworzec PKP - (Siersza) - Myślachowice - (Czyżówka Pętla) - Płoki Centrum
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Płoki Centrum</h2>
+
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+<a class="stop variant terminal" href="../rozklady/113/0093-ploki.html"><span class="stop-id">0093</span>Chrzanów Szpital (2)</a>
+<a class="stop variant" href="../rozklady/113/0094-ploki.html"><span class="stop-id">0094</span>Chrzanów Szpitalna (1)</a>
+<a class="stop variant" href="../rozklady/113/0398-ploki.html"><span class="stop-id">0398</span>Chrzanów Trzebińska (2)</a>
+<div class="zone zone-trzebinia">STREFA TRZEBINIA</div>
+<a class="stop variant" href="../rozklady/113/0120-ploki.html"><span class="stop-id">0120</span>Trzebinia Berezka (1)</a>
+<a class="stop variant" href="../rozklady/113/0121-ploki.html"><span class="stop-id">0121</span>Trzebinia Długa (2)</a>
+<a class="stop terminal" href="../rozklady/113/0122-ploki.html"><span class="stop-id">0122</span>Trzebinia Dworzec PKP (2)</a>
+<a class="stop variant" href="../rozklady/113/1216-ploki.html"><span class="stop-id">1216</span>Trzebinia Gumownia (2)</a>
+<a class="stop variant" href="../rozklady/113/1025-ploki.html"><span class="stop-id">1025</span>Trzebinia Zakłady Tłuszczowe (2)</a>
+<a class="stop variant" href="../rozklady/113/1023-ploki.html"><span class="stop-id">1023</span>Trzebinia Słowackiego (2)</a>
+<a class="stop" href="../rozklady/113/3295-ploki.html"><span class="stop-id">3295</span>Trzebinia Mały Rynek (1)</a>
+<a class="stop" href="../rozklady/113/0983-ploki.html"><span class="stop-id">0983</span>Trzebinia Piłsudskiego Kościół (1)</a>
+<a class="stop variant" href="../rozklady/113/0943-ploki.html"><span class="stop-id">0943</span>Trzebinia Zbyszek (3)</a>
+<a class="stop variant" href="../rozklady/113/0968-ploki.html"><span class="stop-id">0968</span>Trzebinia Krze (1)</a>
+<a class="stop variant" href="../rozklady/113/0973-ploki.html"><span class="stop-id">0973</span>Trzebinia KWK Siersza (2)</a>
+<a class="stop variant" href="../rozklady/113/1005-ploki.html"><span class="stop-id">1005</span>Trzebinia Siersza Ośrodek Zdrowia (1)</a>
+<a class="stop variant" href="../rozklady/113/1007-ploki.html"><span class="stop-id">1007</span>Trzebinia Siersza Trętowiec (1)</a>
+<a class="stop variant" href="../rozklady/113/0991-ploki.html"><span class="stop-id">0991</span>Trzebinia Siersza Stadion (1)</a>
+<a class="stop variant" href="../rozklady/113/0993-ploki.html"><span class="stop-id">0993</span>Trzebinia Siersza Kościół (1)</a>
+<a class="stop variant" href="../rozklady/113/1525-ploki.html"><span class="stop-id">1525</span>Trzebinia Siersza Liceum (2)</a>
+<a class="stop variant" href="../rozklady/113/0996-ploki.html"><span class="stop-id">0996</span>Trzebinia Siersza Zwycięstwa (0)</a>
+<a class="stop variant" href="../rozklady/113/0995-ploki.html"><span class="stop-id">0995</span>Trzebinia Siersza Liceum (1)</a>
+<a class="stop variant" href="../rozklady/113/0994-ploki.html"><span class="stop-id">0994</span>Trzebinia Siersza Kościół (2)</a>
+<a class="stop variant" href="../rozklady/113/0992-ploki.html"><span class="stop-id">0992</span>Trzebinia Siersza Stadion (2)</a>
+<a class="stop variant" href="../rozklady/113/1008-ploki.html"><span class="stop-id">1008</span>Trzebinia Siersza Trętowiec (2)</a>
+<a class="stop variant" href="../rozklady/113/1006-ploki.html"><span class="stop-id">1006</span>Trzebinia Siersza Ośrodek Zdrowia (2)</a>
+<a class="stop variant" href="../rozklady/113/0972-ploki.html"><span class="stop-id">0972</span>Trzebinia KWK Siersza (1)</a>
+<a class="stop variant" href="../rozklady/113/0969-ploki.html"><span class="stop-id">0969</span>Trzebinia Krze (2)</a>
+<a class="stop" href="../rozklady/113/0941-ploki.html"><span class="stop-id">0941</span>Trzebinia Zbyszek (1)</a>
+<a class="stop" href="../rozklady/113/0937-ploki.html"><span class="stop-id">0937</span>Myślachowice Centrum (2)</a>
+<a class="stop" href="../rozklady/113/1511-ploki.html"><span class="stop-id">1511</span>Myślachowice RSP (2)</a>
+<a class="stop" href="../rozklady/113/0807-ploki.html"><span class="stop-id">0807</span>Płoki Leśniczówka (2)</a>
+<a class="stop terminal" href="../rozklady/113/0805-ploki.html"><span class="stop-id">0805</span>Płoki Centrum (2)</a>
+<a class="stop variant" href="../rozklady/113/0934-ploki.html"><span class="stop-id">0934</span>Myślachowice Centrum I (1)</a>
+<a class="stop variant" href="../rozklady/113/0939-ploki.html"><span class="stop-id">0939</span>Myślachowice Sierszecka (2)</a>
+<a class="stop variant" href="../rozklady/113/3296-ploki.html"><span class="stop-id">3296</span>Myślachowice Piekarnia (2)</a>
+<a class="stop variant" href="../rozklady/113/0927-ploki.html"><span class="stop-id">0927</span>Czyżówka Piła Myślachowicka (2)</a>
+<a class="stop variant" href="../rozklady/113/0809-ploki.html"><span class="stop-id">0809</span>Czyżówka Mostek (2)</a>
+<a class="stop variant" href="../rozklady/113/0924-ploki.html"><span class="stop-id">0924</span>Czyżówka Kaplica (1)</a>
+<a class="stop variant terminal" href="../rozklady/113/2921-ploki.html"><span class="stop-id">2921</span>Czyżówka Pętla (1)</a>
+<a class="stop variant" href="../rozklady/113/0925-ploki.html"><span class="stop-id">0925</span>Czyżówka Kaplica (2)</a>
+<a class="stop variant" href="../rozklady/113/0803-ploki.html"><span class="stop-id">0803</span>Płoki Plac Zabaw (1)</a>
+<a class="stop variant terminal" href="../rozklady/113/0804-ploki.html"><span class="stop-id">0804</span>Płoki Centrum (1)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Trzebinia Dworzec PKP</h2>
+
+<div class="zone zone-trzebinia">STREFA TRZEBINIA</div>
+<a class="stop variant terminal" href="../rozklady/113/0805-trzebinia.html"><span class="stop-id">0805</span>Płoki Centrum (2)</a>
+<a class="stop variant" href="../rozklady/113/1522-trzebinia.html"><span class="stop-id">1522</span>Płoki Plac Zabaw (2)</a>
+<a class="stop variant" href="../rozklady/113/0924-trzebinia.html"><span class="stop-id">0924</span>Czyżówka Kaplica (1)</a>
+<a class="stop variant terminal" href="../rozklady/113/2921-trzebinia.html"><span class="stop-id">2921</span>Czyżówka Pętla (1)</a>
+<a class="stop variant" href="../rozklady/113/0925-trzebinia.html"><span class="stop-id">0925</span>Czyżówka Kaplica (2)</a>
+<a class="stop variant" href="../rozklady/113/0808-trzebinia.html"><span class="stop-id">0808</span>Czyżówka Mostek (1)</a>
+<a class="stop variant" href="../rozklady/113/0926-trzebinia.html"><span class="stop-id">0926</span>Czyżówka Piła Myślachowicka (1)</a>
+<a class="stop variant" href="../rozklady/113/0940-trzebinia.html"><span class="stop-id">0940</span>Myślachowice Piekarnia (1)</a>
+<a class="stop variant" href="../rozklady/113/0938-trzebinia.html"><span class="stop-id">0938</span>Myślachowice Sierszecka (1)</a>
+<a class="stop variant" href="../rozklady/113/0935-trzebinia.html"><span class="stop-id">0935</span>Myślachowice Centrum I (2)</a>
+<a class="stop terminal" href="../rozklady/113/0804-trzebinia.html"><span class="stop-id">0804</span>Płoki Centrum (1)</a>
+<a class="stop" href="../rozklady/113/0806-trzebinia.html"><span class="stop-id">0806</span>Płoki Leśniczówka (1)</a>
+<a class="stop" href="../rozklady/113/0929-trzebinia.html"><span class="stop-id">0929</span>Myślachowice RSP (1)</a>
+<a class="stop" href="../rozklady/113/0936-trzebinia.html"><span class="stop-id">0936</span>Myślachowice Centrum (1)</a>
+<a class="stop variant" href="../rozklady/113/0943-trzebinia.html"><span class="stop-id">0943</span>Trzebinia Zbyszek (3)</a>
+<a class="stop variant" href="../rozklady/113/0968-trzebinia.html"><span class="stop-id">0968</span>Trzebinia Krze (1)</a>
+<a class="stop variant" href="../rozklady/113/0973-trzebinia.html"><span class="stop-id">0973</span>Trzebinia KWK Siersza (2)</a>
+<a class="stop variant" href="../rozklady/113/1005-trzebinia.html"><span class="stop-id">1005</span>Trzebinia Siersza Ośrodek Zdrowia (1)</a>
+<a class="stop variant" href="../rozklady/113/1007-trzebinia.html"><span class="stop-id">1007</span>Trzebinia Siersza Trętowiec (1)</a>
+<a class="stop variant" href="../rozklady/113/0991-trzebinia.html"><span class="stop-id">0991</span>Trzebinia Siersza Stadion (1)</a>
+<a class="stop variant" href="../rozklady/113/0993-trzebinia.html"><span class="stop-id">0993</span>Trzebinia Siersza Kościół (1)</a>
+<a class="stop variant" href="../rozklady/113/1525-trzebinia.html"><span class="stop-id">1525</span>Trzebinia Siersza Liceum (2)</a>
+<a class="stop variant" href="../rozklady/113/0996-trzebinia.html"><span class="stop-id">0996</span>Trzebinia Siersza Zwycięstwa (0)</a>
+<a class="stop variant" href="../rozklady/113/0995-trzebinia.html"><span class="stop-id">0995</span>Trzebinia Siersza Liceum (1)</a>
+<a class="stop variant" href="../rozklady/113/0994-trzebinia.html"><span class="stop-id">0994</span>Trzebinia Siersza Kościół (2)</a>
+<a class="stop variant" href="../rozklady/113/0992-trzebinia.html"><span class="stop-id">0992</span>Trzebinia Siersza Stadion (2)</a>
+<a class="stop variant" href="../rozklady/113/1008-trzebinia.html"><span class="stop-id">1008</span>Trzebinia Siersza Trętowiec (2)</a>
+<a class="stop variant" href="../rozklady/113/1006-trzebinia.html"><span class="stop-id">1006</span>Trzebinia Siersza Ośrodek Zdrowia (2)</a>
+<a class="stop variant" href="../rozklady/113/0972-trzebinia.html"><span class="stop-id">0972</span>Trzebinia KWK Siersza (1)</a>
+<a class="stop variant" href="../rozklady/113/0969-trzebinia.html"><span class="stop-id">0969</span>Trzebinia Krze (2)</a>
+<a class="stop" href="../rozklady/113/0942-trzebinia.html"><span class="stop-id">0942</span>Trzebinia Zbyszek (2)</a>
+<a class="stop" href="../rozklady/113/0982-trzebinia.html"><span class="stop-id">0982</span>Trzebinia Piłsudskiego Kościół (2)</a>
+<a class="stop variant" href="../rozklady/113/0123-trzebinia.html"><span class="stop-id">0123</span>Trzebinia Krakowska (0)</a>
+<a class="stop variant" href="../rozklady/113/1022-trzebinia.html"><span class="stop-id">1022</span>Trzebinia Słowackiego (1)</a>
+<a class="stop variant" href="../rozklady/113/1024-trzebinia.html"><span class="stop-id">1024</span>Trzebinia Zakłady Tłuszczowe (1)</a>
+<a class="stop variant" href="../rozklady/113/1215-trzebinia.html"><span class="stop-id">1215</span>Trzebinia Gumownia (1)</a>
+<a class="stop" href="../rozklady/113/0088-trzebinia.html"><span class="stop-id">0088</span>Trzebinia Mały Rynek Kościuszki (0)</a>
+<a class="stop terminal" href="../rozklady/113/0089-trzebinia.html"><span class="stop-id">0089</span>Trzebinia Dworzec PKP (1)</a>
+<a class="stop variant" href="../rozklady/113/0090-trzebinia.html"><span class="stop-id">0090</span>Trzebinia Długa (1)</a>
+<a class="stop variant" href="../rozklady/113/0091-trzebinia.html"><span class="stop-id">0091</span>Trzebinia Berezka (2)</a>
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+<a class="stop variant" href="../rozklady/113/0397-trzebinia.html"><span class="stop-id">0397</span>Chrzanów Trzebińska (1)</a>
+<a class="stop variant" href="../rozklady/113/0117-trzebinia.html"><span class="stop-id">0117</span>Chrzanów Szpitalna (3)</a>
+<a class="stop variant terminal" href="../rozklady/113/0118-trzebinia.html"><span class="stop-id">0118</span>Chrzanów Szpital (1)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
