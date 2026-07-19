@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 114</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-krzeszowice{
+    background:#f9cb9a;
+    color:#222;
+}
+
+.zone-jerzmanowice-przeginia{
+    background:#ea9998;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">114</div>
+
+<div class="route">
+(Przeginia Kościół) - (Gotkowice) - (Jerzmanowice) - Łazy Remiza - Jerzmanowice - Szklary - Dubie - Siedlec - Żbik - Krzeszowice Dworzec Autobusowy
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Krzeszowice Dworzec Autobusowy</h2>
+
+<div class="zone zone-jerzmanowice-przeginia">STREFA JERZMANOWICE-PRZEGINIA</div>
+<a class="stop variant terminal" href="../rozklady/114/1601-krzeszowice.html"><span class="stop-id">1601</span>Przeginia Kościół (1)</a>
+<a class="stop variant" href="../rozklady/114/1654-krzeszowice.html"><span class="stop-id">1654</span>Przeginia Dom Ludowy (2)</a>
+<a class="stop variant" href="../rozklady/114/1647-krzeszowice.html"><span class="stop-id">1647</span>Przeginia Skotnica (1)</a>
+<a class="stop variant" href="../rozklady/114/1649-krzeszowice.html"><span class="stop-id">1649</span>Przeginia Ostra Góra (1)</a>
+<a class="stop variant" href="../rozklady/114/1652-krzeszowice.html"><span class="stop-id">1652</span>Gotkowice Wieś (2)</a>
+<a class="stop variant" href="../rozklady/114/1660-krzeszowice.html"><span class="stop-id">1660</span>Jerzmanowice Ojcowska (2)</a>
+<a class="stop variant" href="../rozklady/114/1662-krzeszowice.html"><span class="stop-id">1662</span>Jerzmanowice Centralna (2)</a>
+<a class="stop variant" href="../rozklady/114/3308-krzeszowice.html"><span class="stop-id">3308</span>Jerzmanowice Kolonia Łazowska I (2)</a>
+<a class="stop variant" href="../rozklady/114/3309-krzeszowice.html"><span class="stop-id">3309</span>Jerzmanowice Kolonia Łazowska II (2)</a>
+<a class="stop variant" href="../rozklady/114/1557-krzeszowice.html"><span class="stop-id">1557</span>Łazy I (1)</a>
+<a class="stop variant" href="../rozklady/114/1556-krzeszowice.html"><span class="stop-id">1556</span>Łazy Schronisko (1)</a>
+<a class="stop terminal" href="../rozklady/114/1555-krzeszowice.html"><span class="stop-id">1555</span>Łazy Remiza (1)</a>
+<a class="stop" href="../rozklady/114/1559-krzeszowice.html"><span class="stop-id">1559</span>Łazy Schronisko (2)</a>
+<a class="stop" href="../rozklady/114/1558-krzeszowice.html"><span class="stop-id">1558</span>Łazy I (2)</a>
+<a class="stop" href="../rozklady/114/3310-krzeszowice.html"><span class="stop-id">3310</span>Jerzmanowice Kolonia Doły II Kopaniny (2)</a>
+<a class="stop" href="../rozklady/114/3314-krzeszowice.html"><span class="stop-id">3314</span>Jerzmanowice Kolonia Doły I (1)</a>
+<a class="stop" href="../rozklady/114/1646-krzeszowice.html"><span class="stop-id">1646</span>Jerzmanowice Doły (1)</a>
+<a class="stop" href="../rozklady/114/1638-krzeszowice.html"><span class="stop-id">1638</span>Jerzmanowice Centrum (2)</a>
+<a class="stop" href="../rozklady/114/1639-krzeszowice.html"><span class="stop-id">1639</span>Jerzmanowice Stara Wieś (2)</a>
+<a class="stop" href="../rozklady/114/1635-krzeszowice.html"><span class="stop-id">1635</span>Jerzmanowice Pióro (2)</a>
+<a class="stop" href="../rozklady/114/1640-krzeszowice.html"><span class="stop-id">1640</span>Szklary Granica (2)</a>
+<a class="stop" href="../rozklady/114/1641-krzeszowice.html"><span class="stop-id">1641</span>Szklary Cmentarz (2)</a>
+<a class="stop" href="../rozklady/114/1631-krzeszowice.html"><span class="stop-id">1631</span>Szklary Kościół (1)</a>
+<a class="stop" href="../rozklady/114/1630-krzeszowice.html"><span class="stop-id">1630</span>Szklary Remiza (1)</a>
+<a class="stop" href="../rozklady/114/1644-krzeszowice.html"><span class="stop-id">1644</span>Szklary Tartak (2)</a>
+<div class="zone zone-krzeszowice">STREFA KRZESZOWICE</div>
+<a class="stop" href="../rozklady/114/1437-krzeszowice.html"><span class="stop-id">1437</span>Żary Pętla (0)</a>
+<a class="stop" href="../rozklady/114/1434-krzeszowice.html"><span class="stop-id">1434</span>Dubie Leśniczówka (2)</a>
+<a class="stop" href="../rozklady/114/1435-krzeszowice.html"><span class="stop-id">1435</span>Dubie Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/114/1450-krzeszowice.html"><span class="stop-id">1450</span>Siedlec Osiedle (2)</a>
+<a class="stop" href="../rozklady/114/1407-krzeszowice.html"><span class="stop-id">1407</span>Siedlec Pętla (0)</a>
+<a class="stop" href="../rozklady/114/1449-krzeszowice.html"><span class="stop-id">1449</span>Siedlec Szafraniec (2)</a>
+<a class="stop" href="../rozklady/114/1406-krzeszowice.html"><span class="stop-id">1406</span>Krzeszowice Osiedle Żbik (1)</a>
+<a class="stop" href="../rozklady/114/2911-krzeszowice.html"><span class="stop-id">2911</span>Krzeszowice Nowy Świat (1)</a>
+<a class="stop" href="../rozklady/114/1403-krzeszowice.html"><span class="stop-id">1403</span>Krzeszowice Ćmany (1)</a>
+<a class="stop" href="../rozklady/114/1364-krzeszowice.html"><span class="stop-id">1364</span>Krzeszowice Witaminka (1)</a>
+<a class="stop" href="../rozklady/114/0050-krzeszowice.html"><span class="stop-id">0050</span>Krzeszowice Pogotowie Ratunkowe (1)</a>
+<a class="stop terminal" href="../rozklady/114/0134-krzeszowice.html"><span class="stop-id">0134</span>Krzeszowice Dworzec Autobusowy (3)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Łazy Remiza</h2>
+
+<div class="zone zone-krzeszowice">STREFA KRZESZOWICE</div>
+<a class="stop terminal" href="../rozklady/114/1677-lazy.html"><span class="stop-id">1677</span>Krzeszowice Dworzec Autobusowy (1)</a>
+<a class="stop" href="../rozklady/114/0135-lazy.html"><span class="stop-id">0135</span>Krzeszowice 3-ego Maja (1)</a>
+<a class="stop" href="../rozklady/114/1365-lazy.html"><span class="stop-id">1365</span>Krzeszowice Witaminka (2)</a>
+<a class="stop" href="../rozklady/114/1404-lazy.html"><span class="stop-id">1404</span>Krzeszowice Ćmany (2)</a>
+<a class="stop" href="../rozklady/114/2912-lazy.html"><span class="stop-id">2912</span>Krzeszowice Nowy Świat (2)</a>
+<a class="stop" href="../rozklady/114/1405-lazy.html"><span class="stop-id">1405</span>Krzeszowice Osiedle Żbik (2)</a>
+<a class="stop" href="../rozklady/114/1448-lazy.html"><span class="stop-id">1448</span>Siedlec Szafraniec (1)</a>
+<a class="stop" href="../rozklady/114/1407-lazy.html"><span class="stop-id">1407</span>Siedlec Pętla (0)</a>
+<a class="stop" href="../rozklady/114/1451-lazy.html"><span class="stop-id">1451</span>Siedlec Osiedle (1)</a>
+<a class="stop" href="../rozklady/114/1433-lazy.html"><span class="stop-id">1433</span>Dubie Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/114/1436-lazy.html"><span class="stop-id">1436</span>Dubie Leśniczówka (1)</a>
+<a class="stop" href="../rozklady/114/1437-lazy.html"><span class="stop-id">1437</span>Żary Pętla (0)</a>
+<div class="zone zone-jerzmanowice-przeginia">STREFA JERZMANOWICE-PRZEGINIA</div>
+<a class="stop" href="../rozklady/114/1629-lazy.html"><span class="stop-id">1629</span>Szklary Tartak (1)</a>
+<a class="stop" href="../rozklady/114/1643-lazy.html"><span class="stop-id">1643</span>Szklary Remiza (2)</a>
+<a class="stop" href="../rozklady/114/1642-lazy.html"><span class="stop-id">1642</span>Szklary Kościół (2)</a>
+<a class="stop" href="../rozklady/114/1632-lazy.html"><span class="stop-id">1632</span>Szklary Cmentarz (1)</a>
+<a class="stop" href="../rozklady/114/1633-lazy.html"><span class="stop-id">1633</span>Szklary Granica (1)</a>
+<a class="stop" href="../rozklady/114/1634-lazy.html"><span class="stop-id">1634</span>Jerzmanowice Pióro (1)</a>
+<a class="stop" href="../rozklady/114/1636-lazy.html"><span class="stop-id">1636</span>Jerzmanowice Stara Wieś (1)</a>
+<a class="stop" href="../rozklady/114/1637-lazy.html"><span class="stop-id">1637</span>Jerzmanowice Centrum (1)</a>
+<a class="stop" href="../rozklady/114/1662-lazy.html"><span class="stop-id">1662</span>Jerzmanowice Centralna (2)</a>
+<a class="stop" href="../rozklady/114/3319-lazy.html"><span class="stop-id">3319</span>Jerzmanowice Doły (2)</a>
+<a class="stop" href="../rozklady/114/1657-lazy.html"><span class="stop-id">1657</span>Jerzmanowice Kolonia Doły I (2)</a>
+<a class="stop" href="../rozklady/114/1651-lazy.html"><span class="stop-id">1651</span>Jerzmanowice Kolonia Doły II Kopaniny (0)</a>
+<a class="stop" href="../rozklady/114/1557-lazy.html"><span class="stop-id">1557</span>Łazy I (1)</a>
+<a class="stop" href="../rozklady/114/1556-lazy.html"><span class="stop-id">1556</span>Łazy Schronisko (1)</a>
+<a class="stop terminal" href="../rozklady/114/1555-lazy.html"><span class="stop-id">1555</span>Łazy Remiza (1)</a>
+<a class="stop variant" href="../rozklady/114/1559-lazy.html"><span class="stop-id">1559</span>Łazy Schronisko (2)</a>
+<a class="stop variant" href="../rozklady/114/1558-lazy.html"><span class="stop-id">1558</span>Łazy I (2)</a>
+<a class="stop variant" href="../rozklady/114/2777-lazy.html"><span class="stop-id">2777</span>Jerzmanowice Kolonia Łazowska II (1)</a>
+<a class="stop variant" href="../rozklady/114/1656-lazy.html"><span class="stop-id">1656</span>Jerzmanowice Kolonia Łazowska I (1)</a>
+<a class="stop variant" href="../rozklady/114/1661-lazy.html"><span class="stop-id">1661</span>Jerzmanowice Centralna (1)</a>
+<a class="stop variant" href="../rozklady/114/1659-lazy.html"><span class="stop-id">1659</span>Jerzmanowice Ojcowska (1)</a>
+<a class="stop variant" href="../rozklady/114/1650-lazy.html"><span class="stop-id">1650</span>Gotkowice Wieś (1)</a>
+<a class="stop variant" href="../rozklady/114/1653-lazy.html"><span class="stop-id">1653</span>Przeginia Ostra Góra (2)</a>
+<a class="stop variant" href="../rozklady/114/1655-lazy.html"><span class="stop-id">1655</span>Przeginia Skotnica (2)</a>
+<a class="stop variant" href="../rozklady/114/1648-lazy.html"><span class="stop-id">1648</span>Przeginia Dom Ludowy (1)</a>
+<a class="stop variant terminal" href="../rozklady/114/1600-lazy.html"><span class="stop-id">1600</span>Przeginia Kościół (2)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
