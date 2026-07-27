@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 117</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-chrzanow{
+    background:#a4c2f4;
+    color:#222;
+}
+
+.zone-trzebinia{
+    background:#d9d2e9;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">117</div>
+
+<div class="route">
+Młoszowa Wzgórze II - Trzebinia - Chrzanów - Kościelec - Płaza Dolna I
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Płaza Dolna I</h2>
+
+<div class="zone zone-trzebinia">STREFA TRZEBINIA</div>
+<a class="stop terminal" href="../rozklady/117/0082-plaza.html"><span class="stop-id">0082</span>Młoszowa Wzgórze II (2)</a>
+<a class="stop" href="../rozklady/117/0083-plaza.html"><span class="stop-id">0083</span>Młoszowa Wzgórze na żądanie (1)</a>
+<a class="stop" href="../rozklady/117/0084-plaza.html"><span class="stop-id">0084</span>Młoszowa Wzgórze I (1)</a>
+<a class="stop" href="../rozklady/117/0085-plaza.html"><span class="stop-id">0085</span>Młoszowa Studium (2)</a>
+<a class="stop" href="../rozklady/117/0086-plaza.html"><span class="stop-id">0086</span>Młoszowa (1)</a>
+<a class="stop" href="../rozklady/117/0087-plaza.html"><span class="stop-id">0087</span>Trzebinia Szkoła (1)</a>
+<a class="stop" href="../rozklady/117/0088-plaza.html"><span class="stop-id">0088</span>Trzebinia Mały Rynek Kościuszki (0)</a>
+<a class="stop variant" href="../rozklady/117/1026-plaza.html"><span class="stop-id">1026</span>Trzebinia Harcerska Przychodnia (0)</a>
+<a class="stop" href="../rozklady/117/0089-plaza.html"><span class="stop-id">0089</span>Trzebinia Dworzec PKP (1)</a>
+<a class="stop" href="../rozklady/117/0090-plaza.html"><span class="stop-id">0090</span>Trzebinia Długa (1)</a>
+<a class="stop" href="../rozklady/117/0091-plaza.html"><span class="stop-id">0091</span>Trzebinia Berezka (2)</a>
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+<a class="stop" href="../rozklady/117/0397-plaza.html"><span class="stop-id">0397</span>Chrzanów Trzebińska (1)</a>
+<a class="stop" href="../rozklady/117/1058-plaza.html"><span class="stop-id">1058</span>Chrzanów Szpitalna (2)</a>
+<a class="stop" href="../rozklady/117/1161-plaza.html"><span class="stop-id">1161</span>Chrzanów Kościelec Staw (1)</a>
+<a class="stop" href="../rozklady/117/1162-plaza.html"><span class="stop-id">1162</span>Chrzanów Kościelec (1)</a>
+<a class="stop" href="../rozklady/117/1217-plaza.html"><span class="stop-id">1217</span>Chrzanów Kościelec Las (1)</a>
+<a class="stop" href="../rozklady/117/1524-plaza.html"><span class="stop-id">1524</span>Płaza Wapiennik II (2)</a>
+<a class="stop" href="../rozklady/117/1220-plaza.html"><span class="stop-id">1220</span>Płaza Wapiennik I (1)</a>
+<a class="stop" href="../rozklady/117/1223-plaza.html"><span class="stop-id">1223</span>Płaza Działki (2)</a>
+<a class="stop" href="../rozklady/117/1086-plaza.html"><span class="stop-id">1086</span>Płaza Cmentarz (2)</a>
+<a class="stop" href="../rozklady/117/0581-plaza.html"><span class="stop-id">0581</span>Płaza Górna Kościół (1)</a>
+<a class="stop" href="../rozklady/117/0582-plaza.html"><span class="stop-id">0582</span>Płaza Role (1)</a>
+<a class="stop" href="../rozklady/117/0583-plaza.html"><span class="stop-id">0583</span>Płaza Dolna II (1)</a>
+<a class="stop terminal" href="../rozklady/117/0584-plaza.html"><span class="stop-id">0584</span>Płaza Dolna I (2)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Młoszowa Wzgórze II</h2>
+
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+<a class="stop terminal" href="../rozklady/117/0599-mloszowa.html"><span class="stop-id">0599</span>Płaza Dolna I (1)</a>
+<a class="stop" href="../rozklady/117/0600-mloszowa.html"><span class="stop-id">0600</span>Płaza Dolna II (2)</a>
+<a class="stop" href="../rozklady/117/0601-mloszowa.html"><span class="stop-id">0601</span>Płaza Role (2)</a>
+<a class="stop" href="../rozklady/117/0602-mloszowa.html"><span class="stop-id">0602</span>Płaza Górna Kościół (2)</a>
+<a class="stop" href="../rozklady/117/1085-mloszowa.html"><span class="stop-id">1085</span>Płaza Cmentarz (1)</a>
+<a class="stop" href="../rozklady/117/1222-mloszowa.html"><span class="stop-id">1222</span>Płaza Działki (1)</a>
+<a class="stop" href="../rozklady/117/1221-mloszowa.html"><span class="stop-id">1221</span>Płaza Wapiennik I (2)</a>
+<a class="stop" href="../rozklady/117/1219-mloszowa.html"><span class="stop-id">1219</span>Płaza Wapiennik II (1)</a>
+<a class="stop" href="../rozklady/117/1218-mloszowa.html"><span class="stop-id">1218</span>Chrzanów Kościelec Las (2)</a>
+<a class="stop" href="../rozklady/117/1163-mloszowa.html"><span class="stop-id">1163</span>Chrzanów Kościelec (2)</a>
+<a class="stop variant" href="../rozklady/117/1160-mloszowa.html"><span class="stop-id">1160</span>Chrzanów Sendlerowej (0)</a>
+<a class="stop variant" href="../rozklady/117/1159-mloszowa.html"><span class="stop-id">1159</span>Chrzanów Kasztanowa (0)</a>
+<a class="stop variant" href="../rozklady/117/1158-mloszowa.html"><span class="stop-id">1158</span>Chrzanów Kościelec Kościół (0)</a>
+<a class="stop" href="../rozklady/117/1164-mloszowa.html"><span class="stop-id">1164</span>Chrzanów Kościelec Staw (2)</a>
+<a class="stop" href="../rozklady/117/0094-mloszowa.html"><span class="stop-id">0094</span>Chrzanów Szpitalna (1)</a>
+<a class="stop terminal" href="../rozklady/117/0398-mloszowa.html"><span class="stop-id">0398</span>Chrzanów Trzebińska (2)</a>
+<div class="zone zone-trzebinia">STREFA TRZEBINIA</div>
+<a class="stop" href="../rozklady/117/0120-mloszowa.html"><span class="stop-id">0120</span>Trzebinia Berezka (1)</a>
+<a class="stop" href="../rozklady/117/0121-mloszowa.html"><span class="stop-id">0121</span>Trzebinia Długa (2)</a>
+<a class="stop" href="../rozklady/117/0122-mloszowa.html"><span class="stop-id">0122</span>Trzebinia Dworzec PKP (2)</a>
+<a class="stop variant" href="../rozklady/117/1026-mloszowa.html"><span class="stop-id">1026</span>Trzebinia Harcerska Przychodnia (0)</a>
+<a class="stop" href="../rozklady/117/0123-mloszowa.html"><span class="stop-id">0123</span>Trzebinia Krakowska (0)</a>
+<a class="stop" href="../rozklady/117/0124-mloszowa.html"><span class="stop-id">0124</span>Trzebinia Szkoła (2)</a>
+<a class="stop" href="../rozklady/117/0078-mloszowa.html"><span class="stop-id">0078</span>Młoszowa Florkiewicza (0)</a>
+<a class="stop" href="../rozklady/117/0079-mloszowa.html"><span class="stop-id">0079</span>Młoszowa Studium (1)</a>
+<a class="stop" href="../rozklady/117/0080-mloszowa.html"><span class="stop-id">0080</span>Młoszowa Wzgórze I (2)</a>
+<a class="stop" href="../rozklady/117/0081-mloszowa.html"><span class="stop-id">0081</span>Młoszowa Wzgórze na żądanie (2)</a>
+<a class="stop terminal" href="../rozklady/117/0082-mloszowa.html"><span class="stop-id">0082</span>Młoszowa Wzgórze II (2)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
