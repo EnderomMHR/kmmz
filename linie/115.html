@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 115</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-przeciszow{
+    background:#8e7cd3;
+    color:#222;
+}
+
+.zone-polanka-wielka{
+    background:#e16656;
+    color:#222;
+}
+
+.zone-oswiecim{
+    background:#9fc4e8;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">115</div>
+
+<div class="route">
+Piotrowice Granica - Polanka Wielka - Granica Porębska - Łazy - Grojec - Stawy Grojeckie - Stare Stawy - Oświęcim Dworzec PKP
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Oświęcim Dworzec PKP</h2>
+
+<div class="zone zone-przeciszow">STREFA PRZECISZÓW</div>
+<a class="stop terminal" href="../rozklady/115/1862-oswiecim.html"><span class="stop-id">1862</span>Piotrowice Granica (0)</a>
+<a class="stop" href="../rozklady/115/1861-oswiecim.html"><span class="stop-id">1861</span>Piotrowice Góra (1)</a>
+<a class="stop" href="../rozklady/115/1865-oswiecim.html"><span class="stop-id">1865</span>Piotrowice Szkoła (2)</a>
+<a class="stop" href="../rozklady/115/1869-oswiecim.html"><span class="stop-id">1869</span>Piotrowice Dół I (1)</a>
+<div class="zone zone-polanka-wielka">STREFA POLANKA WIELKA</div>
+<a class="stop" href="../rozklady/115/1870-oswiecim.html"><span class="stop-id">1870</span>Polanka Wielka Granica (2)</a>
+<a class="stop" href="../rozklady/115/2877-oswiecim.html"><span class="stop-id">2877</span>Polanka Wielka Łąkowa (1)</a>
+<a class="stop" href="../rozklady/115/1872-oswiecim.html"><span class="stop-id">1872</span>Polanka Wielka Sklep (1)</a>
+<a class="stop" href="../rozklady/115/1914-oswiecim.html"><span class="stop-id">1914</span>Polanka Wielka Ośrodek Zdrowia (1)</a>
+<a class="stop" href="../rozklady/115/1823-oswiecim.html"><span class="stop-id">1823</span>Polanka Wielka Dalachowice (2)</a>
+<a class="stop" href="../rozklady/115/1824-oswiecim.html"><span class="stop-id">1824</span>Polanka Wielka Dalachowice I (1)</a>
+<a class="stop" href="../rozklady/115/1826-oswiecim.html"><span class="stop-id">1826</span>Polanka Wielka Stawowa Pętla (0)</a>
+<a class="stop" href="../rozklady/115/1827-oswiecim.html"><span class="stop-id">1827</span>Polanka Wielka Wąska (1)</a>
+<a class="stop" href="../rozklady/115/1838-oswiecim.html"><span class="stop-id">1838</span>Polanka Wielka Madejówka (2)</a>
+<a class="stop" href="../rozklady/115/1829-oswiecim.html"><span class="stop-id">1829</span>Polanka Wielka Stawowa (1)</a>
+<a class="stop" href="../rozklady/115/1830-oswiecim.html"><span class="stop-id">1830</span>Polanka Wielka Pólka (1)</a>
+<div class="zone zone-oswiecim">STREFA OŚWIĘCIM</div>
+<a class="stop" href="../rozklady/115/1831-oswiecim.html"><span class="stop-id">1831</span>Łazy Hyrdzie Pętla (0)</a>
+<a class="stop" href="../rozklady/115/1832-oswiecim.html"><span class="stop-id">1832</span>Łazy Staw (1)</a>
+<a class="stop" href="../rozklady/115/1833-oswiecim.html"><span class="stop-id">1833</span>Grojec Domżał (1)</a>
+<a class="stop" href="../rozklady/115/1890-oswiecim.html"><span class="stop-id">1890</span>Grojec Dom Ludowy (1)</a>
+<a class="stop" href="../rozklady/115/1893-oswiecim.html"><span class="stop-id">1893</span>Grojec Jagiellończyka (1)</a>
+<a class="stop" href="../rozklady/115/1895-oswiecim.html"><span class="stop-id">1895</span>Grojec Krzyżówka (2)</a>
+<a class="stop" href="../rozklady/115/1896-oswiecim.html"><span class="stop-id">1896</span>Grojec Leśna Grobel (2)</a>
+<a class="stop" href="../rozklady/115/1898-oswiecim.html"><span class="stop-id">1898</span>Stawy Grojeckie Radziwiłł (2)</a>
+<a class="stop" href="../rozklady/115/1900-oswiecim.html"><span class="stop-id">1900</span>Stawy Grojeckie Stary Młyn (2)</a>
+<a class="stop" href="../rozklady/115/1903-oswiecim.html"><span class="stop-id">1903</span>Stawy Grojeckie Zerwisko (2)</a>
+<a class="stop" href="../rozklady/115/1904-oswiecim.html"><span class="stop-id">1904</span>Stawy Grojeckie Adolfin (1)</a>
+<a class="stop" href="../rozklady/115/1906-oswiecim.html"><span class="stop-id">1906</span>Oświęcim Pod Olszyną (1)</a>
+<a class="stop" href="../rozklady/115/1909-oswiecim.html"><span class="stop-id">1909</span>Oświęcim Stare Stawy Spółdzielnia (2)</a>
+<a class="stop" href="../rozklady/115/1911-oswiecim.html"><span class="stop-id">1911</span>Oświęcim Osiedle Stare Stawy (2)</a>
+<a class="stop" href="../rozklady/115/1912-oswiecim.html"><span class="stop-id">1912</span>Oświęcim Królowej Jadwigi (2)</a>
+<a class="stop" href="../rozklady/115/1550-oswiecim.html"><span class="stop-id">1550</span>Oświęcim Nojego (1)</a>
+<a class="stop" href="../rozklady/115/0628-oswiecim.html"><span class="stop-id">0628</span>Oświęcim Dąbrowskiego Miasto (1)</a>
+<a class="stop" href="../rozklady/115/0629-oswiecim.html"><span class="stop-id">0629</span>Oświęcim Stacja BP (2)</a>
+<a class="stop" href="../rozklady/115/0630-oswiecim.html"><span class="stop-id">0630</span>Oświęcim Niwa (1)</a>
+<a class="stop terminal" href="../rozklady/115/0631-oswiecim.html"><span class="stop-id">0631</span>Oświęcim Dworzec PKP (1)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Piotrowice Granica</h2>
+
+<div class="zone zone-oswiecim">STREFA OŚWIĘCIM</div>
+<a class="stop terminal" href="../rozklady/115/0666-piotrowice.html"><span class="stop-id">0666</span>Oświęcim Dworzec PKP (2)</a>
+<a class="stop" href="../rozklady/115/0667-piotrowice.html"><span class="stop-id">0667</span>Oświęcim Niwa (2)</a>
+<a class="stop" href="../rozklady/115/0668-piotrowice.html"><span class="stop-id">0668</span>Oświęcim Stacja BP (1)</a>
+<a class="stop" href="../rozklady/115/0669-piotrowice.html"><span class="stop-id">0669</span>Oświęcim Dąbrowskiego Kościół (1)</a>
+<a class="stop" href="../rozklady/115/0670-piotrowice.html"><span class="stop-id">0670</span>Oświęcim Dąbrowskiego Cmentarz (0)</a>
+<a class="stop" href="../rozklady/115/1551-piotrowice.html"><span class="stop-id">1551</span>Oświęcim Nojego (2)</a>
+<a class="stop" href="../rozklady/115/1913-piotrowice.html"><span class="stop-id">1913</span>Oświęcim Królowej Jadwigi (1)</a>
+<a class="stop" href="../rozklady/115/1910-piotrowice.html"><span class="stop-id">1910</span>Oświęcim Osiedle Stare Stawy (1)</a>
+<a class="stop" href="../rozklady/115/1908-piotrowice.html"><span class="stop-id">1908</span>Oświęcim Stare Stawy Spółdzielnia (1)</a>
+<a class="stop" href="../rozklady/115/1907-piotrowice.html"><span class="stop-id">1907</span>Oświęcim Pod Olszyną (2)</a>
+<a class="stop" href="../rozklady/115/1905-piotrowice.html"><span class="stop-id">1905</span>Stawy Grojeckie Adolfin (2)</a>
+<a class="stop" href="../rozklady/115/1902-piotrowice.html"><span class="stop-id">1902</span>Stawy Grojeckie Zerwisko (1)</a>
+<a class="stop" href="../rozklady/115/1901-piotrowice.html"><span class="stop-id">1901</span>Stawy Grojeckie Stary Młyn (1)</a>
+<a class="stop" href="../rozklady/115/1899-piotrowice.html"><span class="stop-id">1899</span>Stawy Grojeckie Radziwiłł (1)</a>
+<a class="stop" href="../rozklady/115/1897-piotrowice.html"><span class="stop-id">1897</span>Grojec Leśna Grobel (1)</a>
+<a class="stop" href="../rozklady/115/1894-piotrowice.html"><span class="stop-id">1894</span>Grojec Krzyżówka (1)</a>
+<a class="stop" href="../rozklady/115/1892-piotrowice.html"><span class="stop-id">1892</span>Grojec Jagiellończyka (2)</a>
+<a class="stop" href="../rozklady/115/1891-piotrowice.html"><span class="stop-id">1891</span>Grojec Dom Ludowy (2)</a>
+<a class="stop" href="../rozklady/115/1834-piotrowice.html"><span class="stop-id">1834</span>Grojec Domżał (2)</a>
+<a class="stop" href="../rozklady/115/1835-piotrowice.html"><span class="stop-id">1835</span>Łazy Staw (2)</a>
+<a class="stop" href="../rozklady/115/1831-piotrowice.html"><span class="stop-id">1831</span>Łazy Hyrdzie Pętla (0)</a>
+<div class="zone zone-polanka-wielka">STREFA POLANKA WIELKA</div>
+<a class="stop" href="../rozklady/115/1836-piotrowice.html"><span class="stop-id">1836</span>Polanka Wielka Pólka (2)</a>
+<a class="stop" href="../rozklady/115/1837-piotrowice.html"><span class="stop-id">1837</span>Polanka Wielka Stawowa (2)</a>
+<a class="stop" href="../rozklady/115/1828-piotrowice.html"><span class="stop-id">1828</span>Polanka Wielka Madejówka (1)</a>
+<a class="stop" href="../rozklady/115/1839-piotrowice.html"><span class="stop-id">1839</span>Polanka Wielka Wąska (2)</a>
+<a class="stop" href="../rozklady/115/1826-piotrowice.html"><span class="stop-id">1826</span>Polanka Wielka Stawowa Pętla (0)</a>
+<a class="stop" href="../rozklady/115/1825-piotrowice.html"><span class="stop-id">1825</span>Polanka Wielka Dalachowice I (2)</a>
+<a class="stop" href="../rozklady/115/1822-piotrowice.html"><span class="stop-id">1822</span>Polanka Wielka Dalachowice (1)</a>
+<a class="stop" href="../rozklady/115/1819-piotrowice.html"><span class="stop-id">1819</span>Polanka Wielka Hajduga (1)</a>
+<a class="stop" href="../rozklady/115/3323-piotrowice.html"><span class="stop-id">3323</span>Polanka Wielka Hajduga Ogrodowa (3)</a>
+<a class="stop" href="../rozklady/115/3324-piotrowice.html"><span class="stop-id">3324</span>Polanka Wielka Ogrodowa I (1)</a>
+<a class="stop" href="../rozklady/115/3325-piotrowice.html"><span class="stop-id">3325</span>Polanka Wielka Ogrodowa (1)</a>
+<a class="stop" href="../rozklady/115/1873-piotrowice.html"><span class="stop-id">1873</span>Polanka Wielka Sklep (2)</a>
+<a class="stop" href="../rozklady/115/2879-piotrowice.html"><span class="stop-id">2879</span>Polanka Wielka Łąkowa (2)</a>
+<a class="stop" href="../rozklady/115/1871-piotrowice.html"><span class="stop-id">1871</span>Polanka Wielka Granica (1)</a>
+<div class="zone zone-przeciszow">STREFA PRZECISZÓW</div>
+<a class="stop" href="../rozklady/115/1863-piotrowice.html"><span class="stop-id">1863</span>Piotrowice Dół I (2)</a>
+<a class="stop" href="../rozklady/115/1860-piotrowice.html"><span class="stop-id">1860</span>Piotrowice Szkoła (1)</a>
+<a class="stop" href="../rozklady/115/1864-piotrowice.html"><span class="stop-id">1864</span>Piotrowice Góra (2)</a>
+<a class="stop terminal" href="../rozklady/115/1862-piotrowice.html"><span class="stop-id">1862</span>Piotrowice Granica (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
