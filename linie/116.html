@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 116</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-zator{
+    background:#10ffff;
+    color:#222;
+}
+
+.zone-babice-alwernia{
+    background:#dd7e6b;
+    color:#222;
+}
+
+.zone-chrzanow{
+    background:#a4c2f4;
+    color:#222;
+}
+
+.zone-trzebinia{
+    background:#d9d2e9;
+    color:#222;
+}
+  
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">116</div>
+
+<div class="route">
+(Młoszowa) - (Trzebinia) - (Okradziejówka Pętla) - (Balin) - Chrzanów Dworzec Autobusowy - Kościelec - Płaza - Wygiełzów - Babice - (Mętków Mały) - Olszyny - Jankowice - Podolsze - Zator Rynek
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Zator Rynek</h2>
+
+<div class="zone zone-trzebinia">STREFA TRZEBINIA</div>
+<a class="stop variant terminal" href="../rozklady/116/0086-zator.html"><span class="stop-id">0086</span>Młoszowa (1)</a>
+<a class="stop variant" href="../rozklady/116/0087-zator.html"><span class="stop-id">0087</span>Trzebinia Szkoła (1)</a>
+<a class="stop variant" href="../rozklady/116/0088-zator.html"><span class="stop-id">0088</span>Trzebinia Mały Rynek Kościuszki (0)</a>
+<a class="stop variant" href="../rozklady/116/0089-zator.html"><span class="stop-id">0089</span>Trzebinia Dworzec PKP (1)</a>
+<a class="stop variant" href="../rozklady/116/0090-zator.html"><span class="stop-id">0090</span>Trzebinia Długa (1)</a>
+<a class="stop variant" href="../rozklady/116/0091-zator.html"><span class="stop-id">0091</span>Trzebinia Berezka (2)</a>
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+<a class="stop variant" href="../rozklady/116/0092-zator.html"><span class="stop-id">0092</span>Chrzanów Valeo (2)</a>
+<a class="stop variant" href="../rozklady/116/0397-zator.html"><span class="stop-id">0397</span>Chrzanów Trzebińska (1)</a>
+<a class="stop variant terminal" href="../rozklady/116/1239-zator.html"><span class="stop-id">1239</span>Okradziejówka Pętla (0)</a>
+<a class="stop variant" href="../rozklady/116/1240-zator.html"><span class="stop-id">1240</span>Okradziejówka (1)</a>
+<a class="stop variant" href="../rozklady/116/1244-zator.html"><span class="stop-id">1244</span>Balin Jaworznicka Pawilon (1)</a>
+<a class="stop variant" href="../rozklady/116/1258-zator.html"><span class="stop-id">1258</span>Balin Kościół (1)</a>
+<a class="stop variant" href="../rozklady/116/1254-zator.html"><span class="stop-id">1254</span>Balin Warpie (2)</a>
+<a class="stop variant" href="../rozklady/116/1256-zator.html"><span class="stop-id">1256</span>Balin Działki (1)</a>
+<a class="stop variant" href="../rozklady/116/0115-zator.html"><span class="stop-id">0115</span>Chrzanów Plac Tysiąclecia (2)</a>
+<a class="stop terminal" href="../rozklady/116/0334-zator.html"><span class="stop-id">0334</span>Chrzanów Dworzec Autobusowy (4)</a>
+<a class="stop" href="../rozklady/116/0096-zator.html"><span class="stop-id">0096</span>Chrzanów Plac Tysiąclecia (3)</a>
+<a class="stop" href="../rozklady/116/0352-zator.html"><span class="stop-id">0352</span>Chrzanów ZUS (1)</a>
+<a class="stop" href="../rozklady/116/0332-zator.html"><span class="stop-id">0332</span>Chrzanów Sienna (1)</a>
+<a class="stop" href="../rozklady/116/0333-zator.html"><span class="stop-id">0333</span>Chrzanów Podwale (1)</a>
+<a class="stop" href="../rozklady/116/1058-zator.html"><span class="stop-id">1058</span>Chrzanów Szpitalna (2)</a>
+<a class="stop" href="../rozklady/116/1161-zator.html"><span class="stop-id">1161</span>Chrzanów Kościelec Staw (1)</a>
+<a class="stop" href="../rozklady/116/1162-zator.html"><span class="stop-id">1162</span>Chrzanów Kościelec (1)</a>
+<a class="stop" href="../rozklady/116/1217-zator.html"><span class="stop-id">1217</span>Chrzanów Kościelec Las (1)</a>
+<a class="stop" href="../rozklady/116/1524-zator.html"><span class="stop-id">1524</span>Płaza Wapiennik II (2)</a>
+<a class="stop" href="../rozklady/116/1220-zator.html"><span class="stop-id">1220</span>Płaza Wapiennik I (1)</a>
+<a class="stop" href="../rozklady/116/1223-zator.html"><span class="stop-id">1223</span>Płaza Działki (2)</a>
+<a class="stop" href="../rozklady/116/1086-zator.html"><span class="stop-id">1086</span>Płaza Cmentarz (2)</a>
+<a class="stop" href="../rozklady/116/0581-zator.html"><span class="stop-id">0581</span>Płaza Górna Kościół (1)</a>
+<a class="stop" href="../rozklady/116/0582-zator.html"><span class="stop-id">0582</span>Płaza Role (1)</a>
+<a class="stop" href="../rozklady/116/0583-zator.html"><span class="stop-id">0583</span>Płaza Dolna II (1)</a>
+<a class="stop" href="../rozklady/116/0584-zator.html"><span class="stop-id">0584</span>Płaza Dolna I (2)</a>
+<div class="zone zone-babice-alwernia">STREFA BABICE-ALWERNIA</div>
+<a class="stop" href="../rozklady/116/0585-zator.html"><span class="stop-id">0585</span>Wygiełzów Skansen (1)</a>
+<a class="stop" href="../rozklady/116/0586-zator.html"><span class="stop-id">0586</span>Babice Urząd Gminy (1)</a>
+<a class="stop variant" href="../rozklady/116/1345-zator.html"><span class="stop-id">1345</span>Babice RSP (1)</a>
+<a class="stop variant" href="../rozklady/116/1494-zator.html"><span class="stop-id">1494</span>Mętków Duży (1)</a>
+<a class="stop variant" href="../rozklady/116/0351-zator.html"><span class="stop-id">0351</span>Mętków Szkoła (2)</a>
+<a class="stop variant terminal" href="../rozklady/116/0311-zator.html"><span class="stop-id">0311</span>Mętków Mały (0)</a>
+<a class="stop variant" href="../rozklady/116/0312-zator.html"><span class="stop-id">0312</span>Mętków Szkoła (1)</a>
+<a class="stop variant" href="../rozklady/116/0350-zator.html"><span class="stop-id">0350</span>Mętków Duży (2)</a>
+<a class="stop variant" href="../rozklady/116/1139-zator.html"><span class="stop-id">1139</span>Babice RSP (2)</a>
+<a class="stop" href="../rozklady/116/0587-zator.html"><span class="stop-id">0587</span>Babice Zakopiańska (2)</a>
+<a class="stop" href="../rozklady/116/0588-zator.html"><span class="stop-id">0588</span>Olszyny (1)</a>
+<a class="stop" href="../rozklady/116/0589-zator.html"><span class="stop-id">0589</span>Olszyny Wieś (1)</a>
+<a class="stop" href="../rozklady/116/0590-zator.html"><span class="stop-id">0590</span>Jankowice Okrężna (1)</a>
+<a class="stop" href="../rozklady/116/0591-zator.html"><span class="stop-id">0591</span>Jankowice (1)</a>
+<a class="stop" href="../rozklady/116/1627-zator.html"><span class="stop-id">1627</span>Jankowice Oczyszczalnia (2)</a>
+<div class="zone zone-zator">STREFA ZATOR</div>
+<a class="stop" href="../rozklady/116/1689-zator.html"><span class="stop-id">1689</span>Podolsze Podjarki (1)</a>
+<a class="stop" href="../rozklady/116/1688-zator.html"><span class="stop-id">1688</span>Podolsze (1)</a>
+<a class="stop" href="../rozklady/116/1694-zator.html"><span class="stop-id">1694</span>Podolsze Most (2)</a>
+<a class="stop" href="../rozklady/116/1695-zator.html"><span class="stop-id">1695</span>Zator Cmentarz (2)</a>
+<a class="stop" href="../rozklady/116/1690-zator.html"><span class="stop-id">1690</span>Zator Podlipki (1)</a>
+<a class="stop" href="../rozklady/116/1684-zator.html"><span class="stop-id">1684</span>Zator Grabskiego I (1)</a>
+<a class="stop" href="../rozklady/116/1697-zator.html"><span class="stop-id">1697</span>Zator Granica (2)</a>
+<a class="stop" href="../rozklady/116/1698-zator.html"><span class="stop-id">1698</span>Zator Bugajska (2)</a>
+<a class="stop terminal" href="../rozklady/116/1679-zator.html"><span class="stop-id">1679</span>Zator Rynek (0)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Chrzanów Dworzec Autobusowy</h2>
+
+<div class="zone zone-zator">STREFA ZATOR</div>
+<a class="stop terminal" href="../rozklady/116/1679-chrzanow.html"><span class="stop-id">1679</span>Zator Rynek (0)</a>
+<a class="stop" href="../rozklady/116/1682-chrzanow.html"><span class="stop-id">1682</span>Zator Bugajska (1)</a>
+<a class="stop" href="../rozklady/116/1683-chrzanow.html"><span class="stop-id">1683</span>Zator Granica (1)</a>
+<a class="stop" href="../rozklady/116/1685-chrzanow.html"><span class="stop-id">1685</span>Zator Park Rozrywki (1)</a>
+<a class="stop" href="../rozklady/116/1691-chrzanow.html"><span class="stop-id">1691</span>Zator Podlipki (2)</a>
+<a class="stop" href="../rozklady/116/1686-chrzanow.html"><span class="stop-id">1686</span>Zator Cmentarz (1)</a>
+<a class="stop" href="../rozklady/116/1687-chrzanow.html"><span class="stop-id">1687</span>Podolsze Most (1)</a>
+<a class="stop" href="../rozklady/116/1693-chrzanow.html"><span class="stop-id">1693</span>Podolsze (2)</a>
+<a class="stop" href="../rozklady/116/1692-chrzanow.html"><span class="stop-id">1692</span>Podolsze Podjarki (2)</a>
+<div class="zone zone-babice-alwernia">STREFA BABICE-ALWERNIA</div>
+<a class="stop" href="../rozklady/116/1628-chrzanow.html"><span class="stop-id">1628</span>Jankowice Oczyszczalnia (1)</a>
+<a class="stop" href="../rozklady/116/0592-chrzanow.html"><span class="stop-id">0592</span>Jankowice (2)</a>
+<a class="stop" href="../rozklady/116/0593-chrzanow.html"><span class="stop-id">0593</span>Jankowice Okrężna (2)</a>
+<a class="stop" href="../rozklady/116/0594-chrzanow.html"><span class="stop-id">0594</span>Olszyny Wieś (2)</a>
+<a class="stop" href="../rozklady/116/0595-chrzanow.html"><span class="stop-id">0595</span>Olszyny (2)</a>
+<a class="stop" href="../rozklady/116/0596-chrzanow.html"><span class="stop-id">0596</span>Babice Zakopiańska (1)</a>
+<a class="stop variant" href="../rozklady/116/1345-chrzanow.html"><span class="stop-id">1345</span>Babice RSP (1)</a>
+<a class="stop variant" href="../rozklady/116/1494-chrzanow.html"><span class="stop-id">1494</span>Mętków Duży (1)</a>
+<a class="stop variant" href="../rozklady/116/0351-chrzanow.html"><span class="stop-id">0351</span>Mętków Szkoła (2)</a>
+<a class="stop variant terminal" href="../rozklady/116/0311-chrzanow.html"><span class="stop-id">0311</span>Mętków Mały (0)</a>
+<a class="stop variant" href="../rozklady/116/0312-chrzanow.html"><span class="stop-id">0312</span>Mętków Szkoła (1)</a>
+<a class="stop variant" href="../rozklady/116/0350-chrzanow.html"><span class="stop-id">0350</span>Mętków Duży (2)</a>
+<a class="stop variant" href="../rozklady/116/1139-chrzanow.html"><span class="stop-id">1139</span>Babice RSP (2)</a>
+<a class="stop" href="../rozklady/116/0597-chrzanow.html"><span class="stop-id">0597</span>Babice Urząd Gminy (2)</a>
+<a class="stop" href="../rozklady/116/0598-chrzanow.html"><span class="stop-id">0598</span>Wygiełzów Skansen (2)</a>
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+<a class="stop" href="../rozklady/116/0599-chrzanow.html"><span class="stop-id">0599</span>Płaza Dolna I (1)</a>
+<a class="stop" href="../rozklady/116/0600-chrzanow.html"><span class="stop-id">0600</span>Płaza Dolna II (2)</a>
+<a class="stop" href="../rozklady/116/0601-chrzanow.html"><span class="stop-id">0601</span>Płaza Role (2)</a>
+<a class="stop" href="../rozklady/116/0602-chrzanow.html"><span class="stop-id">0602</span>Płaza Górna Kościół (2)</a>
+<a class="stop" href="../rozklady/116/1085-chrzanow.html"><span class="stop-id">1085</span>Płaza Cmentarz (1)</a>
+<a class="stop" href="../rozklady/116/1222-chrzanow.html"><span class="stop-id">1222</span>Płaza Działki (1)</a>
+<a class="stop" href="../rozklady/116/1221-chrzanow.html"><span class="stop-id">1221</span>Płaza Wapiennik I (2)</a>
+<a class="stop" href="../rozklady/116/1219-chrzanow.html"><span class="stop-id">1219</span>Płaza Wapiennik II (1)</a>
+<a class="stop" href="../rozklady/116/1218-chrzanow.html"><span class="stop-id">1218</span>Chrzanów Kościelec Las (2)</a>
+<a class="stop" href="../rozklady/116/1163-chrzanow.html"><span class="stop-id">1163</span>Chrzanów Kościelec (2)</a>
+<a class="stop" href="../rozklady/116/1164-chrzanow.html"><span class="stop-id">1164</span>Chrzanów Kościelec Staw (2)</a>
+<a class="stop" href="../rozklady/116/0094-chrzanow.html"><span class="stop-id">0094</span>Chrzanów Szpitalna (1)</a>
+<a class="stop terminal" href="../rozklady/116/0334-chrzanow.html"><span class="stop-id">0334</span>Chrzanów Dworzec Autobusowy (4)</a>
+<a class="stop variant" href="../rozklady/116/0684-chrzanow.html"><span class="stop-id">0684</span>Chrzanów Dworzec Autobusowy (2)</a>
+<a class="stop variant" href="../rozklady/116/0096-chrzanow.html"><span class="stop-id">0096</span>Chrzanów Plac Tysiąclecia (3)</a>
+<a class="stop variant" href="../rozklady/116/0097-chrzanow.html"><span class="stop-id">0097</span>Chrzanów Park (1)</a>
+<a class="stop variant" href="../rozklady/116/0114-chrzanow.html"><span class="stop-id">0114</span>Chrzanów Księdza Skorupki (0)</a>
+<a class="stop variant" href="../rozklady/116/1255-chrzanow.html"><span class="stop-id">1255</span>Balin Działki (2)</a>
+<a class="stop variant" href="../rozklady/116/1257-chrzanow.html"><span class="stop-id">1257</span>Balin Warpie (1)</a>
+<a class="stop variant" href="../rozklady/116/1253-chrzanow.html"><span class="stop-id">1253</span>Balin Kościół (2)</a>
+<a class="stop variant" href="../rozklady/116/1245-chrzanow.html"><span class="stop-id">1245</span>Balin Jaworznicka Pawilon (2)</a>
+<a class="stop variant" href="../rozklady/116/1243-chrzanow.html"><span class="stop-id">1243</span>Okradziejówka (2)</a>
+<a class="stop variant terminal" href="../rozklady/116/1239-chrzanow.html"><span class="stop-id">1239</span>Okradziejówka Pętla (0)</a>
+<a class="stop variant" href="../rozklady/116/0398-chrzanow.html"><span class="stop-id">0398</span>Chrzanów Trzebińska (2)</a>
+<a class="stop variant" href="../rozklady/116/0119-chrzanow.html"><span class="stop-id">0119</span>Chrzanów Valeo (1)</a>
+<div class="zone zone-trzebinia">STREFA TRZEBINIA</div>
+<a class="stop variant" href="../rozklady/116/0120-chrzanow.html"><span class="stop-id">0120</span>Trzebinia Berezka (1)</a>
+<a class="stop variant" href="../rozklady/116/0121-chrzanow.html"><span class="stop-id">0121</span>Trzebinia Długa (2)</a>
+<a class="stop variant" href="../rozklady/116/0122-chrzanow.html"><span class="stop-id">0122</span>Trzebinia Dworzec PKP (2)</a>
+<a class="stop variant" href="../rozklady/116/0123-chrzanow.html"><span class="stop-id">0123</span>Trzebinia Krakowska (0)</a>
+<a class="stop variant" href="../rozklady/116/0124-chrzanow.html"><span class="stop-id">0124</span>Trzebinia Szkoła (2)</a>
+<a class="stop variant terminal" href="../rozklady/116/0078-chrzanow.html"><span class="stop-id">0078</span>Młoszowa Florkiewicza (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
