@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 118</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-spytkowice{
+    background:#76a5af;
+    color:#222;
+}
+
+.zone-zator{
+    background:#10ffff;
+    color:#222;
+}
+
+.zone-przeciszow{
+    background:#8e7cd3;
+    color:#222;
+}
+
+.zone-oswiecim{
+    background:#9fc4e8;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">118</div>
+
+<div class="route">
+Półwieś - Ryczów - Spytkowice Pętla - Miejsce - Smolice - Zator Rynek - Przeciszów - Włosienica - Oświęcim Dworzec Fabryczny - Oświęcim Park Zasole
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Oświęcim Park Zasole</h2>
+
+<div class="zone zone-spytkowice">STREFA SPYTKOWICE</div>
+<a class="stop terminal" href="../rozklady/118/2431-oswiecim.html"><span class="stop-id">2431</span>Półwieś (1)</a>
+<a class="stop" href="../rozklady/118/2433-oswiecim.html"><span class="stop-id">2433</span>Ryczów Kościół (2)</a>
+<a class="stop" href="../rozklady/118/2435-oswiecim.html"><span class="stop-id">2435</span>Ryczów Za Kościołem (2)</a>
+<a class="stop" href="../rozklady/118/2429-oswiecim.html"><span class="stop-id">2429</span>Ryczów Za Torami (1)</a>
+<a class="stop" href="../rozklady/118/2444-oswiecim.html"><span class="stop-id">2444</span>Ryczów Stadion (1)</a>
+<a class="stop" href="../rozklady/118/2443-oswiecim.html"><span class="stop-id">2443</span>Ryczów Nowe Miasteczko (1)</a>
+<a class="stop" href="../rozklady/118/2913-oswiecim.html"><span class="stop-id">2913</span>Ryczów Stare Miasteczko (2)</a>
+<a class="stop" href="../rozklady/118/2450-oswiecim.html"><span class="stop-id">2450</span>Ryczów Chałupki OSP (2)</a>
+<a class="stop" href="../rozklady/118/2441-oswiecim.html"><span class="stop-id">2441</span>Spytkowice Przewóz Katechetka (1)</a>
+<a class="stop terminal" href="../rozklady/118/2445-oswiecim.html"><span class="stop-id">2445</span>Spytkowice Pętla (0)</a>
+<a class="stop" href="../rozklady/118/2446-oswiecim.html"><span class="stop-id">2446</span>Spytkowice Szkoła (1)</a>
+<a class="stop" href="../rozklady/118/2442-oswiecim.html"><span class="stop-id">2442</span>Spytkowice Kępki (1)</a>
+<a class="stop" href="../rozklady/118/2909-oswiecim.html"><span class="stop-id">2909</span>Spytkowice Kasztelańska (2)</a>
+<a class="stop" href="../rozklady/118/1767-oswiecim.html"><span class="stop-id">1767</span>Spytkowice Rynek (1)</a>
+<a class="stop" href="../rozklady/118/1770-oswiecim.html"><span class="stop-id">1770</span>Spytkowice Kółko (1)</a>
+<a class="stop" href="../rozklady/118/1766-oswiecim.html"><span class="stop-id">1766</span>Spytkowice (1)</a>
+<a class="stop" href="../rozklady/118/1774-oswiecim.html"><span class="stop-id">1774</span>Miejsce Wisła (2)</a>
+<a class="stop" href="../rozklady/118/1773-oswiecim.html"><span class="stop-id">1773</span>Miejsce Szkoła (2)</a>
+<a class="stop" href="../rozklady/118/1772-oswiecim.html"><span class="stop-id">1772</span>Miejsce Przejazd Kolejowy (2)</a>
+<a class="stop" href="../rozklady/118/1771-oswiecim.html"><span class="stop-id">1771</span>Miejsce Pindel (2)</a>
+<div class="zone zone-zator">STREFA ZATOR</div>
+<a class="stop" href="../rozklady/118/1735-oswiecim.html"><span class="stop-id">1735</span>Smolice Lipowa (1)</a>
+<a class="stop" href="../rozklady/118/1723-oswiecim.html"><span class="stop-id">1723</span>Smolice Wał (2)</a>
+<a class="stop" href="../rozklady/118/1733-oswiecim.html"><span class="stop-id">1733</span>Smolice Sklep (1)</a>
+<a class="stop" href="../rozklady/118/1725-oswiecim.html"><span class="stop-id">1725</span>Smolice Szkoła (2)</a>
+<a class="stop" href="../rozklady/118/1731-oswiecim.html"><span class="stop-id">1731</span>Smolice Kapliczka (1)</a>
+<a class="stop" href="../rozklady/118/1730-oswiecim.html"><span class="stop-id">1730</span>Smolice Żwirownia (1)</a>
+<a class="stop" href="../rozklady/118/1700-oswiecim.html"><span class="stop-id">1700</span>Zator Osiedle Morysina II (2)</a>
+<a class="stop" href="../rozklady/118/1699-oswiecim.html"><span class="stop-id">1699</span>Zator Osiedle Morysina I (2)</a>
+<a class="stop" href="../rozklady/118/1749-oswiecim.html"><span class="stop-id">1749</span>Zator Palczowice (1)</a>
+<a class="stop terminal" href="../rozklady/118/1679-oswiecim.html"><span class="stop-id">1679</span>Zator Rynek (0)</a>
+<a class="stop" href="../rozklady/118/1690-oswiecim.html"><span class="stop-id">1690</span>Zator Podlipki (1)</a>
+<a class="stop" href="../rozklady/118/1696-oswiecim.html"><span class="stop-id">1696</span>Zator Park Rozrywki (2)</a>
+<div class="zone zone-przeciszow">STREFA PRZECISZÓW</div>
+<a class="stop" href="../rozklady/118/1780-oswiecim.html"><span class="stop-id">1780</span>Przeciszów Łowiczki Księże (1)</a>
+<a class="stop" href="../rozklady/118/1781-oswiecim.html"><span class="stop-id">1781</span>Przeciszów I (1)</a>
+<a class="stop" href="../rozklady/118/1854-oswiecim.html"><span class="stop-id">1854</span>Przeciszów Centrum (1)</a>
+<a class="stop" href="../rozklady/118/1855-oswiecim.html"><span class="stop-id">1855</span>Przeciszów Młyn (2)</a>
+<div class="zone zone-oswiecim">STREFA OŚWIĘCIM</div>
+<a class="stop" href="../rozklady/118/2014-oswiecim.html"><span class="stop-id">2014</span>Włosienica (2)</a>
+<a class="stop" href="../rozklady/118/2010-oswiecim.html"><span class="stop-id">2010</span>Włosienica Dolna (1)</a>
+<a class="stop" href="../rozklady/118/0830-oswiecim.html"><span class="stop-id">0830</span>Oświęcim Dworzec Fabryczny (1)</a>
+<a class="stop" href="../rozklady/118/0831-oswiecim.html"><span class="stop-id">0831</span>Oświęcim Gazy Techniczne (1)</a>
+<a class="stop" href="../rozklady/118/0832-oswiecim.html"><span class="stop-id">0832</span>Oświęcim Monowice (2)</a>
+<a class="stop" href="../rozklady/118/0833-oswiecim.html"><span class="stop-id">0833</span>Oświęcim Brama (1)</a>
+<a class="stop" href="../rozklady/118/0834-oswiecim.html"><span class="stop-id">0834</span>Oświęcim Monowice Inkubator Przedsiębiorczości (2)</a>
+<a class="stop" href="../rozklady/118/0835-oswiecim.html"><span class="stop-id">0835</span>Oświęcim Pod Borem 2 (1)</a>
+<a class="stop" href="../rozklady/118/0676-oswiecim.html"><span class="stop-id">0676</span>Oświęcim Lodowisko (2)</a>
+<a class="stop" href="../rozklady/118/1505-oswiecim.html"><span class="stop-id">1505</span>Oświęcim Transchemia (2)</a>
+<a class="stop" href="../rozklady/118/1541-oswiecim.html"><span class="stop-id">1541</span>Oświęcim Słowackiego Kowal (1)</a>
+<a class="stop" href="../rozklady/118/1542-oswiecim.html"><span class="stop-id">1542</span>Oświęcim Słowackiego II (1)</a>
+<a class="stop" href="../rozklady/118/1545-oswiecim.html"><span class="stop-id">1545</span>Oświęcim Starostwo (1)</a>
+<a class="stop" href="../rozklady/118/0623-oswiecim.html"><span class="stop-id">0623</span>Oświęcim Osiedle OCK (1)</a>
+<a class="stop" href="../rozklady/118/0836-oswiecim.html"><span class="stop-id">0836</span>Oświęcim Dąbrowskiego Szpital (1)</a>
+<a class="stop" href="../rozklady/118/0628-oswiecim.html"><span class="stop-id">0628</span>Oświęcim Dąbrowskiego Miasto (1)</a>
+<a class="stop" href="../rozklady/118/2002-oswiecim.html"><span class="stop-id">2002</span>Oświęcim Garbarnia (1)</a>
+<a class="stop" href="../rozklady/118/2549-oswiecim.html"><span class="stop-id">2549</span>Oświęcim Orłowskiego (2)</a>
+<a class="stop terminal" href="../rozklady/118/0633-oswiecim.html"><span class="stop-id">0633</span>Oświęcim Park Zasole (0)</a>
+
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Półwieś</h2>
+
+<div class="zone zone-oswiecim">STREFA OŚWIĘCIM</div>
+<a class="stop terminal" href="../rozklady/118/0633-polwies.html"><span class="stop-id">0633</span>Oświęcim Park Zasole (0)</a>
+<a class="stop" href="../rozklady/118/2548-polwies.html"><span class="stop-id">2548</span>Oświęcim Orłowskiego (1)</a>
+<a class="stop" href="../rozklady/118/2003-polwies.html"><span class="stop-id">2003</span>Oświęcim Garbarnia (2)</a>
+<a class="stop" href="../rozklady/118/0669-polwies.html"><span class="stop-id">0669</span>Oświęcim Dąbrowskiego Kościół (1)</a>
+<a class="stop" href="../rozklady/118/0670-polwies.html"><span class="stop-id">0670</span>Oświęcim Dąbrowskiego Cmentarz (0)</a>
+<a class="stop" href="../rozklady/118/0873-polwies.html"><span class="stop-id">0873</span>Oświęcim Dąbrowskiego Szpital (2)</a>
+<a class="stop" href="../rozklady/118/0674-polwies.html"><span class="stop-id">0674</span>Oświęcim Osiedle OCK (2)</a>
+<a class="stop" href="../rozklady/118/1547-polwies.html"><span class="stop-id">1547</span>Oświęcim Sobieskiego (1)</a>
+<a class="stop terminal" href="../rozklady/118/1546-polwies.html"><span class="stop-id">1546</span>Oświęcim Słowackiego I (1)</a>
+<a class="stop" href="../rozklady/118/1543-polwies.html"><span class="stop-id">1543</span>Oświęcim Słowackiego II (2)</a>
+<a class="stop" href="../rozklady/118/1544-polwies.html"><span class="stop-id">1544</span>Oświęcim Słowackiego Kowal (2)</a>
+<a class="stop" href="../rozklady/118/1506-polwies.html"><span class="stop-id">1506</span>Oświęcim Transchemia (1)</a>
+<a class="stop" href="../rozklady/118/0621-polwies.html"><span class="stop-id">0621</span>Oświęcim Lodowisko (1)</a>
+<a class="stop" href="../rozklady/118/0874-polwies.html"><span class="stop-id">0874</span>Oświęcim Pod Borem 2 (2)</a>
+<a class="stop" href="../rozklady/118/0875-polwies.html"><span class="stop-id">0875</span>Oświęcim Monowice Inkubator Przedsiębiorczości (1)</a>
+<a class="stop" href="../rozklady/118/0876-polwies.html"><span class="stop-id">0876</span>Oświęcim Brama (2)</a>
+<a class="stop" href="../rozklady/118/0877-polwies.html"><span class="stop-id">0877</span>Oświęcim Monowice (1)</a>
+<a class="stop" href="../rozklady/118/0878-polwies.html"><span class="stop-id">0878</span>Oświęcim Gazy Techniczne (2)</a>
+<a class="stop terminal" href="../rozklady/118/0879-polwies.html"><span class="stop-id">0879</span>Oświęcim Dworzec Fabryczny (2)</a>
+<a class="stop" href="../rozklady/118/2016-polwies.html"><span class="stop-id">2016</span>Włosienica Dolna (2)</a>
+<a class="stop" href="../rozklady/118/2013-polwies.html"><span class="stop-id">2013</span>Włosienica (1)</a>
+<div class="zone zone-przeciszow">STREFA PRZECISZÓW</div>
+<a class="stop" href="../rozklady/118/1856-polwies.html"><span class="stop-id">1856</span>Przeciszów Młyn (1)</a>
+<a class="stop" href="../rozklady/118/1853-polwies.html"><span class="stop-id">1853</span>Przeciszów Centrum (2)</a>
+<a class="stop" href="../rozklady/118/1809-polwies.html"><span class="stop-id">1809</span>Przeciszów I (2)</a>
+<a class="stop" href="../rozklady/118/1810-polwies.html"><span class="stop-id">1810</span>Przeciszów Łowiczki Księże (2)</a>
+<div class="zone zone-zator">STREFA ZATOR</div>
+<a class="stop" href="../rozklady/118/1685-polwies.html"><span class="stop-id">1685</span>Zator Park Rozrywki (1)</a>
+<a class="stop" href="../rozklady/118/1691-polwies.html"><span class="stop-id">1691</span>Zator Podlipki (2)</a>
+<a class="stop terminal" href="../rozklady/118/1679-polwies.html"><span class="stop-id">1679</span>Zator Rynek (0)</a>
+<a class="stop" href="../rozklady/118/1748-polwies.html"><span class="stop-id">1748</span>Zator Blich (0)</a>
+<a class="stop" href="../rozklady/118/1681-polwies.html"><span class="stop-id">1681</span>Zator Osiedle Morysina I (1)</a>
+<a class="stop" href="../rozklady/118/1680-polwies.html"><span class="stop-id">1680</span>Zator Osiedle Morysina II (1)</a>
+<a class="stop" href="../rozklady/118/1727-polwies.html"><span class="stop-id">1727</span>Smolice Żwirownia (2)</a>
+<a class="stop" href="../rozklady/118/1726-polwies.html"><span class="stop-id">1726</span>Smolice Kapliczka (2)</a>
+<a class="stop" href="../rozklady/118/1732-polwies.html"><span class="stop-id">1732</span>Smolice Szkoła (1)</a>
+<a class="stop" href="../rozklady/118/1724-polwies.html"><span class="stop-id">1724</span>Smolice Sklep (2)</a>
+<a class="stop" href="../rozklady/118/1734-polwies.html"><span class="stop-id">1734</span>Smolice Wał (1)</a>
+<a class="stop" href="../rozklady/118/1722-polwies.html"><span class="stop-id">1722</span>Smolice Lipowa (2)</a>
+<div class="zone zone-spytkowice">STREFA SPYTKOWICE</div>
+<a class="stop" href="../rozklady/118/1762-polwies.html"><span class="stop-id">1762</span>Miejsce Pindel (1)</a>
+<a class="stop" href="../rozklady/118/1763-polwies.html"><span class="stop-id">1763</span>Miejsce Przejazd Kolejowy (1)</a>
+<a class="stop" href="../rozklady/118/1764-polwies.html"><span class="stop-id">1764</span>Miejsce Szkoła (1)</a>
+<a class="stop" href="../rozklady/118/1765-polwies.html"><span class="stop-id">1765</span>Miejsce Wisła (1)</a>
+<a class="stop" href="../rozklady/118/1775-polwies.html"><span class="stop-id">1775</span>Spytkowice (2)</a>
+<a class="stop" href="../rozklady/118/1779-polwies.html"><span class="stop-id">1779</span>Spytkowice Kółko (2)</a>
+<a class="stop" href="../rozklady/118/1767-polwies.html"><span class="stop-id">1767</span>Spytkowice Rynek (1)</a>
+<a class="stop" href="../rozklady/118/2908-polwies.html"><span class="stop-id">2908</span>Spytkowice Kasztelańska (1)</a>
+<a class="stop" href="../rozklady/118/2440-polwies.html"><span class="stop-id">2440</span>Spytkowice Kępki (2)</a>
+<a class="stop" href="../rozklady/118/2447-polwies.html"><span class="stop-id">2447</span>Spytkowice Szkoła (2)</a>
+<a class="stop terminal" href="../rozklady/118/2445-polwies.html"><span class="stop-id">2445</span>Spytkowice Pętla (0)</a>
+<a class="stop" href="../rozklady/118/2448-polwies.html"><span class="stop-id">2448</span>Spytkowice Przewóz Katechetka (2)</a>
+<a class="stop" href="../rozklady/118/2449-polwies.html"><span class="stop-id">2449</span>Ryczów Chałupki OSP (1)</a>
+<a class="stop" href="../rozklady/118/2910-polwies.html"><span class="stop-id">2910</span>Ryczów Stare Miasteczko (1)</a>
+<a class="stop" href="../rozklady/118/2439-polwies.html"><span class="stop-id">2439</span>Ryczów Nowe Miasteczko (2)</a>
+<a class="stop" href="../rozklady/118/2438-polwies.html"><span class="stop-id">2438</span>Ryczów Stadion (2)</a>
+<a class="stop" href="../rozklady/118/2434-polwies.html"><span class="stop-id">2434</span>Ryczów Za Torami (2)</a>
+<a class="stop" href="../rozklady/118/2428-polwies.html"><span class="stop-id">2428</span>Ryczów Za Kościołem (1)</a>
+<a class="stop" href="../rozklady/118/2430-polwies.html"><span class="stop-id">2430</span>Ryczów Kościół (1)</a>
+<a class="stop terminal" href="../rozklady/118/2432-polwies.html"><span class="stop-id">2432</span>Półwieś (2)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
