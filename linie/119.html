@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 119</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-chrzanow{
+    background:#a4c2f4;
+    color:#222;
+}
+
+.zone-olkusz{
+    background:#ffe599;
+    color:#222;
+}
+
+.zone-chelmek{
+    background:#b4a7d6;
+    color:#222;
+}
+
+.zone-trzebinia{
+    background:#d9d2e9;
+    color:#222;
+}
+
+.zone-libiaz{
+    background:#b6d7a8;
+    color:#222;
+}
+
+.zone-oswiecim{
+    background:#9fc4e8;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">119</div>
+
+<div class="route">
+Olkusz Dworzec PKS - Żurada - Niesułowice - Lgota - Myślachowice - Trzebinia - Chrzanów Dworzec Autobusowy - Kąty - Libiąż Kopalnia Janina - Budzowy - Bobrek - Broszkowice - Oświęcim Dąbrowskiego Kościół
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Oświęcim Dąbrowskiego Kościół</h2>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+<a class="stop terminal" href="../rozklady/119/0200-oswiecim.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
+<a class="stop" href="../rozklady/119/0228-oswiecim.html"><span class="stop-id">0228</span>Olkusz Skarbek (1)</a>
+<a class="stop" href="../rozklady/119/0175-oswiecim.html"><span class="stop-id">0175</span>Olkusz Górnicza (1)</a>
+<a class="stop" href="../rozklady/119/0176-oswiecim.html"><span class="stop-id">0176</span>Olkusz Mickiewicza (1)</a>
+<a class="stop" href="../rozklady/119/0177-oswiecim.html"><span class="stop-id">0177</span>Olkusz Szpitalna (2)</a>
+<a class="stop" href="../rozklady/119/0229-oswiecim.html"><span class="stop-id">0229</span>Olkusz Basen (2)</a>
+<a class="stop" href="../rozklady/119/0230-oswiecim.html"><span class="stop-id">0230</span>Olkusz Kamyk (2)</a>
+<a class="stop" href="../rozklady/119/1516-oswiecim.html"><span class="stop-id">1516</span>Żurada (2)</a>
+<a class="stop" href="../rozklady/119/1517-oswiecim.html"><span class="stop-id">1517</span>Niesułowice Galicyjska (1)</a>
+<a class="stop" href="../rozklady/119/1518-oswiecim.html"><span class="stop-id">1518</span>Niesułowice Centrum (1)</a>
+<div class="zone zone-trzebinia">STREFA TRZEBINIA</div>
+<a class="stop" href="../rozklady/119/0946-oswiecim.html"><span class="stop-id">0946</span>Lgota Szkoła (1)</a>
+<a class="stop" href="../rozklady/119/0930-oswiecim.html"><span class="stop-id">0930</span>Myślachowice Leśniczówka (1)</a>
+<a class="stop" href="../rozklady/119/0936-oswiecim.html"><span class="stop-id">0936</span>Myślachowice Centrum (1)</a>
+<a class="stop" href="../rozklady/119/0088-oswiecim.html"><span class="stop-id">0088</span>Trzebinia Mały Rynek Kościuszki (0)</a>
+<a class="stop" href="../rozklady/119/0089-oswiecim.html"><span class="stop-id">0089</span>Trzebinia Dworzec PKP (1)</a>
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+<a class="stop terminal" href="../rozklady/119/0095-oswiecim.html"><span class="stop-id">0095</span>Chrzanów Dworzec Autobusowy (3)</a>
+<a class="stop" href="../rozklady/119/0096-oswiecim.html"><span class="stop-id">0096</span>Chrzanów Plac Tysiąclecia (3)</a>
+<a class="stop" href="../rozklady/119/0097-oswiecim.html"><span class="stop-id">0097</span>Chrzanów Park (1)</a>
+<a class="stop" href="../rozklady/119/0098-oswiecim.html"><span class="stop-id">0098</span>Chrzanów Kąty Bloki (1)</a>
+<a class="stop" href="../rozklady/119/0099-oswiecim.html"><span class="stop-id">0099</span>Chrzanów Kąty Kościół (1)</a>
+<a class="stop" href="../rozklady/119/0100-oswiecim.html"><span class="stop-id">0100</span>Chrzanów Kąty Osiedle Malarzy (1)</a>
+<a class="stop" href="../rozklady/119/0101-oswiecim.html"><span class="stop-id">0101</span>Chrzanów Kroczymiech (1)</a>
+<div class="zone zone-libiaz">STREFA LIBIĄŻ</div>
+<a class="stop" href="../rozklady/119/0104-oswiecim.html"><span class="stop-id">0104</span>Libiąż Dworzec Autobusowy (1)</a>
+<a class="stop terminal" href="../rozklady/119/0105-oswiecim.html"><span class="stop-id">0105</span>Libiąż Kopalnia Janina (0)</a>
+<a class="stop" href="../rozklady/119/0359-oswiecim.html"><span class="stop-id">0359</span>Libiąż Os. Flagówka Pawilon (1)</a>
+<a class="stop" href="../rozklady/119/0360-oswiecim.html"><span class="stop-id">0360</span>Libiąż Os. Flagówka I (1)</a>
+<a class="stop" href="../rozklady/119/0361-oswiecim.html"><span class="stop-id">0361</span>Libiąż Os. Flagówka II (1)</a>
+<a class="stop" href="../rozklady/119/0362-oswiecim.html"><span class="stop-id">0362</span>Libiąż Urząd Miejski (2)</a>
+<a class="stop" href="../rozklady/119/0385-oswiecim.html"><span class="stop-id">0385</span>Libiąż Transformator (1)</a>
+<a class="stop" href="../rozklady/119/2649-oswiecim.html"><span class="stop-id">2649</span>Libiąż Beskidzka (2)</a>
+<div class="zone zone-chelmek">STREFA CHEŁMEK</div>
+<a class="stop" href="../rozklady/119/1531-oswiecim.html"><span class="stop-id">1531</span>Bobrek Podkumorek (2)</a>
+<div class="zone zone-oswiecim">STREFA OŚWIĘCIM</div>
+<a class="stop" href="../rozklady/119/0868-oswiecim.html"><span class="stop-id">0868</span>Broszkowice Jodłowa (1)</a>
+<a class="stop" href="../rozklady/119/0666-oswiecim.html"><span class="stop-id">0666</span>Oświęcim Dworzec PKP (2)</a>
+<a class="stop" href="../rozklady/119/0667-oswiecim.html"><span class="stop-id">0667</span>Oświęcim Niwa (2)</a>
+<a class="stop" href="../rozklady/119/0668-oswiecim.html"><span class="stop-id">0668</span>Oświęcim Stacja BP (1)</a>
+<a class="stop terminal" href="../rozklady/119/0669-oswiecim.html"><span class="stop-id">0669</span>Oświęcim Dąbrowskiego Kościół (1)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Olkusz Dworzec PKS</h2>
+
+<div class="zone zone-oswiecim">STREFA OŚWIĘCIM</div>
+<a class="stop terminal" href="../rozklady/119/0628-olkusz.html"><span class="stop-id">0628</span>Oświęcim Dąbrowskiego Miasto (1)</a>
+<a class="stop" href="../rozklady/119/0629-olkusz.html"><span class="stop-id">0629</span>Oświęcim Stacja BP (2)</a>
+<a class="stop" href="../rozklady/119/0630-olkusz.html"><span class="stop-id">0630</span>Oświęcim Niwa (1)</a>
+<a class="stop" href="../rozklady/119/0631-olkusz.html"><span class="stop-id">0631</span>Oświęcim Dworzec PKP (1)</a>
+<a class="stop" href="../rozklady/119/0840-olkusz.html"><span class="stop-id">0840</span>Broszkowice Jodłowa (2)</a>
+<div class="zone zone-chelmek">STREFA CHEŁMEK</div>
+<a class="stop" href="../rozklady/119/1532-olkusz.html"><span class="stop-id">1532</span>Bobrek Podkumorek (1)</a>
+<div class="zone zone-libiaz">STREFA LIBIĄŻ</div>
+<a class="stop" href="../rozklady/119/2648-olkusz.html"><span class="stop-id">2648</span>Libiąż Beskidzka (4)</a>
+<a class="stop" href="../rozklady/119/0370-olkusz.html"><span class="stop-id">0370</span>Libiąż Transformator (2)</a>
+<a class="stop" href="../rozklady/119/0393-olkusz.html"><span class="stop-id">0393</span>Libiąż Urząd Miejski (1)</a>
+<a class="stop" href="../rozklady/119/0394-olkusz.html"><span class="stop-id">0394</span>Libiąż Os. Flagówka II (2)</a>
+<a class="stop" href="../rozklady/119/0395-olkusz.html"><span class="stop-id">0395</span>Libiąż Os. Flagówka I (2)</a>
+<a class="stop" href="../rozklady/119/0396-olkusz.html"><span class="stop-id">0396</span>Libiąż Os. Flagówka Pawilon (2)</a>
+<a class="stop" href="../rozklady/119/0105-olkusz.html"><span class="stop-id">0105</span>Libiąż Kopalnia Janina (0)</a>
+<a class="stop terminal" href="../rozklady/119/0107-olkusz.html"><span class="stop-id">0107</span>Libiąż Dworzec Autobusowy (2)</a>
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+<a class="stop" href="../rozklady/119/0110-olkusz.html"><span class="stop-id">0110</span>Chrzanów Kroczymiech (2)</a>
+<a class="stop" href="../rozklady/119/0111-olkusz.html"><span class="stop-id">0111</span>Chrzanów Kąty Osiedle Malarzy (2)</a>
+<a class="stop" href="../rozklady/119/0112-olkusz.html"><span class="stop-id">0112</span>Chrzanów Kąty Kościół (2)</a>
+<a class="stop" href="../rozklady/119/0113-olkusz.html"><span class="stop-id">0113</span>Chrzanów Kąty Bloki (2)</a>
+<a class="stop" href="../rozklady/119/0114-olkusz.html"><span class="stop-id">0114</span>Chrzanów Księdza Skorupki (0)</a>
+<a class="stop" href="../rozklady/119/0115-olkusz.html"><span class="stop-id">0115</span>Chrzanów Plac Tysiąclecia (2)</a>
+<a class="stop" href="../rozklady/119/0116-olkusz.html"><span class="stop-id">0116</span>Chrzanów Dworzec Autobusowy (1)</a>
+<div class="zone zone-trzebinia">STREFA TRZEBINIA</div>
+<a class="stop" href="../rozklady/119/0122-olkusz.html"><span class="stop-id">0122</span>Trzebinia Dworzec PKP (2)</a>
+<a class="stop" href="../rozklady/119/3295-olkusz.html"><span class="stop-id">3295</span>Trzebinia Mały Rynek (1)</a>
+<a class="stop" href="../rozklady/119/0937-olkusz.html"><span class="stop-id">0937</span>Myślachowice Centrum (2)</a>
+<a class="stop" href="../rozklady/119/0931-olkusz.html"><span class="stop-id">0931</span>Myślachowice Leśniczówka (2)</a>
+<a class="stop" href="../rozklady/119/1489-olkusz.html"><span class="stop-id">1489</span>Lgota Szkoła (2)</a>
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+<a class="stop" href="../rozklady/119/1514-olkusz.html"><span class="stop-id">1514</span>Niesułowice Centrum (2)</a>
+<a class="stop" href="../rozklady/119/1515-olkusz.html"><span class="stop-id">1515</span>Niesułowice Galicyjska (2)</a>
+<a class="stop" href="../rozklady/119/0195-olkusz.html"><span class="stop-id">0195</span>Żurada (1)</a>
+<a class="stop" href="../rozklady/119/0196-olkusz.html"><span class="stop-id">0196</span>Olkusz Kamyk (1)</a>
+<a class="stop" href="../rozklady/119/0197-olkusz.html"><span class="stop-id">0197</span>Olkusz Basen (1)</a>
+<a class="stop" href="../rozklady/119/0198-olkusz.html"><span class="stop-id">0198</span>Olkusz Dworek Machnickich (0)</a>
+<a class="stop" href="../rozklady/119/0199-olkusz.html"><span class="stop-id">0199</span>Olkusz Skarbek (2)</a>
+<a class="stop terminal" href="../rozklady/119/0200-olkusz.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
