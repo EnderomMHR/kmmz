@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 123</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-trzebinia{
+    background:#d9d2e9;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">123</div>
+
+<div class="route">
+Trzebinia Dworzec PKP - Myślachowice - Psary - Karniowice - Dulowa - Młoszowa - Os. Widokowe - Trzebinia Dworzec PKP
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Trzebinia Dworzec PKP</h2>
+
+<div class="zone zone-trzebinia">STREFA TRZEBINIA</div>
+<a class="stop terminal" href="../rozklady/123/0122-okrezna-1.html"><span class="stop-id">0122</span>Trzebinia Dworzec PKP (2)</a>
+<a class="stop" href="../rozklady/123/3295-okrezna-1.html"><span class="stop-id">3295</span>Trzebinia Mały Rynek (1)</a>
+<a class="stop" href="../rozklady/123/1027-okrezna-1.html"><span class="stop-id">1027</span>Trzebinia Balaton (1)</a>
+<a class="stop" href="../rozklady/123/0980-okrezna-1.html"><span class="stop-id">0980</span>Trzebinia Spokojna Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/123/0984-okrezna-1.html"><span class="stop-id">0984</span>Trzebinia Parkowa (1)</a>
+<a class="stop" href="../rozklady/123/1510-okrezna-1.html"><span class="stop-id">1510</span>Trzebinia Parkowa Boisko (0)</a>
+<a class="stop" href="../rozklady/123/0985-okrezna-1.html"><span class="stop-id">0985</span>Trzebinia Parkowa (2)</a>
+<a class="stop" href="../rozklady/123/0983-okrezna-1.html"><span class="stop-id">0983</span>Trzebinia Piłsudskiego Kościół (1)</a>
+<a class="stop" href="../rozklady/123/0941-okrezna-1.html"><span class="stop-id">0941</span>Trzebinia Zbyszek (1)</a>
+<a class="stop" href="../rozklady/123/0937-okrezna-1.html"><span class="stop-id">0937</span>Myślachowice Centrum (2)</a>
+<a class="stop" href="../rozklady/123/0932-okrezna-1.html"><span class="stop-id">0932</span>Myślachowice Leśniczówka (3)</a>
+<a class="stop" href="../rozklady/123/1165-okrezna-1.html"><span class="stop-id">1165</span>Psary Ostra Góra (2)</a>
+<a class="stop" href="../rozklady/123/1167-okrezna-1.html"><span class="stop-id">1167</span>Psary Ostra Góra Lewiatan (1)</a>
+<a class="stop" href="../rozklady/123/1168-okrezna-1.html"><span class="stop-id">1168</span>Psary Centrum (0)</a>
+<a class="stop" href="../rozklady/123/1169-okrezna-1.html"><span class="stop-id">1169</span>Psary Ośrodek Zdrowia (2)</a>
+<a class="stop" href="../rozklady/123/1170-okrezna-1.html"><span class="stop-id">1170</span>Karniowice (2)</a>
+<a class="stop" href="../rozklady/123/1193-okrezna-1.html"><span class="stop-id">1193</span>Karniowice Poczta (2)</a>
+<a class="stop" href="../rozklady/123/1191-okrezna-1.html"><span class="stop-id">1191</span>Karniowice Kościół (2)</a>
+<a class="stop variant" href="../rozklady/123/1188-okrezna-1.html"><span class="stop-id">1188</span>Dulowa Leśniczówka (2)</a>
+<a class="stop" href="../rozklady/123/1190-okrezna-1.html"><span class="stop-id">1190</span>Dulowa Paderewskiego (2)</a>
+<a class="stop" href="../rozklady/123/0076-okrezna-1.html"><span class="stop-id">0076</span>Dulowa (2)</a>
+<a class="stop" href="../rozklady/123/0077-okrezna-1.html"><span class="stop-id">0077</span>Młoszowa Leśniczówka (2)</a>
+<a class="stop" href="../rozklady/123/0086-okrezna-1.html"><span class="stop-id">0086</span>Młoszowa (1)</a>
+<a class="stop" href="../rozklady/123/0353-okrezna-1.html"><span class="stop-id">0353</span>Trzebinia Os. Widokowe Szkoła (2)</a>
+<a class="stop" href="../rozklady/123/0354-okrezna-1.html"><span class="stop-id">0354</span>Trzebinia Os. Widokowe Kiosk (1)</a>
+<a class="stop" href="../rozklady/123/0355-okrezna-1.html"><span class="stop-id">0355</span>Trzebinia Os. Widokowe Schody (1)</a>
+<a class="stop" href="../rozklady/123/0088-okrezna-1.html"><span class="stop-id">0088</span>Trzebinia Mały Rynek Kościuszki (0)</a>
+<a class="stop terminal" href="../rozklady/123/0089-okrezna-1.html"><span class="stop-id">0089</span>Trzebinia Dworzec PKP (1)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Trzebinia Dworzec PKP</h2>
+
+<div class="zone zone-trzebinia">STREFA TRZEBINIA</div>
+<a class="stop terminal" href="../rozklady/123/0122-okrezna-2.html"><span class="stop-id">0122</span>Trzebinia Dworzec PKP (2)</a>
+<a class="stop" href="../rozklady/123/0123-okrezna-2.html"><span class="stop-id">0123</span>Trzebinia Krakowska (0)</a>
+<a class="stop" href="../rozklady/123/0356-okrezna-2.html"><span class="stop-id">0356</span>Trzebinia Os. Widokowe Schody (2)</a>
+<a class="stop" href="../rozklady/123/0357-okrezna-2.html"><span class="stop-id">0357</span>Trzebinia Os. Widokowe Kiosk (2)</a>
+<a class="stop" href="../rozklady/123/0358-okrezna-2.html"><span class="stop-id">0358</span>Trzebinia Os. Widokowe Szkoła (1)</a>
+<a class="stop" href="../rozklady/123/0125-okrezna-2.html"><span class="stop-id">0125</span>Młoszowa (2)</a>
+<a class="stop" href="../rozklady/123/0126-okrezna-2.html"><span class="stop-id">0126</span>Młoszowa Leśniczówka (1)</a>
+<a class="stop" href="../rozklady/123/0127-okrezna-2.html"><span class="stop-id">0127</span>Dulowa (1)</a>
+<a class="stop" href="../rozklady/123/1195-okrezna-2.html"><span class="stop-id">1195</span>Dulowa Paderewskiego (1)</a>
+<a class="stop variant" href="../rozklady/123/1189-okrezna-2.html"><span class="stop-id">1189</span>Dulowa Leśniczówka (1)</a>
+<a class="stop" href="../rozklady/123/1194-okrezna-2.html"><span class="stop-id">1194</span>Karniowice Kościół (1)</a>
+<a class="stop" href="../rozklady/123/1192-okrezna-2.html"><span class="stop-id">1192</span>Karniowice Poczta (1)</a>
+<a class="stop" href="../rozklady/123/1171-okrezna-2.html"><span class="stop-id">1171</span>Karniowice (1)</a>
+<a class="stop" href="../rozklady/123/1304-okrezna-2.html"><span class="stop-id">1304</span>Psary Ośrodek Zdrowia (1)</a>
+<a class="stop" href="../rozklady/123/1168-okrezna-2.html"><span class="stop-id">1168</span>Psary Centrum (0)</a>
+<a class="stop" href="../rozklady/123/1166-okrezna-2.html"><span class="stop-id">1166</span>Psary Ostra Góra (1)</a>
+<a class="stop" href="../rozklady/123/0933-okrezna-2.html"><span class="stop-id">0933</span>Myślachowice Leśniczówka (4)</a>
+<a class="stop" href="../rozklady/123/0936-okrezna-2.html"><span class="stop-id">0936</span>Myślachowice Centrum (1)</a>
+<a class="stop" href="../rozklady/123/0942-okrezna-2.html"><span class="stop-id">0942</span>Trzebinia Zbyszek (2)</a>
+<a class="stop" href="../rozklady/123/0981-okrezna-2.html"><span class="stop-id">0981</span>Trzebinia Kościół (3)</a>
+<a class="stop" href="../rozklady/123/0984-okrezna-2.html"><span class="stop-id">0984</span>Trzebinia Parkowa (1)</a>
+<a class="stop" href="../rozklady/123/1510-okrezna-2.html"><span class="stop-id">1510</span>Trzebinia Parkowa Boisko (0)</a>
+<a class="stop" href="../rozklady/123/0985-okrezna-2.html"><span class="stop-id">0985</span>Trzebinia Parkowa (2)</a>
+<a class="stop" href="../rozklady/123/0978-okrezna-2.html"><span class="stop-id">0978</span>Trzebinia Górka Dwór (1)</a>
+<a class="stop" href="../rozklady/123/1028-okrezna-2.html"><span class="stop-id">1028</span>Trzebinia Balaton (2)</a>
+<a class="stop" href="../rozklady/123/0088-okrezna-2.html"><span class="stop-id">0088</span>Trzebinia Mały Rynek Kościuszki (0)</a>
+<a class="stop terminal" href="../rozklady/123/0089-okrezna-2.html"><span class="stop-id">0089</span>Trzebinia Dworzec PKP (1)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
