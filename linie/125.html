@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 125</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-iwanowice{
+    background:#e6b8af;
+    color:#222;
+}
+
+.zone-suloszowa-skala{
+    background:#b7b8b7;
+    color:#222;
+}
+
+.zone-trzyciaz{
+    background:#c17ba1;
+    color:#222;
+}
+
+.zone-wolbrom{
+    background:#2a8be8;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">125</div>
+
+<div class="route">
+(Narama Remiza) - (Szczodrkowice) - (Cianowice) - Skała Połetka - Wielmoża - Milonki - Zadroże - Trzyciąż - Podchybie - Sucha - Chełm - Wolbrom Nowa PKS
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Wolbrom Nowa PKS</h2>
+
+<div class="zone zone-suloszowa-skala">STREFA SUŁOSZOWA-SKAŁA</div>
+<a class="stop terminal" href="../rozklady/125/0399-wolbrom.html"><span class="stop-id">0399</span>Skała Połetka (1)</a>
+<a class="stop" href="../rozklady/125/2773-wolbrom.html"><span class="stop-id">2773</span>Skała Rynek (1)</a>
+<a class="stop" href="../rozklady/125/2923-wolbrom.html"><span class="stop-id">2923</span>Skała Sobiesęcka (2)</a>
+<a class="stop" href="../rozklady/125/2796-wolbrom.html"><span class="stop-id">2796</span>Skała Mleczarnia (1)</a>
+<a class="stop" href="../rozklady/125/2512-wolbrom.html"><span class="stop-id">2512</span>Wielmoża Kamieniec (1)</a>
+<a class="stop" href="../rozklady/125/2532-wolbrom.html"><span class="stop-id">2532</span>Wielmoża Straż (3)</a>
+<a class="stop" href="../rozklady/125/2525-wolbrom.html"><span class="stop-id">2525</span>Wielmoża Szkoła (2)</a>
+<a class="stop" href="../rozklady/125/2533-wolbrom.html"><span class="stop-id">2533</span>Wielmoża Skrzyżowanie (3)</a>
+<a class="stop" href="../rozklady/125/2530-wolbrom.html"><span class="stop-id">2530</span>Wielmoża Magazyny (2)</a>
+<div class="zone zone-trzyciaz">STREFA TRZYCIĄŻ</div>
+<a class="stop" href="../rozklady/125/0771-wolbrom.html"><span class="stop-id">0771</span>Milonki (1)</a>
+<a class="stop" href="../rozklady/125/0779-wolbrom.html"><span class="stop-id">0779</span>Zadroże Kościół (1)</a>
+<a class="stop" href="../rozklady/125/0781-wolbrom.html"><span class="stop-id">0781</span>Zadroże Skotnica (1)</a>
+<a class="stop" href="../rozklady/125/0783-wolbrom.html"><span class="stop-id">0783</span>Zadroże Studzianki (1)</a>
+<a class="stop" href="../rozklady/125/0786-wolbrom.html"><span class="stop-id">0786</span>Zadroże Gołębia Góra (2)</a>
+<a class="stop" href="../rozklady/125/0305-wolbrom.html"><span class="stop-id">0305</span>Trzyciąż Skrzyżowanie (4)</a>
+<a class="stop" href="../rozklady/125/2502-wolbrom.html"><span class="stop-id">2502</span>Podchybie Las (1)</a>
+<a class="stop" href="../rozklady/125/2501-wolbrom.html"><span class="stop-id">2501</span>Sucha (1)</a>
+<div class="zone zone-wolbrom">STREFA WOLBROM</div>
+<a class="stop" href="../rozklady/125/2361-wolbrom.html"><span class="stop-id">2361</span>Chełm Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/125/2402-wolbrom.html"><span class="stop-id">2402</span>Chełm Szkoła (1)</a>
+<a class="stop" href="../rozklady/125/2404-wolbrom.html"><span class="stop-id">2404</span>Chełm Grabie (1)</a>
+<a class="stop" href="../rozklady/125/0028-wolbrom.html"><span class="stop-id">0028</span>Wolbrom Ośrodek Zdrowia (1)</a>
+<a class="stop" href="../rozklady/125/0027-wolbrom.html"><span class="stop-id">0027</span>Wolbrom Skrzyżowanie (2)</a>
+<a class="stop terminal" href="../rozklady/125/0001-wolbrom.html"><span class="stop-id">0001</span>Wolbrom Nowa PKS (0)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Skała Połetka</h2>
+
+<div class="zone zone-wolbrom">STREFA WOLBROM</div>
+<a class="stop terminal" href="../rozklady/125/0001-skala.html"><span class="stop-id">0001</span>Wolbrom Nowa PKS (0)</a>
+<a class="stop" href="../rozklady/125/0026-skala.html"><span class="stop-id">0026</span>Wolbrom Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/125/0028-skala.html"><span class="stop-id">0028</span>Wolbrom Ośrodek Zdrowia (1)</a>
+<a class="stop" href="../rozklady/125/2401-skala.html"><span class="stop-id">2401</span>Chełm Grabie (2)</a>
+<a class="stop" href="../rozklady/125/2403-skala.html"><span class="stop-id">2403</span>Chełm Szkoła (2)</a>
+<a class="stop" href="../rozklady/125/2360-skala.html"><span class="stop-id">2360</span>Chełm Skrzyżowanie (1)</a>
+<div class="zone zone-trzyciaz">STREFA TRZYCIĄŻ</div>
+<a class="stop" href="../rozklady/125/2504-skala.html"><span class="stop-id">2504</span>Sucha (2)</a>
+<a class="stop" href="../rozklady/125/2503-skala.html"><span class="stop-id">2503</span>Podchybie Las (2)</a>
+<a class="stop" href="../rozklady/125/0263-skala.html"><span class="stop-id">0263</span>Trzyciąż Skrzyżowanie (3)</a>
+<a class="stop" href="../rozklady/125/0785-skala.html"><span class="stop-id">0785</span>Zadroże Gołębia Góra (1)</a>
+<a class="stop" href="../rozklady/125/0784-skala.html"><span class="stop-id">0784</span>Zadroże Studzianki (2)</a>
+<a class="stop" href="../rozklady/125/0782-skala.html"><span class="stop-id">0782</span>Zadroże Skotnica (2)</a>
+<a class="stop" href="../rozklady/125/0780-skala.html"><span class="stop-id">0780</span>Zadroże Kościół (2)</a>
+<a class="stop" href="../rozklady/125/0772-skala.html"><span class="stop-id">0772</span>Milonki (2)</a>
+<div class="zone zone-suloszowa-skala">STREFA SUŁOSZOWA-SKAŁA</div>
+<a class="stop" href="../rozklady/125/2510-skala.html"><span class="stop-id">2510</span>Wielmoża Magazyny (1)</a>
+<a class="stop" href="../rozklady/125/2524-skala.html"><span class="stop-id">2524</span>Wielmoża Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/125/2518-skala.html"><span class="stop-id">2518</span>Wielmoża Szkoła (1)</a>
+<a class="stop" href="../rozklady/125/2531-skala.html"><span class="stop-id">2531</span>Wielmoża Straż (2)</a>
+<a class="stop" href="../rozklady/125/2529-skala.html"><span class="stop-id">2529</span>Wielmoża Kamieniec (2)</a>
+<a class="stop" href="../rozklady/125/2801-skala.html"><span class="stop-id">2801</span>Skała Mleczarnia (2)</a>
+<a class="stop" href="../rozklady/125/2924-skala.html"><span class="stop-id">2924</span>Skała Sobiesęcka (1)</a>
+<a class="stop" href="../rozklady/125/0431-skala.html"><span class="stop-id">0431</span>Skała Rynek (2)</a>
+<a class="stop terminal" href="../rozklady/125/0432-skala.html"><span class="stop-id">0432</span>Skała Połetka (2)</a>
+<a class="stop variant" href="../rozklady/125/0399-skala.html"><span class="stop-id">0399</span>Skała Połetka (1)</a>
+<a class="stop variant" href="../rozklady/125/0431-skala-2.html"><span class="stop-id">0431</span>Skała Rynek (2)</a>
+<a class="stop variant" href="../rozklady/125/2792-skala.html"><span class="stop-id">2792</span>Skała Rzeplińska (2)</a>
+<a class="stop variant" href="../rozklady/125/2791-skala.html"><span class="stop-id">2791</span>Cianowice Do Cegielni (1)</a>
+<a class="stop variant" href="../rozklady/125/2790-skala.html"><span class="stop-id">2790</span>Cianowice Poręba (2)</a>
+<a class="stop variant" href="../rozklady/125/2789-skala.html"><span class="stop-id">2789</span>Cianowice Marianów (2)</a>
+<a class="stop variant" href="../rozklady/125/2918-skala.html"><span class="stop-id">2918</span>Cianowice Szczodrkowicka (3)</a>
+<a class="stop variant" href="../rozklady/125/2819-skala.html"><span class="stop-id">2819</span>Szczodrkowice Remiza (1)</a>
+<a class="stop variant" href="../rozklady/125/2828-skala.html"><span class="stop-id">2828</span>Szczodrkowice Szkoła (2)</a>
+<a class="stop variant" href="../rozklady/125/2888-skala.html"><span class="stop-id">2888</span>Szczodrkowice Zagardle (2)</a>
+<a class="stop variant" href="../rozklady/125/2825-skala.html"><span class="stop-id">2825</span>Szczodrkowice Kopanina (2)</a>
+<a class="stop variant" href="../rozklady/125/2824-skala.html"><span class="stop-id">2824</span>Szczodrkowice Łaziec (2)</a>
+<div class="zone zone-iwanowice">STREFA IWANOWICE</div>
+<a class="stop variant" href="../rozklady/125/2915-skala.html"><span class="stop-id">2915</span>Narama Łaziec (1)</a>
+<a class="stop variant" href="../rozklady/125/2916-skala.html"><span class="stop-id">2916</span>Narama Kolonia (1)</a>
+<a class="stop variant terminal" href="../rozklady/125/2914-skala.html"><span class="stop-id">2914</span>Narama Remiza (1)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
