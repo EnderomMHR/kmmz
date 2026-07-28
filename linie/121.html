@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 121</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-brzeszcze{
+    background:#a2c4c9;
+    color:#222;
+}
+
+.zone-osiek{
+    background:#d9ead3;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">121</div>
+
+<div class="route">
+Jawiszowice Kółko - Brzeszcze - Przecieszyn - Skidziń - Zasole - Osiek Dom Ludowy
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Osiek Dom Ludowy</h2>
+
+<div class="zone zone-brzeszcze">STREFA BRZESZCZE</div>
+<a class="stop terminal" href="../rozklady/121/2568-osiek.html"><span class="stop-id">2568</span>Jawiszowice Kółko (2)</a>
+<a class="stop" href="../rozklady/121/2558-osiek.html"><span class="stop-id">2558</span>Jawiszowice Mickiewicza (1)</a>
+<a class="stop" href="../rozklady/121/2566-osiek.html"><span class="stop-id">2566</span>Jawiszowice Osiedle Paderewskiego (2)</a>
+<a class="stop variant" href="../rozklady/121/2553-osiek.html"><span class="stop-id">2553</span>Brzeszcze Dworzec PKP (0)</a>
+<a class="stop variant" href="../rozklady/121/2554-osiek.html"><span class="stop-id">2554</span>Brzeszcze Jawiszowice Osiedle (1)</a>
+<a class="stop" href="../rozklady/121/2556-osiek.html"><span class="stop-id">2556</span>Brzeszcze Osiedle (2)</a>
+<a class="stop" href="../rozklady/121/2565-osiek.html"><span class="stop-id">2565</span>Brzeszcze Strażnica (2)</a>
+<a class="stop" href="../rozklady/121/2564-osiek.html"><span class="stop-id">2564</span>Brzeszcze Kościół (2)</a>
+<a class="stop" href="../rozklady/121/2563-osiek.html"><span class="stop-id">2563</span>Brzeszcze Szkoła (2)</a>
+<a class="stop" href="../rozklady/121/2581-osiek.html"><span class="stop-id">2581</span>Brzeszcze Super Sam (1)</a>
+<a class="stop" href="../rozklady/121/2578-osiek.html"><span class="stop-id">2578</span>Brzeszcze Chałpy (2)</a>
+<a class="stop" href="../rozklady/121/2577-osiek.html"><span class="stop-id">2577</span>Przecieszyn Krzyżówka (2)</a>
+<a class="stop" href="../rozklady/121/2576-osiek.html"><span class="stop-id">2576</span>Przecieszyn Poczta (1)</a>
+<a class="stop" href="../rozklady/121/3326-osiek.html"><span class="stop-id">3326</span>Skidziń Bar (2)</a>
+<a class="stop" href="../rozklady/121/2589-osiek.html"><span class="stop-id">2589</span>Skidziń na żądanie (1)</a>
+<a class="stop" href="../rozklady/121/2592-osiek.html"><span class="stop-id">2592</span>Skidziń Wentylatory (2)</a>
+<a class="stop" href="../rozklady/121/2593-osiek.html"><span class="stop-id">2593</span>Zasole Sklep (1)</a>
+<a class="stop" href="../rozklady/121/2596-osiek.html"><span class="stop-id">2596</span>Zasole Kościół (2)</a>
+<a class="stop" href="../rozklady/121/2597-osiek.html"><span class="stop-id">2597</span>Zasole Pętla (0)</a>
+<a class="stop" href="../rozklady/121/2595-osiek.html"><span class="stop-id">2595</span>Zasole Kościół (1)</a>
+<div class="zone zone-osiek">STREFA OSIEK</div>
+<a class="stop" href="../rozklady/121/1959-osiek.html"><span class="stop-id">1959</span>Osiek Tarniówka (1)</a>
+<a class="stop" href="../rozklady/121/1939-osiek.html"><span class="stop-id">1939</span>Osiek Spółdzielnia (3)</a>
+<a class="stop" href="../rozklady/121/1938-osiek.html"><span class="stop-id">1938</span>Osiek Kółko (1)</a>
+<a class="stop terminal" href="../rozklady/121/1932-osiek.html"><span class="stop-id">1932</span>Osiek Dom Ludowy (3)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Jawiszowice Kółko</h2>
+
+<div class="zone zone-osiek">STREFA OSIEK</div>
+<a class="stop terminal" href="../rozklady/121/1932-jawiszowice.html"><span class="stop-id">1932</span>Osiek Dom Ludowy (3)</a>
+<a class="stop" href="../rozklady/121/1940-jawiszowice.html"><span class="stop-id">1940</span>Osiek Kółko (2)</a>
+<a class="stop" href="../rozklady/121/1961-jawiszowice.html"><span class="stop-id">1961</span>Osiek Spółdzielnia (1)</a>
+<div class="zone zone-brzeszcze">STREFA BRZESZCZE</div>
+<a class="stop" href="../rozklady/121/2596-jawiszowice.html"><span class="stop-id">2596</span>Zasole Kościół (2)</a>
+<a class="stop" href="../rozklady/121/2597-jawiszowice.html"><span class="stop-id">2597</span>Zasole Pętla (0)</a>
+<a class="stop" href="../rozklady/121/2595-jawiszowice.html"><span class="stop-id">2595</span>Zasole Kościół (1)</a>
+<a class="stop" href="../rozklady/121/2594-jawiszowice.html"><span class="stop-id">2594</span>Zasole Sklep (2)</a>
+<a class="stop" href="../rozklady/121/2591-jawiszowice.html"><span class="stop-id">2591</span>Skidziń Wentylatory (1)</a>
+<a class="stop" href="../rozklady/121/2590-jawiszowice.html"><span class="stop-id">2590</span>Skidziń na żądanie (2)</a>
+<a class="stop" href="../rozklady/121/3327-jawiszowice.html"><span class="stop-id">3327</span>Skidziń Bar (1)</a>
+<a class="stop" href="../rozklady/121/2575-jawiszowice.html"><span class="stop-id">2575</span>Przecieszyn Poczta (2)</a>
+<a class="stop" href="../rozklady/121/2574-jawiszowice.html"><span class="stop-id">2574</span>Przecieszyn Krzyżówka (1)</a>
+<a class="stop" href="../rozklady/121/2573-jawiszowice.html"><span class="stop-id">2573</span>Brzeszcze Chałpy (1)</a>
+<a class="stop" href="../rozklady/121/2570-jawiszowice.html"><span class="stop-id">2570</span>Brzeszcze Super Sam (2)</a>
+<a class="stop" href="../rozklady/121/2562-jawiszowice.html"><span class="stop-id">2562</span>Brzeszcze Szkoła (1)</a>
+<a class="stop" href="../rozklady/121/2561-jawiszowice.html"><span class="stop-id">2561</span>Brzeszcze Kościół (1)</a>
+<a class="stop" href="../rozklady/121/2560-jawiszowice.html"><span class="stop-id">2560</span>Brzeszcze Strażnica (1)</a>
+<a class="stop" href="../rozklady/121/2555-jawiszowice.html"><span class="stop-id">2555</span>Brzeszcze Osiedle (1)</a>
+<a class="stop variant" href="../rozklady/121/2553-jawiszowice.html"><span class="stop-id">2553</span>Brzeszcze Dworzec PKP (0)</a>
+<a class="stop variant" href="../rozklady/121/2554-jawiszowice.html"><span class="stop-id">2554</span>Brzeszcze Jawiszowice Osiedle (1)</a>
+<a class="stop" href="../rozklady/121/2559-jawiszowice.html"><span class="stop-id">2559</span>Jawiszowice Osiedle Paderewskiego (1)</a>
+<a class="stop" href="../rozklady/121/2567-jawiszowice.html"><span class="stop-id">2567</span>Jawiszowice Mickiewicza (2)</a>
+<a class="stop terminal" href="../rozklady/121/2557-jawiszowice.html"><span class="stop-id">2557</span>Jawiszowice Kółko (1)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
