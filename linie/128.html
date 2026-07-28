@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 128</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-zator{
+    background:#10ffff;
+    color:#222;
+}
+
+.zone-spytkowice{
+    background:#76a5af;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">128</div>
+
+<div class="route">
+Zator Rynek - Smolice - Miejsce - Spytkowice - Zator Rynek
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Zator Rynek</h2>
+
+<div class="zone zone-zator">STREFA ZATOR</div>
+<a class="stop terminal" href="../rozklady/128/1679-okrezna-1.html"><span class="stop-id">1679</span>Zator Rynek (0)</a>
+<a class="stop" href="../rozklady/128/3330-okrezna-1.html"><span class="stop-id">3330</span>Zator Agropunkt (2)</a>
+<a class="stop" href="../rozklady/128/1681-okrezna-1.html"><span class="stop-id">1681</span>Zator Osiedle Morysina I (1)</a>
+<a class="stop" href="../rozklady/128/1680-okrezna-1.html"><span class="stop-id">1680</span>Zator Osiedle Morysina II (1)</a>
+<a class="stop" href="../rozklady/128/1727-okrezna-1.html"><span class="stop-id">1727</span>Smolice Żwirownia (2)</a>
+<a class="stop" href="../rozklady/128/1726-okrezna-1.html"><span class="stop-id">1726</span>Smolice Kapliczka (2)</a>
+<a class="stop variant" href="../rozklady/128/1728-okrezna-1.html"><span class="stop-id">1728</span>Palczowice Rabusiowice (1)</a>
+<a class="stop" href="../rozklady/128/1732-okrezna-1.html"><span class="stop-id">1732</span>Smolice Szkoła (1)</a>
+<a class="stop" href="../rozklady/128/1724-okrezna-1.html"><span class="stop-id">1724</span>Smolice Sklep (2)</a>
+<a class="stop" href="../rozklady/128/1734-okrezna-1.html"><span class="stop-id">1734</span>Smolice Wał (1)</a>
+<a class="stop" href="../rozklady/128/1722-okrezna-1.html"><span class="stop-id">1722</span>Smolice Lipowa (2)</a>
+<div class="zone zone-spytkowice">STREFA SPYTKOWICE</div>
+<a class="stop" href="../rozklady/128/1762-okrezna-1.html"><span class="stop-id">1762</span>Miejsce Pindel (1)</a>
+<a class="stop" href="../rozklady/128/1763-okrezna-1.html"><span class="stop-id">1763</span>Miejsce Przejazd Kolejowy (1)</a>
+<a class="stop" href="../rozklady/128/1764-okrezna-1.html"><span class="stop-id">1764</span>Miejsce Szkoła (1)</a>
+<a class="stop" href="../rozklady/128/1765-okrezna-1.html"><span class="stop-id">1765</span>Miejsce Wisła (1)</a>
+<a class="stop" href="../rozklady/128/1775-okrezna-1.html"><span class="stop-id">1775</span>Spytkowice (2)</a>
+<a class="stop" href="../rozklady/128/1779-okrezna-1.html"><span class="stop-id">1779</span>Spytkowice Kółko (2)</a>
+<a class="stop" href="../rozklady/128/1776-okrezna-1.html"><span class="stop-id">1776</span>Spytkowice Rynek (2)</a>
+<a class="stop" href="../rozklady/128/1777-okrezna-1.html"><span class="stop-id">1777</span>Spytkowice Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/128/1769-okrezna-1.html"><span class="stop-id">1769</span>Spytkowice Dworzec PKP (1)</a>
+<div class="zone zone-zator">STREFA ZATOR</div>
+<a class="stop" href="../rozklady/128/1751-okrezna-1.html"><span class="stop-id">1751</span>Zator Zaskawie (0)</a>
+<a class="stop" href="../rozklady/128/1749-okrezna-1.html"><span class="stop-id">1749</span>Zator Palczowice (1)</a>
+<a class="stop terminal" href="../rozklady/128/1679-okrezna-1-2.html"><span class="stop-id">1679</span>Zator Rynek (0)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Zator Rynek</h2>
+
+<div class="zone zone-zator">STREFA ZATOR</div>
+<a class="stop terminal" href="../rozklady/128/1679-okrezna-2.html"><span class="stop-id">1679</span>Zator Rynek (0)</a>
+<a class="stop" href="../rozklady/128/1748-okrezna-2.html"><span class="stop-id">1748</span>Zator Blich (0)</a>
+<a class="stop" href="../rozklady/128/1750-okrezna-2.html"><span class="stop-id">1750</span>Zator Palczowice (2)</a>
+<div class="zone zone-spytkowice">STREFA SPYTKOWICE</div>
+<a class="stop" href="../rozklady/128/1778-okrezna-2.html"><span class="stop-id">1778</span>Spytkowice Dworzec PKP (2)</a>
+<a class="stop" href="../rozklady/128/1768-okrezna-2.html"><span class="stop-id">1768</span>Spytkowice Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/128/1767-okrezna-2.html"><span class="stop-id">1767</span>Spytkowice Rynek (1)</a>
+<a class="stop" href="../rozklady/128/1770-okrezna-2.html"><span class="stop-id">1770</span>Spytkowice Kółko (1)</a>
+<a class="stop" href="../rozklady/128/1766-okrezna-2.html"><span class="stop-id">1766</span>Spytkowice (1)</a>
+<a class="stop" href="../rozklady/128/1774-okrezna-2.html"><span class="stop-id">1774</span>Miejsce Wisła (2)</a>
+<a class="stop" href="../rozklady/128/1773-okrezna-2.html"><span class="stop-id">1773</span>Miejsce Szkoła (2)</a>
+<a class="stop" href="../rozklady/128/1772-okrezna-2.html"><span class="stop-id">1772</span>Miejsce Przejazd Kolejowy (2)</a>
+<a class="stop" href="../rozklady/128/1771-okrezna-2.html"><span class="stop-id">1771</span>Miejsce Pindel (2)</a>
+<div class="zone zone-zator">STREFA ZATOR</div>
+<a class="stop" href="../rozklady/128/1735-okrezna-2.html"><span class="stop-id">1735</span>Smolice Lipowa (1)</a>
+<a class="stop" href="../rozklady/128/1723-okrezna-2.html"><span class="stop-id">1723</span>Smolice Wał (2)</a>
+<a class="stop" href="../rozklady/128/1733-okrezna-2.html"><span class="stop-id">1733</span>Smolice Sklep (1)</a>
+<a class="stop" href="../rozklady/128/1725-okrezna-2.html"><span class="stop-id">1725</span>Smolice Szkoła (2)</a>
+<a class="stop variant" href="../rozklady/128/1729-okrezna-2.html"><span class="stop-id">1729</span>Palczowice Rabusiowice (2)</a>
+<a class="stop" href="../rozklady/128/1731-okrezna-2.html"><span class="stop-id">1731</span>Smolice Kapliczka (1)</a>
+<a class="stop" href="../rozklady/128/1730-okrezna-2.html"><span class="stop-id">1730</span>Smolice Żwirownia (1)</a>
+<a class="stop" href="../rozklady/128/1700-okrezna-2.html"><span class="stop-id">1700</span>Zator Osiedle Morysina II (2)</a>
+<a class="stop" href="../rozklady/128/1699-okrezna-2.html"><span class="stop-id">1699</span>Zator Osiedle Morysina I (2)</a>
+<a class="stop" href="../rozklady/128/1749-okrezna-2.html"><span class="stop-id">1749</span>Zator Palczowice (1)</a>
+<a class="stop" href="../rozklady/128/3331-okrezna-2.html"><span class="stop-id">3331</span>Zator Agropunkt (1)</a>
+<a class="stop terminal" href="../rozklady/128/1679-okrezna-2-2.html"><span class="stop-id">1679</span>Zator Rynek (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
