@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 127</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-olkusz{
+    background:#ffe599;
+    color:#222;
+}
+
+.zone-klucze{
+    background:#00fe00;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">127</div>
+
+<div class="route">
+Rodaki Pętla - Ryczówek - Hucisko - Kwaśniów Górny - Kwaśniów Dolny - (Cieślin) - (Bydlin) - (Kolbark) - (Jaroszowiec) - Klucze - Bogucin Duży - Olkusz Dworzec PKP - Olkusz Osiedle Młodych Pętla
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Olkusz Osiedle Młodych Pętla</h2>
+
+<div class="zone zone-klucze">STREFA KLUCZE</div>
+<a class="stop terminal" href="../rozklady/127/0497-olkusz.html"><span class="stop-id">0497</span>Rodaki Pętla (0)</a>
+<a class="stop" href="../rozklady/127/0498-olkusz.html"><span class="stop-id">0498</span>Rodaki Długa (1)</a>
+<a class="stop" href="../rozklady/127/0499-olkusz.html"><span class="stop-id">0499</span>Rodaki OSP (2)</a>
+<a class="stop" href="../rozklady/127/0500-olkusz.html"><span class="stop-id">0500</span>Rodaki Kościół (1)</a>
+<a class="stop" href="../rozklady/127/2248-olkusz.html"><span class="stop-id">2248</span>Rodaki Laski (1)</a>
+<a class="stop" href="../rozklady/127/2250-olkusz.html"><span class="stop-id">2250</span>Ryczówek Kąty (2)</a>
+<a class="stop" href="../rozklady/127/2244-olkusz.html"><span class="stop-id">2244</span>Ryczówek Szkoła (1)</a>
+<a class="stop" href="../rozklady/127/2243-olkusz.html"><span class="stop-id">2243</span>Ryczówek Pętla (1)</a>
+<a class="stop" href="../rozklady/127/2253-olkusz.html"><span class="stop-id">2253</span>Ryczówek Szkoła (2)</a>
+<a class="stop" href="../rozklady/127/2245-olkusz.html"><span class="stop-id">2245</span>Ryczówek OSP (1)</a>
+<a class="stop" href="../rozklady/127/2251-olkusz.html"><span class="stop-id">2251</span>Ryczówek (2)</a>
+<a class="stop" href="../rozklady/127/0558-olkusz.html"><span class="stop-id">0558</span>Kwaśniów Górny (2)</a>
+<a class="stop" href="../rozklady/127/0559-olkusz.html"><span class="stop-id">0559</span>Kwaśniów Górny Glinianki (2)</a>
+<a class="stop" href="../rozklady/127/0560-olkusz.html"><span class="stop-id">0560</span>Hucisko (2)</a>
+<a class="stop" href="../rozklady/127/0503-olkusz.html"><span class="stop-id">0503</span>Hucisko Pętla (0)</a>
+<a class="stop" href="../rozklady/127/0504-olkusz.html"><span class="stop-id">0504</span>Hucisko (1)</a>
+<a class="stop" href="../rozklady/127/0505-olkusz.html"><span class="stop-id">0505</span>Kwaśniów Górny Glinianki (1)</a>
+<a class="stop" href="../rozklady/127/0506-olkusz.html"><span class="stop-id">0506</span>Kwaśniów Górny (1)</a>
+<a class="stop" href="../rozklady/127/0507-olkusz.html"><span class="stop-id">0507</span>Kwaśniów Górny Kościół (1)</a>
+<a class="stop variant" href="../rozklady/127/2238-olkusz.html"><span class="stop-id">2238</span>Kwaśniów Dolny Sklep (2)</a>
+<a class="stop variant" href="../rozklady/127/2231-olkusz.html"><span class="stop-id">2231</span>Cieślin Granica (1)</a>
+<a class="stop variant terminal" href="../rozklady/127/2232-olkusz.html"><span class="stop-id">2232</span>Cieślin Dom Ludowy (1)</a>
+<a class="stop variant" href="../rozklady/127/2233-olkusz.html"><span class="stop-id">2233</span>Cieślin Młyn (1)</a>
+<a class="stop variant" href="../rozklady/127/2227-olkusz.html"><span class="stop-id">2227</span>Cieślin (2)</a>
+<a class="stop variant" href="../rozklady/127/2210-olkusz.html"><span class="stop-id">2210</span>Bydlin Cieślin (1)</a>
+<a class="stop variant" href="../rozklady/127/2220-olkusz.html"><span class="stop-id">2220</span>Bydlin Ośrodek Zdrowia (2)</a>
+<a class="stop variant" href="../rozklady/127/2221-olkusz.html"><span class="stop-id">2221</span>Kolbark (2)</a>
+<a class="stop variant" href="../rozklady/127/2222-olkusz.html"><span class="stop-id">2222</span>Jaroszowiec Kobylica (2)</a>
+<a class="stop variant" href="../rozklady/127/2223-olkusz.html"><span class="stop-id">2223</span>Jaroszowiec Porąbka (2)</a>
+<a class="stop variant" href="../rozklady/127/0528-olkusz.html"><span class="stop-id">0528</span>Jaroszowiec Dworzec PKP (1)</a>
+<a class="stop variant" href="../rozklady/127/0549-olkusz.html"><span class="stop-id">0549</span>Jaroszowiec Huta Szkłomasz (1)</a>
+<a class="stop variant" href="../rozklady/127/0550-olkusz.html"><span class="stop-id">0550</span>Jaroszowiec Szkoła (2)</a>
+<a class="stop variant" href="../rozklady/127/0551-olkusz.html"><span class="stop-id">0551</span>Klucze PKS (2)</a>
+<a class="stop variant" href="../rozklady/127/0552-olkusz.html"><span class="stop-id">0552</span>Klucze Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/127/0508-olkusz.html"><span class="stop-id">0508</span>Kwaśniów Dolny OSP (1)</a>
+<a class="stop" href="../rozklady/127/0509-olkusz.html"><span class="stop-id">0509</span>Chechło Malina (1)</a>
+<a class="stop" href="../rozklady/127/0510-olkusz.html"><span class="stop-id">0510</span>Klucze Osada (2)</a>
+<a class="stop" href="../rozklady/127/0511-olkusz.html"><span class="stop-id">0511</span>Klucze Osiedle 30-Lecia (2)</a>
+<a class="stop" href="../rozklady/127/0512-olkusz.html"><span class="stop-id">0512</span>Klucze Park (2)</a>
+<a class="stop" href="../rozklady/127/2174-olkusz.html"><span class="stop-id">2174</span>Klucze Bolesławska (2)</a>
+<a class="stop" href="../rozklady/127/2177-olkusz.html"><span class="stop-id">2177</span>Bogucin Duży Skrzyżowanie (1)</a>
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+<a class="stop" href="../rozklady/127/2203-olkusz.html"><span class="stop-id">2203</span>Bogucin Mały (2)</a>
+<a class="stop" href="../rozklady/127/2204-olkusz.html"><span class="stop-id">2204</span>Olkusz Parcze (1)</a>
+<a class="stop" href="../rozklady/127/2205-olkusz.html"><span class="stop-id">2205</span>Olkusz Kasztanowa (1)</a>
+<a class="stop" href="../rozklady/127/0174-olkusz.html"><span class="stop-id">0174</span>Olkusz Supersam (0)</a>
+<a class="stop" href="../rozklady/127/0199-olkusz.html"><span class="stop-id">0199</span>Olkusz Skarbek (2)</a>
+<a class="stop" href="../rozklady/127/0201-olkusz.html"><span class="stop-id">0201</span>Olkusz Dworzec PKP (1)</a>
+<a class="stop" href="../rozklady/127/0202-olkusz.html"><span class="stop-id">0202</span>Olkusz Wiadukt (1)</a>
+<a class="stop" href="../rozklady/127/0492-olkusz.html"><span class="stop-id">0492</span>Olkusz Baza PKS (1)</a>
+<a class="stop" href="../rozklady/127/0493-olkusz.html"><span class="stop-id">0493</span>Olkusz Owent (2)</a>
+<a class="stop" href="../rozklady/127/0494-olkusz.html"><span class="stop-id">0494</span>Olkusz ZUS (2)</a>
+<a class="stop" href="../rozklady/127/1589-olkusz.html"><span class="stop-id">1589</span>Olkusz Biema (2)</a>
+<a class="stop" href="../rozklady/127/1587-olkusz.html"><span class="stop-id">1587</span>Olkusz Kościół (1)</a>
+<a class="stop" href="../rozklady/127/1575-olkusz.html"><span class="stop-id">1575</span>Olkusz Księdza Gajewskiego (1)</a>
+<a class="stop" href="../rozklady/127/2026-olkusz.html"><span class="stop-id">2026</span>Olkusz Kochanowskiego (1)</a>
+<a class="stop terminal" href="../rozklady/127/3307-olkusz.html"><span class="stop-id">3307</span>Olkusz Osiedle Młodych Pętla (1)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Rodaki Pętla</h2>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+<a class="stop terminal" href="../rozklady/127/2025-rodaki.html"><span class="stop-id">2025</span>Olkusz Osiedle Młodych Pętla (0)</a>
+<a class="stop" href="../rozklady/127/2027-rodaki.html"><span class="stop-id">2027</span>Olkusz Kochanowskiego (2)</a>
+<a class="stop" href="../rozklady/127/1576-rodaki.html"><span class="stop-id">1576</span>Olkusz Księdza Gajewskiego (2)</a>
+<a class="stop" href="../rozklady/127/1586-rodaki.html"><span class="stop-id">1586</span>Olkusz Kościół (2)</a>
+<a class="stop" href="../rozklady/127/1588-rodaki.html"><span class="stop-id">1588</span>Olkusz Biema (1)</a>
+<a class="stop" href="../rozklady/127/0537-rodaki.html"><span class="stop-id">0537</span>Olkusz ZUS (1)</a>
+<a class="stop" href="../rozklady/127/0538-rodaki.html"><span class="stop-id">0538</span>Olkusz Owent (1)</a>
+<a class="stop" href="../rozklady/127/0225-rodaki.html"><span class="stop-id">0225</span>Olkusz Aleja Tysiąclecia (2)</a>
+<a class="stop" href="../rozklady/127/0226-rodaki.html"><span class="stop-id">0226</span>Olkusz Wiadukt (2)</a>
+<a class="stop" href="../rozklady/127/0227-rodaki.html"><span class="stop-id">0227</span>Olkusz Dworzec PKP (2)</a>
+<a class="stop" href="../rozklady/127/0228-rodaki.html"><span class="stop-id">0228</span>Olkusz Skarbek (1)</a>
+<a class="stop" href="../rozklady/127/0238-rodaki.html"><span class="stop-id">0238</span>Olkusz Supersam (2)</a>
+<a class="stop" href="../rozklady/127/0685-rodaki.html"><span class="stop-id">0685</span>Olkusz Kasztanowa (2)</a>
+<a class="stop" href="../rozklady/127/0686-rodaki.html"><span class="stop-id">0686</span>Olkusz Parcze (2)</a>
+<a class="stop" href="../rozklady/127/0687-rodaki.html"><span class="stop-id">0687</span>Bogucin Mały (1)</a>
+<div class="zone zone-klucze">STREFA KLUCZE</div>
+<a class="stop" href="../rozklady/127/2178-rodaki.html"><span class="stop-id">2178</span>Bogucin Duży Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/127/2173-rodaki.html"><span class="stop-id">2173</span>Klucze Bolesławska (1)</a>
+<a class="stop variant" href="../rozklady/127/0513-rodaki.html"><span class="stop-id">0513</span>Klucze Skrzyżowanie (2)</a>
+<a class="stop variant" href="../rozklady/127/0514-rodaki.html"><span class="stop-id">0514</span>Klucze PKS (1)</a>
+<a class="stop variant" href="../rozklady/127/0515-rodaki.html"><span class="stop-id">0515</span>Jaroszowiec Szkoła (1)</a>
+<a class="stop variant" href="../rozklady/127/0516-rodaki.html"><span class="stop-id">0516</span>Jaroszowiec Huta Szkłomasz (2)</a>
+<a class="stop variant" href="../rozklady/127/0517-rodaki.html"><span class="stop-id">0517</span>Jaroszowiec Dworzec PKP (2)</a>
+<a class="stop variant" href="../rozklady/127/2206-rodaki.html"><span class="stop-id">2206</span>Jaroszowiec Porąbka (1)</a>
+<a class="stop variant" href="../rozklady/127/2207-rodaki.html"><span class="stop-id">2207</span>Jaroszowiec Kobylica (1)</a>
+<a class="stop variant" href="../rozklady/127/2208-rodaki.html"><span class="stop-id">2208</span>Kolbark (1)</a>
+<a class="stop variant" href="../rozklady/127/2209-rodaki.html"><span class="stop-id">2209</span>Bydlin Ośrodek Zdrowia (1)</a>
+<a class="stop variant" href="../rozklady/127/2219-rodaki.html"><span class="stop-id">2219</span>Bydlin Cieślin (2)</a>
+<a class="stop variant" href="../rozklady/127/2234-rodaki.html"><span class="stop-id">2234</span>Cieślin (1)</a>
+<a class="stop variant" href="../rozklady/127/2228-rodaki.html"><span class="stop-id">2228</span>Cieślin Młyn (2)</a>
+<a class="stop variant" href="../rozklady/127/2229-rodaki.html"><span class="stop-id">2229</span>Cieślin Dom Ludowy (2)</a>
+<a class="stop variant" href="../rozklady/127/2230-rodaki.html"><span class="stop-id">2230</span>Cieślin Granica (2)</a>
+<a class="stop variant" href="../rozklady/127/2238-rodaki.html"><span class="stop-id">2238</span>Kwaśniów Dolny Sklep (2)</a>
+<a class="stop" href="../rozklady/127/0553-rodaki.html"><span class="stop-id">0553</span>Klucze Park (1)</a>
+<a class="stop" href="../rozklady/127/0554-rodaki.html"><span class="stop-id">0554</span>Klucze Osiedle 30-lecia (1)</a>
+<a class="stop" href="../rozklady/127/0555-rodaki.html"><span class="stop-id">0555</span>Klucze Osada (1)</a>
+<a class="stop" href="../rozklady/127/0556-rodaki.html"><span class="stop-id">0556</span>Kwaśniów Dolny OSP (2)</a>
+<a class="stop" href="../rozklady/127/0557-rodaki.html"><span class="stop-id">0557</span>Kwaśniów Górny Kościół (2)</a>
+<a class="stop" href="../rozklady/127/0558-rodaki.html"><span class="stop-id">0558</span>Kwaśniów Górny (2)</a>
+<a class="stop" href="../rozklady/127/0559-rodaki.html"><span class="stop-id">0559</span>Kwaśniów Górny Glinianki (2)</a>
+<a class="stop" href="../rozklady/127/0560-rodaki.html"><span class="stop-id">0560</span>Hucisko (2)</a>
+<a class="stop" href="../rozklady/127/0503-rodaki.html"><span class="stop-id">0503</span>Hucisko Pętla (0)</a>
+<a class="stop" href="../rozklady/127/0504-rodaki.html"><span class="stop-id">0504</span>Hucisko (1)</a>
+<a class="stop" href="../rozklady/127/0505-rodaki.html"><span class="stop-id">0505</span>Kwaśniów Górny Glinianki (1)</a>
+<a class="stop" href="../rozklady/127/0506-rodaki.html"><span class="stop-id">0506</span>Kwaśniów Górny (1)</a>
+<a class="stop" href="../rozklady/127/2240-rodaki.html"><span class="stop-id">2240</span>Kwaśniów Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/127/2246-rodaki.html"><span class="stop-id">2246</span>Ryczówek (1)</a>
+<a class="stop" href="../rozklady/127/2244-rodaki.html"><span class="stop-id">2244</span>Ryczówek Szkoła (1)</a>
+<a class="stop" href="../rozklady/127/2243-rodaki.html"><span class="stop-id">2243</span>Ryczówek Pętla (1)</a>
+<a class="stop" href="../rozklady/127/2253-rodaki.html"><span class="stop-id">2253</span>Ryczówek Szkoła (2)</a>
+<a class="stop" href="../rozklady/127/2252-rodaki.html"><span class="stop-id">2252</span>Ryczówek OSP (2)</a>
+<a class="stop" href="../rozklady/127/2247-rodaki.html"><span class="stop-id">2247</span>Ryczówek Kąty (1)</a>
+<a class="stop" href="../rozklady/127/2249-rodaki.html"><span class="stop-id">2249</span>Rodaki Laski (2)</a>
+<a class="stop" href="../rozklady/127/0564-rodaki.html"><span class="stop-id">0564</span>Rodaki Kościół (2)</a>
+<a class="stop" href="../rozklady/127/0565-rodaki.html"><span class="stop-id">0565</span>Rodaki OSP (1)</a>
+<a class="stop" href="../rozklady/127/0566-rodaki.html"><span class="stop-id">0566</span>Rodaki Długa (2)</a>
+<a class="stop terminal" href="../rozklady/127/0497-rodaki.html"><span class="stop-id">0497</span>Rodaki Pętla (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
