@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 126</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-olkusz{
+    background:#ffe599;
+    color:#222;
+}
+
+.zone-jerzmanowice-przeginia{
+    background:#ea9998;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">126</div>
+
+<div class="route">
+Olkusz Dworzec PKS - Sieniczno - Kogutek - Zederman - Przeginia - Gotkowice - Sąspów - Jerzmanowice Kolonia Wschodnia Nietoperzowa
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Jerzmanowice Kolonia Wschodnia Nietoperzowa</h2>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+<a class="stop terminal" href="../rozklady/126/0200-jerzmanowice.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
+<a class="stop" href="../rozklady/126/0202-jerzmanowice.html"><span class="stop-id">0202</span>Olkusz Wiadukt (1)</a>
+<a class="stop" href="../rozklady/126/0203-jerzmanowice.html"><span class="stop-id">0203</span>Olkusz Aleja Tysiąclecia (1)</a>
+<a class="stop" href="../rozklady/126/0204-jerzmanowice.html"><span class="stop-id">0204</span>Sieniczno (1)</a>
+<a class="stop" href="../rozklady/126/1590-jerzmanowice.html"><span class="stop-id">1590</span>Kogutek (1)</a>
+<a class="stop" href="../rozklady/126/1592-jerzmanowice.html"><span class="stop-id">1592</span>Zederman Pasieka (1)</a>
+<a class="stop" href="../rozklady/126/1595-jerzmanowice.html"><span class="stop-id">1595</span>Zederman Kiosk (4)</a>
+<a class="stop" href="../rozklady/126/1599-jerzmanowice.html"><span class="stop-id">1599</span>Zederman (1)</a>
+<div class="zone zone-jerzmanowice-przeginia">STREFA JERZMANOWICE-PRZEGINIA</div>
+<a class="stop" href="../rozklady/126/1601-jerzmanowice.html"><span class="stop-id">1601</span>Przeginia Kościół (1)</a>
+<a class="stop" href="../rozklady/126/1654-jerzmanowice.html"><span class="stop-id">1654</span>Przeginia Dom Ludowy (2)</a>
+<a class="stop" href="../rozklady/126/1647-jerzmanowice.html"><span class="stop-id">1647</span>Przeginia Skotnica (1)</a>
+<a class="stop" href="../rozklady/126/1649-jerzmanowice.html"><span class="stop-id">1649</span>Przeginia Ostra Góra (1)</a>
+<a class="stop" href="../rozklady/126/1652-jerzmanowice.html"><span class="stop-id">1652</span>Gotkowice Wieś (2)</a>
+<a class="stop" href="../rozklady/126/1676-jerzmanowice.html"><span class="stop-id">1676</span>Sąspów Pod Wymysłowem (2)</a>
+<a class="stop" href="../rozklady/126/1674-jerzmanowice.html"><span class="stop-id">1674</span>Sąspów Pętla (0)</a>
+<a class="stop" href="../rozklady/126/1672-jerzmanowice.html"><span class="stop-id">1672</span>Sąspów Pod Wymysłowem (1)</a>
+<a class="stop" href="../rozklady/126/1659-jerzmanowice.html"><span class="stop-id">1659</span>Jerzmanowice Ojcowska (1)</a>
+<a class="stop" href="../rozklady/126/3318-jerzmanowice.html"><span class="stop-id">3318</span>Jerzmanowice Kolonia Zachodnia I (2)</a>
+<a class="stop" href="../rozklady/126/1670-jerzmanowice.html"><span class="stop-id">1670</span>Jerzmanowice Kolonia Zachodnia II (1)</a>
+<a class="stop" href="../rozklady/126/1668-jerzmanowice.html"><span class="stop-id">1668</span>Jerzmanowice Kolonia Zachodnia III (1)</a>
+<a class="stop" href="../rozklady/126/3315-jerzmanowice.html"><span class="stop-id">3315</span>Jerzmanowice Kolonia Zachodnia IV (2)</a>
+<a class="stop" href="../rozklady/126/1634-jerzmanowice.html"><span class="stop-id">1634</span>Jerzmanowice Pióro (1)</a>
+<a class="stop" href="../rozklady/126/1636-jerzmanowice.html"><span class="stop-id">1636</span>Jerzmanowice Stara Wieś (1)</a>
+<a class="stop" href="../rozklady/126/1637-jerzmanowice.html"><span class="stop-id">1637</span>Jerzmanowice Centrum (1)</a>
+<a class="stop" href="../rozklady/126/1662-jerzmanowice.html"><span class="stop-id">1662</span>Jerzmanowice Centralna (2)</a>
+<a class="stop" href="../rozklady/126/3319-jerzmanowice.html"><span class="stop-id">3319</span>Jerzmanowice Doły (2)</a>
+<a class="stop" href="../rozklady/126/1657-jerzmanowice.html"><span class="stop-id">1657</span>Jerzmanowice Kolonia Doły I (2)</a>
+<a class="stop" href="../rozklady/126/3312-jerzmanowice.html"><span class="stop-id">3312</span>Jerzmanowice Kolonia Wyjrzoł II (2)</a>
+<a class="stop" href="../rozklady/126/1645-jerzmanowice.html"><span class="stop-id">1645</span>Jerzmanowice Kolonia Wyjrzoł I (1)</a>
+<a class="stop" href="../rozklady/126/1664-jerzmanowice.html"><span class="stop-id">1664</span>Jerzmanowice Pod Lasem (1)</a>
+<a class="stop" href="../rozklady/126/3313-jerzmanowice.html"><span class="stop-id">3313</span>Jerzmanowice Kolonia Wschodnia (2)</a>
+<a class="stop terminal" href="../rozklady/126/1663-jerzmanowice.html"><span class="stop-id">1663</span>Jerzmanowice Kolonia Wschodnia Nietoperzowa (1)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Olkusz Dworzec PKS</h2>
+
+<div class="zone zone-jerzmanowice-przeginia">STREFA JERZMANOWICE-PRZEGINIA</div>
+<a class="stop terminal" href="../rozklady/126/1663-olkusz.html"><span class="stop-id">1663</span>Jerzmanowice Kolonia Wschodnia Nietoperzowa (1)</a>
+<a class="stop" href="../rozklady/126/3320-olkusz.html"><span class="stop-id">3320</span>Jerzmanowice Kolonia Wschodnia (1)</a>
+<a class="stop" href="../rozklady/126/1667-olkusz.html"><span class="stop-id">1667</span>Jerzmanowice Pod Lasem (2)</a>
+<a class="stop" href="../rozklady/126/3311-olkusz.html"><span class="stop-id">3311</span>Jerzmanowice Kolonia Wyjrzoł I (2)</a>
+<a class="stop" href="../rozklady/126/1658-olkusz.html"><span class="stop-id">1658</span>Jerzmanowice Kolonia Wyjrzoł II (1)</a>
+<a class="stop" href="../rozklady/126/3314-olkusz.html"><span class="stop-id">3314</span>Jerzmanowice Kolonia Doły I (1)</a>
+<a class="stop" href="../rozklady/126/1646-olkusz.html"><span class="stop-id">1646</span>Jerzmanowice Doły (1)</a>
+<a class="stop" href="../rozklady/126/1638-olkusz.html"><span class="stop-id">1638</span>Jerzmanowice Centrum (2)</a>
+<a class="stop" href="../rozklady/126/1639-olkusz.html"><span class="stop-id">1639</span>Jerzmanowice Stara Wieś (2)</a>
+<a class="stop" href="../rozklady/126/1635-olkusz.html"><span class="stop-id">1635</span>Jerzmanowice Pióro (2)</a>
+<a class="stop" href="../rozklady/126/1669-olkusz.html"><span class="stop-id">1669</span>Jerzmanowice Kolonia Zachodnia IV (1)</a>
+<a class="stop" href="../rozklady/126/3316-olkusz.html"><span class="stop-id">3316</span>Jerzmanowice Kolonia Zachodnia III (2)</a>
+<a class="stop" href="../rozklady/126/3317-olkusz.html"><span class="stop-id">3317</span>Jerzmanowice Kolonia Zachodnia II (2)</a>
+<a class="stop" href="../rozklady/126/1671-olkusz.html"><span class="stop-id">1671</span>Jerzmanowice Kolonia Zachodnia I (1)</a>
+<a class="stop" href="../rozklady/126/1676-olkusz.html"><span class="stop-id">1676</span>Sąspów Pod Wymysłowem (2)</a>
+<a class="stop" href="../rozklady/126/1674-olkusz.html"><span class="stop-id">1674</span>Sąspów Pętla (0)</a>
+<a class="stop" href="../rozklady/126/1672-olkusz.html"><span class="stop-id">1672</span>Sąspów Pod Wymysłowem (1)</a>
+<a class="stop" href="../rozklady/126/1659-olkusz.html"><span class="stop-id">1659</span>Jerzmanowice Ojcowska (1)</a>
+<a class="stop" href="../rozklady/126/1650-olkusz.html"><span class="stop-id">1650</span>Gotkowice Wieś (1)</a>
+<a class="stop" href="../rozklady/126/1653-olkusz.html"><span class="stop-id">1653</span>Przeginia Ostra Góra (2)</a>
+<a class="stop" href="../rozklady/126/1655-olkusz.html"><span class="stop-id">1655</span>Przeginia Skotnica (2)</a>
+<a class="stop" href="../rozklady/126/1648-olkusz.html"><span class="stop-id">1648</span>Przeginia Dom Ludowy (1)</a>
+<a class="stop" href="../rozklady/126/1600-olkusz.html"><span class="stop-id">1600</span>Przeginia Kościół (2)</a>
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+<a class="stop" href="../rozklady/126/1598-olkusz.html"><span class="stop-id">1598</span>Zederman (2)</a>
+<a class="stop" href="../rozklady/126/1594-olkusz.html"><span class="stop-id">1594</span>Zederman Kiosk (3)</a>
+<a class="stop" href="../rozklady/126/1593-olkusz.html"><span class="stop-id">1593</span>Zederman Pasieka (2)</a>
+<a class="stop" href="../rozklady/126/1591-olkusz.html"><span class="stop-id">1591</span>Kogutek (2)</a>
+<a class="stop" href="../rozklady/126/0224-olkusz.html"><span class="stop-id">0224</span>Sieniczno (2)</a>
+<a class="stop" href="../rozklady/126/0225-olkusz.html"><span class="stop-id">0225</span>Olkusz Aleja Tysiąclecia (2)</a>
+<a class="stop" href="../rozklady/126/0226-olkusz.html"><span class="stop-id">0226</span>Olkusz Wiadukt (2)</a>
+<a class="stop terminal" href="../rozklady/126/0200-olkusz.html"><span class="stop-id">0200</span>Olkusz Dworzec PKS (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
