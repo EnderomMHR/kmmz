@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 129</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-trzebinia{
+    background:#d9d2e9;
+    color:#222;
+}
+
+.zone-chrzanow{
+    background:#a4c2f4;
+    color:#222;
+}
+
+.zone-krzeszowice{
+    background:#f9cb9a;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">129</div>
+
+<div class="route">
+(Młynka Pętla) - (Nawojowa Góra) - Krzeszowice Dworzec Autobusowy - Wola Filipowska - Dulowa - Młoszowa - Trzebinia - Chrzanów Szpital
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Chrzanów Szpital</h2>
+
+<div class="zone zone-krzeszowice">STREFA KRZESZOWICE</div>
+<a class="stop variant terminal" href="../rozklady/129/1461-chrzanow.html"><span class="stop-id">1461</span>Młynka Pętla (0)</a>
+<a class="stop variant" href="../rozklady/129/2872-chrzanow.html"><span class="stop-id">2872</span>Młynka Kalwaryjska (1)</a>
+<a class="stop variant" href="../rozklady/129/1457-chrzanow.html"><span class="stop-id">1457</span>Młynka Dolna (1)</a>
+<a class="stop variant" href="../rozklady/129/1456-chrzanow.html"><span class="stop-id">1456</span>Nawojowa Góra Pisarska (1)</a>
+<a class="stop variant" href="../rozklady/129/1455-chrzanow.html"><span class="stop-id">1455</span>Nawojowa Góra Zagrody (1)</a>
+<a class="stop variant" href="../rozklady/129/1442-chrzanow.html"><span class="stop-id">1442</span>Nawojowa Góra Gwoździec (2)</a>
+<a class="stop variant" href="../rozklady/129/1276-chrzanow.html"><span class="stop-id">1276</span>Krzeszowice Wiadukt (1)</a>
+<a class="stop variant" href="../rozklady/129/1274-chrzanow.html"><span class="stop-id">1274</span>Krzeszowice Krakowska Muzeum (1)</a>
+<a class="stop variant terminal" href="../rozklady/129/1677-chrzanow.html"><span class="stop-id">1677</span>Krzeszowice Dworzec Autobusowy (1)</a>
+<a class="stop terminal" href="../rozklady/129/0051-chrzanow.html"><span class="stop-id">0051</span>Krzeszowice Dworzec Autobusowy (2)</a>
+<a class="stop" href="../rozklady/129/0052-chrzanow.html"><span class="stop-id">0052</span>Krzeszowice Rondo Jana Pawła II (0)</a>
+<a class="stop" href="../rozklady/129/0053-chrzanow.html"><span class="stop-id">0053</span>Krzeszowice Kościuszki (0)</a>
+<a class="stop" href="../rozklady/129/0054-chrzanow.html"><span class="stop-id">0054</span>Krzeszowice Zielona (2)</a>
+<a class="stop" href="../rozklady/129/0055-chrzanow.html"><span class="stop-id">0055</span>Wola Filipowska I (1)</a>
+<a class="stop" href="../rozklady/129/0056-chrzanow.html"><span class="stop-id">0056</span>Wola Filipowska II (1)</a>
+<a class="stop" href="../rozklady/129/0074-chrzanow.html"><span class="stop-id">0074</span>Wola Filipowska Białka (1)</a>
+<div class="zone zone-trzebinia">STREFA TRZEBINIA</div>
+<a class="stop" href="../rozklady/129/0075-chrzanow.html"><span class="stop-id">0075</span>Dulowa Sklep (1)</a>
+<a class="stop" href="../rozklady/129/0076-chrzanow.html"><span class="stop-id">0076</span>Dulowa (2)</a>
+<a class="stop" href="../rozklady/129/0077-chrzanow.html"><span class="stop-id">0077</span>Młoszowa Leśniczówka (2)</a>
+<a class="stop" href="../rozklady/129/0086-chrzanow.html"><span class="stop-id">0086</span>Młoszowa (1)</a>
+<a class="stop" href="../rozklady/129/0087-chrzanow.html"><span class="stop-id">0087</span>Trzebinia Szkoła (1)</a>
+<a class="stop" href="../rozklady/129/0088-chrzanow.html"><span class="stop-id">0088</span>Trzebinia Mały Rynek Kościuszki (0)</a>
+<a class="stop variant" href="../rozklady/129/1026-chrzanow.html"><span class="stop-id">1026</span>Trzebinia Harcerska Przychodnia (0)</a>
+<a class="stop" href="../rozklady/129/0089-chrzanow.html"><span class="stop-id">0089</span>Trzebinia Dworzec PKP (1)</a>
+<a class="stop" href="../rozklady/129/0090-chrzanow.html"><span class="stop-id">0090</span>Trzebinia Długa (1)</a>
+<a class="stop" href="../rozklady/129/0091-chrzanow.html"><span class="stop-id">0091</span>Trzebinia Berezka (2)</a>
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+<a class="stop variant" href="../rozklady/129/0092-chrzanow.html"><span class="stop-id">0092</span>Chrzanów Valeo (2)</a>
+<a class="stop" href="../rozklady/129/0397-chrzanow.html"><span class="stop-id">0397</span>Chrzanów Trzebińska (1)</a>
+<a class="stop" href="../rozklady/129/0117-chrzanow.html"><span class="stop-id">0117</span>Chrzanów Szpitalna (3)</a>
+<a class="stop terminal" href="../rozklady/129/0118-chrzanow.html"><span class="stop-id">0118</span>Chrzanów Szpital (1)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Krzeszowice Dworzec Autobusowy</h2>
+
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+<a class="stop terminal" href="../rozklady/129/0093-krzeszowice.html"><span class="stop-id">0093</span>Chrzanów Szpital (2)</a>
+<a class="stop" href="../rozklady/129/0094-krzeszowice.html"><span class="stop-id">0094</span>Chrzanów Szpitalna (1)</a>
+<a class="stop" href="../rozklady/129/0398-krzeszowice.html"><span class="stop-id">0398</span>Chrzanów Trzebińska (2)</a>
+<a class="stop variant" href="../rozklady/129/0119-krzeszowice.html"><span class="stop-id">0119</span>Chrzanów Valeo (1)</a>
+<div class="zone zone-trzebinia">STREFA TRZEBINIA</div>
+<a class="stop" href="../rozklady/129/0120-krzeszowice.html"><span class="stop-id">0120</span>Trzebinia Berezka (1)</a>
+<a class="stop" href="../rozklady/129/0121-krzeszowice.html"><span class="stop-id">0121</span>Trzebinia Długa (2)</a>
+<a class="stop" href="../rozklady/129/0122-krzeszowice.html"><span class="stop-id">0122</span>Trzebinia Dworzec PKP (2)</a>
+<a class="stop variant" href="../rozklady/129/1026-krzeszowice.html"><span class="stop-id">1026</span>Trzebinia Harcerska Przychodnia (0)</a>
+<a class="stop" href="../rozklady/129/0123-krzeszowice.html"><span class="stop-id">0123</span>Trzebinia Krakowska (0)</a>
+<a class="stop" href="../rozklady/129/0124-krzeszowice.html"><span class="stop-id">0124</span>Trzebinia Szkoła (2)</a>
+<a class="stop" href="../rozklady/129/0125-krzeszowice.html"><span class="stop-id">0125</span>Młoszowa (2)</a>
+<a class="stop" href="../rozklady/129/0126-krzeszowice.html"><span class="stop-id">0126</span>Młoszowa Leśniczówka (1)</a>
+<a class="stop" href="../rozklady/129/0127-krzeszowice.html"><span class="stop-id">0127</span>Dulowa (1)</a>
+<a class="stop" href="../rozklady/129/0128-krzeszowice.html"><span class="stop-id">0128</span>Dulowa Sklep (2)</a>
+<div class="zone zone-krzeszowice">STREFA KRZESZOWICE</div>
+<a class="stop" href="../rozklady/129/0129-krzeszowice.html"><span class="stop-id">0129</span>Wola Filipowska Białka (2)</a>
+<a class="stop" href="../rozklady/129/0130-krzeszowice.html"><span class="stop-id">0130</span>Wola Filipowska II (2)</a>
+<a class="stop" href="../rozklady/129/0131-krzeszowice.html"><span class="stop-id">0131</span>Wola Filipowska I (2)</a>
+<a class="stop" href="../rozklady/129/0132-krzeszowice.html"><span class="stop-id">0132</span>Krzeszowice Zielona (1)</a>
+<a class="stop" href="../rozklady/129/0133-krzeszowice.html"><span class="stop-id">0133</span>Krzeszowice Centrum (1)</a>
+<a class="stop terminal" href="../rozklady/129/1677-krzeszowice.html"><span class="stop-id">1677</span>Krzeszowice Dworzec Autobusowy (1)</a>
+<a class="stop variant" href="../rozklady/129/0135-krzeszowice.html"><span class="stop-id">0135</span>Krzeszowice 3-ego Maja (1)</a>
+<a class="stop variant" href="../rozklady/129/1277-krzeszowice.html"><span class="stop-id">1277</span>Krzeszowice Wiadukt (2)</a>
+<a class="stop variant" href="../rozklady/129/1441-krzeszowice.html"><span class="stop-id">1441</span>Nawojowa Góra Gwoździec (1)</a>
+<a class="stop variant" href="../rozklady/129/1460-krzeszowice.html"><span class="stop-id">1460</span>Nawojowa Góra Zagrody (2)</a>
+<a class="stop variant" href="../rozklady/129/1459-krzeszowice.html"><span class="stop-id">1459</span>Nawojowa Góra Pisarska (2)</a>
+<a class="stop variant" href="../rozklady/129/1458-krzeszowice.html"><span class="stop-id">1458</span>Młynka Dolna (2)</a>
+<a class="stop variant" href="../rozklady/129/2873-krzeszowice.html"><span class="stop-id">2873</span>Młynka Kalwaryjska (2)</a>
+<a class="stop variant terminal" href="../rozklady/129/1461-krzeszowice.html"><span class="stop-id">1461</span>Młynka Pętla (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
