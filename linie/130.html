@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 130</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-olkusz{
+    background:#ffe599;
+    color:#222;
+}
+
+.zone-trzyciaz{
+    background:#c17ba1;
+    color:#222;
+}
+  
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">130</div>
+
+<div class="route">
+Ściborzyce Most - Małyszyce - Imbramowice Dolne - Glanów - Sucha - Podchybie - Trzyciąż - Jangrot - Michałówka - Braciejówka - Troks - Zagaje - Olkusz Cmentarz
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Olkusz Cmentarz</h2>
+
+<div class="zone zone-trzyciaz">STREFA TRZYCIĄŻ</div>
+<a class="stop terminal" href="../rozklady/130/0787-olkusz.html"><span class="stop-id">0787</span>Ściborzyce Most (1)</a>
+<a class="stop" href="../rozklady/130/0789-olkusz.html"><span class="stop-id">0789</span>Ściborzyce Granica (1)</a>
+<a class="stop" href="../rozklady/130/2486-olkusz.html"><span class="stop-id">2486</span>Małyszyce (1)</a>
+<a class="stop" href="../rozklady/130/2488-olkusz.html"><span class="stop-id">2488</span>Imbramowice Dolne (2)</a>
+<a class="stop" href="../rozklady/130/2484-olkusz.html"><span class="stop-id">2484</span>Imbramowice Cmentarz (1)</a>
+<a class="stop" href="../rozklady/130/2490-olkusz.html"><span class="stop-id">2490</span>Imbramowice Górne (2)</a>
+<a class="stop" href="../rozklady/130/3278-olkusz.html"><span class="stop-id">3278</span>Imbramowice Pole (2)</a>
+<a class="stop" href="../rozklady/130/2491-olkusz.html"><span class="stop-id">2491</span>Glanów Granica (2)</a>
+<a class="stop" href="../rozklady/130/2481-olkusz.html"><span class="stop-id">2481</span>Glanów Dwór (1)</a>
+<a class="stop" href="../rozklady/130/2493-olkusz.html"><span class="stop-id">2493</span>Glanów Rynek (2)</a>
+<a class="stop" href="../rozklady/130/2494-olkusz.html"><span class="stop-id">2494</span>Glanów Parcele (2)</a>
+<a class="stop" href="../rozklady/130/2495-olkusz.html"><span class="stop-id">2495</span>Porąbka Granica (2)</a>
+<a class="stop" href="../rozklady/130/2496-olkusz.html"><span class="stop-id">2496</span>Sucha Polna (2)</a>
+<a class="stop" href="../rozklady/130/2497-olkusz.html"><span class="stop-id">2497</span>Sucha OSP (2)</a>
+<a class="stop" href="../rozklady/130/2498-olkusz.html"><span class="stop-id">2498</span>Sucha Długa (2)</a>
+<a class="stop" href="../rozklady/130/2473-olkusz.html"><span class="stop-id">2473</span>Podchybie Dolna Parcela (2)</a>
+<a class="stop" href="../rozklady/130/2471-olkusz.html"><span class="stop-id">2471</span>Podchybie (2)</a>
+<a class="stop" href="../rozklady/130/2504-olkusz.html"><span class="stop-id">2504</span>Sucha (2)</a>
+<a class="stop" href="../rozklady/130/2503-olkusz.html"><span class="stop-id">2503</span>Podchybie Las (2)</a>
+<a class="stop" href="../rozklady/130/0264-olkusz.html"><span class="stop-id">0264</span>Trzyciąż Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/130/0265-olkusz.html"><span class="stop-id">0265</span>Jangrot Źródło Dłubni (1)</a>
+<a class="stop" href="../rozklady/130/0266-olkusz.html"><span class="stop-id">0266</span>Jangrot Centrum (2)</a>
+<a class="stop" href="../rozklady/130/0267-olkusz.html"><span class="stop-id">0267</span>Jangrot Kosmolów (1)</a>
+<a class="stop" href="../rozklady/130/0268-olkusz.html"><span class="stop-id">0268</span>Jangrot Granica (2)</a>
+<a class="stop" href="../rozklady/130/0269-olkusz.html"><span class="stop-id">0269</span>Michałówka Granica (1)</a>
+<a class="stop" href="../rozklady/130/0270-olkusz.html"><span class="stop-id">0270</span>Michałówka OSP (2)</a>
+<a class="stop" href="../rozklady/130/0271-olkusz.html"><span class="stop-id">0271</span>Michałówka (2)</a>
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+<a class="stop" href="../rozklady/130/0272-olkusz.html"><span class="stop-id">0272</span>Braciejówka Granica (1)</a>
+<a class="stop" href="../rozklady/130/0273-olkusz.html"><span class="stop-id">0273</span>Braciejówka Szkoła (1)</a>
+<a class="stop" href="../rozklady/130/0274-olkusz.html"><span class="stop-id">0274</span>Braciejówka Zalew (2)</a>
+<a class="stop" href="../rozklady/130/0275-olkusz.html"><span class="stop-id">0275</span>Braciejówka Cmentarz (1)</a>
+<a class="stop" href="../rozklady/130/0276-olkusz.html"><span class="stop-id">0276</span>Troks Granica (1)</a>
+<a class="stop" href="../rozklady/130/0277-olkusz.html"><span class="stop-id">0277</span>Troks Szkoła (1)</a>
+<a class="stop" href="../rozklady/130/0278-olkusz.html"><span class="stop-id">0278</span>Troks (1)</a>
+<a class="stop" href="../rozklady/130/0279-olkusz.html"><span class="stop-id">0279</span>Troks Las (1)</a>
+<a class="stop" href="../rozklady/130/2041-olkusz.html"><span class="stop-id">2041</span>Olkusz Zagaje II (1)</a>
+<a class="stop" href="../rozklady/130/2042-olkusz.html"><span class="stop-id">2042</span>Olkusz Zagaje (1)</a>
+<a class="stop" href="../rozklady/130/0225-olkusz.html"><span class="stop-id">0225</span>Olkusz Aleja Tysiąclecia (2)</a>
+<a class="stop" href="../rozklady/130/0433-olkusz.html"><span class="stop-id">0433</span>Olkusz Słowiki (1)</a>
+<a class="stop" href="../rozklady/130/0238-olkusz.html"><span class="stop-id">0238</span>Olkusz Supersam (2)</a>
+<a class="stop" href="../rozklady/130/0239-olkusz.html"><span class="stop-id">0239</span>Olkusz Stacja Paliw (2)</a>
+<a class="stop terminal" href="../rozklady/130/2172-olkusz.html"><span class="stop-id">2172</span>Olkusz Cmentarz (2)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Ściborzyce Most</h2>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+<a class="stop terminal" href="../rozklady/130/2171-sciborzyce.html"><span class="stop-id">2171</span>Olkusz Cmentarz (1)</a>
+<a class="stop" href="../rozklady/130/0173-sciborzyce.html"><span class="stop-id">0173</span>Olkusz Stacja Paliw (1)</a>
+<a class="stop" href="../rozklady/130/0435-sciborzyce.html"><span class="stop-id">0435</span>Olkusz Supersam (1)</a>
+<a class="stop" href="../rozklady/130/0415-sciborzyce.html"><span class="stop-id">0415</span>Olkusz Słowiki (2)</a>
+<a class="stop" href="../rozklady/130/0203-sciborzyce.html"><span class="stop-id">0203</span>Olkusz Aleja Tysiąclecia (1)</a>
+<a class="stop" href="../rozklady/130/2029-sciborzyce.html"><span class="stop-id">2029</span>Olkusz Zagaje (2)</a>
+<a class="stop" href="../rozklady/130/2030-sciborzyce.html"><span class="stop-id">2030</span>Olkusz Zagaje II (2)</a>
+<a class="stop" href="../rozklady/130/0289-sciborzyce.html"><span class="stop-id">0289</span>Troks Las (2)</a>
+<a class="stop" href="../rozklady/130/0290-sciborzyce.html"><span class="stop-id">0290</span>Troks (2)</a>
+<a class="stop" href="../rozklady/130/0291-sciborzyce.html"><span class="stop-id">0291</span>Troks Szkoła (2)</a>
+<a class="stop" href="../rozklady/130/0292-sciborzyce.html"><span class="stop-id">0292</span>Troks Granica (2)</a>
+<a class="stop" href="../rozklady/130/0293-sciborzyce.html"><span class="stop-id">0293</span>Braciejówka Cmentarz (2)</a>
+<a class="stop" href="../rozklady/130/0294-sciborzyce.html"><span class="stop-id">0294</span>Braciejówka Zalew (1)</a>
+<a class="stop" href="../rozklady/130/0295-sciborzyce.html"><span class="stop-id">0295</span>Braciejówka Szkoła (2)</a>
+<a class="stop" href="../rozklady/130/0296-sciborzyce.html"><span class="stop-id">0296</span>Braciejówka Granica (2)</a>
+<div class="zone zone-trzyciaz">STREFA TRZYCIĄŻ</div>
+<a class="stop" href="../rozklady/130/0297-sciborzyce.html"><span class="stop-id">0297</span>Michałówka (1)</a>
+<a class="stop" href="../rozklady/130/0298-sciborzyce.html"><span class="stop-id">0298</span>Michałówka OSP (1)</a>
+<a class="stop" href="../rozklady/130/0299-sciborzyce.html"><span class="stop-id">0299</span>Michałówka Granica (2)</a>
+<a class="stop" href="../rozklady/130/0300-sciborzyce.html"><span class="stop-id">0300</span>Jangrot Granica (1)</a>
+<a class="stop" href="../rozklady/130/0301-sciborzyce.html"><span class="stop-id">0301</span>Jangrot Kosmolów (2)</a>
+<a class="stop" href="../rozklady/130/0302-sciborzyce.html"><span class="stop-id">0302</span>Jangrot Centrum (1)</a>
+<a class="stop" href="../rozklady/130/0303-sciborzyce.html"><span class="stop-id">0303</span>Jangrot Źródło Dłubni (2)</a>
+<a class="stop" href="../rozklady/130/0305-sciborzyce.html"><span class="stop-id">0305</span>Trzyciąż Skrzyżowanie (4)</a>
+<a class="stop" href="../rozklady/130/2502-sciborzyce.html"><span class="stop-id">2502</span>Podchybie Las (1)</a>
+<a class="stop" href="../rozklady/130/2501-sciborzyce.html"><span class="stop-id">2501</span>Sucha (1)</a>
+<a class="stop" href="../rozklady/130/2470-sciborzyce.html"><span class="stop-id">2470</span>Podchybie (1)</a>
+<a class="stop" href="../rozklady/130/2472-sciborzyce.html"><span class="stop-id">2472</span>Podchybie Dolna Parcela (1)</a>
+<a class="stop" href="../rozklady/130/2474-sciborzyce.html"><span class="stop-id">2474</span>Sucha Długa (1)</a>
+<a class="stop" href="../rozklady/130/2475-sciborzyce.html"><span class="stop-id">2475</span>Sucha OSP (1)</a>
+<a class="stop" href="../rozklady/130/2476-sciborzyce.html"><span class="stop-id">2476</span>Sucha Polna (1)</a>
+<a class="stop" href="../rozklady/130/2477-sciborzyce.html"><span class="stop-id">2477</span>Porąbka Granica (1)</a>
+<a class="stop" href="../rozklady/130/2478-sciborzyce.html"><span class="stop-id">2478</span>Glanów Parcele (1)</a>
+<a class="stop" href="../rozklady/130/2479-sciborzyce.html"><span class="stop-id">2479</span>Glanów Rynek (1)</a>
+<a class="stop" href="../rozklady/130/2480-sciborzyce.html"><span class="stop-id">2480</span>Glanów Sklep (1)</a>
+<a class="stop" href="../rozklady/130/2492-sciborzyce.html"><span class="stop-id">2492</span>Glanów Dwór (2)</a>
+<a class="stop" href="../rozklady/130/2482-sciborzyce.html"><span class="stop-id">2482</span>Glanów Granica (1)</a>
+<a class="stop" href="../rozklady/130/3277-sciborzyce.html"><span class="stop-id">3277</span>Imbramowice Pole (1)</a>
+<a class="stop" href="../rozklady/130/2483-sciborzyce.html"><span class="stop-id">2483</span>Imbramowice Górne (1)</a>
+<a class="stop" href="../rozklady/130/2489-sciborzyce.html"><span class="stop-id">2489</span>Imbramowice Cmentarz (2)</a>
+<a class="stop" href="../rozklady/130/2485-sciborzyce.html"><span class="stop-id">2485</span>Imbramowice Dolne (1)</a>
+<a class="stop" href="../rozklady/130/2487-sciborzyce.html"><span class="stop-id">2487</span>Małyszyce (2)</a>
+<a class="stop" href="../rozklady/130/0790-sciborzyce.html"><span class="stop-id">0790</span>Ściborzyce Granica (2)</a>
+<a class="stop terminal" href="../rozklady/130/0788-sciborzyce.html"><span class="stop-id">0788</span>Ściborzyce Most (2)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
