@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 132</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-chrzanow{
+    background:#a4c2f4;
+    color:#222;
+}
+  
+.zone-jaworzno{
+    background:#ead1dc;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">132</div>
+
+<div class="route">
+Chrzanów Dworzec Autobusowy - Balin - Koźmin - Jeziorki - Wilkoszyn - Jaworzno Krakowska Pętla - Jaworzno Podłęże Osiedle
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Jaworzno Podłęże Osiedle</h2>
+
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+<a class="stop terminal" href="../rozklady/132/0684-jaworzno.html"><span class="stop-id">0684</span>Chrzanów Dworzec Autobusowy (2)</a>
+<a class="stop" href="../rozklady/132/1059-jaworzno.html"><span class="stop-id">1059</span>Chrzanów Plac Tysiąclecia (1)</a>
+<a class="stop" href="../rozklady/132/1062-jaworzno.html"><span class="stop-id">1062</span>Chrzanów Wodzińska (2)</a>
+<a class="stop" href="../rozklady/132/1255-jaworzno.html"><span class="stop-id">1255</span>Balin Działki (2)</a>
+<a class="stop" href="../rozklady/132/1257-jaworzno.html"><span class="stop-id">1257</span>Balin Warpie (1)</a>
+<a class="stop" href="../rozklady/132/1253-jaworzno.html"><span class="stop-id">1253</span>Balin Kościół (2)</a>
+<a class="stop" href="../rozklady/132/1245-jaworzno.html"><span class="stop-id">1245</span>Balin Jaworznicka Pawilon (2)</a>
+<a class="stop" href="../rozklady/132/1247-jaworzno.html"><span class="stop-id">1247</span>Balin Szkoła (2)</a>
+<div class="zone zone-jaworzno">STREFA JAWORZNO</div>
+<a class="stop" href="../rozklady/132/3198-jaworzno.html"><span class="stop-id">3198</span>Jaworzno Koźmin (2)</a>
+<a class="stop" href="../rozklady/132/3197-jaworzno.html"><span class="stop-id">3197</span>Jaworzno Koźmin Jesienna (2)</a>
+<a class="stop" href="../rozklady/132/3218-jaworzno.html"><span class="stop-id">3218</span>Jaworzno Koźmin Las (1)</a>
+<a class="stop" href="../rozklady/132/3175-jaworzno.html"><span class="stop-id">3175</span>Jaworzno Jeziorki Herbowa (1)</a>
+<a class="stop" href="../rozklady/132/3178-jaworzno.html"><span class="stop-id">3178</span>Jaworzno Jeziorki Kasztanowa (2)</a>
+<a class="stop" href="../rozklady/132/2940-jaworzno.html"><span class="stop-id">2940</span>Jaworzno Jeziorki Kościół (1)</a>
+<a class="stop" href="../rozklady/132/2941-jaworzno.html"><span class="stop-id">2941</span>Jaworzno Jeziorki Sklep (1)</a>
+<a class="stop" href="../rozklady/132/2955-jaworzno.html"><span class="stop-id">2955</span>Jaworzno Jeziorki Szkoła (1)</a>
+<a class="stop" href="../rozklady/132/2956-jaworzno.html"><span class="stop-id">2956</span>Jaworzno Jeziorki Dożynkowa (1)</a>
+<a class="stop" href="../rozklady/132/2957-jaworzno.html"><span class="stop-id">2957</span>Jaworzno Wilkoszyn Cmentarz (1)</a>
+<a class="stop" href="../rozklady/132/2958-jaworzno.html"><span class="stop-id">2958</span>Jaworzno Wilkoszyn (1)</a>
+<a class="stop" href="../rozklady/132/2967-jaworzno.html"><span class="stop-id">2967</span>Jaworzno Wilkoszyn Chełmońskiego (2)</a>
+<a class="stop" href="../rozklady/132/2968-jaworzno.html"><span class="stop-id">2968</span>Jaworzno Chełmońskiego Pompy (2)</a>
+<a class="stop" href="../rozklady/132/2966-jaworzno.html"><span class="stop-id">2966</span>Jaworzno Szpital (1)</a>
+<a class="stop" href="../rozklady/132/2683-jaworzno.html"><span class="stop-id">2683</span>Jaworzno Obrońców Poczty Gdańskiej (1)</a>
+<a class="stop" href="../rozklady/132/3012-jaworzno.html"><span class="stop-id">3012</span>Jaworzno Dom Pomocy Społecznej (1)</a>
+<a class="stop" href="../rozklady/132/3011-jaworzno.html"><span class="stop-id">3011</span>Jaworzno Obwodnica Północna Rondo (1)</a>
+<a class="stop" href="../rozklady/132/3023-jaworzno.html"><span class="stop-id">3023</span>Jaworzno Kołłątaja (2)</a>
+<a class="stop" href="../rozklady/132/3024-jaworzno.html"><span class="stop-id">3024</span>Jaworzno Osiedle Skałka (2)</a>
+<a class="stop terminal" href="../rozklady/132/2753-jaworzno.html"><span class="stop-id">2753</span>Jaworzno Krakowska Pętla (1)</a>
+<a class="stop" href="../rozklady/132/2754-jaworzno.html"><span class="stop-id">2754</span>Jaworzno Rogatka (1)</a>
+<a class="stop" href="../rozklady/132/2755-jaworzno.html"><span class="stop-id">2755</span>Jaworzno Urząd Miejski (1)</a>
+<a class="stop" href="../rozklady/132/2681-jaworzno.html"><span class="stop-id">2681</span>Jaworzno Centrum (2)</a>
+<a class="stop" href="../rozklady/132/2678-jaworzno.html"><span class="stop-id">2678</span>Jaworzno Moniuszki (1)</a>
+<a class="stop" href="../rozklady/132/2676-jaworzno.html"><span class="stop-id">2676</span>Jaworzno Podłęże Szkoła (1)</a>
+<a class="stop" href="../rozklady/132/2675-jaworzno.html"><span class="stop-id">2675</span>Jaworzno Podłęże Kościół (1)</a>
+<a class="stop terminal" href="../rozklady/132/2674-jaworzno.html"><span class="stop-id">2674</span>Jaworzno Podłęże Osiedle (0)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Chrzanów Dworzec Autobusowy</h2>
+
+<div class="zone zone-jaworzno">STREFA JAWORZNO</div>
+<a class="stop terminal" href="../rozklady/132/2674-chrzanow.html"><span class="stop-id">2674</span>Jaworzno Podłęże Osiedle (0)</a>
+<a class="stop" href="../rozklady/132/3203-chrzanow.html"><span class="stop-id">3203</span>Jaworzno Podłęże Kościół (2)</a>
+<a class="stop" href="../rozklady/132/2677-chrzanow.html"><span class="stop-id">2677</span>Jaworzno Podłęże Szkoła (2)</a>
+<a class="stop" href="../rozklady/132/2679-chrzanow.html"><span class="stop-id">2679</span>Jaworzno Moniuszki (2)</a>
+<a class="stop" href="../rozklady/132/2680-chrzanow.html"><span class="stop-id">2680</span>Jaworzno Centrum (1)</a>
+<a class="stop" href="../rozklady/132/2756-chrzanow.html"><span class="stop-id">2756</span>Jaworzno Urząd Miejski (2)</a>
+<a class="stop" href="../rozklady/132/2757-chrzanow.html"><span class="stop-id">2757</span>Jaworzno Rogatka (2)</a>
+<a class="stop variant terminal" href="../rozklady/132/3202-chrzanow.html"><span class="stop-id">3202</span>Jaworzno Krakowska Pętla (4)</a>
+<a class="stop terminal" href="../rozklady/132/3008-chrzanow.html"><span class="stop-id">3008</span>Jaworzno Krakowska Pętla (3)</a>
+<a class="stop" href="../rozklady/132/3009-chrzanow.html"><span class="stop-id">3009</span>Jaworzno Osiedle Skałka (1)</a>
+<a class="stop" href="../rozklady/132/3010-chrzanow.html"><span class="stop-id">3010</span>Jaworzno Kołłątaja (1)</a>
+<a class="stop" href="../rozklady/132/3022-chrzanow.html"><span class="stop-id">3022</span>Jaworzno Obwodnica Północna Rondo (2)</a>
+<a class="stop" href="../rozklady/132/3021-chrzanow.html"><span class="stop-id">3021</span>Jaworzno Dom Pomocy Społecznej (2)</a>
+<a class="stop" href="../rozklady/132/2963-chrzanow.html"><span class="stop-id">2963</span>Jaworzno Chełmońskiego (1)</a>
+<a class="stop" href="../rozklady/132/2962-chrzanow.html"><span class="stop-id">2962</span>Jaworzno Szpital (2)</a>
+<a class="stop" href="../rozklady/132/2960-chrzanow.html"><span class="stop-id">2960</span>Jaworzno Chełmońskiego Pompy (1)</a>
+<a class="stop" href="../rozklady/132/2959-chrzanow.html"><span class="stop-id">2959</span>Jaworzno Wilkoszyn Chełmońskiego (1)</a>
+<a class="stop" href="../rozklady/132/2969-chrzanow.html"><span class="stop-id">2969</span>Jaworzno Wilkoszyn (2)</a>
+<a class="stop" href="../rozklady/132/2970-chrzanow.html"><span class="stop-id">2970</span>Jaworzno Wilkoszyn Cmentarz (2)</a>
+<a class="stop" href="../rozklady/132/2971-chrzanow.html"><span class="stop-id">2971</span>Jaworzno Jeziorki Dożynkowa (2)</a>
+<a class="stop" href="../rozklady/132/2972-chrzanow.html"><span class="stop-id">2972</span>Jaworzno Jeziorki Szkoła (2)</a>
+<a class="stop" href="../rozklady/132/2942-chrzanow.html"><span class="stop-id">2942</span>Jaworzno Jeziorki Sklep (2)</a>
+<a class="stop" href="../rozklady/132/2943-chrzanow.html"><span class="stop-id">2943</span>Jaworzno Jeziorki Kościół (2)</a>
+<a class="stop" href="../rozklady/132/3177-chrzanow.html"><span class="stop-id">3177</span>Jaworzno Jeziorki Kasztanowa (1)</a>
+<a class="stop" href="../rozklady/132/3176-chrzanow.html"><span class="stop-id">3176</span>Jaworzno Jeziorki Herbowa (2)</a>
+<a class="stop" href="../rozklady/132/3196-chrzanow.html"><span class="stop-id">3196</span>Jaworzno Koźmin Las (2)</a>
+<a class="stop" href="../rozklady/132/3217-chrzanow.html"><span class="stop-id">3217</span>Jaworzno Koźmin Jesienna (1)</a>
+<a class="stop" href="../rozklady/132/3216-chrzanow.html"><span class="stop-id">3216</span>Jaworzno Koźmin (1)</a>
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+<a class="stop" href="../rozklady/132/1246-chrzanow.html"><span class="stop-id">1246</span>Balin Szkoła (1)</a>
+<a class="stop" href="../rozklady/132/1244-chrzanow.html"><span class="stop-id">1244</span>Balin Jaworznicka Pawilon (1)</a>
+<a class="stop" href="../rozklady/132/1258-chrzanow.html"><span class="stop-id">1258</span>Balin Kościół (1)</a>
+<a class="stop" href="../rozklady/132/1254-chrzanow.html"><span class="stop-id">1254</span>Balin Warpie (2)</a>
+<a class="stop" href="../rozklady/132/1256-chrzanow.html"><span class="stop-id">1256</span>Balin Działki (1)</a>
+<a class="stop" href="../rozklady/132/1061-chrzanow.html"><span class="stop-id">1061</span>Chrzanów Wodzińska (1)</a>
+<a class="stop" href="../rozklady/132/0115-chrzanow.html"><span class="stop-id">0115</span>Chrzanów Plac Tysiąclecia (2)</a>
+<a class="stop terminal" href="../rozklady/132/0334-chrzanow.html"><span class="stop-id">0334</span>Chrzanów Dworzec Autobusowy (4)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
