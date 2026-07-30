@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 131</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.columns.single-column {
+  display: block;
+}
+
+.columns.single-column .column {
+  max-width: 560px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.columns.single-column .stop {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left: 28px;
+    padding-left: 42px;
+    width: calc(100% - 28px);
+    box-sizing: border-box;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.column .stop.variant {
+  margin-left: 28px;
+  width: auto;
+  box-sizing: border-box;
+  font-style: italic;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-brzeszcze{
+    background:#a2c4c9;
+    color:#222;
+}
+
+@media (max-width: 700px) {
+  .columns.single-column .column {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+  
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">131</div>
+
+<div class="route">
+Brzeszcze Dworzec PKP - Przecieszyn - (Wilczkowice) - Skidziń - Zasole Pętla - Jawiszowice - Brzeszcze Dworzec PKP
+</div>
+
+<div class="columns single-column">
+
+<div class="column">
+
+<h2>Kierunek: Brzeszcze Dworzec PKP</h2>
+
+<div class="zone zone-brzeszcze">STREFA BRZESZCZE</div>
+<a class="stop terminal" href="../rozklady/131/2553-okrezna.html"><span class="stop-id">2553</span>Brzeszcze Dworzec PKP (0)</a>
+<a class="stop" href="../rozklady/131/2554-okrezna.html"><span class="stop-id">2554</span>Brzeszcze Jawiszowice Osiedle (1)</a>
+<a class="stop" href="../rozklady/131/2556-okrezna.html"><span class="stop-id">2556</span>Brzeszcze Osiedle (2)</a>
+<a class="stop" href="../rozklady/131/2565-okrezna.html"><span class="stop-id">2565</span>Brzeszcze Strażnica (2)</a>
+<a class="stop" href="../rozklady/131/2564-okrezna.html"><span class="stop-id">2564</span>Brzeszcze Kościół (2)</a>
+<a class="stop" href="../rozklady/131/2563-okrezna.html"><span class="stop-id">2563</span>Brzeszcze Szkoła (2)</a>
+<a class="stop" href="../rozklady/131/2581-okrezna.html"><span class="stop-id">2581</span>Brzeszcze Super Sam (1)</a>
+<a class="stop" href="../rozklady/131/2578-okrezna.html"><span class="stop-id">2578</span>Brzeszcze Chałpy (2)</a>
+<a class="stop" href="../rozklady/131/2577-okrezna.html"><span class="stop-id">2577</span>Przecieszyn Krzyżówka (2)</a>
+<a class="stop" href="../rozklady/131/2576-okrezna.html"><span class="stop-id">2576</span>Przecieszyn Poczta (1)</a>
+<a class="stop variant" href="../rozklady/131/2588-okrezna.html"><span class="stop-id">2588</span>Skidziń Sklep (2)</a>
+<a class="stop variant" href="../rozklady/131/2586-okrezna.html"><span class="stop-id">2586</span>Skidziń Kuźnia (2)</a>
+<a class="stop variant" href="../rozklady/131/2584-okrezna.html"><span class="stop-id">2584</span>Skidziń Szkoła (2)</a>
+<a class="stop variant" href="../rozklady/131/0649-okrezna.html"><span class="stop-id">0649</span>Wilczkowice Pętla (0)</a>
+<a class="stop variant" href="../rozklady/131/2583-okrezna.html"><span class="stop-id">2583</span>Skidziń Szkoła (1)</a>
+<a class="stop variant" href="../rozklady/131/2585-okrezna.html"><span class="stop-id">2585</span>Skidziń Kuźnia (1)</a>
+<a class="stop variant" href="../rozklady/131/2587-okrezna.html"><span class="stop-id">2587</span>Skidziń Sklep (1)</a>
+<a class="stop" href="../rozklady/131/3326-okrezna.html"><span class="stop-id">3326</span>Skidziń Bar (2)</a>
+<a class="stop" href="../rozklady/131/2589-okrezna.html"><span class="stop-id">2589</span>Skidziń na żądanie (1)</a>
+<a class="stop" href="../rozklady/131/2592-okrezna.html"><span class="stop-id">2592</span>Skidziń Wentylatory (2)</a>
+<a class="stop" href="../rozklady/131/2593-okrezna.html"><span class="stop-id">2593</span>Zasole Sklep (1)</a>
+<a class="stop" href="../rozklady/131/2596-okrezna.html"><span class="stop-id">2596</span>Zasole Kościół (2)</a>
+<a class="stop terminal" href="../rozklady/131/2597-okrezna.html"><span class="stop-id">2597</span>Zasole Pętla (0)</a>
+<a class="stop" href="../rozklady/131/2595-okrezna.html"><span class="stop-id">2595</span>Zasole Kościół (1)</a>
+<a class="stop" href="../rozklady/131/2625-okrezna.html"><span class="stop-id">2625</span>Zasole Jawiszowice Żądanie (1)</a>
+<a class="stop" href="../rozklady/131/2623-okrezna.html"><span class="stop-id">2623</span>Jawiszowice Kobylec (1)</a>
+<a class="stop" href="../rozklady/131/2622-okrezna.html"><span class="stop-id">2622</span>Jawiszowice Hałda (1)</a>
+<a class="stop" href="../rozklady/131/2919-okrezna.html"><span class="stop-id">2919</span>Jawiszowice Szkoła (1)</a>
+<a class="stop" href="../rozklady/131/2557-okrezna.html"><span class="stop-id">2557</span>Jawiszowice Kółko (1)</a>
+<a class="stop" href="../rozklady/131/2613-okrezna.html"><span class="stop-id">2613</span>Jawiszowice Przeczna (1)</a>
+<a class="stop" href="../rozklady/131/2615-okrezna.html"><span class="stop-id">2615</span>Jawiszowice Las (1)</a>
+<a class="stop" href="../rozklady/131/2616-okrezna.html"><span class="stop-id">2616</span>Jawiszowice Krzyżówka (1)</a>
+<a class="stop" href="../rozklady/131/2617-okrezna.html"><span class="stop-id">2617</span>Jawiszowice Przeczna I (1)</a>
+<a class="stop" href="../rozklady/131/2618-okrezna.html"><span class="stop-id">2618</span>Jawiszowice Przeczna II (1)</a>
+<a class="stop" href="../rozklady/131/2619-okrezna.html"><span class="stop-id">2619</span>Jawiszowice Przeczna III (1)</a>
+<a class="stop" href="../rozklady/131/2614-okrezna.html"><span class="stop-id">2614</span>Jawiszowice Przeczna (2)</a>
+<a class="stop" href="../rozklady/131/2568-okrezna.html"><span class="stop-id">2568</span>Jawiszowice Kółko (2)</a>
+<a class="stop" href="../rozklady/131/2558-okrezna.html"><span class="stop-id">2558</span>Jawiszowice Mickiewicza (1)</a>
+<a class="stop" href="../rozklady/131/2566-okrezna.html"><span class="stop-id">2566</span>Jawiszowice Osiedle Paderewskiego (2)</a>
+<a class="stop terminal" href="../rozklady/131/2600-okrezna.html"><span class="stop-id">2600</span>Brzeszcze Dworzec PKP (2)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
