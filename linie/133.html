@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 133</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-chrzanow{
+    background:#a4c2f4;
+    color:#222;
+}
+  
+.zone-trzebinia{
+    background:#d9d2e9;
+    color:#222;
+}
+  
+.zone-babice-alwernia{
+    background:#dd7e6b;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">133</div>
+
+<div class="route">
+Rozkochów Cisowa - Włosień - Babice - Wygiełzów - Zagórze Piaski - Borowiec - Rospontowa - Chrzanów Dworzec Autobusowy - (Trzebinia) - (Młoszowa Florkiewicza)
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Chrzanów Dworzec Autobusowy</h2>
+
+<div class="zone zone-babice-alwernia">STREFA BABICE-ALWERNIA</div>
+<a class="stop terminal" href="../rozklady/133/1037-chrzanow.html"><span class="stop-id">1037</span>Rozkochów Cisowa (0)</a>
+<a class="stop" href="../rozklady/133/1500-chrzanow.html"><span class="stop-id">1500</span>Rozkochów Kapliczka (2)</a>
+<a class="stop" href="../rozklady/133/1040-chrzanow.html"><span class="stop-id">1040</span>Babice Włosień (2)</a>
+<a class="stop" href="../rozklady/133/1137-chrzanow.html"><span class="stop-id">1137</span>Babice Podbagnie (2)</a>
+<a class="stop" href="../rozklady/133/0597-chrzanow.html"><span class="stop-id">0597</span>Babice Urząd Gminy (2)</a>
+<a class="stop" href="../rozklady/133/1035-chrzanow.html"><span class="stop-id">1035</span>Wygiełzów Oświęcimska (1)</a>
+<a class="stop terminal" href="../rozklady/133/1106-chrzanow.html"><span class="stop-id">1106</span>Zagórze Piaski (2)</a>
+<a class="stop" href="../rozklady/133/1107-chrzanow.html"><span class="stop-id">1107</span>Zagórze Kościół (2)</a>
+<a class="stop" href="../rozklady/133/1103-chrzanow.html"><span class="stop-id">1103</span>Zagórze Szkoła (0)</a>
+<a class="stop" href="../rozklady/133/1110-chrzanow.html"><span class="stop-id">1110</span>Zagórze Przedszkole (Żelatowa II) (2)</a>
+<a class="stop" href="../rozklady/133/1112-chrzanow.html"><span class="stop-id">1112</span>Zagórze Żelatowa (2)</a>
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+<a class="stop" href="../rozklady/133/1113-chrzanow.html"><span class="stop-id">1113</span>Chrzanów Borowiec III (1)</a>
+<a class="stop" href="../rozklady/133/1115-chrzanow.html"><span class="stop-id">1115</span>Chrzanów Borowiec II (2)</a>
+<a class="stop" href="../rozklady/133/1117-chrzanow.html"><span class="stop-id">1117</span>Chrzanów Borowiec I (2)</a>
+<a class="stop" href="../rozklady/133/1120-chrzanow.html"><span class="stop-id">1120</span>Chrzanów Rospontowa II (2)</a>
+<a class="stop" href="../rozklady/133/1122-chrzanow.html"><span class="stop-id">1122</span>Chrzanów Rospontowa I (2)</a>
+<a class="stop" href="../rozklady/133/1078-chrzanow.html"><span class="stop-id">1078</span>Chrzanów Kolejowa (1)</a>
+<a class="stop" href="../rozklady/133/0333-chrzanow.html"><span class="stop-id">0333</span>Chrzanów Podwale (1)</a>
+<a class="stop terminal" href="../rozklady/133/0334-chrzanow.html"><span class="stop-id">0334</span>Chrzanów Dworzec Autobusowy (4)</a>
+<a class="stop variant" href="../rozklady/133/0398-chrzanow.html"><span class="stop-id">0398</span>Chrzanów Trzebińska (2)</a>
+<div class="zone zone-trzebinia">STREFA TRZEBINIA</div>
+<a class="stop variant" href="../rozklady/133/0120-chrzanow.html"><span class="stop-id">0120</span>Trzebinia Berezka (1)</a>
+<a class="stop variant" href="../rozklady/133/0121-chrzanow.html"><span class="stop-id">0121</span>Trzebinia Długa (2)</a>
+<a class="stop variant" href="../rozklady/133/0122-chrzanow.html"><span class="stop-id">0122</span>Trzebinia Dworzec PKP (2)</a>
+<a class="stop variant" href="../rozklady/133/0123-chrzanow.html"><span class="stop-id">0123</span>Trzebinia Krakowska (0)</a>
+<a class="stop variant" href="../rozklady/133/0124-chrzanow.html"><span class="stop-id">0124</span>Trzebinia Szkoła (2)</a>
+<a class="stop variant terminal" href="../rozklady/133/0078-chrzanow.html"><span class="stop-id">0078</span>Młoszowa Florkiewicza (0)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Rozkochów Cisowa</h2>
+
+<div class="zone zone-trzebinia">STREFA TRZEBINIA</div>
+<a class="stop variant terminal" href="../rozklady/133/0086-rozkochow.html"><span class="stop-id">0086</span>Młoszowa (1)</a>
+<a class="stop variant" href="../rozklady/133/0087-rozkochow.html"><span class="stop-id">0087</span>Trzebinia Szkoła (1)</a>
+<a class="stop variant" href="../rozklady/133/0088-rozkochow.html"><span class="stop-id">0088</span>Trzebinia Mały Rynek Kościuszki (0)</a>
+<a class="stop variant" href="../rozklady/133/0089-rozkochow.html"><span class="stop-id">0089</span>Trzebinia Dworzec PKP (1)</a>
+<a class="stop variant" href="../rozklady/133/0090-rozkochow.html"><span class="stop-id">0090</span>Trzebinia Długa (1)</a>
+<a class="stop variant" href="../rozklady/133/0091-rozkochow.html"><span class="stop-id">0091</span>Trzebinia Berezka (2)</a>
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+<a class="stop variant" href="../rozklady/133/0397-rozkochow.html"><span class="stop-id">0397</span>Chrzanów Trzebińska (1)</a>
+<a class="stop terminal" href="../rozklady/133/0334-rozkochow.html"><span class="stop-id">0334</span>Chrzanów Dworzec Autobusowy (4)</a>
+<a class="stop" href="../rozklady/133/0096-rozkochow.html"><span class="stop-id">0096</span>Chrzanów Plac Tysiąclecia (3)</a>
+<a class="stop" href="../rozklady/133/0352-rozkochow.html"><span class="stop-id">0352</span>Chrzanów ZUS (1)</a>
+<a class="stop" href="../rozklady/133/0332-rozkochow.html"><span class="stop-id">0332</span>Chrzanów Sienna (1)</a>
+<a class="stop" href="../rozklady/133/1077-rozkochow.html"><span class="stop-id">1077</span>Chrzanów Kolejowa (2)</a>
+<a class="stop" href="../rozklady/133/1121-rozkochow.html"><span class="stop-id">1121</span>Chrzanów Rospontowa I (1)</a>
+<a class="stop" href="../rozklady/133/1119-rozkochow.html"><span class="stop-id">1119</span>Chrzanów Rospontowa II (1)</a>
+<a class="stop" href="../rozklady/133/1118-rozkochow.html"><span class="stop-id">1118</span>Chrzanów Borowiec I (1)</a>
+<a class="stop" href="../rozklady/133/1116-rozkochow.html"><span class="stop-id">1116</span>Chrzanów Borowiec II (1)</a>
+<div class="zone zone-babice-alwernia">STREFA BABICE-ALWERNIA</div>
+<a class="stop" href="../rozklady/133/1111-rozkochow.html"><span class="stop-id">1111</span>Zagórze Żelatowa (1)</a>
+<a class="stop" href="../rozklady/133/1109-rozkochow.html"><span class="stop-id">1109</span>Zagórze Przedszkole (Żelatowa II) (1)</a>
+<a class="stop" href="../rozklady/133/1104-rozkochow.html"><span class="stop-id">1104</span>Zagórze Kościół (1)</a>
+<a class="stop" href="../rozklady/133/1105-rozkochow.html"><span class="stop-id">1105</span>Zagórze Poczta (0)</a>
+<a class="stop terminal" href="../rozklady/133/1108-rozkochow.html"><span class="stop-id">1108</span>Zagórze Piaski (1)</a>
+<a class="stop" href="../rozklady/133/1036-rozkochow.html"><span class="stop-id">1036</span>Wygiełzów Oświęcimska (2)</a>
+<a class="stop" href="../rozklady/133/0586-rozkochow.html"><span class="stop-id">0586</span>Babice Urząd Gminy (1)</a>
+<a class="stop" href="../rozklady/133/1137-rozkochow.html"><span class="stop-id">1137</span>Babice Podbagnie (2)</a>
+<a class="stop" href="../rozklady/133/1039-rozkochow.html"><span class="stop-id">1039</span>Babice Włosień (1)</a>
+<a class="stop" href="../rozklady/133/1038-rozkochow.html"><span class="stop-id">1038</span>Rozkochów Kapliczka (1)</a>
+<a class="stop terminal" href="../rozklady/133/1037-rozkochow.html"><span class="stop-id">1037</span>Rozkochów Cisowa (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
