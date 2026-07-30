@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 135</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.columns.single-column {
+  display: block;
+}
+
+.columns.single-column .column {
+  max-width: 560px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.columns.single-column .stop {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left: 28px;
+    padding-left: 42px;
+    width: calc(100% - 28px);
+    box-sizing: border-box;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.column .stop.variant {
+  margin-left: 28px;
+  width: auto;
+  box-sizing: border-box;
+  font-style: italic;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-wolbrom{
+    background:#2a8be8;
+    color:#222;
+}
+
+.zone-trzyciaz{
+    background:#c17ba1;
+    color:#222;
+}
+
+@media (max-width: 700px) {
+  .columns.single-column .column {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+  
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">135</div>
+
+<div class="route">
+Wolbrom Nowa PKS - Brzozówka - Wierzchowisko - Lgota Wielka - Porąbka - Glanów - (Ściborzyce Most) - (Małyszyce) - Imbramowice - Zagórowa - Milonki - Zadroże - Trzyciąż - Podchybie - Sucha - Chełm - Wolbrom Nowa PKS
+</div>
+
+<div class="columns single-column">
+
+<div class="column">
+
+<h2>Kierunek: Wolbrom Nowa PKS</h2>
+
+<div class="zone zone-wolbrom">STREFA WOLBROM</div>
+<a class="stop terminal" href="../rozklady/135/0001-okrezna.html"><span class="stop-id">0001</span>Wolbrom Nowa PKS (0)</a>
+<a class="stop" href="../rozklady/135/0029-okrezna.html"><span class="stop-id">0029</span>Wolbrom 1-ego Maja I (2)</a>
+<a class="stop" href="../rozklady/135/0016-okrezna.html"><span class="stop-id">0016</span>Wolbrom Dworzec PKP (0)</a>
+<a class="stop" href="../rozklady/135/0030-okrezna.html"><span class="stop-id">0030</span>Wolbrom Brzozowska Rondo (1)</a>
+<a class="stop" href="../rozklady/135/0031-okrezna.html"><span class="stop-id">0031</span>Brzozówka I (1)</a>
+<a class="stop" href="../rozklady/135/0032-okrezna.html"><span class="stop-id">0032</span>Brzozówka II (2)</a>
+<a class="stop" href="../rozklady/135/0033-okrezna.html"><span class="stop-id">0033</span>Wierzchowisko Klub (2)</a>
+<a class="stop" href="../rozklady/135/0034-okrezna.html"><span class="stop-id">0034</span>Wierzchowisko Remiza (2)</a>
+<a class="stop" href="../rozklady/135/0005-okrezna.html"><span class="stop-id">0005</span>Lgota Wielka Kolonia Leśna (2)</a>
+<a class="stop" href="../rozklady/135/0257-okrezna.html"><span class="stop-id">0257</span>Lgota Wielka Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/135/0258-okrezna.html"><span class="stop-id">0258</span>Lgota Wielka Kawkazy (2)</a>
+<div class="zone zone-trzyciaz">STREFA TRZYCIĄŻ</div>
+<a class="stop" href="../rozklady/135/0259-okrezna.html"><span class="stop-id">0259</span>Porąbka Parcela (1)</a>
+<a class="stop" href="../rozklady/135/0260-okrezna.html"><span class="stop-id">0260</span>Porąbka Stara Wieś (2)</a>
+<a class="stop" href="../rozklady/135/0261-okrezna.html"><span class="stop-id">0261</span>Porąbka Studnia (1)</a>
+<a class="stop" href="../rozklady/135/0262-okrezna.html"><span class="stop-id">0262</span>Porąbka (2)</a>
+<a class="stop" href="../rozklady/135/2477-okrezna.html"><span class="stop-id">2477</span>Porąbka Granica (1)</a>
+<a class="stop" href="../rozklady/135/2478-okrezna.html"><span class="stop-id">2478</span>Glanów Parcele (1)</a>
+<a class="stop" href="../rozklady/135/2479-okrezna.html"><span class="stop-id">2479</span>Glanów Rynek (1)</a>
+<a class="stop" href="../rozklady/135/2480-okrezna.html"><span class="stop-id">2480</span>Glanów Sklep (1)</a>
+<a class="stop" href="../rozklady/135/2492-okrezna.html"><span class="stop-id">2492</span>Glanów Dwór (2)</a>
+<a class="stop" href="../rozklady/135/2482-okrezna.html"><span class="stop-id">2482</span>Glanów Granica (1)</a>
+<a class="stop" href="../rozklady/135/3277-okrezna.html"><span class="stop-id">3277</span>Imbramowice Pole (1)</a>
+<a class="stop" href="../rozklady/135/2483-okrezna.html"><span class="stop-id">2483</span>Imbramowice Górne (1)</a>
+<a class="stop" href="../rozklady/135/2489-okrezna.html"><span class="stop-id">2489</span>Imbramowice Cmentarz (2)</a>
+<a class="stop variant terminal" href="../rozklady/135/0787-okrezna.html"><span class="stop-id">0787</span>Ściborzyce Most (1)</a>
+<a class="stop variant" href="../rozklady/135/0789-okrezna.html"><span class="stop-id">0789</span>Ściborzyce Granica (1)</a>
+<a class="stop variant" href="../rozklady/135/2486-okrezna.html"><span class="stop-id">2486</span>Małyszyce (1)</a>
+<a class="stop" href="../rozklady/135/2485-okrezna.html"><span class="stop-id">2485</span>Imbramowice Dolne (1)</a>
+<a class="stop" href="../rozklady/135/2499-okrezna.html"><span class="stop-id">2499</span>Imbramowice Szkoła (1)</a>
+<a class="stop" href="../rozklady/135/2507-okrezna.html"><span class="stop-id">2507</span>Imbramowice Kolonia Dolna II (1)</a>
+<a class="stop" href="../rozklady/135/2505-okrezna.html"><span class="stop-id">2505</span>Imbramowice Kolonia Dolna I (1)</a>
+<a class="stop" href="../rozklady/135/0775-okrezna.html"><span class="stop-id">0775</span>Zagórowa Centrum (1)</a>
+<a class="stop" href="../rozklady/135/0773-okrezna.html"><span class="stop-id">0773</span>Zagórowa (1)</a>
+<a class="stop" href="../rozklady/135/0769-okrezna.html"><span class="stop-id">0769</span>Milonki II (1)</a>
+<a class="stop" href="../rozklady/135/0767-okrezna.html"><span class="stop-id">0767</span>Milonki Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/135/0778-okrezna.html"><span class="stop-id">0778</span>Zadroże OSP (2)</a>
+<a class="stop" href="../rozklady/135/0779-okrezna.html"><span class="stop-id">0779</span>Zadroże Kościół (1)</a>
+<a class="stop" href="../rozklady/135/0781-okrezna.html"><span class="stop-id">0781</span>Zadroże Skotnica (1)</a>
+<a class="stop" href="../rozklady/135/0783-okrezna.html"><span class="stop-id">0783</span>Zadroże Studzianki (1)</a>
+<a class="stop" href="../rozklady/135/0786-okrezna.html"><span class="stop-id">0786</span>Zadroże Gołębia Góra (2)</a>
+<a class="stop" href="../rozklady/135/0305-okrezna.html"><span class="stop-id">0305</span>Trzyciąż Skrzyżowanie (4)</a>
+<a class="stop" href="../rozklady/135/2502-okrezna.html"><span class="stop-id">2502</span>Podchybie Las (1)</a>
+<a class="stop" href="../rozklady/135/2501-okrezna.html"><span class="stop-id">2501</span>Sucha (1)</a>
+<div class="zone zone-wolbrom">STREFA WOLBROM</div>
+<a class="stop" href="../rozklady/135/2361-okrezna.html"><span class="stop-id">2361</span>Chełm Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/135/2402-okrezna.html"><span class="stop-id">2402</span>Chełm Szkoła (1)</a>
+<a class="stop" href="../rozklady/135/2404-okrezna.html"><span class="stop-id">2404</span>Chełm Grabie (1)</a>
+<a class="stop" href="../rozklady/135/0028-okrezna.html"><span class="stop-id">0028</span>Wolbrom Ośrodek Zdrowia (1)</a>
+<a class="stop" href="../rozklady/135/0027-okrezna.html"><span class="stop-id">0027</span>Wolbrom Skrzyżowanie (2)</a>
+<a class="stop terminal" href="../rozklady/135/0001-okrezna-2.html"><span class="stop-id">0001</span>Wolbrom Nowa PKS (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
