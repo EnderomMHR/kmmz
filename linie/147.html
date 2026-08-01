@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 147</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-suloszowa-skala{
+    background:#b7b8b7;
+    color:#222;
+}
+
+.zone-trzyciaz{
+    background:#c17ba1;
+    color:#222;
+}
+
+.zone-olkusz{
+    background:#ffe599;
+    color:#222;
+}
+
+.zone-boleslaw{
+    background:#cccccc;
+    color:#222;
+}
+
+.zone-bukowno{
+    background:#93c47d;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">147</div>
+
+<div class="route">
+(Gołyszyn Remiza) - (Barbarka) - (Tarnawa Podlas) - (Milonki) - (Wielmoża) - Sułoszowa Pieskowa Skała - Kosmolów - Sieniczno - Olkusz - Bolesław - Krążek - Bukowno Dworzec PKP
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Bukowno Dworzec PKP</h2>
+
+<div class="zone zone-suloszowa-skala">STREFA SUŁOSZOWA-SKAŁA</div>
+<a class="stop variant terminal" href="../rozklady/147/0791-bukowno.html"><span class="stop-id">0791</span>Gołyszyn Remiza (0)</a>
+<a class="stop variant" href="../rozklady/147/0792-bukowno.html"><span class="stop-id">0792</span>Gołyszyn Podgaje (1)</a>
+<a class="stop variant" href="../rozklady/147/0748-bukowno.html"><span class="stop-id">0748</span>Barbarka Pogorzelec (1)</a>
+<a class="stop variant" href="../rozklady/147/0750-bukowno.html"><span class="stop-id">0750</span>Barbarka Remiza (1)</a>
+<a class="stop variant" href="../rozklady/147/0753-bukowno.html"><span class="stop-id">0753</span>Barbarka Wesoła Ściborzanka (2)</a>
+<a class="stop variant" href="../rozklady/147/0754-bukowno.html"><span class="stop-id">0754</span>Barbarka Wesoła (1)</a>
+<div class="zone zone-trzyciaz">STREFA TRZYCIĄŻ</div>
+<a class="stop variant terminal" href="../rozklady/147/0756-bukowno.html"><span class="stop-id">0756</span>Tarnawa Podlas (2)</a>
+<a class="stop variant" href="../rozklady/147/0757-bukowno.html"><span class="stop-id">0757</span>Tarnawa Wieś (1)</a>
+<a class="stop variant" href="../rozklady/147/0760-bukowno.html"><span class="stop-id">0760</span>Tarnawa Kościół (2)</a>
+<a class="stop variant" href="../rozklady/147/0761-bukowno.html"><span class="stop-id">0761</span>Tarnawa Parcela (1)</a>
+<a class="stop variant" href="../rozklady/147/0764-bukowno.html"><span class="stop-id">0764</span>Tarnawa Skrzyżowanie (2)</a>
+<a class="stop variant" href="../rozklady/147/0766-bukowno.html"><span class="stop-id">0766</span>Milonki Granica (2)</a>
+<a class="stop variant" href="../rozklady/147/0767-bukowno.html"><span class="stop-id">0767</span>Milonki Skrzyżowanie (1)</a>
+<a class="stop variant" href="../rozklady/147/0778-bukowno.html"><span class="stop-id">0778</span>Zadroże OSP (2)</a>
+<a class="stop variant" href="../rozklady/147/0772-bukowno.html"><span class="stop-id">0772</span>Milonki (2)</a>
+<div class="zone zone-suloszowa-skala">STREFA SUŁOSZOWA-SKAŁA</div>
+<a class="stop variant" href="../rozklady/147/2510-bukowno.html"><span class="stop-id">2510</span>Wielmoża Magazyny (1)</a>
+<a class="stop variant" href="../rozklady/147/2524-bukowno.html"><span class="stop-id">2524</span>Wielmoża Skrzyżowanie (2)</a>
+<a class="stop variant" href="../rozklady/147/2518-bukowno.html"><span class="stop-id">2518</span>Wielmoża Szkoła (1)</a>
+<a class="stop variant" href="../rozklady/147/2517-bukowno.html"><span class="stop-id">2517</span>Wielmoża Kolonia Krótka (1)</a>
+<a class="stop variant" href="../rozklady/147/2516-bukowno.html"><span class="stop-id">2516</span>Sułoszowa Podzamcze (1)</a>
+<a class="stop variant" href="../rozklady/147/2534-bukowno.html"><span class="stop-id">2534</span>Sułoszowa Pieskowa Skała (3)</a>
+<a class="stop terminal" href="../rozklady/147/0405-bukowno.html"><span class="stop-id">0405</span>Sułoszowa Pieskowa Skała (2)</a>
+<a class="stop" href="../rozklady/147/0406-bukowno.html"><span class="stop-id">0406</span>Sułoszowa Stawy (2)</a>
+<a class="stop" href="../rozklady/147/0407-bukowno.html"><span class="stop-id">0407</span>Sułoszowa Zagrody (1)</a>
+<a class="stop" href="../rozklady/147/0408-bukowno.html"><span class="stop-id">0408</span>Sułoszowa Grobla (1)</a>
+<a class="stop" href="../rozklady/147/0409-bukowno.html"><span class="stop-id">0409</span>Sułoszowa Szkoła (1)</a>
+<a class="stop" href="../rozklady/147/0410-bukowno.html"><span class="stop-id">0410</span>Sułoszowa Stopina Góra (1)</a>
+<a class="stop" href="../rozklady/147/0411-bukowno.html"><span class="stop-id">0411</span>Sułoszowa Bar (1)</a>
+<a class="stop" href="../rozklady/147/0412-bukowno.html"><span class="stop-id">0412</span>Sułoszowa Sklep (1)</a>
+<a class="stop" href="../rozklady/147/0413-bukowno.html"><span class="stop-id">0413</span>Sułoszowa Remiza (1)</a>
+<a class="stop" href="../rozklady/147/0414-bukowno.html"><span class="stop-id">0414</span>Sułoszowa Zachodnia (1)</a>
+<a class="stop" href="../rozklady/147/0400-bukowno.html"><span class="stop-id">0400</span>Sułoszowa Kółko (1)</a>
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+<a class="stop" href="../rozklady/147/0218-bukowno.html"><span class="stop-id">0218</span>Kosmolów Na Górze (1)</a>
+<a class="stop" href="../rozklady/147/0219-bukowno.html"><span class="stop-id">0219</span>Kosmolów Sklep (1)</a>
+<a class="stop" href="../rozklady/147/0220-bukowno.html"><span class="stop-id">0220</span>Kosmolów Szkoła (1)</a>
+<a class="stop" href="../rozklady/147/0221-bukowno.html"><span class="stop-id">0221</span>Kosmolów Las (1)</a>
+<a class="stop" href="../rozklady/147/0437-bukowno.html"><span class="stop-id">0437</span>Zimnodół Wiśliczka (2)</a>
+<a class="stop" href="../rozklady/147/0223-bukowno.html"><span class="stop-id">0223</span>Sieniczno Ojcowska (1)</a>
+<a class="stop" href="../rozklady/147/0224-bukowno.html"><span class="stop-id">0224</span>Sieniczno (2)</a>
+<a class="stop" href="../rozklady/147/0225-bukowno.html"><span class="stop-id">0225</span>Olkusz Aleja Tysiąclecia (2)</a>
+<a class="stop" href="../rozklady/147/0226-bukowno.html"><span class="stop-id">0226</span>Olkusz Wiadukt (2)</a>
+<a class="stop" href="../rozklady/147/0227-bukowno.html"><span class="stop-id">0227</span>Olkusz Dworzec PKP (2)</a>
+<a class="stop" href="../rozklady/147/0228-bukowno.html"><span class="stop-id">0228</span>Olkusz Skarbek (1)</a>
+<a class="stop" href="../rozklady/147/0238-bukowno.html"><span class="stop-id">0238</span>Olkusz Supersam (2)</a>
+<a class="stop" href="../rozklady/147/0239-bukowno.html"><span class="stop-id">0239</span>Olkusz Stacja Paliw (2)</a>
+<a class="stop" href="../rozklady/147/0240-bukowno.html"><span class="stop-id">0240</span>Olkusz Stary (1)</a>
+<div class="zone zone-boleslaw">STREFA BOLESŁAW</div>
+<a class="stop" href="../rozklady/147/0241-bukowno.html"><span class="stop-id">0241</span>Bolesław Osadowa (1)</a>
+<a class="stop" href="../rozklady/147/0242-bukowno.html"><span class="stop-id">0242</span>Bolesław Dąbrówka (2)</a>
+<a class="stop" href="../rozklady/147/0243-bukowno.html"><span class="stop-id">0243</span>Bolesław Centrum (1)</a>
+<a class="stop" href="../rozklady/147/0244-bukowno.html"><span class="stop-id">0244</span>Bolesław Szkoła (1)</a>
+<a class="stop" href="../rozklady/147/0245-bukowno.html"><span class="stop-id">0245</span>Bolesław Cmentarz (2)</a>
+<a class="stop" href="../rozklady/147/0246-bukowno.html"><span class="stop-id">0246</span>Krążek (2)</a>
+<div class="zone zone-bukowno">STREFA BUKOWNO</div>
+<a class="stop" href="../rozklady/147/0247-bukowno.html"><span class="stop-id">0247</span>Bukowno Diana (2)</a>
+<a class="stop" href="../rozklady/147/0248-bukowno.html"><span class="stop-id">0248</span>Bukowno ZGH (1)</a>
+<a class="stop" href="../rozklady/147/0249-bukowno.html"><span class="stop-id">0249</span>Bukowno Skałka (2)</a>
+<a class="stop" href="../rozklady/147/0146-bukowno.html"><span class="stop-id">0146</span>Bukowno Urząd Miasta (2)</a>
+<a class="stop terminal" href="../rozklady/147/0147-bukowno.html"><span class="stop-id">0147</span>Bukowno Dworzec PKP (0)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Sułoszowa Pieskowa Skała</h2>
+
+<div class="zone zone-bukowno">STREFA BUKOWNO</div>
+<a class="stop terminal" href="../rozklady/147/0147-suloszowa.html"><span class="stop-id">0147</span>Bukowno Dworzec PKP (0)</a>
+<a class="stop" href="../rozklady/147/0148-suloszowa.html"><span class="stop-id">0148</span>Bukowno Urząd Miasta (1)</a>
+<a class="stop" href="../rozklady/147/0149-suloszowa.html"><span class="stop-id">0149</span>Bukowno Skałka (1)</a>
+<a class="stop" href="../rozklady/147/0150-suloszowa.html"><span class="stop-id">0150</span>Bukowno ZGH (2)</a>
+<a class="stop" href="../rozklady/147/0151-suloszowa.html"><span class="stop-id">0151</span>Bukowno Diana (1)</a>
+<div class="zone zone-boleslaw">STREFA BOLESŁAW</div>
+<a class="stop" href="../rozklady/147/0152-suloszowa.html"><span class="stop-id">0152</span>Krążek Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/147/0153-suloszowa.html"><span class="stop-id">0153</span>Bolesław Cmentarz (1)</a>
+<a class="stop" href="../rozklady/147/0154-suloszowa.html"><span class="stop-id">0154</span>Bolesław Szkoła (2)</a>
+<a class="stop" href="../rozklady/147/0155-suloszowa.html"><span class="stop-id">0155</span>Bolesław Centrum (2)</a>
+<a class="stop" href="../rozklady/147/0165-suloszowa.html"><span class="stop-id">0165</span>Bolesław Dąbrówka (1)</a>
+<a class="stop" href="../rozklady/147/0171-suloszowa.html"><span class="stop-id">0171</span>Bolesław Osadowa (2)</a>
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+<a class="stop" href="../rozklady/147/0172-suloszowa.html"><span class="stop-id">0172</span>Olkusz Stary (2)</a>
+<a class="stop" href="../rozklady/147/0173-suloszowa.html"><span class="stop-id">0173</span>Olkusz Stacja Paliw (1)</a>
+<a class="stop" href="../rozklady/147/0174-suloszowa.html"><span class="stop-id">0174</span>Olkusz Supersam (0)</a>
+<a class="stop" href="../rozklady/147/0199-suloszowa.html"><span class="stop-id">0199</span>Olkusz Skarbek (2)</a>
+<a class="stop" href="../rozklady/147/0201-suloszowa.html"><span class="stop-id">0201</span>Olkusz Dworzec PKP (1)</a>
+<a class="stop" href="../rozklady/147/0202-suloszowa.html"><span class="stop-id">0202</span>Olkusz Wiadukt (1)</a>
+<a class="stop" href="../rozklady/147/0203-suloszowa.html"><span class="stop-id">0203</span>Olkusz Aleja Tysiąclecia (1)</a>
+<a class="stop" href="../rozklady/147/0204-suloszowa.html"><span class="stop-id">0204</span>Sieniczno (1)</a>
+<a class="stop" href="../rozklady/147/0205-suloszowa.html"><span class="stop-id">0205</span>Sieniczno Ojcowska (2)</a>
+<a class="stop" href="../rozklady/147/0438-suloszowa.html"><span class="stop-id">0438</span>Zimnodół Wiśliczka (1)</a>
+<a class="stop" href="../rozklady/147/0207-suloszowa.html"><span class="stop-id">0207</span>Kosmolów Las (2)</a>
+<a class="stop" href="../rozklady/147/0208-suloszowa.html"><span class="stop-id">0208</span>Kosmolów Szkoła (2)</a>
+<a class="stop" href="../rozklady/147/0209-suloszowa.html"><span class="stop-id">0209</span>Kosmolów Sklep (2)</a>
+<a class="stop" href="../rozklady/147/0210-suloszowa.html"><span class="stop-id">0210</span>Kosmolów Na Górze (2)</a>
+<div class="zone zone-suloszowa-skala">STREFA SUŁOSZOWA-SKAŁA</div>
+<a class="stop" href="../rozklady/147/0416-suloszowa.html"><span class="stop-id">0416</span>Sułoszowa Kółko (2)</a>
+<a class="stop" href="../rozklady/147/0417-suloszowa.html"><span class="stop-id">0417</span>Sułoszowa Zachodnia (2)</a>
+<a class="stop" href="../rozklady/147/0418-suloszowa.html"><span class="stop-id">0418</span>Sułoszowa Remiza (2)</a>
+<a class="stop" href="../rozklady/147/0419-suloszowa.html"><span class="stop-id">0419</span>Sułoszowa Sklep (2)</a>
+<a class="stop" href="../rozklady/147/0420-suloszowa.html"><span class="stop-id">0420</span>Sułoszowa Bar (2)</a>
+<a class="stop" href="../rozklady/147/0421-suloszowa.html"><span class="stop-id">0421</span>Sułoszowa Stopina Góra (2)</a>
+<a class="stop" href="../rozklady/147/0422-suloszowa.html"><span class="stop-id">0422</span>Sułoszowa Szkoła (2)</a>
+<a class="stop" href="../rozklady/147/0423-suloszowa.html"><span class="stop-id">0423</span>Sułoszowa Grobla (2)</a>
+<a class="stop" href="../rozklady/147/0424-suloszowa.html"><span class="stop-id">0424</span>Sułoszowa Zagrody (2)</a>
+<a class="stop" href="../rozklady/147/0425-suloszowa.html"><span class="stop-id">0425</span>Sułoszowa Stawy (1)</a>
+<a class="stop terminal" href="../rozklady/147/0426-suloszowa.html"><span class="stop-id">0426</span>Sułoszowa Pieskowa Skała (1)</a>
+<a class="stop variant" href="../rozklady/147/2526-suloszowa.html"><span class="stop-id">2526</span>Sułoszowa Podzamcze (2)</a>
+<a class="stop variant" href="../rozklady/147/3332-suloszowa.html"><span class="stop-id">3332</span>Wielmoża Kolonia Krótka (2)</a>
+<a class="stop variant" href="../rozklady/147/2525-suloszowa.html"><span class="stop-id">2525</span>Wielmoża Szkoła (2)</a>
+<a class="stop variant" href="../rozklady/147/2533-suloszowa.html"><span class="stop-id">2533</span>Wielmoża Skrzyżowanie (3)</a>
+<a class="stop variant" href="../rozklady/147/2530-suloszowa.html"><span class="stop-id">2530</span>Wielmoża Magazyny (2)</a>
+<div class="zone zone-trzyciaz">STREFA TRZYCIĄŻ</div>
+<a class="stop variant" href="../rozklady/147/0771-suloszowa.html"><span class="stop-id">0771</span>Milonki (1)</a>
+<a class="stop variant" href="../rozklady/147/0777-suloszowa.html"><span class="stop-id">0777</span>Zadroże OSP (1)</a>
+<a class="stop variant" href="../rozklady/147/0768-suloszowa.html"><span class="stop-id">0768</span>Milonki Skrzyżowanie (2)</a>
+<a class="stop variant" href="../rozklady/147/0765-suloszowa.html"><span class="stop-id">0765</span>Milonki Granica (1)</a>
+<a class="stop variant" href="../rozklady/147/0763-suloszowa.html"><span class="stop-id">0763</span>Tarnawa Skrzyżowanie (1)</a>
+<a class="stop variant" href="../rozklady/147/0762-suloszowa.html"><span class="stop-id">0762</span>Tarnawa Parcela (2)</a>
+<a class="stop variant" href="../rozklady/147/0759-suloszowa.html"><span class="stop-id">0759</span>Tarnawa Kościół (1)</a>
+<a class="stop variant" href="../rozklady/147/0758-suloszowa.html"><span class="stop-id">0758</span>Tarnawa Wieś (2)</a>
+<a class="stop variant terminal" href="../rozklady/147/0755-suloszowa.html"><span class="stop-id">0755</span>Tarnawa Podlas (1)</a>
+<div class="zone zone-suloszowa-skala">STREFA SUŁOSZOWA-SKAŁA</div>
+<a class="stop variant" href="../rozklady/147/0752-suloszowa.html"><span class="stop-id">0752</span>Barbarka Wesoła Ściborzanka (1)</a>
+<a class="stop variant" href="../rozklady/147/0751-suloszowa.html"><span class="stop-id">0751</span>Barbarka Remiza (2)</a>
+<a class="stop variant" href="../rozklady/147/0795-suloszowa.html"><span class="stop-id">0795</span>Barbarka (2)</a>
+<a class="stop variant" href="../rozklady/147/0793-suloszowa.html"><span class="stop-id">0793</span>Gołyszyn Podgaje (2)</a>
+<a class="stop variant terminal" href="../rozklady/147/0791-suloszowa.html"><span class="stop-id">0791</span>Gołyszyn Remiza (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
