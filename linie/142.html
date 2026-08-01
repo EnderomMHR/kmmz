@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 142</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-olkusz{
+    background:#ffe599;
+    color:#222;
+}
+
+.zone-suloszowa-skala{
+    background:#b7b8b7;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">142</div>
+
+<div class="route">
+Skała Połetka - Wola Kalinowska - Sułoszowa - Kosmolów - Sieniczno - Olkusz Kopalnia Parking
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Olkusz Kopalnia Parking</h2>
+
+<div class="zone zone-suloszowa-skala">STREFA SUŁOSZOWA-SKAŁA</div>
+<a class="stop terminal" href="../rozklady/142/0399-olkusz.html"><span class="stop-id">0399</span>Skała Połetka (1)</a>
+<a class="stop" href="../rozklady/142/0431-olkusz.html"><span class="stop-id">0431</span>Skała Rynek (2)</a>
+<a class="stop" href="../rozklady/142/0401-olkusz.html"><span class="stop-id">0401</span>Skała Grodzisko (2)</a>
+<a class="stop" href="../rozklady/142/0402-olkusz.html"><span class="stop-id">0402</span>Wola Kalinowska (1)</a>
+<a class="stop" href="../rozklady/142/0403-olkusz.html"><span class="stop-id">0403</span>Wola Kalinowska Młynnik (1)</a>
+<a class="stop" href="../rozklady/142/0404-olkusz.html"><span class="stop-id">0404</span>Sułoszowa Młyny (1)</a>
+<a class="stop" href="../rozklady/142/0405-olkusz.html"><span class="stop-id">0405</span>Sułoszowa Pieskowa Skała (2)</a>
+<a class="stop" href="../rozklady/142/0406-olkusz.html"><span class="stop-id">0406</span>Sułoszowa Stawy (2)</a>
+<a class="stop" href="../rozklady/142/0407-olkusz.html"><span class="stop-id">0407</span>Sułoszowa Zagrody (1)</a>
+<a class="stop" href="../rozklady/142/0408-olkusz.html"><span class="stop-id">0408</span>Sułoszowa Grobla (1)</a>
+<a class="stop" href="../rozklady/142/0409-olkusz.html"><span class="stop-id">0409</span>Sułoszowa Szkoła (1)</a>
+<a class="stop" href="../rozklady/142/0410-olkusz.html"><span class="stop-id">0410</span>Sułoszowa Stopina Góra (1)</a>
+<a class="stop" href="../rozklady/142/0411-olkusz.html"><span class="stop-id">0411</span>Sułoszowa Bar (1)</a>
+<a class="stop" href="../rozklady/142/0412-olkusz.html"><span class="stop-id">0412</span>Sułoszowa Sklep (1)</a>
+<a class="stop" href="../rozklady/142/0413-olkusz.html"><span class="stop-id">0413</span>Sułoszowa Remiza (1)</a>
+<a class="stop" href="../rozklady/142/0414-olkusz.html"><span class="stop-id">0414</span>Sułoszowa Zachodnia (1)</a>
+<a class="stop" href="../rozklady/142/0400-olkusz.html"><span class="stop-id">0400</span>Sułoszowa Kółko (1)</a>
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+<a class="stop" href="../rozklady/142/0218-olkusz.html"><span class="stop-id">0218</span>Kosmolów Na Górze (1)</a>
+<a class="stop" href="../rozklady/142/0219-olkusz.html"><span class="stop-id">0219</span>Kosmolów Sklep (1)</a>
+<a class="stop" href="../rozklady/142/0220-olkusz.html"><span class="stop-id">0220</span>Kosmolów Szkoła (1)</a>
+<a class="stop" href="../rozklady/142/0221-olkusz.html"><span class="stop-id">0221</span>Kosmolów Las (1)</a>
+<a class="stop" href="../rozklady/142/0437-olkusz.html"><span class="stop-id">0437</span>Zimnodół Wiśliczka (2)</a>
+<a class="stop" href="../rozklady/142/0223-olkusz.html"><span class="stop-id">0223</span>Sieniczno Ojcowska (1)</a>
+<a class="stop" href="../rozklady/142/0224-olkusz.html"><span class="stop-id">0224</span>Sieniczno (2)</a>
+<a class="stop" href="../rozklady/142/0225-olkusz.html"><span class="stop-id">0225</span>Olkusz Aleja Tysiąclecia (2)</a>
+<a class="stop" href="../rozklady/142/0433-olkusz.html"><span class="stop-id">0433</span>Olkusz Słowiki (1)</a>
+<a class="stop" href="../rozklady/142/0238-olkusz.html"><span class="stop-id">0238</span>Olkusz Supersam (2)</a>
+<a class="stop" href="../rozklady/142/0239-olkusz.html"><span class="stop-id">0239</span>Olkusz Stacja Paliw (2)</a>
+<a class="stop" href="../rozklady/142/0436-olkusz.html"><span class="stop-id">0436</span>Olkusz Kopalnia (1)</a>
+<a class="stop terminal" href="../rozklady/142/2650-olkusz.html"><span class="stop-id">2650</span>Olkusz Kopalnia Parking (1)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Skała Połetka</h2>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+<a class="stop terminal" href="../rozklady/142/0434-skala.html"><span class="stop-id">0434</span>Olkusz Kopalnia Parking (0)</a>
+<a class="stop" href="../rozklady/142/0172-skala.html"><span class="stop-id">0172</span>Olkusz Stary (2)</a>
+<a class="stop" href="../rozklady/142/0173-skala.html"><span class="stop-id">0173</span>Olkusz Stacja Paliw (1)</a>
+<a class="stop" href="../rozklady/142/0435-skala.html"><span class="stop-id">0435</span>Olkusz Supersam (1)</a>
+<a class="stop" href="../rozklady/142/0415-skala.html"><span class="stop-id">0415</span>Olkusz Słowiki (2)</a>
+<a class="stop" href="../rozklady/142/0203-skala.html"><span class="stop-id">0203</span>Olkusz Aleja Tysiąclecia (1)</a>
+<a class="stop" href="../rozklady/142/0204-skala.html"><span class="stop-id">0204</span>Sieniczno (1)</a>
+<a class="stop" href="../rozklady/142/0205-skala.html"><span class="stop-id">0205</span>Sieniczno Ojcowska (2)</a>
+<a class="stop" href="../rozklady/142/0438-skala.html"><span class="stop-id">0438</span>Zimnodół Wiśliczka (1)</a>
+<a class="stop" href="../rozklady/142/0207-skala.html"><span class="stop-id">0207</span>Kosmolów Las (2)</a>
+<a class="stop" href="../rozklady/142/0208-skala.html"><span class="stop-id">0208</span>Kosmolów Szkoła (2)</a>
+<a class="stop" href="../rozklady/142/0209-skala.html"><span class="stop-id">0209</span>Kosmolów Sklep (2)</a>
+<a class="stop" href="../rozklady/142/0210-skala.html"><span class="stop-id">0210</span>Kosmolów Na Górze (2)</a>
+<div class="zone zone-suloszowa-skala">STREFA SUŁOSZOWA-SKAŁA</div>
+<a class="stop" href="../rozklady/142/0416-skala.html"><span class="stop-id">0416</span>Sułoszowa Kółko (2)</a>
+<a class="stop" href="../rozklady/142/0417-skala.html"><span class="stop-id">0417</span>Sułoszowa Zachodnia (2)</a>
+<a class="stop" href="../rozklady/142/0418-skala.html"><span class="stop-id">0418</span>Sułoszowa Remiza (2)</a>
+<a class="stop" href="../rozklady/142/0419-skala.html"><span class="stop-id">0419</span>Sułoszowa Sklep (2)</a>
+<a class="stop" href="../rozklady/142/0420-skala.html"><span class="stop-id">0420</span>Sułoszowa Bar (2)</a>
+<a class="stop" href="../rozklady/142/0421-skala.html"><span class="stop-id">0421</span>Sułoszowa Stopina Góra (2)</a>
+<a class="stop" href="../rozklady/142/0422-skala.html"><span class="stop-id">0422</span>Sułoszowa Szkoła (2)</a>
+<a class="stop" href="../rozklady/142/0423-skala.html"><span class="stop-id">0423</span>Sułoszowa Grobla (2)</a>
+<a class="stop" href="../rozklady/142/0424-skala.html"><span class="stop-id">0424</span>Sułoszowa Zagrody (2)</a>
+<a class="stop" href="../rozklady/142/0425-skala.html"><span class="stop-id">0425</span>Sułoszowa Stawy (1)</a>
+<a class="stop" href="../rozklady/142/0426-skala.html"><span class="stop-id">0426</span>Sułoszowa Pieskowa Skała (1)</a>
+<a class="stop" href="../rozklady/142/0427-skala.html"><span class="stop-id">0427</span>Sułoszowa Młyny (2)</a>
+<a class="stop" href="../rozklady/142/0428-skala.html"><span class="stop-id">0428</span>Wola Kalinowska Młynnik (2)</a>
+<a class="stop" href="../rozklady/142/0429-skala.html"><span class="stop-id">0429</span>Wola Kalinowska (2)</a>
+<a class="stop" href="../rozklady/142/0430-skala.html"><span class="stop-id">0430</span>Skała Grodzisko (1)</a>
+<a class="stop" href="../rozklady/142/0431-skala.html"><span class="stop-id">0431</span>Skała Rynek (2)</a>
+<a class="stop terminal" href="../rozklady/142/0432-skala.html"><span class="stop-id">0432</span>Skała Połetka (2)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
