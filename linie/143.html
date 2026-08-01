@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 143</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-oswiecim{
+    background:#9fc4e8;
+    color:#222;
+}
+
+.zone-brzeszcze{
+    background:#a2c4c9;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">143</div>
+
+<div class="route">
+Oświęcim Stare Stawy Pętla - Oświęcim Dworzec PKP - Rajsko - Brzeszcze - Jawiszowice - Zasole Pętla
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Zasole Pętla</h2>
+
+<div class="zone zone-oswiecim">STREFA OŚWIĘCIM</div>
+<a class="stop terminal" href="../rozklady/143/2635-zasole.html"><span class="stop-id">2635</span>Oświęcim Stare Stawy Pętla (0)</a>
+<a class="stop" href="../rozklady/143/2637-zasole.html"><span class="stop-id">2637</span>Oświęcim Świętej Barbary (2)</a>
+<a class="stop" href="../rozklady/143/1912-zasole.html"><span class="stop-id">1912</span>Oświęcim Królowej Jadwigi (2)</a>
+<a class="stop" href="../rozklady/143/1550-zasole.html"><span class="stop-id">1550</span>Oświęcim Nojego (1)</a>
+<a class="stop" href="../rozklady/143/0628-zasole.html"><span class="stop-id">0628</span>Oświęcim Dąbrowskiego Miasto (1)</a>
+<a class="stop" href="../rozklady/143/0629-zasole.html"><span class="stop-id">0629</span>Oświęcim Stacja BP (2)</a>
+<a class="stop" href="../rozklady/143/0630-zasole.html"><span class="stop-id">0630</span>Oświęcim Niwa (1)</a>
+<a class="stop" href="../rozklady/143/0631-zasole.html"><span class="stop-id">0631</span>Oświęcim Dworzec PKP (1)</a>
+<a class="stop" href="../rozklady/143/0637-zasole.html"><span class="stop-id">0637</span>Oświęcim MZK (1)</a>
+<a class="stop" href="../rozklady/143/0638-zasole.html"><span class="stop-id">0638</span>Oświęcim Szkoła (2)</a>
+<a class="stop" href="../rozklady/143/0639-zasole.html"><span class="stop-id">0639</span>Oświęcim Szajny (1)</a>
+<a class="stop" href="../rozklady/143/0640-zasole.html"><span class="stop-id">0640</span>Oświęcim Uczelnia (2)</a>
+<a class="stop" href="../rozklady/143/0641-zasole.html"><span class="stop-id">0641</span>Rajsko Ogrody (1)</a>
+<a class="stop" href="../rozklady/143/0642-zasole.html"><span class="stop-id">0642</span>Rajsko Centrum (1)</a>
+<a class="stop" href="../rozklady/143/0643-zasole.html"><span class="stop-id">0643</span>Rajsko Pomnik (1)</a>
+<a class="stop" href="../rozklady/143/2547-zasole.html"><span class="stop-id">2547</span>Rajsko Pałac (2)</a>
+<a class="stop" href="../rozklady/143/2536-zasole.html"><span class="stop-id">2536</span>Rajsko Cegielnia (1)</a>
+<div class="zone zone-brzeszcze">STREFA BRZESZCZE</div>
+<a class="stop" href="../rozklady/143/2537-zasole.html"><span class="stop-id">2537</span>Brzeszcze Budy (1)</a>
+<a class="stop" href="../rozklady/143/2572-zasole.html"><span class="stop-id">2572</span>Brzeszcze Partyzantów (1)</a>
+<a class="stop" href="../rozklady/143/2571-zasole.html"><span class="stop-id">2571</span>Brzeszcze Bór (Ofiar Oświęcimia) (1)</a>
+<a class="stop" href="../rozklady/143/2582-zasole.html"><span class="stop-id">2582</span>Brzeszcze KWK (1)</a>
+<a class="stop" href="../rozklady/143/2562-zasole.html"><span class="stop-id">2562</span>Brzeszcze Szkoła (1)</a>
+<a class="stop" href="../rozklady/143/2561-zasole.html"><span class="stop-id">2561</span>Brzeszcze Kościół (1)</a>
+<a class="stop" href="../rozklady/143/2560-zasole.html"><span class="stop-id">2560</span>Brzeszcze Strażnica (1)</a>
+<a class="stop" href="../rozklady/143/2555-zasole.html"><span class="stop-id">2555</span>Brzeszcze Osiedle (1)</a>
+<a class="stop" href="../rozklady/143/2559-zasole.html"><span class="stop-id">2559</span>Jawiszowice Osiedle Paderewskiego (1)</a>
+<a class="stop" href="../rozklady/143/2567-zasole.html"><span class="stop-id">2567</span>Jawiszowice Mickiewicza (2)</a>
+<a class="stop" href="../rozklady/143/2920-zasole.html"><span class="stop-id">2920</span>Jawiszowice Szkoła (2)</a>
+<a class="stop" href="../rozklady/143/2620-zasole.html"><span class="stop-id">2620</span>Jawiszowice Hałda (2)</a>
+<a class="stop" href="../rozklady/143/2621-zasole.html"><span class="stop-id">2621</span>Jawiszowice Kobylec (2)</a>
+<a class="stop" href="../rozklady/143/2626-zasole.html"><span class="stop-id">2626</span>Zasole Jawiszowice Żądanie (2)</a>
+<a class="stop" href="../rozklady/143/2593-zasole.html"><span class="stop-id">2593</span>Zasole Sklep (1)</a>
+<a class="stop" href="../rozklady/143/2596-zasole.html"><span class="stop-id">2596</span>Zasole Kościół (2)</a>
+<a class="stop terminal" href="../rozklady/143/2597-zasole.html"><span class="stop-id">2597</span>Zasole Pętla (0)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Oświęcim Stare Stawy Pętla</h2>
+
+<div class="zone zone-brzeszcze">STREFA BRZESZCZE</div>
+<a class="stop terminal" href="../rozklady/143/2597-oswiecim.html"><span class="stop-id">2597</span>Zasole Pętla (0)</a>
+<a class="stop" href="../rozklady/143/2595-oswiecim.html"><span class="stop-id">2595</span>Zasole Kościół (1)</a>
+<a class="stop" href="../rozklady/143/2593-oswiecim.html"><span class="stop-id">2593</span>Zasole Sklep (1)</a>
+<a class="stop" href="../rozklady/143/2625-oswiecim.html"><span class="stop-id">2625</span>Zasole Jawiszowice Żądanie (1)</a>
+<a class="stop" href="../rozklady/143/2623-oswiecim.html"><span class="stop-id">2623</span>Jawiszowice Kobylec (1)</a>
+<a class="stop" href="../rozklady/143/2622-oswiecim.html"><span class="stop-id">2622</span>Jawiszowice Hałda (1)</a>
+<a class="stop" href="../rozklady/143/2919-oswiecim.html"><span class="stop-id">2919</span>Jawiszowice Szkoła (1)</a>
+<a class="stop" href="../rozklady/143/2558-oswiecim.html"><span class="stop-id">2558</span>Jawiszowice Mickiewicza (1)</a>
+<a class="stop" href="../rozklady/143/2566-oswiecim.html"><span class="stop-id">2566</span>Jawiszowice Osiedle Paderewskiego (2)</a>
+<a class="stop" href="../rozklady/143/2556-oswiecim.html"><span class="stop-id">2556</span>Brzeszcze Osiedle (2)</a>
+<a class="stop" href="../rozklady/143/2565-oswiecim.html"><span class="stop-id">2565</span>Brzeszcze Strażnica (2)</a>
+<a class="stop" href="../rozklady/143/2564-oswiecim.html"><span class="stop-id">2564</span>Brzeszcze Kościół (2)</a>
+<a class="stop" href="../rozklady/143/2563-oswiecim.html"><span class="stop-id">2563</span>Brzeszcze Szkoła (2)</a>
+<a class="stop" href="../rozklady/143/2569-oswiecim.html"><span class="stop-id">2569</span>Brzeszcze KWK (2)</a>
+<a class="stop" href="../rozklady/143/2580-oswiecim.html"><span class="stop-id">2580</span>Brzeszcze Bór (Ofiar Oświęcimia) (2)</a>
+<a class="stop" href="../rozklady/143/2579-oswiecim.html"><span class="stop-id">2579</span>Brzeszcze Partyzantów (2)</a>
+<a class="stop" href="../rozklady/143/2545-oswiecim.html"><span class="stop-id">2545</span>Brzeszcze Budy (2)</a>
+<div class="zone zone-oswiecim">STREFA OŚWIĘCIM</div>
+<a class="stop" href="../rozklady/143/2546-oswiecim.html"><span class="stop-id">2546</span>Rajsko Cegielnia (2)</a>
+<a class="stop" href="../rozklady/143/2535-oswiecim.html"><span class="stop-id">2535</span>Rajsko Pałac (1)</a>
+<a class="stop" href="../rozklady/143/0655-oswiecim.html"><span class="stop-id">0655</span>Rajsko Pomnik (2)</a>
+<a class="stop" href="../rozklady/143/0656-oswiecim.html"><span class="stop-id">0656</span>Rajsko Centrum (2)</a>
+<a class="stop" href="../rozklady/143/0657-oswiecim.html"><span class="stop-id">0657</span>Rajsko Ogrody (2)</a>
+<a class="stop" href="../rozklady/143/0658-oswiecim.html"><span class="stop-id">0658</span>Oświęcim Uczelnia (1)</a>
+<a class="stop" href="../rozklady/143/0659-oswiecim.html"><span class="stop-id">0659</span>Oświęcim Leszczyńskiej Muzeum (2)</a>
+<a class="stop" href="../rozklady/143/0660-oswiecim.html"><span class="stop-id">0660</span>Oświęcim Szkoła (1)</a>
+<a class="stop" href="../rozklady/143/0661-oswiecim.html"><span class="stop-id">0661</span>Oświęcim MZK (2)</a>
+<a class="stop" href="../rozklady/143/0666-oswiecim.html"><span class="stop-id">0666</span>Oświęcim Dworzec PKP (2)</a>
+<a class="stop" href="../rozklady/143/0667-oswiecim.html"><span class="stop-id">0667</span>Oświęcim Niwa (2)</a>
+<a class="stop" href="../rozklady/143/0668-oswiecim.html"><span class="stop-id">0668</span>Oświęcim Stacja BP (1)</a>
+<a class="stop" href="../rozklady/143/0669-oswiecim.html"><span class="stop-id">0669</span>Oświęcim Dąbrowskiego Kościół (1)</a>
+<a class="stop" href="../rozklady/143/0670-oswiecim.html"><span class="stop-id">0670</span>Oświęcim Dąbrowskiego Cmentarz (0)</a>
+<a class="stop" href="../rozklady/143/1551-oswiecim.html"><span class="stop-id">1551</span>Oświęcim Nojego (2)</a>
+<a class="stop" href="../rozklady/143/1913-oswiecim.html"><span class="stop-id">1913</span>Oświęcim Królowej Jadwigi (1)</a>
+<a class="stop" href="../rozklady/143/2636-oswiecim.html"><span class="stop-id">2636</span>Oświęcim Świętej Barbary (1)</a>
+<a class="stop terminal" href="../rozklady/143/2634-oswiecim.html"><span class="stop-id">2634</span>Oświęcim Stare Stawy Pętla (1)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
