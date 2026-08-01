@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 140</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.columns.single-column {
+  display: block;
+}
+
+.columns.single-column .column {
+  max-width: 560px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.columns.single-column .stop {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-trzebinia{
+    background:#d9d2e9;
+    color:#222;
+}
+
+.zone-chrzanow{
+    background:#a4c2f4;
+    color:#222;
+}
+
+@media (max-width: 700px) {
+  .columns.single-column .column {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+  
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">140</div>
+
+<div class="route">
+Trzebinia Elektrownia Siersza - Gaj - Siersza - Krze - Trzebinia - Chrzanów Szpital - Trzebinia - Krze - Siersza - Gaj - Trzebinia Elektrownia Siersza
+</div>
+
+<div class="columns single-column">
+
+<div class="column">
+
+<h2>Kierunek: Trzebinia Elektrownia Siersza</h2>
+
+<div class="zone zone-trzebinia">STREFA TRZEBINIA</div>
+<a class="stop terminal" href="../rozklady/140/0928-okrezna.html"><span class="stop-id">0928</span>Trzebinia Elektrownia Siersza (0)</a>
+<a class="stop" href="../rozklady/140/1020-okrezna.html"><span class="stop-id">1020</span>Trzebinia Osiedle Energetyków (2)</a>
+<a class="stop variant" href="../rozklady/140/1018-okrezna.html"><span class="stop-id">1018</span>Trzebinia Kamienna (1)</a>
+<a class="stop variant" href="../rozklady/140/1016-okrezna.html"><span class="stop-id">1016</span>Trzebinia Matejki (1)</a>
+<a class="stop variant" href="../rozklady/140/1015-okrezna.html"><span class="stop-id">1015</span>Trzebinia Gaj Przychodnia (2)</a>
+<a class="stop" href="../rozklady/140/1012-okrezna.html"><span class="stop-id">1012</span>Trzebinia Gaj Siersza (1)</a>
+<a class="stop" href="../rozklady/140/1010-okrezna.html"><span class="stop-id">1010</span>Trzebinia Siersza Huta (2)</a>
+<a class="stop" href="../rozklady/140/0993-okrezna.html"><span class="stop-id">0993</span>Trzebinia Siersza Kościół (1)</a>
+<a class="stop" href="../rozklady/140/1525-okrezna.html"><span class="stop-id">1525</span>Trzebinia Siersza Liceum (2)</a>
+<a class="stop" href="../rozklady/140/0996-okrezna.html"><span class="stop-id">0996</span>Trzebinia Siersza Zwycięstwa (0)</a>
+<a class="stop variant" href="../rozklady/140/0999-okrezna.html"><span class="stop-id">0999</span>Trzebinia Siersza Szczakowska (1)</a>
+<a class="stop variant" href="../rozklady/140/1001-okrezna.html"><span class="stop-id">1001</span>Trzebinia Ciężkowicka (1)</a>
+<a class="stop variant" href="../rozklady/140/1002-okrezna.html"><span class="stop-id">1002</span>Trzebinia Stawowa Sklep (1)</a>
+<a class="stop variant" href="../rozklady/140/1000-okrezna.html"><span class="stop-id">1000</span>Trzebinia Siersza Szczakowska (2)</a>
+<a class="stop" href="../rozklady/140/0995-okrezna.html"><span class="stop-id">0995</span>Trzebinia Siersza Liceum (1)</a>
+<a class="stop" href="../rozklady/140/0994-okrezna.html"><span class="stop-id">0994</span>Trzebinia Siersza Kościół (2)</a>
+<a class="stop" href="../rozklady/140/0992-okrezna.html"><span class="stop-id">0992</span>Trzebinia Siersza Stadion (2)</a>
+<a class="stop" href="../rozklady/140/1008-okrezna.html"><span class="stop-id">1008</span>Trzebinia Siersza Trętowiec (2)</a>
+<a class="stop" href="../rozklady/140/1006-okrezna.html"><span class="stop-id">1006</span>Trzebinia Siersza Ośrodek Zdrowia (2)</a>
+<a class="stop" href="../rozklady/140/0972-okrezna.html"><span class="stop-id">0972</span>Trzebinia KWK Siersza (1)</a>
+<a class="stop" href="../rozklady/140/0970-okrezna.html"><span class="stop-id">0970</span>Trzebinia Krze I (1)</a>
+<a class="stop" href="../rozklady/140/0976-okrezna.html"><span class="stop-id">0976</span>Trzebinia OHP (1)</a>
+<a class="stop" href="../rozklady/140/0978-okrezna.html"><span class="stop-id">0978</span>Trzebinia Górka Dwór (1)</a>
+<a class="stop" href="../rozklady/140/1028-okrezna.html"><span class="stop-id">1028</span>Trzebinia Balaton (2)</a>
+<a class="stop" href="../rozklady/140/0088-okrezna.html"><span class="stop-id">0088</span>Trzebinia Mały Rynek Kościuszki (0)</a>
+<a class="stop variant" href="../rozklady/140/1026-okrezna.html"><span class="stop-id">1026</span>Trzebinia Harcerska Przychodnia (0)</a>
+<a class="stop" href="../rozklady/140/0089-okrezna.html"><span class="stop-id">0089</span>Trzebinia Dworzec PKP (1)</a>
+<a class="stop" href="../rozklady/140/0090-okrezna.html"><span class="stop-id">0090</span>Trzebinia Długa (1)</a>
+<a class="stop" href="../rozklady/140/0091-okrezna.html"><span class="stop-id">0091</span>Trzebinia Berezka (2)</a>
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+<a class="stop" href="../rozklady/140/0397-okrezna.html"><span class="stop-id">0397</span>Chrzanów Trzebińska (1)</a>
+<a class="stop" href="../rozklady/140/0117-okrezna.html"><span class="stop-id">0117</span>Chrzanów Szpitalna (3)</a>
+<a class="stop terminal" href="../rozklady/140/0118-okrezna.html"><span class="stop-id">0118</span>Chrzanów Szpital (1)</a>
+<a class="stop variant" href="../rozklady/140/0119-okrezna.html"><span class="stop-id">0119</span>Chrzanów Valeo (1)</a>
+<div class="zone zone-trzebinia">STREFA TRZEBINIA</div>
+<a class="stop" href="../rozklady/140/0120-okrezna.html"><span class="stop-id">0120</span>Trzebinia Berezka (1)</a>
+<a class="stop" href="../rozklady/140/0121-okrezna.html"><span class="stop-id">0121</span>Trzebinia Długa (2)</a>
+<a class="stop" href="../rozklady/140/0122-okrezna.html"><span class="stop-id">0122</span>Trzebinia Dworzec PKP (2)</a>
+<a class="stop variant" href="../rozklady/140/1026-okrezna-2.html"><span class="stop-id">1026</span>Trzebinia Harcerska Przychodnia (0)</a>
+<a class="stop" href="../rozklady/140/3295-okrezna.html"><span class="stop-id">3295</span>Trzebinia Mały Rynek (1)</a>
+<a class="stop" href="../rozklady/140/1027-okrezna.html"><span class="stop-id">1027</span>Trzebinia Balaton (1)</a>
+<a class="stop" href="../rozklady/140/0979-okrezna.html"><span class="stop-id">0979</span>Trzebinia Górka Dwór (2)</a>
+<a class="stop" href="../rozklady/140/0977-okrezna.html"><span class="stop-id">0977</span>Trzebinia OHP (2)</a>
+<a class="stop" href="../rozklady/140/0971-okrezna.html"><span class="stop-id">0971</span>Trzebinia Krze I (2)</a>
+<a class="stop" href="../rozklady/140/0973-okrezna.html"><span class="stop-id">0973</span>Trzebinia KWK Siersza (2)</a>
+<a class="stop" href="../rozklady/140/1005-okrezna.html"><span class="stop-id">1005</span>Trzebinia Siersza Ośrodek Zdrowia (1)</a>
+<a class="stop" href="../rozklady/140/1007-okrezna.html"><span class="stop-id">1007</span>Trzebinia Siersza Trętowiec (1)</a>
+<a class="stop" href="../rozklady/140/0991-okrezna.html"><span class="stop-id">0991</span>Trzebinia Siersza Stadion (1)</a>
+<a class="stop" href="../rozklady/140/0993-okrezna-2.html"><span class="stop-id">0993</span>Trzebinia Siersza Kościół (1)</a>
+<a class="stop" href="../rozklady/140/1525-okrezna-2.html"><span class="stop-id">1525</span>Trzebinia Siersza Liceum (2)</a>
+<a class="stop variant" href="../rozklady/140/0996-okrezna-2.html"><span class="stop-id">0996</span>Trzebinia Siersza Zwycięstwa (0)</a>
+<a class="stop variant" href="../rozklady/140/0999-okrezna-2.html"><span class="stop-id">0999</span>Trzebinia Siersza Szczakowska (1)</a>
+<a class="stop variant" href="../rozklady/140/1001-okrezna-2.html"><span class="stop-id">1001</span>Trzebinia Ciężkowicka (1)</a>
+<a class="stop variant" href="../rozklady/140/1002-okrezna-2.html"><span class="stop-id">1002</span>Trzebinia Stawowa Sklep (1)</a>
+<a class="stop variant" href="../rozklady/140/1000-okrezna-2.html"><span class="stop-id">1000</span>Trzebinia Siersza Szczakowska (2)</a>
+<a class="stop" href="../rozklady/140/1009-okrezna.html"><span class="stop-id">1009</span>Trzebinia Siersza Huta (1)</a>
+<a class="stop variant" href="../rozklady/140/1014-okrezna.html"><span class="stop-id">1014</span>Trzebinia Gaj Przychodnia (1)</a>
+<a class="stop variant" href="../rozklady/140/1017-okrezna.html"><span class="stop-id">1017</span>Trzebinia Matejki (2)</a>
+<a class="stop variant" href="../rozklady/140/1019-okrezna.html"><span class="stop-id">1019</span>Trzebinia Kamienna (2)</a>
+<a class="stop" href="../rozklady/140/1013-okrezna.html"><span class="stop-id">1013</span>Trzebinia Gaj Siersza (2)</a>
+<a class="stop" href="../rozklady/140/1021-okrezna.html"><span class="stop-id">1021</span>Trzebinia Osiedle Energetyków (1)</a>
+<a class="stop terminal" href="../rozklady/140/0928-okrezna-2.html"><span class="stop-id">0928</span>Trzebinia Elektrownia Siersza (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
