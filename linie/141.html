@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 141</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-babice-alwernia{
+    background:#dd7e6b;
+    color:#222;
+}
+
+.zone-chrzanow{
+    background:#a4c2f4;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">141</div>
+
+<div class="route">
+Chrzanów Dworzec Autobusowy - Stella - Pogorzyce - Płaza Dolna I - Wygiełzów - Babice - Olszyny - Jankowice
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Jankowice</h2>
+
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+<a class="stop terminal" href="../rozklady/141/0334-jankowice.html"><span class="stop-id">0334</span>Chrzanów Dworzec Autobusowy (4)</a>
+<a class="stop" href="../rozklady/141/0096-jankowice.html"><span class="stop-id">0096</span>Chrzanów Plac Tysiąclecia (3)</a>
+<a class="stop" href="../rozklady/141/0352-jankowice.html"><span class="stop-id">0352</span>Chrzanów ZUS (1)</a>
+<a class="stop" href="../rozklady/141/0332-jankowice.html"><span class="stop-id">0332</span>Chrzanów Sienna (1)</a>
+<a class="stop" href="../rozklady/141/0567-jankowice.html"><span class="stop-id">0567</span>Chrzanów Głowackiego (1)</a>
+<a class="stop" href="../rozklady/141/0568-jankowice.html"><span class="stop-id">0568</span>Chrzanów Pogorska Szkoła (2)</a>
+<a class="stop" href="../rozklady/141/0569-jankowice.html"><span class="stop-id">0569</span>Chrzanów Pogorska Przychodnia (1)</a>
+<a class="stop" href="../rozklady/141/0570-jankowice.html"><span class="stop-id">0570</span>Chrzanów Pogorska Kościół (2)</a>
+<a class="stop" href="../rozklady/141/0571-jankowice.html"><span class="stop-id">0571</span>Chrzanów Ciepłownia (1)</a>
+<a class="stop" href="../rozklady/141/0572-jankowice.html"><span class="stop-id">0572</span>Chrzanów Stella (1)</a>
+<a class="stop" href="../rozklady/141/0573-jankowice.html"><span class="stop-id">0573</span>Pogorzyce PKP (1)</a>
+<a class="stop" href="../rozklady/141/0574-jankowice.html"><span class="stop-id">0574</span>Pogorzyce Szkoła (1)</a>
+<a class="stop" href="../rozklady/141/0575-jankowice.html"><span class="stop-id">0575</span>Pogorzyce Kościół (2)</a>
+<a class="stop" href="../rozklady/141/0576-jankowice.html"><span class="stop-id">0576</span>Pogorzyce Dwór (1)</a>
+<a class="stop" href="../rozklady/141/0577-jankowice.html"><span class="stop-id">0577</span>Pogorzyce Starzyny (2)</a>
+<a class="stop" href="../rozklady/141/0578-jankowice.html"><span class="stop-id">0578</span>Płaza Mazerzyn (2)</a>
+<a class="stop" href="../rozklady/141/0579-jankowice.html"><span class="stop-id">0579</span>Płaza Syberia (1)</a>
+<a class="stop" href="../rozklady/141/0580-jankowice.html"><span class="stop-id">0580</span>Płaza Hetmańska (2)</a>
+<a class="stop" href="../rozklady/141/0581-jankowice.html"><span class="stop-id">0581</span>Płaza Górna Kościół (1)</a>
+<a class="stop" href="../rozklady/141/0582-jankowice.html"><span class="stop-id">0582</span>Płaza Role (1)</a>
+<a class="stop" href="../rozklady/141/0583-jankowice.html"><span class="stop-id">0583</span>Płaza Dolna II (1)</a>
+<a class="stop terminal" href="../rozklady/141/0584-jankowice.html"><span class="stop-id">0584</span>Płaza Dolna I (2)</a>
+<div class="zone zone-babice-alwernia">STREFA BABICE-ALWERNIA</div>
+<a class="stop" href="../rozklady/141/0585-jankowice.html"><span class="stop-id">0585</span>Wygiełzów Skansen (1)</a>
+<a class="stop" href="../rozklady/141/0586-jankowice.html"><span class="stop-id">0586</span>Babice Urząd Gminy (1)</a>
+<a class="stop" href="../rozklady/141/0587-jankowice.html"><span class="stop-id">0587</span>Babice Zakopiańska (2)</a>
+<a class="stop" href="../rozklady/141/0588-jankowice.html"><span class="stop-id">0588</span>Olszyny (1)</a>
+<a class="stop" href="../rozklady/141/0589-jankowice.html"><span class="stop-id">0589</span>Olszyny Wieś (1)</a>
+<a class="stop" href="../rozklady/141/0590-jankowice.html"><span class="stop-id">0590</span>Jankowice Okrężna (1)</a>
+<a class="stop terminal" href="../rozklady/141/0591-jankowice.html"><span class="stop-id">0591</span>Jankowice (1)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Chrzanów Dworzec Autobusowy</h2>
+
+<div class="zone zone-babice-alwernia">STREFA BABICE-ALWERNIA</div>
+<a class="stop terminal" href="../rozklady/141/0592-chrzanow.html"><span class="stop-id">0592</span>Jankowice (2)</a>
+<a class="stop" href="../rozklady/141/0593-chrzanow.html"><span class="stop-id">0593</span>Jankowice Okrężna (2)</a>
+<a class="stop" href="../rozklady/141/0594-chrzanow.html"><span class="stop-id">0594</span>Olszyny Wieś (2)</a>
+<a class="stop" href="../rozklady/141/0595-chrzanow.html"><span class="stop-id">0595</span>Olszyny (2)</a>
+<a class="stop" href="../rozklady/141/0596-chrzanow.html"><span class="stop-id">0596</span>Babice Zakopiańska (1)</a>
+<a class="stop" href="../rozklady/141/0597-chrzanow.html"><span class="stop-id">0597</span>Babice Urząd Gminy (2)</a>
+<a class="stop" href="../rozklady/141/0598-chrzanow.html"><span class="stop-id">0598</span>Wygiełzów Skansen (2)</a>
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+<a class="stop terminal" href="../rozklady/141/0599-chrzanow.html"><span class="stop-id">0599</span>Płaza Dolna I (1)</a>
+<a class="stop" href="../rozklady/141/0600-chrzanow.html"><span class="stop-id">0600</span>Płaza Dolna II (2)</a>
+<a class="stop" href="../rozklady/141/0601-chrzanow.html"><span class="stop-id">0601</span>Płaza Role (2)</a>
+<a class="stop" href="../rozklady/141/0602-chrzanow.html"><span class="stop-id">0602</span>Płaza Górna Kościół (2)</a>
+<a class="stop" href="../rozklady/141/0603-chrzanow.html"><span class="stop-id">0603</span>Płaza Hetmańska (1)</a>
+<a class="stop" href="../rozklady/141/0604-chrzanow.html"><span class="stop-id">0604</span>Płaza Syberia (2)</a>
+<a class="stop" href="../rozklady/141/0605-chrzanow.html"><span class="stop-id">0605</span>Płaza Mazerzyn (1)</a>
+<a class="stop" href="../rozklady/141/0606-chrzanow.html"><span class="stop-id">0606</span>Pogorzyce Starzyny (1)</a>
+<a class="stop" href="../rozklady/141/0607-chrzanow.html"><span class="stop-id">0607</span>Pogorzyce Dwór (2)</a>
+<a class="stop" href="../rozklady/141/0608-chrzanow.html"><span class="stop-id">0608</span>Pogorzyce Kościół (1)</a>
+<a class="stop" href="../rozklady/141/0609-chrzanow.html"><span class="stop-id">0609</span>Pogorzyce Szkoła (2)</a>
+<a class="stop" href="../rozklady/141/0610-chrzanow.html"><span class="stop-id">0610</span>Pogorzyce PKP (2)</a>
+<a class="stop" href="../rozklady/141/0611-chrzanow.html"><span class="stop-id">0611</span>Chrzanów Stella (2)</a>
+<a class="stop" href="../rozklady/141/0612-chrzanow.html"><span class="stop-id">0612</span>Chrzanów Ciepłownia (2)</a>
+<a class="stop" href="../rozklady/141/0613-chrzanow.html"><span class="stop-id">0613</span>Chrzanów Pogorska Kościół (1)</a>
+<a class="stop" href="../rozklady/141/0614-chrzanow.html"><span class="stop-id">0614</span>Chrzanów Pogorska Przychodnia (2)</a>
+<a class="stop" href="../rozklady/141/0615-chrzanow.html"><span class="stop-id">0615</span>Chrzanów Pogorska Szkoła (1)</a>
+<a class="stop" href="../rozklady/141/0333-chrzanow.html"><span class="stop-id">0333</span>Chrzanów Podwale (1)</a>
+<a class="stop terminal" href="../rozklady/141/0334-chrzanow.html"><span class="stop-id">0334</span>Chrzanów Dworzec Autobusowy (4)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
