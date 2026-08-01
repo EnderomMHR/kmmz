@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 138</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-suloszowa-skala{
+    background:#b7b8b7;
+    color:#222;
+}
+
+.zone-trzyciaz{
+    background:#c17ba1;
+    color:#222;
+}
+
+.zone-wolbrom{
+    background:#2a8be8;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">138</div>
+
+<div class="route">
+Sułoszowa Pieskowa Skała - Wielmoża - Milonki - Zadroże - Trzyciąż - Podchybie - Sucha - Chełm - Wolbrom Nowa PKS - Zabagnie - (Dłużec) - (Domaniewice Remiza) - Strzegowa Remiza
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Strzegowa Remiza</h2>
+
+<div class="zone zone-suloszowa-skala">STREFA SUŁOSZOWA-SKAŁA</div>
+<a class="stop terminal" href="../rozklady/138/0405-strzegowa.html"><span class="stop-id">0405</span>Sułoszowa Pieskowa Skała (2)</a>
+<a class="stop variant" href="../rozklady/138/0406-strzegowa.html"><span class="stop-id">0406</span>Sułoszowa Stawy (2)</a>
+<a class="stop variant" href="../rozklady/138/0407-strzegowa.html"><span class="stop-id">0407</span>Sułoszowa Zagrody (1)</a>
+<a class="stop variant" href="../rozklady/138/0408-strzegowa.html"><span class="stop-id">0408</span>Sułoszowa Grobla (1)</a>
+<a class="stop variant" href="../rozklady/138/0409-strzegowa.html"><span class="stop-id">0409</span>Sułoszowa Szkoła (1)</a>
+<a class="stop variant" href="../rozklady/138/0410-strzegowa.html"><span class="stop-id">0410</span>Sułoszowa Stopina Góra (1)</a>
+<a class="stop variant" href="../rozklady/138/2520-strzegowa.html"><span class="stop-id">2520</span>Wielmoża Długa (1)</a>
+<a class="stop variant" href="../rozklady/138/2522-strzegowa.html"><span class="stop-id">2522</span>Wielmoża Długa Sklep (2)</a>
+<a class="stop" href="../rozklady/138/2526-strzegowa.html"><span class="stop-id">2526</span>Sułoszowa Podzamcze (2)</a>
+<a class="stop" href="../rozklady/138/3332-strzegowa.html"><span class="stop-id">3332</span>Wielmoża Kolonia Krótka (2)</a>
+<a class="stop" href="../rozklady/138/2525-strzegowa.html"><span class="stop-id">2525</span>Wielmoża Szkoła (2)</a>
+<a class="stop" href="../rozklady/138/2533-strzegowa.html"><span class="stop-id">2533</span>Wielmoża Skrzyżowanie (3)</a>
+<a class="stop" href="../rozklady/138/2530-strzegowa.html"><span class="stop-id">2530</span>Wielmoża Magazyny (2)</a>
+<div class="zone zone-trzyciaz">STREFA TRZYCIĄŻ</div>
+<a class="stop" href="../rozklady/138/0771-strzegowa.html"><span class="stop-id">0771</span>Milonki (1)</a>
+<a class="stop" href="../rozklady/138/0779-strzegowa.html"><span class="stop-id">0779</span>Zadroże Kościół (1)</a>
+<a class="stop" href="../rozklady/138/0781-strzegowa.html"><span class="stop-id">0781</span>Zadroże Skotnica (1)</a>
+<a class="stop" href="../rozklady/138/0783-strzegowa.html"><span class="stop-id">0783</span>Zadroże Studzianki (1)</a>
+<a class="stop" href="../rozklady/138/0786-strzegowa.html"><span class="stop-id">0786</span>Zadroże Gołębia Góra (2)</a>
+<a class="stop" href="../rozklady/138/0305-strzegowa.html"><span class="stop-id">0305</span>Trzyciąż Skrzyżowanie (4)</a>
+<a class="stop" href="../rozklady/138/2502-strzegowa.html"><span class="stop-id">2502</span>Podchybie Las (1)</a>
+<a class="stop" href="../rozklady/138/2501-strzegowa.html"><span class="stop-id">2501</span>Sucha (1)</a>
+<div class="zone zone-wolbrom">STREFA WOLBROM</div>
+<a class="stop" href="../rozklady/138/2361-strzegowa.html"><span class="stop-id">2361</span>Chełm Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/138/2402-strzegowa.html"><span class="stop-id">2402</span>Chełm Szkoła (1)</a>
+<a class="stop" href="../rozklady/138/2404-strzegowa.html"><span class="stop-id">2404</span>Chełm Grabie (1)</a>
+<a class="stop" href="../rozklady/138/0028-strzegowa.html"><span class="stop-id">0028</span>Wolbrom Ośrodek Zdrowia (1)</a>
+<a class="stop" href="../rozklady/138/0027-strzegowa.html"><span class="stop-id">0027</span>Wolbrom Skrzyżowanie (2)</a>
+<a class="stop terminal" href="../rozklady/138/0001-strzegowa.html"><span class="stop-id">0001</span>Wolbrom Nowa PKS (0)</a>
+<a class="stop" href="../rozklady/138/0023-strzegowa.html"><span class="stop-id">0023</span>Wolbrom Zalew (1)</a>
+<a class="stop" href="../rozklady/138/2373-strzegowa.html"><span class="stop-id">2373</span>Zabagnie (1)</a>
+<a class="stop variant" href="../rozklady/138/2299-strzegowa.html"><span class="stop-id">2299</span>Dłużec Ośrodek Zdrowia (2)</a>
+<a class="stop variant" href="../rozklady/138/2300-strzegowa.html"><span class="stop-id">2300</span>Dłużec Nowa Wieś (2)</a>
+<a class="stop variant" href="../rozklady/138/2296-strzegowa.html"><span class="stop-id">2296</span>Dłużec Niezdara (1)</a>
+<a class="stop variant" href="../rozklady/138/2302-strzegowa.html"><span class="stop-id">2302</span>Dłużec Granica (2)</a>
+<a class="stop variant" href="../rozklady/138/2331-strzegowa.html"><span class="stop-id">2331</span>Domaniewice Skrzyżowanie (1)</a>
+<a class="stop variant terminal" href="../rozklady/138/2310-strzegowa.html"><span class="stop-id">2310</span>Domaniewice Remiza (0)</a>
+<a class="stop" href="../rozklady/138/2375-strzegowa.html"><span class="stop-id">2375</span>Dłużec Szkoła (2)</a>
+<a class="stop" href="../rozklady/138/2371-strzegowa.html"><span class="stop-id">2371</span>Kąpiele Wielkie Granica (1)</a>
+<a class="stop" href="../rozklady/138/2423-strzegowa.html"><span class="stop-id">2423</span>Strzegowa Skrzyżowanie (1)</a>
+<a class="stop terminal" href="../rozklady/138/2370-strzegowa.html"><span class="stop-id">2370</span>Strzegowa Remiza (2)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Sułoszowa Pieskowa Skała</h2>
+
+<div class="zone zone-wolbrom">STREFA WOLBROM</div>
+<a class="stop terminal" href="../rozklady/138/2370-suloszowa.html"><span class="stop-id">2370</span>Strzegowa Remiza (2)</a>
+<a class="stop" href="../rozklady/138/2424-suloszowa.html"><span class="stop-id">2424</span>Strzegowa Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/138/2425-suloszowa.html"><span class="stop-id">2425</span>Strzegowa Okupniki (1)</a>
+<a class="stop" href="../rozklady/138/2376-suloszowa.html"><span class="stop-id">2376</span>Kąpiele Wielkie Granica (2)</a>
+<a class="stop" href="../rozklady/138/2372-suloszowa.html"><span class="stop-id">2372</span>Dłużec Szkoła (1)</a>
+<a class="stop variant terminal" href="../rozklady/138/2310-suloszowa.html"><span class="stop-id">2310</span>Domaniewice Remiza (0)</a>
+<a class="stop variant" href="../rozklady/138/2311-suloszowa.html"><span class="stop-id">2311</span>Domaniewice Skrzyżowanie (2)</a>
+<a class="stop variant" href="../rozklady/138/2295-suloszowa.html"><span class="stop-id">2295</span>Dłużec Granica (1)</a>
+<a class="stop variant" href="../rozklady/138/2301-suloszowa.html"><span class="stop-id">2301</span>Dłużec Niezdara (2)</a>
+<a class="stop variant" href="../rozklady/138/2297-suloszowa.html"><span class="stop-id">2297</span>Dłużec Nowa Wieś (1)</a>
+<a class="stop variant" href="../rozklady/138/2298-suloszowa.html"><span class="stop-id">2298</span>Dłużec Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/138/2374-suloszowa.html"><span class="stop-id">2374</span>Zabagnie (2)</a>
+<a class="stop" href="../rozklady/138/0023-suloszowa.html"><span class="stop-id">0023</span>Wolbrom Zalew (1)</a>
+<a class="stop terminal" href="../rozklady/138/0001-suloszowa.html"><span class="stop-id">0001</span>Wolbrom Nowa PKS (0)</a>
+<a class="stop" href="../rozklady/138/0026-suloszowa.html"><span class="stop-id">0026</span>Wolbrom Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/138/0028-suloszowa.html"><span class="stop-id">0028</span>Wolbrom Ośrodek Zdrowia (1)</a>
+<a class="stop" href="../rozklady/138/2401-suloszowa.html"><span class="stop-id">2401</span>Chełm Grabie (2)</a>
+<a class="stop" href="../rozklady/138/2403-suloszowa.html"><span class="stop-id">2403</span>Chełm Szkoła (2)</a>
+<a class="stop" href="../rozklady/138/2360-suloszowa.html"><span class="stop-id">2360</span>Chełm Skrzyżowanie (1)</a>
+<div class="zone zone-trzyciaz">STREFA TRZYCIĄŻ</div>
+<a class="stop" href="../rozklady/138/2504-suloszowa.html"><span class="stop-id">2504</span>Sucha (2)</a>
+<a class="stop" href="../rozklady/138/2503-suloszowa.html"><span class="stop-id">2503</span>Podchybie Las (2)</a>
+<a class="stop" href="../rozklady/138/0263-suloszowa.html"><span class="stop-id">0263</span>Trzyciąż Skrzyżowanie (3)</a>
+<a class="stop" href="../rozklady/138/0785-suloszowa.html"><span class="stop-id">0785</span>Zadroże Gołębia Góra (1)</a>
+<a class="stop" href="../rozklady/138/0784-suloszowa.html"><span class="stop-id">0784</span>Zadroże Studzianki (2)</a>
+<a class="stop" href="../rozklady/138/0782-suloszowa.html"><span class="stop-id">0782</span>Zadroże Skotnica (2)</a>
+<a class="stop" href="../rozklady/138/0780-suloszowa.html"><span class="stop-id">0780</span>Zadroże Kościół (2)</a>
+<a class="stop" href="../rozklady/138/0772-suloszowa.html"><span class="stop-id">0772</span>Milonki (2)</a>
+<div class="zone zone-suloszowa-skala">STREFA SUŁOSZOWA-SKAŁA</div>
+<a class="stop" href="../rozklady/138/2510-suloszowa.html"><span class="stop-id">2510</span>Wielmoża Magazyny (1)</a>
+<a class="stop variant" href="../rozklady/138/2513-suloszowa.html"><span class="stop-id">2513</span>Wielmoża Skrzyżowanie (4)</a>
+<a class="stop variant" href="../rozklady/138/2521-suloszowa.html"><span class="stop-id">2521</span>Wielmoża Długa Sklep (1)</a>
+<a class="stop variant" href="../rozklady/138/2523-suloszowa.html"><span class="stop-id">2523</span>Wielmoża Długa (2)</a>
+<a class="stop variant" href="../rozklady/138/0421-suloszowa.html"><span class="stop-id">0421</span>Sułoszowa Stopina Góra (2)</a>
+<a class="stop variant" href="../rozklady/138/0422-suloszowa.html"><span class="stop-id">0422</span>Sułoszowa Szkoła (2)</a>
+<a class="stop variant" href="../rozklady/138/0423-suloszowa.html"><span class="stop-id">0423</span>Sułoszowa Grobla (2)</a>
+<a class="stop variant" href="../rozklady/138/0424-suloszowa.html"><span class="stop-id">0424</span>Sułoszowa Zagrody (2)</a>
+<a class="stop variant" href="../rozklady/138/0425-suloszowa.html"><span class="stop-id">0425</span>Sułoszowa Stawy (1)</a>
+<a class="stop variant terminal" href="../rozklady/138/0426-suloszowa.html"><span class="stop-id">0426</span>Sułoszowa Pieskowa Skała (1)</a>
+<a class="stop" href="../rozklady/138/2524-suloszowa.html"><span class="stop-id">2524</span>Wielmoża Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/138/2518-suloszowa.html"><span class="stop-id">2518</span>Wielmoża Szkoła (1)</a>
+<a class="stop" href="../rozklady/138/2517-suloszowa.html"><span class="stop-id">2517</span>Wielmoża Kolonia Krótka (1)</a>
+<a class="stop" href="../rozklady/138/2516-suloszowa.html"><span class="stop-id">2516</span>Sułoszowa Podzamcze (1)</a>
+<a class="stop terminal" href="../rozklady/138/2534-suloszowa.html"><span class="stop-id">2534</span>Sułoszowa Pieskowa Skała (3)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
