@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 137</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-suloszowa-skala{
+    background:#b7b8b7;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">137</div>
+
+<div class="route">
+Smardzowice Remiza - Cianowice - (Rzeplin) - (Przybysławice) - (Zamłynie) - (Minoga) - (Nowa Wieś) - Skała Połetka
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Skała Połetka</h2>
+
+<div class="zone zone-suloszowa-skala">STREFA SUŁOSZOWA-SKAŁA</div>
+<a class="stop terminal" href="../rozklady/137/2780-skala.html"><span class="stop-id">2780</span>Smardzowice Remiza (0)</a>
+<a class="stop" href="../rozklady/137/2781-skala.html"><span class="stop-id">2781</span>Smardzowice Kościelna (2)</a>
+<a class="stop" href="../rozklady/137/2782-skala.html"><span class="stop-id">2782</span>Smardzowice Podgóry (2)</a>
+<a class="stop" href="../rozklady/137/2793-skala.html"><span class="stop-id">2793</span>Cianowice Małe (2)</a>
+<a class="stop" href="../rozklady/137/2794-skala.html"><span class="stop-id">2794</span>Cianowice Szczodrkowicka (2)</a>
+<a class="stop" href="../rozklady/137/2788-skala.html"><span class="stop-id">2788</span>Cianowice Marianów (1)</a>
+<a class="stop" href="../rozklady/137/2787-skala.html"><span class="stop-id">2787</span>Cianowice Poręba (1)</a>
+<a class="stop" href="../rozklady/137/2786-skala.html"><span class="stop-id">2786</span>Skała Wieś (1)</a>
+<a class="stop" href="../rozklady/137/2785-skala.html"><span class="stop-id">2785</span>Skała Rzeplińska (1)</a>
+<a class="stop variant" href="../rozklady/137/2815-skala.html"><span class="stop-id">2815</span>Cianowice Marianów (3)</a>
+<a class="stop variant" href="../rozklady/137/2817-skala.html"><span class="stop-id">2817</span>Cianowice Marianów Mogiła (1)</a>
+<a class="stop variant" href="../rozklady/137/2808-skala.html"><span class="stop-id">2808</span>Rzeplin Centrum (0)</a>
+<a class="stop variant" href="../rozklady/137/2818-skala.html"><span class="stop-id">2818</span>Przybysławice Skały (2)</a>
+<a class="stop variant" href="../rozklady/137/2810-skala.html"><span class="stop-id">2810</span>Przybysławice Centrum OSP (2)</a>
+<a class="stop variant" href="../rozklady/137/3290-skala.html"><span class="stop-id">3290</span>Przybysławice (2)</a>
+<a class="stop variant" href="../rozklady/137/2814-skala.html"><span class="stop-id">2814</span>Zamłynie (1)</a>
+<a class="stop variant" href="../rozklady/137/0802-skala.html"><span class="stop-id">0802</span>Minoga Zlewnia (0)</a>
+<a class="stop variant" href="../rozklady/137/0800-skala.html"><span class="stop-id">0800</span>Minoga Kościół (1)</a>
+<a class="stop variant" href="../rozklady/137/2803-skala.html"><span class="stop-id">2803</span>Nowa Wieś Minoga (1)</a>
+<a class="stop variant" href="../rozklady/137/2802-skala.html"><span class="stop-id">2802</span>Nowa Wieś (1)</a>
+<a class="stop variant" href="../rozklady/137/2797-skala.html"><span class="stop-id">2797</span>Sobiesęki Obwodnica (1)</a>
+<a class="stop variant" href="../rozklady/137/2801-skala.html"><span class="stop-id">2801</span>Skała Mleczarnia (2)</a>
+<a class="stop variant" href="../rozklady/137/2924-skala.html"><span class="stop-id">2924</span>Skała Sobiesęcka (1)</a>
+<a class="stop" href="../rozklady/137/0431-skala.html"><span class="stop-id">0431</span>Skała Rynek (2)</a>
+<a class="stop terminal" href="../rozklady/137/0432-skala.html"><span class="stop-id">0432</span>Skała Połetka (2)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Smardzowice Remiza</h2>
+
+<div class="zone zone-suloszowa-skala">STREFA SUŁOSZOWA-SKAŁA</div>
+<a class="stop terminal" href="../rozklady/137/0399-smardzowice.html"><span class="stop-id">0399</span>Skała Połetka (1)</a>
+<a class="stop variant" href="../rozklady/137/2773-smardzowice.html"><span class="stop-id">2773</span>Skała Rynek (1)</a>
+<a class="stop variant" href="../rozklady/137/2923-smardzowice.html"><span class="stop-id">2923</span>Skała Sobiesęcka (2)</a>
+<a class="stop variant" href="../rozklady/137/2796-smardzowice.html"><span class="stop-id">2796</span>Skała Mleczarnia (1)</a>
+<a class="stop variant" href="../rozklady/137/2800-smardzowice.html"><span class="stop-id">2800</span>Sobiesęki Obwodnica (2)</a>
+<a class="stop variant" href="../rozklady/137/2813-smardzowice.html"><span class="stop-id">2813</span>Nowa Wieś (2)</a>
+<a class="stop variant" href="../rozklady/137/2812-smardzowice.html"><span class="stop-id">2812</span>Nowa Wieś Minoga (2)</a>
+<a class="stop variant" href="../rozklady/137/0801-smardzowice.html"><span class="stop-id">0801</span>Minoga Kościół (2)</a>
+<a class="stop variant" href="../rozklady/137/0802-smardzowice.html"><span class="stop-id">0802</span>Minoga Zlewnia (0)</a>
+<a class="stop variant" href="../rozklady/137/2814-smardzowice.html"><span class="stop-id">2814</span>Zamłynie (1)</a>
+<a class="stop variant" href="../rozklady/137/2925-smardzowice.html"><span class="stop-id">2925</span>Przybysławice Krzyżówka (3)</a>
+<a class="stop variant" href="../rozklady/137/2806-smardzowice.html"><span class="stop-id">2806</span>Przybysławice (1)</a>
+<a class="stop variant" href="../rozklady/137/2807-smardzowice.html"><span class="stop-id">2807</span>Przybysławice Centrum OSP (1)</a>
+<a class="stop variant" href="../rozklady/137/2826-smardzowice.html"><span class="stop-id">2826</span>Przybysławice Skały (1)</a>
+<a class="stop variant" href="../rozklady/137/2808-smardzowice.html"><span class="stop-id">2808</span>Rzeplin Centrum (0)</a>
+<a class="stop variant" href="../rozklady/137/2816-smardzowice.html"><span class="stop-id">2816</span>Cianowice Marianów Mogiła (2)</a>
+<a class="stop" href="../rozklady/137/0431-smardzowice.html"><span class="stop-id">0431</span>Skała Rynek (2)</a>
+<a class="stop" href="../rozklady/137/2792-smardzowice.html"><span class="stop-id">2792</span>Skała Rzeplińska (2)</a>
+<a class="stop" href="../rozklady/137/2791-smardzowice.html"><span class="stop-id">2791</span>Cianowice Do Cegielni (1)</a>
+<a class="stop" href="../rozklady/137/2790-smardzowice.html"><span class="stop-id">2790</span>Cianowice Poręba (2)</a>
+<a class="stop" href="../rozklady/137/2789-smardzowice.html"><span class="stop-id">2789</span>Cianowice Marianów (2)</a>
+<a class="stop" href="../rozklady/137/2795-smardzowice.html"><span class="stop-id">2795</span>Cianowice Szczodrkowicka (1)</a>
+<a class="stop" href="../rozklady/137/2823-smardzowice.html"><span class="stop-id">2823</span>Cianowice Małe (3)</a>
+<a class="stop" href="../rozklady/137/2783-smardzowice.html"><span class="stop-id">2783</span>Smardzowice Podgóry (1)</a>
+<a class="stop" href="../rozklady/137/2784-smardzowice.html"><span class="stop-id">2784</span>Smardzowice Kościelna (1)</a>
+<a class="stop terminal" href="../rozklady/137/2780-smardzowice.html"><span class="stop-id">2780</span>Smardzowice Remiza (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
