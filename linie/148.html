@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 148</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-olkusz{
+    background:#ffe599;
+    color:#222;
+}
+
+.zone-wolbrom{
+    background:#2a8be8;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">148</div>
+
+<div class="route">
+Wolbrom Nowa PKS - Gołaczewy - Pazurek - Podlesie - Rabsztyn - Olkusz Cmentarz
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Olkusz Cmentarz</h2>
+
+<div class="zone zone-wolbrom">STREFA WOLBROM</div>
+<a class="stop terminal" href="../rozklady/148/0001-olkusz.html"><span class="stop-id">0001</span>Wolbrom Nowa PKS (0)</a>
+<a class="stop" href="../rozklady/148/0024-olkusz.html"><span class="stop-id">0024</span>Wolbrom Olkuska (2)</a>
+<a class="stop" href="../rozklady/148/2283-olkusz.html"><span class="stop-id">2283</span>Gołaczewy Piaski (1)</a>
+<a class="stop" href="../rozklady/148/2280-olkusz.html"><span class="stop-id">2280</span>Gołaczewy Kaliś (2)</a>
+<a class="stop" href="../rozklady/148/2278-olkusz.html"><span class="stop-id">2278</span>Gołaczewy Kapliczka (1)</a>
+<a class="stop" href="../rozklady/148/2276-olkusz.html"><span class="stop-id">2276</span>Gołaczewy Zarzecze (1)</a>
+<a class="stop" href="../rozklady/148/2652-olkusz.html"><span class="stop-id">2652</span>Gołaczewy Nadmłynie (1)</a>
+<a class="stop" href="../rozklady/148/2274-olkusz.html"><span class="stop-id">2274</span>Gołaczewy Chrząstowice (1)</a>
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+<a class="stop" href="../rozklady/148/3300-olkusz.html"><span class="stop-id">3300</span>Pazurek Kolonia (1)</a>
+<a class="stop" href="../rozklady/148/0529-olkusz.html"><span class="stop-id">0529</span>Pazurek Krzyż (2)</a>
+<a class="stop" href="../rozklady/148/0530-olkusz.html"><span class="stop-id">0530</span>Pazurek Ziemkówka (1)</a>
+<a class="stop" href="../rozklady/148/0531-olkusz.html"><span class="stop-id">0531</span>Podlesie Podgórze (1)</a>
+<a class="stop" href="../rozklady/148/0532-olkusz.html"><span class="stop-id">0532</span>Podlesie Pętla (2)</a>
+<a class="stop" href="../rozklady/148/0533-olkusz.html"><span class="stop-id">0533</span>Podlesie Kiosk (1)</a>
+<a class="stop" href="../rozklady/148/0534-olkusz.html"><span class="stop-id">0534</span>Podlesie Łazy (2)</a>
+<a class="stop" href="../rozklady/148/0535-olkusz.html"><span class="stop-id">0535</span>Podlesie (1)</a>
+<a class="stop" href="../rozklady/148/0279-olkusz.html"><span class="stop-id">0279</span>Troks Las (1)</a>
+<a class="stop" href="../rozklady/148/0280-olkusz.html"><span class="stop-id">0280</span>Rabsztyn (1)</a>
+<a class="stop" href="../rozklady/148/0281-olkusz.html"><span class="stop-id">0281</span>Rabsztyn Ogródki Działkowe (1)</a>
+<a class="stop" href="../rozklady/148/0282-olkusz.html"><span class="stop-id">0282</span>Olkusz Sikorka (1)</a>
+<a class="stop" href="../rozklady/148/0283-olkusz.html"><span class="stop-id">0283</span>Olkusz Rabsztyńska (1)</a>
+<a class="stop" href="../rozklady/148/0238-olkusz.html"><span class="stop-id">0238</span>Olkusz Supersam (2)</a>
+<a class="stop" href="../rozklady/148/0239-olkusz.html"><span class="stop-id">0239</span>Olkusz Stacja Paliw (2)</a>
+<a class="stop terminal" href="../rozklady/148/2172-olkusz.html"><span class="stop-id">2172</span>Olkusz Cmentarz (2)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Wolbrom Nowa PKS</h2>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+<a class="stop terminal" href="../rozklady/148/2171-wolbrom.html"><span class="stop-id">2171</span>Olkusz Cmentarz (1)</a>
+<a class="stop" href="../rozklady/148/0173-wolbrom.html"><span class="stop-id">0173</span>Olkusz Stacja Paliw (1)</a>
+<a class="stop" href="../rozklady/148/0284-wolbrom.html"><span class="stop-id">0284</span>Olkusz Rabsztyńska Supermarket (0)</a>
+<a class="stop" href="../rozklady/148/0285-wolbrom.html"><span class="stop-id">0285</span>Olkusz Rabsztyńska (2)</a>
+<a class="stop" href="../rozklady/148/0286-wolbrom.html"><span class="stop-id">0286</span>Olkusz Sikorka (2)</a>
+<a class="stop" href="../rozklady/148/0287-wolbrom.html"><span class="stop-id">0287</span>Rabsztyn Ogródki Działkowe (2)</a>
+<a class="stop" href="../rozklady/148/0288-wolbrom.html"><span class="stop-id">0288</span>Rabsztyn (2)</a>
+<a class="stop" href="../rozklady/148/0539-wolbrom.html"><span class="stop-id">0539</span>Podlesie (2)</a>
+<a class="stop" href="../rozklady/148/0540-wolbrom.html"><span class="stop-id">0540</span>Podlesie Łazy (1)</a>
+<a class="stop" href="../rozklady/148/0541-wolbrom.html"><span class="stop-id">0541</span>Podlesie Kiosk (2)</a>
+<a class="stop" href="../rozklady/148/0542-wolbrom.html"><span class="stop-id">0542</span>Podlesie Pętla (1)</a>
+<a class="stop" href="../rozklady/148/0543-wolbrom.html"><span class="stop-id">0543</span>Podlesie Podgórze (2)</a>
+<a class="stop" href="../rozklady/148/0544-wolbrom.html"><span class="stop-id">0544</span>Pazurek Ziemkówka (2)</a>
+<a class="stop" href="../rozklady/148/0545-wolbrom.html"><span class="stop-id">0545</span>Pazurek Krzyż (1)</a>
+<a class="stop" href="../rozklady/148/3299-wolbrom.html"><span class="stop-id">3299</span>Pazurek Kolonia (2)</a>
+<div class="zone zone-wolbrom">STREFA WOLBROM</div>
+<a class="stop" href="../rozklady/148/2275-wolbrom.html"><span class="stop-id">2275</span>Gołaczewy Chrząstowice (2)</a>
+<a class="stop" href="../rozklady/148/2651-wolbrom.html"><span class="stop-id">2651</span>Gołaczewy Nadmłynie (2)</a>
+<a class="stop" href="../rozklady/148/2277-wolbrom.html"><span class="stop-id">2277</span>Gołaczewy Zarzecze (2)</a>
+<a class="stop" href="../rozklady/148/2279-wolbrom.html"><span class="stop-id">2279</span>Gołaczewy Kapliczka (2)</a>
+<a class="stop" href="../rozklady/148/2281-wolbrom.html"><span class="stop-id">2281</span>Gołaczewy Kaliś (1)</a>
+<a class="stop" href="../rozklady/148/2282-wolbrom.html"><span class="stop-id">2282</span>Gołaczewy Piaski (2)</a>
+<a class="stop" href="../rozklady/148/0025-wolbrom.html"><span class="stop-id">0025</span>Wolbrom Olkuska (1)</a>
+<a class="stop terminal" href="../rozklady/148/0001-wolbrom.html"><span class="stop-id">0001</span>Wolbrom Nowa PKS (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
