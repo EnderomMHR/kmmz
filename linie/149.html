@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 149</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-krzeszowice{
+    background:#f9cb9a;
+    color:#222;
+}
+
+.zone-trzebinia{
+    background:#d9d2e9;
+    color:#222;
+}
+
+.zone-olkusz{
+    background:#ffe599;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">149</div>
+
+<div class="route">
+Krzeszowice Dworzec Autobusowy - Miękinia - Nowa Góra - Ostrężnica - Lgota - Niesułowice - Żurada - Olkusz Cmentarz
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Olkusz Cmentarz</h2>
+
+<div class="zone zone-krzeszowice">STREFA KRZESZOWICE</div>
+<a class="stop terminal" href="../rozklady/149/0134-olkusz.html"><span class="stop-id">0134</span>Krzeszowice Dworzec Autobusowy (3)</a>
+<a class="stop" href="../rozklady/149/0052-olkusz.html"><span class="stop-id">0052</span>Krzeszowice Rondo Jana Pawła II (0)</a>
+<a class="stop" href="../rozklady/149/1278-olkusz.html"><span class="stop-id">1278</span>Krzeszowice Kościół (2)</a>
+<a class="stop" href="../rozklady/149/1462-olkusz.html"><span class="stop-id">1462</span>Krzeszowice Miękińska Początek (2)</a>
+<a class="stop" href="../rozklady/149/1316-olkusz.html"><span class="stop-id">1316</span>Krzeszowice Miękińska Koniec (1)</a>
+<a class="stop" href="../rozklady/149/1136-olkusz.html"><span class="stop-id">1136</span>Krzeszowice Miękińska (Szwedzka Droga) (2)</a>
+<a class="stop" href="../rozklady/149/1134-olkusz.html"><span class="stop-id">1134</span>Miękinia Olchówki (1)</a>
+<a class="stop" href="../rozklady/149/1131-olkusz.html"><span class="stop-id">1131</span>Miękinia Remiza (1)</a>
+<a class="stop" href="../rozklady/149/1130-olkusz.html"><span class="stop-id">1130</span>Miękinia Kamieniołom (AGH) (2)</a>
+<a class="stop" href="../rozklady/149/1127-olkusz.html"><span class="stop-id">1127</span>Miękinia Szkoła (1)</a>
+<a class="stop" href="../rozklady/149/1125-olkusz.html"><span class="stop-id">1125</span>Miękinia (1)</a>
+<a class="stop" href="../rozklady/149/1123-olkusz.html"><span class="stop-id">1123</span>Miękinia Wzgórze (1)</a>
+<a class="stop" href="../rozklady/149/1305-olkusz.html"><span class="stop-id">1305</span>Nowa Góra Sikorowskie (2)</a>
+<a class="stop" href="../rozklady/149/1306-olkusz.html"><span class="stop-id">1306</span>Nowa Góra Centrum (1)</a>
+<a class="stop" href="../rozklady/149/1307-olkusz.html"><span class="stop-id">1307</span>Nowa Góra Sikorowskie (1)</a>
+<a class="stop" href="../rozklady/149/1030-olkusz.html"><span class="stop-id">1030</span>Nowa Góra Łany Pierwsze (1)</a>
+<a class="stop" href="../rozklady/149/0951-olkusz.html"><span class="stop-id">0951</span>Nowa Góra Łany (2)</a>
+<a class="stop" href="../rozklady/149/0953-olkusz.html"><span class="stop-id">0953</span>Ostrężnica (2)</a>
+<a class="stop" href="../rozklady/149/0948-olkusz.html"><span class="stop-id">0948</span>Ostrężnica Kościół (2)</a>
+<a class="stop" href="../rozklady/149/0949-olkusz.html"><span class="stop-id">0949</span>Ostrężnica Koło Kaplicy (0)</a>
+<div class="zone zone-trzebinia">STREFA TRZEBINIA</div>
+<a class="stop" href="../rozklady/149/0946-olkusz.html"><span class="stop-id">0946</span>Lgota Szkoła (1)</a>
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+<a class="stop" href="../rozklady/149/1514-olkusz.html"><span class="stop-id">1514</span>Niesułowice Centrum (2)</a>
+<a class="stop" href="../rozklady/149/1515-olkusz.html"><span class="stop-id">1515</span>Niesułowice Galicyjska (2)</a>
+<a class="stop" href="../rozklady/149/0195-olkusz.html"><span class="stop-id">0195</span>Żurada (1)</a>
+<a class="stop" href="../rozklady/149/2027-olkusz.html"><span class="stop-id">2027</span>Olkusz Kochanowskiego (2)</a>
+<a class="stop" href="../rozklady/149/1576-olkusz.html"><span class="stop-id">1576</span>Olkusz Księdza Gajewskiego (2)</a>
+<a class="stop" href="../rozklady/149/1586-olkusz.html"><span class="stop-id">1586</span>Olkusz Kościół (2)</a>
+<a class="stop" href="../rozklady/149/1588-olkusz.html"><span class="stop-id">1588</span>Olkusz Biema (1)</a>
+<a class="stop" href="../rozklady/149/0495-olkusz.html"><span class="stop-id">0495</span>Olkusz Szpital (2)</a>
+<a class="stop" href="../rozklady/149/0197-olkusz.html"><span class="stop-id">0197</span>Olkusz Basen (1)</a>
+<a class="stop" href="../rozklady/149/0198-olkusz.html"><span class="stop-id">0198</span>Olkusz Dworek Machnickich (0)</a>
+<a class="stop" href="../rozklady/149/0238-olkusz.html"><span class="stop-id">0238</span>Olkusz Supersam (2)</a>
+<a class="stop" href="../rozklady/149/0239-olkusz.html"><span class="stop-id">0239</span>Olkusz Stacja Paliw (2)</a>
+<a class="stop terminal" href="../rozklady/149/2172-olkusz.html"><span class="stop-id">2172</span>Olkusz Cmentarz (2)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Krzeszowice Dworzec Autobusowy</h2>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+<a class="stop terminal" href="../rozklady/149/2171-krzeszowice.html"><span class="stop-id">2171</span>Olkusz Cmentarz (1)</a>
+<a class="stop" href="../rozklady/149/0173-krzeszowice.html"><span class="stop-id">0173</span>Olkusz Stacja Paliw (1)</a>
+<a class="stop" href="../rozklady/149/0174-krzeszowice.html"><span class="stop-id">0174</span>Olkusz Supersam (0)</a>
+<a class="stop" href="../rozklady/149/0229-krzeszowice.html"><span class="stop-id">0229</span>Olkusz Basen (2)</a>
+<a class="stop" href="../rozklady/149/0536-krzeszowice.html"><span class="stop-id">0536</span>Olkusz Szpital (1)</a>
+<a class="stop" href="../rozklady/149/1589-krzeszowice.html"><span class="stop-id">1589</span>Olkusz Biema (2)</a>
+<a class="stop" href="../rozklady/149/1587-krzeszowice.html"><span class="stop-id">1587</span>Olkusz Kościół (1)</a>
+<a class="stop" href="../rozklady/149/1575-krzeszowice.html"><span class="stop-id">1575</span>Olkusz Księdza Gajewskiego (1)</a>
+<a class="stop" href="../rozklady/149/2026-krzeszowice.html"><span class="stop-id">2026</span>Olkusz Kochanowskiego (1)</a>
+<a class="stop" href="../rozklady/149/1516-krzeszowice.html"><span class="stop-id">1516</span>Żurada (2)</a>
+<a class="stop" href="../rozklady/149/1517-krzeszowice.html"><span class="stop-id">1517</span>Niesułowice Galicyjska (1)</a>
+<a class="stop" href="../rozklady/149/1518-krzeszowice.html"><span class="stop-id">1518</span>Niesułowice Centrum (1)</a>
+<div class="zone zone-trzebinia">STREFA TRZEBINIA</div>
+<a class="stop" href="../rozklady/149/0946-krzeszowice.html"><span class="stop-id">0946</span>Lgota Szkoła (1)</a>
+<div class="zone zone-krzeszowice">STREFA KRZESZOWICE</div>
+<a class="stop" href="../rozklady/149/0949-krzeszowice.html"><span class="stop-id">0949</span>Ostrężnica Koło Kaplicy (0)</a>
+<a class="stop" href="../rozklady/149/0947-krzeszowice.html"><span class="stop-id">0947</span>Ostrężnica Kościół (1)</a>
+<a class="stop" href="../rozklady/149/0952-krzeszowice.html"><span class="stop-id">0952</span>Ostrężnica (1)</a>
+<a class="stop" href="../rozklady/149/0950-krzeszowice.html"><span class="stop-id">0950</span>Nowa Góra Łany (1)</a>
+<a class="stop" href="../rozklady/149/1031-krzeszowice.html"><span class="stop-id">1031</span>Nowa Góra Łany Pierwsze (2)</a>
+<a class="stop" href="../rozklady/149/1305-krzeszowice.html"><span class="stop-id">1305</span>Nowa Góra Sikorowskie (2)</a>
+<a class="stop" href="../rozklady/149/1306-krzeszowice.html"><span class="stop-id">1306</span>Nowa Góra Centrum (1)</a>
+<a class="stop" href="../rozklady/149/1307-krzeszowice.html"><span class="stop-id">1307</span>Nowa Góra Sikorowskie (1)</a>
+<a class="stop" href="../rozklady/149/1124-krzeszowice.html"><span class="stop-id">1124</span>Miękinia Wzgórze (2)</a>
+<a class="stop" href="../rozklady/149/1126-krzeszowice.html"><span class="stop-id">1126</span>Miękinia (2)</a>
+<a class="stop" href="../rozklady/149/1128-krzeszowice.html"><span class="stop-id">1128</span>Miękinia Szkoła (2)</a>
+<a class="stop" href="../rozklady/149/1129-krzeszowice.html"><span class="stop-id">1129</span>Miękinia Kamieniołom (AGH) (1)</a>
+<a class="stop" href="../rozklady/149/1132-krzeszowice.html"><span class="stop-id">1132</span>Miękinia Remiza (2)</a>
+<a class="stop" href="../rozklady/149/1133-krzeszowice.html"><span class="stop-id">1133</span>Miękinia Olchówki (2)</a>
+<a class="stop" href="../rozklady/149/1135-krzeszowice.html"><span class="stop-id">1135</span>Krzeszowice Miękińska (Szwedzka Droga) (1)</a>
+<a class="stop" href="../rozklady/149/1317-krzeszowice.html"><span class="stop-id">1317</span>Krzeszowice Miękińska Koniec (2)</a>
+<a class="stop" href="../rozklady/149/1463-krzeszowice.html"><span class="stop-id">1463</span>Krzeszowice Miękińska Początek (1)</a>
+<a class="stop" href="../rozklady/149/1275-krzeszowice.html"><span class="stop-id">1275</span>Krzeszowice Urząd Miejski (1)</a>
+<a class="stop" href="../rozklady/149/0133-krzeszowice.html"><span class="stop-id">0133</span>Krzeszowice Centrum (1)</a>
+<a class="stop terminal" href="../rozklady/149/1677-krzeszowice.html"><span class="stop-id">1677</span>Krzeszowice Dworzec Autobusowy (1)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
