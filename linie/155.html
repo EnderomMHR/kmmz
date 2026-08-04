@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 155</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-jaworzno{
+    background:#ead1dc;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">155</div>
+
+<div class="route">
+Jaworzno Jeleń Łęg Pętla - Okrągle - Byczyna - Jeziorki - Wilkoszyn - Jaworzno Centrum - Podłęże - Niedzieliska - Góra Piasku - Jaworzno Szczakowa Dworzec PKP
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Jaworzno Szczakowa Dworzec PKP</h2>
+
+<div class="zone zone-jaworzno">STREFA JAWORZNO</div>
+<a class="stop terminal" href="../rozklady/155/2928-szczakowa.html"><span class="stop-id">2928</span>Jaworzno Jeleń Łęg Pętla (1)</a>
+<a class="stop" href="../rozklady/155/2929-szczakowa.html"><span class="stop-id">2929</span>Jaworzno Jeleń Łęg Pawilon (1)</a>
+<a class="stop" href="../rozklady/155/2953-szczakowa.html"><span class="stop-id">2953</span>Jaworzno Jeleń Wielki Dół (2)</a>
+<a class="stop" href="../rozklady/155/2931-szczakowa.html"><span class="stop-id">2931</span>Jaworzno Jeleń Dolna (1)</a>
+<a class="stop" href="../rozklady/155/2932-szczakowa.html"><span class="stop-id">2932</span>Jaworzno Jeleń Kościół (1)</a>
+<a class="stop" href="../rozklady/155/2933-szczakowa.html"><span class="stop-id">2933</span>Jaworzno Jeleń Rynek (3)</a>
+<a class="stop" href="../rozklady/155/2718-szczakowa.html"><span class="stop-id">2718</span>Jaworzno Jeleń Przedszkole (2)</a>
+<a class="stop" href="../rozklady/155/2719-szczakowa.html"><span class="stop-id">2719</span>Jaworzno Jeleń Dom Kultury (2)</a>
+<a class="stop" href="../rozklady/155/2713-szczakowa.html"><span class="stop-id">2713</span>Jaworzno Jeleń Szkoła (1)</a>
+<a class="stop" href="../rozklady/155/2712-szczakowa.html"><span class="stop-id">2712</span>Jaworzno Jeleń Piekarnia (1)</a>
+<a class="stop" href="../rozklady/155/2711-szczakowa.html"><span class="stop-id">2711</span>Jaworzno Jeleń Centrum Handlowe (1)</a>
+<a class="stop" href="../rozklady/155/2748-szczakowa.html"><span class="stop-id">2748</span>Jaworzno Jeleń Inwestycyjna (2)</a>
+<a class="stop" href="../rozklady/155/2927-szczakowa.html"><span class="stop-id">2927</span>Jaworzno Jeleń Okrągle Skrzyżowanie (3)</a>
+<a class="stop" href="../rozklady/155/2934-szczakowa.html"><span class="stop-id">2934</span>Jaworzno Jeleń Okrągle Kapliczka (1)</a>
+<a class="stop" href="../rozklady/155/2935-szczakowa.html"><span class="stop-id">2935</span>Jaworzno Byczyna Abstorskich (1)</a>
+<a class="stop" href="../rozklady/155/2936-szczakowa.html"><span class="stop-id">2936</span>Jaworzno Byczyna Rewolucjonistów (1)</a>
+<a class="stop" href="../rozklady/155/2937-szczakowa.html"><span class="stop-id">2937</span>Jaworzno Byczyna Pętla (2)</a>
+<a class="stop" href="../rozklady/155/2945-szczakowa.html"><span class="stop-id">2945</span>Jaworzno Byczyna Gwardzistów (2)</a>
+<a class="stop" href="../rozklady/155/2944-szczakowa.html"><span class="stop-id">2944</span>Jaworzno Byczyna Astrów (2)</a>
+<a class="stop" href="../rozklady/155/2940-szczakowa.html"><span class="stop-id">2940</span>Jaworzno Jeziorki Kościół (1)</a>
+<a class="stop" href="../rozklady/155/2941-szczakowa.html"><span class="stop-id">2941</span>Jaworzno Jeziorki Sklep (1)</a>
+<a class="stop" href="../rozklady/155/2955-szczakowa.html"><span class="stop-id">2955</span>Jaworzno Jeziorki Szkoła (1)</a>
+<a class="stop" href="../rozklady/155/2956-szczakowa.html"><span class="stop-id">2956</span>Jaworzno Jeziorki Dożynkowa (1)</a>
+<a class="stop" href="../rozklady/155/2957-szczakowa.html"><span class="stop-id">2957</span>Jaworzno Wilkoszyn Cmentarz (1)</a>
+<a class="stop" href="../rozklady/155/2958-szczakowa.html"><span class="stop-id">2958</span>Jaworzno Wilkoszyn (1)</a>
+<a class="stop" href="../rozklady/155/2967-szczakowa.html"><span class="stop-id">2967</span>Jaworzno Wilkoszyn Chełmońskiego (2)</a>
+<a class="stop" href="../rozklady/155/2968-szczakowa.html"><span class="stop-id">2968</span>Jaworzno Chełmońskiego Pompy (2)</a>
+<a class="stop" href="../rozklady/155/2966-szczakowa.html"><span class="stop-id">2966</span>Jaworzno Szpital (1)</a>
+<a class="stop" href="../rozklady/155/2683-szczakowa.html"><span class="stop-id">2683</span>Jaworzno Obrońców Poczty Gdańskiej (1)</a>
+<a class="stop" href="../rozklady/155/2684-szczakowa.html"><span class="stop-id">2684</span>Jaworzno Biblioteka (1)</a>
+<a class="stop" href="../rozklady/155/2685-szczakowa.html"><span class="stop-id">2685</span>Jaworzno Zielona (1)</a>
+<a class="stop" href="../rozklady/155/2681-szczakowa.html"><span class="stop-id">2681</span>Jaworzno Centrum (2)</a>
+<a class="stop" href="../rozklady/155/2964-szczakowa.html"><span class="stop-id">2964</span>Jaworzno Kolejowa (1)</a>
+<a class="stop" href="../rozklady/155/2978-szczakowa.html"><span class="stop-id">2978</span>Jaworzno Podłęże Fredry (1)</a>
+<a class="stop" href="../rozklady/155/3333-szczakowa.html"><span class="stop-id">3333</span>Jaworzno Podłęże Brodzińskiego (1)</a>
+<a class="stop" href="../rozklady/155/2977-szczakowa.html"><span class="stop-id">2977</span>Jaworzno Podłęże Towarowa I (1)</a>
+<a class="stop" href="../rozklady/155/2976-szczakowa.html"><span class="stop-id">2976</span>Jaworzno Podłęże Towarowa II (1)</a>
+<a class="stop" href="../rozklady/155/2674-szczakowa.html"><span class="stop-id">2674</span>Jaworzno Podłęże Osiedle (0)</a>
+<a class="stop" href="../rozklady/155/0819-szczakowa.html"><span class="stop-id">0819</span>Jaworzno Podłęże Przychodnia (2)</a>
+<a class="stop" href="../rozklady/155/0821-szczakowa.html"><span class="stop-id">0821</span>Jaworzno Urząd Skarbowy (1)</a>
+<a class="stop" href="../rozklady/155/0823-szczakowa.html"><span class="stop-id">0823</span>Jaworzno Szczakowska (1)</a>
+<a class="stop" href="../rozklady/155/0826-szczakowa.html"><span class="stop-id">0826</span>Jaworzno Niedzieliska Wiejska (2)</a>
+<a class="stop" href="../rozklady/155/0828-szczakowa.html"><span class="stop-id">0828</span>Jaworzno Niedzieliska Klub Relaks (2)</a>
+<a class="stop" href="../rozklady/155/3335-szczakowa.html"><span class="stop-id">3335</span>Jaworzno Niedzieliska (3)</a>
+<a class="stop" href="../rozklady/155/2979-szczakowa.html"><span class="stop-id">2979</span>Jaworzno Górnośląska (1)</a>
+<a class="stop" href="../rozklady/155/2693-szczakowa.html"><span class="stop-id">2693</span>Jaworzno Góra Piasku (2)</a>
+<a class="stop" href="../rozklady/155/2700-szczakowa.html"><span class="stop-id">2700</span>Jaworzno Szczakowa Polna (1)</a>
+<a class="stop" href="../rozklady/155/2699-szczakowa.html"><span class="stop-id">2699</span>Jaworzno Szczakowa Osiedle Gagarina (1)</a>
+<a class="stop" href="../rozklady/155/2696-szczakowa.html"><span class="stop-id">2696</span>Jaworzno Szczakowa Przychodnia (2)</a>
+<a class="stop terminal" href="../rozklady/155/2697-szczakowa.html"><span class="stop-id">2697</span>Jaworzno Szczakowa Dworzec PKP (0)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Jaworzno Jeleń Łęg Pętla</h2>
+
+<div class="zone zone-jaworzno">STREFA JAWORZNO</div>
+<a class="stop terminal" href="../rozklady/155/2697-leg.html"><span class="stop-id">2697</span>Jaworzno Szczakowa Dworzec PKP (0)</a>
+<a class="stop" href="../rozklady/155/2698-leg.html"><span class="stop-id">2698</span>Jaworzno Szczakowa Przychodnia (1)</a>
+<a class="stop" href="../rozklady/155/2695-leg.html"><span class="stop-id">2695</span>Jaworzno Szczakowa Osiedle Gagarina (2)</a>
+<a class="stop" href="../rozklady/155/2694-leg.html"><span class="stop-id">2694</span>Jaworzno Szczakowa Polna (2)</a>
+<a class="stop" href="../rozklady/155/2701-leg.html"><span class="stop-id">2701</span>Jaworzno Góra Piasku (1)</a>
+<a class="stop" href="../rozklady/155/2980-leg.html"><span class="stop-id">2980</span>Jaworzno Górnośląska (2)</a>
+<a class="stop" href="../rozklady/155/3337-leg.html"><span class="stop-id">3337</span>Jaworzno Niedzieliska (1)</a>
+<a class="stop" href="../rozklady/155/0827-leg.html"><span class="stop-id">0827</span>Jaworzno Niedzieliska Klub Relaks (1)</a>
+<a class="stop" href="../rozklady/155/0825-leg.html"><span class="stop-id">0825</span>Jaworzno Niedzieliska Wiejska (1)</a>
+<a class="stop" href="../rozklady/155/0824-leg.html"><span class="stop-id">0824</span>Jaworzno Szczakowska (2)</a>
+<a class="stop" href="../rozklady/155/0822-leg.html"><span class="stop-id">0822</span>Jaworzno Urząd Skarbowy (2)</a>
+<a class="stop" href="../rozklady/155/0820-leg.html"><span class="stop-id">0820</span>Jaworzno Podłęże Przychodnia (1)</a>
+<a class="stop" href="../rozklady/155/2674-leg.html"><span class="stop-id">2674</span>Jaworzno Podłęże Osiedle (0)</a>
+<a class="stop" href="../rozklady/155/2975-leg.html"><span class="stop-id">2975</span>Jaworzno Podłęże Towarowa II (2)</a>
+<a class="stop" href="../rozklady/155/2974-leg.html"><span class="stop-id">2974</span>Jaworzno Podłęże Towarowa I (2)</a>
+<a class="stop" href="../rozklady/155/3334-leg.html"><span class="stop-id">3334</span>Jaworzno Podłęże Brodzińskiego (2)</a>
+<a class="stop" href="../rozklady/155/2973-leg.html"><span class="stop-id">2973</span>Jaworzno Podłęże Fredry (2)</a>
+<a class="stop" href="../rozklady/155/2965-leg.html"><span class="stop-id">2965</span>Jaworzno Kolejowa (2)</a>
+<a class="stop terminal" href="../rozklady/155/2680-leg.html"><span class="stop-id">2680</span>Jaworzno Centrum (1)</a>
+<a class="stop" href="../rozklady/155/2682-leg.html"><span class="stop-id">2682</span>Jaworzno Rynek (1)</a>
+<a class="stop" href="../rozklady/155/2963-leg.html"><span class="stop-id">2963</span>Jaworzno Chełmońskiego (1)</a>
+<a class="stop" href="../rozklady/155/2962-leg.html"><span class="stop-id">2962</span>Jaworzno Szpital (2)</a>
+<a class="stop" href="../rozklady/155/2960-leg.html"><span class="stop-id">2960</span>Jaworzno Chełmońskiego Pompy (1)</a>
+<a class="stop" href="../rozklady/155/2959-leg.html"><span class="stop-id">2959</span>Jaworzno Wilkoszyn Chełmońskiego (1)</a>
+<a class="stop" href="../rozklady/155/2969-leg.html"><span class="stop-id">2969</span>Jaworzno Wilkoszyn (2)</a>
+<a class="stop" href="../rozklady/155/2970-leg.html"><span class="stop-id">2970</span>Jaworzno Wilkoszyn Cmentarz (2)</a>
+<a class="stop" href="../rozklady/155/2971-leg.html"><span class="stop-id">2971</span>Jaworzno Jeziorki Dożynkowa (2)</a>
+<a class="stop" href="../rozklady/155/2972-leg.html"><span class="stop-id">2972</span>Jaworzno Jeziorki Szkoła (2)</a>
+<a class="stop" href="../rozklady/155/2942-leg.html"><span class="stop-id">2942</span>Jaworzno Jeziorki Sklep (2)</a>
+<a class="stop" href="../rozklady/155/2943-leg.html"><span class="stop-id">2943</span>Jaworzno Jeziorki Kościół (2)</a>
+<a class="stop" href="../rozklady/155/2939-leg.html"><span class="stop-id">2939</span>Jaworzno Byczyna Astrów (1)</a>
+<a class="stop" href="../rozklady/155/2938-leg.html"><span class="stop-id">2938</span>Jaworzno Byczyna Gwardzistów (1)</a>
+<a class="stop" href="../rozklady/155/2946-leg.html"><span class="stop-id">2946</span>Jaworzno Byczyna Pętla (1)</a>
+<a class="stop" href="../rozklady/155/2947-leg.html"><span class="stop-id">2947</span>Jaworzno Byczyna Rewolucjonistów (2)</a>
+<a class="stop" href="../rozklady/155/2948-leg.html"><span class="stop-id">2948</span>Jaworzno Byczyna Abstorskich (2)</a>
+<a class="stop" href="../rozklady/155/2949-leg.html"><span class="stop-id">2949</span>Jaworzno Jeleń Okrągle Kapliczka (2)</a>
+<a class="stop" href="../rozklady/155/2749-leg.html"><span class="stop-id">2749</span>Jaworzno Jeleń Okrągle Skrzyżowanie (1)</a>
+<a class="stop" href="../rozklady/155/2747-leg.html"><span class="stop-id">2747</span>Jaworzno Jeleń Inwestycyjna (1)</a>
+<a class="stop" href="../rozklady/155/2722-leg.html"><span class="stop-id">2722</span>Jaworzno Jeleń Centrum Handlowe (2)</a>
+<a class="stop" href="../rozklady/155/2721-leg.html"><span class="stop-id">2721</span>Jaworzno Jeleń Piekarnia (2)</a>
+<a class="stop" href="../rozklady/155/2720-leg.html"><span class="stop-id">2720</span>Jaworzno Jeleń Szkoła (2)</a>
+<a class="stop" href="../rozklady/155/2714-leg.html"><span class="stop-id">2714</span>Jaworzno Jeleń Dom Kultury (1)</a>
+<a class="stop" href="../rozklady/155/2715-leg.html"><span class="stop-id">2715</span>Jaworzno Jeleń Przedszkole (1)</a>
+<a class="stop" href="../rozklady/155/2950-leg.html"><span class="stop-id">2950</span>Jaworzno Jeleń Rynek (4)</a>
+<a class="stop" href="../rozklady/155/2951-leg.html"><span class="stop-id">2951</span>Jaworzno Jeleń Kościół (2)</a>
+<a class="stop" href="../rozklady/155/2952-leg.html"><span class="stop-id">2952</span>Jaworzno Jeleń Dolna (2)</a>
+<a class="stop" href="../rozklady/155/2930-leg.html"><span class="stop-id">2930</span>Jaworzno Jeleń Wielki Dół (1)</a>
+<a class="stop" href="../rozklady/155/2954-leg.html"><span class="stop-id">2954</span>Jaworzno Jeleń Łęg Pawilon (2)</a>
+<a class="stop terminal" href="../rozklady/155/2928-leg.html"><span class="stop-id">2928</span>Jaworzno Jeleń Łęg Pętla (1)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
