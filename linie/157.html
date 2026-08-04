@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 157</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-jaworzno{
+    background:#ead1dc;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">157</div>
+
+<div class="route">
+Jaworzno Bory Hetmańska Pętla - Stara Huta - Azot - Pszczelnik - Jaworzno Centrum - Warpie - Chropaczówka - Długoszyn - Borowiec - Jaworzno Szczakowa Dworzec PKP - Pieczyska - Jaworzno Dobra Pętla
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Jaworzno Dobra Pętla</h2>
+
+<div class="zone zone-jaworzno">STREFA JAWORZNO</div>
+<a class="stop terminal" href="../rozklady/157/3036-dobra.html"><span class="stop-id">3036</span>Jaworzno Bory Hetmańska Pętla (1)</a>
+<a class="stop" href="../rozklady/157/3037-dobra.html"><span class="stop-id">3037</span>Jaworzno Bory Hetmańska (2)</a>
+<a class="stop" href="../rozklady/157/3038-dobra.html"><span class="stop-id">3038</span>Jaworzno Bory Zakole (2)</a>
+<a class="stop" href="../rozklady/157/3072-dobra.html"><span class="stop-id">3072</span>Jaworzno Bory Bielańska (1)</a>
+<a class="stop" href="../rozklady/157/3071-dobra.html"><span class="stop-id">3071</span>Jaworzno Bory Stroma (1)</a>
+<a class="stop" href="../rozklady/157/3070-dobra.html"><span class="stop-id">3070</span>Jaworzno Bory Bielany (1)</a>
+<a class="stop" href="../rozklady/157/3050-dobra.html"><span class="stop-id">3050</span>Jaworzno Bory Tetmajera (2)</a>
+<a class="stop" href="../rozklady/157/3068-dobra.html"><span class="stop-id">3068</span>Jaworzno Bory Rondo (1)</a>
+<a class="stop" href="../rozklady/157/3067-dobra.html"><span class="stop-id">3067</span>Jaworzno Stara Huta Reja (1)</a>
+<a class="stop" href="../rozklady/157/3066-dobra.html"><span class="stop-id">3066</span>Jaworzno Stara Huta (1)</a>
+<a class="stop" href="../rozklady/157/3065-dobra.html"><span class="stop-id">3065</span>Jaworzno Stara Huta Fabryczna (1)</a>
+<a class="stop" href="../rozklady/157/2739-dobra.html"><span class="stop-id">2739</span>Jaworzno Azot Osiedle (1)</a>
+<a class="stop" href="../rozklady/157/3055-dobra.html"><span class="stop-id">3055</span>Jaworzno Azot Młynarska (2)</a>
+<a class="stop" href="../rozklady/157/3056-dobra.html"><span class="stop-id">3056</span>Jaworzno Pszczelnik (2)</a>
+<a class="stop" href="../rozklady/157/3057-dobra.html"><span class="stop-id">3057</span>Jaworzno Piaskowa (2)</a>
+<a class="stop" href="../rozklady/157/2677-dobra.html"><span class="stop-id">2677</span>Jaworzno Podłęże Szkoła (2)</a>
+<a class="stop" href="../rozklady/157/2679-dobra.html"><span class="stop-id">2679</span>Jaworzno Moniuszki (2)</a>
+<a class="stop" href="../rozklady/157/2680-dobra.html"><span class="stop-id">2680</span>Jaworzno Centrum (1)</a>
+<a class="stop" href="../rozklady/157/2682-dobra.html"><span class="stop-id">2682</span>Jaworzno Rynek (1)</a>
+<a class="stop" href="../rozklady/157/2686-dobra.html"><span class="stop-id">2686</span>Jaworzno Warpie Wodociągi (1)</a>
+<a class="stop" href="../rozklady/157/2688-dobra.html"><span class="stop-id">2688</span>Jaworzno Warpie Galmany (1)</a>
+<a class="stop" href="../rozklady/157/2690-dobra.html"><span class="stop-id">2690</span>Jaworzno Warpie (2)</a>
+<a class="stop" href="../rozklady/157/2703-dobra.html"><span class="stop-id">2703</span>Jaworzno Geosfera (1)</a>
+<a class="stop" href="../rozklady/157/3058-dobra.html"><span class="stop-id">3058</span>Jaworzno Osiedle Sfera (2)</a>
+<a class="stop" href="../rozklady/157/3335-dobra.html"><span class="stop-id">3335</span>Jaworzno Niedzieliska (3)</a>
+<a class="stop" href="../rozklady/157/3059-dobra.html"><span class="stop-id">3059</span>Jaworzno Chropaczówka (1)</a>
+<a class="stop" href="../rozklady/157/3073-dobra.html"><span class="stop-id">3073</span>Jaworzno Chropaczówka II (1)</a>
+<a class="stop" href="../rozklady/157/3075-dobra.html"><span class="stop-id">3075</span>Jaworzno Długoszyn Upadowa (1)</a>
+<a class="stop" href="../rozklady/157/3076-dobra.html"><span class="stop-id">3076</span>Jaworzno Długoszyn (1)</a>
+<a class="stop" href="../rozklady/157/3077-dobra.html"><span class="stop-id">3077</span>Jaworzno Długoszyn Dąbrowskiego (1)</a>
+<a class="stop" href="../rozklady/157/3078-dobra.html"><span class="stop-id">3078</span>Jaworzno Borowiec Dąbrowskiego (1)</a>
+<a class="stop" href="../rozklady/157/3093-dobra.html"><span class="stop-id">3093</span>Jaworzno Borowiec Moździerzowców Szkoła (2)</a>
+<a class="stop" href="../rozklady/157/3092-dobra.html"><span class="stop-id">3092</span>Jaworzno Borowiec Moździerzowców II (2)</a>
+<a class="stop" href="../rozklady/157/3091-dobra.html"><span class="stop-id">3091</span>Jaworzno Borowiec Moździerzowców I (2)</a>
+<a class="stop" href="../rozklady/157/3082-dobra.html"><span class="stop-id">3082</span>Jaworzno Szczakowa Osiedle Gagarina (3)</a>
+<a class="stop" href="../rozklady/157/2696-dobra.html"><span class="stop-id">2696</span>Jaworzno Szczakowa Przychodnia (2)</a>
+<a class="stop terminal" href="../rozklady/157/2697-dobra.html"><span class="stop-id">2697</span>Jaworzno Szczakowa Dworzec PKP (0)</a>
+<a class="stop" href="../rozklady/157/2698-dobra.html"><span class="stop-id">2698</span>Jaworzno Szczakowa Przychodnia (1)</a>
+<a class="stop" href="../rozklady/157/3090-dobra.html"><span class="stop-id">3090</span>Jaworzno Szczakowa Kościół (2)</a>
+<a class="stop" href="../rozklady/157/3085-dobra.html"><span class="stop-id">3085</span>Jaworzno Szczakowa Cmentarz (1)</a>
+<a class="stop" href="../rozklady/157/3088-dobra.html"><span class="stop-id">3088</span>Jaworzno Park Gródek (2)</a>
+<a class="stop" href="../rozklady/157/3098-dobra.html"><span class="stop-id">3098</span>Jaworzno Pieczyska Szkoła (1)</a>
+<a class="stop" href="../rozklady/157/3099-dobra.html"><span class="stop-id">3099</span>Jaworzno Pieczyska Solskiego (1)</a>
+<a class="stop" href="../rozklady/157/3086-dobra.html"><span class="stop-id">3086</span>Jaworzno Park Gródek (1)</a>
+<a class="stop" href="../rozklady/157/3087-dobra.html"><span class="stop-id">3087</span>Jaworzno Szczakowa Cmentarz (2)</a>
+<a class="stop" href="../rozklady/157/3100-dobra.html"><span class="stop-id">3100</span>Jaworzno Dobra Pompy (1)</a>
+<a class="stop" href="../rozklady/157/3101-dobra.html"><span class="stop-id">3101</span>Jaworzno Dobra (1)</a>
+<a class="stop terminal" href="../rozklady/157/3102-dobra.html"><span class="stop-id">3102</span>Jaworzno Dobra Pętla (1)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Jaworzno Bory Hetmańska Pętla</h2>
+
+<div class="zone zone-jaworzno">STREFA JAWORZNO</div>
+<a class="stop terminal" href="../rozklady/157/3102-bory.html"><span class="stop-id">3102</span>Jaworzno Dobra Pętla (1)</a>
+<a class="stop" href="../rozklady/157/3115-bory.html"><span class="stop-id">3115</span>Jaworzno Dobra (2)</a>
+<a class="stop" href="../rozklady/157/3116-bory.html"><span class="stop-id">3116</span>Jaworzno Dobra Pompy (2)</a>
+<a class="stop" href="../rozklady/157/3085-bory.html"><span class="stop-id">3085</span>Jaworzno Szczakowa Cmentarz (1)</a>
+<a class="stop" href="../rozklady/157/3088-bory.html"><span class="stop-id">3088</span>Jaworzno Park Gródek (2)</a>
+<a class="stop" href="../rozklady/157/3098-bory.html"><span class="stop-id">3098</span>Jaworzno Pieczyska Szkoła (1)</a>
+<a class="stop" href="../rozklady/157/3099-bory.html"><span class="stop-id">3099</span>Jaworzno Pieczyska Solskiego (1)</a>
+<a class="stop" href="../rozklady/157/3086-bory.html"><span class="stop-id">3086</span>Jaworzno Park Gródek (1)</a>
+<a class="stop" href="../rozklady/157/3089-bory.html"><span class="stop-id">3089</span>Jaworzno Szczakowa Cmentarz (3)</a>
+<a class="stop" href="../rozklady/157/3084-bory.html"><span class="stop-id">3084</span>Jaworzno Szczakowa Kościół (1)</a>
+<a class="stop" href="../rozklady/157/2696-bory.html"><span class="stop-id">2696</span>Jaworzno Szczakowa Przychodnia (2)</a>
+<a class="stop terminal" href="../rozklady/157/2697-bory.html"><span class="stop-id">2697</span>Jaworzno Szczakowa Dworzec PKP (0)</a>
+<a class="stop" href="../rozklady/157/2698-bory.html"><span class="stop-id">2698</span>Jaworzno Szczakowa Przychodnia (1)</a>
+<a class="stop" href="../rozklady/157/3083-bory.html"><span class="stop-id">3083</span>Jaworzno Szczakowa Osiedle Gagarina (4)</a>
+<a class="stop" href="../rozklady/157/3081-bory.html"><span class="stop-id">3081</span>Jaworzno Borowiec Moździerzowców I (1)</a>
+<a class="stop" href="../rozklady/157/3080-bory.html"><span class="stop-id">3080</span>Jaworzno Borowiec Moździerzowców II (1)</a>
+<a class="stop" href="../rozklady/157/3079-bory.html"><span class="stop-id">3079</span>Jaworzno Borowiec Moździerzowców Szkoła (1)</a>
+<a class="stop" href="../rozklady/157/3094-bory.html"><span class="stop-id">3094</span>Jaworzno Borowiec Dąbrowskiego (2)</a>
+<a class="stop" href="../rozklady/157/3095-bory.html"><span class="stop-id">3095</span>Jaworzno Długoszyn Dąbrowskiego (2)</a>
+<a class="stop" href="../rozklady/157/3096-bory.html"><span class="stop-id">3096</span>Jaworzno Długoszyn (2)</a>
+<a class="stop" href="../rozklady/157/3097-bory.html"><span class="stop-id">3097</span>Jaworzno Długoszyn Upadowa (2)</a>
+<a class="stop" href="../rozklady/157/3074-bory.html"><span class="stop-id">3074</span>Jaworzno Chropaczówka II (2)</a>
+<a class="stop" href="../rozklady/157/3060-bory.html"><span class="stop-id">3060</span>Jaworzno Chropaczówka (2)</a>
+<a class="stop" href="../rozklady/157/3336-bory.html"><span class="stop-id">3336</span>Jaworzno Niedzieliska (2)</a>
+<a class="stop" href="../rozklady/157/3061-bory.html"><span class="stop-id">3061</span>Jaworzno Osiedle Sfera (1)</a>
+<a class="stop" href="../rozklady/157/2691-bory.html"><span class="stop-id">2691</span>Jaworzno Geosfera (2)</a>
+<a class="stop" href="../rozklady/157/2704-bory.html"><span class="stop-id">2704</span>Jaworzno Warpie (1)</a>
+<a class="stop" href="../rozklady/157/2689-bory.html"><span class="stop-id">2689</span>Jaworzno Warpie Galmany (2)</a>
+<a class="stop" href="../rozklady/157/2687-bory.html"><span class="stop-id">2687</span>Jaworzno Warpie Wodociągi (2)</a>
+<a class="stop" href="../rozklady/157/2683-bory.html"><span class="stop-id">2683</span>Jaworzno Obrońców Poczty Gdańskiej (1)</a>
+<a class="stop" href="../rozklady/157/2684-bory.html"><span class="stop-id">2684</span>Jaworzno Biblioteka (1)</a>
+<a class="stop" href="../rozklady/157/2685-bory.html"><span class="stop-id">2685</span>Jaworzno Zielona (1)</a>
+<a class="stop" href="../rozklady/157/2681-bory.html"><span class="stop-id">2681</span>Jaworzno Centrum (2)</a>
+<a class="stop" href="../rozklady/157/2678-bory.html"><span class="stop-id">2678</span>Jaworzno Moniuszki (1)</a>
+<a class="stop" href="../rozklady/157/2676-bory.html"><span class="stop-id">2676</span>Jaworzno Podłęże Szkoła (1)</a>
+<a class="stop" href="../rozklady/157/3062-bory.html"><span class="stop-id">3062</span>Jaworzno Piaskowa (1)</a>
+<a class="stop" href="../rozklady/157/3063-bory.html"><span class="stop-id">3063</span>Jaworzno Pszczelnik (1)</a>
+<a class="stop" href="../rozklady/157/3064-bory.html"><span class="stop-id">3064</span>Jaworzno Azot Młynarska (1)</a>
+<a class="stop" href="../rozklady/157/2740-bory.html"><span class="stop-id">2740</span>Jaworzno Azot Osiedle (2)</a>
+<a class="stop" href="../rozklady/157/3054-bory.html"><span class="stop-id">3054</span>Jaworzno Stara Huta Fabryczna (2)</a>
+<a class="stop" href="../rozklady/157/3053-bory.html"><span class="stop-id">3053</span>Jaworzno Stara Huta (2)</a>
+<a class="stop" href="../rozklady/157/3052-bory.html"><span class="stop-id">3052</span>Jaworzno Stara Huta Reja (2)</a>
+<a class="stop" href="../rozklady/157/3069-bory.html"><span class="stop-id">3069</span>Jaworzno Bory Tetmajera (1)</a>
+<a class="stop" href="../rozklady/157/3049-bory.html"><span class="stop-id">3049</span>Jaworzno Bory Bielany (2)</a>
+<a class="stop" href="../rozklady/157/3048-bory.html"><span class="stop-id">3048</span>Jaworzno Bory Stroma (2)</a>
+<a class="stop" href="../rozklady/157/3039-bory.html"><span class="stop-id">3039</span>Jaworzno Bory Zakole (1)</a>
+<a class="stop" href="../rozklady/157/3040-bory.html"><span class="stop-id">3040</span>Jaworzno Bory Hetmańska (1)</a>
+<a class="stop terminal" href="../rozklady/157/3036-bory.html"><span class="stop-id">3036</span>Jaworzno Bory Hetmańska Pętla (1)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
