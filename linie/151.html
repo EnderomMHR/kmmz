@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 151</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-oswiecim{
+    background:#9fc4e8;
+    color:#222;
+}
+
+.zone-bierun{
+    background:#d5a6bd;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">151</div>
+
+<div class="route">
+Bieruń Czarnuchowice Pętla - Bieruń Pętla - Babice - Brzezinka - Oświęcim Dworzec PKP - Oświęcim Dworzec Fabryczny
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Oświęcim Dworzec Fabryczny</h2>
+
+<div class="zone zone-bierun">STREFA BIERUŃ</div>
+<a class="stop terminal" href="../rozklady/151/1293-oswiecim.html"><span class="stop-id">1293</span>Bieruń Czarnuchowice Pętla (0)</a>
+<a class="stop" href="../rozklady/151/1625-oswiecim.html"><span class="stop-id">1625</span>Bieruń Czarnuchowice II (1)</a>
+<a class="stop" href="../rozklady/151/1626-oswiecim.html"><span class="stop-id">1626</span>Bieruń Czarnuchowice I (1)</a>
+<a class="stop" href="../rozklady/151/1552-oswiecim.html"><span class="stop-id">1552</span>Bieruń Patriotów Wiadukt (1)</a>
+<a class="stop" href="../rozklady/151/2670-oswiecim.html"><span class="stop-id">2670</span>Bieruń Bohaterów Westerplatte 57 (1)</a>
+<a class="stop" href="../rozklady/151/1553-oswiecim.html"><span class="stop-id">1553</span>Bieruń Bohaterów Westerplatte 7 (1)</a>
+<a class="stop" href="../rozklady/151/0922-oswiecim.html"><span class="stop-id">0922</span>Bieruń Kościół (1)</a>
+<a class="stop" href="../rozklady/151/2661-oswiecim.html"><span class="stop-id">2661</span>Bieruń Zabrzeg (2)</a>
+<a class="stop terminal" href="../rozklady/151/2659-oswiecim.html"><span class="stop-id">2659</span>Bieruń Pętla (0)</a>
+<div class="zone zone-oswiecim">STREFA OŚWIĘCIM</div>
+<a class="stop" href="../rozklady/151/2657-oswiecim.html"><span class="stop-id">2657</span>Babice Śląska II (1)</a>
+<a class="stop" href="../rozklady/151/2875-oswiecim.html"><span class="stop-id">2875</span>Babice Spacerowa (1)</a>
+<a class="stop" href="../rozklady/151/2874-oswiecim.html"><span class="stop-id">2874</span>Babice Greglów (1)</a>
+<a class="stop" href="../rozklady/151/1996-oswiecim.html"><span class="stop-id">1996</span>Brzezinka Sportowa (1)</a>
+<a class="stop" href="../rozklady/151/1998-oswiecim.html"><span class="stop-id">1998</span>Brzezinka Kapliczka (1)</a>
+<a class="stop" href="../rozklady/151/2001-oswiecim.html"><span class="stop-id">2001</span>Brzezinka Szkoła (1)</a>
+<a class="stop" href="../rozklady/151/1991-oswiecim.html"><span class="stop-id">1991</span>Brzezinka Papownia (1)</a>
+<a class="stop terminal" href="../rozklady/151/0666-oswiecim.html"><span class="stop-id">0666</span>Oświęcim Dworzec PKP (2)</a>
+<a class="stop" href="../rozklady/151/0667-oswiecim.html"><span class="stop-id">0667</span>Oświęcim Niwa (2)</a>
+<a class="stop" href="../rozklady/151/0668-oswiecim.html"><span class="stop-id">0668</span>Oświęcim Stacja BP (1)</a>
+<a class="stop" href="../rozklady/151/0669-oswiecim.html"><span class="stop-id">0669</span>Oświęcim Dąbrowskiego Kościół (1)</a>
+<a class="stop" href="../rozklady/151/0670-oswiecim.html"><span class="stop-id">0670</span>Oświęcim Dąbrowskiego Cmentarz (0)</a>
+<a class="stop" href="../rozklady/151/1551-oswiecim.html"><span class="stop-id">1551</span>Oświęcim Nojego (2)</a>
+<a class="stop" href="../rozklady/151/1548-oswiecim.html"><span class="stop-id">1548</span>Oświęcim Szkoła Nr 2 (1)</a>
+<a class="stop" href="../rozklady/151/0675-oswiecim.html"><span class="stop-id">0675</span>Oświęcim Technikum Chemiczne (1)</a>
+<a class="stop" href="../rozklady/151/0874-oswiecim.html"><span class="stop-id">0874</span>Oświęcim Pod Borem 2 (2)</a>
+<a class="stop" href="../rozklady/151/0875-oswiecim.html"><span class="stop-id">0875</span>Oświęcim Monowice Inkubator Przedsiębiorczości (1)</a>
+<a class="stop" href="../rozklady/151/0876-oswiecim.html"><span class="stop-id">0876</span>Oświęcim Brama (2)</a>
+<a class="stop" href="../rozklady/151/0877-oswiecim.html"><span class="stop-id">0877</span>Oświęcim Monowice (1)</a>
+<a class="stop" href="../rozklady/151/0878-oswiecim.html"><span class="stop-id">0878</span>Oświęcim Gazy Techniczne (2)</a>
+<a class="stop terminal" href="../rozklady/151/0879-oswiecim.html"><span class="stop-id">0879</span>Oświęcim Dworzec Fabryczny (2)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Bieruń Czarnuchowice Pętla</h2>
+
+<div class="zone zone-oswiecim">STREFA OŚWIĘCIM</div>
+<a class="stop terminal" href="../rozklady/151/0830-bierun.html"><span class="stop-id">0830</span>Oświęcim Dworzec Fabryczny (1)</a>
+<a class="stop" href="../rozklady/151/0831-bierun.html"><span class="stop-id">0831</span>Oświęcim Gazy Techniczne (1)</a>
+<a class="stop" href="../rozklady/151/0832-bierun.html"><span class="stop-id">0832</span>Oświęcim Monowice (2)</a>
+<a class="stop" href="../rozklady/151/0833-bierun.html"><span class="stop-id">0833</span>Oświęcim Brama (1)</a>
+<a class="stop" href="../rozklady/151/0834-bierun.html"><span class="stop-id">0834</span>Oświęcim Monowice Inkubator Przedsiębiorczości (2)</a>
+<a class="stop" href="../rozklady/151/0835-bierun.html"><span class="stop-id">0835</span>Oświęcim Pod Borem 2 (1)</a>
+<a class="stop" href="../rozklady/151/0622-bierun.html"><span class="stop-id">0622</span>Oświęcim Technikum Chemiczne (2)</a>
+<a class="stop" href="../rozklady/151/1549-bierun.html"><span class="stop-id">1549</span>Oświęcim Szkoła Nr 2 (2)</a>
+<a class="stop" href="../rozklady/151/1550-bierun.html"><span class="stop-id">1550</span>Oświęcim Nojego (1)</a>
+<a class="stop" href="../rozklady/151/0628-bierun.html"><span class="stop-id">0628</span>Oświęcim Dąbrowskiego Miasto (1)</a>
+<a class="stop" href="../rozklady/151/0629-bierun.html"><span class="stop-id">0629</span>Oświęcim Stacja BP (2)</a>
+<a class="stop" href="../rozklady/151/0630-bierun.html"><span class="stop-id">0630</span>Oświęcim Niwa (1)</a>
+<a class="stop terminal" href="../rozklady/151/0631-bierun.html"><span class="stop-id">0631</span>Oświęcim Dworzec PKP (1)</a>
+<a class="stop" href="../rozklady/151/0637-bierun.html"><span class="stop-id">0637</span>Oświęcim MZK (1)</a>
+<a class="stop" href="../rozklady/151/1990-bierun.html"><span class="stop-id">1990</span>Brzezinka Papownia (2)</a>
+<a class="stop" href="../rozklady/151/2000-bierun.html"><span class="stop-id">2000</span>Brzezinka Szkoła (2)</a>
+<a class="stop" href="../rozklady/151/1999-bierun.html"><span class="stop-id">1999</span>Brzezinka Kapliczka (2)</a>
+<a class="stop" href="../rozklady/151/1997-bierun.html"><span class="stop-id">1997</span>Brzezinka Sportowa (2)</a>
+<a class="stop" href="../rozklady/151/2882-bierun.html"><span class="stop-id">2882</span>Babice Greglów (2)</a>
+<a class="stop" href="../rozklady/151/2881-bierun.html"><span class="stop-id">2881</span>Babice Spacerowa (2)</a>
+<a class="stop" href="../rozklady/151/2658-bierun.html"><span class="stop-id">2658</span>Babice Śląska II (2)</a>
+<div class="zone zone-bierun">STREFA BIERUŃ</div>
+<a class="stop terminal" href="../rozklady/151/2659-bierun.html"><span class="stop-id">2659</span>Bieruń Pętla (0)</a>
+<a class="stop" href="../rozklady/151/2660-bierun.html"><span class="stop-id">2660</span>Bieruń Zabrzeg (1)</a>
+<a class="stop" href="../rozklady/151/1292-bierun.html"><span class="stop-id">1292</span>Bieruń Poczta (1)</a>
+<a class="stop" href="../rozklady/151/1291-bierun.html"><span class="stop-id">1291</span>Bieruń Wawelska Paciorkowce (2)</a>
+<a class="stop" href="../rozklady/151/1554-bierun.html"><span class="stop-id">1554</span>Bieruń Równoległa (1)</a>
+<a class="stop" href="../rozklady/151/2667-bierun.html"><span class="stop-id">2667</span>Bieruń Czarnuchowice I (2)</a>
+<a class="stop" href="../rozklady/151/2668-bierun.html"><span class="stop-id">2668</span>Bieruń Czarnuchowice II (2)</a>
+<a class="stop terminal" href="../rozklady/151/1293-bierun.html"><span class="stop-id">1293</span>Bieruń Czarnuchowice Pętla (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
