@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 153</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-olkusz{
+    background:#ffe599;
+    color:#222;
+}
+
+.zone-klucze{
+    background:#00fe00;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">153</div>
+
+<div class="route">
+Klucze Skrzyżowanie - (Jaroszowiec) - (Zalesie Golczowskie) - (Golczowice) - (Zalesie Golczowskie) - (Jaroszowiec) - Bogucin Duży - Pomorzany - Olkusz Orzeszkowej
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Olkusz Orzeszkowej</h2>
+
+<div class="zone zone-klucze">STREFA KLUCZE</div>
+<a class="stop terminal" href="../rozklady/153/0513-olkusz.html"><span class="stop-id">0513</span>Klucze Skrzyżowanie (2)</a>
+<a class="stop" href="../rozklady/153/0514-olkusz.html"><span class="stop-id">0514</span>Klucze PKS (1)</a>
+<a class="stop variant" href="../rozklady/153/0515-olkusz.html"><span class="stop-id">0515</span>Jaroszowiec Szkoła (1)</a>
+<a class="stop variant" href="../rozklady/153/0516-olkusz.html"><span class="stop-id">0516</span>Jaroszowiec Huta Szkłomasz (2)</a>
+<a class="stop variant" href="../rozklady/153/0517-olkusz.html"><span class="stop-id">0517</span>Jaroszowiec Dworzec PKP (2)</a>
+<a class="stop variant" href="../rozklady/153/0518-olkusz.html"><span class="stop-id">0518</span>Jaroszowiec Szpital (1)</a>
+<a class="stop variant" href="../rozklady/153/0519-olkusz.html"><span class="stop-id">0519</span>Zalesie Golczowskie (1)</a>
+<a class="stop variant" href="../rozklady/153/0520-olkusz.html"><span class="stop-id">0520</span>Golczowice Kamieniołomy (2)</a>
+<a class="stop variant" href="../rozklady/153/0521-olkusz.html"><span class="stop-id">0521</span>Golczowice Pętla (0)</a>
+<a class="stop variant" href="../rozklady/153/0522-olkusz.html"><span class="stop-id">0522</span>Golczowice Kamieniołomy (1)</a>
+<a class="stop variant" href="../rozklady/153/0523-olkusz.html"><span class="stop-id">0523</span>Zalesie Golczowskie (2)</a>
+<a class="stop variant" href="../rozklady/153/0527-olkusz.html"><span class="stop-id">0527</span>Jaroszowiec Szpital (2)</a>
+<a class="stop variant" href="../rozklady/153/0528-olkusz.html"><span class="stop-id">0528</span>Jaroszowiec Dworzec PKP (1)</a>
+<a class="stop variant" href="../rozklady/153/0549-olkusz.html"><span class="stop-id">0549</span>Jaroszowiec Huta Szkłomasz (1)</a>
+<a class="stop variant" href="../rozklady/153/0550-olkusz.html"><span class="stop-id">0550</span>Jaroszowiec Szkoła (2)</a>
+<a class="stop" href="../rozklady/153/2762-olkusz.html"><span class="stop-id">2762</span>Bogucin Duży Zakrzacze (1)</a>
+<a class="stop" href="../rozklady/153/2188-olkusz.html"><span class="stop-id">2188</span>Bogucin Duży Kiosk (2)</a>
+<a class="stop" href="../rozklady/153/2185-olkusz.html"><span class="stop-id">2185</span>Bogucin Duży (1)</a>
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+<a class="stop" href="../rozklady/153/0688-olkusz.html"><span class="stop-id">0688</span>Olkusz Pomorzany Las (2)</a>
+<a class="stop" href="../rozklady/153/0689-olkusz.html"><span class="stop-id">0689</span>Olkusz Pomorzany Wzniesienie (1)</a>
+<a class="stop" href="../rozklady/153/0690-olkusz.html"><span class="stop-id">0690</span>Olkusz Pomorzany Szkoła (1)</a>
+<a class="stop" href="../rozklady/153/0691-olkusz.html"><span class="stop-id">0691</span>Olkusz Pomorzany Remiza (1)</a>
+<a class="stop" href="../rozklady/153/0692-olkusz.html"><span class="stop-id">0692</span>Olkusz Pomorzany Stadion (1)</a>
+<a class="stop" href="../rozklady/153/0693-olkusz.html"><span class="stop-id">0693</span>Olkusz Skatepark (1)</a>
+<a class="stop variant" href="../rozklady/153/2171-olkusz.html"><span class="stop-id">2171</span>Olkusz Cmentarz (1)</a>
+<a class="stop" href="../rozklady/153/0173-olkusz.html"><span class="stop-id">0173</span>Olkusz Stacja Paliw (1)</a>
+<a class="stop" href="../rozklady/153/0176-olkusz.html"><span class="stop-id">0176</span>Olkusz Mickiewicza (1)</a>
+<a class="stop" href="../rozklady/153/0177-olkusz.html"><span class="stop-id">0177</span>Olkusz Szpitalna (2)</a>
+<a class="stop" href="../rozklady/153/0229-olkusz.html"><span class="stop-id">0229</span>Olkusz Basen (2)</a>
+<a class="stop" href="../rozklady/153/0536-olkusz.html"><span class="stop-id">0536</span>Olkusz Szpital (1)</a>
+<a class="stop" href="../rozklady/153/0537-olkusz.html"><span class="stop-id">0537</span>Olkusz ZUS (1)</a>
+<a class="stop" href="../rozklady/153/2028-olkusz.html"><span class="stop-id">2028</span>Olkusz Osiecka (0)</a>
+<a class="stop" href="../rozklady/153/2764-olkusz.html"><span class="stop-id">2764</span>Olkusz Klub "Przyjaźń" (1)</a>
+<a class="stop" href="../rozklady/153/2119-olkusz.html"><span class="stop-id">2119</span>Olkusz Jana Pawła II (2)</a>
+<a class="stop" href="../rozklady/153/2118-olkusz.html"><span class="stop-id">2118</span>Olkusz Nałkowskiej (2)</a>
+<a class="stop terminal" href="../rozklady/153/0496-olkusz.html"><span class="stop-id">0496</span>Olkusz Orzeszkowej (0)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Klucze Skrzyżowanie</h2>
+
+<div class="zone zone-olkusz">STREFA OLKUSZ</div>
+<a class="stop terminal" href="../rozklady/153/0496-klucze.html"><span class="stop-id">0496</span>Olkusz Orzeszkowej (0)</a>
+<a class="stop" href="../rozklady/153/2117-klucze.html"><span class="stop-id">2117</span>Olkusz Nałkowskiej (1)</a>
+<a class="stop" href="../rozklady/153/2120-klucze.html"><span class="stop-id">2120</span>Olkusz Jana Pawła II (1)</a>
+<a class="stop" href="../rozklady/153/2765-klucze.html"><span class="stop-id">2765</span>Olkusz Klub "Przyjaźń" (2)</a>
+<a class="stop" href="../rozklady/153/0494-klucze.html"><span class="stop-id">0494</span>Olkusz ZUS (2)</a>
+<a class="stop" href="../rozklady/153/0495-klucze.html"><span class="stop-id">0495</span>Olkusz Szpital (2)</a>
+<a class="stop" href="../rozklady/153/0197-klucze.html"><span class="stop-id">0197</span>Olkusz Basen (1)</a>
+<a class="stop" href="../rozklady/153/0198-klucze.html"><span class="stop-id">0198</span>Olkusz Dworek Machnickich (0)</a>
+<a class="stop" href="../rozklady/153/0175-klucze.html"><span class="stop-id">0175</span>Olkusz Górnicza (1)</a>
+<a class="stop" href="../rozklady/153/0239-klucze.html"><span class="stop-id">0239</span>Olkusz Stacja Paliw (2)</a>
+<a class="stop variant" href="../rozklady/153/2171-klucze.html"><span class="stop-id">2171</span>Olkusz Cmentarz (1)</a>
+<a class="stop" href="../rozklady/153/2179-klucze.html"><span class="stop-id">2179</span>Olkusz Skatepark (2)</a>
+<a class="stop" href="../rozklady/153/2180-klucze.html"><span class="stop-id">2180</span>Olkusz Pomorzany Stadion (2)</a>
+<a class="stop" href="../rozklady/153/2181-klucze.html"><span class="stop-id">2181</span>Olkusz Pomorzany Remiza (2)</a>
+<a class="stop" href="../rozklady/153/2182-klucze.html"><span class="stop-id">2182</span>Olkusz Pomorzany Szkoła (2)</a>
+<a class="stop" href="../rozklady/153/2183-klucze.html"><span class="stop-id">2183</span>Olkusz Pomorzany Wzniesienie (2)</a>
+<a class="stop" href="../rozklady/153/2184-klucze.html"><span class="stop-id">2184</span>Olkusz Pomorzany Las (1)</a>
+<div class="zone zone-klucze">STREFA KLUCZE</div>
+<a class="stop" href="../rozklady/153/2186-klucze.html"><span class="stop-id">2186</span>Bogucin Duży (2)</a>
+<a class="stop" href="../rozklady/153/2187-klucze.html"><span class="stop-id">2187</span>Bogucin Duży Kiosk (1)</a>
+<a class="stop" href="../rozklady/153/2763-klucze.html"><span class="stop-id">2763</span>Bogucin Duży Zakrzacze (2)</a>
+<a class="stop variant" href="../rozklady/153/0515-klucze.html"><span class="stop-id">0515</span>Jaroszowiec Szkoła (1)</a>
+<a class="stop variant" href="../rozklady/153/0516-klucze.html"><span class="stop-id">0516</span>Jaroszowiec Huta Szkłomasz (2)</a>
+<a class="stop variant" href="../rozklady/153/0517-klucze.html"><span class="stop-id">0517</span>Jaroszowiec Dworzec PKP (2)</a>
+<a class="stop variant" href="../rozklady/153/0518-klucze.html"><span class="stop-id">0518</span>Jaroszowiec Szpital (1)</a>
+<a class="stop variant" href="../rozklady/153/0519-klucze.html"><span class="stop-id">0519</span>Zalesie Golczowskie (1)</a>
+<a class="stop variant" href="../rozklady/153/0520-klucze.html"><span class="stop-id">0520</span>Golczowice Kamieniołomy (2)</a>
+<a class="stop variant" href="../rozklady/153/0521-klucze.html"><span class="stop-id">0521</span>Golczowice Pętla (0)</a>
+<a class="stop variant" href="../rozklady/153/0522-klucze.html"><span class="stop-id">0522</span>Golczowice Kamieniołomy (1)</a>
+<a class="stop variant" href="../rozklady/153/0523-klucze.html"><span class="stop-id">0523</span>Zalesie Golczowskie (2)</a>
+<a class="stop variant" href="../rozklady/153/0527-klucze.html"><span class="stop-id">0527</span>Jaroszowiec Szpital (2)</a>
+<a class="stop variant" href="../rozklady/153/0528-klucze.html"><span class="stop-id">0528</span>Jaroszowiec Dworzec PKP (1)</a>
+<a class="stop variant" href="../rozklady/153/0549-klucze.html"><span class="stop-id">0549</span>Jaroszowiec Huta Szkłomasz (1)</a>
+<a class="stop variant" href="../rozklady/153/0550-klucze.html"><span class="stop-id">0550</span>Jaroszowiec Szkoła (2)</a>
+<a class="stop" href="../rozklady/153/0551-klucze.html"><span class="stop-id">0551</span>Klucze PKS (2)</a>
+<a class="stop terminal" href="../rozklady/153/0552-klucze.html"><span class="stop-id">0552</span>Klucze Skrzyżowanie (1)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
