@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 156</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-jaworzno{
+    background:#ead1dc;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">156</div>
+
+<div class="route">
+Jaworzno Szczotki Pętla - Dąbrowa Narodowa - Osiedle Stałe - Podwale - Jaworzno Centrum - Osiedle Skałka - Jaworzno Ciężkowice Pętla
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Jaworzno Ciężkowice Pętla</h2>
+
+<div class="zone zone-jaworzno">STREFA JAWORZNO</div>
+<a class="stop terminal" href="../rozklady/156/0829-ciezkowice.html"><span class="stop-id">0829</span>Jaworzno Szczotki Pętla (0)</a>
+<a class="stop" href="../rozklady/156/2981-ciezkowice.html"><span class="stop-id">2981</span>Jaworzno Dąbrowa Narodowa Brzozowa (1)</a>
+<a class="stop" href="../rozklady/156/2984-ciezkowice.html"><span class="stop-id">2984</span>Jaworzno Dąbrowa Narodowa Długa (1)</a>
+<a class="stop" href="../rozklady/156/2985-ciezkowice.html"><span class="stop-id">2985</span>Jaworzno Dąbrowa Narodowa Spółdzielcza (1)</a>
+<a class="stop" href="../rozklady/156/2987-ciezkowice.html"><span class="stop-id">2987</span>Jaworzno Dąbrowa Narodowa Starowiejska (1)</a>
+<a class="stop" href="../rozklady/156/2990-ciezkowice.html"><span class="stop-id">2990</span>Jaworzno Dąbrowa Narodowa Kapliczka (2)</a>
+<a class="stop" href="../rozklady/156/2992-ciezkowice.html"><span class="stop-id">2992</span>Jaworzno Osiedle Stałe Starowiejska (2)</a>
+<a class="stop" href="../rozklady/156/2994-ciezkowice.html"><span class="stop-id">2994</span>Jaworzno Osiedle Stałe Armii Krajowej (2)</a>
+<a class="stop" href="../rozklady/156/2995-ciezkowice.html"><span class="stop-id">2995</span>Jaworzno Osiedle Stałe (1)</a>
+<a class="stop" href="../rozklady/156/0822-ciezkowice.html"><span class="stop-id">0822</span>Jaworzno Urząd Skarbowy (2)</a>
+<a class="stop" href="../rozklady/156/2998-ciezkowice.html"><span class="stop-id">2998</span>Jaworzno Leopold (2)</a>
+<a class="stop" href="../rozklady/156/3000-ciezkowice.html"><span class="stop-id">3000</span>Jaworzno Podwale 11 Listopada (1)</a>
+<a class="stop" href="../rozklady/156/3001-ciezkowice.html"><span class="stop-id">3001</span>Jaworzno Podwale Licealna (1)</a>
+<a class="stop" href="../rozklady/156/3003-ciezkowice.html"><span class="stop-id">3003</span>Jaworzno Podwale Liceum (2)</a>
+<a class="stop" href="../rozklady/156/3005-ciezkowice.html"><span class="stop-id">3005</span>Jaworzno Podwale (2)</a>
+<a class="stop" href="../rozklady/156/3007-ciezkowice.html"><span class="stop-id">3007</span>Jaworzno Plac Świętego Jana (1)</a>
+<a class="stop" href="../rozklady/156/2680-ciezkowice.html"><span class="stop-id">2680</span>Jaworzno Centrum (1)</a>
+<a class="stop" href="../rozklady/156/2756-ciezkowice.html"><span class="stop-id">2756</span>Jaworzno Urząd Miejski (2)</a>
+<a class="stop" href="../rozklady/156/2757-ciezkowice.html"><span class="stop-id">2757</span>Jaworzno Rogatka (2)</a>
+<a class="stop terminal" href="../rozklady/156/3008-ciezkowice.html"><span class="stop-id">3008</span>Jaworzno Krakowska Pętla (3)</a>
+<a class="stop" href="../rozklady/156/3009-ciezkowice.html"><span class="stop-id">3009</span>Jaworzno Osiedle Skałka (1)</a>
+<a class="stop" href="../rozklady/156/3010-ciezkowice.html"><span class="stop-id">3010</span>Jaworzno Kołłątaja (1)</a>
+<a class="stop" href="../rozklady/156/3022-ciezkowice.html"><span class="stop-id">3022</span>Jaworzno Obwodnica Północna Rondo (2)</a>
+<a class="stop" href="../rozklady/156/3021-ciezkowice.html"><span class="stop-id">3021</span>Jaworzno Dom Pomocy Społecznej (2)</a>
+<a class="stop" href="../rozklady/156/2963-ciezkowice.html"><span class="stop-id">2963</span>Jaworzno Chełmońskiego (1)</a>
+<a class="stop" href="../rozklady/156/2962-ciezkowice.html"><span class="stop-id">2962</span>Jaworzno Szpital (2)</a>
+<a class="stop" href="../rozklady/156/2960-ciezkowice.html"><span class="stop-id">2960</span>Jaworzno Chełmońskiego Pompy (1)</a>
+<a class="stop" href="../rozklady/156/2959-ciezkowice.html"><span class="stop-id">2959</span>Jaworzno Wilkoszyn Chełmońskiego (1)</a>
+<a class="stop" href="../rozklady/156/3013-ciezkowice.html"><span class="stop-id">3013</span>Jaworzno Ciężkowice Dęby (1)</a>
+<a class="stop" href="../rozklady/156/3014-ciezkowice.html"><span class="stop-id">3014</span>Jaworzno Ciężkowice Kapliczka (1)</a>
+<a class="stop" href="../rozklady/156/3015-ciezkowice.html"><span class="stop-id">3015</span>Jaworzno Ciężkowice Górka (1)</a>
+<a class="stop" href="../rozklady/156/3016-ciezkowice.html"><span class="stop-id">3016</span>Jaworzno Ciężkowice Turystyczna (1)</a>
+<a class="stop" href="../rozklady/156/3046-ciezkowice.html"><span class="stop-id">3046</span>Jaworzno Ciężkowice Stadion (1)</a>
+<a class="stop" href="../rozklady/156/3045-ciezkowice.html"><span class="stop-id">3045</span>Jaworzno Ciężkowice Dworzec PKP (1)</a>
+<a class="stop" href="../rozklady/156/3044-ciezkowice.html"><span class="stop-id">3044</span>Jaworzno Ciężkowice Braci Śniadeckich (1)</a>
+<a class="stop" href="../rozklady/156/3043-ciezkowice.html"><span class="stop-id">3043</span>Jaworzno Ciężkowice Szkoła (1)</a>
+<a class="stop" href="../rozklady/156/3042-ciezkowice.html"><span class="stop-id">3042</span>Jaworzno Ciężkowice Kościół (1)</a>
+<a class="stop" href="../rozklady/156/3031-ciezkowice.html"><span class="stop-id">3031</span>Jaworzno Ciężkowice Bagienko (1)</a>
+<a class="stop terminal" href="../rozklady/156/3032-ciezkowice.html"><span class="stop-id">3032</span>Jaworzno Ciężkowice Pętla (1)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Jaworzno Szczotki Pętla</h2>
+
+<div class="zone zone-jaworzno">STREFA JAWORZNO</div>
+<a class="stop terminal" href="../rozklady/156/3032-szczotki.html"><span class="stop-id">3032</span>Jaworzno Ciężkowice Pętla (1)</a>
+<a class="stop" href="../rozklady/156/3041-szczotki.html"><span class="stop-id">3041</span>Jaworzno Ciężkowice Bagienko (2)</a>
+<a class="stop" href="../rozklady/156/3029-szczotki.html"><span class="stop-id">3029</span>Jaworzno Ciężkowice Kościół (2)</a>
+<a class="stop" href="../rozklady/156/3028-szczotki.html"><span class="stop-id">3028</span>Jaworzno Ciężkowice Szkoła (2)</a>
+<a class="stop" href="../rozklady/156/3027-szczotki.html"><span class="stop-id">3027</span>Jaworzno Ciężkowice Braci Śniadeckich (2)</a>
+<a class="stop" href="../rozklady/156/3026-szczotki.html"><span class="stop-id">3026</span>Jaworzno Ciężkowice Dworzec PKP (2)</a>
+<a class="stop" href="../rozklady/156/3025-szczotki.html"><span class="stop-id">3025</span>Jaworzno Ciężkowice Stadion (2)</a>
+<a class="stop" href="../rozklady/156/3017-szczotki.html"><span class="stop-id">3017</span>Jaworzno Ciężkowice Turystyczna (2)</a>
+<a class="stop" href="../rozklady/156/3018-szczotki.html"><span class="stop-id">3018</span>Jaworzno Ciężkowice Górka (2)</a>
+<a class="stop" href="../rozklady/156/3019-szczotki.html"><span class="stop-id">3019</span>Jaworzno Ciężkowice Kapliczka (2)</a>
+<a class="stop" href="../rozklady/156/3020-szczotki.html"><span class="stop-id">3020</span>Jaworzno Ciężkowice Dęby (2)</a>
+<a class="stop" href="../rozklady/156/2967-szczotki.html"><span class="stop-id">2967</span>Jaworzno Wilkoszyn Chełmońskiego (2)</a>
+<a class="stop" href="../rozklady/156/2968-szczotki.html"><span class="stop-id">2968</span>Jaworzno Chełmońskiego Pompy (2)</a>
+<a class="stop" href="../rozklady/156/2966-szczotki.html"><span class="stop-id">2966</span>Jaworzno Szpital (1)</a>
+<a class="stop" href="../rozklady/156/2683-szczotki.html"><span class="stop-id">2683</span>Jaworzno Obrońców Poczty Gdańskiej (1)</a>
+<a class="stop" href="../rozklady/156/3012-szczotki.html"><span class="stop-id">3012</span>Jaworzno Dom Pomocy Społecznej (1)</a>
+<a class="stop" href="../rozklady/156/3011-szczotki.html"><span class="stop-id">3011</span>Jaworzno Obwodnica Północna Rondo (1)</a>
+<a class="stop" href="../rozklady/156/3023-szczotki.html"><span class="stop-id">3023</span>Jaworzno Kołłątaja (2)</a>
+<a class="stop" href="../rozklady/156/3024-szczotki.html"><span class="stop-id">3024</span>Jaworzno Osiedle Skałka (2)</a>
+<a class="stop" href="../rozklady/156/2753-szczotki.html"><span class="stop-id">2753</span>Jaworzno Krakowska Pętla (1)</a>
+<a class="stop" href="../rozklady/156/2754-szczotki.html"><span class="stop-id">2754</span>Jaworzno Rogatka (1)</a>
+<a class="stop" href="../rozklady/156/2755-szczotki.html"><span class="stop-id">2755</span>Jaworzno Urząd Miejski (1)</a>
+<a class="stop" href="../rozklady/156/2681-szczotki.html"><span class="stop-id">2681</span>Jaworzno Centrum (2)</a>
+<a class="stop" href="../rozklady/156/2682-szczotki.html"><span class="stop-id">2682</span>Jaworzno Rynek (1)</a>
+<a class="stop" href="../rozklady/156/3006-szczotki.html"><span class="stop-id">3006</span>Jaworzno Podwale (1)</a>
+<a class="stop" href="../rozklady/156/3004-szczotki.html"><span class="stop-id">3004</span>Jaworzno Podwale Liceum (1)</a>
+<a class="stop" href="../rozklady/156/3002-szczotki.html"><span class="stop-id">3002</span>Jaworzno Podwale Licealna (2)</a>
+<a class="stop" href="../rozklady/156/2999-szczotki.html"><span class="stop-id">2999</span>Jaworzno Podwale 11 Listopada (2)</a>
+<a class="stop" href="../rozklady/156/2997-szczotki.html"><span class="stop-id">2997</span>Jaworzno Leopold (1)</a>
+<a class="stop" href="../rozklady/156/0821-szczotki.html"><span class="stop-id">0821</span>Jaworzno Urząd Skarbowy (1)</a>
+<a class="stop" href="../rozklady/156/2996-szczotki.html"><span class="stop-id">2996</span>Jaworzno Osiedle Stałe (2)</a>
+<a class="stop" href="../rozklady/156/2993-szczotki.html"><span class="stop-id">2993</span>Jaworzno Osiedle Stałe Armii Krajowej (1)</a>
+<a class="stop" href="../rozklady/156/2991-szczotki.html"><span class="stop-id">2991</span>Jaworzno Osiedle Stałe Starowiejska (1)</a>
+<a class="stop" href="../rozklady/156/2989-szczotki.html"><span class="stop-id">2989</span>Jaworzno Dąbrowa Narodowa Kapliczka (1)</a>
+<a class="stop" href="../rozklady/156/2988-szczotki.html"><span class="stop-id">2988</span>Jaworzno Dąbrowa Narodowa Starowiejska (2)</a>
+<a class="stop" href="../rozklady/156/2986-szczotki.html"><span class="stop-id">2986</span>Jaworzno Dąbrowa Narodowa Spółdzielcza (2)</a>
+<a class="stop" href="../rozklady/156/2983-szczotki.html"><span class="stop-id">2983</span>Jaworzno Dąbrowa Narodowa Długa (2)</a>
+<a class="stop" href="../rozklady/156/2982-szczotki.html"><span class="stop-id">2982</span>Jaworzno Dąbrowa Narodowa Brzozowa (2)</a>
+<a class="stop terminal" href="../rozklady/156/0829-szczotki.html"><span class="stop-id">0829</span>Jaworzno Szczotki Pętla (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
