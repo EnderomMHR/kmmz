@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 159</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-jaworzno{
+    background:#ead1dc;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">159</div>
+
+<div class="route">
+Jaworzno Elektrownia Parking - Osiedle Stałe - Jaworzno Centrum - Ciężkowice - Pieczyska - Jaworzno Szczakowa Dworzec PKP
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Jaworzno Szczakowa Dworzec PKP</h2>
+
+<div class="zone zone-jaworzno">STREFA JAWORZNO</div>
+<a class="stop terminal" href="../rozklady/159/3105-szczakowa.html"><span class="stop-id">3105</span>Jaworzno Elektrownia Parking (1)</a>
+<a class="stop" href="../rozklady/159/3106-szczakowa.html"><span class="stop-id">3106</span>Jaworzno Elektrownia Przejazd Kolejowy (1)</a>
+<a class="stop" href="../rozklady/159/3329-szczakowa.html"><span class="stop-id">3329</span>Jaworzno Centrum Kształcenia Zawodowego (2)</a>
+<a class="stop" href="../rozklady/159/3107-szczakowa.html"><span class="stop-id">3107</span>Jaworzno Martyniaków Przejazd Kolejowy (1)</a>
+<a class="stop" href="../rozklady/159/3108-szczakowa.html"><span class="stop-id">3108</span>Jaworzno Martyniaków (1)</a>
+<a class="stop" href="../rozklady/159/3109-szczakowa.html"><span class="stop-id">3109</span>Jaworzno Darwina (1)</a>
+<a class="stop" href="../rozklady/159/3142-szczakowa.html"><span class="stop-id">3142</span>Jaworzno Energetyków (1)</a>
+<a class="stop" href="../rozklady/159/3141-szczakowa.html"><span class="stop-id">3141</span>Jaworzno Wojska Polskiego (1)</a>
+<a class="stop" href="../rozklady/159/2995-szczakowa.html"><span class="stop-id">2995</span>Jaworzno Osiedle Stałe (1)</a>
+<a class="stop" href="../rozklady/159/0822-szczakowa.html"><span class="stop-id">0822</span>Jaworzno Urząd Skarbowy (2)</a>
+<a class="stop" href="../rozklady/159/2998-szczakowa.html"><span class="stop-id">2998</span>Jaworzno Leopold (2)</a>
+<a class="stop" href="../rozklady/159/3140-szczakowa.html"><span class="stop-id">3140</span>Jaworzno Pechnik (1)</a>
+<a class="stop" href="../rozklady/159/3139-szczakowa.html"><span class="stop-id">3139</span>Jaworzno Pechnik Cmentarz (1)</a>
+<a class="stop" href="../rozklady/159/2680-szczakowa.html"><span class="stop-id">2680</span>Jaworzno Centrum (1)</a>
+<a class="stop" href="../rozklady/159/2682-szczakowa.html"><span class="stop-id">2682</span>Jaworzno Rynek (1)</a>
+<a class="stop" href="../rozklady/159/2963-szczakowa.html"><span class="stop-id">2963</span>Jaworzno Chełmońskiego (1)</a>
+<a class="stop" href="../rozklady/159/2962-szczakowa.html"><span class="stop-id">2962</span>Jaworzno Szpital (2)</a>
+<a class="stop" href="../rozklady/159/2960-szczakowa.html"><span class="stop-id">2960</span>Jaworzno Chełmońskiego Pompy (1)</a>
+<a class="stop" href="../rozklady/159/2959-szczakowa.html"><span class="stop-id">2959</span>Jaworzno Wilkoszyn Chełmońskiego (1)</a>
+<a class="stop" href="../rozklady/159/3013-szczakowa.html"><span class="stop-id">3013</span>Jaworzno Ciężkowice Dęby (1)</a>
+<a class="stop" href="../rozklady/159/3014-szczakowa.html"><span class="stop-id">3014</span>Jaworzno Ciężkowice Kapliczka (1)</a>
+<a class="stop" href="../rozklady/159/3015-szczakowa.html"><span class="stop-id">3015</span>Jaworzno Ciężkowice Górka (1)</a>
+<a class="stop" href="../rozklady/159/3016-szczakowa.html"><span class="stop-id">3016</span>Jaworzno Ciężkowice Turystyczna (1)</a>
+<a class="stop" href="../rozklady/159/3046-szczakowa.html"><span class="stop-id">3046</span>Jaworzno Ciężkowice Stadion (1)</a>
+<a class="stop" href="../rozklady/159/3045-szczakowa.html"><span class="stop-id">3045</span>Jaworzno Ciężkowice Dworzec PKP (1)</a>
+<a class="stop" href="../rozklady/159/3044-szczakowa.html"><span class="stop-id">3044</span>Jaworzno Ciężkowice Braci Śniadeckich (1)</a>
+<a class="stop" href="../rozklady/159/3043-szczakowa.html"><span class="stop-id">3043</span>Jaworzno Ciężkowice Szkoła (1)</a>
+<a class="stop" href="../rozklady/159/3042-szczakowa.html"><span class="stop-id">3042</span>Jaworzno Ciężkowice Kościół (1)</a>
+<a class="stop" href="../rozklady/159/3030-szczakowa.html"><span class="stop-id">3030</span>Jaworzno Ciężkowice Bagienko (3)</a>
+<a class="stop" href="../rozklady/159/3033-szczakowa.html"><span class="stop-id">3033</span>Jaworzno Ciężkowice Filomatów (1)</a>
+<a class="stop" href="../rozklady/159/3034-szczakowa.html"><span class="stop-id">3034</span>Jaworzno Ciężkowice Młyny Serafińskie (1)</a>
+<a class="stop" href="../rozklady/159/3035-szczakowa.html"><span class="stop-id">3035</span>Jaworzno Ciężkowice Grabańka (1)</a>
+<a class="stop" href="../rozklady/159/3032-szczakowa.html"><span class="stop-id">3032</span>Jaworzno Ciężkowice Pętla (1)</a>
+<a class="stop" href="../rozklady/159/3041-szczakowa.html"><span class="stop-id">3041</span>Jaworzno Ciężkowice Bagienko (2)</a>
+<a class="stop" href="../rozklady/159/3029-szczakowa.html"><span class="stop-id">3029</span>Jaworzno Ciężkowice Kościół (2)</a>
+<a class="stop" href="../rozklady/159/3028-szczakowa.html"><span class="stop-id">3028</span>Jaworzno Ciężkowice Szkoła (2)</a>
+<a class="stop" href="../rozklady/159/3121-szczakowa.html"><span class="stop-id">3121</span>Jaworzno Ciężkowice Leśniczówka (2)</a>
+<a class="stop" href="../rozklady/159/3122-szczakowa.html"><span class="stop-id">3122</span>Jaworzno Ciężkowice Klinowa (2)</a>
+<a class="stop" href="../rozklady/159/3123-szczakowa.html"><span class="stop-id">3123</span>Jaworzno Ciężkowice Wakacyjna (2)</a>
+<a class="stop" href="../rozklady/159/3124-szczakowa.html"><span class="stop-id">3124</span>Jaworzno Ciężkowice Bobrowa Górka (2)</a>
+<a class="stop" href="../rozklady/159/3125-szczakowa.html"><span class="stop-id">3125</span>Jaworzno Pieczyska Sobieskiego (2)</a>
+<a class="stop" href="../rozklady/159/3098-szczakowa.html"><span class="stop-id">3098</span>Jaworzno Pieczyska Szkoła (1)</a>
+<a class="stop" href="../rozklady/159/3099-szczakowa.html"><span class="stop-id">3099</span>Jaworzno Pieczyska Solskiego (1)</a>
+<a class="stop" href="../rozklady/159/3086-szczakowa.html"><span class="stop-id">3086</span>Jaworzno Park Gródek (1)</a>
+<a class="stop" href="../rozklady/159/3089-szczakowa.html"><span class="stop-id">3089</span>Jaworzno Szczakowa Cmentarz (3)</a>
+<a class="stop" href="../rozklady/159/3084-szczakowa.html"><span class="stop-id">3084</span>Jaworzno Szczakowa Kościół (1)</a>
+<a class="stop" href="../rozklady/159/2696-szczakowa.html"><span class="stop-id">2696</span>Jaworzno Szczakowa Przychodnia (2)</a>
+<a class="stop terminal" href="../rozklady/159/2697-szczakowa.html"><span class="stop-id">2697</span>Jaworzno Szczakowa Dworzec PKP (0)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Jaworzno Elektrownia Parking</h2>
+
+<div class="zone zone-jaworzno">STREFA JAWORZNO</div>
+<a class="stop terminal" href="../rozklady/159/2697-elektrownia.html"><span class="stop-id">2697</span>Jaworzno Szczakowa Dworzec PKP (0)</a>
+<a class="stop" href="../rozklady/159/2698-elektrownia.html"><span class="stop-id">2698</span>Jaworzno Szczakowa Przychodnia (1)</a>
+<a class="stop" href="../rozklady/159/3090-elektrownia.html"><span class="stop-id">3090</span>Jaworzno Szczakowa Kościół (2)</a>
+<a class="stop" href="../rozklady/159/3085-elektrownia.html"><span class="stop-id">3085</span>Jaworzno Szczakowa Cmentarz (1)</a>
+<a class="stop" href="../rozklady/159/3088-elektrownia.html"><span class="stop-id">3088</span>Jaworzno Park Gródek (2)</a>
+<a class="stop" href="../rozklady/159/3098-elektrownia.html"><span class="stop-id">3098</span>Jaworzno Pieczyska Szkoła (1)</a>
+<a class="stop" href="../rozklady/159/3099-elektrownia.html"><span class="stop-id">3099</span>Jaworzno Pieczyska Solskiego (1)</a>
+<a class="stop" href="../rozklady/159/3134-elektrownia.html"><span class="stop-id">3134</span>Jaworzno Pieczyska Sobieskiego (1)</a>
+<a class="stop" href="../rozklady/159/3135-elektrownia.html"><span class="stop-id">3135</span>Jaworzno Ciężkowice Bobrowa Górka (1)</a>
+<a class="stop" href="../rozklady/159/3136-elektrownia.html"><span class="stop-id">3136</span>Jaworzno Ciężkowice Wakacyjna (1)</a>
+<a class="stop" href="../rozklady/159/3137-elektrownia.html"><span class="stop-id">3137</span>Jaworzno Ciężkowice Klinowa (1)</a>
+<a class="stop" href="../rozklady/159/3138-elektrownia.html"><span class="stop-id">3138</span>Jaworzno Ciężkowice Leśniczówka (1)</a>
+<a class="stop" href="../rozklady/159/3043-elektrownia.html"><span class="stop-id">3043</span>Jaworzno Ciężkowice Szkoła (1)</a>
+<a class="stop" href="../rozklady/159/3042-elektrownia.html"><span class="stop-id">3042</span>Jaworzno Ciężkowice Kościół (1)</a>
+<a class="stop" href="../rozklady/159/3030-elektrownia.html"><span class="stop-id">3030</span>Jaworzno Ciężkowice Bagienko (3)</a>
+<a class="stop" href="../rozklady/159/3033-elektrownia.html"><span class="stop-id">3033</span>Jaworzno Ciężkowice Filomatów (1)</a>
+<a class="stop" href="../rozklady/159/3034-elektrownia.html"><span class="stop-id">3034</span>Jaworzno Ciężkowice Młyny Serafińskie (1)</a>
+<a class="stop" href="../rozklady/159/3035-elektrownia.html"><span class="stop-id">3035</span>Jaworzno Ciężkowice Grabańka (1)</a>
+<a class="stop" href="../rozklady/159/3032-elektrownia.html"><span class="stop-id">3032</span>Jaworzno Ciężkowice Pętla (1)</a>
+<a class="stop" href="../rozklady/159/3041-elektrownia.html"><span class="stop-id">3041</span>Jaworzno Ciężkowice Bagienko (2)</a>
+<a class="stop" href="../rozklady/159/3029-elektrownia.html"><span class="stop-id">3029</span>Jaworzno Ciężkowice Kościół (2)</a>
+<a class="stop" href="../rozklady/159/3028-elektrownia.html"><span class="stop-id">3028</span>Jaworzno Ciężkowice Szkoła (2)</a>
+<a class="stop" href="../rozklady/159/3027-elektrownia.html"><span class="stop-id">3027</span>Jaworzno Ciężkowice Braci Śniadeckich (2)</a>
+<a class="stop" href="../rozklady/159/3026-elektrownia.html"><span class="stop-id">3026</span>Jaworzno Ciężkowice Dworzec PKP (2)</a>
+<a class="stop" href="../rozklady/159/3025-elektrownia.html"><span class="stop-id">3025</span>Jaworzno Ciężkowice Stadion (2)</a>
+<a class="stop" href="../rozklady/159/3017-elektrownia.html"><span class="stop-id">3017</span>Jaworzno Ciężkowice Turystyczna (2)</a>
+<a class="stop" href="../rozklady/159/3018-elektrownia.html"><span class="stop-id">3018</span>Jaworzno Ciężkowice Górka (2)</a>
+<a class="stop" href="../rozklady/159/3019-elektrownia.html"><span class="stop-id">3019</span>Jaworzno Ciężkowice Kapliczka (2)</a>
+<a class="stop" href="../rozklady/159/3020-elektrownia.html"><span class="stop-id">3020</span>Jaworzno Ciężkowice Dęby (2)</a>
+<a class="stop" href="../rozklady/159/2967-elektrownia.html"><span class="stop-id">2967</span>Jaworzno Wilkoszyn Chełmońskiego (2)</a>
+<a class="stop" href="../rozklady/159/2968-elektrownia.html"><span class="stop-id">2968</span>Jaworzno Chełmońskiego Pompy (2)</a>
+<a class="stop" href="../rozklady/159/2966-elektrownia.html"><span class="stop-id">2966</span>Jaworzno Szpital (1)</a>
+<a class="stop" href="../rozklady/159/2683-elektrownia.html"><span class="stop-id">2683</span>Jaworzno Obrońców Poczty Gdańskiej (1)</a>
+<a class="stop" href="../rozklady/159/2684-elektrownia.html"><span class="stop-id">2684</span>Jaworzno Biblioteka (1)</a>
+<a class="stop" href="../rozklady/159/2685-elektrownia.html"><span class="stop-id">2685</span>Jaworzno Zielona (1)</a>
+<a class="stop" href="../rozklady/159/2681-elektrownia.html"><span class="stop-id">2681</span>Jaworzno Centrum (2)</a>
+<a class="stop" href="../rozklady/159/3120-elektrownia.html"><span class="stop-id">3120</span>Jaworzno Pechnik Cmentarz (2)</a>
+<a class="stop" href="../rozklady/159/3119-elektrownia.html"><span class="stop-id">3119</span>Jaworzno Pechnik (2)</a>
+<a class="stop" href="../rozklady/159/2997-elektrownia.html"><span class="stop-id">2997</span>Jaworzno Leopold (1)</a>
+<a class="stop" href="../rozklady/159/0821-elektrownia.html"><span class="stop-id">0821</span>Jaworzno Urząd Skarbowy (1)</a>
+<a class="stop" href="../rozklady/159/2996-elektrownia.html"><span class="stop-id">2996</span>Jaworzno Osiedle Stałe (2)</a>
+<a class="stop" href="../rozklady/159/3118-elektrownia.html"><span class="stop-id">3118</span>Jaworzno Wojska Polskiego (2)</a>
+<a class="stop" href="../rozklady/159/3117-elektrownia.html"><span class="stop-id">3117</span>Jaworzno Energetyków (2)</a>
+<a class="stop" href="../rozklady/159/3110-elektrownia.html"><span class="stop-id">3110</span>Jaworzno Darwina (2)</a>
+<a class="stop" href="../rozklady/159/3111-elektrownia.html"><span class="stop-id">3111</span>Jaworzno Martyniaków (2)</a>
+<a class="stop" href="../rozklady/159/3112-elektrownia.html"><span class="stop-id">3112</span>Jaworzno Martyniaków Przejazd Kolejowy (2)</a>
+<a class="stop" href="../rozklady/159/3328-elektrownia.html"><span class="stop-id">3328</span>Jaworzno Centrum Kształcenia Zawodowego (1)</a>
+<a class="stop" href="../rozklady/159/3106-elektrownia.html"><span class="stop-id">3106</span>Jaworzno Elektrownia Przejazd Kolejowy (1)</a>
+<a class="stop terminal" href="../rozklady/159/3105-elektrownia.html"><span class="stop-id">3105</span>Jaworzno Elektrownia Parking (1)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
