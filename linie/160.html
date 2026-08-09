@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 160</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-jaworzno{
+    background:#ead1dc;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">160</div>
+
+<div class="route">
+Jaworzno Cezarówka Dolna Pętla - Byczyna - Bory - Jaworzno Sobieski Pętla - Azot - Jaworzno Centrum - Jaworzno Osiedle Stałe - Dąbrowa Narodowa - Jaworzno Łubowiec Cmentarz Pętla
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Jaworzno Łubowiec Cmentarz Pętla</h2>
+
+<div class="zone zone-jaworzno">STREFA JAWORZNO</div>
+<a class="stop terminal" href="../rozklady/160/1339-lubowiec.html"><span class="stop-id">1339</span>Jaworzno Cezarówka Dolna Pętla (1)</a>
+<a class="stop" href="../rozklady/160/1337-lubowiec.html"><span class="stop-id">1337</span>Jaworzno Cezarówka Dolna Las (1)</a>
+<a class="stop" href="../rozklady/160/2891-lubowiec.html"><span class="stop-id">2891</span>Jaworzno Cezarówka Dolna (2)</a>
+<a class="stop" href="../rozklady/160/3149-lubowiec.html"><span class="stop-id">3149</span>Jaworzno Byczyna Kaczeńców II (1)</a>
+<a class="stop" href="../rozklady/160/3148-lubowiec.html"><span class="stop-id">3148</span>Jaworzno Byczyna Kaczeńców I (1)</a>
+<a class="stop" href="../rozklady/160/3147-lubowiec.html"><span class="stop-id">3147</span>Jaworzno Byczyna Dom Handlowy (1)</a>
+<a class="stop" href="../rozklady/160/3146-lubowiec.html"><span class="stop-id">3146</span>Jaworzno Byczyna Dom Kultury (1)</a>
+<a class="stop" href="../rozklady/160/2884-lubowiec.html"><span class="stop-id">2884</span>Jaworzno Byczyna (1)</a>
+<a class="stop" href="../rozklady/160/2750-lubowiec.html"><span class="stop-id">2750</span>Jaworzno Bory Podgórska (1)</a>
+<a class="stop" href="../rozklady/160/2751-lubowiec.html"><span class="stop-id">2751</span>Jaworzno Bory Czysta (1)</a>
+<a class="stop" href="../rozklady/160/3204-lubowiec.html"><span class="stop-id">3204</span>Jaworzno Bory Niemcewicza (2)</a>
+<a class="stop" href="../rozklady/160/3069-lubowiec.html"><span class="stop-id">3069</span>Jaworzno Bory Tetmajera (1)</a>
+<a class="stop" href="../rozklady/160/3049-lubowiec.html"><span class="stop-id">3049</span>Jaworzno Bory Bielany (2)</a>
+<a class="stop" href="../rozklady/160/3048-lubowiec.html"><span class="stop-id">3048</span>Jaworzno Bory Stroma (2)</a>
+<a class="stop" href="../rozklady/160/3047-lubowiec.html"><span class="stop-id">3047</span>Jaworzno Bory Bielańska (2)</a>
+<a class="stop" href="../rozklady/160/3068-lubowiec.html"><span class="stop-id">3068</span>Jaworzno Bory Rondo (1)</a>
+<a class="stop" href="../rozklady/160/3067-lubowiec.html"><span class="stop-id">3067</span>Jaworzno Stara Huta Reja (1)</a>
+<a class="stop" href="../rozklady/160/3066-lubowiec.html"><span class="stop-id">3066</span>Jaworzno Stara Huta (1)</a>
+<a class="stop" href="../rozklady/160/2736-lubowiec.html"><span class="stop-id">2736</span>Jaworzno Azot (2)</a>
+<a class="stop" href="../rozklady/160/2733-lubowiec.html"><span class="stop-id">2733</span>Jaworzno Szyb Sobieski (1)</a>
+<a class="stop terminal" href="../rozklady/160/2732-lubowiec.html"><span class="stop-id">2732</span>Jaworzno Sobieski Pętla (0)</a>
+<a class="stop" href="../rozklady/160/2734-lubowiec.html"><span class="stop-id">2734</span>Jaworzno Szyb Sobieski (2)</a>
+<a class="stop" href="../rozklady/160/2735-lubowiec.html"><span class="stop-id">2735</span>Jaworzno Azot (1)</a>
+<a class="stop" href="../rozklady/160/3065-lubowiec.html"><span class="stop-id">3065</span>Jaworzno Stara Huta Fabryczna (1)</a>
+<a class="stop" href="../rozklady/160/2741-lubowiec.html"><span class="stop-id">2741</span>Jaworzno Stara Huta Spacerowa (1)</a>
+<a class="stop" href="../rozklady/160/2743-lubowiec.html"><span class="stop-id">2743</span>Jaworzno Matejki Arkady (1)</a>
+<a class="stop" href="../rozklady/160/2745-lubowiec.html"><span class="stop-id">2745</span>Jaworzno Matejki (1)</a>
+<a class="stop" href="../rozklady/160/2681-lubowiec.html"><span class="stop-id">2681</span>Jaworzno Centrum (2)</a>
+<a class="stop" href="../rozklady/160/3120-lubowiec.html"><span class="stop-id">3120</span>Jaworzno Pechnik Cmentarz (2)</a>
+<a class="stop" href="../rozklady/160/3119-lubowiec.html"><span class="stop-id">3119</span>Jaworzno Pechnik (2)</a>
+<a class="stop" href="../rozklady/160/2997-lubowiec.html"><span class="stop-id">2997</span>Jaworzno Leopold (1)</a>
+<a class="stop" href="../rozklady/160/0821-lubowiec.html"><span class="stop-id">0821</span>Jaworzno Urząd Skarbowy (1)</a>
+<a class="stop terminal" href="../rozklady/160/2996-lubowiec.html"><span class="stop-id">2996</span>Jaworzno Osiedle Stałe (2)</a>
+<a class="stop" href="../rozklady/160/2993-lubowiec.html"><span class="stop-id">2993</span>Jaworzno Osiedle Stałe Armii Krajowej (1)</a>
+<a class="stop" href="../rozklady/160/2991-lubowiec.html"><span class="stop-id">2991</span>Jaworzno Osiedle Stałe Starowiejska (1)</a>
+<a class="stop" href="../rozklady/160/3167-lubowiec.html"><span class="stop-id">3167</span>Jaworzno Dąbrowa Narodowa Długoszyńska (2)</a>
+<a class="stop" href="../rozklady/160/3166-lubowiec.html"><span class="stop-id">3166</span>Jaworzno Dąbrowa Narodowa Kościół (2)</a>
+<a class="stop" href="../rozklady/160/3165-lubowiec.html"><span class="stop-id">3165</span>Jaworzno Dąbrowa Narodowa Emilii Plater (2)</a>
+<a class="stop" href="../rozklady/160/3164-lubowiec.html"><span class="stop-id">3164</span>Jaworzno Łubowiec Osiedle (2)</a>
+<a class="stop terminal" href="../rozklady/160/3150-lubowiec.html"><span class="stop-id">3150</span>Jaworzno Łubowiec Cmentarz Pętla (1)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Jaworzno Cezarówka Dolna Pętla</h2>
+
+<div class="zone zone-jaworzno">STREFA JAWORZNO</div>
+<a class="stop terminal" href="../rozklady/160/3150-cezarowka.html"><span class="stop-id">3150</span>Jaworzno Łubowiec Cmentarz Pętla (1)</a>
+<a class="stop" href="../rozklady/160/3151-cezarowka.html"><span class="stop-id">3151</span>Jaworzno Łubowiec Osiedle (1)</a>
+<a class="stop" href="../rozklady/160/3152-cezarowka.html"><span class="stop-id">3152</span>Jaworzno Dąbrowa Narodowa Emilii Plater (1)</a>
+<a class="stop" href="../rozklady/160/3153-cezarowka.html"><span class="stop-id">3153</span>Jaworzno Dąbrowa Narodowa Kościół (1)</a>
+<a class="stop" href="../rozklady/160/3154-cezarowka.html"><span class="stop-id">3154</span>Jaworzno Dąbrowa Narodowa Długoszyńska (1)</a>
+<a class="stop" href="../rozklady/160/2992-cezarowka.html"><span class="stop-id">2992</span>Jaworzno Osiedle Stałe Starowiejska (2)</a>
+<a class="stop" href="../rozklady/160/2994-cezarowka.html"><span class="stop-id">2994</span>Jaworzno Osiedle Stałe Armii Krajowej (2)</a>
+<a class="stop terminal" href="../rozklady/160/2995-cezarowka.html"><span class="stop-id">2995</span>Jaworzno Osiedle Stałe (1)</a>
+<a class="stop" href="../rozklady/160/0822-cezarowka.html"><span class="stop-id">0822</span>Jaworzno Urząd Skarbowy (2)</a>
+<a class="stop" href="../rozklady/160/2998-cezarowka.html"><span class="stop-id">2998</span>Jaworzno Leopold (2)</a>
+<a class="stop" href="../rozklady/160/3140-cezarowka.html"><span class="stop-id">3140</span>Jaworzno Pechnik (1)</a>
+<a class="stop" href="../rozklady/160/3139-cezarowka.html"><span class="stop-id">3139</span>Jaworzno Pechnik Cmentarz (1)</a>
+<a class="stop" href="../rozklady/160/2680-cezarowka.html"><span class="stop-id">2680</span>Jaworzno Centrum (1)</a>
+<a class="stop" href="../rozklady/160/2746-cezarowka.html"><span class="stop-id">2746</span>Jaworzno Matejki (2)</a>
+<a class="stop" href="../rozklady/160/2744-cezarowka.html"><span class="stop-id">2744</span>Jaworzno Matejki Arkady (2)</a>
+<a class="stop" href="../rozklady/160/2741-cezarowka.html"><span class="stop-id">2741</span>Jaworzno Stara Huta Spacerowa (1)</a>
+<a class="stop" href="../rozklady/160/3054-cezarowka.html"><span class="stop-id">3054</span>Jaworzno Stara Huta Fabryczna (2)</a>
+<a class="stop" href="../rozklady/160/2736-cezarowka.html"><span class="stop-id">2736</span>Jaworzno Azot (2)</a>
+<a class="stop" href="../rozklady/160/2733-cezarowka.html"><span class="stop-id">2733</span>Jaworzno Szyb Sobieski (1)</a>
+<a class="stop terminal" href="../rozklady/160/2732-cezarowka.html"><span class="stop-id">2732</span>Jaworzno Sobieski Pętla (0)</a>
+<a class="stop" href="../rozklady/160/2734-cezarowka.html"><span class="stop-id">2734</span>Jaworzno Szyb Sobieski (2)</a>
+<a class="stop" href="../rozklady/160/2735-cezarowka.html"><span class="stop-id">2735</span>Jaworzno Azot (1)</a>
+<a class="stop" href="../rozklady/160/3053-cezarowka.html"><span class="stop-id">3053</span>Jaworzno Stara Huta (2)</a>
+<a class="stop" href="../rozklady/160/3052-cezarowka.html"><span class="stop-id">3052</span>Jaworzno Stara Huta Reja (2)</a>
+<a class="stop" href="../rozklady/160/3051-cezarowka.html"><span class="stop-id">3051</span>Jaworzno Bory Rondo (2)</a>
+<a class="stop" href="../rozklady/160/3072-cezarowka.html"><span class="stop-id">3072</span>Jaworzno Bory Bielańska (1)</a>
+<a class="stop" href="../rozklady/160/3071-cezarowka.html"><span class="stop-id">3071</span>Jaworzno Bory Stroma (1)</a>
+<a class="stop" href="../rozklady/160/3070-cezarowka.html"><span class="stop-id">3070</span>Jaworzno Bory Bielany (1)</a>
+<a class="stop" href="../rozklady/160/3050-cezarowka.html"><span class="stop-id">3050</span>Jaworzno Bory Tetmajera (2)</a>
+<a class="stop" href="../rozklady/160/3212-cezarowka.html"><span class="stop-id">3212</span>Jaworzno Bory Niemcewicza (1)</a>
+<a class="stop" href="../rozklady/160/2760-cezarowka.html"><span class="stop-id">2760</span>Jaworzno Bory Czysta (2)</a>
+<a class="stop" href="../rozklady/160/3104-cezarowka.html"><span class="stop-id">3104</span>Jaworzno Bory Podgórska (2)</a>
+<a class="stop" href="../rozklady/160/2890-cezarowka.html"><span class="stop-id">2890</span>Jaworzno Byczyna (2)</a>
+<a class="stop" href="../rozklady/160/3160-cezarowka.html"><span class="stop-id">3160</span>Jaworzno Byczyna Dom Kultury (2)</a>
+<a class="stop" href="../rozklady/160/3161-cezarowka.html"><span class="stop-id">3161</span>Jaworzno Byczyna Dom Handlowy (2)</a>
+<a class="stop" href="../rozklady/160/3162-cezarowka.html"><span class="stop-id">3162</span>Jaworzno Byczyna Kaczeńców I (2)</a>
+<a class="stop" href="../rozklady/160/3163-cezarowka.html"><span class="stop-id">3163</span>Jaworzno Byczyna Kaczeńców II (2)</a>
+<a class="stop" href="../rozklady/160/2883-cezarowka.html"><span class="stop-id">2883</span>Jaworzno Cezarówka Dolna (1)</a>
+<a class="stop" href="../rozklady/160/1338-cezarowka.html"><span class="stop-id">1338</span>Jaworzno Cezarówka Dolna Las (2)</a>
+<a class="stop terminal" href="../rozklady/160/1339-cezarowka.html"><span class="stop-id">1339</span>Jaworzno Cezarówka Dolna Pętla (1)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
