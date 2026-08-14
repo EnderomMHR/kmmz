@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 166</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-jaworzno{
+    background:#ead1dc;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">166</div>
+
+<div class="route">
+(Jaworzno Łubowiec Cmentarz Pętla) - (Dąbrowa Narodowa) - Jaworzno Osiedle Stałe Cmentarz Pętla - Dąbrowa Narodowa - Osiedle Stałe - Podwale - Jaworzno Szpital Pętla
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Jaworzno Szpital Pętla</h2>
+
+<div class="zone zone-jaworzno">STREFA JAWORZNO</div>
+<a class="stop variant terminal" href="../rozklady/166/3150-szpital.html"><span class="stop-id">3150</span>Jaworzno Łubowiec Cmentarz Pętla (1)</a>
+<a class="stop variant" href="../rozklady/166/3151-szpital.html"><span class="stop-id">3151</span>Jaworzno Łubowiec Osiedle (1)</a>
+<a class="stop variant" href="../rozklady/166/3152-szpital.html"><span class="stop-id">3152</span>Jaworzno Dąbrowa Narodowa Emilii Plater (1)</a>
+<a class="stop variant" href="../rozklady/166/3153-szpital.html"><span class="stop-id">3153</span>Jaworzno Dąbrowa Narodowa Kościół (1)</a>
+<a class="stop variant" href="../rozklady/166/3154-szpital.html"><span class="stop-id">3154</span>Jaworzno Dąbrowa Narodowa Długoszyńska (1)</a>
+<a class="stop variant" href="../rozklady/166/3168-szpital.html"><span class="stop-id">3168</span>Jaworzno Dąbrowa Narodowa Długoszyńska II (2)</a>
+<a class="stop variant" href="../rozklady/166/3169-szpital.html"><span class="stop-id">3169</span>Jaworzno Dąbrowa Narodowa Storczyków (2)</a>
+<a class="stop terminal" href="../rozklady/166/3171-szpital.html"><span class="stop-id">3171</span>Jaworzno Osiedle Stałe Cmentarz Pętla (2)</a>
+<a class="stop" href="../rozklady/166/3156-szpital.html"><span class="stop-id">3156</span>Jaworzno Dąbrowa Narodowa Storczyków (1)</a>
+<a class="stop" href="../rozklady/166/3155-szpital.html"><span class="stop-id">3155</span>Jaworzno Dąbrowa Narodowa Długoszyńska II (1)</a>
+<a class="stop" href="../rozklady/166/3188-szpital.html"><span class="stop-id">3188</span>Jaworzno Osiedle Stałe Sempołowskiej (1)</a>
+<a class="stop" href="../rozklady/166/2994-szpital.html"><span class="stop-id">2994</span>Jaworzno Osiedle Stałe Armii Krajowej (2)</a>
+<a class="stop" href="../rozklady/166/2995-szpital.html"><span class="stop-id">2995</span>Jaworzno Osiedle Stałe (1)</a>
+<a class="stop" href="../rozklady/166/0822-szpital.html"><span class="stop-id">0822</span>Jaworzno Urząd Skarbowy (2)</a>
+<a class="stop" href="../rozklady/166/2998-szpital.html"><span class="stop-id">2998</span>Jaworzno Leopold (2)</a>
+<a class="stop" href="../rozklady/166/3000-szpital.html"><span class="stop-id">3000</span>Jaworzno Podwale 11 Listopada (1)</a>
+<a class="stop" href="../rozklady/166/3001-szpital.html"><span class="stop-id">3001</span>Jaworzno Podwale Licealna (1)</a>
+<a class="stop" href="../rozklady/166/3003-szpital.html"><span class="stop-id">3003</span>Jaworzno Podwale Liceum (2)</a>
+<a class="stop" href="../rozklady/166/3005-szpital.html"><span class="stop-id">3005</span>Jaworzno Podwale (2)</a>
+<a class="stop" href="../rozklady/166/3007-szpital.html"><span class="stop-id">3007</span>Jaworzno Plac Świętego Jana (1)</a>
+<a class="stop" href="../rozklady/166/2680-szpital.html"><span class="stop-id">2680</span>Jaworzno Centrum (1)</a>
+<a class="stop" href="../rozklady/166/2682-szpital.html"><span class="stop-id">2682</span>Jaworzno Rynek (1)</a>
+<a class="stop" href="../rozklady/166/2963-szpital.html"><span class="stop-id">2963</span>Jaworzno Chełmońskiego (1)</a>
+<a class="stop" href="../rozklady/166/2962-szpital.html"><span class="stop-id">2962</span>Jaworzno Szpital (2)</a>
+<a class="stop terminal" href="../rozklady/166/2961-szpital.html"><span class="stop-id">2961</span>Jaworzno Szpital Pętla (1)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Jaworzno Osiedle Stałe Cmentarz Pętla</h2>
+
+<div class="zone zone-jaworzno">STREFA JAWORZNO</div>
+<a class="stop terminal" href="../rozklady/166/2961-stale.html"><span class="stop-id">2961</span>Jaworzno Szpital Pętla (1)</a>
+<a class="stop" href="../rozklady/166/2966-stale.html"><span class="stop-id">2966</span>Jaworzno Szpital (1)</a>
+<a class="stop" href="../rozklady/166/2683-stale.html"><span class="stop-id">2683</span>Jaworzno Obrońców Poczty Gdańskiej (1)</a>
+<a class="stop" href="../rozklady/166/2684-stale.html"><span class="stop-id">2684</span>Jaworzno Biblioteka (1)</a>
+<a class="stop" href="../rozklady/166/2685-stale.html"><span class="stop-id">2685</span>Jaworzno Zielona (1)</a>
+<a class="stop" href="../rozklady/166/2681-stale.html"><span class="stop-id">2681</span>Jaworzno Centrum (2)</a>
+<a class="stop" href="../rozklady/166/2682-stale.html"><span class="stop-id">2682</span>Jaworzno Rynek (1)</a>
+<a class="stop" href="../rozklady/166/3006-stale.html"><span class="stop-id">3006</span>Jaworzno Podwale (1)</a>
+<a class="stop" href="../rozklady/166/3004-stale.html"><span class="stop-id">3004</span>Jaworzno Podwale Liceum (1)</a>
+<a class="stop" href="../rozklady/166/3002-stale.html"><span class="stop-id">3002</span>Jaworzno Podwale Licealna (2)</a>
+<a class="stop" href="../rozklady/166/2999-stale.html"><span class="stop-id">2999</span>Jaworzno Podwale 11 Listopada (2)</a>
+<a class="stop" href="../rozklady/166/2997-stale.html"><span class="stop-id">2997</span>Jaworzno Leopold (1)</a>
+<a class="stop" href="../rozklady/166/0821-stale.html"><span class="stop-id">0821</span>Jaworzno Urząd Skarbowy (1)</a>
+<a class="stop" href="../rozklady/166/2996-stale.html"><span class="stop-id">2996</span>Jaworzno Osiedle Stałe (2)</a>
+<a class="stop" href="../rozklady/166/2993-stale.html"><span class="stop-id">2993</span>Jaworzno Osiedle Stałe Armii Krajowej (1)</a>
+<a class="stop" href="../rozklady/166/3189-stale.html"><span class="stop-id">3189</span>Jaworzno Osiedle Stałe Sempołowskiej (2)</a>
+<a class="stop" href="../rozklady/166/3168-stale.html"><span class="stop-id">3168</span>Jaworzno Dąbrowa Narodowa Długoszyńska II (2)</a>
+<a class="stop" href="../rozklady/166/3169-stale.html"><span class="stop-id">3169</span>Jaworzno Dąbrowa Narodowa Storczyków (2)</a>
+<a class="stop terminal" href="../rozklady/166/3170-stale.html"><span class="stop-id">3170</span>Jaworzno Osiedle Stałe Cmentarz Pętla (1)</a>
+<a class="stop variant" href="../rozklady/166/3171-stale.html"><span class="stop-id">3171</span>Jaworzno Osiedle Stałe Cmentarz Pętla (2)</a>
+<a class="stop variant" href="../rozklady/166/3156-stale.html"><span class="stop-id">3156</span>Jaworzno Dąbrowa Narodowa Storczyków (1)</a>
+<a class="stop variant" href="../rozklady/166/3167-stale.html"><span class="stop-id">3167</span>Jaworzno Dąbrowa Narodowa Długoszyńska (2)</a>
+<a class="stop variant" href="../rozklady/166/3166-stale.html"><span class="stop-id">3166</span>Jaworzno Dąbrowa Narodowa Kościół (2)</a>
+<a class="stop variant" href="../rozklady/166/3165-stale.html"><span class="stop-id">3165</span>Jaworzno Dąbrowa Narodowa Emilii Plater (2)</a>
+<a class="stop variant" href="../rozklady/166/3164-stale.html"><span class="stop-id">3164</span>Jaworzno Łubowiec Osiedle (2)</a>
+<a class="stop variant terminal" href="../rozklady/166/3150-stale.html"><span class="stop-id">3150</span>Jaworzno Łubowiec Cmentarz Pętla (1)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
