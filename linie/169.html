@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 169</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-jaworzno{
+    background:#ead1dc;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">169</div>
+
+<div class="route">
+Jaworzno Jeleń Dąb Pętla - Jeleń - Jaworzno Jeleń Łęg Pętla - Azot - Stara Huta - Jaworzno Centrum - Podwale - Osiedle Stałe - Dąbrowa Narodowa - Jaworzno Łubowiec Pętla
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Jaworzno Łubowiec Pętla</h2>
+
+<div class="zone zone-jaworzno">STREFA JAWORZNO</div>
+<a class="stop terminal" href="../rozklady/169/2706-lubowiec.html"><span class="stop-id">2706</span>Jaworzno Jeleń Dąb Pętla (1)</a>
+<a class="stop" href="../rozklady/169/2707-lubowiec.html"><span class="stop-id">2707</span>Jaworzno Jeleń Dąb Kapliczka (1)</a>
+<a class="stop" href="../rozklady/169/2725-lubowiec.html"><span class="stop-id">2725</span>Jaworzno Jeleń Dąb Sklep (2)</a>
+<a class="stop" href="../rozklady/169/2709-lubowiec.html"><span class="stop-id">2709</span>Jaworzno Jeleń Dąb Leśniczówka (1)</a>
+<a class="stop" href="../rozklady/169/2723-lubowiec.html"><span class="stop-id">2723</span>Jaworzno Jeleń Park Przemysłowy (2)</a>
+<a class="stop" href="../rozklady/169/2721-lubowiec.html"><span class="stop-id">2721</span>Jaworzno Jeleń Piekarnia (2)</a>
+<a class="stop" href="../rozklady/169/2720-lubowiec.html"><span class="stop-id">2720</span>Jaworzno Jeleń Szkoła (2)</a>
+<a class="stop" href="../rozklady/169/2714-lubowiec.html"><span class="stop-id">2714</span>Jaworzno Jeleń Dom Kultury (1)</a>
+<a class="stop" href="../rozklady/169/2715-lubowiec.html"><span class="stop-id">2715</span>Jaworzno Jeleń Przedszkole (1)</a>
+<a class="stop" href="../rozklady/169/2950-lubowiec.html"><span class="stop-id">2950</span>Jaworzno Jeleń Rynek (4)</a>
+<a class="stop" href="../rozklady/169/2951-lubowiec.html"><span class="stop-id">2951</span>Jaworzno Jeleń Kościół (2)</a>
+<a class="stop" href="../rozklady/169/2952-lubowiec.html"><span class="stop-id">2952</span>Jaworzno Jeleń Dolna (2)</a>
+<a class="stop" href="../rozklady/169/2930-lubowiec.html"><span class="stop-id">2930</span>Jaworzno Jeleń Wielki Dół (1)</a>
+<a class="stop" href="../rozklady/169/2954-lubowiec.html"><span class="stop-id">2954</span>Jaworzno Jeleń Łęg Pawilon (2)</a>
+<a class="stop terminal" href="../rozklady/169/2928-lubowiec.html"><span class="stop-id">2928</span>Jaworzno Jeleń Łęg Pętla (1)</a>
+<a class="stop" href="../rozklady/169/2929-lubowiec.html"><span class="stop-id">2929</span>Jaworzno Jeleń Łęg Pawilon (1)</a>
+<a class="stop" href="../rozklady/169/2953-lubowiec.html"><span class="stop-id">2953</span>Jaworzno Jeleń Wielki Dół (2)</a>
+<a class="stop" href="../rozklady/169/2931-lubowiec.html"><span class="stop-id">2931</span>Jaworzno Jeleń Dolna (1)</a>
+<a class="stop" href="../rozklady/169/2932-lubowiec.html"><span class="stop-id">2932</span>Jaworzno Jeleń Kościół (1)</a>
+<a class="stop" href="../rozklady/169/2716-lubowiec.html"><span class="stop-id">2716</span>Jaworzno Jeleń Rynek (1)</a>
+<a class="stop" href="../rozklady/169/2728-lubowiec.html"><span class="stop-id">2728</span>Jaworzno Jeleń Cmentarz (1)</a>
+<a class="stop" href="../rozklady/169/2730-lubowiec.html"><span class="stop-id">2730</span>Jaworzno Jeleń Lipinka (1)</a>
+<a class="stop" href="../rozklady/169/2732-lubowiec.html"><span class="stop-id">2732</span>Jaworzno Sobieski Pętla (0)</a>
+<a class="stop" href="../rozklady/169/2734-lubowiec.html"><span class="stop-id">2734</span>Jaworzno Szyb Sobieski (2)</a>
+<a class="stop" href="../rozklady/169/2735-lubowiec.html"><span class="stop-id">2735</span>Jaworzno Azot (1)</a>
+<a class="stop" href="../rozklady/169/2738-lubowiec.html"><span class="stop-id">2738</span>Jaworzno Organika (1)</a>
+<a class="stop" href="../rozklady/169/2740-lubowiec.html"><span class="stop-id">2740</span>Jaworzno Azot Osiedle (2)</a>
+<a class="stop" href="../rozklady/169/2742-lubowiec.html"><span class="stop-id">2742</span>Jaworzno Stara Huta Spacerowa (2)</a>
+<a class="stop" href="../rozklady/169/2743-lubowiec.html"><span class="stop-id">2743</span>Jaworzno Matejki Arkady (1)</a>
+<a class="stop" href="../rozklady/169/2745-lubowiec.html"><span class="stop-id">2745</span>Jaworzno Matejki (1)</a>
+<a class="stop terminal" href="../rozklady/169/2681-lubowiec.html"><span class="stop-id">2681</span>Jaworzno Centrum (2)</a>
+<a class="stop" href="../rozklady/169/2682-lubowiec.html"><span class="stop-id">2682</span>Jaworzno Rynek (1)</a>
+<a class="stop" href="../rozklady/169/3006-lubowiec.html"><span class="stop-id">3006</span>Jaworzno Podwale (1)</a>
+<a class="stop" href="../rozklady/169/3004-lubowiec.html"><span class="stop-id">3004</span>Jaworzno Podwale Liceum (1)</a>
+<a class="stop" href="../rozklady/169/3002-lubowiec.html"><span class="stop-id">3002</span>Jaworzno Podwale Licealna (2)</a>
+<a class="stop" href="../rozklady/169/2999-lubowiec.html"><span class="stop-id">2999</span>Jaworzno Podwale 11 Listopada (2)</a>
+<a class="stop" href="../rozklady/169/2997-lubowiec.html"><span class="stop-id">2997</span>Jaworzno Leopold (1)</a>
+<a class="stop" href="../rozklady/169/0821-lubowiec.html"><span class="stop-id">0821</span>Jaworzno Urząd Skarbowy (1)</a>
+<a class="stop" href="../rozklady/169/2996-lubowiec.html"><span class="stop-id">2996</span>Jaworzno Osiedle Stałe (2)</a>
+<a class="stop" href="../rozklady/169/3192-lubowiec.html"><span class="stop-id">3192</span>Jaworzno Osiedle Stałe Kalinowa (1)</a>
+<a class="stop" href="../rozklady/169/3190-lubowiec.html"><span class="stop-id">3190</span>Jaworzno Dąbrowa Narodowa Dąbrowska (1)</a>
+<a class="stop" href="../rozklady/169/3166-lubowiec.html"><span class="stop-id">3166</span>Jaworzno Dąbrowa Narodowa Kościół (2)</a>
+<a class="stop terminal" href="../rozklady/169/3195-lubowiec.html"><span class="stop-id">3195</span>Jaworzno Łubowiec Pętla (1)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Jaworzno Jeleń Dąb Pętla</h2>
+
+<div class="zone zone-jaworzno">STREFA JAWORZNO</div>
+<a class="stop terminal" href="../rozklady/169/3194-dab.html"><span class="stop-id">3194</span>Jaworzno Łubowiec (1)</a>
+<a class="stop" href="../rozklady/169/3153-dab.html"><span class="stop-id">3153</span>Jaworzno Dąbrowa Narodowa Kościół (1)</a>
+<a class="stop" href="../rozklady/169/3191-dab.html"><span class="stop-id">3191</span>Jaworzno Dąbrowa Narodowa Dąbrowska (2)</a>
+<a class="stop" href="../rozklady/169/3193-dab.html"><span class="stop-id">3193</span>Jaworzno Osiedle Stałe Kalinowa (2)</a>
+<a class="stop" href="../rozklady/169/2995-dab.html"><span class="stop-id">2995</span>Jaworzno Osiedle Stałe (1)</a>
+<a class="stop" href="../rozklady/169/0822-dab.html"><span class="stop-id">0822</span>Jaworzno Urząd Skarbowy (2)</a>
+<a class="stop" href="../rozklady/169/2998-dab.html"><span class="stop-id">2998</span>Jaworzno Leopold (2)</a>
+<a class="stop" href="../rozklady/169/3000-dab.html"><span class="stop-id">3000</span>Jaworzno Podwale 11 Listopada (1)</a>
+<a class="stop" href="../rozklady/169/3001-dab.html"><span class="stop-id">3001</span>Jaworzno Podwale Licealna (1)</a>
+<a class="stop" href="../rozklady/169/3003-dab.html"><span class="stop-id">3003</span>Jaworzno Podwale Liceum (2)</a>
+<a class="stop" href="../rozklady/169/3005-dab.html"><span class="stop-id">3005</span>Jaworzno Podwale (2)</a>
+<a class="stop" href="../rozklady/169/3007-dab.html"><span class="stop-id">3007</span>Jaworzno Plac Świętego Jana (1)</a>
+<a class="stop terminal" href="../rozklady/169/2680-dab.html"><span class="stop-id">2680</span>Jaworzno Centrum (1)</a>
+<a class="stop" href="../rozklady/169/2746-dab.html"><span class="stop-id">2746</span>Jaworzno Matejki (2)</a>
+<a class="stop" href="../rozklady/169/2744-dab.html"><span class="stop-id">2744</span>Jaworzno Matejki Arkady (2)</a>
+<a class="stop" href="../rozklady/169/2741-dab.html"><span class="stop-id">2741</span>Jaworzno Stara Huta Spacerowa (1)</a>
+<a class="stop" href="../rozklady/169/2739-dab.html"><span class="stop-id">2739</span>Jaworzno Azot Osiedle (1)</a>
+<a class="stop" href="../rozklady/169/2737-dab.html"><span class="stop-id">2737</span>Jaworzno Organika (2)</a>
+<a class="stop" href="../rozklady/169/2736-dab.html"><span class="stop-id">2736</span>Jaworzno Azot (2)</a>
+<a class="stop" href="../rozklady/169/2733-dab.html"><span class="stop-id">2733</span>Jaworzno Szyb Sobieski (1)</a>
+<a class="stop" href="../rozklady/169/2732-dab.html"><span class="stop-id">2732</span>Jaworzno Sobieski Pętla (0)</a>
+<a class="stop" href="../rozklady/169/2731-dab.html"><span class="stop-id">2731</span>Jaworzno Jeleń Lipinka (2)</a>
+<a class="stop" href="../rozklady/169/2729-dab.html"><span class="stop-id">2729</span>Jaworzno Jeleń Cmentarz (2)</a>
+<a class="stop" href="../rozklady/169/2950-dab.html"><span class="stop-id">2950</span>Jaworzno Jeleń Rynek (4)</a>
+<a class="stop" href="../rozklady/169/2951-dab.html"><span class="stop-id">2951</span>Jaworzno Jeleń Kościół (2)</a>
+<a class="stop" href="../rozklady/169/2952-dab.html"><span class="stop-id">2952</span>Jaworzno Jeleń Dolna (2)</a>
+<a class="stop" href="../rozklady/169/2930-dab.html"><span class="stop-id">2930</span>Jaworzno Jeleń Wielki Dół (1)</a>
+<a class="stop" href="../rozklady/169/2954-dab.html"><span class="stop-id">2954</span>Jaworzno Jeleń Łęg Pawilon (2)</a>
+<a class="stop terminal" href="../rozklady/169/2928-dab.html"><span class="stop-id">2928</span>Jaworzno Jeleń Łęg Pętla (1)</a>
+<a class="stop" href="../rozklady/169/2929-dab.html"><span class="stop-id">2929</span>Jaworzno Jeleń Łęg Pawilon (1)</a>
+<a class="stop" href="../rozklady/169/2953-dab.html"><span class="stop-id">2953</span>Jaworzno Jeleń Wielki Dół (2)</a>
+<a class="stop" href="../rozklady/169/2931-dab.html"><span class="stop-id">2931</span>Jaworzno Jeleń Dolna (1)</a>
+<a class="stop" href="../rozklady/169/2932-dab.html"><span class="stop-id">2932</span>Jaworzno Jeleń Kościół (1)</a>
+<a class="stop" href="../rozklady/169/2933-dab.html"><span class="stop-id">2933</span>Jaworzno Jeleń Rynek (3)</a>
+<a class="stop" href="../rozklady/169/2718-dab.html"><span class="stop-id">2718</span>Jaworzno Jeleń Przedszkole (2)</a>
+<a class="stop" href="../rozklady/169/2719-dab.html"><span class="stop-id">2719</span>Jaworzno Jeleń Dom Kultury (2)</a>
+<a class="stop" href="../rozklady/169/2713-dab.html"><span class="stop-id">2713</span>Jaworzno Jeleń Szkoła (1)</a>
+<a class="stop" href="../rozklady/169/2712-dab.html"><span class="stop-id">2712</span>Jaworzno Jeleń Piekarnia (1)</a>
+<a class="stop" href="../rozklady/169/2710-dab.html"><span class="stop-id">2710</span>Jaworzno Jeleń Park Przemysłowy (1)</a>
+<a class="stop" href="../rozklady/169/2724-dab.html"><span class="stop-id">2724</span>Jaworzno Jeleń Dąb Leśniczówka (2)</a>
+<a class="stop" href="../rozklady/169/2708-dab.html"><span class="stop-id">2708</span>Jaworzno Jeleń Dąb Sklep (1)</a>
+<a class="stop" href="../rozklady/169/2726-dab.html"><span class="stop-id">2726</span>Jaworzno Jeleń Dąb Kapliczka (2)</a>
+<a class="stop terminal" href="../rozklady/169/2706-dab.html"><span class="stop-id">2706</span>Jaworzno Jeleń Dąb Pętla (1)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
