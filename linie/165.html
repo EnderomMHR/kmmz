@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 165</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-jaworzno{
+    background:#ead1dc;
+    color:#222;
+}
+
+.zone-chrzanow{
+    background:#a4c2f4;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">165</div>
+
+<div class="route">
+Jaworzno Osiedle Stałe Cmentarz Pętla - Dąbrowa Narodowa - Osiedle Stałe - Podwale - Jaworzno Centrum - Jaworzno Krakowska Pętla - Bory - Byczyna - Cezarówka Dolna - Kąty - Chrzanów Osiedle Młodości Witosa
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Chrzanów Osiedle Młodości Witosa</h2>
+
+<div class="zone zone-jaworzno">STREFA JAWORZNO</div>
+<a class="stop terminal" href="../rozklady/165/3171-chrzanow.html"><span class="stop-id">3171</span>Jaworzno Osiedle Stałe Cmentarz Pętla (2)</a>
+<a class="stop" href="../rozklady/165/3156-chrzanow.html"><span class="stop-id">3156</span>Jaworzno Dąbrowa Narodowa Storczyków (1)</a>
+<a class="stop" href="../rozklady/165/3155-chrzanow.html"><span class="stop-id">3155</span>Jaworzno Dąbrowa Narodowa Długoszyńska II (1)</a>
+<a class="stop" href="../rozklady/165/3188-chrzanow.html"><span class="stop-id">3188</span>Jaworzno Osiedle Stałe Sempołowskiej (1)</a>
+<a class="stop" href="../rozklady/165/2994-chrzanow.html"><span class="stop-id">2994</span>Jaworzno Osiedle Stałe Armii Krajowej (2)</a>
+<a class="stop terminal" href="../rozklady/165/2995-chrzanow.html"><span class="stop-id">2995</span>Jaworzno Osiedle Stałe (1)</a>
+<a class="stop" href="../rozklady/165/0822-chrzanow.html"><span class="stop-id">0822</span>Jaworzno Urząd Skarbowy (2)</a>
+<a class="stop" href="../rozklady/165/2998-chrzanow.html"><span class="stop-id">2998</span>Jaworzno Leopold (2)</a>
+<a class="stop" href="../rozklady/165/3000-chrzanow.html"><span class="stop-id">3000</span>Jaworzno Podwale 11 Listopada (1)</a>
+<a class="stop" href="../rozklady/165/3001-chrzanow.html"><span class="stop-id">3001</span>Jaworzno Podwale Licealna (1)</a>
+<a class="stop" href="../rozklady/165/3003-chrzanow.html"><span class="stop-id">3003</span>Jaworzno Podwale Liceum (2)</a>
+<a class="stop" href="../rozklady/165/3005-chrzanow.html"><span class="stop-id">3005</span>Jaworzno Podwale (2)</a>
+<a class="stop" href="../rozklady/165/3007-chrzanow.html"><span class="stop-id">3007</span>Jaworzno Plac Świętego Jana (1)</a>
+<a class="stop" href="../rozklady/165/2680-chrzanow.html"><span class="stop-id">2680</span>Jaworzno Centrum (1)</a>
+<a class="stop" href="../rozklady/165/2756-chrzanow.html"><span class="stop-id">2756</span>Jaworzno Urząd Miejski (2)</a>
+<a class="stop" href="../rozklady/165/2757-chrzanow.html"><span class="stop-id">2757</span>Jaworzno Rogatka (2)</a>
+<a class="stop variant terminal" href="../rozklady/165/3202-chrzanow.html"><span class="stop-id">3202</span>Jaworzno Krakowska Pętla (4)</a>
+<a class="stop" href="../rozklady/165/2758-chrzanow.html"><span class="stop-id">2758</span>Jaworzno Krakowska Pętla (2)</a>
+<a class="stop" href="../rozklady/165/2752-chrzanow.html"><span class="stop-id">2752</span>Jaworzno Stadion Miejski (1)</a>
+<a class="stop" href="../rozklady/165/2760-chrzanow.html"><span class="stop-id">2760</span>Jaworzno Bory Czysta (2)</a>
+<a class="stop" href="../rozklady/165/3104-chrzanow.html"><span class="stop-id">3104</span>Jaworzno Bory Podgórska (2)</a>
+<a class="stop" href="../rozklady/165/2890-chrzanow.html"><span class="stop-id">2890</span>Jaworzno Byczyna (2)</a>
+<a class="stop" href="../rozklady/165/3114-chrzanow.html"><span class="stop-id">3114</span>Jaworzno Byczyna Szkoła (2)</a>
+<a class="stop" href="../rozklady/165/2883-chrzanow.html"><span class="stop-id">2883</span>Jaworzno Cezarówka Dolna (1)</a>
+<a class="stop" href="../rozklady/165/1335-chrzanow.html"><span class="stop-id">1335</span>Jaworzno Cezarówka Dolna Autostrada (1)</a>
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+<a class="stop" href="../rozklady/165/1521-chrzanow.html"><span class="stop-id">1521</span>Chrzanów Kąty Autostrada (2)</a>
+<a class="stop" href="../rozklady/165/0111-chrzanow.html"><span class="stop-id">0111</span>Chrzanów Kąty Osiedle Malarzy (2)</a>
+<a class="stop" href="../rozklady/165/0112-chrzanow.html"><span class="stop-id">0112</span>Chrzanów Kąty Kościół (2)</a>
+<a class="stop" href="../rozklady/165/0113-chrzanow.html"><span class="stop-id">0113</span>Chrzanów Kąty Bloki (2)</a>
+<a class="stop" href="../rozklady/165/0114-chrzanow.html"><span class="stop-id">0114</span>Chrzanów Księdza Skorupki (0)</a>
+<a class="stop" href="../rozklady/165/0115-chrzanow.html"><span class="stop-id">0115</span>Chrzanów Plac Tysiąclecia (2)</a>
+<a class="stop" href="../rozklady/165/0684-chrzanow.html"><span class="stop-id">0684</span>Chrzanów Dworzec Autobusowy (2)</a>
+<a class="stop" href="../rozklady/165/0567-chrzanow.html"><span class="stop-id">0567</span>Chrzanów Głowackiego (1)</a>
+<a class="stop" href="../rozklady/165/0568-chrzanow.html"><span class="stop-id">0568</span>Chrzanów Pogorska Szkoła (2)</a>
+<a class="stop" href="../rozklady/165/0569-chrzanow.html"><span class="stop-id">0569</span>Chrzanów Pogorska Przychodnia (1)</a>
+<a class="stop" href="../rozklady/165/1080-chrzanow.html"><span class="stop-id">1080</span>Chrzanów Osiedle Młodości Szarych Szeregów (1)</a>
+<a class="stop terminal" href="../rozklady/165/1082-chrzanow.html"><span class="stop-id">1082</span>Chrzanów Osiedle Młodości Witosa (2)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Jaworzno Osiedle Stałe Cmentarz Pętla</h2>
+
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+<a class="stop terminal" href="../rozklady/165/1079-jaworzno.html"><span class="stop-id">1079</span>Chrzanów Osiedle Młodości Witosa (1)</a>
+<a class="stop" href="../rozklady/165/1081-jaworzno.html"><span class="stop-id">1081</span>Chrzanów Osiedle Młodości Szarych Szeregów (2)</a>
+<a class="stop" href="../rozklady/165/0614-jaworzno.html"><span class="stop-id">0614</span>Chrzanów Pogorska Przychodnia (2)</a>
+<a class="stop" href="../rozklady/165/0615-jaworzno.html"><span class="stop-id">0615</span>Chrzanów Pogorska Szkoła (1)</a>
+<a class="stop" href="../rozklady/165/0333-jaworzno.html"><span class="stop-id">0333</span>Chrzanów Podwale (1)</a>
+<a class="stop" href="../rozklady/165/0684-jaworzno.html"><span class="stop-id">0684</span>Chrzanów Dworzec Autobusowy (2)</a>
+<a class="stop" href="../rozklady/165/0096-jaworzno.html"><span class="stop-id">0096</span>Chrzanów Plac Tysiąclecia (3)</a>
+<a class="stop" href="../rozklady/165/0097-jaworzno.html"><span class="stop-id">0097</span>Chrzanów Park (1)</a>
+<a class="stop" href="../rozklady/165/0098-jaworzno.html"><span class="stop-id">0098</span>Chrzanów Kąty Bloki (1)</a>
+<a class="stop" href="../rozklady/165/0099-jaworzno.html"><span class="stop-id">0099</span>Chrzanów Kąty Kościół (1)</a>
+<a class="stop" href="../rozklady/165/0100-jaworzno.html"><span class="stop-id">0100</span>Chrzanów Kąty Osiedle Malarzy (1)</a>
+<a class="stop" href="../rozklady/165/1520-jaworzno.html"><span class="stop-id">1520</span>Chrzanów Kąty Autostrada (1)</a>
+<div class="zone zone-jaworzno">STREFA JAWORZNO</div>
+<a class="stop" href="../rozklady/165/1336-jaworzno.html"><span class="stop-id">1336</span>Jaworzno Cezarówka Dolna Autostrada (2)</a>
+<a class="stop" href="../rozklady/165/2891-jaworzno.html"><span class="stop-id">2891</span>Jaworzno Cezarówka Dolna (2)</a>
+<a class="stop" href="../rozklady/165/3103-jaworzno.html"><span class="stop-id">3103</span>Jaworzno Byczyna Szkoła (1)</a>
+<a class="stop" href="../rozklady/165/2884-jaworzno.html"><span class="stop-id">2884</span>Jaworzno Byczyna (1)</a>
+<a class="stop" href="../rozklady/165/2750-jaworzno.html"><span class="stop-id">2750</span>Jaworzno Bory Podgórska (1)</a>
+<a class="stop" href="../rozklady/165/2751-jaworzno.html"><span class="stop-id">2751</span>Jaworzno Bory Czysta (1)</a>
+<a class="stop" href="../rozklady/165/2759-jaworzno.html"><span class="stop-id">2759</span>Jaworzno Stadion Miejski (2)</a>
+<a class="stop" href="../rozklady/165/2753-jaworzno.html"><span class="stop-id">2753</span>Jaworzno Krakowska Pętla (1)</a>
+<a class="stop" href="../rozklady/165/2754-jaworzno.html"><span class="stop-id">2754</span>Jaworzno Rogatka (1)</a>
+<a class="stop" href="../rozklady/165/2755-jaworzno.html"><span class="stop-id">2755</span>Jaworzno Urząd Miejski (1)</a>
+<a class="stop" href="../rozklady/165/2681-jaworzno.html"><span class="stop-id">2681</span>Jaworzno Centrum (2)</a>
+<a class="stop" href="../rozklady/165/2682-jaworzno.html"><span class="stop-id">2682</span>Jaworzno Rynek (1)</a>
+<a class="stop" href="../rozklady/165/3006-jaworzno.html"><span class="stop-id">3006</span>Jaworzno Podwale (1)</a>
+<a class="stop" href="../rozklady/165/3004-jaworzno.html"><span class="stop-id">3004</span>Jaworzno Podwale Liceum (1)</a>
+<a class="stop" href="../rozklady/165/3002-jaworzno.html"><span class="stop-id">3002</span>Jaworzno Podwale Licealna (2)</a>
+<a class="stop" href="../rozklady/165/2999-jaworzno.html"><span class="stop-id">2999</span>Jaworzno Podwale 11 Listopada (2)</a>
+<a class="stop" href="../rozklady/165/2997-jaworzno.html"><span class="stop-id">2997</span>Jaworzno Leopold (1)</a>
+<a class="stop" href="../rozklady/165/0821-jaworzno.html"><span class="stop-id">0821</span>Jaworzno Urząd Skarbowy (1)</a>
+<a class="stop" href="../rozklady/165/2996-jaworzno.html"><span class="stop-id">2996</span>Jaworzno Osiedle Stałe (2)</a>
+<a class="stop" href="../rozklady/165/2993-jaworzno.html"><span class="stop-id">2993</span>Jaworzno Osiedle Stałe Armii Krajowej (1)</a>
+<a class="stop" href="../rozklady/165/3189-jaworzno.html"><span class="stop-id">3189</span>Jaworzno Osiedle Stałe Sempołowskiej (2)</a>
+<a class="stop" href="../rozklady/165/3168-jaworzno.html"><span class="stop-id">3168</span>Jaworzno Dąbrowa Narodowa Długoszyńska II (2)</a>
+<a class="stop" href="../rozklady/165/3169-jaworzno.html"><span class="stop-id">3169</span>Jaworzno Dąbrowa Narodowa Storczyków (2)</a>
+<a class="stop terminal" href="../rozklady/165/3170-jaworzno.html"><span class="stop-id">3170</span>Jaworzno Osiedle Stałe Cmentarz Pętla (1)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
