@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 180</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-jaworzno{
+    background:#ead1dc;
+    color:#222;
+}
+
+.zone-sosnowiec{
+    background:#d9d9e9;
+    color:#222;
+}
+
+.zone-dabrowa-gornicza{
+    background:#ffd966;
+    color:#222;
+}
+
+.zone-slawkow{
+    background:#af00ff;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">180</div>
+
+<div class="route">
+Jaworzno Krakowska Pętla - Warpie - Góra Piasku - Maczki - Ostrowy Górnicze - Kazimierz Górniczy - Grabocin - Dąbrowa Górnicza Strzemieszyce Dworzec Północny - Strzemieszyce - Sławków ZWM
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Sławków ZWM</h2>
+
+<div class="zone zone-jaworzno">STREFA JAWORZNO</div>
+<a class="stop terminal" href="../rozklady/180/2753-slawkow.html"><span class="stop-id">2753</span>Jaworzno Krakowska Pętla (1)</a>
+<a class="stop" href="../rozklady/180/2754-slawkow.html"><span class="stop-id">2754</span>Jaworzno Rogatka (1)</a>
+<a class="stop" href="../rozklady/180/2755-slawkow.html"><span class="stop-id">2755</span>Jaworzno Urząd Miejski (1)</a>
+<a class="stop" href="../rozklady/180/2681-slawkow.html"><span class="stop-id">2681</span>Jaworzno Centrum (2)</a>
+<a class="stop" href="../rozklady/180/2682-slawkow.html"><span class="stop-id">2682</span>Jaworzno Rynek (1)</a>
+<a class="stop" href="../rozklady/180/2686-slawkow.html"><span class="stop-id">2686</span>Jaworzno Warpie Wodociągi (1)</a>
+<a class="stop" href="../rozklady/180/2688-slawkow.html"><span class="stop-id">2688</span>Jaworzno Warpie Galmany (1)</a>
+<a class="stop" href="../rozklady/180/2690-slawkow.html"><span class="stop-id">2690</span>Jaworzno Warpie (2)</a>
+<a class="stop" href="../rozklady/180/2703-slawkow.html"><span class="stop-id">2703</span>Jaworzno Geosfera (1)</a>
+<a class="stop" href="../rozklady/180/2702-slawkow.html"><span class="stop-id">2702</span>Jaworzno Góra Piasku Kaliska (1)</a>
+<a class="stop" href="../rozklady/180/3211-slawkow.html"><span class="stop-id">3211</span>Jaworzno Góra Piasku Batorego Szkoła (1)</a>
+<a class="stop" href="../rozklady/180/3222-slawkow.html"><span class="stop-id">3222</span>Jaworzno Szczakowa Batorego (1)</a>
+<a class="stop" href="../rozklady/180/3240-slawkow.html"><span class="stop-id">3240</span>Jaworzno Szczakowa Lokomotywownia (2)</a>
+<div class="zone zone-sosnowiec">STREFA SOSNOWIEC</div>
+<a class="stop" href="../rozklady/180/3241-slawkow.html"><span class="stop-id">3241</span>Sosnowiec Maczki Kościuszki (2)</a>
+<a class="stop" href="../rozklady/180/3242-slawkow.html"><span class="stop-id">3242</span>Sosnowiec Maczki Krakowska (2)</a>
+<a class="stop" href="../rozklady/180/3223-slawkow.html"><span class="stop-id">3223</span>Sosnowiec Ostrowy Górnicze Kolonia Leśna (1)</a>
+<a class="stop" href="../rozklady/180/3237-slawkow.html"><span class="stop-id">3237</span>Sosnowiec Ostrowy Górnicze Kolonia Feliks (2)</a>
+<a class="stop" href="../rozklady/180/3236-slawkow.html"><span class="stop-id">3236</span>Sosnowiec Ostrowy Górnicze Niecała (2)</a>
+<a class="stop" href="../rozklady/180/3227-slawkow.html"><span class="stop-id">3227</span>Sosnowiec Ostrowy Górnicze Kościół (1)</a>
+<a class="stop" href="../rozklady/180/3228-slawkow.html"><span class="stop-id">3228</span>Sosnowiec Kazimierz Górniczy Armii Krajowej (1)</a>
+<a class="stop" href="../rozklady/180/3234-slawkow.html"><span class="stop-id">3234</span>Sosnowiec Kazimierz Górniczy Poczta (2)</a>
+<a class="stop" href="../rozklady/180/3233-slawkow.html"><span class="stop-id">3233</span>Sosnowiec Grabocin Kościuszkowców (2)</a>
+<div class="zone zone-dabrowa-gornicza">STREFA DĄBROWA GÓRNICZA</div>
+<a class="stop" href="../rozklady/180/3231-slawkow.html"><span class="stop-id">3231</span>Dąbrowa Górnicza Grabocin Polna (1)</a>
+<a class="stop" href="../rozklady/180/3274-slawkow.html"><span class="stop-id">3274</span>Dąbrowa Górnicza Grabocin Sosnowiecka (2)</a>
+<a class="stop" href="../rozklady/180/3273-slawkow.html"><span class="stop-id">3273</span>Dąbrowa Górnicza Strzemieszyce Aleja Za Remizą (2)</a>
+<a class="stop" href="../rozklady/180/3245-slawkow.html"><span class="stop-id">3245</span>Dąbrowa Górnicza Strzemieszyce Szałasowizna (1)</a>
+<a class="stop" href="../rozklady/180/3246-slawkow.html"><span class="stop-id">3246</span>Dąbrowa Górnicza Strzemieszyce Dworzec Południowy (1)</a>
+<a class="stop" href="../rozklady/180/3251-slawkow.html"><span class="stop-id">3251</span>Dąbrowa Górnicza Strzemieszyce Ordona Przejazd Kolejowy (1)</a>
+<a class="stop" href="../rozklady/180/3268-slawkow.html"><span class="stop-id">3268</span>Dąbrowa Górnicza Strzemieszyce Kościół (2)</a>
+<a class="stop" href="../rozklady/180/3269-slawkow.html"><span class="stop-id">3269</span>Dąbrowa Górnicza Strzemieszyce Stacyjna (2)</a>
+<a class="stop terminal" href="../rozklady/180/3248-slawkow.html"><span class="stop-id">3248</span>Dąbrowa Górnicza Strzemieszyce Dworzec Północny (1)</a>
+<a class="stop" href="../rozklady/180/3249-slawkow.html"><span class="stop-id">3249</span>Dąbrowa Górnicza Strzemieszyce Stacyjna (1)</a>
+<a class="stop" href="../rozklady/180/3250-slawkow.html"><span class="stop-id">3250</span>Dąbrowa Górnicza Strzemieszyce Kościół (1)</a>
+<a class="stop" href="../rozklady/180/3267-slawkow.html"><span class="stop-id">3267</span>Dąbrowa Górnicza Strzemieszyce Ordona Przejazd Kolejowy (2)</a>
+<a class="stop" href="../rozklady/180/3266-slawkow.html"><span class="stop-id">3266</span>Dąbrowa Górnicza Strzemieszyce Srocza Góra (2)</a>
+<a class="stop" href="../rozklady/180/3253-slawkow.html"><span class="stop-id">3253</span>Dąbrowa Górnicza Strzemieszyce Fabryka (1)</a>
+<a class="stop" href="../rozklady/180/3264-slawkow.html"><span class="stop-id">3264</span>Dąbrowa Górnicza Strzemieszyce Krzyż (2)</a>
+<a class="stop" href="../rozklady/180/3263-slawkow.html"><span class="stop-id">3263</span>Dąbrowa Górnicza Strzemieszyce Taśmociąg (2)</a>
+<a class="stop" href="../rozklady/180/3262-slawkow.html"><span class="stop-id">3262</span>Dąbrowa Górnicza Strzemieszyce Wywierzyska (2)</a>
+<a class="stop" href="../rozklady/180/3261-slawkow.html"><span class="stop-id">3261</span>Dąbrowa Górnicza Strzemieszyce Droga do Zakawia (2)</a>
+<a class="stop" href="../rozklady/180/3258-slawkow.html"><span class="stop-id">3258</span>Dąbrowa Górnicza Strzemieszyce DK 94 (1)</a>
+<div class="zone zone-slawkow">STREFA SŁAWKÓW</div>
+<a class="stop" href="../rozklady/180/2156-slawkow.html"><span class="stop-id">2156</span>Sławków Wrocławska (1)</a>
+<a class="stop variant" href="../rozklady/180/0817-slawkow.html"><span class="stop-id">0817</span>Sławków Jagiellońska I (1)</a>
+<a class="stop variant" href="../rozklady/180/0818-slawkow.html"><span class="stop-id">0818</span>Sławków Jagiellońska II (1)</a>
+<a class="stop" href="../rozklady/180/2135-slawkow.html"><span class="stop-id">2135</span>Sławków Świętojańska (1)</a>
+<a class="stop" href="../rozklady/180/0447-slawkow.html"><span class="stop-id">0447</span>Sławków Rynek (2)</a>
+<a class="stop" href="../rozklady/180/0448-slawkow.html"><span class="stop-id">0448</span>Sławków Olkuska (2)</a>
+<a class="stop terminal" href="../rozklady/180/0449-slawkow.html"><span class="stop-id">0449</span>Sławków ZWM (2)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Jaworzno Krakowska Pętla</h2>
+
+<div class="zone zone-slawkow">STREFA SŁAWKÓW</div>
+<a class="stop terminal" href="../rozklady/180/0483-jaworzno.html"><span class="stop-id">0483</span>Sławków ZWM (1)</a>
+<a class="stop" href="../rozklady/180/0484-jaworzno.html"><span class="stop-id">0484</span>Sławków Olkuska (1)</a>
+<a class="stop" href="../rozklady/180/0485-jaworzno.html"><span class="stop-id">0485</span>Sławków Rynek (1)</a>
+<a class="stop" href="../rozklady/180/2134-jaworzno.html"><span class="stop-id">2134</span>Sławków Urząd Miasta (Siewierska) (0)</a>
+<a class="stop variant" href="../rozklady/180/0817-jaworzno.html"><span class="stop-id">0817</span>Sławków Jagiellońska I (1)</a>
+<a class="stop variant" href="../rozklady/180/0818-jaworzno.html"><span class="stop-id">0818</span>Sławków Jagiellońska II (1)</a>
+<a class="stop" href="../rozklady/180/2154-jaworzno.html"><span class="stop-id">2154</span>Sławków Urząd Miasta (Wrocławska) (2)</a>
+<a class="stop" href="../rozklady/180/2155-jaworzno.html"><span class="stop-id">2155</span>Sławków Wrocławska (2)</a>
+<div class="zone zone-dabrowa-gornicza">STREFA DĄBROWA GÓRNICZA</div>
+<a class="stop" href="../rozklady/180/3260-jaworzno.html"><span class="stop-id">3260</span>Dąbrowa Górnicza Strzemieszyce DK 94 (2)</a>
+<a class="stop" href="../rozklady/180/3257-jaworzno.html"><span class="stop-id">3257</span>Dąbrowa Górnicza Strzemieszyce Droga do Zakawia (1)</a>
+<a class="stop" href="../rozklady/180/3256-jaworzno.html"><span class="stop-id">3256</span>Dąbrowa Górnicza Strzemieszyce Wywierzyska (1)</a>
+<a class="stop" href="../rozklady/180/3255-jaworzno.html"><span class="stop-id">3255</span>Dąbrowa Górnicza Strzemieszyce Taśmociąg (1)</a>
+<a class="stop" href="../rozklady/180/3254-jaworzno.html"><span class="stop-id">3254</span>Dąbrowa Górnicza Strzemieszyce Krzyż (1)</a>
+<a class="stop" href="../rozklady/180/3265-jaworzno.html"><span class="stop-id">3265</span>Dąbrowa Górnicza Strzemieszyce Fabryka (2)</a>
+<a class="stop" href="../rozklady/180/3252-jaworzno.html"><span class="stop-id">3252</span>Dąbrowa Górnicza Strzemieszyce Srocza Góra (1)</a>
+<a class="stop" href="../rozklady/180/3251-jaworzno.html"><span class="stop-id">3251</span>Dąbrowa Górnicza Strzemieszyce Ordona Przejazd Kolejowy (1)</a>
+<a class="stop" href="../rozklady/180/3268-jaworzno.html"><span class="stop-id">3268</span>Dąbrowa Górnicza Strzemieszyce Kościół (2)</a>
+<a class="stop" href="../rozklady/180/3269-jaworzno.html"><span class="stop-id">3269</span>Dąbrowa Górnicza Strzemieszyce Stacyjna (2)</a>
+<a class="stop terminal" href="../rozklady/180/3248-jaworzno.html"><span class="stop-id">3248</span>Dąbrowa Górnicza Strzemieszyce Dworzec Północny (1)</a>
+<a class="stop" href="../rozklady/180/3249-jaworzno.html"><span class="stop-id">3249</span>Dąbrowa Górnicza Strzemieszyce Stacyjna (1)</a>
+<a class="stop" href="../rozklady/180/3250-jaworzno.html"><span class="stop-id">3250</span>Dąbrowa Górnicza Strzemieszyce Kościół (1)</a>
+<a class="stop" href="../rozklady/180/3270-jaworzno.html"><span class="stop-id">3270</span>Dąbrowa Górnicza Strzemieszyce Narutowicza Przejazd Kolejowy (2)</a>
+<a class="stop" href="../rozklady/180/3271-jaworzno.html"><span class="stop-id">3271</span>Dąbrowa Górnicza Strzemieszyce Dworzec Południowy (2)</a>
+<a class="stop" href="../rozklady/180/3272-jaworzno.html"><span class="stop-id">3272</span>Dąbrowa Górnicza Strzemieszyce Szałasowizna (2)</a>
+<a class="stop" href="../rozklady/180/3244-jaworzno.html"><span class="stop-id">3244</span>Dąbrowa Górnicza Strzemieszyce Aleja Za Remizą (1)</a>
+<a class="stop" href="../rozklady/180/3243-jaworzno.html"><span class="stop-id">3243</span>Dąbrowa Górnicza Grabocin Sosnowiecka (1)</a>
+<a class="stop" href="../rozklady/180/3232-jaworzno.html"><span class="stop-id">3232</span>Dąbrowa Górnicza Grabocin Polna (2)</a>
+<div class="zone zone-sosnowiec">STREFA SOSNOWIEC</div>
+<a class="stop" href="../rozklady/180/3230-jaworzno.html"><span class="stop-id">3230</span>Sosnowiec Grabocin Kościuszkowców (1)</a>
+<a class="stop" href="../rozklady/180/3229-jaworzno.html"><span class="stop-id">3229</span>Sosnowiec Kazimierz Górniczy Poczta (1)</a>
+<a class="stop" href="../rozklady/180/3235-jaworzno.html"><span class="stop-id">3235</span>Sosnowiec Kazimierz Górniczy Armii Krajowej (2)</a>
+<a class="stop" href="../rozklady/180/3226-jaworzno.html"><span class="stop-id">3226</span>Sosnowiec Ostrowy Górnicze Rondo (1)</a>
+<a class="stop" href="../rozklady/180/3225-jaworzno.html"><span class="stop-id">3225</span>Sosnowiec Ostrowy Górnicze Niecała (1)</a>
+<a class="stop" href="../rozklady/180/3224-jaworzno.html"><span class="stop-id">3224</span>Sosnowiec Ostrowy Górnicze Kolonia Feliks (1)</a>
+<a class="stop" href="../rozklady/180/3238-jaworzno.html"><span class="stop-id">3238</span>Sosnowiec Ostrowy Górnicze Kolonia Leśna (2)</a>
+<a class="stop" href="../rozklady/180/3219-jaworzno.html"><span class="stop-id">3219</span>Sosnowiec Maczki Krakowska (1)</a>
+<a class="stop" href="../rozklady/180/3220-jaworzno.html"><span class="stop-id">3220</span>Sosnowiec Maczki Kościuszki (1)</a>
+<div class="zone zone-jaworzno">STREFA JAWORZNO</div>
+<a class="stop" href="../rozklady/180/3221-jaworzno.html"><span class="stop-id">3221</span>Jaworzno Szczakowa Lokomotywownia (1)</a>
+<a class="stop" href="../rozklady/180/3239-jaworzno.html"><span class="stop-id">3239</span>Jaworzno Szczakowa Batorego (2)</a>
+<a class="stop" href="../rozklady/180/3205-jaworzno.html"><span class="stop-id">3205</span>Jaworzno Góra Piasku Batorego Szkoła (2)</a>
+<a class="stop" href="../rozklady/180/2692-jaworzno.html"><span class="stop-id">2692</span>Jaworzno Góra Piasku Kaliska (2)</a>
+<a class="stop" href="../rozklady/180/2691-jaworzno.html"><span class="stop-id">2691</span>Jaworzno Geosfera (2)</a>
+<a class="stop" href="../rozklady/180/2704-jaworzno.html"><span class="stop-id">2704</span>Jaworzno Warpie (1)</a>
+<a class="stop" href="../rozklady/180/2689-jaworzno.html"><span class="stop-id">2689</span>Jaworzno Warpie Galmany (2)</a>
+<a class="stop" href="../rozklady/180/2687-jaworzno.html"><span class="stop-id">2687</span>Jaworzno Warpie Wodociągi (2)</a>
+<a class="stop" href="../rozklady/180/3007-jaworzno.html"><span class="stop-id">3007</span>Jaworzno Plac Świętego Jana (1)</a>
+<a class="stop" href="../rozklady/180/2680-jaworzno.html"><span class="stop-id">2680</span>Jaworzno Centrum (1)</a>
+<a class="stop" href="../rozklady/180/2756-jaworzno.html"><span class="stop-id">2756</span>Jaworzno Urząd Miejski (2)</a>
+<a class="stop" href="../rozklady/180/2757-jaworzno.html"><span class="stop-id">2757</span>Jaworzno Rogatka (2)</a>
+<a class="stop terminal" href="../rozklady/180/3202-jaworzno.html"><span class="stop-id">3202</span>Jaworzno Krakowska Pętla (4)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
