@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 173</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-jaworzno{
+    background:#ead1dc;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">173</div>
+
+<div class="route">
+Jaworzno Szczakowa Dworzec PKP - Góra Piasku - Niedzieliska - Pechnik - Bory - Jaworzno Byczyna Astrów
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Jaworzno Byczyna Astrów</h2>
+
+<div class="zone zone-jaworzno">STREFA JAWORZNO</div>
+<a class="stop terminal" href="../rozklady/173/2697-byczyna.html"><span class="stop-id">2697</span>Jaworzno Szczakowa Dworzec PKP (0)</a>
+<a class="stop" href="../rozklady/173/2698-byczyna.html"><span class="stop-id">2698</span>Jaworzno Szczakowa Przychodnia (1)</a>
+<a class="stop" href="../rozklady/173/2695-byczyna.html"><span class="stop-id">2695</span>Jaworzno Szczakowa Osiedle Gagarina (2)</a>
+<a class="stop" href="../rozklady/173/2694-byczyna.html"><span class="stop-id">2694</span>Jaworzno Szczakowa Polna (2)</a>
+<a class="stop" href="../rozklady/173/2701-byczyna.html"><span class="stop-id">2701</span>Jaworzno Góra Piasku (1)</a>
+<a class="stop" href="../rozklady/173/2980-byczyna.html"><span class="stop-id">2980</span>Jaworzno Górnośląska (2)</a>
+<a class="stop" href="../rozklady/173/3337-byczyna.html"><span class="stop-id">3337</span>Jaworzno Niedzieliska (1)</a>
+<a class="stop" href="../rozklady/173/0827-byczyna.html"><span class="stop-id">0827</span>Jaworzno Niedzieliska Klub Relaks (1)</a>
+<a class="stop" href="../rozklady/173/0825-byczyna.html"><span class="stop-id">0825</span>Jaworzno Niedzieliska Wiejska (1)</a>
+<a class="stop" href="../rozklady/173/0824-byczyna.html"><span class="stop-id">0824</span>Jaworzno Szczakowska (2)</a>
+<a class="stop" href="../rozklady/173/0822-byczyna.html"><span class="stop-id">0822</span>Jaworzno Urząd Skarbowy (2)</a>
+<a class="stop" href="../rozklady/173/2998-byczyna.html"><span class="stop-id">2998</span>Jaworzno Leopold (2)</a>
+<a class="stop" href="../rozklady/173/3140-byczyna.html"><span class="stop-id">3140</span>Jaworzno Pechnik (1)</a>
+<a class="stop" href="../rozklady/173/3139-byczyna.html"><span class="stop-id">3139</span>Jaworzno Pechnik Cmentarz (1)</a>
+<a class="stop" href="../rozklady/173/2680-byczyna.html"><span class="stop-id">2680</span>Jaworzno Centrum (1)</a>
+<a class="stop" href="../rozklady/173/2756-byczyna.html"><span class="stop-id">2756</span>Jaworzno Urząd Miejski (2)</a>
+<a class="stop" href="../rozklady/173/2757-byczyna.html"><span class="stop-id">2757</span>Jaworzno Rogatka (2)</a>
+<a class="stop" href="../rozklady/173/2758-byczyna.html"><span class="stop-id">2758</span>Jaworzno Krakowska Pętla (2)</a>
+<a class="stop" href="../rozklady/173/2752-byczyna.html"><span class="stop-id">2752</span>Jaworzno Stadion Miejski (1)</a>
+<a class="stop" href="../rozklady/173/2760-byczyna.html"><span class="stop-id">2760</span>Jaworzno Bory Czysta (2)</a>
+<a class="stop" href="../rozklady/173/3104-byczyna.html"><span class="stop-id">3104</span>Jaworzno Bory Podgórska (2)</a>
+<a class="stop" href="../rozklady/173/2890-byczyna.html"><span class="stop-id">2890</span>Jaworzno Byczyna (2)</a>
+<a class="stop" href="../rozklady/173/2937-byczyna.html"><span class="stop-id">2937</span>Jaworzno Byczyna Pętla (2)</a>
+<a class="stop" href="../rozklady/173/2945-byczyna.html"><span class="stop-id">2945</span>Jaworzno Byczyna Gwardzistów (2)</a>
+<a class="stop terminal" href="../rozklady/173/2939-byczyna.html"><span class="stop-id">2939</span>Jaworzno Byczyna Astrów (1)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Jaworzno Szczakowa Dworzec PKP</h2>
+
+<div class="zone zone-jaworzno">STREFA JAWORZNO</div>
+<a class="stop terminal" href="../rozklady/173/2939-szczakowa.html"><span class="stop-id">2939</span>Jaworzno Byczyna Astrów (1)</a>
+<a class="stop" href="../rozklady/173/2938-szczakowa.html"><span class="stop-id">2938</span>Jaworzno Byczyna Gwardzistów (1)</a>
+<a class="stop" href="../rozklady/173/2946-szczakowa.html"><span class="stop-id">2946</span>Jaworzno Byczyna Pętla (1)</a>
+<a class="stop" href="../rozklady/173/2884-szczakowa.html"><span class="stop-id">2884</span>Jaworzno Byczyna (1)</a>
+<a class="stop" href="../rozklady/173/2750-szczakowa.html"><span class="stop-id">2750</span>Jaworzno Bory Podgórska (1)</a>
+<a class="stop" href="../rozklady/173/2751-szczakowa.html"><span class="stop-id">2751</span>Jaworzno Bory Czysta (1)</a>
+<a class="stop" href="../rozklady/173/2759-szczakowa.html"><span class="stop-id">2759</span>Jaworzno Stadion Miejski (2)</a>
+<a class="stop" href="../rozklady/173/2753-szczakowa.html"><span class="stop-id">2753</span>Jaworzno Krakowska Pętla (1)</a>
+<a class="stop" href="../rozklady/173/2754-szczakowa.html"><span class="stop-id">2754</span>Jaworzno Rogatka (1)</a>
+<a class="stop" href="../rozklady/173/2755-szczakowa.html"><span class="stop-id">2755</span>Jaworzno Urząd Miejski (1)</a>
+<a class="stop terminal" href="../rozklady/173/2681-szczakowa.html"><span class="stop-id">2681</span>Jaworzno Centrum (2)</a>
+<a class="stop" href="../rozklady/173/3120-szczakowa.html"><span class="stop-id">3120</span>Jaworzno Pechnik Cmentarz (2)</a>
+<a class="stop" href="../rozklady/173/3119-szczakowa.html"><span class="stop-id">3119</span>Jaworzno Pechnik (2)</a>
+<a class="stop" href="../rozklady/173/2997-szczakowa.html"><span class="stop-id">2997</span>Jaworzno Leopold (1)</a>
+<a class="stop" href="../rozklady/173/0821-szczakowa.html"><span class="stop-id">0821</span>Jaworzno Urząd Skarbowy (1)</a>
+<a class="stop" href="../rozklady/173/0823-szczakowa.html"><span class="stop-id">0823</span>Jaworzno Szczakowska (1)</a>
+<a class="stop" href="../rozklady/173/0826-szczakowa.html"><span class="stop-id">0826</span>Jaworzno Niedzieliska Wiejska (2)</a>
+<a class="stop" href="../rozklady/173/0828-szczakowa.html"><span class="stop-id">0828</span>Jaworzno Niedzieliska Klub Relaks (2)</a>
+<a class="stop" href="../rozklady/173/3335-szczakowa.html"><span class="stop-id">3335</span>Jaworzno Niedzieliska (3)</a>
+<a class="stop" href="../rozklady/173/2979-szczakowa.html"><span class="stop-id">2979</span>Jaworzno Górnośląska (1)</a>
+<a class="stop" href="../rozklady/173/2693-szczakowa.html"><span class="stop-id">2693</span>Jaworzno Góra Piasku (2)</a>
+<a class="stop" href="../rozklady/173/2700-szczakowa.html"><span class="stop-id">2700</span>Jaworzno Szczakowa Polna (1)</a>
+<a class="stop" href="../rozklady/173/2699-szczakowa.html"><span class="stop-id">2699</span>Jaworzno Szczakowa Osiedle Gagarina (1)</a>
+<a class="stop" href="../rozklady/173/2696-szczakowa.html"><span class="stop-id">2696</span>Jaworzno Szczakowa Przychodnia (2)</a>
+<a class="stop terminal" href="../rozklady/173/2697-szczakowa.html"><span class="stop-id">2697</span>Jaworzno Szczakowa Dworzec PKP (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
