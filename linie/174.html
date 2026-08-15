@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 174</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-jaworzno{
+    background:#ead1dc;
+    color:#222;
+}
+
+.zone-sosnowiec{
+    background:#d9d9e9;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">174</div>
+
+<div class="route">
+Jaworzno Krakowska Pętla - Pechnik - Niedzieliska - Góra Piasku - Jaworzno Szczakowa Dworzec PKP - Borowiec - Maczki - Sosnowiec Stare Maczki Pętla
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Sosnowiec Stare Maczki Pętla</h2>
+
+<div class="zone zone-jaworzno">STREFA JAWORZNO</div>
+<a class="stop terminal" href="../rozklady/174/2753-sosnowiec.html"><span class="stop-id">2753</span>Jaworzno Krakowska Pętla (1)</a>
+<a class="stop" href="../rozklady/174/2754-sosnowiec.html"><span class="stop-id">2754</span>Jaworzno Rogatka (1)</a>
+<a class="stop" href="../rozklady/174/2755-sosnowiec.html"><span class="stop-id">2755</span>Jaworzno Urząd Miejski (1)</a>
+<a class="stop" href="../rozklady/174/2681-sosnowiec.html"><span class="stop-id">2681</span>Jaworzno Centrum (2)</a>
+<a class="stop" href="../rozklady/174/3120-sosnowiec.html"><span class="stop-id">3120</span>Jaworzno Pechnik Cmentarz (2)</a>
+<a class="stop" href="../rozklady/174/3119-sosnowiec.html"><span class="stop-id">3119</span>Jaworzno Pechnik (2)</a>
+<a class="stop" href="../rozklady/174/2997-sosnowiec.html"><span class="stop-id">2997</span>Jaworzno Leopold (1)</a>
+<a class="stop" href="../rozklady/174/0821-sosnowiec.html"><span class="stop-id">0821</span>Jaworzno Urząd Skarbowy (1)</a>
+<a class="stop" href="../rozklady/174/0823-sosnowiec.html"><span class="stop-id">0823</span>Jaworzno Szczakowska (1)</a>
+<a class="stop" href="../rozklady/174/0826-sosnowiec.html"><span class="stop-id">0826</span>Jaworzno Niedzieliska Wiejska (2)</a>
+<a class="stop" href="../rozklady/174/0828-sosnowiec.html"><span class="stop-id">0828</span>Jaworzno Niedzieliska Klub Relaks (2)</a>
+<a class="stop" href="../rozklady/174/3336-sosnowiec.html"><span class="stop-id">3336</span>Jaworzno Niedzieliska (2)</a>
+<a class="stop" href="../rozklady/174/3061-sosnowiec.html"><span class="stop-id">3061</span>Jaworzno Osiedle Sfera (1)</a>
+<a class="stop" href="../rozklady/174/2702-sosnowiec.html"><span class="stop-id">2702</span>Jaworzno Góra Piasku Kaliska (1)</a>
+<a class="stop" href="../rozklady/174/2693-sosnowiec.html"><span class="stop-id">2693</span>Jaworzno Góra Piasku (2)</a>
+<a class="stop" href="../rozklady/174/2700-sosnowiec.html"><span class="stop-id">2700</span>Jaworzno Szczakowa Polna (1)</a>
+<a class="stop" href="../rozklady/174/2699-sosnowiec.html"><span class="stop-id">2699</span>Jaworzno Szczakowa Osiedle Gagarina (1)</a>
+<a class="stop" href="../rozklady/174/2696-sosnowiec.html"><span class="stop-id">2696</span>Jaworzno Szczakowa Przychodnia (2)</a>
+<a class="stop terminal" href="../rozklady/174/2697-sosnowiec.html"><span class="stop-id">2697</span>Jaworzno Szczakowa Dworzec PKP (0)</a>
+<a class="stop" href="../rozklady/174/2698-sosnowiec.html"><span class="stop-id">2698</span>Jaworzno Szczakowa Przychodnia (1)</a>
+<a class="stop" href="../rozklady/174/3083-sosnowiec.html"><span class="stop-id">3083</span>Jaworzno Szczakowa Osiedle Gagarina (4)</a>
+<a class="stop" href="../rozklady/174/3081-sosnowiec.html"><span class="stop-id">3081</span>Jaworzno Borowiec Moździerzowców I (1)</a>
+<a class="stop" href="../rozklady/174/3080-sosnowiec.html"><span class="stop-id">3080</span>Jaworzno Borowiec Moździerzowców II (1)</a>
+<a class="stop" href="../rozklady/174/3079-sosnowiec.html"><span class="stop-id">3079</span>Jaworzno Borowiec Moździerzowców Szkoła (1)</a>
+<a class="stop" href="../rozklady/174/3222-sosnowiec.html"><span class="stop-id">3222</span>Jaworzno Szczakowa Batorego (1)</a>
+<a class="stop" href="../rozklady/174/3240-sosnowiec.html"><span class="stop-id">3240</span>Jaworzno Szczakowa Lokomotywownia (2)</a>
+<div class="zone zone-sosnowiec">STREFA SOSNOWIEC</div>
+<a class="stop" href="../rozklady/174/3241-sosnowiec.html"><span class="stop-id">3241</span>Sosnowiec Maczki Kościuszki (2)</a>
+<a class="stop" href="../rozklady/174/3242-sosnowiec.html"><span class="stop-id">3242</span>Sosnowiec Maczki Krakowska (2)</a>
+<a class="stop" href="../rozklady/174/3208-sosnowiec.html"><span class="stop-id">3208</span>Sosnowiec Maczki Spacerowa (2)</a>
+<a class="stop" href="../rozklady/174/3207-sosnowiec.html"><span class="stop-id">3207</span>Sosnowiec Stare Maczki Cmentarz (2)</a>
+<a class="stop terminal" href="../rozklady/174/3206-sosnowiec.html"><span class="stop-id">3206</span>Sosnowiec Stare Maczki Pętla (1)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Jaworzno Krakowska Pętla</h2>
+
+<div class="zone zone-sosnowiec">STREFA SOSNOWIEC</div>
+<a class="stop terminal" href="../rozklady/174/3206-jaworzno.html"><span class="stop-id">3206</span>Sosnowiec Stare Maczki Pętla (1)</a>
+<a class="stop" href="../rozklady/174/3210-jaworzno.html"><span class="stop-id">3210</span>Sosnowiec Stare Maczki Cmentarz (1)</a>
+<a class="stop" href="../rozklady/174/3209-jaworzno.html"><span class="stop-id">3209</span>Sosnowiec Maczki Spacerowa (1)</a>
+<a class="stop" href="../rozklady/174/3219-jaworzno.html"><span class="stop-id">3219</span>Sosnowiec Maczki Krakowska (1)</a>
+<a class="stop" href="../rozklady/174/3220-jaworzno.html"><span class="stop-id">3220</span>Sosnowiec Maczki Kościuszki (1)</a>
+<div class="zone zone-jaworzno">STREFA JAWORZNO</div>
+<a class="stop" href="../rozklady/174/3221-jaworzno.html"><span class="stop-id">3221</span>Jaworzno Szczakowa Lokomotywownia (1)</a>
+<a class="stop" href="../rozklady/174/3239-jaworzno.html"><span class="stop-id">3239</span>Jaworzno Szczakowa Batorego (2)</a>
+<a class="stop" href="../rozklady/174/3093-jaworzno.html"><span class="stop-id">3093</span>Jaworzno Borowiec Moździerzowców Szkoła (2)</a>
+<a class="stop" href="../rozklady/174/3092-jaworzno.html"><span class="stop-id">3092</span>Jaworzno Borowiec Moździerzowców II (2)</a>
+<a class="stop" href="../rozklady/174/3091-jaworzno.html"><span class="stop-id">3091</span>Jaworzno Borowiec Moździerzowców I (2)</a>
+<a class="stop" href="../rozklady/174/3082-jaworzno.html"><span class="stop-id">3082</span>Jaworzno Szczakowa Osiedle Gagarina (3)</a>
+<a class="stop" href="../rozklady/174/2696-jaworzno.html"><span class="stop-id">2696</span>Jaworzno Szczakowa Przychodnia (2)</a>
+<a class="stop terminal" href="../rozklady/174/2697-jaworzno.html"><span class="stop-id">2697</span>Jaworzno Szczakowa Dworzec PKP (0)</a>
+<a class="stop" href="../rozklady/174/2698-jaworzno.html"><span class="stop-id">2698</span>Jaworzno Szczakowa Przychodnia (1)</a>
+<a class="stop" href="../rozklady/174/2695-jaworzno.html"><span class="stop-id">2695</span>Jaworzno Szczakowa Osiedle Gagarina (2)</a>
+<a class="stop" href="../rozklady/174/2694-jaworzno.html"><span class="stop-id">2694</span>Jaworzno Szczakowa Polna (2)</a>
+<a class="stop" href="../rozklady/174/2701-jaworzno.html"><span class="stop-id">2701</span>Jaworzno Góra Piasku (1)</a>
+<a class="stop" href="../rozklady/174/2692-jaworzno.html"><span class="stop-id">2692</span>Jaworzno Góra Piasku Kaliska (2)</a>
+<a class="stop" href="../rozklady/174/3058-jaworzno.html"><span class="stop-id">3058</span>Jaworzno Osiedle Sfera (2)</a>
+<a class="stop" href="../rozklady/174/3337-jaworzno.html"><span class="stop-id">3337</span>Jaworzno Niedzieliska (1)</a>
+<a class="stop" href="../rozklady/174/0827-jaworzno.html"><span class="stop-id">0827</span>Jaworzno Niedzieliska Klub Relaks (1)</a>
+<a class="stop" href="../rozklady/174/0825-jaworzno.html"><span class="stop-id">0825</span>Jaworzno Niedzieliska Wiejska (1)</a>
+<a class="stop" href="../rozklady/174/0824-jaworzno.html"><span class="stop-id">0824</span>Jaworzno Szczakowska (2)</a>
+<a class="stop" href="../rozklady/174/0822-jaworzno.html"><span class="stop-id">0822</span>Jaworzno Urząd Skarbowy (2)</a>
+<a class="stop" href="../rozklady/174/2998-jaworzno.html"><span class="stop-id">2998</span>Jaworzno Leopold (2)</a>
+<a class="stop" href="../rozklady/174/3140-jaworzno.html"><span class="stop-id">3140</span>Jaworzno Pechnik (1)</a>
+<a class="stop" href="../rozklady/174/3139-jaworzno.html"><span class="stop-id">3139</span>Jaworzno Pechnik Cmentarz (1)</a>
+<a class="stop" href="../rozklady/174/2680-jaworzno.html"><span class="stop-id">2680</span>Jaworzno Centrum (1)</a>
+<a class="stop" href="../rozklady/174/2756-jaworzno.html"><span class="stop-id">2756</span>Jaworzno Urząd Miejski (2)</a>
+<a class="stop" href="../rozklady/174/2757-jaworzno.html"><span class="stop-id">2757</span>Jaworzno Rogatka (2)</a>
+<a class="stop terminal" href="../rozklady/174/3202-jaworzno.html"><span class="stop-id">3202</span>Jaworzno Krakowska Pętla (4)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
