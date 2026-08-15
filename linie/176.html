@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 176</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-jaworzno{
+    background:#ead1dc;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">176</div>
+
+<div class="route">
+Jaworzno Dobra Pętla - Pieczyska - Jaworzno Ciężkowice Pętla - Jaworzno Centrum - Jaworzno Podłęże Osiedle - Osiedle Stałe - Dąbrowa Narodowa - Jaworzno Łubowiec Pętla
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Jaworzno Łubowiec Pętla</h2>
+
+<div class="zone zone-jaworzno">STREFA JAWORZNO</div>
+<a class="stop terminal" href="../rozklady/176/3102-lubowiec.html"><span class="stop-id">3102</span>Jaworzno Dobra Pętla (1)</a>
+<a class="stop" href="../rozklady/176/3115-lubowiec.html"><span class="stop-id">3115</span>Jaworzno Dobra (2)</a>
+<a class="stop" href="../rozklady/176/3116-lubowiec.html"><span class="stop-id">3116</span>Jaworzno Dobra Pompy (2)</a>
+<a class="stop" href="../rozklady/176/3085-lubowiec.html"><span class="stop-id">3085</span>Jaworzno Szczakowa Cmentarz (1)</a>
+<a class="stop" href="../rozklady/176/3088-lubowiec.html"><span class="stop-id">3088</span>Jaworzno Park Gródek (2)</a>
+<a class="stop" href="../rozklady/176/3098-lubowiec.html"><span class="stop-id">3098</span>Jaworzno Pieczyska Szkoła (1)</a>
+<a class="stop" href="../rozklady/176/3099-lubowiec.html"><span class="stop-id">3099</span>Jaworzno Pieczyska Solskiego (1)</a>
+<a class="stop" href="../rozklady/176/3134-lubowiec.html"><span class="stop-id">3134</span>Jaworzno Pieczyska Sobieskiego (1)</a>
+<a class="stop" href="../rozklady/176/3135-lubowiec.html"><span class="stop-id">3135</span>Jaworzno Ciężkowice Bobrowa Górka (1)</a>
+<a class="stop" href="../rozklady/176/3136-lubowiec.html"><span class="stop-id">3136</span>Jaworzno Ciężkowice Wakacyjna (1)</a>
+<a class="stop" href="../rozklady/176/3137-lubowiec.html"><span class="stop-id">3137</span>Jaworzno Ciężkowice Klinowa (1)</a>
+<a class="stop" href="../rozklady/176/3138-lubowiec.html"><span class="stop-id">3138</span>Jaworzno Ciężkowice Leśniczówka (1)</a>
+<a class="stop" href="../rozklady/176/3043-lubowiec.html"><span class="stop-id">3043</span>Jaworzno Ciężkowice Szkoła (1)</a>
+<a class="stop" href="../rozklady/176/3042-lubowiec.html"><span class="stop-id">3042</span>Jaworzno Ciężkowice Kościół (1)</a>
+<a class="stop" href="../rozklady/176/3030-lubowiec.html"><span class="stop-id">3030</span>Jaworzno Ciężkowice Bagienko (3)</a>
+<a class="stop" href="../rozklady/176/3033-lubowiec.html"><span class="stop-id">3033</span>Jaworzno Ciężkowice Filomatów (1)</a>
+<a class="stop" href="../rozklady/176/3034-lubowiec.html"><span class="stop-id">3034</span>Jaworzno Ciężkowice Młyny Serafińskie (1)</a>
+<a class="stop" href="../rozklady/176/3035-lubowiec.html"><span class="stop-id">3035</span>Jaworzno Ciężkowice Grabańka (1)</a>
+<a class="stop terminal" href="../rozklady/176/3032-lubowiec.html"><span class="stop-id">3032</span>Jaworzno Ciężkowice Pętla (1)</a>
+<a class="stop" href="../rozklady/176/3041-lubowiec.html"><span class="stop-id">3041</span>Jaworzno Ciężkowice Bagienko (2)</a>
+<a class="stop" href="../rozklady/176/3029-lubowiec.html"><span class="stop-id">3029</span>Jaworzno Ciężkowice Kościół (2)</a>
+<a class="stop" href="../rozklady/176/3028-lubowiec.html"><span class="stop-id">3028</span>Jaworzno Ciężkowice Szkoła (2)</a>
+<a class="stop" href="../rozklady/176/3027-lubowiec.html"><span class="stop-id">3027</span>Jaworzno Ciężkowice Braci Śniadeckich (2)</a>
+<a class="stop" href="../rozklady/176/3026-lubowiec.html"><span class="stop-id">3026</span>Jaworzno Ciężkowice Dworzec PKP (2)</a>
+<a class="stop" href="../rozklady/176/3025-lubowiec.html"><span class="stop-id">3025</span>Jaworzno Ciężkowice Stadion (2)</a>
+<a class="stop" href="../rozklady/176/3017-lubowiec.html"><span class="stop-id">3017</span>Jaworzno Ciężkowice Turystyczna (2)</a>
+<a class="stop" href="../rozklady/176/3018-lubowiec.html"><span class="stop-id">3018</span>Jaworzno Ciężkowice Górka (2)</a>
+<a class="stop" href="../rozklady/176/3019-lubowiec.html"><span class="stop-id">3019</span>Jaworzno Ciężkowice Kapliczka (2)</a>
+<a class="stop" href="../rozklady/176/3020-lubowiec.html"><span class="stop-id">3020</span>Jaworzno Ciężkowice Dęby (2)</a>
+<a class="stop" href="../rozklady/176/2967-lubowiec.html"><span class="stop-id">2967</span>Jaworzno Wilkoszyn Chełmońskiego (2)</a>
+<a class="stop" href="../rozklady/176/3023-lubowiec.html"><span class="stop-id">3023</span>Jaworzno Kołłątaja (2)</a>
+<a class="stop" href="../rozklady/176/3159-lubowiec.html"><span class="stop-id">3159</span>Jaworzno Insurekcji Kościuszkowskiej (2)</a>
+<a class="stop" href="../rozklady/176/2754-lubowiec.html"><span class="stop-id">2754</span>Jaworzno Rogatka (1)</a>
+<a class="stop" href="../rozklady/176/2755-lubowiec.html"><span class="stop-id">2755</span>Jaworzno Urząd Miejski (1)</a>
+<a class="stop" href="../rozklady/176/2681-lubowiec.html"><span class="stop-id">2681</span>Jaworzno Centrum (2)</a>
+<a class="stop" href="../rozklady/176/2964-lubowiec.html"><span class="stop-id">2964</span>Jaworzno Kolejowa (1)</a>
+<a class="stop" href="../rozklady/176/2978-lubowiec.html"><span class="stop-id">2978</span>Jaworzno Podłęże Fredry (1)</a>
+<a class="stop" href="../rozklady/176/3333-lubowiec.html"><span class="stop-id">3333</span>Jaworzno Podłęże Brodzińskiego (1)</a>
+<a class="stop" href="../rozklady/176/2977-lubowiec.html"><span class="stop-id">2977</span>Jaworzno Podłęże Towarowa I (1)</a>
+<a class="stop" href="../rozklady/176/2976-lubowiec.html"><span class="stop-id">2976</span>Jaworzno Podłęże Towarowa II (1)</a>
+<a class="stop terminal" href="../rozklady/176/2674-lubowiec.html"><span class="stop-id">2674</span>Jaworzno Podłęże Osiedle (0)</a>
+<a class="stop" href="../rozklady/176/0819-lubowiec.html"><span class="stop-id">0819</span>Jaworzno Podłęże Przychodnia (2)</a>
+<a class="stop" href="../rozklady/176/0821-lubowiec.html"><span class="stop-id">0821</span>Jaworzno Urząd Skarbowy (1)</a>
+<a class="stop" href="../rozklady/176/2996-lubowiec.html"><span class="stop-id">2996</span>Jaworzno Osiedle Stałe (2)</a>
+<a class="stop" href="../rozklady/176/3192-lubowiec.html"><span class="stop-id">3192</span>Jaworzno Osiedle Stałe Kalinowa (1)</a>
+<a class="stop" href="../rozklady/176/3190-lubowiec.html"><span class="stop-id">3190</span>Jaworzno Dąbrowa Narodowa Dąbrowska (1)</a>
+<a class="stop" href="../rozklady/176/3166-lubowiec.html"><span class="stop-id">3166</span>Jaworzno Dąbrowa Narodowa Kościół (2)</a>
+<a class="stop terminal" href="../rozklady/176/3195-lubowiec.html"><span class="stop-id">3195</span>Jaworzno Łubowiec Pętla (1)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Jaworzno Dobra Pętla</h2>
+
+<div class="zone zone-jaworzno">STREFA JAWORZNO</div>
+<a class="stop terminal" href="../rozklady/176/3194-dobra.html"><span class="stop-id">3194</span>Jaworzno Łubowiec (1)</a>
+<a class="stop" href="../rozklady/176/3153-dobra.html"><span class="stop-id">3153</span>Jaworzno Dąbrowa Narodowa Kościół (1)</a>
+<a class="stop" href="../rozklady/176/3191-dobra.html"><span class="stop-id">3191</span>Jaworzno Dąbrowa Narodowa Dąbrowska (2)</a>
+<a class="stop" href="../rozklady/176/3193-dobra.html"><span class="stop-id">3193</span>Jaworzno Osiedle Stałe Kalinowa (2)</a>
+<a class="stop" href="../rozklady/176/2995-dobra.html"><span class="stop-id">2995</span>Jaworzno Osiedle Stałe (1)</a>
+<a class="stop" href="../rozklady/176/0822-dobra.html"><span class="stop-id">0822</span>Jaworzno Urząd Skarbowy (2)</a>
+<a class="stop" href="../rozklady/176/0820-dobra.html"><span class="stop-id">0820</span>Jaworzno Podłęże Przychodnia (1)</a>
+<a class="stop terminal" href="../rozklady/176/2674-dobra.html"><span class="stop-id">2674</span>Jaworzno Podłęże Osiedle (0)</a>
+<a class="stop" href="../rozklady/176/2975-dobra.html"><span class="stop-id">2975</span>Jaworzno Podłęże Towarowa II (2)</a>
+<a class="stop" href="../rozklady/176/2974-dobra.html"><span class="stop-id">2974</span>Jaworzno Podłęże Towarowa I (2)</a>
+<a class="stop" href="../rozklady/176/3334-dobra.html"><span class="stop-id">3334</span>Jaworzno Podłęże Brodzińskiego (2)</a>
+<a class="stop" href="../rozklady/176/2973-dobra.html"><span class="stop-id">2973</span>Jaworzno Podłęże Fredry (2)</a>
+<a class="stop" href="../rozklady/176/2965-dobra.html"><span class="stop-id">2965</span>Jaworzno Kolejowa (2)</a>
+<a class="stop" href="../rozklady/176/2680-dobra.html"><span class="stop-id">2680</span>Jaworzno Centrum (1)</a>
+<a class="stop" href="../rozklady/176/2756-dobra.html"><span class="stop-id">2756</span>Jaworzno Urząd Miejski (2)</a>
+<a class="stop" href="../rozklady/176/2757-dobra.html"><span class="stop-id">2757</span>Jaworzno Rogatka (2)</a>
+<a class="stop" href="../rozklady/176/3145-dobra.html"><span class="stop-id">3145</span>Jaworzno Insurekcji Kościuszkowskiej (1)</a>
+<a class="stop" href="../rozklady/176/3010-dobra.html"><span class="stop-id">3010</span>Jaworzno Kołłątaja (1)</a>
+<a class="stop" href="../rozklady/176/2959-dobra.html"><span class="stop-id">2959</span>Jaworzno Wilkoszyn Chełmońskiego (1)</a>
+<a class="stop" href="../rozklady/176/3013-dobra.html"><span class="stop-id">3013</span>Jaworzno Ciężkowice Dęby (1)</a>
+<a class="stop" href="../rozklady/176/3014-dobra.html"><span class="stop-id">3014</span>Jaworzno Ciężkowice Kapliczka (1)</a>
+<a class="stop" href="../rozklady/176/3015-dobra.html"><span class="stop-id">3015</span>Jaworzno Ciężkowice Górka (1)</a>
+<a class="stop" href="../rozklady/176/3016-dobra.html"><span class="stop-id">3016</span>Jaworzno Ciężkowice Turystyczna (1)</a>
+<a class="stop" href="../rozklady/176/3046-dobra.html"><span class="stop-id">3046</span>Jaworzno Ciężkowice Stadion (1)</a>
+<a class="stop" href="../rozklady/176/3045-dobra.html"><span class="stop-id">3045</span>Jaworzno Ciężkowice Dworzec PKP (1)</a>
+<a class="stop" href="../rozklady/176/3044-dobra.html"><span class="stop-id">3044</span>Jaworzno Ciężkowice Braci Śniadeckich (1)</a>
+<a class="stop" href="../rozklady/176/3043-dobra.html"><span class="stop-id">3043</span>Jaworzno Ciężkowice Szkoła (1)</a>
+<a class="stop" href="../rozklady/176/3042-dobra.html"><span class="stop-id">3042</span>Jaworzno Ciężkowice Kościół (1)</a>
+<a class="stop" href="../rozklady/176/3030-dobra.html"><span class="stop-id">3030</span>Jaworzno Ciężkowice Bagienko (3)</a>
+<a class="stop" href="../rozklady/176/3033-dobra.html"><span class="stop-id">3033</span>Jaworzno Ciężkowice Filomatów (1)</a>
+<a class="stop" href="../rozklady/176/3034-dobra.html"><span class="stop-id">3034</span>Jaworzno Ciężkowice Młyny Serafińskie (1)</a>
+<a class="stop" href="../rozklady/176/3035-dobra.html"><span class="stop-id">3035</span>Jaworzno Ciężkowice Grabańka (1)</a>
+<a class="stop terminal" href="../rozklady/176/3032-dobra.html"><span class="stop-id">3032</span>Jaworzno Ciężkowice Pętla (1)</a>
+<a class="stop" href="../rozklady/176/3041-dobra.html"><span class="stop-id">3041</span>Jaworzno Ciężkowice Bagienko (2)</a>
+<a class="stop" href="../rozklady/176/3029-dobra.html"><span class="stop-id">3029</span>Jaworzno Ciężkowice Kościół (2)</a>
+<a class="stop" href="../rozklady/176/3028-dobra.html"><span class="stop-id">3028</span>Jaworzno Ciężkowice Szkoła (2)</a>
+<a class="stop" href="../rozklady/176/3121-dobra.html"><span class="stop-id">3121</span>Jaworzno Ciężkowice Leśniczówka (2)</a>
+<a class="stop" href="../rozklady/176/3122-dobra.html"><span class="stop-id">3122</span>Jaworzno Ciężkowice Klinowa (2)</a>
+<a class="stop" href="../rozklady/176/3123-dobra.html"><span class="stop-id">3123</span>Jaworzno Ciężkowice Wakacyjna (2)</a>
+<a class="stop" href="../rozklady/176/3124-dobra.html"><span class="stop-id">3124</span>Jaworzno Ciężkowice Bobrowa Górka (2)</a>
+<a class="stop" href="../rozklady/176/3125-dobra.html"><span class="stop-id">3125</span>Jaworzno Pieczyska Sobieskiego (2)</a>
+<a class="stop" href="../rozklady/176/3098-dobra.html"><span class="stop-id">3098</span>Jaworzno Pieczyska Szkoła (1)</a>
+<a class="stop" href="../rozklady/176/3099-dobra.html"><span class="stop-id">3099</span>Jaworzno Pieczyska Solskiego (1)</a>
+<a class="stop" href="../rozklady/176/3086-dobra.html"><span class="stop-id">3086</span>Jaworzno Park Gródek (1)</a>
+<a class="stop" href="../rozklady/176/3087-dobra.html"><span class="stop-id">3087</span>Jaworzno Szczakowa Cmentarz (2)</a>
+<a class="stop" href="../rozklady/176/3100-dobra.html"><span class="stop-id">3100</span>Jaworzno Dobra Pompy (1)</a>
+<a class="stop" href="../rozklady/176/3101-dobra.html"><span class="stop-id">3101</span>Jaworzno Dobra (1)</a>
+<a class="stop terminal" href="../rozklady/176/3102-dobra.html"><span class="stop-id">3102</span>Jaworzno Dobra Pętla (1)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
