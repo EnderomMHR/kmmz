@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | Linia 177</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:linear-gradient(135deg,#005bbb,#009966);
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.back{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line-number{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+    color:#f5c400;
+    margin-top:20px;
+}
+
+.route{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+    
+.column{
+    background:#f8fbff;
+    border-radius:16px;
+    padding:18px;
+    border:1px solid #d9e6f2;
+}
+
+.column h2{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.stop{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    margin:5px 0;
+    padding:7px 10px 5px 38px;
+    border-radius:10px;
+    border:1px solid #e1e1e1;
+    font-size:12px;
+    transition:0.2s;
+}
+
+.stop::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:2px solid #f5c400;
+    border-radius:50%;
+}
+
+.stop:hover{
+    background:#eaf4ff;
+    color:#005bbb;
+    transform:translateX(3px);
+}
+
+.stop-id{
+    color:#7b2cbf;
+    font-weight:bold;
+    margin-right:7px;
+}
+
+.variant{
+    margin-left:28px;
+    font-style:italic;
+    background:#f4f4f4;
+    color:#444;
+}
+
+.variant::before{
+    background:#009966;
+    border-color:#cfcfcf;
+    width:8px;
+    height:8px;
+}
+
+.stop.terminal {
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgba(20, 20, 20, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  background-color: #fff7d6;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.82),
+      rgba(255, 255, 255, 0.58)
+    ),
+    repeating-conic-gradient(
+      from 45deg,
+      rgba(0, 0, 0, 0.16) 0% 25%,
+      rgba(255, 255, 255, 0.20) 0% 50%
+    );
+
+  background-size:
+    100% 100%,
+    26px 26px;
+
+  background-position:
+    0 0,
+    0 0;
+
+  animation: terminal-flag-wave 4s ease-in-out infinite;
+}
+
+.stop.terminal .stop-id {
+  font-weight: 800;
+}
+
+@keyframes terminal-flag-wave {
+  0% {
+    background-position:
+      0 0,
+      0 0;
+  }
+
+  50% {
+    background-position:
+      0 0,
+      13px 5px;
+  }
+
+  100% {
+    background-position:
+      0 0,
+      26px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stop.terminal {
+    animation: none;
+  }
+}
+
+.zone{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin:16px 0 8px 0;
+    padding:8px;
+    border-radius:10px;
+    letter-spacing:1px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.zone-jaworzno{
+    background:#ead1dc;
+    color:#222;
+}
+
+.zone-chrzanow{
+    background:#a4c2f4;
+    color:#222;
+}
+
+@media(max-width:900px){
+
+    .columns{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<a class="back" href="../linie.html">← Powrót do listy linii</a>
+
+<div class="line-number">177</div>
+
+<div class="route">
+Balin Wolności - Koźmin - Jeziorki - Wilkoszyn - Pechnik - Osiedle Stałe - Dąbrowa Narodowa - Jaworzno Łubowiec Pętla
+</div>
+
+<div class="columns">
+
+<div class="column">
+
+<h2>Kierunek: Jaworzno Łubowiec Pętla</h2>
+
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+<a class="stop terminal" href="../rozklady/177/1248-jaworzno.html"><span class="stop-id">1248</span>Balin Wolności (0)</a>
+<div class="zone zone-jaworzno">STREFA JAWORZNO</div>
+<a class="stop" href="../rozklady/177/3198-jaworzno.html"><span class="stop-id">3198</span>Jaworzno Koźmin (2)</a>
+<a class="stop" href="../rozklady/177/3197-jaworzno.html"><span class="stop-id">3197</span>Jaworzno Koźmin Jesienna (2)</a>
+<a class="stop" href="../rozklady/177/3218-jaworzno.html"><span class="stop-id">3218</span>Jaworzno Koźmin Las (1)</a>
+<a class="stop" href="../rozklady/177/3175-jaworzno.html"><span class="stop-id">3175</span>Jaworzno Jeziorki Herbowa (1)</a>
+<a class="stop" href="../rozklady/177/3178-jaworzno.html"><span class="stop-id">3178</span>Jaworzno Jeziorki Kasztanowa (2)</a>
+<a class="stop" href="../rozklady/177/2940-jaworzno.html"><span class="stop-id">2940</span>Jaworzno Jeziorki Kościół (1)</a>
+<a class="stop" href="../rozklady/177/2941-jaworzno.html"><span class="stop-id">2941</span>Jaworzno Jeziorki Sklep (1)</a>
+<a class="stop" href="../rozklady/177/2955-jaworzno.html"><span class="stop-id">2955</span>Jaworzno Jeziorki Szkoła (1)</a>
+<a class="stop" href="../rozklady/177/2956-jaworzno.html"><span class="stop-id">2956</span>Jaworzno Jeziorki Dożynkowa (1)</a>
+<a class="stop" href="../rozklady/177/2957-jaworzno.html"><span class="stop-id">2957</span>Jaworzno Wilkoszyn Cmentarz (1)</a>
+<a class="stop" href="../rozklady/177/2958-jaworzno.html"><span class="stop-id">2958</span>Jaworzno Wilkoszyn (1)</a>
+<a class="stop" href="../rozklady/177/2967-jaworzno.html"><span class="stop-id">2967</span>Jaworzno Wilkoszyn Chełmońskiego (2)</a>
+<a class="stop" href="../rozklady/177/2968-jaworzno.html"><span class="stop-id">2968</span>Jaworzno Chełmońskiego Pompy (2)</a>
+<a class="stop" href="../rozklady/177/2966-jaworzno.html"><span class="stop-id">2966</span>Jaworzno Szpital (1)</a>
+<a class="stop" href="../rozklady/177/2683-jaworzno.html"><span class="stop-id">2683</span>Jaworzno Obrońców Poczty Gdańskiej (1)</a>
+<a class="stop" href="../rozklady/177/2684-jaworzno.html"><span class="stop-id">2684</span>Jaworzno Biblioteka (1)</a>
+<a class="stop" href="../rozklady/177/2685-jaworzno.html"><span class="stop-id">2685</span>Jaworzno Zielona (1)</a>
+<a class="stop" href="../rozklady/177/2681-jaworzno.html"><span class="stop-id">2681</span>Jaworzno Centrum (2)</a>
+<a class="stop" href="../rozklady/177/3120-jaworzno.html"><span class="stop-id">3120</span>Jaworzno Pechnik Cmentarz (2)</a>
+<a class="stop" href="../rozklady/177/3119-jaworzno.html"><span class="stop-id">3119</span>Jaworzno Pechnik (2)</a>
+<a class="stop" href="../rozklady/177/2997-jaworzno.html"><span class="stop-id">2997</span>Jaworzno Leopold (1)</a>
+<a class="stop" href="../rozklady/177/0821-jaworzno.html"><span class="stop-id">0821</span>Jaworzno Urząd Skarbowy (1)</a>
+<a class="stop" href="../rozklady/177/2996-jaworzno.html"><span class="stop-id">2996</span>Jaworzno Osiedle Stałe (2)</a>
+<a class="stop" href="../rozklady/177/3192-jaworzno.html"><span class="stop-id">3192</span>Jaworzno Osiedle Stałe Kalinowa (1)</a>
+<a class="stop" href="../rozklady/177/3190-jaworzno.html"><span class="stop-id">3190</span>Jaworzno Dąbrowa Narodowa Dąbrowska (1)</a>
+<a class="stop" href="../rozklady/177/3166-jaworzno.html"><span class="stop-id">3166</span>Jaworzno Dąbrowa Narodowa Kościół (2)</a>
+<a class="stop terminal" href="../rozklady/177/3195-jaworzno.html"><span class="stop-id">3195</span>Jaworzno Łubowiec Pętla (1)</a>
+
+</div>
+
+<div class="column">
+
+<h2>Kierunek: Balin Wolności</h2>
+
+<div class="zone zone-jaworzno">STREFA JAWORZNO</div>
+<a class="stop terminal" href="../rozklady/177/3194-balin.html"><span class="stop-id">3194</span>Jaworzno Łubowiec (1)</a>
+<a class="stop" href="../rozklady/177/3153-balin.html"><span class="stop-id">3153</span>Jaworzno Dąbrowa Narodowa Kościół (1)</a>
+<a class="stop" href="../rozklady/177/3191-balin.html"><span class="stop-id">3191</span>Jaworzno Dąbrowa Narodowa Dąbrowska (2)</a>
+<a class="stop" href="../rozklady/177/3193-balin.html"><span class="stop-id">3193</span>Jaworzno Osiedle Stałe Kalinowa (2)</a>
+<a class="stop" href="../rozklady/177/2995-balin.html"><span class="stop-id">2995</span>Jaworzno Osiedle Stałe (1)</a>
+<a class="stop" href="../rozklady/177/0822-balin.html"><span class="stop-id">0822</span>Jaworzno Urząd Skarbowy (2)</a>
+<a class="stop" href="../rozklady/177/2998-balin.html"><span class="stop-id">2998</span>Jaworzno Leopold (2)</a>
+<a class="stop" href="../rozklady/177/3140-balin.html"><span class="stop-id">3140</span>Jaworzno Pechnik (1)</a>
+<a class="stop" href="../rozklady/177/3139-balin.html"><span class="stop-id">3139</span>Jaworzno Pechnik Cmentarz (1)</a>
+<a class="stop" href="../rozklady/177/2680-balin.html"><span class="stop-id">2680</span>Jaworzno Centrum (1)</a>
+<a class="stop" href="../rozklady/177/2682-balin.html"><span class="stop-id">2682</span>Jaworzno Rynek (1)</a>
+<a class="stop" href="../rozklady/177/2963-balin.html"><span class="stop-id">2963</span>Jaworzno Chełmońskiego (1)</a>
+<a class="stop" href="../rozklady/177/2962-balin.html"><span class="stop-id">2962</span>Jaworzno Szpital (2)</a>
+<a class="stop" href="../rozklady/177/2960-balin.html"><span class="stop-id">2960</span>Jaworzno Chełmońskiego Pompy (1)</a>
+<a class="stop" href="../rozklady/177/2959-balin.html"><span class="stop-id">2959</span>Jaworzno Wilkoszyn Chełmońskiego (1)</a>
+<a class="stop" href="../rozklady/177/2969-balin.html"><span class="stop-id">2969</span>Jaworzno Wilkoszyn (2)</a>
+<a class="stop" href="../rozklady/177/2970-balin.html"><span class="stop-id">2970</span>Jaworzno Wilkoszyn Cmentarz (2)</a>
+<a class="stop" href="../rozklady/177/2971-balin.html"><span class="stop-id">2971</span>Jaworzno Jeziorki Dożynkowa (2)</a>
+<a class="stop" href="../rozklady/177/2972-balin.html"><span class="stop-id">2972</span>Jaworzno Jeziorki Szkoła (2)</a>
+<a class="stop" href="../rozklady/177/2942-balin.html"><span class="stop-id">2942</span>Jaworzno Jeziorki Sklep (2)</a>
+<a class="stop" href="../rozklady/177/2943-balin.html"><span class="stop-id">2943</span>Jaworzno Jeziorki Kościół (2)</a>
+<a class="stop" href="../rozklady/177/3177-balin.html"><span class="stop-id">3177</span>Jaworzno Jeziorki Kasztanowa (1)</a>
+<a class="stop" href="../rozklady/177/3176-balin.html"><span class="stop-id">3176</span>Jaworzno Jeziorki Herbowa (2)</a>
+<a class="stop" href="../rozklady/177/3196-balin.html"><span class="stop-id">3196</span>Jaworzno Koźmin Las (2)</a>
+<a class="stop" href="../rozklady/177/3217-balin.html"><span class="stop-id">3217</span>Jaworzno Koźmin Jesienna (1)</a>
+<a class="stop" href="../rozklady/177/3216-balin.html"><span class="stop-id">3216</span>Jaworzno Koźmin (1)</a>
+<div class="zone zone-chrzanow">STREFA CHRZANÓW</div>
+<a class="stop" href="../rozklady/177/1249-balin.html"><span class="stop-id">1249</span>Balin Graniczny (2)</a>
+<a class="stop terminal" href="../rozklady/177/1248-balin.html"><span class="stop-id">1248</span>Balin Wolności (0)</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
