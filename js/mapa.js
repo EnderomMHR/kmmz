@@ -43,19 +43,25 @@ const zoneColors = {
 function getZoneColor(zone) {
   return zoneColors[zone] || "#555555";
 }
+const stopFiles = [
+  'data/stops/zarnowiec.geojson'
+];
+
+
+// TUTAJ zostaje Twoja warstwa punktów
 const stopsLayer = L.geoJSON(null, {
   pointToLayer: function (feature, latlng) {
-  const zone = feature.properties.zone;
-  const color = getZoneColor(zone);
+    const zone = feature.properties.zone;
+    const color = getZoneColor(zone);
 
-  return L.circleMarker(latlng, {
-    radius: 6,
-    color: "#ffffff",
-    weight: 2,
-    fillColor: color,
-    fillOpacity: 0.9
-  });
-},
+    return L.circleMarker(latlng, {
+      radius: 6,
+      color: "#ffffff",
+      weight: 2,
+      fillColor: color,
+      fillOpacity: 0.9
+    });
+  },
 
   onEachFeature: function (feature, layer) {
     const p = feature.properties;
@@ -73,17 +79,14 @@ const stopsLayer = L.geoJSON(null, {
   }
 }).addTo(map);
 
-// Wczytanie przystanków z pliku GeoJSON.
-const stopFiles = [
-  'data/stops/zarnowiec.geojson'
-  'data/stops/zator.geojson'
-];
+
+// TUTAJ zamiast starego fetch('data/stops.geojson') wklejasz to:
 Promise.all(
   stopFiles.map(file =>
     fetch(file)
       .then(response => {
         if (!response.ok) {
-          throw new Error('Nie udało się wczytać: ' + file);
+          throw new Error('Nie udało się wczytać pliku: ' + file);
         }
         return response.json();
       })
@@ -101,11 +104,3 @@ Promise.all(
 .catch(error => {
   console.error('Błąd wczytywania przystanków:', error);
 });
-  .then(response => response.json())
-  .then(data => {
-    stopsLayer.addData(data);
-    map.fitBounds(stopsLayer.getBounds());
-  })
-  .catch(error => {
-    console.error('Błąd wczytywania przystanków:', error);
-  });
