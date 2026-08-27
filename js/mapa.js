@@ -74,7 +74,33 @@ const stopsLayer = L.geoJSON(null, {
 }).addTo(map);
 
 // Wczytanie przystanków z pliku GeoJSON.
-fetch('data/stops.geojson')
+const stopFiles = [
+  'data/stops/zarnowiec.geojson'
+  'data/stops/zator.geojson'
+];
+Promise.all(
+  stopFiles.map(file =>
+    fetch(file)
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Nie udało się wczytać: ' + file);
+        }
+        return response.json();
+      })
+  )
+)
+.then(filesData => {
+  filesData.forEach(data => {
+    stopsLayer.addData(data);
+  });
+
+  if (stopsLayer.getLayers().length > 0) {
+    map.fitBounds(stopsLayer.getBounds());
+  }
+})
+.catch(error => {
+  console.error('Błąd wczytywania przystanków:', error);
+});
   .then(response => response.json())
   .then(data => {
     stopsLayer.addData(data);
