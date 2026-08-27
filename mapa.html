@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Mapa KMMZ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Leaflet CSS -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet/dist/leaflet.css"
+  />
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      padding: 14px 18px;
+      background: #f5c400;
+      color: #102a43;
+      font-weight: bold;
+      font-size: 22px;
+    }
+
+    #map {
+      height: calc(100vh - 55px);
+      width: 100%;
+    }
+
+    .popup-title {
+      font-weight: bold;
+      font-size: 15px;
+      margin-bottom: 4px;
+    }
+
+    .popup-id {
+      color: #555;
+      font-size: 13px;
+    }
+
+    .popup-zone {
+      margin-top: 4px;
+      font-size: 13px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>Mapa KMMZ</header>
+
+  <div id="map"></div>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+  <!-- Nasz skrypt mapy -->
+  <script src="js/mapa.js"></script>
+</body>
+</html>
