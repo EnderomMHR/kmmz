@@ -85,17 +85,25 @@ Promise.all(
   stopFiles.map(file =>
     fetch(file)
       .then(response => {
+        console.log('Wczytywanie pliku:', file);
+        console.log('Status:', response.status);
+
         if (!response.ok) {
           throw new Error('Nie udało się wczytać pliku: ' + file);
         }
+
         return response.json();
       })
   )
 )
 .then(filesData => {
   filesData.forEach(data => {
+    console.log('Dodaję dane:', data);
+    console.log('Liczba przystanków w pliku:', data.features.length);
     stopsLayer.addData(data);
   });
+
+  console.log('Liczba punktów na mapie:', stopsLayer.getLayers().length);
 
   if (stopsLayer.getLayers().length > 0) {
     map.fitBounds(stopsLayer.getBounds());
