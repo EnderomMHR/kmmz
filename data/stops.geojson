@@ -30,6 +30,162 @@
     {
       "type": "Feature",
       "properties": {
+        "stop_id": "1334",
+        "name": "Łany Wielkie Kościół",
+        "platform": "1",
+        "zone": "Żarnowiec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.84956, 50.5083]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2829",
+        "name": "Chlina Górna Szkoła",
+        "platform": "1",
+        "zone": "Żarnowiec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.82688, 50.44726]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2830",
+        "name": "Chlina Górna Szkoła",
+        "platform": "2",
+        "zone": "Żarnowiec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.82776, 50.44766]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2831",
+        "name": "Udórz Kaplica",
+        "platform": "1",
+        "zone": "Żarnowiec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.78662, 50.45817]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2832",
+        "name": "Udórz Pohulanka",
+        "platform": "1",
+        "zone": "Żarnowiec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.78422, 50.46421]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2833",
+        "name": "Udórz Pohulanka",
+        "platform": "2",
+        "zone": "Żarnowiec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.78508, 50.46428]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2834",
+        "name": "Udórz Kaplica",
+        "platform": "2",
+        "zone": "Żarnowiec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.78677, 50.4583]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2835",
+        "name": "Chlina Pod Udorzem",
+        "platform": "2",
+        "zone": "Żarnowiec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.80502, 50.4561]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2836",
+        "name": "Chlina Dolna",
+        "platform": "2",
+        "zone": "Żarnowiec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.81249, 50.45174]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2837",
+        "name": "Chlina Kościół",
+        "platform": "2",
+        "zone": "Żarnowiec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.81734, 50.44495]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2838",
+        "name": "Chlina Nad Stoki",
+        "platform": "2",
+        "zone": "Żarnowiec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.8183, 50.44199]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2839",
+        "name": "Żarnowiec Kościuszki",
+        "platform": "1",
+        "zone": "Żarnowiec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.85789, 50.47513]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "stop_id": "2840",
         "name": "Żarnowiec Rynek",
         "platform": "0",
@@ -39,6 +195,385 @@
         "type": "Point",
         "coordinates": [19.86286, 50.48414]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2841",
+        "name": "Żarnowiec Kościuszki",
+        "platform": "2",
+        "zone": "Żarnowiec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.85776, 50.47518]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2842",
+        "name": "Chlina Nad Stoki",
+        "platform": "1",
+        "zone": "Żarnowiec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.81817, 50.44194]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2843",
+        "name": "Chlina Kościół",
+        "platform": "1",
+        "zone": "Żarnowiec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.81729, 50.44506]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2844",
+        "name": "Chlina Dolna",
+        "platform": "1",
+        "zone": "Żarnowiec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.81242, 50.45167]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2845",
+        "name": "Chlina Pod Udorzem",
+        "platform": "1",
+        "zone": "Żarnowiec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.80509, 50.45617]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2846",
+        "name": "Łany Małe Remiza",
+        "platform": "1",
+        "zone": "Żarnowiec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.84675, 50.48835]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2847",
+        "name": "Łany Małe Remiza",
+        "platform": "2",
+        "zone": "Żarnowiec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.84667, 50.48841]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2848",
+        "name": "Łany Małe Posesja 55",
+        "platform": "2",
+        "zone": "Żarnowiec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.83774, 50.48413]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2849",
+        "name": "Wola Libertowska Szkoła",
+        "platform": "2",
+        "zone": "Żarnowiec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.82439, 50.48019]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2850",
+        "name": "Wola Libertowska Remiza",
+        "platform": "2",
+        "zone": "Żarnowiec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.80993, 50.47483]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2851",
+        "name": "Wola Libertowska Stara Wieś",
+        "platform": "2",
+        "zone": "Żarnowiec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.80057, 50.47323]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2852",
+        "name": "Wola Libertowska Barycz",
+        "platform": "2",
+        "zone": "Żarnowiec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.80384, 50.46822]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2853",
+        "name": "Wola Libertowska Posesja 146",
+        "platform": "2",
+        "zone": "Żarnowiec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.82278, 50.47161]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2854",
+        "name": "Wola Libertowska Kresy",
+        "platform": "2",
+        "zone": "Żarnowiec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.83141, 50.4756]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2855",
+        "name": "Chlina Zamiechówka",
+        "platform": "2",
+        "zone": "Żarnowiec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.84327, 50.45901]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2857",
+        "name": "Zabrodzie Skrzyżowanie",
+        "platform": "2",
+        "zone": "Żarnowiec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.86812, 50.49005]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2858",
+        "name": "Zabrodzie Skrzyżowanie",
+        "platform": "1",
+        "zone": "Żarnowiec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.86799, 50.49012]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2860",
+        "name": "Chlina Zamiechówka",
+        "platform": "1",
+        "zone": "Żarnowiec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.84314, 50.45911]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2861",
+        "name": "Wola Libertowska Kresy",
+        "platform": "1",
+        "zone": "Żarnowiec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.83132, 50.4757]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2862",
+        "name": "Wola Libertowska Posesja 146",
+        "platform": "1",
+        "zone": "Żarnowiec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.82277, 50.4717]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2863",
+        "name": "Wola Libertowska Barycz",
+        "platform": "1",
+        "zone": "Żarnowiec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.80389, 50.4684]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2864",
+        "name": "Wola Libertowska Stara Wieś",
+        "platform": "1",
+        "zone": "Żarnowiec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.80044, 50.47331]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2865",
+        "name": "Wola Libertowska Remiza",
+        "platform": "1",
+        "zone": "Żarnowiec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.80991, 50.47491]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2866",
+        "name": "Wola Libertowska Szkoła",
+        "platform": "1",
+        "zone": "Żarnowiec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.82445, 50.48011]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2867",
+        "name": "Łany Małe Posesja 55",
+        "platform": "1",
+        "zone": "Żarnowiec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.83767, 50.48398]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2868",
+        "name": "Łany Wielkie Droga do Łanów Małych",
+        "platform": "1",
+        "zone": "Żarnowiec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.86471, 50.49532]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2869",
+        "name": "Łany Wielkie Droga do Łanów Małych",
+        "platform": "2",
+        "zone": "Żarnowiec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.86451, 50.49521]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2870",
+        "name": "Łany Wielkie Stara Wieś",
+        "platform": "2",
+        "zone": "Żarnowiec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.85649, 50.50191]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2871",
+        "name": "Łany Wielkie Stara Wieś",
+        "platform": "1",
+        "zone": "Żarnowiec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.85626, 50.50181]
+      }
     }
+  ]
+}
   ]
 }
