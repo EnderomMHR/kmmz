@@ -4,32 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "stop_id": "0001",
-        "name": "Wolbrom Nowa PKS",
-        "platform": "0",
-        "zone": "Wolbrom"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [19.75926, 50.38789]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop_id": "1679",
-        "name": "Zator Rynek",
-        "platform": "0",
-        "zone": "Zator"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [19.43882, 49.99611]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "stop_id": "1334",
         "name": "Łany Wielkie Kościół",
         "platform": "1",
@@ -573,7 +547,5 @@
         "coordinates": [19.85626, 50.50181]
       }
     }
-  ]
-}
   ]
 }
