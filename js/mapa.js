@@ -9,14 +9,53 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 // Warstwa na przystanki.
+const zoneColors = {
+  "Babice-Alwernia": "#dd7e6b",
+  "Bieruń": "#d5a6bd",
+  "Bolesław": "#cccccc",
+  "Brzeszcze": "#a2c4c9",
+  "Bukowno": "#93c47d",
+  "Chełmek": "#b4a7d6",
+  "Chrzanów": "#a4c2f4",
+  "Dąbrowa Górnicza": "#ffd966",
+  "Iwanowice": "#e6b8af",
+  "Jaworzno": "#ead1dc",
+  "Jerzmanowice-Przeginia": "#ea9998",
+  "Klucze": "#00fe00",
+  "Krzeszowice": "#f9cb9a",
+  "Libiąż": "#b6d7a8",
+  "Olkusz": "#ffe599",
+  "Osiek": "#d9ead3",
+  "Oświęcim": "#9fc4e8",
+  "Polanka Wielka": "#e16656",
+  "Przeciszów": "#8e7cd3",
+  "Sławków": "#af00ff",
+  "Sosnowiec": "#d9d9e9",
+  "Spytkowice": "#76a5af",
+  "Sułoszowa-Skała": "#b7b8b7",
+  "Trzebinia": "#d9d2e9",
+  "Trzyciąż": "#c17ba1",
+  "Wolbrom": "#2a8be8",
+  "Zator": "#10ffff",
+  "Żarnowiec": "#fffe01"
+};
+
+function getZoneColor(zone) {
+  return zoneColors[zone] || "#555555";
+}
 const stopsLayer = L.geoJSON(null, {
   pointToLayer: function (feature, latlng) {
-    return L.circleMarker(latlng, {
-      radius: 5,
-      weight: 1,
-      fillOpacity: 0.85
-    });
-  },
+  const zone = feature.properties.zone;
+  const color = getZoneColor(zone);
+
+  return L.circleMarker(latlng, {
+    radius: 6,
+    color: "#ffffff",
+    weight: 2,
+    fillColor: color,
+    fillOpacity: 0.9
+  });
+},
 
   onEachFeature: function (feature, layer) {
     const p = feature.properties;
