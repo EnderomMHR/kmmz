@@ -1,1 +1,44 @@
-
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0001",
+        "name": "Wolbrom Nowa PKS",
+        "platform": "0",
+        "zone": "Wolbrom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.7580, 50.3790]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "1679",
+        "name": "Zator Rynek",
+        "platform": "0",
+        "zone": "Zator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.4380, 49.9960]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2840",
+        "name": "Żarnowiec Rynek",
+        "platform": "0",
+        "zone": "Żarnowiec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.8660, 50.4800]
+      }
+    }
+  ]
+}
