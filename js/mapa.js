@@ -45,6 +45,7 @@ function getZoneColor(zone) {
 }
 const stopFiles = [
   'data/stops/zarnowiec.geojson'
+  'data/stops/zator.geojson'
 ];
 
 
