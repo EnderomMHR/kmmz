@@ -46,7 +46,8 @@ function getZoneColor(zone) {
 const stopFiles = [
   'data/stops/zarnowiec.geojson',
   'data/stops/zator.geojson',
-  'data/stops/trzyciaz.geojson'
+  'data/stops/trzyciaz.geojson',
+  'data/stops/chelmek.geojson'
 ];
 
 
