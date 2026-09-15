@@ -262,6 +262,23 @@ def parse_time(value):
 
     return time, symbols
 
+def get_display_direction(direction_name, direction, symbols):
+    """
+    Zwraca kierunek wyświetlany dla konkretnego kursu.
+
+    Na przykład:
+    05:22H   -> Laski Pętla
+    06:25P   -> Bukowno Przymiarki
+    14:24HP  -> Bukowno Przymiarki
+    18:35B   -> Bukowno Dworzec PKP
+    """
+    variant_destinations = direction.get("variant_destinations", {})
+
+    for symbol in symbols:
+        if symbol in variant_destinations:
+            return variant_destinations[symbol]
+
+    return direction_name
 
 def render_time(value):
     time, symbols = parse_time(value)
@@ -461,9 +478,12 @@ def build_map_departures(all_line_files):
                     for raw_value in values:
                         time, symbols = parse_time(raw_value)
 
+                        display_direction = get_display_direction(direction_name, direction, symbols)
+
                         by_stop[stop_id]["departures"].append({
                             "line": line,
-                            "direction": direction_name,
+                            "main_direction": direction_name,
+                            "display_direction": display_direction,
                             "direction_slug": direction_slug,
                             "page": f"rozklady/{line}/{timetable['file']}",
                             "day_type": day_type,
