@@ -923,7 +923,7 @@ def render_stop_page_html(stop_id, stop_data, stop_meta):
 </div>
 
 <div class="stop-meta">
-<div class="zone-badge">{escape(zone_label)}</div><br>
+<div class="zone-badge" style="background:{escape(zone_color)};">{escape(zone_label)}</div><br>
 <a class="map-button" href="../mapa.html" target="_blank">🗺️ Pokaż na mapie</a>
 </div>
 
