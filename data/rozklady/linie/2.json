@@ -1,0 +1,83 @@
+{
+  "line": "2",
+  "map_url": "https://enderommhr.github.io/kmmz/mapa.html",
+  "directions": [
+    {
+      "slug": "laski",
+      "name": "Laski Pętla",
+      "legend": {
+        "B": "do: Bukowno Dworzec PKP",
+        "H": "przez: Hutki Pętla",
+        "L": "z pominięciem: Bolesław Remiza>>Laski Pętla",
+        "P": "do: Bukowno Przymiarki"
+      },
+      "route_stops": [
+        {"stop_id":"0177","stop_name":"Olkusz Szpitalna","platform":"2","file":"0177-laski.html"},
+        {"stop_id":"0238","stop_name":"Olkusz Supersam","platform":"2","file":"0238-laski.html"},
+        {"stop_id":"0239","stop_name":"Olkusz Stacja Paliw","platform":"2","file":"0239-laski.html"},
+        {"stop_id":"0240","stop_name":"Olkusz Stary","platform":"1","file":"0240-laski.html"},
+        {"stop_id":"0241","stop_name":"Bolesław Osadowa","platform":"1","file":"0241-laski.html"},
+        {"stop_id":"0242","stop_name":"Bolesław Dąbrówka","platform":"2","file":"0242-laski.html"},
+        {"stop_id":"0166","stop_name":"Bolesław Kluczewska","platform":"2","file":"0166-laski.html","variant":true},
+        {"stop_id":"0167","stop_name":"Bolesław Kluczewska Mostek","platform":"2","file":"0167-laski.html","variant":true},
+        {"stop_id":"0168","stop_name":"Hutki Pętla","platform":"1","file":"0168-laski.html","variant":true},
+        {"stop_id":"0169","stop_name":"Bolesław Kluczewska Mostek","platform":"1","file":"0169-laski.html","variant":true},
+        {"stop_id":"0170","stop_name":"Bolesław Kluczewska","platform":"1","file":"0170-laski.html","variant":true},
+        {"stop_id":"0156","stop_name":"Bolesław Remiza","platform":"1","file":"0156-laski.html"},
+        {"stop_id":"0157","stop_name":"Kolonia Bolesławska","platform":"2","file":"0157-laski.html"},
+        {"stop_id":"0158","stop_name":"Kolonia Poręba","platform":"1","file":"0158-laski.html"},
+        {"stop_id":"0159","stop_name":"Kolonia Cicha","platform":"2","file":"0159-laski.html"},
+        {"stop_id":"0160","stop_name":"Laski Pętla","platform":"0","file":"0160-laski.html"},
+        {"stop_id":"0161","stop_name":"Kolonia Cicha","platform":"1","file":"0161-laski.html","variant":true},
+        {"stop_id":"0162","stop_name":"Kolonia Poręba","platform":"2","file":"0162-laski.html","variant":true},
+        {"stop_id":"0163","stop_name":"Kolonia Bolesławska","platform":"1","file":"0163-laski.html","variant":true},
+        {"stop_id":"0164","stop_name":"Bolesław Remiza","platform":"2","file":"0164-laski.html","variant":true},
+        {"stop_id":"0243","stop_name":"Bolesław Centrum","platform":"1","file":"0243-laski.html","variant":true},
+        {"stop_id":"0244","stop_name":"Bolesław Szkoła","platform":"1","file":"0244-laski.html","variant":true},
+        {"stop_id":"0245","stop_name":"Bolesław Cmentarz","platform":"2","file":"0245-laski.html","variant":true},
+        {"stop_id":"0246","stop_name":"Krążek","platform":"2","file":"0246-laski.html","variant":true},
+        {"stop_id":"0247","stop_name":"Bukowno Diana","platform":"2","file":"0247-laski.html","variant":true},
+        {"stop_id":"0248","stop_name":"Bukowno ZGH","platform":"1","file":"0248-laski.html","variant":true},
+        {"stop_id":"0249","stop_name":"Bukowno Skałka","platform":"2","file":"0249-laski.html","variant":true},
+        {"stop_id":"0146","stop_name":"Bukowno Urząd Miasta","platform":"2","file":"0146-laski.html","variant":true},
+        {"stop_id":"0147","stop_name":"Bukowno Dworzec PKP","platform":"0","file":"0147-laski.html","variant":true},
+        {"stop_id":"0148","stop_name":"Bukowno Urząd Miasta","platform":"1","file":"0148-laski.html","variant":true},
+        {"stop_id":"0250","stop_name":"Bukowno Nowa","platform":"1","file":"0250-laski.html","variant":true},
+        {"stop_id":"0251","stop_name":"Bukowno Nowa OSP","platform":"2","file":"0251-laski.html","variant":true},
+        {"stop_id":"0252","stop_name":"Bukowno Cmentarz","platform":"1","file":"0252-laski.html","variant":true},
+        {"stop_id":"0253","stop_name":"Bukowno Remiza","platform":"0","file":"0253-laski.html","variant":true},
+        {"stop_id":"0254","stop_name":"Bukowno Skotnica","platform":"1","file":"0254-laski.html","variant":true},
+        {"stop_id":"0255","stop_name":"Bukowno Sklep","platform":"1","file":"0255-laski.html","variant":true},
+        {"stop_id":"0256","stop_name":"Bukowno Przymiarki PKP","platform":"1","file":"0256-laski.html","variant":true},
+        {"stop_id":"0106","stop_name":"Bukowno Przymiarki","platform":"0","file":"0106-laski.html","variant":true}
+      ],
+      "timetables": [
+        {
+          "stop_id": "0177",
+          "stop_name": "Olkusz Szpitalna",
+          "platform": "2",
+          "file": "0177-laski.html",
+          "departures": {
+            "workday": ["05:18H", "06:21P", "06:50", "08:30", "10:18H", "11:21", "13:05", "14:20HP", "15:02LP", "16:13", "17:50", "19:20", "20:03", "20:52HP", "22:03"],
+            "saturday": ["05:33", "06:00LP", "07:48H", "09:21H", "10:18P", "14:30H", "18:31B", "20:25H", "21:48H"],
+            "sunday": ["05:53", "09:47H", "11:36H", "14:29P", "17:18", "20:06", "20:48"],
+            "holiday": ["10:18P", "14:30H"]
+          }
+        },
+        {
+  "stop_id": "0238",
+  "stop_name": "Olkusz Supersam",
+  "platform": "2",
+  "file": "0238-laski.html",
+  "departures": {
+    "workday": ["05:22H", "06:25P", "06:54", "07:28", "08:34", "08:50LP", "10:22H", "11:25", "11:43P", "13:09", "13:36", "14:24HP", "15:06LP", "16:17", "17:05H", "17:54", "18:30HLP", "19:24", "20:07", "20:56HP", "22:07"],
+    "saturday": ["05:37", "06:04LP", "07:52H", "09:25H", "10:22P", "11:43", "13:37", "14:34H", "15:46", "17:43LP", "18:35B", "20:29H", "21:52H"],
+    "sunday": ["05:57", "06:15LP", "07:52", "09:51H", "10:14", "11:40H", "12:32", "14:33P", "17:22", "20:10", "20:52"],
+    "holiday": ["10:22P", "11:43", "13:37", "14:34H", "15:46"]
+  }
+}
+        }
+      ]
+    }
+  ]
+}
