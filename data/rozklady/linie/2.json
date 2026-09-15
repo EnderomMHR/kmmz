@@ -5,6 +5,10 @@
     {
       "slug": "laski",
       "name": "Laski Pętla",
+      "variant_destinations": {
+  "B": "Bukowno Dworzec PKP",
+  "P": "Bukowno Przymiarki"
+},
       "legend": {
         "B": "do: Bukowno Dworzec PKP",
         "H": "przez: Hutki Pętla",
