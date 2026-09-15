@@ -25,13 +25,62 @@ jobs:
         with:
           python-version: '3.x'
 
+      - name: Diagnostyka plików
+        run: |
+          echo "Aktualny folder:"
+          pwd
+
+          echo ""
+          echo "Główne pliki repo:"
+          ls -la
+
+          echo ""
+          echo "Folder tools:"
+          ls -la tools || true
+
+          echo ""
+          echo "Folder data/rozklady/linie:"
+          ls -la data/rozklady/linie || true
+
+          echo ""
+          echo "Wersja Pythona:"
+          python --version
+
+          echo ""
+          echo "Sprawdzam, czy istnieje generator:"
+          test -f tools/generate-rozklady.py && echo "OK: tools/generate-rozklady.py istnieje" || echo "BRAK: tools/generate-rozklady.py"
+
+          echo ""
+          echo "Sprawdzam, czy istnieje data/rozklady/linie/2.json:"
+          test -f data/rozklady/linie/2.json && echo "OK: 2.json istnieje" || echo "BRAK: data/rozklady/linie/2.json"
+
+      - name: Sprawdź poprawność JSON
+        run: |
+          python -m json.tool data/rozklady/linie/2.json > /tmp/linia2-ok.json
+          echo "JSON jest poprawny składniowo"
+
       - name: Uruchom generator
         run: python tools/generate-rozklady.py
+
+      - name: Pokaż wygenerowane pliki
+        run: |
+          echo "Pliki w rozklady/2:"
+          find rozklady/2 -maxdepth 1 -type f | sort || true
+
+          echo ""
+          echo "Pliki w data/odjazdy:"
+          find data/odjazdy -maxdepth 1 -type f | sort || true
 
       - name: Zapisz wygenerowane pliki
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
           git add rozklady data/odjazdy
-          git diff --cached --quiet || git commit -m "Generate rozklady"
-          git push
+
+          if git diff --cached --quiet; then
+            echo "Brak nowych zmian do zapisania."
+          else
+            git commit -m "Generate rozklady"
+            git push
+          fi
