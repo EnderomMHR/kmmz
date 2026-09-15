@@ -1,10 +1,13 @@
 name: Generate rozklady
 
 on:
+  workflow_dispatch:
+
   push:
     paths:
       - 'data/rozklady/linie/**'
       - 'tools/generate-rozklady.py'
+      - '.github/workflows/generate-rozklady.yml'
 
 permissions:
   contents: write
@@ -15,10 +18,10 @@ jobs:
 
     steps:
       - name: Pobierz repozytorium
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
 
       - name: Ustaw Pythona
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
@@ -27,8 +30,8 @@ jobs:
 
       - name: Zapisz wygenerowane pliki
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add rozklady data/odjazdy
           git diff --cached --quiet || git commit -m "Generate rozklady"
           git push
