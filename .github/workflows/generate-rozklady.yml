@@ -1,0 +1,34 @@
+name: Generate rozklady
+
+on:
+  push:
+    paths:
+      - 'data/rozklady/linie/**'
+      - 'tools/generate-rozklady.py'
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Pobierz repozytorium
+        uses: actions/checkout@v6
+
+      - name: Ustaw Pythona
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.x'
+
+      - name: Uruchom generator
+        run: python tools/generate-rozklady.py
+
+      - name: Zapisz wygenerowane pliki
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add rozklady data/odjazdy
+          git diff --cached --quiet || git commit -m "Generate rozklady"
+          git push
