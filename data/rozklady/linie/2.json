@@ -127,17 +127,64 @@
     "sunday": ["06:06", "06:24LP", "08:01", "10:00H", "10:23", "11:49H", "12:41", "14:42P", "17:31", "20:19", "21:01"],
     "holiday": ["10:31P", "11:52", "13:46", "14:43H", "15:55"]
   }
+                                                      }
+      ]
 },
+        {
+      "slug": "laski",
+      "name": "Laski Pętla",
+      "variant_destinations": {
+  "P": "Bukowno Przymiarki"
+},
+      "legend": {
+        "L": "z pominięciem: Bolesław Remiza>>Laski Pętla",
+        "P": "do: Bukowno Przymiarki"
+      },
+      "route_stops": [
+        {"stop_id":"0166","stop_name":"Bolesław Kluczewska","platform":"2","file":"0166-laski.html","variant":true},
+        {"stop_id":"0167","stop_name":"Bolesław Kluczewska Mostek","platform":"2","file":"0167-laski.html","variant":true},
+        {"stop_id":"0168","stop_name":"Hutki Pętla","platform":"1","file":"0168-laski.html","variant":true},
+        {"stop_id":"0169","stop_name":"Bolesław Kluczewska Mostek","platform":"1","file":"0169-laski.html","variant":true},
+        {"stop_id":"0170","stop_name":"Bolesław Kluczewska","platform":"1","file":"0170-laski.html","variant":true},
+        {"stop_id":"0156","stop_name":"Bolesław Remiza","platform":"1","file":"0156-laski.html"},
+        {"stop_id":"0157","stop_name":"Kolonia Bolesławska","platform":"2","file":"0157-laski.html"},
+        {"stop_id":"0158","stop_name":"Kolonia Poręba","platform":"1","file":"0158-laski.html"},
+        {"stop_id":"0159","stop_name":"Kolonia Cicha","platform":"2","file":"0159-laski.html"},
+        {"stop_id":"0160","stop_name":"Laski Pętla","platform":"0","file":"0160-laski.html"},
+        {"stop_id":"0161","stop_name":"Kolonia Cicha","platform":"1","file":"0161-laski.html","variant":true},
+        {"stop_id":"0162","stop_name":"Kolonia Poręba","platform":"2","file":"0162-laski.html","variant":true},
+        {"stop_id":"0163","stop_name":"Kolonia Bolesławska","platform":"1","file":"0163-laski.html","variant":true},
+        {"stop_id":"0164","stop_name":"Bolesław Remiza","platform":"2","file":"0164-laski.html","variant":true},
+        {"stop_id":"0243","stop_name":"Bolesław Centrum","platform":"1","file":"0243-laski.html","variant":true},
+        {"stop_id":"0244","stop_name":"Bolesław Szkoła","platform":"1","file":"0244-laski.html","variant":true},
+        {"stop_id":"0245","stop_name":"Bolesław Cmentarz","platform":"2","file":"0245-laski.html","variant":true},
+        {"stop_id":"0246","stop_name":"Krążek","platform":"2","file":"0246-laski.html","variant":true},
+        {"stop_id":"0247","stop_name":"Bukowno Diana","platform":"2","file":"0247-laski.html","variant":true},
+        {"stop_id":"0248","stop_name":"Bukowno ZGH","platform":"1","file":"0248-laski.html","variant":true},
+        {"stop_id":"0249","stop_name":"Bukowno Skałka","platform":"2","file":"0249-laski.html","variant":true},
+        {"stop_id":"0146","stop_name":"Bukowno Urząd Miasta","platform":"2","file":"0146-laski.html","variant":true},
+        {"stop_id":"0147","stop_name":"Bukowno Dworzec PKP","platform":"0","file":"0147-laski.html","variant":true},
+        {"stop_id":"0148","stop_name":"Bukowno Urząd Miasta","platform":"1","file":"0148-laski.html","variant":true},
+        {"stop_id":"0250","stop_name":"Bukowno Nowa","platform":"1","file":"0250-laski.html","variant":true},
+        {"stop_id":"0251","stop_name":"Bukowno Nowa OSP","platform":"2","file":"0251-laski.html","variant":true},
+        {"stop_id":"0252","stop_name":"Bukowno Cmentarz","platform":"1","file":"0252-laski.html","variant":true},
+        {"stop_id":"0253","stop_name":"Bukowno Remiza","platform":"0","file":"0253-laski.html","variant":true},
+        {"stop_id":"0254","stop_name":"Bukowno Skotnica","platform":"1","file":"0254-laski.html","variant":true},
+        {"stop_id":"0255","stop_name":"Bukowno Sklep","platform":"1","file":"0255-laski.html","variant":true},
+        {"stop_id":"0256","stop_name":"Bukowno Przymiarki PKP","platform":"1","file":"0256-laski.html","variant":true},
+        {"stop_id":"0106","stop_name":"Bukowno Przymiarki","platform":"0","file":"0106-laski.html","variant":true}
+      ],
+      "timetables": [
                                  {
   "stop_id": "0166",
   "stop_name": "Bolesław Kluczewska",
   "platform": "2",
   "file": "0166-laski.html",
   "departures": {
-    "workday": ["05:32H", "10:32H", "14:34HP", "17:15H", "18:40HLP", "21:06HP"],
-    "saturday": ["08:02H", "09:35H", "14:44H", "20:39H", "22:02H"],
-    "sunday": ["10:01H", "11:50H"],
-    "holiday": ["14:44H"]
+    "workday": ["05:32", "10:32", "14:34P", "17:15", "18:40LP", "21:06P"],
+    "saturday": ["08:02", "09:35", "14:44", "20:39", "22:02"],
+    "sunday": ["10:01", "11:50"],
+    "holiday": ["14:44"]
   }
 },
                                         {
@@ -146,10 +193,10 @@
   "platform": "2",
   "file": "0167-laski.html",
   "departures": {
-    "workday": ["05:33H", "10:33H", "14:35HP", "17:16H", "18:41HLP", "21:07HP"],
-    "saturday": ["08:03H", "09:36H", "14:45H", "20:40H", "22:03H"],
-    "sunday": ["10:02H", "11:51H"],
-    "holiday": ["14:45H"]
+    "workday": ["05:33", "10:33", "14:35P", "17:16", "18:41LP", "21:07P"],
+    "saturday": ["08:03", "09:36", "14:45", "20:40", "22:03"],
+    "sunday": ["10:02", "11:51"],
+    "holiday": ["14:45"]
   }
 },
                                                {
@@ -158,10 +205,10 @@
   "platform": "1",
   "file": "0168-laski.html",
   "departures": {
-    "workday": ["05:34H", "10:34H", "14:36HP", "17:17H", "18:42HLP", "21:08HP"],
-    "saturday": ["08:04H", "09:37H", "14:46H", "20:41H", "22:04H"],
-    "sunday": ["10:03H", "11:52H"],
-    "holiday": ["14:46H"]
+    "workday": ["05:34", "10:34", "14:36P", "17:17", "18:42LP", "21:08P"],
+    "saturday": ["08:04", "09:37", "14:46", "20:41", "22:04"],
+    "sunday": ["10:03", "11:52"],
+    "holiday": ["14:46"]
   }
 },
                                                      {
@@ -170,10 +217,10 @@
   "platform": "1",
   "file": "0169-laski.html",
   "departures": {
-    "workday": ["05:35H", "10:35H", "14:37HP", "17:18H", "18:43HLP", "21:09HP"],
-    "saturday": ["08:05H", "09:38H", "14:47H", "20:42H", "22:05H"],
-    "sunday": ["10:04H", "11:53H"],
-    "holiday": ["14:47H"]
+    "workday": ["05:35", "10:35", "14:37P", "17:18", "18:43LP", "21:09P"],
+    "saturday": ["08:05", "09:38", "14:47", "20:42", "22:05"],
+    "sunday": ["10:04", "11:53"],
+    "holiday": ["14:47"]
   }
 },
                                 {
@@ -182,13 +229,56 @@
   "platform": "1",
   "file": "0170-laski.html",
   "departures": {
-    "workday": ["05:36H", "10:36H", "14:38HP", "17:19H", "18:44HLP", "21:10HP"],
-    "saturday": ["08:06H", "09:39H", "14:48H", "20:43H", "22:06H"],
-    "sunday": ["10:05H", "11:54H"],
-    "holiday": ["14:48H"]
-  }
+    "workday": ["05:36", "10:36H", "14:38P", "17:19", "18:44LP", "21:10P"],
+    "saturday": ["08:06", "09:39", "14:48", "20:43", "22:06"],
+    "sunday": ["10:05", "11:54"],
+    "holiday": ["14:48"]
+   }
+                                                      }
+      ]
 },
-                                {
+        {
+      "slug": "laski",
+      "name": "Laski Pętla",
+      "variant_destinations": {
+        "B": "Bukowno Dworzec PKP",
+  "P": "Bukowno Przymiarki"
+},
+      "legend": {
+        "B": "do: Bukowno Dworzec PKP",
+        "P": "do: Bukowno Przymiarki"
+      },
+      "route_stops": [
+        {"stop_id":"0156","stop_name":"Bolesław Remiza","platform":"1","file":"0156-laski.html"},
+        {"stop_id":"0157","stop_name":"Kolonia Bolesławska","platform":"2","file":"0157-laski.html"},
+        {"stop_id":"0158","stop_name":"Kolonia Poręba","platform":"1","file":"0158-laski.html"},
+        {"stop_id":"0159","stop_name":"Kolonia Cicha","platform":"2","file":"0159-laski.html"},
+        {"stop_id":"0160","stop_name":"Laski Pętla","platform":"0","file":"0160-laski.html"},
+        {"stop_id":"0161","stop_name":"Kolonia Cicha","platform":"1","file":"0161-laski.html","variant":true},
+        {"stop_id":"0162","stop_name":"Kolonia Poręba","platform":"2","file":"0162-laski.html","variant":true},
+        {"stop_id":"0163","stop_name":"Kolonia Bolesławska","platform":"1","file":"0163-laski.html","variant":true},
+        {"stop_id":"0164","stop_name":"Bolesław Remiza","platform":"2","file":"0164-laski.html","variant":true},
+        {"stop_id":"0243","stop_name":"Bolesław Centrum","platform":"1","file":"0243-laski.html","variant":true},
+        {"stop_id":"0244","stop_name":"Bolesław Szkoła","platform":"1","file":"0244-laski.html","variant":true},
+        {"stop_id":"0245","stop_name":"Bolesław Cmentarz","platform":"2","file":"0245-laski.html","variant":true},
+        {"stop_id":"0246","stop_name":"Krążek","platform":"2","file":"0246-laski.html","variant":true},
+        {"stop_id":"0247","stop_name":"Bukowno Diana","platform":"2","file":"0247-laski.html","variant":true},
+        {"stop_id":"0248","stop_name":"Bukowno ZGH","platform":"1","file":"0248-laski.html","variant":true},
+        {"stop_id":"0249","stop_name":"Bukowno Skałka","platform":"2","file":"0249-laski.html","variant":true},
+        {"stop_id":"0146","stop_name":"Bukowno Urząd Miasta","platform":"2","file":"0146-laski.html","variant":true},
+        {"stop_id":"0147","stop_name":"Bukowno Dworzec PKP","platform":"0","file":"0147-laski.html","variant":true},
+        {"stop_id":"0148","stop_name":"Bukowno Urząd Miasta","platform":"1","file":"0148-laski.html","variant":true},
+        {"stop_id":"0250","stop_name":"Bukowno Nowa","platform":"1","file":"0250-laski.html","variant":true},
+        {"stop_id":"0251","stop_name":"Bukowno Nowa OSP","platform":"2","file":"0251-laski.html","variant":true},
+        {"stop_id":"0252","stop_name":"Bukowno Cmentarz","platform":"1","file":"0252-laski.html","variant":true},
+        {"stop_id":"0253","stop_name":"Bukowno Remiza","platform":"0","file":"0253-laski.html","variant":true},
+        {"stop_id":"0254","stop_name":"Bukowno Skotnica","platform":"1","file":"0254-laski.html","variant":true},
+        {"stop_id":"0255","stop_name":"Bukowno Sklep","platform":"1","file":"0255-laski.html","variant":true},
+        {"stop_id":"0256","stop_name":"Bukowno Przymiarki PKP","platform":"1","file":"0256-laski.html","variant":true},
+        {"stop_id":"0106","stop_name":"Bukowno Przymiarki","platform":"0","file":"0106-laski.html","variant":true}
+      ],
+      "timetables": [
+        {
   "stop_id": "0156",
   "stop_name": "Bolesław Remiza",
   "platform": "1",
@@ -279,12 +369,282 @@
   "platform": "0",
   "file": "0160-laski.html",
   "departures": {
-    "workday": ["06:40", "11:58", "14:44", "21:16"],
-    "saturday": ["10:37", "18:50B"],
-    "sunday": ["14:48"],
-    "holiday": ["10:37"]
+    "workday": ["06:41", "11:59", "14:45", "21:17"],
+    "saturday": ["10:38", "18:51B"],
+    "sunday": ["14:49"],
+    "holiday": ["10:38"]
   }
+},
+                             {
+  "stop_id": "0161",
+  "stop_name": "Kolonia Cicha",
+  "platform": "1",
+  "file": "0161-laski.html",
+  "departures": {
+    "workday": ["06:42", "12:00", "14:46", "21:18"],
+    "saturday": ["10:39", "18:52B"],
+    "sunday": ["14:50"],
+    "holiday": ["10:39"]
+  }
+},
+                 {
+  "stop_id": "0162",
+  "stop_name": "Kolonia Poręba",
+  "platform": "2",
+  "file": "0162-laski.html",
+  "departures": {
+    "workday": ["06:43", "12:01", "14:47", "21:19"],
+    "saturday": ["10:40", "18:53B"],
+    "sunday": ["14:51"],
+    "holiday": ["10:40"]
+  }
+},
+          {
+  "stop_id": "0163",
+  "stop_name": "Kolonia Bolesławska",
+  "platform": "1",
+  "file": "0163-laski.html",
+  "departures": {
+    "workday": ["06:44", "12:02", "14:48", "21:20"],
+    "saturday": ["10:41", "18:54B"],
+    "sunday": ["14:52"],
+    "holiday": ["10:41"]
+  }
+},
+          {
+  "stop_id": "0164",
+  "stop_name": "Bolesław Remiza",
+  "platform": "2",
+  "file": "0164-laski.html",
+  "departures": {
+    "workday": ["06:46", "12:04", "14:50", "21:22"],
+    "saturday": ["10:43", "18:56B"],
+    "sunday": ["14:54"],
+    "holiday": ["10:43"]
+  }
+},
+        {
+  "stop_id": "0243",
+  "stop_name": "Bolesław Centrum",
+  "platform": "1",
+  "file": "0243-laski.html",
+  "departures": {
+    "workday": ["06:47", "09:01", "12:05", "14:51", "15:17", "18:46", "21:23"],
+    "saturday": ["06:15", "10:44", "17:54", "18:57B"],
+    "sunday": ["06:26", "14:55"],
+    "holiday": ["10:44"]
+  }
+},
+         {
+  "stop_id": "0244",
+  "stop_name": "Bolesław Szkoła",
+  "platform": "1",
+  "file": "0244-laski.html",
+  "departures": {
+    "workday": ["06:49", "09:03", "12:07", "14:53", "15:19", "18:48", "21:25"],
+    "saturday": ["06:17", "10:46", "17:56", "18:59B"],
+    "sunday": ["06:28", "14:57"],
+    "holiday": ["10:46"]
+  }
+},
+         {
+  "stop_id": "0245",
+  "stop_name": "Bolesław Cmentarz",
+  "platform": "2",
+  "file": "0245-laski.html",
+  "departures": {
+    "workday": ["06:50", "09:04", "12:08", "14:54", "15:20", "18:49", "21:26"],
+    "saturday": ["06:18", "10:47", "17:57", "19:00B"],
+    "sunday": ["06:29", "14:58"],
+    "holiday": ["10:47"]
+  }
+},
+         {
+  "stop_id": "0246",
+  "stop_name": "Krążek",
+  "platform": "2",
+  "file": "0246-laski.html",
+  "departures": {
+    "workday": ["06:51", "09:05", "12:09", "14:55", "15:21", "18:50", "21:27"],
+    "saturday": ["06:19", "10:48", "17:58", "19:01B"],
+    "sunday": ["06:30", "14:59"],
+    "holiday": ["10:48"]
+  }
+},
+           {
+  "stop_id": "0247",
+  "stop_name": "Bukowno Diana",
+  "platform": "2",
+  "file": "0247-laski.html",
+  "departures": {
+    "workday": ["06:53", "09:07", "12:11", "14:57", "15:23", "18:52", "21:29"],
+    "saturday": ["06:21", "10:50", "18:00", "19:03B"],
+    "sunday": ["06:32", "15:01"],
+    "holiday": ["10:50"]
+  }
+},
+         {
+  "stop_id": "0248",
+  "stop_name": "Bukowno ZGH",
+  "platform": "1",
+  "file": "0248-laski.html",
+  "departures": {
+    "workday": ["06:54", "09:08", "12:12", "14:58", "15:24", "18:53", "21:30"],
+    "saturday": ["06:22", "10:51", "18:01", "19:04B"],
+    "sunday": ["06:33", "15:02"],
+    "holiday": ["10:51"]
+  }
+},
+         {
+  "stop_id": "0249",
+  "stop_name": "Bukowno Skałka",
+  "platform": "2",
+  "file": "0249-laski.html",
+  "departures": {
+    "workday": ["06:56", "09:10", "12:14", "15:00", "15:26", "18:55", "21:32"],
+    "saturday": ["06:24", "10:53", "18:03", "19:06B"],
+    "sunday": ["06:35", "15:04"],
+    "holiday": ["10:53"]
+  }
+},
+         {
+  "stop_id": "0146",
+  "stop_name": "Bukowno Urząd Miasta",
+  "platform": "2",
+  "file": "0146-laski.html",
+  "departures": {
+    "workday": ["06:57", "09:11", "12:15", "15:01", "15:27", "18:56", "21:33"],
+    "saturday": ["06:25", "10:54", "18:04", "19:07B"],
+    "sunday": ["06:36", "15:05"],
+    "holiday": ["10:54"]
 }
+                                                      }
+      ]
+},
+        {
+      "slug": "przymiarki",
+      "name": "Bukowno Przymiarki",
+      "route_stops": [
+        {"stop_id":"0147","stop_name":"Bukowno Dworzec PKP","platform":"0","file":"0147-laski.html","variant":true},
+        {"stop_id":"0148","stop_name":"Bukowno Urząd Miasta","platform":"1","file":"0148-laski.html","variant":true},
+        {"stop_id":"0250","stop_name":"Bukowno Nowa","platform":"1","file":"0250-laski.html","variant":true},
+        {"stop_id":"0251","stop_name":"Bukowno Nowa OSP","platform":"2","file":"0251-laski.html","variant":true},
+        {"stop_id":"0252","stop_name":"Bukowno Cmentarz","platform":"1","file":"0252-laski.html","variant":true},
+        {"stop_id":"0253","stop_name":"Bukowno Remiza","platform":"0","file":"0253-laski.html","variant":true},
+        {"stop_id":"0254","stop_name":"Bukowno Skotnica","platform":"1","file":"0254-laski.html","variant":true},
+        {"stop_id":"0255","stop_name":"Bukowno Sklep","platform":"1","file":"0255-laski.html","variant":true},
+        {"stop_id":"0256","stop_name":"Bukowno Przymiarki PKP","platform":"1","file":"0256-laski.html","variant":true},
+        {"stop_id":"0106","stop_name":"Bukowno Przymiarki","platform":"0","file":"0106-laski.html","variant":true}
+      ],
+      "timetables": [
+           {
+  "stop_id": "0147",
+  "stop_name": "Bukowno Dworzec PKP",
+  "platform": "0",
+  "file": "0147-laski.html",
+  "departures": {
+    "workday": ["06:58", "09:12", "12:16", "15:02", "15:28", "18:57", "21:34"],
+    "saturday": ["06:26", "10:55", "18:05"],
+    "sunday": ["06:37", "15:06"],
+    "holiday": ["10:55"]
+}
+  },
+           {
+  "stop_id": "0148",
+  "stop_name": "Bukowno Urząd Miasta",
+  "platform": "1",
+  "file": "0148-laski.html",
+  "departures": {
+    "workday": ["06:59", "09:13", "12:17", "15:03", "15:29", "18:58", "21:35"],
+    "saturday": ["06:27", "10:56", "18:06"],
+    "sunday": ["06:38", "15:07"],
+    "holiday": ["10:56"]
+}
+  },
+              {
+  "stop_id": "0250",
+  "stop_name": "Bukowno Nowa",
+  "platform": "1",
+  "file": "0250-laski.html",
+  "departures": {
+    "workday": ["07:00", "09:14", "12:18", "15:04", "15:30", "18:59", "21:36"],
+    "saturday": ["06:28", "10:57", "18:07"],
+    "sunday": ["06:39", "15:08"],
+    "holiday": ["10:57"]
+}
+  },
+                 {
+  "stop_id": "0251",
+  "stop_name": "Bukowno Nowa OSP",
+  "platform": "2",
+  "file": "0251-laski.html",
+  "departures": {
+    "workday": ["07:01", "09:15", "12:19", "15:05", "15:31", "19:00", "21:37"],
+    "saturday": ["06:29", "10:58", "18:08"],
+    "sunday": ["06:40", "15:09"],
+    "holiday": ["10:58"]
+}
+  },
+          {
+  "stop_id": "0252",
+  "stop_name": "Bukowno Cmentarz",
+  "platform": "1",
+  "file": "0252-laski.html",
+  "departures": {
+    "workday": ["07:02", "09:16", "12:20", "15:06", "15:32", "19:01", "21:38"],
+    "saturday": ["06:30", "10:59", "18:09"],
+    "sunday": ["06:41", "15:10"],
+    "holiday": ["10:59"]
+}
+  },
+         {
+  "stop_id": "0253",
+  "stop_name": "Bukowno Remiza",
+  "platform": "0",
+  "file": "0253-laski.html",
+  "departures": {
+    "workday": ["07:03", "09:17", "12:21", "15:07", "15:33", "19:02", "21:39"],
+    "saturday": ["06:31", "11:00", "18:10"],
+    "sunday": ["06:42", "15:11"],
+    "holiday": ["11:00"]
+}
+  },
+          {
+  "stop_id": "0254",
+  "stop_name": "Bukowno Skotnica",
+  "platform": "1",
+  "file": "0254-laski.html",
+  "departures": {
+    "workday": ["07:04", "09:18", "12:22", "15:08", "15:34", "19:03", "21:40"],
+    "saturday": ["06:32", "11:01", "18:11"],
+    "sunday": ["06:43", "15:12"],
+    "holiday": ["11:01"]
+}
+  },
+         {
+  "stop_id": "0255",
+  "stop_name": "Bukowno Sklep",
+  "platform": "1",
+  "file": "0255-laski.html",
+  "departures": {
+    "workday": ["07:05", "09:19", "12:23", "15:09", "15:35", "19:04", "21:41"],
+    "saturday": ["06:33", "11:02", "18:12"],
+    "sunday": ["06:44", "15:13"],
+    "holiday": ["11:02"]
+}
+  },
+        {
+  "stop_id": "0256",
+  "stop_name": "Bukowno Przymiarki PKP",
+  "platform": "1",
+  "file": "0256-laski.html",
+  "departures": {
+    "workday": ["07:09", "09:23", "12:27", "15:13", "15:39", "19:08", "21:45"],
+    "saturday": ["06:37", "11:06", "18:16"],
+    "sunday": ["06:48", "15:17"],
+    "holiday": ["11:06"]
+}
+  }
       ]
     }
   ]
