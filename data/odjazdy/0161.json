@@ -1,0 +1,101 @@
+{
+  "stop_id": "0161",
+  "stop_name": "Kolonia Cicha",
+  "platform": "1",
+  "departures": [
+    {
+      "line": "2",
+      "main_direction": "Bukowno Przymiarki",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "przymiarki",
+      "page": "rozklady/2/0161-laski.html",
+      "day_type": "holiday",
+      "time": "10:39",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Bukowno Przymiarki",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "przymiarki",
+      "page": "rozklady/2/0161-laski.html",
+      "day_type": "saturday",
+      "time": "10:39",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Bukowno Przymiarki",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "przymiarki",
+      "page": "rozklady/2/0161-laski.html",
+      "day_type": "saturday",
+      "time": "18:52",
+      "symbols": [
+        "B"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Bukowno Przymiarki",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "przymiarki",
+      "page": "rozklady/2/0161-laski.html",
+      "day_type": "sunday",
+      "time": "14:50",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Bukowno Przymiarki",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "przymiarki",
+      "page": "rozklady/2/0161-laski.html",
+      "day_type": "workday",
+      "time": "06:42",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Bukowno Przymiarki",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "przymiarki",
+      "page": "rozklady/2/0161-laski.html",
+      "day_type": "workday",
+      "time": "12:00",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Bukowno Przymiarki",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "przymiarki",
+      "page": "rozklady/2/0161-laski.html",
+      "day_type": "workday",
+      "time": "14:46",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Bukowno Przymiarki",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "przymiarki",
+      "page": "rozklady/2/0161-laski.html",
+      "day_type": "workday",
+      "time": "21:18",
+      "symbols": []
+    }
+  ],
+  "served_lines": [
+    {
+      "line": "2",
+      "main_direction": "Bukowno Przymiarki",
+      "page": "rozklady/2/0161-laski.html"
+    }
+  ],
+  "legends": {
+    "2": {
+      "B": "do: Bukowno Dworzec PKP"
+    }
+  }
+}

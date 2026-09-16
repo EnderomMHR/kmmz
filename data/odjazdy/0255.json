@@ -1,0 +1,147 @@
+{
+  "stop_id": "0255",
+  "stop_name": "Bukowno Sklep",
+  "platform": "1",
+  "departures": [
+    {
+      "line": "2",
+      "main_direction": "Bukowno Przymiarki",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "przymiarki",
+      "page": "rozklady/2/0255-laski.html",
+      "day_type": "holiday",
+      "time": "11:02",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Bukowno Przymiarki",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "przymiarki",
+      "page": "rozklady/2/0255-laski.html",
+      "day_type": "saturday",
+      "time": "06:33",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Bukowno Przymiarki",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "przymiarki",
+      "page": "rozklady/2/0255-laski.html",
+      "day_type": "saturday",
+      "time": "11:02",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Bukowno Przymiarki",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "przymiarki",
+      "page": "rozklady/2/0255-laski.html",
+      "day_type": "saturday",
+      "time": "18:12",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Bukowno Przymiarki",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "przymiarki",
+      "page": "rozklady/2/0255-laski.html",
+      "day_type": "sunday",
+      "time": "06:44",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Bukowno Przymiarki",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "przymiarki",
+      "page": "rozklady/2/0255-laski.html",
+      "day_type": "sunday",
+      "time": "15:13",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Bukowno Przymiarki",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "przymiarki",
+      "page": "rozklady/2/0255-laski.html",
+      "day_type": "workday",
+      "time": "07:05",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Bukowno Przymiarki",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "przymiarki",
+      "page": "rozklady/2/0255-laski.html",
+      "day_type": "workday",
+      "time": "09:19",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Bukowno Przymiarki",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "przymiarki",
+      "page": "rozklady/2/0255-laski.html",
+      "day_type": "workday",
+      "time": "12:23",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Bukowno Przymiarki",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "przymiarki",
+      "page": "rozklady/2/0255-laski.html",
+      "day_type": "workday",
+      "time": "15:09",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Bukowno Przymiarki",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "przymiarki",
+      "page": "rozklady/2/0255-laski.html",
+      "day_type": "workday",
+      "time": "15:35",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Bukowno Przymiarki",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "przymiarki",
+      "page": "rozklady/2/0255-laski.html",
+      "day_type": "workday",
+      "time": "19:04",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Bukowno Przymiarki",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "przymiarki",
+      "page": "rozklady/2/0255-laski.html",
+      "day_type": "workday",
+      "time": "21:41",
+      "symbols": []
+    }
+  ],
+  "served_lines": [
+    {
+      "line": "2",
+      "main_direction": "Bukowno Przymiarki",
+      "page": "rozklady/2/0255-laski.html"
+    }
+  ],
+  "legends": {
+    "2": {}
+  }
+}

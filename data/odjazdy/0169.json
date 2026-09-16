@@ -11,9 +11,7 @@
       "page": "rozklady/2/0169-laski.html",
       "day_type": "holiday",
       "time": "14:47",
-      "symbols": [
-        "H"
-      ]
+      "symbols": []
     },
     {
       "line": "2",
@@ -23,9 +21,7 @@
       "page": "rozklady/2/0169-laski.html",
       "day_type": "saturday",
       "time": "08:05",
-      "symbols": [
-        "H"
-      ]
+      "symbols": []
     },
     {
       "line": "2",
@@ -35,9 +31,7 @@
       "page": "rozklady/2/0169-laski.html",
       "day_type": "saturday",
       "time": "09:38",
-      "symbols": [
-        "H"
-      ]
+      "symbols": []
     },
     {
       "line": "2",
@@ -47,9 +41,7 @@
       "page": "rozklady/2/0169-laski.html",
       "day_type": "saturday",
       "time": "14:47",
-      "symbols": [
-        "H"
-      ]
+      "symbols": []
     },
     {
       "line": "2",
@@ -59,9 +51,7 @@
       "page": "rozklady/2/0169-laski.html",
       "day_type": "saturday",
       "time": "20:42",
-      "symbols": [
-        "H"
-      ]
+      "symbols": []
     },
     {
       "line": "2",
@@ -71,9 +61,7 @@
       "page": "rozklady/2/0169-laski.html",
       "day_type": "saturday",
       "time": "22:05",
-      "symbols": [
-        "H"
-      ]
+      "symbols": []
     },
     {
       "line": "2",
@@ -83,9 +71,7 @@
       "page": "rozklady/2/0169-laski.html",
       "day_type": "sunday",
       "time": "10:04",
-      "symbols": [
-        "H"
-      ]
+      "symbols": []
     },
     {
       "line": "2",
@@ -95,9 +81,7 @@
       "page": "rozklady/2/0169-laski.html",
       "day_type": "sunday",
       "time": "11:53",
-      "symbols": [
-        "H"
-      ]
+      "symbols": []
     },
     {
       "line": "2",
@@ -107,9 +91,7 @@
       "page": "rozklady/2/0169-laski.html",
       "day_type": "workday",
       "time": "05:35",
-      "symbols": [
-        "H"
-      ]
+      "symbols": []
     },
     {
       "line": "2",
@@ -119,9 +101,7 @@
       "page": "rozklady/2/0169-laski.html",
       "day_type": "workday",
       "time": "10:35",
-      "symbols": [
-        "H"
-      ]
+      "symbols": []
     },
     {
       "line": "2",
@@ -132,7 +112,6 @@
       "day_type": "workday",
       "time": "14:37",
       "symbols": [
-        "H",
         "P"
       ]
     },
@@ -144,9 +123,7 @@
       "page": "rozklady/2/0169-laski.html",
       "day_type": "workday",
       "time": "17:18",
-      "symbols": [
-        "H"
-      ]
+      "symbols": []
     },
     {
       "line": "2",
@@ -157,7 +134,6 @@
       "day_type": "workday",
       "time": "18:43",
       "symbols": [
-        "H",
         "L",
         "P"
       ]
@@ -171,7 +147,6 @@
       "day_type": "workday",
       "time": "21:09",
       "symbols": [
-        "H",
         "P"
       ]
     }
@@ -185,8 +160,6 @@
   ],
   "legends": {
     "2": {
-      "B": "do: Bukowno Dworzec PKP",
-      "H": "przez: Hutki Pętla",
       "L": "z pominięciem: Bolesław Remiza>>Laski Pętla",
       "P": "do: Bukowno Przymiarki"
     }
