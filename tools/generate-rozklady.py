@@ -517,6 +517,19 @@ DAY_LABELS = {
     "holiday": "Święta"
 }
 
+def normalize_departures_in_line_data(line_data):
+    for direction in line_data.get("directions", []):
+        for timetable in direction.get("timetables", []):
+            departures = timetable.setdefault("departures", {})
+
+            if "weekend" in departures:
+                weekend = departures["weekend"]
+
+                departures.setdefault("saturday", weekend)
+                departures.setdefault("sunday", weekend)
+
+                departures.pop("weekend", None)
+    
 ZONE_COLORS = {
     "Nieznana": "#dddddd",
     "Babice-Alwernia": "#dd7e6b",
@@ -759,6 +772,7 @@ def build_departures_from_line_files(line_files):
     for line_file in line_files:
         with open(line_file, "r", encoding="utf-8") as file:
             line_data = json.load(file)
+            normalize_departures_in_line_data(line_data)
 
         line = line_data["line"]
 
@@ -997,6 +1011,7 @@ def generate_line_pages(line_files):
     for line_file in line_files:
         with open(line_file, "r", encoding="utf-8") as file:
             line_data = json.load(file)
+            normalize_departures_in_line_data(line_data)
 
         line = line_data["line"]
         output_line_dir = OUTPUT_ROZKLADY_DIR / line
