@@ -56,10 +56,16 @@
         {"stop_id":"0377","stop_name":"Chełmek Młyny","platform":"1","file":"0377-libiaz.html","variant":true}
       ],
       "timetables": [
-            "workday": ["04:32", "05:54CV", "07:50", "10:09", "14:13", "16:05L", "19:40C"],
-            "saturday": ["05:10V", "10:05C", "13:50CV", "17:06", "19:36C"]
-      ]
-    },
+           {
+  "stop_id": "0086",
+  "stop_name": "Młoszowa",
+  "platform": "1",
+  "file": "0086-libiaz.html",
+  "departures": {
+    "workday": ["04:32", "05:54CV", "07:50", "10:09", "14:13", "16:05L", "19:40C"],
+    "saturday": ["05:10V", "10:05C", "13:50CV", "17:06", "19:36C"]
+  }
+},
     {
       "slug": "trzebinia",
       "name": "Trzebinia Dworzec PKP",
