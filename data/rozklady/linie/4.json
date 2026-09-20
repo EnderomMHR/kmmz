@@ -130,6 +130,63 @@
     "holiday": ["09:22L", "10:17C", "12:39", "14:02CV", "14:26", "15:32LV", "16:17C"]
   }
 }
+        {
+      "slug": "libiaz",
+      "name": "Libiąż Kopalnia Janina",
+      "variant_destinations": {
+  "C": "Chełmek Młyny",
+  "L": "Libiąż Oświęcimska Cmentarz"
+      },
+      "legend": {
+        "C": "do: Chełmek Młyny",
+        "L": "do: Libiąż Oświęcimska Cmentarz",
+      },
+      "route_stops": [
+        {"stop_id":"0091","stop_name":"Trzebinia Berezka","platform":"2","file":"0091-libiaz.html"},
+        {"stop_id":"0397","stop_name":"Chrzanów Trzebińska","platform":"1","file":"0397-libiaz.html"},
+        {"stop_id":"0095","stop_name":"Chrzanów Dworzec Autobusowy","platform":"3","file":"0095-libiaz.html"},
+        {"stop_id":"0096","stop_name":"Chrzanów Plac Tysiąclecia","platform":"3","file":"0096-libiaz.html"},
+        {"stop_id":"0352","stop_name":"Chrzanów ZUS","platform":"1","file":"0352-libiaz.html"},
+        {"stop_id":"0335","stop_name":"Chrzanów PZGS","platform":"2","file":"0335-libiaz.html"},
+        {"stop_id":"0336","stop_name":"Chrzanów Osiedle Kopanina","platform":"2","file":"0336-libiaz.html"},
+        {"stop_id":"0101","stop_name":"Chrzanów Kroczymiech","platform":"1","file":"0101-libiaz.html"},
+        {"stop_id":"0102","stop_name":"Chrzanów Fadom","platform":"2","file":"0102-libiaz.html"},
+        {"stop_id":"0103","stop_name":"Libiąż Chrzanowska Kamieniec","platform":"2","file":"0103-libiaz.html"},
+        {"stop_id":"0104","stop_name":"Libiąż Dworzec Autobusowy","platform":"1","file":"0104-libiaz.html"},
+        {"stop_id":"0105","stop_name":"Libiąż Kopalnia Janina","platform":"0","file":"0105-libiaz.html"},
+        {"stop_id":"0359","stop_name":"Libiąż Os. Flagówka Pawilon","platform":"1","file":"0359-libiaz.html","variant":true},
+        {"stop_id":"0360","stop_name":"Libiąż Os. Flagówka I","platform":"1","file":"0360-libiaz.html","variant":true},
+        {"stop_id":"0361","stop_name":"Libiąż Os. Flagówka II","platform":"1","file":"0361-libiaz.html","variant":true},
+        {"stop_id":"0362","stop_name":"Libiąż Urząd Miejski","platform":"2","file":"0362-libiaz.html","variant":true},
+        {"stop_id":"0363","stop_name":"Libiąż Oświęcimska Kościół","platform":"2","file":"0363-libiaz.html","variant":true},
+        {"stop_id":"0364","stop_name":"Libiąż Oświęcimska Cmentarz","platform":"2","file":"0364-libiaz.html","variant":true},
+        {"stop_id":"0365","stop_name":"Libiąż Krakowska Piaski","platform":"2","file":"0365-libiaz.html","variant":true},
+        {"stop_id":"0366","stop_name":"Libiąż Krakowska Krzywda","platform":"1","file":"0366-libiaz.html","variant":true},
+        {"stop_id":"0367","stop_name":"Libiąż Dąbrowskiego","platform":"1","file":"0367-libiaz.html","variant":true},
+        {"stop_id":"0368","stop_name":"Libiąż Budzowy Sklep","platform":"2","file":"0368-libiaz.html","variant":true},
+        {"stop_id":"0369","stop_name":"Libiąż Budzowy Skrzyżowanie","platform":"2","file":"0369-libiaz.html","variant":true},
+        {"stop_id":"0370","stop_name":"Libiąż Transformator","platform":"2","file":"0370-libiaz.html","variant":true},
+        {"stop_id":"0371","stop_name":"Libiąż Przy Rondach","platform":"1","file":"0371-libiaz.html","variant":true},
+        {"stop_id":"0372","stop_name":"Libiąż Krakowska Kruczek","platform":"1","file":"0372-libiaz.html","variant":true},
+        {"stop_id":"0373","stop_name":"Chełmek Osiedle DW780","platform":"2","file":"0373-libiaz.html","variant":true},
+        {"stop_id":"0374","stop_name":"Chełmek Policja","platform":"2","file":"0374-libiaz.html","variant":true},
+        {"stop_id":"0375","stop_name":"Chełmek Remiza","platform":"1","file":"0375-libiaz.html","variant":true},
+        {"stop_id":"0376","stop_name":"Chełmek Mickiewicza","platform":"2","file":"0376-libiaz.html","variant":true},
+        {"stop_id":"0377","stop_name":"Chełmek Młyny","platform":"1","file":"0377-libiaz.html","variant":true}
+      ],
+      "timetables": [
+           {
+  "stop_id": "0091",
+  "stop_name": "Trzebinia Berezka",
+  "platform": "2",
+  "file": "0091-libiaz.html",
+  "departures": {
+    "workday": ["04:45", "06:24", "08:03", "08:35L", "09:11C", "10:22", "10:53C", "11:21", "11:48C", "12:33", "14:26", "16:18L", "16:43C", "17:43", "18:38C", "19:53C", "20:36"],
+    "saturday": ["06:48", "08:23", "09:23L", "10:18C", "12:40", "14:27", "16:18C", "17:19", "18:35L", "19:49C", "20:13", "21:14L", "22:28"],
+    "sunday": ["05:55", "08:09", "09:36", "10:16C", "11:05", "12:33L", "14:03C", "16:27", "17:03", "18:03C", "22:43L"],
+    "holiday": ["09:23L", "10:18C", "12:40", "14:27", "16:18C"]
+  }
+}
       ]
     },
     {
