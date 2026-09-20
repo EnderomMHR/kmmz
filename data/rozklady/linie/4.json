@@ -7,7 +7,7 @@
       "name": "Libiąż Kopalnia Janina",
       "variant_destinations": {
   "C": "Chełmek Młyny",
-  "L": "Libiąż Oświęcimska Cmentarz",
+  "L": "Libiąż Oświęcimska Cmentarz"
       },
       "legend": {
         "C": "do: Chełmek Młyny",
@@ -65,7 +65,9 @@
     "workday": ["04:32", "05:54CV", "07:50", "10:09", "14:13", "16:05L", "19:40C"],
     "saturday": ["05:10V", "10:05C", "13:50CV", "17:06", "19:36C"]
   }
-},
+}
+      ]
+    },
     {
       "slug": "trzebinia",
       "name": "Trzebinia Dworzec PKP",
