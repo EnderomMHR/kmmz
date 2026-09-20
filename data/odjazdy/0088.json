@@ -1,0 +1,157 @@
+{
+  "stop_id": "0088",
+  "stop_name": "Trzebinia Mały Rynek Kościuszki",
+  "platform": "0",
+  "departures": [
+    {
+      "line": "4",
+      "main_direction": "Libiąż Kopalnia Janina",
+      "display_direction": "Libiąż Kopalnia Janina",
+      "direction_slug": "libiaz",
+      "page": "rozklady/4/0088-libiaz.html",
+      "day_type": "saturday",
+      "time": "05:17",
+      "symbols": [
+        "V"
+      ]
+    },
+    {
+      "line": "4",
+      "main_direction": "Libiąż Kopalnia Janina",
+      "display_direction": "Chełmek Młyny",
+      "direction_slug": "libiaz",
+      "page": "rozklady/4/0088-libiaz.html",
+      "day_type": "saturday",
+      "time": "10:12",
+      "symbols": [
+        "C"
+      ]
+    },
+    {
+      "line": "4",
+      "main_direction": "Libiąż Kopalnia Janina",
+      "display_direction": "Chełmek Młyny",
+      "direction_slug": "libiaz",
+      "page": "rozklady/4/0088-libiaz.html",
+      "day_type": "saturday",
+      "time": "13:57",
+      "symbols": [
+        "C",
+        "V"
+      ]
+    },
+    {
+      "line": "4",
+      "main_direction": "Libiąż Kopalnia Janina",
+      "display_direction": "Libiąż Kopalnia Janina",
+      "direction_slug": "libiaz",
+      "page": "rozklady/4/0088-libiaz.html",
+      "day_type": "saturday",
+      "time": "17:13",
+      "symbols": []
+    },
+    {
+      "line": "4",
+      "main_direction": "Libiąż Kopalnia Janina",
+      "display_direction": "Chełmek Młyny",
+      "direction_slug": "libiaz",
+      "page": "rozklady/4/0088-libiaz.html",
+      "day_type": "saturday",
+      "time": "19:43",
+      "symbols": [
+        "C"
+      ]
+    },
+    {
+      "line": "4",
+      "main_direction": "Libiąż Kopalnia Janina",
+      "display_direction": "Libiąż Kopalnia Janina",
+      "direction_slug": "libiaz",
+      "page": "rozklady/4/0088-libiaz.html",
+      "day_type": "workday",
+      "time": "04:39",
+      "symbols": []
+    },
+    {
+      "line": "4",
+      "main_direction": "Libiąż Kopalnia Janina",
+      "display_direction": "Chełmek Młyny",
+      "direction_slug": "libiaz",
+      "page": "rozklady/4/0088-libiaz.html",
+      "day_type": "workday",
+      "time": "06:01",
+      "symbols": [
+        "C",
+        "V"
+      ]
+    },
+    {
+      "line": "4",
+      "main_direction": "Libiąż Kopalnia Janina",
+      "display_direction": "Libiąż Kopalnia Janina",
+      "direction_slug": "libiaz",
+      "page": "rozklady/4/0088-libiaz.html",
+      "day_type": "workday",
+      "time": "07:57",
+      "symbols": []
+    },
+    {
+      "line": "4",
+      "main_direction": "Libiąż Kopalnia Janina",
+      "display_direction": "Libiąż Kopalnia Janina",
+      "direction_slug": "libiaz",
+      "page": "rozklady/4/0088-libiaz.html",
+      "day_type": "workday",
+      "time": "10:16",
+      "symbols": []
+    },
+    {
+      "line": "4",
+      "main_direction": "Libiąż Kopalnia Janina",
+      "display_direction": "Libiąż Kopalnia Janina",
+      "direction_slug": "libiaz",
+      "page": "rozklady/4/0088-libiaz.html",
+      "day_type": "workday",
+      "time": "14:20",
+      "symbols": []
+    },
+    {
+      "line": "4",
+      "main_direction": "Libiąż Kopalnia Janina",
+      "display_direction": "Libiąż Oświęcimska Cmentarz",
+      "direction_slug": "libiaz",
+      "page": "rozklady/4/0088-libiaz.html",
+      "day_type": "workday",
+      "time": "16:12",
+      "symbols": [
+        "L"
+      ]
+    },
+    {
+      "line": "4",
+      "main_direction": "Libiąż Kopalnia Janina",
+      "display_direction": "Chełmek Młyny",
+      "direction_slug": "libiaz",
+      "page": "rozklady/4/0088-libiaz.html",
+      "day_type": "workday",
+      "time": "19:47",
+      "symbols": [
+        "C"
+      ]
+    }
+  ],
+  "served_lines": [
+    {
+      "line": "4",
+      "main_direction": "Libiąż Kopalnia Janina",
+      "page": "rozklady/4/0088-libiaz.html"
+    }
+  ],
+  "legends": {
+    "4": {
+      "C": "do: Chełmek Młyny",
+      "L": "do: Libiąż Oświęcimska Cmentarz",
+      "V": "przez: Chrzanów Valeo, z pominięciem: Trzebinia Berezka"
+    }
+  }
+}
