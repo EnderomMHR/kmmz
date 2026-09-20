@@ -65,7 +65,47 @@
     "workday": ["04:32", "05:54CV", "07:50", "10:09", "14:13", "16:05L", "19:40C"],
     "saturday": ["05:10V", "10:05C", "13:50CV", "17:06", "19:36C"]
   }
-}
+},
+        {
+  "stop_id": "0353",
+  "stop_name": "Trzebinia Os. Widokowe Szkoła",
+  "platform": "2",
+  "file": "0353-libiaz.html",
+  "departures": {
+    "workday": ["04:34", "05:56CV", "07:52", "10:11", "14:15", "16:07L", "19:42C"],
+    "saturday": ["05:12V", "10:07C", "13:52CV", "17:08", "19:38C"]
+  }
+},
+        {
+  "stop_id": "0354",
+  "stop_name": "Trzebinia Os. Widokowe Kiosk",
+  "platform": "1",
+  "file": "0354-libiaz.html",
+  "departures": {
+    "workday": ["04:36", "05:58CV", "07:54", "10:13", "14:17", "16:09L", "19:44C"],
+    "saturday": ["05:14V", "10:09C", "13:54CV", "17:10", "19:40C"]
+  }
+},
+        {
+  "stop_id": "0355",
+  "stop_name": "Trzebinia Os. Widokowe Schody",
+  "platform": "1",
+  "file": "0355-libiaz.html",
+  "departures": {
+    "workday": ["04:37", "05:59CV", "07:55", "10:14", "14:18", "16:10L", "19:45C"],
+    "saturday": ["05:15V", "10:10C", "13:55CV", "17:11", "19:41C"]
+  }
+},
+         {
+  "stop_id": "0088",
+  "stop_name": "Trzebinia Mały Rynek Kościuszki",
+  "platform": "0",
+  "file": "0088-libiaz.html",
+  "departures": {
+    "workday": ["04:39", "06:01CV", "07:57", "10:16", "14:20", "16:12L", "19:47C"],
+    "saturday": ["05:17V", "10:12C", "13:57CV", "17:13", "19:43C"]
+  }
+},
       ]
     },
     {
