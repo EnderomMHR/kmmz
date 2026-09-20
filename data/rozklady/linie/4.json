@@ -5,7 +5,10 @@
     {
       "slug": "libiaz",
       "name": "Libiąż Kopalnia Janina",
-      "variant_destinations": {},
+      "variant_destinations": {
+  "C": "Chełmek Młyny",
+  "L": "Libiąż Oświęcimska Cmentarz",
+      },
       "legend": {},
       "route_stops": [
         {"stop_id":"0086","stop_name":"Młoszowa","platform":"1","file":"0086-libiaz.html","variant":true},
