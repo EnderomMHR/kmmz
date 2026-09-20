@@ -9,7 +9,11 @@
   "C": "Chełmek Młyny",
   "L": "Libiąż Oświęcimska Cmentarz",
       },
-      "legend": {},
+      "legend": {
+        "C": "do: Chełmek Młyny",
+        "L": "do: Libiąż Oświęcimska Cmentarz",
+        "V": "przez: Chrzanów Valeo, z pominięciem: Trzebinia Berezka"
+      },
       "route_stops": [
         {"stop_id":"0086","stop_name":"Młoszowa","platform":"1","file":"0086-libiaz.html","variant":true},
         {"stop_id":"0353","stop_name":"Trzebinia Os. Widokowe Szkoła","platform":"2","file":"0353-libiaz.html","variant":true},
@@ -57,8 +61,15 @@
     {
       "slug": "trzebinia",
       "name": "Trzebinia Dworzec PKP",
-      "variant_destinations": {},
-      "legend": {},
+      "variant_destinations": {
+  "C": "Chrzanów Dworzec Autobusowy",
+  "M": "Młoszowa Florkiewicza"
+      },
+      "legend": {
+        "C": "do: Chrzanów Dworzec Autobusowy",
+        "M": "do: Młoszowa Florkiewicza",
+        "V": "przez: Chrzanów Valeo, z pominięciem: Trzebinia Berezka"
+      },
       "route_stops": [
         {"stop_id":"0377","stop_name":"Chełmek Młyny","platform":"1","file":"0377-trzebinia.html","variant":true},
         {"stop_id":"0378","stop_name":"Chełmek Jagiellońska","platform":"1","file":"0378-trzebinia.html","variant":true},
