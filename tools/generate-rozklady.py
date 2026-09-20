@@ -600,6 +600,20 @@ def render_times_for_line_page(values):
 
     return '<div class="times">\n' + "\n".join(render_time_for_line_page(v) for v in values) + "\n</div>"
 
+def render_day_sections_for_line_page(departures):
+    html = []
+
+    for day_type, label in DAY_LABELS.items():
+        if day_type not in departures:
+            continue
+
+        html.append(f"""
+<div class="section-title {escape(day_type)}">{escape(label)}</div>
+{render_times_for_line_page(departures.get(day_type, []))}
+""")
+
+    return "\n".join(html)
+    
 
 def render_route_stops(route_stops, current_file):
     start_index = 0
@@ -665,10 +679,7 @@ def render_line_timetable_html(line_data, direction, timetable):
 
     departures = timetable["departures"]
 
-    workday_html = render_times_for_line_page(departures.get("workday", []))
-    saturday_html = render_times_for_line_page(departures.get("saturday", []))
-    sunday_html = render_times_for_line_page(departures.get("sunday", []))
-    holiday_html = render_times_for_line_page(departures.get("holiday", []))
+    day_sections_html = render_day_sections_for_line_page(departures)
 
     legend_html = render_legend(direction.get("legend", {}))
 
@@ -715,17 +726,7 @@ Mapa
 </a>
 </div>
 
-<div class="section-title workday">{DAY_LABELS["workday"]}</div>
-{workday_html}
-
-<div class="section-title saturday">{DAY_LABELS["saturday"]}</div>
-{saturday_html}
-
-<div class="section-title sunday">{DAY_LABELS["sunday"]}</div>
-{sunday_html}
-    
-<div class="section-title holiday">{DAY_LABELS["holiday"]}</div>
-{holiday_html}
+{day_sections_html}
 
 {legend_html}
   
