@@ -366,10 +366,56 @@
     "saturday": ["05:44", "06:24C", "07:09", "08:11C", "08:44", "09:44L", "10:39C", "11:16", "12:34C", "13:01", "14:24C", "14:48", "15:54L", "16:39C", "17:40", "18:21", "18:56L", "20:10C", "20:34", "21:35L", "22:12C", "22:49"],
     "sunday": ["05:46C", "06:16", "07:39C", "08:30", "09:57", "10:37C", "11:26", "12:54L", "13:29C", "14:24C", "15:43", "16:48", "17:24", "18:24C", "20:08C", "21:59", "23:04L"],
     "holiday": ["09:44L", "10:39C", "11:16", "12:34C", "13:01", "14:24C", "14:48", "15:54L", "16:39C"]
-  }
+   }
            }
       ]
 },
+    {
+      "slug": "libiaz",
+      "name": "Chełmek Młyny",
+      "variant_destinations": {
+  "L": "Libiąż Oświęcimska Cmentarz"
+      },
+      "legend": {
+        "L": "do: Libiąż Oświęcimska Cmentarz"
+      },
+      "route_stops": [
+        {"stop_id":"0105","stop_name":"Libiąż Kopalnia Janina","platform":"0","file":"0105-libiaz.html"},
+        {"stop_id":"0359","stop_name":"Libiąż Os. Flagówka Pawilon","platform":"1","file":"0359-libiaz.html","variant":true},
+        {"stop_id":"0360","stop_name":"Libiąż Os. Flagówka I","platform":"1","file":"0360-libiaz.html","variant":true},
+        {"stop_id":"0361","stop_name":"Libiąż Os. Flagówka II","platform":"1","file":"0361-libiaz.html","variant":true},
+        {"stop_id":"0362","stop_name":"Libiąż Urząd Miejski","platform":"2","file":"0362-libiaz.html","variant":true},
+        {"stop_id":"0363","stop_name":"Libiąż Oświęcimska Kościół","platform":"2","file":"0363-libiaz.html","variant":true},
+        {"stop_id":"0364","stop_name":"Libiąż Oświęcimska Cmentarz","platform":"2","file":"0364-libiaz.html","variant":true},
+        {"stop_id":"0365","stop_name":"Libiąż Krakowska Piaski","platform":"2","file":"0365-libiaz.html","variant":true},
+        {"stop_id":"0366","stop_name":"Libiąż Krakowska Krzywda","platform":"1","file":"0366-libiaz.html","variant":true},
+        {"stop_id":"0367","stop_name":"Libiąż Dąbrowskiego","platform":"1","file":"0367-libiaz.html","variant":true},
+        {"stop_id":"0368","stop_name":"Libiąż Budzowy Sklep","platform":"2","file":"0368-libiaz.html","variant":true},
+        {"stop_id":"0369","stop_name":"Libiąż Budzowy Skrzyżowanie","platform":"2","file":"0369-libiaz.html","variant":true},
+        {"stop_id":"0370","stop_name":"Libiąż Transformator","platform":"2","file":"0370-libiaz.html","variant":true},
+        {"stop_id":"0371","stop_name":"Libiąż Przy Rondach","platform":"1","file":"0371-libiaz.html","variant":true},
+        {"stop_id":"0372","stop_name":"Libiąż Krakowska Kruczek","platform":"1","file":"0372-libiaz.html","variant":true},
+        {"stop_id":"0373","stop_name":"Chełmek Osiedle DW780","platform":"2","file":"0373-libiaz.html","variant":true},
+        {"stop_id":"0374","stop_name":"Chełmek Policja","platform":"2","file":"0374-libiaz.html","variant":true},
+        {"stop_id":"0375","stop_name":"Chełmek Remiza","platform":"1","file":"0375-libiaz.html","variant":true},
+        {"stop_id":"0376","stop_name":"Chełmek Mickiewicza","platform":"2","file":"0376-libiaz.html","variant":true},
+        {"stop_id":"0377","stop_name":"Chełmek Młyny","platform":"1","file":"0377-libiaz.html","variant":true}
+      ],
+      "timetables": [
+      {
+  "stop_id": "0105",
+  "stop_name": "Libiąż Kopalnia Janina",
+  "platform": "0",
+  "file": "0105-libiaz.html",
+  "departures": {
+    "workday": ["04:26", "05:35", "06:28", "07:52", "08:56L", "09:32", "09:56L", "11:14", "12:09", "13:16", "14:25", "15:06L", "15:49", "16:39L", "17:04", "17:34L", "18:59", "19:31L", "20:14", "22:19"],
+    "saturday": ["06:24", "08:11", "09:44L", "10:39", "12:34", "14:24", "15:54L", "16:39", "18:56L", "20:10", "21:35L", "22:12"],
+    "sunday": ["05:46", "07:39", "10:37", "12:54L", "13:29", "14:24", "18:24", "20:08", "23:04L"],
+    "holiday": ["09:44L", "10:39", "12:34", "14:24", "15:54L", "16:39"]
+   }
+           }
+      ]
+    },
     {
       "slug": "trzebinia",
       "name": "Trzebinia Dworzec PKP",
