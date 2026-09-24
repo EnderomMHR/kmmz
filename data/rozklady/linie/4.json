@@ -479,19 +479,9 @@
       {
       "slug": "libiaz",
       "name": "Chełmek Młyny",
-      "variant_destinations": {
-  "L": "Libiąż Oświęcimska Cmentarz"
-      },
-      "legend": {
-        "L": "do: Libiąż Oświęcimska Cmentarz"
-      },
+      "variant_destinations": {},
+      "legend": {},
       "route_stops": [
-        {"stop_id":"0105","stop_name":"Libiąż Kopalnia Janina","platform":"0","file":"0105-libiaz.html"},
-        {"stop_id":"0359","stop_name":"Libiąż Os. Flagówka Pawilon","platform":"1","file":"0359-libiaz.html","variant":true},
-        {"stop_id":"0360","stop_name":"Libiąż Os. Flagówka I","platform":"1","file":"0360-libiaz.html","variant":true},
-        {"stop_id":"0361","stop_name":"Libiąż Os. Flagówka II","platform":"1","file":"0361-libiaz.html","variant":true},
-        {"stop_id":"0362","stop_name":"Libiąż Urząd Miejski","platform":"2","file":"0362-libiaz.html","variant":true},
-        {"stop_id":"0363","stop_name":"Libiąż Oświęcimska Kościół","platform":"2","file":"0363-libiaz.html","variant":true},
         {"stop_id":"0364","stop_name":"Libiąż Oświęcimska Cmentarz","platform":"2","file":"0364-libiaz.html","variant":true},
         {"stop_id":"0365","stop_name":"Libiąż Krakowska Piaski","platform":"2","file":"0365-libiaz.html","variant":true},
         {"stop_id":"0366","stop_name":"Libiąż Krakowska Krzywda","platform":"1","file":"0366-libiaz.html","variant":true},
@@ -508,6 +498,56 @@
         {"stop_id":"0377","stop_name":"Chełmek Młyny","platform":"1","file":"0377-libiaz.html","variant":true}
       ],
       "timetables": [
+    {
+  "stop_id": "0364",
+  "stop_name": "Libiąż Oświęcimska Cmentarz",
+  "platform": "2",
+  "file": "0364-libiaz.html",
+  "departures": {
+    "workday": ["04:36", "05:45", "06:38", "08:02", "09:42", "11:24", "12:19", "13:26", "14:35", "15:59", "17:14", "19:09", "20:24", "22:29"],
+    "saturday": ["06:34", "08:21", "10:49", "12:44", "14:34", "16:49", "20:20", "22:22"],
+    "sunday": ["05:56", "07:49", "10:47", "13:39", "14:34", "18:34", "20:18"],
+    "holiday": ["10:49", "12:44", "14:34", "16:49"]
+   }
+           },
+  {
+  "stop_id": "0365",
+  "stop_name": "Libiąż Krakowska Piaski",
+  "platform": "2",
+  "file": "0365-libiaz.html",
+  "departures": {
+    "workday": ["04:37", "05:46", "06:39", "08:03", "09:43", "11:25", "12:20", "13:27", "14:36", "16:00", "17:15", "19:10", "20:25", "22:30"],
+    "saturday": ["06:35", "08:22", "10:50", "12:45", "14:35", "16:50", "20:21", "22:23"],
+    "sunday": ["05:57", "07:50", "10:48", "13:40", "14:35", "18:35", "20:19"],
+    "holiday": ["10:50", "12:45", "14:35", "16:50"]
+   }
+           },
+    {
+  "stop_id": "0366",
+  "stop_name": "Libiąż Krakowska Krzywda",
+  "platform": "1",
+  "file": "0366-libiaz.html",
+  "departures": {
+    "workday": ["04:38", "05:47", "06:40", "08:04", "09:44", "11:26", "12:21", "13:28", "14:37", "16:01", "17:16", "19:11", "20:26", "22:31"],
+    "saturday": ["06:36", "08:23", "10:51", "12:46", "14:36", "16:51", "20:22", "22:24"],
+    "sunday": ["05:58", "07:51", "10:49", "13:41", "14:36", "18:36", "20:20"],
+    "holiday": ["10:51", "12:46", "14:36", "16:51"]
+   }
+           },
+    {
+  "stop_id": "0367",
+  "stop_name": "Libiąż Dąbrowskiego",
+  "platform": "1",
+  "file": "0367-libiaz.html",
+  "departures": {
+    "workday": ["04:39", "05:48", "06:41", "08:05", "09:45", "11:27", "12:22", "13:29", "14:38", "16:02", "17:17", "19:12", "20:27", "22:32"],
+    "saturday": ["06:37", "08:24", "10:52", "12:47", "14:37", "16:52", "20:23", "22:25"],
+    "sunday": ["05:59", "07:52", "10:50", "13:42", "14:37", "18:37", "20:21"],
+    "holiday": ["10:52", "12:47", "14:37", "16:52"]
+   }
+           }
+      ]
+    },
     {
       "slug": "trzebinia",
       "name": "Trzebinia Dworzec PKP",
