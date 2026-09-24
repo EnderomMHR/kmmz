@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMMZ | 0367 Libiąż Dąbrowskiego</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:linear-gradient(135deg,#005bbb,#009966);
+    min-height:100vh;
+    padding:20px;
+}
+
+.container{
+    max-width:1300px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.25);
+}
+
+.back{
+    display:inline-block;
+    margin-bottom:25px;
+    text-decoration:none;
+    color:white;
+    background:#005bbb;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.stop-header{
+    display:grid;
+    grid-template-columns:1fr auto;
+    gap:20px;
+    align-items:center;
+    margin-bottom:30px;
+    border-bottom:4px solid #f5c400;
+    padding-bottom:20px;
+}
+
+.stop-id{
+    display:inline-block;
+    background:#7b2cbf;
+    color:white;
+    font-weight:bold;
+    padding:8px 14px;
+    border-radius:10px;
+    margin-right:12px;
+    font-size:22px;
+}
+
+.stop-name{
+    font-size:30px;
+    color:#005bbb;
+    font-weight:bold;
+}
+
+.stop-meta{
+    text-align:right;
+}
+
+.zone-badge{
+    display:inline-block;
+    background:#f9cb9a;
+    color:#222;
+    padding:10px 16px;
+    border-radius:12px;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+.map-button{
+    display:inline-block;
+    text-decoration:none;
+    background:#f5c400;
+    color:#222;
+    padding:10px 16px;
+    border-radius:12px;
+    font-weight:bold;
+}
+
+.main-grid{
+    display:grid;
+    grid-template-columns:360px 1fr;
+    gap:25px;
+    align-items:start;
+}
+
+.panel{
+    background:#f8fbff;
+    border:1px solid #d9e6f2;
+    border-radius:16px;
+    padding:18px;
+}
+
+.panel-title{
+    text-align:center;
+    color:white;
+    background:linear-gradient(90deg,#005bbb,#009966);
+    border-bottom:5px solid #f5c400;
+    padding:12px;
+    border-radius:12px;
+    font-size:18px;
+    font-weight:bold;
+    margin-bottom:18px;
+}
+
+.line-card{
+    display:block;
+    text-decoration:none;
+    color:#222;
+    background:white;
+    border:1px solid #e1e1e1;
+    border-radius:10px;
+    padding:7px 10px;
+    margin:6px 0;
+    transition:0.2s;
+}
+
+.line-card:hover{
+    background:#eaf4ff;
+    transform:translateX(4px);
+}
+
+.line-row{
+    display:flex;
+    align-items:center;
+    gap:8px;
+}
+
+.line-number{
+    min-width:38px;
+    height:32px;
+    background:#f5c400;
+    color:#222;
+    border-radius:8px;
+    font-size:19px;
+    font-weight:bold;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.line-direction{
+    font-size:14px;
+    line-height:1.4;
+}
+
+.departure-tabs{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:18px;
+}
+
+.day-tab{
+    border:none;
+    padding:10px 14px;
+    border-radius:10px;
+    font-weight:bold;
+    cursor:pointer;
+    background:#eaf4ff;
+    color:#005bbb;
+}
+
+.day-tab.active{
+    background:#005bbb;
+    color:white;
+    outline:3px solid #f5c400;
+}
+
+.departures-section{
+    display:none;
+}
+
+.departures-section.active{
+    display:block;
+}
+
+.departure-card{
+    display:grid;
+    grid-template-columns:55px 70px 1fr;
+    gap:8px;
+    align-items:center;
+    position:relative;
+    background:white;
+    border:1px solid #e1e1e1;
+    border-radius:10px;
+    padding:6px 10px 6px 34px;
+    margin:5px 0;
+    transition:0.2s;
+}
+
+.departure-card::before{
+    content:"";
+    position:absolute;
+    left:13px;
+    top:50%;
+    transform:translateY(-50%);
+    width:8px;
+    height:8px;
+    background:#005bbb;
+    border:3px solid #f5c400;
+    border-radius:50%;
+}
+
+.departure-card:hover{
+    background:#eaf4ff;
+    transform:translateX(4px);
+}
+
+.dep-line{
+    background:#f5c400;
+    color:#222;
+    font-weight:bold;
+    border-radius:8px;
+    text-align:center;
+    padding:5px;
+    text-decoration:none;
+}
+
+.dep-time{
+    color:#005bbb;
+    font-weight:bold;
+    font-size:16px;
+}
+
+.dep-direction{
+    font-size:13px;
+    line-height:1.3;
+}
+
+.no-service{
+    background:white;
+    border:1px dashed #ccc;
+    color:#777;
+    font-style:italic;
+    padding:18px;
+    border-radius:12px;
+    text-align:center;
+}
+
+@media(max-width:900px){
+    .stop-header{
+        grid-template-columns:1fr;
+        text-align:center;
+    }
+
+    .stop-meta{
+        text-align:center;
+    }
+
+    .main-grid{
+        grid-template-columns:1fr;
+    }
+
+    .departure-card{
+        grid-template-columns:55px 70px 1fr;
+        font-size:13px;
+    }
+
+    .stop-name{
+        font-size:24px;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<a class="back" href="../przystanki.html">← Powrót do listy przystanków</a>
+
+<div class="stop-header">
+
+<div>
+<span class="stop-id">0367</span>
+<span class="stop-name">Libiąż Dąbrowskiego (1)</span>
+</div>
+
+<div class="stop-meta">
+<div class="zone-badge" style="background:#dddddd;">STREFA NIEZNANA</div><br>
+<a class="map-button" href="../mapa.html" target="_blank">🗺️ Pokaż na mapie</a>
+</div>
+
+</div>
+
+<div class="main-grid">
+
+<div class="panel">
+<div class="panel-title">Obsługiwane linie</div>
+
+
+<a class="line-card" href="../rozklady/4/0367-libiaz.html">
+<div class="line-row">
+<div class="line-number">4</div>
+<div class="line-direction">
+Chełmek Młyny
+</div>
+</div>
+</a>
+
+
+</div>
+
+<div class="panel">
+<div class="panel-title">Odjazdy chronologiczne</div>
+
+<div class="departure-tabs">
+<button class="day-tab active" onclick="showDay('workday', this)">Dni robocze</button>
+<button class="day-tab" onclick="showDay('saturday', this)">Soboty</button>
+<button class="day-tab" onclick="showDay('sunday', this)">Niedziele</button>
+<button class="day-tab" onclick="showDay('holiday', this)">Święta</button>
+</div>
+
+<div class="departures-section active" id="workday">
+
+<div class="departure-card">
+<a class="dep-line" href="../rozklady/4/0367-libiaz.html">4</a>
+<div class="dep-time">04:39</div>
+<div class="dep-direction">Chełmek Młyny</div>
+</div>
+
+
+<div class="departure-card">
+<a class="dep-line" href="../rozklady/4/0367-libiaz.html">4</a>
+<div class="dep-time">05:48</div>
+<div class="dep-direction">Chełmek Młyny</div>
+</div>
+
+
+<div class="departure-card">
+<a class="dep-line" href="../rozklady/4/0367-libiaz.html">4</a>
+<div class="dep-time">06:41</div>
+<div class="dep-direction">Chełmek Młyny</div>
+</div>
+
+
+<div class="departure-card">
+<a class="dep-line" href="../rozklady/4/0367-libiaz.html">4</a>
+<div class="dep-time">08:05</div>
+<div class="dep-direction">Chełmek Młyny</div>
+</div>
+
+
+<div class="departure-card">
+<a class="dep-line" href="../rozklady/4/0367-libiaz.html">4</a>
+<div class="dep-time">09:45</div>
+<div class="dep-direction">Chełmek Młyny</div>
+</div>
+
+
+<div class="departure-card">
+<a class="dep-line" href="../rozklady/4/0367-libiaz.html">4</a>
+<div class="dep-time">11:27</div>
+<div class="dep-direction">Chełmek Młyny</div>
+</div>
+
+
+<div class="departure-card">
+<a class="dep-line" href="../rozklady/4/0367-libiaz.html">4</a>
+<div class="dep-time">12:22</div>
+<div class="dep-direction">Chełmek Młyny</div>
+</div>
+
+
+<div class="departure-card">
+<a class="dep-line" href="../rozklady/4/0367-libiaz.html">4</a>
+<div class="dep-time">13:29</div>
+<div class="dep-direction">Chełmek Młyny</div>
+</div>
+
+
+<div class="departure-card">
+<a class="dep-line" href="../rozklady/4/0367-libiaz.html">4</a>
+<div class="dep-time">14:38</div>
+<div class="dep-direction">Chełmek Młyny</div>
+</div>
+
+
+<div class="departure-card">
+<a class="dep-line" href="../rozklady/4/0367-libiaz.html">4</a>
+<div class="dep-time">16:02</div>
+<div class="dep-direction">Chełmek Młyny</div>
+</div>
+
+
+<div class="departure-card">
+<a class="dep-line" href="../rozklady/4/0367-libiaz.html">4</a>
+<div class="dep-time">17:17</div>
+<div class="dep-direction">Chełmek Młyny</div>
+</div>
+
+
+<div class="departure-card">
+<a class="dep-line" href="../rozklady/4/0367-libiaz.html">4</a>
+<div class="dep-time">19:12</div>
+<div class="dep-direction">Chełmek Młyny</div>
+</div>
+
+
+<div class="departure-card">
+<a class="dep-line" href="../rozklady/4/0367-libiaz.html">4</a>
+<div class="dep-time">20:27</div>
+<div class="dep-direction">Chełmek Młyny</div>
+</div>
+
+
+<div class="departure-card">
+<a class="dep-line" href="../rozklady/4/0367-libiaz.html">4</a>
+<div class="dep-time">22:32</div>
+<div class="dep-direction">Chełmek Młyny</div>
+</div>
+
+</div>
+
+<div class="departures-section" id="saturday">
+
+<div class="departure-card">
+<a class="dep-line" href="../rozklady/4/0367-libiaz.html">4</a>
+<div class="dep-time">06:37</div>
+<div class="dep-direction">Chełmek Młyny</div>
+</div>
+
+
+<div class="departure-card">
+<a class="dep-line" href="../rozklady/4/0367-libiaz.html">4</a>
+<div class="dep-time">08:24</div>
+<div class="dep-direction">Chełmek Młyny</div>
+</div>
+
+
+<div class="departure-card">
+<a class="dep-line" href="../rozklady/4/0367-libiaz.html">4</a>
+<div class="dep-time">10:52</div>
+<div class="dep-direction">Chełmek Młyny</div>
+</div>
+
+
+<div class="departure-card">
+<a class="dep-line" href="../rozklady/4/0367-libiaz.html">4</a>
+<div class="dep-time">12:47</div>
+<div class="dep-direction">Chełmek Młyny</div>
+</div>
+
+
+<div class="departure-card">
+<a class="dep-line" href="../rozklady/4/0367-libiaz.html">4</a>
+<div class="dep-time">14:37</div>
+<div class="dep-direction">Chełmek Młyny</div>
+</div>
+
+
+<div class="departure-card">
+<a class="dep-line" href="../rozklady/4/0367-libiaz.html">4</a>
+<div class="dep-time">16:52</div>
+<div class="dep-direction">Chełmek Młyny</div>
+</div>
+
+
+<div class="departure-card">
+<a class="dep-line" href="../rozklady/4/0367-libiaz.html">4</a>
+<div class="dep-time">20:23</div>
+<div class="dep-direction">Chełmek Młyny</div>
+</div>
+
+
+<div class="departure-card">
+<a class="dep-line" href="../rozklady/4/0367-libiaz.html">4</a>
+<div class="dep-time">22:25</div>
+<div class="dep-direction">Chełmek Młyny</div>
+</div>
+
+</div>
+
+<div class="departures-section" id="sunday">
+
+<div class="departure-card">
+<a class="dep-line" href="../rozklady/4/0367-libiaz.html">4</a>
+<div class="dep-time">05:59</div>
+<div class="dep-direction">Chełmek Młyny</div>
+</div>
+
+
+<div class="departure-card">
+<a class="dep-line" href="../rozklady/4/0367-libiaz.html">4</a>
+<div class="dep-time">07:52</div>
+<div class="dep-direction">Chełmek Młyny</div>
+</div>
+
+
+<div class="departure-card">
+<a class="dep-line" href="../rozklady/4/0367-libiaz.html">4</a>
+<div class="dep-time">10:50</div>
+<div class="dep-direction">Chełmek Młyny</div>
+</div>
+
+
+<div class="departure-card">
+<a class="dep-line" href="../rozklady/4/0367-libiaz.html">4</a>
+<div class="dep-time">13:42</div>
+<div class="dep-direction">Chełmek Młyny</div>
+</div>
+
+
+<div class="departure-card">
+<a class="dep-line" href="../rozklady/4/0367-libiaz.html">4</a>
+<div class="dep-time">14:37</div>
+<div class="dep-direction">Chełmek Młyny</div>
+</div>
+
+
+<div class="departure-card">
+<a class="dep-line" href="../rozklady/4/0367-libiaz.html">4</a>
+<div class="dep-time">18:37</div>
+<div class="dep-direction">Chełmek Młyny</div>
+</div>
+
+
+<div class="departure-card">
+<a class="dep-line" href="../rozklady/4/0367-libiaz.html">4</a>
+<div class="dep-time">20:21</div>
+<div class="dep-direction">Chełmek Młyny</div>
+</div>
+
+</div>
+
+<div class="departures-section" id="holiday">
+
+<div class="departure-card">
+<a class="dep-line" href="../rozklady/4/0367-libiaz.html">4</a>
+<div class="dep-time">10:52</div>
+<div class="dep-direction">Chełmek Młyny</div>
+</div>
+
+
+<div class="departure-card">
+<a class="dep-line" href="../rozklady/4/0367-libiaz.html">4</a>
+<div class="dep-time">12:47</div>
+<div class="dep-direction">Chełmek Młyny</div>
+</div>
+
+
+<div class="departure-card">
+<a class="dep-line" href="../rozklady/4/0367-libiaz.html">4</a>
+<div class="dep-time">14:37</div>
+<div class="dep-direction">Chełmek Młyny</div>
+</div>
+
+
+<div class="departure-card">
+<a class="dep-line" href="../rozklady/4/0367-libiaz.html">4</a>
+<div class="dep-time">16:52</div>
+<div class="dep-direction">Chełmek Młyny</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<script>
+function showDay(dayId, button){
+    const sections = document.querySelectorAll(".departures-section");
+    const buttons = document.querySelectorAll(".day-tab");
+
+    sections.forEach(section => {
+        section.classList.remove("active");
+    });
+
+    buttons.forEach(btn => {
+        btn.classList.remove("active");
+    });
+
+    document.getElementById(dayId).classList.add("active");
+    button.classList.add("active");
+}
+</script>
+
+</body>
+</html>
