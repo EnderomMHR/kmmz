@@ -87,6 +87,24 @@
               "07:58",
               "16:29"]
           }
+        },
+         {
+          "stop_id": "0047",
+          "stop_name": "Krzeszowice Czatkowice Dolne",
+          "platform": "1",
+          "file": "0047-libiaz.html",
+          "departures": {
+            "workday": ["04:08V",
+"05:51M",
+"09:01M",
+"13:28M",
+"15:11",
+"18:22C",
+"21:31V"],
+            "saturday": ["04:14M",
+              "07:59",
+              "16:30"]
+          }
         }
       ]
     },
