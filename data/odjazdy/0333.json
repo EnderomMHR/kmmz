@@ -1,0 +1,886 @@
+{
+  "stop_id": "0333",
+  "stop_name": "Chrzanów Podwale",
+  "platform": "1",
+  "departures": [
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "holiday",
+      "time": "09:40",
+      "symbols": []
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "holiday",
+      "time": "10:32",
+      "symbols": [
+        "C"
+      ]
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "holiday",
+      "time": "11:42",
+      "symbols": []
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "holiday",
+      "time": "12:10",
+      "symbols": [
+        "C"
+      ]
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "holiday",
+      "time": "13:26",
+      "symbols": [
+        "V"
+      ]
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "holiday",
+      "time": "13:56",
+      "symbols": [
+        "V"
+      ]
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "holiday",
+      "time": "15:17",
+      "symbols": []
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "holiday",
+      "time": "15:46",
+      "symbols": []
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "holiday",
+      "time": "16:39",
+      "symbols": []
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Młoszowa Florkiewicza",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "saturday",
+      "time": "04:47",
+      "symbols": [
+        "M",
+        "V"
+      ]
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "saturday",
+      "time": "05:20",
+      "symbols": [
+        "V"
+      ]
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "saturday",
+      "time": "06:14",
+      "symbols": []
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "saturday",
+      "time": "07:40",
+      "symbols": [
+        "C"
+      ]
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "saturday",
+      "time": "08:02",
+      "symbols": []
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "saturday",
+      "time": "09:07",
+      "symbols": []
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Młoszowa Florkiewicza",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "saturday",
+      "time": "09:40",
+      "symbols": [
+        "M"
+      ]
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "saturday",
+      "time": "10:32",
+      "symbols": [
+        "C"
+      ]
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "saturday",
+      "time": "11:42",
+      "symbols": []
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "saturday",
+      "time": "12:10",
+      "symbols": [
+        "C"
+      ]
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Młoszowa Florkiewicza",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "saturday",
+      "time": "13:26",
+      "symbols": [
+        "M",
+        "V"
+      ]
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "saturday",
+      "time": "13:56",
+      "symbols": [
+        "V"
+      ]
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "saturday",
+      "time": "15:17",
+      "symbols": []
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "saturday",
+      "time": "15:46",
+      "symbols": []
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Młoszowa Florkiewicza",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "saturday",
+      "time": "16:39",
+      "symbols": [
+        "M"
+      ]
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "saturday",
+      "time": "17:57",
+      "symbols": [
+        "C"
+      ]
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "saturday",
+      "time": "18:18",
+      "symbols": []
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Młoszowa Florkiewicza",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "saturday",
+      "time": "19:07",
+      "symbols": [
+        "M"
+      ]
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "saturday",
+      "time": "19:51",
+      "symbols": []
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "saturday",
+      "time": "20:57",
+      "symbols": []
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "saturday",
+      "time": "21:31",
+      "symbols": [
+        "V"
+      ]
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "saturday",
+      "time": "22:14",
+      "symbols": [
+        "V"
+      ]
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "saturday",
+      "time": "23:27",
+      "symbols": [
+        "C"
+      ]
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "sunday",
+      "time": "05:39",
+      "symbols": [
+        "V"
+      ]
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "sunday",
+      "time": "07:01",
+      "symbols": [
+        "C"
+      ]
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "sunday",
+      "time": "07:37",
+      "symbols": []
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "sunday",
+      "time": "09:01",
+      "symbols": []
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "sunday",
+      "time": "09:21",
+      "symbols": []
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "sunday",
+      "time": "10:33",
+      "symbols": []
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "sunday",
+      "time": "11:55",
+      "symbols": []
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "sunday",
+      "time": "12:17",
+      "symbols": []
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "sunday",
+      "time": "13:39",
+      "symbols": [
+        "V"
+      ]
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "sunday",
+      "time": "15:05",
+      "symbols": [
+        "V"
+      ]
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "sunday",
+      "time": "16:10",
+      "symbols": []
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "sunday",
+      "time": "16:33",
+      "symbols": []
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "sunday",
+      "time": "17:29",
+      "symbols": []
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "sunday",
+      "time": "18:07",
+      "symbols": []
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "sunday",
+      "time": "19:45",
+      "symbols": [
+        "C"
+      ]
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "sunday",
+      "time": "21:25",
+      "symbols": [
+        "V"
+      ]
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "sunday",
+      "time": "22:23",
+      "symbols": [
+        "V"
+      ]
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "workday",
+      "time": "04:57",
+      "symbols": [
+        "V"
+      ]
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Młoszowa Florkiewicza",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "workday",
+      "time": "05:29",
+      "symbols": [
+        "M"
+      ]
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "workday",
+      "time": "05:56",
+      "symbols": [
+        "V"
+      ]
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Młoszowa Florkiewicza",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "workday",
+      "time": "07:00",
+      "symbols": [
+        "M"
+      ]
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "workday",
+      "time": "07:17",
+      "symbols": []
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "workday",
+      "time": "08:04",
+      "symbols": []
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "workday",
+      "time": "08:52",
+      "symbols": []
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "workday",
+      "time": "09:10",
+      "symbols": [
+        "C"
+      ]
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Młoszowa Florkiewicza",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "workday",
+      "time": "09:49",
+      "symbols": [
+        "M"
+      ]
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "workday",
+      "time": "10:35",
+      "symbols": []
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "workday",
+      "time": "11:05",
+      "symbols": []
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "workday",
+      "time": "11:32",
+      "symbols": []
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "workday",
+      "time": "12:14",
+      "symbols": []
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "workday",
+      "time": "12:36",
+      "symbols": [
+        "C"
+      ]
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Młoszowa Florkiewicza",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "workday",
+      "time": "13:30",
+      "symbols": [
+        "M",
+        "V"
+      ]
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "workday",
+      "time": "13:50",
+      "symbols": []
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "workday",
+      "time": "14:32",
+      "symbols": [
+        "C"
+      ]
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "workday",
+      "time": "15:10",
+      "symbols": []
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Młoszowa Florkiewicza",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "workday",
+      "time": "15:45",
+      "symbols": [
+        "M",
+        "V"
+      ]
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "workday",
+      "time": "16:26",
+      "symbols": []
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "workday",
+      "time": "17:06",
+      "symbols": [
+        "C"
+      ]
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "workday",
+      "time": "17:29",
+      "symbols": []
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "workday",
+      "time": "18:20",
+      "symbols": []
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "workday",
+      "time": "18:54",
+      "symbols": [
+        "C"
+      ]
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Młoszowa Florkiewicza",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "workday",
+      "time": "19:17",
+      "symbols": [
+        "M"
+      ]
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "workday",
+      "time": "20:23",
+      "symbols": []
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Młoszowa Florkiewicza",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "workday",
+      "time": "21:22",
+      "symbols": [
+        "M",
+        "V"
+      ]
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "workday",
+      "time": "21:42",
+      "symbols": [
+        "V"
+      ]
+    },
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "trzebinia",
+      "page": "rozklady/4/0333-trzebinia.html",
+      "day_type": "workday",
+      "time": "23:35",
+      "symbols": []
+    }
+  ],
+  "served_lines": [
+    {
+      "line": "4",
+      "main_direction": "Trzebinia Dworzec PKP",
+      "page": "rozklady/4/0333-trzebinia.html"
+    }
+  ],
+  "legends": {
+    "4": {
+      "C": "do: Chrzanów Dworzec Autobusowy",
+      "M": "do: Młoszowa Florkiewicza",
+      "V": "przez: Chrzanów Valeo, z pominięciem: Trzebinia Berezka"
+    }
+  }
+}
