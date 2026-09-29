@@ -105,6 +105,186 @@
               "07:59",
               "16:30"]
           }
+        },
+          {
+          "stop_id": "0048",
+          "stop_name": "Krzeszowice Aleja Solidarności Przedszkole",
+          "platform": "1",
+          "file": "0048_libiaz.html",
+          "departures": {
+            "workday": ["04:10V", "05:53M", "09:03M", "13:30M", "15:13", "18:24C", "21:33V"],
+            "saturday": ["04:16M", "08:01", "16:32"]
+          }
+        },
+        {
+          "stop_id": "0049",
+          "stop_name": "Krzeszowice Aleja Solidarności Szkoła",
+          "platform": "1",
+          "file": "0049_libiaz.html",
+          "departures": {
+            "workday": ["04:11V", "05:54M", "09:04M", "13:31M", "15:14", "18:25C", "21:34V"],
+            "saturday": ["04:17M", "08:02", "16:33"]
+          }
+        },
+        {
+          "stop_id": "0050",
+          "stop_name": "Krzeszowice Pogotowie Ratunkowe",
+          "platform": "1",
+          "file": "0050_libiaz.html",
+          "departures": {
+            "workday": ["04:14V", "05:57M", "09:07M", "13:34M", "15:17", "18:28C", "21:37V"],
+            "saturday": ["04:20M", "08:05", "16:36"]
+          }
+        },
+        {
+          "stop_id": "0051",
+          "stop_name": "Krzeszowice Dworzec Autobusowy",
+          "platform": "2",
+          "file": "0051_libiaz.html",
+          "departures": {
+            "workday": ["04:17V", "06:00M", "09:10M", "13:37M", "15:20", "18:31C", "21:40V"],
+            "saturday": ["04:23M", "08:08", "16:39"]
+          }
+        },
+         {
+          "stop_id": "0052",
+          "stop_name": "Krzeszowice Rondo Jana Pawła II",
+          "platform": "0",
+          "file": "0052_libiaz.html",
+          "departures": {
+            "workday": ["04:20V", "06:03M", "09:13M", "13:40M", "15:23", "18:34C", "21:43V"],
+            "saturday": ["04:26M", "08:11", "16:42"]
+          }
+        },
+        {
+          "stop_id": "0053",
+          "stop_name": "Krzeszowice Kościuszki",
+          "platform": "0",
+          "file": "0053_libiaz.html",
+          "departures": {
+            "workday": ["04:21V", "06:04M", "09:14M", "13:41M", "15:24", "18:35C", "21:44V"],
+            "saturday": ["04:27M", "08:12", "16:43"]
+          }
+        },
+         {
+          "stop_id": "0054",
+          "stop_name": "Krzeszowice Zielona",
+          "platform": "2",
+          "file": "0054_libiaz.html",
+          "departures": {
+            "workday": ["04:23V", "06:06M", "09:16M", "13:43M", "15:26", "18:37C", "21:46V"],
+            "saturday": ["04:29M", "08:14", "16:45"]
+          }
+        },
+        {
+          "stop_id": "0055",
+          "stop_name": "Wola Filipowska I",
+          "platform": "1",
+          "file": "0055_libiaz.html",
+          "departures": {
+            "workday": ["04:25V", "06:08M", "09:18M", "13:45M", "15:28", "18:39C", "21:48V"],
+            "saturday": ["04:31M", "08:16", "16:47"]
+          }
+        },
+         {
+          "stop_id": "0056",
+          "stop_name": "Wola Filipowska II",
+          "platform": "1",
+          "file": "0056_libiaz.html",
+          "departures": {
+            "workday": ["04:27V", "06:10M", "09:20M", "13:47M", "15:30", "18:41C", "21:50V"],
+            "saturday": ["04:33M", "08:18", "16:49"]
+          }
+        },
+         {
+          "stop_id": "0057",
+          "stop_name": "Filipowice Blych",
+          "platform": "2",
+          "file": "0057_libiaz.html",
+          "departures": {
+            "workday": ["04:28V", "06:11M", "09:21M", "13:48M", "15:31", "18:42C", "21:51V"],
+            "saturday": ["04:34M", "08:19", "16:50"]
+          }
+        },
+         {
+          "stop_id": "0058",
+          "stop_name": "Filipowice Sklep",
+          "platform": "2",
+          "file": "0058_libiaz.html",
+          "departures": {
+            "workday": ["04:29V", "06:12M", "09:22M", "13:49M", "15:32", "18:43C", "21:52V"],
+            "saturday": ["04:35M", "08:20", "16:51"]
+          }
+        },
+        {
+          "stop_id": "0059",
+          "stop_name": "Filipowice Palikówka",
+          "platform": "2",
+          "file": "0059_libiaz.html",
+          "departures": {
+            "workday": ["04:30V", "06:13M", "09:23M", "13:50M", "15:33", "18:44C", "21:53V"],
+            "saturday": ["04:36M", "08:21", "16:52"]
+          }
+        },
+         {
+          "stop_id": "0060",
+          "stop_name": "Filipowice Skała",
+          "platform": "2",
+          "file": "0060_libiaz.html",
+          "departures": {
+            "workday": ["04:31V", "06:14M", "09:24M", "13:51M", "15:34", "18:45C", "21:54V"],
+            "saturday": ["04:37M", "08:22", "16:53"]
+          }
+        },
+        {
+          "stop_id": "0061",
+          "stop_name": "Filipowice Szkoła",
+          "platform": "2",
+          "file": "0061_libiaz.html",
+          "departures": {
+            "workday": ["04:32V", "06:15M", "09:25M", "13:52M", "15:35", "18:46C", "21:55V"],
+            "saturday": ["04:38M", "08:23", "16:54"]
+          }
+        },
+        {
+          "stop_id": "0062",
+          "stop_name": "Filipowice Kościół",
+          "platform": "2",
+          "file": "0062_libiaz.html",
+          "departures": {
+            "workday": ["04:33V", "06:16M", "09:26M", "13:53M", "15:36", "18:47C", "21:56V"],
+            "saturday": ["04:39M", "08:24", "16:55"]
+          }
+        },
+        {
+          "stop_id": "0063",
+          "stop_name": "Filipowice Transformator",
+          "platform": "2",
+          "file": "0063_libiaz.html",
+          "departures": {
+            "workday": ["04:34V", "06:17M", "09:27M", "13:54M", "15:37", "18:48C", "21:57V"],
+            "saturday": ["04:40M", "08:25", "16:56"]
+          }
+        },
+        {
+          "stop_id": "0064",
+          "stop_name": "Filipowice Wzgórze",
+          "platform": "2",
+          "file": "0064_libiaz.html",
+          "departures": {
+            "workday": ["04:35V", "06:18M", "09:28M", "13:55M", "15:38", "18:49C", "21:58V"],
+            "saturday": ["04:41M", "08:26", "16:57"]
+          }
+        },
+         {
+          "stop_id": "0065",
+          "stop_name": "Miękinia Stawiska",
+          "platform": "0",
+          "file": "0065_libiaz.html",
+          "departures": {
+            "workday": ["04:37V", "06:20M", "07:30", "09:30M", "10:38", "12:18V", "13:57M", "15:40", "16:23M", "18:51C", "19:43V", "22:00V"],
+            "saturday": ["04:43M", "08:28", "10:47", "13:22M", "16:59", "19:26M", "22:17"]
+          }
         }
       ]
     },
