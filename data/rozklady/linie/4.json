@@ -1129,7 +1129,7 @@
     "sunday": ["05:43", "13:43", "15:09", "21:29", "22:27"],
     "holiday": ["13:30", "14:00"]
    }
-           },
+           }
       ]
     },
     {
@@ -1163,10 +1163,84 @@
     "sunday": ["07:42", "09:06", "09:26", "10:38", "12:00", "12:22", "16:15", "16:38", "17:34", "18:12"],
     "holiday": ["09:45", "11:47", "15:22", "15:51", "16:44"]
    }
-           },
+  },
+       {
+  "stop_id": "0121",
+  "stop_name": "Trzebinia Długa",
+  "platform": "2",
+  "file": "0121-trzebinia.html",
+  "departures": {
+    "workday": ["05:03", "05:35M", "06:02", "07:06M", "07:23", "08:10", "08:58", "09:55M", "10:41", "11:11", "11:38", "12:20", "13:36M", "13:56", "15:16", "15:51M", "16:32", "17:35", "18:26", "19:23M", "20:29", "21:28M", "21:48", "23:41"],
+    "saturday": ["04:53M", "05:26", "06:20", "08:08", "09:13", "09:46M", "11:48", "13:32M", "14:02", "15:23", "15:52", "16:45M", "18:24", "19:13M", "19:57", "21:03", "21:37", "22:20"],
+    "sunday": ["05:45", "07:43", "09:07", "09:27", "10:39", "12:01", "12:23", "13:45", "15:11", "16:16", "16:39", "17:35", "18:13", "21:31", "22:29"],
+    "holiday": ["09:46", "11:48", "13:32", "14:02", "15:23", "15:52", "16:45"]
+   }
+  }
       ]
     },
-      ]
-    }
+    {
+      "slug": "trzebinia",
+      "name": "Młoszowa Florkiewicza",
+      "variant_destinations": {},
+      "legend": {},
+      "route_stops": [
+        {"stop_id":"0122","stop_name":"Trzebinia Dworzec PKP","platform":"2","file":"0122-trzebinia.html"},
+        {"stop_id":"0123","stop_name":"Trzebinia Krakowska","platform":"0","file":"0123-trzebinia.html","variant":true},
+        {"stop_id":"0356","stop_name":"Trzebinia Os. Widokowe Schody","platform":"2","file":"0356-trzebinia.html","variant":true},
+        {"stop_id":"0357","stop_name":"Trzebinia Os. Widokowe Kiosk","platform":"2","file":"0357-trzebinia.html","variant":true},
+        {"stop_id":"0358","stop_name":"Trzebinia Os. Widokowe Szkoła","platform":"1","file":"0358-trzebinia.html","variant":true},
+        {"stop_id":"0078","stop_name":"Młoszowa Florkiewicza","platform":"0","file":"0078-trzebinia.html","variant":true}
+      ],
+      "timetables": [
+         {
+  "stop_id": "0122",
+  "stop_name": "Trzebinia Dworzec PKP",
+  "platform": "2",
+  "file": "0122-trzebinia.html",
+  "departures": {
+    "workday": ["05:37", "07:08", "09:57", "13:38", "15:53", "19:25", "21:30"],
+    "saturday": ["04:55", "09:48", "13:34", "16:47", "19:15"]
+   }
+  },
+        {
+  "stop_id": "0123",
+  "stop_name": "Trzebinia Krakowska",
+  "platform": "0",
+  "file": "0123-trzebinia.html",
+  "departures": {
+    "workday": ["05:40", "07:11", "10:00", "13:41", "15:56", "19:28", "21:33"],
+    "saturday": ["04:58", "09:51", "13:37", "16:50", "19:18"]
+   }
+  },
+        {
+  "stop_id": "0356",
+  "stop_name": "Trzebinia Os. Widokowe Schody",
+  "platform": "2",
+  "file": "0356-trzebinia.html",
+  "departures": {
+    "workday": ["05:42", "07:13", "10:02", "13:43", "15:58", "19:30", "21:35"],
+    "saturday": ["05:00", "09:53", "13:39", "16:52", "19:20"]
+   }
+  },
+        {
+  "stop_id": "0357",
+  "stop_name": "Trzebinia Os. Widokowe Kiosk",
+  "platform": "2",
+  "file": "0357-trzebinia.html",
+  "departures": {
+    "workday": ["05:43", "07:14", "10:03", "13:44", "15:59", "19:31", "21:36"],
+    "saturday": ["05:01", "09:54", "13:40", "16:53", "19:21"]
+   }
+  },
+        {
+  "stop_id": "0358",
+  "stop_name": "Trzebinia Os. Widokowe Szkoła",
+  "platform": "1",
+  "file": "0358-trzebinia.html",
+  "departures": {
+    "workday": ["05:45", "07:16", "10:05", "13:46", "16:01", "19:33", "21:38"],
+    "saturday": ["05:03", "09:56", "13:42", "16:55", "19:23"]
+   }
+  }
   ]
 }
