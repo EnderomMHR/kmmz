@@ -1,0 +1,135 @@
+{
+  "stop_id": "0054",
+  "stop_name": "Krzeszowice Zielona",
+  "platform": "2",
+  "departures": [
+    {
+      "line": "1",
+      "main_direction": "Libiąż Kopalnia Janina",
+      "display_direction": "Libiąż Kopalnia Janina",
+      "direction_slug": "libiaz",
+      "page": "rozklady/1/0054_libiaz.html",
+      "day_type": "saturday",
+      "time": "04:29",
+      "symbols": [
+        "M"
+      ]
+    },
+    {
+      "line": "1",
+      "main_direction": "Libiąż Kopalnia Janina",
+      "display_direction": "Libiąż Kopalnia Janina",
+      "direction_slug": "libiaz",
+      "page": "rozklady/1/0054_libiaz.html",
+      "day_type": "saturday",
+      "time": "08:14",
+      "symbols": []
+    },
+    {
+      "line": "1",
+      "main_direction": "Libiąż Kopalnia Janina",
+      "display_direction": "Libiąż Kopalnia Janina",
+      "direction_slug": "libiaz",
+      "page": "rozklady/1/0054_libiaz.html",
+      "day_type": "saturday",
+      "time": "16:45",
+      "symbols": []
+    },
+    {
+      "line": "1",
+      "main_direction": "Libiąż Kopalnia Janina",
+      "display_direction": "Libiąż Kopalnia Janina",
+      "direction_slug": "libiaz",
+      "page": "rozklady/1/0054_libiaz.html",
+      "day_type": "workday",
+      "time": "04:23",
+      "symbols": [
+        "V"
+      ]
+    },
+    {
+      "line": "1",
+      "main_direction": "Libiąż Kopalnia Janina",
+      "display_direction": "Libiąż Kopalnia Janina",
+      "direction_slug": "libiaz",
+      "page": "rozklady/1/0054_libiaz.html",
+      "day_type": "workday",
+      "time": "06:06",
+      "symbols": [
+        "M"
+      ]
+    },
+    {
+      "line": "1",
+      "main_direction": "Libiąż Kopalnia Janina",
+      "display_direction": "Libiąż Kopalnia Janina",
+      "direction_slug": "libiaz",
+      "page": "rozklady/1/0054_libiaz.html",
+      "day_type": "workday",
+      "time": "09:16",
+      "symbols": [
+        "M"
+      ]
+    },
+    {
+      "line": "1",
+      "main_direction": "Libiąż Kopalnia Janina",
+      "display_direction": "Libiąż Kopalnia Janina",
+      "direction_slug": "libiaz",
+      "page": "rozklady/1/0054_libiaz.html",
+      "day_type": "workday",
+      "time": "13:43",
+      "symbols": [
+        "M"
+      ]
+    },
+    {
+      "line": "1",
+      "main_direction": "Libiąż Kopalnia Janina",
+      "display_direction": "Libiąż Kopalnia Janina",
+      "direction_slug": "libiaz",
+      "page": "rozklady/1/0054_libiaz.html",
+      "day_type": "workday",
+      "time": "15:26",
+      "symbols": []
+    },
+    {
+      "line": "1",
+      "main_direction": "Libiąż Kopalnia Janina",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "libiaz",
+      "page": "rozklady/1/0054_libiaz.html",
+      "day_type": "workday",
+      "time": "18:37",
+      "symbols": [
+        "C"
+      ]
+    },
+    {
+      "line": "1",
+      "main_direction": "Libiąż Kopalnia Janina",
+      "display_direction": "Libiąż Kopalnia Janina",
+      "direction_slug": "libiaz",
+      "page": "rozklady/1/0054_libiaz.html",
+      "day_type": "workday",
+      "time": "21:46",
+      "symbols": [
+        "V"
+      ]
+    }
+  ],
+  "served_lines": [
+    {
+      "line": "1",
+      "main_direction": "Libiąż Kopalnia Janina",
+      "page": "rozklady/1/0054_libiaz.html"
+    }
+  ],
+  "legends": {
+    "1": {
+      "C": "do: Chrzanów Dworzec Autobusowy",
+      "M": "przez: Młoszowa Wzgórze II",
+      "V": "przez: Chrzanów Valeo, z pominięciem: Trzebinia Berezka"
+    }
+  }
+}
