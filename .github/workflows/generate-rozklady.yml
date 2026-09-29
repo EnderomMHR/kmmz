@@ -83,5 +83,6 @@ jobs:
             echo "Brak nowych zmian do zapisania."
           else
             git commit -m "Generate rozklady"
+            git pull --rebase origin main
             git push
           fi
