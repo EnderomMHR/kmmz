@@ -1065,45 +1065,13 @@
       "slug": "trzebinia",
       "name": "Trzebinia Dworzec PKP",
       "variant_destinations": {
-  "C": "Chrzanów Dworzec Autobusowy",
   "M": "Młoszowa Florkiewicza"
       },
       "legend": {
-        "C": "do: Chrzanów Dworzec Autobusowy",
         "M": "do: Młoszowa Florkiewicza",
         "V": "przez: Chrzanów Valeo, z pominięciem: Trzebinia Berezka"
       },
       "route_stops": [
-        {"stop_id":"0377","stop_name":"Chełmek Młyny","platform":"1","file":"0377-trzebinia.html","variant":true},
-        {"stop_id":"0378","stop_name":"Chełmek Jagiellońska","platform":"1","file":"0378-trzebinia.html","variant":true},
-        {"stop_id":"0379","stop_name":"Chełmek Dom Ludowy","platform":"1","file":"0379-trzebinia.html","variant":true},
-        {"stop_id":"0380","stop_name":"Chełmek Chrobrego Szkoła","platform":"1","file":"0380-trzebinia.html","variant":true},
-        {"stop_id":"0381","stop_name":"Chełmek Policja","platform":"1","file":"0381-trzebinia.html","variant":true},
-        {"stop_id":"0382","stop_name":"Chełmek Osiedle DW780","platform":"1","file":"0382-trzebinia.html","variant":true},
-        {"stop_id":"0383","stop_name":"Libiąż Krakowska Kruczek","platform":"2","file":"0383-trzebinia.html","variant":true},
-        {"stop_id":"0384","stop_name":"Libiąż Przy Rondach","platform":"2","file":"0384-trzebinia.html","variant":true},
-        {"stop_id":"0385","stop_name":"Libiąż Transformator","platform":"1","file":"0385-trzebinia.html","variant":true},
-        {"stop_id":"0386","stop_name":"Libiąż Budzowy Skrzyżowanie","platform":"1","file":"0386-trzebinia.html","variant":true},
-        {"stop_id":"0387","stop_name":"Libiąż Budzowy Sklep","platform":"1","file":"0387-trzebinia.html","variant":true},
-        {"stop_id":"0388","stop_name":"Libiąż Dąbrowskiego","platform":"2","file":"0388-trzebinia.html","variant":true},
-        {"stop_id":"0389","stop_name":"Libiąż Krakowska Krzywda","platform":"2","file":"0389-trzebinia.html","variant":true},
-        {"stop_id":"0390","stop_name":"Libiąż Krakowska Piaski","platform":"1","file":"0390-trzebinia.html","variant":true},
-        {"stop_id":"0391","stop_name":"Libiąż Oświęcimska Cmentarz","platform":"1","file":"0391-trzebinia.html","variant":true},
-        {"stop_id":"0392","stop_name":"Libiąż Oświęcimska Kościół","platform":"1","file":"0392-trzebinia.html","variant":true},
-        {"stop_id":"0393","stop_name":"Libiąż Urząd Miejski","platform":"1","file":"0393-trzebinia.html","variant":true},
-        {"stop_id":"0394","stop_name":"Libiąż Os. Flagówka II","platform":"2","file":"0394-trzebinia.html","variant":true},
-        {"stop_id":"0395","stop_name":"Libiąż Os. Flagówka I","platform":"2","file":"0395-trzebinia.html","variant":true},
-        {"stop_id":"0396","stop_name":"Libiąż Os. Flagówka Pawilon","platform":"2","file":"0396-trzebinia.html","variant":true},
-        {"stop_id":"0105","stop_name":"Libiąż Kopalnia Janina","platform":"0","file":"0105-trzebinia.html"},
-        {"stop_id":"0107","stop_name":"Libiąż Dworzec Autobusowy","platform":"2","file":"0107-trzebinia.html"},
-        {"stop_id":"0108","stop_name":"Libiąż Chrzanowska Kamieniec","platform":"1","file":"0108-trzebinia.html"},
-        {"stop_id":"0109","stop_name":"Chrzanów Fadom","platform":"1","file":"0109-trzebinia.html"},
-        {"stop_id":"0110","stop_name":"Chrzanów Kroczymiech","platform":"2","file":"0110-trzebinia.html"},
-        {"stop_id":"0330","stop_name":"Chrzanów Osiedle Kopanina","platform":"1","file":"0330-trzebinia.html"},
-        {"stop_id":"0331","stop_name":"Chrzanów PZGS","platform":"1","file":"0331-trzebinia.html"},
-        {"stop_id":"0332","stop_name":"Chrzanów Sienna","platform":"1","file":"0332-trzebinia.html"},
-        {"stop_id":"0333","stop_name":"Chrzanów Podwale","platform":"1","file":"0333-trzebinia.html"},
-        {"stop_id":"0334","stop_name":"Chrzanów Dworzec Autobusowy","platform":"4","file":"0334-trzebinia.html","variant":true},
         {"stop_id":"0398","stop_name":"Chrzanów Trzebińska","platform":"2","file":"0398-trzebinia.html"},
         {"stop_id":"0119","stop_name":"Chrzanów Valeo","platform":"1","file":"0119-trzebinia.html","variant":true},
         {"stop_id":"0120","stop_name":"Trzebinia Berezka","platform":"1","file":"0120-trzebinia.html"},
@@ -1116,9 +1084,89 @@
         {"stop_id":"0078","stop_name":"Młoszowa Florkiewicza","platform":"0","file":"0078-trzebinia.html","variant":true}
       ],
       "timetables": [
+  {
+  "stop_id": "0398",
+  "stop_name": "Chrzanów Trzebińska",
+  "platform": "2",
+  "file": "0398-trzebinia.html",
+  "departures": {
+    "workday": ["04:59V", "05:31M", "05:58V", "07:02M", "07:19", "08:06", "08:54", "09:51M", "10:37", "11:07", "11:34", "12:16", "13:32MV", "13:52", "15:12", "15:47MV", "16:28", "17:31", "18:22", "19:19M", "20:25", "21:24MV", "21:44V", "23:37"],
+    "saturday": ["04:49MV", "05:22V", "06:16", "08:04", "09:09", "09:42M", "11:44", "13:28MV", "13:58V", "15:19", "15:48", "16:41M", "18:20", "19:09M", "19:53", "20:59", "21:33V", "22:16V"],
+    "sunday": ["05:41V", "07:39", "09:03", "09:23", "10:35", "11:57", "12:19", "13:41V", "15:07V", "16:12", "16:35", "17:31", "18:09", "21:27V", "22:25V"],
+    "holiday": ["09:42", "11:44", "13:28V", "13:58V", "15:19", "15:48", "16:41"]
+   }
+           }
+      ]
+    },
     {
+      "slug": "trzebinia",
+      "name": "Trzebinia Dworzec PKP",
+      "variant_destinations": {
+  "M": "Młoszowa Florkiewicza"
+      },
+      "legend": {
+        "M": "do: Młoszowa Florkiewicza",
+      },
+      "route_stops": [
+        {"stop_id":"0119","stop_name":"Chrzanów Valeo","platform":"1","file":"0119-trzebinia.html","variant":true},
+        {"stop_id":"0121","stop_name":"Trzebinia Długa","platform":"2","file":"0121-trzebinia.html"},
+        {"stop_id":"0122","stop_name":"Trzebinia Dworzec PKP","platform":"2","file":"0122-trzebinia.html"},
+        {"stop_id":"0123","stop_name":"Trzebinia Krakowska","platform":"0","file":"0123-trzebinia.html","variant":true},
+        {"stop_id":"0356","stop_name":"Trzebinia Os. Widokowe Schody","platform":"2","file":"0356-trzebinia.html","variant":true},
+        {"stop_id":"0357","stop_name":"Trzebinia Os. Widokowe Kiosk","platform":"2","file":"0357-trzebinia.html","variant":true},
+        {"stop_id":"0358","stop_name":"Trzebinia Os. Widokowe Szkoła","platform":"1","file":"0358-trzebinia.html","variant":true},
+        {"stop_id":"0078","stop_name":"Młoszowa Florkiewicza","platform":"0","file":"0078-trzebinia.html","variant":true}
+      ],
+      "timetables": [
+  {
+  "stop_id": "0119",
+  "stop_name": "Chrzanów Valeo",
+  "platform": "1",
+  "file": "0119-trzebinia.html",
+  "departures": {
+    "workday": ["05:01", "06:00", "13:34M", "15:49M", "21:26M", "21:46"],
+    "saturday": ["04:51M", "05:24", "13:30M", "14:00", "21:35", "22:18"],
+    "sunday": ["05:43", "13:43", "15:09", "21:29", "22:27"],
+    "holiday": ["13:30", "14:00"]
+   }
+           },
+      ]
+    },
+    {
+      "slug": "trzebinia",
+      "name": "Trzebinia Dworzec PKP",
+      "variant_destinations": {
+  "M": "Młoszowa Florkiewicza"
+      },
+      "legend": {
+        "M": "do: Młoszowa Florkiewicza",
+      },
+      "route_stops": [
+        {"stop_id":"0120","stop_name":"Trzebinia Berezka","platform":"1","file":"0120-trzebinia.html"},
+        {"stop_id":"0121","stop_name":"Trzebinia Długa","platform":"2","file":"0121-trzebinia.html"},
+        {"stop_id":"0122","stop_name":"Trzebinia Dworzec PKP","platform":"2","file":"0122-trzebinia.html"},
+        {"stop_id":"0123","stop_name":"Trzebinia Krakowska","platform":"0","file":"0123-trzebinia.html","variant":true},
+        {"stop_id":"0356","stop_name":"Trzebinia Os. Widokowe Schody","platform":"2","file":"0356-trzebinia.html","variant":true},
+        {"stop_id":"0357","stop_name":"Trzebinia Os. Widokowe Kiosk","platform":"2","file":"0357-trzebinia.html","variant":true},
+        {"stop_id":"0358","stop_name":"Trzebinia Os. Widokowe Szkoła","platform":"1","file":"0358-trzebinia.html","variant":true},
+        {"stop_id":"0078","stop_name":"Młoszowa Florkiewicza","platform":"0","file":"0078-trzebinia.html","variant":true}
+      ],
+      "timetables": [
+  {
+  "stop_id": "0120",
+  "stop_name": "Trzebinia Berezka",
+  "platform": "1",
+  "file": "0120-trzebinia.html",
+  "departures": {
+    "workday": ["05:34M", "07:05M", "07:22", "08:09", "08:57", "09:54M", "10:40", "11:10", "11:37", "12:19", "13:55", "15:15", "16:31", "17:34", "18:25", "19:22M", "20:28", "23:40"],
+    "saturday": ["06:19", "08:07", "09:12", "09:45M", "11:47", "15:22", "15:51", "16:44M", "18:23", "19:12M", "19:56", "21:02"],
+    "sunday": ["07:42", "09:06", "09:26", "10:38", "12:00", "12:22", "16:15", "16:38", "17:34", "18:12"],
+    "holiday": ["09:45", "11:47", "15:22", "15:51", "16:44"]
+   }
+           },
+      ]
+    },
+      ]
     }
-  ]
-}
   ]
 }
