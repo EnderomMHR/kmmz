@@ -409,6 +409,169 @@
       ]
     },
     {
+      "slug": "libiaz",
+      "name": "Libiąż Kopalnia Janina",
+      "variant_destinations": {},
+      "legend": {},
+      "route_stops": [
+        {"stop_id":"0078","stop_name":"Młoszowa Florkiewicza","platform":"0","file":"0078_libiaz.html","variant":true},
+        {"stop_id":"0079","stop_name":"Młoszowa Studium","platform":"1","file":"0079_libiaz.html","variant":true},
+        {"stop_id":"0080","stop_name":"Młoszowa Wzgórze I","platform":"2","file":"0080_libiaz.html","variant":true},
+        {"stop_id":"0081","stop_name":"Młoszowa Wzgórze na żądanie","platform":"2","file":"0081_libiaz.html","variant":true},
+        {"stop_id":"0082","stop_name":"Młoszowa Wzgórze II","platform":"2","file":"0082_libiaz.html","variant":true},
+        {"stop_id":"0083","stop_name":"Młoszowa Wzgórze na żądanie","platform":"1","file":"0083_libiaz.html","variant":true},
+        {"stop_id":"0084","stop_name":"Młoszowa Wzgórze I","platform":"1","file":"0084_libiaz.html","variant":true},
+        {"stop_id":"0085","stop_name":"Młoszowa Studium","platform":"2","file":"0085_libiaz.html","variant":true},
+        {"stop_id":"0086","stop_name":"Młoszowa","platform":"1","file":"0086_libiaz.html"},
+        {"stop_id":"0087","stop_name":"Trzebinia Szkoła","platform":"1","file":"0087_libiaz.html"},
+        {"stop_id":"0088","stop_name":"Trzebinia Mały Rynek Kościuszki","platform":"0","file":"0088_libiaz.html"},
+        {"stop_id":"0089","stop_name":"Trzebinia Dworzec PKP","platform":"1","file":"0089_libiaz.html"},
+        {"stop_id":"0090","stop_name":"Trzebinia Długa","platform":"1","file":"0090_libiaz.html"},
+        {"stop_id":"0091","stop_name":"Trzebinia Berezka","platform":"2","file":"0091_libiaz.html"},
+        {"stop_id":"0092","stop_name":"Chrzanów Valeo","platform":"2","file":"0092_libiaz.html","variant":true},
+        {"stop_id":"0093","stop_name":"Chrzanów Szpital","platform":"2","file":"0093_libiaz.html"},
+        {"stop_id":"0094","stop_name":"Chrzanów Szpitalna","platform":"1","file":"0094_libiaz.html"},
+        {"stop_id":"0095","stop_name":"Chrzanów Dworzec Autobusowy","platform":"3","file":"0095_libiaz.html"},
+        {"stop_id":"0096","stop_name":"Chrzanów Plac Tysiąclecia","platform":"3","file":"0096_libiaz.html"},
+        {"stop_id":"0097","stop_name":"Chrzanów Park","platform":"1","file":"0097_libiaz.html"},
+        {"stop_id":"0098","stop_name":"Chrzanów Kąty Bloki","platform":"1","file":"0098_libiaz.html"},
+        {"stop_id":"0099","stop_name":"Chrzanów Kąty Kościół","platform":"1","file":"0099_libiaz.html"},
+        {"stop_id":"0100","stop_name":"Chrzanów Kąty Osiedle Malarzy","platform":"1","file":"0100_libiaz.html"},
+        {"stop_id":"0101","stop_name":"Chrzanów Kroczymiech","platform":"1","file":"0101_libiaz.html"},
+        {"stop_id":"0102","stop_name":"Chrzanów Fadom","platform":"2","file":"0102_libiaz.html"},
+        {"stop_id":"0103","stop_name":"Libiąż Chrzanowska Kamieniec","platform":"2","file":"0103_libiaz.html"},
+        {"stop_id":"0104","stop_name":"Libiąż Dworzec Autobusowy","platform":"1","file":"0104_libiaz.html"},
+        {"stop_id":"0105","stop_name":"Libiąż Kopalnia Janina","platform":"0","file":"0105_libiaz.html"}
+      ],
+      "timetables": [
+        {
+          "stop_id": "0078",
+          "stop_name": "Młoszowa Florkiewicza",
+          "platform": "0",
+          "file": "0078_libiaz.html",
+          "departures": {
+            "workday": ["06:40", "09:50", "14:17", "16:43"],
+            "saturday": ["05:03", "13:42", "19:46"]
+                }
+        },
+         {
+          "stop_id": "0079",
+          "stop_name": "Młoszowa Studium",
+          "platform": "1",
+          "file": "0079_libiaz.html",
+          "departures": {
+            "workday": ["06:41", "09:51", "14:18", "16:44"],
+            "saturday": ["05:04", "13:43", "19:47"]
+                }
+        },
+        {
+          "stop_id": "0080",
+          "stop_name": "Młoszowa Wzgórze I",
+          "platform": "2",
+          "file": "0080_libiaz.html",
+          "departures": {
+            "workday": ["06:42", "09:52", "14:19", "16:45"],
+            "saturday": ["05:05", "13:44", "19:48"]
+                }
+        },
+         {
+          "stop_id": "0081",
+          "stop_name": "Młoszowa Wzgórze na żądanie",
+          "platform": "2",
+          "file": "0081_libiaz.html",
+          "departures": {
+            "workday": ["06:43", "09:53", "14:20", "16:46"],
+            "saturday": ["05:06", "13:45", "19:49"]
+                }
+        },
+         {
+          "stop_id": "0082",
+          "stop_name": "Młoszowa Wzgórze II",
+          "platform": "2",
+          "file": "0082_libiaz.html",
+          "departures": {
+            "workday": ["06:44", "09:54", "14:21", "16:47"],
+            "saturday": ["05:07", "13:46", "19:50"]
+                }
+        },
+         {
+          "stop_id": "0083",
+          "stop_name": "Młoszowa Wzgórze na żądanie",
+          "platform": "1",
+          "file": "0083_libiaz.html",
+          "departures": {
+            "workday": ["06:45", "09:55", "14:22", "16:48"],
+            "saturday": ["05:08", "13:47", "19:51"]
+                }
+        },
+        {
+          "stop_id": "0084",
+          "stop_name": "Młoszowa Wzgórze I",
+          "platform": "1",
+          "file": "0084_libiaz.html",
+          "departures": {
+            "workday": ["06:46", "09:56", "14:23", "16:49"],
+            "saturday": ["05:09", "13:48", "19:52"]
+                }
+        },
+         {
+          "stop_id": "0085",
+          "stop_name": "Młoszowa Studium",
+          "platform": "2",
+          "file": "0085_libiaz.html",
+          "departures": {
+            "workday": ["06:47", "09:57", "14:24", "16:50"],
+            "saturday": ["05:10", "13:49", "19:53"]
+                }
+        }
+      ]
+    },
+    {
+      "slug": "libiaz",
+      "name": "Libiąż Kopalnia Janina",
+      "variant_destinations": {
+  "C": "Chrzanów Dworzec Autobusowy"
+      },
+      "legend": {
+        "C": "do: Chrzanów Dworzec Autobusowy",
+        "V": "przez: Chrzanów Valeo, z pominięciem: Trzebinia Berezka"
+      },
+      "route_stops": [
+        {"stop_id":"0086","stop_name":"Młoszowa","platform":"1","file":"0086_libiaz.html"},
+        {"stop_id":"0087","stop_name":"Trzebinia Szkoła","platform":"1","file":"0087_libiaz.html"},
+        {"stop_id":"0088","stop_name":"Trzebinia Mały Rynek Kościuszki","platform":"0","file":"0088_libiaz.html"},
+        {"stop_id":"0089","stop_name":"Trzebinia Dworzec PKP","platform":"1","file":"0089_libiaz.html"},
+        {"stop_id":"0090","stop_name":"Trzebinia Długa","platform":"1","file":"0090_libiaz.html"},
+        {"stop_id":"0091","stop_name":"Trzebinia Berezka","platform":"2","file":"0091_libiaz.html"},
+        {"stop_id":"0092","stop_name":"Chrzanów Valeo","platform":"2","file":"0092_libiaz.html","variant":true},
+        {"stop_id":"0093","stop_name":"Chrzanów Szpital","platform":"2","file":"0093_libiaz.html"},
+        {"stop_id":"0094","stop_name":"Chrzanów Szpitalna","platform":"1","file":"0094_libiaz.html"},
+        {"stop_id":"0095","stop_name":"Chrzanów Dworzec Autobusowy","platform":"3","file":"0095_libiaz.html"},
+        {"stop_id":"0096","stop_name":"Chrzanów Plac Tysiąclecia","platform":"3","file":"0096_libiaz.html"},
+        {"stop_id":"0097","stop_name":"Chrzanów Park","platform":"1","file":"0097_libiaz.html"},
+        {"stop_id":"0098","stop_name":"Chrzanów Kąty Bloki","platform":"1","file":"0098_libiaz.html"},
+        {"stop_id":"0099","stop_name":"Chrzanów Kąty Kościół","platform":"1","file":"0099_libiaz.html"},
+        {"stop_id":"0100","stop_name":"Chrzanów Kąty Osiedle Malarzy","platform":"1","file":"0100_libiaz.html"},
+        {"stop_id":"0101","stop_name":"Chrzanów Kroczymiech","platform":"1","file":"0101_libiaz.html"},
+        {"stop_id":"0102","stop_name":"Chrzanów Fadom","platform":"2","file":"0102_libiaz.html"},
+        {"stop_id":"0103","stop_name":"Libiąż Chrzanowska Kamieniec","platform":"2","file":"0103_libiaz.html"},
+        {"stop_id":"0104","stop_name":"Libiąż Dworzec Autobusowy","platform":"1","file":"0104_libiaz.html"},
+        {"stop_id":"0105","stop_name":"Libiąż Kopalnia Janina","platform":"0","file":"0105_libiaz.html"}
+      ],
+      "timetables": [
+        {
+          "stop_id": "0086",
+          "stop_name": "Młoszowa",
+          "platform": "1",
+          "file": "0086_libiaz.html",
+          "departures": {
+            "workday": ["04:57V", "06:48", "07:50", "09:58", "10:58", "12:38V", "14:25", "16:00", "16:51", "19:11C", "20:03V", "22:20V"],
+            "saturday": ["05:11", "08:48", "11:07", "13:50", "17:19", "19:54", "22:37"]
+          }
+        }
+      ]
+    },
+    {
       "slug": "miekinia",
       "name": "Miękinia Stawiska",
       "variant_destinations": {
