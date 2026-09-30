@@ -1,16 +1,16 @@
 {
-  "stop_id": "0117",
-  "stop_name": "Chrzanów Szpitalna",
-  "platform": "3",
+  "stop_id": "0124",
+  "stop_name": "Trzebinia Szkoła",
+  "platform": "2",
   "departures": [
     {
       "line": "1",
       "main_direction": "Miękinia Stawiska",
       "display_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
       "direction_slug": "miekinia",
-      "page": "rozklady/1/0117_miekinia.html",
+      "page": "rozklady/1/0124_miekinia.html",
       "day_type": "saturday",
-      "time": "06:31",
+      "time": "06:44",
       "symbols": [
         "K",
         "M"
@@ -21,9 +21,9 @@
       "main_direction": "Miękinia Stawiska",
       "display_direction": "Miękinia Stawiska",
       "direction_slug": "miekinia",
-      "page": "rozklady/1/0117_miekinia.html",
+      "page": "rozklady/1/0124_miekinia.html",
       "day_type": "saturday",
-      "time": "09:57",
+      "time": "10:10",
       "symbols": []
     },
     {
@@ -31,9 +31,9 @@
       "main_direction": "Miękinia Stawiska",
       "display_direction": "Miękinia Stawiska",
       "direction_slug": "miekinia",
-      "page": "rozklady/1/0117_miekinia.html",
+      "page": "rozklady/1/0124_miekinia.html",
       "day_type": "saturday",
-      "time": "12:32",
+      "time": "12:45",
       "symbols": []
     },
     {
@@ -41,9 +41,9 @@
       "main_direction": "Miękinia Stawiska",
       "display_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
       "direction_slug": "miekinia",
-      "page": "rozklady/1/0117_miekinia.html",
+      "page": "rozklady/1/0124_miekinia.html",
       "day_type": "saturday",
-      "time": "15:10",
+      "time": "15:23",
       "symbols": [
         "K"
       ]
@@ -53,9 +53,9 @@
       "main_direction": "Miękinia Stawiska",
       "display_direction": "Miękinia Stawiska",
       "direction_slug": "miekinia",
-      "page": "rozklady/1/0117_miekinia.html",
+      "page": "rozklady/1/0124_miekinia.html",
       "day_type": "saturday",
-      "time": "18:27",
+      "time": "18:40",
       "symbols": [
         "M"
       ]
@@ -65,9 +65,9 @@
       "main_direction": "Miękinia Stawiska",
       "display_direction": "Miękinia Stawiska",
       "direction_slug": "miekinia",
-      "page": "rozklady/1/0117_miekinia.html",
+      "page": "rozklady/1/0124_miekinia.html",
       "day_type": "saturday",
-      "time": "21:19",
+      "time": "21:32",
       "symbols": [
         "M"
       ]
@@ -77,13 +77,12 @@
       "main_direction": "Miękinia Stawiska",
       "display_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
       "direction_slug": "miekinia",
-      "page": "rozklady/1/0117_miekinia.html",
+      "page": "rozklady/1/0124_miekinia.html",
       "day_type": "workday",
-      "time": "04:32",
+      "time": "04:46",
       "symbols": [
         "K",
-        "M",
-        "V"
+        "M"
       ]
     },
     {
@@ -91,21 +90,19 @@
       "main_direction": "Miękinia Stawiska",
       "display_direction": "Miękinia Stawiska",
       "direction_slug": "miekinia",
-      "page": "rozklady/1/0117_miekinia.html",
+      "page": "rozklady/1/0124_miekinia.html",
       "day_type": "workday",
-      "time": "06:15",
-      "symbols": [
-        "V"
-      ]
+      "time": "06:29",
+      "symbols": []
     },
     {
       "line": "1",
       "main_direction": "Miękinia Stawiska",
       "display_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
       "direction_slug": "miekinia",
-      "page": "rozklady/1/0117_miekinia.html",
+      "page": "rozklady/1/0124_miekinia.html",
       "day_type": "workday",
-      "time": "07:55",
+      "time": "08:08",
       "symbols": [
         "K"
       ]
@@ -115,9 +112,9 @@
       "main_direction": "Miękinia Stawiska",
       "display_direction": "Miękinia Stawiska",
       "direction_slug": "miekinia",
-      "page": "rozklady/1/0117_miekinia.html",
+      "page": "rozklady/1/0124_miekinia.html",
       "day_type": "workday",
-      "time": "09:24",
+      "time": "09:37",
       "symbols": [
         "M"
       ]
@@ -127,9 +124,9 @@
       "main_direction": "Miękinia Stawiska",
       "display_direction": "Miękinia Stawiska",
       "direction_slug": "miekinia",
-      "page": "rozklady/1/0117_miekinia.html",
+      "page": "rozklady/1/0124_miekinia.html",
       "day_type": "workday",
-      "time": "11:05",
+      "time": "11:18",
       "symbols": []
     },
     {
@@ -137,9 +134,9 @@
       "main_direction": "Miękinia Stawiska",
       "display_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
       "direction_slug": "miekinia",
-      "page": "rozklady/1/0117_miekinia.html",
+      "page": "rozklady/1/0124_miekinia.html",
       "day_type": "workday",
-      "time": "12:07",
+      "time": "12:20",
       "symbols": [
         "K",
         "M"
@@ -150,12 +147,11 @@
       "main_direction": "Miękinia Stawiska",
       "display_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
       "direction_slug": "miekinia",
-      "page": "rozklady/1/0117_miekinia.html",
+      "page": "rozklady/1/0124_miekinia.html",
       "day_type": "workday",
-      "time": "13:52",
+      "time": "14:06",
       "symbols": [
-        "K",
-        "V"
+        "K"
       ]
     },
     {
@@ -163,9 +159,9 @@
       "main_direction": "Miękinia Stawiska",
       "display_direction": "Miękinia Stawiska",
       "direction_slug": "miekinia",
-      "page": "rozklady/1/0117_miekinia.html",
+      "page": "rozklady/1/0124_miekinia.html",
       "day_type": "workday",
-      "time": "15:35",
+      "time": "15:48",
       "symbols": []
     },
     {
@@ -173,12 +169,11 @@
       "main_direction": "Miękinia Stawiska",
       "display_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
       "direction_slug": "miekinia",
-      "page": "rozklady/1/0117_miekinia.html",
+      "page": "rozklady/1/0124_miekinia.html",
       "day_type": "workday",
-      "time": "17:15",
+      "time": "17:29",
       "symbols": [
-        "K",
-        "V"
+        "K"
       ]
     },
     {
@@ -186,9 +181,9 @@
       "main_direction": "Miękinia Stawiska",
       "display_direction": "Miękinia Stawiska",
       "direction_slug": "miekinia",
-      "page": "rozklady/1/0117_miekinia.html",
+      "page": "rozklady/1/0124_miekinia.html",
       "day_type": "workday",
-      "time": "18:55",
+      "time": "19:08",
       "symbols": [
         "M"
       ]
@@ -198,9 +193,9 @@
       "main_direction": "Miękinia Stawiska",
       "display_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
       "direction_slug": "miekinia",
-      "page": "rozklady/1/0117_miekinia.html",
+      "page": "rozklady/1/0124_miekinia.html",
       "day_type": "workday",
-      "time": "19:59",
+      "time": "20:12",
       "symbols": [
         "K"
       ]
@@ -210,9 +205,9 @@
       "main_direction": "Miękinia Stawiska",
       "display_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
       "direction_slug": "miekinia",
-      "page": "rozklady/1/0117_miekinia.html",
+      "page": "rozklady/1/0124_miekinia.html",
       "day_type": "workday",
-      "time": "21:15",
+      "time": "21:28",
       "symbols": [
         "K"
       ]
@@ -222,14 +217,13 @@
     {
       "line": "1",
       "main_direction": "Miękinia Stawiska",
-      "page": "rozklady/1/0117_miekinia.html"
+      "page": "rozklady/1/0124_miekinia.html"
     }
   ],
   "legends": {
     "1": {
       "K": "do: Krzeszowice Czatkowice Dolne Kopalnia",
-      "M": "przez: Młoszowa Wzgórze II",
-      "V": "przez: Chrzanów Valeo, z pominięciem: Trzebinia Berezka"
+      "M": "przez: Młoszowa Wzgórze II"
     }
   }
 }

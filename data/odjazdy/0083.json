@@ -15,12 +15,34 @@
     },
     {
       "line": "1",
+      "main_direction": "Miękinia Stawiska",
+      "display_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
+      "direction_slug": "miekinia",
+      "page": "rozklady/1/0083_miekinia.html",
+      "day_type": "saturday",
+      "time": "06:51",
+      "symbols": [
+        "K"
+      ]
+    },
+    {
+      "line": "1",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Kopalnia Janina",
       "direction_slug": "libiaz",
       "page": "rozklady/1/0083_libiaz.html",
       "day_type": "saturday",
       "time": "13:47",
+      "symbols": []
+    },
+    {
+      "line": "1",
+      "main_direction": "Miękinia Stawiska",
+      "display_direction": "Miękinia Stawiska",
+      "direction_slug": "miekinia",
+      "page": "rozklady/1/0083_miekinia.html",
+      "day_type": "saturday",
+      "time": "18:47",
       "symbols": []
     },
     {
@@ -35,12 +57,44 @@
     },
     {
       "line": "1",
+      "main_direction": "Miękinia Stawiska",
+      "display_direction": "Miękinia Stawiska",
+      "direction_slug": "miekinia",
+      "page": "rozklady/1/0083_miekinia.html",
+      "day_type": "saturday",
+      "time": "21:39",
+      "symbols": []
+    },
+    {
+      "line": "1",
+      "main_direction": "Miękinia Stawiska",
+      "display_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
+      "direction_slug": "miekinia",
+      "page": "rozklady/1/0083_miekinia.html",
+      "day_type": "workday",
+      "time": "04:53",
+      "symbols": [
+        "K"
+      ]
+    },
+    {
+      "line": "1",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Kopalnia Janina",
       "direction_slug": "libiaz",
       "page": "rozklady/1/0083_libiaz.html",
       "day_type": "workday",
       "time": "06:45",
+      "symbols": []
+    },
+    {
+      "line": "1",
+      "main_direction": "Miękinia Stawiska",
+      "display_direction": "Miękinia Stawiska",
+      "direction_slug": "miekinia",
+      "page": "rozklady/1/0083_miekinia.html",
+      "day_type": "workday",
+      "time": "09:44",
       "symbols": []
     },
     {
@@ -52,6 +106,18 @@
       "day_type": "workday",
       "time": "09:55",
       "symbols": []
+    },
+    {
+      "line": "1",
+      "main_direction": "Miękinia Stawiska",
+      "display_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
+      "direction_slug": "miekinia",
+      "page": "rozklady/1/0083_miekinia.html",
+      "day_type": "workday",
+      "time": "12:27",
+      "symbols": [
+        "K"
+      ]
     },
     {
       "line": "1",
@@ -72,6 +138,16 @@
       "day_type": "workday",
       "time": "16:48",
       "symbols": []
+    },
+    {
+      "line": "1",
+      "main_direction": "Miękinia Stawiska",
+      "display_direction": "Miękinia Stawiska",
+      "direction_slug": "miekinia",
+      "page": "rozklady/1/0083_miekinia.html",
+      "day_type": "workday",
+      "time": "19:15",
+      "symbols": []
     }
   ],
   "served_lines": [
@@ -79,9 +155,16 @@
       "line": "1",
       "main_direction": "Libiąż Kopalnia Janina",
       "page": "rozklady/1/0083_libiaz.html"
+    },
+    {
+      "line": "1",
+      "main_direction": "Miękinia Stawiska",
+      "page": "rozklady/1/0083_miekinia.html"
     }
   ],
   "legends": {
-    "1": {}
+    "1": {
+      "K": "do: Krzeszowice Czatkowice Dolne Kopalnia"
+    }
   }
 }
