@@ -923,6 +923,16 @@
         {"stop_id":"0138","stop_name":"Krzeszowice Czatkowice Dolne Kopalnia","platform":"2","file":"0138_miekinia.html","variant":true}
       ],
       "timetables": [
+        {
+          "stop_id": "0105",
+          "stop_name": "Libiąż Kopalnia Janina",
+          "platform": "0",
+          "file": "0105_miekinia.html",
+          "departures": {
+            "workday": ["04:07KMV", "05:50V", "07:30K", "08:59M", "10:40", "11:42KM", "13:27KV", "15:10", "16:50KV", "18:30M", "20:50K"],
+            "saturday": ["06:06KM", "09:32", "12:07", "14:45K", "18:02", "20:54M"]
+          }
+        }
       ]
     }
   ]
