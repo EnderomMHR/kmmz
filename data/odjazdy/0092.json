@@ -130,6 +130,16 @@
       "symbols": []
     },
     {
+      "line": "1",
+      "main_direction": "Libiąż Kopalnia Janina",
+      "display_direction": "Libiąż Kopalnia Janina",
+      "direction_slug": "libiaz",
+      "page": "rozklady/1/0092_libiaz.html",
+      "day_type": "workday",
+      "time": "05:09",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Chełmek Młyny",
@@ -166,6 +176,16 @@
       ]
     },
     {
+      "line": "1",
+      "main_direction": "Libiąż Kopalnia Janina",
+      "display_direction": "Libiąż Kopalnia Janina",
+      "direction_slug": "libiaz",
+      "page": "rozklady/1/0092_libiaz.html",
+      "day_type": "workday",
+      "time": "12:50",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Chełmek Młyny",
@@ -190,6 +210,16 @@
       ]
     },
     {
+      "line": "1",
+      "main_direction": "Libiąż Kopalnia Janina",
+      "display_direction": "Libiąż Kopalnia Janina",
+      "direction_slug": "libiaz",
+      "page": "rozklady/1/0092_libiaz.html",
+      "day_type": "workday",
+      "time": "20:15",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Chełmek Młyny",
@@ -200,9 +230,24 @@
       "symbols": [
         "C"
       ]
+    },
+    {
+      "line": "1",
+      "main_direction": "Libiąż Kopalnia Janina",
+      "display_direction": "Libiąż Kopalnia Janina",
+      "direction_slug": "libiaz",
+      "page": "rozklady/1/0092_libiaz.html",
+      "day_type": "workday",
+      "time": "22:32",
+      "symbols": []
     }
   ],
   "served_lines": [
+    {
+      "line": "1",
+      "main_direction": "Libiąż Kopalnia Janina",
+      "page": "rozklady/1/0092_libiaz.html"
+    },
     {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
@@ -210,6 +255,7 @@
     }
   ],
   "legends": {
+    "1": {},
     "4": {
       "C": "do: Chełmek Młyny",
       "L": "do: Libiąż Oświęcimska Cmentarz"
