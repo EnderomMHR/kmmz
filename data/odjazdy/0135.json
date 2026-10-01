@@ -1,0 +1,107 @@
+{
+  "stop_id": "0135",
+  "stop_name": "Krzeszowice 3-ego Maja",
+  "platform": "1",
+  "departures": [
+    {
+      "line": "1",
+      "main_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
+      "display_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
+      "direction_slug": "miekinia",
+      "page": "rozklady/1/0135_miekinia.html",
+      "day_type": "saturday",
+      "time": "07:34",
+      "symbols": []
+    },
+    {
+      "line": "1",
+      "main_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
+      "display_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
+      "direction_slug": "miekinia",
+      "page": "rozklady/1/0135_miekinia.html",
+      "day_type": "saturday",
+      "time": "16:05",
+      "symbols": []
+    },
+    {
+      "line": "1",
+      "main_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
+      "display_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
+      "direction_slug": "miekinia",
+      "page": "rozklady/1/0135_miekinia.html",
+      "day_type": "workday",
+      "time": "05:36",
+      "symbols": []
+    },
+    {
+      "line": "1",
+      "main_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
+      "display_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
+      "direction_slug": "miekinia",
+      "page": "rozklady/1/0135_miekinia.html",
+      "day_type": "workday",
+      "time": "08:50",
+      "symbols": []
+    },
+    {
+      "line": "1",
+      "main_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
+      "display_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
+      "direction_slug": "miekinia",
+      "page": "rozklady/1/0135_miekinia.html",
+      "day_type": "workday",
+      "time": "13:10",
+      "symbols": []
+    },
+    {
+      "line": "1",
+      "main_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
+      "display_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
+      "direction_slug": "miekinia",
+      "page": "rozklady/1/0135_miekinia.html",
+      "day_type": "workday",
+      "time": "14:48",
+      "symbols": []
+    },
+    {
+      "line": "1",
+      "main_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
+      "display_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
+      "direction_slug": "miekinia",
+      "page": "rozklady/1/0135_miekinia.html",
+      "day_type": "workday",
+      "time": "18:11",
+      "symbols": []
+    },
+    {
+      "line": "1",
+      "main_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
+      "display_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
+      "direction_slug": "miekinia",
+      "page": "rozklady/1/0135_miekinia.html",
+      "day_type": "workday",
+      "time": "20:54",
+      "symbols": []
+    },
+    {
+      "line": "1",
+      "main_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
+      "display_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
+      "direction_slug": "miekinia",
+      "page": "rozklady/1/0135_miekinia.html",
+      "day_type": "workday",
+      "time": "22:10",
+      "symbols": []
+    }
+  ],
+  "served_lines": [
+    {
+      "line": "1",
+      "main_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
+      "page": "rozklady/1/0135_miekinia.html"
+    }
+  ],
+  "legends": {
+    "1": {}
+  }
+}

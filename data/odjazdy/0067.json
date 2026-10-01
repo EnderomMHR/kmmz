@@ -17,6 +17,16 @@
     },
     {
       "line": "1",
+      "main_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
+      "display_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
+      "direction_slug": "miekinia",
+      "page": "rozklady/1/0067_miekinia.html",
+      "day_type": "saturday",
+      "time": "07:17",
+      "symbols": []
+    },
+    {
+      "line": "1",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Kopalnia Janina",
       "direction_slug": "libiaz",
@@ -46,6 +56,16 @@
       "symbols": [
         "M"
       ]
+    },
+    {
+      "line": "1",
+      "main_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
+      "display_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
+      "direction_slug": "miekinia",
+      "page": "rozklady/1/0067_miekinia.html",
+      "day_type": "saturday",
+      "time": "15:48",
+      "symbols": []
     },
     {
       "line": "1",
@@ -93,6 +113,16 @@
     },
     {
       "line": "1",
+      "main_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
+      "display_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
+      "direction_slug": "miekinia",
+      "page": "rozklady/1/0067_miekinia.html",
+      "day_type": "workday",
+      "time": "05:19",
+      "symbols": []
+    },
+    {
+      "line": "1",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Kopalnia Janina",
       "direction_slug": "libiaz",
@@ -111,6 +141,16 @@
       "page": "rozklady/1/0067_libiaz.html",
       "day_type": "workday",
       "time": "07:33",
+      "symbols": []
+    },
+    {
+      "line": "1",
+      "main_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
+      "display_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
+      "direction_slug": "miekinia",
+      "page": "rozklady/1/0067_miekinia.html",
+      "day_type": "workday",
+      "time": "08:33",
       "symbols": []
     },
     {
@@ -149,6 +189,16 @@
     },
     {
       "line": "1",
+      "main_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
+      "display_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
+      "direction_slug": "miekinia",
+      "page": "rozklady/1/0067_miekinia.html",
+      "day_type": "workday",
+      "time": "12:53",
+      "symbols": []
+    },
+    {
+      "line": "1",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Kopalnia Janina",
       "direction_slug": "libiaz",
@@ -158,6 +208,16 @@
       "symbols": [
         "M"
       ]
+    },
+    {
+      "line": "1",
+      "main_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
+      "display_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
+      "direction_slug": "miekinia",
+      "page": "rozklady/1/0067_miekinia.html",
+      "day_type": "workday",
+      "time": "14:31",
+      "symbols": []
     },
     {
       "line": "1",
@@ -180,6 +240,16 @@
       "symbols": [
         "M"
       ]
+    },
+    {
+      "line": "1",
+      "main_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
+      "display_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
+      "direction_slug": "miekinia",
+      "page": "rozklady/1/0067_miekinia.html",
+      "day_type": "workday",
+      "time": "17:54",
+      "symbols": []
     },
     {
       "line": "1",
@@ -207,6 +277,26 @@
     },
     {
       "line": "1",
+      "main_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
+      "display_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
+      "direction_slug": "miekinia",
+      "page": "rozklady/1/0067_miekinia.html",
+      "day_type": "workday",
+      "time": "20:37",
+      "symbols": []
+    },
+    {
+      "line": "1",
+      "main_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
+      "display_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
+      "direction_slug": "miekinia",
+      "page": "rozklady/1/0067_miekinia.html",
+      "day_type": "workday",
+      "time": "21:53",
+      "symbols": []
+    },
+    {
+      "line": "1",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Kopalnia Janina",
       "direction_slug": "libiaz",
@@ -223,13 +313,14 @@
       "line": "1",
       "main_direction": "Libiąż Kopalnia Janina",
       "page": "rozklady/1/0067_libiaz.html"
+    },
+    {
+      "line": "1",
+      "main_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
+      "page": "rozklady/1/0067_miekinia.html"
     }
   ],
   "legends": {
-    "1": {
-      "C": "do: Chrzanów Dworzec Autobusowy",
-      "M": "przez: Młoszowa Wzgórze II",
-      "V": "przez: Chrzanów Valeo, z pominięciem: Trzebinia Berezka"
-    }
+    "1": {}
   }
 }
