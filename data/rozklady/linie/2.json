@@ -114,6 +114,78 @@
       "holiday": ["11:28"]
   }
  },
+    {
+    "stop_id": "0140",
+    "stop_name": "Bukowno Sklep",
+    "platform": "2",
+    "file": "0140-zadole.html",
+    "departures": {
+      "workday": ["07:28OZ", "09:44H", "12:48L", "15:26", "16:05HOZ", "19:53L", "21:58HOZ"],
+      "saturday": ["07:03", "11:32", "18:43O"],
+      "sunday": ["07:09", "17:18O"],
+      "holiday": ["11:32"]
+  }
+ },
+    {
+    "stop_id": "0141",
+    "stop_name": "Bukowno Skotnica",
+    "platform": "2",
+    "file": "0141-zadole.html",
+    "departures": {
+      "workday": ["07:29OZ", "09:45H", "12:49L", "15:27", "16:06HOZ", "19:54L", "21:59HOZ"],
+      "saturday": ["07:04", "11:33", "18:44O"],
+      "sunday": ["07:10", "17:19O"],
+      "holiday": ["11:33"]
+  }
+ },
+    {
+    "stop_id": "0142",
+    "stop_name": "Bukowno Stare Skrzyżowanie",
+    "platform": "0",
+    "file": "0142-zadole.html",
+    "departures": {
+      "workday": ["07:30OZ", "09:46H", "12:50L", "15:28", "16:07HOZ", "19:55L", "22:00HOZ"],
+      "saturday": ["07:05", "11:34", "18:45O"],
+      "sunday": ["07:11", "17:20O"],
+      "holiday": ["11:34"]
+  }
+ },
+    {
+    "stop_id": "0143",
+    "stop_name": "Bukowno Cmentarz",
+    "platform": "2",
+    "file": "0143-zadole.html",
+    "departures": {
+      "workday": ["07:31OZ", "09:47H", "12:51L", "15:29", "16:08HOZ", "19:56L", "22:01HOZ"],
+      "saturday": ["07:06", "11:35", "18:46O"],
+      "sunday": ["07:12", "17:21O"],
+      "holiday": ["11:35"]
+  }
+ },
+    {
+    "stop_id": "0144",
+    "stop_name": "Bukowno Nowa OSP",
+    "platform": "1",
+    "file": "0144-zadole.html",
+    "departures": {
+      "workday": ["07:32OZ", "09:48H", "12:52L", "15:30", "16:09HOZ", "19:57L", "22:02HOZ"],
+      "saturday": ["07:07", "11:36", "18:47O"],
+      "sunday": ["07:13", "17:22O"],
+      "holiday": ["11:36"]
+  }
+ },
+    {
+    "stop_id": "0145",
+    "stop_name": "Bukowno Nowa",
+    "platform": "2",
+    "file": "0145-zadole.html",
+    "departures": {
+      "workday": ["07:34OZ", "09:50H", "12:54L", "15:32", "16:11HOZ", "19:59L", "22:04HOZ"],
+      "saturday": ["07:09", "11:38", "18:49O"],
+      "sunday": ["07:15", "17:24O"],
+      "holiday": ["11:38"]
+  }
+ }
 ]
 },
 {
