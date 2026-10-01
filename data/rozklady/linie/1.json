@@ -1534,6 +1534,176 @@
             "workday": ["05:16", "08:30", "12:50", "14:28", "17:51", "20:34", "21:50"],
             "saturday": ["07:14", "15:45"]
           }
+        },
+        {
+          "stop_id": "0066",
+          "stop_name": "Filipowice Wzgórze",
+          "platform": "1",
+          "file": "0066_miekinia.html",
+          "departures": {
+            "workday": ["05:18", "08:32", "12:52", "14:30", "17:53", "20:36", "21:52"],
+            "saturday": ["07:16", "15:47"]
+          }
+        },
+        {
+          "stop_id": "0067",
+          "stop_name": "Filipowice Transformator",
+          "platform": "1",
+          "file": "0067_miekinia.html",
+          "departures": {
+            "workday": ["05:19", "08:33", "12:53", "14:31", "17:54", "20:37", "21:53"],
+            "saturday": ["07:17", "15:48"]
+          }
+        },
+        {
+          "stop_id": "0068",
+          "stop_name": "Filipowice Kościół",
+          "platform": "1",
+          "file": "0068_miekinia.html",
+          "departures": {
+            "workday": ["05:20", "08:34", "12:54", "14:32", "17:55", "20:38", "21:54"],
+            "saturday": ["07:18", "15:49"]
+          }
+        },
+        {
+          "stop_id": "0069",
+          "stop_name": "Filipowice Szkoła",
+          "platform": "1",
+          "file": "0069_miekinia.html",
+          "departures": {
+            "workday": ["05:21", "08:35", "12:55", "14:33", "17:56", "20:39", "21:55"],
+            "saturday": ["07:19", "15:50"]
+          }
+        },
+        {
+          "stop_id": "0070",
+          "stop_name": "Filipowice Skała",
+          "platform": "1",
+          "file": "0070_miekinia.html",
+          "departures": {
+            "workday": ["05:22", "08:36", "12:56", "14:34", "17:57", "20:40", "21:56"],
+            "saturday": ["07:20", "15:51"]
+          }
+        },
+        {
+          "stop_id": "0071",
+          "stop_name": "Filipowice Palikówka",
+          "platform": "1",
+          "file": "0071_miekinia.html",
+          "departures": {
+            "workday": ["05:23", "08:37", "12:57", "14:35", "17:58", "20:41", "21:57"],
+            "saturday": ["07:21", "15:52"]
+          }
+        },
+        {
+          "stop_id": "0072",
+          "stop_name": "Filipowice Sklep",
+          "platform": "1",
+          "file": "0072_miekinia.html",
+          "departures": {
+            "workday": ["05:24", "08:38", "12:58", "14:36", "17:59", "20:42", "21:58"],
+            "saturday": ["07:22", "15:53"]
+          }
+        },
+        {
+          "stop_id": "0073",
+          "stop_name": "Filipowice Blych",
+          "platform": "1",
+          "file": "0073_miekinia.html",
+          "departures": {
+            "workday": ["05:25", "08:39", "12:59", "14:37", "18:00", "20:43", "21:59"],
+            "saturday": ["07:23", "15:54"]
+          }
+        },
+        {
+          "stop_id": "0130",
+          "stop_name": "Wola Filipowska II",
+          "platform": "2",
+          "file": "0130_miekinia.html",
+          "departures": {
+            "workday": ["05:26", "08:40", "13:00", "14:38", "18:01", "20:44", "22:00"],
+            "saturday": ["07:24", "15:55"]
+          }
+        },
+        {
+          "stop_id": "0131",
+          "stop_name": "Wola Filipowska I",
+          "platform": "2",
+          "file": "0131_miekinia.html",
+          "departures": {
+            "workday": ["05:28", "08:42", "13:02", "14:40", "18:03", "20:46", "22:02"],
+            "saturday": ["07:26", "15:57"]
+          }
+        },
+        {
+          "stop_id": "0132",
+          "stop_name": "Krzeszowice Zielona",
+          "platform": "1",
+          "file": "0132_miekinia.html",
+          "departures": {
+            "workday": ["05:30", "08:44", "13:04", "14:42", "18:05", "20:48", "22:04"],
+            "saturday": ["07:28", "15:59"]
+          }
+        },
+        {
+          "stop_id": "0133",
+          "stop_name": "Krzeszowice Centrum",
+          "platform": "1",
+          "file": "0133_miekinia.html",
+          "departures": {
+            "workday": ["05:33", "08:47", "13:07", "14:45", "18:08", "20:51", "22:07"],
+            "saturday": ["07:31", "16:02"]
+          }
+        },
+        {
+          "stop_id": "0134",
+          "stop_name": "Krzeszowice Dworzec Autobusowy",
+          "platform": "3",
+          "file": "0134_miekinia.html",
+          "departures": {
+            "workday": ["05:35", "08:49", "13:09", "14:47", "18:10", "20:53", "22:09"],
+            "saturday": ["07:33", "16:04"]
+          }
+        },
+        {
+          "stop_id": "0135",
+          "stop_name": "Krzeszowice 3-ego Maja",
+          "platform": "1",
+          "file": "0135_miekinia.html",
+          "departures": {
+            "workday": ["05:36", "08:50", "13:10", "14:48", "18:11", "20:54", "22:10"],
+            "saturday": ["07:34", "16:05"]
+          }
+        },
+        {
+          "stop_id": "0049",
+          "stop_name": "Krzeszowice Aleja Solidarności Szkoła",
+          "platform": "1",
+          "file": "0049_miekinia.html",
+          "departures": {
+            "workday": ["05:39", "08:53", "13:13", "14:51", "18:14", "20:57", "22:13"],
+            "saturday": ["07:37", "16:08"]
+          }
+        },
+        {
+          "stop_id": "0136",
+          "stop_name": "Krzeszowice Aleja Solidarności Przedszkole",
+          "platform": "2",
+          "file": "0136_miekinia.html",
+          "departures": {
+            "workday": ["05:40", "08:54", "13:14", "14:52", "18:15", "20:58", "22:14"],
+            "saturday": ["07:38", "16:09"]
+          }
+        },
+        {
+          "stop_id": "0137",
+          "stop_name": "Krzeszowice Czatkowice EDEN",
+          "platform": "1",
+          "file": "0137_miekinia.html",
+          "departures": {
+            "workday": ["05:42", "08:56", "13:16", "14:54", "18:17", "21:00", "22:16"],
+            "saturday": ["07:40", "16:11"]
+          }
         }
       ]
     }
