@@ -1365,6 +1365,175 @@
             "workday": ["04:55K", "09:46", "12:29K", "19:17"],
             "saturday": ["06:53K", "18:49", "21:41"]
           }
+        },
+         {
+          "stop_id": "0125",
+          "stop_name": "Młoszowa",
+          "platform": "2",
+          "file": "0125_miekinia.html",
+          "departures": {
+            "workday": ["04:56K", "06:31", "08:10K", "09:47", "11:20", "12:30K", "14:08K", "15:50", "17:31K", "19:18", "20:14K", "21:30K"],
+            "saturday": ["06:54K", "10:12", "12:47", "15:25K", "18:50", "21:42"]
+          }
+        },
+        {
+          "stop_id": "0126",
+          "stop_name": "Młoszowa Leśniczówka",
+          "platform": "1",
+          "file": "0126_miekinia.html",
+          "departures": {
+            "workday": ["04:58K", "06:33", "08:12K", "09:49", "11:22", "12:32K", "14:10K", "15:52", "17:33K", "19:20", "20:16K", "21:32K"],
+            "saturday": ["06:56K", "10:14", "12:49", "15:27K", "18:52", "21:44"]
+          }
+        },
+        {
+          "stop_id": "0127",
+          "stop_name": "Dulowa",
+          "platform": "1",
+          "file": "0127_miekinia.html",
+          "departures": {
+            "workday": ["05:00K", "06:35", "08:14K", "09:51", "11:24", "12:34K", "14:12K", "15:54", "17:35K", "19:22", "20:18K", "21:34K"],
+            "saturday": ["06:58K", "10:16", "12:51", "15:29K", "18:54", "21:46"]
+          }
+        },
+        {
+          "stop_id": "0128",
+          "stop_name": "Dulowa Sklep",
+          "platform": "2",
+          "file": "0128_miekinia.html",
+          "departures": {
+            "workday": ["05:02K", "06:37", "08:16K", "09:53", "11:26", "12:36K", "14:14K", "15:56", "17:37K", "19:24", "20:20K", "21:36K"],
+            "saturday": ["07:00K", "10:18", "12:53", "15:31K", "18:56", "21:48"]
+          }
+        },
+        {
+          "stop_id": "0129",
+          "stop_name": "Wola Filipowska Białka",
+          "platform": "2",
+          "file": "0129_miekinia.html",
+          "departures": {
+            "workday": ["05:05K", "06:40", "08:19K", "09:56", "11:29", "12:39K", "14:17K", "15:59", "17:40K", "19:27", "20:23K", "21:39K"],
+            "saturday": ["07:03K", "10:21", "12:56", "15:34K", "18:59", "21:51"]
+          }
+        },
+        {
+          "stop_id": "0057",
+          "stop_name": "Filipowice Blych",
+          "platform": "2",
+          "file": "0057_miekinia.html",
+          "departures": {
+            "workday": ["05:07K", "06:42", "08:21K", "09:58", "11:31", "12:41K", "14:19K", "16:01", "17:42K", "19:29", "20:25K", "21:41K"],
+            "saturday": ["07:05K", "10:23", "12:58", "15:36K", "19:01", "21:53"]
+          }
+        },
+        {
+          "stop_id": "0058",
+          "stop_name": "Filipowice Sklep",
+          "platform": "2",
+          "file": "0058_miekinia.html",
+          "departures": {
+            "workday": ["05:08K", "06:43", "08:22K", "09:59", "11:32", "12:42K", "14:20K", "16:02", "17:43K", "19:30", "20:26K", "21:42K"],
+            "saturday": ["07:06K", "10:24", "12:59", "15:37K", "19:02", "21:54"]
+          }
+        },
+        {
+          "stop_id": "0059",
+          "stop_name": "Filipowice Palikówka",
+          "platform": "2",
+          "file": "0059_miekinia.html",
+          "departures": {
+            "workday": ["05:09K", "06:44", "08:23K", "10:00", "11:33", "12:43K", "14:21K", "16:03", "17:44K", "19:31", "20:27K", "21:43K"],
+            "saturday": ["07:07K", "10:25", "13:00", "15:38K", "19:03", "21:55"]
+          }
+        },
+        {
+          "stop_id": "0060",
+          "stop_name": "Filipowice Skała",
+          "platform": "2",
+          "file": "0060_miekinia.html",
+          "departures": {
+            "workday": ["05:10K", "06:45", "08:24K", "10:01", "11:34", "12:44K", "14:22K", "16:04", "17:45K", "19:32", "20:28K", "21:44K"],
+            "saturday": ["07:08K", "10:26", "13:01", "15:39K", "19:04", "21:56"]
+          }
+        },
+        {
+          "stop_id": "0061",
+          "stop_name": "Filipowice Szkoła",
+          "platform": "2",
+          "file": "0061_miekinia.html",
+          "departures": {
+            "workday": ["05:11K", "06:46", "08:25K", "10:02", "11:35", "12:45K", "14:23K", "16:05", "17:46K", "19:33", "20:29K", "21:45K"],
+            "saturday": ["07:09K", "10:27", "13:02", "15:40K", "19:05", "21:57"]
+          }
+        },
+        {
+          "stop_id": "0062",
+          "stop_name": "Filipowice Kościół",
+          "platform": "2",
+          "file": "0062_miekinia.html",
+          "departures": {
+            "workday": ["05:12K", "06:47", "08:26K", "10:03", "11:36", "12:46K", "14:24K", "16:06", "17:47K", "19:34", "20:30K", "21:46K"],
+            "saturday": ["07:10K", "10:28", "13:03", "15:41K", "19:06", "21:58"]
+          }
+        },
+        {
+          "stop_id": "0063",
+          "stop_name": "Filipowice Transformator",
+          "platform": "2",
+          "file": "0063_miekinia.html",
+          "departures": {
+            "workday": ["05:13K", "06:48", "08:27K", "10:04", "11:37", "12:47K", "14:25K", "16:07", "17:48K", "19:35", "20:31K", "21:47K"],
+            "saturday": ["07:11K", "10:29", "13:04", "15:42K", "19:07", "21:59"]
+          }
+        },
+        {
+          "stop_id": "0064",
+          "stop_name": "Filipowice Wzgórze",
+          "platform": "2",
+          "file": "0064_miekinia.html",
+          "departures": {
+            "workday": ["05:14K", "06:49", "08:28K", "10:05", "11:38", "12:48K", "14:26K", "16:08", "17:49K", "19:36", "20:32K", "21:48K"],
+            "saturday": ["07:12K", "10:30", "13:05", "15:43K", "19:08", "22:00"]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "miekinia",
+      "name": "Krzeszowice Czatkowice Dolne Kopalnia",
+      "variant_destinations": {},
+      "legend": {},
+      "route_stops": [
+        {"stop_id":"0065","stop_name":"Miękinia Stawiska","platform":"0","file":"0065_miekinia.html"},
+        {"stop_id":"0066","stop_name":"Filipowice Wzgórze","platform":"1","file":"0066_miekinia.html","variant":true},
+        {"stop_id":"0067","stop_name":"Filipowice Transformator","platform":"1","file":"0067_miekinia.html","variant":true},
+        {"stop_id":"0068","stop_name":"Filipowice Kościół","platform":"1","file":"0068_miekinia.html","variant":true},
+        {"stop_id":"0069","stop_name":"Filipowice Szkoła","platform":"1","file":"0069_miekinia.html","variant":true},
+        {"stop_id":"0070","stop_name":"Filipowice Skała","platform":"1","file":"0070_miekinia.html","variant":true},
+        {"stop_id":"0071","stop_name":"Filipowice Palikówka","platform":"1","file":"0071_miekinia.html","variant":true},
+        {"stop_id":"0072","stop_name":"Filipowice Sklep","platform":"1","file":"0072_miekinia.html","variant":true},
+        {"stop_id":"0073","stop_name":"Filipowice Blych","platform":"1","file":"0073_miekinia.html","variant":true},
+        {"stop_id":"0130","stop_name":"Wola Filipowska II","platform":"2","file":"0130_miekinia.html","variant":true},
+        {"stop_id":"0131","stop_name":"Wola Filipowska I","platform":"2","file":"0131_miekinia.html","variant":true},
+        {"stop_id":"0132","stop_name":"Krzeszowice Zielona","platform":"1","file":"0132_miekinia.html","variant":true},
+        {"stop_id":"0133","stop_name":"Krzeszowice Centrum","platform":"1","file":"0133_miekinia.html","variant":true},
+        {"stop_id":"0134","stop_name":"Krzeszowice Dworzec Autobusowy","platform":"3","file":"0134_miekinia.html","variant":true},
+        {"stop_id":"0135","stop_name":"Krzeszowice 3-ego Maja","platform":"1","file":"0135_miekinia.html","variant":true},
+        {"stop_id":"0049","stop_name":"Krzeszowice Aleja Solidarności Szkoła","platform":"1","file":"0049_miekinia.html","variant":true},
+        {"stop_id":"0136","stop_name":"Krzeszowice Aleja Solidarności Przedszkole","platform":"2","file":"0136_miekinia.html","variant":true},
+        {"stop_id":"0137","stop_name":"Krzeszowice Czatkowice EDEN","platform":"1","file":"0137_miekinia.html","variant":true},
+        {"stop_id":"0138","stop_name":"Krzeszowice Czatkowice Dolne Kopalnia","platform":"2","file":"0138_miekinia.html","variant":true}
+      ],
+      "timetables": [
+        {
+          "stop_id": "0065",
+          "stop_name": "Miękinia Stawiska",
+          "platform": "0",
+          "file": "0065_miekinia.html",
+          "departures": {
+            "workday": ["05:16", "08:30", "12:50", "14:28", "17:51", "20:34", "21:50"],
+            "saturday": ["07:14", "15:45"]
+          }
         }
       ]
     }
