@@ -188,6 +188,126 @@
       "sunday": ["07:15", "17:24O"],
       "holiday": ["11:38"]
   }
+ },
+     {
+    "stop_id": "0146",
+    "stop_name": "Bukowno Urząd Miasta",
+    "platform": "2",
+    "file": "0146-zadole.html",
+    "departures": {
+      "workday": ["07:35OZ", "09:51H", "12:55L", "15:33", "16:12HOZ", "20:00L", "22:05HOZ"],
+      "saturday": ["07:10", "11:39", "18:50O"],
+      "sunday": ["07:16", "17:25O"],
+      "holiday": ["11:39"]
+  }
+ },
+    {
+    "stop_id": "0147",
+    "stop_name": "Bukowno Dworzec PKP",
+    "platform": "0",
+    "file": "0147-zadole.html",
+    "departures": {
+      "workday": ["05:00O", "07:36OZ", "09:52H", "12:56L", "15:34", "16:13HOZ", "20:01L", "22:06HOZ"],
+      "saturday": ["07:11", "11:40", "18:51O", "19:40HZ"],
+      "sunday": ["07:17", "17:26O"],
+      "holiday": ["11:40"]
+  }
+ },
+    {
+    "stop_id": "0148",
+    "stop_name": "Bukowno Urząd Miasta",
+    "platform": "1",
+    "file": "0148-zadole.html",
+    "departures": {
+      "workday": ["05:01O", "07:37OZ", "09:53H", "12:57L", "15:35", "16:14HOZ", "20:02L", "22:07HOZ"],
+      "saturday": ["07:12", "11:41", "18:52O", "19:41HZ"],
+      "sunday": ["07:18", "17:27O"],
+      "holiday": ["11:41"]
+  }
+ },
+    {
+    "stop_id": "0149",
+    "stop_name": "Bukowno Skałka",
+    "platform": "1",
+    "file": "0149-zadole.html",
+    "departures": {
+      "workday": ["05:02O", "07:38OZ", "09:54H", "12:58L", "15:36", "16:15HOZ", "20:03L", "22:08HOZ"],
+      "saturday": ["07:13", "11:42", "18:53O", "19:42HZ"],
+      "sunday": ["07:19", "17:28O"],
+      "holiday": ["11:42"]
+  }
+ },
+    {
+    "stop_id": "0150",
+    "stop_name": "Bukowno ZGH",
+    "platform": "2",
+    "file": "0150-zadole.html",
+    "departures": {
+      "workday": ["05:04O", "07:40OZ", "09:56H", "13:00L", "15:38", "16:17HOZ", "20:05L", "22:10HOZ"],
+      "saturday": ["07:15", "11:44", "18:55O", "19:44HZ"],
+      "sunday": ["07:21", "17:30O"],
+      "holiday": ["11:44"]
+  }
+ },
+    {
+    "stop_id": "0151",
+    "stop_name": "Bukowno Diana",
+    "platform": "1",
+    "file": "0151-zadole.html",
+    "departures": {
+      "workday": ["05:05O", "07:41OZ", "09:57H", "13:01L", "15:39", "16:18HOZ", "20:06L", "22:11HOZ"],
+      "saturday": ["07:16", "11:45", "18:56O", "19:45HZ"],
+      "sunday": ["07:22", "17:31O"],
+      "holiday": ["11:45"]
+  }
+ },
+    {
+    "stop_id": "0152",
+    "stop_name": "Krążek Skrzyżowanie",
+    "platform": "1",
+    "file": "0152-zadole.html",
+    "departures": {
+      "workday": ["05:07O", "07:43OZ", "09:59H", "13:03L", "15:41", "16:20HOZ", "20:08L", "22:13HOZ"],
+      "saturday": ["07:18", "11:47", "18:58O", "19:47HZ"],
+      "sunday": ["07:24", "17:33O"],
+      "holiday": ["11:47"]
+  }
+ },
+    {
+    "stop_id": "0153",
+    "stop_name": "Bolesław Cmentarz",
+    "platform": "1",
+    "file": "0153-zadole.html",
+    "departures": {
+      "workday": ["05:08O", "07:44OZ", "10:00H", "13:04L", "15:42", "16:21HOZ", "20:09L", "22:14HOZ"],
+      "saturday": ["07:19", "11:48", "18:59O", "19:48HZ"],
+      "sunday": ["07:25", "17:34O"],
+      "holiday": ["11:48"]
+  }
+ },
+    {
+    "stop_id": "0154",
+    "stop_name": "Bolesław Szkoła",
+    "platform": "2",
+    "file": "0154-zadole.html",
+    "departures": {
+      "workday": ["05:09O", "07:45OZ", "10:01H", "13:05L", "15:43", "16:22HOZ", "20:10L", "22:15HOZ"],
+      "saturday": ["07:20", "11:49", "19:00O", "19:49HZ"],
+      "sunday": ["07:26", "17:35O"],
+      "holiday": ["11:49"]
+  }
+ },
+    {
+    "stop_id": "0155",
+    "stop_name": "Bolesław Centrum",
+    "platform": "2",
+    "file": "0155-zadole.html",
+    "departures": {
+      "workday": ["05:10O", "07:46OZ", "10:02H", "13:06L", "15:44", "16:23HOZ", "20:11L", "22:16HOZ"],
+      "saturday": ["07:21", "11:50", "19:01O", "19:50HZ"],
+      "sunday": ["07:27", "17:36O"],
+      "holiday": ["11:50"]
+  }
  }
 ]
 },
