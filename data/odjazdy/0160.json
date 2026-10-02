@@ -1,8 +1,20 @@
 {
   "stop_id": "0160",
   "stop_name": "Laski Pętla",
-  "platform": "0",
+  "platform": "2",
   "departures": [
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "holiday",
+      "time": "10:10",
+      "symbols": [
+        "Z"
+      ]
+    },
     {
       "line": "2",
       "main_direction": "Bukowno Przymiarki",
@@ -15,6 +27,111 @@
     },
     {
       "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "holiday",
+      "time": "11:56",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "holiday",
+      "time": "13:00",
+      "symbols": [
+        "O"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "holiday",
+      "time": "14:14",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "holiday",
+      "time": "15:14",
+      "symbols": [
+        "H"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "saturday",
+      "time": "04:30",
+      "symbols": [
+        "H",
+        "O"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "saturday",
+      "time": "05:59",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "saturday",
+      "time": "07:27",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "saturday",
+      "time": "08:20",
+      "symbols": [
+        "H",
+        "O",
+        "Z"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "saturday",
+      "time": "10:10",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "2",
       "main_direction": "Bukowno Przymiarki",
       "display_direction": "Bukowno Przymiarki",
       "direction_slug": "przymiarki",
@@ -22,6 +139,62 @@
       "day_type": "saturday",
       "time": "10:38",
       "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "saturday",
+      "time": "11:56",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "saturday",
+      "time": "13:00",
+      "symbols": [
+        "O"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "saturday",
+      "time": "14:14",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "saturday",
+      "time": "15:14",
+      "symbols": [
+        "H"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "saturday",
+      "time": "17:12",
+      "symbols": [
+        "O"
+      ]
     },
     {
       "line": "2",
@@ -37,12 +210,214 @@
     },
     {
       "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "saturday",
+      "time": "19:07",
+      "symbols": [
+        "O"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "saturday",
+      "time": "19:56",
+      "symbols": [
+        "H",
+        "Z"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "saturday",
+      "time": "21:00",
+      "symbols": [
+        "O",
+        "Z"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "sunday",
+      "time": "05:05",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "sunday",
+      "time": "06:17",
+      "symbols": [
+        "H",
+        "O"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "sunday",
+      "time": "07:33",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "sunday",
+      "time": "08:54",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "sunday",
+      "time": "10:15",
+      "symbols": [
+        "O"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "sunday",
+      "time": "10:47",
+      "symbols": [
+        "H",
+        "Z"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "sunday",
+      "time": "12:38",
+      "symbols": [
+        "O"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "sunday",
+      "time": "13:37",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "2",
       "main_direction": "Bukowno Przymiarki",
       "display_direction": "Bukowno Przymiarki",
       "direction_slug": "przymiarki",
       "page": "rozklady/2/0160-laski.html",
       "day_type": "sunday",
       "time": "14:49",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "sunday",
+      "time": "17:42",
+      "symbols": [
+        "O"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "sunday",
+      "time": "18:26",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "sunday",
+      "time": "21:05",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "workday",
+      "time": "04:20",
+      "symbols": [
+        "H"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "workday",
+      "time": "05:16",
+      "symbols": [
+        "O"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "workday",
+      "time": "05:54",
       "symbols": []
     },
     {
@@ -57,12 +432,117 @@
     },
     {
       "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "workday",
+      "time": "07:12",
+      "symbols": [
+        "O"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "workday",
+      "time": "07:52",
+      "symbols": [
+        "O",
+        "Z"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "workday",
+      "time": "08:24",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "workday",
+      "time": "09:00",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "workday",
+      "time": "10:08",
+      "symbols": [
+        "H"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "workday",
+      "time": "10:45",
+      "symbols": [
+        "O",
+        "Z"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "workday",
+      "time": "11:43",
+      "symbols": [
+        "H"
+      ]
+    },
+    {
+      "line": "2",
       "main_direction": "Bukowno Przymiarki",
       "display_direction": "Bukowno Przymiarki",
       "direction_slug": "przymiarki",
       "page": "rozklady/2/0160-laski.html",
       "day_type": "workday",
       "time": "11:59",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "workday",
+      "time": "13:26",
+      "symbols": [
+        "O",
+        "Z"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "workday",
+      "time": "14:03",
       "symbols": []
     },
     {
@@ -77,6 +557,78 @@
     },
     {
       "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "workday",
+      "time": "15:50",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "workday",
+      "time": "16:29",
+      "symbols": [
+        "H",
+        "O",
+        "Z"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "workday",
+      "time": "16:58",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "workday",
+      "time": "17:45",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "workday",
+      "time": "18:20",
+      "symbols": [
+        "O",
+        "Z"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "workday",
+      "time": "19:47",
+      "symbols": [
+        "O",
+        "Z"
+      ]
+    },
+    {
+      "line": "2",
       "main_direction": "Bukowno Przymiarki",
       "display_direction": "Bukowno Przymiarki",
       "direction_slug": "przymiarki",
@@ -84,9 +636,28 @@
       "day_type": "workday",
       "time": "21:17",
       "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0160-zadole.html",
+      "day_type": "workday",
+      "time": "22:22",
+      "symbols": [
+        "H",
+        "O",
+        "Z"
+      ]
     }
   ],
   "served_lines": [
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "page": "rozklady/2/0160-zadole.html"
+    },
     {
       "line": "2",
       "main_direction": "Bukowno Przymiarki",
