@@ -490,6 +490,129 @@
       "sunday": ["05:10Z", "06:22HO", "07:38", "08:59Z", "10:20O", "10:52HZ", "12:43O", "13:42Z", "17:47O", "18:31Z", "21:10"],
       "holiday": ["10:15Z", "12:01", "13:05O", "14:19", "15:19H"]
   }
+ },
+    {
+    "stop_id": "0165",
+    "stop_name": "Bolesław Dąbrówka",
+    "platform": "1",
+    "file": "0165-zadole.html",
+    "departures": {
+      "workday": ["04:26H", "05:22O", "06:00", "07:18O", "07:58OZ", "08:30", "09:06", "10:14H", "10:51OZ", "11:49H", "13:32OZ", "14:09", "15:56", "16:35HOZ", "17:04", "17:51Z", "18:26OZ", "19:53OZ", "22:28HOZ"],
+      "saturday": ["04:36HO", "06:05Z", "07:33", "08:26HOZ", "10:16Z", "12:02", "13:06O", "14:20", "15:20H", "17:18O", "19:13O", "20:02HZ", "21:06OZ"],
+      "sunday": ["05:11Z", "06:23HO", "07:39", "09:00Z", "10:21O", "10:53HZ", "12:44O", "13:43Z", "17:48O", "18:32Z", "21:11"],
+      "holiday": ["10:16Z", "12:02", "13:06O", "14:20", "15:20H"]
+  }
+ }
+]
+},
+     {
+  "slug": "zadole",
+  "name": "Zadole Kosmolowskie Pętla",
+  "variant_destinations": {
+"O": "Olkusz Dworzec PKS"
+  },
+  "legend": {
+    "O": "do: Olkusz Dworzec PKS",
+    "Z": "z pominięciem: Olkusz Górnicza>>Olkusz Dworek Machnickich"
+  },
+  "route_stops": [
+    {"stop_id":"0166","stop_name":"Bolesław Kluczewska","platform":"2","file":"0166-zadole.html","variant":true},
+    {"stop_id":"0167","stop_name":"Bolesław Kluczewska Mostek","platform":"2","file":"0167-zadole.html","variant":true},
+    {"stop_id":"0168","stop_name":"Hutki Pętla","platform":"1","file":"0168-zadole.html","variant":true},
+    {"stop_id":"0169","stop_name":"Bolesław Kluczewska Mostek","platform":"1","file":"0169-zadole.html","variant":true},
+    {"stop_id":"0170","stop_name":"Bolesław Kluczewska","platform":"1","file":"0170-zadole.html","variant":true},
+    {"stop_id":"0171","stop_name":"Bolesław Osadowa","platform":"2","file":"0171-zadole.html"},
+    {"stop_id":"0172","stop_name":"Olkusz Stary","platform":"2","file":"0172-zadole.html"},
+    {"stop_id":"0173","stop_name":"Olkusz Stacja Paliw","platform":"1","file":"0173-zadole.html"},
+    {"stop_id":"0174","stop_name":"Olkusz Supersam","platform":"0","file":"0174-zadole.html"},
+    {"stop_id":"0175","stop_name":"Olkusz Górnicza","platform":"1","file":"0175-zadole.html"},
+    {"stop_id":"0176","stop_name":"Olkusz Mickiewicza","platform":"1","file":"0176-zadole.html"},
+    {"stop_id":"0178","stop_name":"Olkusz Szpitalna","platform":"1","file":"0178-zadole.html"},
+    {"stop_id":"0179","stop_name":"Olkusz Żuradzka","platform":"2","file":"0179-zadole.html"},
+    {"stop_id":"0180","stop_name":"Olkusz Mazaniec Boczna","platform":"1","file":"0180-zadole.html"},
+    {"stop_id":"0181","stop_name":"Olkusz Mazaniec","platform":"1","file":"0181-zadole.html"},
+    {"stop_id":"0182","stop_name":"Żurada Druga Kolonia","platform":"1","file":"0182-zadole.html"},
+    {"stop_id":"0183","stop_name":"Żurada Starowiejska","platform":"2","file":"0183-zadole.html"},
+    {"stop_id":"0184","stop_name":"Żurada Wierzbie","platform":"2","file":"0184-zadole.html"},
+    {"stop_id":"0185","stop_name":"Żurada Wieś","platform":"2","file":"0185-zadole.html"},
+    {"stop_id":"0186","stop_name":"Żurada Trzecia Kolonia","platform":"1","file":"0186-zadole.html"},
+    {"stop_id":"0187","stop_name":"Żurada Pętla","platform":"0","file":"0187-zadole.html"},
+    {"stop_id":"0188","stop_name":"Żurada Trzecia Kolonia","platform":"2","file":"0188-zadole.html"},
+    {"stop_id":"0189","stop_name":"Żurada Wieś","platform":"1","file":"0189-zadole.html"},
+    {"stop_id":"0190","stop_name":"Żurada Wierzbie","platform":"1","file":"0190-zadole.html"},
+    {"stop_id":"0191","stop_name":"Żurada Starowiejska","platform":"1","file":"0191-zadole.html"},
+    {"stop_id":"0192","stop_name":"Żurada Szkoła","platform":"2","file":"0192-zadole.html"},
+    {"stop_id":"0193","stop_name":"Żurada Remiza","platform":"1","file":"0193-zadole.html"},
+    {"stop_id":"0194","stop_name":"Żurada Kolonia","platform":"2","file":"0194-zadole.html"},
+    {"stop_id":"0195","stop_name":"Żurada","platform":"1","file":"0195-zadole.html"},
+    {"stop_id":"0196","stop_name":"Olkusz Kamyk","platform":"1","file":"0196-zadole.html"},
+    {"stop_id":"0197","stop_name":"Olkusz Basen","platform":"1","file":"0197-zadole.html"},
+    {"stop_id":"0198","stop_name":"Olkusz Dworek Machnickich","platform":"0","file":"0198-zadole.html"},
+    {"stop_id":"0199","stop_name":"Olkusz Skarbek","platform":"2","file":"0199-zadole.html"},
+    {"stop_id":"0200","stop_name":"Olkusz Dworzec PKS","platform":"0","file":"0200-zadole.html","variant":true},
+    {"stop_id":"0201","stop_name":"Olkusz Dworzec PKP","platform":"1","file":"0201-zadole.html"},
+    {"stop_id":"0202","stop_name":"Olkusz Wiadukt","platform":"1","file":"0202-zadole.html"},
+    {"stop_id":"0203","stop_name":"Olkusz Aleja Tysiąclecia","platform":"1","file":"0203-zadole.html"},
+    {"stop_id":"0204","stop_name":"Sieniczno","platform":"1","file":"0204-zadole.html"},
+    {"stop_id":"0205","stop_name":"Sieniczno Ojcowska","platform":"2","file":"0205-zadole.html"},
+    {"stop_id":"0206","stop_name":"Wiśliczka","platform":"2","file":"0206-zadole.html"},
+    {"stop_id":"0207","stop_name":"Kosmolów Las","platform":"2","file":"0207-zadole.html"},
+    {"stop_id":"0208","stop_name":"Kosmolów Szkoła","platform":"2","file":"0208-zadole.html"},
+    {"stop_id":"0209","stop_name":"Kosmolów Sklep","platform":"2","file":"0209-zadole.html"},
+    {"stop_id":"0210","stop_name":"Kosmolów Na Górze","platform":"2","file":"0210-zadole.html"},
+    {"stop_id":"0211","stop_name":"Kosmolów Skrzyżowanie","platform":"2","file":"0211-zadole.html"},
+    {"stop_id":"0212","stop_name":"Zadole Kosmolowskie Początek","platform":"2","file":"0212-zadole.html"},
+    {"stop_id":"0213","stop_name":"Zadole Kosmolowskie","platform":"2","file":"0213-zadole.html"},
+    {"stop_id":"0214","stop_name":"Zadole Kosmolowskie Pętla","platform":"0","file":"0214-zadole.html"}
+  ],
+  "timetables": [
+    {
+    "stop_id": "0166",
+    "stop_name": "Bolesław Kluczewska",
+    "platform": "2",
+    "file": "0166-zadole.html",
+    "departures": {
+      "workday": ["04:27", "10:15", "11:50", "16:36OZ", "22:29OZ"],
+      "saturday": ["04:37O", "08:27OZ", "15:21", "20:03Z"],
+      "sunday": ["06:24O", "10:54Z"],
+      "holiday": ["15:21"]
+  }
+ },
+    {
+    "stop_id": "0167",
+    "stop_name": "Bolesław Kluczewska Mostek",
+    "platform": "2",
+    "file": "0167-zadole.html",
+    "departures": {
+      "workday": ["04:28", "10:16", "11:51", "16:37OZ", "22:30OZ"],
+      "saturday": ["04:38O", "08:28OZ", "15:22", "20:04Z"],
+      "sunday": ["06:25O", "10:55Z"],
+      "holiday": ["15:22"]
+  }
+ },
+    {
+    "stop_id": "0168",
+    "stop_name": "Hutki Pętla",
+    "platform": "1",
+    "file": "0168-zadole.html",
+    "departures": {
+      "workday": ["04:29", "10:17", "11:52", "16:38OZ", "22:31OZ"],
+      "saturday": ["04:39O", "08:29OZ", "15:23", "20:05Z"],
+      "sunday": ["06:26O", "10:56Z"],
+      "holiday": ["15:23"]
+  }
+ },
+    {
+    "stop_id": "0169",
+    "stop_name": "Bolesław Kluczewska Mostek",
+    "platform": "1",
+    "file": "0169-zadole.html",
+    "departures": {
+      "workday": ["04:30", "10:18", "11:53", "16:39OZ", "22:32OZ"],
+      "saturday": ["04:40O", "08:30OZ", "15:24", "20:06Z"],
+      "sunday": ["06:27O", "10:57Z"],
+      "holiday": ["15:24"]
+  }
  }
 ]
 },
