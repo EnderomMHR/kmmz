@@ -1,0 +1,198 @@
+{
+  "stop_id": "0152",
+  "stop_name": "Krążek Skrzyżowanie",
+  "platform": "1",
+  "departures": [
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0152-zadole.html",
+      "day_type": "holiday",
+      "time": "11:47",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0152-zadole.html",
+      "day_type": "saturday",
+      "time": "07:18",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0152-zadole.html",
+      "day_type": "saturday",
+      "time": "11:47",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0152-zadole.html",
+      "day_type": "saturday",
+      "time": "18:58",
+      "symbols": [
+        "O"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0152-zadole.html",
+      "day_type": "saturday",
+      "time": "19:47",
+      "symbols": [
+        "H",
+        "Z"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0152-zadole.html",
+      "day_type": "sunday",
+      "time": "07:24",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0152-zadole.html",
+      "day_type": "sunday",
+      "time": "17:33",
+      "symbols": [
+        "O"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0152-zadole.html",
+      "day_type": "workday",
+      "time": "05:07",
+      "symbols": [
+        "O"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0152-zadole.html",
+      "day_type": "workday",
+      "time": "07:43",
+      "symbols": [
+        "O",
+        "Z"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0152-zadole.html",
+      "day_type": "workday",
+      "time": "09:59",
+      "symbols": [
+        "H"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0152-zadole.html",
+      "day_type": "workday",
+      "time": "13:03",
+      "symbols": [
+        "L"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0152-zadole.html",
+      "day_type": "workday",
+      "time": "15:41",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0152-zadole.html",
+      "day_type": "workday",
+      "time": "16:20",
+      "symbols": [
+        "H",
+        "O",
+        "Z"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0152-zadole.html",
+      "day_type": "workday",
+      "time": "20:08",
+      "symbols": [
+        "L"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "zadole",
+      "page": "rozklady/2/0152-zadole.html",
+      "day_type": "workday",
+      "time": "22:13",
+      "symbols": [
+        "H",
+        "O",
+        "Z"
+      ]
+    }
+  ],
+  "served_lines": [
+    {
+      "line": "2",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "page": "rozklady/2/0152-zadole.html"
+    }
+  ],
+  "legends": {
+    "2": {
+      "H": "przez: Hutki Pętla",
+      "L": "z pominięciem: Bolesław Remiza>>Laski Pętla",
+      "O": "do: Olkusz Dworzec PKS",
+      "Z": "z pominięciem: Olkusz Górnicza>>Olkusz Dworek Machnickich"
+    }
+  }
+}
