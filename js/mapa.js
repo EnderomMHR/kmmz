@@ -80,7 +80,8 @@ const stopFiles = [
   'data/stops/babice-alwernia.geojson',
   'data/stops/bierun.geojson',
   'data/stops/boleslaw.geojson',
-  'data/stops/brzeszcze.geojson'
+  'data/stops/brzeszcze.geojson',
+  'data/stops/bukowno.geojson'
 ];
 
 const panel = document.getElementById("stop-panel");
