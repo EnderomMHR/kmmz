@@ -81,7 +81,8 @@ const stopFiles = [
   'data/stops/bierun.geojson',
   'data/stops/boleslaw.geojson',
   'data/stops/brzeszcze.geojson',
-  'data/stops/bukowno.geojson'
+  'data/stops/bukowno.geojson',
+  'data/stops/chrzanow.geojson'
 ];
 
 const panel = document.getElementById("stop-panel");
