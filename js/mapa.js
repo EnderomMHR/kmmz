@@ -76,7 +76,8 @@ const stopFiles = [
   'data/stops/zarnowiec.geojson',
   'data/stops/zator.geojson',
   'data/stops/trzyciaz.geojson',
-  'data/stops/chelmek.geojson'
+  'data/stops/chelmek.geojson',
+  'data/stops/babice-alwernia.geojson'
 ];
 
 const panel = document.getElementById("stop-panel");
