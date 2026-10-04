@@ -374,7 +374,7 @@ function renderLineTimetable(page) {
       <div class="inline-timetable">
         <div class="inline-timetable-title">Linia ${escapeHtml(lineInfo.line)} → ${escapeHtml(lineInfo.main_direction)}</div>
         <div class="inline-timetable-day">${escapeHtml(getDayTypeLabel(currentDayType))}</div>
-        <div class="panel-empty">Brak kursów dla aktualnego typu dnia.</div>
+        <div class="panel-empty">Brak kursów dla aktualnego dnia.</div>
       </div>
     `;
     return;
