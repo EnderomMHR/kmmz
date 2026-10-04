@@ -77,7 +77,10 @@ const stopFiles = [
   'data/stops/zator.geojson',
   'data/stops/trzyciaz.geojson',
   'data/stops/chelmek.geojson',
-  'data/stops/babice-alwernia.geojson'
+  'data/stops/babice-alwernia.geojson',
+  'data/stops/bierun.geojson',
+  'data/stops/boleslaw.geojson',
+  'data/stops/brzeszcze.geojson'
 ];
 
 const panel = document.getElementById("stop-panel");
