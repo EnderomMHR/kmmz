@@ -497,7 +497,7 @@
     "platform": "1",
     "file": "0165-zadole.html",
     "departures": {
-      "workday": ["04:26H", "05:22O", "06:00", "07:18O", "07:58OZ", "08:30", "09:06", "10:14H", "10:51OZ", "11:49H", "13:32OZ", "14:09", "15:56", "16:35HOZ", "17:04", "17:51Z", "18:26OZ", "19:53OZ", "22:28HOZ"],
+      "workday": ["04:26H", "05:22O", "06:00", "07:18O", "07:58OZ", "08:30", "09:06", "10:14H", "10:51OZ", "11:49H", "13:07", "13:32OZ", "14:09", "15:56", "16:35HOZ", "17:04", "17:51Z", "18:26OZ", "19:53OZ", "20:12", "22:28HOZ"],
       "saturday": ["04:36HO", "06:05Z", "07:33", "08:26HOZ", "10:16Z", "12:02", "13:06O", "14:20", "15:20H", "17:18O", "19:13O", "20:02HZ", "21:06OZ"],
       "sunday": ["05:11Z", "06:23HO", "07:39", "09:00Z", "10:21O", "10:53HZ", "12:44O", "13:43Z", "17:48O", "18:32Z", "21:11"],
       "holiday": ["10:16Z", "12:02", "13:06O", "14:20", "15:20H"]
@@ -613,7 +613,132 @@
       "sunday": ["06:27O", "10:57Z"],
       "holiday": ["15:24"]
   }
+ },
+    {
+    "stop_id": "0170",
+    "stop_name": "Bolesław Kluczewska",
+    "platform": "1",
+    "file": "0170-zadole.html",
+    "departures": {
+      "workday": ["04:31", "10:19", "11:54", "16:40OZ", "22:33OZ"],
+      "saturday": ["04:41O", "08:31OZ", "15:25", "20:07Z"],
+      "sunday": ["06:28O", "10:58Z"],
+      "holiday": ["15:25"]
+  }
+ },
+    {
+    "stop_id": "0171",
+    "stop_name": "Bolesław Osadowa",
+    "platform": "2",
+    "file": "0171-zadole.html",
+    "departures": {
+      "workday": ["04:33", "05:24O", "06:02", "07:20O", "08:00OZ", "08:32", "09:08", "10:21", "10:53OZ", "11:56", "13:09", "13:34OZ", "14:11", "15:58", "16:42OZ", "17:06", "17:53Z", "18:28OZ", "19:55OZ", "20:14", "22:35OZ"],
+      "saturday": ["04:43O", "06:07Z", "07:35", "08:33OZ", "10:18Z", "12:04", "13:08O", "14:22", "15:27", "17:20O", "19:15O", "20:09Z", "21:08OZ"],
+      "sunday": ["05:13Z", "06:30O", "07:41", "09:02Z", "10:23O", "11:00Z", "12:46O", "13:45Z", "17:50O", "18:34Z", "21:13"],
+      "holiday": ["10:18Z", "12:04", "13:08O", "14:22", "15:27"]
+  }
+ },
+    {
+    "stop_id": "0172",
+    "stop_name": "Olkusz Stary",
+    "platform": "2",
+    "file": "0172-zadole.html",
+    "departures": {
+      "workday": ["04:37", "05:28O", "06:06", "07:24O", "08:04OZ", "08:36", "09:12", "10:25", "10:57OZ", "12:00", "13:13", "13:38OZ", "14:15", "16:02", "16:46OZ", "17:10", "17:57Z", "18:32OZ", "19:59OZ", "20:18", "22:39OZ"],
+      "saturday": ["04:47O", "06:11Z", "07:39", "08:37OZ", "10:22Z", "12:08", "13:12O", "14:26", "15:31", "17:24O", "19:19O", "20:13Z", "21:12OZ"],
+      "sunday": ["05:17Z", "06:34O", "07:45", "09:06Z", "10:27O", "11:04Z", "12:50O", "13:49Z", "17:54O", "18:38Z", "21:17"],
+      "holiday": ["10:22Z", "12:08", "13:12O", "14:26", "15:31"]
+  }
+ },
+    {
+    "stop_id": "0173",
+    "stop_name": "Olkusz Stacja Paliw",
+    "platform": "1",
+    "file": "0173-zadole.html",
+    "departures": {
+      "workday": ["04:39", "05:30O", "06:08", "07:26O", "08:06OZ", "08:38", "09:14", "10:27", "10:59OZ", "12:02", "13:15", "13:40OZ", "14:17", "16:04", "16:48OZ", "17:12", "17:59Z", "18:34OZ", "20:01OZ", "20:20", "22:41OZ"],
+      "saturday": ["04:49O", "06:13Z", "07:41", "08:39OZ", "10:24Z", "12:10", "13:14O", "14:28", "15:33", "17:26O", "19:21O", "20:15Z", "21:14OZ"],
+      "sunday": ["05:19Z", "06:36O", "07:47", "09:08Z", "10:29O", "11:06Z", "12:52O", "13:51Z", "17:56O", "18:40Z", "21:19"],
+      "holiday": ["10:24Z", "12:10", "13:14O", "14:28", "15:33"]
+  }
+ },
+    {
+    "stop_id": "0174",
+    "stop_name": "Olkusz Supersam",
+    "platform": "0",
+    "file": "0174-zadole.html",
+    "departures": {
+      "workday": ["04:41", "05:32O", "06:10", "07:28O", "08:08OZ", "08:40", "09:16", "10:29", "11:01OZ", "12:04", "13:17", "13:42OZ", "14:19", "16:06", "16:50OZ", "17:14", "18:01Z", "18:36OZ", "20:03OZ", "20:22", "22:43OZ"],
+      "saturday": ["04:51O", "06:15Z", "07:43", "08:41OZ", "10:26Z", "12:12", "13:16O", "14:30", "15:35", "17:28O", "19:23O", "20:17Z", "21:16OZ"],
+      "sunday": ["05:21Z", "06:38O", "07:49", "09:10Z", "10:31O", "11:08Z", "12:54O", "13:53Z", "17:58O", "18:42Z", "21:21"],
+      "holiday": ["10:26Z", "12:12", "13:16O", "14:30", "15:35"]
+  }
  }
+]
+},
+         {
+  "slug": "zadole",
+  "name": "Zadole Kosmolowskie Pętla",
+  "variant_destinations": {
+"O": "Olkusz Dworzec PKS"
+  },
+  "legend": {
+    "O": "do: Olkusz Dworzec PKS"
+  },
+  "route_stops": [
+    {"stop_id":"0175","stop_name":"Olkusz Górnicza","platform":"1","file":"0175-zadole.html"},
+    {"stop_id":"0176","stop_name":"Olkusz Mickiewicza","platform":"1","file":"0176-zadole.html"},
+    {"stop_id":"0178","stop_name":"Olkusz Szpitalna","platform":"1","file":"0178-zadole.html"},
+    {"stop_id":"0179","stop_name":"Olkusz Żuradzka","platform":"2","file":"0179-zadole.html"},
+    {"stop_id":"0180","stop_name":"Olkusz Mazaniec Boczna","platform":"1","file":"0180-zadole.html"},
+    {"stop_id":"0181","stop_name":"Olkusz Mazaniec","platform":"1","file":"0181-zadole.html"},
+    {"stop_id":"0182","stop_name":"Żurada Druga Kolonia","platform":"1","file":"0182-zadole.html"},
+    {"stop_id":"0183","stop_name":"Żurada Starowiejska","platform":"2","file":"0183-zadole.html"},
+    {"stop_id":"0184","stop_name":"Żurada Wierzbie","platform":"2","file":"0184-zadole.html"},
+    {"stop_id":"0185","stop_name":"Żurada Wieś","platform":"2","file":"0185-zadole.html"},
+    {"stop_id":"0186","stop_name":"Żurada Trzecia Kolonia","platform":"1","file":"0186-zadole.html"},
+    {"stop_id":"0187","stop_name":"Żurada Pętla","platform":"0","file":"0187-zadole.html"},
+    {"stop_id":"0188","stop_name":"Żurada Trzecia Kolonia","platform":"2","file":"0188-zadole.html"},
+    {"stop_id":"0189","stop_name":"Żurada Wieś","platform":"1","file":"0189-zadole.html"},
+    {"stop_id":"0190","stop_name":"Żurada Wierzbie","platform":"1","file":"0190-zadole.html"},
+    {"stop_id":"0191","stop_name":"Żurada Starowiejska","platform":"1","file":"0191-zadole.html"},
+    {"stop_id":"0192","stop_name":"Żurada Szkoła","platform":"2","file":"0192-zadole.html"},
+    {"stop_id":"0193","stop_name":"Żurada Remiza","platform":"1","file":"0193-zadole.html"},
+    {"stop_id":"0194","stop_name":"Żurada Kolonia","platform":"2","file":"0194-zadole.html"},
+    {"stop_id":"0195","stop_name":"Żurada","platform":"1","file":"0195-zadole.html"},
+    {"stop_id":"0196","stop_name":"Olkusz Kamyk","platform":"1","file":"0196-zadole.html"},
+    {"stop_id":"0197","stop_name":"Olkusz Basen","platform":"1","file":"0197-zadole.html"},
+    {"stop_id":"0198","stop_name":"Olkusz Dworek Machnickich","platform":"0","file":"0198-zadole.html"},
+    {"stop_id":"0199","stop_name":"Olkusz Skarbek","platform":"2","file":"0199-zadole.html"},
+    {"stop_id":"0200","stop_name":"Olkusz Dworzec PKS","platform":"0","file":"0200-zadole.html","variant":true},
+    {"stop_id":"0201","stop_name":"Olkusz Dworzec PKP","platform":"1","file":"0201-zadole.html"},
+    {"stop_id":"0202","stop_name":"Olkusz Wiadukt","platform":"1","file":"0202-zadole.html"},
+    {"stop_id":"0203","stop_name":"Olkusz Aleja Tysiąclecia","platform":"1","file":"0203-zadole.html"},
+    {"stop_id":"0204","stop_name":"Sieniczno","platform":"1","file":"0204-zadole.html"},
+    {"stop_id":"0205","stop_name":"Sieniczno Ojcowska","platform":"2","file":"0205-zadole.html"},
+    {"stop_id":"0206","stop_name":"Wiśliczka","platform":"2","file":"0206-zadole.html"},
+    {"stop_id":"0207","stop_name":"Kosmolów Las","platform":"2","file":"0207-zadole.html"},
+    {"stop_id":"0208","stop_name":"Kosmolów Szkoła","platform":"2","file":"0208-zadole.html"},
+    {"stop_id":"0209","stop_name":"Kosmolów Sklep","platform":"2","file":"0209-zadole.html"},
+    {"stop_id":"0210","stop_name":"Kosmolów Na Górze","platform":"2","file":"0210-zadole.html"},
+    {"stop_id":"0211","stop_name":"Kosmolów Skrzyżowanie","platform":"2","file":"0211-zadole.html"},
+    {"stop_id":"0212","stop_name":"Zadole Kosmolowskie Początek","platform":"2","file":"0212-zadole.html"},
+    {"stop_id":"0213","stop_name":"Zadole Kosmolowskie","platform":"2","file":"0213-zadole.html"},
+    {"stop_id":"0214","stop_name":"Zadole Kosmolowskie Pętla","platform":"0","file":"0214-zadole.html"}
+  ],
+  "timetables": [
+    {
+    "stop_id": "0174",
+    "stop_name": "Olkusz Supersam",
+    "platform": "0",
+    "file": "0174-zadole.html",
+    "departures": {
+      "workday": ["04:41", "05:32O", "06:10", "07:28O", "08:08OZ", "08:40", "09:16", "10:29", "11:01OZ", "12:04", "13:17", "13:42OZ", "14:19", "16:06", "16:50OZ", "17:14", "18:01Z", "18:36OZ", "20:03OZ", "20:22", "22:43OZ"],
+      "saturday": ["04:51O", "06:15Z", "07:43", "08:41OZ", "10:26Z", "12:12", "13:16O", "14:30", "15:35", "17:28O", "19:23O", "20:17Z", "21:16OZ"],
+      "sunday": ["05:21Z", "06:38O", "07:49", "09:10Z", "10:31O", "11:08Z", "12:54O", "13:53Z", "17:58O", "18:42Z", "21:21"],
+      "holiday": ["10:26Z", "12:12", "13:16O", "14:30", "15:35"]
+  }
+ },
 ]
 },
     {
