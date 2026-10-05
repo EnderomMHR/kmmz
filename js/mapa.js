@@ -458,6 +458,63 @@ function openStopPanel(properties) {
 }
 
 // Warstwa punktów.
+function renderPopupLines(stopId) {
+  const target = document.getElementById(`popup-lines-${stopId}`);
+
+  if (!target) {
+    return;
+  }
+
+  fetch(`data/odjazdy/${stopId}.json`)
+    .then(response => {
+      if (!response.ok) {
+        throw new Error(`Brak pliku data/odjazdy/${stopId}.json`);
+      }
+
+      return response.json();
+    })
+    .then(data => {
+      const lines = new Set();
+
+      (data.served_lines || []).forEach(item => {
+        if (item.line) {
+          lines.add(String(item.line));
+        }
+      });
+
+      if (!lines.size) {
+        target.textContent = "brak danych";
+        return;
+      }
+
+      const sortedLines = Array.from(lines).sort((a, b) => {
+        const numberA = Number(a);
+        const numberB = Number(b);
+
+        if (!Number.isNaN(numberA) && !Number.isNaN(numberB)) {
+          return numberA - numberB;
+        }
+
+        return a.localeCompare(b, "pl");
+      });
+
+      target.innerHTML = sortedLines.map(line => `
+        <span style="
+          display:inline-block;
+          background:#f5c400;
+          color:#222;
+          font-weight:bold;
+          border-radius:7px;
+          padding:2px 7px;
+          margin:2px 2px 0 3px;
+          font-size:12px;
+        ">${escapeHtml(line)}</span>
+      `).join("");
+    })
+    .catch(() => {
+      target.textContent = "brak danych";
+    });
+}
 const stopsLayer = L.geoJSON(null, {
   pointToLayer: function (feature, latlng) {
     const zone = feature.properties.zone;
@@ -476,19 +533,25 @@ const stopsLayer = L.geoJSON(null, {
     const p = feature.properties;
 
     const popupContent = `
-      <div style="font-weight:bold;font-size:15px;margin-bottom:4px;">
-        ${escapeHtml(p.name)} <span style="color:#555;font-size:13px;">(${escapeHtml(p.platform)})</span>
-      </div>
-      <div style="color:#555;font-size:13px;">ID: ${escapeHtml(p.stop_id)}</div>
-      <div style="margin-top:4px;font-size:13px;">Strefa: ${escapeHtml(p.zone)}</div>
-      <div style="margin-top:6px;font-size:13px;">Kliknij punkt, aby otworzyć panel odjazdów.</div>
-    `;
+  <div style="font-weight:bold;font-size:15px;margin-bottom:4px;">
+    ${escapeHtml(p.name)} <span style="color:#555;font-size:13px;">(${escapeHtml(p.platform)})</span>
+  </div>
+  <div style="color:#555;font-size:13px;">ID: ${escapeHtml(p.stop_id)}</div>
+  <div style="margin-top:4px;font-size:13px;">Strefa: ${escapeHtml(p.zone)}</div>
+  <div style="margin-top:7px;font-size:13px;">
+    <strong>Linie:</strong>
+    <span id="popup-lines-${escapeHtml(p.stop_id)}">wczytywanie...</span>
+  </div>
+`;
 
     layer.bindPopup(popupContent);
 
     layer.on("click", function () {
-      openStopPanel(p);
-    });
+  openStopPanel(p);
+  setTimeout(() => {
+    renderPopupLines(p.stop_id);
+  }, 50);
+});
   }
 }).addTo(map);
 
