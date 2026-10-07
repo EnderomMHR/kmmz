@@ -1207,7 +1207,7 @@
     "H": "przez: Hutki Pętla",
     "L": "z pominięciem: Bolesław Remiza>>Laski Pętla",
     "P": "do: Bukowno Przymiarki",
-    "Z": "z pominięciem: Olkusz Górnicza>>Żurada Pętla>>Olkusz Szpitalna",
+    "Z": "z pominięciem: Olkusz Górnicza>>Żurada Pętla>>Olkusz Szpitalna"
   },
   "route_stops": [
     {"stop_id":"0214","stop_name":"Zadole Kosmolowskie Pętla","platform":"0","file":"0214-laski.html"},
@@ -1468,7 +1468,7 @@
     "H": "przez: Hutki Pętla",
     "L": "z pominięciem: Bolesław Remiza>>Laski Pętla",
     "P": "do: Bukowno Przymiarki",
-    "Z": "z pominięciem: Olkusz Górnicza>>Żurada Pętla>>Olkusz Szpitalna",
+    "Z": "z pominięciem: Olkusz Górnicza>>Żurada Pętla>>Olkusz Szpitalna"
   },
   "route_stops": [
     {"stop_id":"0200","stop_name":"Olkusz Dworzec PKS","platform":"0","file":"0200-laski.html","variant":true},
@@ -1561,59 +1561,332 @@
 ]
 },
     {
-      "slug": "laski",
-      "name": "Laski Pętla",
-      "variant_destinations": {
-  "B": "Bukowno Dworzec PKP",
-  "P": "Bukowno Przymiarki"
-},
-      "legend": {
-        "B": "do: Bukowno Dworzec PKP",
-        "H": "przez: Hutki Pętla",
-        "L": "z pominięciem: Bolesław Remiza>>Laski Pętla",
-        "P": "do: Bukowno Przymiarki"
-      },
-      "route_stops": [
-        {"stop_id":"0177","stop_name":"Olkusz Szpitalna","platform":"2","file":"0177-laski.html"},
-        {"stop_id":"0238","stop_name":"Olkusz Supersam","platform":"2","file":"0238-laski.html"},
-        {"stop_id":"0239","stop_name":"Olkusz Stacja Paliw","platform":"2","file":"0239-laski.html"},
-        {"stop_id":"0240","stop_name":"Olkusz Stary","platform":"1","file":"0240-laski.html"},
-        {"stop_id":"0241","stop_name":"Bolesław Osadowa","platform":"1","file":"0241-laski.html"},
-        {"stop_id":"0242","stop_name":"Bolesław Dąbrówka","platform":"2","file":"0242-laski.html"},
-        {"stop_id":"0166","stop_name":"Bolesław Kluczewska","platform":"2","file":"0166-laski.html","variant":true},
-        {"stop_id":"0167","stop_name":"Bolesław Kluczewska Mostek","platform":"2","file":"0167-laski.html","variant":true},
-        {"stop_id":"0168","stop_name":"Hutki Pętla","platform":"1","file":"0168-laski.html","variant":true},
-        {"stop_id":"0169","stop_name":"Bolesław Kluczewska Mostek","platform":"1","file":"0169-laski.html","variant":true},
-        {"stop_id":"0170","stop_name":"Bolesław Kluczewska","platform":"1","file":"0170-laski.html","variant":true},
-        {"stop_id":"0156","stop_name":"Bolesław Remiza","platform":"1","file":"0156-laski.html"},
-        {"stop_id":"0157","stop_name":"Kolonia Bolesławska","platform":"2","file":"0157-laski.html"},
-        {"stop_id":"0158","stop_name":"Kolonia Poręba","platform":"1","file":"0158-laski.html"},
-        {"stop_id":"0159","stop_name":"Kolonia Cicha","platform":"2","file":"0159-laski.html"},
-        {"stop_id":"0160","stop_name":"Laski Pętla","platform":"0","file":"0160-laski.html"},
-        {"stop_id":"0161","stop_name":"Kolonia Cicha","platform":"1","file":"0161-laski.html","variant":true},
-        {"stop_id":"0162","stop_name":"Kolonia Poręba","platform":"2","file":"0162-laski.html","variant":true},
-        {"stop_id":"0163","stop_name":"Kolonia Bolesławska","platform":"1","file":"0163-laski.html","variant":true},
-        {"stop_id":"0164","stop_name":"Bolesław Remiza","platform":"2","file":"0164-laski.html","variant":true},
-        {"stop_id":"0243","stop_name":"Bolesław Centrum","platform":"1","file":"0243-laski.html","variant":true},
-        {"stop_id":"0244","stop_name":"Bolesław Szkoła","platform":"1","file":"0244-laski.html","variant":true},
-        {"stop_id":"0245","stop_name":"Bolesław Cmentarz","platform":"2","file":"0245-laski.html","variant":true},
-        {"stop_id":"0246","stop_name":"Krążek","platform":"2","file":"0246-laski.html","variant":true},
-        {"stop_id":"0247","stop_name":"Bukowno Diana","platform":"2","file":"0247-laski.html","variant":true},
-        {"stop_id":"0248","stop_name":"Bukowno ZGH","platform":"1","file":"0248-laski.html","variant":true},
-        {"stop_id":"0249","stop_name":"Bukowno Skałka","platform":"2","file":"0249-laski.html","variant":true},
-        {"stop_id":"0146","stop_name":"Bukowno Urząd Miasta","platform":"2","file":"0146-laski.html","variant":true},
-        {"stop_id":"0147","stop_name":"Bukowno Dworzec PKP","platform":"0","file":"0147-laski.html","variant":true},
-        {"stop_id":"0148","stop_name":"Bukowno Urząd Miasta","platform":"1","file":"0148-laski.html","variant":true},
-        {"stop_id":"0250","stop_name":"Bukowno Nowa","platform":"1","file":"0250-laski.html","variant":true},
-        {"stop_id":"0251","stop_name":"Bukowno Nowa OSP","platform":"2","file":"0251-laski.html","variant":true},
-        {"stop_id":"0252","stop_name":"Bukowno Cmentarz","platform":"1","file":"0252-laski.html","variant":true},
-        {"stop_id":"0253","stop_name":"Bukowno Remiza","platform":"0","file":"0253-laski.html","variant":true},
-        {"stop_id":"0254","stop_name":"Bukowno Skotnica","platform":"1","file":"0254-laski.html","variant":true},
-        {"stop_id":"0255","stop_name":"Bukowno Sklep","platform":"1","file":"0255-laski.html","variant":true},
-        {"stop_id":"0256","stop_name":"Bukowno Przymiarki PKP","platform":"1","file":"0256-laski.html","variant":true},
-        {"stop_id":"0106","stop_name":"Bukowno Przymiarki","platform":"0","file":"0106-laski.html","variant":true}
-      ],
-      "timetables": [
+  "slug": "laski",
+  "name": "Laski Pętla",
+  "variant_destinations": {
+"B": "Bukowno Dworzec PKP",
+"P": "Bukowno Przymiarki"
+  },
+  "legend": {
+    "B": "do: Bukowno Dworzec PKP",
+    "H": "przez: Hutki Pętla",
+    "L": "z pominięciem: Bolesław Remiza>>Laski Pętla",
+    "P": "do: Bukowno Przymiarki",
+  },
+  "route_stops": [
+    {"stop_id":"0175","stop_name":"Olkusz Górnicza","platform":"1","file":"0175-laski.html"},
+    {"stop_id":"0176","stop_name":"Olkusz Mickiewicza","platform":"1","file":"0176-laski.html"},
+    {"stop_id":"0177","stop_name":"Olkusz Szpitalna","platform":"2","file":"0177-laski-zurada.html"},
+    {"stop_id":"0229","stop_name":"Olkusz Basen","platform":"2","file":"0229-laski.html"},
+    {"stop_id":"0230","stop_name":"Olkusz Kamyk","platform":"2","file":"0230-laski.html"},
+    {"stop_id":"0231","stop_name":"Żurada Kolonia","platform":"1","file":"0231-laski.html"},
+    {"stop_id":"0232","stop_name":"Żurada Remiza","platform":"2","file":"0232-laski.html"},
+    {"stop_id":"0233","stop_name":"Żurada Szkoła","platform":"1","file":"0233-laski.html"},
+    {"stop_id":"0183","stop_name":"Żurada Starowiejska","platform":"2","file":"0183-laski.html"},
+    {"stop_id":"0184","stop_name":"Żurada Wierzbie","platform":"2","file":"0184-laski.html"},
+    {"stop_id":"0185","stop_name":"Żurada Wieś","platform":"2","file":"0185-laski.html"},
+    {"stop_id":"0186","stop_name":"Żurada Trzecia Kolonia","platform":"1","file":"0186-laski.html"},
+    {"stop_id":"0187","stop_name":"Żurada Pętla","platform":"0","file":"0187-laski.html"},
+    {"stop_id":"0188","stop_name":"Żurada Trzecia Kolonia","platform":"2","file":"0188-laski.html"},
+    {"stop_id":"0189","stop_name":"Żurada Wieś","platform":"1","file":"0189-laski.html"},
+    {"stop_id":"0190","stop_name":"Żurada Wierzbie","platform":"1","file":"0190-laski.html"},
+    {"stop_id":"0191","stop_name":"Żurada Starowiejska","platform":"1","file":"0191-laski.html"},
+    {"stop_id":"0234","stop_name":"Żurada Druga Kolonia","platform":"2","file":"0234-laski.html"},
+    {"stop_id":"0235","stop_name":"Olkusz Mazaniec","platform":"2","file":"0235-laski.html"},
+    {"stop_id":"0236","stop_name":"Olkusz Mazaniec Boczna","platform":"2","file":"0236-laski.html"},
+    {"stop_id":"0237","stop_name":"Olkusz Żuradzka","platform":"1","file":"0237-laski.html"},
+    {"stop_id":"0177","stop_name":"Olkusz Szpitalna","platform":"2","file":"0177-laski.html"},
+    {"stop_id":"0238","stop_name":"Olkusz Supersam","platform":"2","file":"0238-laski.html"},
+    {"stop_id":"0239","stop_name":"Olkusz Stacja Paliw","platform":"2","file":"0239-laski.html"},
+    {"stop_id":"0240","stop_name":"Olkusz Stary","platform":"1","file":"0240-laski.html"},
+    {"stop_id":"0241","stop_name":"Bolesław Osadowa","platform":"1","file":"0241-laski.html"},
+    {"stop_id":"0242","stop_name":"Bolesław Dąbrówka","platform":"2","file":"0242-laski.html"},
+    {"stop_id":"0166","stop_name":"Bolesław Kluczewska","platform":"2","file":"0166-laski.html","variant":true},
+    {"stop_id":"0167","stop_name":"Bolesław Kluczewska Mostek","platform":"2","file":"0167-laski.html","variant":true},
+    {"stop_id":"0168","stop_name":"Hutki Pętla","platform":"1","file":"0168-laski.html","variant":true},
+    {"stop_id":"0169","stop_name":"Bolesław Kluczewska Mostek","platform":"1","file":"0169-laski.html","variant":true},
+    {"stop_id":"0170","stop_name":"Bolesław Kluczewska","platform":"1","file":"0170-laski.html","variant":true},
+    {"stop_id":"0156","stop_name":"Bolesław Remiza","platform":"1","file":"0156-laski.html"},
+    {"stop_id":"0157","stop_name":"Kolonia Bolesławska","platform":"2","file":"0157-laski.html"},
+    {"stop_id":"0158","stop_name":"Kolonia Poręba","platform":"1","file":"0158-laski.html"},
+    {"stop_id":"0159","stop_name":"Kolonia Cicha","platform":"2","file":"0159-laski.html"},
+    {"stop_id":"0160","stop_name":"Laski Pętla","platform":"0","file":"0160-laski.html"},
+    {"stop_id":"0161","stop_name":"Kolonia Cicha","platform":"1","file":"0161-laski.html","variant":true},
+    {"stop_id":"0162","stop_name":"Kolonia Poręba","platform":"2","file":"0162-laski.html","variant":true},
+    {"stop_id":"0163","stop_name":"Kolonia Bolesławska","platform":"1","file":"0163-laski.html","variant":true},
+    {"stop_id":"0164","stop_name":"Bolesław Remiza","platform":"2","file":"0164-laski.html","variant":true},
+    {"stop_id":"0243","stop_name":"Bolesław Centrum","platform":"1","file":"0243-laski.html","variant":true},
+    {"stop_id":"0244","stop_name":"Bolesław Szkoła","platform":"1","file":"0244-laski.html","variant":true},
+    {"stop_id":"0245","stop_name":"Bolesław Cmentarz","platform":"2","file":"0245-laski.html","variant":true},
+    {"stop_id":"0246","stop_name":"Krążek","platform":"2","file":"0246-laski.html","variant":true},
+    {"stop_id":"0247","stop_name":"Bukowno Diana","platform":"2","file":"0247-laski.html","variant":true},
+    {"stop_id":"0248","stop_name":"Bukowno ZGH","platform":"1","file":"0248-laski.html","variant":true},
+    {"stop_id":"0249","stop_name":"Bukowno Skałka","platform":"2","file":"0249-laski.html","variant":true},
+    {"stop_id":"0146","stop_name":"Bukowno Urząd Miasta","platform":"2","file":"0146-laski.html","variant":true},
+    {"stop_id":"0147","stop_name":"Bukowno Dworzec PKP","platform":"0","file":"0147-laski.html","variant":true},
+    {"stop_id":"0148","stop_name":"Bukowno Urząd Miasta","platform":"1","file":"0148-laski.html","variant":true},
+    {"stop_id":"0250","stop_name":"Bukowno Nowa","platform":"1","file":"0250-laski.html","variant":true},
+    {"stop_id":"0251","stop_name":"Bukowno Nowa OSP","platform":"2","file":"0251-laski.html","variant":true},
+    {"stop_id":"0252","stop_name":"Bukowno Cmentarz","platform":"1","file":"0252-laski.html","variant":true},
+    {"stop_id":"0253","stop_name":"Bukowno Remiza","platform":"0","file":"0253-laski.html","variant":true},
+    {"stop_id":"0254","stop_name":"Bukowno Skotnica","platform":"1","file":"0254-laski.html","variant":true},
+    {"stop_id":"0255","stop_name":"Bukowno Sklep","platform":"1","file":"0255-laski.html","variant":true},
+    {"stop_id":"0256","stop_name":"Bukowno Przymiarki PKP","platform":"1","file":"0256-laski.html","variant":true},
+    {"stop_id":"0106","stop_name":"Bukowno Przymiarki","platform":"0","file":"0106-laski.html","variant":true}
+  ],
+  "timetables": [
+    {
+    "stop_id": "0175",
+    "stop_name": "Olkusz Górnicza",
+    "platform": "1",
+    "file": "0175-laski.html",
+    "departures": {
+      "workday": ["04:52H", "05:55P", "06:24", "08:04", "09:52H", "10:55", "12:39", "13:54HP", "14:36LP", "15:47", "17:24", "18:54", "19:37", "20:26HP", "21:37"],
+      "saturday": ["05:07", "05:34LP", "07:22H", "08:55H", "09:52P", "14:04H", "18:05B", "19:59H", "21:22H"],
+      "sunday": ["05:27", "09:21H", "11:10H", "14:03P", "16:52", "19:40", "20:22"],
+      "holiday": ["09:52P", "14:04H"]
+  }
+ },
+    {
+    "stop_id": "0176",
+    "stop_name": "Olkusz Mickiewicza",
+    "platform": "1",
+    "file": "0176-laski.html",
+    "departures": {
+      "workday": ["04:53H", "05:56P", "06:25", "08:05", "09:53H", "10:56", "12:40", "13:55HP", "14:37LP", "15:48", "17:25", "18:55", "19:38", "20:27HP", "21:38"],
+      "saturday": ["05:08", "05:35LP", "07:23H", "08:56H", "09:53P", "14:05H", "18:06B", "20:00H", "21:23H"],
+      "sunday": ["05:28", "09:22H", "11:11H", "14:04P", "16:53", "19:41", "20:23"],
+      "holiday": ["09:53P", "14:05H"]
+  }
+ },
+    {
+    "stop_id": "0177",
+    "stop_name": "Olkusz Szpitalna",
+    "platform": "2",
+    "file": "0177-laski-zurada.html",
+    "departures": {
+      "workday": ["04:54H", "05:57P", "06:26", "08:06", "09:54H", "10:57", "12:41", "13:56HP", "14:38LP", "15:49", "17:26", "18:56", "19:39", "20:28HP", "21:39"],
+      "saturday": ["05:09", "05:36LP", "07:24H", "08:57H", "09:54P", "14:06H", "18:07B", "20:01H", "21:24H"],
+      "sunday": ["05:29", "09:23H", "11:12H", "14:05P", "16:54", "19:42", "20:24"],
+      "holiday": ["09:54P", "14:06H"]
+  }
+ },
+    {
+    "stop_id": "0229",
+    "stop_name": "Olkusz Basen",
+    "platform": "2",
+    "file": "0229-laski.html",
+    "departures": {
+      "workday": ["04:56H", "05:59P", "06:28", "08:08", "09:56H", "10:59", "12:43", "13:58HP", "14:40LP", "15:51", "17:28", "18:58", "19:41", "20:30HP", "21:41"],
+      "saturday": ["05:11", "05:38LP", "07:26H", "08:59H", "09:56P", "14:08H", "18:09B", "20:03H", "21:26H"],
+      "sunday": ["05:31", "09:25H", "11:14H", "14:07P", "16:56", "19:44", "20:26"],
+      "holiday": ["09:56P", "14:08H"]
+  }
+ },
+    {
+    "stop_id": "0230",
+    "stop_name": "Olkusz Kamyk",
+    "platform": "2",
+    "file": "0230-laski.html",
+    "departures": {
+      "workday": ["04:58H", "06:01P", "06:30", "08:10", "09:58H", "11:01", "12:45", "14:00HP", "14:42LP", "15:53", "17:30", "19:00", "19:43", "20:32HP", "21:43"],
+      "saturday": ["05:13", "05:40LP", "07:28H", "09:01H", "09:58P", "14:10H", "18:11B", "20:05H", "21:28H"],
+      "sunday": ["05:33", "09:27H", "11:16H", "14:09P", "16:58", "19:46", "20:28"],
+      "holiday": ["09:58P", "14:10H"]
+  }
+ },
+    {
+    "stop_id": "0231",
+    "stop_name": "Żurada Kolonia",
+    "platform": "1",
+    "file": "0231-laski.html",
+    "departures": {
+      "workday": ["05:01H", "06:04P", "06:33", "08:13", "10:01H", "11:04", "12:48", "14:03HP", "14:45LP", "15:56", "17:33", "19:03", "19:46", "20:35HP", "21:46"],
+      "saturday": ["05:16", "05:43LP", "07:31H", "09:04H", "10:01P", "14:13H", "18:14B", "20:08H", "21:31H"],
+      "sunday": ["05:36", "09:30H", "11:19H", "14:12P", "17:01", "19:49", "20:31"],
+      "holiday": ["10:01P", "14:13H"]
+  }
+ },
+    {
+    "stop_id": "0232",
+    "stop_name": "Żurada Remiza",
+    "platform": "2",
+    "file": "0232-laski.html",
+    "departures": {
+      "workday": ["05:02H", "06:05P", "06:34", "08:14", "10:02H", "11:05", "12:49", "14:04HP", "14:46LP", "15:57", "17:34", "19:04", "19:47", "20:36HP", "21:47"],
+      "saturday": ["05:17", "05:44LP", "07:32H", "09:05H", "10:02P", "14:14H", "18:15B", "20:09H", "21:32H"],
+      "sunday": ["05:37", "09:31H", "11:20H", "14:13P", "17:02", "19:50", "20:32"],
+      "holiday": ["10:02P", "14:14H"]
+  }
+ },
+     {
+    "stop_id": "0233",
+    "stop_name": "Żurada Szkoła",
+    "platform": "1",
+    "file": "0233-laski.html",
+    "departures": {
+      "workday": ["05:03H", "06:06P", "06:35", "08:15", "10:03H", "11:06", "12:50", "14:05HP", "14:47LP", "15:58", "17:35", "19:05", "19:48", "20:37HP", "21:48"],
+      "saturday": ["05:18", "05:45LP", "07:33H", "09:06H", "10:03P", "14:15H", "18:16B", "20:10H", "21:33H"],
+      "sunday": ["05:38", "09:32H", "11:21H", "14:14P", "17:03", "19:51", "20:33"],
+      "holiday": ["10:03P", "14:15H"]
+  }
+ },
+    {
+    "stop_id": "0183",
+    "stop_name": "Żurada Starowiejska",
+    "platform": "2",
+    "file": "0183-laski.html",
+    "departures": {
+      "workday": ["05:04H", "06:07P", "06:36", "08:16", "10:04H", "11:07", "12:51", "14:06HP", "14:48LP", "15:59", "17:36", "19:06", "19:49", "20:38HP", "21:49"],
+      "saturday": ["05:19", "05:46LP", "07:34H", "09:07H", "10:04P", "14:16H", "18:17B", "20:11H", "21:34H"],
+      "sunday": ["05:39", "09:33H", "11:22H", "14:15P", "17:04", "19:52", "20:34"],
+      "holiday": ["10:04P", "14:16H"]
+  }
+ },
+    {
+    "stop_id": "0184",
+    "stop_name": "Żurada Wierzbie",
+    "platform": "2",
+    "file": "0184-laski.html",
+    "departures": {
+      "workday": ["05:05H", "06:08P", "06:37", "08:17", "10:05H", "11:08", "12:52", "14:07HP", "14:49LP", "16:00", "17:37", "19:07", "19:50", "20:39HP", "21:50"],
+      "saturday": ["05:20", "05:47LP", "07:35H", "09:08H", "10:05P", "14:17H", "18:18B", "20:12H", "21:35H"],
+      "sunday": ["05:40", "09:34H", "11:23H", "14:16P", "17:05", "19:53", "20:35"],
+      "holiday": ["10:05P", "14:17H"]
+  }
+ },
+    {
+    "stop_id": "0185",
+    "stop_name": "Żurada Wieś",
+    "platform": "2",
+    "file": "0185-laski.html",
+    "departures": {
+      "workday": ["05:06H", "06:09P", "06:38", "08:18", "10:06H", "11:09", "12:53", "14:08HP", "14:50LP", "16:01", "17:38", "19:08", "19:51", "20:40HP", "21:51"],
+      "saturday": ["05:21", "05:48LP", "07:36H", "09:09H", "10:06P", "14:18H", "18:19B", "20:13H", "21:36H"],
+      "sunday": ["05:41", "09:35H", "11:24H", "14:17P", "17:06", "19:54", "20:36"],
+      "holiday": ["10:06P", "14:18H"]
+  }
+ },
+    {
+    "stop_id": "0186",
+    "stop_name": "Żurada Trzecia Kolonia",
+    "platform": "1",
+    "file": "0186-laski.html",
+    "departures": {
+      "workday": ["05:07H", "06:10P", "06:39", "08:19", "10:07H", "11:10", "12:54", "14:09HP", "14:51LP", "16:02", "17:39", "19:09", "19:52", "20:41HP", "21:52"],
+      "saturday": ["05:22", "05:49LP", "07:37H", "09:10H", "10:07P", "14:19H", "18:20B", "20:14H", "21:37H"],
+      "sunday": ["05:42", "09:36H", "11:25H", "14:18P", "17:07", "19:55", "20:37"],
+      "holiday": ["10:07P", "14:19H"]
+  }
+ },
+    {
+    "stop_id": "0187",
+    "stop_name": "Żurada Pętla",
+    "platform": "0",
+    "file": "0187-laski.html",
+    "departures": {
+      "workday": ["05:08H", "06:11P", "06:40", "08:20", "10:08H", "11:11", "12:55", "14:10HP", "14:52LP", "16:03", "17:40", "19:10", "19:53", "20:42HP", "21:53"],
+      "saturday": ["05:23", "05:50LP", "07:38H", "09:11H", "10:08P", "14:20H", "18:21B", "20:15H", "21:38H"],
+      "sunday": ["05:43", "09:37H", "11:26H", "14:19P", "17:08", "19:56", "20:38"],
+      "holiday": ["10:08P", "14:20H"]
+  }
+ },
+    {
+    "stop_id": "0188",
+    "stop_name": "Żurada Trzecia Kolonia",
+    "platform": "2",
+    "file": "0188-laski.html",
+    "departures": {
+      "workday": ["05:09H", "06:12P", "06:41", "08:21", "10:09H", "11:12", "12:56", "14:11HP", "14:53LP", "16:04", "17:41", "19:11", "19:54", "20:43HP", "21:54"],
+      "saturday": ["05:24", "05:51LP", "07:39H", "09:12H", "10:09P", "14:21H", "18:22B", "20:16H", "21:39H"],
+      "sunday": ["05:44", "09:38H", "11:27H", "14:20P", "17:09", "19:57", "20:39"],
+      "holiday": ["10:09P", "14:21H"]
+  }
+ },
+    {
+    "stop_id": "0189",
+    "stop_name": "Żurada Wieś",
+    "platform": "1",
+    "file": "0189-laski.html",
+    "departures": {
+      "workday": ["05:10H", "06:13P", "06:42", "08:22", "10:10H", "11:13", "12:57", "14:12HP", "14:54LP", "16:05", "17:42", "19:12", "19:55", "20:44HP", "21:55"],
+      "saturday": ["05:25", "05:52LP", "07:40H", "09:13H", "10:10P", "14:22H", "18:23B", "20:17H", "21:40H"],
+      "sunday": ["05:45", "09:39H", "11:28H", "14:21P", "17:10", "19:58", "20:40"],
+      "holiday": ["10:10P", "14:22H"]
+  }
+ },
+    {
+    "stop_id": "0190",
+    "stop_name": "Żurada Wierzbie",
+    "platform": "1",
+    "file": "0190-laski.html",
+    "departures": {
+      "workday": ["05:11H", "06:14P", "06:43", "08:23", "10:11H", "11:14", "12:58", "14:13HP", "14:55LP", "16:06", "17:43", "19:13", "19:56", "20:45HP", "21:56"],
+      "saturday": ["05:26", "05:53LP", "07:41H", "09:14H", "10:11P", "14:23H", "18:24B", "20:18H", "21:41H"],
+      "sunday": ["05:46", "09:40H", "11:29H", "14:22P", "17:11", "19:59", "20:41"],
+      "holiday": ["10:11P", "14:23H"]
+  }
+ },
+    {
+    "stop_id": "0191",
+    "stop_name": "Żurada Starowiejska",
+    "platform": "1",
+    "file": "0191-laski.html",
+    "departures": {
+      "workday": ["05:12H", "06:15P", "06:44", "08:24", "10:12H", "11:15", "12:59", "14:14HP", "14:56LP", "16:07", "17:44", "19:14", "19:57", "20:46HP", "21:57"],
+      "saturday": ["05:27", "05:54LP", "07:42H", "09:15H", "10:12P", "14:24H", "18:25B", "20:19H", "21:42H"],
+      "sunday": ["05:47", "09:41H", "11:30H", "14:23P", "17:12", "20:00", "20:42"],
+      "holiday": ["10:12P", "14:24H"]
+  }
+ },
+    {
+    "stop_id": "0234",
+    "stop_name": "Żurada Druga Kolonia",
+    "platform": "2",
+    "file": "0234-laski.html",
+    "departures": {
+      "workday": ["05:13H", "06:16P", "06:45", "08:25", "10:13H", "11:16", "13:00", "14:15HP", "14:57LP", "16:08", "17:45", "19:15", "19:58", "20:47HP", "21:58"],
+      "saturday": ["05:28", "05:55LP", "07:43H", "09:16H", "10:13P", "14:25H", "18:26B", "20:20H", "21:43H"],
+      "sunday": ["05:48", "09:42H", "11:31H", "14:24P", "17:13", "20:01", "20:43"],
+      "holiday": ["10:13P", "14:25H"]
+  }
+ },
+    {
+    "stop_id": "0235",
+    "stop_name": "Olkusz Mazaniec",
+    "platform": "2",
+    "file": "0235-laski.html",
+    "departures": {
+      "workday": ["05:14H", "06:17P", "06:46", "08:26", "10:14H", "11:17", "13:01", "14:16HP", "14:58LP", "16:09", "17:46", "19:16", "19:59", "20:48HP", "21:59"],
+      "saturday": ["05:29", "05:56LP", "07:44H", "09:17H", "10:14P", "14:26H", "18:27B", "20:21H", "21:44H"],
+      "sunday": ["05:49", "09:43H", "11:32H", "14:25P", "17:14", "20:02", "20:44"],
+      "holiday": ["10:14P", "14:26H"]
+  }
+ },
+    {
+    "stop_id": "0236",
+    "stop_name": "Olkusz Mazaniec Boczna",
+    "platform": "2",
+    "file": "0236-laski.html",
+    "departures": {
+      "workday": ["05:15H", "06:18P", "06:47", "08:27", "10:15H", "11:18", "13:02", "14:17HP", "14:59LP", "16:10", "17:47", "19:17", "20:00", "20:49HP", "22:00"],
+      "saturday": ["05:30", "05:57LP", "07:45H", "09:18H", "10:15P", "14:27H", "18:28B", "20:22H", "21:45H"],
+      "sunday": ["05:50", "09:44H", "11:33H", "14:26P", "17:15", "20:03", "20:45"],
+      "holiday": ["10:15P", "14:27H"]
+  }
+ },
+    {
+    "stop_id": "0237",
+    "stop_name": "Olkusz Żuradzka",
+    "platform": "1",
+    "file": "0237-laski.html",
+    "departures": {
+      "workday": ["05:17H", "06:20P", "06:49", "08:29", "10:17H", "11:20", "13:04", "14:19HP", "15:01LP", "16:12", "17:49", "19:19", "20:02", "20:51HP", "22:02"],
+      "saturday": ["05:32", "05:59LP", "07:47H", "09:20H", "10:17P", "14:29H", "18:30B", "20:24H", "21:47H"],
+      "sunday": ["05:52", "09:46H", "11:35H", "14:28P", "17:17", "20:05", "20:47"],
+      "holiday": ["10:17P", "14:29H"]
+  }
+ },
         {
           "stop_id": "0177",
           "stop_name": "Olkusz Szpitalna",
