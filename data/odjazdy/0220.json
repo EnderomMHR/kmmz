@@ -1,0 +1,385 @@
+{
+  "stop_id": "0220",
+  "stop_name": "Kosmolów Szkoła",
+  "platform": "1",
+  "departures": [
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0220-laski.html",
+      "day_type": "holiday",
+      "time": "11:27",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0220-laski.html",
+      "day_type": "holiday",
+      "time": "13:21",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0220-laski.html",
+      "day_type": "holiday",
+      "time": "15:30",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0220-laski.html",
+      "day_type": "saturday",
+      "time": "04:52",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0220-laski.html",
+      "day_type": "saturday",
+      "time": "07:07",
+      "symbols": [
+        "H"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0220-laski.html",
+      "day_type": "saturday",
+      "time": "08:40",
+      "symbols": [
+        "H"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0220-laski.html",
+      "day_type": "saturday",
+      "time": "11:27",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0220-laski.html",
+      "day_type": "saturday",
+      "time": "13:21",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0220-laski.html",
+      "day_type": "saturday",
+      "time": "15:30",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0220-laski.html",
+      "day_type": "saturday",
+      "time": "17:27",
+      "symbols": [
+        "L",
+        "P",
+        "Z"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0220-laski.html",
+      "day_type": "saturday",
+      "time": "21:07",
+      "symbols": [
+        "H"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0220-laski.html",
+      "day_type": "sunday",
+      "time": "05:12",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0220-laski.html",
+      "day_type": "sunday",
+      "time": "05:59",
+      "symbols": [
+        "L",
+        "P",
+        "Z"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0220-laski.html",
+      "day_type": "sunday",
+      "time": "09:06",
+      "symbols": [
+        "H"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0220-laski.html",
+      "day_type": "sunday",
+      "time": "09:58",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0220-laski.html",
+      "day_type": "sunday",
+      "time": "12:16",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0220-laski.html",
+      "day_type": "sunday",
+      "time": "16:37",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0220-laski.html",
+      "day_type": "sunday",
+      "time": "20:07",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0220-laski.html",
+      "day_type": "workday",
+      "time": "04:37",
+      "symbols": [
+        "H"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0220-laski.html",
+      "day_type": "workday",
+      "time": "05:40",
+      "symbols": [
+        "P"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0220-laski.html",
+      "day_type": "workday",
+      "time": "07:12",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0220-laski.html",
+      "day_type": "workday",
+      "time": "09:37",
+      "symbols": [
+        "H"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0220-laski.html",
+      "day_type": "workday",
+      "time": "10:40",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0220-laski.html",
+      "day_type": "workday",
+      "time": "11:27",
+      "symbols": [
+        "P",
+        "Z"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0220-laski.html",
+      "day_type": "workday",
+      "time": "13:20",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0220-laski.html",
+      "day_type": "workday",
+      "time": "14:21",
+      "symbols": [
+        "L",
+        "P"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0220-laski.html",
+      "day_type": "workday",
+      "time": "15:32",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0220-laski.html",
+      "day_type": "workday",
+      "time": "17:09",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0220-laski.html",
+      "day_type": "workday",
+      "time": "18:14",
+      "symbols": [
+        "H",
+        "L",
+        "P",
+        "Z"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0220-laski.html",
+      "day_type": "workday",
+      "time": "19:22",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0220-laski.html",
+      "day_type": "workday",
+      "time": "21:22",
+      "symbols": []
+    }
+  ],
+  "served_lines": [
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "page": "rozklady/2/0220-laski.html"
+    }
+  ],
+  "legends": {
+    "2": {
+      "H": "przez: Hutki Pętla",
+      "L": "z pominięciem: Bolesław Remiza>>Laski Pętla",
+      "P": "do: Bukowno Przymiarki",
+      "Z": "z pominięciem: Olkusz Górnicza>>Żurada Pętla>>Olkusz Szpitalna"
+    }
+  }
+}

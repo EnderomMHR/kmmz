@@ -5,6 +5,18 @@
   "departures": [
     {
       "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0186-laski.html",
+      "day_type": "holiday",
+      "time": "10:07",
+      "symbols": [
+        "P"
+      ]
+    },
+    {
+      "line": "2",
       "main_direction": "Zadole Kosmolowskie Pętla",
       "display_direction": "Zadole Kosmolowskie Pętla",
       "direction_slug": "zadole",
@@ -23,6 +35,18 @@
       "time": "13:28",
       "symbols": [
         "O"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0186-laski.html",
+      "day_type": "holiday",
+      "time": "14:19",
+      "symbols": [
+        "H"
       ]
     },
     {
@@ -59,6 +83,41 @@
     },
     {
       "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0186-laski.html",
+      "day_type": "saturday",
+      "time": "05:22",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0186-laski.html",
+      "day_type": "saturday",
+      "time": "05:49",
+      "symbols": [
+        "L",
+        "P"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0186-laski.html",
+      "day_type": "saturday",
+      "time": "07:37",
+      "symbols": [
+        "H"
+      ]
+    },
+    {
+      "line": "2",
       "main_direction": "Zadole Kosmolowskie Pętla",
       "display_direction": "Zadole Kosmolowskie Pętla",
       "direction_slug": "zadole",
@@ -66,6 +125,30 @@
       "day_type": "saturday",
       "time": "07:55",
       "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0186-laski.html",
+      "day_type": "saturday",
+      "time": "09:10",
+      "symbols": [
+        "H"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0186-laski.html",
+      "day_type": "saturday",
+      "time": "10:07",
+      "symbols": [
+        "P"
+      ]
     },
     {
       "line": "2",
@@ -87,6 +170,18 @@
       "time": "13:28",
       "symbols": [
         "O"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0186-laski.html",
+      "day_type": "saturday",
+      "time": "14:19",
+      "symbols": [
+        "H"
       ]
     },
     {
@@ -123,6 +218,18 @@
     },
     {
       "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0186-laski.html",
+      "day_type": "saturday",
+      "time": "18:20",
+      "symbols": [
+        "B"
+      ]
+    },
+    {
+      "line": "2",
       "main_direction": "Zadole Kosmolowskie Pętla",
       "display_direction": "Olkusz Dworzec PKS",
       "direction_slug": "zadole",
@@ -132,6 +239,40 @@
       "symbols": [
         "O"
       ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0186-laski.html",
+      "day_type": "saturday",
+      "time": "20:14",
+      "symbols": [
+        "H"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0186-laski.html",
+      "day_type": "saturday",
+      "time": "21:37",
+      "symbols": [
+        "H"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0186-laski.html",
+      "day_type": "sunday",
+      "time": "05:42",
+      "symbols": []
     },
     {
       "line": "2",
@@ -157,6 +298,18 @@
     },
     {
       "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0186-laski.html",
+      "day_type": "sunday",
+      "time": "09:36",
+      "symbols": [
+        "H"
+      ]
+    },
+    {
+      "line": "2",
       "main_direction": "Zadole Kosmolowskie Pętla",
       "display_direction": "Olkusz Dworzec PKS",
       "direction_slug": "zadole",
@@ -165,6 +318,18 @@
       "time": "10:43",
       "symbols": [
         "O"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0186-laski.html",
+      "day_type": "sunday",
+      "time": "11:25",
+      "symbols": [
+        "H"
       ]
     },
     {
@@ -181,6 +346,28 @@
     },
     {
       "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0186-laski.html",
+      "day_type": "sunday",
+      "time": "14:18",
+      "symbols": [
+        "P"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0186-laski.html",
+      "day_type": "sunday",
+      "time": "17:07",
+      "symbols": []
+    },
+    {
+      "line": "2",
       "main_direction": "Zadole Kosmolowskie Pętla",
       "display_direction": "Olkusz Dworzec PKS",
       "direction_slug": "zadole",
@@ -190,6 +377,26 @@
       "symbols": [
         "O"
       ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0186-laski.html",
+      "day_type": "sunday",
+      "time": "19:55",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0186-laski.html",
+      "day_type": "sunday",
+      "time": "20:37",
+      "symbols": []
     },
     {
       "line": "2",
@@ -213,6 +420,18 @@
     },
     {
       "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0186-laski.html",
+      "day_type": "workday",
+      "time": "05:07",
+      "symbols": [
+        "H"
+      ]
+    },
+    {
+      "line": "2",
       "main_direction": "Zadole Kosmolowskie Pętla",
       "display_direction": "Olkusz Dworzec PKS",
       "direction_slug": "zadole",
@@ -221,6 +440,18 @@
       "time": "05:44",
       "symbols": [
         "O"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0186-laski.html",
+      "day_type": "workday",
+      "time": "06:10",
+      "symbols": [
+        "P"
       ]
     },
     {
@@ -235,6 +466,16 @@
     },
     {
       "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0186-laski.html",
+      "day_type": "workday",
+      "time": "06:39",
+      "symbols": []
+    },
+    {
+      "line": "2",
       "main_direction": "Zadole Kosmolowskie Pętla",
       "display_direction": "Olkusz Dworzec PKS",
       "direction_slug": "zadole",
@@ -244,6 +485,16 @@
       "symbols": [
         "O"
       ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0186-laski.html",
+      "day_type": "workday",
+      "time": "08:19",
+      "symbols": []
     },
     {
       "line": "2",
@@ -267,12 +518,34 @@
     },
     {
       "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0186-laski.html",
+      "day_type": "workday",
+      "time": "10:07",
+      "symbols": [
+        "H"
+      ]
+    },
+    {
+      "line": "2",
       "main_direction": "Zadole Kosmolowskie Pętla",
       "display_direction": "Zadole Kosmolowskie Pętla",
       "direction_slug": "zadole",
       "page": "rozklady/2/0186-zadole.html",
       "day_type": "workday",
       "time": "10:41",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0186-laski.html",
+      "day_type": "workday",
+      "time": "11:10",
       "symbols": []
     },
     {
@@ -287,6 +560,16 @@
     },
     {
       "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0186-laski.html",
+      "day_type": "workday",
+      "time": "12:54",
+      "symbols": []
+    },
+    {
+      "line": "2",
       "main_direction": "Zadole Kosmolowskie Pętla",
       "display_direction": "Zadole Kosmolowskie Pętla",
       "direction_slug": "zadole",
@@ -297,12 +580,48 @@
     },
     {
       "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0186-laski.html",
+      "day_type": "workday",
+      "time": "14:09",
+      "symbols": [
+        "H",
+        "P"
+      ]
+    },
+    {
+      "line": "2",
       "main_direction": "Zadole Kosmolowskie Pętla",
       "display_direction": "Zadole Kosmolowskie Pętla",
       "direction_slug": "zadole",
       "page": "rozklady/2/0186-zadole.html",
       "day_type": "workday",
       "time": "14:31",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0186-laski.html",
+      "day_type": "workday",
+      "time": "14:51",
+      "symbols": [
+        "L",
+        "P"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0186-laski.html",
+      "day_type": "workday",
+      "time": "16:02",
       "symbols": []
     },
     {
@@ -327,12 +646,65 @@
     },
     {
       "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0186-laski.html",
+      "day_type": "workday",
+      "time": "17:39",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0186-laski.html",
+      "day_type": "workday",
+      "time": "19:09",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0186-laski.html",
+      "day_type": "workday",
+      "time": "19:52",
+      "symbols": []
+    },
+    {
+      "line": "2",
       "main_direction": "Zadole Kosmolowskie Pętla",
       "display_direction": "Zadole Kosmolowskie Pętla",
       "direction_slug": "zadole",
       "page": "rozklady/2/0186-zadole.html",
       "day_type": "workday",
       "time": "20:34",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0186-laski.html",
+      "day_type": "workday",
+      "time": "20:41",
+      "symbols": [
+        "H",
+        "P"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0186-laski.html",
+      "day_type": "workday",
+      "time": "21:52",
       "symbols": []
     }
   ],
@@ -341,11 +713,19 @@
       "line": "2",
       "main_direction": "Zadole Kosmolowskie Pętla",
       "page": "rozklady/2/0186-zadole.html"
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "page": "rozklady/2/0186-laski.html"
     }
   ],
   "legends": {
     "2": {
-      "O": "do: Olkusz Dworzec PKS"
+      "B": "do: Bukowno Dworzec PKP",
+      "H": "przez: Hutki Pętla",
+      "L": "z pominięciem: Bolesław Remiza>>Laski Pętla",
+      "P": "do: Bukowno Przymiarki"
     }
   }
 }

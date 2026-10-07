@@ -4,6 +4,30 @@
   "platform": "1",
   "departures": [
     {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "holiday",
+      "time": "09:50",
+      "symbols": [
+        "P"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "holiday",
+      "time": "11:40",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "display_direction": "Wolbrom Nowa PKS",
@@ -12,6 +36,30 @@
       "day_type": "holiday",
       "time": "11:43",
       "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "holiday",
+      "time": "13:34",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "holiday",
+      "time": "14:02",
+      "symbols": [
+        "H"
+      ]
     },
     {
       "line": "3",
@@ -24,6 +72,18 @@
       "symbols": []
     },
     {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "holiday",
+      "time": "15:43",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "display_direction": "Wolbrom Nowa PKS",
@@ -32,6 +92,29 @@
       "day_type": "holiday",
       "time": "16:27",
       "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "saturday",
+      "time": "05:05",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "saturday",
+      "time": "05:32",
+      "symbols": [
+        "L",
+        "P"
+      ]
     },
     {
       "line": "3",
@@ -44,6 +127,18 @@
       "symbols": []
     },
     {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "saturday",
+      "time": "07:20",
+      "symbols": [
+        "H"
+      ]
+    },
+    {
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "display_direction": "Wolbrom Nowa PKS",
@@ -52,6 +147,42 @@
       "day_type": "saturday",
       "time": "08:44",
       "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "saturday",
+      "time": "08:53",
+      "symbols": [
+        "H"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "saturday",
+      "time": "09:50",
+      "symbols": [
+        "P"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "saturday",
+      "time": "11:40",
+      "symbols": [
+        "Z"
+      ]
     },
     {
       "line": "3",
@@ -64,6 +195,30 @@
       "symbols": []
     },
     {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "saturday",
+      "time": "13:34",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "saturday",
+      "time": "14:02",
+      "symbols": [
+        "H"
+      ]
+    },
+    {
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "display_direction": "Wolbrom Nowa PKS",
@@ -72,6 +227,18 @@
       "day_type": "saturday",
       "time": "14:08",
       "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "saturday",
+      "time": "15:43",
+      "symbols": [
+        "Z"
+      ]
     },
     {
       "line": "3",
@@ -84,6 +251,32 @@
       "symbols": []
     },
     {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "saturday",
+      "time": "17:40",
+      "symbols": [
+        "L",
+        "P",
+        "Z"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "saturday",
+      "time": "18:03",
+      "symbols": [
+        "B"
+      ]
+    },
+    {
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "display_direction": "Wolbrom Nowa PKS",
@@ -94,6 +287,30 @@
       "symbols": []
     },
     {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "saturday",
+      "time": "19:57",
+      "symbols": [
+        "H"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "saturday",
+      "time": "21:20",
+      "symbols": [
+        "H"
+      ]
+    },
+    {
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "display_direction": "Wolbrom Nowa PKS",
@@ -102,6 +319,30 @@
       "day_type": "saturday",
       "time": "21:54",
       "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "sunday",
+      "time": "05:25",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "sunday",
+      "time": "06:12",
+      "symbols": [
+        "L",
+        "P",
+        "Z"
+      ]
     },
     {
       "line": "3",
@@ -114,6 +355,18 @@
       "symbols": []
     },
     {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "sunday",
+      "time": "07:49",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "display_direction": "Wolbrom Nowa PKS",
@@ -124,6 +377,42 @@
       "symbols": []
     },
     {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "sunday",
+      "time": "09:19",
+      "symbols": [
+        "H"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "sunday",
+      "time": "10:11",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "sunday",
+      "time": "11:08",
+      "symbols": [
+        "H"
+      ]
+    },
+    {
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "display_direction": "Wolbrom Nowa PKS",
@@ -132,6 +421,30 @@
       "day_type": "sunday",
       "time": "11:43",
       "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "sunday",
+      "time": "12:29",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "sunday",
+      "time": "14:01",
+      "symbols": [
+        "P"
+      ]
     },
     {
       "line": "3",
@@ -154,6 +467,16 @@
       "symbols": []
     },
     {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "sunday",
+      "time": "16:50",
+      "symbols": []
+    },
+    {
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "display_direction": "Wolbrom Nowa PKS",
@@ -164,6 +487,26 @@
       "symbols": []
     },
     {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "sunday",
+      "time": "19:38",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "sunday",
+      "time": "20:20",
+      "symbols": []
+    },
+    {
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "display_direction": "Wolbrom Nowa PKS",
@@ -171,6 +514,40 @@
       "page": "rozklady/3/0228-wolbrom.html",
       "day_type": "sunday",
       "time": "21:54",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "workday",
+      "time": "04:50",
+      "symbols": [
+        "H"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "workday",
+      "time": "05:53",
+      "symbols": [
+        "P"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "workday",
+      "time": "06:22",
       "symbols": []
     },
     {
@@ -181,6 +558,28 @@
       "page": "rozklady/3/0228-wolbrom.html",
       "day_type": "workday",
       "time": "06:23",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "workday",
+      "time": "07:25",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "workday",
+      "time": "08:02",
       "symbols": []
     },
     {
@@ -204,6 +603,32 @@
       "symbols": []
     },
     {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "workday",
+      "time": "08:47",
+      "symbols": [
+        "L",
+        "P",
+        "Z"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "workday",
+      "time": "09:50",
+      "symbols": [
+        "H"
+      ]
+    },
+    {
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "display_direction": "Wolbrom Nowa PKS",
@@ -214,6 +639,29 @@
       "symbols": []
     },
     {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "workday",
+      "time": "10:53",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "workday",
+      "time": "11:40",
+      "symbols": [
+        "P",
+        "Z"
+      ]
+    },
+    {
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "display_direction": "Wolbrom Nowa PKS",
@@ -221,6 +669,16 @@
       "page": "rozklady/3/0228-wolbrom.html",
       "day_type": "workday",
       "time": "11:42",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "workday",
+      "time": "12:37",
       "symbols": []
     },
     {
@@ -234,6 +692,31 @@
       "symbols": []
     },
     {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "workday",
+      "time": "13:33",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "workday",
+      "time": "13:52",
+      "symbols": [
+        "H",
+        "P"
+      ]
+    },
+    {
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "display_direction": "Wolbrom Nowa PKS",
@@ -244,6 +727,19 @@
       "symbols": []
     },
     {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "workday",
+      "time": "14:34",
+      "symbols": [
+        "L",
+        "P"
+      ]
+    },
+    {
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "display_direction": "Wolbrom Nowa PKS",
@@ -251,6 +747,16 @@
       "page": "rozklady/3/0228-wolbrom.html",
       "day_type": "workday",
       "time": "15:38",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "workday",
+      "time": "15:45",
       "symbols": []
     },
     {
@@ -264,6 +770,29 @@
       "symbols": []
     },
     {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "workday",
+      "time": "17:02",
+      "symbols": [
+        "H",
+        "Z"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "workday",
+      "time": "17:22",
+      "symbols": []
+    },
+    {
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "display_direction": "Wolbrom Nowa PKS",
@@ -271,6 +800,31 @@
       "page": "rozklady/3/0228-wolbrom.html",
       "day_type": "workday",
       "time": "17:56",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "workday",
+      "time": "18:27",
+      "symbols": [
+        "H",
+        "L",
+        "P",
+        "Z"
+      ]
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "workday",
+      "time": "18:52",
       "symbols": []
     },
     {
@@ -284,6 +838,29 @@
       "symbols": []
     },
     {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "workday",
+      "time": "19:35",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "workday",
+      "time": "20:24",
+      "symbols": [
+        "H",
+        "P"
+      ]
+    },
+    {
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "display_direction": "Wolbrom Nowa PKS",
@@ -291,6 +868,16 @@
       "page": "rozklady/3/0228-wolbrom.html",
       "day_type": "workday",
       "time": "20:31",
+      "symbols": []
+    },
+    {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "display_direction": "Laski Pętla",
+      "direction_slug": "laski",
+      "page": "rozklady/2/0228-laski.html",
+      "day_type": "workday",
+      "time": "21:35",
       "symbols": []
     },
     {
@@ -306,12 +893,24 @@
   ],
   "served_lines": [
     {
+      "line": "2",
+      "main_direction": "Laski Pętla",
+      "page": "rozklady/2/0228-laski.html"
+    },
+    {
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "page": "rozklady/3/0228-wolbrom.html"
     }
   ],
   "legends": {
+    "2": {
+      "B": "do: Bukowno Dworzec PKP",
+      "H": "przez: Hutki Pętla",
+      "L": "z pominięciem: Bolesław Remiza>>Laski Pętla",
+      "P": "do: Bukowno Przymiarki",
+      "Z": "z pominięciem: Olkusz Górnicza>>Żurada Pętla>>Olkusz Szpitalna"
+    },
     "3": {}
   }
 }
