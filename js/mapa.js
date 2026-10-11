@@ -694,14 +694,17 @@ const stopsLayer = L.geoJSON(null, {
   onEachFeature: function (feature, layer) {
     const p = feature.properties;
     
-    const searchItem = {
+    const coordinates = feature.geometry.coordinates;
+    const searchLatLng = L.latLng(coordinates[1], coordinates[0]);
+
+const searchItem = {
   stop_id: String(p.stop_id),
   name: String(p.name),
   platform: String(p.platform),
   zone: String(p.zone),
   properties: p,
   layer: layer,
-  latlng: layer.getLatLng()
+  latlng: searchLatLng
 };
 
 searchItem.searchText = buildStopSearchText(searchItem);
