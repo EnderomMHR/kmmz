@@ -1,0 +1,2165 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0497",
+        "name": "Rodaki Pętla",
+        "platform": "0",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.52647,
+          50.40072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0498",
+        "name": "Rodaki Długa",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.52892,
+          50.39697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0499",
+        "name": "Rodaki OSP",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.53172,
+          50.39342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0500",
+        "name": "Rodaki Kościół",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.53862,
+          50.39368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0501",
+        "name": "Rodaki Rzeka",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.54905,
+          50.38121
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0502",
+        "name": "Ryczówek Kolonia Godawica",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.55242,
+          50.36957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0503",
+        "name": "Hucisko Pętla",
+        "platform": "0",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57975,
+          50.40631
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0504",
+        "name": "Hucisko",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.59082,
+          50.40388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0505",
+        "name": "Kwaśniów Górny Glinianki",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.59885,
+          50.39625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0506",
+        "name": "Kwaśniów Górny",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.59471,
+          50.39155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0507",
+        "name": "Kwaśniów Górny Kościół",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.58838,
+          50.3844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0508",
+        "name": "Kwaśniów Dolny OSP",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.58303,
+          50.37767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0509",
+        "name": "Chechło Malina",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.56,
+          50.3584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0510",
+        "name": "Klucze Osada",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.56242,
+          50.34951
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0511",
+        "name": "Klucze Osiedle 30-Lecia",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.56225,
+          50.34128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0512",
+        "name": "Klucze Park",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.56194,
+          50.3371
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0513",
+        "name": "Klucze Skrzyżowanie",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.56382,
+          50.33552
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0514",
+        "name": "Klucze PKS",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57762,
+          50.33642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0515",
+        "name": "Jaroszowiec Szkoła",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.59701,
+          50.33527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0516",
+        "name": "Jaroszowiec Huta Szkłomasz",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.60393,
+          50.33654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0517",
+        "name": "Jaroszowiec Dworzec PKP",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.61879,
+          50.34208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0518",
+        "name": "Jaroszowiec Szpital",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.61583,
+          50.34514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0519",
+        "name": "Zalesie Golczowskie",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.61207,
+          50.34727
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0520",
+        "name": "Golczowice Kamieniołomy",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.60612,
+          50.35221
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0521",
+        "name": "Golczowice Pętla",
+        "platform": "0",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.60265,
+          50.3612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0522",
+        "name": "Golczowice Kamieniołomy",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.60604,
+          50.35213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0523",
+        "name": "Zalesie Golczowskie",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.61195,
+          50.34723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0524",
+        "name": "Zalesie Golczowskie Górna",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.61493,
+          50.34932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0525",
+        "name": "Zalesie Golczowskie Dolna",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.61924,
+          50.35258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0526",
+        "name": "Zalesie Golczowskie Hotel",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.61888,
+          50.34968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0527",
+        "name": "Jaroszowiec Szpital",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.61574,
+          50.34507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0528",
+        "name": "Jaroszowiec Dworzec PKP",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.61864,
+          50.34197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0546",
+        "name": "Zalesie Golczowskie Hotel",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.61908,
+          50.34974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0547",
+        "name": "Zalesie Golczowskie Dolna",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.61934,
+          50.35285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0548",
+        "name": "Zalesie Golczowskie Górna",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.61486,
+          50.34941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0549",
+        "name": "Jaroszowiec Huta Szkłomasz",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.60217,
+          50.33628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0550",
+        "name": "Jaroszowiec Szkoła",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.59688,
+          50.33535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0551",
+        "name": "Klucze PKS",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57747,
+          50.33655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0552",
+        "name": "Klucze Skrzyżowanie",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.5644,
+          50.33562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0553",
+        "name": "Klucze Park",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.56218,
+          50.33663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0554",
+        "name": "Klucze Osiedle 30-lecia",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.56252,
+          50.34193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0555",
+        "name": "Klucze Osada",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.56265,
+          50.35034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0556",
+        "name": "Kwaśniów Dolny OSP",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.58324,
+          50.37772
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0557",
+        "name": "Kwaśniów Górny Kościół",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.58858,
+          50.3844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0558",
+        "name": "Kwaśniów Górny",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.59485,
+          50.39151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0559",
+        "name": "Kwaśniów Górny Glinianki",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.59903,
+          50.39622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0560",
+        "name": "Hucisko",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.59083,
+          50.40397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0561",
+        "name": "Chechło Malina",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.55949,
+          50.35964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0562",
+        "name": "Ryczówek Kolonia Godawica",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.55219,
+          50.3702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0563",
+        "name": "Rodaki Rzeka",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.54834,
+          50.38254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0564",
+        "name": "Rodaki Kościół",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.53742,
+          50.3937
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0565",
+        "name": "Rodaki OSP",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.53212,
+          50.39351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0566",
+        "name": "Rodaki Długa",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.52905,
+          50.39716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2173",
+        "name": "Klucze Bolesławska",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.555,
+          50.33155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2174",
+        "name": "Klucze Bolesławska",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.55483,
+          50.33157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2175",
+        "name": "Klucze Kościół",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.56082,
+          50.32955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2176",
+        "name": "Klucze Kościół",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.56096,
+          50.32947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2177",
+        "name": "Bogucin Duży Skrzyżowanie",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.56181,
+          50.31732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2178",
+        "name": "Bogucin Duży Skrzyżowanie",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.56191,
+          50.31769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2185",
+        "name": "Bogucin Duży",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.56663,
+          50.31872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2186",
+        "name": "Bogucin Duży",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.56678,
+          50.31864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2187",
+        "name": "Bogucin Duży Kiosk",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57425,
+          50.32043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2188",
+        "name": "Bogucin Duży Kiosk",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57387,
+          50.32047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2206",
+        "name": "Jaroszowiec Porąbka",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.62485,
+          50.34932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2207",
+        "name": "Jaroszowiec Kobylica",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.63445,
+          50.35508
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2208",
+        "name": "Kolbark",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.64079,
+          50.36636
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2209",
+        "name": "Bydlin Ośrodek Zdrowia",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.64546,
+          50.37713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2210",
+        "name": "Bydlin Cieślin",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.64536,
+          50.37798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2211",
+        "name": "Bydlin Kościół",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.64656,
+          50.38076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2212",
+        "name": "Bydlin Szkoła",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.64182,
+          50.38494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2213",
+        "name": "Bydlin Cmentarz",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.64536,
+          50.38777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2214",
+        "name": "Krzywopłoty Na Bagnie",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.63521,
+          50.38966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2215",
+        "name": "Krzywopłoty Na Bagnie",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.63503,
+          50.38976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2216",
+        "name": "Bydlin Cmentarz",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.64545,
+          50.38756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2217",
+        "name": "Bydlin Szkoła",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.64165,
+          50.38496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2218",
+        "name": "Bydlin Kościół",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.64653,
+          50.38068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2219",
+        "name": "Bydlin Cieślin",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.64538,
+          50.37806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2220",
+        "name": "Bydlin Ośrodek Zdrowia",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.64531,
+          50.37715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2221",
+        "name": "Kolbark",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.6407,
+          50.36651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2222",
+        "name": "Jaroszowiec Kobylica",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.6342,
+          50.35508
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2223",
+        "name": "Jaroszowiec Porąbka",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.62484,
+          50.34947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2224",
+        "name": "Krzywopłoty Kaplica",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.62996,
+          50.39141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2225",
+        "name": "Krzywopłoty",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.63173,
+          50.39381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2226",
+        "name": "Bydlin Zawadka",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.64052,
+          50.39344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2227",
+        "name": "Cieślin",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.63537,
+          50.37326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2228",
+        "name": "Cieślin Młyn",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.6283,
+          50.37153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2229",
+        "name": "Cieślin Dom Ludowy",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.62032,
+          50.37226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2230",
+        "name": "Cieślin Granica",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.608,
+          50.3739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2231",
+        "name": "Cieślin Granica",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.60853,
+          50.37366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2232",
+        "name": "Cieślin Dom Ludowy",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.62172,
+          50.372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2233",
+        "name": "Cieślin Młyn",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.62833,
+          50.37144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2234",
+        "name": "Cieślin",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.63528,
+          50.3733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2235",
+        "name": "Bydlin Zawadka",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.64053,
+          50.3933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2236",
+        "name": "Krzywopłoty",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.63178,
+          50.39395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2237",
+        "name": "Krzywopłoty Kaplica",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.62992,
+          50.39123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2238",
+        "name": "Kwaśniów Dolny Sklep",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.58571,
+          50.38028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2239",
+        "name": "Kwaśniów Dolny Sklep",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.5858,
+          50.38035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2240",
+        "name": "Kwaśniów Skrzyżowanie",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.58849,
+          50.38465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2241",
+        "name": "Ryczówek Skrzyżowanie",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.55107,
+          50.37886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2242",
+        "name": "Ryczówek Kluczewska",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.55707,
+          50.38109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2243",
+        "name": "Ryczówek Pętla",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.5603,
+          50.38393
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2244",
+        "name": "Ryczówek Szkoła",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.56044,
+          50.3883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2245",
+        "name": "Ryczówek OSP",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.56188,
+          50.38965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2246",
+        "name": "Ryczówek",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57038,
+          50.38804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2247",
+        "name": "Ryczówek Kąty",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.55686,
+          50.39086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2248",
+        "name": "Rodaki Laski",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.54743,
+          50.39314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2249",
+        "name": "Rodaki Laski",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.54743,
+          50.39326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2250",
+        "name": "Ryczówek Kąty",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.55661,
+          50.39086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2251",
+        "name": "Ryczówek",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.5705,
+          50.38793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2252",
+        "name": "Ryczówek OSP",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.56023,
+          50.39007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2253",
+        "name": "Ryczówek Szkoła",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.56054,
+          50.38851
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2254",
+        "name": "Ryczówek Kluczewska",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.55707,
+          50.38101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2255",
+        "name": "Ryczówek Skrzyżowanie",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.55102,
+          50.37892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2256",
+        "name": "Ryczówek Pętla",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.56018,
+          50.38391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2257",
+        "name": "Chechło Tartak",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.54584,
+          50.3647
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2258",
+        "name": "Chechło Las",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.53543,
+          50.36597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2259",
+        "name": "Chechło Kluczewska",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.52967,
+          50.36621
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2260",
+        "name": "Chechło Szkoła",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.52044,
+          50.36735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2261",
+        "name": "Chechło",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.52088,
+          50.37065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2262",
+        "name": "Chechło Kościół",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.51222,
+          50.3675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2263",
+        "name": "Chechło Plac Zabaw",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.50597,
+          50.36662
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2264",
+        "name": "Chechło Hutnicza",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.5009,
+          50.36578
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2265",
+        "name": "Chechło Pętla",
+        "platform": "0",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.49329,
+          50.36457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2266",
+        "name": "Chechło Hutnicza",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.50106,
+          50.36592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2267",
+        "name": "Chechło Plac Zabaw",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.50627,
+          50.36656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2268",
+        "name": "Chechło Kościół",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.51218,
+          50.36738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2269",
+        "name": "Chechło",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.52095,
+          50.3706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2270",
+        "name": "Chechło Szkoła",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.52053,
+          50.36743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2271",
+        "name": "Chechło Kluczewska",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.52921,
+          50.36618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2272",
+        "name": "Chechło Las",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.53569,
+          50.3659
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2273",
+        "name": "Chechło Tartak",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.54576,
+          50.36461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2653",
+        "name": "Kwaśniów Górny Cmentarz",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.59708,
+          50.38162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2654",
+        "name": "Kwaśniów Górny Cmentarz",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.59703,
+          50.38152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2762",
+        "name": "Bogucin Duży Zakrzacze",
+        "platform": "1",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.58432,
+          50.32299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2763",
+        "name": "Bogucin Duży Zakrzacze",
+        "platform": "2",
+        "zone": "Klucze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.58438,
+          50.32283
+        ]
+      }
+    }
+  ]
+}
