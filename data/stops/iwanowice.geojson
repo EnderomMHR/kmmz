@@ -1,0 +1,10 @@
+{
+  "type":"FeatureCollection",
+  "features":[
+    {"type":"Feature","properties":{"stop_id":"0810","name":"Narama Łaziec","platform":"2","zone":"Iwanowice"},"geometry":{"type":"Point","coordinates":[19.91921,50.18779]}},
+    {"type":"Feature","properties":{"stop_id":"2914","name":"Narama Remiza","platform":"1","zone":"Iwanowice"},"geometry":{"type":"Point","coordinates":[19.93276,50.18067]}},
+    {"type":"Feature","properties":{"stop_id":"2915","name":"Narama Łaziec","platform":"1","zone":"Iwanowice"},"geometry":{"type":"Point","coordinates":[19.91911,50.18774]}},
+    {"type":"Feature","properties":{"stop_id":"2916","name":"Narama Kolonia","platform":"1","zone":"Iwanowice"},"geometry":{"type":"Point","coordinates":[19.92762,50.18404]}},
+    {"type":"Feature","properties":{"stop_id":"2917","name":"Narama Kolonia","platform":"2","zone":"Iwanowice"},"geometry":{"type":"Point","coordinates":[19.92854,50.18386]}}
+  ]
+}
