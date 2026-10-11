@@ -97,6 +97,13 @@ const panelStopId = document.getElementById("panel-stop-id");
 const panelStopName = document.getElementById("panel-stop-name");
 const panelZone = document.getElementById("panel-zone");
 const panelStopPage = document.getElementById("panel-stop-page");
+const stopSearch = document.getElementById("stop-search");
+const stopSearchInput = document.getElementById("stop-search-input");
+const stopSearchClear = document.getElementById("stop-search-clear");
+const stopSearchResults = document.getElementById("stop-search-results");
+
+const allStops = [];
+let currentSearchResults = [];
 
 const tabNearest = document.getElementById("tab-nearest");
 const tabLines = document.getElementById("tab-lines");
