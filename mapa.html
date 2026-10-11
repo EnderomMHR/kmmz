@@ -369,6 +369,115 @@
       background: var(--zone-dark, #003f7d);
     }
 
+    .stop-search {
+  position: absolute;
+  top: 75px;
+  left: 60px;
+  width: 380px;
+  max-width: calc(100vw - 80px);
+  z-index: 1000;
+    }
+
+    .stop-search-box {
+  display: grid;
+  grid-template-columns: 1fr 34px;
+  align-items: center;
+  background: white;
+  border-radius: 18px;
+  box-shadow: 0 12px 30px rgba(0,0,0,.28);
+  border: 2px solid rgba(245,196,0,.85);
+  overflow: hidden;
+    }
+
+#stop-search-input {
+  border: none;
+  outline: none;
+  padding: 13px 14px;
+  font-size: 14px;
+  color: #102a43;
+  font-weight: bold;
+}
+
+#stop-search-input::placeholder {
+  color: #7b8794;
+  font-weight: normal;
+}
+
+#stop-search-clear {
+  border: none;
+  background: #f5c400;
+  color: #102a43;
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+  height: 100%;
+}
+
+#stop-search-clear:hover {
+  background: #e0b300;
+}
+
+.stop-search-results {
+  display: none;
+  margin-top: 8px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0,0,0,.25);
+  overflow: hidden;
+  max-height: 360px;
+  overflow-y: auto;
+  border: 1px solid #d9e6f2;
+}
+
+.stop-search-results.open {
+  display: block;
+}
+
+.stop-search-result {
+  display: block;
+  width: 100%;
+  border: none;
+  background: white;
+  text-align: left;
+  padding: 10px 12px;
+  cursor: pointer;
+  border-bottom: 1px solid #edf2f7;
+}
+
+.stop-search-result:hover {
+  background: #fff7d1;
+}
+
+.stop-search-result-main {
+  font-weight: bold;
+  color: #102a43;
+  font-size: 14px;
+  line-height: 1.25;
+}
+
+.stop-search-result-meta {
+  margin-top: 3px;
+  color: #607080;
+  font-size: 12px;
+}
+
+.stop-search-id {
+  display: inline-block;
+  background: #f5c400;
+  color: #222;
+  border-radius: 999px;
+  padding: 2px 7px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.stop-search-empty {
+  padding: 13px;
+  color: #607080;
+  font-size: 13px;
+  font-style: italic;
+}
+
     @media (max-width: 700px) {
       .stop-panel {
         top: auto;
@@ -384,6 +493,14 @@
       .stop-panel.open {
         transform: translateY(0);
       }
+
+      .stop-search {
+        top: 65px;
+        left: 10px;
+        right: 10px;
+        width: auto;
+        max-width: none;
+      }
     }
   </style>
 </head>
@@ -392,6 +509,19 @@
   <header>Mapa KMMZ</header>
 
   <div id="map"></div>
+  <div id="stop-search" class="stop-search">
+  <div class="stop-search-box">
+    <input
+      id="stop-search-input"
+      type="text"
+      placeholder="Szukaj przystanku, ID, strefy..."
+      autocomplete="off"
+    >
+    <button id="stop-search-clear" type="button" title="Wyczyść">×</button>
+  </div>
+
+  <div id="stop-search-results" class="stop-search-results"></div>
+</div>
 
   <aside id="stop-panel" class="stop-panel" aria-live="polite">
     <div class="stop-panel-header">
