@@ -1,6 +1,12 @@
 // Startowe ustawienie mapy.
 // Celowo ustawione mniej więcej na obszar Małopolski Zachodniej.
-const map = L.map('map').setView([50.15, 19.55], 10);
+const map = L.map('map', {
+  zoomControl: false
+}).setView([50.15, 19.55], 10);
+
+L.control.zoom({
+  position: "bottomleft"
+}).addTo(map);
 
 // Podkład mapowy OpenStreetMap.
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -457,6 +463,162 @@ function openStopPanel(properties) {
     });
 }
 
+function normalizeSearchText(value) {
+  return String(value ?? "")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "");
+}
+
+function buildStopSearchText(stop) {
+  return normalizeSearchText([
+    stop.stop_id,
+    stop.name,
+    stop.platform,
+    stop.zone,
+    `${stop.name} ${stop.platform}`,
+    `${stop.name} (${stop.platform})`
+  ].join(" "));
+}
+
+function hideSearchResults() {
+  stopSearchResults.classList.remove("open");
+}
+
+function showSearchResults() {
+  stopSearchResults.classList.add("open");
+}
+
+function getSearchResults(query) {
+  const normalizedQuery = normalizeSearchText(query).trim();
+
+  if (!normalizedQuery) {
+    return [];
+  }
+
+  return allStops
+    .filter(stop => stop.searchText.includes(normalizedQuery))
+    .sort((a, b) => {
+      const aIdStarts = a.stop_id.startsWith(query);
+      const bIdStarts = b.stop_id.startsWith(query);
+
+      if (aIdStarts && !bIdStarts) return -1;
+      if (!aIdStarts && bIdStarts) return 1;
+
+      const aNameStarts = normalizeSearchText(a.name).startsWith(normalizedQuery);
+      const bNameStarts = normalizeSearchText(b.name).startsWith(normalizedQuery);
+
+      if (aNameStarts && !bNameStarts) return -1;
+      if (!aNameStarts && bNameStarts) return 1;
+
+      return a.name.localeCompare(b.name, "pl");
+    })
+    .slice(0, 15);
+}
+
+function renderSearchResults(results) {
+  currentSearchResults = results;
+
+  if (!results.length) {
+    stopSearchResults.innerHTML = `
+      <div class="stop-search-empty">Brak pasujących przystanków.</div>
+    `;
+    showSearchResults();
+    return;
+  }
+
+  stopSearchResults.innerHTML = results.map((stop, index) => `
+    <button class="stop-search-result" type="button" data-index="${index}">
+      <div class="stop-search-result-main">
+        <span class="stop-search-id">${escapeHtml(stop.stop_id)}</span>
+        ${escapeHtml(stop.name)} (${escapeHtml(stop.platform)})
+      </div>
+      <div class="stop-search-result-meta">
+        Strefa: ${escapeHtml(stop.zone)}
+      </div>
+    </button>
+  `).join("");
+
+  stopSearchResults.querySelectorAll(".stop-search-result").forEach(button => {
+    button.addEventListener("click", () => {
+      const index = Number(button.dataset.index);
+      const stop = currentSearchResults[index];
+
+      if (stop) {
+        focusStopFromSearch(stop);
+      }
+    });
+  });
+
+  showSearchResults();
+}
+
+function handleStopSearch() {
+  const query = stopSearchInput.value.trim();
+
+  if (!query) {
+    hideSearchResults();
+    currentSearchResults = [];
+    return;
+  }
+
+  const results = getSearchResults(query);
+  renderSearchResults(results);
+}
+
+function focusStopFromSearch(stop) {
+  hideSearchResults();
+
+  stopSearchInput.value = `${stop.name} (${stop.platform})`;
+
+  const targetZoom = Math.max(map.getZoom(), 16);
+
+  map.setView(stop.latlng, targetZoom, {
+    animate: true
+  });
+
+  stop.layer.openPopup();
+  openStopPanel(stop.properties);
+
+  setTimeout(() => {
+    if (typeof renderPopupLines === "function") {
+      renderPopupLines(stop.stop_id);
+    }
+  }, 80);
+}
+
+stopSearchInput.addEventListener("input", handleStopSearch);
+
+stopSearchInput.addEventListener("focus", () => {
+  if (stopSearchInput.value.trim()) {
+    handleStopSearch();
+  }
+});
+
+stopSearchInput.addEventListener("keydown", event => {
+  if (event.key === "Enter" && currentSearchResults.length) {
+    event.preventDefault();
+    focusStopFromSearch(currentSearchResults[0]);
+  }
+
+  if (event.key === "Escape") {
+    hideSearchResults();
+  }
+});
+
+stopSearchClear.addEventListener("click", () => {
+  stopSearchInput.value = "";
+  currentSearchResults = [];
+  hideSearchResults();
+  stopSearchInput.focus();
+});
+
+document.addEventListener("click", event => {
+  if (!stopSearch.contains(event.target)) {
+    hideSearchResults();
+  }
+});
+
 // Warstwa punktów.
 function renderPopupLines(stopId) {
   const target = document.getElementById(`popup-lines-${stopId}`);
@@ -531,6 +693,19 @@ const stopsLayer = L.geoJSON(null, {
 
   onEachFeature: function (feature, layer) {
     const p = feature.properties;
+    
+    const searchItem = {
+  stop_id: String(p.stop_id),
+  name: String(p.name),
+  platform: String(p.platform),
+  zone: String(p.zone),
+  properties: p,
+  layer: layer,
+  latlng: layer.getLatLng()
+};
+
+searchItem.searchText = buildStopSearchText(searchItem);
+allStops.push(searchItem);
 
     const popupContent = `
   <div style="font-weight:bold;font-size:15px;margin-bottom:4px;">
