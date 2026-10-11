@@ -1,0 +1,5061 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0172",
+        "name": "Olkusz Stary",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.53862,
+          50.28756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0173",
+        "name": "Olkusz Stacja Paliw",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.55139,
+          50.2836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0174",
+        "name": "Olkusz Supersam",
+        "platform": "0",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.56412,
+          50.28043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0175",
+        "name": "Olkusz Górnicza",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.56159,
+          50.28005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0176",
+        "name": "Olkusz Mickiewicza",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.5575,
+          50.27958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0177",
+        "name": "Olkusz Szpitalna",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.56028,
+          50.27777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0178",
+        "name": "Olkusz Szpitalna",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.55945,
+          50.27771
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0179",
+        "name": "Olkusz Żuradzka",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.5565,
+          50.27373
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0180",
+        "name": "Olkusz Mazaniec Boczna",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.54856,
+          50.26805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0181",
+        "name": "Olkusz Mazaniec",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.5435,
+          50.2648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0182",
+        "name": "Żurada Druga Kolonia",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.54164,
+          50.25732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0183",
+        "name": "Żurada Starowiejska",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.54119,
+          50.25324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0184",
+        "name": "Żurada Wierzbie",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.54096,
+          50.25122
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0185",
+        "name": "Żurada Wieś",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.54052,
+          50.24757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0186",
+        "name": "Żurada Trzecia Kolonia",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.54008,
+          50.2441
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0187",
+        "name": "Żurada Pętla",
+        "platform": "0",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.5399,
+          50.24095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0188",
+        "name": "Żurada Trzecia Kolonia",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.54019,
+          50.24396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0189",
+        "name": "Żurada Wieś",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.54063,
+          50.24753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0190",
+        "name": "Żurada Wierzbie",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.54105,
+          50.25122
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0191",
+        "name": "Żurada Starowiejska",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.54132,
+          50.25324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0192",
+        "name": "Żurada Szkoła",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.54211,
+          50.2544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0193",
+        "name": "Żurada Remiza",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.54741,
+          50.25402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0194",
+        "name": "Żurada Kolonia",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.55513,
+          50.25271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0195",
+        "name": "Żurada",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.56128,
+          50.25133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0196",
+        "name": "Olkusz Kamyk",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.56052,
+          50.26303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0197",
+        "name": "Olkusz Basen",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.56146,
+          50.27412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0198",
+        "name": "Olkusz Dworek Machnickich",
+        "platform": "0",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.5619,
+          50.27711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0199",
+        "name": "Olkusz Skarbek",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.56631,
+          50.27678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0200",
+        "name": "Olkusz Dworzec PKS",
+        "platform": "0",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57353,
+          50.2747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0201",
+        "name": "Olkusz Dworzec PKP",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57406,
+          50.27499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0202",
+        "name": "Olkusz Wiadukt",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.58217,
+          50.27408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0203",
+        "name": "Olkusz Aleja Tysiąclecia",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.58969,
+          50.27173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0204",
+        "name": "Sieniczno",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.60954,
+          50.26774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0205",
+        "name": "Sieniczno Ojcowska",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.61513,
+          50.26743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0206",
+        "name": "Wiśliczka",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.62911,
+          50.27381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0207",
+        "name": "Kosmolów Las",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.64126,
+          50.27184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0208",
+        "name": "Kosmolów Szkoła",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.6498,
+          50.27156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0209",
+        "name": "Kosmolów Sklep",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.65785,
+          50.27158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0210",
+        "name": "Kosmolów Na Górze",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.66446,
+          50.27129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0211",
+        "name": "Kosmolów Skrzyżowanie",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.66726,
+          50.27028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0212",
+        "name": "Zadole Kosmolowskie Początek",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.67139,
+          50.26001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0213",
+        "name": "Zadole Kosmolowskie",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.67549,
+          50.25926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0214",
+        "name": "Zadole Kosmolowskie Pętla",
+        "platform": "0",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.68433,
+          50.2582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0215",
+        "name": "Zadole Kosmolowskie",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.67577,
+          50.25937
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0216",
+        "name": "Zadole Kosmolowskie Początek",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.67135,
+          50.26008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0217",
+        "name": "Kosmolów Skrzyżowanie",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.66735,
+          50.27043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0218",
+        "name": "Kosmolów Na Górze",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.66345,
+          50.27153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0219",
+        "name": "Kosmolów Sklep",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.65614,
+          50.27169
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0220",
+        "name": "Kosmolów Szkoła",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.64925,
+          50.27168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0221",
+        "name": "Kosmolów Las",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.64082,
+          50.272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0222",
+        "name": "Wiśliczka",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.62912,
+          50.27389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0223",
+        "name": "Sieniczno Ojcowska",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.61423,
+          50.26745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0224",
+        "name": "Sieniczno",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.61107,
+          50.26759
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0225",
+        "name": "Olkusz Aleja Tysiąclecia",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.58883,
+          50.27216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0226",
+        "name": "Olkusz Wiadukt",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.58076,
+          50.2742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0227",
+        "name": "Olkusz Dworzec PKP",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57527,
+          50.27495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0228",
+        "name": "Olkusz Skarbek",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.56451,
+          50.27741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0229",
+        "name": "Olkusz Basen",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.56119,
+          50.27375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0230",
+        "name": "Olkusz Kamyk",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.56023,
+          50.26416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0231",
+        "name": "Żurada Kolonia",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.55518,
+          50.25281
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0232",
+        "name": "Żurada Remiza",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.54737,
+          50.25412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0233",
+        "name": "Żurada Szkoła",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.54208,
+          50.25451
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0234",
+        "name": "Żurada Druga Kolonia",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.54179,
+          50.25727
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0235",
+        "name": "Olkusz Mazaniec",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.54391,
+          50.26488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0236",
+        "name": "Olkusz Mazaniec Boczna",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.54885,
+          50.26805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0237",
+        "name": "Olkusz Żuradzka",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.55635,
+          50.27343
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0238",
+        "name": "Olkusz Supersam",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.56397,
+          50.28127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0239",
+        "name": "Olkusz Stacja Paliw",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.55188,
+          50.28377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0240",
+        "name": "Olkusz Stary",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.53475,
+          50.28764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0272",
+        "name": "Braciejówka Granica",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.67296,
+          50.30571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0273",
+        "name": "Braciejówka Szkoła",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.66862,
+          50.30673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0274",
+        "name": "Braciejówka Zalew",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.66171,
+          50.30796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0275",
+        "name": "Braciejówka Cmentarz",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.65544,
+          50.30756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0276",
+        "name": "Troks Granica",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.65094,
+          50.30559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0277",
+        "name": "Troks Szkoła",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.64553,
+          50.30284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0278",
+        "name": "Troks",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.63069,
+          50.30126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0279",
+        "name": "Troks Las",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.61094,
+          50.30478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0280",
+        "name": "Rabsztyn",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.59611,
+          50.29895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0281",
+        "name": "Rabsztyn Ogródki Działkowe",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.58825,
+          50.29709
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0282",
+        "name": "Olkusz Sikorka",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57714,
+          50.29002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0283",
+        "name": "Olkusz Rabsztyńska",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.56924,
+          50.28425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0284",
+        "name": "Olkusz Rabsztyńska Supermarket",
+        "platform": "0",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.56564,
+          50.28127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0285",
+        "name": "Olkusz Rabsztyńska",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57003,
+          50.28455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0286",
+        "name": "Olkusz Sikorka",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57793,
+          50.29043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0287",
+        "name": "Rabsztyn Ogródki Działkowe",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.58884,
+          50.29711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0288",
+        "name": "Rabsztyn",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.5971,
+          50.29941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0289",
+        "name": "Troks Las",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.61131,
+          50.3045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0290",
+        "name": "Troks",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.63122,
+          50.30123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0291",
+        "name": "Troks Szkoła",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.64511,
+          50.30273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0292",
+        "name": "Troks Granica",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.65081,
+          50.30537
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0293",
+        "name": "Braciejówka Cmentarz",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.65551,
+          50.30747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0294",
+        "name": "Braciejówka Zalew",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.66169,
+          50.30787
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0295",
+        "name": "Braciejówka Szkoła",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.66789,
+          50.30688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0296",
+        "name": "Braciejówka Granica",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.6732,
+          50.30561
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0415",
+        "name": "Olkusz Słowiki",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.5791,
+          50.27769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0433",
+        "name": "Olkusz Słowiki",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57977,
+          50.27747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0434",
+        "name": "Olkusz Kopalnia Parking",
+        "platform": "0",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.53794,
+          50.28175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0435",
+        "name": "Olkusz Supersam",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.56624,
+          50.2806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0436",
+        "name": "Olkusz Kopalnia",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.53704,
+          50.28615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0437",
+        "name": "Zimnodół Wiśliczka",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.62534,
+          50.27001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0438",
+        "name": "Zimnodół Wiśliczka",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.62627,
+          50.27016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0492",
+        "name": "Olkusz Baza PKS",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.58898,
+          50.27128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0493",
+        "name": "Olkusz Owent",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.58432,
+          50.27055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0494",
+        "name": "Olkusz ZUS",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57807,
+          50.26968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0495",
+        "name": "Olkusz Szpital",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.56947,
+          50.26981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0496",
+        "name": "Olkusz Orzeszkowej",
+        "platform": "0",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.56664,
+          50.26724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0529",
+        "name": "Pazurek Krzyż",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.64335,
+          50.33548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0530",
+        "name": "Pazurek Ziemkówka",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.64741,
+          50.33218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0531",
+        "name": "Podlesie Podgórze",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.64872,
+          50.32593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0532",
+        "name": "Podlesie Pętla",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.6446,
+          50.32308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0533",
+        "name": "Podlesie Kiosk",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.63886,
+          50.31994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0534",
+        "name": "Podlesie Łazy",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.6298,
+          50.31319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0535",
+        "name": "Podlesie",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.62456,
+          50.30866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0536",
+        "name": "Olkusz Szpital",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.56847,
+          50.26962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0537",
+        "name": "Olkusz ZUS",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57653,
+          50.26977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0538",
+        "name": "Olkusz Owent",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.58394,
+          50.27045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0539",
+        "name": "Podlesie",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.62472,
+          50.30865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0540",
+        "name": "Podlesie Łazy",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.62963,
+          50.31292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0541",
+        "name": "Podlesie Kiosk",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.63873,
+          50.31972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0542",
+        "name": "Podlesie Pętla",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.64453,
+          50.3229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0543",
+        "name": "Podlesie Podgórze",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.64891,
+          50.3259
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0544",
+        "name": "Pazurek Ziemkówka",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.64764,
+          50.33211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0545",
+        "name": "Pazurek Krzyż",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.64349,
+          50.33553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0685",
+        "name": "Olkusz Kasztanowa",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.55691,
+          50.28394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0686",
+        "name": "Olkusz Parcze",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.55899,
+          50.29157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0687",
+        "name": "Bogucin Mały",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.5635,
+          50.31138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0688",
+        "name": "Olkusz Pomorzany Las",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.55315,
+          50.31224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0689",
+        "name": "Olkusz Pomorzany Wzniesienie",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.54776,
+          50.30761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0690",
+        "name": "Olkusz Pomorzany Szkoła",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.54759,
+          50.30254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0691",
+        "name": "Olkusz Pomorzany Remiza",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.54408,
+          50.29355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0692",
+        "name": "Olkusz Pomorzany Stadion",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.54386,
+          50.28974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "0693",
+        "name": "Olkusz Skatepark",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.54629,
+          50.28706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "1514",
+        "name": "Niesułowice Centrum",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.55808,
+          50.21361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "1515",
+        "name": "Niesułowice Galicyjska",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.55704,
+          50.22095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "1516",
+        "name": "Żurada",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.56112,
+          50.25059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "1517",
+        "name": "Niesułowice Galicyjska",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.55667,
+          50.22
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "1518",
+        "name": "Niesułowice Centrum",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.5574,
+          50.21305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "1560",
+        "name": "Gorenice Pętla",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.6361,
+          50.20574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "1561",
+        "name": "Gorenice",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.6342,
+          50.20591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "1562",
+        "name": "Gorenice Wzniesienie",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.62512,
+          50.20661
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "1563",
+        "name": "Gorenice Wzniesienie",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.62426,
+          50.20685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "1564",
+        "name": "Gorenice Dołek",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.61953,
+          50.20735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "1565",
+        "name": "Gorenice Dołek",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.61947,
+          50.20748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "1566",
+        "name": "Gorenice Szkoła",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.61218,
+          50.20847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "1567",
+        "name": "Gorenice Remiza",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.60756,
+          50.20817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "1568",
+        "name": "Gorenice Kościół",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.60274,
+          50.20674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "1569",
+        "name": "Gorenice Wilcze Doły",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.58712,
+          50.22421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "1570",
+        "name": "Witeradów Pod Kądzielnią",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.58006,
+          50.2423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "1571",
+        "name": "Witeradów",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.579,
+          50.24638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "1572",
+        "name": "Witeradów Wieś",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57816,
+          50.2479
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "1573",
+        "name": "Witeradów Tartak",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57673,
+          50.25339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "1574",
+        "name": "Witeradów Zacisze",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57685,
+          50.25891
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "1575",
+        "name": "Olkusz Księdza Gajewskiego",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.5757,
+          50.26193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "1576",
+        "name": "Olkusz Księdza Gajewskiego",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57571,
+          50.26267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "1577",
+        "name": "Witeradów Zacisze",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57669,
+          50.25817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "1578",
+        "name": "Witeradów Tartak",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57658,
+          50.25328
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "1579",
+        "name": "Witeradów Wieś",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57794,
+          50.2479
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "1580",
+        "name": "Witeradów",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57893,
+          50.24557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "1581",
+        "name": "Witeradów Pod Kądzielnią",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.58009,
+          50.24199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "1582",
+        "name": "Gorenice Wilcze Doły",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.58686,
+          50.2239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "1583",
+        "name": "Gorenice Kościół",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.60274,
+          50.20674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "1584",
+        "name": "Gorenice Remiza",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.60849,
+          50.20814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "1585",
+        "name": "Gorenice Szkoła",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.61224,
+          50.20857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "1586",
+        "name": "Olkusz Kościół",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57416,
+          50.26642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "1587",
+        "name": "Olkusz Kościół",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.5743,
+          50.26539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "1588",
+        "name": "Olkusz Biema",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.5735,
+          50.26946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "1589",
+        "name": "Olkusz Biema",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.573,
+          50.26987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "1590",
+        "name": "Kogutek",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.64417,
+          50.25485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "1591",
+        "name": "Kogutek",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.64321,
+          50.25536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "1592",
+        "name": "Zederman Pasieka",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.65868,
+          50.25099
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "1593",
+        "name": "Zederman Pasieka",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.65785,
+          50.25135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "1594",
+        "name": "Zederman Kiosk",
+        "platform": "3",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.66874,
+          50.24706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "1595",
+        "name": "Zederman Kiosk",
+        "platform": "4",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.66974,
+          50.24644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "1596",
+        "name": "Zederman Kiosk",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.66832,
+          50.24662
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "1597",
+        "name": "Zederman Kiosk",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.66827,
+          50.24652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "1598",
+        "name": "Zederman",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.6749,
+          50.24383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "1599",
+        "name": "Zederman",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.67539,
+          50.24326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "1707",
+        "name": "Braciejówka Pętla",
+        "platform": "0",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.66864,
+          50.30646
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2025",
+        "name": "Olkusz Osiedle Młodych Pętla",
+        "platform": "0",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.56288,
+          50.26078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2026",
+        "name": "Olkusz Kochanowskiego",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.56778,
+          50.26051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2027",
+        "name": "Olkusz Kochanowskiego",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.56955,
+          50.26041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2028",
+        "name": "Olkusz Osiecka",
+        "platform": "0",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57987,
+          50.26905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2029",
+        "name": "Olkusz Zagaje",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.59747,
+          50.27501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2030",
+        "name": "Olkusz Zagaje II",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.60138,
+          50.27962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2031",
+        "name": "Olewin Fabryka Domów",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.60641,
+          50.28062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2032",
+        "name": "Olewin",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.60557,
+          50.2777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2033",
+        "name": "Sieniczno Krzyżówka",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.60585,
+          50.27438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2034",
+        "name": "Sieniczno Orzechówka",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.607,
+          50.27188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2035",
+        "name": "Sieniczno Granica",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.60681,
+          50.26873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2036",
+        "name": "Sieniczno Granica",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.60693,
+          50.2687
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2037",
+        "name": "Sieniczno Orzechówka",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.60687,
+          50.27185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2038",
+        "name": "Sieniczno Krzyżówka",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.60574,
+          50.27433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2039",
+        "name": "Olewin",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.60542,
+          50.27758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2040",
+        "name": "Olewin Fabryka Domów",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.60629,
+          50.28058
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2041",
+        "name": "Olkusz Zagaje II",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.60052,
+          50.2789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2042",
+        "name": "Olkusz Zagaje",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.59659,
+          50.27442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2043",
+        "name": "Osiek Las",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.59407,
+          50.25988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2044",
+        "name": "Osiek Skrzyżowanie",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.59743,
+          50.25787
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2045",
+        "name": "Osiek",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.59866,
+          50.25285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2046",
+        "name": "Osiek Działy",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.59916,
+          50.25007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2047",
+        "name": "Osiek Kościół",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.59976,
+          50.24521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2048",
+        "name": "Osiek Szkoła",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.60004,
+          50.24326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2049",
+        "name": "Osiek Sklep",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.6003,
+          50.23992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2050",
+        "name": "Osiek Wieś",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.60094,
+          50.23618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2051",
+        "name": "Osiek Zabudowanie",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.60133,
+          50.23243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2052",
+        "name": "Osiek Stara Pętla",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.60184,
+          50.22927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2053",
+        "name": "Osiek Leśna",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.60237,
+          50.22527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2054",
+        "name": "Osiek Pętla",
+        "platform": "0",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.60291,
+          50.2199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2055",
+        "name": "Osiek Leśna",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.60213,
+          50.22583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2056",
+        "name": "Osiek Stara Pętla",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.60164,
+          50.22888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2057",
+        "name": "Osiek Zabudowanie",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.60145,
+          50.23273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2058",
+        "name": "Osiek Wieś",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.60079,
+          50.23619
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2059",
+        "name": "Osiek Sklep",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.60044,
+          50.24012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2060",
+        "name": "Osiek Szkoła",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.59975,
+          50.24397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2061",
+        "name": "Osiek Działy",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.59898,
+          50.25003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2062",
+        "name": "Osiek",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.59879,
+          50.25308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2063",
+        "name": "Osiek Skrzyżowanie",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.59713,
+          50.25788
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2064",
+        "name": "Osiek Las",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.59401,
+          50.26006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2065",
+        "name": "Osiek Zimnodół",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.60693,
+          50.24396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2066",
+        "name": "Osiek Zimnodół",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.60723,
+          50.24385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2067",
+        "name": "Zimnodół Do Baraków",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.61208,
+          50.24514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2068",
+        "name": "Zimnodół OSP",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.61995,
+          50.24775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2069",
+        "name": "Zimnodół Na Pastwie",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.62354,
+          50.2489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2070",
+        "name": "Zimnodół Skrzyżowanie",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.62779,
+          50.24729
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2071",
+        "name": "Zimnodół Las",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.63606,
+          50.2352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2072",
+        "name": "Zawada Szkoła",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.63894,
+          50.22871
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2073",
+        "name": "Zawada OSP",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.6399,
+          50.22537
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2074",
+        "name": "Zawada Sklep",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.64062,
+          50.22273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2075",
+        "name": "Zawada Pętla",
+        "platform": "0",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.63714,
+          50.21781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2076",
+        "name": "Zawada Sklep",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.64078,
+          50.22269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2077",
+        "name": "Zawada OSP",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.64002,
+          50.22529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2078",
+        "name": "Zawada Szkoła",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.6391,
+          50.22875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2079",
+        "name": "Zimnodół Las",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.63595,
+          50.23503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2080",
+        "name": "Zimnodół Skrzyżowanie",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.62801,
+          50.24723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2081",
+        "name": "Zimnodół Na Pastwie",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.6236,
+          50.24877
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2082",
+        "name": "Zimnodół OSP",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.62017,
+          50.2477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2083",
+        "name": "Zimnodół Do Baraków",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.61216,
+          50.24528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2084",
+        "name": "Zederman Podgaj",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.65007,
+          50.24773
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2085",
+        "name": "Zederman Remiza",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.65744,
+          50.24724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2086",
+        "name": "Zederman Szkoła",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.66432,
+          50.2468
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2087",
+        "name": "Zederman Szkoła",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.66434,
+          50.24688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2088",
+        "name": "Zederman Remiza",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.65749,
+          50.24734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2089",
+        "name": "Zederman Podgaj",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.64996,
+          50.24762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2094",
+        "name": "Gorenice Kąty Cmentarz",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.59844,
+          50.20639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2095",
+        "name": "Gorenice Kąty Cmentarz",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.59745,
+          50.20631
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2096",
+        "name": "Gorenice Kąty Skrzyżowanie",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.59302,
+          50.20493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2097",
+        "name": "Gorenice Kąty Skrzyżowanie",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.59289,
+          50.20475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2098",
+        "name": "Gorenice Leśna",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.59377,
+          50.20775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2099",
+        "name": "Gorenice Leśna",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.59334,
+          50.20768
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2100",
+        "name": "Gorenice Leśna Skrzyżowanie",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.59788,
+          50.20759
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2101",
+        "name": "Gorenice Leśna Skrzyżowanie",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.59763,
+          50.2076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2117",
+        "name": "Olkusz Nałkowskiej",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.56969,
+          50.26583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2118",
+        "name": "Olkusz Nałkowskiej",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57027,
+          50.26587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2119",
+        "name": "Olkusz Jana Pawła II",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57373,
+          50.26592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2120",
+        "name": "Olkusz Jana Pawła II",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57379,
+          50.26579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2171",
+        "name": "Olkusz Cmentarz",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.54698,
+          50.28368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2172",
+        "name": "Olkusz Cmentarz",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.54644,
+          50.28338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2179",
+        "name": "Olkusz Skatepark",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.54646,
+          50.28717
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2180",
+        "name": "Olkusz Pomorzany Stadion",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.54401,
+          50.28983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2181",
+        "name": "Olkusz Pomorzany Remiza",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.54443,
+          50.29371
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2182",
+        "name": "Olkusz Pomorzany Szkoła",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.54775,
+          50.30261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2183",
+        "name": "Olkusz Pomorzany Wzniesienie",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.54826,
+          50.30785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2184",
+        "name": "Olkusz Pomorzany Las",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.55327,
+          50.31218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2189",
+        "name": "Bogucin Mały Granica",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57633,
+          50.31477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2190",
+        "name": "Bogucin Mały Granica",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57646,
+          50.3146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2191",
+        "name": "Bogucin Mały Sklep",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57681,
+          50.30957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2192",
+        "name": "Bogucin Mały Sklep",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57692,
+          50.30973
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2193",
+        "name": "Bogucin Mały Podgrabie",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57737,
+          50.30502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2194",
+        "name": "Bogucin Mały Podgrabie",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57725,
+          50.30479
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2195",
+        "name": "Olkusz Podgrabie Przedszkole",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57474,
+          50.30058
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2196",
+        "name": "Olkusz Podgrabie Przedszkole",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57456,
+          50.30025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2197",
+        "name": "Olkusz Podgrabie Jurajska",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.5741,
+          50.29582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2198",
+        "name": "Olkusz Podgrabie Jurajska",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57392,
+          50.29569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2199",
+        "name": "Olkusz Podgrabie",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57253,
+          50.29104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2200",
+        "name": "Olkusz Podgrabie",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57223,
+          50.29089
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2201",
+        "name": "Olkusz Jasna",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57183,
+          50.28735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2202",
+        "name": "Olkusz Jasna",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57192,
+          50.28741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2203",
+        "name": "Bogucin Mały",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.56327,
+          50.31101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2204",
+        "name": "Olkusz Parcze",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.55883,
+          50.29154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2205",
+        "name": "Olkusz Kasztanowa",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.55657,
+          50.28466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2451",
+        "name": "Olkusz Pakuska",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.58545,
+          50.27449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2452",
+        "name": "Olkusz Pakuska Skrzyżowanie",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.59012,
+          50.27592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2453",
+        "name": "Olkusz Witosa",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.5881,
+          50.27856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2454",
+        "name": "Olkusz Rataja Szkoła",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.58465,
+          50.2787
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2455",
+        "name": "Olkusz Rataja",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.58187,
+          50.27638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2456",
+        "name": "Olkusz Kolberga",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.58097,
+          50.27859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2457",
+        "name": "Olkusz Wyszyńskiego",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57934,
+          50.28053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2458",
+        "name": "Olkusz Wyszyńskiego",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57922,
+          50.28054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2459",
+        "name": "Olkusz Kolberga",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.58112,
+          50.27868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2460",
+        "name": "Olkusz Rataja",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.58207,
+          50.27609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2461",
+        "name": "Olkusz Rataja Szkoła",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.58453,
+          50.27872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2462",
+        "name": "Olkusz Witosa",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.58801,
+          50.27853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2463",
+        "name": "Olkusz Pakuska Skrzyżowanie",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.59072,
+          50.27604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2464",
+        "name": "Olkusz Pakuska",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.58571,
+          50.27463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2465",
+        "name": "Olkusz Jasna Skrzyżowanie",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.58796,
+          50.28398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2466",
+        "name": "Olkusz Jasna Górka",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.58345,
+          50.28429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2467",
+        "name": "Olkusz Jana Kantego",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.55469,
+          50.27848
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2468",
+        "name": "Olkusz Urząd Skarbowy",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.55279,
+          50.28034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2469",
+        "name": "Olkusz Powstańców Śląskich",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.54979,
+          50.28133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2509",
+        "name": "Olkusz Miła",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57979,
+          50.28231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2650",
+        "name": "Olkusz Kopalnia Parking",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.53788,
+          50.28169
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2764",
+        "name": "Olkusz Klub \"Przyjaźń\"",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57842,
+          50.2669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2765",
+        "name": "Olkusz Klub \"Przyjaźń\"",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57947,
+          50.2673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2886",
+        "name": "Osiek Leśniczówka",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.60264,
+          50.22188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2889",
+        "name": "Osiek Leśniczówka",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.60275,
+          50.2219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "2922",
+        "name": "Olkusz Osiecka Plac Zabaw",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.58076,
+          50.26776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "3259",
+        "name": "Osiek Remiza",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.60094,
+          50.24365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "3299",
+        "name": "Pazurek Kolonia",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.65421,
+          50.33608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "3300",
+        "name": "Pazurek Kolonia",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.65293,
+          50.33611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "3301",
+        "name": "Pazurek Kaplica",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.64028,
+          50.3344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "3302",
+        "name": "Pazurek Kaplica",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.6426,
+          50.33545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "3303",
+        "name": "Podlesie Las",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.61445,
+          50.31635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "3304",
+        "name": "Podlesie Las",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.61371,
+          50.31599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "3305",
+        "name": "Olkusz Sosnowa",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57355,
+          50.26237
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "3306",
+        "name": "Olkusz Sosnowa",
+        "platform": "2",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57368,
+          50.26242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "3307",
+        "name": "Olkusz Osiedle Młodych Pętla",
+        "platform": "1",
+        "zone": "Olkusz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.56321,
+          50.26057
+        ]
+      }
+    }
+  ]
+}
