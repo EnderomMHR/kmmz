@@ -263,6 +263,16 @@
           "file": "0334-okrezna.html",
           "departures": {}
         }
+      ],
+      "direction_segments": [
+        {
+          "from_stop_id": "0684",
+          "name": "Chrzanów Fablok"
+        },
+        {
+          "from_stop_id": "0682",
+          "name": "Chrzanów Dworzec Autobusowy"
+        }
       ]
     }
   ]
