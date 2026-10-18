@@ -575,6 +575,42 @@ def parse_time(value):
     return time, symbols
 
 
+def get_stop_direction_name(direction, stop_id):
+    """Nazwa kierunku informacyjnego na danym przystanku (np. w linii okrężnej).
+
+    Każdy kierunek ruchu może mieć niezależną listę segmentów, których
+    from_stop_id oznacza pierwszy przystanek z nową nazwą.
+    """
+    segments = direction.get("direction_segments", [])
+    if not segments:
+        return direction["name"]
+
+    route_ids = [stop["stop_id"] for stop in direction["route_stops"]]
+    if stop_id not in route_ids:
+        raise ValueError(f"Przystanek {stop_id} nie występuje w trasie kierunku")
+    if not isinstance(segments, list):
+        raise ValueError("direction_segments musi być listą segmentów")
+
+    starts = []
+    for item in segments:
+        if not isinstance(item, dict) or not isinstance(item.get("name"), str) or not item["name"].strip():
+            raise ValueError(f"Nieprawidłowa nazwa segmentu: {item!r}")
+        first_id = item.get("from_stop_id")
+        if first_id not in route_ids:
+            raise ValueError(f"Przystanek graniczny segmentu {first_id!r} nie występuje w trasie")
+        starts.append(route_ids.index(first_id))
+
+    if not starts or starts[0] != 0 or starts != sorted(set(starts)):
+        raise ValueError(f"Segmenty kierunków muszą zaczynać się od pierwszego przystanku i być uporządkowane: {starts}")
+
+    current_pos = route_ids.index(stop_id)
+    for item, start_pos in zip(segments, starts):
+        if current_pos < start_pos:
+            break
+        direction_name = item["name"]
+    return direction_name
+
+
 def get_display_direction(direction_name, direction, symbols):
     variant_destinations = direction.get("variant_destinations", {})
 
@@ -672,7 +708,7 @@ def render_line_timetable_html(line_data, direction, timetable):
     stop_id = timetable["stop_id"]
     stop_name = timetable["stop_name"]
     platform = timetable["platform"]
-    direction_name = direction["name"]
+    direction_name = get_stop_direction_name(direction, stop_id)
     map_url = line_data.get("map_url", "https://enderommhr.github.io/kmmz/mapa.html")
 
     route_html = render_route_stops(direction["route_stops"], current_file)
@@ -778,12 +814,12 @@ def build_departures_from_line_files(line_files):
         line = line_data["line"]
 
         for direction in line_data["directions"]:
-            direction_name = direction["name"]
             direction_slug = direction["slug"]
             legend = direction.get("legend", {})
 
             for timetable in direction["timetables"]:
                 stop_id = timetable["stop_id"]
+                direction_name = get_stop_direction_name(direction, stop_id)
 
                 if stop_id not in by_stop:
                     by_stop[stop_id] = {
