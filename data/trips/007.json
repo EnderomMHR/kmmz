@@ -1,0 +1,688 @@
+{
+  "schema_version": "kmmz-trips-v1",
+  "line": "7",
+  "services": {
+    "R": "Dni robocze",
+    "S": "Soboty"
+  },
+  "route_patterns": [
+    {
+      "route_pattern_id": "007-1-0",
+      "direction": 1,
+      "variant": "0",
+      "stop_ids": [
+        "0684",
+        "0096",
+        "0352",
+        "0332",
+        "0681",
+        "0682",
+        "0683",
+        "0333",
+        "0334"
+      ]
+    }
+  ],
+  "trips": [
+    {
+      "trip_id": "007-1-0-R-01",
+      "line": "7",
+      "direction": 1,
+      "variant": "0",
+      "service_code": "R",
+      "route_pattern_id": "007-1-0",
+      "stop_times": [
+        {
+          "stop_sequence": 1,
+          "stop_id": "0684",
+          "time": "13:28"
+        },
+        {
+          "stop_sequence": 2,
+          "stop_id": "0096",
+          "time": "13:30"
+        },
+        {
+          "stop_sequence": 3,
+          "stop_id": "0352",
+          "time": "13:32"
+        },
+        {
+          "stop_sequence": 4,
+          "stop_id": "0332",
+          "time": "13:35"
+        },
+        {
+          "stop_sequence": 5,
+          "stop_id": "0681",
+          "time": "13:37"
+        },
+        {
+          "stop_sequence": 6,
+          "stop_id": "0682",
+          "time": "13:38"
+        },
+        {
+          "stop_sequence": 7,
+          "stop_id": "0683",
+          "time": "13:39"
+        },
+        {
+          "stop_sequence": 8,
+          "stop_id": "0333",
+          "time": "13:41"
+        },
+        {
+          "stop_sequence": 9,
+          "stop_id": "0334",
+          "time": "13:43"
+        }
+      ]
+    },
+    {
+      "trip_id": "007-1-0-R-02",
+      "line": "7",
+      "direction": 1,
+      "variant": "0",
+      "service_code": "R",
+      "route_pattern_id": "007-1-0",
+      "stop_times": [
+        {
+          "stop_sequence": 1,
+          "stop_id": "0684",
+          "time": "14:24"
+        },
+        {
+          "stop_sequence": 2,
+          "stop_id": "0096",
+          "time": "14:26"
+        },
+        {
+          "stop_sequence": 3,
+          "stop_id": "0352",
+          "time": "14:28"
+        },
+        {
+          "stop_sequence": 4,
+          "stop_id": "0332",
+          "time": "14:31"
+        },
+        {
+          "stop_sequence": 5,
+          "stop_id": "0681",
+          "time": "14:33"
+        },
+        {
+          "stop_sequence": 6,
+          "stop_id": "0682",
+          "time": "14:34"
+        },
+        {
+          "stop_sequence": 7,
+          "stop_id": "0683",
+          "time": "14:35"
+        },
+        {
+          "stop_sequence": 8,
+          "stop_id": "0333",
+          "time": "14:37"
+        },
+        {
+          "stop_sequence": 9,
+          "stop_id": "0334",
+          "time": "14:39"
+        }
+      ]
+    },
+    {
+      "trip_id": "007-1-0-R-03",
+      "line": "7",
+      "direction": 1,
+      "variant": "0",
+      "service_code": "R",
+      "route_pattern_id": "007-1-0",
+      "stop_times": [
+        {
+          "stop_sequence": 1,
+          "stop_id": "0684",
+          "time": "15:09"
+        },
+        {
+          "stop_sequence": 2,
+          "stop_id": "0096",
+          "time": "15:11"
+        },
+        {
+          "stop_sequence": 3,
+          "stop_id": "0352",
+          "time": "15:13"
+        },
+        {
+          "stop_sequence": 4,
+          "stop_id": "0332",
+          "time": "15:16"
+        },
+        {
+          "stop_sequence": 5,
+          "stop_id": "0681",
+          "time": "15:18"
+        },
+        {
+          "stop_sequence": 6,
+          "stop_id": "0682",
+          "time": "15:19"
+        },
+        {
+          "stop_sequence": 7,
+          "stop_id": "0683",
+          "time": "15:20"
+        },
+        {
+          "stop_sequence": 8,
+          "stop_id": "0333",
+          "time": "15:22"
+        },
+        {
+          "stop_sequence": 9,
+          "stop_id": "0334",
+          "time": "15:24"
+        }
+      ]
+    },
+    {
+      "trip_id": "007-1-0-R-04",
+      "line": "7",
+      "direction": 1,
+      "variant": "0",
+      "service_code": "R",
+      "route_pattern_id": "007-1-0",
+      "stop_times": [
+        {
+          "stop_sequence": 1,
+          "stop_id": "0684",
+          "time": "16:04"
+        },
+        {
+          "stop_sequence": 2,
+          "stop_id": "0096",
+          "time": "16:06"
+        },
+        {
+          "stop_sequence": 3,
+          "stop_id": "0352",
+          "time": "16:08"
+        },
+        {
+          "stop_sequence": 4,
+          "stop_id": "0332",
+          "time": "16:11"
+        },
+        {
+          "stop_sequence": 5,
+          "stop_id": "0681",
+          "time": "16:13"
+        },
+        {
+          "stop_sequence": 6,
+          "stop_id": "0682",
+          "time": "16:14"
+        },
+        {
+          "stop_sequence": 7,
+          "stop_id": "0683",
+          "time": "16:15"
+        },
+        {
+          "stop_sequence": 8,
+          "stop_id": "0333",
+          "time": "16:17"
+        },
+        {
+          "stop_sequence": 9,
+          "stop_id": "0334",
+          "time": "16:19"
+        }
+      ]
+    },
+    {
+      "trip_id": "007-1-0-R-05",
+      "line": "7",
+      "direction": 1,
+      "variant": "0",
+      "service_code": "R",
+      "route_pattern_id": "007-1-0",
+      "stop_times": [
+        {
+          "stop_sequence": 1,
+          "stop_id": "0684",
+          "time": "18:38"
+        },
+        {
+          "stop_sequence": 2,
+          "stop_id": "0096",
+          "time": "18:40"
+        },
+        {
+          "stop_sequence": 3,
+          "stop_id": "0352",
+          "time": "18:42"
+        },
+        {
+          "stop_sequence": 4,
+          "stop_id": "0332",
+          "time": "18:45"
+        },
+        {
+          "stop_sequence": 5,
+          "stop_id": "0681",
+          "time": "18:47"
+        },
+        {
+          "stop_sequence": 6,
+          "stop_id": "0682",
+          "time": "18:48"
+        },
+        {
+          "stop_sequence": 7,
+          "stop_id": "0683",
+          "time": "18:49"
+        },
+        {
+          "stop_sequence": 8,
+          "stop_id": "0333",
+          "time": "18:51"
+        },
+        {
+          "stop_sequence": 9,
+          "stop_id": "0334",
+          "time": "18:53"
+        }
+      ]
+    },
+    {
+      "trip_id": "007-1-0-R-06",
+      "line": "7",
+      "direction": 1,
+      "variant": "0",
+      "service_code": "R",
+      "route_pattern_id": "007-1-0",
+      "stop_times": [
+        {
+          "stop_sequence": 1,
+          "stop_id": "0684",
+          "time": "19:26"
+        },
+        {
+          "stop_sequence": 2,
+          "stop_id": "0096",
+          "time": "19:28"
+        },
+        {
+          "stop_sequence": 3,
+          "stop_id": "0352",
+          "time": "19:30"
+        },
+        {
+          "stop_sequence": 4,
+          "stop_id": "0332",
+          "time": "19:33"
+        },
+        {
+          "stop_sequence": 5,
+          "stop_id": "0681",
+          "time": "19:35"
+        },
+        {
+          "stop_sequence": 6,
+          "stop_id": "0682",
+          "time": "19:36"
+        },
+        {
+          "stop_sequence": 7,
+          "stop_id": "0683",
+          "time": "19:37"
+        },
+        {
+          "stop_sequence": 8,
+          "stop_id": "0333",
+          "time": "19:39"
+        },
+        {
+          "stop_sequence": 9,
+          "stop_id": "0334",
+          "time": "19:41"
+        }
+      ]
+    },
+    {
+      "trip_id": "007-1-0-R-07",
+      "line": "7",
+      "direction": 1,
+      "variant": "0",
+      "service_code": "R",
+      "route_pattern_id": "007-1-0",
+      "stop_times": [
+        {
+          "stop_sequence": 1,
+          "stop_id": "0684",
+          "time": "21:46"
+        },
+        {
+          "stop_sequence": 2,
+          "stop_id": "0096",
+          "time": "21:48"
+        },
+        {
+          "stop_sequence": 3,
+          "stop_id": "0352",
+          "time": "21:50"
+        },
+        {
+          "stop_sequence": 4,
+          "stop_id": "0332",
+          "time": "21:53"
+        },
+        {
+          "stop_sequence": 5,
+          "stop_id": "0681",
+          "time": "21:55"
+        },
+        {
+          "stop_sequence": 6,
+          "stop_id": "0682",
+          "time": "21:56"
+        },
+        {
+          "stop_sequence": 7,
+          "stop_id": "0683",
+          "time": "21:57"
+        },
+        {
+          "stop_sequence": 8,
+          "stop_id": "0333",
+          "time": "21:59"
+        },
+        {
+          "stop_sequence": 9,
+          "stop_id": "0334",
+          "time": "22:01"
+        }
+      ]
+    },
+    {
+      "trip_id": "007-1-0-S-01",
+      "line": "7",
+      "direction": 1,
+      "variant": "0",
+      "service_code": "S",
+      "route_pattern_id": "007-1-0",
+      "stop_times": [
+        {
+          "stop_sequence": 1,
+          "stop_id": "0684",
+          "time": "07:48"
+        },
+        {
+          "stop_sequence": 2,
+          "stop_id": "0096",
+          "time": "07:50"
+        },
+        {
+          "stop_sequence": 3,
+          "stop_id": "0352",
+          "time": "07:52"
+        },
+        {
+          "stop_sequence": 4,
+          "stop_id": "0332",
+          "time": "07:55"
+        },
+        {
+          "stop_sequence": 5,
+          "stop_id": "0681",
+          "time": "07:57"
+        },
+        {
+          "stop_sequence": 6,
+          "stop_id": "0682",
+          "time": "07:58"
+        },
+        {
+          "stop_sequence": 7,
+          "stop_id": "0683",
+          "time": "07:59"
+        },
+        {
+          "stop_sequence": 8,
+          "stop_id": "0333",
+          "time": "08:01"
+        },
+        {
+          "stop_sequence": 9,
+          "stop_id": "0334",
+          "time": "08:03"
+        }
+      ]
+    },
+    {
+      "trip_id": "007-1-0-S-02",
+      "line": "7",
+      "direction": 1,
+      "variant": "0",
+      "service_code": "S",
+      "route_pattern_id": "007-1-0",
+      "stop_times": [
+        {
+          "stop_sequence": 1,
+          "stop_id": "0684",
+          "time": "09:22"
+        },
+        {
+          "stop_sequence": 2,
+          "stop_id": "0096",
+          "time": "09:24"
+        },
+        {
+          "stop_sequence": 3,
+          "stop_id": "0352",
+          "time": "09:26"
+        },
+        {
+          "stop_sequence": 4,
+          "stop_id": "0332",
+          "time": "09:29"
+        },
+        {
+          "stop_sequence": 5,
+          "stop_id": "0681",
+          "time": "09:31"
+        },
+        {
+          "stop_sequence": 6,
+          "stop_id": "0682",
+          "time": "09:32"
+        },
+        {
+          "stop_sequence": 7,
+          "stop_id": "0683",
+          "time": "09:33"
+        },
+        {
+          "stop_sequence": 8,
+          "stop_id": "0333",
+          "time": "09:35"
+        },
+        {
+          "stop_sequence": 9,
+          "stop_id": "0334",
+          "time": "09:37"
+        }
+      ]
+    },
+    {
+      "trip_id": "007-1-0-S-03",
+      "line": "7",
+      "direction": 1,
+      "variant": "0",
+      "service_code": "S",
+      "route_pattern_id": "007-1-0",
+      "stop_times": [
+        {
+          "stop_sequence": 1,
+          "stop_id": "0684",
+          "time": "12:30"
+        },
+        {
+          "stop_sequence": 2,
+          "stop_id": "0096",
+          "time": "12:32"
+        },
+        {
+          "stop_sequence": 3,
+          "stop_id": "0352",
+          "time": "12:34"
+        },
+        {
+          "stop_sequence": 4,
+          "stop_id": "0332",
+          "time": "12:37"
+        },
+        {
+          "stop_sequence": 5,
+          "stop_id": "0681",
+          "time": "12:39"
+        },
+        {
+          "stop_sequence": 6,
+          "stop_id": "0682",
+          "time": "12:40"
+        },
+        {
+          "stop_sequence": 7,
+          "stop_id": "0683",
+          "time": "12:41"
+        },
+        {
+          "stop_sequence": 8,
+          "stop_id": "0333",
+          "time": "12:43"
+        },
+        {
+          "stop_sequence": 9,
+          "stop_id": "0334",
+          "time": "12:45"
+        }
+      ]
+    },
+    {
+      "trip_id": "007-1-0-S-04",
+      "line": "7",
+      "direction": 1,
+      "variant": "0",
+      "service_code": "S",
+      "route_pattern_id": "007-1-0",
+      "stop_times": [
+        {
+          "stop_sequence": 1,
+          "stop_id": "0684",
+          "time": "18:08"
+        },
+        {
+          "stop_sequence": 2,
+          "stop_id": "0096",
+          "time": "18:10"
+        },
+        {
+          "stop_sequence": 3,
+          "stop_id": "0352",
+          "time": "18:12"
+        },
+        {
+          "stop_sequence": 4,
+          "stop_id": "0332",
+          "time": "18:15"
+        },
+        {
+          "stop_sequence": 5,
+          "stop_id": "0681",
+          "time": "18:17"
+        },
+        {
+          "stop_sequence": 6,
+          "stop_id": "0682",
+          "time": "18:18"
+        },
+        {
+          "stop_sequence": 7,
+          "stop_id": "0683",
+          "time": "18:19"
+        },
+        {
+          "stop_sequence": 8,
+          "stop_id": "0333",
+          "time": "18:21"
+        },
+        {
+          "stop_sequence": 9,
+          "stop_id": "0334",
+          "time": "18:23"
+        }
+      ]
+    },
+    {
+      "trip_id": "007-1-0-S-05",
+      "line": "7",
+      "direction": 1,
+      "variant": "0",
+      "service_code": "S",
+      "route_pattern_id": "007-1-0",
+      "stop_times": [
+        {
+          "stop_sequence": 1,
+          "stop_id": "0684",
+          "time": "19:26"
+        },
+        {
+          "stop_sequence": 2,
+          "stop_id": "0096",
+          "time": "19:28"
+        },
+        {
+          "stop_sequence": 3,
+          "stop_id": "0352",
+          "time": "19:30"
+        },
+        {
+          "stop_sequence": 4,
+          "stop_id": "0332",
+          "time": "19:33"
+        },
+        {
+          "stop_sequence": 5,
+          "stop_id": "0681",
+          "time": "19:35"
+        },
+        {
+          "stop_sequence": 6,
+          "stop_id": "0682",
+          "time": "19:36"
+        },
+        {
+          "stop_sequence": 7,
+          "stop_id": "0683",
+          "time": "19:37"
+        },
+        {
+          "stop_sequence": 8,
+          "stop_id": "0333",
+          "time": "19:39"
+        },
+        {
+          "stop_sequence": 9,
+          "stop_id": "0334",
+          "time": "19:41"
+        }
+      ]
+    }
+  ]
+}
