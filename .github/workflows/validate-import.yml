@@ -1,0 +1,36 @@
+name: Validate timetable import
+on:
+  pull_request:
+    paths:
+      - 'data/rozklady/linie/**'
+      - 'data/trips/**'
+      - 'data/import-config/**'
+      - 'data/stops/**'
+      - 'tools/import-excel.py'
+      - 'tools/check-line5.py'
+      - 'tools/generate-rozklady.py'
+      - '.github/workflows/validate-import.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Validate line 5 data
+        run: python tools/check-line5.py
+      - name: Verify importer syntax
+        run: python -m py_compile tools/import-excel.py
+      - name: Generate HTML and stop departures (without committing)
+        run: python tools/generate-rozklady.py > /tmp/kmmz-generated.log
+      - name: Confirm line 5 pages
+        run: |
+          test -f rozklady/5/0465-olkusz.html
+          test -f rozklady/5/0466-slawkow.html
+          test -f data/odjazdy/0465.json
+          test -f przystanki/0465.html
+          echo "Line 5 output exists"
