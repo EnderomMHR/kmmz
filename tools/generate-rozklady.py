@@ -797,11 +797,16 @@ def build_departures_from_line_files(line_files):
 
                 line_direction_key = f"{line}|{direction_name}|{timetable['file']}"
 
-                by_stop[stop_id]["served_lines"][line_direction_key] = {
-                    "line": line,
-                    "main_direction": direction_name,
-                    "page": f"rozklady/{line}/{timetable['file']}"
-                }
+                # Kierunek pojawia się jako obsługiwany tylko wtedy, gdy
+                # istnieje co najmniej jeden rzeczywisty odjazd z przystanku.
+                # Strona rozkładu końcowego nadal powstaje, ale nie reklamujemy
+                # kursu kończącego tu jazdę jako następnego odjazdu.
+                if any(timetable.get("departures", {}).values()):
+                    by_stop[stop_id]["served_lines"][line_direction_key] = {
+                        "line": line,
+                        "main_direction": direction_name,
+                        "page": f"rozklady/{line}/{timetable['file']}"
+                    }
 
                 by_stop[stop_id]["legends"][line] = legend
 
