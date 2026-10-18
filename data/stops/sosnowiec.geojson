@@ -1,0 +1,28 @@
+{
+  "type":"FeatureCollection",
+  "features":[
+    {"type":"Feature","properties":{"stop_id":"3206","name":"Sosnowiec Stare Maczki Pętla","platform":"1","zone":"Sosnowiec"},"geometry":{"type":"Point","coordinates":[19.29133,50.26095]}},
+    {"type":"Feature","properties":{"stop_id":"3207","name":"Sosnowiec Stare Maczki Cmentarz","platform":"2","zone":"Sosnowiec"},"geometry":{"type":"Point","coordinates":[19.28406,50.26076]}},
+    {"type":"Feature","properties":{"stop_id":"3208","name":"Sosnowiec Maczki Spacerowa","platform":"2","zone":"Sosnowiec"},"geometry":{"type":"Point","coordinates":[19.27242,50.26297]}},
+    {"type":"Feature","properties":{"stop_id":"3209","name":"Sosnowiec Maczki Spacerowa","platform":"1","zone":"Sosnowiec"},"geometry":{"type":"Point","coordinates":[19.27249,50.26302]}},
+    {"type":"Feature","properties":{"stop_id":"3210","name":"Sosnowiec Stare Maczki Cmentarz","platform":"1","zone":"Sosnowiec"},"geometry":{"type":"Point","coordinates":[19.28541,50.26078]}},
+    {"type":"Feature","properties":{"stop_id":"3219","name":"Sosnowiec Maczki Krakowska","platform":"1","zone":"Sosnowiec"},"geometry":{"type":"Point","coordinates":[19.26702,50.26423]}},
+    {"type":"Feature","properties":{"stop_id":"3220","name":"Sosnowiec Maczki Kościuszki","platform":"1","zone":"Sosnowiec"},"geometry":{"type":"Point","coordinates":[19.26983,50.25978]}},
+    {"type":"Feature","properties":{"stop_id":"3223","name":"Sosnowiec Ostrowy Górnicze Kolonia Leśna","platform":"1","zone":"Sosnowiec"},"geometry":{"type":"Point","coordinates":[19.26105,50.27919]}},
+    {"type":"Feature","properties":{"stop_id":"3224","name":"Sosnowiec Ostrowy Górnicze Kolonia Feliks","platform":"1","zone":"Sosnowiec"},"geometry":{"type":"Point","coordinates":[19.26219,50.28227]}},
+    {"type":"Feature","properties":{"stop_id":"3225","name":"Sosnowiec Ostrowy Górnicze Niecała","platform":"1","zone":"Sosnowiec"},"geometry":{"type":"Point","coordinates":[19.26207,50.28537]}},
+    {"type":"Feature","properties":{"stop_id":"3226","name":"Sosnowiec Ostrowy Górnicze Rondo","platform":"1","zone":"Sosnowiec"},"geometry":{"type":"Point","coordinates":[19.26007,50.28841]}},
+    {"type":"Feature","properties":{"stop_id":"3227","name":"Sosnowiec Ostrowy Górnicze Kościół","platform":"1","zone":"Sosnowiec"},"geometry":{"type":"Point","coordinates":[19.25939,50.29004]}},
+    {"type":"Feature","properties":{"stop_id":"3228","name":"Sosnowiec Kazimierz Górniczy Armii Krajowej","platform":"1","zone":"Sosnowiec"},"geometry":{"type":"Point","coordinates":[19.25326,50.29133]}},
+    {"type":"Feature","properties":{"stop_id":"3229","name":"Sosnowiec Kazimierz Górniczy Poczta","platform":"1","zone":"Sosnowiec"},"geometry":{"type":"Point","coordinates":[19.24488,50.29498]}},
+    {"type":"Feature","properties":{"stop_id":"3230","name":"Sosnowiec Grabocin Kościuszkowców","platform":"1","zone":"Sosnowiec"},"geometry":{"type":"Point","coordinates":[19.2534,50.29879]}},
+    {"type":"Feature","properties":{"stop_id":"3233","name":"Sosnowiec Grabocin Kościuszkowców","platform":"2","zone":"Sosnowiec"},"geometry":{"type":"Point","coordinates":[19.25378,50.29879]}},
+    {"type":"Feature","properties":{"stop_id":"3234","name":"Sosnowiec Kazimierz Górniczy Poczta","platform":"2","zone":"Sosnowiec"},"geometry":{"type":"Point","coordinates":[19.24499,50.29547]}},
+    {"type":"Feature","properties":{"stop_id":"3235","name":"Sosnowiec Kazimierz Górniczy Armii Krajowej","platform":"2","zone":"Sosnowiec"},"geometry":{"type":"Point","coordinates":[19.25215,50.29171]}},
+    {"type":"Feature","properties":{"stop_id":"3236","name":"Sosnowiec Ostrowy Górnicze Niecała","platform":"2","zone":"Sosnowiec"},"geometry":{"type":"Point","coordinates":[19.26231,50.28605]}},
+    {"type":"Feature","properties":{"stop_id":"3237","name":"Sosnowiec Ostrowy Górnicze Kolonia Feliks","platform":"2","zone":"Sosnowiec"},"geometry":{"type":"Point","coordinates":[19.26243,50.28271]}},
+    {"type":"Feature","properties":{"stop_id":"3238","name":"Sosnowiec Ostrowy Górnicze Kolonia Leśna","platform":"2","zone":"Sosnowiec"},"geometry":{"type":"Point","coordinates":[19.26077,50.27908]}},
+    {"type":"Feature","properties":{"stop_id":"3241","name":"Sosnowiec Maczki Kościuszki","platform":"2","zone":"Sosnowiec"},"geometry":{"type":"Point","coordinates":[19.27008,50.25967]}},
+    {"type":"Feature","properties":{"stop_id":"3242","name":"Sosnowiec Maczki Krakowska","platform":"2","zone":"Sosnowiec"},"geometry":{"type":"Point","coordinates":[19.26746,50.26384]}}
+  ]
+}
