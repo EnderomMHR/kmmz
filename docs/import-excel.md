@@ -25,6 +25,33 @@ Import opiera się na ID kursów, a nie stałej kolumnie. Minuty pomocnicze poza
 
 `SW` wymaga dalszego ustalenia zasad kalendarzowych na stronie. Importer przenosi oznaczenia dni, lecz sam nie rozstrzyga, które daty podlegają poszczególnym regułom.
 
+## Kierunki informacyjne linii okrężnych
+
+Faktyczny kierunek jazdy (kolumna w Excelu, `direction` w `trips`) pozostaje bez zmian.
+Jednak na każdym przystanku można wyświetlać **inny kierunek dla pasażera**:
+w pliku `data/import-config/<numer>.json`, osobno dla każdego fizycznego kierunku
+jazdy, dodaj opcjonalne `direction_segments`.
+
+Przykład linii 7 (faktycznie **jeden** kierunek jazdy):
+
+```json
+"direction_segments": [
+  {"from_stop_id": "0684", "name": "Chrzanów Fablok"},
+  {"from_stop_id": "0682", "name": "Chrzanów Dworzec Autobusowy"}
+]
+```
+
+- `from_stop_id` to **pierwszy przystanek**, na którym obowiązuje nowy kierunek informacyjny.
+- Pierwszy segment musi zaczynać się na pierwszym przystanku trasy.
+- Granice wyznacza się indywidualnie dla każdej linii, np. na trzecim, piątym
+  lub dziesiątym przystanku — **nie ma stałej pozycji zmiany kierunku**.
+- Linie okrężne dwukierunkowe mogą mieć osobną listę segmentów w każdej
+  z dwóch konfiguracji kierunków.
+- Kierunki są używane w HTML rozkładu, na stronach przystanków i w panelu mapy.
+- Kurs kończący jazdę na danym przystanku nadal nie jest odjazdem.
+- Jeśli pole `direction_segments` pominięto, obowiązuje dotychczasowe `name`
+  i dotychczasowe zachowanie pozostałych linii nie ulega zmianie.
+
 ## Ograniczenia pierwszej wersji
 - Importer wymaga uprzednio nadanych ID kursów i ID przystanków oraz konfiguracji każdego nowego numeru linii.
 - Kursy przechodzące przez północ lub powtarzające ten sam ID przystanku w jednym kierunku wymagają osobnej obsługi.
