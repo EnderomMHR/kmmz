@@ -1,0 +1,269 @@
+{
+  "line": "7",
+  "map_url": "https://enderommhr.github.io/kmmz/mapa.html",
+  "directions": [
+    {
+      "slug": "okrezna",
+      "name": "Chrzanów Dworzec Autobusowy",
+      "variant_destinations": {},
+      "legend": {},
+      "route_stops": [
+        {
+          "stop_id": "0684",
+          "stop_name": "Chrzanów Dworzec Autobusowy",
+          "platform": "2",
+          "file": "0684-okrezna.html"
+        },
+        {
+          "stop_id": "0096",
+          "stop_name": "Chrzanów Plac Tysiąclecia",
+          "platform": "3",
+          "file": "0096-okrezna.html"
+        },
+        {
+          "stop_id": "0352",
+          "stop_name": "Chrzanów ZUS",
+          "platform": "1",
+          "file": "0352-okrezna.html"
+        },
+        {
+          "stop_id": "0332",
+          "stop_name": "Chrzanów Sienna",
+          "platform": "1",
+          "file": "0332-okrezna.html"
+        },
+        {
+          "stop_id": "0681",
+          "stop_name": "Chrzanów Dworzec PKP",
+          "platform": "2",
+          "file": "0681-okrezna.html"
+        },
+        {
+          "stop_id": "0682",
+          "stop_name": "Chrzanów Fablok",
+          "platform": "0",
+          "file": "0682-okrezna.html"
+        },
+        {
+          "stop_id": "0683",
+          "stop_name": "Chrzanów Dworzec PKP",
+          "platform": "1",
+          "file": "0683-okrezna.html"
+        },
+        {
+          "stop_id": "0333",
+          "stop_name": "Chrzanów Podwale",
+          "platform": "1",
+          "file": "0333-okrezna.html"
+        },
+        {
+          "stop_id": "0334",
+          "stop_name": "Chrzanów Dworzec Autobusowy",
+          "platform": "4",
+          "file": "0334-okrezna.html"
+        }
+      ],
+      "timetables": [
+        {
+          "stop_id": "0684",
+          "stop_name": "Chrzanów Dworzec Autobusowy",
+          "platform": "2",
+          "file": "0684-okrezna.html",
+          "departures": {
+            "workday": [
+              "13:28",
+              "14:24",
+              "15:09",
+              "16:04",
+              "18:38",
+              "19:26",
+              "21:46"
+            ],
+            "saturday": [
+              "07:48",
+              "09:22",
+              "12:30",
+              "18:08",
+              "19:26"
+            ]
+          }
+        },
+        {
+          "stop_id": "0096",
+          "stop_name": "Chrzanów Plac Tysiąclecia",
+          "platform": "3",
+          "file": "0096-okrezna.html",
+          "departures": {
+            "workday": [
+              "13:30",
+              "14:26",
+              "15:11",
+              "16:06",
+              "18:40",
+              "19:28",
+              "21:48"
+            ],
+            "saturday": [
+              "07:50",
+              "09:24",
+              "12:32",
+              "18:10",
+              "19:28"
+            ]
+          }
+        },
+        {
+          "stop_id": "0352",
+          "stop_name": "Chrzanów ZUS",
+          "platform": "1",
+          "file": "0352-okrezna.html",
+          "departures": {
+            "workday": [
+              "13:32",
+              "14:28",
+              "15:13",
+              "16:08",
+              "18:42",
+              "19:30",
+              "21:50"
+            ],
+            "saturday": [
+              "07:52",
+              "09:26",
+              "12:34",
+              "18:12",
+              "19:30"
+            ]
+          }
+        },
+        {
+          "stop_id": "0332",
+          "stop_name": "Chrzanów Sienna",
+          "platform": "1",
+          "file": "0332-okrezna.html",
+          "departures": {
+            "workday": [
+              "13:35",
+              "14:31",
+              "15:16",
+              "16:11",
+              "18:45",
+              "19:33",
+              "21:53"
+            ],
+            "saturday": [
+              "07:55",
+              "09:29",
+              "12:37",
+              "18:15",
+              "19:33"
+            ]
+          }
+        },
+        {
+          "stop_id": "0681",
+          "stop_name": "Chrzanów Dworzec PKP",
+          "platform": "2",
+          "file": "0681-okrezna.html",
+          "departures": {
+            "workday": [
+              "13:37",
+              "14:33",
+              "15:18",
+              "16:13",
+              "18:47",
+              "19:35",
+              "21:55"
+            ],
+            "saturday": [
+              "07:57",
+              "09:31",
+              "12:39",
+              "18:17",
+              "19:35"
+            ]
+          }
+        },
+        {
+          "stop_id": "0682",
+          "stop_name": "Chrzanów Fablok",
+          "platform": "0",
+          "file": "0682-okrezna.html",
+          "departures": {
+            "workday": [
+              "13:38",
+              "14:34",
+              "15:19",
+              "16:14",
+              "18:48",
+              "19:36",
+              "21:56"
+            ],
+            "saturday": [
+              "07:58",
+              "09:32",
+              "12:40",
+              "18:18",
+              "19:36"
+            ]
+          }
+        },
+        {
+          "stop_id": "0683",
+          "stop_name": "Chrzanów Dworzec PKP",
+          "platform": "1",
+          "file": "0683-okrezna.html",
+          "departures": {
+            "workday": [
+              "13:39",
+              "14:35",
+              "15:20",
+              "16:15",
+              "18:49",
+              "19:37",
+              "21:57"
+            ],
+            "saturday": [
+              "07:59",
+              "09:33",
+              "12:41",
+              "18:19",
+              "19:37"
+            ]
+          }
+        },
+        {
+          "stop_id": "0333",
+          "stop_name": "Chrzanów Podwale",
+          "platform": "1",
+          "file": "0333-okrezna.html",
+          "departures": {
+            "workday": [
+              "13:41",
+              "14:37",
+              "15:22",
+              "16:17",
+              "18:51",
+              "19:39",
+              "21:59"
+            ],
+            "saturday": [
+              "08:01",
+              "09:35",
+              "12:43",
+              "18:21",
+              "19:39"
+            ]
+          }
+        },
+        {
+          "stop_id": "0334",
+          "stop_name": "Chrzanów Dworzec Autobusowy",
+          "platform": "4",
+          "file": "0334-okrezna.html",
+          "departures": {}
+        }
+      ]
+    }
+  ]
+}
