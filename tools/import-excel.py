@@ -185,8 +185,14 @@ def import_file(file: Path, known_stops: dict, config: dict):
             block_stops.append(sid)
             direction.append(sid)
             canonical = known_stops[sid]["stop_name"]
-            if canonical.casefold() != sheet_name.casefold():
-                warnings.append(f"{sid}: Excel={sheet_name!r}, GeoJSON={canonical!r}")
+            platform = known_stops[sid]["platform"]
+            sheet_clean = re.sub(r"\\s*\\((\\d+)\\)\\s*$", "", sheet_name).strip()
+            if canonical.casefold() != sheet_clean.casefold():
+                warnings.append(f"{sid}: Excel={sheet_clean!r}, GeoJSON={canonical!r}")
+            sheet_platform = re.search(r"\\((\\d+)\\)\\s*$", sheet_name)
+            if sheet_platform and sheet_platform.group(1) != platform:
+                raise ValueError(f"Wiersz {stop_row}: przystanek {sid} ma peron "
+                                 f"{sheet_platform.group(1)} w Excelu, a {platform} w GeoJSON")
             for col, trip in columns.items():
                 raw = cells.get(col)
                 if raw is None or str(raw).strip() == "":
@@ -237,20 +243,22 @@ def import_file(file: Path, known_stops: dict, config: dict):
             stop = known_stops[sid]
             page = f"{sid}-{slug}.html"
             associated = [t for t in trips if t["direction"] == direction_no]
-            has_time = sum(sid in {v["stop_id"] for v in t["stop_times"]} for t in associated)
             route = {
                 "stop_id": sid, "stop_name": stop["stop_name"],
                 "platform": stop["platform"], "file": page,
             }
-            if has_time < len(associated):
+            if sid in spec.get("variant_stops", []):
                 route["variant"] = True
             route_stops.append(route)
             departures = defaultdict(list)
             for trip in associated:
+                symbol = spec.get("variant_symbols", {}).get(trip["variant"], "")
+                if symbol and not re.fullmatch(r"[A-Za-zĄĆĘŁŃÓŚŹŻ]", symbol):
+                    raise ValueError(f"Niepoprawny symbol dla wariantu {trip['variant']}: {symbol!r}")
                 for stop_time in trip["stop_times"]:
                     if stop_time["stop_id"] == sid:
                         for day in DAYS[trip["service_code"]]:
-                            departures[day].append(stop_time["time"])
+                            departures[day].append(stop_time["time"] + symbol)
             for times in departures.values():
                 times.sort()
             timetables.append({
