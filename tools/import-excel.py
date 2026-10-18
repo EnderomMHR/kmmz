@@ -27,7 +27,7 @@ NS = {
     "p": "http://schemas.openxmlformats.org/package/2006/relationships",
 }
 COURSE = re.compile(r"^(\d{3})-([12])-([A-Za-z0-9]+)-(SN|SW|R|S|N)-(\d{2,})$")
-STOP = re.compile(r"^(\d{4})\s+(.+)$")
+STOP = re.compile(r"^(\d{4})\s*(\S.*)$")
 CLOCK = re.compile(r"^(\d{1,2}):(\d{2})$")
 DAYS = {"R": ["workday"], "S": ["saturday"], "N": ["sunday"],
         "SN": ["saturday", "sunday"], "SW": ["holiday"]}
