@@ -9,6 +9,7 @@ on:
       - 'tools/import-excel.py'
       - 'tools/check-line5.py'
       - 'tools/check-line6.py'
+      - 'tools/check-terminal-arrivals.py'
       - 'tools/test-import-excel.py'
       - 'tools/generate-rozklady.py'
       - '.github/workflows/validate-import.yml'
@@ -29,6 +30,8 @@ jobs:
         run: python tools/test-import-excel.py
       - name: Validate line 6 data
         run: python tools/check-line6.py
+      - name: Check terminal arrival filtering
+        run: python tools/check-terminal-arrivals.py
       - name: Verify importer syntax
         run: python -m py_compile tools/import-excel.py
       - name: Generate HTML and stop departures (without committing)
