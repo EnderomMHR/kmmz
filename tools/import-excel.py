@@ -255,7 +255,10 @@ def import_file(file: Path, known_stops: dict, config: dict):
                 symbol = spec.get("variant_symbols", {}).get(trip["variant"], "")
                 if symbol and not re.fullmatch(r"[A-Za-zĄĆĘŁŃÓŚŹŻ]", symbol):
                     raise ValueError(f"Niepoprawny symbol dla wariantu {trip['variant']}: {symbol!r}")
-                for stop_time in trip["stop_times"]:
+                # Ostatni przystanek każdego kursu oznacza PRZYJAZD, nie odjazd.
+                # Zachowujemy go w trips.json do planowania podróży, ale nie
+                # publikujemy jako odjazdu (również w skróconych wariantach).
+                for stop_time in trip["stop_times"][:-1]:
                     if stop_time["stop_id"] == sid:
                         for day in DAYS[trip["service_code"]]:
                             departures[day].append(stop_time["time"] + symbol)
