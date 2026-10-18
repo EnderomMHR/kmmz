@@ -16,7 +16,6 @@ import re
 import sys
 import unicodedata
 from collections import defaultdict
-from datetime import datetime
 from pathlib import Path
 from xml.etree import ElementTree as ET
 from zipfile import ZipFile
@@ -80,6 +79,8 @@ def read_arkusz1(path: Path):
                     raw = shared[int(value.text)] if type_ == "s" else value.text
                 else:
                     raw = None
+                if cell.find("m:f", NS) is not None and raw is None:
+                    raise ValueError(f"{path.name}: formuła w komórce {address} nie ma obliczonego wyniku; otwórz i zapisz skoroszyt ponownie")
                 if raw is not None:
                     cells[col] = raw
             rows.append((int(row.attrib.get("r", len(rows) + 1)), cells))
@@ -228,9 +229,8 @@ def import_file(file: Path, known_stops: dict, config: dict):
             raise ValueError(f"Brak konfiguracji kierunku {direction_no} w data/import-config/{line_number}.json")
         slug = spec["slug"]
         unique_ids = list(dict.fromkeys(ids))
-        for sid in unique_ids:
-            if not re.fullmatch(r"[a-z0-9-]+", slug):
-                raise ValueError(f"Niepoprawny slug: {slug}")
+        if not re.fullmatch(r"[a-z0-9-]+", slug):
+            raise ValueError(f"Niepoprawny slug: {slug}")
         route_stops = []
         timetables = []
         for sid in unique_ids:
