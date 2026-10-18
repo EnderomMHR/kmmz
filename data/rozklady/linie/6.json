@@ -1,0 +1,3362 @@
+{
+  "line": "6",
+  "map_url": "https://enderommhr.github.io/kmmz/mapa.html",
+  "directions": [
+    {
+      "slug": "wilczkowice",
+      "name": "Wilczkowice Pętla",
+      "variant_destinations": {
+        "Z": "Oświęcim Park Zasole"
+      },
+      "legend": {
+        "Z": "do: Oświęcim Park Zasole"
+      },
+      "route_stops": [
+        {
+          "stop_id": "0616",
+          "stop_name": "Oświęcim Dwory Pętla",
+          "platform": "1",
+          "file": "0616-wilczkowice.html"
+        },
+        {
+          "stop_id": "0617",
+          "stop_name": "Oświęcim SKR",
+          "platform": "1",
+          "file": "0617-wilczkowice.html"
+        },
+        {
+          "stop_id": "0618",
+          "stop_name": "Oświęcim Spółdzielnia",
+          "platform": "2",
+          "file": "0618-wilczkowice.html"
+        },
+        {
+          "stop_id": "0619",
+          "stop_name": "Oświęcim Cichy Kącik",
+          "platform": "2",
+          "file": "0619-wilczkowice.html"
+        },
+        {
+          "stop_id": "0620",
+          "stop_name": "Oświęcim Zwycięstwa",
+          "platform": "2",
+          "file": "0620-wilczkowice.html"
+        },
+        {
+          "stop_id": "0621",
+          "stop_name": "Oświęcim Lodowisko",
+          "platform": "1",
+          "file": "0621-wilczkowice.html"
+        },
+        {
+          "stop_id": "0622",
+          "stop_name": "Oświęcim Technikum Chemiczne",
+          "platform": "2",
+          "file": "0622-wilczkowice.html"
+        },
+        {
+          "stop_id": "0623",
+          "stop_name": "Oświęcim Osiedle OCK",
+          "platform": "1",
+          "file": "0623-wilczkowice.html"
+        },
+        {
+          "stop_id": "0624",
+          "stop_name": "Oświęcim Szpitalna Osiedle",
+          "platform": "1",
+          "file": "0624-wilczkowice.html"
+        },
+        {
+          "stop_id": "0625",
+          "stop_name": "Oświęcim Kruki",
+          "platform": "1",
+          "file": "0625-wilczkowice.html"
+        },
+        {
+          "stop_id": "0626",
+          "stop_name": "Oświęcim Bakutil",
+          "platform": "1",
+          "file": "0626-wilczkowice.html"
+        },
+        {
+          "stop_id": "0627",
+          "stop_name": "Oświęcim Szpital",
+          "platform": "2",
+          "file": "0627-wilczkowice.html"
+        },
+        {
+          "stop_id": "0628",
+          "stop_name": "Oświęcim Dąbrowskiego Miasto",
+          "platform": "1",
+          "file": "0628-wilczkowice.html"
+        },
+        {
+          "stop_id": "0629",
+          "stop_name": "Oświęcim Stacja BP",
+          "platform": "2",
+          "file": "0629-wilczkowice.html"
+        },
+        {
+          "stop_id": "0630",
+          "stop_name": "Oświęcim Niwa",
+          "platform": "1",
+          "file": "0630-wilczkowice.html"
+        },
+        {
+          "stop_id": "0631",
+          "stop_name": "Oświęcim Dworzec PKP",
+          "platform": "1",
+          "file": "0631-wilczkowice.html"
+        },
+        {
+          "stop_id": "0632",
+          "stop_name": "Oświęcim Obozowa",
+          "platform": "1",
+          "file": "0632-wilczkowice.html"
+        },
+        {
+          "stop_id": "0633",
+          "stop_name": "Oświęcim Park Zasole",
+          "platform": "0",
+          "file": "0633-wilczkowice.html"
+        },
+        {
+          "stop_id": "0634",
+          "stop_name": "Oświęcim Muzeum II",
+          "platform": "2",
+          "file": "0634-wilczkowice.html"
+        },
+        {
+          "stop_id": "0635",
+          "stop_name": "Oświęcim Zasole I",
+          "platform": "2",
+          "file": "0635-wilczkowice.html"
+        },
+        {
+          "stop_id": "0636",
+          "stop_name": "Oświęcim Zasole Walcownia",
+          "platform": "1",
+          "file": "0636-wilczkowice.html"
+        },
+        {
+          "stop_id": "0637",
+          "stop_name": "Oświęcim MZK",
+          "platform": "1",
+          "file": "0637-wilczkowice.html"
+        },
+        {
+          "stop_id": "0638",
+          "stop_name": "Oświęcim Szkoła",
+          "platform": "2",
+          "file": "0638-wilczkowice.html"
+        },
+        {
+          "stop_id": "0639",
+          "stop_name": "Oświęcim Szajny",
+          "platform": "1",
+          "file": "0639-wilczkowice.html"
+        },
+        {
+          "stop_id": "0640",
+          "stop_name": "Oświęcim Uczelnia",
+          "platform": "2",
+          "file": "0640-wilczkowice.html"
+        },
+        {
+          "stop_id": "0641",
+          "stop_name": "Rajsko Ogrody",
+          "platform": "1",
+          "file": "0641-wilczkowice.html"
+        },
+        {
+          "stop_id": "0642",
+          "stop_name": "Rajsko Centrum",
+          "platform": "1",
+          "file": "0642-wilczkowice.html"
+        },
+        {
+          "stop_id": "0643",
+          "stop_name": "Rajsko Pomnik",
+          "platform": "1",
+          "file": "0643-wilczkowice.html"
+        },
+        {
+          "stop_id": "0644",
+          "stop_name": "Rajsko Kościół",
+          "platform": "2",
+          "file": "0644-wilczkowice.html"
+        },
+        {
+          "stop_id": "0645",
+          "stop_name": "Rajsko Żwirownia",
+          "platform": "1",
+          "file": "0645-wilczkowice.html"
+        },
+        {
+          "stop_id": "0646",
+          "stop_name": "Rajsko Cmentarz",
+          "platform": "1",
+          "file": "0646-wilczkowice.html"
+        },
+        {
+          "stop_id": "0647",
+          "stop_name": "Wilczkowice na żądanie",
+          "platform": "2",
+          "file": "0647-wilczkowice.html"
+        },
+        {
+          "stop_id": "0648",
+          "stop_name": "Wilczkowice",
+          "platform": "2",
+          "file": "0648-wilczkowice.html"
+        },
+        {
+          "stop_id": "0649",
+          "stop_name": "Wilczkowice Pętla",
+          "platform": "0",
+          "file": "0649-wilczkowice.html"
+        }
+      ],
+      "timetables": [
+        {
+          "stop_id": "0616",
+          "stop_name": "Oświęcim Dwory Pętla",
+          "platform": "1",
+          "file": "0616-wilczkowice.html",
+          "departures": {
+            "workday": [
+              "04:10",
+              "06:53",
+              "10:19",
+              "11:59",
+              "13:59",
+              "16:56Z",
+              "18:32Z",
+              "19:53",
+              "21:38"
+            ],
+            "saturday": [
+              "04:25",
+              "07:32Z",
+              "09:08Z",
+              "12:01Z",
+              "13:27",
+              "15:27",
+              "18:10Z",
+              "19:56"
+            ],
+            "sunday": [
+              "04:55",
+              "07:38",
+              "09:48Z",
+              "11:14",
+              "13:29Z",
+              "15:00",
+              "18:03"
+            ],
+            "holiday": [
+              "09:08Z",
+              "12:01Z",
+              "13:27",
+              "15:27"
+            ]
+          }
+        },
+        {
+          "stop_id": "0617",
+          "stop_name": "Oświęcim SKR",
+          "platform": "1",
+          "file": "0617-wilczkowice.html",
+          "departures": {
+            "workday": [
+              "04:11",
+              "06:54",
+              "10:20",
+              "12:00",
+              "14:00",
+              "16:57Z",
+              "18:33Z",
+              "19:54",
+              "21:39"
+            ],
+            "saturday": [
+              "04:26",
+              "07:33Z",
+              "09:09Z",
+              "12:02Z",
+              "13:28",
+              "15:28",
+              "18:11Z",
+              "19:57"
+            ],
+            "sunday": [
+              "04:56",
+              "07:39",
+              "09:49Z",
+              "11:15",
+              "13:30Z",
+              "15:01",
+              "18:04"
+            ],
+            "holiday": [
+              "09:09Z",
+              "12:02Z",
+              "13:28",
+              "15:28"
+            ]
+          }
+        },
+        {
+          "stop_id": "0618",
+          "stop_name": "Oświęcim Spółdzielnia",
+          "platform": "2",
+          "file": "0618-wilczkowice.html",
+          "departures": {
+            "workday": [
+              "04:12",
+              "06:55",
+              "10:21",
+              "12:01",
+              "14:01",
+              "16:58Z",
+              "18:34Z",
+              "19:55",
+              "21:40"
+            ],
+            "saturday": [
+              "04:27",
+              "07:34Z",
+              "09:10Z",
+              "12:03Z",
+              "13:29",
+              "15:29",
+              "18:12Z",
+              "19:58"
+            ],
+            "sunday": [
+              "04:57",
+              "07:40",
+              "09:50Z",
+              "11:16",
+              "13:31Z",
+              "15:02",
+              "18:05"
+            ],
+            "holiday": [
+              "09:10Z",
+              "12:03Z",
+              "13:29",
+              "15:29"
+            ]
+          }
+        },
+        {
+          "stop_id": "0619",
+          "stop_name": "Oświęcim Cichy Kącik",
+          "platform": "2",
+          "file": "0619-wilczkowice.html",
+          "departures": {
+            "workday": [
+              "04:13",
+              "06:56",
+              "10:22",
+              "12:02",
+              "14:02",
+              "16:59Z",
+              "18:35Z",
+              "19:56",
+              "21:41"
+            ],
+            "saturday": [
+              "04:28",
+              "07:35Z",
+              "09:11Z",
+              "12:04Z",
+              "13:30",
+              "15:30",
+              "18:13Z",
+              "19:59"
+            ],
+            "sunday": [
+              "04:58",
+              "07:41",
+              "09:51Z",
+              "11:17",
+              "13:32Z",
+              "15:03",
+              "18:06"
+            ],
+            "holiday": [
+              "09:11Z",
+              "12:04Z",
+              "13:30",
+              "15:30"
+            ]
+          }
+        },
+        {
+          "stop_id": "0620",
+          "stop_name": "Oświęcim Zwycięstwa",
+          "platform": "2",
+          "file": "0620-wilczkowice.html",
+          "departures": {
+            "workday": [
+              "04:14",
+              "06:57",
+              "10:23",
+              "12:03",
+              "14:03",
+              "17:00Z",
+              "18:36Z",
+              "19:57",
+              "21:42"
+            ],
+            "saturday": [
+              "04:29",
+              "07:36Z",
+              "09:12Z",
+              "12:05Z",
+              "13:31",
+              "15:31",
+              "18:14Z",
+              "20:00"
+            ],
+            "sunday": [
+              "04:59",
+              "07:42",
+              "09:52Z",
+              "11:18",
+              "13:33Z",
+              "15:04",
+              "18:07"
+            ],
+            "holiday": [
+              "09:12Z",
+              "12:05Z",
+              "13:31",
+              "15:31"
+            ]
+          }
+        },
+        {
+          "stop_id": "0621",
+          "stop_name": "Oświęcim Lodowisko",
+          "platform": "1",
+          "file": "0621-wilczkowice.html",
+          "departures": {
+            "workday": [
+              "04:16",
+              "06:59",
+              "10:25",
+              "12:05",
+              "14:05",
+              "17:02Z",
+              "18:38Z",
+              "19:59",
+              "21:44"
+            ],
+            "saturday": [
+              "04:31",
+              "07:38Z",
+              "09:14Z",
+              "12:07Z",
+              "13:33",
+              "15:33",
+              "18:16Z",
+              "20:02"
+            ],
+            "sunday": [
+              "05:01",
+              "07:44",
+              "09:54Z",
+              "11:20",
+              "13:35Z",
+              "15:06",
+              "18:09"
+            ],
+            "holiday": [
+              "09:14Z",
+              "12:07Z",
+              "13:33",
+              "15:33"
+            ]
+          }
+        },
+        {
+          "stop_id": "0622",
+          "stop_name": "Oświęcim Technikum Chemiczne",
+          "platform": "2",
+          "file": "0622-wilczkowice.html",
+          "departures": {
+            "workday": [
+              "04:17",
+              "07:00",
+              "10:26",
+              "12:06",
+              "14:06",
+              "17:03Z",
+              "18:39Z",
+              "20:00",
+              "21:45"
+            ],
+            "saturday": [
+              "04:32",
+              "07:39Z",
+              "09:15Z",
+              "12:08Z",
+              "13:34",
+              "15:34",
+              "18:17Z",
+              "20:03"
+            ],
+            "sunday": [
+              "05:02",
+              "07:45",
+              "09:55Z",
+              "11:21",
+              "13:36Z",
+              "15:07",
+              "18:10"
+            ],
+            "holiday": [
+              "09:15Z",
+              "12:08Z",
+              "13:34",
+              "15:34"
+            ]
+          }
+        },
+        {
+          "stop_id": "0623",
+          "stop_name": "Oświęcim Osiedle OCK",
+          "platform": "1",
+          "file": "0623-wilczkowice.html",
+          "departures": {
+            "workday": [
+              "04:19",
+              "07:02",
+              "10:28",
+              "12:08",
+              "14:08",
+              "17:05Z",
+              "18:41Z",
+              "20:02",
+              "21:47"
+            ],
+            "saturday": [
+              "04:34",
+              "07:41Z",
+              "09:17Z",
+              "12:10Z",
+              "13:36",
+              "15:36",
+              "18:19Z",
+              "20:05"
+            ],
+            "sunday": [
+              "05:04",
+              "07:47",
+              "09:57Z",
+              "11:23",
+              "13:38Z",
+              "15:09",
+              "18:12"
+            ],
+            "holiday": [
+              "09:17Z",
+              "12:10Z",
+              "13:36",
+              "15:36"
+            ]
+          }
+        },
+        {
+          "stop_id": "0624",
+          "stop_name": "Oświęcim Szpitalna Osiedle",
+          "platform": "1",
+          "file": "0624-wilczkowice.html",
+          "departures": {
+            "workday": [
+              "04:21",
+              "07:04",
+              "10:30",
+              "12:10",
+              "14:10",
+              "17:07Z",
+              "18:43Z",
+              "20:04",
+              "21:49"
+            ],
+            "saturday": [
+              "04:36",
+              "07:43Z",
+              "09:19Z",
+              "12:12Z",
+              "13:38",
+              "15:38",
+              "18:21Z",
+              "20:07"
+            ],
+            "sunday": [
+              "05:06",
+              "07:49",
+              "09:59Z",
+              "11:25",
+              "13:40Z",
+              "15:11",
+              "18:14"
+            ],
+            "holiday": [
+              "09:19Z",
+              "12:12Z",
+              "13:38",
+              "15:38"
+            ]
+          }
+        },
+        {
+          "stop_id": "0625",
+          "stop_name": "Oświęcim Kruki",
+          "platform": "1",
+          "file": "0625-wilczkowice.html",
+          "departures": {
+            "workday": [
+              "04:23",
+              "07:06",
+              "10:32",
+              "12:12",
+              "14:12",
+              "17:09Z",
+              "18:45Z",
+              "20:06",
+              "21:51"
+            ],
+            "saturday": [
+              "04:38",
+              "07:45Z",
+              "09:21Z",
+              "12:14Z",
+              "13:40",
+              "15:40",
+              "18:23Z",
+              "20:09"
+            ],
+            "sunday": [
+              "05:08",
+              "07:51",
+              "10:01Z",
+              "11:27",
+              "13:42Z",
+              "15:13",
+              "18:16"
+            ],
+            "holiday": [
+              "09:21Z",
+              "12:14Z",
+              "13:40",
+              "15:40"
+            ]
+          }
+        },
+        {
+          "stop_id": "0626",
+          "stop_name": "Oświęcim Bakutil",
+          "platform": "1",
+          "file": "0626-wilczkowice.html",
+          "departures": {
+            "workday": [
+              "04:24",
+              "07:07",
+              "10:33",
+              "12:13",
+              "14:13",
+              "17:10Z",
+              "18:46Z",
+              "20:07",
+              "21:52"
+            ],
+            "saturday": [
+              "04:39",
+              "07:46Z",
+              "09:22Z",
+              "12:15Z",
+              "13:41",
+              "15:41",
+              "18:24Z",
+              "20:10"
+            ],
+            "sunday": [
+              "05:09",
+              "07:52",
+              "10:02Z",
+              "11:28",
+              "13:43Z",
+              "15:14",
+              "18:17"
+            ],
+            "holiday": [
+              "09:22Z",
+              "12:15Z",
+              "13:41",
+              "15:41"
+            ]
+          }
+        },
+        {
+          "stop_id": "0627",
+          "stop_name": "Oświęcim Szpital",
+          "platform": "2",
+          "file": "0627-wilczkowice.html",
+          "departures": {
+            "workday": [
+              "04:26",
+              "07:09",
+              "10:35",
+              "12:15",
+              "14:15",
+              "17:12Z",
+              "18:48Z",
+              "20:09",
+              "21:54"
+            ],
+            "saturday": [
+              "04:41",
+              "07:48Z",
+              "09:24Z",
+              "12:17Z",
+              "13:43",
+              "15:43",
+              "18:26Z",
+              "20:12"
+            ],
+            "sunday": [
+              "05:11",
+              "07:54",
+              "10:04Z",
+              "11:30",
+              "13:45Z",
+              "15:16",
+              "18:19"
+            ],
+            "holiday": [
+              "09:24Z",
+              "12:17Z",
+              "13:43",
+              "15:43"
+            ]
+          }
+        },
+        {
+          "stop_id": "0628",
+          "stop_name": "Oświęcim Dąbrowskiego Miasto",
+          "platform": "1",
+          "file": "0628-wilczkowice.html",
+          "departures": {
+            "workday": [
+              "04:29",
+              "05:31Z",
+              "07:12",
+              "08:14Z",
+              "08:41Z",
+              "09:11Z",
+              "10:38",
+              "12:18",
+              "14:18",
+              "15:30",
+              "17:15Z",
+              "18:51Z",
+              "20:12",
+              "21:57"
+            ],
+            "saturday": [
+              "04:44",
+              "05:51",
+              "07:51Z",
+              "09:27Z",
+              "10:15",
+              "12:20Z",
+              "13:46",
+              "15:46",
+              "17:03Z",
+              "18:29Z",
+              "20:15"
+            ],
+            "sunday": [
+              "05:14",
+              "06:26Z",
+              "07:57",
+              "10:07Z",
+              "11:33",
+              "13:48Z",
+              "15:19",
+              "16:46Z",
+              "18:22"
+            ],
+            "holiday": [
+              "09:27Z",
+              "10:15",
+              "12:20Z",
+              "13:46",
+              "15:46"
+            ]
+          }
+        },
+        {
+          "stop_id": "0629",
+          "stop_name": "Oświęcim Stacja BP",
+          "platform": "2",
+          "file": "0629-wilczkowice.html",
+          "departures": {
+            "workday": [
+              "04:31",
+              "05:33Z",
+              "07:14",
+              "08:16Z",
+              "08:43Z",
+              "09:13Z",
+              "10:40",
+              "12:20",
+              "14:20",
+              "15:32",
+              "17:17Z",
+              "18:53Z",
+              "20:14",
+              "21:59"
+            ],
+            "saturday": [
+              "04:46",
+              "05:53",
+              "07:53Z",
+              "09:29Z",
+              "10:17",
+              "12:22Z",
+              "13:48",
+              "15:48",
+              "17:05Z",
+              "18:31Z",
+              "20:17"
+            ],
+            "sunday": [
+              "05:16",
+              "06:28Z",
+              "07:59",
+              "10:09Z",
+              "11:35",
+              "13:50Z",
+              "15:21",
+              "16:48Z",
+              "18:24"
+            ],
+            "holiday": [
+              "09:29Z",
+              "10:17",
+              "12:22Z",
+              "13:48",
+              "15:48"
+            ]
+          }
+        },
+        {
+          "stop_id": "0630",
+          "stop_name": "Oświęcim Niwa",
+          "platform": "1",
+          "file": "0630-wilczkowice.html",
+          "departures": {
+            "workday": [
+              "04:33",
+              "05:35Z",
+              "07:16",
+              "08:18Z",
+              "08:45Z",
+              "09:15Z",
+              "10:42",
+              "12:22",
+              "14:22",
+              "15:34",
+              "17:19Z",
+              "18:55Z",
+              "20:16",
+              "22:01"
+            ],
+            "saturday": [
+              "04:48",
+              "05:55",
+              "07:55Z",
+              "09:31Z",
+              "10:19",
+              "12:24Z",
+              "13:50",
+              "15:50",
+              "17:07Z",
+              "18:33Z",
+              "20:19"
+            ],
+            "sunday": [
+              "05:18",
+              "06:30Z",
+              "08:01",
+              "10:11Z",
+              "11:37",
+              "13:52Z",
+              "15:23",
+              "16:50Z",
+              "18:26"
+            ],
+            "holiday": [
+              "09:31Z",
+              "10:19",
+              "12:24Z",
+              "13:50",
+              "15:50"
+            ]
+          }
+        },
+        {
+          "stop_id": "0631",
+          "stop_name": "Oświęcim Dworzec PKP",
+          "platform": "1",
+          "file": "0631-wilczkowice.html",
+          "departures": {
+            "workday": [
+              "04:35",
+              "05:37Z",
+              "07:18",
+              "08:20Z",
+              "08:47Z",
+              "09:17Z",
+              "10:44",
+              "12:24",
+              "14:24",
+              "15:36",
+              "17:21Z",
+              "18:57Z",
+              "20:18",
+              "22:03"
+            ],
+            "saturday": [
+              "04:50",
+              "05:57",
+              "07:57Z",
+              "09:33Z",
+              "10:21",
+              "12:26Z",
+              "13:52",
+              "15:52",
+              "17:09Z",
+              "18:35Z",
+              "20:21"
+            ],
+            "sunday": [
+              "05:20",
+              "06:32Z",
+              "08:03",
+              "10:13Z",
+              "11:39",
+              "13:54Z",
+              "15:25",
+              "16:52Z",
+              "18:28"
+            ],
+            "holiday": [
+              "09:33Z",
+              "10:21",
+              "12:26Z",
+              "13:52",
+              "15:52"
+            ]
+          }
+        },
+        {
+          "stop_id": "0632",
+          "stop_name": "Oświęcim Obozowa",
+          "platform": "1",
+          "file": "0632-wilczkowice.html",
+          "departures": {
+            "workday": [
+              "04:36",
+              "05:38Z",
+              "07:19",
+              "08:21Z",
+              "08:48Z",
+              "09:18Z",
+              "10:45",
+              "12:25",
+              "14:25",
+              "15:37",
+              "17:22Z",
+              "18:58Z",
+              "20:19",
+              "22:04"
+            ],
+            "saturday": [
+              "04:51",
+              "05:58",
+              "07:58Z",
+              "09:34Z",
+              "10:22",
+              "12:27Z",
+              "13:53",
+              "15:53",
+              "17:10Z",
+              "18:36Z",
+              "20:22"
+            ],
+            "sunday": [
+              "05:21",
+              "06:33Z",
+              "08:04",
+              "10:14Z",
+              "11:40",
+              "13:55Z",
+              "15:26",
+              "16:53Z",
+              "18:29"
+            ],
+            "holiday": [
+              "09:34Z",
+              "10:22",
+              "12:27Z",
+              "13:53",
+              "15:53"
+            ]
+          }
+        },
+        {
+          "stop_id": "0633",
+          "stop_name": "Oświęcim Park Zasole",
+          "platform": "0",
+          "file": "0633-wilczkowice.html",
+          "departures": {
+            "workday": [
+              "04:38",
+              "05:40Z",
+              "07:21",
+              "08:23Z",
+              "08:50Z",
+              "09:20Z",
+              "10:47",
+              "12:27",
+              "14:27",
+              "15:39",
+              "17:24Z",
+              "19:00Z",
+              "20:21",
+              "22:06"
+            ],
+            "saturday": [
+              "04:53",
+              "06:00",
+              "08:00Z",
+              "09:36Z",
+              "10:24",
+              "12:29Z",
+              "13:55",
+              "15:55",
+              "17:12Z",
+              "18:38Z",
+              "20:24"
+            ],
+            "sunday": [
+              "05:23",
+              "06:35Z",
+              "08:06",
+              "10:16Z",
+              "11:42",
+              "13:57Z",
+              "15:28",
+              "16:55Z",
+              "18:31"
+            ],
+            "holiday": [
+              "09:36Z",
+              "10:24",
+              "12:29Z",
+              "13:55",
+              "15:55"
+            ]
+          }
+        },
+        {
+          "stop_id": "0634",
+          "stop_name": "Oświęcim Muzeum II",
+          "platform": "2",
+          "file": "0634-wilczkowice.html",
+          "departures": {
+            "workday": [
+              "04:39",
+              "07:22",
+              "10:48",
+              "12:28",
+              "14:28",
+              "15:40",
+              "20:22",
+              "22:07"
+            ],
+            "saturday": [
+              "04:54",
+              "06:01",
+              "10:25",
+              "13:56",
+              "15:56",
+              "20:25"
+            ],
+            "sunday": [
+              "05:24",
+              "08:07",
+              "11:43",
+              "15:29",
+              "18:32"
+            ],
+            "holiday": [
+              "10:25",
+              "13:56",
+              "15:56"
+            ]
+          }
+        },
+        {
+          "stop_id": "0635",
+          "stop_name": "Oświęcim Zasole I",
+          "platform": "2",
+          "file": "0635-wilczkowice.html",
+          "departures": {
+            "workday": [
+              "04:40",
+              "07:23",
+              "10:49",
+              "12:29",
+              "14:29",
+              "15:41",
+              "20:23",
+              "22:08"
+            ],
+            "saturday": [
+              "04:55",
+              "06:02",
+              "10:26",
+              "13:57",
+              "15:57",
+              "20:26"
+            ],
+            "sunday": [
+              "05:25",
+              "08:08",
+              "11:44",
+              "15:30",
+              "18:33"
+            ],
+            "holiday": [
+              "10:26",
+              "13:57",
+              "15:57"
+            ]
+          }
+        },
+        {
+          "stop_id": "0636",
+          "stop_name": "Oświęcim Zasole Walcownia",
+          "platform": "1",
+          "file": "0636-wilczkowice.html",
+          "departures": {
+            "workday": [
+              "04:41",
+              "07:24",
+              "10:50",
+              "12:30",
+              "14:30",
+              "15:42",
+              "20:24",
+              "22:09"
+            ],
+            "saturday": [
+              "04:56",
+              "06:03",
+              "10:27",
+              "13:58",
+              "15:58",
+              "20:27"
+            ],
+            "sunday": [
+              "05:26",
+              "08:09",
+              "11:45",
+              "15:31",
+              "18:34"
+            ],
+            "holiday": [
+              "10:27",
+              "13:58",
+              "15:58"
+            ]
+          }
+        },
+        {
+          "stop_id": "0637",
+          "stop_name": "Oświęcim MZK",
+          "platform": "1",
+          "file": "0637-wilczkowice.html",
+          "departures": {
+            "workday": [
+              "04:42",
+              "07:25",
+              "10:51",
+              "12:31",
+              "14:31",
+              "15:43",
+              "20:25",
+              "22:10"
+            ],
+            "saturday": [
+              "04:57",
+              "06:04",
+              "10:28",
+              "13:59",
+              "15:59",
+              "20:28"
+            ],
+            "sunday": [
+              "05:27",
+              "08:10",
+              "11:46",
+              "15:32",
+              "18:35"
+            ],
+            "holiday": [
+              "10:28",
+              "13:59",
+              "15:59"
+            ]
+          }
+        },
+        {
+          "stop_id": "0638",
+          "stop_name": "Oświęcim Szkoła",
+          "platform": "2",
+          "file": "0638-wilczkowice.html",
+          "departures": {
+            "workday": [
+              "04:43",
+              "07:26",
+              "10:52",
+              "12:32",
+              "14:32",
+              "15:44",
+              "20:26",
+              "22:11"
+            ],
+            "saturday": [
+              "04:58",
+              "06:05",
+              "10:29",
+              "14:00",
+              "16:00",
+              "20:29"
+            ],
+            "sunday": [
+              "05:28",
+              "08:11",
+              "11:47",
+              "15:33",
+              "18:36"
+            ],
+            "holiday": [
+              "10:29",
+              "14:00",
+              "16:00"
+            ]
+          }
+        },
+        {
+          "stop_id": "0639",
+          "stop_name": "Oświęcim Szajny",
+          "platform": "1",
+          "file": "0639-wilczkowice.html",
+          "departures": {
+            "workday": [
+              "04:44",
+              "07:27",
+              "10:53",
+              "12:33",
+              "14:33",
+              "15:45",
+              "20:27",
+              "22:12"
+            ],
+            "saturday": [
+              "04:59",
+              "06:06",
+              "10:30",
+              "14:01",
+              "16:01",
+              "20:30"
+            ],
+            "sunday": [
+              "05:29",
+              "08:12",
+              "11:48",
+              "15:34",
+              "18:37"
+            ],
+            "holiday": [
+              "10:30",
+              "14:01",
+              "16:01"
+            ]
+          }
+        },
+        {
+          "stop_id": "0640",
+          "stop_name": "Oświęcim Uczelnia",
+          "platform": "2",
+          "file": "0640-wilczkowice.html",
+          "departures": {
+            "workday": [
+              "04:45",
+              "07:28",
+              "10:54",
+              "12:34",
+              "14:34",
+              "15:46",
+              "20:28",
+              "22:13"
+            ],
+            "saturday": [
+              "05:00",
+              "06:07",
+              "10:31",
+              "14:02",
+              "16:02",
+              "20:31"
+            ],
+            "sunday": [
+              "05:30",
+              "08:13",
+              "11:49",
+              "15:35",
+              "18:38"
+            ],
+            "holiday": [
+              "10:31",
+              "14:02",
+              "16:02"
+            ]
+          }
+        },
+        {
+          "stop_id": "0641",
+          "stop_name": "Rajsko Ogrody",
+          "platform": "1",
+          "file": "0641-wilczkowice.html",
+          "departures": {
+            "workday": [
+              "04:46",
+              "07:29",
+              "10:55",
+              "12:35",
+              "14:35",
+              "15:47",
+              "20:29",
+              "22:14"
+            ],
+            "saturday": [
+              "05:01",
+              "06:08",
+              "10:32",
+              "14:03",
+              "16:03",
+              "20:32"
+            ],
+            "sunday": [
+              "05:31",
+              "08:14",
+              "11:50",
+              "15:36",
+              "18:39"
+            ],
+            "holiday": [
+              "10:32",
+              "14:03",
+              "16:03"
+            ]
+          }
+        },
+        {
+          "stop_id": "0642",
+          "stop_name": "Rajsko Centrum",
+          "platform": "1",
+          "file": "0642-wilczkowice.html",
+          "departures": {
+            "workday": [
+              "04:47",
+              "07:30",
+              "10:56",
+              "12:36",
+              "14:36",
+              "15:48",
+              "20:30",
+              "22:15"
+            ],
+            "saturday": [
+              "05:02",
+              "06:09",
+              "10:33",
+              "14:04",
+              "16:04",
+              "20:33"
+            ],
+            "sunday": [
+              "05:32",
+              "08:15",
+              "11:51",
+              "15:37",
+              "18:40"
+            ],
+            "holiday": [
+              "10:33",
+              "14:04",
+              "16:04"
+            ]
+          }
+        },
+        {
+          "stop_id": "0643",
+          "stop_name": "Rajsko Pomnik",
+          "platform": "1",
+          "file": "0643-wilczkowice.html",
+          "departures": {
+            "workday": [
+              "04:48",
+              "07:31",
+              "10:57",
+              "12:37",
+              "14:37",
+              "15:49",
+              "20:31",
+              "22:16"
+            ],
+            "saturday": [
+              "05:03",
+              "06:10",
+              "10:34",
+              "14:05",
+              "16:05",
+              "20:34"
+            ],
+            "sunday": [
+              "05:33",
+              "08:16",
+              "11:52",
+              "15:38",
+              "18:41"
+            ],
+            "holiday": [
+              "10:34",
+              "14:05",
+              "16:05"
+            ]
+          }
+        },
+        {
+          "stop_id": "0644",
+          "stop_name": "Rajsko Kościół",
+          "platform": "2",
+          "file": "0644-wilczkowice.html",
+          "departures": {
+            "workday": [
+              "04:49",
+              "07:32",
+              "10:58",
+              "12:38",
+              "14:38",
+              "15:50",
+              "20:32",
+              "22:17"
+            ],
+            "saturday": [
+              "05:04",
+              "06:11",
+              "10:35",
+              "14:06",
+              "16:06",
+              "20:35"
+            ],
+            "sunday": [
+              "05:34",
+              "08:17",
+              "11:53",
+              "15:39",
+              "18:42"
+            ],
+            "holiday": [
+              "10:35",
+              "14:06",
+              "16:06"
+            ]
+          }
+        },
+        {
+          "stop_id": "0645",
+          "stop_name": "Rajsko Żwirownia",
+          "platform": "1",
+          "file": "0645-wilczkowice.html",
+          "departures": {
+            "workday": [
+              "04:50",
+              "07:33",
+              "10:59",
+              "12:39",
+              "14:39",
+              "15:51",
+              "20:33",
+              "22:18"
+            ],
+            "saturday": [
+              "05:05",
+              "06:12",
+              "10:36",
+              "14:07",
+              "16:07",
+              "20:36"
+            ],
+            "sunday": [
+              "05:35",
+              "08:18",
+              "11:54",
+              "15:40",
+              "18:43"
+            ],
+            "holiday": [
+              "10:36",
+              "14:07",
+              "16:07"
+            ]
+          }
+        },
+        {
+          "stop_id": "0646",
+          "stop_name": "Rajsko Cmentarz",
+          "platform": "1",
+          "file": "0646-wilczkowice.html",
+          "departures": {
+            "workday": [
+              "04:51",
+              "07:34",
+              "11:00",
+              "12:40",
+              "14:40",
+              "15:52",
+              "20:34",
+              "22:19"
+            ],
+            "saturday": [
+              "05:06",
+              "06:13",
+              "10:37",
+              "14:08",
+              "16:08",
+              "20:37"
+            ],
+            "sunday": [
+              "05:36",
+              "08:19",
+              "11:55",
+              "15:41",
+              "18:44"
+            ],
+            "holiday": [
+              "10:37",
+              "14:08",
+              "16:08"
+            ]
+          }
+        },
+        {
+          "stop_id": "0647",
+          "stop_name": "Wilczkowice na żądanie",
+          "platform": "2",
+          "file": "0647-wilczkowice.html",
+          "departures": {
+            "workday": [
+              "04:52",
+              "07:35",
+              "11:01",
+              "12:41",
+              "14:41",
+              "15:53",
+              "20:35",
+              "22:20"
+            ],
+            "saturday": [
+              "05:07",
+              "06:14",
+              "10:38",
+              "14:09",
+              "16:09",
+              "20:38"
+            ],
+            "sunday": [
+              "05:37",
+              "08:20",
+              "11:56",
+              "15:42",
+              "18:45"
+            ],
+            "holiday": [
+              "10:38",
+              "14:09",
+              "16:09"
+            ]
+          }
+        },
+        {
+          "stop_id": "0648",
+          "stop_name": "Wilczkowice",
+          "platform": "2",
+          "file": "0648-wilczkowice.html",
+          "departures": {
+            "workday": [
+              "04:53",
+              "07:36",
+              "11:02",
+              "12:42",
+              "14:42",
+              "15:54",
+              "20:36",
+              "22:21"
+            ],
+            "saturday": [
+              "05:08",
+              "06:15",
+              "10:39",
+              "14:10",
+              "16:10",
+              "20:39"
+            ],
+            "sunday": [
+              "05:38",
+              "08:21",
+              "11:57",
+              "15:43",
+              "18:46"
+            ],
+            "holiday": [
+              "10:39",
+              "14:10",
+              "16:10"
+            ]
+          }
+        },
+        {
+          "stop_id": "0649",
+          "stop_name": "Wilczkowice Pętla",
+          "platform": "0",
+          "file": "0649-wilczkowice.html",
+          "departures": {
+            "workday": [
+              "04:54",
+              "07:37",
+              "11:03",
+              "12:43",
+              "14:43",
+              "15:55",
+              "20:37",
+              "22:22"
+            ],
+            "saturday": [
+              "05:09",
+              "06:16",
+              "10:40",
+              "14:11",
+              "16:11",
+              "20:40"
+            ],
+            "sunday": [
+              "05:39",
+              "08:22",
+              "11:58",
+              "15:44",
+              "18:47"
+            ],
+            "holiday": [
+              "10:40",
+              "14:11",
+              "16:11"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "oswiecim",
+      "name": "Oświęcim Dwory Pętla",
+      "variant_destinations": {
+        "O": "Oświęcim Dąbrowskiego Kościół"
+      },
+      "legend": {
+        "O": "do: Oświęcim Dąbrowskiego Kościół"
+      },
+      "route_stops": [
+        {
+          "stop_id": "0649",
+          "stop_name": "Wilczkowice Pętla",
+          "platform": "0",
+          "file": "0649-oswiecim.html"
+        },
+        {
+          "stop_id": "0650",
+          "stop_name": "Wilczkowice",
+          "platform": "1",
+          "file": "0650-oswiecim.html"
+        },
+        {
+          "stop_id": "0651",
+          "stop_name": "Wilczkowice na żądanie",
+          "platform": "1",
+          "file": "0651-oswiecim.html"
+        },
+        {
+          "stop_id": "0652",
+          "stop_name": "Rajsko Cmentarz",
+          "platform": "2",
+          "file": "0652-oswiecim.html"
+        },
+        {
+          "stop_id": "0653",
+          "stop_name": "Rajsko Żwirownia",
+          "platform": "2",
+          "file": "0653-oswiecim.html"
+        },
+        {
+          "stop_id": "0654",
+          "stop_name": "Rajsko Kościół",
+          "platform": "1",
+          "file": "0654-oswiecim.html"
+        },
+        {
+          "stop_id": "0655",
+          "stop_name": "Rajsko Pomnik",
+          "platform": "2",
+          "file": "0655-oswiecim.html"
+        },
+        {
+          "stop_id": "0656",
+          "stop_name": "Rajsko Centrum",
+          "platform": "2",
+          "file": "0656-oswiecim.html"
+        },
+        {
+          "stop_id": "0657",
+          "stop_name": "Rajsko Ogrody",
+          "platform": "2",
+          "file": "0657-oswiecim.html"
+        },
+        {
+          "stop_id": "0658",
+          "stop_name": "Oświęcim Uczelnia",
+          "platform": "1",
+          "file": "0658-oswiecim.html"
+        },
+        {
+          "stop_id": "0659",
+          "stop_name": "Oświęcim Leszczyńskiej Muzeum",
+          "platform": "2",
+          "file": "0659-oswiecim.html"
+        },
+        {
+          "stop_id": "0660",
+          "stop_name": "Oświęcim Szkoła",
+          "platform": "1",
+          "file": "0660-oswiecim.html"
+        },
+        {
+          "stop_id": "0661",
+          "stop_name": "Oświęcim MZK",
+          "platform": "2",
+          "file": "0661-oswiecim.html"
+        },
+        {
+          "stop_id": "0662",
+          "stop_name": "Oświęcim Zasole Walcownia",
+          "platform": "2",
+          "file": "0662-oswiecim.html"
+        },
+        {
+          "stop_id": "0663",
+          "stop_name": "Oświęcim Zasole I",
+          "platform": "1",
+          "file": "0663-oswiecim.html"
+        },
+        {
+          "stop_id": "0664",
+          "stop_name": "Oświęcim Muzeum I",
+          "platform": "1",
+          "file": "0664-oswiecim.html"
+        },
+        {
+          "stop_id": "0633",
+          "stop_name": "Oświęcim Park Zasole",
+          "platform": "0",
+          "file": "0633-oswiecim.html"
+        },
+        {
+          "stop_id": "0665",
+          "stop_name": "Oświęcim Obozowa",
+          "platform": "2",
+          "file": "0665-oswiecim.html"
+        },
+        {
+          "stop_id": "0666",
+          "stop_name": "Oświęcim Dworzec PKP",
+          "platform": "2",
+          "file": "0666-oswiecim.html"
+        },
+        {
+          "stop_id": "0667",
+          "stop_name": "Oświęcim Niwa",
+          "platform": "2",
+          "file": "0667-oswiecim.html"
+        },
+        {
+          "stop_id": "0668",
+          "stop_name": "Oświęcim Stacja BP",
+          "platform": "1",
+          "file": "0668-oswiecim.html"
+        },
+        {
+          "stop_id": "0669",
+          "stop_name": "Oświęcim Dąbrowskiego Kościół",
+          "platform": "1",
+          "file": "0669-oswiecim.html"
+        },
+        {
+          "stop_id": "0670",
+          "stop_name": "Oświęcim Dąbrowskiego Cmentarz",
+          "platform": "0",
+          "file": "0670-oswiecim.html"
+        },
+        {
+          "stop_id": "0671",
+          "stop_name": "Oświęcim Szpital",
+          "platform": "1",
+          "file": "0671-oswiecim.html"
+        },
+        {
+          "stop_id": "0672",
+          "stop_name": "Oświęcim Bakutil",
+          "platform": "2",
+          "file": "0672-oswiecim.html"
+        },
+        {
+          "stop_id": "0673",
+          "stop_name": "Oświęcim Szpitalna Osiedle",
+          "platform": "2",
+          "file": "0673-oswiecim.html"
+        },
+        {
+          "stop_id": "0674",
+          "stop_name": "Oświęcim Osiedle OCK",
+          "platform": "2",
+          "file": "0674-oswiecim.html"
+        },
+        {
+          "stop_id": "0675",
+          "stop_name": "Oświęcim Technikum Chemiczne",
+          "platform": "1",
+          "file": "0675-oswiecim.html"
+        },
+        {
+          "stop_id": "0676",
+          "stop_name": "Oświęcim Lodowisko",
+          "platform": "2",
+          "file": "0676-oswiecim.html"
+        },
+        {
+          "stop_id": "0677",
+          "stop_name": "Oświęcim Zwycięstwa",
+          "platform": "1",
+          "file": "0677-oswiecim.html"
+        },
+        {
+          "stop_id": "0678",
+          "stop_name": "Oświęcim Cichy Kącik",
+          "platform": "1",
+          "file": "0678-oswiecim.html"
+        },
+        {
+          "stop_id": "0679",
+          "stop_name": "Oświęcim Spółdzielnia",
+          "platform": "1",
+          "file": "0679-oswiecim.html"
+        },
+        {
+          "stop_id": "0680",
+          "stop_name": "Oświęcim SKR",
+          "platform": "2",
+          "file": "0680-oswiecim.html"
+        },
+        {
+          "stop_id": "0616",
+          "stop_name": "Oświęcim Dwory Pętla",
+          "platform": "1",
+          "file": "0616-oswiecim.html"
+        }
+      ],
+      "timetables": [
+        {
+          "stop_id": "0649",
+          "stop_name": "Wilczkowice Pętla",
+          "platform": "0",
+          "file": "0649-oswiecim.html",
+          "departures": {
+            "workday": [
+              "05:00O",
+              "07:43O",
+              "11:09",
+              "12:54",
+              "14:59O",
+              "16:01",
+              "20:48",
+              "22:28"
+            ],
+            "saturday": [
+              "05:20O",
+              "06:27",
+              "11:01",
+              "14:22",
+              "16:27O",
+              "20:51"
+            ],
+            "sunday": [
+              "05:50O",
+              "08:53",
+              "12:29",
+              "15:50O",
+              "18:58"
+            ],
+            "holiday": [
+              "11:01",
+              "14:22",
+              "16:27O"
+            ]
+          }
+        },
+        {
+          "stop_id": "0650",
+          "stop_name": "Wilczkowice",
+          "platform": "1",
+          "file": "0650-oswiecim.html",
+          "departures": {
+            "workday": [
+              "05:01O",
+              "07:44O",
+              "11:10",
+              "12:55",
+              "15:00O",
+              "16:02",
+              "20:49",
+              "22:29"
+            ],
+            "saturday": [
+              "05:21O",
+              "06:28",
+              "11:02",
+              "14:23",
+              "16:28O",
+              "20:52"
+            ],
+            "sunday": [
+              "05:51O",
+              "08:54",
+              "12:30",
+              "15:51O",
+              "18:59"
+            ],
+            "holiday": [
+              "11:02",
+              "14:23",
+              "16:28O"
+            ]
+          }
+        },
+        {
+          "stop_id": "0651",
+          "stop_name": "Wilczkowice na żądanie",
+          "platform": "1",
+          "file": "0651-oswiecim.html",
+          "departures": {
+            "workday": [
+              "05:02O",
+              "07:45O",
+              "11:11",
+              "12:56",
+              "15:01O",
+              "16:03",
+              "20:50",
+              "22:30"
+            ],
+            "saturday": [
+              "05:22O",
+              "06:29",
+              "11:03",
+              "14:24",
+              "16:29O",
+              "20:53"
+            ],
+            "sunday": [
+              "05:52O",
+              "08:55",
+              "12:31",
+              "15:52O",
+              "19:00"
+            ],
+            "holiday": [
+              "11:03",
+              "14:24",
+              "16:29O"
+            ]
+          }
+        },
+        {
+          "stop_id": "0652",
+          "stop_name": "Rajsko Cmentarz",
+          "platform": "2",
+          "file": "0652-oswiecim.html",
+          "departures": {
+            "workday": [
+              "05:03O",
+              "07:46O",
+              "11:12",
+              "12:57",
+              "15:02O",
+              "16:04",
+              "20:51",
+              "22:31"
+            ],
+            "saturday": [
+              "05:23O",
+              "06:30",
+              "11:04",
+              "14:25",
+              "16:30O",
+              "20:54"
+            ],
+            "sunday": [
+              "05:53O",
+              "08:56",
+              "12:32",
+              "15:53O",
+              "19:01"
+            ],
+            "holiday": [
+              "11:04",
+              "14:25",
+              "16:30O"
+            ]
+          }
+        },
+        {
+          "stop_id": "0653",
+          "stop_name": "Rajsko Żwirownia",
+          "platform": "2",
+          "file": "0653-oswiecim.html",
+          "departures": {
+            "workday": [
+              "05:04O",
+              "07:47O",
+              "11:13",
+              "12:58",
+              "15:03O",
+              "16:05",
+              "20:52",
+              "22:32"
+            ],
+            "saturday": [
+              "05:24O",
+              "06:31",
+              "11:05",
+              "14:26",
+              "16:31O",
+              "20:55"
+            ],
+            "sunday": [
+              "05:54O",
+              "08:57",
+              "12:33",
+              "15:54O",
+              "19:02"
+            ],
+            "holiday": [
+              "11:05",
+              "14:26",
+              "16:31O"
+            ]
+          }
+        },
+        {
+          "stop_id": "0654",
+          "stop_name": "Rajsko Kościół",
+          "platform": "1",
+          "file": "0654-oswiecim.html",
+          "departures": {
+            "workday": [
+              "05:05O",
+              "07:48O",
+              "11:14",
+              "12:59",
+              "15:04O",
+              "16:06",
+              "20:53",
+              "22:33"
+            ],
+            "saturday": [
+              "05:25O",
+              "06:32",
+              "11:06",
+              "14:27",
+              "16:32O",
+              "20:56"
+            ],
+            "sunday": [
+              "05:55O",
+              "08:58",
+              "12:34",
+              "15:55O",
+              "19:03"
+            ],
+            "holiday": [
+              "11:06",
+              "14:27",
+              "16:32O"
+            ]
+          }
+        },
+        {
+          "stop_id": "0655",
+          "stop_name": "Rajsko Pomnik",
+          "platform": "2",
+          "file": "0655-oswiecim.html",
+          "departures": {
+            "workday": [
+              "05:06O",
+              "07:49O",
+              "11:15",
+              "13:00",
+              "15:05O",
+              "16:07",
+              "20:54",
+              "22:34"
+            ],
+            "saturday": [
+              "05:26O",
+              "06:33",
+              "11:07",
+              "14:28",
+              "16:33O",
+              "20:57"
+            ],
+            "sunday": [
+              "05:56O",
+              "08:59",
+              "12:35",
+              "15:56O",
+              "19:04"
+            ],
+            "holiday": [
+              "11:07",
+              "14:28",
+              "16:33O"
+            ]
+          }
+        },
+        {
+          "stop_id": "0656",
+          "stop_name": "Rajsko Centrum",
+          "platform": "2",
+          "file": "0656-oswiecim.html",
+          "departures": {
+            "workday": [
+              "05:07O",
+              "07:50O",
+              "11:16",
+              "13:01",
+              "15:06O",
+              "16:08",
+              "20:55",
+              "22:35"
+            ],
+            "saturday": [
+              "05:27O",
+              "06:34",
+              "11:08",
+              "14:29",
+              "16:34O",
+              "20:58"
+            ],
+            "sunday": [
+              "05:57O",
+              "09:00",
+              "12:36",
+              "15:57O",
+              "19:05"
+            ],
+            "holiday": [
+              "11:08",
+              "14:29",
+              "16:34O"
+            ]
+          }
+        },
+        {
+          "stop_id": "0657",
+          "stop_name": "Rajsko Ogrody",
+          "platform": "2",
+          "file": "0657-oswiecim.html",
+          "departures": {
+            "workday": [
+              "05:08O",
+              "07:51O",
+              "11:17",
+              "13:02",
+              "15:07O",
+              "16:09",
+              "20:56",
+              "22:36"
+            ],
+            "saturday": [
+              "05:28O",
+              "06:35",
+              "11:09",
+              "14:30",
+              "16:35O",
+              "20:59"
+            ],
+            "sunday": [
+              "05:58O",
+              "09:01",
+              "12:37",
+              "15:58O",
+              "19:06"
+            ],
+            "holiday": [
+              "11:09",
+              "14:30",
+              "16:35O"
+            ]
+          }
+        },
+        {
+          "stop_id": "0658",
+          "stop_name": "Oświęcim Uczelnia",
+          "platform": "1",
+          "file": "0658-oswiecim.html",
+          "departures": {
+            "workday": [
+              "05:09O",
+              "07:52O",
+              "11:18",
+              "13:03",
+              "15:08O",
+              "16:10",
+              "20:57",
+              "22:37"
+            ],
+            "saturday": [
+              "05:29O",
+              "06:36",
+              "11:10",
+              "14:31",
+              "16:36O",
+              "21:00"
+            ],
+            "sunday": [
+              "05:59O",
+              "09:02",
+              "12:38",
+              "15:59O",
+              "19:07"
+            ],
+            "holiday": [
+              "11:10",
+              "14:31",
+              "16:36O"
+            ]
+          }
+        },
+        {
+          "stop_id": "0659",
+          "stop_name": "Oświęcim Leszczyńskiej Muzeum",
+          "platform": "2",
+          "file": "0659-oswiecim.html",
+          "departures": {
+            "workday": [
+              "05:10O",
+              "07:53O",
+              "11:19",
+              "13:04",
+              "15:09O",
+              "16:11",
+              "20:58",
+              "22:38"
+            ],
+            "saturday": [
+              "05:30O",
+              "06:37",
+              "11:11",
+              "14:32",
+              "16:37O",
+              "21:01"
+            ],
+            "sunday": [
+              "06:00O",
+              "09:03",
+              "12:39",
+              "16:00O",
+              "19:08"
+            ],
+            "holiday": [
+              "11:11",
+              "14:32",
+              "16:37O"
+            ]
+          }
+        },
+        {
+          "stop_id": "0660",
+          "stop_name": "Oświęcim Szkoła",
+          "platform": "1",
+          "file": "0660-oswiecim.html",
+          "departures": {
+            "workday": [
+              "05:11O",
+              "07:54O",
+              "11:20",
+              "13:05",
+              "15:10O",
+              "16:12",
+              "20:59",
+              "22:39"
+            ],
+            "saturday": [
+              "05:31O",
+              "06:38",
+              "11:12",
+              "14:33",
+              "16:38O",
+              "21:02"
+            ],
+            "sunday": [
+              "06:01O",
+              "09:04",
+              "12:40",
+              "16:01O",
+              "19:09"
+            ],
+            "holiday": [
+              "11:12",
+              "14:33",
+              "16:38O"
+            ]
+          }
+        },
+        {
+          "stop_id": "0661",
+          "stop_name": "Oświęcim MZK",
+          "platform": "2",
+          "file": "0661-oswiecim.html",
+          "departures": {
+            "workday": [
+              "05:12O",
+              "07:55O",
+              "11:21",
+              "13:06",
+              "15:11O",
+              "16:13",
+              "21:00",
+              "22:40"
+            ],
+            "saturday": [
+              "05:32O",
+              "06:39",
+              "11:13",
+              "14:34",
+              "16:39O",
+              "21:03"
+            ],
+            "sunday": [
+              "06:02O",
+              "09:05",
+              "12:41",
+              "16:02O",
+              "19:10"
+            ],
+            "holiday": [
+              "11:13",
+              "14:34",
+              "16:39O"
+            ]
+          }
+        },
+        {
+          "stop_id": "0662",
+          "stop_name": "Oświęcim Zasole Walcownia",
+          "platform": "2",
+          "file": "0662-oswiecim.html",
+          "departures": {
+            "workday": [
+              "05:14O",
+              "07:57O",
+              "11:23",
+              "13:08",
+              "15:13O",
+              "16:15",
+              "21:02",
+              "22:42"
+            ],
+            "saturday": [
+              "05:34O",
+              "06:41",
+              "11:15",
+              "14:36",
+              "16:41O",
+              "21:05"
+            ],
+            "sunday": [
+              "06:04O",
+              "09:07",
+              "12:43",
+              "16:04O",
+              "19:12"
+            ],
+            "holiday": [
+              "11:15",
+              "14:36",
+              "16:41O"
+            ]
+          }
+        },
+        {
+          "stop_id": "0663",
+          "stop_name": "Oświęcim Zasole I",
+          "platform": "1",
+          "file": "0663-oswiecim.html",
+          "departures": {
+            "workday": [
+              "05:15O",
+              "07:58O",
+              "11:24",
+              "13:09",
+              "15:14O",
+              "16:16",
+              "21:03",
+              "22:43"
+            ],
+            "saturday": [
+              "05:35O",
+              "06:42",
+              "11:16",
+              "14:37",
+              "16:42O",
+              "21:06"
+            ],
+            "sunday": [
+              "06:05O",
+              "09:08",
+              "12:44",
+              "16:05O",
+              "19:13"
+            ],
+            "holiday": [
+              "11:16",
+              "14:37",
+              "16:42O"
+            ]
+          }
+        },
+        {
+          "stop_id": "0664",
+          "stop_name": "Oświęcim Muzeum I",
+          "platform": "1",
+          "file": "0664-oswiecim.html",
+          "departures": {
+            "workday": [
+              "05:16O",
+              "07:59O",
+              "11:25",
+              "13:10",
+              "15:15O",
+              "16:17",
+              "21:04",
+              "22:44"
+            ],
+            "saturday": [
+              "05:36O",
+              "06:43",
+              "11:17",
+              "14:38",
+              "16:43O",
+              "21:07"
+            ],
+            "sunday": [
+              "06:06O",
+              "09:09",
+              "12:45",
+              "16:06O",
+              "19:14"
+            ],
+            "holiday": [
+              "11:17",
+              "14:38",
+              "16:43O"
+            ]
+          }
+        },
+        {
+          "stop_id": "0633",
+          "stop_name": "Oświęcim Park Zasole",
+          "platform": "0",
+          "file": "0633-oswiecim.html",
+          "departures": {
+            "workday": [
+              "05:17O",
+              "06:05",
+              "08:00O",
+              "08:28O",
+              "09:00O",
+              "09:46",
+              "11:26",
+              "13:11",
+              "15:16O",
+              "16:18",
+              "17:59",
+              "19:20",
+              "21:05",
+              "22:45"
+            ],
+            "saturday": [
+              "05:37O",
+              "06:44",
+              "08:30",
+              "09:56O",
+              "11:18",
+              "12:54",
+              "14:39",
+              "16:44O",
+              "17:32",
+              "19:13",
+              "21:08"
+            ],
+            "sunday": [
+              "06:07O",
+              "06:55",
+              "09:10",
+              "10:40",
+              "12:46",
+              "14:25",
+              "16:07O",
+              "17:25",
+              "19:15"
+            ],
+            "holiday": [
+              "09:56O",
+              "11:18",
+              "12:54",
+              "14:39",
+              "16:44O"
+            ]
+          }
+        },
+        {
+          "stop_id": "0665",
+          "stop_name": "Oświęcim Obozowa",
+          "platform": "2",
+          "file": "0665-oswiecim.html",
+          "departures": {
+            "workday": [
+              "05:19O",
+              "06:07",
+              "08:02O",
+              "08:30O",
+              "09:02O",
+              "09:48",
+              "11:28",
+              "13:13",
+              "15:18O",
+              "16:20",
+              "18:01",
+              "19:22",
+              "21:07",
+              "22:47"
+            ],
+            "saturday": [
+              "05:39O",
+              "06:46",
+              "08:32",
+              "09:58O",
+              "11:20",
+              "12:56",
+              "14:41",
+              "16:46O",
+              "17:34",
+              "19:15",
+              "21:10"
+            ],
+            "sunday": [
+              "06:09O",
+              "06:57",
+              "09:12",
+              "10:42",
+              "12:48",
+              "14:27",
+              "16:09O",
+              "17:27",
+              "19:17"
+            ],
+            "holiday": [
+              "09:58O",
+              "11:20",
+              "12:56",
+              "14:41",
+              "16:46O"
+            ]
+          }
+        },
+        {
+          "stop_id": "0666",
+          "stop_name": "Oświęcim Dworzec PKP",
+          "platform": "2",
+          "file": "0666-oswiecim.html",
+          "departures": {
+            "workday": [
+              "05:21O",
+              "06:09",
+              "08:04O",
+              "08:32O",
+              "09:04O",
+              "09:50",
+              "11:30",
+              "13:15",
+              "15:20O",
+              "16:22",
+              "18:03",
+              "19:24",
+              "21:09",
+              "22:49"
+            ],
+            "saturday": [
+              "05:41O",
+              "06:48",
+              "08:34",
+              "10:00O",
+              "11:22",
+              "12:58",
+              "14:43",
+              "16:48O",
+              "17:36",
+              "19:17",
+              "21:12"
+            ],
+            "sunday": [
+              "06:11O",
+              "06:59",
+              "09:14",
+              "10:44",
+              "12:50",
+              "14:29",
+              "16:11O",
+              "17:29",
+              "19:19"
+            ],
+            "holiday": [
+              "10:00O",
+              "11:22",
+              "12:58",
+              "14:43",
+              "16:48O"
+            ]
+          }
+        },
+        {
+          "stop_id": "0667",
+          "stop_name": "Oświęcim Niwa",
+          "platform": "2",
+          "file": "0667-oswiecim.html",
+          "departures": {
+            "workday": [
+              "05:23O",
+              "06:11",
+              "08:06O",
+              "08:34O",
+              "09:06O",
+              "09:52",
+              "11:32",
+              "13:17",
+              "15:22O",
+              "16:24",
+              "18:05",
+              "19:26",
+              "21:11",
+              "22:51"
+            ],
+            "saturday": [
+              "05:43O",
+              "06:50",
+              "08:36",
+              "10:02O",
+              "11:24",
+              "13:00",
+              "14:45",
+              "16:50O",
+              "17:38",
+              "19:19",
+              "21:14"
+            ],
+            "sunday": [
+              "06:13O",
+              "07:01",
+              "09:16",
+              "10:46",
+              "12:52",
+              "14:31",
+              "16:13O",
+              "17:31",
+              "19:21"
+            ],
+            "holiday": [
+              "10:02O",
+              "11:24",
+              "13:00",
+              "14:45",
+              "16:50O"
+            ]
+          }
+        },
+        {
+          "stop_id": "0668",
+          "stop_name": "Oświęcim Stacja BP",
+          "platform": "1",
+          "file": "0668-oswiecim.html",
+          "departures": {
+            "workday": [
+              "05:24O",
+              "06:12",
+              "08:07O",
+              "08:35O",
+              "09:07O",
+              "09:53",
+              "11:33",
+              "13:18",
+              "15:23O",
+              "16:25",
+              "18:06",
+              "19:27",
+              "21:12",
+              "22:52"
+            ],
+            "saturday": [
+              "05:44O",
+              "06:51",
+              "08:37",
+              "10:03O",
+              "11:25",
+              "13:01",
+              "14:46",
+              "16:51O",
+              "17:39",
+              "19:20",
+              "21:15"
+            ],
+            "sunday": [
+              "06:14O",
+              "07:02",
+              "09:17",
+              "10:47",
+              "12:53",
+              "14:32",
+              "16:14O",
+              "17:32",
+              "19:22"
+            ],
+            "holiday": [
+              "10:03O",
+              "11:25",
+              "13:01",
+              "14:46",
+              "16:51O"
+            ]
+          }
+        },
+        {
+          "stop_id": "0669",
+          "stop_name": "Oświęcim Dąbrowskiego Kościół",
+          "platform": "1",
+          "file": "0669-oswiecim.html",
+          "departures": {
+            "workday": [
+              "05:26O",
+              "06:14",
+              "08:09O",
+              "08:37O",
+              "09:09O",
+              "09:55",
+              "11:35",
+              "13:20",
+              "15:25O",
+              "16:27",
+              "18:08",
+              "19:29",
+              "21:14",
+              "22:54"
+            ],
+            "saturday": [
+              "05:46O",
+              "06:53",
+              "08:39",
+              "10:05O",
+              "11:27",
+              "13:03",
+              "14:48",
+              "16:53O",
+              "17:41",
+              "19:22",
+              "21:17"
+            ],
+            "sunday": [
+              "06:16O",
+              "07:04",
+              "09:19",
+              "10:49",
+              "12:55",
+              "14:34",
+              "16:16O",
+              "17:34",
+              "19:24"
+            ],
+            "holiday": [
+              "10:05O",
+              "11:27",
+              "13:03",
+              "14:48",
+              "16:53O"
+            ]
+          }
+        },
+        {
+          "stop_id": "0670",
+          "stop_name": "Oświęcim Dąbrowskiego Cmentarz",
+          "platform": "0",
+          "file": "0670-oswiecim.html",
+          "departures": {
+            "workday": [
+              "06:15",
+              "09:56",
+              "11:36",
+              "13:21",
+              "16:28",
+              "18:09",
+              "19:30",
+              "21:15",
+              "22:55"
+            ],
+            "saturday": [
+              "06:54",
+              "08:40",
+              "11:28",
+              "13:04",
+              "14:49",
+              "17:42",
+              "19:23",
+              "21:18"
+            ],
+            "sunday": [
+              "07:05",
+              "09:20",
+              "10:50",
+              "12:56",
+              "14:35",
+              "17:35",
+              "19:25"
+            ],
+            "holiday": [
+              "11:28",
+              "13:04",
+              "14:49"
+            ]
+          }
+        },
+        {
+          "stop_id": "0671",
+          "stop_name": "Oświęcim Szpital",
+          "platform": "1",
+          "file": "0671-oswiecim.html",
+          "departures": {
+            "workday": [
+              "06:17",
+              "09:58",
+              "11:38",
+              "13:23",
+              "16:30",
+              "18:11",
+              "19:32",
+              "21:17",
+              "22:57"
+            ],
+            "saturday": [
+              "06:56",
+              "08:42",
+              "11:30",
+              "13:06",
+              "14:51",
+              "17:44",
+              "19:25",
+              "21:20"
+            ],
+            "sunday": [
+              "07:07",
+              "09:22",
+              "10:52",
+              "12:58",
+              "14:37",
+              "17:37",
+              "19:27"
+            ],
+            "holiday": [
+              "11:30",
+              "13:06",
+              "14:51"
+            ]
+          }
+        },
+        {
+          "stop_id": "0672",
+          "stop_name": "Oświęcim Bakutil",
+          "platform": "2",
+          "file": "0672-oswiecim.html",
+          "departures": {
+            "workday": [
+              "06:19",
+              "10:00",
+              "11:40",
+              "13:25",
+              "16:32",
+              "18:13",
+              "19:34",
+              "21:19",
+              "22:59"
+            ],
+            "saturday": [
+              "06:58",
+              "08:44",
+              "11:32",
+              "13:08",
+              "14:53",
+              "17:46",
+              "19:27",
+              "21:22"
+            ],
+            "sunday": [
+              "07:09",
+              "09:24",
+              "10:54",
+              "13:00",
+              "14:39",
+              "17:39",
+              "19:29"
+            ],
+            "holiday": [
+              "11:32",
+              "13:08",
+              "14:53"
+            ]
+          }
+        },
+        {
+          "stop_id": "0673",
+          "stop_name": "Oświęcim Szpitalna Osiedle",
+          "platform": "2",
+          "file": "0673-oswiecim.html",
+          "departures": {
+            "workday": [
+              "06:22",
+              "10:03",
+              "11:43",
+              "13:28",
+              "16:35",
+              "18:16",
+              "19:37",
+              "21:22",
+              "23:02"
+            ],
+            "saturday": [
+              "07:01",
+              "08:47",
+              "11:35",
+              "13:11",
+              "14:56",
+              "17:49",
+              "19:30",
+              "21:25"
+            ],
+            "sunday": [
+              "07:12",
+              "09:27",
+              "10:57",
+              "13:03",
+              "14:42",
+              "17:42",
+              "19:32"
+            ],
+            "holiday": [
+              "11:35",
+              "13:11",
+              "14:56"
+            ]
+          }
+        },
+        {
+          "stop_id": "0674",
+          "stop_name": "Oświęcim Osiedle OCK",
+          "platform": "2",
+          "file": "0674-oswiecim.html",
+          "departures": {
+            "workday": [
+              "06:24",
+              "10:05",
+              "11:45",
+              "13:30",
+              "16:37",
+              "18:18",
+              "19:39",
+              "21:24",
+              "23:04"
+            ],
+            "saturday": [
+              "07:03",
+              "08:49",
+              "11:37",
+              "13:13",
+              "14:58",
+              "17:51",
+              "19:32",
+              "21:27"
+            ],
+            "sunday": [
+              "07:14",
+              "09:29",
+              "10:59",
+              "13:05",
+              "14:44",
+              "17:44",
+              "19:34"
+            ],
+            "holiday": [
+              "11:37",
+              "13:13",
+              "14:58"
+            ]
+          }
+        },
+        {
+          "stop_id": "0675",
+          "stop_name": "Oświęcim Technikum Chemiczne",
+          "platform": "1",
+          "file": "0675-oswiecim.html",
+          "departures": {
+            "workday": [
+              "06:26",
+              "10:07",
+              "11:47",
+              "13:32",
+              "16:39",
+              "18:20",
+              "19:41",
+              "21:26",
+              "23:06"
+            ],
+            "saturday": [
+              "07:05",
+              "08:51",
+              "11:39",
+              "13:15",
+              "15:00",
+              "17:53",
+              "19:34",
+              "21:29"
+            ],
+            "sunday": [
+              "07:16",
+              "09:31",
+              "11:01",
+              "13:07",
+              "14:46",
+              "17:46",
+              "19:36"
+            ],
+            "holiday": [
+              "11:39",
+              "13:15",
+              "15:00"
+            ]
+          }
+        },
+        {
+          "stop_id": "0676",
+          "stop_name": "Oświęcim Lodowisko",
+          "platform": "2",
+          "file": "0676-oswiecim.html",
+          "departures": {
+            "workday": [
+              "06:28",
+              "10:09",
+              "11:49",
+              "13:34",
+              "16:41",
+              "18:22",
+              "19:43",
+              "21:28",
+              "23:08"
+            ],
+            "saturday": [
+              "07:07",
+              "08:53",
+              "11:41",
+              "13:17",
+              "15:02",
+              "17:55",
+              "19:36",
+              "21:31"
+            ],
+            "sunday": [
+              "07:18",
+              "09:33",
+              "11:03",
+              "13:09",
+              "14:48",
+              "17:48",
+              "19:38"
+            ],
+            "holiday": [
+              "11:41",
+              "13:17",
+              "15:02"
+            ]
+          }
+        },
+        {
+          "stop_id": "0677",
+          "stop_name": "Oświęcim Zwycięstwa",
+          "platform": "1",
+          "file": "0677-oswiecim.html",
+          "departures": {
+            "workday": [
+              "06:29",
+              "10:10",
+              "11:50",
+              "13:35",
+              "16:42",
+              "18:23",
+              "19:44",
+              "21:29",
+              "23:09"
+            ],
+            "saturday": [
+              "07:08",
+              "08:54",
+              "11:42",
+              "13:18",
+              "15:03",
+              "17:56",
+              "19:37",
+              "21:32"
+            ],
+            "sunday": [
+              "07:19",
+              "09:34",
+              "11:04",
+              "13:10",
+              "14:49",
+              "17:49",
+              "19:39"
+            ],
+            "holiday": [
+              "11:42",
+              "13:18",
+              "15:03"
+            ]
+          }
+        },
+        {
+          "stop_id": "0678",
+          "stop_name": "Oświęcim Cichy Kącik",
+          "platform": "1",
+          "file": "0678-oswiecim.html",
+          "departures": {
+            "workday": [
+              "06:30",
+              "10:11",
+              "11:51",
+              "13:36",
+              "16:43",
+              "18:24",
+              "19:45",
+              "21:30",
+              "23:10"
+            ],
+            "saturday": [
+              "07:09",
+              "08:55",
+              "11:43",
+              "13:19",
+              "15:04",
+              "17:57",
+              "19:38",
+              "21:33"
+            ],
+            "sunday": [
+              "07:20",
+              "09:35",
+              "11:05",
+              "13:11",
+              "14:50",
+              "17:50",
+              "19:40"
+            ],
+            "holiday": [
+              "11:43",
+              "13:19",
+              "15:04"
+            ]
+          }
+        },
+        {
+          "stop_id": "0679",
+          "stop_name": "Oświęcim Spółdzielnia",
+          "platform": "1",
+          "file": "0679-oswiecim.html",
+          "departures": {
+            "workday": [
+              "06:31",
+              "10:12",
+              "11:52",
+              "13:37",
+              "16:44",
+              "18:25",
+              "19:46",
+              "21:31",
+              "23:11"
+            ],
+            "saturday": [
+              "07:10",
+              "08:56",
+              "11:44",
+              "13:20",
+              "15:05",
+              "17:58",
+              "19:39",
+              "21:34"
+            ],
+            "sunday": [
+              "07:21",
+              "09:36",
+              "11:06",
+              "13:12",
+              "14:51",
+              "17:51",
+              "19:41"
+            ],
+            "holiday": [
+              "11:44",
+              "13:20",
+              "15:05"
+            ]
+          }
+        },
+        {
+          "stop_id": "0680",
+          "stop_name": "Oświęcim SKR",
+          "platform": "2",
+          "file": "0680-oswiecim.html",
+          "departures": {
+            "workday": [
+              "06:32",
+              "10:13",
+              "11:53",
+              "13:38",
+              "16:45",
+              "18:26",
+              "19:47",
+              "21:32",
+              "23:12"
+            ],
+            "saturday": [
+              "07:11",
+              "08:57",
+              "11:45",
+              "13:21",
+              "15:06",
+              "17:59",
+              "19:40",
+              "21:35"
+            ],
+            "sunday": [
+              "07:22",
+              "09:37",
+              "11:07",
+              "13:13",
+              "14:52",
+              "17:52",
+              "19:42"
+            ],
+            "holiday": [
+              "11:45",
+              "13:21",
+              "15:06"
+            ]
+          }
+        },
+        {
+          "stop_id": "0616",
+          "stop_name": "Oświęcim Dwory Pętla",
+          "platform": "1",
+          "file": "0616-oswiecim.html",
+          "departures": {
+            "workday": [
+              "06:33",
+              "10:14",
+              "11:54",
+              "13:39",
+              "16:46",
+              "18:27",
+              "19:48",
+              "21:33",
+              "23:13"
+            ],
+            "saturday": [
+              "07:12",
+              "08:58",
+              "11:46",
+              "13:22",
+              "15:07",
+              "18:00",
+              "19:41",
+              "21:36"
+            ],
+            "sunday": [
+              "07:23",
+              "09:38",
+              "11:08",
+              "13:14",
+              "14:53",
+              "17:53",
+              "19:43"
+            ],
+            "holiday": [
+              "11:46",
+              "13:22",
+              "15:07"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
