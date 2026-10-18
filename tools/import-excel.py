@@ -237,6 +237,23 @@ def import_file(file: Path, known_stops: dict, config: dict):
         unique_ids = list(dict.fromkeys(ids))
         if not re.fullmatch(r"[a-z0-9-]+", slug):
             raise ValueError(f"Niepoprawny slug: {slug}")
+        # Okrężne trasy: informacyjny kierunek może zmieniać się po drodze.
+        # Konfiguracja jest osobna dla każdego rzeczywistego kierunku jazdy.
+        segments = spec.get("direction_segments", [])
+        if not isinstance(segments, list):
+            raise ValueError(f"Kierunek {direction_no}: direction_segments musi być listą")
+        if segments:
+            positions = {sid: i for i, sid in enumerate(unique_ids)}
+            starts = []
+            for segment in segments:
+                if not isinstance(segment, dict) or not isinstance(segment.get("name"), str) or not segment["name"].strip():
+                    raise ValueError(f"Kierunek {direction_no}: brak nazwy kierunku informacyjnego")
+                sid = segment.get("from_stop_id")
+                if sid not in positions:
+                    raise ValueError(f"Kierunek {direction_no}: nieznany przystanek graniczny {sid!r}")
+                starts.append(positions[sid])
+            if starts[0] != 0 or starts != sorted(set(starts)):
+                raise ValueError(f"Kierunek {direction_no}: segmenty muszą zaczynać się od pierwszego przystanku i być uporządkowane")
         route_stops = []
         timetables = []
         for sid in unique_ids:
@@ -273,6 +290,7 @@ def import_file(file: Path, known_stops: dict, config: dict):
             "slug": slug, "name": spec["name"],
             "variant_destinations": spec.get("variant_destinations", {}),
             "legend": spec.get("legend", {}),
+            **({"direction_segments": segments} if segments else {}),
             "route_stops": route_stops,
             "timetables": timetables,
         })

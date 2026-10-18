@@ -1,0 +1,18 @@
+{
+  "directions": {
+    "1": {
+      "slug": "okrezna",
+      "name": "Chrzanów Dworzec Autobusowy",
+      "direction_segments": [
+        {
+          "from_stop_id": "0684",
+          "name": "Chrzanów Fablok"
+        },
+        {
+          "from_stop_id": "0682",
+          "name": "Chrzanów Dworzec Autobusowy"
+        }
+      ]
+    }
+  }
+}
