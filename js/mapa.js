@@ -96,7 +96,17 @@ const stopFiles = [
   'data/stops/klucze.geojson',
   'data/stops/krzeszowice.geojson',
   'data/stops/libiaz.geojson',
-  'data/stops/olkusz.geojson'
+  'data/stops/olkusz.geojson',
+  'data/stops/osiek.geojson',
+  'data/stops/oswiecim.geojson',
+  'data/stops/polanka-wielka.geojson',
+  'data/stops/przeciszow.geojson',
+  'data/stops/slawkow.geojson',
+  'data/stops/sosnowiec.geojson',
+  'data/stops/spytkowice.geojson',
+  'data/stops/suloszowa-skala.geojson',
+  'data/stops/trzebinia.geojson',
+  'data/stops/wolbrom.geojson'
 ];
 
 const panel = document.getElementById("stop-panel");
