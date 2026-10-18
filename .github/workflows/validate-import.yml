@@ -8,6 +8,7 @@ on:
       - 'data/stops/**'
       - 'tools/import-excel.py'
       - 'tools/check-line5.py'
+      - 'tools/check-line6.py'
       - 'tools/test-import-excel.py'
       - 'tools/generate-rozklady.py'
       - '.github/workflows/validate-import.yml'
@@ -26,6 +27,8 @@ jobs:
         run: python tools/check-line5.py
       - name: Test stop label parsing
         run: python tools/test-import-excel.py
+      - name: Validate line 6 data
+        run: python tools/check-line6.py
       - name: Verify importer syntax
         run: python -m py_compile tools/import-excel.py
       - name: Generate HTML and stop departures (without committing)
@@ -36,4 +39,8 @@ jobs:
           test -f rozklady/5/0466-slawkow.html
           test -f data/odjazdy/0465.json
           test -f przystanki/0465.html
+          test -f rozklady/6/0633-wilczkowice.html
+          test -f rozklady/6/0669-oswiecim.html
+          test -f data/odjazdy/0633.json
+          test -f przystanki/0669.html
           echo "Line 5 output exists"
