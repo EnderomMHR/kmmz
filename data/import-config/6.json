@@ -1,0 +1,36 @@
+{
+  "directions": {
+    "1": {
+      "slug": "wilczkowice",
+      "name": "Wilczkowice Pętla",
+      "variant_symbols": {
+        "0": "",
+        "1": "Z",
+        "2": "",
+        "3": "Z"
+      },
+      "variant_destinations": {
+        "Z": "Oświęcim Park Zasole"
+      },
+      "legend": {
+        "Z": "do: Oświęcim Park Zasole"
+      }
+    },
+    "2": {
+      "slug": "oswiecim",
+      "name": "Oświęcim Dwory Pętla",
+      "variant_symbols": {
+        "0": "",
+        "1": "O",
+        "2": "O",
+        "3": ""
+      },
+      "variant_destinations": {
+        "O": "Oświęcim Dąbrowskiego Kościół"
+      },
+      "legend": {
+        "O": "do: Oświęcim Dąbrowskiego Kościół"
+      }
+    }
+  }
+}
