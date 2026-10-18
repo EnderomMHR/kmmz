@@ -8,6 +8,7 @@ on:
       - 'data/stops/**'
       - 'tools/import-excel.py'
       - 'tools/check-line5.py'
+      - 'tools/test-import-excel.py'
       - 'tools/generate-rozklady.py'
       - '.github/workflows/validate-import.yml'
   workflow_dispatch:
@@ -23,6 +24,8 @@ jobs:
           python-version: '3.x'
       - name: Validate line 5 data
         run: python tools/check-line5.py
+      - name: Test stop label parsing
+        run: python tools/test-import-excel.py
       - name: Verify importer syntax
         run: python -m py_compile tools/import-excel.py
       - name: Generate HTML and stop departures (without committing)
