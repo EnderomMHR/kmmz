@@ -51,6 +51,8 @@ jobs:
           test -f przystanki/0669.html
           test -f rozklady/7/0684-okrezna.html
           test -f rozklady/7/0334-okrezna.html
+          grep -Fq '<div class="route-title">Kierunek: Chrzanów Fablok</div>' rozklady/7/0681-okrezna.html
+          grep -Fq '<div class="route-title">Kierunek: Chrzanów Dworzec Autobusowy</div>' rozklady/7/0682-okrezna.html
           test -f data/odjazdy/0684.json
           test -f przystanki/0684.html
           echo "Lines 5, 6 and 7 output exists"
