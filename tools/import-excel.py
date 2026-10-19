@@ -16,6 +16,7 @@ import re
 import sys
 import unicodedata
 from collections import defaultdict
+from heapq import heappop, heappush
 from pathlib import Path
 from xml.etree import ElementTree as ET
 from zipfile import ZipFile
@@ -131,6 +132,80 @@ def metadata():
     return stops
 
 
+def infer_variant_patterns(trips):
+    """Jeden wariant może mieć wiele początków, ale wspólną trasę i koniec.
+
+    Wszystkie kursy wariantu muszą być końcowymi fragmentami najdłuższego
+    przebiegu tego wariantu. Inny przebieg, pominięte przystanki po drodze
+    albo inny koniec wymagają osobnego kodu wariantu w ID kursu.
+    """
+    groups = defaultdict(list)
+    for trip in trips:
+        groups[trip["route_pattern_id"]].append(trip)
+
+    patterns = {}
+    for pattern_id, courses in groups.items():
+        longest = max(courses, key=lambda t: len(t["stop_times"]))
+        canonical = [s["stop_id"] for s in longest["stop_times"]]
+        for trip in courses:
+            sequence = [s["stop_id"] for s in trip["stop_times"]]
+            if len(set(sequence)) != len(sequence):
+                raise ValueError(f"{trip['trip_id']}: powtórzony przystanek w kursie")
+            if sequence != canonical[-len(sequence):]:
+                raise ValueError(
+                    f"{trip['trip_id']}: wariant {trip['variant']} nie jest tą samą "
+                    "trasą z przesuniętym początkiem; inny koniec, objazd "
+                    "lub pominięcie przystanków wymaga osobnego numeru wariantu"
+                )
+        patterns[pattern_id] = {
+            "route_pattern_id": pattern_id,
+            "direction": longest["direction"],
+            "variant": longest["variant"],
+            "stop_ids": canonical,
+        }
+    return patterns
+
+
+def merge_direction_stops(routes):
+    """Łączy kolejność przystanków wielu bloków niezależnie od ich początku.
+
+    Wcześniejszy import brał kolejność pierwszego napotkanego bloku; jeśli
+    ten zaczynał się później, początek pełnej trasy trafiał błędnie na koniec.
+    """
+    positions = {}
+    edges = defaultdict(set)
+    indegrees = defaultdict(int)
+    for route in routes:
+        for stop_id in route:
+            if stop_id not in positions:
+                positions[stop_id] = len(positions)
+            indegrees.setdefault(stop_id, 0)
+        for before, after in zip(route, route[1:]):
+            if after not in edges[before]:
+                edges[before].add(after)
+                indegrees[after] += 1
+
+    available = []
+    for stop_id, degree in indegrees.items():
+        if degree == 0:
+            heappush(available, (positions[stop_id], stop_id))
+    ordered = []
+    while available:
+        _, stop_id = heappop(available)
+        ordered.append(stop_id)
+        for next_id in edges[stop_id]:
+            indegrees[next_id] -= 1
+            if indegrees[next_id] == 0:
+                heappush(available, (positions[next_id], next_id))
+
+    if len(ordered) != len(positions):
+        raise ValueError(
+            "Niespójna kolejność przystanków w blokach tego samego kierunku "
+            "(np. odwrócona trasa albo powtórzony przystanek)"
+        )
+    return ordered
+
+
 def import_file(file: Path, known_stops: dict, config: dict):
     rows = read_arkusz1(file)
     header_indices = [i for i, (_, cells) in enumerate(rows)
@@ -139,7 +214,6 @@ def import_file(file: Path, known_stops: dict, config: dict):
         raise ValueError(f"{file.name}: nie odnaleziono wiersza ID KURSU")
 
     trips = []
-    patterns = {}
     directions = {}
     warnings = []
     line_number = None
@@ -183,7 +257,6 @@ def import_file(file: Path, known_stops: dict, config: dict):
             if sid in block_stops:
                 raise ValueError(f"Wiersz {stop_row}: powtórzony ID przystanku {sid} w jednym kierunku")
             block_stops.append(sid)
-            direction.append(sid)
             canonical = known_stops[sid]["stop_name"]
             platform = known_stops[sid]["platform"]
             sheet_clean = re.sub(r"\\s*\\((\\d+)\\)\\s*$", "", sheet_name).strip()
@@ -205,6 +278,7 @@ def import_file(file: Path, known_stops: dict, config: dict):
                 })
         if not block_stops:
             raise ValueError(f"Wiersz {row_no}: brak przystanków")
+        direction.append(block_stops)
         for trip in columns.values():
             times = trip["stop_times"]
             if not times:
@@ -213,28 +287,19 @@ def import_file(file: Path, known_stops: dict, config: dict):
                    int(a["time"][:2]) * 60 + int(a["time"][3:])
                    for a, b in zip(times, times[1:])):
                 raise ValueError(f"{trip['trip_id']}: czas cofa się; wymaga sprawdzenia lub obsługi północy")
-            key = trip["route_pattern_id"]
-            sequence = [t["stop_id"] for t in times]
-            if key in patterns and patterns[key]["stop_ids"] != sequence:
-                raise ValueError(f"{trip['trip_id']}: ten sam kod wariantu ma inną trasę")
-            patterns[key] = {
-                "route_pattern_id": key,
-                "direction": trip["direction"],
-                "variant": trip["variant"],
-                "stop_ids": sequence,
-            }
             trips.append(trip)
 
     if not line_number:
         raise ValueError(f"{file.name}: brak kursów")
+    patterns = infer_variant_patterns(trips)
     cfg = config.get("directions", {})
     timetable_directions = []
-    for direction_no, ids in sorted(directions.items()):
+    for direction_no, routes in sorted(directions.items()):
         spec = cfg.get(str(direction_no))
         if not spec or not spec.get("slug") or not spec.get("name"):
             raise ValueError(f"Brak konfiguracji kierunku {direction_no} w data/import-config/{line_number}.json")
         slug = spec["slug"]
-        unique_ids = list(dict.fromkeys(ids))
+        unique_ids = merge_direction_stops(routes)
         if not re.fullmatch(r"[a-z0-9-]+", slug):
             raise ValueError(f"Niepoprawny slug: {slug}")
         # Okrężne trasy: informacyjny kierunek może zmieniać się po drodze.
@@ -307,7 +372,7 @@ def import_file(file: Path, known_stops: dict, config: dict):
         "trips": trips,
     }
     print(f"Linia {line_number}: {len(trips)} kursów, {sum(len(t['stop_times']) for t in trips)} czasów, "
-          f"{len(set(s for ids in directions.values() for s in ids))} ID przystanków")
+          f"{len(set(s for routes in directions.values() for route in routes for s in route))} ID przystanków")
     for warning in sorted(set(warnings)):
         print("UWAGA - nazwa przystanku:", warning, file=sys.stderr)
     return line_number, result, trips_result
