@@ -25,6 +25,46 @@ Import opiera się na ID kursów, a nie stałej kolumnie. Minuty pomocnicze poza
 
 `SW` wymaga dalszego ustalenia zasad kalendarzowych na stronie. Importer przenosi oznaczenia dni, lecz sam nie rozstrzyga, które daty podlegają poszczególnym regułom.
 
+## Kiedy nadać nowy numer wariantu w ID kursu?
+
+**Nie trzeba tworzyć wariantu tylko dlatego, że kurs zaczyna wcześniej lub
+później na tej samej trasie.** Dla kursów o wspólnym końcu i identycznym
+przebiegu dalszej trasy można użyć tego samego kodu wariantu (np. `0`).
+
+Przykład: oba kursy mogą mieć wariant `0`:
+
+- `008-1-0-R-01`: A → B → C → D (pełna trasa)
+- `008-1-0-R-02`: B → C → D (ten sam wariant, późniejszy początek)
+
+Konwerter identyfikuje wzorcowy przebieg wariantu na podstawie najdłuższego
+kursu. Krótszy kurs musi być **ciągłym końcowym fragmentem** tego przebiegu
+(tzw. suffix), z tym samym przystankiem końcowym. Dzięki temu mogą występować
+różne przystanki początkowe; w `data/trips/NNN.json` poszczególne kursy
+zachowują rzeczywiste początki, a tabela rozkładowa zawiera tylko godziny
+tych kursów, które faktycznie obsługują dany przystanek.
+
+**Osobny kod wariantu nadal jest potrzebny**, kiedy:
+- kurs kończy jazdę na innym przystanku (wcześniej lub dalej);
+- kurs jedzie innymi ulicami/przystankami albo pomija przystanek pośrodku
+  wzorcowego przebiegu;
+- dodatkowy początek to w istocie inna odnoga (nie przedłużenie tej samej trasy).
+
+Przykładowe błędy, jeśli oba kursy mają kod `0`: `A → B → C → D`
+oraz `A → B → C` (inna końcówka) lub `A → X → C → D` (inna trasa).
+Importer wstrzyma się z czytelnym komunikatem, zamiast błędnie połączyć
+dwa różne przebiegi.
+
+**Litery w rozkładach** (`Z`, `O` itd.) pozostają przypisane przez
+`variant_symbols` w `data/import-config/NNN.json`. Zmiana miejsca
+rozpoczęcia kursu **nie zmienia litery**, jeżeli kod wariantu pozostaje ten sam.
+Kursy kończące się na przystanku końcowym nadal nie pokazują tam fikcyjnego
+odjazdu.
+
+Excel nadal wymaga części wariantu w ID kursu, np. `008-1-0-R-02`,
+ale możesz używać **tego samego numeru** dla różnych początków. Konwerter
+nie nadaje automatycznie nowych numerów ani nie zgaduje, jaka litera ma
+oznaczać zmienioną trasę.
+
 ## Kierunki informacyjne linii okrężnych
 
 Faktyczny kierunek jazdy (kolumna w Excelu, `direction` w `trips`) pozostaje bez zmian.
@@ -55,7 +95,7 @@ Przykład linii 7 (faktycznie **jeden** kierunek jazdy):
 ## Ograniczenia pierwszej wersji
 - Importer wymaga uprzednio nadanych ID kursów i ID przystanków oraz konfiguracji każdego nowego numeru linii.
 - Kursy przechodzące przez północ lub powtarzające ten sam ID przystanku w jednym kierunku wymagają osobnej obsługi.
-- Dodatkowe warianty tras i skrócenia kursów wymagają dalszych testów, zwłaszcza gdy kilka wariantów dzieli jeden kierunek.
+- Odmienne przebiegi i skrócenia końca kursu wymagają osobnych kodów wariantów i konfiguracji oznaczeń pasażerskich; zmienne początki tej samej trasy są obsługiwane.
 - Excel opisuje kolejność przystanków i czasy, a nie geometrię dróg; nie generujemy na jego podstawie fikcyjnych tras ulicznych.
 - Wersja próbna nie zastępuje generatora HTML i nie publikuje automatycznie XLSX; obecny mechanizm GitHub Actions nadal reaguje na JSON-y.
 
