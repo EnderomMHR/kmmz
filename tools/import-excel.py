@@ -166,6 +166,38 @@ def infer_variant_patterns(trips):
     return patterns
 
 
+def align_route_positions(block_stops, merged_stops):
+    """Find ordered occurrences for one Excel block in the direction route.
+
+    The same stop_id can occur several times. Match whole block, not
+    individual physical IDs; prefer the tightest full subsequence.
+    """
+    candidates = []
+    for first in range(len(merged_stops)):
+        if merged_stops[first] != block_stops[0]:
+            continue
+        positions = [first]
+        next_position = first + 1
+        for sid in block_stops[1:]:
+            while (next_position < len(merged_stops)
+                   and merged_stops[next_position] != sid):
+                next_position += 1
+            if next_position == len(merged_stops):
+                break
+            positions.append(next_position)
+            next_position += 1
+        if len(positions) == len(block_stops):
+            candidates.append(positions)
+    if not candidates:
+        raise ValueError("Nie można dopasować pozycji bloku Excel do trasy kierunku")
+    candidates.sort(key=lambda pos: (pos[-1] - pos[0], pos[0]))
+    if (len(candidates) > 1
+            and candidates[0][-1] - candidates[0][0] == candidates[1][-1] - candidates[1][0]
+            and candidates[0] != candidates[1]):
+        raise ValueError("Niejednoznaczne wystąpienia przystanków w blokach Excel")
+    return candidates[0]
+
+
 def merge_direction_stops(routes):
     """Łączy przebiegi z zachowaniem kolejnych *wystąpień* przystanku.
 
@@ -231,6 +263,7 @@ def import_file(file: Path, known_stops: dict, config: dict):
         raise ValueError(f"{file.name}: nie odnaleziono wiersza ID KURSU")
 
     trips = []
+    trip_blocks = {}
     directions = {}
     warnings = []
     line_number = None
@@ -276,10 +309,10 @@ def import_file(file: Path, known_stops: dict, config: dict):
             block_stops.append(sid)
             canonical = known_stops[sid]["stop_name"]
             platform = known_stops[sid]["platform"]
-            sheet_clean = re.sub(r"\\s*\\((\\d+)\\)\\s*$", "", sheet_name).strip()
+            sheet_clean = re.sub(r"\s*\((\d+)\)\s*$", "", sheet_name).strip()
             if canonical.casefold() != sheet_clean.casefold():
                 warnings.append(f"{sid}: Excel={sheet_clean!r}, GeoJSON={canonical!r}")
-            sheet_platform = re.search(r"\\((\\d+)\\)\\s*$", sheet_name)
+            sheet_platform = re.search(r"\((\d+)\)\s*$", sheet_name)
             if sheet_platform and sheet_platform.group(1) != platform:
                 raise ValueError(f"Wiersz {stop_row}: przystanek {sid} ma peron "
                                  f"{sheet_platform.group(1)} w Excelu, a {platform} w GeoJSON")
@@ -304,6 +337,7 @@ def import_file(file: Path, known_stops: dict, config: dict):
                    int(a["time"][:2]) * 60 + int(a["time"][3:])
                    for a, b in zip(times, times[1:])):
                 raise ValueError(f"{trip['trip_id']}: czas cofa się; wymaga sprawdzenia lub obsługi północy")
+            trip_blocks[trip["trip_id"]] = (direction_no, len(direction) - 1)
             trips.append(trip)
 
     if not line_number:
@@ -325,7 +359,7 @@ def import_file(file: Path, known_stops: dict, config: dict):
         if not isinstance(segments, list):
             raise ValueError(f"Kierunek {direction_no}: direction_segments musi być listą")
         if segments:
-            positions = {sid: i for i, sid in enumerate(unique_ids)}
+            positions = {sid: unique_ids.index(sid) for sid in unique_ids}
             starts = []
             for segment in segments:
                 if not isinstance(segment, dict) or not isinstance(segment.get("name"), str) or not segment["name"].strip():
@@ -336,20 +370,55 @@ def import_file(file: Path, known_stops: dict, config: dict):
                 starts.append(positions[sid])
             if starts[0] != 0 or starts != sorted(set(starts)):
                 raise ValueError(f"Kierunek {direction_no}: segmenty muszą zaczynać się od pierwszego przystanku i być uporządkowane")
+        # Each Excel row occurrence becomes an independent timetable page.
+        # A physical stop_id (e.g. 0001) can have departures on its
+        # first and second visits. terminal arrivals are never departures.
+        block_mappings = {
+            block_no: align_route_positions(block_stops, unique_ids)
+            for block_no, block_stops in enumerate(routes)
+        }
+        associated = [t for t in trips if t["direction"] == direction_no]
+        symbolic_starts = spec.get("variant_symbol_starts", {})
+        symbol_start_positions = {}
+        for variant, start_sid in symbolic_starts.items():
+            if start_sid not in unique_ids:
+                raise ValueError(
+                    f"Kierunek {direction_no}: brak granicznego przystanku {start_sid}"
+                )
+            symbol_start_positions[variant] = unique_ids.index(start_sid)
+
+        visits = defaultdict(lambda: defaultdict(list))
+        arrivals = set()
+        for trip in associated:
+            _, block_no = trip_blocks[trip["trip_id"]]
+            route_mapping = block_mappings[block_no]
+            for seq_idx, stop_time in enumerate(trip["stop_times"]):
+                index = route_mapping[stop_time["stop_sequence"] - 1]
+                if seq_idx == len(trip["stop_times"]) - 1:
+                    arrivals.add(index)
+                    continue  # final arrival, irrespective of stop_id
+                symbol = spec.get("variant_symbols", {}).get(trip["variant"], "")
+                if symbol and not re.fullmatch(r"[A-Za-zĄĆĘŁŃÓŚŹŻ]", symbol):
+                    raise ValueError(f"Niepoprawny symbol dla {trip['variant']}: {symbol!r}")
+                if index < symbol_start_positions.get(trip["variant"], 0):
+                    symbol = ""
+                for day in DAYS[trip["service_code"]]:
+                    visits[index][day].append(stop_time["time"] + symbol)
+
         route_stops = []
         timetables = []
-        timetable_stop_ids = set()
+        occurrence_counts = defaultdict(int)
         for position, sid in enumerate(unique_ids):
             stop = known_stops[sid]
-            # Powrót na przystanek początkowy na końcu pętli to przyjazd,
-            # a nie kolejna wizyta odjazdowa. Dostaje osobny URL; ID GeoJSON
-            # pozostaje bez zmian, podobnie jak fizyczna strona przystanku.
-            terminal_revisit = (
-                position == len(unique_ids) - 1 and sid in timetable_stop_ids
-            )
-            page = (f"{sid}-{slug}-koniec.html" if terminal_revisit
-                    else f"{sid}-{slug}.html")
-            associated = [t for t in trips if t["direction"] == direction_no]
+            occurrence_counts[sid] += 1
+            occurrence = occurrence_counts[sid]
+            if occurrence == 1:
+                page = f"{sid}-{slug}.html"
+            elif position == len(unique_ids) - 1:
+                page = f"{sid}-{slug}-koniec.html"
+            else:
+                suffix = "ponownie" if occurrence == 2 else f"ponownie-{occurrence}"
+                page = f"{sid}-{slug}-{suffix}.html"
             route = {
                 "stop_id": sid, "stop_name": stop["stop_name"],
                 "platform": stop["platform"], "file": page,
@@ -357,36 +426,15 @@ def import_file(file: Path, known_stops: dict, config: dict):
             if sid in spec.get("variant_stops", []):
                 route["variant"] = True
             route_stops.append(route)
-            # Zachowujemy każde wystąpienie w przebiegu trasy, lecz
-            # generujemy tylko jeden rozkład dla fizycznego przystanku.
-            if sid in timetable_stop_ids:
-                if terminal_revisit:
-                    timetables.append({
-                        "stop_id": sid, "stop_name": stop["stop_name"],
-                        "platform": stop["platform"], "file": page,
-                        "arrival_only": True, "departures": {},
-                    })
-                continue
-            timetable_stop_ids.add(sid)
-            departures = defaultdict(list)
-            for trip in associated:
-                symbol = spec.get("variant_symbols", {}).get(trip["variant"], "")
-                if symbol and not re.fullmatch(r"[A-Za-zĄĆĘŁŃÓŚŹŻ]", symbol):
-                    raise ValueError(f"Niepoprawny symbol dla wariantu {trip['variant']}: {symbol!r}")
-                # Ostatni przystanek każdego kursu oznacza PRZYJAZD, nie odjazd.
-                # Zachowujemy go w trips.json do planowania podróży, ale nie
-                # publikujemy jako odjazdu (również w skróconych wariantach).
-                for stop_time in trip["stop_times"][:-1]:
-                    if stop_time["stop_id"] == sid:
-                        for day in DAYS[trip["service_code"]]:
-                            departures[day].append(stop_time["time"] + symbol)
-            for times in departures.values():
-                times.sort()
-            timetables.append({
+            departures = {day: sorted(times) for day, times in visits[position].items()}
+            timetable = {
                 "stop_id": sid, "stop_name": stop["stop_name"],
                 "platform": stop["platform"], "file": page,
-                "departures": dict(departures),
-            })
+                "departures": departures,
+            }
+            if position in arrivals and not departures:
+                timetable["arrival_only"] = True
+            timetables.append(timetable)
         timetable_directions.append({
             "slug": slug, "name": spec["name"],
             "variant_destinations": spec.get("variant_destinations", {}),
