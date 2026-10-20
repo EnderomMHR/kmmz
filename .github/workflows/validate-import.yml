@@ -12,6 +12,8 @@ on:
       - 'tools/check-line7.py'
       - 'tools/check-terminal-arrivals.py'
       - 'tools/test-import-excel.py'
+      - 'tools/test-variant-origins.py'
+      - 'tools/test-repeated-stops.py'
       - 'tools/generate-rozklady.py'
       - '.github/workflows/validate-import.yml'
   workflow_dispatch:
@@ -29,6 +31,10 @@ jobs:
         run: python tools/check-line5.py
       - name: Test stop label parsing
         run: python tools/test-import-excel.py
+      - name: Test variant IDs with different starting stops
+        run: python tools/test-variant-origins.py
+      - name: Test repeated stop IDs and terminal arrivals
+        run: python tools/test-repeated-stops.py
       - name: Validate line 6 data
         run: python tools/check-line6.py
       - name: Validate line 7 circular route
