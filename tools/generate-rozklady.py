@@ -634,6 +634,8 @@ def get_timetable_direction_name(direction, timetable):
     )
     if timetable.get("arrival_only") and timetable.get("arrival_direction"):
         return timetable["arrival_direction"]
+    if timetable.get("direction_override"):
+        return timetable["direction_override"]
     variants = direction.get("variant_destinations", {})
     all_symbols = []
     for vals in timetable.get("departures", {}).values():
@@ -763,7 +765,11 @@ def render_line_timetable_html(line_data, direction, timetable):
     else:
         day_sections_html = render_day_sections_for_line_page(departures)
 
-    legend_html = render_legend(direction.get("legend", {}))
+    # A variant letter is unnecessary on pages with just one destination.
+    # Those pages also should not show a legend for letters absent there.
+    legend_html = render_legend(
+        {} if timetable.get("direction_override") else direction.get("legend", {})
+    )
 
     return f"""<!DOCTYPE html>
 <html lang="pl">

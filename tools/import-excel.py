@@ -386,8 +386,30 @@ def import_file(file: Path, known_stops: dict, config: dict):
                     f"Kierunek {direction_no}: brak granicznego przystanku {start_sid}"
                 )
             symbol_start_positions[variant] = unique_ids.index(start_sid)
+        
+        # Hide variant symbols once all remaining departures at a route
+        # occurrence lead to the same destination. Repeated stop IDs need
+        # an occurrence number: 0001/1 is not the same visit as 0001/2.
+        symbol_end_positions = {}
+        for variant, marker in spec.get("variant_symbol_ends", {}).items():
+            if not isinstance(marker, dict):
+                raise ValueError(f"Kierunek {direction_no}: nieprawidłowy koniec wariantu {variant}")
+            sid = marker.get("stop_id")
+            occurrence = marker.get("occurrence", 1)
+            if type(occurrence) is not int or occurrence < 1:
+                raise ValueError(f"Kierunek {direction_no}: błędne wystąpienie przystanku {sid}")
+            positions = [i for i, stop_id in enumerate(unique_ids) if stop_id == sid]
+            if len(positions) < occurrence:
+                raise ValueError(f"Kierunek {direction_no}: brak wystąpienia {occurrence} przystanku {sid}")
+            end_pos = positions[occurrence - 1]
+            if end_pos <= symbol_start_positions.get(variant, -1):
+                raise ValueError(f"Kierunek {direction_no}: koniec oznaczenia wariantu {variant} musi następować po jego początku")
+            if not spec.get("variant_symbols", {}).get(variant):
+                raise ValueError(f"Kierunek {direction_no}: wariant {variant} nie ma przypisanej litery")
+            symbol_end_positions[variant] = end_pos
 
         visits = defaultdict(lambda: defaultdict(list))
+        departure_variants = defaultdict(set)
         arrivals = defaultdict(set)
         for trip in associated:
             _, block_no = trip_blocks[trip["trip_id"]]
@@ -400,8 +422,10 @@ def import_file(file: Path, known_stops: dict, config: dict):
                 symbol = spec.get("variant_symbols", {}).get(trip["variant"], "")
                 if symbol and not re.fullmatch(r"[A-Za-zĄĆĘŁŃÓŚŹŻ]", symbol):
                     raise ValueError(f"Niepoprawny symbol dla {trip['variant']}: {symbol!r}")
-                if index < symbol_start_positions.get(trip["variant"], 0):
+                if (index < symbol_start_positions.get(trip["variant"], 0)
+                        or index >= symbol_end_positions.get(trip["variant"], len(unique_ids))):
                     symbol = ""
+                departure_variants[index].add(trip["variant"])
                 for day in DAYS[trip["service_code"]]:
                     visits[index][day].append(stop_time["time"] + symbol)
 
@@ -432,6 +456,15 @@ def import_file(file: Path, known_stops: dict, config: dict):
                 "platform": stop["platform"], "file": page,
                 "departures": departures,
             }
+            # If only this extended variant serves the later part of the
+            # route, show its destination directly, without a superscript.
+            for variant, end_pos in symbol_end_positions.items():
+                if (position >= end_pos
+                        and departure_variants[position] == {variant}):
+                    symbol = spec["variant_symbols"][variant]
+                    destination = spec.get("variant_destinations", {}).get(symbol)
+                    if destination:
+                        timetable["direction_override"] = destination
             if position in arrivals and not departures:
                 timetable["arrival_only"] = True
                 # All arrivals may share a variant-only destination
