@@ -49,10 +49,12 @@ assert [v["name"] for v in a["direction_segments"]] == ["Jeżówka Świetlica","
 assert [v["from_stop_id"] for v in b["direction_segments"]] == ["0001","0711"]
 assert [v["name"] for v in b["direction_segments"]] == ["Jeżówka Świetlica","Wolbrom Nowa PKS"]
 assert b["variant_destinations"] == {"W":"Wolbrom Pod Lasem"}
-assert b["legend"]["W"].endswith("Wolbrom Pod Lasem")
+assert b["legend"]["W"] == "do: Wolbrom Pod Lasem"
+assert config["directions"]["2"]["legend"]["W"] == "do: Wolbrom Pod Lasem"
 assert "variant_symbols" not in config["directions"]["1"]
 assert config["directions"]["2"]["variant_symbols"] == {"1":"W"}
 assert config["directions"]["2"]["variant_symbol_starts"] == {"1":"0711"}
+assert config["directions"]["2"]["variant_symbol_ends"] == {"1":{"stop_id":"0001","occurrence":2}}
 
 expected_routes = [
     "0015 0016 0017 0018 0001 0022 0694 0695 0696 0697 0698 0699 0700 0701 0702 0703 0704 0705 0706 0707 0708 0709 0710 0021 0001".split(),
@@ -74,7 +76,11 @@ assert a["timetables"][-1]["departures"] == {}
 assert b["timetables"][20]["file"]=="0001-okrezna-2-ponownie.html"
 assert b["timetables"][20]["stop_id"]=="0001"
 assert b["timetables"][20]["departures"]["workday"] == sorted(b["timetables"][20]["departures"]["workday"])
-assert b["timetables"][20]["departures"]["workday"] and all(t.endswith("W") for t in b["timetables"][20]["departures"]["workday"])
+assert b["timetables"][20]["departures"]["workday"] and all(not t.endswith("W") for t in b["timetables"][20]["departures"]["workday"])
+assert all(t["direction_override"] == "Wolbrom Pod Lasem" for t in b["timetables"][20:23])
+assert all(not value.endswith("W") for table in b["timetables"][20:23]
+           for values in table["departures"].values() for value in values)
+assert any(t.endswith("W") for t in b["timetables"][19]["departures"]["workday"])
 assert b["timetables"][-1]["arrival_only"] is True
 assert b["timetables"][-1]["arrival_direction"] == "Wolbrom Pod Lasem"
 
@@ -89,12 +95,12 @@ for direction in line["directions"]:
             if trip["direction"] != dirnum: continue
             for tm in trip["stop_times"][:-1]:
                 if tm["stop_sequence"] != idx+1: continue
-                suffix="W" if dirnum==2 and trip["variant"]=="1" and idx >= 4 else ""
+                suffix="W" if dirnum==2 and trip["variant"]=="1" and 4 <= idx < 20 else ""
                 for day in days[trip["service_code"]]:
                     expected.setdefault(day,[]).append(tm["time"]+suffix)
         expected={k:sorted(v) for k,v in expected.items()}
         assert table["departures"]==expected, (dirnum,idx,table["stop_id"])
-        if dirnum==1 or (dirnum==2 and idx <=3):
+        if dirnum==1 or (dirnum==2 and (idx <= 3 or idx >= 20)):
             assert not any(v.endswith("W") for times in table["departures"].values() for v in times)
 
 # Generated HTML and map data (generator runs before this test in Actions)
@@ -109,6 +115,14 @@ for direction in line["directions"]:
         if t["file"] == "0001-okrezna-2-ponownie.html":
             assert "Kierunek: Wolbrom Pod Lasem" in txt
             assert "07:29" in txt
+        if t.get("direction_override"):
+            assert "Kierunek: Wolbrom Pod Lasem" in txt
+            assert "<sup>W</sup>" not in txt, t["file"]
+            assert "Legenda" not in txt, t["file"]
+        elif t["file"] == "0711-okrezna-2.html":
+            assert "W</strong>" not in txt
+            assert "do: Wolbrom Pod Lasem" in txt
+            assert "<sup>W</sup>" in txt
         if t["file"] == "0015-okrezna-2.html":
             assert "Kierunek: Wolbrom Pod Lasem" in txt
 
@@ -123,5 +137,14 @@ line9=[x for x in stop["departures"] if x["line"]=="9"]
 assert len(line9) == 85
 assert len([x for x in line9 if x["page"].endswith("0001-okrezna-2-ponownie.html")])==15
 assert not any(x["page"].endswith("0001-okrezna-1-koniec.html") for x in line9)
+assert len([x for x in line9 if x["page"].endswith("0001-okrezna-2-ponownie.html")
+            and x["display_direction"] == "Wolbrom Pod Lasem"
+            and not x["symbols"]]) == 15
+for stop_id in ("0029", "0016"):
+    stop_data = read(f"data/odjazdy/{stop_id}.json")
+    matches = [x for x in stop_data["departures"] if x["line"] == "9" and
+               x["direction_slug"] == "okrezna-2"]
+    assert matches and all(x["display_direction"] == "Wolbrom Pod Lasem"
+                           and not x["symbols"] for x in matches), stop_id
 print("OK: Excel SHA-256, 50 kursów, 1123 godziny, 1073 rzeczywiste odjazdy.")
 print("OK: two route directions, repeated 0001, W after 0711, map and HTML pages.")
