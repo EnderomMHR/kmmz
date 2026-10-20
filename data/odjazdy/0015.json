@@ -1,0 +1,149 @@
+{
+  "stop_id": "0015",
+  "stop_name": "Wolbrom Pod Lasem",
+  "platform": "1",
+  "departures": [
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0015-okrezna-1.html",
+      "day_type": "holiday",
+      "time": "08:00",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0015-okrezna-1.html",
+      "day_type": "holiday",
+      "time": "12:18",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0015-okrezna-1.html",
+      "day_type": "saturday",
+      "time": "08:00",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0015-okrezna-1.html",
+      "day_type": "saturday",
+      "time": "12:18",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0015-okrezna-1.html",
+      "day_type": "saturday",
+      "time": "13:46",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0015-okrezna-1.html",
+      "day_type": "sunday",
+      "time": "08:00",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0015-okrezna-1.html",
+      "day_type": "sunday",
+      "time": "12:18",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0015-okrezna-1.html",
+      "day_type": "sunday",
+      "time": "13:46",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0015-okrezna-1.html",
+      "day_type": "workday",
+      "time": "07:43",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0015-okrezna-1.html",
+      "day_type": "workday",
+      "time": "11:00",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0015-okrezna-1.html",
+      "day_type": "workday",
+      "time": "14:40",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0015-okrezna-1.html",
+      "day_type": "workday",
+      "time": "16:06",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0015-okrezna-1.html",
+      "day_type": "workday",
+      "time": "17:42",
+      "symbols": []
+    }
+  ],
+  "served_lines": [
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "page": "rozklady/9/0015-okrezna-1.html"
+    }
+  ],
+  "legends": {
+    "9": {
+      "W": "Kurs do Wolbrom Pod Lasem"
+    }
+  }
+}

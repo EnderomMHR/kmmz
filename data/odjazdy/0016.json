@@ -4,6 +4,16 @@
   "platform": "0",
   "departures": [
     {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0016-okrezna-1.html",
+      "day_type": "holiday",
+      "time": "08:04",
+      "symbols": []
+    },
+    {
       "line": "3",
       "main_direction": "Olkusz Dworzec PKS",
       "display_direction": "Olkusz Dworzec PKS",
@@ -11,6 +21,28 @@
       "page": "rozklady/3/0016-olkusz.html",
       "day_type": "holiday",
       "time": "10:34",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Wolbrom Pod Lasem",
+      "display_direction": "Wolbrom Pod Lasem",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0016-okrezna-2.html",
+      "day_type": "holiday",
+      "time": "11:47",
+      "symbols": [
+        "W"
+      ]
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0016-okrezna-1.html",
+      "day_type": "holiday",
+      "time": "12:22",
       "symbols": []
     },
     {
@@ -94,6 +126,28 @@
       "symbols": []
     },
     {
+      "line": "9",
+      "main_direction": "Wolbrom Pod Lasem",
+      "display_direction": "Wolbrom Pod Lasem",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0016-okrezna-2.html",
+      "day_type": "saturday",
+      "time": "07:46",
+      "symbols": [
+        "W"
+      ]
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0016-okrezna-1.html",
+      "day_type": "saturday",
+      "time": "08:04",
+      "symbols": []
+    },
+    {
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "display_direction": "Wolbrom Nowa PKS",
@@ -114,6 +168,28 @@
       "symbols": []
     },
     {
+      "line": "9",
+      "main_direction": "Wolbrom Pod Lasem",
+      "display_direction": "Wolbrom Pod Lasem",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0016-okrezna-2.html",
+      "day_type": "saturday",
+      "time": "11:47",
+      "symbols": [
+        "W"
+      ]
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0016-okrezna-1.html",
+      "day_type": "saturday",
+      "time": "12:22",
+      "symbols": []
+    },
+    {
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "display_direction": "Wolbrom Nowa PKS",
@@ -131,6 +207,28 @@
       "page": "rozklady/3/0016-olkusz.html",
       "day_type": "saturday",
       "time": "13:04",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Wolbrom Pod Lasem",
+      "display_direction": "Wolbrom Pod Lasem",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0016-okrezna-2.html",
+      "day_type": "saturday",
+      "time": "13:38",
+      "symbols": [
+        "W"
+      ]
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0016-okrezna-1.html",
+      "day_type": "saturday",
+      "time": "13:50",
       "symbols": []
     },
     {
@@ -192,6 +290,18 @@
       "day_type": "saturday",
       "time": "20:40",
       "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Wolbrom Pod Lasem",
+      "display_direction": "Wolbrom Pod Lasem",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0016-okrezna-2.html",
+      "day_type": "saturday",
+      "time": "20:58",
+      "symbols": [
+        "W"
+      ]
     },
     {
       "line": "3",
@@ -234,6 +344,28 @@
       "symbols": []
     },
     {
+      "line": "9",
+      "main_direction": "Wolbrom Pod Lasem",
+      "display_direction": "Wolbrom Pod Lasem",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0016-okrezna-2.html",
+      "day_type": "sunday",
+      "time": "07:46",
+      "symbols": [
+        "W"
+      ]
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0016-okrezna-1.html",
+      "day_type": "sunday",
+      "time": "08:04",
+      "symbols": []
+    },
+    {
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "display_direction": "Wolbrom Nowa PKS",
@@ -254,6 +386,28 @@
       "symbols": []
     },
     {
+      "line": "9",
+      "main_direction": "Wolbrom Pod Lasem",
+      "display_direction": "Wolbrom Pod Lasem",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0016-okrezna-2.html",
+      "day_type": "sunday",
+      "time": "11:47",
+      "symbols": [
+        "W"
+      ]
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0016-okrezna-1.html",
+      "day_type": "sunday",
+      "time": "12:22",
+      "symbols": []
+    },
+    {
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "display_direction": "Wolbrom Nowa PKS",
@@ -271,6 +425,28 @@
       "page": "rozklady/3/0016-olkusz.html",
       "day_type": "sunday",
       "time": "13:04",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Wolbrom Pod Lasem",
+      "display_direction": "Wolbrom Pod Lasem",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0016-okrezna-2.html",
+      "day_type": "sunday",
+      "time": "13:38",
+      "symbols": [
+        "W"
+      ]
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0016-okrezna-1.html",
+      "day_type": "sunday",
+      "time": "13:50",
       "symbols": []
     },
     {
@@ -332,6 +508,18 @@
       "day_type": "sunday",
       "time": "20:40",
       "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Wolbrom Pod Lasem",
+      "display_direction": "Wolbrom Pod Lasem",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0016-okrezna-2.html",
+      "day_type": "sunday",
+      "time": "20:58",
+      "symbols": [
+        "W"
+      ]
     },
     {
       "line": "3",
@@ -374,6 +562,28 @@
       "symbols": []
     },
     {
+      "line": "9",
+      "main_direction": "Wolbrom Pod Lasem",
+      "display_direction": "Wolbrom Pod Lasem",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0016-okrezna-2.html",
+      "day_type": "workday",
+      "time": "07:36",
+      "symbols": [
+        "W"
+      ]
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0016-okrezna-1.html",
+      "day_type": "workday",
+      "time": "07:47",
+      "symbols": []
+    },
+    {
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "display_direction": "Wolbrom Nowa PKS",
@@ -411,6 +621,28 @@
       "page": "rozklady/3/0016-olkusz.html",
       "day_type": "workday",
       "time": "10:32",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Wolbrom Pod Lasem",
+      "display_direction": "Wolbrom Pod Lasem",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0016-okrezna-2.html",
+      "day_type": "workday",
+      "time": "10:53",
+      "symbols": [
+        "W"
+      ]
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0016-okrezna-1.html",
+      "day_type": "workday",
+      "time": "11:04",
       "symbols": []
     },
     {
@@ -464,6 +696,18 @@
       "symbols": []
     },
     {
+      "line": "9",
+      "main_direction": "Wolbrom Pod Lasem",
+      "display_direction": "Wolbrom Pod Lasem",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0016-okrezna-2.html",
+      "day_type": "workday",
+      "time": "14:19",
+      "symbols": [
+        "W"
+      ]
+    },
+    {
       "line": "3",
       "main_direction": "Olkusz Dworzec PKS",
       "display_direction": "Olkusz Dworzec PKS",
@@ -471,6 +715,16 @@
       "page": "rozklady/3/0016-olkusz.html",
       "day_type": "workday",
       "time": "14:34",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0016-okrezna-1.html",
+      "day_type": "workday",
+      "time": "14:44",
       "symbols": []
     },
     {
@@ -491,6 +745,28 @@
       "page": "rozklady/3/0016-olkusz.html",
       "day_type": "workday",
       "time": "15:19",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Wolbrom Pod Lasem",
+      "display_direction": "Wolbrom Pod Lasem",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0016-okrezna-2.html",
+      "day_type": "workday",
+      "time": "16:00",
+      "symbols": [
+        "W"
+      ]
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0016-okrezna-1.html",
+      "day_type": "workday",
+      "time": "16:10",
       "symbols": []
     },
     {
@@ -524,6 +800,18 @@
       "symbols": []
     },
     {
+      "line": "9",
+      "main_direction": "Wolbrom Pod Lasem",
+      "display_direction": "Wolbrom Pod Lasem",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0016-okrezna-2.html",
+      "day_type": "workday",
+      "time": "17:36",
+      "symbols": [
+        "W"
+      ]
+    },
+    {
       "line": "3",
       "main_direction": "Olkusz Dworzec PKS",
       "display_direction": "Olkusz Dworzec PKS",
@@ -531,6 +819,16 @@
       "page": "rozklady/3/0016-olkusz.html",
       "day_type": "workday",
       "time": "17:38",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0016-okrezna-1.html",
+      "day_type": "workday",
+      "time": "17:46",
       "symbols": []
     },
     {
@@ -574,6 +872,18 @@
       "symbols": []
     },
     {
+      "line": "9",
+      "main_direction": "Wolbrom Pod Lasem",
+      "display_direction": "Wolbrom Pod Lasem",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0016-okrezna-2.html",
+      "day_type": "workday",
+      "time": "21:26",
+      "symbols": [
+        "W"
+      ]
+    },
+    {
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "display_direction": "Wolbrom Nowa PKS",
@@ -604,9 +914,22 @@
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "page": "rozklady/3/0016-wolbrom.html"
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "page": "rozklady/9/0016-okrezna-1.html"
+    },
+    {
+      "line": "9",
+      "main_direction": "Wolbrom Pod Lasem",
+      "page": "rozklady/9/0016-okrezna-2.html"
     }
   ],
   "legends": {
-    "3": {}
+    "3": {},
+    "9": {
+      "W": "Kurs do Wolbrom Pod Lasem"
+    }
   }
 }

@@ -1,0 +1,724 @@
+{
+  "stop_id": "0022",
+  "stop_name": "Wolbrom Kościuszki",
+  "platform": "1",
+  "departures": [
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0022-okrezna-1.html",
+      "day_type": "holiday",
+      "time": "08:12",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0022-okrezna-1.html",
+      "day_type": "holiday",
+      "time": "09:32",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0022-okrezna-2.html",
+      "day_type": "holiday",
+      "time": "11:13",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0022-okrezna-1.html",
+      "day_type": "holiday",
+      "time": "12:30",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0022-okrezna-2.html",
+      "day_type": "holiday",
+      "time": "15:15",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0022-okrezna-2.html",
+      "day_type": "holiday",
+      "time": "16:02",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0022-okrezna-1.html",
+      "day_type": "saturday",
+      "time": "05:52",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0022-okrezna-2.html",
+      "day_type": "saturday",
+      "time": "06:38",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0022-okrezna-2.html",
+      "day_type": "saturday",
+      "time": "07:12",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0022-okrezna-1.html",
+      "day_type": "saturday",
+      "time": "08:12",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0022-okrezna-2.html",
+      "day_type": "saturday",
+      "time": "08:58",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0022-okrezna-1.html",
+      "day_type": "saturday",
+      "time": "09:32",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0022-okrezna-2.html",
+      "day_type": "saturday",
+      "time": "10:34",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0022-okrezna-2.html",
+      "day_type": "saturday",
+      "time": "11:13",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0022-okrezna-1.html",
+      "day_type": "saturday",
+      "time": "12:30",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0022-okrezna-2.html",
+      "day_type": "saturday",
+      "time": "13:04",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0022-okrezna-1.html",
+      "day_type": "saturday",
+      "time": "13:58",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0022-okrezna-1.html",
+      "day_type": "saturday",
+      "time": "14:42",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0022-okrezna-2.html",
+      "day_type": "saturday",
+      "time": "15:15",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0022-okrezna-2.html",
+      "day_type": "saturday",
+      "time": "16:02",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0022-okrezna-1.html",
+      "day_type": "saturday",
+      "time": "16:35",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0022-okrezna-2.html",
+      "day_type": "saturday",
+      "time": "17:38",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0022-okrezna-1.html",
+      "day_type": "saturday",
+      "time": "18:17",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0022-okrezna-1.html",
+      "day_type": "saturday",
+      "time": "19:04",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0022-okrezna-1.html",
+      "day_type": "saturday",
+      "time": "19:52",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0022-okrezna-2.html",
+      "day_type": "saturday",
+      "time": "20:24",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0022-okrezna-1.html",
+      "day_type": "sunday",
+      "time": "05:52",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0022-okrezna-2.html",
+      "day_type": "sunday",
+      "time": "06:38",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0022-okrezna-2.html",
+      "day_type": "sunday",
+      "time": "07:12",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0022-okrezna-1.html",
+      "day_type": "sunday",
+      "time": "08:12",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0022-okrezna-2.html",
+      "day_type": "sunday",
+      "time": "08:58",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0022-okrezna-1.html",
+      "day_type": "sunday",
+      "time": "09:32",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0022-okrezna-2.html",
+      "day_type": "sunday",
+      "time": "10:34",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0022-okrezna-2.html",
+      "day_type": "sunday",
+      "time": "11:13",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0022-okrezna-1.html",
+      "day_type": "sunday",
+      "time": "12:30",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0022-okrezna-2.html",
+      "day_type": "sunday",
+      "time": "13:04",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0022-okrezna-1.html",
+      "day_type": "sunday",
+      "time": "13:58",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0022-okrezna-1.html",
+      "day_type": "sunday",
+      "time": "14:42",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0022-okrezna-2.html",
+      "day_type": "sunday",
+      "time": "15:15",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0022-okrezna-2.html",
+      "day_type": "sunday",
+      "time": "16:02",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0022-okrezna-1.html",
+      "day_type": "sunday",
+      "time": "16:35",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0022-okrezna-2.html",
+      "day_type": "sunday",
+      "time": "17:38",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0022-okrezna-1.html",
+      "day_type": "sunday",
+      "time": "18:17",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0022-okrezna-1.html",
+      "day_type": "sunday",
+      "time": "19:04",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0022-okrezna-1.html",
+      "day_type": "sunday",
+      "time": "19:52",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0022-okrezna-2.html",
+      "day_type": "sunday",
+      "time": "20:24",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0022-okrezna-1.html",
+      "day_type": "workday",
+      "time": "04:32",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0022-okrezna-1.html",
+      "day_type": "workday",
+      "time": "05:04",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0022-okrezna-1.html",
+      "day_type": "workday",
+      "time": "05:37",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0022-okrezna-1.html",
+      "day_type": "workday",
+      "time": "06:17",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0022-okrezna-2.html",
+      "day_type": "workday",
+      "time": "07:02",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0022-okrezna-1.html",
+      "day_type": "workday",
+      "time": "07:55",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0022-okrezna-2.html",
+      "day_type": "workday",
+      "time": "08:29",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0022-okrezna-2.html",
+      "day_type": "workday",
+      "time": "09:00",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0022-okrezna-1.html",
+      "day_type": "workday",
+      "time": "09:37",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0022-okrezna-2.html",
+      "day_type": "workday",
+      "time": "10:19",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0022-okrezna-1.html",
+      "day_type": "workday",
+      "time": "11:12",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0022-okrezna-2.html",
+      "day_type": "workday",
+      "time": "12:02",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0022-okrezna-2.html",
+      "day_type": "workday",
+      "time": "12:42",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0022-okrezna-1.html",
+      "day_type": "workday",
+      "time": "13:14",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0022-okrezna-2.html",
+      "day_type": "workday",
+      "time": "13:45",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0022-okrezna-1.html",
+      "day_type": "workday",
+      "time": "14:52",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0022-okrezna-2.html",
+      "day_type": "workday",
+      "time": "15:26",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0022-okrezna-1.html",
+      "day_type": "workday",
+      "time": "16:18",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0022-okrezna-2.html",
+      "day_type": "workday",
+      "time": "17:02",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0022-okrezna-1.html",
+      "day_type": "workday",
+      "time": "17:54",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0022-okrezna-2.html",
+      "day_type": "workday",
+      "time": "18:32",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0022-okrezna-2.html",
+      "day_type": "workday",
+      "time": "19:17",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/9/0022-okrezna-1.html",
+      "day_type": "workday",
+      "time": "20:02",
+      "symbols": []
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "display_direction": "Jeżówka Świetlica",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/9/0022-okrezna-2.html",
+      "day_type": "workday",
+      "time": "20:52",
+      "symbols": []
+    }
+  ],
+  "served_lines": [
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "page": "rozklady/9/0022-okrezna-1.html"
+    },
+    {
+      "line": "9",
+      "main_direction": "Jeżówka Świetlica",
+      "page": "rozklady/9/0022-okrezna-2.html"
+    }
+  ],
+  "legends": {
+    "9": {
+      "W": "Kurs do Wolbrom Pod Lasem"
+    }
+  }
+}
