@@ -65,6 +65,29 @@ ale możesz używać **tego samego numeru** dla różnych początków. Konwerter
 nie nadaje automatycznie nowych numerów ani nie zgaduje, jaka litera ma
 oznaczać zmienioną trasę.
 
+## Powtarzające się przystanki na trasie (linie okrężne)
+
+Ten sam fizyczny przystanek (np. `0200`) **może wystąpić kilka razy** w
+`Arkusz1`, również jako początek i koniec kursu. Nie zmieniaj poprawnych
+ID przystanków w Excelu tylko dlatego, że linia wraca w to samo miejsce.
+
+- W `data/trips/NNN.json` wszystkie wystąpienia zostają zachowane
+  w kolejności `stop_times` / `stop_sequence`.
+- W rozkładach na stronie i w danych mapy ostatnia pozycja **każdego
+  kursu** jest przyjazdem końcowym, a nie odjazdem. Pozostałe wizyty
+  (także na tym samym ID) nadal są uwzględniane jako odjazdy.
+- Dla fizycznego ID przystanku powstaje tylko jeden rekord rozkładu,
+  nawet jeśli przystanek występuje kilka razy na trasie; wszystkie
+  rzeczywiste odjazdy są w tym rekordzie.
+- `route_stops` zachowuje kolejność pełnego przebiegu z powtórzeniami,
+  aby nie usuwać odcinków pętli.
+- Łączenie bloków tego samego kierunku zachowuje kolejne wystąpienia ID.
+  W przypadku rozbieżnych wariantów wspólna lista przystanków nadal jest
+  widokiem zbiorczym; przebieg konkretnego kursu jest w `trips`.
+
+Arkusz2 jest pomijany. Specjalne wyjątki świąteczne z tego arkusza
+nie są importowane.
+
 ## Kierunki informacyjne linii okrężnych
 
 Faktyczny kierunek jazdy (kolumna w Excelu, `direction` w `trips`) pozostaje bez zmian.
@@ -94,7 +117,7 @@ Przykład linii 7 (faktycznie **jeden** kierunek jazdy):
 
 ## Ograniczenia pierwszej wersji
 - Importer wymaga uprzednio nadanych ID kursów i ID przystanków oraz konfiguracji każdego nowego numeru linii.
-- Kursy przechodzące przez północ lub powtarzające ten sam ID przystanku w jednym kierunku wymagają osobnej obsługi.
+- Kursy przechodzące przez północ wymagają osobnej obsługi.
 - Odmienne przebiegi i skrócenia końca kursu wymagają osobnych kodów wariantów i konfiguracji oznaczeń pasażerskich; zmienne początki tej samej trasy są obsługiwane.
 - Excel opisuje kolejność przystanków i czasy, a nie geometrię dróg; nie generujemy na jego podstawie fikcyjnych tras ulicznych.
 - Wersja próbna nie zastępuje generatora HTML i nie publikuje automatycznie XLSX; obecny mechanizm GitHub Actions nadal reaguje na JSON-y.
