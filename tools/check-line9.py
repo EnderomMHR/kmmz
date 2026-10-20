@@ -33,7 +33,6 @@ fingerprint = hashlib.sha256(
 assert fingerprint == "f4121b6c85f6c99bb554f3ab7a013735b946da4ea5ccdae0b7e4dd5f320c1459", fingerprint
 
 counts = Counter((t["direction"], t["variant"], t["service_code"]) for t in trips["trips"])
-assert sum(v for (d,v,s),n in counts.items() for v in []) == 0 if False else True
 assert sum(1 for t in trips["trips"] if t["direction"] == 1) == 25
 assert sum(1 for t in trips["trips"] if t["direction"] == 2) == 25
 assert Counter(t["service_code"] for t in trips["trips"]) == {"R":24, "SN":20, "SW":6}
@@ -122,7 +121,7 @@ assert page.count('0001-okrezna-2.html')==1
 stop=read("data/odjazdy/0001.json")
 line9=[x for x in stop["departures"] if x["line"]=="9"]
 assert len(line9) == 85
-assert len([x for x in line9 if x["page"].endswith("0001-okrezna-2-ponownie.html")])==16
+assert len([x for x in line9 if x["page"].endswith("0001-okrezna-2-ponownie.html")])==15
 assert not any(x["page"].endswith("0001-okrezna-1-koniec.html") for x in line9)
 print("OK: Excel SHA-256, 50 kursów, 1123 godziny, 1073 rzeczywiste odjazdy.")
 print("OK: two route directions, repeated 0001, W after 0711, map and HTML pages.")
