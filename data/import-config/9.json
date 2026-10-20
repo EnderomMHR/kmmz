@@ -43,13 +43,19 @@
         "W": "Wolbrom Pod Lasem"
       },
       "legend": {
-        "W": "Kurs do Wolbrom Pod Lasem"
+        "W": "do: Wolbrom Pod Lasem"
       },
       "variant_stops": [
         "0029",
         "0016",
         "0015"
-      ]
+      ],
+      "variant_symbol_ends": {
+        "1": {
+          "stop_id": "0001",
+          "occurrence": 2
+        }
+      }
     }
   }
 }
