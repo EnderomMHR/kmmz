@@ -1,0 +1,55 @@
+{
+  "directions": {
+    "1": {
+      "slug": "okrezna-1",
+      "name": "Wolbrom Nowa PKS",
+      "direction_segments": [
+        {
+          "from_stop_id": "0015",
+          "name": "Jeżówka Świetlica"
+        },
+        {
+          "from_stop_id": "0699",
+          "name": "Wolbrom Nowa PKS"
+        }
+      ],
+      "variant_stops": [
+        "0015",
+        "0016",
+        "0017",
+        "0018"
+      ]
+    },
+    "2": {
+      "slug": "okrezna-2",
+      "name": "Wolbrom Nowa PKS",
+      "direction_segments": [
+        {
+          "from_stop_id": "0001",
+          "name": "Jeżówka Świetlica"
+        },
+        {
+          "from_stop_id": "0711",
+          "name": "Wolbrom Nowa PKS"
+        }
+      ],
+      "variant_symbols": {
+        "1": "W"
+      },
+      "variant_symbol_starts": {
+        "1": "0711"
+      },
+      "variant_destinations": {
+        "W": "Wolbrom Pod Lasem"
+      },
+      "legend": {
+        "W": "Kurs do Wolbrom Pod Lasem"
+      },
+      "variant_stops": [
+        "0029",
+        "0016",
+        "0015"
+      ]
+    }
+  }
+}
