@@ -15,8 +15,7 @@ import json
 import re
 import sys
 import unicodedata
-from collections import defaultdict
-from heapq import heappop, heappush
+from collections import Counter, defaultdict
 from pathlib import Path
 from xml.etree import ElementTree as ET
 from zipfile import ZipFile
@@ -149,8 +148,9 @@ def infer_variant_patterns(trips):
         canonical = [s["stop_id"] for s in longest["stop_times"]]
         for trip in courses:
             sequence = [s["stop_id"] for s in trip["stop_times"]]
-            if len(set(sequence)) != len(sequence):
-                raise ValueError(f"{trip['trip_id']}: powtórzony przystanek w kursie")
+            # Porównujemy wystąpienia w kolejności; jeden stop_id może
+            # wystąpić kilka razy. Zmienny początek nadal musi być
+            # końcowym fragmentem tego samego wariantu.
             if sequence != canonical[-len(sequence):]:
                 raise ValueError(
                     f"{trip['trip_id']}: wariant {trip['variant']} nie jest tą samą "
@@ -167,43 +167,60 @@ def infer_variant_patterns(trips):
 
 
 def merge_direction_stops(routes):
-    """Łączy kolejność przystanków wielu bloków niezależnie od ich początku.
+    """Łączy przebiegi z zachowaniem kolejnych *wystąpień* przystanku.
 
-    Wcześniejszy import brał kolejność pierwszego napotkanego bloku; jeśli
-    ten zaczynał się później, początek pełnej trasy trafiał błędnie na koniec.
+    Ten sam stop_id może pojawić się wielokrotnie (np. początek i koniec
+    pętli). Klasyczny graf stop_id tworzyłby wtedy fałszywy cykl.
+    Zachowujemy możliwie krótką wspólną sekwencję dla bloków Excela:
+    łączymy je przez najdłuższy wspólny podciąg (LCS), nie deduplikując ID.
     """
-    positions = {}
-    edges = defaultdict(set)
-    indegrees = defaultdict(int)
-    for route in routes:
-        for stop_id in route:
-            if stop_id not in positions:
-                positions[stop_id] = len(positions)
-            indegrees.setdefault(stop_id, 0)
-        for before, after in zip(route, route[1:]):
-            if after not in edges[before]:
-                edges[before].add(after)
-                indegrees[after] += 1
+    blocks = [(i, list(route)) for i, route in enumerate(routes) if route]
+    if not blocks:
+        return []
+    # Dłuższy blok jako baza, niezależnie od kolejności bloków w Excelu.
+    blocks.sort(key=lambda item: (-len(item[1]), item[0]))
+    merged = blocks[0][1]
 
-    available = []
-    for stop_id, degree in indegrees.items():
-        if degree == 0:
-            heappush(available, (positions[stop_id], stop_id))
-    ordered = []
-    while available:
-        _, stop_id = heappop(available)
-        ordered.append(stop_id)
-        for next_id in edges[stop_id]:
-            indegrees[next_id] -= 1
-            if indegrees[next_id] == 0:
-                heappush(available, (positions[next_id], next_id))
+    for _, route in blocks[1:]:
+        left_counts = Counter(merged)
+        right_counts = Counter(route)
+        # Dwa jednoznacznie wspólne przystanki nie mogą odwracać kolejności.
+        # Powtarzane ID są sprawdzane przez dopasowanie całych sekwencji.
+        shared = {sid for sid in left_counts.keys() & right_counts.keys()
+                  if left_counts[sid] == right_counts[sid] == 1}
+        if ([sid for sid in merged if sid in shared]
+                != [sid for sid in route if sid in shared]):
+            raise ValueError(
+                "Niespójna kolejność przystanków w blokach tego samego kierunku"
+            )
 
-    if len(ordered) != len(positions):
-        raise ValueError(
-            "Niespójna kolejność przystanków w blokach tego samego kierunku "
-            "(np. odwrócona trasa albo powtórzony przystanek)"
-        )
-    return ordered
+        n, m = len(merged), len(route)
+        lcs = [[0] * (m + 1) for _ in range(n + 1)]
+        for i in range(n - 1, -1, -1):
+            for j in range(m - 1, -1, -1):
+                if merged[i] == route[j]:
+                    lcs[i][j] = lcs[i + 1][j + 1] + 1
+                else:
+                    lcs[i][j] = max(lcs[i + 1][j], lcs[i][j + 1])
+
+        combined = []
+        i = j = 0
+        while i < n and j < m:
+            if merged[i] == route[j]:
+                combined.append(merged[i])
+                i += 1
+                j += 1
+            elif lcs[i + 1][j] >= lcs[i][j + 1]:
+                combined.append(merged[i])
+                i += 1
+            else:
+                combined.append(route[j])
+                j += 1
+        combined.extend(merged[i:])
+        combined.extend(route[j:])
+        merged = combined
+
+    return merged
 
 
 def import_file(file: Path, known_stops: dict, config: dict):
@@ -254,8 +271,8 @@ def import_file(file: Path, known_stops: dict, config: dict):
             sid, sheet_name = m.groups()
             if sid not in known_stops:
                 raise ValueError(f"Wiersz {stop_row}: brak ID przystanku {sid} w GeoJSON")
-            if sid in block_stops:
-                raise ValueError(f"Wiersz {stop_row}: powtórzony ID przystanku {sid} w jednym kierunku")
+            # Powtórzenie ID jest dozwolone: każda wizyta ma osobną
+            # pozycję stop_sequence, np. 0200 ... 0200 na pętli.
             block_stops.append(sid)
             canonical = known_stops[sid]["stop_name"]
             platform = known_stops[sid]["platform"]
@@ -321,6 +338,7 @@ def import_file(file: Path, known_stops: dict, config: dict):
                 raise ValueError(f"Kierunek {direction_no}: segmenty muszą zaczynać się od pierwszego przystanku i być uporządkowane")
         route_stops = []
         timetables = []
+        timetable_stop_ids = set()
         for sid in unique_ids:
             stop = known_stops[sid]
             page = f"{sid}-{slug}.html"
@@ -332,6 +350,11 @@ def import_file(file: Path, known_stops: dict, config: dict):
             if sid in spec.get("variant_stops", []):
                 route["variant"] = True
             route_stops.append(route)
+            # Zachowujemy każde wystąpienie w przebiegu trasy, lecz
+            # generujemy tylko jeden rozkład dla fizycznego przystanku.
+            if sid in timetable_stop_ids:
+                continue
+            timetable_stop_ids.add(sid)
             departures = defaultdict(list)
             for trip in associated:
                 symbol = spec.get("variant_symbols", {}).get(trip["variant"], "")
