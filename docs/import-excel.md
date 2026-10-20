@@ -155,3 +155,21 @@ Wcześniejsze odjazdy tego wariantu nie dostają litery, natomiast od
 wskazanej pozycji mają symbol i wyświetlaną nazwę kierunku z
 `variant_destinations: {"W": "Wolbrom Pod Lasem"}`.
 To nie zmienia ID kursu, tylko informację pasażerską.
+
+
+### Zakończenie oznaczania wariantu po zmianie wyświetlanego kierunku
+
+Litera jest potrzebna tylko na odcinku, na którym wyróżnia jedną
+z kilku możliwych destynacji. W konfiguracji kierunku można ustawić
+`variant_symbol_ends`, np. `{"1": {"stop_id": "0001", "occurrence": 2}}`.
+Numer `occurrence` rozróżnia wizyty na tym samym fizycznym przystanku.
+Od wskazanego wystąpienia litera zostaje pominięta w rozkładach, a gdy
+dany fragment trasy obsługuje wyłącznie ten wariant, kierunek na
+stronie i mapie zostaje ustawiony bezpośrednio na destynację wariantu.
+Taka strona nie wyświetla legendy nieużywanej litery.
+
+Przykład z linii 9, kierunek 2: `W` pojawia się od przystanku `0711`
+do `0021` włącznie. Od **drugiego** `0001` przez `0029` do `0016`
+kursy jadą tylko do Wolbrom Pod Lasem, więc godziny są bez `W`,
+a nazwa kierunku to `Wolbrom Pod Lasem`. Przystanek `0015` jest
+końcowy i nie publikuje godzin przyjazdów jako odjazdów.
