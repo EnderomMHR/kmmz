@@ -53,8 +53,14 @@ assert details["route_patterns"] == [{
 }]
 assert [row["stop_id"] for row in direction["route_stops"]] == ids
 assert len(direction["route_stops"]) == 16
-assert len(direction["timetables"]) == 15
-assert [row["stop_id"] for row in direction["timetables"]] == list(dict.fromkeys(ids))
+assert len(direction["timetables"]) == 16
+assert [row["stop_id"] for row in direction["timetables"][:-1]] == list(dict.fromkeys(ids))
+assert direction["timetables"][-1] == {
+    "stop_id": "0200", "stop_name": "Olkusz Dworzec PKS",
+    "platform": "0", "file": "0200-okrezna-koniec.html",
+    "arrival_only": True, "departures": {},
+}
+assert direction["route_stops"][-1]["file"] == "0200-okrezna-koniec.html"
 
 expected_trips = [
     (f"008-1-0-{service}-{index:02d}", service, start)
@@ -83,6 +89,9 @@ for trip in details["trips"]:
             expected[stop["stop_id"]][day].append(stop["time"])
 total_departures = 0
 for item in direction["timetables"]:
+    if item.get("arrival_only"):
+        assert item["departures"] == {}
+        continue
     key = item["stop_id"]
     wanted = expected[key]
     actual = item["departures"]
@@ -95,7 +104,7 @@ for item in direction["timetables"]:
 assert len(details["trips"]) * len(ids) == 688
 assert total_departures == 645
 assert all(sum(len(times) for times in t["departures"].values()) == 43
-           for t in direction["timetables"])
+           for t in direction["timetables"] if not t.get("arrival_only"))
 
 # Weryfikacja nazw i peronów na podstawie oficjalnej bazy KMMZ.
 geo = read("data/stops/olkusz.geojson")
@@ -104,12 +113,16 @@ for stop in direction["route_stops"]:
     meta = stop_meta[stop["stop_id"]]
     assert stop["stop_name"] == meta["name"], stop
     assert stop["platform"] == str(meta["platform"]), stop
-    assert stop["file"] == f'{stop["stop_id"]}-okrezna.html'
+    expected_file = ("0200-okrezna-koniec.html" if stop is direction["route_stops"][-1]
+                     else f'{stop["stop_id"]}-okrezna.html')
+    assert stop["file"] == expected_file
 
 # Istniejąca strona przebiegu linii 8 wskazuje na każdy przystanek.
 page = (ROOT / "linie/8.html").read_text(encoding="utf-8")
 for stop_id in ids:
     assert f"../rozklady/8/{stop_id}-okrezna.html" in page
+assert page.count('href="../rozklady/8/0200-okrezna-koniec.html"') == 1
+assert page.count('href="../rozklady/8/0200-okrezna.html"') == 1
 
 print("OK: linia 8, 43 kursy (14 R, 13 S, 11 N, 5 SW), 688 czasów, 645 odjazdów.")
 print("OK: 16 pozycji, 15 przystanków; 0200 jest początkiem i końcem kursu.")

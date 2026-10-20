@@ -102,7 +102,7 @@
           "stop_id": "0200",
           "stop_name": "Olkusz Dworzec PKS",
           "platform": "0",
-          "file": "0200-okrezna.html"
+          "file": "0200-okrezna-koniec.html"
         }
       ],
       "timetables": [
@@ -990,6 +990,14 @@
               "16:02"
             ]
           }
+        },
+        {
+          "stop_id": "0200",
+          "stop_name": "Olkusz Dworzec PKS",
+          "platform": "0",
+          "file": "0200-okrezna-koniec.html",
+          "arrival_only": true,
+          "departures": {}
         }
       ],
       "direction_segments": [

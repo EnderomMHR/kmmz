@@ -19,6 +19,7 @@ on:
       - 'tools/test-variant-origins.py'
       - 'tools/test-repeated-stops.py'
       - 'tools/generate-rozklady.py'
+      - 'linie/8.html'
       - '.github/workflows/validate-import.yml'
   workflow_dispatch:
 permissions:
@@ -65,6 +66,7 @@ jobs:
           test -f przystanki/0669.html
           test -f rozklady/7/0684-okrezna.html
           test -f rozklady/8/0200-okrezna.html
+          test -f rozklady/8/0200-okrezna-koniec.html
           test -f rozklady/8/0199-okrezna.html
           test -f data/odjazdy/0200.json
           test -f przystanki/0200.html

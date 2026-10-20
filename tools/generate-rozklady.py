@@ -575,7 +575,7 @@ def parse_time(value):
     return time, symbols
 
 
-def get_stop_direction_name(direction, stop_id):
+def get_stop_direction_name(direction, stop_id, route_file=None):
     """Nazwa kierunku informacyjnego na danym przystanku (np. w linii okrężnej).
 
     Każdy kierunek ruchu może mieć niezależną listę segmentów, których
@@ -603,7 +603,18 @@ def get_stop_direction_name(direction, stop_id):
     if not starts or starts[0] != 0 or starts != sorted(set(starts)):
         raise ValueError(f"Segmenty kierunków muszą zaczynać się od pierwszego przystanku i być uporządkowane: {starts}")
 
-    current_pos = route_ids.index(stop_id)
+    if route_file is None:
+        # Mapa i fizyczny przystanek pytają o pierwszy punkt z odjazdami.
+        current_pos = route_ids.index(stop_id)
+    else:
+        # Strona konkretnego wystąpienia, np. końcowego 0200 na pętli.
+        current_pos = next(
+            (i for i, stop in enumerate(direction["route_stops"])
+             if stop["stop_id"] == stop_id and stop["file"] == route_file),
+            None,
+        )
+        if current_pos is None:
+            raise ValueError(f"Nieznany plik trasy {route_file!r} dla {stop_id}")
     for item, start_pos in zip(segments, starts):
         if current_pos < start_pos:
             break
@@ -710,14 +721,22 @@ def render_line_timetable_html(line_data, direction, timetable):
     stop_id = timetable["stop_id"]
     stop_name = timetable["stop_name"]
     platform = timetable["platform"]
-    direction_name = get_stop_direction_name(direction, stop_id)
+    direction_name = get_stop_direction_name(direction, stop_id, route_file=current_file)
     map_url = line_data.get("map_url", "https://enderommhr.github.io/kmmz/mapa.html")
 
     route_html = render_route_stops(direction["route_stops"], current_file)
 
     departures = timetable["departures"]
 
-    day_sections_html = render_day_sections_for_line_page(departures)
+    if timetable.get("arrival_only"):
+        # Dedykowana strona końcowego wystąpienia przystanku: przyjazdy
+        # pozostają w trips, nie stają się odjazdami.
+        day_sections_html = (
+            '<div class="no-service">Przystanek końcowy — '
+            'autobusy kończą tutaj kurs. Brak odjazdów tej linii.</div>'
+        )
+    else:
+        day_sections_html = render_day_sections_for_line_page(departures)
 
     legend_html = render_legend(direction.get("legend", {}))
 

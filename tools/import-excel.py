@@ -339,9 +339,16 @@ def import_file(file: Path, known_stops: dict, config: dict):
         route_stops = []
         timetables = []
         timetable_stop_ids = set()
-        for sid in unique_ids:
+        for position, sid in enumerate(unique_ids):
             stop = known_stops[sid]
-            page = f"{sid}-{slug}.html"
+            # Powrót na przystanek początkowy na końcu pętli to przyjazd,
+            # a nie kolejna wizyta odjazdowa. Dostaje osobny URL; ID GeoJSON
+            # pozostaje bez zmian, podobnie jak fizyczna strona przystanku.
+            terminal_revisit = (
+                position == len(unique_ids) - 1 and sid in timetable_stop_ids
+            )
+            page = (f"{sid}-{slug}-koniec.html" if terminal_revisit
+                    else f"{sid}-{slug}.html")
             associated = [t for t in trips if t["direction"] == direction_no]
             route = {
                 "stop_id": sid, "stop_name": stop["stop_name"],
@@ -353,6 +360,12 @@ def import_file(file: Path, known_stops: dict, config: dict):
             # Zachowujemy każde wystąpienie w przebiegu trasy, lecz
             # generujemy tylko jeden rozkład dla fizycznego przystanku.
             if sid in timetable_stop_ids:
+                if terminal_revisit:
+                    timetables.append({
+                        "stop_id": sid, "stop_name": stop["stop_name"],
+                        "platform": stop["platform"], "file": page,
+                        "arrival_only": True, "departures": {},
+                    })
                 continue
             timetable_stop_ids.add(sid)
             departures = defaultdict(list)
