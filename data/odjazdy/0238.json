@@ -4,6 +4,16 @@
   "platform": "2",
   "departures": [
     {
+      "line": "8",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/8/0238-okrezna.html",
+      "day_type": "holiday",
+      "time": "09:32",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Laski Pętla",
       "display_direction": "Bukowno Przymiarki",
@@ -26,6 +36,16 @@
       "symbols": []
     },
     {
+      "line": "8",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/8/0238-okrezna.html",
+      "day_type": "holiday",
+      "time": "11:36",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Laski Pętla",
       "display_direction": "Laski Pętla",
@@ -33,6 +53,16 @@
       "page": "rozklady/2/0238-laski.html",
       "day_type": "holiday",
       "time": "11:43",
+      "symbols": []
+    },
+    {
+      "line": "8",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/8/0238-okrezna.html",
+      "day_type": "holiday",
+      "time": "12:55",
       "symbols": []
     },
     {
@@ -56,6 +86,16 @@
       "symbols": []
     },
     {
+      "line": "8",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/8/0238-okrezna.html",
+      "day_type": "holiday",
+      "time": "14:16",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Laski Pętla",
       "display_direction": "Laski Pętla",
@@ -66,6 +106,16 @@
       "symbols": [
         "H"
       ]
+    },
+    {
+      "line": "8",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/8/0238-okrezna.html",
+      "day_type": "holiday",
+      "time": "15:43",
+      "symbols": []
     },
     {
       "line": "2",
@@ -85,6 +135,16 @@
       "page": "rozklady/5/0238-slawkow.html",
       "day_type": "holiday",
       "time": "16:01",
+      "symbols": []
+    },
+    {
+      "line": "8",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/8/0238-okrezna.html",
+      "day_type": "saturday",
+      "time": "05:12",
       "symbols": []
     },
     {
@@ -121,6 +181,16 @@
       ]
     },
     {
+      "line": "8",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/8/0238-okrezna.html",
+      "day_type": "saturday",
+      "time": "06:50",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Laski Pętla",
       "display_direction": "Laski Pętla",
@@ -131,6 +201,16 @@
       "symbols": [
         "H"
       ]
+    },
+    {
+      "line": "8",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/8/0238-okrezna.html",
+      "day_type": "saturday",
+      "time": "07:58",
+      "symbols": []
     },
     {
       "line": "5",
@@ -153,6 +233,26 @@
       "symbols": [
         "H"
       ]
+    },
+    {
+      "line": "8",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/8/0238-okrezna.html",
+      "day_type": "saturday",
+      "time": "09:26",
+      "symbols": []
+    },
+    {
+      "line": "8",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/8/0238-okrezna.html",
+      "day_type": "saturday",
+      "time": "10:08",
+      "symbols": []
     },
     {
       "line": "2",
@@ -187,6 +287,26 @@
       "symbols": []
     },
     {
+      "line": "8",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/8/0238-okrezna.html",
+      "day_type": "saturday",
+      "time": "12:07",
+      "symbols": []
+    },
+    {
+      "line": "8",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/8/0238-okrezna.html",
+      "day_type": "saturday",
+      "time": "12:55",
+      "symbols": []
+    },
+    {
       "line": "5",
       "main_direction": "Sławków Dębowa Góra",
       "display_direction": "Sławków Dębowa Góra",
@@ -207,6 +327,16 @@
       "symbols": []
     },
     {
+      "line": "8",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/8/0238-okrezna.html",
+      "day_type": "saturday",
+      "time": "14:19",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Laski Pętla",
       "display_direction": "Laski Pętla",
@@ -217,6 +347,16 @@
       "symbols": [
         "H"
       ]
+    },
+    {
+      "line": "8",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/8/0238-okrezna.html",
+      "day_type": "saturday",
+      "time": "15:41",
+      "symbols": []
     },
     {
       "line": "2",
@@ -236,6 +376,16 @@
       "page": "rozklady/5/0238-slawkow.html",
       "day_type": "saturday",
       "time": "16:01",
+      "symbols": []
+    },
+    {
+      "line": "8",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/8/0238-okrezna.html",
+      "day_type": "saturday",
+      "time": "16:55",
       "symbols": []
     },
     {
@@ -274,6 +424,26 @@
       "symbols": []
     },
     {
+      "line": "8",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/8/0238-okrezna.html",
+      "day_type": "saturday",
+      "time": "19:36",
+      "symbols": []
+    },
+    {
+      "line": "8",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/8/0238-okrezna.html",
+      "day_type": "saturday",
+      "time": "19:51",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Laski Pętla",
       "display_direction": "Laski Pętla",
@@ -296,6 +466,16 @@
       "symbols": []
     },
     {
+      "line": "8",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/8/0238-okrezna.html",
+      "day_type": "saturday",
+      "time": "21:48",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Laski Pętla",
       "display_direction": "Laski Pętla",
@@ -306,6 +486,16 @@
       "symbols": [
         "H"
       ]
+    },
+    {
+      "line": "8",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/8/0238-okrezna.html",
+      "day_type": "sunday",
+      "time": "05:33",
+      "symbols": []
     },
     {
       "line": "5",
@@ -341,6 +531,16 @@
       ]
     },
     {
+      "line": "8",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/8/0238-okrezna.html",
+      "day_type": "sunday",
+      "time": "06:44",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Laski Pętla",
       "display_direction": "Laski Pętla",
@@ -358,6 +558,26 @@
       "page": "rozklady/5/0238-slawkow.html",
       "day_type": "sunday",
       "time": "08:06",
+      "symbols": []
+    },
+    {
+      "line": "8",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/8/0238-okrezna.html",
+      "day_type": "sunday",
+      "time": "08:42",
+      "symbols": []
+    },
+    {
+      "line": "8",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/8/0238-okrezna.html",
+      "day_type": "sunday",
+      "time": "09:32",
       "symbols": []
     },
     {
@@ -393,6 +613,16 @@
       "symbols": []
     },
     {
+      "line": "8",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/8/0238-okrezna.html",
+      "day_type": "sunday",
+      "time": "11:36",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Laski Pętla",
       "display_direction": "Laski Pętla",
@@ -415,6 +645,16 @@
       "symbols": []
     },
     {
+      "line": "8",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/8/0238-okrezna.html",
+      "day_type": "sunday",
+      "time": "12:55",
+      "symbols": []
+    },
+    {
       "line": "5",
       "main_direction": "Sławków Dębowa Góra",
       "display_direction": "Sławków Dębowa Góra",
@@ -422,6 +662,16 @@
       "page": "rozklady/5/0238-slawkow.html",
       "day_type": "sunday",
       "time": "13:26",
+      "symbols": []
+    },
+    {
+      "line": "8",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/8/0238-okrezna.html",
+      "day_type": "sunday",
+      "time": "14:16",
       "symbols": []
     },
     {
@@ -435,6 +685,16 @@
       "symbols": [
         "P"
       ]
+    },
+    {
+      "line": "8",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/8/0238-okrezna.html",
+      "day_type": "sunday",
+      "time": "15:43",
+      "symbols": []
     },
     {
       "line": "5",
@@ -454,6 +714,26 @@
       "page": "rozklady/2/0238-laski.html",
       "day_type": "sunday",
       "time": "17:22",
+      "symbols": []
+    },
+    {
+      "line": "8",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/8/0238-okrezna.html",
+      "day_type": "sunday",
+      "time": "17:25",
+      "symbols": []
+    },
+    {
+      "line": "8",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/8/0238-okrezna.html",
+      "day_type": "sunday",
+      "time": "18:31",
       "symbols": []
     },
     {
@@ -497,6 +777,26 @@
       "symbols": []
     },
     {
+      "line": "8",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/8/0238-okrezna.html",
+      "day_type": "sunday",
+      "time": "21:54",
+      "symbols": []
+    },
+    {
+      "line": "8",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/8/0238-okrezna.html",
+      "day_type": "workday",
+      "time": "04:46",
+      "symbols": []
+    },
+    {
       "line": "5",
       "main_direction": "Sławków Dębowa Góra",
       "display_direction": "Sławków Dębowa Góra",
@@ -519,6 +819,16 @@
       ]
     },
     {
+      "line": "8",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/8/0238-okrezna.html",
+      "day_type": "workday",
+      "time": "05:47",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Laski Pętla",
       "display_direction": "Bukowno Przymiarki",
@@ -538,6 +848,16 @@
       "page": "rozklady/2/0238-laski.html",
       "day_type": "workday",
       "time": "06:54",
+      "symbols": []
+    },
+    {
+      "line": "8",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/8/0238-okrezna.html",
+      "day_type": "workday",
+      "time": "07:17",
       "symbols": []
     },
     {
@@ -571,6 +891,16 @@
       "symbols": []
     },
     {
+      "line": "8",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/8/0238-okrezna.html",
+      "day_type": "workday",
+      "time": "08:34",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Laski Pętla",
       "display_direction": "Bukowno Przymiarki",
@@ -582,6 +912,16 @@
         "L",
         "P"
       ]
+    },
+    {
+      "line": "8",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/8/0238-okrezna.html",
+      "day_type": "workday",
+      "time": "09:28",
+      "symbols": []
     },
     {
       "line": "5",
@@ -606,6 +946,16 @@
       ]
     },
     {
+      "line": "8",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/8/0238-okrezna.html",
+      "day_type": "workday",
+      "time": "11:16",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Laski Pętla",
       "display_direction": "Laski Pętla",
@@ -628,6 +978,16 @@
       ]
     },
     {
+      "line": "8",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/8/0238-okrezna.html",
+      "day_type": "workday",
+      "time": "12:03",
+      "symbols": []
+    },
+    {
       "line": "5",
       "main_direction": "Sławków Dębowa Góra",
       "display_direction": "Sławków Dębowa Góra",
@@ -645,6 +1005,16 @@
       "page": "rozklady/2/0238-laski.html",
       "day_type": "workday",
       "time": "13:09",
+      "symbols": []
+    },
+    {
+      "line": "8",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/8/0238-okrezna.html",
+      "day_type": "workday",
+      "time": "13:18",
       "symbols": []
     },
     {
@@ -671,6 +1041,16 @@
       ]
     },
     {
+      "line": "8",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/8/0238-okrezna.html",
+      "day_type": "workday",
+      "time": "14:34",
+      "symbols": []
+    },
+    {
       "line": "5",
       "main_direction": "Sławków Dębowa Góra",
       "display_direction": "Sławków Dębowa Góra",
@@ -694,6 +1074,16 @@
       ]
     },
     {
+      "line": "8",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/8/0238-okrezna.html",
+      "day_type": "workday",
+      "time": "16:05",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Laski Pętla",
       "display_direction": "Laski Pętla",
@@ -701,6 +1091,16 @@
       "page": "rozklady/2/0238-laski.html",
       "day_type": "workday",
       "time": "16:17",
+      "symbols": []
+    },
+    {
+      "line": "8",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/8/0238-okrezna.html",
+      "day_type": "workday",
+      "time": "16:45",
       "symbols": []
     },
     {
@@ -750,6 +1150,26 @@
       ]
     },
     {
+      "line": "8",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/8/0238-okrezna.html",
+      "day_type": "workday",
+      "time": "18:47",
+      "symbols": []
+    },
+    {
+      "line": "8",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/8/0238-okrezna.html",
+      "day_type": "workday",
+      "time": "19:20",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Laski Pętla",
       "display_direction": "Laski Pętla",
@@ -777,6 +1197,16 @@
       "page": "rozklady/2/0238-laski.html",
       "day_type": "workday",
       "time": "20:07",
+      "symbols": []
+    },
+    {
+      "line": "8",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/8/0238-okrezna.html",
+      "day_type": "workday",
+      "time": "20:15",
       "symbols": []
     },
     {
@@ -823,6 +1253,11 @@
       "line": "5",
       "main_direction": "Sławków Dębowa Góra",
       "page": "rozklady/5/0238-slawkow.html"
+    },
+    {
+      "line": "8",
+      "main_direction": "Olkusz Dworzec PKS",
+      "page": "rozklady/8/0238-okrezna.html"
     }
   ],
   "legends": {
@@ -832,6 +1267,7 @@
       "L": "z pominięciem: Bolesław Remiza>>Laski Pętla",
       "P": "do: Bukowno Przymiarki"
     },
-    "5": {}
+    "5": {},
+    "8": {}
   }
 }
