@@ -622,6 +622,31 @@ def get_stop_direction_name(direction, stop_id, route_file=None):
     return direction_name
 
 
+def get_timetable_direction_name(direction, timetable):
+    """Direction for one *occurrence* of a physical stop.
+
+    A page consisting exclusively of a variant's departures may show
+    the variant destination directly. Other stops keep the main route
+    heading, with variant superscripts and legend on individual times.
+    """
+    base = get_stop_direction_name(
+        direction, timetable["stop_id"], route_file=timetable["file"]
+    )
+    if timetable.get("arrival_only") and timetable.get("arrival_direction"):
+        return timetable["arrival_direction"]
+    variants = direction.get("variant_destinations", {})
+    all_symbols = []
+    for vals in timetable.get("departures", {}).values():
+        for value in vals:
+            _, symbols = parse_time(value)
+            all_symbols.append(tuple(symbols))
+    if all_symbols and len(set(all_symbols)) == 1:
+        symbols = all_symbols[0]
+        if len(symbols) == 1 and symbols[0] in variants:
+            return variants[symbols[0]]
+    return base
+
+
 def get_display_direction(direction_name, direction, symbols):
     variant_destinations = direction.get("variant_destinations", {})
 
@@ -721,7 +746,7 @@ def render_line_timetable_html(line_data, direction, timetable):
     stop_id = timetable["stop_id"]
     stop_name = timetable["stop_name"]
     platform = timetable["platform"]
-    direction_name = get_stop_direction_name(direction, stop_id, route_file=current_file)
+    direction_name = get_timetable_direction_name(direction, timetable)
     map_url = line_data.get("map_url", "https://enderommhr.github.io/kmmz/mapa.html")
 
     route_html = render_route_stops(direction["route_stops"], current_file)
@@ -840,7 +865,7 @@ def build_departures_from_line_files(line_files):
 
             for timetable in direction["timetables"]:
                 stop_id = timetable["stop_id"]
-                direction_name = get_stop_direction_name(direction, stop_id, route_file=timetable["file"])
+                direction_name = get_timetable_direction_name(direction, timetable)
 
                 if stop_id not in by_stop:
                     by_stop[stop_id] = {
