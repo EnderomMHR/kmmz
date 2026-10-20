@@ -60,12 +60,13 @@ class RepeatedStopsTests(unittest.TestCase):
         _, line, detail = import_mock(rows, stops)
         direction = line["directions"][0]
         self.assertEqual([s["stop_id"] for s in direction["route_stops"]], stops)
-        times = {t["stop_id"]: t["departures"]
-                 for t in direction["timetables"] if not t.get("arrival_only")}
+        pages = {t["file"]: t for t in direction["timetables"]}
         self.assertEqual(direction["timetables"][-1]["file"], "0200-okrezna-koniec.html")
         self.assertEqual(direction["timetables"][-1]["departures"], {})
-        self.assertEqual(times["0200"]["workday"], ["08:00", "08:10"])
-        self.assertNotIn("08:20", times["0200"]["workday"])
+        self.assertEqual(pages["0200-okrezna.html"]["departures"]["workday"], ["08:00"])
+        self.assertEqual(pages["0200-okrezna-ponownie.html"]["departures"]["workday"], ["08:10"])
+        self.assertEqual(pages["0238-okrezna.html"]["departures"]["workday"], ["08:15"])
+        self.assertNotIn("08:20", str(direction["timetables"]))
         self.assertEqual(len(detail["route_patterns"][0]["stop_ids"]), 5)
 
     def test_different_starts_with_same_loop_variant(self):
