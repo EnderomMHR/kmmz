@@ -35,6 +35,22 @@ for stop_id in unique_ids:
 start_html = (ROOT / "rozklady/8/0200-okrezna.html").read_text(encoding="utf-8")
 assert start_html.count("0200 Olkusz Dworzec PKS (0)</a>") == 2
 assert start_html.count('class="stop current-stop"') == 1
+assert start_html.count('href="../8/0200-okrezna-koniec.html"') == 1
+assert start_html.count('href="../8/0200-okrezna.html"') == 1
+
+end_file = ROOT / "rozklady/8/0200-okrezna-koniec.html"
+end_html = end_file.read_text(encoding="utf-8")
+assert '<div class="route-title">Kierunek: Olkusz Dworzec PKS</div>' in end_html
+assert end_html.count('class="stop current-stop"') == 1
+assert end_html.count("0200 Olkusz Dworzec PKS (0)</a>") == 1
+assert "Przystanek końcowy" in end_html
+assert "Brak odjazdów tej linii" in end_html
+assert not re.search(r'class="section-title (?:workday|saturday|sunday|holiday)"', end_html)
+assert '<div class="route-subtitle">Trasa przejazdu od tego przystanku</div>' in end_html
+
+line_route = (ROOT / "linie/8.html").read_text(encoding="utf-8")
+assert line_route.count('href="../rozklady/8/0200-okrezna.html"') == 1
+assert line_route.count('href="../rozklady/8/0200-okrezna-koniec.html"') == 1
 
 # Physical stop popup reads data/odjazdy/0200.json. A line is offered only
 # when it has genuine departures (not just a terminal arrival).
@@ -64,5 +80,6 @@ map_js = (ROOT / "js/mapa.js").read_text(encoding="utf-8")
 assert map_js.count('fetch(`data/odjazdy/${stopId}.json`, { cache: "no-store" })') == 2
 map_html = (ROOT / "mapa.html").read_text(encoding="utf-8")
 assert '<script src="js/mapa.js?v=20261020-stop-data"></script>' in map_html
+print("OK: line 8 separate terminal 0200 page: no departures and correct direction.")
 print("OK: line 8 stop headings, one highlight, all 15 map stops, 43 departures each.")
 print("OK: map direction breakpoint 0687/0688, cache refresh for stop popup/sidebar.")
