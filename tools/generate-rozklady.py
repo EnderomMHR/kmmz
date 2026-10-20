@@ -840,7 +840,7 @@ def build_departures_from_line_files(line_files):
 
             for timetable in direction["timetables"]:
                 stop_id = timetable["stop_id"]
-                direction_name = get_stop_direction_name(direction, stop_id)
+                direction_name = get_stop_direction_name(direction, stop_id, route_file=timetable["file"])
 
                 if stop_id not in by_stop:
                     by_stop[stop_id] = {
