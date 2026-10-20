@@ -24,7 +24,7 @@ assert len(trips["route_patterns"]) == 4
 # first worksheet, combining each course ID and its position/time (in min).
 excel_rows = [
     [t["trip_id"], [
-        [s["stop_sequence"]-1, int(s["time"][:2])*60+int(s["time"][3:])]
+        [s["stop_sequence"], int(s["time"][:2])*60+int(s["time"][3:])]
         for s in t["stop_times"]]] for t in trips["trips"]
 ]
 fingerprint = hashlib.sha256(
