@@ -88,6 +88,15 @@ ID przystanków w Excelu tylko dlatego, że linia wraca w to samo miejsce.
 Arkusz2 jest pomijany. Specjalne wyjątki świąteczne z tego arkusza
 nie są importowane.
 
+Kiedy pierwszy i ostatni przystanek pełnego przebiegu mają ten sam `stop_id`,
+importer automatycznie dodaje **oddzielną stronę końcowego przyjazdu**
+`<ID>-<slug>-koniec.html` i oznacza jej rekord `arrival_only: true`.
+Na takiej stronie nie ma odjazdów; w danych mapy i na fizycznej stronie
+przystanku pozostają wyłącznie rzeczywiste odjazdy z danego ID.
+Strona przebiegu linii powinna odsyłać z ostatniej pozycji do tej
+oddzielnej strony (nie do rozkładu początkowego). Nie dodawaj odrębnego
+przystanku do GeoJSON.
+
 ## Kierunki informacyjne linii okrężnych
 
 Faktyczny kierunek jazdy (kolumna w Excelu, `direction` w `trips`) pozostaje bez zmian.
