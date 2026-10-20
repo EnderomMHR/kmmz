@@ -133,3 +133,25 @@ Przykład linii 7 (faktycznie **jeden** kierunek jazdy):
 
 ## Bezpieczeństwo
 Zmiany zostały przygotowane na gałęzi roboczej do zatwierdzenia przed włączeniem do `main`. Nie importuj do `main` niezweryfikowanych danych.
+
+## Powtarzany przystanek z kontynuacją części kursów (np. linia 9)
+
+Importer generuje osobny rozkład dla **każdego wystąpienia przystanku**
+w ramach jednego kierunku, niezależnie od wspólnego fizycznego `stop_id`.
+Przykład: `0001-okrezna-2.html` (odjazdy na początku) i
+`0001-okrezna-2-ponownie.html` (odjazdy przy drugim przejeździe).
+Ostatnia wizyta każdego konkretnego kursu jest przyjazdem i nie
+jest uwzględniana w żadnej liście odjazdów. Wariant, który jedzie dalej
+z drugiego wystąpienia, zachowuje swoje rzeczywiste odjazdy.
+
+W `data/odjazdy/<ID>.json` / na mapie i fizycznej stronie przystanku
+wszystkie odjazdy z obu wystąpień łączone są pod jednym `stop_id`,
+zachowując odnośnik do odpowiedniej, oddzielnej strony rozkładu linii.
+
+Konfiguracja `variant_symbol_starts` przypisuje kod wariantu do ID
+przystanku, od którego dopiero należy wyświetlać jego literę, np.
+`{"1": "0711"}` z `variant_symbols: {"1": "W"}`.
+Wcześniejsze odjazdy tego wariantu nie dostają litery, natomiast od
+wskazanej pozycji mają symbol i wyświetlaną nazwę kierunku z
+`variant_destinations: {"W": "Wolbrom Pod Lasem"}`.
+To nie zmienia ID kursu, tylko informację pasażerską.
