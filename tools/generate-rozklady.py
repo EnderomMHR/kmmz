@@ -663,13 +663,15 @@ def render_route_stops(route_stops, current_file):
 
     html = []
 
-    for stop in visible_stops:
+    # Powtórzony stop_id korzysta z tej samej strony rozkładu; podświetlaj
+    # tylko pierwsze wystąpienie wybranego przystanku na widocznej trasie.
+    for index, stop in enumerate(visible_stops, start=start_index):
         classes = ["stop"]
 
         if stop.get("variant"):
             classes.append("variant")
 
-        if stop["file"] == current_file:
+        if index == start_index:
             classes.append("current-stop")
 
         class_text = " ".join(classes)
