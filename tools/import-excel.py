@@ -388,14 +388,14 @@ def import_file(file: Path, known_stops: dict, config: dict):
             symbol_start_positions[variant] = unique_ids.index(start_sid)
 
         visits = defaultdict(lambda: defaultdict(list))
-        arrivals = set()
+        arrivals = defaultdict(set)
         for trip in associated:
             _, block_no = trip_blocks[trip["trip_id"]]
             route_mapping = block_mappings[block_no]
             for seq_idx, stop_time in enumerate(trip["stop_times"]):
                 index = route_mapping[stop_time["stop_sequence"] - 1]
                 if seq_idx == len(trip["stop_times"]) - 1:
-                    arrivals.add(index)
+                    arrivals[index].add(trip["variant"])
                     continue  # final arrival, irrespective of stop_id
                 symbol = spec.get("variant_symbols", {}).get(trip["variant"], "")
                 if symbol and not re.fullmatch(r"[A-Za-zĄĆĘŁŃÓŚŹŻ]", symbol):
@@ -434,6 +434,15 @@ def import_file(file: Path, known_stops: dict, config: dict):
             }
             if position in arrivals and not departures:
                 timetable["arrival_only"] = True
+                # All arrivals may share a variant-only destination
+                # even though arrival times stay in trips, not departures.
+                variants = arrivals[position]
+                if len(variants) == 1:
+                    variant = next(iter(variants))
+                    symbol = spec.get("variant_symbols", {}).get(variant)
+                    dest = spec.get("variant_destinations", {}).get(symbol)
+                    if dest:
+                        timetable["arrival_direction"] = dest
             timetables.append(timetable)
         timetable_directions.append({
             "slug": slug, "name": spec["name"],
