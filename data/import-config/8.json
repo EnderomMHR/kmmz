@@ -2,7 +2,17 @@
   "directions": {
     "1": {
       "slug": "okrezna",
-      "name": "Olkusz Dworzec PKS"
+      "name": "Olkusz Dworzec PKS",
+      "direction_segments": [
+        {
+          "from_stop_id": "0200",
+          "name": "Olkusz Pomorzany Wzniesienie"
+        },
+        {
+          "from_stop_id": "0688",
+          "name": "Olkusz Dworzec PKS"
+        }
+      ]
     }
   }
 }

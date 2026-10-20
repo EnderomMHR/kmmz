@@ -11,6 +11,9 @@ on:
       - 'tools/check-line6.py'
       - 'tools/check-line7.py'
       - 'tools/check-line8.py'
+      - 'tools/check-line8-pages.py'
+      - 'js/mapa.js'
+      - 'mapa.html'
       - 'tools/check-terminal-arrivals.py'
       - 'tools/test-import-excel.py'
       - 'tools/test-variant-origins.py'
@@ -48,6 +51,8 @@ jobs:
         run: python -m py_compile tools/import-excel.py
       - name: Generate HTML and stop departures (without committing)
         run: python tools/generate-rozklady.py > /tmp/kmmz-generated.log
+      - name: Verify line 8 generated pages, map directions and stop visibility
+        run: python tools/check-line8-pages.py
       - name: Confirm line 5 pages
         run: |
           test -f rozklady/5/0465-olkusz.html

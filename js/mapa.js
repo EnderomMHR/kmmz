@@ -456,7 +456,7 @@ function openStopPanel(properties) {
   showPanelTab("nearest");
   panel.classList.add("open");
 
-  fetch(`data/odjazdy/${stopId}.json`)
+  fetch(`data/odjazdy/${stopId}.json`, { cache: "no-store" })
     .then(response => {
       if (!response.ok) {
         throw new Error(`Brak pliku data/odjazdy/${stopId}.json`);
@@ -652,7 +652,7 @@ function renderPopupLines(stopId) {
     return;
   }
 
-  fetch(`data/odjazdy/${stopId}.json`)
+  fetch(`data/odjazdy/${stopId}.json`, { cache: "no-store" })
     .then(response => {
       if (!response.ok) {
         throw new Error(`Brak pliku data/odjazdy/${stopId}.json`);

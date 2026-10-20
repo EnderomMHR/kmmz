@@ -22,6 +22,12 @@ direction = line["directions"][0]
 assert direction["slug"] == config["directions"]["1"]["slug"] == "okrezna"
 assert direction["name"] == config["directions"]["1"]["name"] == "Olkusz Dworzec PKS"
 assert direction["variant_destinations"] == direction["legend"] == {}
+expected_segments = [
+    {"from_stop_id": "0200", "name": "Olkusz Pomorzany Wzniesienie"},
+    {"from_stop_id": "0688", "name": "Olkusz Dworzec PKS"},
+]
+assert direction["direction_segments"] == expected_segments
+assert config["directions"]["1"]["direction_segments"] == expected_segments
 
 ids = [
     "0200", "0228", "0238", "0685", "0686", "0687", "0688", "0689",
