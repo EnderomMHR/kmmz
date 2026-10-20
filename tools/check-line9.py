@@ -103,7 +103,7 @@ for direction in line["directions"]:
         path=ROOT/"rozklady"/"9"/t["file"]
         assert path.is_file(), str(path)
         txt=path.read_text(encoding="utf-8")
-        assert txt.count('class="stop current-stop"') == 1, t["file"]
+        assert len(re.findall(r'class="stop(?: variant)? current-stop"', txt)) == 1, t["file"]
         if t.get("arrival_only"):
             assert "Brak odjazdów tej linii" in txt
         if t["file"] == "0001-okrezna-2-ponownie.html":
