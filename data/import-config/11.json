@@ -1,0 +1,81 @@
+{
+  "directions": {
+    "1": {
+      "slug": "tarnawa",
+      "name": "Tarnawa Podlas",
+      "direction_segments": [
+        {
+          "from_stop_id": "0200",
+          "name": "Tarnawa Podlas"
+        },
+        {
+          "from_stop_id": "0755",
+          "name": "Poręba Laskowska"
+        }
+      ],
+      "variant_symbols": {
+        "1": "Z",
+        "2": "P",
+        "3": "PZ"
+      },
+      "variant_letter_ends": {
+        "P": {
+          "stop_id": "0755",
+          "occurrence": 1
+        },
+        "Z": {
+          "stop_id": "0770",
+          "occurrence": 1
+        }
+      },
+      "variant_destinations": {
+        "P": "Poręba Laskowska"
+      },
+      "legend": {
+        "P": "do: Poręba Laskowska",
+        "Z": "przez: Zagórowa"
+      },
+      "legend_only_used_symbols": true,
+      "variant_stops": [
+        "0770",
+        "0774",
+        "0775",
+        "0773",
+        "0769",
+        "0752",
+        "0751",
+        "0749",
+        "0747"
+      ]
+    },
+    "2": {
+      "slug": "olkusz",
+      "name": "Olkusz Dworzec PKS",
+      "variant_symbols": {
+        "1": "Z"
+      },
+      "variant_letter_ends": {
+        "Z": {
+          "stop_id": "0770",
+          "occurrence": 1
+        }
+      },
+      "legend": {
+        "Z": "przez: Zagórowa"
+      },
+      "legend_only_used_symbols": true,
+      "variant_stops": [
+        "0747",
+        "0748",
+        "0750",
+        "0753",
+        "0754",
+        "0770",
+        "0774",
+        "0775",
+        "0773",
+        "0769"
+      ]
+    }
+  }
+}

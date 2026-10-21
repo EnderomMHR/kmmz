@@ -729,7 +729,7 @@ def render_legend(legend):
 
     rows = []
 
-    for symbol, description in legend.items():
+    for symbol, description in sorted(legend.items()):
         rows.append(
             f'<div class="legend-row"><span class="symbol">{escape(symbol)}</span> - {escape(description)}</div>'
         )
@@ -767,9 +767,21 @@ def render_line_timetable_html(line_data, direction, timetable):
 
     # A variant letter is unnecessary on pages with just one destination.
     # Those pages also should not show a legend for letters absent there.
-    legend_html = render_legend(
-        {} if timetable.get("direction_override") else direction.get("legend", {})
-    )
+    if timetable.get("direction_override"):
+        page_legend = {}
+    elif direction.get("legend_only_used_symbols"):
+        symbols_used = set()
+        for values in departures.values():
+            for value in values:
+                _, symbols = parse_time(value)
+                symbols_used.update(symbols)
+        page_legend = {
+            key: value for key, value in direction.get("legend", {}).items()
+            if key in symbols_used
+        }
+    else:
+        page_legend = direction.get("legend", {})
+    legend_html = render_legend(page_legend)
 
     return f"""<!DOCTYPE html>
 <html lang="pl">

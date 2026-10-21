@@ -197,3 +197,37 @@ Końcowe wystąpienie `0147` w każdym kierunku ma osobną stronę
 pozostaje pojedynczy w GeoJSON oraz na mapie.
 Godziny przyjazdów końcowych są zachowane w `data/trips/010.json`,
 ale nie są wyświetlane jako odjazdy. Arkusz2 pomijamy.
+
+
+## Linia 11 – niezależne oznaczenia P i Z, zawsze w kolejności alfabetycznej
+
+Źródło: `P.A.M. - Linia 11.xlsx` (wyłącznie Arkusz1), po poprawieniu
+`011-1-2-R-03` → `011-1-1-R-03`. Plik zawiera 84 kursy,
+3254 godziny przejazdów, 3170 odjazdów (po odjęciu końcowych przyjazdów).
+Tabelę wklejoną wcześniej do czatu porównano z Excelem komórka po komórce;
+jedyną różnicą był poprawiony identyfikator.
+
+- Kierunek 1: **Tarnawa Podlas**; dla kursów przedłużonych do Poręby
+  oznaczenie **P = do: Poręba Laskowska**. Na ostatnim, wyłącznie
+  porębskim odcinku od `0755` nagłówek strony i kierunek na mapie to
+  **Poręba Laskowska** bez dodatkowej litery.
+- Kierunek 2: **Olkusz Dworzec PKS**.
+- **Z = przez: Zagórowa**. Literę Z wyświetlamy tylko *przed*
+  pierwszym `0770 Milonki II (2)`. Od `0770` i na dalszej
+  części trasy nie ma już potrzeby zapowiadać rozpoczętego przejazdu
+  wariantowego (dotyczy obu kierunków).
+- Dla kursów z obiema cechami litery mają **zawsze** kolejność
+  alfabetyczną `PZ`, nie `ZP`. Po wjeździe w Zagórową zostaje `P`,
+  a od `0755` zostaje jedynie destynacja „Poręba Laskowska”.
+- Legenda jest posortowana alfabetycznie i wyświetla tylko litery,
+  które występują w rzeczywistych godzinach na danej stronie.
+- Odjazdy końcowe nie są fabrykowane: `0747 Poręba Laskowska`
+  (kierunek 1) oraz `0200 Olkusz Dworzec PKS` (kierunek 2)
+  mają stronę końcową bez godzin odjazdów.
+
+Nowe pole `variant_letter_ends` jest mapą *pojedynczej litery*
+na `{"stop_id":"0770","occurrence":1}`. Dzięki temu złożony
+wariant `PZ` może stracić samą literę `Z` bez wyłączania `P`.
+Zachowano dotychczasowe pole `variant_symbol_ends` dla linii 9.
+Pole `legend_only_used_symbols` oznacza wyświetlanie tylko
+aktywnych liter na konkretnej stronie przystankowej.
