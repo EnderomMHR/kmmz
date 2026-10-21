@@ -1,0 +1,32 @@
+{
+  "directions": {
+    "1": {
+      "slug": "okrezna-1",
+      "name": "Bukowno Dworzec PKP",
+      "direction_segments": [
+        {
+          "from_stop_id": "0147",
+          "name": "Bukowno Bór Biskupi OSP"
+        },
+        {
+          "from_stop_id": "0735",
+          "name": "Bukowno Dworzec PKP"
+        }
+      ]
+    },
+    "2": {
+      "slug": "okrezna-2",
+      "name": "Bukowno Dworzec PKP",
+      "direction_segments": [
+        {
+          "from_stop_id": "0147",
+          "name": "Bukowno Przymiarki"
+        },
+        {
+          "from_stop_id": "0106",
+          "name": "Bukowno Dworzec PKP"
+        }
+      ]
+    }
+  }
+}

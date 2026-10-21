@@ -1,0 +1,1889 @@
+{
+  "line": "10",
+  "map_url": "https://enderommhr.github.io/kmmz/mapa.html",
+  "directions": [
+    {
+      "slug": "okrezna-1",
+      "name": "Bukowno Dworzec PKP",
+      "variant_destinations": {},
+      "legend": {},
+      "direction_segments": [
+        {
+          "from_stop_id": "0147",
+          "name": "Bukowno Bór Biskupi OSP"
+        },
+        {
+          "from_stop_id": "0735",
+          "name": "Bukowno Dworzec PKP"
+        }
+      ],
+      "route_stops": [
+        {
+          "stop_id": "0147",
+          "stop_name": "Bukowno Dworzec PKP",
+          "platform": "0",
+          "file": "0147-okrezna-1.html"
+        },
+        {
+          "stop_id": "0148",
+          "stop_name": "Bukowno Urząd Miasta",
+          "platform": "1",
+          "file": "0148-okrezna-1.html"
+        },
+        {
+          "stop_id": "0724",
+          "stop_name": "Bukowno Leśna",
+          "platform": "1",
+          "file": "0724-okrezna-1.html"
+        },
+        {
+          "stop_id": "0725",
+          "stop_name": "Bukowno Leśna Krzyżówka",
+          "platform": "2",
+          "file": "0725-okrezna-1.html"
+        },
+        {
+          "stop_id": "0726",
+          "stop_name": "Bukowno Leśna Pętla",
+          "platform": "0",
+          "file": "0726-okrezna-1.html"
+        },
+        {
+          "stop_id": "0727",
+          "stop_name": "Bukowno Stadion",
+          "platform": "1",
+          "file": "0727-okrezna-1.html"
+        },
+        {
+          "stop_id": "0728",
+          "stop_name": "Bukowno Park",
+          "platform": "2",
+          "file": "0728-okrezna-1.html"
+        },
+        {
+          "stop_id": "0729",
+          "stop_name": "Bukowno Tunel",
+          "platform": "1",
+          "file": "0729-okrezna-1.html"
+        },
+        {
+          "stop_id": "0730",
+          "stop_name": "Bukowno Kościół",
+          "platform": "1",
+          "file": "0730-okrezna-1.html"
+        },
+        {
+          "stop_id": "0731",
+          "stop_name": "Bukowno Skrzyżowanie",
+          "platform": "2",
+          "file": "0731-okrezna-1.html"
+        },
+        {
+          "stop_id": "0732",
+          "stop_name": "Bukowno Borowska",
+          "platform": "1",
+          "file": "0732-okrezna-1.html"
+        },
+        {
+          "stop_id": "0733",
+          "stop_name": "Bukowno Bór Biskupi Przeń",
+          "platform": "2",
+          "file": "0733-okrezna-1.html"
+        },
+        {
+          "stop_id": "0734",
+          "stop_name": "Bukowno Bór Biskupi",
+          "platform": "1",
+          "file": "0734-okrezna-1.html"
+        },
+        {
+          "stop_id": "0735",
+          "stop_name": "Bukowno Bór Biskupi OSP",
+          "platform": "0",
+          "file": "0735-okrezna-1.html"
+        },
+        {
+          "stop_id": "0736",
+          "stop_name": "Bukowno Bór Biskupi Pętla",
+          "platform": "0",
+          "file": "0736-okrezna-1.html"
+        },
+        {
+          "stop_id": "0737",
+          "stop_name": "Bukowno Bór Biskupi",
+          "platform": "2",
+          "file": "0737-okrezna-1.html"
+        },
+        {
+          "stop_id": "0738",
+          "stop_name": "Bukowno Bór Biskupi Przeń",
+          "platform": "1",
+          "file": "0738-okrezna-1.html"
+        },
+        {
+          "stop_id": "0739",
+          "stop_name": "Bukowno Borowska",
+          "platform": "2",
+          "file": "0739-okrezna-1.html"
+        },
+        {
+          "stop_id": "0252",
+          "stop_name": "Bukowno Cmentarz",
+          "platform": "1",
+          "file": "0252-okrezna-1.html"
+        },
+        {
+          "stop_id": "0253",
+          "stop_name": "Bukowno Remiza",
+          "platform": "0",
+          "file": "0253-okrezna-1.html"
+        },
+        {
+          "stop_id": "0254",
+          "stop_name": "Bukowno Skotnica",
+          "platform": "1",
+          "file": "0254-okrezna-1.html"
+        },
+        {
+          "stop_id": "0255",
+          "stop_name": "Bukowno Sklep",
+          "platform": "1",
+          "file": "0255-okrezna-1.html"
+        },
+        {
+          "stop_id": "0256",
+          "stop_name": "Bukowno Przymiarki PKP",
+          "platform": "1",
+          "file": "0256-okrezna-1.html"
+        },
+        {
+          "stop_id": "0106",
+          "stop_name": "Bukowno Przymiarki",
+          "platform": "0",
+          "file": "0106-okrezna-1.html"
+        },
+        {
+          "stop_id": "0139",
+          "stop_name": "Bukowno Przymiarki PKP",
+          "platform": "2",
+          "file": "0139-okrezna-1.html"
+        },
+        {
+          "stop_id": "0140",
+          "stop_name": "Bukowno Sklep",
+          "platform": "2",
+          "file": "0140-okrezna-1.html"
+        },
+        {
+          "stop_id": "0141",
+          "stop_name": "Bukowno Skotnica",
+          "platform": "2",
+          "file": "0141-okrezna-1.html"
+        },
+        {
+          "stop_id": "0142",
+          "stop_name": "Bukowno Stare Skrzyżowanie",
+          "platform": "0",
+          "file": "0142-okrezna-1.html"
+        },
+        {
+          "stop_id": "0143",
+          "stop_name": "Bukowno Cmentarz",
+          "platform": "2",
+          "file": "0143-okrezna-1.html"
+        },
+        {
+          "stop_id": "0144",
+          "stop_name": "Bukowno Nowa OSP",
+          "platform": "1",
+          "file": "0144-okrezna-1.html"
+        },
+        {
+          "stop_id": "0145",
+          "stop_name": "Bukowno Nowa",
+          "platform": "2",
+          "file": "0145-okrezna-1.html"
+        },
+        {
+          "stop_id": "0146",
+          "stop_name": "Bukowno Urząd Miasta",
+          "platform": "2",
+          "file": "0146-okrezna-1.html"
+        },
+        {
+          "stop_id": "0147",
+          "stop_name": "Bukowno Dworzec PKP",
+          "platform": "0",
+          "file": "0147-okrezna-1-koniec.html"
+        }
+      ],
+      "timetables": [
+        {
+          "stop_id": "0147",
+          "stop_name": "Bukowno Dworzec PKP",
+          "platform": "0",
+          "file": "0147-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "09:35",
+              "10:39",
+              "18:08"
+            ],
+            "saturday": [
+              "10:52"
+            ],
+            "sunday": [
+              "10:58"
+            ],
+            "holiday": [
+              "10:52"
+            ]
+          }
+        },
+        {
+          "stop_id": "0148",
+          "stop_name": "Bukowno Urząd Miasta",
+          "platform": "1",
+          "file": "0148-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "09:36",
+              "10:40",
+              "18:09"
+            ],
+            "saturday": [
+              "10:53"
+            ],
+            "sunday": [
+              "10:59"
+            ],
+            "holiday": [
+              "10:53"
+            ]
+          }
+        },
+        {
+          "stop_id": "0724",
+          "stop_name": "Bukowno Leśna",
+          "platform": "1",
+          "file": "0724-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "09:38",
+              "10:42",
+              "18:11"
+            ],
+            "saturday": [
+              "10:55"
+            ],
+            "sunday": [
+              "11:01"
+            ],
+            "holiday": [
+              "10:55"
+            ]
+          }
+        },
+        {
+          "stop_id": "0725",
+          "stop_name": "Bukowno Leśna Krzyżówka",
+          "platform": "2",
+          "file": "0725-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "09:39",
+              "10:43",
+              "18:12"
+            ],
+            "saturday": [
+              "10:56"
+            ],
+            "sunday": [
+              "11:02"
+            ],
+            "holiday": [
+              "10:56"
+            ]
+          }
+        },
+        {
+          "stop_id": "0726",
+          "stop_name": "Bukowno Leśna Pętla",
+          "platform": "0",
+          "file": "0726-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "09:41",
+              "10:45",
+              "18:14"
+            ],
+            "saturday": [
+              "10:58"
+            ],
+            "sunday": [
+              "11:04"
+            ],
+            "holiday": [
+              "10:58"
+            ]
+          }
+        },
+        {
+          "stop_id": "0727",
+          "stop_name": "Bukowno Stadion",
+          "platform": "1",
+          "file": "0727-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "09:43",
+              "10:47",
+              "18:16"
+            ],
+            "saturday": [
+              "11:00"
+            ],
+            "sunday": [
+              "11:06"
+            ],
+            "holiday": [
+              "11:00"
+            ]
+          }
+        },
+        {
+          "stop_id": "0728",
+          "stop_name": "Bukowno Park",
+          "platform": "2",
+          "file": "0728-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "09:44",
+              "10:48",
+              "18:17"
+            ],
+            "saturday": [
+              "11:01"
+            ],
+            "sunday": [
+              "11:07"
+            ],
+            "holiday": [
+              "11:01"
+            ]
+          }
+        },
+        {
+          "stop_id": "0729",
+          "stop_name": "Bukowno Tunel",
+          "platform": "1",
+          "file": "0729-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "09:45",
+              "10:49",
+              "18:18"
+            ],
+            "saturday": [
+              "11:02"
+            ],
+            "sunday": [
+              "11:08"
+            ],
+            "holiday": [
+              "11:02"
+            ]
+          }
+        },
+        {
+          "stop_id": "0730",
+          "stop_name": "Bukowno Kościół",
+          "platform": "1",
+          "file": "0730-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "09:46",
+              "10:50",
+              "18:19"
+            ],
+            "saturday": [
+              "11:03"
+            ],
+            "sunday": [
+              "11:09"
+            ],
+            "holiday": [
+              "11:03"
+            ]
+          }
+        },
+        {
+          "stop_id": "0731",
+          "stop_name": "Bukowno Skrzyżowanie",
+          "platform": "2",
+          "file": "0731-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "09:47",
+              "10:51",
+              "18:20"
+            ],
+            "saturday": [
+              "11:04"
+            ],
+            "sunday": [
+              "11:10"
+            ],
+            "holiday": [
+              "11:04"
+            ]
+          }
+        },
+        {
+          "stop_id": "0732",
+          "stop_name": "Bukowno Borowska",
+          "platform": "1",
+          "file": "0732-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "09:48",
+              "10:52",
+              "18:21"
+            ],
+            "saturday": [
+              "11:05"
+            ],
+            "sunday": [
+              "11:11"
+            ],
+            "holiday": [
+              "11:05"
+            ]
+          }
+        },
+        {
+          "stop_id": "0733",
+          "stop_name": "Bukowno Bór Biskupi Przeń",
+          "platform": "2",
+          "file": "0733-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "09:53",
+              "10:57",
+              "18:26"
+            ],
+            "saturday": [
+              "11:10"
+            ],
+            "sunday": [
+              "11:16"
+            ],
+            "holiday": [
+              "11:10"
+            ]
+          }
+        },
+        {
+          "stop_id": "0734",
+          "stop_name": "Bukowno Bór Biskupi",
+          "platform": "1",
+          "file": "0734-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "09:54",
+              "10:58",
+              "18:27"
+            ],
+            "saturday": [
+              "11:11"
+            ],
+            "sunday": [
+              "11:17"
+            ],
+            "holiday": [
+              "11:11"
+            ]
+          }
+        },
+        {
+          "stop_id": "0735",
+          "stop_name": "Bukowno Bór Biskupi OSP",
+          "platform": "0",
+          "file": "0735-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "09:55",
+              "10:59",
+              "18:28"
+            ],
+            "saturday": [
+              "11:12"
+            ],
+            "sunday": [
+              "11:18"
+            ],
+            "holiday": [
+              "11:12"
+            ]
+          }
+        },
+        {
+          "stop_id": "0736",
+          "stop_name": "Bukowno Bór Biskupi Pętla",
+          "platform": "0",
+          "file": "0736-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "09:56",
+              "11:00",
+              "18:29"
+            ],
+            "saturday": [
+              "11:13"
+            ],
+            "sunday": [
+              "11:19"
+            ],
+            "holiday": [
+              "11:13"
+            ]
+          }
+        },
+        {
+          "stop_id": "0737",
+          "stop_name": "Bukowno Bór Biskupi",
+          "platform": "2",
+          "file": "0737-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "09:58",
+              "11:02",
+              "18:31"
+            ],
+            "saturday": [
+              "11:15"
+            ],
+            "sunday": [
+              "11:21"
+            ],
+            "holiday": [
+              "11:15"
+            ]
+          }
+        },
+        {
+          "stop_id": "0738",
+          "stop_name": "Bukowno Bór Biskupi Przeń",
+          "platform": "1",
+          "file": "0738-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "09:59",
+              "11:03",
+              "18:32"
+            ],
+            "saturday": [
+              "11:16"
+            ],
+            "sunday": [
+              "11:22"
+            ],
+            "holiday": [
+              "11:16"
+            ]
+          }
+        },
+        {
+          "stop_id": "0739",
+          "stop_name": "Bukowno Borowska",
+          "platform": "2",
+          "file": "0739-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "10:04",
+              "11:08",
+              "18:37"
+            ],
+            "saturday": [
+              "11:21"
+            ],
+            "sunday": [
+              "11:27"
+            ],
+            "holiday": [
+              "11:21"
+            ]
+          }
+        },
+        {
+          "stop_id": "0252",
+          "stop_name": "Bukowno Cmentarz",
+          "platform": "1",
+          "file": "0252-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "10:06",
+              "11:10",
+              "18:39"
+            ],
+            "saturday": [
+              "11:23"
+            ],
+            "sunday": [
+              "11:29"
+            ],
+            "holiday": [
+              "11:23"
+            ]
+          }
+        },
+        {
+          "stop_id": "0253",
+          "stop_name": "Bukowno Remiza",
+          "platform": "0",
+          "file": "0253-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "10:07",
+              "11:11",
+              "18:40"
+            ],
+            "saturday": [
+              "11:24"
+            ],
+            "sunday": [
+              "11:30"
+            ],
+            "holiday": [
+              "11:24"
+            ]
+          }
+        },
+        {
+          "stop_id": "0254",
+          "stop_name": "Bukowno Skotnica",
+          "platform": "1",
+          "file": "0254-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "10:08",
+              "11:12",
+              "18:41"
+            ],
+            "saturday": [
+              "11:25"
+            ],
+            "sunday": [
+              "11:31"
+            ],
+            "holiday": [
+              "11:25"
+            ]
+          }
+        },
+        {
+          "stop_id": "0255",
+          "stop_name": "Bukowno Sklep",
+          "platform": "1",
+          "file": "0255-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "10:09",
+              "11:13",
+              "18:42"
+            ],
+            "saturday": [
+              "11:26"
+            ],
+            "sunday": [
+              "11:32"
+            ],
+            "holiday": [
+              "11:26"
+            ]
+          }
+        },
+        {
+          "stop_id": "0256",
+          "stop_name": "Bukowno Przymiarki PKP",
+          "platform": "1",
+          "file": "0256-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "10:13",
+              "11:17",
+              "18:46"
+            ],
+            "saturday": [
+              "11:30"
+            ],
+            "sunday": [
+              "11:36"
+            ],
+            "holiday": [
+              "11:30"
+            ]
+          }
+        },
+        {
+          "stop_id": "0106",
+          "stop_name": "Bukowno Przymiarki",
+          "platform": "0",
+          "file": "0106-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "10:16",
+              "11:20",
+              "18:49"
+            ],
+            "saturday": [
+              "11:33"
+            ],
+            "sunday": [
+              "11:39"
+            ],
+            "holiday": [
+              "11:33"
+            ]
+          }
+        },
+        {
+          "stop_id": "0139",
+          "stop_name": "Bukowno Przymiarki PKP",
+          "platform": "2",
+          "file": "0139-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "10:20",
+              "11:24",
+              "18:53"
+            ],
+            "saturday": [
+              "11:37"
+            ],
+            "sunday": [
+              "11:43"
+            ],
+            "holiday": [
+              "11:37"
+            ]
+          }
+        },
+        {
+          "stop_id": "0140",
+          "stop_name": "Bukowno Sklep",
+          "platform": "2",
+          "file": "0140-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "10:24",
+              "11:28",
+              "18:57"
+            ],
+            "saturday": [
+              "11:41"
+            ],
+            "sunday": [
+              "11:47"
+            ],
+            "holiday": [
+              "11:41"
+            ]
+          }
+        },
+        {
+          "stop_id": "0141",
+          "stop_name": "Bukowno Skotnica",
+          "platform": "2",
+          "file": "0141-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "10:25",
+              "11:29",
+              "18:58"
+            ],
+            "saturday": [
+              "11:42"
+            ],
+            "sunday": [
+              "11:48"
+            ],
+            "holiday": [
+              "11:42"
+            ]
+          }
+        },
+        {
+          "stop_id": "0142",
+          "stop_name": "Bukowno Stare Skrzyżowanie",
+          "platform": "0",
+          "file": "0142-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "10:26",
+              "11:30",
+              "18:59"
+            ],
+            "saturday": [
+              "11:43"
+            ],
+            "sunday": [
+              "11:49"
+            ],
+            "holiday": [
+              "11:43"
+            ]
+          }
+        },
+        {
+          "stop_id": "0143",
+          "stop_name": "Bukowno Cmentarz",
+          "platform": "2",
+          "file": "0143-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "10:27",
+              "11:31",
+              "19:00"
+            ],
+            "saturday": [
+              "11:44"
+            ],
+            "sunday": [
+              "11:50"
+            ],
+            "holiday": [
+              "11:44"
+            ]
+          }
+        },
+        {
+          "stop_id": "0144",
+          "stop_name": "Bukowno Nowa OSP",
+          "platform": "1",
+          "file": "0144-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "10:28",
+              "11:32",
+              "19:01"
+            ],
+            "saturday": [
+              "11:45"
+            ],
+            "sunday": [
+              "11:51"
+            ],
+            "holiday": [
+              "11:45"
+            ]
+          }
+        },
+        {
+          "stop_id": "0145",
+          "stop_name": "Bukowno Nowa",
+          "platform": "2",
+          "file": "0145-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "10:30",
+              "11:34",
+              "19:03"
+            ],
+            "saturday": [
+              "11:47"
+            ],
+            "sunday": [
+              "11:53"
+            ],
+            "holiday": [
+              "11:47"
+            ]
+          }
+        },
+        {
+          "stop_id": "0146",
+          "stop_name": "Bukowno Urząd Miasta",
+          "platform": "2",
+          "file": "0146-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "10:31",
+              "11:35",
+              "19:04"
+            ],
+            "saturday": [
+              "11:48"
+            ],
+            "sunday": [
+              "11:54"
+            ],
+            "holiday": [
+              "11:48"
+            ]
+          }
+        },
+        {
+          "stop_id": "0147",
+          "stop_name": "Bukowno Dworzec PKP",
+          "platform": "0",
+          "file": "0147-okrezna-1-koniec.html",
+          "departures": {},
+          "arrival_only": true
+        }
+      ]
+    },
+    {
+      "slug": "okrezna-2",
+      "name": "Bukowno Dworzec PKP",
+      "variant_destinations": {},
+      "legend": {},
+      "direction_segments": [
+        {
+          "from_stop_id": "0147",
+          "name": "Bukowno Przymiarki"
+        },
+        {
+          "from_stop_id": "0106",
+          "name": "Bukowno Dworzec PKP"
+        }
+      ],
+      "route_stops": [
+        {
+          "stop_id": "0147",
+          "stop_name": "Bukowno Dworzec PKP",
+          "platform": "0",
+          "file": "0147-okrezna-2.html"
+        },
+        {
+          "stop_id": "0148",
+          "stop_name": "Bukowno Urząd Miasta",
+          "platform": "1",
+          "file": "0148-okrezna-2.html"
+        },
+        {
+          "stop_id": "0250",
+          "stop_name": "Bukowno Nowa",
+          "platform": "1",
+          "file": "0250-okrezna-2.html"
+        },
+        {
+          "stop_id": "0251",
+          "stop_name": "Bukowno Nowa OSP",
+          "platform": "2",
+          "file": "0251-okrezna-2.html"
+        },
+        {
+          "stop_id": "0252",
+          "stop_name": "Bukowno Cmentarz",
+          "platform": "1",
+          "file": "0252-okrezna-2.html"
+        },
+        {
+          "stop_id": "0253",
+          "stop_name": "Bukowno Remiza",
+          "platform": "0",
+          "file": "0253-okrezna-2.html"
+        },
+        {
+          "stop_id": "0254",
+          "stop_name": "Bukowno Skotnica",
+          "platform": "1",
+          "file": "0254-okrezna-2.html"
+        },
+        {
+          "stop_id": "0255",
+          "stop_name": "Bukowno Sklep",
+          "platform": "1",
+          "file": "0255-okrezna-2.html"
+        },
+        {
+          "stop_id": "0256",
+          "stop_name": "Bukowno Przymiarki PKP",
+          "platform": "1",
+          "file": "0256-okrezna-2.html"
+        },
+        {
+          "stop_id": "0106",
+          "stop_name": "Bukowno Przymiarki",
+          "platform": "0",
+          "file": "0106-okrezna-2.html"
+        },
+        {
+          "stop_id": "0139",
+          "stop_name": "Bukowno Przymiarki PKP",
+          "platform": "2",
+          "file": "0139-okrezna-2.html"
+        },
+        {
+          "stop_id": "0140",
+          "stop_name": "Bukowno Sklep",
+          "platform": "2",
+          "file": "0140-okrezna-2.html"
+        },
+        {
+          "stop_id": "0141",
+          "stop_name": "Bukowno Skotnica",
+          "platform": "2",
+          "file": "0141-okrezna-2.html"
+        },
+        {
+          "stop_id": "0142",
+          "stop_name": "Bukowno Stare Skrzyżowanie",
+          "platform": "0",
+          "file": "0142-okrezna-2.html"
+        },
+        {
+          "stop_id": "0143",
+          "stop_name": "Bukowno Cmentarz",
+          "platform": "2",
+          "file": "0143-okrezna-2.html"
+        },
+        {
+          "stop_id": "0732",
+          "stop_name": "Bukowno Borowska",
+          "platform": "1",
+          "file": "0732-okrezna-2.html"
+        },
+        {
+          "stop_id": "0733",
+          "stop_name": "Bukowno Bór Biskupi Przeń",
+          "platform": "2",
+          "file": "0733-okrezna-2.html"
+        },
+        {
+          "stop_id": "0734",
+          "stop_name": "Bukowno Bór Biskupi",
+          "platform": "1",
+          "file": "0734-okrezna-2.html"
+        },
+        {
+          "stop_id": "0735",
+          "stop_name": "Bukowno Bór Biskupi OSP",
+          "platform": "0",
+          "file": "0735-okrezna-2.html"
+        },
+        {
+          "stop_id": "0736",
+          "stop_name": "Bukowno Bór Biskupi Pętla",
+          "platform": "0",
+          "file": "0736-okrezna-2.html"
+        },
+        {
+          "stop_id": "0737",
+          "stop_name": "Bukowno Bór Biskupi",
+          "platform": "2",
+          "file": "0737-okrezna-2.html"
+        },
+        {
+          "stop_id": "0738",
+          "stop_name": "Bukowno Bór Biskupi Przeń",
+          "platform": "1",
+          "file": "0738-okrezna-2.html"
+        },
+        {
+          "stop_id": "0739",
+          "stop_name": "Bukowno Borowska",
+          "platform": "2",
+          "file": "0739-okrezna-2.html"
+        },
+        {
+          "stop_id": "0740",
+          "stop_name": "Bukowno Skrzyżowanie",
+          "platform": "1",
+          "file": "0740-okrezna-2.html"
+        },
+        {
+          "stop_id": "0741",
+          "stop_name": "Bukowno Kościół",
+          "platform": "2",
+          "file": "0741-okrezna-2.html"
+        },
+        {
+          "stop_id": "0742",
+          "stop_name": "Bukowno Tunel",
+          "platform": "2",
+          "file": "0742-okrezna-2.html"
+        },
+        {
+          "stop_id": "0743",
+          "stop_name": "Bukowno Park",
+          "platform": "1",
+          "file": "0743-okrezna-2.html"
+        },
+        {
+          "stop_id": "0744",
+          "stop_name": "Bukowno Stadion",
+          "platform": "2",
+          "file": "0744-okrezna-2.html"
+        },
+        {
+          "stop_id": "0726",
+          "stop_name": "Bukowno Leśna Pętla",
+          "platform": "0",
+          "file": "0726-okrezna-2.html"
+        },
+        {
+          "stop_id": "0745",
+          "stop_name": "Bukowno Leśna Krzyżówka",
+          "platform": "1",
+          "file": "0745-okrezna-2.html"
+        },
+        {
+          "stop_id": "0746",
+          "stop_name": "Bukowno Leśna",
+          "platform": "2",
+          "file": "0746-okrezna-2.html"
+        },
+        {
+          "stop_id": "0146",
+          "stop_name": "Bukowno Urząd Miasta",
+          "platform": "2",
+          "file": "0146-okrezna-2.html"
+        },
+        {
+          "stop_id": "0147",
+          "stop_name": "Bukowno Dworzec PKP",
+          "platform": "0",
+          "file": "0147-okrezna-2-koniec.html"
+        }
+      ],
+      "timetables": [
+        {
+          "stop_id": "0147",
+          "stop_name": "Bukowno Dworzec PKP",
+          "platform": "0",
+          "file": "0147-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "08:09",
+              "09:10"
+            ],
+            "saturday": [
+              "09:21",
+              "20:07"
+            ],
+            "sunday": [
+              "09:37"
+            ],
+            "holiday": [
+              "09:21"
+            ]
+          }
+        },
+        {
+          "stop_id": "0148",
+          "stop_name": "Bukowno Urząd Miasta",
+          "platform": "1",
+          "file": "0148-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "08:10",
+              "09:11"
+            ],
+            "saturday": [
+              "09:22",
+              "20:08"
+            ],
+            "sunday": [
+              "09:38"
+            ],
+            "holiday": [
+              "09:22"
+            ]
+          }
+        },
+        {
+          "stop_id": "0250",
+          "stop_name": "Bukowno Nowa",
+          "platform": "1",
+          "file": "0250-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "08:11",
+              "09:12"
+            ],
+            "saturday": [
+              "09:23",
+              "20:09"
+            ],
+            "sunday": [
+              "09:39"
+            ],
+            "holiday": [
+              "09:23"
+            ]
+          }
+        },
+        {
+          "stop_id": "0251",
+          "stop_name": "Bukowno Nowa OSP",
+          "platform": "2",
+          "file": "0251-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "08:12",
+              "09:13"
+            ],
+            "saturday": [
+              "09:24",
+              "20:10"
+            ],
+            "sunday": [
+              "09:40"
+            ],
+            "holiday": [
+              "09:24"
+            ]
+          }
+        },
+        {
+          "stop_id": "0252",
+          "stop_name": "Bukowno Cmentarz",
+          "platform": "1",
+          "file": "0252-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "08:13",
+              "09:14"
+            ],
+            "saturday": [
+              "09:25",
+              "20:11"
+            ],
+            "sunday": [
+              "09:41"
+            ],
+            "holiday": [
+              "09:25"
+            ]
+          }
+        },
+        {
+          "stop_id": "0253",
+          "stop_name": "Bukowno Remiza",
+          "platform": "0",
+          "file": "0253-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "08:14",
+              "09:15"
+            ],
+            "saturday": [
+              "09:26",
+              "20:12"
+            ],
+            "sunday": [
+              "09:42"
+            ],
+            "holiday": [
+              "09:26"
+            ]
+          }
+        },
+        {
+          "stop_id": "0254",
+          "stop_name": "Bukowno Skotnica",
+          "platform": "1",
+          "file": "0254-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "08:15",
+              "09:16"
+            ],
+            "saturday": [
+              "09:27",
+              "20:13"
+            ],
+            "sunday": [
+              "09:43"
+            ],
+            "holiday": [
+              "09:27"
+            ]
+          }
+        },
+        {
+          "stop_id": "0255",
+          "stop_name": "Bukowno Sklep",
+          "platform": "1",
+          "file": "0255-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "08:16",
+              "09:17"
+            ],
+            "saturday": [
+              "09:28",
+              "20:14"
+            ],
+            "sunday": [
+              "09:44"
+            ],
+            "holiday": [
+              "09:28"
+            ]
+          }
+        },
+        {
+          "stop_id": "0256",
+          "stop_name": "Bukowno Przymiarki PKP",
+          "platform": "1",
+          "file": "0256-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "08:20",
+              "09:21"
+            ],
+            "saturday": [
+              "09:32",
+              "20:18"
+            ],
+            "sunday": [
+              "09:48"
+            ],
+            "holiday": [
+              "09:32"
+            ]
+          }
+        },
+        {
+          "stop_id": "0106",
+          "stop_name": "Bukowno Przymiarki",
+          "platform": "0",
+          "file": "0106-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "08:23",
+              "09:24",
+              "17:19"
+            ],
+            "saturday": [
+              "09:35",
+              "20:21"
+            ],
+            "sunday": [
+              "09:51"
+            ],
+            "holiday": [
+              "09:35"
+            ]
+          }
+        },
+        {
+          "stop_id": "0139",
+          "stop_name": "Bukowno Przymiarki PKP",
+          "platform": "2",
+          "file": "0139-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "08:27",
+              "09:28",
+              "17:23"
+            ],
+            "saturday": [
+              "09:39",
+              "20:25"
+            ],
+            "sunday": [
+              "09:55"
+            ],
+            "holiday": [
+              "09:39"
+            ]
+          }
+        },
+        {
+          "stop_id": "0140",
+          "stop_name": "Bukowno Sklep",
+          "platform": "2",
+          "file": "0140-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "08:31",
+              "09:32",
+              "17:27"
+            ],
+            "saturday": [
+              "09:43",
+              "20:29"
+            ],
+            "sunday": [
+              "09:59"
+            ],
+            "holiday": [
+              "09:43"
+            ]
+          }
+        },
+        {
+          "stop_id": "0141",
+          "stop_name": "Bukowno Skotnica",
+          "platform": "2",
+          "file": "0141-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "08:32",
+              "09:33",
+              "17:28"
+            ],
+            "saturday": [
+              "09:44",
+              "20:30"
+            ],
+            "sunday": [
+              "10:00"
+            ],
+            "holiday": [
+              "09:44"
+            ]
+          }
+        },
+        {
+          "stop_id": "0142",
+          "stop_name": "Bukowno Stare Skrzyżowanie",
+          "platform": "0",
+          "file": "0142-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "08:33",
+              "09:34",
+              "17:29"
+            ],
+            "saturday": [
+              "09:45",
+              "20:31"
+            ],
+            "sunday": [
+              "10:01"
+            ],
+            "holiday": [
+              "09:45"
+            ]
+          }
+        },
+        {
+          "stop_id": "0143",
+          "stop_name": "Bukowno Cmentarz",
+          "platform": "2",
+          "file": "0143-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "08:34",
+              "09:35",
+              "17:30"
+            ],
+            "saturday": [
+              "09:46",
+              "20:32"
+            ],
+            "sunday": [
+              "10:02"
+            ],
+            "holiday": [
+              "09:46"
+            ]
+          }
+        },
+        {
+          "stop_id": "0732",
+          "stop_name": "Bukowno Borowska",
+          "platform": "1",
+          "file": "0732-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "08:36",
+              "09:37",
+              "17:32"
+            ],
+            "saturday": [
+              "09:48",
+              "20:34"
+            ],
+            "sunday": [
+              "10:04"
+            ],
+            "holiday": [
+              "09:48"
+            ]
+          }
+        },
+        {
+          "stop_id": "0733",
+          "stop_name": "Bukowno Bór Biskupi Przeń",
+          "platform": "2",
+          "file": "0733-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "08:41",
+              "09:42",
+              "17:37"
+            ],
+            "saturday": [
+              "09:53",
+              "20:39"
+            ],
+            "sunday": [
+              "10:09"
+            ],
+            "holiday": [
+              "09:53"
+            ]
+          }
+        },
+        {
+          "stop_id": "0734",
+          "stop_name": "Bukowno Bór Biskupi",
+          "platform": "1",
+          "file": "0734-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "08:42",
+              "09:43",
+              "17:38"
+            ],
+            "saturday": [
+              "09:54",
+              "20:40"
+            ],
+            "sunday": [
+              "10:10"
+            ],
+            "holiday": [
+              "09:54"
+            ]
+          }
+        },
+        {
+          "stop_id": "0735",
+          "stop_name": "Bukowno Bór Biskupi OSP",
+          "platform": "0",
+          "file": "0735-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "08:43",
+              "09:44",
+              "17:39"
+            ],
+            "saturday": [
+              "09:55",
+              "20:41"
+            ],
+            "sunday": [
+              "10:11"
+            ],
+            "holiday": [
+              "09:55"
+            ]
+          }
+        },
+        {
+          "stop_id": "0736",
+          "stop_name": "Bukowno Bór Biskupi Pętla",
+          "platform": "0",
+          "file": "0736-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "08:44",
+              "09:45",
+              "17:40"
+            ],
+            "saturday": [
+              "09:56",
+              "20:42"
+            ],
+            "sunday": [
+              "10:12"
+            ],
+            "holiday": [
+              "09:56"
+            ]
+          }
+        },
+        {
+          "stop_id": "0737",
+          "stop_name": "Bukowno Bór Biskupi",
+          "platform": "2",
+          "file": "0737-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "08:46",
+              "09:47",
+              "17:42"
+            ],
+            "saturday": [
+              "09:58",
+              "20:44"
+            ],
+            "sunday": [
+              "10:14"
+            ],
+            "holiday": [
+              "09:58"
+            ]
+          }
+        },
+        {
+          "stop_id": "0738",
+          "stop_name": "Bukowno Bór Biskupi Przeń",
+          "platform": "1",
+          "file": "0738-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "08:47",
+              "09:48",
+              "17:43"
+            ],
+            "saturday": [
+              "09:59",
+              "20:45"
+            ],
+            "sunday": [
+              "10:15"
+            ],
+            "holiday": [
+              "09:59"
+            ]
+          }
+        },
+        {
+          "stop_id": "0739",
+          "stop_name": "Bukowno Borowska",
+          "platform": "2",
+          "file": "0739-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "08:52",
+              "09:53",
+              "17:48"
+            ],
+            "saturday": [
+              "10:04",
+              "20:50"
+            ],
+            "sunday": [
+              "10:20"
+            ],
+            "holiday": [
+              "10:04"
+            ]
+          }
+        },
+        {
+          "stop_id": "0740",
+          "stop_name": "Bukowno Skrzyżowanie",
+          "platform": "1",
+          "file": "0740-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "08:53",
+              "09:54",
+              "17:49"
+            ],
+            "saturday": [
+              "10:05",
+              "20:51"
+            ],
+            "sunday": [
+              "10:21"
+            ],
+            "holiday": [
+              "10:05"
+            ]
+          }
+        },
+        {
+          "stop_id": "0741",
+          "stop_name": "Bukowno Kościół",
+          "platform": "2",
+          "file": "0741-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "08:54",
+              "09:55",
+              "17:50"
+            ],
+            "saturday": [
+              "10:06",
+              "20:52"
+            ],
+            "sunday": [
+              "10:22"
+            ],
+            "holiday": [
+              "10:06"
+            ]
+          }
+        },
+        {
+          "stop_id": "0742",
+          "stop_name": "Bukowno Tunel",
+          "platform": "2",
+          "file": "0742-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "08:55",
+              "09:56",
+              "17:51"
+            ],
+            "saturday": [
+              "10:07",
+              "20:53"
+            ],
+            "sunday": [
+              "10:23"
+            ],
+            "holiday": [
+              "10:07"
+            ]
+          }
+        },
+        {
+          "stop_id": "0743",
+          "stop_name": "Bukowno Park",
+          "platform": "1",
+          "file": "0743-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "08:56",
+              "09:57",
+              "17:52"
+            ],
+            "saturday": [
+              "10:08",
+              "20:54"
+            ],
+            "sunday": [
+              "10:24"
+            ],
+            "holiday": [
+              "10:08"
+            ]
+          }
+        },
+        {
+          "stop_id": "0744",
+          "stop_name": "Bukowno Stadion",
+          "platform": "2",
+          "file": "0744-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "08:57",
+              "09:58",
+              "17:53"
+            ],
+            "saturday": [
+              "10:09",
+              "20:55"
+            ],
+            "sunday": [
+              "10:25"
+            ],
+            "holiday": [
+              "10:09"
+            ]
+          }
+        },
+        {
+          "stop_id": "0726",
+          "stop_name": "Bukowno Leśna Pętla",
+          "platform": "0",
+          "file": "0726-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "08:59",
+              "10:00",
+              "17:55"
+            ],
+            "saturday": [
+              "10:11",
+              "20:57"
+            ],
+            "sunday": [
+              "10:27"
+            ],
+            "holiday": [
+              "10:11"
+            ]
+          }
+        },
+        {
+          "stop_id": "0745",
+          "stop_name": "Bukowno Leśna Krzyżówka",
+          "platform": "1",
+          "file": "0745-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "09:01",
+              "10:02",
+              "17:57"
+            ],
+            "saturday": [
+              "10:13",
+              "20:59"
+            ],
+            "sunday": [
+              "10:29"
+            ],
+            "holiday": [
+              "10:13"
+            ]
+          }
+        },
+        {
+          "stop_id": "0746",
+          "stop_name": "Bukowno Leśna",
+          "platform": "2",
+          "file": "0746-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "09:02",
+              "10:03",
+              "17:58"
+            ],
+            "saturday": [
+              "10:14",
+              "21:00"
+            ],
+            "sunday": [
+              "10:30"
+            ],
+            "holiday": [
+              "10:14"
+            ]
+          }
+        },
+        {
+          "stop_id": "0146",
+          "stop_name": "Bukowno Urząd Miasta",
+          "platform": "2",
+          "file": "0146-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "09:04",
+              "10:05",
+              "18:00"
+            ],
+            "saturday": [
+              "10:16",
+              "21:02"
+            ],
+            "sunday": [
+              "10:32"
+            ],
+            "holiday": [
+              "10:16"
+            ]
+          }
+        },
+        {
+          "stop_id": "0147",
+          "stop_name": "Bukowno Dworzec PKP",
+          "platform": "0",
+          "file": "0147-okrezna-2-koniec.html",
+          "departures": {},
+          "arrival_only": true
+        }
+      ]
+    }
+  ]
+}

@@ -14,6 +14,9 @@ on:
       - 'tools/check-line8-pages.py'
       - 'tools/check-line9.py'
       - 'tools/test-line9-import.py'
+      - 'tools/check-line10.py'
+      - 'tools/test-line10-import.py'
+      - 'linie/10.html'
       - 'linie/9.html'
       - 'js/mapa.js'
       - 'mapa.html'
@@ -49,6 +52,8 @@ jobs:
         run: python tools/check-line7.py
       - name: Validate line 9 importer against course data
         run: python tools/test-line9-import.py
+      - name: Validate line 10 importer against course data
+        run: python tools/test-line10-import.py
       - name: Validate line 8 circular route and terminal arrivals
         run: python tools/check-line8.py
       - name: Check terminal arrival filtering
@@ -59,6 +64,8 @@ jobs:
         run: python tools/generate-rozklady.py > /tmp/kmmz-generated.log
       - name: Verify line 9 Excel source and generated timetable pages
         run: python tools/check-line9.py
+      - name: Verify line 10 revised Excel source and generated pages
+        run: python tools/check-line10.py
       - name: Verify line 8 generated pages, map directions and stop visibility
         run: python tools/check-line8-pages.py
       - name: Confirm line 5 pages
@@ -72,6 +79,11 @@ jobs:
           test -f data/odjazdy/0633.json
           test -f przystanki/0669.html
           test -f rozklady/7/0684-okrezna.html
+          test -f rozklady/10/0147-okrezna-1-koniec.html
+          test -f rozklady/10/0147-okrezna-2-koniec.html
+          test -f rozklady/10/0106-okrezna-2.html
+          test -f data/odjazdy/0147.json
+          test -f przystanki/0147.html
           test -f rozklady/9/0001-okrezna-1-koniec.html
           test -f rozklady/9/0001-okrezna-2-ponownie.html
           test -f rozklady/9/0015-okrezna-2.html
