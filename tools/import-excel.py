@@ -408,6 +408,29 @@ def import_file(file: Path, known_stops: dict, config: dict):
                 raise ValueError(f"Kierunek {direction_no}: wariant {variant} nie ma przypisanej litery")
             symbol_end_positions[variant] = end_pos
 
+        # A branch may finish before the destination variant does.
+        # For example, Z disappears at Zagórowa while P remains until
+        # the extension beyond Tarnawa. End each symbol independently.
+        letter_end_positions = {}
+        used_letters = set("".join(spec.get("variant_symbols", {}).values()))
+        for letter, marker in spec.get("variant_letter_ends", {}).items():
+            if len(letter) != 1 or letter not in used_letters:
+                raise ValueError(
+                    f"Kierunek {direction_no}: litera {letter!r} nie występuje w wariantach"
+                )
+            if not isinstance(marker, dict):
+                raise ValueError(f"Kierunek {direction_no}: nieprawidłowy koniec litery {letter}")
+            sid = marker.get("stop_id")
+            occurrence = marker.get("occurrence", 1)
+            if type(occurrence) is not int or occurrence < 1:
+                raise ValueError(f"Kierunek {direction_no}: błędne wystąpienie dla litery {letter}")
+            positions = [i for i, stop_id in enumerate(unique_ids) if stop_id == sid]
+            if len(positions) < occurrence:
+                raise ValueError(
+                    f"Kierunek {direction_no}: brak wystąpienia {occurrence} przystanku {sid} dla litery {letter}"
+                )
+            letter_end_positions[letter] = positions[occurrence - 1]
+
         visits = defaultdict(lambda: defaultdict(list))
         departure_variants = defaultdict(set)
         arrivals = defaultdict(set)
@@ -420,11 +443,20 @@ def import_file(file: Path, known_stops: dict, config: dict):
                     arrivals[index].add(trip["variant"])
                     continue  # final arrival, irrespective of stop_id
                 symbol = spec.get("variant_symbols", {}).get(trip["variant"], "")
-                if symbol and not re.fullmatch(r"[A-Za-zĄĆĘŁŃÓŚŹŻ]", symbol):
+                if symbol and not re.fullmatch(r"[A-Za-zĄĆĘŁŃÓŚŹŻ]{1,5}", symbol):
                     raise ValueError(f"Niepoprawny symbol dla {trip['variant']}: {symbol!r}")
+                if symbol != "".join(sorted(set(symbol))):
+                    raise ValueError(
+                        f"Wariant {trip['variant']}: litery muszą być unikalne i alfabetyczne ({symbol!r})"
+                    )
                 if (index < symbol_start_positions.get(trip["variant"], 0)
                         or index >= symbol_end_positions.get(trip["variant"], len(unique_ids))):
                     symbol = ""
+                else:
+                    symbol = "".join(
+                        letter for letter in symbol
+                        if index < letter_end_positions.get(letter, len(unique_ids))
+                    )
                 departure_variants[index].add(trip["variant"])
                 for day in DAYS[trip["service_code"]]:
                     visits[index][day].append(stop_time["time"] + symbol)
@@ -481,6 +513,7 @@ def import_file(file: Path, known_stops: dict, config: dict):
             "slug": slug, "name": spec["name"],
             "variant_destinations": spec.get("variant_destinations", {}),
             "legend": spec.get("legend", {}),
+            **({"legend_only_used_symbols": True} if spec.get("legend_only_used_symbols") else {}),
             **({"direction_segments": segments} if segments else {}),
             "route_stops": route_stops,
             "timetables": timetables,
