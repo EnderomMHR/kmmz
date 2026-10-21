@@ -173,3 +173,27 @@ do `0021` włącznie. Od **drugiego** `0001` przez `0029` do `0016`
 kursy jadą tylko do Wolbrom Pod Lasem, więc godziny są bez `W`,
 a nazwa kierunku to `Wolbrom Pod Lasem`. Przystanek `0015` jest
 końcowy i nie publikuje godzin przyjazdów jako odjazdów.
+
+
+## Linia 10 – okrężna dwukierunkowa bez wariantów
+
+Dane wejściowe: tylko **Arkusz1** ze zaktualizowanego
+`P.A.M. - Linia 10 (1).xlsx` (13 kursów, 420 czasów przejazdu).
+Wszystkie ID mają wariant `0`, również kurs
+`010-2-0-R-03` rozpoczynający się na przystanku `0106`.
+Nie tworzymy dodatkowej litery wariantu wyłącznie ze względu
+na późniejszy początek kursu.
+
+Kierunki informacyjne zgodne z `data/import-config/10.json`:
+- Kierunek 1: od początkowego `0147` do `0734` włącznie
+  **Bukowno Bór Biskupi OSP**; od `0735` do końca
+  **Bukowno Dworzec PKP**.
+- Kierunek 2: od początkowego `0147` do `0256` włącznie
+  **Bukowno Przymiarki**; od `0106` do końca
+  **Bukowno Dworzec PKP**.
+
+Końcowe wystąpienie `0147` w każdym kierunku ma osobną stronę
+`-koniec.html` bez odjazdów. Fizyczny przystanek `0147`
+pozostaje pojedynczy w GeoJSON oraz na mapie.
+Godziny przyjazdów końcowych są zachowane w `data/trips/010.json`,
+ale nie są wyświetlane jako odjazdy. Arkusz2 pomijamy.
