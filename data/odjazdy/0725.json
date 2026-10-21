@@ -1,0 +1,77 @@
+{
+  "stop_id": "0725",
+  "stop_name": "Bukowno Leśna Krzyżówka",
+  "platform": "2",
+  "departures": [
+    {
+      "line": "10",
+      "main_direction": "Bukowno Bór Biskupi OSP",
+      "display_direction": "Bukowno Bór Biskupi OSP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/10/0725-okrezna-1.html",
+      "day_type": "holiday",
+      "time": "10:56",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Bór Biskupi OSP",
+      "display_direction": "Bukowno Bór Biskupi OSP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/10/0725-okrezna-1.html",
+      "day_type": "saturday",
+      "time": "10:56",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Bór Biskupi OSP",
+      "display_direction": "Bukowno Bór Biskupi OSP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/10/0725-okrezna-1.html",
+      "day_type": "sunday",
+      "time": "11:02",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Bór Biskupi OSP",
+      "display_direction": "Bukowno Bór Biskupi OSP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/10/0725-okrezna-1.html",
+      "day_type": "workday",
+      "time": "09:39",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Bór Biskupi OSP",
+      "display_direction": "Bukowno Bór Biskupi OSP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/10/0725-okrezna-1.html",
+      "day_type": "workday",
+      "time": "10:43",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Bór Biskupi OSP",
+      "display_direction": "Bukowno Bór Biskupi OSP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/10/0725-okrezna-1.html",
+      "day_type": "workday",
+      "time": "18:12",
+      "symbols": []
+    }
+  ],
+  "served_lines": [
+    {
+      "line": "10",
+      "main_direction": "Bukowno Bór Biskupi OSP",
+      "page": "rozklady/10/0725-okrezna-1.html"
+    }
+  ],
+  "legends": {
+    "10": {}
+  }
+}

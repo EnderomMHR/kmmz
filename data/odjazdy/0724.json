@@ -1,0 +1,77 @@
+{
+  "stop_id": "0724",
+  "stop_name": "Bukowno Leśna",
+  "platform": "1",
+  "departures": [
+    {
+      "line": "10",
+      "main_direction": "Bukowno Bór Biskupi OSP",
+      "display_direction": "Bukowno Bór Biskupi OSP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/10/0724-okrezna-1.html",
+      "day_type": "holiday",
+      "time": "10:55",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Bór Biskupi OSP",
+      "display_direction": "Bukowno Bór Biskupi OSP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/10/0724-okrezna-1.html",
+      "day_type": "saturday",
+      "time": "10:55",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Bór Biskupi OSP",
+      "display_direction": "Bukowno Bór Biskupi OSP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/10/0724-okrezna-1.html",
+      "day_type": "sunday",
+      "time": "11:01",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Bór Biskupi OSP",
+      "display_direction": "Bukowno Bór Biskupi OSP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/10/0724-okrezna-1.html",
+      "day_type": "workday",
+      "time": "09:38",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Bór Biskupi OSP",
+      "display_direction": "Bukowno Bór Biskupi OSP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/10/0724-okrezna-1.html",
+      "day_type": "workday",
+      "time": "10:42",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Bór Biskupi OSP",
+      "display_direction": "Bukowno Bór Biskupi OSP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/10/0724-okrezna-1.html",
+      "day_type": "workday",
+      "time": "18:11",
+      "symbols": []
+    }
+  ],
+  "served_lines": [
+    {
+      "line": "10",
+      "main_direction": "Bukowno Bór Biskupi OSP",
+      "page": "rozklady/10/0724-okrezna-1.html"
+    }
+  ],
+  "legends": {
+    "10": {}
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "stop_id": "0745",
+  "stop_name": "Bukowno Leśna Krzyżówka",
+  "platform": "1",
+  "departures": [
+    {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/10/0745-okrezna-2.html",
+      "day_type": "holiday",
+      "time": "10:13",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/10/0745-okrezna-2.html",
+      "day_type": "saturday",
+      "time": "10:13",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/10/0745-okrezna-2.html",
+      "day_type": "saturday",
+      "time": "20:59",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/10/0745-okrezna-2.html",
+      "day_type": "sunday",
+      "time": "10:29",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/10/0745-okrezna-2.html",
+      "day_type": "workday",
+      "time": "09:01",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/10/0745-okrezna-2.html",
+      "day_type": "workday",
+      "time": "10:02",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/10/0745-okrezna-2.html",
+      "day_type": "workday",
+      "time": "17:57",
+      "symbols": []
+    }
+  ],
+  "served_lines": [
+    {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "page": "rozklady/10/0745-okrezna-2.html"
+    }
+  ],
+  "legends": {
+    "10": {}
+  }
+}

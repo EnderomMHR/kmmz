@@ -1,0 +1,152 @@
+{
+  "stop_id": "0732",
+  "stop_name": "Bukowno Borowska",
+  "platform": "1",
+  "departures": [
+    {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/10/0732-okrezna-2.html",
+      "day_type": "holiday",
+      "time": "09:48",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Bór Biskupi OSP",
+      "display_direction": "Bukowno Bór Biskupi OSP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/10/0732-okrezna-1.html",
+      "day_type": "holiday",
+      "time": "11:05",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/10/0732-okrezna-2.html",
+      "day_type": "saturday",
+      "time": "09:48",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Bór Biskupi OSP",
+      "display_direction": "Bukowno Bór Biskupi OSP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/10/0732-okrezna-1.html",
+      "day_type": "saturday",
+      "time": "11:05",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/10/0732-okrezna-2.html",
+      "day_type": "saturday",
+      "time": "20:34",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/10/0732-okrezna-2.html",
+      "day_type": "sunday",
+      "time": "10:04",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Bór Biskupi OSP",
+      "display_direction": "Bukowno Bór Biskupi OSP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/10/0732-okrezna-1.html",
+      "day_type": "sunday",
+      "time": "11:11",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/10/0732-okrezna-2.html",
+      "day_type": "workday",
+      "time": "08:36",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/10/0732-okrezna-2.html",
+      "day_type": "workday",
+      "time": "09:37",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Bór Biskupi OSP",
+      "display_direction": "Bukowno Bór Biskupi OSP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/10/0732-okrezna-1.html",
+      "day_type": "workday",
+      "time": "09:48",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Bór Biskupi OSP",
+      "display_direction": "Bukowno Bór Biskupi OSP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/10/0732-okrezna-1.html",
+      "day_type": "workday",
+      "time": "10:52",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/10/0732-okrezna-2.html",
+      "day_type": "workday",
+      "time": "17:32",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Bór Biskupi OSP",
+      "display_direction": "Bukowno Bór Biskupi OSP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/10/0732-okrezna-1.html",
+      "day_type": "workday",
+      "time": "18:21",
+      "symbols": []
+    }
+  ],
+  "served_lines": [
+    {
+      "line": "10",
+      "main_direction": "Bukowno Bór Biskupi OSP",
+      "page": "rozklady/10/0732-okrezna-1.html"
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "page": "rozklady/10/0732-okrezna-2.html"
+    }
+  ],
+  "legends": {
+    "10": {}
+  }
+}

@@ -4,6 +4,16 @@
   "platform": "1",
   "departures": [
     {
+      "line": "10",
+      "main_direction": "Bukowno Przymiarki",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/10/0255-okrezna-2.html",
+      "day_type": "holiday",
+      "time": "09:28",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Bukowno Przymiarki",
       "display_direction": "Bukowno Przymiarki",
@@ -11,6 +21,16 @@
       "page": "rozklady/2/0255-laski.html",
       "day_type": "holiday",
       "time": "11:02",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/10/0255-okrezna-1.html",
+      "day_type": "holiday",
+      "time": "11:26",
       "symbols": []
     },
     {
@@ -24,6 +44,16 @@
       "symbols": []
     },
     {
+      "line": "10",
+      "main_direction": "Bukowno Przymiarki",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/10/0255-okrezna-2.html",
+      "day_type": "saturday",
+      "time": "09:28",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Bukowno Przymiarki",
       "display_direction": "Bukowno Przymiarki",
@@ -31,6 +61,16 @@
       "page": "rozklady/2/0255-laski.html",
       "day_type": "saturday",
       "time": "11:02",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/10/0255-okrezna-1.html",
+      "day_type": "saturday",
+      "time": "11:26",
       "symbols": []
     },
     {
@@ -44,6 +84,16 @@
       "symbols": []
     },
     {
+      "line": "10",
+      "main_direction": "Bukowno Przymiarki",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/10/0255-okrezna-2.html",
+      "day_type": "saturday",
+      "time": "20:14",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Bukowno Przymiarki",
       "display_direction": "Bukowno Przymiarki",
@@ -51,6 +101,26 @@
       "page": "rozklady/2/0255-laski.html",
       "day_type": "sunday",
       "time": "06:44",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Przymiarki",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/10/0255-okrezna-2.html",
+      "day_type": "sunday",
+      "time": "09:44",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/10/0255-okrezna-1.html",
+      "day_type": "sunday",
+      "time": "11:32",
       "symbols": []
     },
     {
@@ -74,6 +144,26 @@
       "symbols": []
     },
     {
+      "line": "10",
+      "main_direction": "Bukowno Przymiarki",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/10/0255-okrezna-2.html",
+      "day_type": "workday",
+      "time": "08:16",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Przymiarki",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/10/0255-okrezna-2.html",
+      "day_type": "workday",
+      "time": "09:17",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Bukowno Przymiarki",
       "display_direction": "Bukowno Przymiarki",
@@ -81,6 +171,26 @@
       "page": "rozklady/2/0255-laski.html",
       "day_type": "workday",
       "time": "09:19",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/10/0255-okrezna-1.html",
+      "day_type": "workday",
+      "time": "10:09",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/10/0255-okrezna-1.html",
+      "day_type": "workday",
+      "time": "11:13",
       "symbols": []
     },
     {
@@ -114,6 +224,16 @@
       "symbols": []
     },
     {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/10/0255-okrezna-1.html",
+      "day_type": "workday",
+      "time": "18:42",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Bukowno Przymiarki",
       "display_direction": "Bukowno Przymiarki",
@@ -136,12 +256,23 @@
   ],
   "served_lines": [
     {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "page": "rozklady/10/0255-okrezna-1.html"
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Przymiarki",
+      "page": "rozklady/10/0255-okrezna-2.html"
+    },
+    {
       "line": "2",
       "main_direction": "Bukowno Przymiarki",
       "page": "rozklady/2/0255-laski.html"
     }
   ],
   "legends": {
+    "10": {},
     "2": {}
   }
 }

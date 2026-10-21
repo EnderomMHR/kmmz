@@ -4,6 +4,16 @@
   "platform": "2",
   "departures": [
     {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/10/0146-okrezna-2.html",
+      "day_type": "holiday",
+      "time": "10:16",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Bukowno Przymiarki",
       "display_direction": "Bukowno Przymiarki",
@@ -21,6 +31,16 @@
       "page": "rozklady/2/0146-zadole.html",
       "day_type": "holiday",
       "time": "11:39",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/10/0146-okrezna-1.html",
+      "day_type": "holiday",
+      "time": "11:48",
       "symbols": []
     },
     {
@@ -44,6 +64,16 @@
       "symbols": []
     },
     {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/10/0146-okrezna-2.html",
+      "day_type": "saturday",
+      "time": "10:16",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Bukowno Przymiarki",
       "display_direction": "Bukowno Przymiarki",
@@ -61,6 +91,16 @@
       "page": "rozklady/2/0146-zadole.html",
       "day_type": "saturday",
       "time": "11:39",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/10/0146-okrezna-1.html",
+      "day_type": "saturday",
+      "time": "11:48",
       "symbols": []
     },
     {
@@ -98,6 +138,16 @@
       ]
     },
     {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/10/0146-okrezna-2.html",
+      "day_type": "saturday",
+      "time": "21:02",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Bukowno Przymiarki",
       "display_direction": "Bukowno Przymiarki",
@@ -115,6 +165,26 @@
       "page": "rozklady/2/0146-zadole.html",
       "day_type": "sunday",
       "time": "07:16",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/10/0146-okrezna-2.html",
+      "day_type": "sunday",
+      "time": "10:32",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/10/0146-okrezna-1.html",
+      "day_type": "sunday",
+      "time": "11:54",
       "symbols": []
     },
     {
@@ -163,6 +233,16 @@
       ]
     },
     {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/10/0146-okrezna-2.html",
+      "day_type": "workday",
+      "time": "09:04",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Bukowno Przymiarki",
       "display_direction": "Bukowno Przymiarki",
@@ -183,6 +263,36 @@
       "symbols": [
         "H"
       ]
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/10/0146-okrezna-2.html",
+      "day_type": "workday",
+      "time": "10:05",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/10/0146-okrezna-1.html",
+      "day_type": "workday",
+      "time": "10:31",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/10/0146-okrezna-1.html",
+      "day_type": "workday",
+      "time": "11:35",
+      "symbols": []
     },
     {
       "line": "2",
@@ -251,6 +361,16 @@
       ]
     },
     {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/10/0146-okrezna-2.html",
+      "day_type": "workday",
+      "time": "18:00",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Bukowno Przymiarki",
       "display_direction": "Bukowno Przymiarki",
@@ -258,6 +378,16 @@
       "page": "rozklady/2/0146-laski.html",
       "day_type": "workday",
       "time": "18:56",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/10/0146-okrezna-1.html",
+      "day_type": "workday",
+      "time": "19:04",
       "symbols": []
     },
     {
@@ -299,6 +429,16 @@
   ],
   "served_lines": [
     {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "page": "rozklady/10/0146-okrezna-1.html"
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "page": "rozklady/10/0146-okrezna-2.html"
+    },
+    {
       "line": "2",
       "main_direction": "Zadole Kosmolowskie Pętla",
       "page": "rozklady/2/0146-zadole.html"
@@ -310,6 +450,7 @@
     }
   ],
   "legends": {
+    "10": {},
     "2": {
       "B": "do: Bukowno Dworzec PKP"
     }

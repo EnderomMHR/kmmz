@@ -4,6 +4,16 @@
   "platform": "2",
   "departures": [
     {
+      "line": "10",
+      "main_direction": "Bukowno Przymiarki",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/10/0251-okrezna-2.html",
+      "day_type": "holiday",
+      "time": "09:24",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Bukowno Przymiarki",
       "display_direction": "Bukowno Przymiarki",
@@ -21,6 +31,16 @@
       "page": "rozklady/2/0251-laski.html",
       "day_type": "saturday",
       "time": "06:29",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Przymiarki",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/10/0251-okrezna-2.html",
+      "day_type": "saturday",
+      "time": "09:24",
       "symbols": []
     },
     {
@@ -44,6 +64,16 @@
       "symbols": []
     },
     {
+      "line": "10",
+      "main_direction": "Bukowno Przymiarki",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/10/0251-okrezna-2.html",
+      "day_type": "saturday",
+      "time": "20:10",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Bukowno Przymiarki",
       "display_direction": "Bukowno Przymiarki",
@@ -51,6 +81,16 @@
       "page": "rozklady/2/0251-laski.html",
       "day_type": "sunday",
       "time": "06:40",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Przymiarki",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/10/0251-okrezna-2.html",
+      "day_type": "sunday",
+      "time": "09:40",
       "symbols": []
     },
     {
@@ -71,6 +111,26 @@
       "page": "rozklady/2/0251-laski.html",
       "day_type": "workday",
       "time": "07:01",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Przymiarki",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/10/0251-okrezna-2.html",
+      "day_type": "workday",
+      "time": "08:12",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Przymiarki",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/10/0251-okrezna-2.html",
+      "day_type": "workday",
+      "time": "09:13",
       "symbols": []
     },
     {
@@ -136,12 +196,18 @@
   ],
   "served_lines": [
     {
+      "line": "10",
+      "main_direction": "Bukowno Przymiarki",
+      "page": "rozklady/10/0251-okrezna-2.html"
+    },
+    {
       "line": "2",
       "main_direction": "Bukowno Przymiarki",
       "page": "rozklady/2/0251-laski.html"
     }
   ],
   "legends": {
+    "10": {},
     "2": {}
   }
 }

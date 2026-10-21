@@ -4,6 +4,16 @@
   "platform": "2",
   "departures": [
     {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/10/0140-okrezna-2.html",
+      "day_type": "holiday",
+      "time": "09:43",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Zadole Kosmolowskie Pętla",
       "display_direction": "Zadole Kosmolowskie Pętla",
@@ -11,6 +21,16 @@
       "page": "rozklady/2/0140-zadole.html",
       "day_type": "holiday",
       "time": "11:32",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/10/0140-okrezna-1.html",
+      "day_type": "holiday",
+      "time": "11:41",
       "symbols": []
     },
     {
@@ -24,6 +44,16 @@
       "symbols": []
     },
     {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/10/0140-okrezna-2.html",
+      "day_type": "saturday",
+      "time": "09:43",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Zadole Kosmolowskie Pętla",
       "display_direction": "Zadole Kosmolowskie Pętla",
@@ -31,6 +61,16 @@
       "page": "rozklady/2/0140-zadole.html",
       "day_type": "saturday",
       "time": "11:32",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/10/0140-okrezna-1.html",
+      "day_type": "saturday",
+      "time": "11:41",
       "symbols": []
     },
     {
@@ -46,6 +86,16 @@
       ]
     },
     {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/10/0140-okrezna-2.html",
+      "day_type": "saturday",
+      "time": "20:29",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Zadole Kosmolowskie Pętla",
       "display_direction": "Zadole Kosmolowskie Pętla",
@@ -53,6 +103,26 @@
       "page": "rozklady/2/0140-zadole.html",
       "day_type": "sunday",
       "time": "07:09",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/10/0140-okrezna-2.html",
+      "day_type": "sunday",
+      "time": "09:59",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/10/0140-okrezna-1.html",
+      "day_type": "sunday",
+      "time": "11:47",
       "symbols": []
     },
     {
@@ -81,6 +151,26 @@
       ]
     },
     {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/10/0140-okrezna-2.html",
+      "day_type": "workday",
+      "time": "08:31",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/10/0140-okrezna-2.html",
+      "day_type": "workday",
+      "time": "09:32",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Zadole Kosmolowskie Pętla",
       "display_direction": "Zadole Kosmolowskie Pętla",
@@ -91,6 +181,26 @@
       "symbols": [
         "H"
       ]
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/10/0140-okrezna-1.html",
+      "day_type": "workday",
+      "time": "10:24",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/10/0140-okrezna-1.html",
+      "day_type": "workday",
+      "time": "11:28",
+      "symbols": []
     },
     {
       "line": "2",
@@ -129,6 +239,26 @@
       ]
     },
     {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/10/0140-okrezna-2.html",
+      "day_type": "workday",
+      "time": "17:27",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "display_direction": "Bukowno Dworzec PKP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/10/0140-okrezna-1.html",
+      "day_type": "workday",
+      "time": "18:57",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Zadole Kosmolowskie Pętla",
       "display_direction": "Zadole Kosmolowskie Pętla",
@@ -157,12 +287,23 @@
   ],
   "served_lines": [
     {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "page": "rozklady/10/0140-okrezna-1.html"
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Dworzec PKP",
+      "page": "rozklady/10/0140-okrezna-2.html"
+    },
+    {
       "line": "2",
       "main_direction": "Zadole Kosmolowskie Pętla",
       "page": "rozklady/2/0140-zadole.html"
     }
   ],
   "legends": {
+    "10": {},
     "2": {
       "H": "przez: Hutki Pętla",
       "L": "z pominięciem: Bolesław Remiza>>Laski Pętla",

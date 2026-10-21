@@ -4,6 +4,26 @@
   "platform": "1",
   "departures": [
     {
+      "line": "10",
+      "main_direction": "Bukowno Przymiarki",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/10/0148-okrezna-2.html",
+      "day_type": "holiday",
+      "time": "09:22",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Bór Biskupi OSP",
+      "display_direction": "Bukowno Bór Biskupi OSP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/10/0148-okrezna-1.html",
+      "day_type": "holiday",
+      "time": "10:53",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Bukowno Przymiarki",
       "display_direction": "Bukowno Przymiarki",
@@ -41,6 +61,26 @@
       "page": "rozklady/2/0148-zadole.html",
       "day_type": "saturday",
       "time": "07:12",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Przymiarki",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/10/0148-okrezna-2.html",
+      "day_type": "saturday",
+      "time": "09:22",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Bór Biskupi OSP",
+      "display_direction": "Bukowno Bór Biskupi OSP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/10/0148-okrezna-1.html",
+      "day_type": "saturday",
+      "time": "10:53",
       "symbols": []
     },
     {
@@ -99,6 +139,16 @@
       ]
     },
     {
+      "line": "10",
+      "main_direction": "Bukowno Przymiarki",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/10/0148-okrezna-2.html",
+      "day_type": "saturday",
+      "time": "20:08",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Bukowno Przymiarki",
       "display_direction": "Bukowno Przymiarki",
@@ -116,6 +166,26 @@
       "page": "rozklady/2/0148-zadole.html",
       "day_type": "sunday",
       "time": "07:18",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Przymiarki",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/10/0148-okrezna-2.html",
+      "day_type": "sunday",
+      "time": "09:38",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Bór Biskupi OSP",
+      "display_direction": "Bukowno Bór Biskupi OSP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/10/0148-okrezna-1.html",
+      "day_type": "sunday",
+      "time": "10:59",
       "symbols": []
     },
     {
@@ -176,6 +246,26 @@
       ]
     },
     {
+      "line": "10",
+      "main_direction": "Bukowno Przymiarki",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/10/0148-okrezna-2.html",
+      "day_type": "workday",
+      "time": "08:10",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Przymiarki",
+      "display_direction": "Bukowno Przymiarki",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/10/0148-okrezna-2.html",
+      "day_type": "workday",
+      "time": "09:11",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Bukowno Przymiarki",
       "display_direction": "Bukowno Przymiarki",
@@ -183,6 +273,16 @@
       "page": "rozklady/2/0148-laski.html",
       "day_type": "workday",
       "time": "09:13",
+      "symbols": []
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Bór Biskupi OSP",
+      "display_direction": "Bukowno Bór Biskupi OSP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/10/0148-okrezna-1.html",
+      "day_type": "workday",
+      "time": "09:36",
       "symbols": []
     },
     {
@@ -196,6 +296,16 @@
       "symbols": [
         "H"
       ]
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Bór Biskupi OSP",
+      "display_direction": "Bukowno Bór Biskupi OSP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/10/0148-okrezna-1.html",
+      "day_type": "workday",
+      "time": "10:40",
+      "symbols": []
     },
     {
       "line": "2",
@@ -264,6 +374,16 @@
       ]
     },
     {
+      "line": "10",
+      "main_direction": "Bukowno Bór Biskupi OSP",
+      "display_direction": "Bukowno Bór Biskupi OSP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/10/0148-okrezna-1.html",
+      "day_type": "workday",
+      "time": "18:09",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Bukowno Przymiarki",
       "display_direction": "Bukowno Przymiarki",
@@ -312,6 +432,16 @@
   ],
   "served_lines": [
     {
+      "line": "10",
+      "main_direction": "Bukowno Bór Biskupi OSP",
+      "page": "rozklady/10/0148-okrezna-1.html"
+    },
+    {
+      "line": "10",
+      "main_direction": "Bukowno Przymiarki",
+      "page": "rozklady/10/0148-okrezna-2.html"
+    },
+    {
       "line": "2",
       "main_direction": "Zadole Kosmolowskie Pętla",
       "page": "rozklady/2/0148-zadole.html"
@@ -323,6 +453,7 @@
     }
   ],
   "legends": {
+    "10": {},
     "2": {}
   }
 }
