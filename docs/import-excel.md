@@ -209,7 +209,7 @@ jedyną różnicą był poprawiony identyfikator.
 
 - Kierunek 1: **Tarnawa Podlas**; dla kursów przedłużonych do Poręby
   oznaczenie **P = do: Poręba Laskowska**. Na ostatnim, wyłącznie
-  porębskim odcinku od `0752` nagłówek strony i kierunek na mapie to
+  porębskim odcinku od `0755` nagłówek strony i kierunek na mapie to
   **Poręba Laskowska** bez dodatkowej litery.
 - Kierunek 2: **Olkusz Dworzec PKS**.
 - **Z = przez: Zagórowa**. Literę Z wyświetlamy tylko *przed*
@@ -218,7 +218,7 @@ jedyną różnicą był poprawiony identyfikator.
   wariantowego (dotyczy obu kierunków).
 - Dla kursów z obiema cechami litery mają **zawsze** kolejność
   alfabetyczną `PZ`, nie `ZP`. Po wjeździe w Zagórową zostaje `P`,
-  a od `0752` zostaje jedynie destynacja „Poręba Laskowska”.
+  a od `0755` zostaje jedynie destynacja „Poręba Laskowska”.
 - Legenda jest posortowana alfabetycznie i wyświetla tylko litery,
   które występują w rzeczywistych godzinach na danej stronie.
 - Odjazdy końcowe nie są fabrykowane: `0747 Poręba Laskowska`
