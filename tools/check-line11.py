@@ -46,7 +46,7 @@ assert d2["legend"] == {"Z":"przez: Zagórowa"}
 assert d1["variant_destinations"]["P"] == "Poręba Laskowska"
 assert d1["direction_segments"] == [
     {"from_stop_id":"0200","name":"Tarnawa Podlas"},
-    {"from_stop_id":"0752","name":"Poręba Laskowska"}
+    {"from_stop_id":"0755","name":"Poręba Laskowska"}
 ]
 assert d1["legend_only_used_symbols"] and d2["legend_only_used_symbols"]
 
@@ -63,8 +63,8 @@ assert "Z" in suffixes(timetable(d1,"0777"))
 assert "P" in suffixes(timetable(d1,"0770"))
 assert "PZ" not in suffixes(timetable(d1,"0770"))
 assert "Z" not in "".join(suffixes(timetable(d1,"0770")))
-assert "P" in suffixes(timetable(d1,"0755"))
-for sid in ("0752","0751","0749"):
+assert suffixes(timetable(d1,"0755")) == {""}
+for sid in ("0755","0752","0751","0749"):
     assert suffixes(timetable(d1,sid)) == {""}, sid
 assert timetable(d1,"0747")["arrival_only"]
 assert not timetable(d1,"0747")["departures"]
@@ -79,7 +79,7 @@ checks=[
     (d1,"0200","Kierunek: Tarnawa Podlas","PZ",("P","Z")),
     (d1,"0777","Kierunek: Tarnawa Podlas","PZ",("P","Z")),
     (d1,"0770","Kierunek: Tarnawa Podlas","P",("P",)),
-    (d1,"0755","Kierunek: Tarnawa Podlas","P",("P",)),
+    (d1,"0755","Kierunek: Poręba Laskowska",None,()),
     (d1,"0752","Kierunek: Poręba Laskowska",None,()),
     (d1,"0747","Kierunek: Poręba Laskowska",None,()),
     (d2,"0756","Kierunek: Olkusz Dworzec PKS","Z",("Z",)),
@@ -116,7 +116,7 @@ assert any(x["display_direction"] == "Poręba Laskowska"
            and x["symbols"]==["P","Z"] for x in departures)
 assert any(x["display_direction"] == "Tarnawa Podlas"
            and x["symbols"]==["Z"] for x in departures)
-for sid in ("0752","0751","0749"):
+for sid in ("0755","0752","0751","0749"):
     output=read(f"data/odjazdy/{sid}.json")
     dep=[x for x in output["departures"] if x["line"]=="11"]
     assert dep and all(x["display_direction"]=="Poręba Laskowska"
