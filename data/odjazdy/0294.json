@@ -4,6 +4,19 @@
   "platform": "1",
   "departures": [
     {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Poręba Laskowska",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0294-tarnawa.html",
+      "day_type": "holiday",
+      "time": "11:22",
+      "symbols": [
+        "P",
+        "Z"
+      ]
+    },
+    {
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "display_direction": "Wolbrom Nowa PKS",
@@ -12,6 +25,19 @@
       "day_type": "holiday",
       "time": "12:01",
       "symbols": []
+    },
+    {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Poręba Laskowska",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0294-tarnawa.html",
+      "day_type": "holiday",
+      "time": "13:34",
+      "symbols": [
+        "P",
+        "Z"
+      ]
     },
     {
       "line": "3",
@@ -24,6 +50,16 @@
       "symbols": []
     },
     {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Tarnawa Podlas",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0294-tarnawa.html",
+      "day_type": "holiday",
+      "time": "16:12",
+      "symbols": []
+    },
+    {
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "display_direction": "Wolbrom Nowa PKS",
@@ -31,6 +67,39 @@
       "page": "rozklady/3/0294-wolbrom.html",
       "day_type": "holiday",
       "time": "16:45",
+      "symbols": []
+    },
+    {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Tarnawa Podlas",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0294-tarnawa.html",
+      "day_type": "holiday",
+      "time": "18:07",
+      "symbols": []
+    },
+    {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Poręba Laskowska",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0294-tarnawa.html",
+      "day_type": "saturday",
+      "time": "04:50",
+      "symbols": [
+        "P",
+        "Z"
+      ]
+    },
+    {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Tarnawa Podlas",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0294-tarnawa.html",
+      "day_type": "saturday",
+      "time": "05:48",
       "symbols": []
     },
     {
@@ -44,6 +113,29 @@
       "symbols": []
     },
     {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Tarnawa Podlas",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0294-tarnawa.html",
+      "day_type": "saturday",
+      "time": "07:10",
+      "symbols": []
+    },
+    {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Poręba Laskowska",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0294-tarnawa.html",
+      "day_type": "saturday",
+      "time": "07:42",
+      "symbols": [
+        "P",
+        "Z"
+      ]
+    },
+    {
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "display_direction": "Wolbrom Nowa PKS",
@@ -54,6 +146,39 @@
       "symbols": []
     },
     {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Tarnawa Podlas",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0294-tarnawa.html",
+      "day_type": "saturday",
+      "time": "09:03",
+      "symbols": []
+    },
+    {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Tarnawa Podlas",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0294-tarnawa.html",
+      "day_type": "saturday",
+      "time": "10:14",
+      "symbols": []
+    },
+    {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Poręba Laskowska",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0294-tarnawa.html",
+      "day_type": "saturday",
+      "time": "11:22",
+      "symbols": [
+        "P",
+        "Z"
+      ]
+    },
+    {
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "display_direction": "Wolbrom Nowa PKS",
@@ -61,6 +186,39 @@
       "page": "rozklady/3/0294-wolbrom.html",
       "day_type": "saturday",
       "time": "12:01",
+      "symbols": []
+    },
+    {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Tarnawa Podlas",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0294-tarnawa.html",
+      "day_type": "saturday",
+      "time": "12:10",
+      "symbols": []
+    },
+    {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Poręba Laskowska",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0294-tarnawa.html",
+      "day_type": "saturday",
+      "time": "13:34",
+      "symbols": [
+        "P",
+        "Z"
+      ]
+    },
+    {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Tarnawa Podlas",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0294-tarnawa.html",
+      "day_type": "saturday",
+      "time": "14:15",
       "symbols": []
     },
     {
@@ -74,6 +232,16 @@
       "symbols": []
     },
     {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Tarnawa Podlas",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0294-tarnawa.html",
+      "day_type": "saturday",
+      "time": "16:12",
+      "symbols": []
+    },
+    {
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "display_direction": "Wolbrom Nowa PKS",
@@ -82,6 +250,18 @@
       "day_type": "saturday",
       "time": "16:45",
       "symbols": []
+    },
+    {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Poręba Laskowska",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0294-tarnawa.html",
+      "day_type": "saturday",
+      "time": "18:07",
+      "symbols": [
+        "P"
+      ]
     },
     {
       "line": "3",
@@ -94,6 +274,18 @@
       "symbols": []
     },
     {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Tarnawa Podlas",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0294-tarnawa.html",
+      "day_type": "saturday",
+      "time": "20:37",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "display_direction": "Wolbrom Nowa PKS",
@@ -102,6 +294,30 @@
       "day_type": "saturday",
       "time": "22:12",
       "symbols": []
+    },
+    {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Tarnawa Podlas",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0294-tarnawa.html",
+      "day_type": "sunday",
+      "time": "04:30",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Poręba Laskowska",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0294-tarnawa.html",
+      "day_type": "sunday",
+      "time": "06:34",
+      "symbols": [
+        "P"
+      ]
     },
     {
       "line": "3",
@@ -114,6 +330,16 @@
       "symbols": []
     },
     {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Tarnawa Podlas",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0294-tarnawa.html",
+      "day_type": "sunday",
+      "time": "08:45",
+      "symbols": []
+    },
+    {
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "display_direction": "Wolbrom Nowa PKS",
@@ -124,6 +350,19 @@
       "symbols": []
     },
     {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Poręba Laskowska",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0294-tarnawa.html",
+      "day_type": "sunday",
+      "time": "11:13",
+      "symbols": [
+        "P",
+        "Z"
+      ]
+    },
+    {
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "display_direction": "Wolbrom Nowa PKS",
@@ -131,6 +370,16 @@
       "page": "rozklady/3/0294-wolbrom.html",
       "day_type": "sunday",
       "time": "12:01",
+      "symbols": []
+    },
+    {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Tarnawa Podlas",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0294-tarnawa.html",
+      "day_type": "sunday",
+      "time": "13:19",
       "symbols": []
     },
     {
@@ -144,6 +393,16 @@
       "symbols": []
     },
     {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Tarnawa Podlas",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0294-tarnawa.html",
+      "day_type": "sunday",
+      "time": "15:49",
+      "symbols": []
+    },
+    {
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "display_direction": "Wolbrom Nowa PKS",
@@ -152,6 +411,19 @@
       "day_type": "sunday",
       "time": "16:45",
       "symbols": []
+    },
+    {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Poręba Laskowska",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0294-tarnawa.html",
+      "day_type": "sunday",
+      "time": "17:47",
+      "symbols": [
+        "P",
+        "Z"
+      ]
     },
     {
       "line": "3",
@@ -164,6 +436,16 @@
       "symbols": []
     },
     {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Tarnawa Podlas",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0294-tarnawa.html",
+      "day_type": "sunday",
+      "time": "20:04",
+      "symbols": []
+    },
+    {
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "display_direction": "Wolbrom Nowa PKS",
@@ -171,6 +453,29 @@
       "page": "rozklady/3/0294-wolbrom.html",
       "day_type": "sunday",
       "time": "22:12",
+      "symbols": []
+    },
+    {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Poręba Laskowska",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0294-tarnawa.html",
+      "day_type": "workday",
+      "time": "04:40",
+      "symbols": [
+        "P",
+        "Z"
+      ]
+    },
+    {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Tarnawa Podlas",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0294-tarnawa.html",
+      "day_type": "workday",
+      "time": "05:29",
       "symbols": []
     },
     {
@@ -182,6 +487,30 @@
       "day_type": "workday",
       "time": "06:41",
       "symbols": []
+    },
+    {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Tarnawa Podlas",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0294-tarnawa.html",
+      "day_type": "workday",
+      "time": "06:43",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Poręba Laskowska",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0294-tarnawa.html",
+      "day_type": "workday",
+      "time": "07:24",
+      "symbols": [
+        "P"
+      ]
     },
     {
       "line": "3",
@@ -191,6 +520,16 @@
       "page": "rozklady/3/0294-wolbrom.html",
       "day_type": "workday",
       "time": "08:20",
+      "symbols": []
+    },
+    {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Tarnawa Podlas",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0294-tarnawa.html",
+      "day_type": "workday",
+      "time": "08:42",
       "symbols": []
     },
     {
@@ -204,6 +543,16 @@
       "symbols": []
     },
     {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Tarnawa Podlas",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0294-tarnawa.html",
+      "day_type": "workday",
+      "time": "09:50",
+      "symbols": []
+    },
+    {
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "display_direction": "Wolbrom Nowa PKS",
@@ -211,6 +560,29 @@
       "page": "rozklady/3/0294-wolbrom.html",
       "day_type": "workday",
       "time": "10:44",
+      "symbols": []
+    },
+    {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Poręba Laskowska",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0294-tarnawa.html",
+      "day_type": "workday",
+      "time": "10:50",
+      "symbols": [
+        "P",
+        "Z"
+      ]
+    },
+    {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Tarnawa Podlas",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0294-tarnawa.html",
+      "day_type": "workday",
+      "time": "11:41",
       "symbols": []
     },
     {
@@ -224,6 +596,19 @@
       "symbols": []
     },
     {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Poręba Laskowska",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0294-tarnawa.html",
+      "day_type": "workday",
+      "time": "12:54",
+      "symbols": [
+        "P",
+        "Z"
+      ]
+    },
+    {
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "display_direction": "Wolbrom Nowa PKS",
@@ -231,6 +616,16 @@
       "page": "rozklady/3/0294-wolbrom.html",
       "day_type": "workday",
       "time": "13:27",
+      "symbols": []
+    },
+    {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Tarnawa Podlas",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0294-tarnawa.html",
+      "day_type": "workday",
+      "time": "13:32",
       "symbols": []
     },
     {
@@ -244,6 +639,18 @@
       "symbols": []
     },
     {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Tarnawa Podlas",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0294-tarnawa.html",
+      "day_type": "workday",
+      "time": "15:26",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "display_direction": "Wolbrom Nowa PKS",
@@ -254,6 +661,19 @@
       "symbols": []
     },
     {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Poręba Laskowska",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0294-tarnawa.html",
+      "day_type": "workday",
+      "time": "16:01",
+      "symbols": [
+        "P",
+        "Z"
+      ]
+    },
+    {
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "display_direction": "Wolbrom Nowa PKS",
@@ -261,6 +681,16 @@
       "page": "rozklady/3/0294-wolbrom.html",
       "day_type": "workday",
       "time": "16:43",
+      "symbols": []
+    },
+    {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Tarnawa Podlas",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0294-tarnawa.html",
+      "day_type": "workday",
+      "time": "17:16",
       "symbols": []
     },
     {
@@ -274,6 +704,28 @@
       "symbols": []
     },
     {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Tarnawa Podlas",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0294-tarnawa.html",
+      "day_type": "workday",
+      "time": "18:15",
+      "symbols": []
+    },
+    {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Poręba Laskowska",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0294-tarnawa.html",
+      "day_type": "workday",
+      "time": "19:03",
+      "symbols": [
+        "P"
+      ]
+    },
+    {
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "display_direction": "Wolbrom Nowa PKS",
@@ -284,6 +736,18 @@
       "symbols": []
     },
     {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Tarnawa Podlas",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0294-tarnawa.html",
+      "day_type": "workday",
+      "time": "20:28",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "display_direction": "Wolbrom Nowa PKS",
@@ -291,6 +755,16 @@
       "page": "rozklady/3/0294-wolbrom.html",
       "day_type": "workday",
       "time": "20:49",
+      "symbols": []
+    },
+    {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Tarnawa Podlas",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0294-tarnawa.html",
+      "day_type": "workday",
+      "time": "21:30",
       "symbols": []
     },
     {
@@ -306,12 +780,21 @@
   ],
   "served_lines": [
     {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "page": "rozklady/11/0294-tarnawa.html"
+    },
+    {
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "page": "rozklady/3/0294-wolbrom.html"
     }
   ],
   "legends": {
+    "11": {
+      "P": "do: Poręba Laskowska",
+      "Z": "przez: Zagórowa"
+    },
     "3": {}
   }
 }

@@ -1,0 +1,388 @@
+{
+  "stop_id": "0769",
+  "stop_name": "Milonki II",
+  "platform": "1",
+  "departures": [
+    {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Poręba Laskowska",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0769-tarnawa.html",
+      "day_type": "holiday",
+      "time": "11:48",
+      "symbols": [
+        "P"
+      ]
+    },
+    {
+      "line": "11",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "olkusz",
+      "page": "rozklady/11/0769-olkusz.html",
+      "day_type": "holiday",
+      "time": "12:27",
+      "symbols": []
+    },
+    {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Poręba Laskowska",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0769-tarnawa.html",
+      "day_type": "holiday",
+      "time": "14:00",
+      "symbols": [
+        "P"
+      ]
+    },
+    {
+      "line": "11",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "olkusz",
+      "page": "rozklady/11/0769-olkusz.html",
+      "day_type": "holiday",
+      "time": "16:58",
+      "symbols": []
+    },
+    {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Poręba Laskowska",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0769-tarnawa.html",
+      "day_type": "saturday",
+      "time": "05:16",
+      "symbols": [
+        "P"
+      ]
+    },
+    {
+      "line": "11",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "olkusz",
+      "page": "rozklady/11/0769-olkusz.html",
+      "day_type": "saturday",
+      "time": "06:01",
+      "symbols": []
+    },
+    {
+      "line": "11",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "olkusz",
+      "page": "rozklady/11/0769-olkusz.html",
+      "day_type": "saturday",
+      "time": "07:56",
+      "symbols": []
+    },
+    {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Poręba Laskowska",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0769-tarnawa.html",
+      "day_type": "saturday",
+      "time": "08:08",
+      "symbols": [
+        "P"
+      ]
+    },
+    {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Poręba Laskowska",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0769-tarnawa.html",
+      "day_type": "saturday",
+      "time": "11:48",
+      "symbols": [
+        "P"
+      ]
+    },
+    {
+      "line": "11",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "olkusz",
+      "page": "rozklady/11/0769-olkusz.html",
+      "day_type": "saturday",
+      "time": "12:27",
+      "symbols": []
+    },
+    {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Poręba Laskowska",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0769-tarnawa.html",
+      "day_type": "saturday",
+      "time": "14:00",
+      "symbols": [
+        "P"
+      ]
+    },
+    {
+      "line": "11",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "olkusz",
+      "page": "rozklady/11/0769-olkusz.html",
+      "day_type": "saturday",
+      "time": "16:58",
+      "symbols": []
+    },
+    {
+      "line": "11",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "olkusz",
+      "page": "rozklady/11/0769-olkusz.html",
+      "day_type": "saturday",
+      "time": "19:04",
+      "symbols": []
+    },
+    {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Tarnawa Podlas",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0769-tarnawa.html",
+      "day_type": "saturday",
+      "time": "21:03",
+      "symbols": []
+    },
+    {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Tarnawa Podlas",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0769-tarnawa.html",
+      "day_type": "sunday",
+      "time": "04:56",
+      "symbols": []
+    },
+    {
+      "line": "11",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "olkusz",
+      "page": "rozklady/11/0769-olkusz.html",
+      "day_type": "sunday",
+      "time": "09:55",
+      "symbols": []
+    },
+    {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Poręba Laskowska",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0769-tarnawa.html",
+      "day_type": "sunday",
+      "time": "11:39",
+      "symbols": [
+        "P"
+      ]
+    },
+    {
+      "line": "11",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "olkusz",
+      "page": "rozklady/11/0769-olkusz.html",
+      "day_type": "sunday",
+      "time": "14:16",
+      "symbols": []
+    },
+    {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Poręba Laskowska",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0769-tarnawa.html",
+      "day_type": "sunday",
+      "time": "18:13",
+      "symbols": [
+        "P"
+      ]
+    },
+    {
+      "line": "11",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "olkusz",
+      "page": "rozklady/11/0769-olkusz.html",
+      "day_type": "sunday",
+      "time": "20:48",
+      "symbols": []
+    },
+    {
+      "line": "11",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "olkusz",
+      "page": "rozklady/11/0769-olkusz.html",
+      "day_type": "workday",
+      "time": "04:22",
+      "symbols": []
+    },
+    {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Poręba Laskowska",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0769-tarnawa.html",
+      "day_type": "workday",
+      "time": "05:06",
+      "symbols": [
+        "P"
+      ]
+    },
+    {
+      "line": "11",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "olkusz",
+      "page": "rozklady/11/0769-olkusz.html",
+      "day_type": "workday",
+      "time": "06:13",
+      "symbols": []
+    },
+    {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Tarnawa Podlas",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0769-tarnawa.html",
+      "day_type": "workday",
+      "time": "07:09",
+      "symbols": []
+    },
+    {
+      "line": "11",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "olkusz",
+      "page": "rozklady/11/0769-olkusz.html",
+      "day_type": "workday",
+      "time": "07:32",
+      "symbols": []
+    },
+    {
+      "line": "11",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "olkusz",
+      "page": "rozklady/11/0769-olkusz.html",
+      "day_type": "workday",
+      "time": "10:34",
+      "symbols": []
+    },
+    {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Poręba Laskowska",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0769-tarnawa.html",
+      "day_type": "workday",
+      "time": "11:16",
+      "symbols": [
+        "P"
+      ]
+    },
+    {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Poręba Laskowska",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0769-tarnawa.html",
+      "day_type": "workday",
+      "time": "13:20",
+      "symbols": [
+        "P"
+      ]
+    },
+    {
+      "line": "11",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "olkusz",
+      "page": "rozklady/11/0769-olkusz.html",
+      "day_type": "workday",
+      "time": "14:42",
+      "symbols": []
+    },
+    {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Tarnawa Podlas",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0769-tarnawa.html",
+      "day_type": "workday",
+      "time": "15:52",
+      "symbols": []
+    },
+    {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Poręba Laskowska",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0769-tarnawa.html",
+      "day_type": "workday",
+      "time": "16:27",
+      "symbols": [
+        "P"
+      ]
+    },
+    {
+      "line": "11",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "olkusz",
+      "page": "rozklady/11/0769-olkusz.html",
+      "day_type": "workday",
+      "time": "17:04",
+      "symbols": []
+    },
+    {
+      "line": "11",
+      "main_direction": "Olkusz Dworzec PKS",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "olkusz",
+      "page": "rozklady/11/0769-olkusz.html",
+      "day_type": "workday",
+      "time": "20:25",
+      "symbols": []
+    },
+    {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "display_direction": "Tarnawa Podlas",
+      "direction_slug": "tarnawa",
+      "page": "rozklady/11/0769-tarnawa.html",
+      "day_type": "workday",
+      "time": "20:54",
+      "symbols": []
+    }
+  ],
+  "served_lines": [
+    {
+      "line": "11",
+      "main_direction": "Tarnawa Podlas",
+      "page": "rozklady/11/0769-tarnawa.html"
+    },
+    {
+      "line": "11",
+      "main_direction": "Olkusz Dworzec PKS",
+      "page": "rozklady/11/0769-olkusz.html"
+    }
+  ],
+  "legends": {
+    "11": {
+      "Z": "przez: Zagórowa"
+    }
+  }
+}

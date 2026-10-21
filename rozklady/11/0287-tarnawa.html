@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KMMZ | Linia 11 | 0287 Rabsztyn Ogródki Działkowe</title>
+
+<style>
+
+*{box-sizing:border-box}
+
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:linear-gradient(135deg,#005bbb,#009966);
+    padding:20px;
+}
+
+.page{
+    max-width:1400px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:330px 1fr;
+    gap:20px;
+}
+
+.panel, .timetable{
+    background:white;
+    border-radius:16px;
+    box-shadow:0 8px 25px rgba(0,0,0,.22);
+}
+
+.panel{
+    padding:15px;
+}
+
+.back{
+    display:block;
+    margin-bottom:15px;
+    color:#005bbb;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+.route-title{
+    text-align:center;
+    padding:12px;
+    background:#f5c400;
+    font-weight:bold;
+    border-radius:10px 10px 0 0;
+}
+
+.route-subtitle{
+    text-align:center;
+    background:#009966;
+    color:white;
+    padding:8px;
+    font-weight:bold;
+}
+
+.stop{
+    display:block;
+    padding:5px 8px;
+    border-bottom:1px dashed #ccc;
+    color:#222;
+    text-decoration:none;
+    font-size:12px;
+}
+
+.stop:hover{
+    background:#eef5ff;
+    color:#005bbb;
+}
+
+.current-stop{
+    background:#fff3c4;
+    font-weight:bold;
+    font-size:12px;
+}
+
+.variant{
+    margin-left:25px;
+    font-style:italic;
+}
+
+.timetable{
+    padding:20px;
+}
+
+.header{
+    display:grid;
+    grid-template-columns:110px 1fr 90px;
+    gap:20px;
+    align-items:center;
+    margin-bottom:25px;
+}
+
+.line-button{
+    background:#f5c400;
+    color:#222;
+    font-size:36px;
+    font-weight:bold;
+    text-align:center;
+    padding:14px;
+    border-radius:12px;
+    text-decoration:none;
+}
+
+.stop-name{
+    font-size:21px;
+    font-weight:bold;
+    color:#005bbb;
+    text-decoration:none;
+}
+
+.stop-code{
+    background:#dcecff;
+    color:#005bbb;
+    padding:6px 10px;
+    border-radius:6px;
+    font-weight:bold;
+    margin-right:8px;
+    font-size:14px;
+}
+
+.direction{
+    margin-top:10px;
+    font-size:15px;
+}
+
+.map-button{
+    text-decoration:none;
+    background:#eaf4ff;
+    border:2px solid #005bbb;
+    color:#005bbb;
+    border-radius:12px;
+    font-size:13px;
+    padding:9px;
+    text-align:center;
+    font-weight:bold;
+}
+
+.map-icon{
+    font-size:26px;
+    display:block;
+}
+
+.section-title{
+    margin-top:14px;
+    padding:7px 10px;
+    font-weight:bold;
+    border-radius:6px;
+    font-size:14px;
+}
+
+.workday{background:#eaf4ff;}
+.saturday{background:#eef7df;}
+.sunday{background:#ffe5e5;}
+.holiday{background:#fff3c4;}
+
+.times{
+    display:grid;
+    grid-template-columns:repeat(8,1fr);
+    gap:0;
+    padding:6px 0 12px 0;
+    border-bottom:1px dashed #ccc;
+}
+
+.time{
+    text-align:center;
+    padding:5px;
+    font-size:14px;
+}
+
+.no-service{
+    padding:9px;
+    color:#777;
+    font-style:italic;
+    font-size:14px;
+}
+
+.legend{
+    margin-top:30px;
+    border:2px solid #ccc;
+    border-radius:14px;
+    overflow:hidden;
+}
+
+.legend-title{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    padding:12px;
+    background:linear-gradient(90deg,#f5c400,#005bbb,#009966);
+    font-size:17px;
+}
+
+.legend-row{
+    padding:8px 15px;
+    border-bottom:1px dashed #ccc;
+}
+
+.legend-row:last-child{
+    border-bottom:none;
+}
+
+.symbol{
+    color:#005bbb;
+    font-weight:bold;
+    display:inline-block;
+    width:35px;
+}
+
+@media(max-width:900px){
+    .page{
+        grid-template-columns:1fr;
+    }
+
+    .header{
+        grid-template-columns:1fr;
+        text-align:center;
+    }
+
+    .times{
+        grid-template-columns:repeat(3,1fr);
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="page">
+
+<div class="panel">
+<a class="back" href="../../linie/11.html">← Powrót do trasy linii 11</a>
+
+<div class="route-title">Kierunek: Tarnawa Podlas</div>
+<div class="route-subtitle">Trasa przejazdu od tego przystanku</div>
+
+<a class="stop current-stop" href="../11/0287-tarnawa.html">0287 Rabsztyn Ogródki Działkowe (2)</a>
+<a class="stop" href="../11/0288-tarnawa.html">0288 Rabsztyn (2)</a>
+<a class="stop" href="../11/0289-tarnawa.html">0289 Troks Las (2)</a>
+<a class="stop" href="../11/0290-tarnawa.html">0290 Troks (2)</a>
+<a class="stop" href="../11/0291-tarnawa.html">0291 Troks Szkoła (2)</a>
+<a class="stop" href="../11/0292-tarnawa.html">0292 Troks Granica (2)</a>
+<a class="stop" href="../11/0293-tarnawa.html">0293 Braciejówka Cmentarz (2)</a>
+<a class="stop" href="../11/0294-tarnawa.html">0294 Braciejówka Zalew (1)</a>
+<a class="stop" href="../11/0295-tarnawa.html">0295 Braciejówka Szkoła (2)</a>
+<a class="stop" href="../11/0296-tarnawa.html">0296 Braciejówka Granica (2)</a>
+<a class="stop" href="../11/0297-tarnawa.html">0297 Michałówka (1)</a>
+<a class="stop" href="../11/0298-tarnawa.html">0298 Michałówka OSP (1)</a>
+<a class="stop" href="../11/0299-tarnawa.html">0299 Michałówka Granica (2)</a>
+<a class="stop" href="../11/0300-tarnawa.html">0300 Jangrot Granica (1)</a>
+<a class="stop" href="../11/0301-tarnawa.html">0301 Jangrot Kosmolów (2)</a>
+<a class="stop" href="../11/0302-tarnawa.html">0302 Jangrot Centrum (1)</a>
+<a class="stop" href="../11/0303-tarnawa.html">0303 Jangrot Źródło Dłubni (2)</a>
+<a class="stop" href="../11/0304-tarnawa.html">0304 Trzyciąż Skrzyżowanie (1)</a>
+<a class="stop" href="../11/0785-tarnawa.html">0785 Zadroże Gołębia Góra (1)</a>
+<a class="stop" href="../11/0784-tarnawa.html">0784 Zadroże Studzianki (2)</a>
+<a class="stop" href="../11/0782-tarnawa.html">0782 Zadroże Skotnica (2)</a>
+<a class="stop" href="../11/0780-tarnawa.html">0780 Zadroże Kościół (2)</a>
+<a class="stop" href="../11/0777-tarnawa.html">0777 Zadroże OSP (1)</a>
+<a class="stop variant" href="../11/0770-tarnawa.html">0770 Milonki II (2)</a>
+<a class="stop variant" href="../11/0774-tarnawa.html">0774 Zagórowa (2)</a>
+<a class="stop variant" href="../11/0775-tarnawa.html">0775 Zagórowa Centrum (1)</a>
+<a class="stop variant" href="../11/0773-tarnawa.html">0773 Zagórowa (1)</a>
+<a class="stop variant" href="../11/0769-tarnawa.html">0769 Milonki II (1)</a>
+<a class="stop" href="../11/0768-tarnawa.html">0768 Milonki Skrzyżowanie (2)</a>
+<a class="stop" href="../11/0765-tarnawa.html">0765 Milonki Granica (1)</a>
+<a class="stop" href="../11/0763-tarnawa.html">0763 Tarnawa Skrzyżowanie (1)</a>
+<a class="stop" href="../11/0762-tarnawa.html">0762 Tarnawa Parcela (2)</a>
+<a class="stop" href="../11/0759-tarnawa.html">0759 Tarnawa Kościół (1)</a>
+<a class="stop" href="../11/0758-tarnawa.html">0758 Tarnawa Wieś (2)</a>
+<a class="stop" href="../11/0755-tarnawa.html">0755 Tarnawa Podlas (1)</a>
+<a class="stop variant" href="../11/0752-tarnawa.html">0752 Barbarka Wesoła Ściborzanka (1)</a>
+<a class="stop variant" href="../11/0751-tarnawa.html">0751 Barbarka Remiza (2)</a>
+<a class="stop variant" href="../11/0749-tarnawa.html">0749 Barbarka Pogorzelec (2)</a>
+<a class="stop variant" href="../11/0747-tarnawa.html">0747 Poręba Laskowska (0)</a>
+</div>
+
+<div class="timetable">
+
+<div class="header">
+<a class="line-button" href="../../linie/11.html">11</a>
+
+<div>
+<a class="stop-name" href="../../przystanki/0287.html">
+<span class="stop-code">0287</span>Rabsztyn Ogródki Działkowe (2)
+</a>
+<div class="direction">Kierunek: <strong>Tarnawa Podlas</strong></div>
+</div>
+
+<a class="map-button" href="https://enderommhr.github.io/kmmz/mapa.html" target="_blank">
+<span class="map-icon">🗺️</span>
+Mapa
+</a>
+</div>
+
+
+<div class="section-title workday">Dni robocze</div>
+<div class="times">
+<div class="time">04:29<sup>PZ</sup></div>
+<div class="time">05:18</div>
+<div class="time">06:32<sup>Z</sup></div>
+<div class="time">07:13<sup>P</sup></div>
+<div class="time">08:31</div>
+<div class="time">09:39</div>
+<div class="time">10:39<sup>PZ</sup></div>
+<div class="time">11:30</div>
+<div class="time">12:43<sup>PZ</sup></div>
+<div class="time">13:21</div>
+<div class="time">15:15<sup>Z</sup></div>
+<div class="time">15:50<sup>PZ</sup></div>
+<div class="time">17:05</div>
+<div class="time">18:04</div>
+<div class="time">18:52<sup>P</sup></div>
+<div class="time">20:17<sup>Z</sup></div>
+<div class="time">21:19</div>
+</div>
+
+
+<div class="section-title saturday">Soboty</div>
+<div class="times">
+<div class="time">04:39<sup>PZ</sup></div>
+<div class="time">05:37</div>
+<div class="time">06:59</div>
+<div class="time">07:31<sup>PZ</sup></div>
+<div class="time">08:52</div>
+<div class="time">10:03</div>
+<div class="time">11:11<sup>PZ</sup></div>
+<div class="time">11:59</div>
+<div class="time">13:23<sup>PZ</sup></div>
+<div class="time">14:04</div>
+<div class="time">16:01</div>
+<div class="time">17:56<sup>P</sup></div>
+<div class="time">20:26<sup>Z</sup></div>
+</div>
+
+
+<div class="section-title sunday">Niedziele</div>
+<div class="times">
+<div class="time">04:19<sup>Z</sup></div>
+<div class="time">06:23<sup>P</sup></div>
+<div class="time">08:34</div>
+<div class="time">11:02<sup>PZ</sup></div>
+<div class="time">13:08</div>
+<div class="time">15:38</div>
+<div class="time">17:36<sup>PZ</sup></div>
+<div class="time">19:53</div>
+</div>
+
+
+<div class="section-title holiday">Święta</div>
+<div class="times">
+<div class="time">11:11<sup>PZ</sup></div>
+<div class="time">13:23<sup>PZ</sup></div>
+<div class="time">16:01</div>
+<div class="time">17:56</div>
+</div>
+
+
+
+<div class="legend">
+<div class="legend-title">Legenda</div>
+<div class="legend-row"><span class="symbol">P</span> - do: Poręba Laskowska</div>
+<div class="legend-row"><span class="symbol">Z</span> - przez: Zagórowa</div>
+</div>
+
+  
+</div>
+
+</div>
+
+</body>
+</html>
