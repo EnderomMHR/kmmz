@@ -346,3 +346,40 @@ Zapis variantów: 0 bez, 1 szpital, 2 Sanka, 3 oba.
 
 Po akceptacji oznaczeń scalić PR i zweryfikować
 wynik generatora oraz GitHub Pages.
+
+
+## Linia 15 – Jawiszowice Jaźnik ↔ Oświęcim Dworzec Fabryczny
+
+Źródło: `P.A.M. - Linia 15.xlsx`, wyłącznie `Arkusz1`.
+**56 kursów, 2996 czasów przystankowych i 2940 rzeczywistych
+odjazdów.** Wszystkie 2940 formuł mają zapisane wyniki.
+Brak błędnych ID, cofnięć czasu i luk w kursach.
+
+- Kierunek 1: `2627 Jawiszowice Jaźnik (1)` →
+  `0879 Oświęcim Dworzec Fabryczny (2)`,
+  `oswiecim`; 54 przystanki, czas 71 minut.
+- Kierunek 2: `0830 Oświęcim Dworzec Fabryczny (1)` →
+  `2627 Jawiszowice Jaźnik (1)`,
+  `jawiszowice`; 53 przystanki, czas 68 minut.
+- We wszystkich kursach `variant = 0`, brak oznaczeń
+  literowych, legend i zmian kierunków.
+- Każdy kierunek: 12 kursów w dni robocze (`R`),
+  7 w soboty (`S`), 6 w niedziele (`N`) i 3
+  w święta (`SW`). Godziny każdego kursu wynikają z
+  jednego spójnego profilu czasów przejazdu.
+- Końcowe strony `0879-oswiecim.html` oraz
+  `2627-jawiszowice.html` oznaczają wyłącznie
+  przyjazdy i nie generują fałszywych odjazdów.
+- Węzeł `2553 Brzeszcze Dworzec PKP` obsługuje
+  oba kierunki. Przystanek `2627` występuje w
+  obu kierunkach jako początek i jako koniec,
+  lecz na mapie zachowujemy jedynie rzeczywiste odjazdy.
+- Strona `linie/15.html` i wszystkie 97 unikalnych
+  identyfikatorów przystanków zgadzają się z
+  danymi GeoJSON; nie wymaga zmian.
+
+Testy `tools/test-line15-import.py` i
+`tools/check-line15.py` weryfikują zgodność importera,
+odcisk SHA-256 wszystkich 56 kursów z oryginalnego
+Excela, kompletność 2996 czasów, wygenerowane rozkłady,
+kierunki i wykluczenie sztucznych odjazdów z mapy.

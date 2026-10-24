@@ -24,6 +24,9 @@ on:
       - 'tools/test-line13-import.py'
       - 'tools/check-line14.py'
       - 'tools/test-line14-import.py'
+      - 'tools/check-line15.py'
+      - 'tools/test-line15-import.py'
+      - 'linie/15.html'
       - 'linie/14.html'
       - 'linie/13.html'
       - 'linie/12.html'
@@ -74,6 +77,8 @@ jobs:
         run: python tools/test-line13-import.py
       - name: Validate line 14 importer against course data
         run: python tools/test-line14-import.py
+      - name: Validate line 15 importer against course data
+        run: python tools/test-line15-import.py
       - name: Validate line 8 circular route and terminal arrivals
         run: python tools/check-line8.py
       - name: Check terminal arrival filtering
@@ -94,6 +99,8 @@ jobs:
         run: python tools/check-line13.py
       - name: Verify line 14 Excel source, G/S variants, and generated pages
         run: python tools/check-line14.py
+      - name: Verify line 15 Excel source, route, and generated pages
+        run: python tools/check-line15.py
       - name: Verify line 8 generated pages, map directions and stop visibility
         run: python tools/check-line8-pages.py
       - name: Confirm line 5 pages
@@ -107,6 +114,13 @@ jobs:
           test -f data/odjazdy/0633.json
           test -f przystanki/0669.html
           test -f rozklady/7/0684-okrezna.html
+          test -f rozklady/15/2627-oswiecim.html
+          test -f rozklady/15/0879-oswiecim.html
+          test -f rozklady/15/0830-jawiszowice.html
+          test -f rozklady/15/2627-jawiszowice.html
+          test -f data/odjazdy/2627.json
+          test -f data/odjazdy/0830.json
+          test -f przystanki/0879.html
           test -f rozklady/14/1399-chrzanow.html
           test -f rozklady/14/1484-chrzanow.html
           test -f rozklady/14/0334-grojec.html
