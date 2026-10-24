@@ -90,12 +90,14 @@ for di,d in enumerate(line["directions"],1):
             for stop in trip["stop_times"][:-1]:
                 if stop["stop_sequence"]!=p+1:continue
                 variant=trip["variant"]
-                symbol=("" if di==1 and variant in ("0","2") else
-                        "S" if di==1 and p<ids.index("0117") else
+                if di==1:
+                    symbol="S" if variant in ("1","3") and p<ids.index("0117") else ""
+                else:
+                    symbol=(
                         "GS" if variant=="3" else
                         "G" if variant=="2" else
-                        "S" if variant=="1" else "")
-                if di==2:
+                        "S" if variant=="1" else ""
+                    )
                     if p>=ids.index("0117"): symbol=symbol.replace("S","")
                     if p>=ids.index("1484"): symbol=symbol.replace("G","")
                 for day in DAYS[trip["service_code"]]:
