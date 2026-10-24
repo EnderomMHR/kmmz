@@ -1,0 +1,48 @@
+{
+  "directions": {
+    "1": {
+      "slug": "zwm",
+      "name": "Sławków ZWM",
+      "variant_symbols": {
+        "1": "H"
+      },
+      "variant_symbol_ends": {
+        "1": {
+          "stop_id": "0449",
+          "occurrence": 1
+        }
+      },
+      "variant_destinations": {
+        "H": "Hutki Pętla"
+      },
+      "legend": {
+        "H": "do: Hutki Pętla"
+      },
+      "variant_stops": [
+        "0450",
+        "0451",
+        "0452",
+        "0453",
+        "0454",
+        "0455",
+        "0456",
+        "0457",
+        "0458",
+        "0459",
+        "2131",
+        "2128",
+        "2126",
+        "0154",
+        "0155",
+        "0165",
+        "0166",
+        "0167",
+        "0168"
+      ]
+    },
+    "2": {
+      "slug": "groniec",
+      "name": "Sławków Groniec Świerkowa"
+    }
+  }
+}
