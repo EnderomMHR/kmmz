@@ -14,6 +14,26 @@
       "symbols": []
     },
     {
+      "line": "13",
+      "main_direction": "Hutki Pętla",
+      "display_direction": "Hutki Pętla",
+      "direction_slug": "zwm",
+      "page": "rozklady/13/0455-zwm.html",
+      "day_type": "holiday",
+      "time": "10:03",
+      "symbols": []
+    },
+    {
+      "line": "13",
+      "main_direction": "Hutki Pętla",
+      "display_direction": "Hutki Pętla",
+      "direction_slug": "zwm",
+      "page": "rozklady/13/0455-zwm.html",
+      "day_type": "holiday",
+      "time": "11:44",
+      "symbols": []
+    },
+    {
       "line": "5",
       "main_direction": "Olkusz Dworzec PKS",
       "display_direction": "Olkusz Dworzec PKS",
@@ -31,6 +51,16 @@
       "page": "rozklady/5/0455-olkusz.html",
       "day_type": "holiday",
       "time": "14:43",
+      "symbols": []
+    },
+    {
+      "line": "13",
+      "main_direction": "Hutki Pętla",
+      "display_direction": "Hutki Pętla",
+      "direction_slug": "zwm",
+      "page": "rozklady/13/0455-zwm.html",
+      "day_type": "saturday",
+      "time": "04:28",
       "symbols": []
     },
     {
@@ -61,6 +91,26 @@
       "page": "rozklady/5/0455-olkusz.html",
       "day_type": "saturday",
       "time": "09:28",
+      "symbols": []
+    },
+    {
+      "line": "13",
+      "main_direction": "Hutki Pętla",
+      "display_direction": "Hutki Pętla",
+      "direction_slug": "zwm",
+      "page": "rozklady/13/0455-zwm.html",
+      "day_type": "saturday",
+      "time": "10:03",
+      "symbols": []
+    },
+    {
+      "line": "13",
+      "main_direction": "Hutki Pętla",
+      "display_direction": "Hutki Pętla",
+      "direction_slug": "zwm",
+      "page": "rozklady/13/0455-zwm.html",
+      "day_type": "saturday",
+      "time": "11:44",
       "symbols": []
     },
     {
@@ -134,6 +184,16 @@
       "symbols": []
     },
     {
+      "line": "13",
+      "main_direction": "Hutki Pętla",
+      "display_direction": "Hutki Pętla",
+      "direction_slug": "zwm",
+      "page": "rozklady/13/0455-zwm.html",
+      "day_type": "sunday",
+      "time": "10:45",
+      "symbols": []
+    },
+    {
       "line": "5",
       "main_direction": "Olkusz Dworzec PKS",
       "display_direction": "Olkusz Dworzec PKS",
@@ -171,6 +231,16 @@
       "page": "rozklady/5/0455-olkusz.html",
       "day_type": "sunday",
       "time": "20:23",
+      "symbols": []
+    },
+    {
+      "line": "13",
+      "main_direction": "Hutki Pętla",
+      "display_direction": "Hutki Pętla",
+      "direction_slug": "zwm",
+      "page": "rozklady/13/0455-zwm.html",
+      "day_type": "workday",
+      "time": "04:28",
       "symbols": []
     },
     {
@@ -181,6 +251,16 @@
       "page": "rozklady/5/0455-olkusz.html",
       "day_type": "workday",
       "time": "04:28",
+      "symbols": []
+    },
+    {
+      "line": "13",
+      "main_direction": "Hutki Pętla",
+      "display_direction": "Hutki Pętla",
+      "direction_slug": "zwm",
+      "page": "rozklady/13/0455-zwm.html",
+      "day_type": "workday",
+      "time": "06:09",
       "symbols": []
     },
     {
@@ -204,6 +284,16 @@
       "symbols": []
     },
     {
+      "line": "13",
+      "main_direction": "Hutki Pętla",
+      "display_direction": "Hutki Pętla",
+      "direction_slug": "zwm",
+      "page": "rozklady/13/0455-zwm.html",
+      "day_type": "workday",
+      "time": "09:58",
+      "symbols": []
+    },
+    {
       "line": "5",
       "main_direction": "Olkusz Dworzec PKS",
       "display_direction": "Olkusz Dworzec PKS",
@@ -211,6 +301,16 @@
       "page": "rozklady/5/0455-olkusz.html",
       "day_type": "workday",
       "time": "11:18",
+      "symbols": []
+    },
+    {
+      "line": "13",
+      "main_direction": "Hutki Pętla",
+      "display_direction": "Hutki Pętla",
+      "direction_slug": "zwm",
+      "page": "rozklady/13/0455-zwm.html",
+      "day_type": "workday",
+      "time": "12:43",
       "symbols": []
     },
     {
@@ -244,6 +344,16 @@
       "symbols": []
     },
     {
+      "line": "13",
+      "main_direction": "Hutki Pętla",
+      "display_direction": "Hutki Pętla",
+      "direction_slug": "zwm",
+      "page": "rozklady/13/0455-zwm.html",
+      "day_type": "workday",
+      "time": "19:26",
+      "symbols": []
+    },
+    {
       "line": "5",
       "main_direction": "Olkusz Dworzec PKS",
       "display_direction": "Olkusz Dworzec PKS",
@@ -256,12 +366,20 @@
   ],
   "served_lines": [
     {
+      "line": "13",
+      "main_direction": "Hutki Pętla",
+      "page": "rozklady/13/0455-zwm.html"
+    },
+    {
       "line": "5",
       "main_direction": "Olkusz Dworzec PKS",
       "page": "rozklady/5/0455-olkusz.html"
     }
   ],
   "legends": {
+    "13": {
+      "H": "do: Hutki Pętla"
+    },
     "5": {}
   }
 }

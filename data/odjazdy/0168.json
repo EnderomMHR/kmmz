@@ -4,6 +4,26 @@
   "platform": "1",
   "departures": [
     {
+      "line": "13",
+      "main_direction": "Sławków Groniec Świerkowa",
+      "display_direction": "Sławków Groniec Świerkowa",
+      "direction_slug": "groniec",
+      "page": "rozklady/13/0168-groniec.html",
+      "day_type": "holiday",
+      "time": "10:28",
+      "symbols": []
+    },
+    {
+      "line": "13",
+      "main_direction": "Sławków Groniec Świerkowa",
+      "display_direction": "Sławków Groniec Świerkowa",
+      "direction_slug": "groniec",
+      "page": "rozklady/13/0168-groniec.html",
+      "day_type": "holiday",
+      "time": "12:31",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Laski Pętla",
       "display_direction": "Laski Pętla",
@@ -36,6 +56,16 @@
       ]
     },
     {
+      "line": "13",
+      "main_direction": "Sławków Groniec Świerkowa",
+      "display_direction": "Sławków Groniec Świerkowa",
+      "direction_slug": "groniec",
+      "page": "rozklady/13/0168-groniec.html",
+      "day_type": "saturday",
+      "time": "04:53",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Laski Pętla",
       "display_direction": "Laski Pętla",
@@ -66,6 +96,26 @@
       "page": "rozklady/2/0168-laski.html",
       "day_type": "saturday",
       "time": "09:37",
+      "symbols": []
+    },
+    {
+      "line": "13",
+      "main_direction": "Sławków Groniec Świerkowa",
+      "display_direction": "Sławków Groniec Świerkowa",
+      "direction_slug": "groniec",
+      "page": "rozklady/13/0168-groniec.html",
+      "day_type": "saturday",
+      "time": "10:28",
+      "symbols": []
+    },
+    {
+      "line": "13",
+      "main_direction": "Sławków Groniec Świerkowa",
+      "display_direction": "Sławków Groniec Świerkowa",
+      "direction_slug": "groniec",
+      "page": "rozklady/13/0168-groniec.html",
+      "day_type": "saturday",
+      "time": "12:31",
       "symbols": []
     },
     {
@@ -155,6 +205,16 @@
       ]
     },
     {
+      "line": "13",
+      "main_direction": "Sławków Groniec Świerkowa",
+      "display_direction": "Sławków Groniec Świerkowa",
+      "direction_slug": "groniec",
+      "page": "rozklady/13/0168-groniec.html",
+      "day_type": "sunday",
+      "time": "11:29",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Laski Pętla",
       "display_direction": "Laski Pętla",
@@ -175,6 +235,16 @@
       "symbols": []
     },
     {
+      "line": "13",
+      "main_direction": "Sławków Groniec Świerkowa",
+      "display_direction": "Sławków Groniec Świerkowa",
+      "direction_slug": "groniec",
+      "page": "rozklady/13/0168-groniec.html",
+      "day_type": "workday",
+      "time": "04:50",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Laski Pętla",
       "display_direction": "Laski Pętla",
@@ -185,6 +255,16 @@
       "symbols": []
     },
     {
+      "line": "13",
+      "main_direction": "Sławków Groniec Świerkowa",
+      "display_direction": "Sławków Groniec Świerkowa",
+      "direction_slug": "groniec",
+      "page": "rozklady/13/0168-groniec.html",
+      "day_type": "workday",
+      "time": "06:45",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Zadole Kosmolowskie Pętla",
       "display_direction": "Zadole Kosmolowskie Pętla",
@@ -192,6 +272,16 @@
       "page": "rozklady/2/0168-zadole.html",
       "day_type": "workday",
       "time": "10:17",
+      "symbols": []
+    },
+    {
+      "line": "13",
+      "main_direction": "Sławków Groniec Świerkowa",
+      "display_direction": "Sławków Groniec Świerkowa",
+      "direction_slug": "groniec",
+      "page": "rozklady/13/0168-groniec.html",
+      "day_type": "workday",
+      "time": "10:20",
       "symbols": []
     },
     {
@@ -212,6 +302,16 @@
       "page": "rozklady/2/0168-zadole.html",
       "day_type": "workday",
       "time": "11:52",
+      "symbols": []
+    },
+    {
+      "line": "13",
+      "main_direction": "Sławków Groniec Świerkowa",
+      "display_direction": "Sławków Groniec Świerkowa",
+      "direction_slug": "groniec",
+      "page": "rozklady/13/0168-groniec.html",
+      "day_type": "workday",
+      "time": "13:05",
       "symbols": []
     },
     {
@@ -263,6 +363,16 @@
       ]
     },
     {
+      "line": "13",
+      "main_direction": "Sławków Groniec Świerkowa",
+      "display_direction": "Sławków Groniec Świerkowa",
+      "direction_slug": "groniec",
+      "page": "rozklady/13/0168-groniec.html",
+      "day_type": "workday",
+      "time": "19:45",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Laski Pętla",
       "display_direction": "Bukowno Przymiarki",
@@ -290,6 +400,11 @@
   ],
   "served_lines": [
     {
+      "line": "13",
+      "main_direction": "Sławków Groniec Świerkowa",
+      "page": "rozklady/13/0168-groniec.html"
+    },
+    {
       "line": "2",
       "main_direction": "Zadole Kosmolowskie Pętla",
       "page": "rozklady/2/0168-zadole.html"
@@ -301,6 +416,7 @@
     }
   ],
   "legends": {
+    "13": {},
     "2": {
       "L": "z pominięciem: Bolesław Remiza>>Laski Pętla",
       "P": "do: Bukowno Przymiarki"

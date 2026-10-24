@@ -1,0 +1,129 @@
+{
+  "stop_id": "2131",
+  "stop_name": "Ujków Nowy Ćmielówka",
+  "platform": "2",
+  "departures": [
+    {
+      "line": "13",
+      "main_direction": "Hutki Pętla",
+      "display_direction": "Hutki Pętla",
+      "direction_slug": "zwm",
+      "page": "rozklady/13/2131-zwm.html",
+      "day_type": "holiday",
+      "time": "10:09",
+      "symbols": []
+    },
+    {
+      "line": "13",
+      "main_direction": "Hutki Pętla",
+      "display_direction": "Hutki Pętla",
+      "direction_slug": "zwm",
+      "page": "rozklady/13/2131-zwm.html",
+      "day_type": "holiday",
+      "time": "11:50",
+      "symbols": []
+    },
+    {
+      "line": "13",
+      "main_direction": "Hutki Pętla",
+      "display_direction": "Hutki Pętla",
+      "direction_slug": "zwm",
+      "page": "rozklady/13/2131-zwm.html",
+      "day_type": "saturday",
+      "time": "04:34",
+      "symbols": []
+    },
+    {
+      "line": "13",
+      "main_direction": "Hutki Pętla",
+      "display_direction": "Hutki Pętla",
+      "direction_slug": "zwm",
+      "page": "rozklady/13/2131-zwm.html",
+      "day_type": "saturday",
+      "time": "10:09",
+      "symbols": []
+    },
+    {
+      "line": "13",
+      "main_direction": "Hutki Pętla",
+      "display_direction": "Hutki Pętla",
+      "direction_slug": "zwm",
+      "page": "rozklady/13/2131-zwm.html",
+      "day_type": "saturday",
+      "time": "11:50",
+      "symbols": []
+    },
+    {
+      "line": "13",
+      "main_direction": "Hutki Pętla",
+      "display_direction": "Hutki Pętla",
+      "direction_slug": "zwm",
+      "page": "rozklady/13/2131-zwm.html",
+      "day_type": "sunday",
+      "time": "10:51",
+      "symbols": []
+    },
+    {
+      "line": "13",
+      "main_direction": "Hutki Pętla",
+      "display_direction": "Hutki Pętla",
+      "direction_slug": "zwm",
+      "page": "rozklady/13/2131-zwm.html",
+      "day_type": "workday",
+      "time": "04:34",
+      "symbols": []
+    },
+    {
+      "line": "13",
+      "main_direction": "Hutki Pętla",
+      "display_direction": "Hutki Pętla",
+      "direction_slug": "zwm",
+      "page": "rozklady/13/2131-zwm.html",
+      "day_type": "workday",
+      "time": "06:15",
+      "symbols": []
+    },
+    {
+      "line": "13",
+      "main_direction": "Hutki Pętla",
+      "display_direction": "Hutki Pętla",
+      "direction_slug": "zwm",
+      "page": "rozklady/13/2131-zwm.html",
+      "day_type": "workday",
+      "time": "10:04",
+      "symbols": []
+    },
+    {
+      "line": "13",
+      "main_direction": "Hutki Pętla",
+      "display_direction": "Hutki Pętla",
+      "direction_slug": "zwm",
+      "page": "rozklady/13/2131-zwm.html",
+      "day_type": "workday",
+      "time": "12:49",
+      "symbols": []
+    },
+    {
+      "line": "13",
+      "main_direction": "Hutki Pętla",
+      "display_direction": "Hutki Pętla",
+      "direction_slug": "zwm",
+      "page": "rozklady/13/2131-zwm.html",
+      "day_type": "workday",
+      "time": "19:32",
+      "symbols": []
+    }
+  ],
+  "served_lines": [
+    {
+      "line": "13",
+      "main_direction": "Hutki Pętla",
+      "page": "rozklady/13/2131-zwm.html"
+    }
+  ],
+  "legends": {
+    "13": {
+      "H": "do: Hutki Pętla"
+    }
+  }
+}

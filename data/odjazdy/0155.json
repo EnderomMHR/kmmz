@@ -4,6 +4,16 @@
   "platform": "2",
   "departures": [
     {
+      "line": "13",
+      "main_direction": "Hutki Pętla",
+      "display_direction": "Hutki Pętla",
+      "direction_slug": "zwm",
+      "page": "rozklady/13/0155-zwm.html",
+      "day_type": "holiday",
+      "time": "10:14",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Zadole Kosmolowskie Pętla",
       "display_direction": "Zadole Kosmolowskie Pętla",
@@ -11,6 +21,26 @@
       "page": "rozklady/2/0155-zadole.html",
       "day_type": "holiday",
       "time": "11:50",
+      "symbols": []
+    },
+    {
+      "line": "13",
+      "main_direction": "Hutki Pętla",
+      "display_direction": "Hutki Pętla",
+      "direction_slug": "zwm",
+      "page": "rozklady/13/0155-zwm.html",
+      "day_type": "holiday",
+      "time": "11:55",
+      "symbols": []
+    },
+    {
+      "line": "13",
+      "main_direction": "Hutki Pętla",
+      "display_direction": "Hutki Pętla",
+      "direction_slug": "zwm",
+      "page": "rozklady/13/0155-zwm.html",
+      "day_type": "saturday",
+      "time": "04:39",
       "symbols": []
     },
     {
@@ -24,6 +54,16 @@
       "symbols": []
     },
     {
+      "line": "13",
+      "main_direction": "Hutki Pętla",
+      "display_direction": "Hutki Pętla",
+      "direction_slug": "zwm",
+      "page": "rozklady/13/0155-zwm.html",
+      "day_type": "saturday",
+      "time": "10:14",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Zadole Kosmolowskie Pętla",
       "display_direction": "Zadole Kosmolowskie Pętla",
@@ -31,6 +71,16 @@
       "page": "rozklady/2/0155-zadole.html",
       "day_type": "saturday",
       "time": "11:50",
+      "symbols": []
+    },
+    {
+      "line": "13",
+      "main_direction": "Hutki Pętla",
+      "display_direction": "Hutki Pętla",
+      "direction_slug": "zwm",
+      "page": "rozklady/13/0155-zwm.html",
+      "day_type": "saturday",
+      "time": "11:55",
       "symbols": []
     },
     {
@@ -69,6 +119,16 @@
       "symbols": []
     },
     {
+      "line": "13",
+      "main_direction": "Hutki Pętla",
+      "display_direction": "Hutki Pętla",
+      "direction_slug": "zwm",
+      "page": "rozklady/13/0155-zwm.html",
+      "day_type": "sunday",
+      "time": "10:56",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Zadole Kosmolowskie Pętla",
       "display_direction": "Olkusz Dworzec PKS",
@@ -81,6 +141,16 @@
       ]
     },
     {
+      "line": "13",
+      "main_direction": "Hutki Pętla",
+      "display_direction": "Hutki Pętla",
+      "direction_slug": "zwm",
+      "page": "rozklady/13/0155-zwm.html",
+      "day_type": "workday",
+      "time": "04:39",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Zadole Kosmolowskie Pętla",
       "display_direction": "Olkusz Dworzec PKS",
@@ -91,6 +161,16 @@
       "symbols": [
         "O"
       ]
+    },
+    {
+      "line": "13",
+      "main_direction": "Hutki Pętla",
+      "display_direction": "Hutki Pętla",
+      "direction_slug": "zwm",
+      "page": "rozklady/13/0155-zwm.html",
+      "day_type": "workday",
+      "time": "06:20",
+      "symbols": []
     },
     {
       "line": "2",
@@ -116,6 +196,26 @@
       "symbols": [
         "H"
       ]
+    },
+    {
+      "line": "13",
+      "main_direction": "Hutki Pętla",
+      "display_direction": "Hutki Pętla",
+      "direction_slug": "zwm",
+      "page": "rozklady/13/0155-zwm.html",
+      "day_type": "workday",
+      "time": "10:09",
+      "symbols": []
+    },
+    {
+      "line": "13",
+      "main_direction": "Hutki Pętla",
+      "display_direction": "Hutki Pętla",
+      "direction_slug": "zwm",
+      "page": "rozklady/13/0155-zwm.html",
+      "day_type": "workday",
+      "time": "12:54",
+      "symbols": []
     },
     {
       "line": "2",
@@ -154,6 +254,16 @@
       ]
     },
     {
+      "line": "13",
+      "main_direction": "Hutki Pętla",
+      "display_direction": "Hutki Pętla",
+      "direction_slug": "zwm",
+      "page": "rozklady/13/0155-zwm.html",
+      "day_type": "workday",
+      "time": "19:37",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Zadole Kosmolowskie Pętla",
       "display_direction": "Zadole Kosmolowskie Pętla",
@@ -182,12 +292,20 @@
   ],
   "served_lines": [
     {
+      "line": "13",
+      "main_direction": "Hutki Pętla",
+      "page": "rozklady/13/0155-zwm.html"
+    },
+    {
       "line": "2",
       "main_direction": "Zadole Kosmolowskie Pętla",
       "page": "rozklady/2/0155-zadole.html"
     }
   ],
   "legends": {
+    "13": {
+      "H": "do: Hutki Pętla"
+    },
     "2": {
       "H": "przez: Hutki Pętla",
       "L": "z pominięciem: Bolesław Remiza>>Laski Pętla",
