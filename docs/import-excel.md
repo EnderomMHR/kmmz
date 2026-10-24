@@ -263,3 +263,35 @@ wierszy odpowiadających Arkusz1, a `tools/check-line12.py`
 porównuje wszystkie kursy z niezależnym odciskiem SHA-256
 arkusza i sprawdza strony, dni SN/SW, kierunki i mapowe
 przystanki początkowe/końcowe.
+
+
+## Linia 13 — Sławków Groniec Świerkowa – Sławków ZWM / Hutki Pętla
+
+Źródło: `P.A.M. - Linia 13.xlsx`, `Arkusz1`, 74 kursy,
+1443 czasów i 1369 odjazdów (1369 formuł z zapisanym cache).
+W arkuszu jest sześć dodatkowych pomocniczych wartości poza
+kolumnami kursów, ignorowanych przez importer.
+
+- Kierunek 1: `2769 Sławków Groniec Świerkowa` → `0449 Sławków ZWM`
+  (wariant `0`, 27 kursów, 20 minut) lub do `0168 Hutki Pętla`
+  (wariant `1`, 11 kursów, 43 minuty).
+- Kierunek 2: `0168 Hutki Pętla` (11 kursów) lub
+  `0483 Sławków ZWM` (25 kursów) → `2769 Sławków Groniec Świerkowa`.
+  W kierunku 2 obie grupy należą do wariantu `0`: skrócony
+  początek jest końcową częścią pełnej trasy, nie osobnym wariantem.
+- Robocze 13/13; soboty 11/10; niedziele 8/8; święta 6/5.
+- **PROPONOWANE DO AKCEPTACJI:** oznaczenie `H`:
+  `do: Hutki Pętla` przed ZWM (do przystanku `0448` włącznie).
+  Od `0449 Sławków ZWM` strony mają bezpośredni nagłówek
+  `Kierunek: Hutki Pętla` bez litery, ponieważ odjeżdżają
+  stamtąd tylko autobusy do Hutek.
+- Przyjazdy `0449` z wariantu 0 nie są odjazdami, choć
+  to samo miejsce ma rzeczywiste odjazdy kursów wariantu 1.
+  Końcowe `0168` (kierunek 1) i `2769` (kierunek 2) nie
+  generują sztucznych odjazdów.
+- `linie/13.html` ma już właściwe identyfikatory, perony
+  i linki do obu kierunków; nie zmieniamy istniejącej strony.
+
+Zestaw danych i proponowane oznaczenia pozostają na gałęzi
+roboczej do zatwierdzenia przez właściciela projektu. Po akceptacji
+można scalić PR, uruchomić generator i sprawdzić publikację.
