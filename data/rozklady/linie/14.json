@@ -1,0 +1,4157 @@
+{
+  "line": "14",
+  "map_url": "https://enderommhr.github.io/kmmz/mapa.html",
+  "directions": [
+    {
+      "slug": "chrzanow",
+      "name": "Chrzanów Dworzec Autobusowy",
+      "variant_destinations": {},
+      "legend": {
+        "S": "przez: Chrzanów Szpital"
+      },
+      "legend_only_used_symbols": true,
+      "route_stops": [
+        {
+          "stop_id": "1399",
+          "stop_name": "Sanka Głuchówki",
+          "platform": "0",
+          "file": "1399-chrzanow.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1400",
+          "stop_name": "Sanka Wzgórze",
+          "platform": "1",
+          "file": "1400-chrzanow.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1401",
+          "stop_name": "Sanka Kościół",
+          "platform": "1",
+          "file": "1401-chrzanow.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1402",
+          "stop_name": "Sanka Dół",
+          "platform": "1",
+          "file": "1402-chrzanow.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1393",
+          "stop_name": "Zalas Krzyżówka",
+          "platform": "2",
+          "file": "1393-chrzanow.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1394",
+          "stop_name": "Zalas Ośrodek Zdrowia",
+          "platform": "2",
+          "file": "1394-chrzanow.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1390",
+          "stop_name": "Zalas Kościół",
+          "platform": "1",
+          "file": "1390-chrzanow.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1389",
+          "stop_name": "Zalas Szkoła",
+          "platform": "1",
+          "file": "1389-chrzanow.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1387",
+          "stop_name": "Zalas Krótka",
+          "platform": "2",
+          "file": "1387-chrzanow.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1384",
+          "stop_name": "Zalas Plac",
+          "platform": "2",
+          "file": "1384-chrzanow.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1429",
+          "stop_name": "Zalas Rondo",
+          "platform": "2",
+          "file": "1429-chrzanow.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1528",
+          "stop_name": "Zalas Sportowa",
+          "platform": "1",
+          "file": "1528-chrzanow.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1529",
+          "stop_name": "Grojec Sklep",
+          "platform": "1",
+          "file": "1529-chrzanow.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1486",
+          "stop_name": "Grojec Zajezdnia",
+          "platform": "2",
+          "file": "1486-chrzanow.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1484",
+          "stop_name": "Grojec Zajezdnia",
+          "platform": "1",
+          "file": "1484-chrzanow.html"
+        },
+        {
+          "stop_id": "1487",
+          "stop_name": "Grojec Szkoła",
+          "platform": "2",
+          "file": "1487-chrzanow.html"
+        },
+        {
+          "stop_id": "1488",
+          "stop_name": "Grojec II",
+          "platform": "2",
+          "file": "1488-chrzanow.html"
+        },
+        {
+          "stop_id": "1480",
+          "stop_name": "Grojec Waga",
+          "platform": "1",
+          "file": "1480-chrzanow.html"
+        },
+        {
+          "stop_id": "1354",
+          "stop_name": "Alwernia Garncarska",
+          "platform": "1",
+          "file": "1354-chrzanow.html"
+        },
+        {
+          "stop_id": "1346",
+          "stop_name": "Alwernia Szkoła",
+          "platform": "1",
+          "file": "1346-chrzanow.html"
+        },
+        {
+          "stop_id": "1347",
+          "stop_name": "Alwernia Osiedle",
+          "platform": "1",
+          "file": "1347-chrzanow.html"
+        },
+        {
+          "stop_id": "1353",
+          "stop_name": "Alwernia Spalona",
+          "platform": "2",
+          "file": "1353-chrzanow.html"
+        },
+        {
+          "stop_id": "1493",
+          "stop_name": "Kwaczała Centrum",
+          "platform": "2",
+          "file": "1493-chrzanow.html"
+        },
+        {
+          "stop_id": "1491",
+          "stop_name": "Kwaczała Łazek",
+          "platform": "1",
+          "file": "1491-chrzanow.html"
+        },
+        {
+          "stop_id": "1033",
+          "stop_name": "Babice Zmornica",
+          "platform": "1",
+          "file": "1033-chrzanow.html"
+        },
+        {
+          "stop_id": "0597",
+          "stop_name": "Babice Urząd Gminy",
+          "platform": "2",
+          "file": "0597-chrzanow.html"
+        },
+        {
+          "stop_id": "0598",
+          "stop_name": "Wygiełzów Skansen",
+          "platform": "2",
+          "file": "0598-chrzanow.html"
+        },
+        {
+          "stop_id": "0599",
+          "stop_name": "Płaza Dolna I",
+          "platform": "1",
+          "file": "0599-chrzanow.html"
+        },
+        {
+          "stop_id": "0600",
+          "stop_name": "Płaza Dolna II",
+          "platform": "2",
+          "file": "0600-chrzanow.html"
+        },
+        {
+          "stop_id": "0601",
+          "stop_name": "Płaza Role",
+          "platform": "2",
+          "file": "0601-chrzanow.html"
+        },
+        {
+          "stop_id": "0602",
+          "stop_name": "Płaza Górna Kościół",
+          "platform": "2",
+          "file": "0602-chrzanow.html"
+        },
+        {
+          "stop_id": "1085",
+          "stop_name": "Płaza Cmentarz",
+          "platform": "1",
+          "file": "1085-chrzanow.html"
+        },
+        {
+          "stop_id": "1222",
+          "stop_name": "Płaza Działki",
+          "platform": "1",
+          "file": "1222-chrzanow.html"
+        },
+        {
+          "stop_id": "1221",
+          "stop_name": "Płaza Wapiennik I",
+          "platform": "2",
+          "file": "1221-chrzanow.html"
+        },
+        {
+          "stop_id": "1524",
+          "stop_name": "Płaza Wapiennik II",
+          "platform": "2",
+          "file": "1524-chrzanow.html"
+        },
+        {
+          "stop_id": "1218",
+          "stop_name": "Chrzanów Kościelec Las",
+          "platform": "2",
+          "file": "1218-chrzanow.html"
+        },
+        {
+          "stop_id": "1163",
+          "stop_name": "Chrzanów Kościelec",
+          "platform": "2",
+          "file": "1163-chrzanow.html"
+        },
+        {
+          "stop_id": "1164",
+          "stop_name": "Chrzanów Kościelec Staw",
+          "platform": "2",
+          "file": "1164-chrzanow.html"
+        },
+        {
+          "stop_id": "0117",
+          "stop_name": "Chrzanów Szpitalna",
+          "platform": "3",
+          "file": "0117-chrzanow.html",
+          "variant": true
+        },
+        {
+          "stop_id": "0093",
+          "stop_name": "Chrzanów Szpital",
+          "platform": "2",
+          "file": "0093-chrzanow.html",
+          "variant": true
+        },
+        {
+          "stop_id": "0094",
+          "stop_name": "Chrzanów Szpitalna",
+          "platform": "1",
+          "file": "0094-chrzanow.html"
+        },
+        {
+          "stop_id": "0334",
+          "stop_name": "Chrzanów Dworzec Autobusowy",
+          "platform": "4",
+          "file": "0334-chrzanow.html"
+        }
+      ],
+      "timetables": [
+        {
+          "stop_id": "1399",
+          "stop_name": "Sanka Głuchówki",
+          "platform": "0",
+          "file": "1399-chrzanow.html",
+          "departures": {
+            "workday": [
+              "06:15S",
+              "07:10",
+              "08:38",
+              "11:45",
+              "13:32",
+              "14:00",
+              "17:02",
+              "18:40"
+            ],
+            "saturday": [
+              "07:43",
+              "11:50",
+              "17:35",
+              "20:05"
+            ],
+            "sunday": [
+              "11:00",
+              "13:20",
+              "17:16"
+            ],
+            "holiday": [
+              "11:50"
+            ]
+          }
+        },
+        {
+          "stop_id": "1400",
+          "stop_name": "Sanka Wzgórze",
+          "platform": "1",
+          "file": "1400-chrzanow.html",
+          "departures": {
+            "workday": [
+              "06:17S",
+              "07:12",
+              "08:40",
+              "11:47",
+              "13:34",
+              "14:02",
+              "17:04",
+              "18:42"
+            ],
+            "saturday": [
+              "07:45",
+              "11:52",
+              "17:37",
+              "20:07"
+            ],
+            "sunday": [
+              "11:02",
+              "13:22",
+              "17:18"
+            ],
+            "holiday": [
+              "11:52"
+            ]
+          }
+        },
+        {
+          "stop_id": "1401",
+          "stop_name": "Sanka Kościół",
+          "platform": "1",
+          "file": "1401-chrzanow.html",
+          "departures": {
+            "workday": [
+              "06:18S",
+              "07:13",
+              "08:41",
+              "11:48",
+              "13:35",
+              "14:03",
+              "17:05",
+              "18:43"
+            ],
+            "saturday": [
+              "07:46",
+              "11:53",
+              "17:38",
+              "20:08"
+            ],
+            "sunday": [
+              "11:03",
+              "13:23",
+              "17:19"
+            ],
+            "holiday": [
+              "11:53"
+            ]
+          }
+        },
+        {
+          "stop_id": "1402",
+          "stop_name": "Sanka Dół",
+          "platform": "1",
+          "file": "1402-chrzanow.html",
+          "departures": {
+            "workday": [
+              "06:19S",
+              "07:14",
+              "08:42",
+              "11:49",
+              "13:36",
+              "14:04",
+              "17:06",
+              "18:44"
+            ],
+            "saturday": [
+              "07:47",
+              "11:54",
+              "17:39",
+              "20:09"
+            ],
+            "sunday": [
+              "11:04",
+              "13:24",
+              "17:20"
+            ],
+            "holiday": [
+              "11:54"
+            ]
+          }
+        },
+        {
+          "stop_id": "1393",
+          "stop_name": "Zalas Krzyżówka",
+          "platform": "2",
+          "file": "1393-chrzanow.html",
+          "departures": {
+            "workday": [
+              "06:21S",
+              "07:16",
+              "08:44",
+              "11:51",
+              "13:38",
+              "14:06",
+              "17:08",
+              "18:46"
+            ],
+            "saturday": [
+              "07:49",
+              "11:56",
+              "17:41",
+              "20:11"
+            ],
+            "sunday": [
+              "11:06",
+              "13:26",
+              "17:22"
+            ],
+            "holiday": [
+              "11:56"
+            ]
+          }
+        },
+        {
+          "stop_id": "1394",
+          "stop_name": "Zalas Ośrodek Zdrowia",
+          "platform": "2",
+          "file": "1394-chrzanow.html",
+          "departures": {
+            "workday": [
+              "06:22S",
+              "07:17",
+              "08:45",
+              "11:52",
+              "13:39",
+              "14:07",
+              "17:09",
+              "18:47"
+            ],
+            "saturday": [
+              "07:50",
+              "11:57",
+              "17:42",
+              "20:12"
+            ],
+            "sunday": [
+              "11:07",
+              "13:27",
+              "17:23"
+            ],
+            "holiday": [
+              "11:57"
+            ]
+          }
+        },
+        {
+          "stop_id": "1390",
+          "stop_name": "Zalas Kościół",
+          "platform": "1",
+          "file": "1390-chrzanow.html",
+          "departures": {
+            "workday": [
+              "06:23S",
+              "07:18",
+              "08:46",
+              "11:53",
+              "13:40",
+              "14:08",
+              "17:10",
+              "18:48"
+            ],
+            "saturday": [
+              "07:51",
+              "11:58",
+              "17:43",
+              "20:13"
+            ],
+            "sunday": [
+              "11:08",
+              "13:28",
+              "17:24"
+            ],
+            "holiday": [
+              "11:58"
+            ]
+          }
+        },
+        {
+          "stop_id": "1389",
+          "stop_name": "Zalas Szkoła",
+          "platform": "1",
+          "file": "1389-chrzanow.html",
+          "departures": {
+            "workday": [
+              "06:24S",
+              "07:19",
+              "08:47",
+              "11:54",
+              "13:41",
+              "14:09",
+              "17:11",
+              "18:49"
+            ],
+            "saturday": [
+              "07:52",
+              "11:59",
+              "17:44",
+              "20:14"
+            ],
+            "sunday": [
+              "11:09",
+              "13:29",
+              "17:25"
+            ],
+            "holiday": [
+              "11:59"
+            ]
+          }
+        },
+        {
+          "stop_id": "1387",
+          "stop_name": "Zalas Krótka",
+          "platform": "2",
+          "file": "1387-chrzanow.html",
+          "departures": {
+            "workday": [
+              "06:25S",
+              "07:20",
+              "08:48",
+              "11:55",
+              "13:42",
+              "14:10",
+              "17:12",
+              "18:50"
+            ],
+            "saturday": [
+              "07:53",
+              "12:00",
+              "17:45",
+              "20:15"
+            ],
+            "sunday": [
+              "11:10",
+              "13:30",
+              "17:26"
+            ],
+            "holiday": [
+              "12:00"
+            ]
+          }
+        },
+        {
+          "stop_id": "1384",
+          "stop_name": "Zalas Plac",
+          "platform": "2",
+          "file": "1384-chrzanow.html",
+          "departures": {
+            "workday": [
+              "06:26S",
+              "07:21",
+              "08:49",
+              "11:56",
+              "13:43",
+              "14:11",
+              "17:13",
+              "18:51"
+            ],
+            "saturday": [
+              "07:54",
+              "12:01",
+              "17:46",
+              "20:16"
+            ],
+            "sunday": [
+              "11:11",
+              "13:31",
+              "17:27"
+            ],
+            "holiday": [
+              "12:01"
+            ]
+          }
+        },
+        {
+          "stop_id": "1429",
+          "stop_name": "Zalas Rondo",
+          "platform": "2",
+          "file": "1429-chrzanow.html",
+          "departures": {
+            "workday": [
+              "06:27S",
+              "07:22",
+              "08:50",
+              "11:57",
+              "13:44",
+              "14:12",
+              "17:14",
+              "18:52"
+            ],
+            "saturday": [
+              "07:55",
+              "12:02",
+              "17:47",
+              "20:17"
+            ],
+            "sunday": [
+              "11:12",
+              "13:32",
+              "17:28"
+            ],
+            "holiday": [
+              "12:02"
+            ]
+          }
+        },
+        {
+          "stop_id": "1528",
+          "stop_name": "Zalas Sportowa",
+          "platform": "1",
+          "file": "1528-chrzanow.html",
+          "departures": {
+            "workday": [
+              "06:28S",
+              "07:23",
+              "08:51",
+              "11:58",
+              "13:45",
+              "14:13",
+              "17:15",
+              "18:53"
+            ],
+            "saturday": [
+              "07:56",
+              "12:03",
+              "17:48",
+              "20:18"
+            ],
+            "sunday": [
+              "11:13",
+              "13:33",
+              "17:29"
+            ],
+            "holiday": [
+              "12:03"
+            ]
+          }
+        },
+        {
+          "stop_id": "1529",
+          "stop_name": "Grojec Sklep",
+          "platform": "1",
+          "file": "1529-chrzanow.html",
+          "departures": {
+            "workday": [
+              "06:30S",
+              "07:25",
+              "08:53",
+              "12:00",
+              "13:47",
+              "14:15",
+              "17:17",
+              "18:55"
+            ],
+            "saturday": [
+              "07:58",
+              "12:05",
+              "17:50",
+              "20:20"
+            ],
+            "sunday": [
+              "11:15",
+              "13:35",
+              "17:31"
+            ],
+            "holiday": [
+              "12:05"
+            ]
+          }
+        },
+        {
+          "stop_id": "1486",
+          "stop_name": "Grojec Zajezdnia",
+          "platform": "2",
+          "file": "1486-chrzanow.html",
+          "departures": {
+            "workday": [
+              "06:31S",
+              "07:26",
+              "08:54",
+              "12:01",
+              "13:48",
+              "14:16",
+              "17:18",
+              "18:56"
+            ],
+            "saturday": [
+              "07:59",
+              "12:06",
+              "17:51",
+              "20:21"
+            ],
+            "sunday": [
+              "11:16",
+              "13:36",
+              "17:32"
+            ],
+            "holiday": [
+              "12:06"
+            ]
+          }
+        },
+        {
+          "stop_id": "1484",
+          "stop_name": "Grojec Zajezdnia",
+          "platform": "1",
+          "file": "1484-chrzanow.html",
+          "departures": {
+            "workday": [
+              "05:00",
+              "09:50S",
+              "10:44",
+              "13:05",
+              "14:55S",
+              "16:35",
+              "21:01"
+            ],
+            "saturday": [
+              "05:40S",
+              "09:53",
+              "14:00",
+              "15:45"
+            ],
+            "sunday": [
+              "06:45",
+              "08:35",
+              "15:15",
+              "19:37"
+            ],
+            "holiday": [
+              "09:53",
+              "14:00",
+              "15:45"
+            ]
+          }
+        },
+        {
+          "stop_id": "1487",
+          "stop_name": "Grojec Szkoła",
+          "platform": "2",
+          "file": "1487-chrzanow.html",
+          "departures": {
+            "workday": [
+              "05:01",
+              "06:32S",
+              "07:27",
+              "08:55",
+              "09:51S",
+              "10:45",
+              "12:02",
+              "13:06",
+              "13:49",
+              "14:17",
+              "14:56S",
+              "16:36",
+              "17:19",
+              "18:57",
+              "21:02"
+            ],
+            "saturday": [
+              "05:41S",
+              "08:00",
+              "09:54",
+              "12:07",
+              "14:01",
+              "15:46",
+              "17:52",
+              "20:22"
+            ],
+            "sunday": [
+              "06:46",
+              "08:36",
+              "11:17",
+              "13:37",
+              "15:16",
+              "17:33",
+              "19:38"
+            ],
+            "holiday": [
+              "09:54",
+              "12:07",
+              "14:01",
+              "15:46"
+            ]
+          }
+        },
+        {
+          "stop_id": "1488",
+          "stop_name": "Grojec II",
+          "platform": "2",
+          "file": "1488-chrzanow.html",
+          "departures": {
+            "workday": [
+              "05:02",
+              "06:33S",
+              "07:28",
+              "08:56",
+              "09:52S",
+              "10:46",
+              "12:03",
+              "13:07",
+              "13:50",
+              "14:18",
+              "14:57S",
+              "16:37",
+              "17:20",
+              "18:58",
+              "21:03"
+            ],
+            "saturday": [
+              "05:42S",
+              "08:01",
+              "09:55",
+              "12:08",
+              "14:02",
+              "15:47",
+              "17:53",
+              "20:23"
+            ],
+            "sunday": [
+              "06:47",
+              "08:37",
+              "11:18",
+              "13:38",
+              "15:17",
+              "17:34",
+              "19:39"
+            ],
+            "holiday": [
+              "09:55",
+              "12:08",
+              "14:02",
+              "15:47"
+            ]
+          }
+        },
+        {
+          "stop_id": "1480",
+          "stop_name": "Grojec Waga",
+          "platform": "1",
+          "file": "1480-chrzanow.html",
+          "departures": {
+            "workday": [
+              "05:03",
+              "06:34S",
+              "07:29",
+              "08:57",
+              "09:53S",
+              "10:47",
+              "12:04",
+              "13:08",
+              "13:51",
+              "14:19",
+              "14:58S",
+              "16:38",
+              "17:21",
+              "18:59",
+              "21:04"
+            ],
+            "saturday": [
+              "05:43S",
+              "08:02",
+              "09:56",
+              "12:09",
+              "14:03",
+              "15:48",
+              "17:54",
+              "20:24"
+            ],
+            "sunday": [
+              "06:48",
+              "08:38",
+              "11:19",
+              "13:39",
+              "15:18",
+              "17:35",
+              "19:40"
+            ],
+            "holiday": [
+              "09:56",
+              "12:09",
+              "14:03",
+              "15:48"
+            ]
+          }
+        },
+        {
+          "stop_id": "1354",
+          "stop_name": "Alwernia Garncarska",
+          "platform": "1",
+          "file": "1354-chrzanow.html",
+          "departures": {
+            "workday": [
+              "05:05",
+              "06:36S",
+              "07:31",
+              "08:59",
+              "09:55S",
+              "10:49",
+              "12:06",
+              "13:10",
+              "13:53",
+              "14:21",
+              "15:00S",
+              "16:40",
+              "17:23",
+              "19:01",
+              "21:06"
+            ],
+            "saturday": [
+              "05:45S",
+              "08:04",
+              "09:58",
+              "12:11",
+              "14:05",
+              "15:50",
+              "17:56",
+              "20:26"
+            ],
+            "sunday": [
+              "06:50",
+              "08:40",
+              "11:21",
+              "13:41",
+              "15:20",
+              "17:37",
+              "19:42"
+            ],
+            "holiday": [
+              "09:58",
+              "12:11",
+              "14:05",
+              "15:50"
+            ]
+          }
+        },
+        {
+          "stop_id": "1346",
+          "stop_name": "Alwernia Szkoła",
+          "platform": "1",
+          "file": "1346-chrzanow.html",
+          "departures": {
+            "workday": [
+              "05:06",
+              "06:37S",
+              "07:32",
+              "09:00",
+              "09:56S",
+              "10:50",
+              "12:07",
+              "13:11",
+              "13:54",
+              "14:22",
+              "15:01S",
+              "16:41",
+              "17:24",
+              "19:02",
+              "21:07"
+            ],
+            "saturday": [
+              "05:46S",
+              "08:05",
+              "09:59",
+              "12:12",
+              "14:06",
+              "15:51",
+              "17:57",
+              "20:27"
+            ],
+            "sunday": [
+              "06:51",
+              "08:41",
+              "11:22",
+              "13:42",
+              "15:21",
+              "17:38",
+              "19:43"
+            ],
+            "holiday": [
+              "09:59",
+              "12:12",
+              "14:06",
+              "15:51"
+            ]
+          }
+        },
+        {
+          "stop_id": "1347",
+          "stop_name": "Alwernia Osiedle",
+          "platform": "1",
+          "file": "1347-chrzanow.html",
+          "departures": {
+            "workday": [
+              "05:07",
+              "06:38S",
+              "07:33",
+              "09:01",
+              "09:57S",
+              "10:51",
+              "12:08",
+              "13:12",
+              "13:55",
+              "14:23",
+              "15:02S",
+              "16:42",
+              "17:25",
+              "19:03",
+              "21:08"
+            ],
+            "saturday": [
+              "05:47S",
+              "08:06",
+              "10:00",
+              "12:13",
+              "14:07",
+              "15:52",
+              "17:58",
+              "20:28"
+            ],
+            "sunday": [
+              "06:52",
+              "08:42",
+              "11:23",
+              "13:43",
+              "15:22",
+              "17:39",
+              "19:44"
+            ],
+            "holiday": [
+              "10:00",
+              "12:13",
+              "14:07",
+              "15:52"
+            ]
+          }
+        },
+        {
+          "stop_id": "1353",
+          "stop_name": "Alwernia Spalona",
+          "platform": "2",
+          "file": "1353-chrzanow.html",
+          "departures": {
+            "workday": [
+              "05:09",
+              "06:40S",
+              "07:35",
+              "09:03",
+              "09:59S",
+              "10:53",
+              "12:10",
+              "13:14",
+              "13:57",
+              "14:25",
+              "15:04S",
+              "16:44",
+              "17:27",
+              "19:05",
+              "21:10"
+            ],
+            "saturday": [
+              "05:49S",
+              "08:08",
+              "10:02",
+              "12:15",
+              "14:09",
+              "15:54",
+              "18:00",
+              "20:30"
+            ],
+            "sunday": [
+              "06:54",
+              "08:44",
+              "11:25",
+              "13:45",
+              "15:24",
+              "17:41",
+              "19:46"
+            ],
+            "holiday": [
+              "10:02",
+              "12:15",
+              "14:09",
+              "15:54"
+            ]
+          }
+        },
+        {
+          "stop_id": "1493",
+          "stop_name": "Kwaczała Centrum",
+          "platform": "2",
+          "file": "1493-chrzanow.html",
+          "departures": {
+            "workday": [
+              "05:12",
+              "06:43S",
+              "07:38",
+              "09:06",
+              "10:02S",
+              "10:56",
+              "12:13",
+              "13:17",
+              "14:00",
+              "14:28",
+              "15:07S",
+              "16:47",
+              "17:30",
+              "19:08",
+              "21:13"
+            ],
+            "saturday": [
+              "05:52S",
+              "08:11",
+              "10:05",
+              "12:18",
+              "14:12",
+              "15:57",
+              "18:03",
+              "20:33"
+            ],
+            "sunday": [
+              "06:57",
+              "08:47",
+              "11:28",
+              "13:48",
+              "15:27",
+              "17:44",
+              "19:49"
+            ],
+            "holiday": [
+              "10:05",
+              "12:18",
+              "14:12",
+              "15:57"
+            ]
+          }
+        },
+        {
+          "stop_id": "1491",
+          "stop_name": "Kwaczała Łazek",
+          "platform": "1",
+          "file": "1491-chrzanow.html",
+          "departures": {
+            "workday": [
+              "05:13",
+              "06:44S",
+              "07:39",
+              "09:07",
+              "10:03S",
+              "10:57",
+              "12:14",
+              "13:18",
+              "14:01",
+              "14:29",
+              "15:08S",
+              "16:48",
+              "17:31",
+              "19:09",
+              "21:14"
+            ],
+            "saturday": [
+              "05:53S",
+              "08:12",
+              "10:06",
+              "12:19",
+              "14:13",
+              "15:58",
+              "18:04",
+              "20:34"
+            ],
+            "sunday": [
+              "06:58",
+              "08:48",
+              "11:29",
+              "13:49",
+              "15:28",
+              "17:45",
+              "19:50"
+            ],
+            "holiday": [
+              "10:06",
+              "12:19",
+              "14:13",
+              "15:58"
+            ]
+          }
+        },
+        {
+          "stop_id": "1033",
+          "stop_name": "Babice Zmornica",
+          "platform": "1",
+          "file": "1033-chrzanow.html",
+          "departures": {
+            "workday": [
+              "05:15",
+              "06:46S",
+              "07:41",
+              "09:09",
+              "10:05S",
+              "10:59",
+              "12:16",
+              "13:20",
+              "14:03",
+              "14:31",
+              "15:10S",
+              "16:50",
+              "17:33",
+              "19:11",
+              "21:16"
+            ],
+            "saturday": [
+              "05:55S",
+              "08:14",
+              "10:08",
+              "12:21",
+              "14:15",
+              "16:00",
+              "18:06",
+              "20:36"
+            ],
+            "sunday": [
+              "07:00",
+              "08:50",
+              "11:31",
+              "13:51",
+              "15:30",
+              "17:47",
+              "19:52"
+            ],
+            "holiday": [
+              "10:08",
+              "12:21",
+              "14:15",
+              "16:00"
+            ]
+          }
+        },
+        {
+          "stop_id": "0597",
+          "stop_name": "Babice Urząd Gminy",
+          "platform": "2",
+          "file": "0597-chrzanow.html",
+          "departures": {
+            "workday": [
+              "05:17",
+              "06:48S",
+              "07:43",
+              "09:11",
+              "10:07S",
+              "11:01",
+              "12:18",
+              "13:22",
+              "14:05",
+              "14:33",
+              "15:12S",
+              "16:52",
+              "17:35",
+              "19:13",
+              "21:18"
+            ],
+            "saturday": [
+              "05:57S",
+              "08:16",
+              "10:10",
+              "12:23",
+              "14:17",
+              "16:02",
+              "18:08",
+              "20:38"
+            ],
+            "sunday": [
+              "07:02",
+              "08:52",
+              "11:33",
+              "13:53",
+              "15:32",
+              "17:49",
+              "19:54"
+            ],
+            "holiday": [
+              "10:10",
+              "12:23",
+              "14:17",
+              "16:02"
+            ]
+          }
+        },
+        {
+          "stop_id": "0598",
+          "stop_name": "Wygiełzów Skansen",
+          "platform": "2",
+          "file": "0598-chrzanow.html",
+          "departures": {
+            "workday": [
+              "05:18",
+              "06:49S",
+              "07:44",
+              "09:12",
+              "10:08S",
+              "11:02",
+              "12:19",
+              "13:23",
+              "14:06",
+              "14:34",
+              "15:13S",
+              "16:53",
+              "17:36",
+              "19:14",
+              "21:19"
+            ],
+            "saturday": [
+              "05:58S",
+              "08:17",
+              "10:11",
+              "12:24",
+              "14:18",
+              "16:03",
+              "18:09",
+              "20:39"
+            ],
+            "sunday": [
+              "07:03",
+              "08:53",
+              "11:34",
+              "13:54",
+              "15:33",
+              "17:50",
+              "19:55"
+            ],
+            "holiday": [
+              "10:11",
+              "12:24",
+              "14:18",
+              "16:03"
+            ]
+          }
+        },
+        {
+          "stop_id": "0599",
+          "stop_name": "Płaza Dolna I",
+          "platform": "1",
+          "file": "0599-chrzanow.html",
+          "departures": {
+            "workday": [
+              "05:20",
+              "06:51S",
+              "07:46",
+              "09:14",
+              "10:10S",
+              "11:04",
+              "12:21",
+              "13:25",
+              "14:08",
+              "14:36",
+              "15:15S",
+              "16:55",
+              "17:38",
+              "19:16",
+              "21:21"
+            ],
+            "saturday": [
+              "06:00S",
+              "08:19",
+              "10:13",
+              "12:26",
+              "14:20",
+              "16:05",
+              "18:11",
+              "20:41"
+            ],
+            "sunday": [
+              "07:05",
+              "08:55",
+              "11:36",
+              "13:56",
+              "15:35",
+              "17:52",
+              "19:57"
+            ],
+            "holiday": [
+              "10:13",
+              "12:26",
+              "14:20",
+              "16:05"
+            ]
+          }
+        },
+        {
+          "stop_id": "0600",
+          "stop_name": "Płaza Dolna II",
+          "platform": "2",
+          "file": "0600-chrzanow.html",
+          "departures": {
+            "workday": [
+              "05:22",
+              "06:53S",
+              "07:48",
+              "09:16",
+              "10:12S",
+              "11:06",
+              "12:23",
+              "13:27",
+              "14:10",
+              "14:38",
+              "15:17S",
+              "16:57",
+              "17:40",
+              "19:18",
+              "21:23"
+            ],
+            "saturday": [
+              "06:02S",
+              "08:21",
+              "10:15",
+              "12:28",
+              "14:22",
+              "16:07",
+              "18:13",
+              "20:43"
+            ],
+            "sunday": [
+              "07:07",
+              "08:57",
+              "11:38",
+              "13:58",
+              "15:37",
+              "17:54",
+              "19:59"
+            ],
+            "holiday": [
+              "10:15",
+              "12:28",
+              "14:22",
+              "16:07"
+            ]
+          }
+        },
+        {
+          "stop_id": "0601",
+          "stop_name": "Płaza Role",
+          "platform": "2",
+          "file": "0601-chrzanow.html",
+          "departures": {
+            "workday": [
+              "05:24",
+              "06:55S",
+              "07:50",
+              "09:18",
+              "10:14S",
+              "11:08",
+              "12:25",
+              "13:29",
+              "14:12",
+              "14:40",
+              "15:19S",
+              "16:59",
+              "17:42",
+              "19:20",
+              "21:25"
+            ],
+            "saturday": [
+              "06:04S",
+              "08:23",
+              "10:17",
+              "12:30",
+              "14:24",
+              "16:09",
+              "18:15",
+              "20:45"
+            ],
+            "sunday": [
+              "07:09",
+              "08:59",
+              "11:40",
+              "14:00",
+              "15:39",
+              "17:56",
+              "20:01"
+            ],
+            "holiday": [
+              "10:17",
+              "12:30",
+              "14:24",
+              "16:09"
+            ]
+          }
+        },
+        {
+          "stop_id": "0602",
+          "stop_name": "Płaza Górna Kościół",
+          "platform": "2",
+          "file": "0602-chrzanow.html",
+          "departures": {
+            "workday": [
+              "05:26",
+              "06:57S",
+              "07:52",
+              "09:20",
+              "10:16S",
+              "11:10",
+              "12:27",
+              "13:31",
+              "14:14",
+              "14:42",
+              "15:21S",
+              "17:01",
+              "17:44",
+              "19:22",
+              "21:27"
+            ],
+            "saturday": [
+              "06:06S",
+              "08:25",
+              "10:19",
+              "12:32",
+              "14:26",
+              "16:11",
+              "18:17",
+              "20:47"
+            ],
+            "sunday": [
+              "07:11",
+              "09:01",
+              "11:42",
+              "14:02",
+              "15:41",
+              "17:58",
+              "20:03"
+            ],
+            "holiday": [
+              "10:19",
+              "12:32",
+              "14:26",
+              "16:11"
+            ]
+          }
+        },
+        {
+          "stop_id": "1085",
+          "stop_name": "Płaza Cmentarz",
+          "platform": "1",
+          "file": "1085-chrzanow.html",
+          "departures": {
+            "workday": [
+              "05:27",
+              "06:58S",
+              "07:53",
+              "09:21",
+              "10:17S",
+              "11:11",
+              "12:28",
+              "13:32",
+              "14:15",
+              "14:43",
+              "15:22S",
+              "17:02",
+              "17:45",
+              "19:23",
+              "21:28"
+            ],
+            "saturday": [
+              "06:07S",
+              "08:26",
+              "10:20",
+              "12:33",
+              "14:27",
+              "16:12",
+              "18:18",
+              "20:48"
+            ],
+            "sunday": [
+              "07:12",
+              "09:02",
+              "11:43",
+              "14:03",
+              "15:42",
+              "17:59",
+              "20:04"
+            ],
+            "holiday": [
+              "10:20",
+              "12:33",
+              "14:27",
+              "16:12"
+            ]
+          }
+        },
+        {
+          "stop_id": "1222",
+          "stop_name": "Płaza Działki",
+          "platform": "1",
+          "file": "1222-chrzanow.html",
+          "departures": {
+            "workday": [
+              "05:29",
+              "07:00S",
+              "07:55",
+              "09:23",
+              "10:19S",
+              "11:13",
+              "12:30",
+              "13:34",
+              "14:17",
+              "14:45",
+              "15:24S",
+              "17:04",
+              "17:47",
+              "19:25",
+              "21:30"
+            ],
+            "saturday": [
+              "06:09S",
+              "08:28",
+              "10:22",
+              "12:35",
+              "14:29",
+              "16:14",
+              "18:20",
+              "20:50"
+            ],
+            "sunday": [
+              "07:14",
+              "09:04",
+              "11:45",
+              "14:05",
+              "15:44",
+              "18:01",
+              "20:06"
+            ],
+            "holiday": [
+              "10:22",
+              "12:35",
+              "14:29",
+              "16:14"
+            ]
+          }
+        },
+        {
+          "stop_id": "1221",
+          "stop_name": "Płaza Wapiennik I",
+          "platform": "2",
+          "file": "1221-chrzanow.html",
+          "departures": {
+            "workday": [
+              "05:30",
+              "07:01S",
+              "07:56",
+              "09:24",
+              "10:20S",
+              "11:14",
+              "12:31",
+              "13:35",
+              "14:18",
+              "14:46",
+              "15:25S",
+              "17:05",
+              "17:48",
+              "19:26",
+              "21:31"
+            ],
+            "saturday": [
+              "06:10S",
+              "08:29",
+              "10:23",
+              "12:36",
+              "14:30",
+              "16:15",
+              "18:21",
+              "20:51"
+            ],
+            "sunday": [
+              "07:15",
+              "09:05",
+              "11:46",
+              "14:06",
+              "15:45",
+              "18:02",
+              "20:07"
+            ],
+            "holiday": [
+              "10:23",
+              "12:36",
+              "14:30",
+              "16:15"
+            ]
+          }
+        },
+        {
+          "stop_id": "1524",
+          "stop_name": "Płaza Wapiennik II",
+          "platform": "2",
+          "file": "1524-chrzanow.html",
+          "departures": {
+            "workday": [
+              "05:32",
+              "07:03S",
+              "07:58",
+              "09:26",
+              "10:22S",
+              "11:16",
+              "12:33",
+              "13:37",
+              "14:20",
+              "14:48",
+              "15:27S",
+              "17:07",
+              "17:50",
+              "19:28",
+              "21:33"
+            ],
+            "saturday": [
+              "06:12S",
+              "08:31",
+              "10:25",
+              "12:38",
+              "14:32",
+              "16:17",
+              "18:23",
+              "20:53"
+            ],
+            "sunday": [
+              "07:17",
+              "09:07",
+              "11:48",
+              "14:08",
+              "15:47",
+              "18:04",
+              "20:09"
+            ],
+            "holiday": [
+              "10:25",
+              "12:38",
+              "14:32",
+              "16:17"
+            ]
+          }
+        },
+        {
+          "stop_id": "1218",
+          "stop_name": "Chrzanów Kościelec Las",
+          "platform": "2",
+          "file": "1218-chrzanow.html",
+          "departures": {
+            "workday": [
+              "05:34",
+              "07:05S",
+              "08:00",
+              "09:28",
+              "10:24S",
+              "11:18",
+              "12:35",
+              "13:39",
+              "14:22",
+              "14:50",
+              "15:29S",
+              "17:09",
+              "17:52",
+              "19:30",
+              "21:35"
+            ],
+            "saturday": [
+              "06:14S",
+              "08:33",
+              "10:27",
+              "12:40",
+              "14:34",
+              "16:19",
+              "18:25",
+              "20:55"
+            ],
+            "sunday": [
+              "07:19",
+              "09:09",
+              "11:50",
+              "14:10",
+              "15:49",
+              "18:06",
+              "20:11"
+            ],
+            "holiday": [
+              "10:27",
+              "12:40",
+              "14:34",
+              "16:19"
+            ]
+          }
+        },
+        {
+          "stop_id": "1163",
+          "stop_name": "Chrzanów Kościelec",
+          "platform": "2",
+          "file": "1163-chrzanow.html",
+          "departures": {
+            "workday": [
+              "05:35",
+              "07:06S",
+              "08:01",
+              "09:29",
+              "10:25S",
+              "11:19",
+              "12:36",
+              "13:40",
+              "14:23",
+              "14:51",
+              "15:30S",
+              "17:10",
+              "17:53",
+              "19:31",
+              "21:36"
+            ],
+            "saturday": [
+              "06:15S",
+              "08:34",
+              "10:28",
+              "12:41",
+              "14:35",
+              "16:20",
+              "18:26",
+              "20:56"
+            ],
+            "sunday": [
+              "07:20",
+              "09:10",
+              "11:51",
+              "14:11",
+              "15:50",
+              "18:07",
+              "20:12"
+            ],
+            "holiday": [
+              "10:28",
+              "12:41",
+              "14:35",
+              "16:20"
+            ]
+          }
+        },
+        {
+          "stop_id": "1164",
+          "stop_name": "Chrzanów Kościelec Staw",
+          "platform": "2",
+          "file": "1164-chrzanow.html",
+          "departures": {
+            "workday": [
+              "05:36",
+              "07:07S",
+              "08:02",
+              "09:30",
+              "10:26S",
+              "11:20",
+              "12:37",
+              "13:41",
+              "14:24",
+              "14:52",
+              "15:31S",
+              "17:11",
+              "17:54",
+              "19:32",
+              "21:37"
+            ],
+            "saturday": [
+              "06:16S",
+              "08:35",
+              "10:29",
+              "12:42",
+              "14:36",
+              "16:21",
+              "18:27",
+              "20:57"
+            ],
+            "sunday": [
+              "07:21",
+              "09:11",
+              "11:52",
+              "14:12",
+              "15:51",
+              "18:08",
+              "20:13"
+            ],
+            "holiday": [
+              "10:29",
+              "12:42",
+              "14:36",
+              "16:21"
+            ]
+          }
+        },
+        {
+          "stop_id": "0117",
+          "stop_name": "Chrzanów Szpitalna",
+          "platform": "3",
+          "file": "0117-chrzanow.html",
+          "departures": {
+            "workday": [
+              "07:08",
+              "10:27",
+              "15:32"
+            ],
+            "saturday": [
+              "06:17"
+            ]
+          }
+        },
+        {
+          "stop_id": "0093",
+          "stop_name": "Chrzanów Szpital",
+          "platform": "2",
+          "file": "0093-chrzanow.html",
+          "departures": {
+            "workday": [
+              "07:09",
+              "10:28",
+              "15:33"
+            ],
+            "saturday": [
+              "06:18"
+            ]
+          }
+        },
+        {
+          "stop_id": "0094",
+          "stop_name": "Chrzanów Szpitalna",
+          "platform": "1",
+          "file": "0094-chrzanow.html",
+          "departures": {
+            "workday": [
+              "05:37",
+              "07:10",
+              "08:03",
+              "09:31",
+              "10:29",
+              "11:21",
+              "12:38",
+              "13:42",
+              "14:25",
+              "14:53",
+              "15:34",
+              "17:12",
+              "17:55",
+              "19:33",
+              "21:38"
+            ],
+            "saturday": [
+              "06:19",
+              "08:36",
+              "10:30",
+              "12:43",
+              "14:37",
+              "16:22",
+              "18:28",
+              "20:58"
+            ],
+            "sunday": [
+              "07:22",
+              "09:12",
+              "11:53",
+              "14:13",
+              "15:52",
+              "18:09",
+              "20:14"
+            ],
+            "holiday": [
+              "10:30",
+              "12:43",
+              "14:37",
+              "16:22"
+            ]
+          }
+        },
+        {
+          "stop_id": "0334",
+          "stop_name": "Chrzanów Dworzec Autobusowy",
+          "platform": "4",
+          "file": "0334-chrzanow.html",
+          "departures": {},
+          "arrival_only": true
+        }
+      ]
+    },
+    {
+      "slug": "grojec",
+      "name": "Grojec Zajezdnia",
+      "variant_destinations": {
+        "G": "Sanka Głuchówki"
+      },
+      "legend": {
+        "G": "do: Sanka Głuchówki",
+        "S": "przez: Chrzanów Szpital"
+      },
+      "legend_only_used_symbols": true,
+      "direction_segments": [
+        {
+          "from_stop_id": "0334",
+          "name": "Grojec Zajezdnia"
+        },
+        {
+          "from_stop_id": "1484",
+          "name": "Sanka Głuchówki"
+        }
+      ],
+      "route_stops": [
+        {
+          "stop_id": "0334",
+          "stop_name": "Chrzanów Dworzec Autobusowy",
+          "platform": "4",
+          "file": "0334-grojec.html"
+        },
+        {
+          "stop_id": "0096",
+          "stop_name": "Chrzanów Plac Tysiąclecia",
+          "platform": "3",
+          "file": "0096-grojec.html"
+        },
+        {
+          "stop_id": "0352",
+          "stop_name": "Chrzanów ZUS",
+          "platform": "1",
+          "file": "0352-grojec.html"
+        },
+        {
+          "stop_id": "0332",
+          "stop_name": "Chrzanów Sienna",
+          "platform": "1",
+          "file": "0332-grojec.html"
+        },
+        {
+          "stop_id": "0333",
+          "stop_name": "Chrzanów Podwale",
+          "platform": "1",
+          "file": "0333-grojec.html"
+        },
+        {
+          "stop_id": "0117",
+          "stop_name": "Chrzanów Szpitalna",
+          "platform": "3",
+          "file": "0117-grojec.html",
+          "variant": true
+        },
+        {
+          "stop_id": "0093",
+          "stop_name": "Chrzanów Szpital",
+          "platform": "2",
+          "file": "0093-grojec.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1058",
+          "stop_name": "Chrzanów Szpitalna",
+          "platform": "2",
+          "file": "1058-grojec.html"
+        },
+        {
+          "stop_id": "1161",
+          "stop_name": "Chrzanów Kościelec Staw",
+          "platform": "1",
+          "file": "1161-grojec.html"
+        },
+        {
+          "stop_id": "1162",
+          "stop_name": "Chrzanów Kościelec",
+          "platform": "1",
+          "file": "1162-grojec.html"
+        },
+        {
+          "stop_id": "1217",
+          "stop_name": "Chrzanów Kościelec Las",
+          "platform": "1",
+          "file": "1217-grojec.html"
+        },
+        {
+          "stop_id": "1524",
+          "stop_name": "Płaza Wapiennik II",
+          "platform": "2",
+          "file": "1524-grojec.html"
+        },
+        {
+          "stop_id": "1220",
+          "stop_name": "Płaza Wapiennik I",
+          "platform": "1",
+          "file": "1220-grojec.html"
+        },
+        {
+          "stop_id": "1223",
+          "stop_name": "Płaza Działki",
+          "platform": "2",
+          "file": "1223-grojec.html"
+        },
+        {
+          "stop_id": "1086",
+          "stop_name": "Płaza Cmentarz",
+          "platform": "2",
+          "file": "1086-grojec.html"
+        },
+        {
+          "stop_id": "0581",
+          "stop_name": "Płaza Górna Kościół",
+          "platform": "1",
+          "file": "0581-grojec.html"
+        },
+        {
+          "stop_id": "0582",
+          "stop_name": "Płaza Role",
+          "platform": "1",
+          "file": "0582-grojec.html"
+        },
+        {
+          "stop_id": "0583",
+          "stop_name": "Płaza Dolna II",
+          "platform": "1",
+          "file": "0583-grojec.html"
+        },
+        {
+          "stop_id": "0584",
+          "stop_name": "Płaza Dolna I",
+          "platform": "2",
+          "file": "0584-grojec.html"
+        },
+        {
+          "stop_id": "0585",
+          "stop_name": "Wygiełzów Skansen",
+          "platform": "1",
+          "file": "0585-grojec.html"
+        },
+        {
+          "stop_id": "0586",
+          "stop_name": "Babice Urząd Gminy",
+          "platform": "1",
+          "file": "0586-grojec.html"
+        },
+        {
+          "stop_id": "1034",
+          "stop_name": "Babice Zmornica",
+          "platform": "2",
+          "file": "1034-grojec.html"
+        },
+        {
+          "stop_id": "1492",
+          "stop_name": "Kwaczała Łazek",
+          "platform": "2",
+          "file": "1492-grojec.html"
+        },
+        {
+          "stop_id": "1490",
+          "stop_name": "Kwaczała Centrum",
+          "platform": "1",
+          "file": "1490-grojec.html"
+        },
+        {
+          "stop_id": "1350",
+          "stop_name": "Alwernia Spalona",
+          "platform": "1",
+          "file": "1350-grojec.html"
+        },
+        {
+          "stop_id": "2885",
+          "stop_name": "Alwernia Osiedle",
+          "platform": "3",
+          "file": "2885-grojec.html"
+        },
+        {
+          "stop_id": "1348",
+          "stop_name": "Alwernia Szkoła",
+          "platform": "2",
+          "file": "1348-grojec.html"
+        },
+        {
+          "stop_id": "1355",
+          "stop_name": "Alwernia Garncarska",
+          "platform": "2",
+          "file": "1355-grojec.html"
+        },
+        {
+          "stop_id": "1481",
+          "stop_name": "Grojec Waga",
+          "platform": "2",
+          "file": "1481-grojec.html"
+        },
+        {
+          "stop_id": "1483",
+          "stop_name": "Grojec Szkoła",
+          "platform": "1",
+          "file": "1483-grojec.html"
+        },
+        {
+          "stop_id": "1484",
+          "stop_name": "Grojec Zajezdnia",
+          "platform": "1",
+          "file": "1484-grojec.html"
+        },
+        {
+          "stop_id": "1485",
+          "stop_name": "Grojec Sklep",
+          "platform": "2",
+          "file": "1485-grojec.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1430",
+          "stop_name": "Zalas Sportowa",
+          "platform": "2",
+          "file": "1430-grojec.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1432",
+          "stop_name": "Zalas Rondo",
+          "platform": "3",
+          "file": "1432-grojec.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1385",
+          "stop_name": "Zalas Plac",
+          "platform": "1",
+          "file": "1385-grojec.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1386",
+          "stop_name": "Zalas Krótka",
+          "platform": "1",
+          "file": "1386-grojec.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1388",
+          "stop_name": "Zalas Szkoła",
+          "platform": "2",
+          "file": "1388-grojec.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1395",
+          "stop_name": "Zalas Kościół",
+          "platform": "2",
+          "file": "1395-grojec.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1391",
+          "stop_name": "Zalas Ośrodek Zdrowia",
+          "platform": "1",
+          "file": "1391-grojec.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1392",
+          "stop_name": "Zalas Krzyżówka",
+          "platform": "1",
+          "file": "1392-grojec.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1396",
+          "stop_name": "Sanka Dół",
+          "platform": "2",
+          "file": "1396-grojec.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1397",
+          "stop_name": "Sanka Kościół",
+          "platform": "2",
+          "file": "1397-grojec.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1398",
+          "stop_name": "Sanka Wzgórze",
+          "platform": "2",
+          "file": "1398-grojec.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1399",
+          "stop_name": "Sanka Głuchówki",
+          "platform": "0",
+          "file": "1399-grojec.html",
+          "variant": true
+        }
+      ],
+      "timetables": [
+        {
+          "stop_id": "0334",
+          "stop_name": "Chrzanów Dworzec Autobusowy",
+          "platform": "4",
+          "file": "0334-grojec.html",
+          "departures": {
+            "workday": [
+              "05:47G",
+              "07:30GS",
+              "08:30",
+              "09:49",
+              "10:36G",
+              "11:44S",
+              "12:55G",
+              "13:52",
+              "14:59G",
+              "15:40",
+              "17:19GS",
+              "18:01",
+              "20:10",
+              "21:47"
+            ],
+            "saturday": [
+              "06:30G",
+              "09:00",
+              "10:43G",
+              "13:10",
+              "14:46S",
+              "16:30G",
+              "19:01G",
+              "21:11"
+            ],
+            "sunday": [
+              "07:32",
+              "09:50G",
+              "12:01G",
+              "14:20",
+              "16:08G",
+              "18:42",
+              "20:19"
+            ],
+            "holiday": [
+              "09:00",
+              "10:43G",
+              "13:10",
+              "14:46",
+              "16:30G"
+            ]
+          }
+        },
+        {
+          "stop_id": "0096",
+          "stop_name": "Chrzanów Plac Tysiąclecia",
+          "platform": "3",
+          "file": "0096-grojec.html",
+          "departures": {
+            "workday": [
+              "05:49G",
+              "07:32GS",
+              "08:32",
+              "09:51",
+              "10:38G",
+              "11:46S",
+              "12:57G",
+              "13:54",
+              "15:01G",
+              "15:42",
+              "17:21GS",
+              "18:03",
+              "20:12",
+              "21:49"
+            ],
+            "saturday": [
+              "06:32G",
+              "09:02",
+              "10:45G",
+              "13:12",
+              "14:48S",
+              "16:32G",
+              "19:03G",
+              "21:13"
+            ],
+            "sunday": [
+              "07:34",
+              "09:52G",
+              "12:03G",
+              "14:22",
+              "16:10G",
+              "18:44",
+              "20:21"
+            ],
+            "holiday": [
+              "09:02",
+              "10:45G",
+              "13:12",
+              "14:48",
+              "16:32G"
+            ]
+          }
+        },
+        {
+          "stop_id": "0352",
+          "stop_name": "Chrzanów ZUS",
+          "platform": "1",
+          "file": "0352-grojec.html",
+          "departures": {
+            "workday": [
+              "05:51G",
+              "07:34GS",
+              "08:34",
+              "09:53",
+              "10:40G",
+              "11:48S",
+              "12:59G",
+              "13:56",
+              "15:03G",
+              "15:44",
+              "17:23GS",
+              "18:05",
+              "20:14",
+              "21:51"
+            ],
+            "saturday": [
+              "06:34G",
+              "09:04",
+              "10:47G",
+              "13:14",
+              "14:50S",
+              "16:34G",
+              "19:05G",
+              "21:15"
+            ],
+            "sunday": [
+              "07:36",
+              "09:54G",
+              "12:05G",
+              "14:24",
+              "16:12G",
+              "18:46",
+              "20:23"
+            ],
+            "holiday": [
+              "09:04",
+              "10:47G",
+              "13:14",
+              "14:50",
+              "16:34G"
+            ]
+          }
+        },
+        {
+          "stop_id": "0332",
+          "stop_name": "Chrzanów Sienna",
+          "platform": "1",
+          "file": "0332-grojec.html",
+          "departures": {
+            "workday": [
+              "05:54G",
+              "07:37GS",
+              "08:37",
+              "09:56",
+              "10:43G",
+              "11:51S",
+              "13:02G",
+              "13:59",
+              "15:06G",
+              "15:47",
+              "17:26GS",
+              "18:08",
+              "20:17",
+              "21:54"
+            ],
+            "saturday": [
+              "06:37G",
+              "09:07",
+              "10:50G",
+              "13:17",
+              "14:53S",
+              "16:37G",
+              "19:08G",
+              "21:18"
+            ],
+            "sunday": [
+              "07:39",
+              "09:57G",
+              "12:08G",
+              "14:27",
+              "16:15G",
+              "18:49",
+              "20:26"
+            ],
+            "holiday": [
+              "09:07",
+              "10:50G",
+              "13:17",
+              "14:53",
+              "16:37G"
+            ]
+          }
+        },
+        {
+          "stop_id": "0333",
+          "stop_name": "Chrzanów Podwale",
+          "platform": "1",
+          "file": "0333-grojec.html",
+          "departures": {
+            "workday": [
+              "05:56G",
+              "07:39GS",
+              "08:39",
+              "09:58",
+              "10:45G",
+              "11:53S",
+              "13:04G",
+              "14:01",
+              "15:08G",
+              "15:49",
+              "17:28GS",
+              "18:10",
+              "20:19",
+              "21:56"
+            ],
+            "saturday": [
+              "06:39G",
+              "09:09",
+              "10:52G",
+              "13:19",
+              "14:55S",
+              "16:39G",
+              "19:10G",
+              "21:20"
+            ],
+            "sunday": [
+              "07:41",
+              "09:59G",
+              "12:10G",
+              "14:29",
+              "16:17G",
+              "18:51",
+              "20:28"
+            ],
+            "holiday": [
+              "09:09",
+              "10:52G",
+              "13:19",
+              "14:55",
+              "16:39G"
+            ]
+          }
+        },
+        {
+          "stop_id": "0117",
+          "stop_name": "Chrzanów Szpitalna",
+          "platform": "3",
+          "file": "0117-grojec.html",
+          "departures": {
+            "workday": [
+              "07:42G",
+              "11:56",
+              "17:31G"
+            ],
+            "saturday": [
+              "14:58"
+            ]
+          }
+        },
+        {
+          "stop_id": "0093",
+          "stop_name": "Chrzanów Szpital",
+          "platform": "2",
+          "file": "0093-grojec.html",
+          "departures": {
+            "workday": [
+              "07:43G",
+              "11:57",
+              "17:32G"
+            ],
+            "saturday": [
+              "14:59"
+            ]
+          }
+        },
+        {
+          "stop_id": "1058",
+          "stop_name": "Chrzanów Szpitalna",
+          "platform": "2",
+          "file": "1058-grojec.html",
+          "departures": {
+            "workday": [
+              "05:59G",
+              "07:44G",
+              "08:42",
+              "10:01",
+              "10:48G",
+              "11:58",
+              "13:07G",
+              "14:04",
+              "15:11G",
+              "15:52",
+              "17:33G",
+              "18:13",
+              "20:22",
+              "21:59"
+            ],
+            "saturday": [
+              "06:42G",
+              "09:12",
+              "10:55G",
+              "13:22",
+              "15:00",
+              "16:42G",
+              "19:13G",
+              "21:23"
+            ],
+            "sunday": [
+              "07:44",
+              "10:02G",
+              "12:13G",
+              "14:32",
+              "16:20G",
+              "18:54",
+              "20:31"
+            ],
+            "holiday": [
+              "09:12",
+              "10:55G",
+              "13:22",
+              "14:58",
+              "16:42G"
+            ]
+          }
+        },
+        {
+          "stop_id": "1161",
+          "stop_name": "Chrzanów Kościelec Staw",
+          "platform": "1",
+          "file": "1161-grojec.html",
+          "departures": {
+            "workday": [
+              "06:00G",
+              "07:45G",
+              "08:43",
+              "10:02",
+              "10:49G",
+              "11:59",
+              "13:08G",
+              "14:05",
+              "15:12G",
+              "15:53",
+              "17:34G",
+              "18:14",
+              "20:23",
+              "22:00"
+            ],
+            "saturday": [
+              "06:43G",
+              "09:13",
+              "10:56G",
+              "13:23",
+              "15:01",
+              "16:43G",
+              "19:14G",
+              "21:24"
+            ],
+            "sunday": [
+              "07:45",
+              "10:03G",
+              "12:14G",
+              "14:33",
+              "16:21G",
+              "18:55",
+              "20:32"
+            ],
+            "holiday": [
+              "09:13",
+              "10:56G",
+              "13:23",
+              "14:59",
+              "16:43G"
+            ]
+          }
+        },
+        {
+          "stop_id": "1162",
+          "stop_name": "Chrzanów Kościelec",
+          "platform": "1",
+          "file": "1162-grojec.html",
+          "departures": {
+            "workday": [
+              "06:01G",
+              "07:46G",
+              "08:44",
+              "10:03",
+              "10:50G",
+              "12:00",
+              "13:09G",
+              "14:06",
+              "15:13G",
+              "15:54",
+              "17:35G",
+              "18:15",
+              "20:24",
+              "22:01"
+            ],
+            "saturday": [
+              "06:44G",
+              "09:14",
+              "10:57G",
+              "13:24",
+              "15:02",
+              "16:44G",
+              "19:15G",
+              "21:25"
+            ],
+            "sunday": [
+              "07:46",
+              "10:04G",
+              "12:15G",
+              "14:34",
+              "16:22G",
+              "18:56",
+              "20:33"
+            ],
+            "holiday": [
+              "09:14",
+              "10:57G",
+              "13:24",
+              "15:00",
+              "16:44G"
+            ]
+          }
+        },
+        {
+          "stop_id": "1217",
+          "stop_name": "Chrzanów Kościelec Las",
+          "platform": "1",
+          "file": "1217-grojec.html",
+          "departures": {
+            "workday": [
+              "06:02G",
+              "07:47G",
+              "08:45",
+              "10:04",
+              "10:51G",
+              "12:01",
+              "13:10G",
+              "14:07",
+              "15:14G",
+              "15:55",
+              "17:36G",
+              "18:16",
+              "20:25",
+              "22:02"
+            ],
+            "saturday": [
+              "06:45G",
+              "09:15",
+              "10:58G",
+              "13:25",
+              "15:03",
+              "16:45G",
+              "19:16G",
+              "21:26"
+            ],
+            "sunday": [
+              "07:47",
+              "10:05G",
+              "12:16G",
+              "14:35",
+              "16:23G",
+              "18:57",
+              "20:34"
+            ],
+            "holiday": [
+              "09:15",
+              "10:58G",
+              "13:25",
+              "15:01",
+              "16:45G"
+            ]
+          }
+        },
+        {
+          "stop_id": "1524",
+          "stop_name": "Płaza Wapiennik II",
+          "platform": "2",
+          "file": "1524-grojec.html",
+          "departures": {
+            "workday": [
+              "06:04G",
+              "07:49G",
+              "08:47",
+              "10:06",
+              "10:53G",
+              "12:03",
+              "13:12G",
+              "14:09",
+              "15:16G",
+              "15:57",
+              "17:38G",
+              "18:18",
+              "20:27",
+              "22:04"
+            ],
+            "saturday": [
+              "06:47G",
+              "09:17",
+              "11:00G",
+              "13:27",
+              "15:05",
+              "16:47G",
+              "19:18G",
+              "21:28"
+            ],
+            "sunday": [
+              "07:49",
+              "10:07G",
+              "12:18G",
+              "14:37",
+              "16:25G",
+              "18:59",
+              "20:36"
+            ],
+            "holiday": [
+              "09:17",
+              "11:00G",
+              "13:27",
+              "15:03",
+              "16:47G"
+            ]
+          }
+        },
+        {
+          "stop_id": "1220",
+          "stop_name": "Płaza Wapiennik I",
+          "platform": "1",
+          "file": "1220-grojec.html",
+          "departures": {
+            "workday": [
+              "06:06G",
+              "07:51G",
+              "08:49",
+              "10:08",
+              "10:55G",
+              "12:05",
+              "13:14G",
+              "14:11",
+              "15:18G",
+              "15:59",
+              "17:40G",
+              "18:20",
+              "20:29",
+              "22:06"
+            ],
+            "saturday": [
+              "06:49G",
+              "09:19",
+              "11:02G",
+              "13:29",
+              "15:07",
+              "16:49G",
+              "19:20G",
+              "21:30"
+            ],
+            "sunday": [
+              "07:51",
+              "10:09G",
+              "12:20G",
+              "14:39",
+              "16:27G",
+              "19:01",
+              "20:38"
+            ],
+            "holiday": [
+              "09:19",
+              "11:02G",
+              "13:29",
+              "15:05",
+              "16:49G"
+            ]
+          }
+        },
+        {
+          "stop_id": "1223",
+          "stop_name": "Płaza Działki",
+          "platform": "2",
+          "file": "1223-grojec.html",
+          "departures": {
+            "workday": [
+              "06:07G",
+              "07:52G",
+              "08:50",
+              "10:09",
+              "10:56G",
+              "12:06",
+              "13:15G",
+              "14:12",
+              "15:19G",
+              "16:00",
+              "17:41G",
+              "18:21",
+              "20:30",
+              "22:07"
+            ],
+            "saturday": [
+              "06:50G",
+              "09:20",
+              "11:03G",
+              "13:30",
+              "15:08",
+              "16:50G",
+              "19:21G",
+              "21:31"
+            ],
+            "sunday": [
+              "07:52",
+              "10:10G",
+              "12:21G",
+              "14:40",
+              "16:28G",
+              "19:02",
+              "20:39"
+            ],
+            "holiday": [
+              "09:20",
+              "11:03G",
+              "13:30",
+              "15:06",
+              "16:50G"
+            ]
+          }
+        },
+        {
+          "stop_id": "1086",
+          "stop_name": "Płaza Cmentarz",
+          "platform": "2",
+          "file": "1086-grojec.html",
+          "departures": {
+            "workday": [
+              "06:09G",
+              "07:54G",
+              "08:52",
+              "10:11",
+              "10:58G",
+              "12:08",
+              "13:17G",
+              "14:14",
+              "15:21G",
+              "16:02",
+              "17:43G",
+              "18:23",
+              "20:32",
+              "22:09"
+            ],
+            "saturday": [
+              "06:52G",
+              "09:22",
+              "11:05G",
+              "13:32",
+              "15:10",
+              "16:52G",
+              "19:23G",
+              "21:33"
+            ],
+            "sunday": [
+              "07:54",
+              "10:12G",
+              "12:23G",
+              "14:42",
+              "16:30G",
+              "19:04",
+              "20:41"
+            ],
+            "holiday": [
+              "09:22",
+              "11:05G",
+              "13:32",
+              "15:08",
+              "16:52G"
+            ]
+          }
+        },
+        {
+          "stop_id": "0581",
+          "stop_name": "Płaza Górna Kościół",
+          "platform": "1",
+          "file": "0581-grojec.html",
+          "departures": {
+            "workday": [
+              "06:10G",
+              "07:55G",
+              "08:53",
+              "10:12",
+              "10:59G",
+              "12:09",
+              "13:18G",
+              "14:15",
+              "15:22G",
+              "16:03",
+              "17:44G",
+              "18:24",
+              "20:33",
+              "22:10"
+            ],
+            "saturday": [
+              "06:53G",
+              "09:23",
+              "11:06G",
+              "13:33",
+              "15:11",
+              "16:53G",
+              "19:24G",
+              "21:34"
+            ],
+            "sunday": [
+              "07:55",
+              "10:13G",
+              "12:24G",
+              "14:43",
+              "16:31G",
+              "19:05",
+              "20:42"
+            ],
+            "holiday": [
+              "09:23",
+              "11:06G",
+              "13:33",
+              "15:09",
+              "16:53G"
+            ]
+          }
+        },
+        {
+          "stop_id": "0582",
+          "stop_name": "Płaza Role",
+          "platform": "1",
+          "file": "0582-grojec.html",
+          "departures": {
+            "workday": [
+              "06:11G",
+              "07:56G",
+              "08:54",
+              "10:13",
+              "11:00G",
+              "12:10",
+              "13:19G",
+              "14:16",
+              "15:23G",
+              "16:04",
+              "17:45G",
+              "18:25",
+              "20:34",
+              "22:11"
+            ],
+            "saturday": [
+              "06:54G",
+              "09:24",
+              "11:07G",
+              "13:34",
+              "15:12",
+              "16:54G",
+              "19:25G",
+              "21:35"
+            ],
+            "sunday": [
+              "07:56",
+              "10:14G",
+              "12:25G",
+              "14:44",
+              "16:32G",
+              "19:06",
+              "20:43"
+            ],
+            "holiday": [
+              "09:24",
+              "11:07G",
+              "13:34",
+              "15:10",
+              "16:54G"
+            ]
+          }
+        },
+        {
+          "stop_id": "0583",
+          "stop_name": "Płaza Dolna II",
+          "platform": "1",
+          "file": "0583-grojec.html",
+          "departures": {
+            "workday": [
+              "06:12G",
+              "07:57G",
+              "08:55",
+              "10:14",
+              "11:01G",
+              "12:11",
+              "13:20G",
+              "14:17",
+              "15:24G",
+              "16:05",
+              "17:46G",
+              "18:26",
+              "20:35",
+              "22:12"
+            ],
+            "saturday": [
+              "06:55G",
+              "09:25",
+              "11:08G",
+              "13:35",
+              "15:13",
+              "16:55G",
+              "19:26G",
+              "21:36"
+            ],
+            "sunday": [
+              "07:57",
+              "10:15G",
+              "12:26G",
+              "14:45",
+              "16:33G",
+              "19:07",
+              "20:44"
+            ],
+            "holiday": [
+              "09:25",
+              "11:08G",
+              "13:35",
+              "15:11",
+              "16:55G"
+            ]
+          }
+        },
+        {
+          "stop_id": "0584",
+          "stop_name": "Płaza Dolna I",
+          "platform": "2",
+          "file": "0584-grojec.html",
+          "departures": {
+            "workday": [
+              "06:14G",
+              "07:59G",
+              "08:57",
+              "10:16",
+              "11:03G",
+              "12:13",
+              "13:22G",
+              "14:19",
+              "15:26G",
+              "16:07",
+              "17:48G",
+              "18:28",
+              "20:37",
+              "22:14"
+            ],
+            "saturday": [
+              "06:57G",
+              "09:27",
+              "11:10G",
+              "13:37",
+              "15:15",
+              "16:57G",
+              "19:28G",
+              "21:38"
+            ],
+            "sunday": [
+              "07:59",
+              "10:17G",
+              "12:28G",
+              "14:47",
+              "16:35G",
+              "19:09",
+              "20:46"
+            ],
+            "holiday": [
+              "09:27",
+              "11:10G",
+              "13:37",
+              "15:13",
+              "16:57G"
+            ]
+          }
+        },
+        {
+          "stop_id": "0585",
+          "stop_name": "Wygiełzów Skansen",
+          "platform": "1",
+          "file": "0585-grojec.html",
+          "departures": {
+            "workday": [
+              "06:16G",
+              "08:01G",
+              "08:59",
+              "10:18",
+              "11:05G",
+              "12:15",
+              "13:24G",
+              "14:21",
+              "15:28G",
+              "16:09",
+              "17:50G",
+              "18:30",
+              "20:39",
+              "22:16"
+            ],
+            "saturday": [
+              "06:59G",
+              "09:29",
+              "11:12G",
+              "13:39",
+              "15:17",
+              "16:59G",
+              "19:30G",
+              "21:40"
+            ],
+            "sunday": [
+              "08:01",
+              "10:19G",
+              "12:30G",
+              "14:49",
+              "16:37G",
+              "19:11",
+              "20:48"
+            ],
+            "holiday": [
+              "09:29",
+              "11:12G",
+              "13:39",
+              "15:15",
+              "16:59G"
+            ]
+          }
+        },
+        {
+          "stop_id": "0586",
+          "stop_name": "Babice Urząd Gminy",
+          "platform": "1",
+          "file": "0586-grojec.html",
+          "departures": {
+            "workday": [
+              "06:17G",
+              "08:02G",
+              "09:00",
+              "10:19",
+              "11:06G",
+              "12:16",
+              "13:25G",
+              "14:22",
+              "15:29G",
+              "16:10",
+              "17:51G",
+              "18:31",
+              "20:40",
+              "22:17"
+            ],
+            "saturday": [
+              "07:00G",
+              "09:30",
+              "11:13G",
+              "13:40",
+              "15:18",
+              "17:00G",
+              "19:31G",
+              "21:41"
+            ],
+            "sunday": [
+              "08:02",
+              "10:20G",
+              "12:31G",
+              "14:50",
+              "16:38G",
+              "19:12",
+              "20:49"
+            ],
+            "holiday": [
+              "09:30",
+              "11:13G",
+              "13:40",
+              "15:16",
+              "17:00G"
+            ]
+          }
+        },
+        {
+          "stop_id": "1034",
+          "stop_name": "Babice Zmornica",
+          "platform": "2",
+          "file": "1034-grojec.html",
+          "departures": {
+            "workday": [
+              "06:19G",
+              "08:04G",
+              "09:02",
+              "10:21",
+              "11:08G",
+              "12:18",
+              "13:27G",
+              "14:24",
+              "15:31G",
+              "16:12",
+              "17:53G",
+              "18:33",
+              "20:42",
+              "22:19"
+            ],
+            "saturday": [
+              "07:02G",
+              "09:32",
+              "11:15G",
+              "13:42",
+              "15:20",
+              "17:02G",
+              "19:33G",
+              "21:43"
+            ],
+            "sunday": [
+              "08:04",
+              "10:22G",
+              "12:33G",
+              "14:52",
+              "16:40G",
+              "19:14",
+              "20:51"
+            ],
+            "holiday": [
+              "09:32",
+              "11:15G",
+              "13:42",
+              "15:18",
+              "17:02G"
+            ]
+          }
+        },
+        {
+          "stop_id": "1492",
+          "stop_name": "Kwaczała Łazek",
+          "platform": "2",
+          "file": "1492-grojec.html",
+          "departures": {
+            "workday": [
+              "06:21G",
+              "08:06G",
+              "09:04",
+              "10:23",
+              "11:10G",
+              "12:20",
+              "13:29G",
+              "14:26",
+              "15:33G",
+              "16:14",
+              "17:55G",
+              "18:35",
+              "20:44",
+              "22:21"
+            ],
+            "saturday": [
+              "07:04G",
+              "09:34",
+              "11:17G",
+              "13:44",
+              "15:22",
+              "17:04G",
+              "19:35G",
+              "21:45"
+            ],
+            "sunday": [
+              "08:06",
+              "10:24G",
+              "12:35G",
+              "14:54",
+              "16:42G",
+              "19:16",
+              "20:53"
+            ],
+            "holiday": [
+              "09:34",
+              "11:17G",
+              "13:44",
+              "15:20",
+              "17:04G"
+            ]
+          }
+        },
+        {
+          "stop_id": "1490",
+          "stop_name": "Kwaczała Centrum",
+          "platform": "1",
+          "file": "1490-grojec.html",
+          "departures": {
+            "workday": [
+              "06:22G",
+              "08:07G",
+              "09:05",
+              "10:24",
+              "11:11G",
+              "12:21",
+              "13:30G",
+              "14:27",
+              "15:34G",
+              "16:15",
+              "17:56G",
+              "18:36",
+              "20:45",
+              "22:22"
+            ],
+            "saturday": [
+              "07:05G",
+              "09:35",
+              "11:18G",
+              "13:45",
+              "15:23",
+              "17:05G",
+              "19:36G",
+              "21:46"
+            ],
+            "sunday": [
+              "08:07",
+              "10:25G",
+              "12:36G",
+              "14:55",
+              "16:43G",
+              "19:17",
+              "20:54"
+            ],
+            "holiday": [
+              "09:35",
+              "11:18G",
+              "13:45",
+              "15:21",
+              "17:05G"
+            ]
+          }
+        },
+        {
+          "stop_id": "1350",
+          "stop_name": "Alwernia Spalona",
+          "platform": "1",
+          "file": "1350-grojec.html",
+          "departures": {
+            "workday": [
+              "06:25G",
+              "08:10G",
+              "09:08",
+              "10:27",
+              "11:14G",
+              "12:24",
+              "13:33G",
+              "14:30",
+              "15:37G",
+              "16:18",
+              "17:59G",
+              "18:39",
+              "20:48",
+              "22:25"
+            ],
+            "saturday": [
+              "07:08G",
+              "09:38",
+              "11:21G",
+              "13:48",
+              "15:26",
+              "17:08G",
+              "19:39G",
+              "21:49"
+            ],
+            "sunday": [
+              "08:10",
+              "10:28G",
+              "12:39G",
+              "14:58",
+              "16:46G",
+              "19:20",
+              "20:57"
+            ],
+            "holiday": [
+              "09:38",
+              "11:21G",
+              "13:48",
+              "15:24",
+              "17:08G"
+            ]
+          }
+        },
+        {
+          "stop_id": "2885",
+          "stop_name": "Alwernia Osiedle",
+          "platform": "3",
+          "file": "2885-grojec.html",
+          "departures": {
+            "workday": [
+              "06:27G",
+              "08:12G",
+              "09:10",
+              "10:29",
+              "11:16G",
+              "12:26",
+              "13:35G",
+              "14:32",
+              "15:39G",
+              "16:20",
+              "18:01G",
+              "18:41",
+              "20:50",
+              "22:27"
+            ],
+            "saturday": [
+              "07:10G",
+              "09:40",
+              "11:23G",
+              "13:50",
+              "15:28",
+              "17:10G",
+              "19:41G",
+              "21:51"
+            ],
+            "sunday": [
+              "08:12",
+              "10:30G",
+              "12:41G",
+              "15:00",
+              "16:48G",
+              "19:22",
+              "20:59"
+            ],
+            "holiday": [
+              "09:40",
+              "11:23G",
+              "13:50",
+              "15:26",
+              "17:10G"
+            ]
+          }
+        },
+        {
+          "stop_id": "1348",
+          "stop_name": "Alwernia Szkoła",
+          "platform": "2",
+          "file": "1348-grojec.html",
+          "departures": {
+            "workday": [
+              "06:28G",
+              "08:13G",
+              "09:11",
+              "10:30",
+              "11:17G",
+              "12:27",
+              "13:36G",
+              "14:33",
+              "15:40G",
+              "16:21",
+              "18:02G",
+              "18:42",
+              "20:51",
+              "22:28"
+            ],
+            "saturday": [
+              "07:11G",
+              "09:41",
+              "11:24G",
+              "13:51",
+              "15:29",
+              "17:11G",
+              "19:42G",
+              "21:52"
+            ],
+            "sunday": [
+              "08:13",
+              "10:31G",
+              "12:42G",
+              "15:01",
+              "16:49G",
+              "19:23",
+              "21:00"
+            ],
+            "holiday": [
+              "09:41",
+              "11:24G",
+              "13:51",
+              "15:27",
+              "17:11G"
+            ]
+          }
+        },
+        {
+          "stop_id": "1355",
+          "stop_name": "Alwernia Garncarska",
+          "platform": "2",
+          "file": "1355-grojec.html",
+          "departures": {
+            "workday": [
+              "06:29G",
+              "08:14G",
+              "09:12",
+              "10:31",
+              "11:18G",
+              "12:28",
+              "13:37G",
+              "14:34",
+              "15:41G",
+              "16:22",
+              "18:03G",
+              "18:43",
+              "20:52",
+              "22:29"
+            ],
+            "saturday": [
+              "07:12G",
+              "09:42",
+              "11:25G",
+              "13:52",
+              "15:30",
+              "17:12G",
+              "19:43G",
+              "21:53"
+            ],
+            "sunday": [
+              "08:14",
+              "10:32G",
+              "12:43G",
+              "15:02",
+              "16:50G",
+              "19:24",
+              "21:01"
+            ],
+            "holiday": [
+              "09:42",
+              "11:25G",
+              "13:52",
+              "15:28",
+              "17:12G"
+            ]
+          }
+        },
+        {
+          "stop_id": "1481",
+          "stop_name": "Grojec Waga",
+          "platform": "2",
+          "file": "1481-grojec.html",
+          "departures": {
+            "workday": [
+              "06:31G",
+              "08:16G",
+              "09:14",
+              "10:33",
+              "11:20G",
+              "12:30",
+              "13:39G",
+              "14:36",
+              "15:43G",
+              "16:24",
+              "18:05G",
+              "18:45",
+              "20:54",
+              "22:31"
+            ],
+            "saturday": [
+              "07:14G",
+              "09:44",
+              "11:27G",
+              "13:54",
+              "15:32",
+              "17:14G",
+              "19:45G",
+              "21:55"
+            ],
+            "sunday": [
+              "08:16",
+              "10:34G",
+              "12:45G",
+              "15:04",
+              "16:52G",
+              "19:26",
+              "21:03"
+            ],
+            "holiday": [
+              "09:44",
+              "11:27G",
+              "13:54",
+              "15:30",
+              "17:14G"
+            ]
+          }
+        },
+        {
+          "stop_id": "1483",
+          "stop_name": "Grojec Szkoła",
+          "platform": "1",
+          "file": "1483-grojec.html",
+          "departures": {
+            "workday": [
+              "06:33G",
+              "08:18G",
+              "09:16",
+              "10:35",
+              "11:22G",
+              "12:32",
+              "13:41G",
+              "14:38",
+              "15:45G",
+              "16:26",
+              "18:07G",
+              "18:47",
+              "20:56",
+              "22:33"
+            ],
+            "saturday": [
+              "07:16G",
+              "09:46",
+              "11:29G",
+              "13:56",
+              "15:34",
+              "17:16G",
+              "19:47G",
+              "21:57"
+            ],
+            "sunday": [
+              "08:18",
+              "10:36G",
+              "12:47G",
+              "15:06",
+              "16:54G",
+              "19:28",
+              "21:05"
+            ],
+            "holiday": [
+              "09:46",
+              "11:29G",
+              "13:56",
+              "15:32",
+              "17:16G"
+            ]
+          }
+        },
+        {
+          "stop_id": "1484",
+          "stop_name": "Grojec Zajezdnia",
+          "platform": "1",
+          "file": "1484-grojec.html",
+          "departures": {
+            "workday": [
+              "06:34",
+              "08:19",
+              "11:23",
+              "13:42",
+              "15:46",
+              "18:08"
+            ],
+            "saturday": [
+              "07:17",
+              "11:30",
+              "17:17",
+              "19:48"
+            ],
+            "sunday": [
+              "10:37",
+              "12:48",
+              "16:55"
+            ],
+            "holiday": [
+              "11:30",
+              "17:17"
+            ]
+          }
+        },
+        {
+          "stop_id": "1485",
+          "stop_name": "Grojec Sklep",
+          "platform": "2",
+          "file": "1485-grojec.html",
+          "departures": {
+            "workday": [
+              "06:35",
+              "08:20",
+              "11:24",
+              "13:43",
+              "15:47",
+              "18:09"
+            ],
+            "saturday": [
+              "07:18",
+              "11:31",
+              "17:18",
+              "19:49"
+            ],
+            "sunday": [
+              "10:38",
+              "12:49",
+              "16:56"
+            ],
+            "holiday": [
+              "11:31",
+              "17:18"
+            ]
+          }
+        },
+        {
+          "stop_id": "1430",
+          "stop_name": "Zalas Sportowa",
+          "platform": "2",
+          "file": "1430-grojec.html",
+          "departures": {
+            "workday": [
+              "06:37",
+              "08:22",
+              "11:26",
+              "13:45",
+              "15:49",
+              "18:11"
+            ],
+            "saturday": [
+              "07:20",
+              "11:33",
+              "17:20",
+              "19:51"
+            ],
+            "sunday": [
+              "10:40",
+              "12:51",
+              "16:58"
+            ],
+            "holiday": [
+              "11:33",
+              "17:20"
+            ]
+          }
+        },
+        {
+          "stop_id": "1432",
+          "stop_name": "Zalas Rondo",
+          "platform": "3",
+          "file": "1432-grojec.html",
+          "departures": {
+            "workday": [
+              "06:38",
+              "08:23",
+              "11:27",
+              "13:46",
+              "15:50",
+              "18:12"
+            ],
+            "saturday": [
+              "07:21",
+              "11:34",
+              "17:21",
+              "19:52"
+            ],
+            "sunday": [
+              "10:41",
+              "12:52",
+              "16:59"
+            ],
+            "holiday": [
+              "11:34",
+              "17:21"
+            ]
+          }
+        },
+        {
+          "stop_id": "1385",
+          "stop_name": "Zalas Plac",
+          "platform": "1",
+          "file": "1385-grojec.html",
+          "departures": {
+            "workday": [
+              "06:39",
+              "08:24",
+              "11:28",
+              "13:47",
+              "15:51",
+              "18:13"
+            ],
+            "saturday": [
+              "07:22",
+              "11:35",
+              "17:22",
+              "19:53"
+            ],
+            "sunday": [
+              "10:42",
+              "12:53",
+              "17:00"
+            ],
+            "holiday": [
+              "11:35",
+              "17:22"
+            ]
+          }
+        },
+        {
+          "stop_id": "1386",
+          "stop_name": "Zalas Krótka",
+          "platform": "1",
+          "file": "1386-grojec.html",
+          "departures": {
+            "workday": [
+              "06:40",
+              "08:25",
+              "11:29",
+              "13:48",
+              "15:52",
+              "18:14"
+            ],
+            "saturday": [
+              "07:23",
+              "11:36",
+              "17:23",
+              "19:54"
+            ],
+            "sunday": [
+              "10:43",
+              "12:54",
+              "17:01"
+            ],
+            "holiday": [
+              "11:36",
+              "17:23"
+            ]
+          }
+        },
+        {
+          "stop_id": "1388",
+          "stop_name": "Zalas Szkoła",
+          "platform": "2",
+          "file": "1388-grojec.html",
+          "departures": {
+            "workday": [
+              "06:41",
+              "08:26",
+              "11:30",
+              "13:49",
+              "15:53",
+              "18:15"
+            ],
+            "saturday": [
+              "07:24",
+              "11:37",
+              "17:24",
+              "19:55"
+            ],
+            "sunday": [
+              "10:44",
+              "12:55",
+              "17:02"
+            ],
+            "holiday": [
+              "11:37",
+              "17:24"
+            ]
+          }
+        },
+        {
+          "stop_id": "1395",
+          "stop_name": "Zalas Kościół",
+          "platform": "2",
+          "file": "1395-grojec.html",
+          "departures": {
+            "workday": [
+              "06:42",
+              "08:27",
+              "11:31",
+              "13:50",
+              "15:54",
+              "18:16"
+            ],
+            "saturday": [
+              "07:25",
+              "11:38",
+              "17:25",
+              "19:56"
+            ],
+            "sunday": [
+              "10:45",
+              "12:56",
+              "17:03"
+            ],
+            "holiday": [
+              "11:38",
+              "17:25"
+            ]
+          }
+        },
+        {
+          "stop_id": "1391",
+          "stop_name": "Zalas Ośrodek Zdrowia",
+          "platform": "1",
+          "file": "1391-grojec.html",
+          "departures": {
+            "workday": [
+              "06:43",
+              "08:28",
+              "11:32",
+              "13:51",
+              "15:55",
+              "18:17"
+            ],
+            "saturday": [
+              "07:26",
+              "11:39",
+              "17:26",
+              "19:57"
+            ],
+            "sunday": [
+              "10:46",
+              "12:57",
+              "17:04"
+            ],
+            "holiday": [
+              "11:39",
+              "17:26"
+            ]
+          }
+        },
+        {
+          "stop_id": "1392",
+          "stop_name": "Zalas Krzyżówka",
+          "platform": "1",
+          "file": "1392-grojec.html",
+          "departures": {
+            "workday": [
+              "06:44",
+              "08:29",
+              "11:33",
+              "13:52",
+              "15:56",
+              "18:18"
+            ],
+            "saturday": [
+              "07:27",
+              "11:40",
+              "17:27",
+              "19:58"
+            ],
+            "sunday": [
+              "10:47",
+              "12:58",
+              "17:05"
+            ],
+            "holiday": [
+              "11:40",
+              "17:27"
+            ]
+          }
+        },
+        {
+          "stop_id": "1396",
+          "stop_name": "Sanka Dół",
+          "platform": "2",
+          "file": "1396-grojec.html",
+          "departures": {
+            "workday": [
+              "06:46",
+              "08:31",
+              "11:35",
+              "13:54",
+              "15:58",
+              "18:20"
+            ],
+            "saturday": [
+              "07:29",
+              "11:42",
+              "17:29",
+              "20:00"
+            ],
+            "sunday": [
+              "10:49",
+              "13:00",
+              "17:07"
+            ],
+            "holiday": [
+              "11:42",
+              "17:29"
+            ]
+          }
+        },
+        {
+          "stop_id": "1397",
+          "stop_name": "Sanka Kościół",
+          "platform": "2",
+          "file": "1397-grojec.html",
+          "departures": {
+            "workday": [
+              "06:47",
+              "08:32",
+              "11:36",
+              "13:55",
+              "15:59",
+              "18:21"
+            ],
+            "saturday": [
+              "07:30",
+              "11:43",
+              "17:30",
+              "20:01"
+            ],
+            "sunday": [
+              "10:50",
+              "13:01",
+              "17:08"
+            ],
+            "holiday": [
+              "11:43",
+              "17:30"
+            ]
+          }
+        },
+        {
+          "stop_id": "1398",
+          "stop_name": "Sanka Wzgórze",
+          "platform": "2",
+          "file": "1398-grojec.html",
+          "departures": {
+            "workday": [
+              "06:48",
+              "08:33",
+              "11:37",
+              "13:56",
+              "16:00",
+              "18:22"
+            ],
+            "saturday": [
+              "07:31",
+              "11:44",
+              "17:31",
+              "20:02"
+            ],
+            "sunday": [
+              "10:51",
+              "13:02",
+              "17:09"
+            ],
+            "holiday": [
+              "11:44",
+              "17:31"
+            ]
+          }
+        },
+        {
+          "stop_id": "1399",
+          "stop_name": "Sanka Głuchówki",
+          "platform": "0",
+          "file": "1399-grojec.html",
+          "departures": {},
+          "arrival_only": true
+        }
+      ]
+    }
+  ]
+}
