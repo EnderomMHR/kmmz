@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KMMZ | Linia 15 | 2615 Jawiszowice Las</title>
+
+<style>
+
+*{box-sizing:border-box}
+
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:linear-gradient(135deg,#005bbb,#009966);
+    padding:20px;
+}
+
+.page{
+    max-width:1400px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:330px 1fr;
+    gap:20px;
+}
+
+.panel, .timetable{
+    background:white;
+    border-radius:16px;
+    box-shadow:0 8px 25px rgba(0,0,0,.22);
+}
+
+.panel{
+    padding:15px;
+}
+
+.back{
+    display:block;
+    margin-bottom:15px;
+    color:#005bbb;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+.route-title{
+    text-align:center;
+    padding:12px;
+    background:#f5c400;
+    font-weight:bold;
+    border-radius:10px 10px 0 0;
+}
+
+.route-subtitle{
+    text-align:center;
+    background:#009966;
+    color:white;
+    padding:8px;
+    font-weight:bold;
+}
+
+.stop{
+    display:block;
+    padding:5px 8px;
+    border-bottom:1px dashed #ccc;
+    color:#222;
+    text-decoration:none;
+    font-size:12px;
+}
+
+.stop:hover{
+    background:#eef5ff;
+    color:#005bbb;
+}
+
+.current-stop{
+    background:#fff3c4;
+    font-weight:bold;
+    font-size:12px;
+}
+
+.variant{
+    margin-left:25px;
+    font-style:italic;
+}
+
+.timetable{
+    padding:20px;
+}
+
+.header{
+    display:grid;
+    grid-template-columns:110px 1fr 90px;
+    gap:20px;
+    align-items:center;
+    margin-bottom:25px;
+}
+
+.line-button{
+    background:#f5c400;
+    color:#222;
+    font-size:36px;
+    font-weight:bold;
+    text-align:center;
+    padding:14px;
+    border-radius:12px;
+    text-decoration:none;
+}
+
+.stop-name{
+    font-size:21px;
+    font-weight:bold;
+    color:#005bbb;
+    text-decoration:none;
+}
+
+.stop-code{
+    background:#dcecff;
+    color:#005bbb;
+    padding:6px 10px;
+    border-radius:6px;
+    font-weight:bold;
+    margin-right:8px;
+    font-size:14px;
+}
+
+.direction{
+    margin-top:10px;
+    font-size:15px;
+}
+
+.map-button{
+    text-decoration:none;
+    background:#eaf4ff;
+    border:2px solid #005bbb;
+    color:#005bbb;
+    border-radius:12px;
+    font-size:13px;
+    padding:9px;
+    text-align:center;
+    font-weight:bold;
+}
+
+.map-icon{
+    font-size:26px;
+    display:block;
+}
+
+.section-title{
+    margin-top:14px;
+    padding:7px 10px;
+    font-weight:bold;
+    border-radius:6px;
+    font-size:14px;
+}
+
+.workday{background:#eaf4ff;}
+.saturday{background:#eef7df;}
+.sunday{background:#ffe5e5;}
+.holiday{background:#fff3c4;}
+
+.times{
+    display:grid;
+    grid-template-columns:repeat(8,1fr);
+    gap:0;
+    padding:6px 0 12px 0;
+    border-bottom:1px dashed #ccc;
+}
+
+.time{
+    text-align:center;
+    padding:5px;
+    font-size:14px;
+}
+
+.no-service{
+    padding:9px;
+    color:#777;
+    font-style:italic;
+    font-size:14px;
+}
+
+.legend{
+    margin-top:30px;
+    border:2px solid #ccc;
+    border-radius:14px;
+    overflow:hidden;
+}
+
+.legend-title{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    padding:12px;
+    background:linear-gradient(90deg,#f5c400,#005bbb,#009966);
+    font-size:17px;
+}
+
+.legend-row{
+    padding:8px 15px;
+    border-bottom:1px dashed #ccc;
+}
+
+.legend-row:last-child{
+    border-bottom:none;
+}
+
+.symbol{
+    color:#005bbb;
+    font-weight:bold;
+    display:inline-block;
+    width:35px;
+}
+
+@media(max-width:900px){
+    .page{
+        grid-template-columns:1fr;
+    }
+
+    .header{
+        grid-template-columns:1fr;
+        text-align:center;
+    }
+
+    .times{
+        grid-template-columns:repeat(3,1fr);
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="page">
+
+<div class="panel">
+<a class="back" href="../../linie/15.html">← Powrót do trasy linii 15</a>
+
+<div class="route-title">Kierunek: Oświęcim Dworzec Fabryczny</div>
+<div class="route-subtitle">Trasa przejazdu od tego przystanku</div>
+
+<a class="stop current-stop" href="../15/2615-oswiecim.html">2615 Jawiszowice Las (1)</a>
+<a class="stop" href="../15/2616-oswiecim.html">2616 Jawiszowice Krzyżówka (1)</a>
+<a class="stop" href="../15/2617-oswiecim.html">2617 Jawiszowice Przeczna I (1)</a>
+<a class="stop" href="../15/2618-oswiecim.html">2618 Jawiszowice Przeczna II (1)</a>
+<a class="stop" href="../15/2619-oswiecim.html">2619 Jawiszowice Przeczna III (1)</a>
+<a class="stop" href="../15/2614-oswiecim.html">2614 Jawiszowice Przeczna (2)</a>
+<a class="stop" href="../15/2568-oswiecim.html">2568 Jawiszowice Kółko (2)</a>
+<a class="stop" href="../15/2558-oswiecim.html">2558 Jawiszowice Mickiewicza (1)</a>
+<a class="stop" href="../15/2566-oswiecim.html">2566 Jawiszowice Osiedle Paderewskiego (2)</a>
+<a class="stop" href="../15/2553-oswiecim.html">2553 Brzeszcze Dworzec PKP (0)</a>
+<a class="stop" href="../15/2554-oswiecim.html">2554 Brzeszcze Jawiszowice Osiedle (1)</a>
+<a class="stop" href="../15/2556-oswiecim.html">2556 Brzeszcze Osiedle (2)</a>
+<a class="stop" href="../15/2565-oswiecim.html">2565 Brzeszcze Strażnica (2)</a>
+<a class="stop" href="../15/2564-oswiecim.html">2564 Brzeszcze Kościół (2)</a>
+<a class="stop" href="../15/2563-oswiecim.html">2563 Brzeszcze Szkoła (2)</a>
+<a class="stop" href="../15/2581-oswiecim.html">2581 Brzeszcze Super Sam (1)</a>
+<a class="stop" href="../15/2578-oswiecim.html">2578 Brzeszcze Chałpy (2)</a>
+<a class="stop" href="../15/2577-oswiecim.html">2577 Przecieszyn Krzyżówka (2)</a>
+<a class="stop" href="../15/2576-oswiecim.html">2576 Przecieszyn Poczta (1)</a>
+<a class="stop" href="../15/2588-oswiecim.html">2588 Skidziń Sklep (2)</a>
+<a class="stop" href="../15/2586-oswiecim.html">2586 Skidziń Kuźnia (2)</a>
+<a class="stop" href="../15/2584-oswiecim.html">2584 Skidziń Szkoła (2)</a>
+<a class="stop" href="../15/0650-oswiecim.html">0650 Wilczkowice (1)</a>
+<a class="stop" href="../15/0651-oswiecim.html">0651 Wilczkowice na żądanie (1)</a>
+<a class="stop" href="../15/0652-oswiecim.html">0652 Rajsko Cmentarz (2)</a>
+<a class="stop" href="../15/0653-oswiecim.html">0653 Rajsko Żwirownia (2)</a>
+<a class="stop" href="../15/0654-oswiecim.html">0654 Rajsko Kościół (1)</a>
+<a class="stop" href="../15/0655-oswiecim.html">0655 Rajsko Pomnik (2)</a>
+<a class="stop" href="../15/0656-oswiecim.html">0656 Rajsko Centrum (2)</a>
+<a class="stop" href="../15/0657-oswiecim.html">0657 Rajsko Ogrody (2)</a>
+<a class="stop" href="../15/0658-oswiecim.html">0658 Oświęcim Uczelnia (1)</a>
+<a class="stop" href="../15/0659-oswiecim.html">0659 Oświęcim Leszczyńskiej Muzeum (2)</a>
+<a class="stop" href="../15/0660-oswiecim.html">0660 Oświęcim Szkoła (1)</a>
+<a class="stop" href="../15/0661-oswiecim.html">0661 Oświęcim MZK (2)</a>
+<a class="stop" href="../15/0666-oswiecim.html">0666 Oświęcim Dworzec PKP (2)</a>
+<a class="stop" href="../15/0667-oswiecim.html">0667 Oświęcim Niwa (2)</a>
+<a class="stop" href="../15/0668-oswiecim.html">0668 Oświęcim Stacja BP (1)</a>
+<a class="stop" href="../15/0669-oswiecim.html">0669 Oświęcim Dąbrowskiego Kościół (1)</a>
+<a class="stop" href="../15/0670-oswiecim.html">0670 Oświęcim Dąbrowskiego Cmentarz (0)</a>
+<a class="stop" href="../15/0873-oswiecim.html">0873 Oświęcim Dąbrowskiego Szpital (2)</a>
+<a class="stop" href="../15/1508-oswiecim.html">1508 Oświęcim Dąbrowskiego (2)</a>
+<a class="stop" href="../15/1506-oswiecim.html">1506 Oświęcim Transchemia (1)</a>
+<a class="stop" href="../15/0621-oswiecim.html">0621 Oświęcim Lodowisko (1)</a>
+<a class="stop" href="../15/0874-oswiecim.html">0874 Oświęcim Pod Borem 2 (2)</a>
+<a class="stop" href="../15/0875-oswiecim.html">0875 Oświęcim Monowice Inkubator Przedsiębiorczości (1)</a>
+<a class="stop" href="../15/0876-oswiecim.html">0876 Oświęcim Brama (2)</a>
+<a class="stop" href="../15/0877-oswiecim.html">0877 Oświęcim Monowice (1)</a>
+<a class="stop" href="../15/0878-oswiecim.html">0878 Oświęcim Gazy Techniczne (2)</a>
+<a class="stop" href="../15/0879-oswiecim.html">0879 Oświęcim Dworzec Fabryczny (2)</a>
+</div>
+
+<div class="timetable">
+
+<div class="header">
+<a class="line-button" href="../../linie/15.html">15</a>
+
+<div>
+<a class="stop-name" href="../../przystanki/2615.html">
+<span class="stop-code">2615</span>Jawiszowice Las (1)
+</a>
+<div class="direction">Kierunek: <strong>Oświęcim Dworzec Fabryczny</strong></div>
+</div>
+
+<a class="map-button" href="https://enderommhr.github.io/kmmz/mapa.html" target="_blank">
+<span class="map-icon">🗺️</span>
+Mapa
+</a>
+</div>
+
+
+<div class="section-title workday">Dni robocze</div>
+<div class="times">
+<div class="time">04:37</div>
+<div class="time">05:47</div>
+<div class="time">07:09</div>
+<div class="time">08:17</div>
+<div class="time">09:46</div>
+<div class="time">11:12</div>
+<div class="time">12:25</div>
+<div class="time">13:42</div>
+<div class="time">15:03</div>
+<div class="time">16:13</div>
+<div class="time">17:38</div>
+<div class="time">20:12</div>
+</div>
+
+
+<div class="section-title saturday">Soboty</div>
+<div class="times">
+<div class="time">04:37</div>
+<div class="time">07:29</div>
+<div class="time">09:50</div>
+<div class="time">12:42</div>
+<div class="time">15:35</div>
+<div class="time">17:26</div>
+<div class="time">20:18</div>
+</div>
+
+
+<div class="section-title sunday">Niedziele</div>
+<div class="times">
+<div class="time">04:37</div>
+<div class="time">07:27</div>
+<div class="time">10:23</div>
+<div class="time">13:13</div>
+<div class="time">16:09</div>
+<div class="time">18:59</div>
+</div>
+
+
+<div class="section-title holiday">Święta</div>
+<div class="times">
+<div class="time">09:50</div>
+<div class="time">12:42</div>
+<div class="time">15:35</div>
+</div>
+
+
+
+  
+</div>
+
+</div>
+
+</body>
+</html>

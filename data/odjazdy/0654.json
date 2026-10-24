@@ -4,6 +4,16 @@
   "platform": "1",
   "departures": [
     {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/0654-oswiecim.html",
+      "day_type": "holiday",
+      "time": "10:25",
+      "symbols": []
+    },
+    {
       "line": "6",
       "main_direction": "Oświęcim Dwory Pętla",
       "display_direction": "Oświęcim Dwory Pętla",
@@ -11,6 +21,16 @@
       "page": "rozklady/6/0654-oswiecim.html",
       "day_type": "holiday",
       "time": "11:06",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/0654-oswiecim.html",
+      "day_type": "holiday",
+      "time": "13:17",
       "symbols": []
     },
     {
@@ -24,6 +44,16 @@
       "symbols": []
     },
     {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/0654-oswiecim.html",
+      "day_type": "holiday",
+      "time": "16:10",
+      "symbols": []
+    },
+    {
       "line": "6",
       "main_direction": "Oświęcim Dwory Pętla",
       "display_direction": "Oświęcim Dąbrowskiego Kościół",
@@ -34,6 +64,16 @@
       "symbols": [
         "O"
       ]
+    },
+    {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/0654-oswiecim.html",
+      "day_type": "saturday",
+      "time": "05:12",
+      "symbols": []
     },
     {
       "line": "6",
@@ -58,6 +98,26 @@
       "symbols": []
     },
     {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/0654-oswiecim.html",
+      "day_type": "saturday",
+      "time": "08:04",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/0654-oswiecim.html",
+      "day_type": "saturday",
+      "time": "10:25",
+      "symbols": []
+    },
+    {
       "line": "6",
       "main_direction": "Oświęcim Dwory Pętla",
       "display_direction": "Oświęcim Dwory Pętla",
@@ -68,6 +128,16 @@
       "symbols": []
     },
     {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/0654-oswiecim.html",
+      "day_type": "saturday",
+      "time": "13:17",
+      "symbols": []
+    },
+    {
       "line": "6",
       "main_direction": "Oświęcim Dwory Pętla",
       "display_direction": "Oświęcim Dwory Pętla",
@@ -75,6 +145,16 @@
       "page": "rozklady/6/0654-oswiecim.html",
       "day_type": "saturday",
       "time": "14:27",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/0654-oswiecim.html",
+      "day_type": "saturday",
+      "time": "16:10",
       "symbols": []
     },
     {
@@ -90,6 +170,26 @@
       ]
     },
     {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/0654-oswiecim.html",
+      "day_type": "saturday",
+      "time": "18:01",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/0654-oswiecim.html",
+      "day_type": "saturday",
+      "time": "20:53",
+      "symbols": []
+    },
+    {
       "line": "6",
       "main_direction": "Oświęcim Dwory Pętla",
       "display_direction": "Oświęcim Dwory Pętla",
@@ -97,6 +197,16 @@
       "page": "rozklady/6/0654-oswiecim.html",
       "day_type": "saturday",
       "time": "20:56",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/0654-oswiecim.html",
+      "day_type": "sunday",
+      "time": "05:12",
       "symbols": []
     },
     {
@@ -112,6 +222,16 @@
       ]
     },
     {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/0654-oswiecim.html",
+      "day_type": "sunday",
+      "time": "08:02",
+      "symbols": []
+    },
+    {
       "line": "6",
       "main_direction": "Oświęcim Dwory Pętla",
       "display_direction": "Oświęcim Dwory Pętla",
@@ -122,6 +242,16 @@
       "symbols": []
     },
     {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/0654-oswiecim.html",
+      "day_type": "sunday",
+      "time": "10:58",
+      "symbols": []
+    },
+    {
       "line": "6",
       "main_direction": "Oświęcim Dwory Pętla",
       "display_direction": "Oświęcim Dwory Pętla",
@@ -129,6 +259,16 @@
       "page": "rozklady/6/0654-oswiecim.html",
       "day_type": "sunday",
       "time": "12:34",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/0654-oswiecim.html",
+      "day_type": "sunday",
+      "time": "13:48",
       "symbols": []
     },
     {
@@ -144,6 +284,16 @@
       ]
     },
     {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/0654-oswiecim.html",
+      "day_type": "sunday",
+      "time": "16:44",
+      "symbols": []
+    },
+    {
       "line": "6",
       "main_direction": "Oświęcim Dwory Pętla",
       "display_direction": "Oświęcim Dwory Pętla",
@@ -151,6 +301,16 @@
       "page": "rozklady/6/0654-oswiecim.html",
       "day_type": "sunday",
       "time": "19:03",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/0654-oswiecim.html",
+      "day_type": "sunday",
+      "time": "19:34",
       "symbols": []
     },
     {
@@ -166,6 +326,36 @@
       ]
     },
     {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/0654-oswiecim.html",
+      "day_type": "workday",
+      "time": "05:12",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/0654-oswiecim.html",
+      "day_type": "workday",
+      "time": "06:22",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/0654-oswiecim.html",
+      "day_type": "workday",
+      "time": "07:44",
+      "symbols": []
+    },
+    {
       "line": "6",
       "main_direction": "Oświęcim Dwory Pętla",
       "display_direction": "Oświęcim Dąbrowskiego Kościół",
@@ -178,6 +368,26 @@
       ]
     },
     {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/0654-oswiecim.html",
+      "day_type": "workday",
+      "time": "08:52",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/0654-oswiecim.html",
+      "day_type": "workday",
+      "time": "10:21",
+      "symbols": []
+    },
+    {
       "line": "6",
       "main_direction": "Oświęcim Dwory Pętla",
       "display_direction": "Oświęcim Dwory Pętla",
@@ -188,6 +398,16 @@
       "symbols": []
     },
     {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/0654-oswiecim.html",
+      "day_type": "workday",
+      "time": "11:47",
+      "symbols": []
+    },
+    {
       "line": "6",
       "main_direction": "Oświęcim Dwory Pętla",
       "display_direction": "Oświęcim Dwory Pętla",
@@ -195,6 +415,26 @@
       "page": "rozklady/6/0654-oswiecim.html",
       "day_type": "workday",
       "time": "12:59",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/0654-oswiecim.html",
+      "day_type": "workday",
+      "time": "13:00",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/0654-oswiecim.html",
+      "day_type": "workday",
+      "time": "14:17",
       "symbols": []
     },
     {
@@ -210,6 +450,16 @@
       ]
     },
     {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/0654-oswiecim.html",
+      "day_type": "workday",
+      "time": "15:38",
+      "symbols": []
+    },
+    {
       "line": "6",
       "main_direction": "Oświęcim Dwory Pętla",
       "display_direction": "Oświęcim Dwory Pętla",
@@ -217,6 +467,36 @@
       "page": "rozklady/6/0654-oswiecim.html",
       "day_type": "workday",
       "time": "16:06",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/0654-oswiecim.html",
+      "day_type": "workday",
+      "time": "16:48",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/0654-oswiecim.html",
+      "day_type": "workday",
+      "time": "18:13",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/0654-oswiecim.html",
+      "day_type": "workday",
+      "time": "20:47",
       "symbols": []
     },
     {
@@ -242,12 +522,18 @@
   ],
   "served_lines": [
     {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "page": "rozklady/15/0654-oswiecim.html"
+    },
+    {
       "line": "6",
       "main_direction": "Oświęcim Dwory Pętla",
       "page": "rozklady/6/0654-oswiecim.html"
     }
   ],
   "legends": {
+    "15": {},
     "6": {
       "O": "do: Oświęcim Dąbrowskiego Kościół"
     }

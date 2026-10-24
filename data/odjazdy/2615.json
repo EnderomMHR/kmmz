@@ -1,0 +1,582 @@
+{
+  "stop_id": "2615",
+  "stop_name": "Jawiszowice Las",
+  "platform": "1",
+  "departures": [
+    {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/2615-oswiecim.html",
+      "day_type": "holiday",
+      "time": "09:50",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Jawiszowice Jaźnik",
+      "display_direction": "Jawiszowice Jaźnik",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/15/2615-jawiszowice.html",
+      "day_type": "holiday",
+      "time": "12:18",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/2615-oswiecim.html",
+      "day_type": "holiday",
+      "time": "12:42",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Jawiszowice Jaźnik",
+      "display_direction": "Jawiszowice Jaźnik",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/15/2615-jawiszowice.html",
+      "day_type": "holiday",
+      "time": "15:10",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/2615-oswiecim.html",
+      "day_type": "holiday",
+      "time": "15:35",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Jawiszowice Jaźnik",
+      "display_direction": "Jawiszowice Jaźnik",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/15/2615-jawiszowice.html",
+      "day_type": "holiday",
+      "time": "17:41",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/2615-oswiecim.html",
+      "day_type": "saturday",
+      "time": "04:37",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Jawiszowice Jaźnik",
+      "display_direction": "Jawiszowice Jaźnik",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/15/2615-jawiszowice.html",
+      "day_type": "saturday",
+      "time": "06:44",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/2615-oswiecim.html",
+      "day_type": "saturday",
+      "time": "07:29",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Jawiszowice Jaźnik",
+      "display_direction": "Jawiszowice Jaźnik",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/15/2615-jawiszowice.html",
+      "day_type": "saturday",
+      "time": "09:27",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/2615-oswiecim.html",
+      "day_type": "saturday",
+      "time": "09:50",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Jawiszowice Jaźnik",
+      "display_direction": "Jawiszowice Jaźnik",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/15/2615-jawiszowice.html",
+      "day_type": "saturday",
+      "time": "12:18",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/2615-oswiecim.html",
+      "day_type": "saturday",
+      "time": "12:42",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Jawiszowice Jaźnik",
+      "display_direction": "Jawiszowice Jaźnik",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/15/2615-jawiszowice.html",
+      "day_type": "saturday",
+      "time": "15:10",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/2615-oswiecim.html",
+      "day_type": "saturday",
+      "time": "15:35",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/2615-oswiecim.html",
+      "day_type": "saturday",
+      "time": "17:26",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Jawiszowice Jaźnik",
+      "display_direction": "Jawiszowice Jaźnik",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/15/2615-jawiszowice.html",
+      "day_type": "saturday",
+      "time": "17:41",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Jawiszowice Jaźnik",
+      "display_direction": "Jawiszowice Jaźnik",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/15/2615-jawiszowice.html",
+      "day_type": "saturday",
+      "time": "19:33",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/2615-oswiecim.html",
+      "day_type": "saturday",
+      "time": "20:18",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Jawiszowice Jaźnik",
+      "display_direction": "Jawiszowice Jaźnik",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/15/2615-jawiszowice.html",
+      "day_type": "saturday",
+      "time": "22:26",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/2615-oswiecim.html",
+      "day_type": "sunday",
+      "time": "04:37",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Jawiszowice Jaźnik",
+      "display_direction": "Jawiszowice Jaźnik",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/15/2615-jawiszowice.html",
+      "day_type": "sunday",
+      "time": "06:40",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/2615-oswiecim.html",
+      "day_type": "sunday",
+      "time": "07:27",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Jawiszowice Jaźnik",
+      "display_direction": "Jawiszowice Jaźnik",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/15/2615-jawiszowice.html",
+      "day_type": "sunday",
+      "time": "09:38",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/2615-oswiecim.html",
+      "day_type": "sunday",
+      "time": "10:23",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Jawiszowice Jaźnik",
+      "display_direction": "Jawiszowice Jaźnik",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/15/2615-jawiszowice.html",
+      "day_type": "sunday",
+      "time": "12:26",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/2615-oswiecim.html",
+      "day_type": "sunday",
+      "time": "13:13",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Jawiszowice Jaźnik",
+      "display_direction": "Jawiszowice Jaźnik",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/15/2615-jawiszowice.html",
+      "day_type": "sunday",
+      "time": "15:24",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/2615-oswiecim.html",
+      "day_type": "sunday",
+      "time": "16:09",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Jawiszowice Jaźnik",
+      "display_direction": "Jawiszowice Jaźnik",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/15/2615-jawiszowice.html",
+      "day_type": "sunday",
+      "time": "18:12",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/2615-oswiecim.html",
+      "day_type": "sunday",
+      "time": "18:59",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Jawiszowice Jaźnik",
+      "display_direction": "Jawiszowice Jaźnik",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/15/2615-jawiszowice.html",
+      "day_type": "sunday",
+      "time": "21:10",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/2615-oswiecim.html",
+      "day_type": "workday",
+      "time": "04:37",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Jawiszowice Jaźnik",
+      "display_direction": "Jawiszowice Jaźnik",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/15/2615-jawiszowice.html",
+      "day_type": "workday",
+      "time": "05:24",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/2615-oswiecim.html",
+      "day_type": "workday",
+      "time": "05:47",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Jawiszowice Jaźnik",
+      "display_direction": "Jawiszowice Jaźnik",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/15/2615-jawiszowice.html",
+      "day_type": "workday",
+      "time": "06:40",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/2615-oswiecim.html",
+      "day_type": "workday",
+      "time": "07:09",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Jawiszowice Jaźnik",
+      "display_direction": "Jawiszowice Jaźnik",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/15/2615-jawiszowice.html",
+      "day_type": "workday",
+      "time": "07:57",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/2615-oswiecim.html",
+      "day_type": "workday",
+      "time": "08:17",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Jawiszowice Jaźnik",
+      "display_direction": "Jawiszowice Jaźnik",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/15/2615-jawiszowice.html",
+      "day_type": "workday",
+      "time": "09:15",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/2615-oswiecim.html",
+      "day_type": "workday",
+      "time": "09:46",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Jawiszowice Jaźnik",
+      "display_direction": "Jawiszowice Jaźnik",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/15/2615-jawiszowice.html",
+      "day_type": "workday",
+      "time": "10:51",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/2615-oswiecim.html",
+      "day_type": "workday",
+      "time": "11:12",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Jawiszowice Jaźnik",
+      "display_direction": "Jawiszowice Jaźnik",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/15/2615-jawiszowice.html",
+      "day_type": "workday",
+      "time": "11:49",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/2615-oswiecim.html",
+      "day_type": "workday",
+      "time": "12:25",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Jawiszowice Jaźnik",
+      "display_direction": "Jawiszowice Jaźnik",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/15/2615-jawiszowice.html",
+      "day_type": "workday",
+      "time": "13:18",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/2615-oswiecim.html",
+      "day_type": "workday",
+      "time": "13:42",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Jawiszowice Jaźnik",
+      "display_direction": "Jawiszowice Jaźnik",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/15/2615-jawiszowice.html",
+      "day_type": "workday",
+      "time": "14:43",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/2615-oswiecim.html",
+      "day_type": "workday",
+      "time": "15:03",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Jawiszowice Jaźnik",
+      "display_direction": "Jawiszowice Jaźnik",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/15/2615-jawiszowice.html",
+      "day_type": "workday",
+      "time": "15:46",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/2615-oswiecim.html",
+      "day_type": "workday",
+      "time": "16:13",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Jawiszowice Jaźnik",
+      "display_direction": "Jawiszowice Jaźnik",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/15/2615-jawiszowice.html",
+      "day_type": "workday",
+      "time": "17:15",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/2615-oswiecim.html",
+      "day_type": "workday",
+      "time": "17:38",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Jawiszowice Jaźnik",
+      "display_direction": "Jawiszowice Jaźnik",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/15/2615-jawiszowice.html",
+      "day_type": "workday",
+      "time": "19:52",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "display_direction": "Oświęcim Dworzec Fabryczny",
+      "direction_slug": "oswiecim",
+      "page": "rozklady/15/2615-oswiecim.html",
+      "day_type": "workday",
+      "time": "20:12",
+      "symbols": []
+    },
+    {
+      "line": "15",
+      "main_direction": "Jawiszowice Jaźnik",
+      "display_direction": "Jawiszowice Jaźnik",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/15/2615-jawiszowice.html",
+      "day_type": "workday",
+      "time": "22:31",
+      "symbols": []
+    }
+  ],
+  "served_lines": [
+    {
+      "line": "15",
+      "main_direction": "Oświęcim Dworzec Fabryczny",
+      "page": "rozklady/15/2615-oswiecim.html"
+    },
+    {
+      "line": "15",
+      "main_direction": "Jawiszowice Jaźnik",
+      "page": "rozklady/15/2615-jawiszowice.html"
+    }
+  ],
+  "legends": {
+    "15": {}
+  }
+}
