@@ -4,6 +4,26 @@
   "platform": "1",
   "departures": [
     {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0671-metkow.html",
+      "day_type": "holiday",
+      "time": "05:06",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0671-metkow.html",
+      "day_type": "holiday",
+      "time": "08:35",
+      "symbols": []
+    },
+    {
       "line": "6",
       "main_direction": "Oświęcim Dwory Pętla",
       "display_direction": "Oświęcim Dwory Pętla",
@@ -11,6 +31,16 @@
       "page": "rozklady/6/0671-oswiecim.html",
       "day_type": "holiday",
       "time": "11:30",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0671-metkow.html",
+      "day_type": "holiday",
+      "time": "12:24",
       "symbols": []
     },
     {
@@ -34,6 +64,16 @@
       "symbols": []
     },
     {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0671-metkow.html",
+      "day_type": "saturday",
+      "time": "05:06",
+      "symbols": []
+    },
+    {
       "line": "6",
       "main_direction": "Oświęcim Dwory Pętla",
       "display_direction": "Oświęcim Dwory Pętla",
@@ -41,6 +81,16 @@
       "page": "rozklady/6/0671-oswiecim.html",
       "day_type": "saturday",
       "time": "06:56",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0671-metkow.html",
+      "day_type": "saturday",
+      "time": "08:35",
       "symbols": []
     },
     {
@@ -64,6 +114,26 @@
       "symbols": []
     },
     {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0671-metkow.html",
+      "day_type": "saturday",
+      "time": "11:36",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0671-metkow.html",
+      "day_type": "saturday",
+      "time": "12:24",
+      "symbols": []
+    },
+    {
       "line": "6",
       "main_direction": "Oświęcim Dwory Pętla",
       "display_direction": "Oświęcim Dwory Pętla",
@@ -84,6 +154,16 @@
       "symbols": []
     },
     {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0671-metkow.html",
+      "day_type": "saturday",
+      "time": "15:17",
+      "symbols": []
+    },
+    {
       "line": "6",
       "main_direction": "Oświęcim Dwory Pętla",
       "display_direction": "Oświęcim Dwory Pętla",
@@ -91,6 +171,16 @@
       "page": "rozklady/6/0671-oswiecim.html",
       "day_type": "saturday",
       "time": "17:44",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0671-metkow.html",
+      "day_type": "saturday",
+      "time": "18:56",
       "symbols": []
     },
     {
@@ -114,6 +204,26 @@
       "symbols": []
     },
     {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0671-metkow.html",
+      "day_type": "saturday",
+      "time": "22:18",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0671-metkow.html",
+      "day_type": "sunday",
+      "time": "05:06",
+      "symbols": []
+    },
+    {
       "line": "6",
       "main_direction": "Oświęcim Dwory Pętla",
       "display_direction": "Oświęcim Dwory Pętla",
@@ -121,6 +231,16 @@
       "page": "rozklady/6/0671-oswiecim.html",
       "day_type": "sunday",
       "time": "07:07",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0671-metkow.html",
+      "day_type": "sunday",
+      "time": "08:35",
       "symbols": []
     },
     {
@@ -144,6 +264,26 @@
       "symbols": []
     },
     {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0671-metkow.html",
+      "day_type": "sunday",
+      "time": "11:36",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0671-metkow.html",
+      "day_type": "sunday",
+      "time": "12:24",
+      "symbols": []
+    },
+    {
       "line": "6",
       "main_direction": "Oświęcim Dwory Pętla",
       "display_direction": "Oświęcim Dwory Pętla",
@@ -164,6 +304,16 @@
       "symbols": []
     },
     {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0671-metkow.html",
+      "day_type": "sunday",
+      "time": "15:17",
+      "symbols": []
+    },
+    {
       "line": "6",
       "main_direction": "Oświęcim Dwory Pętla",
       "display_direction": "Oświęcim Dwory Pętla",
@@ -171,6 +321,16 @@
       "page": "rozklady/6/0671-oswiecim.html",
       "day_type": "sunday",
       "time": "17:37",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0671-metkow.html",
+      "day_type": "sunday",
+      "time": "18:56",
       "symbols": []
     },
     {
@@ -184,6 +344,36 @@
       "symbols": []
     },
     {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0671-metkow.html",
+      "day_type": "sunday",
+      "time": "22:18",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0671-metkow.html",
+      "day_type": "workday",
+      "time": "05:06",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0671-metkow.html",
+      "day_type": "workday",
+      "time": "06:16",
+      "symbols": []
+    },
+    {
       "line": "6",
       "main_direction": "Oświęcim Dwory Pętla",
       "display_direction": "Oświęcim Dwory Pętla",
@@ -191,6 +381,26 @@
       "page": "rozklady/6/0671-oswiecim.html",
       "day_type": "workday",
       "time": "06:17",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0671-metkow.html",
+      "day_type": "workday",
+      "time": "08:30",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0671-metkow.html",
+      "day_type": "workday",
+      "time": "09:52",
       "symbols": []
     },
     {
@@ -204,6 +414,16 @@
       "symbols": []
     },
     {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0671-metkow.html",
+      "day_type": "workday",
+      "time": "10:36",
+      "symbols": []
+    },
+    {
       "line": "6",
       "main_direction": "Oświęcim Dwory Pętla",
       "display_direction": "Oświęcim Dwory Pętla",
@@ -211,6 +431,26 @@
       "page": "rozklady/6/0671-oswiecim.html",
       "day_type": "workday",
       "time": "11:38",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0671-metkow.html",
+      "day_type": "workday",
+      "time": "11:57",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0671-metkow.html",
+      "day_type": "workday",
+      "time": "13:16",
       "symbols": []
     },
     {
@@ -224,6 +464,26 @@
       "symbols": []
     },
     {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0671-metkow.html",
+      "day_type": "workday",
+      "time": "13:49",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0671-metkow.html",
+      "day_type": "workday",
+      "time": "15:12",
+      "symbols": []
+    },
+    {
       "line": "6",
       "main_direction": "Oświęcim Dwory Pętla",
       "display_direction": "Oświęcim Dwory Pętla",
@@ -231,6 +491,16 @@
       "page": "rozklady/6/0671-oswiecim.html",
       "day_type": "workday",
       "time": "16:30",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0671-metkow.html",
+      "day_type": "workday",
+      "time": "16:37",
       "symbols": []
     },
     {
@@ -244,6 +514,16 @@
       "symbols": []
     },
     {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0671-metkow.html",
+      "day_type": "workday",
+      "time": "18:49",
+      "symbols": []
+    },
+    {
       "line": "6",
       "main_direction": "Oświęcim Dwory Pętla",
       "display_direction": "Oświęcim Dwory Pętla",
@@ -254,6 +534,16 @@
       "symbols": []
     },
     {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0671-metkow.html",
+      "day_type": "workday",
+      "time": "20:07",
+      "symbols": []
+    },
+    {
       "line": "6",
       "main_direction": "Oświęcim Dwory Pętla",
       "display_direction": "Oświęcim Dwory Pętla",
@@ -261,6 +551,16 @@
       "page": "rozklady/6/0671-oswiecim.html",
       "day_type": "workday",
       "time": "21:17",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0671-metkow.html",
+      "day_type": "workday",
+      "time": "22:36",
       "symbols": []
     },
     {
@@ -276,12 +576,18 @@
   ],
   "served_lines": [
     {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "page": "rozklady/12/0671-metkow.html"
+    },
+    {
       "line": "6",
       "main_direction": "Oświęcim Dwory Pętla",
       "page": "rozklady/6/0671-oswiecim.html"
     }
   ],
   "legends": {
+    "12": {},
     "6": {
       "O": "do: Oświęcim Dąbrowskiego Kościół"
     }

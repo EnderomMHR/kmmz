@@ -4,6 +4,16 @@
   "platform": "2",
   "departures": [
     {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0362-jawiszowice.html",
+      "day_type": "holiday",
+      "time": "06:41",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Chełmek Młyny",
       "display_direction": "Libiąż Oświęcimska Cmentarz",
@@ -14,6 +24,16 @@
       "symbols": [
         "L"
       ]
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0362-jawiszowice.html",
+      "day_type": "holiday",
+      "time": "10:30",
+      "symbols": []
     },
     {
       "line": "4",
@@ -33,6 +53,16 @@
       "page": "rozklady/4/0362-libiaz.html",
       "day_type": "holiday",
       "time": "12:42",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0362-jawiszowice.html",
+      "day_type": "holiday",
+      "time": "14:09",
       "symbols": []
     },
     {
@@ -78,6 +108,16 @@
       "symbols": []
     },
     {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0362-jawiszowice.html",
+      "day_type": "saturday",
+      "time": "06:41",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Chełmek Młyny",
       "display_direction": "Chełmek Młyny",
@@ -100,6 +140,16 @@
       ]
     },
     {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0362-jawiszowice.html",
+      "day_type": "saturday",
+      "time": "10:30",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Chełmek Młyny",
       "display_direction": "Chełmek Młyny",
@@ -117,6 +167,26 @@
       "page": "rozklady/4/0362-libiaz.html",
       "day_type": "saturday",
       "time": "12:42",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0362-jawiszowice.html",
+      "day_type": "saturday",
+      "time": "13:03",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0362-jawiszowice.html",
+      "day_type": "saturday",
+      "time": "14:09",
       "symbols": []
     },
     {
@@ -152,6 +222,16 @@
       "symbols": []
     },
     {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0362-jawiszowice.html",
+      "day_type": "saturday",
+      "time": "16:52",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Chełmek Młyny",
       "display_direction": "Libiąż Oświęcimska Cmentarz",
@@ -171,6 +251,16 @@
       "page": "rozklady/4/0362-libiaz.html",
       "day_type": "saturday",
       "time": "20:18",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0362-jawiszowice.html",
+      "day_type": "saturday",
+      "time": "20:32",
       "symbols": []
     },
     {
@@ -206,6 +296,16 @@
       "symbols": []
     },
     {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0362-jawiszowice.html",
+      "day_type": "sunday",
+      "time": "06:41",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Chełmek Młyny",
       "display_direction": "Chełmek Młyny",
@@ -213,6 +313,16 @@
       "page": "rozklady/4/0362-libiaz.html",
       "day_type": "sunday",
       "time": "07:47",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0362-jawiszowice.html",
+      "day_type": "sunday",
+      "time": "10:30",
       "symbols": []
     },
     {
@@ -238,6 +348,16 @@
       ]
     },
     {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0362-jawiszowice.html",
+      "day_type": "sunday",
+      "time": "13:03",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Chełmek Młyny",
       "display_direction": "Chełmek Młyny",
@@ -248,6 +368,16 @@
       "symbols": []
     },
     {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0362-jawiszowice.html",
+      "day_type": "sunday",
+      "time": "14:09",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Chełmek Młyny",
       "display_direction": "Chełmek Młyny",
@@ -255,6 +385,16 @@
       "page": "rozklady/4/0362-libiaz.html",
       "day_type": "sunday",
       "time": "14:32",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0362-jawiszowice.html",
+      "day_type": "sunday",
+      "time": "16:52",
       "symbols": []
     },
     {
@@ -278,6 +418,16 @@
       "symbols": []
     },
     {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0362-jawiszowice.html",
+      "day_type": "sunday",
+      "time": "20:32",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Chełmek Młyny",
       "display_direction": "Libiąż Oświęcimska Cmentarz",
@@ -288,6 +438,16 @@
       "symbols": [
         "L"
       ]
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0362-jawiszowice.html",
+      "day_type": "workday",
+      "time": "04:26",
+      "symbols": []
     },
     {
       "line": "4",
@@ -310,6 +470,16 @@
       "symbols": []
     },
     {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0362-jawiszowice.html",
+      "day_type": "workday",
+      "time": "06:35",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Chełmek Młyny",
       "display_direction": "Chełmek Młyny",
@@ -317,6 +487,16 @@
       "page": "rozklady/4/0362-libiaz.html",
       "day_type": "workday",
       "time": "06:36",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0362-jawiszowice.html",
+      "day_type": "workday",
+      "time": "07:47",
       "symbols": []
     },
     {
@@ -364,6 +544,26 @@
       ]
     },
     {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0362-jawiszowice.html",
+      "day_type": "workday",
+      "time": "10:12",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0362-jawiszowice.html",
+      "day_type": "workday",
+      "time": "11:18",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Chełmek Młyny",
       "display_direction": "Chełmek Młyny",
@@ -374,6 +574,16 @@
       "symbols": []
     },
     {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0362-jawiszowice.html",
+      "day_type": "workday",
+      "time": "12:03",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Chełmek Młyny",
       "display_direction": "Chełmek Młyny",
@@ -381,6 +591,16 @@
       "page": "rozklady/4/0362-libiaz.html",
       "day_type": "workday",
       "time": "12:17",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0362-jawiszowice.html",
+      "day_type": "workday",
+      "time": "13:24",
       "symbols": []
     },
     {
@@ -404,6 +624,16 @@
       "symbols": []
     },
     {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0362-jawiszowice.html",
+      "day_type": "workday",
+      "time": "14:47",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Chełmek Młyny",
       "display_direction": "Libiąż Oświęcimska Cmentarz",
@@ -414,6 +644,16 @@
       "symbols": [
         "L"
       ]
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0362-jawiszowice.html",
+      "day_type": "workday",
+      "time": "15:29",
+      "symbols": []
     },
     {
       "line": "4",
@@ -438,6 +678,16 @@
       ]
     },
     {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0362-jawiszowice.html",
+      "day_type": "workday",
+      "time": "16:48",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Chełmek Młyny",
       "display_direction": "Chełmek Młyny",
@@ -458,6 +708,16 @@
       "symbols": [
         "L"
       ]
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0362-jawiszowice.html",
+      "day_type": "workday",
+      "time": "18:23",
+      "symbols": []
     },
     {
       "line": "4",
@@ -482,6 +742,16 @@
       ]
     },
     {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0362-jawiszowice.html",
+      "day_type": "workday",
+      "time": "20:15",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Chełmek Młyny",
       "display_direction": "Chełmek Młyny",
@@ -489,6 +759,16 @@
       "page": "rozklady/4/0362-libiaz.html",
       "day_type": "workday",
       "time": "20:22",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0362-jawiszowice.html",
+      "day_type": "workday",
+      "time": "22:12",
       "symbols": []
     },
     {
@@ -504,12 +784,18 @@
   ],
   "served_lines": [
     {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "page": "rozklady/12/0362-jawiszowice.html"
+    },
+    {
       "line": "4",
       "main_direction": "Chełmek Młyny",
       "page": "rozklady/4/0362-libiaz.html"
     }
   ],
   "legends": {
+    "12": {},
     "4": {
       "L": "do: Libiąż Oświęcimska Cmentarz"
     }

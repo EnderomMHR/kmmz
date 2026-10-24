@@ -4,6 +4,16 @@
   "platform": "1",
   "departures": [
     {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0637-jawiszowice.html",
+      "day_type": "holiday",
+      "time": "07:24",
+      "symbols": []
+    },
+    {
       "line": "6",
       "main_direction": "Wilczkowice Pętla",
       "display_direction": "Wilczkowice Pętla",
@@ -14,6 +24,16 @@
       "symbols": []
     },
     {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0637-jawiszowice.html",
+      "day_type": "holiday",
+      "time": "11:13",
+      "symbols": []
+    },
+    {
       "line": "6",
       "main_direction": "Wilczkowice Pętla",
       "display_direction": "Wilczkowice Pętla",
@@ -21,6 +41,16 @@
       "page": "rozklady/6/0637-wilczkowice.html",
       "day_type": "holiday",
       "time": "13:59",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0637-jawiszowice.html",
+      "day_type": "holiday",
+      "time": "14:52",
       "symbols": []
     },
     {
@@ -54,6 +84,16 @@
       "symbols": []
     },
     {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0637-jawiszowice.html",
+      "day_type": "saturday",
+      "time": "07:24",
+      "symbols": []
+    },
+    {
       "line": "6",
       "main_direction": "Wilczkowice Pętla",
       "display_direction": "Wilczkowice Pętla",
@@ -61,6 +101,26 @@
       "page": "rozklady/6/0637-wilczkowice.html",
       "day_type": "saturday",
       "time": "10:28",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0637-jawiszowice.html",
+      "day_type": "saturday",
+      "time": "11:13",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0637-jawiszowice.html",
+      "day_type": "saturday",
+      "time": "13:46",
       "symbols": []
     },
     {
@@ -74,6 +134,16 @@
       "symbols": []
     },
     {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0637-jawiszowice.html",
+      "day_type": "saturday",
+      "time": "14:52",
+      "symbols": []
+    },
+    {
       "line": "6",
       "main_direction": "Wilczkowice Pętla",
       "display_direction": "Wilczkowice Pętla",
@@ -81,6 +151,16 @@
       "page": "rozklady/6/0637-wilczkowice.html",
       "day_type": "saturday",
       "time": "15:59",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0637-jawiszowice.html",
+      "day_type": "saturday",
+      "time": "17:35",
       "symbols": []
     },
     {
@@ -94,6 +174,16 @@
       "symbols": []
     },
     {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0637-jawiszowice.html",
+      "day_type": "saturday",
+      "time": "21:15",
+      "symbols": []
+    },
+    {
       "line": "6",
       "main_direction": "Wilczkowice Pętla",
       "display_direction": "Wilczkowice Pętla",
@@ -101,6 +191,16 @@
       "page": "rozklady/6/0637-wilczkowice.html",
       "day_type": "sunday",
       "time": "05:27",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0637-jawiszowice.html",
+      "day_type": "sunday",
+      "time": "07:24",
       "symbols": []
     },
     {
@@ -114,6 +214,16 @@
       "symbols": []
     },
     {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0637-jawiszowice.html",
+      "day_type": "sunday",
+      "time": "11:13",
+      "symbols": []
+    },
+    {
       "line": "6",
       "main_direction": "Wilczkowice Pętla",
       "display_direction": "Wilczkowice Pętla",
@@ -121,6 +231,26 @@
       "page": "rozklady/6/0637-wilczkowice.html",
       "day_type": "sunday",
       "time": "11:46",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0637-jawiszowice.html",
+      "day_type": "sunday",
+      "time": "13:46",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0637-jawiszowice.html",
+      "day_type": "sunday",
+      "time": "14:52",
       "symbols": []
     },
     {
@@ -134,6 +264,16 @@
       "symbols": []
     },
     {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0637-jawiszowice.html",
+      "day_type": "sunday",
+      "time": "17:35",
+      "symbols": []
+    },
+    {
       "line": "6",
       "main_direction": "Wilczkowice Pętla",
       "display_direction": "Wilczkowice Pętla",
@@ -141,6 +281,16 @@
       "page": "rozklady/6/0637-wilczkowice.html",
       "day_type": "sunday",
       "time": "18:35",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0637-jawiszowice.html",
+      "day_type": "sunday",
+      "time": "21:15",
       "symbols": []
     },
     {
@@ -154,6 +304,26 @@
       "symbols": []
     },
     {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0637-jawiszowice.html",
+      "day_type": "workday",
+      "time": "05:09",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0637-jawiszowice.html",
+      "day_type": "workday",
+      "time": "07:18",
+      "symbols": []
+    },
+    {
       "line": "6",
       "main_direction": "Wilczkowice Pętla",
       "display_direction": "Wilczkowice Pętla",
@@ -161,6 +331,16 @@
       "page": "rozklady/6/0637-wilczkowice.html",
       "day_type": "workday",
       "time": "07:25",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0637-jawiszowice.html",
+      "day_type": "workday",
+      "time": "08:30",
       "symbols": []
     },
     {
@@ -174,6 +354,26 @@
       "symbols": []
     },
     {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0637-jawiszowice.html",
+      "day_type": "workday",
+      "time": "10:55",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0637-jawiszowice.html",
+      "day_type": "workday",
+      "time": "12:01",
+      "symbols": []
+    },
+    {
       "line": "6",
       "main_direction": "Wilczkowice Pętla",
       "display_direction": "Wilczkowice Pętla",
@@ -181,6 +381,26 @@
       "page": "rozklady/6/0637-wilczkowice.html",
       "day_type": "workday",
       "time": "12:31",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0637-jawiszowice.html",
+      "day_type": "workday",
+      "time": "12:46",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0637-jawiszowice.html",
+      "day_type": "workday",
+      "time": "14:07",
       "symbols": []
     },
     {
@@ -194,6 +414,16 @@
       "symbols": []
     },
     {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0637-jawiszowice.html",
+      "day_type": "workday",
+      "time": "15:30",
+      "symbols": []
+    },
+    {
       "line": "6",
       "main_direction": "Wilczkowice Pętla",
       "display_direction": "Wilczkowice Pętla",
@@ -201,6 +431,36 @@
       "page": "rozklady/6/0637-wilczkowice.html",
       "day_type": "workday",
       "time": "15:43",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0637-jawiszowice.html",
+      "day_type": "workday",
+      "time": "16:12",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0637-jawiszowice.html",
+      "day_type": "workday",
+      "time": "17:31",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0637-jawiszowice.html",
+      "day_type": "workday",
+      "time": "19:06",
       "symbols": []
     },
     {
@@ -214,6 +474,16 @@
       "symbols": []
     },
     {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0637-jawiszowice.html",
+      "day_type": "workday",
+      "time": "20:58",
+      "symbols": []
+    },
+    {
       "line": "6",
       "main_direction": "Wilczkowice Pętla",
       "display_direction": "Wilczkowice Pętla",
@@ -222,9 +492,24 @@
       "day_type": "workday",
       "time": "22:10",
       "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0637-jawiszowice.html",
+      "day_type": "workday",
+      "time": "22:55",
+      "symbols": []
     }
   ],
   "served_lines": [
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "page": "rozklady/12/0637-jawiszowice.html"
+    },
     {
       "line": "6",
       "main_direction": "Wilczkowice Pętla",
@@ -232,6 +517,7 @@
     }
   ],
   "legends": {
+    "12": {},
     "6": {
       "Z": "do: Oświęcim Park Zasole"
     }

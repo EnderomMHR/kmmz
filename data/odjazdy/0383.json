@@ -4,6 +4,26 @@
   "platform": "2",
   "departures": [
     {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0383-metkow.html",
+      "day_type": "holiday",
+      "time": "05:35",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0383-metkow.html",
+      "day_type": "holiday",
+      "time": "09:04",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Trzebinia Dworzec PKP",
@@ -24,6 +44,16 @@
       "symbols": [
         "C"
       ]
+    },
+    {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0383-metkow.html",
+      "day_type": "holiday",
+      "time": "12:53",
+      "symbols": []
     },
     {
       "line": "4",
@@ -60,6 +90,16 @@
       ]
     },
     {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0383-metkow.html",
+      "day_type": "saturday",
+      "time": "05:35",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Chrzanów Dworzec Autobusowy",
@@ -70,6 +110,16 @@
       "symbols": [
         "C"
       ]
+    },
+    {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0383-metkow.html",
+      "day_type": "saturday",
+      "time": "09:04",
+      "symbols": []
     },
     {
       "line": "4",
@@ -96,6 +146,26 @@
       ]
     },
     {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0383-metkow.html",
+      "day_type": "saturday",
+      "time": "12:05",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0383-metkow.html",
+      "day_type": "saturday",
+      "time": "12:53",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Trzebinia Dworzec PKP",
@@ -118,6 +188,16 @@
       "symbols": []
     },
     {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0383-metkow.html",
+      "day_type": "saturday",
+      "time": "15:46",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Chrzanów Dworzec Autobusowy",
@@ -128,6 +208,16 @@
       "symbols": [
         "C"
       ]
+    },
+    {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0383-metkow.html",
+      "day_type": "saturday",
+      "time": "19:25",
+      "symbols": []
     },
     {
       "line": "4",
@@ -142,6 +232,16 @@
       ]
     },
     {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0383-metkow.html",
+      "day_type": "saturday",
+      "time": "22:47",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Chrzanów Dworzec Autobusowy",
@@ -152,6 +252,16 @@
       "symbols": [
         "C"
       ]
+    },
+    {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0383-metkow.html",
+      "day_type": "sunday",
+      "time": "05:35",
+      "symbols": []
     },
     {
       "line": "4",
@@ -176,6 +286,16 @@
       "symbols": []
     },
     {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0383-metkow.html",
+      "day_type": "sunday",
+      "time": "09:04",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Trzebinia Dworzec PKP",
@@ -183,6 +303,26 @@
       "page": "rozklady/4/0383-trzebinia.html",
       "day_type": "sunday",
       "time": "11:22",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0383-metkow.html",
+      "day_type": "sunday",
+      "time": "12:05",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0383-metkow.html",
+      "day_type": "sunday",
+      "time": "12:53",
       "symbols": []
     },
     {
@@ -208,6 +348,16 @@
       "symbols": []
     },
     {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0383-metkow.html",
+      "day_type": "sunday",
+      "time": "15:46",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Chrzanów Dworzec Autobusowy",
@@ -218,6 +368,16 @@
       "symbols": [
         "C"
       ]
+    },
+    {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0383-metkow.html",
+      "day_type": "sunday",
+      "time": "19:25",
+      "symbols": []
     },
     {
       "line": "4",
@@ -232,6 +392,16 @@
       ]
     },
     {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0383-metkow.html",
+      "day_type": "sunday",
+      "time": "22:47",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Trzebinia Dworzec PKP",
@@ -244,6 +414,16 @@
       ]
     },
     {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0383-metkow.html",
+      "day_type": "workday",
+      "time": "05:35",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Młoszowa Florkiewicza",
@@ -254,6 +434,16 @@
       "symbols": [
         "M"
       ]
+    },
+    {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0383-metkow.html",
+      "day_type": "workday",
+      "time": "06:45",
+      "symbols": []
     },
     {
       "line": "4",
@@ -278,6 +468,26 @@
       ]
     },
     {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0383-metkow.html",
+      "day_type": "workday",
+      "time": "08:59",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0383-metkow.html",
+      "day_type": "workday",
+      "time": "10:21",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Trzebinia Dworzec PKP",
@@ -285,6 +495,16 @@
       "page": "rozklady/4/0383-trzebinia.html",
       "day_type": "workday",
       "time": "10:32",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0383-metkow.html",
+      "day_type": "workday",
+      "time": "11:05",
       "symbols": []
     },
     {
@@ -300,6 +520,16 @@
       ]
     },
     {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0383-metkow.html",
+      "day_type": "workday",
+      "time": "12:26",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Młoszowa Florkiewicza",
@@ -313,6 +543,16 @@
       ]
     },
     {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0383-metkow.html",
+      "day_type": "workday",
+      "time": "13:45",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Chrzanów Dworzec Autobusowy",
@@ -323,6 +563,16 @@
       "symbols": [
         "C"
       ]
+    },
+    {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0383-metkow.html",
+      "day_type": "workday",
+      "time": "14:18",
+      "symbols": []
     },
     {
       "line": "4",
@@ -338,6 +588,16 @@
       ]
     },
     {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0383-metkow.html",
+      "day_type": "workday",
+      "time": "15:41",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Chrzanów Dworzec Autobusowy",
@@ -350,6 +610,16 @@
       ]
     },
     {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0383-metkow.html",
+      "day_type": "workday",
+      "time": "17:06",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Trzebinia Dworzec PKP",
@@ -360,6 +630,16 @@
       "symbols": []
     },
     {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0383-metkow.html",
+      "day_type": "workday",
+      "time": "19:18",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Trzebinia Dworzec PKP",
@@ -367,6 +647,16 @@
       "page": "rozklady/4/0383-trzebinia.html",
       "day_type": "workday",
       "time": "19:50",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0383-metkow.html",
+      "day_type": "workday",
+      "time": "20:36",
       "symbols": []
     },
     {
@@ -390,9 +680,24 @@
       "day_type": "workday",
       "time": "23:02",
       "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0383-metkow.html",
+      "day_type": "workday",
+      "time": "23:05",
+      "symbols": []
     }
   ],
   "served_lines": [
+    {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "page": "rozklady/12/0383-metkow.html"
+    },
     {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
@@ -400,6 +705,7 @@
     }
   ],
   "legends": {
+    "12": {},
     "4": {
       "C": "do: Chrzanów Dworzec Autobusowy",
       "M": "do: Młoszowa Florkiewicza",

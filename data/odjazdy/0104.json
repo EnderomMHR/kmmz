@@ -4,6 +4,36 @@
   "platform": "1",
   "departures": [
     {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0104-metkow.html",
+      "day_type": "holiday",
+      "time": "05:42",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0104-jawiszowice.html",
+      "day_type": "holiday",
+      "time": "06:38",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0104-metkow.html",
+      "day_type": "holiday",
+      "time": "09:11",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Oświęcimska Cmentarz",
@@ -14,6 +44,16 @@
       "symbols": [
         "L"
       ]
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0104-jawiszowice.html",
+      "day_type": "holiday",
+      "time": "10:27",
+      "symbols": []
     },
     {
       "line": "4",
@@ -50,6 +90,16 @@
       ]
     },
     {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0104-metkow.html",
+      "day_type": "holiday",
+      "time": "13:00",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Kopalnia Janina",
@@ -57,6 +107,16 @@
       "page": "rozklady/4/0104-libiaz.html",
       "day_type": "holiday",
       "time": "13:01",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0104-jawiszowice.html",
+      "day_type": "holiday",
+      "time": "14:06",
       "symbols": []
     },
     {
@@ -106,6 +166,16 @@
       ]
     },
     {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0104-metkow.html",
+      "day_type": "saturday",
+      "time": "05:42",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Kopalnia Janina",
@@ -136,6 +206,16 @@
       "symbols": [
         "C"
       ]
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0104-jawiszowice.html",
+      "day_type": "saturday",
+      "time": "06:38",
+      "symbols": []
     },
     {
       "line": "4",
@@ -170,6 +250,16 @@
       "symbols": []
     },
     {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0104-metkow.html",
+      "day_type": "saturday",
+      "time": "09:11",
+      "symbols": []
+    },
+    {
       "line": "1",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Kopalnia Janina",
@@ -190,6 +280,16 @@
       "symbols": [
         "L"
       ]
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0104-jawiszowice.html",
+      "day_type": "saturday",
+      "time": "10:27",
+      "symbols": []
     },
     {
       "line": "4",
@@ -224,6 +324,16 @@
       "symbols": []
     },
     {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0104-metkow.html",
+      "day_type": "saturday",
+      "time": "12:12",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Chełmek Młyny",
@@ -236,6 +346,26 @@
       ]
     },
     {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0104-jawiszowice.html",
+      "day_type": "saturday",
+      "time": "13:00",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0104-metkow.html",
+      "day_type": "saturday",
+      "time": "13:00",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Kopalnia Janina",
@@ -243,6 +373,16 @@
       "page": "rozklady/4/0104-libiaz.html",
       "day_type": "saturday",
       "time": "13:01",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0104-jawiszowice.html",
+      "day_type": "saturday",
+      "time": "14:06",
       "symbols": []
     },
     {
@@ -278,6 +418,16 @@
       "symbols": []
     },
     {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0104-metkow.html",
+      "day_type": "saturday",
+      "time": "15:53",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Oświęcimska Cmentarz",
@@ -300,6 +450,16 @@
       "symbols": [
         "C"
       ]
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0104-jawiszowice.html",
+      "day_type": "saturday",
+      "time": "16:49",
+      "symbols": []
     },
     {
       "line": "4",
@@ -344,6 +504,16 @@
       ]
     },
     {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0104-metkow.html",
+      "day_type": "saturday",
+      "time": "19:32",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Chełmek Młyny",
@@ -354,6 +524,16 @@
       "symbols": [
         "C"
       ]
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0104-jawiszowice.html",
+      "day_type": "saturday",
+      "time": "20:29",
+      "symbols": []
     },
     {
       "line": "1",
@@ -410,6 +590,16 @@
       "symbols": []
     },
     {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0104-metkow.html",
+      "day_type": "saturday",
+      "time": "22:54",
+      "symbols": []
+    },
+    {
       "line": "1",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Kopalnia Janina",
@@ -417,6 +607,16 @@
       "page": "rozklady/1/0104_libiaz.html",
       "day_type": "saturday",
       "time": "23:14",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0104-metkow.html",
+      "day_type": "sunday",
+      "time": "05:42",
       "symbols": []
     },
     {
@@ -442,6 +642,16 @@
       "symbols": []
     },
     {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0104-jawiszowice.html",
+      "day_type": "sunday",
+      "time": "06:38",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Chełmek Młyny",
@@ -464,6 +674,16 @@
       "symbols": []
     },
     {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0104-metkow.html",
+      "day_type": "sunday",
+      "time": "09:11",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Kopalnia Janina",
@@ -471,6 +691,16 @@
       "page": "rozklady/4/0104-libiaz.html",
       "day_type": "sunday",
       "time": "09:57",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0104-jawiszowice.html",
+      "day_type": "sunday",
+      "time": "10:27",
       "symbols": []
     },
     {
@@ -496,6 +726,16 @@
       "symbols": []
     },
     {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0104-metkow.html",
+      "day_type": "sunday",
+      "time": "12:12",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Oświęcimska Cmentarz",
@@ -508,6 +748,26 @@
       ]
     },
     {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0104-jawiszowice.html",
+      "day_type": "sunday",
+      "time": "13:00",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0104-metkow.html",
+      "day_type": "sunday",
+      "time": "13:00",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Chełmek Młyny",
@@ -518,6 +778,16 @@
       "symbols": [
         "C"
       ]
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0104-jawiszowice.html",
+      "day_type": "sunday",
+      "time": "14:06",
+      "symbols": []
     },
     {
       "line": "4",
@@ -542,6 +812,16 @@
       "symbols": []
     },
     {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0104-metkow.html",
+      "day_type": "sunday",
+      "time": "15:53",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Kopalnia Janina",
@@ -549,6 +829,16 @@
       "page": "rozklady/4/0104-libiaz.html",
       "day_type": "sunday",
       "time": "16:48",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0104-jawiszowice.html",
+      "day_type": "sunday",
+      "time": "16:49",
       "symbols": []
     },
     {
@@ -574,6 +864,16 @@
       ]
     },
     {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0104-metkow.html",
+      "day_type": "sunday",
+      "time": "19:32",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Chełmek Młyny",
@@ -586,6 +886,16 @@
       ]
     },
     {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0104-jawiszowice.html",
+      "day_type": "sunday",
+      "time": "20:29",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Kopalnia Janina",
@@ -593,6 +903,16 @@
       "page": "rozklady/4/0104-libiaz.html",
       "day_type": "sunday",
       "time": "21:59",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0104-metkow.html",
+      "day_type": "sunday",
+      "time": "22:54",
       "symbols": []
     },
     {
@@ -606,6 +926,16 @@
       "symbols": [
         "L"
       ]
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0104-jawiszowice.html",
+      "day_type": "workday",
+      "time": "04:23",
+      "symbols": []
     },
     {
       "line": "4",
@@ -652,6 +982,16 @@
       ]
     },
     {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0104-metkow.html",
+      "day_type": "workday",
+      "time": "05:42",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Chełmek Młyny",
@@ -664,6 +1004,16 @@
       ]
     },
     {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0104-jawiszowice.html",
+      "day_type": "workday",
+      "time": "06:32",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Kopalnia Janina",
@@ -674,6 +1024,16 @@
       "symbols": []
     },
     {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0104-metkow.html",
+      "day_type": "workday",
+      "time": "06:52",
+      "symbols": []
+    },
+    {
       "line": "1",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Kopalnia Janina",
@@ -681,6 +1041,16 @@
       "page": "rozklady/1/0104_libiaz.html",
       "day_type": "workday",
       "time": "07:25",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0104-jawiszowice.html",
+      "day_type": "workday",
+      "time": "07:44",
       "symbols": []
     },
     {
@@ -728,6 +1098,16 @@
       ]
     },
     {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0104-metkow.html",
+      "day_type": "workday",
+      "time": "09:06",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Chełmek Młyny",
@@ -752,6 +1132,26 @@
       ]
     },
     {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0104-jawiszowice.html",
+      "day_type": "workday",
+      "time": "10:09",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0104-metkow.html",
+      "day_type": "workday",
+      "time": "10:28",
+      "symbols": []
+    },
+    {
       "line": "1",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Kopalnia Janina",
@@ -772,6 +1172,16 @@
       "symbols": []
     },
     {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0104-metkow.html",
+      "day_type": "workday",
+      "time": "11:12",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Chełmek Młyny",
@@ -782,6 +1192,16 @@
       "symbols": [
         "C"
       ]
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0104-jawiszowice.html",
+      "day_type": "workday",
+      "time": "11:15",
+      "symbols": []
     },
     {
       "line": "1",
@@ -804,6 +1224,16 @@
       "symbols": []
     },
     {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0104-jawiszowice.html",
+      "day_type": "workday",
+      "time": "12:00",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Chełmek Młyny",
@@ -814,6 +1244,16 @@
       "symbols": [
         "C"
       ]
+    },
+    {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0104-metkow.html",
+      "day_type": "workday",
+      "time": "12:33",
+      "symbols": []
     },
     {
       "line": "4",
@@ -848,6 +1288,36 @@
       ]
     },
     {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0104-jawiszowice.html",
+      "day_type": "workday",
+      "time": "13:21",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0104-metkow.html",
+      "day_type": "workday",
+      "time": "13:52",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0104-metkow.html",
+      "day_type": "workday",
+      "time": "14:25",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Chełmek Młyny",
@@ -858,6 +1328,16 @@
       "symbols": [
         "C"
       ]
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0104-jawiszowice.html",
+      "day_type": "workday",
+      "time": "14:44",
+      "symbols": []
     },
     {
       "line": "4",
@@ -890,6 +1370,26 @@
       "symbols": [
         "L"
       ]
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0104-jawiszowice.html",
+      "day_type": "workday",
+      "time": "15:26",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0104-metkow.html",
+      "day_type": "workday",
+      "time": "15:48",
+      "symbols": []
     },
     {
       "line": "4",
@@ -926,6 +1426,16 @@
       ]
     },
     {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0104-jawiszowice.html",
+      "day_type": "workday",
+      "time": "16:45",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Chełmek Młyny",
@@ -936,6 +1446,16 @@
       "symbols": [
         "C"
       ]
+    },
+    {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0104-metkow.html",
+      "day_type": "workday",
+      "time": "17:13",
+      "symbols": []
     },
     {
       "line": "1",
@@ -970,6 +1490,16 @@
       "symbols": []
     },
     {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0104-jawiszowice.html",
+      "day_type": "workday",
+      "time": "18:20",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Chełmek Młyny",
@@ -982,6 +1512,16 @@
       ]
     },
     {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0104-metkow.html",
+      "day_type": "workday",
+      "time": "19:25",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Oświęcimska Cmentarz",
@@ -992,6 +1532,16 @@
       "symbols": [
         "L"
       ]
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0104-jawiszowice.html",
+      "day_type": "workday",
+      "time": "20:12",
+      "symbols": []
     },
     {
       "line": "4",
@@ -1016,6 +1566,16 @@
       "symbols": []
     },
     {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0104-metkow.html",
+      "day_type": "workday",
+      "time": "20:43",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Kopalnia Janina",
@@ -1023,6 +1583,16 @@
       "page": "rozklady/4/0104-libiaz.html",
       "day_type": "workday",
       "time": "20:57",
+      "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "display_direction": "Jawiszowice Kółko",
+      "direction_slug": "jawiszowice",
+      "page": "rozklady/12/0104-jawiszowice.html",
+      "day_type": "workday",
+      "time": "22:09",
       "symbols": []
     },
     {
@@ -1046,6 +1616,16 @@
       "day_type": "workday",
       "time": "22:58",
       "symbols": []
+    },
+    {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "display_direction": "Mętków Mały",
+      "direction_slug": "metkow",
+      "page": "rozklady/12/0104-metkow.html",
+      "day_type": "workday",
+      "time": "23:12",
+      "symbols": []
     }
   ],
   "served_lines": [
@@ -1055,6 +1635,16 @@
       "page": "rozklady/1/0104_libiaz.html"
     },
     {
+      "line": "12",
+      "main_direction": "Mętków Mały",
+      "page": "rozklady/12/0104-metkow.html"
+    },
+    {
+      "line": "12",
+      "main_direction": "Jawiszowice Kółko",
+      "page": "rozklady/12/0104-jawiszowice.html"
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "page": "rozklady/4/0104-libiaz.html"
@@ -1062,6 +1652,7 @@
   ],
   "legends": {
     "1": {},
+    "12": {},
     "4": {
       "C": "do: Chełmek Młyny",
       "L": "do: Libiąż Oświęcimska Cmentarz"
