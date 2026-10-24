@@ -18,6 +18,9 @@ on:
       - 'tools/test-line10-import.py'
       - 'tools/check-line11.py'
       - 'tools/test-line11-import.py'
+      - 'tools/check-line12.py'
+      - 'tools/test-line12-import.py'
+      - 'linie/12.html'
       - 'linie/11.html'
       - 'linie/10.html'
       - 'linie/9.html'
@@ -59,6 +62,8 @@ jobs:
         run: python tools/test-line10-import.py
       - name: Validate line 11 importer against course data
         run: python tools/test-line11-import.py
+      - name: Validate line 12 importer against course data
+        run: python tools/test-line12-import.py
       - name: Validate line 8 circular route and terminal arrivals
         run: python tools/check-line8.py
       - name: Check terminal arrival filtering
@@ -73,6 +78,8 @@ jobs:
         run: python tools/check-line10.py
       - name: Verify line 11 corrected Excel source and generated pages
         run: python tools/check-line11.py
+      - name: Verify line 12 Excel source, route and generated pages
+        run: python tools/check-line12.py
       - name: Verify line 8 generated pages, map directions and stop visibility
         run: python tools/check-line8-pages.py
       - name: Confirm line 5 pages
@@ -86,6 +93,13 @@ jobs:
           test -f data/odjazdy/0633.json
           test -f przystanki/0669.html
           test -f rozklady/7/0684-okrezna.html
+          test -f rozklady/12/2568-metkow.html
+          test -f rozklady/12/0311-metkow.html
+          test -f rozklady/12/0311-jawiszowice.html
+          test -f rozklady/12/2557-jawiszowice.html
+          test -f data/odjazdy/2568.json
+          test -f data/odjazdy/0311.json
+          test -f przystanki/2557.html
           test -f rozklady/11/0200-tarnawa.html
           test -f rozklady/11/0747-tarnawa.html
           test -f rozklady/11/0747-olkusz.html
