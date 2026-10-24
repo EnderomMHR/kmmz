@@ -14,6 +14,16 @@
       "symbols": []
     },
     {
+      "line": "14",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/14/0093-chrzanow.html",
+      "day_type": "saturday",
+      "time": "06:18",
+      "symbols": []
+    },
+    {
       "line": "1",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Kopalnia Janina",
@@ -41,6 +51,16 @@
       "page": "rozklady/1/0093_libiaz.html",
       "day_type": "saturday",
       "time": "14:05",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0093-grojec.html",
+      "day_type": "saturday",
+      "time": "14:59",
       "symbols": []
     },
     {
@@ -94,6 +114,28 @@
       "symbols": []
     },
     {
+      "line": "14",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/14/0093-chrzanow.html",
+      "day_type": "workday",
+      "time": "07:09",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0093-grojec.html",
+      "day_type": "workday",
+      "time": "07:43",
+      "symbols": [
+        "G"
+      ]
+    },
+    {
       "line": "1",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Kopalnia Janina",
@@ -114,6 +156,16 @@
       "symbols": []
     },
     {
+      "line": "14",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/14/0093-chrzanow.html",
+      "day_type": "workday",
+      "time": "10:28",
+      "symbols": []
+    },
+    {
       "line": "1",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Kopalnia Janina",
@@ -121,6 +173,16 @@
       "page": "rozklady/1/0093_libiaz.html",
       "day_type": "workday",
       "time": "11:13",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0093-grojec.html",
+      "day_type": "workday",
+      "time": "11:57",
       "symbols": []
     },
     {
@@ -144,6 +206,16 @@
       "symbols": []
     },
     {
+      "line": "14",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/14/0093-chrzanow.html",
+      "day_type": "workday",
+      "time": "15:33",
+      "symbols": []
+    },
+    {
       "line": "1",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Kopalnia Janina",
@@ -162,6 +234,18 @@
       "day_type": "workday",
       "time": "17:06",
       "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0093-grojec.html",
+      "day_type": "workday",
+      "time": "17:32",
+      "symbols": [
+        "G"
+      ]
     },
     {
       "line": "1",
@@ -201,11 +285,25 @@
       "line": "1",
       "main_direction": "Libiąż Kopalnia Janina",
       "page": "rozklady/1/0093_libiaz.html"
+    },
+    {
+      "line": "14",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "page": "rozklady/14/0093-chrzanow.html"
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "page": "rozklady/14/0093-grojec.html"
     }
   ],
   "legends": {
     "1": {
       "C": "do: Chrzanów Dworzec Autobusowy"
+    },
+    "14": {
+      "G": "do: Sanka Głuchówki",
+      "S": "przez: Chrzanów Szpital"
     }
   }
 }

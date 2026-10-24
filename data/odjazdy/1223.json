@@ -1,0 +1,390 @@
+{
+  "stop_id": "1223",
+  "stop_name": "Płaza Działki",
+  "platform": "2",
+  "departures": [
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1223-grojec.html",
+      "day_type": "holiday",
+      "time": "09:20",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1223-grojec.html",
+      "day_type": "holiday",
+      "time": "11:03",
+      "symbols": [
+        "G"
+      ]
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1223-grojec.html",
+      "day_type": "holiday",
+      "time": "13:30",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1223-grojec.html",
+      "day_type": "holiday",
+      "time": "15:06",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1223-grojec.html",
+      "day_type": "holiday",
+      "time": "16:50",
+      "symbols": [
+        "G"
+      ]
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1223-grojec.html",
+      "day_type": "saturday",
+      "time": "06:50",
+      "symbols": [
+        "G"
+      ]
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1223-grojec.html",
+      "day_type": "saturday",
+      "time": "09:20",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1223-grojec.html",
+      "day_type": "saturday",
+      "time": "11:03",
+      "symbols": [
+        "G"
+      ]
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1223-grojec.html",
+      "day_type": "saturday",
+      "time": "13:30",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1223-grojec.html",
+      "day_type": "saturday",
+      "time": "15:08",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1223-grojec.html",
+      "day_type": "saturday",
+      "time": "16:50",
+      "symbols": [
+        "G"
+      ]
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1223-grojec.html",
+      "day_type": "saturday",
+      "time": "19:21",
+      "symbols": [
+        "G"
+      ]
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1223-grojec.html",
+      "day_type": "saturday",
+      "time": "21:31",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1223-grojec.html",
+      "day_type": "sunday",
+      "time": "07:52",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1223-grojec.html",
+      "day_type": "sunday",
+      "time": "10:10",
+      "symbols": [
+        "G"
+      ]
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1223-grojec.html",
+      "day_type": "sunday",
+      "time": "12:21",
+      "symbols": [
+        "G"
+      ]
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1223-grojec.html",
+      "day_type": "sunday",
+      "time": "14:40",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1223-grojec.html",
+      "day_type": "sunday",
+      "time": "16:28",
+      "symbols": [
+        "G"
+      ]
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1223-grojec.html",
+      "day_type": "sunday",
+      "time": "19:02",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1223-grojec.html",
+      "day_type": "sunday",
+      "time": "20:39",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1223-grojec.html",
+      "day_type": "workday",
+      "time": "06:07",
+      "symbols": [
+        "G"
+      ]
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1223-grojec.html",
+      "day_type": "workday",
+      "time": "07:52",
+      "symbols": [
+        "G"
+      ]
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1223-grojec.html",
+      "day_type": "workday",
+      "time": "08:50",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1223-grojec.html",
+      "day_type": "workday",
+      "time": "10:09",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1223-grojec.html",
+      "day_type": "workday",
+      "time": "10:56",
+      "symbols": [
+        "G"
+      ]
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1223-grojec.html",
+      "day_type": "workday",
+      "time": "12:06",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1223-grojec.html",
+      "day_type": "workday",
+      "time": "13:15",
+      "symbols": [
+        "G"
+      ]
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1223-grojec.html",
+      "day_type": "workday",
+      "time": "14:12",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1223-grojec.html",
+      "day_type": "workday",
+      "time": "15:19",
+      "symbols": [
+        "G"
+      ]
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1223-grojec.html",
+      "day_type": "workday",
+      "time": "16:00",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1223-grojec.html",
+      "day_type": "workday",
+      "time": "17:41",
+      "symbols": [
+        "G"
+      ]
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1223-grojec.html",
+      "day_type": "workday",
+      "time": "18:21",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1223-grojec.html",
+      "day_type": "workday",
+      "time": "20:30",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1223-grojec.html",
+      "day_type": "workday",
+      "time": "22:07",
+      "symbols": []
+    }
+  ],
+  "served_lines": [
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "page": "rozklady/14/1223-grojec.html"
+    }
+  ],
+  "legends": {
+    "14": {
+      "G": "do: Sanka Głuchówki",
+      "S": "przez: Chrzanów Szpital"
+    }
+  }
+}

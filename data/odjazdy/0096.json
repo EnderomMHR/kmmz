@@ -4,6 +4,16 @@
   "platform": "3",
   "departures": [
     {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0096-grojec.html",
+      "day_type": "holiday",
+      "time": "09:02",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Oświęcimska Cmentarz",
@@ -25,6 +35,18 @@
       "time": "10:25",
       "symbols": [
         "C"
+      ]
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0096-grojec.html",
+      "day_type": "holiday",
+      "time": "10:45",
+      "symbols": [
+        "G"
       ]
     },
     {
@@ -60,6 +82,16 @@
       "symbols": []
     },
     {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0096-grojec.html",
+      "day_type": "holiday",
+      "time": "13:12",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Chełmek Młyny",
@@ -79,6 +111,16 @@
       "page": "rozklady/4/0096-libiaz.html",
       "day_type": "holiday",
       "time": "14:34",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0096-grojec.html",
+      "day_type": "holiday",
+      "time": "14:48",
       "symbols": []
     },
     {
@@ -103,6 +145,18 @@
       "time": "16:25",
       "symbols": [
         "C"
+      ]
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0096-grojec.html",
+      "day_type": "holiday",
+      "time": "16:32",
+      "symbols": [
+        "G"
       ]
     },
     {
@@ -135,6 +189,18 @@
       "time": "06:10",
       "symbols": [
         "C"
+      ]
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0096-grojec.html",
+      "day_type": "saturday",
+      "time": "06:32",
+      "symbols": [
+        "G"
       ]
     },
     {
@@ -180,6 +246,16 @@
       "symbols": []
     },
     {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0096-grojec.html",
+      "day_type": "saturday",
+      "time": "09:02",
+      "symbols": []
+    },
+    {
       "line": "1",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Kopalnia Janina",
@@ -221,6 +297,18 @@
       "time": "10:25",
       "symbols": [
         "C"
+      ]
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0096-grojec.html",
+      "day_type": "saturday",
+      "time": "10:45",
+      "symbols": [
+        "G"
       ]
     },
     {
@@ -276,6 +364,16 @@
       "symbols": []
     },
     {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0096-grojec.html",
+      "day_type": "saturday",
+      "time": "13:12",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Chełmek Młyny",
@@ -308,6 +406,18 @@
       "symbols": []
     },
     {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0096-grojec.html",
+      "day_type": "saturday",
+      "time": "14:48",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Oświęcimska Cmentarz",
@@ -329,6 +439,18 @@
       "time": "16:25",
       "symbols": [
         "C"
+      ]
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0096-grojec.html",
+      "day_type": "saturday",
+      "time": "16:32",
+      "symbols": [
+        "G"
       ]
     },
     {
@@ -384,6 +506,18 @@
       ]
     },
     {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0096-grojec.html",
+      "day_type": "saturday",
+      "time": "19:03",
+      "symbols": [
+        "G"
+      ]
+    },
+    {
       "line": "7",
       "main_direction": "Chrzanów Fablok",
       "display_direction": "Chrzanów Fablok",
@@ -423,6 +557,16 @@
       "page": "rozklady/4/0096-libiaz.html",
       "day_type": "saturday",
       "time": "20:20",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0096-grojec.html",
+      "day_type": "saturday",
+      "time": "21:13",
       "symbols": []
     },
     {
@@ -504,6 +648,16 @@
       ]
     },
     {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0096-grojec.html",
+      "day_type": "sunday",
+      "time": "07:34",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Kopalnia Janina",
@@ -522,6 +676,18 @@
       "day_type": "sunday",
       "time": "09:43",
       "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0096-grojec.html",
+      "day_type": "sunday",
+      "time": "09:52",
+      "symbols": [
+        "G"
+      ]
     },
     {
       "line": "4",
@@ -544,6 +710,18 @@
       "day_type": "sunday",
       "time": "11:12",
       "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0096-grojec.html",
+      "day_type": "sunday",
+      "time": "12:03",
+      "symbols": [
+        "G"
+      ]
     },
     {
       "line": "4",
@@ -582,6 +760,16 @@
       ]
     },
     {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0096-grojec.html",
+      "day_type": "sunday",
+      "time": "14:22",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Kopalnia Janina",
@@ -590,6 +778,18 @@
       "day_type": "sunday",
       "time": "15:29",
       "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0096-grojec.html",
+      "day_type": "sunday",
+      "time": "16:10",
+      "symbols": [
+        "G"
+      ]
     },
     {
       "line": "4",
@@ -624,6 +824,16 @@
       ]
     },
     {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0096-grojec.html",
+      "day_type": "sunday",
+      "time": "18:44",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Chełmek Młyny",
@@ -634,6 +844,16 @@
       "symbols": [
         "C"
       ]
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0096-grojec.html",
+      "day_type": "sunday",
+      "time": "20:21",
+      "symbols": []
     },
     {
       "line": "4",
@@ -702,6 +922,18 @@
       ]
     },
     {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0096-grojec.html",
+      "day_type": "workday",
+      "time": "05:49",
+      "symbols": [
+        "G"
+      ]
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Chełmek Młyny",
@@ -734,6 +966,19 @@
       "symbols": []
     },
     {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0096-grojec.html",
+      "day_type": "workday",
+      "time": "07:32",
+      "symbols": [
+        "G",
+        "S"
+      ]
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Chełmek Młyny",
@@ -763,6 +1008,16 @@
       "page": "rozklady/1/0096_libiaz.html",
       "day_type": "workday",
       "time": "08:11",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0096-grojec.html",
+      "day_type": "workday",
+      "time": "08:32",
       "symbols": []
     },
     {
@@ -802,6 +1057,16 @@
       ]
     },
     {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0096-grojec.html",
+      "day_type": "workday",
+      "time": "09:51",
+      "symbols": []
+    },
+    {
       "line": "1",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Kopalnia Janina",
@@ -820,6 +1085,18 @@
       "day_type": "workday",
       "time": "10:29",
       "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0096-grojec.html",
+      "day_type": "workday",
+      "time": "10:38",
+      "symbols": [
+        "G"
+      ]
     },
     {
       "line": "4",
@@ -854,6 +1131,18 @@
       "symbols": []
     },
     {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0096-grojec.html",
+      "day_type": "workday",
+      "time": "11:46",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Chełmek Młyny",
@@ -874,6 +1163,18 @@
       "day_type": "workday",
       "time": "12:40",
       "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0096-grojec.html",
+      "day_type": "workday",
+      "time": "12:57",
+      "symbols": [
+        "G"
+      ]
     },
     {
       "line": "1",
@@ -905,6 +1206,16 @@
       "page": "rozklady/7/0096-okrezna.html",
       "day_type": "workday",
       "time": "13:30",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0096-grojec.html",
+      "day_type": "workday",
+      "time": "13:54",
       "symbols": []
     },
     {
@@ -962,6 +1273,18 @@
       ]
     },
     {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0096-grojec.html",
+      "day_type": "workday",
+      "time": "15:01",
+      "symbols": [
+        "G"
+      ]
+    },
+    {
       "line": "7",
       "main_direction": "Chrzanów Fablok",
       "display_direction": "Chrzanów Fablok",
@@ -982,6 +1305,16 @@
       "symbols": [
         "C"
       ]
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0096-grojec.html",
+      "day_type": "workday",
+      "time": "15:42",
+      "symbols": []
     },
     {
       "line": "7",
@@ -1050,6 +1383,19 @@
       ]
     },
     {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0096-grojec.html",
+      "day_type": "workday",
+      "time": "17:21",
+      "symbols": [
+        "G",
+        "S"
+      ]
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Kopalnia Janina",
@@ -1057,6 +1403,16 @@
       "page": "rozklady/4/0096-libiaz.html",
       "day_type": "workday",
       "time": "17:50",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0096-grojec.html",
+      "day_type": "workday",
+      "time": "18:03",
       "symbols": []
     },
     {
@@ -1116,6 +1472,16 @@
       ]
     },
     {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0096-grojec.html",
+      "day_type": "workday",
+      "time": "20:12",
+      "symbols": []
+    },
+    {
       "line": "1",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Kopalnia Janina",
@@ -1143,6 +1509,16 @@
       "page": "rozklady/7/0096-okrezna.html",
       "day_type": "workday",
       "time": "21:48",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0096-grojec.html",
+      "day_type": "workday",
+      "time": "21:49",
       "symbols": []
     },
     {
@@ -1175,6 +1551,11 @@
       "page": "rozklady/1/0096_libiaz.html"
     },
     {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "page": "rozklady/14/0096-grojec.html"
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "page": "rozklady/4/0096-libiaz.html"
@@ -1187,6 +1568,10 @@
   ],
   "legends": {
     "1": {},
+    "14": {
+      "G": "do: Sanka Głuchówki",
+      "S": "przez: Chrzanów Szpital"
+    },
     "4": {
       "C": "do: Chełmek Młyny",
       "L": "do: Libiąż Oświęcimska Cmentarz"

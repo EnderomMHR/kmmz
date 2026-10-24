@@ -4,6 +4,16 @@
   "platform": "1",
   "departures": [
     {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0332-grojec.html",
+      "day_type": "holiday",
+      "time": "09:07",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Trzebinia Dworzec PKP",
@@ -23,6 +33,18 @@
       "time": "10:30",
       "symbols": [
         "C"
+      ]
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0332-grojec.html",
+      "day_type": "holiday",
+      "time": "10:50",
+      "symbols": [
+        "G"
       ]
     },
     {
@@ -46,6 +68,16 @@
       "symbols": [
         "C"
       ]
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0332-grojec.html",
+      "day_type": "holiday",
+      "time": "13:17",
+      "symbols": []
     },
     {
       "line": "4",
@@ -72,6 +104,16 @@
       ]
     },
     {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0332-grojec.html",
+      "day_type": "holiday",
+      "time": "14:53",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Trzebinia Dworzec PKP",
@@ -90,6 +132,18 @@
       "day_type": "holiday",
       "time": "15:44",
       "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0332-grojec.html",
+      "day_type": "holiday",
+      "time": "16:37",
+      "symbols": [
+        "G"
+      ]
     },
     {
       "line": "4",
@@ -137,6 +191,18 @@
       "symbols": []
     },
     {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0332-grojec.html",
+      "day_type": "saturday",
+      "time": "06:37",
+      "symbols": [
+        "G"
+      ]
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Chrzanów Dworzec Autobusowy",
@@ -179,6 +245,16 @@
       "symbols": []
     },
     {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0332-grojec.html",
+      "day_type": "saturday",
+      "time": "09:07",
+      "symbols": []
+    },
+    {
       "line": "7",
       "main_direction": "Chrzanów Fablok",
       "display_direction": "Chrzanów Fablok",
@@ -210,6 +286,18 @@
       "time": "10:30",
       "symbols": [
         "C"
+      ]
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0332-grojec.html",
+      "day_type": "saturday",
+      "time": "10:50",
+      "symbols": [
+        "G"
       ]
     },
     {
@@ -245,6 +333,16 @@
       "symbols": []
     },
     {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0332-grojec.html",
+      "day_type": "saturday",
+      "time": "13:17",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Młoszowa Florkiewicza",
@@ -270,6 +368,18 @@
       ]
     },
     {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0332-grojec.html",
+      "day_type": "saturday",
+      "time": "14:53",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Trzebinia Dworzec PKP",
@@ -288,6 +398,18 @@
       "day_type": "saturday",
       "time": "15:44",
       "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0332-grojec.html",
+      "day_type": "saturday",
+      "time": "16:37",
+      "symbols": [
+        "G"
+      ]
     },
     {
       "line": "4",
@@ -346,6 +468,18 @@
       ]
     },
     {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0332-grojec.html",
+      "day_type": "saturday",
+      "time": "19:08",
+      "symbols": [
+        "G"
+      ]
+    },
+    {
       "line": "7",
       "main_direction": "Chrzanów Fablok",
       "display_direction": "Chrzanów Fablok",
@@ -373,6 +507,16 @@
       "page": "rozklady/4/0332-trzebinia.html",
       "day_type": "saturday",
       "time": "20:55",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0332-grojec.html",
+      "day_type": "saturday",
+      "time": "21:18",
       "symbols": []
     },
     {
@@ -446,6 +590,16 @@
       "symbols": []
     },
     {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0332-grojec.html",
+      "day_type": "sunday",
+      "time": "07:39",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Trzebinia Dworzec PKP",
@@ -466,6 +620,18 @@
       "symbols": []
     },
     {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0332-grojec.html",
+      "day_type": "sunday",
+      "time": "09:57",
+      "symbols": [
+        "G"
+      ]
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Trzebinia Dworzec PKP",
@@ -484,6 +650,18 @@
       "day_type": "sunday",
       "time": "11:53",
       "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0332-grojec.html",
+      "day_type": "sunday",
+      "time": "12:08",
+      "symbols": [
+        "G"
+      ]
     },
     {
       "line": "4",
@@ -508,6 +686,16 @@
       ]
     },
     {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0332-grojec.html",
+      "day_type": "sunday",
+      "time": "14:27",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Trzebinia Dworzec PKP",
@@ -528,6 +716,18 @@
       "day_type": "sunday",
       "time": "16:08",
       "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0332-grojec.html",
+      "day_type": "sunday",
+      "time": "16:15",
+      "symbols": [
+        "G"
+      ]
     },
     {
       "line": "4",
@@ -560,6 +760,16 @@
       "symbols": []
     },
     {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0332-grojec.html",
+      "day_type": "sunday",
+      "time": "18:49",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Chrzanów Dworzec Autobusowy",
@@ -570,6 +780,16 @@
       "symbols": [
         "C"
       ]
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0332-grojec.html",
+      "day_type": "sunday",
+      "time": "20:26",
+      "symbols": []
     },
     {
       "line": "4",
@@ -620,6 +840,18 @@
       ]
     },
     {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0332-grojec.html",
+      "day_type": "workday",
+      "time": "05:54",
+      "symbols": [
+        "G"
+      ]
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Trzebinia Dworzec PKP",
@@ -654,6 +886,19 @@
       "symbols": []
     },
     {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0332-grojec.html",
+      "day_type": "workday",
+      "time": "07:37",
+      "symbols": [
+        "G",
+        "S"
+      ]
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Trzebinia Dworzec PKP",
@@ -661,6 +906,16 @@
       "page": "rozklady/4/0332-trzebinia.html",
       "day_type": "workday",
       "time": "08:02",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0332-grojec.html",
+      "day_type": "workday",
+      "time": "08:37",
       "symbols": []
     },
     {
@@ -698,6 +953,16 @@
       ]
     },
     {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0332-grojec.html",
+      "day_type": "workday",
+      "time": "09:56",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Trzebinia Dworzec PKP",
@@ -706,6 +971,18 @@
       "day_type": "workday",
       "time": "10:33",
       "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0332-grojec.html",
+      "day_type": "workday",
+      "time": "10:43",
+      "symbols": [
+        "G"
+      ]
     },
     {
       "line": "4",
@@ -728,6 +1005,18 @@
       "symbols": []
     },
     {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0332-grojec.html",
+      "day_type": "workday",
+      "time": "11:51",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Trzebinia Dworzec PKP",
@@ -747,6 +1036,18 @@
       "time": "12:34",
       "symbols": [
         "C"
+      ]
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0332-grojec.html",
+      "day_type": "workday",
+      "time": "13:02",
+      "symbols": [
+        "G"
       ]
     },
     {
@@ -783,6 +1084,16 @@
       "symbols": []
     },
     {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0332-grojec.html",
+      "day_type": "workday",
+      "time": "13:59",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Chrzanów Dworzec Autobusowy",
@@ -803,6 +1114,18 @@
       "day_type": "workday",
       "time": "14:31",
       "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0332-grojec.html",
+      "day_type": "workday",
+      "time": "15:06",
+      "symbols": [
+        "G"
+      ]
     },
     {
       "line": "4",
@@ -838,6 +1161,16 @@
       ]
     },
     {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0332-grojec.html",
+      "day_type": "workday",
+      "time": "15:47",
+      "symbols": []
+    },
+    {
       "line": "7",
       "main_direction": "Chrzanów Fablok",
       "display_direction": "Chrzanów Fablok",
@@ -870,6 +1203,19 @@
       ]
     },
     {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0332-grojec.html",
+      "day_type": "workday",
+      "time": "17:26",
+      "symbols": [
+        "G",
+        "S"
+      ]
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Trzebinia Dworzec PKP",
@@ -877,6 +1223,16 @@
       "page": "rozklady/4/0332-trzebinia.html",
       "day_type": "workday",
       "time": "17:27",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0332-grojec.html",
+      "day_type": "workday",
+      "time": "18:08",
       "symbols": []
     },
     {
@@ -934,6 +1290,16 @@
       "symbols": []
     },
     {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0332-grojec.html",
+      "day_type": "workday",
+      "time": "20:17",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Trzebinia Dworzec PKP",
@@ -979,6 +1345,16 @@
       "symbols": []
     },
     {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0332-grojec.html",
+      "day_type": "workday",
+      "time": "21:54",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Trzebinia Dworzec PKP",
@@ -991,6 +1367,11 @@
   ],
   "served_lines": [
     {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "page": "rozklady/14/0332-grojec.html"
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "page": "rozklady/4/0332-trzebinia.html"
@@ -1002,6 +1383,10 @@
     }
   ],
   "legends": {
+    "14": {
+      "G": "do: Sanka Głuchówki",
+      "S": "przez: Chrzanów Szpital"
+    },
     "4": {
       "C": "do: Chrzanów Dworzec Autobusowy",
       "M": "do: Młoszowa Florkiewicza",

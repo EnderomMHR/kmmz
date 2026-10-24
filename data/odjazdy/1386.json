@@ -1,0 +1,170 @@
+{
+  "stop_id": "1386",
+  "stop_name": "Zalas Krótka",
+  "platform": "1",
+  "departures": [
+    {
+      "line": "14",
+      "main_direction": "Sanka Głuchówki",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1386-grojec.html",
+      "day_type": "holiday",
+      "time": "11:36",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Sanka Głuchówki",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1386-grojec.html",
+      "day_type": "holiday",
+      "time": "17:23",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Sanka Głuchówki",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1386-grojec.html",
+      "day_type": "saturday",
+      "time": "07:23",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Sanka Głuchówki",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1386-grojec.html",
+      "day_type": "saturday",
+      "time": "11:36",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Sanka Głuchówki",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1386-grojec.html",
+      "day_type": "saturday",
+      "time": "17:23",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Sanka Głuchówki",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1386-grojec.html",
+      "day_type": "saturday",
+      "time": "19:54",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Sanka Głuchówki",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1386-grojec.html",
+      "day_type": "sunday",
+      "time": "10:43",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Sanka Głuchówki",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1386-grojec.html",
+      "day_type": "sunday",
+      "time": "12:54",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Sanka Głuchówki",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1386-grojec.html",
+      "day_type": "sunday",
+      "time": "17:01",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Sanka Głuchówki",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1386-grojec.html",
+      "day_type": "workday",
+      "time": "06:40",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Sanka Głuchówki",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1386-grojec.html",
+      "day_type": "workday",
+      "time": "08:25",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Sanka Głuchówki",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1386-grojec.html",
+      "day_type": "workday",
+      "time": "11:29",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Sanka Głuchówki",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1386-grojec.html",
+      "day_type": "workday",
+      "time": "13:48",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Sanka Głuchówki",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1386-grojec.html",
+      "day_type": "workday",
+      "time": "15:52",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Sanka Głuchówki",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1386-grojec.html",
+      "day_type": "workday",
+      "time": "18:14",
+      "symbols": []
+    }
+  ],
+  "served_lines": [
+    {
+      "line": "14",
+      "main_direction": "Sanka Głuchówki",
+      "page": "rozklady/14/1386-grojec.html"
+    }
+  ],
+  "legends": {
+    "14": {
+      "G": "do: Sanka Głuchówki",
+      "S": "przez: Chrzanów Szpital"
+    }
+  }
+}

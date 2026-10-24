@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KMMZ | Linia 14 | 0333 Chrzanów Podwale</title>
+
+<style>
+
+*{box-sizing:border-box}
+
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:linear-gradient(135deg,#005bbb,#009966);
+    padding:20px;
+}
+
+.page{
+    max-width:1400px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:330px 1fr;
+    gap:20px;
+}
+
+.panel, .timetable{
+    background:white;
+    border-radius:16px;
+    box-shadow:0 8px 25px rgba(0,0,0,.22);
+}
+
+.panel{
+    padding:15px;
+}
+
+.back{
+    display:block;
+    margin-bottom:15px;
+    color:#005bbb;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+.route-title{
+    text-align:center;
+    padding:12px;
+    background:#f5c400;
+    font-weight:bold;
+    border-radius:10px 10px 0 0;
+}
+
+.route-subtitle{
+    text-align:center;
+    background:#009966;
+    color:white;
+    padding:8px;
+    font-weight:bold;
+}
+
+.stop{
+    display:block;
+    padding:5px 8px;
+    border-bottom:1px dashed #ccc;
+    color:#222;
+    text-decoration:none;
+    font-size:12px;
+}
+
+.stop:hover{
+    background:#eef5ff;
+    color:#005bbb;
+}
+
+.current-stop{
+    background:#fff3c4;
+    font-weight:bold;
+    font-size:12px;
+}
+
+.variant{
+    margin-left:25px;
+    font-style:italic;
+}
+
+.timetable{
+    padding:20px;
+}
+
+.header{
+    display:grid;
+    grid-template-columns:110px 1fr 90px;
+    gap:20px;
+    align-items:center;
+    margin-bottom:25px;
+}
+
+.line-button{
+    background:#f5c400;
+    color:#222;
+    font-size:36px;
+    font-weight:bold;
+    text-align:center;
+    padding:14px;
+    border-radius:12px;
+    text-decoration:none;
+}
+
+.stop-name{
+    font-size:21px;
+    font-weight:bold;
+    color:#005bbb;
+    text-decoration:none;
+}
+
+.stop-code{
+    background:#dcecff;
+    color:#005bbb;
+    padding:6px 10px;
+    border-radius:6px;
+    font-weight:bold;
+    margin-right:8px;
+    font-size:14px;
+}
+
+.direction{
+    margin-top:10px;
+    font-size:15px;
+}
+
+.map-button{
+    text-decoration:none;
+    background:#eaf4ff;
+    border:2px solid #005bbb;
+    color:#005bbb;
+    border-radius:12px;
+    font-size:13px;
+    padding:9px;
+    text-align:center;
+    font-weight:bold;
+}
+
+.map-icon{
+    font-size:26px;
+    display:block;
+}
+
+.section-title{
+    margin-top:14px;
+    padding:7px 10px;
+    font-weight:bold;
+    border-radius:6px;
+    font-size:14px;
+}
+
+.workday{background:#eaf4ff;}
+.saturday{background:#eef7df;}
+.sunday{background:#ffe5e5;}
+.holiday{background:#fff3c4;}
+
+.times{
+    display:grid;
+    grid-template-columns:repeat(8,1fr);
+    gap:0;
+    padding:6px 0 12px 0;
+    border-bottom:1px dashed #ccc;
+}
+
+.time{
+    text-align:center;
+    padding:5px;
+    font-size:14px;
+}
+
+.no-service{
+    padding:9px;
+    color:#777;
+    font-style:italic;
+    font-size:14px;
+}
+
+.legend{
+    margin-top:30px;
+    border:2px solid #ccc;
+    border-radius:14px;
+    overflow:hidden;
+}
+
+.legend-title{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    padding:12px;
+    background:linear-gradient(90deg,#f5c400,#005bbb,#009966);
+    font-size:17px;
+}
+
+.legend-row{
+    padding:8px 15px;
+    border-bottom:1px dashed #ccc;
+}
+
+.legend-row:last-child{
+    border-bottom:none;
+}
+
+.symbol{
+    color:#005bbb;
+    font-weight:bold;
+    display:inline-block;
+    width:35px;
+}
+
+@media(max-width:900px){
+    .page{
+        grid-template-columns:1fr;
+    }
+
+    .header{
+        grid-template-columns:1fr;
+        text-align:center;
+    }
+
+    .times{
+        grid-template-columns:repeat(3,1fr);
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="page">
+
+<div class="panel">
+<a class="back" href="../../linie/14.html">← Powrót do trasy linii 14</a>
+
+<div class="route-title">Kierunek: Grojec Zajezdnia</div>
+<div class="route-subtitle">Trasa przejazdu od tego przystanku</div>
+
+<a class="stop current-stop" href="../14/0333-grojec.html">0333 Chrzanów Podwale (1)</a>
+<a class="stop variant" href="../14/0117-grojec.html">0117 Chrzanów Szpitalna (3)</a>
+<a class="stop variant" href="../14/0093-grojec.html">0093 Chrzanów Szpital (2)</a>
+<a class="stop" href="../14/1058-grojec.html">1058 Chrzanów Szpitalna (2)</a>
+<a class="stop" href="../14/1161-grojec.html">1161 Chrzanów Kościelec Staw (1)</a>
+<a class="stop" href="../14/1162-grojec.html">1162 Chrzanów Kościelec (1)</a>
+<a class="stop" href="../14/1217-grojec.html">1217 Chrzanów Kościelec Las (1)</a>
+<a class="stop" href="../14/1524-grojec.html">1524 Płaza Wapiennik II (2)</a>
+<a class="stop" href="../14/1220-grojec.html">1220 Płaza Wapiennik I (1)</a>
+<a class="stop" href="../14/1223-grojec.html">1223 Płaza Działki (2)</a>
+<a class="stop" href="../14/1086-grojec.html">1086 Płaza Cmentarz (2)</a>
+<a class="stop" href="../14/0581-grojec.html">0581 Płaza Górna Kościół (1)</a>
+<a class="stop" href="../14/0582-grojec.html">0582 Płaza Role (1)</a>
+<a class="stop" href="../14/0583-grojec.html">0583 Płaza Dolna II (1)</a>
+<a class="stop" href="../14/0584-grojec.html">0584 Płaza Dolna I (2)</a>
+<a class="stop" href="../14/0585-grojec.html">0585 Wygiełzów Skansen (1)</a>
+<a class="stop" href="../14/0586-grojec.html">0586 Babice Urząd Gminy (1)</a>
+<a class="stop" href="../14/1034-grojec.html">1034 Babice Zmornica (2)</a>
+<a class="stop" href="../14/1492-grojec.html">1492 Kwaczała Łazek (2)</a>
+<a class="stop" href="../14/1490-grojec.html">1490 Kwaczała Centrum (1)</a>
+<a class="stop" href="../14/1350-grojec.html">1350 Alwernia Spalona (1)</a>
+<a class="stop" href="../14/2885-grojec.html">2885 Alwernia Osiedle (3)</a>
+<a class="stop" href="../14/1348-grojec.html">1348 Alwernia Szkoła (2)</a>
+<a class="stop" href="../14/1355-grojec.html">1355 Alwernia Garncarska (2)</a>
+<a class="stop" href="../14/1481-grojec.html">1481 Grojec Waga (2)</a>
+<a class="stop" href="../14/1483-grojec.html">1483 Grojec Szkoła (1)</a>
+<a class="stop" href="../14/1484-grojec.html">1484 Grojec Zajezdnia (1)</a>
+<a class="stop variant" href="../14/1485-grojec.html">1485 Grojec Sklep (2)</a>
+<a class="stop variant" href="../14/1430-grojec.html">1430 Zalas Sportowa (2)</a>
+<a class="stop variant" href="../14/1432-grojec.html">1432 Zalas Rondo (3)</a>
+<a class="stop variant" href="../14/1385-grojec.html">1385 Zalas Plac (1)</a>
+<a class="stop variant" href="../14/1386-grojec.html">1386 Zalas Krótka (1)</a>
+<a class="stop variant" href="../14/1388-grojec.html">1388 Zalas Szkoła (2)</a>
+<a class="stop variant" href="../14/1395-grojec.html">1395 Zalas Kościół (2)</a>
+<a class="stop variant" href="../14/1391-grojec.html">1391 Zalas Ośrodek Zdrowia (1)</a>
+<a class="stop variant" href="../14/1392-grojec.html">1392 Zalas Krzyżówka (1)</a>
+<a class="stop variant" href="../14/1396-grojec.html">1396 Sanka Dół (2)</a>
+<a class="stop variant" href="../14/1397-grojec.html">1397 Sanka Kościół (2)</a>
+<a class="stop variant" href="../14/1398-grojec.html">1398 Sanka Wzgórze (2)</a>
+<a class="stop variant" href="../14/1399-grojec.html">1399 Sanka Głuchówki (0)</a>
+</div>
+
+<div class="timetable">
+
+<div class="header">
+<a class="line-button" href="../../linie/14.html">14</a>
+
+<div>
+<a class="stop-name" href="../../przystanki/0333.html">
+<span class="stop-code">0333</span>Chrzanów Podwale (1)
+</a>
+<div class="direction">Kierunek: <strong>Grojec Zajezdnia</strong></div>
+</div>
+
+<a class="map-button" href="https://enderommhr.github.io/kmmz/mapa.html" target="_blank">
+<span class="map-icon">🗺️</span>
+Mapa
+</a>
+</div>
+
+
+<div class="section-title workday">Dni robocze</div>
+<div class="times">
+<div class="time">05:56<sup>G</sup></div>
+<div class="time">07:39<sup>GS</sup></div>
+<div class="time">08:39</div>
+<div class="time">09:58</div>
+<div class="time">10:45<sup>G</sup></div>
+<div class="time">11:53<sup>S</sup></div>
+<div class="time">13:04<sup>G</sup></div>
+<div class="time">14:01</div>
+<div class="time">15:08<sup>G</sup></div>
+<div class="time">15:49</div>
+<div class="time">17:28<sup>GS</sup></div>
+<div class="time">18:10</div>
+<div class="time">20:19</div>
+<div class="time">21:56</div>
+</div>
+
+
+<div class="section-title saturday">Soboty</div>
+<div class="times">
+<div class="time">06:39<sup>G</sup></div>
+<div class="time">09:09</div>
+<div class="time">10:52<sup>G</sup></div>
+<div class="time">13:19</div>
+<div class="time">14:55<sup>S</sup></div>
+<div class="time">16:39<sup>G</sup></div>
+<div class="time">19:10<sup>G</sup></div>
+<div class="time">21:20</div>
+</div>
+
+
+<div class="section-title sunday">Niedziele</div>
+<div class="times">
+<div class="time">07:41</div>
+<div class="time">09:59<sup>G</sup></div>
+<div class="time">12:10<sup>G</sup></div>
+<div class="time">14:29</div>
+<div class="time">16:17<sup>G</sup></div>
+<div class="time">18:51</div>
+<div class="time">20:28</div>
+</div>
+
+
+<div class="section-title holiday">Święta</div>
+<div class="times">
+<div class="time">09:09</div>
+<div class="time">10:52<sup>G</sup></div>
+<div class="time">13:19</div>
+<div class="time">14:55</div>
+<div class="time">16:39<sup>G</sup></div>
+</div>
+
+
+
+<div class="legend">
+<div class="legend-title">Legenda</div>
+<div class="legend-row"><span class="symbol">G</span> - do: Sanka Głuchówki</div>
+<div class="legend-row"><span class="symbol">S</span> - przez: Chrzanów Szpital</div>
+</div>
+
+  
+</div>
+
+</div>
+
+</body>
+</html>

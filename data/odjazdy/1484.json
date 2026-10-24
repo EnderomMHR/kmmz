@@ -1,0 +1,361 @@
+{
+  "stop_id": "1484",
+  "stop_name": "Grojec Zajezdnia",
+  "platform": "1",
+  "departures": [
+    {
+      "line": "14",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/14/1484-chrzanow.html",
+      "day_type": "holiday",
+      "time": "09:53",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Sanka Głuchówki",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1484-grojec.html",
+      "day_type": "holiday",
+      "time": "11:30",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/14/1484-chrzanow.html",
+      "day_type": "holiday",
+      "time": "14:00",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/14/1484-chrzanow.html",
+      "day_type": "holiday",
+      "time": "15:45",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Sanka Głuchówki",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1484-grojec.html",
+      "day_type": "holiday",
+      "time": "17:17",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/14/1484-chrzanow.html",
+      "day_type": "saturday",
+      "time": "05:40",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
+      "line": "14",
+      "main_direction": "Sanka Głuchówki",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1484-grojec.html",
+      "day_type": "saturday",
+      "time": "07:17",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/14/1484-chrzanow.html",
+      "day_type": "saturday",
+      "time": "09:53",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Sanka Głuchówki",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1484-grojec.html",
+      "day_type": "saturday",
+      "time": "11:30",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/14/1484-chrzanow.html",
+      "day_type": "saturday",
+      "time": "14:00",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/14/1484-chrzanow.html",
+      "day_type": "saturday",
+      "time": "15:45",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Sanka Głuchówki",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1484-grojec.html",
+      "day_type": "saturday",
+      "time": "17:17",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Sanka Głuchówki",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1484-grojec.html",
+      "day_type": "saturday",
+      "time": "19:48",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/14/1484-chrzanow.html",
+      "day_type": "sunday",
+      "time": "06:45",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/14/1484-chrzanow.html",
+      "day_type": "sunday",
+      "time": "08:35",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Sanka Głuchówki",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1484-grojec.html",
+      "day_type": "sunday",
+      "time": "10:37",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Sanka Głuchówki",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1484-grojec.html",
+      "day_type": "sunday",
+      "time": "12:48",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/14/1484-chrzanow.html",
+      "day_type": "sunday",
+      "time": "15:15",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Sanka Głuchówki",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1484-grojec.html",
+      "day_type": "sunday",
+      "time": "16:55",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/14/1484-chrzanow.html",
+      "day_type": "sunday",
+      "time": "19:37",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/14/1484-chrzanow.html",
+      "day_type": "workday",
+      "time": "05:00",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Sanka Głuchówki",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1484-grojec.html",
+      "day_type": "workday",
+      "time": "06:34",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Sanka Głuchówki",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1484-grojec.html",
+      "day_type": "workday",
+      "time": "08:19",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/14/1484-chrzanow.html",
+      "day_type": "workday",
+      "time": "09:50",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
+      "line": "14",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/14/1484-chrzanow.html",
+      "day_type": "workday",
+      "time": "10:44",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Sanka Głuchówki",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1484-grojec.html",
+      "day_type": "workday",
+      "time": "11:23",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/14/1484-chrzanow.html",
+      "day_type": "workday",
+      "time": "13:05",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Sanka Głuchówki",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1484-grojec.html",
+      "day_type": "workday",
+      "time": "13:42",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/14/1484-chrzanow.html",
+      "day_type": "workday",
+      "time": "14:55",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
+      "line": "14",
+      "main_direction": "Sanka Głuchówki",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1484-grojec.html",
+      "day_type": "workday",
+      "time": "15:46",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/14/1484-chrzanow.html",
+      "day_type": "workday",
+      "time": "16:35",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Sanka Głuchówki",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/1484-grojec.html",
+      "day_type": "workday",
+      "time": "18:08",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/14/1484-chrzanow.html",
+      "day_type": "workday",
+      "time": "21:01",
+      "symbols": []
+    }
+  ],
+  "served_lines": [
+    {
+      "line": "14",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "page": "rozklady/14/1484-chrzanow.html"
+    },
+    {
+      "line": "14",
+      "main_direction": "Sanka Głuchówki",
+      "page": "rozklady/14/1484-grojec.html"
+    }
+  ],
+  "legends": {
+    "14": {
+      "G": "do: Sanka Głuchówki",
+      "S": "przez: Chrzanów Szpital"
+    }
+  }
+}

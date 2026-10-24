@@ -4,6 +4,16 @@
   "platform": "3",
   "departures": [
     {
+      "line": "14",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/14/0117-chrzanow.html",
+      "day_type": "saturday",
+      "time": "06:17",
+      "symbols": []
+    },
+    {
       "line": "1",
       "main_direction": "Miękinia Stawiska",
       "display_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
@@ -34,6 +44,16 @@
       "page": "rozklady/1/0117_miekinia.html",
       "day_type": "saturday",
       "time": "12:32",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0117-grojec.html",
+      "day_type": "saturday",
+      "time": "14:58",
       "symbols": []
     },
     {
@@ -99,6 +119,28 @@
       ]
     },
     {
+      "line": "14",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/14/0117-chrzanow.html",
+      "day_type": "workday",
+      "time": "07:08",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0117-grojec.html",
+      "day_type": "workday",
+      "time": "07:42",
+      "symbols": [
+        "G"
+      ]
+    },
+    {
       "line": "1",
       "main_direction": "Miękinia Stawiska",
       "display_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
@@ -123,6 +165,16 @@
       ]
     },
     {
+      "line": "14",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/14/0117-chrzanow.html",
+      "day_type": "workday",
+      "time": "10:27",
+      "symbols": []
+    },
+    {
       "line": "1",
       "main_direction": "Miękinia Stawiska",
       "display_direction": "Miękinia Stawiska",
@@ -130,6 +182,16 @@
       "page": "rozklady/1/0117_miekinia.html",
       "day_type": "workday",
       "time": "11:05",
+      "symbols": []
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Grojec Zajezdnia",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0117-grojec.html",
+      "day_type": "workday",
+      "time": "11:56",
       "symbols": []
     },
     {
@@ -159,6 +221,16 @@
       ]
     },
     {
+      "line": "14",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/14/0117-chrzanow.html",
+      "day_type": "workday",
+      "time": "15:32",
+      "symbols": []
+    },
+    {
       "line": "1",
       "main_direction": "Miękinia Stawiska",
       "display_direction": "Miękinia Stawiska",
@@ -179,6 +251,18 @@
       "symbols": [
         "K",
         "V"
+      ]
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "display_direction": "Sanka Głuchówki",
+      "direction_slug": "grojec",
+      "page": "rozklady/14/0117-grojec.html",
+      "day_type": "workday",
+      "time": "17:31",
+      "symbols": [
+        "G"
       ]
     },
     {
@@ -223,6 +307,16 @@
       "line": "1",
       "main_direction": "Miękinia Stawiska",
       "page": "rozklady/1/0117_miekinia.html"
+    },
+    {
+      "line": "14",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "page": "rozklady/14/0117-chrzanow.html"
+    },
+    {
+      "line": "14",
+      "main_direction": "Grojec Zajezdnia",
+      "page": "rozklady/14/0117-grojec.html"
     }
   ],
   "legends": {
@@ -230,6 +324,10 @@
       "K": "do: Krzeszowice Czatkowice Dolne Kopalnia",
       "M": "przez: Młoszowa Wzgórze II",
       "V": "przez: Chrzanów Valeo, z pominięciem: Trzebinia Berezka"
+    },
+    "14": {
+      "G": "do: Sanka Głuchówki",
+      "S": "przez: Chrzanów Szpital"
     }
   }
 }
