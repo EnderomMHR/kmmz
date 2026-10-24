@@ -231,3 +231,35 @@ wariant `PZ` może stracić samą literę `Z` bez wyłączania `P`.
 Zachowano dotychczasowe pole `variant_symbol_ends` dla linii 9.
 Pole `legend_only_used_symbols` oznacza wyświetlanie tylko
 aktywnych liter na konkretnej stronie przystankowej.
+
+
+## Linia 12 — klasyczna dwukierunkowa, bez wariantów
+
+Źródło: `P.A.M. - Linia 12.xlsx`, wyłącznie arkusz `Arkusz1`.
+45 kursów (kierunek 1: 23, kierunek 2: 22), 2723 czasy
+przejazdu, 2678 rzeczywistych odjazdów.
+Wszystkie 2678 formuł czasu mają zapisane wartości obliczeń.
+
+- Kierunek 1: `Jawiszowice Kółko (2)` → `Mętków Mały (0)`,
+  `metkow`, 61 przystanków, przejazd 95 minut.
+- Kierunek 2: `Mętków Mały (0)` → `Jawiszowice Kółko (1)`,
+  `jawiszowice`, 60 przystanków, przejazd 94 minuty.
+- Wariant `0` we wszystkich kursach; nie używamy liter,
+  segmentów kierunku informacyjnego ani legend.
+- W dni robocze po 13 kursów w każdym kierunku, w soboty
+  i niedziele odpowiednio 7 i 6 (`SN`: wspólny rozkład dla
+  obu dni), w święta po 3 kursy.
+- Każdy kurs jedzie całą trasą; nie ma skróceń ani wypadania
+  pojedynczych przystanków.
+- Końcowy `0311 Mętków Mały` w kierunku 1 oraz końcowy
+  `2557 Jawiszowice Kółko` w kierunku 2 mają dedykowane
+  strony bez odjazdów. Przyjazdy końcowe zapisujemy w kursach,
+  ale nie przenosimy ich na mapę jako odjazdy.
+- Wszystkie przystanki i linki na `linie/12.html` są poprawne;
+  nie trzeba zmieniać dotychczasowej strony trasy.
+
+Testy: `tools/test-line12-import.py` regeneruje dane z
+wierszy odpowiadających Arkusz1, a `tools/check-line12.py`
+porównuje wszystkie kursy z niezależnym odciskiem SHA-256
+arkusza i sprawdza strony, dni SN/SW, kierunki i mapowe
+przystanki początkowe/końcowe.
