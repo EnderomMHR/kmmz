@@ -1,0 +1,94 @@
+{
+  "directions": {
+    "1": {
+      "slug": "chrzanow",
+      "name": "Chrzanów Dworzec Autobusowy",
+      "variant_symbols": {
+        "1": "S",
+        "3": "S"
+      },
+      "variant_letter_ends": {
+        "S": {
+          "stop_id": "0117",
+          "occurrence": 1
+        }
+      },
+      "legend": {
+        "S": "przez: Chrzanów Szpital"
+      },
+      "legend_only_used_symbols": true,
+      "variant_stops": [
+        "1399",
+        "1400",
+        "1401",
+        "1402",
+        "1393",
+        "1394",
+        "1390",
+        "1389",
+        "1387",
+        "1384",
+        "1429",
+        "1528",
+        "1529",
+        "1486",
+        "0117",
+        "0093"
+      ]
+    },
+    "2": {
+      "slug": "grojec",
+      "name": "Grojec Zajezdnia",
+      "direction_segments": [
+        {
+          "from_stop_id": "0334",
+          "name": "Grojec Zajezdnia"
+        },
+        {
+          "from_stop_id": "1484",
+          "name": "Sanka Głuchówki"
+        }
+      ],
+      "variant_symbols": {
+        "1": "S",
+        "2": "G",
+        "3": "GS"
+      },
+      "variant_letter_ends": {
+        "G": {
+          "stop_id": "1484",
+          "occurrence": 1
+        },
+        "S": {
+          "stop_id": "0117",
+          "occurrence": 1
+        }
+      },
+      "variant_destinations": {
+        "G": "Sanka Głuchówki"
+      },
+      "legend": {
+        "G": "do: Sanka Głuchówki",
+        "S": "przez: Chrzanów Szpital"
+      },
+      "legend_only_used_symbols": true,
+      "variant_stops": [
+        "0117",
+        "0093",
+        "1485",
+        "1430",
+        "1432",
+        "1385",
+        "1386",
+        "1388",
+        "1395",
+        "1391",
+        "1392",
+        "1396",
+        "1397",
+        "1398",
+        "1399"
+      ]
+    }
+  }
+}

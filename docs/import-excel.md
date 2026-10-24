@@ -295,3 +295,54 @@ kolumnami kursów, ignorowanych przez importer.
 Zestaw danych i proponowane oznaczenia pozostają na gałęzi
 roboczej do zatwierdzenia przez właściciela projektu. Po akceptacji
 można scalić PR, uruchomić generator i sprawdzić publikację.
+
+
+## Linia 14 – przez Chrzanów Szpital i przedłużenie do Sanki Głuchówki
+
+**Oznaczenia `G` i `S` są propozycją do akceptacji przed publikacją.**
+Źródło: `P.A.M. - Linia 14 (done).xlsx`, wyłącznie `Arkusz1`.
+Plik ma 68 kursów, 2289 godzin przejazdu, 2221 rzeczywistych
+odjazdów. W arkuszu są 2200 formuł z zapisanymi wynikami
+i kilka pomocniczych wartości poza kolumnami kursów.
+
+Dwa niezależne warianty, mogą występować razem:
+- `S` = **przez: Chrzanów Szpital**; litera występuje tylko
+  przed pierwszym przystankiem szpitalnej odnogi `0117
+  Chrzanów Szpitalna (3)`. Od `0117` jest już zbędna.
+- `G` = **do: Sanka Głuchówki** w kierunku 2; od przystanku
+  `1484 Grojec Zajezdnia (1)` rozkład wyświetla wprost
+  `Kierunek: Sanka Głuchówki`, bez oznaczenia G.
+- `GS` to kurs przez szpital i dalej do Sanki. Kolejność
+  liter i objaśnień alfabetyczna: najpierw G, potem S.
+
+Kierunek 1 `Sanka Głuchówki` lub `Grojec Zajezdnia`
+→ `Chrzanów Dworzec Autobusowy`: 34 kursy, z których
+16 rozpoczyna w Sance, a 18 w Grojcu (przystanek `1484`);
+przez szpital kursuje łącznie 4. Brak oznaczenia G w
+kierunku 1, ponieważ różnica dotyczy początku kursu.
+
+Kierunek 2 `Chrzanów Dworzec Autobusowy` →
+`Grojec Zajezdnia` lub `Sanka Głuchówki`: 34 kursy,
+z czego 15 do Sanki i 19 do Grojca; przez szpital 4
+kursy. Podstawowy nagłówek od Chrzanowa: `Grojec Zajezdnia`.
+Nagłówek od `1484`: `Sanka Głuchówki`.
+
+Rozkład dzienny: robocze 15/14, soboty 8/8,
+niedziele 7/7, święta 4/5. Czas przejazdu od 40
+do 58 minut w kierunku Chrzanowa i 47–65 minut
+w kierunku przeciwnym.
+
+Ważne: przystanek `1484` ma kursy rozpoczynające
+się w kierunku Chrzanowa i kursy przedłużone do Sanki
+w kierunku przeciwnym. Nie liczyć przyjazdów
+zakończonych w Grojcu jako nowych odjazdów.
+
+Obecne `linie/14.html` zawiera już poprawne strony
+obu kierunków i komplet 42/44 pozycji. Przebieg przez
+szpital obejmuje wyłącznie dodatkowe przystanki
+`0117` i `0093` (w obu kierunkach), oznaczone
+odpowiednimi pustymi komórkami w zwykłych kursach.
+Zapis variantów: 0 bez, 1 szpital, 2 Sanka, 3 oba.
+
+Po akceptacji oznaczeń scalić PR i zweryfikować
+wynik generatora oraz GitHub Pages.
