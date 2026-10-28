@@ -66,6 +66,23 @@
     };
   }
 
+  // Look up the selected VISIT, not merely the stop ID: a circular route
+  // can call at one physical stop several times with different departure hours.
+  // Final arrival is intentionally not considered a boarding position.
+  function findBoardingIndex(trip, stopId, departureTime) {
+    const stops = Array.isArray(trip?.stop_times) ? trip.stop_times : [];
+    const matches = [];
+    for (let index = 0; index < stops.length - 1; index++) {
+      if (String(stops[index].stop_id) === String(stopId) &&
+          stops[index].time === departureTime) {
+        matches.push(index);
+      }
+    }
+    // Do not highlight the wrong visit when a circular bus calls twice
+    // at exactly the same stop and time.
+    return matches.length === 1 ? matches[0] : -1;
+  }
+
   function getTripStopRows(trip, lineData, stopIndex) {
     const direction = (lineData.directions || [])[Number(trip.direction) - 1];
     if (!direction || !Array.isArray(trip.stop_times)) return [];
@@ -86,7 +103,7 @@
     });
   }
 
-  const api = { serviceMatches, findTripForDeparture, getTripStopRows };
+  const api = { serviceMatches, findTripForDeparture, findBoardingIndex, getTripStopRows };
   root.KMMZTripRoute = api;
   if (typeof module !== "undefined" && module.exports) module.exports = api;
 })(typeof window !== "undefined" ? window : globalThis);
