@@ -166,7 +166,8 @@ assert.match(ui, /index < boardingIndex \? " past"/);
 assert.match(ui, /index === boardingIndex \? " boarding"/);
 assert.match(ui, /aria-current="step"/);
 assert.match(ui, /" · TU WSIADASZ"/);
-assert.match(ui, /escapeHtml\(extraDirection\)<\/div>/);
+assert.ok(ui.includes('<div class="inline-time-direction">${escapeHtml(extraDirection)}</div>'),
+  "Inline timetable must show only exceptional destinations");
 assert.doesNotMatch(ui, /extraDirection \|\| item\.display_direction/,
   "Only exceptional destination labels belong next to inline departure times");
 assert.match(html, /\.trip-stop-button\.past\s*\{/);
