@@ -512,6 +512,35 @@
       background: #fff6ce;
     }
 
+    /* Earlier stops remain visible for context, but don't compete with the journey ahead. */
+    .trip-stop-button.past {
+      opacity: .36;
+    }
+
+    .trip-stop-button.past:hover,
+    .trip-stop-button.past:focus-visible {
+      opacity: .75;
+    }
+
+    .trip-stop-button.boarding {
+      background: #fff4bd;
+      box-shadow: inset 4px 0 #005bbb;
+      color: #102a43;
+    }
+
+    .trip-stop-button.boarding:hover {
+      background: #ffe990;
+    }
+
+    .trip-stop-button.boarding .trip-stop-time {
+      color: #004c9c;
+    }
+
+    .trip-stop-button.boarding .trip-stop-id {
+      color: #004c9c;
+      font-weight: bold;
+    }
+
     .trip-stop-time {
       font-size: 14px;
       font-weight: bold;
@@ -531,6 +560,11 @@
     .trip-stop-button.last .trip-stop-dot {
       background: #f5c400;
       box-shadow: 0 0 0 2px #102a43;
+    }
+
+    .trip-stop-button.boarding .trip-stop-dot {
+      background: #f5c400;
+      box-shadow: 0 0 0 2px #005bbb;
     }
 
     .trip-stop-name {
@@ -766,7 +800,7 @@
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 
   <!-- Nasz skrypt mapy -->
-  <script src="js/trip-route.js?v=20261028"></script>
-  <script src="js/mapa.js?v=20261028-trip-route"></script>
+  <script src="js/trip-route.js?v=20261028-boarding"></script>
+  <script src="js/mapa.js?v=20261028-boarding"></script>
 </body>
 </html>
