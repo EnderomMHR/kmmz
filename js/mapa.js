@@ -408,7 +408,7 @@ function drawSelectedTrip(rows) {
   }
 }
 
-function renderSelectedTrip(trip, departure, rows) {
+function renderSelectedTrip(trip, departure, rows, boardingIndex) {
   const finalStop = rows[rows.length - 1];
   tripPanelTitle.textContent = `Linia ${departure.line} → ${departure.display_direction}`;
 
@@ -422,26 +422,30 @@ function renderSelectedTrip(trip, departure, rows) {
       <strong>${escapeHtml(getDayTypeLabel(departure.day_type))}</strong>
       · ${escapeHtml(trip.trip_id)}<br>
       ${escapeHtml(rows.length)} przystanków ·
-      ${escapeHtml(rows[0].time)}–${escapeHtml(finalStop.time)}
+      ${escapeHtml(rows[0].time)}–${escapeHtml(finalStop.time)}<br>
+      <strong>Twój odjazd:</strong>
+      ${escapeHtml(rows[boardingIndex].stop_name)} (${escapeHtml(rows[boardingIndex].platform)})
+      · ${escapeHtml(rows[boardingIndex].time)}
     </div>
     <div class="trip-panel-note">
-      Godziny planowe. Niebieska linia łączy przystanki prostymi
-      odcinkami — na razie nie odwzorowuje przebiegu ulicami.
+      Przystanki przed Twoim odjazdem są przygaszone.
+      Niebieska linia łączy przystanki prostymi odcinkami, a godziny są planowe.
     </div>
     ${missingMessage}
     <div class="trip-stop-list">
       ${rows.map((stop, index) => `
-        <button class="trip-stop-button${stop.first ? " first" : ""}${stop.last ? " last" : ""}"
+        <button class="trip-stop-button${stop.first ? " first" : ""}${stop.last ? " last" : ""}${index < boardingIndex ? " past" : ""}${index === boardingIndex ? " boarding" : ""}"
           type="button" data-index="${index}"
           ${stop.latlng ? "" : "disabled"}
-          aria-label="${escapeHtml(stop.stop_name)}, ${escapeHtml(stop.time)}">
+          aria-label="${escapeHtml(stop.stop_name)}, ${escapeHtml(stop.time)}${index === boardingIndex ? ", tutaj wsiadasz" : ""}"
+          ${index === boardingIndex ? 'aria-current="step"' : ""}>
           <span class="trip-stop-time">${escapeHtml(stop.time)}</span>
           <span class="trip-stop-dot" aria-hidden="true"></span>
           <span class="trip-stop-name">
             ${escapeHtml(stop.stop_name)} (${escapeHtml(stop.platform)})
             <span class="trip-stop-id">
               ${escapeHtml(stop.stop_id)}
-              ${stop.first ? " · początek" : stop.last ? " · przyjazd końcowy" : ""}
+              ${index === boardingIndex ? " · TU WSIADASZ" : stop.first ? " · początek" : stop.last ? " · przyjazd końcowy" : ""}
             </span>
           </span>
         </button>
@@ -492,7 +496,15 @@ function showTripForDeparture(departure, fromStopId) {
       return;
     }
 
-    renderSelectedTrip(selected.trip, departure, rows);
+    const boardingIndex = KMMZTripRoute.findBoardingIndex(
+      selected.trip, fromStopId, departure.time
+    );
+    if (boardingIndex < 0) {
+      tripPanelBody.innerHTML = '<div class="panel-empty">Nie udało się jednoznacznie ustalić przystanku wsiadania dla tego odjazdu.</div>';
+      return;
+    }
+
+    renderSelectedTrip(selected.trip, departure, rows, boardingIndex);
   }).catch(error => {
     if (requestToken !== tripSelectionToken) return;
     console.warn("Błąd wyświetlania przebiegu kursu:", error);
@@ -627,7 +639,7 @@ function renderLineTimetable(page) {
             <button class="inline-time-row" type="button" data-index="${index}"
               title="Pokaż przebieg kursu o ${escapeHtml(item.time)} na mapie">
               <div class="inline-time">${escapeHtml(item.time)}</div>
-              <div class="inline-time-direction">${escapeHtml(extraDirection || item.display_direction)}</div>
+              <div class="inline-time-direction">${escapeHtml(extraDirection)}</div>
             </button>
           `;
         }).join("")}
