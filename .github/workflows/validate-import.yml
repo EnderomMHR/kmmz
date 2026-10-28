@@ -34,6 +34,8 @@ on:
       - 'linie/10.html'
       - 'linie/9.html'
       - 'js/mapa.js'
+      - 'js/trip-route.js'
+      - 'tools/test-map-trip-route.js'
       - 'mapa.html'
       - 'tools/check-terminal-arrivals.py'
       - 'tools/test-import-excel.py'
@@ -85,6 +87,11 @@ jobs:
         run: python tools/check-terminal-arrivals.py
       - name: Verify importer syntax
         run: python -m py_compile tools/import-excel.py
+      - name: Verify map's per-course itinerary controls and data matching
+        run: |
+          node --check js/trip-route.js
+          node --check js/mapa.js
+          node tools/test-map-trip-route.js
       - name: Generate HTML and stop departures (without committing)
         run: python tools/generate-rozklady.py > /tmp/kmmz-generated.log
       - name: Verify line 9 Excel source and generated timetable pages

@@ -121,7 +121,19 @@ const stopSearchClear = document.getElementById("stop-search-clear");
 const stopSearchResults = document.getElementById("stop-search-results");
 
 const allStops = [];
+const stopIndex = new Map();
 let currentSearchResults = [];
+
+// The selected trip is drawn separately from the permanently visible stops.
+const tripPanel = document.getElementById("trip-panel");
+const tripPanelTitle = document.getElementById("trip-panel-title");
+const tripPanelBody = document.getElementById("trip-panel-body");
+const tripPanelClose = document.getElementById("trip-panel-close");
+const tripRouteLayer = L.layerGroup().addTo(map);
+const tripsJsonCache = new Map();
+const linesJsonCache = new Map();
+let tripSelectionToken = 0;
+let activeTripRows = null;
 
 const tabNearest = document.getElementById("tab-nearest");
 const tabLines = document.getElementById("tab-lines");
@@ -137,6 +149,7 @@ let currentStopDeparturesData = null;
 let refreshTimer = null;
 
 panelClose.addEventListener("click", closeStopPanel);
+tripPanelClose.addEventListener("click", closeTripRoute);
 tabNearest.addEventListener("click", () => showPanelTab("nearest"));
 tabLines.addEventListener("click", () => showPanelTab("lines"));
 
@@ -157,6 +170,11 @@ function closeStopPanel() {
   if (refreshTimer) {
     clearInterval(refreshTimer);
     refreshTimer = null;
+  }
+
+  // The mobile stop sheet temporarily covers the itinerary sheet.
+  if (activeTripRows && window.matchMedia("(max-width: 700px)").matches) {
+    tripPanel.classList.add("open");
   }
 }
 
@@ -307,6 +325,182 @@ function getUpcomingDepartures(data) {
     .sort((a, b) => a.minutesLeft - b.minutesLeft || a.line.localeCompare(b.line));
 }
 
+// Load trip details only on demand; cache the result for further departures.
+function loadCourseJson(cache, path) {
+  if (!cache.has(path)) {
+    const request = fetch(path)
+      .then(response => {
+        if (!response.ok) throw new Error("Nie można pobrać danych kursu.");
+        return response.json();
+      })
+      .catch(error => {
+        cache.delete(path);
+        throw error;
+      });
+
+    cache.set(path, request);
+  }
+
+  return cache.get(path);
+}
+
+function closeTripRoute() {
+  ++tripSelectionToken; // Cancel any request that has not finished loading.
+  activeTripRows = null;
+  tripRouteLayer.clearLayers();
+  tripPanel.classList.remove("open");
+}
+
+function focusTripStop(index) {
+  const stop = activeTripRows?.[index];
+  if (!stop || !stop.latlng) return;
+  map.setView(stop.latlng, Math.max(map.getZoom(), 15), { animate: true });
+  if (stop.layer) {
+    stop.layer.openPopup();
+    setTimeout(() => renderPopupLines(stop.stop_id), 60);
+  }
+}
+
+function drawSelectedTrip(rows) {
+  tripRouteLayer.clearLayers();
+  let segment = [];
+  const points = [];
+
+  function flushSegment() {
+    if (segment.length > 1) {
+      L.polyline(segment, {
+        color: "#005bbb", weight: 5, opacity: 0.9,
+        lineCap: "round", lineJoin: "round", interactive: false
+      }).addTo(tripRouteLayer).bringToBack();
+    }
+    segment = [];
+  }
+
+  rows.forEach(stop => {
+    if (stop.latlng) {
+      segment.push(stop.latlng);
+      points.push(stop.latlng);
+    } else {
+      // Do not draw a misleading shortcut across a missing coordinate.
+      flushSegment();
+    }
+  });
+  flushSegment();
+
+  for (const stop of [rows[0], rows[rows.length - 1]]) {
+    if (!stop?.latlng) continue;
+    L.circleMarker(stop.latlng, {
+      radius: 9, color: "#102a43", weight: 3,
+      fillColor: "#f5c400", fillOpacity: 1, interactive: false
+    }).addTo(tripRouteLayer);
+  }
+
+  if (points.length > 1) {
+    const mobile = window.matchMedia("(max-width: 700px)").matches;
+    map.fitBounds(L.latLngBounds(points), {
+      paddingTopLeft: mobile ? [20, 50] : [430, 70],
+      paddingBottomRight: mobile ? [20, 260] : [55, 70],
+      maxZoom: 14,
+      animate: true
+    });
+  } else if (points.length === 1) {
+    map.setView(points[0], 14);
+  }
+}
+
+function renderSelectedTrip(trip, departure, rows) {
+  const finalStop = rows[rows.length - 1];
+  tripPanelTitle.textContent = `Linia ${departure.line} → ${departure.display_direction}`;
+
+  const missingCount = rows.filter(stop => !stop.latlng).length;
+  const missingMessage = missingCount
+    ? `<div class="panel-empty">Brakuje współrzędnych ${missingCount} przystanków. Nie łączymy ich linią na skróty.</div>`
+    : "";
+
+  tripPanelBody.innerHTML = `
+    <div class="trip-panel-meta">
+      <strong>${escapeHtml(getDayTypeLabel(departure.day_type))}</strong>
+      · ${escapeHtml(trip.trip_id)}<br>
+      ${escapeHtml(rows.length)} przystanków ·
+      ${escapeHtml(rows[0].time)}–${escapeHtml(finalStop.time)}
+    </div>
+    <div class="trip-panel-note">
+      Godziny planowe. Niebieska linia łączy przystanki prostymi
+      odcinkami — na razie nie odwzorowuje przebiegu ulicami.
+    </div>
+    ${missingMessage}
+    <div class="trip-stop-list">
+      ${rows.map((stop, index) => `
+        <button class="trip-stop-button${stop.first ? " first" : ""}${stop.last ? " last" : ""}"
+          type="button" data-index="${index}"
+          ${stop.latlng ? "" : "disabled"}
+          aria-label="${escapeHtml(stop.stop_name)}, ${escapeHtml(stop.time)}">
+          <span class="trip-stop-time">${escapeHtml(stop.time)}</span>
+          <span class="trip-stop-dot" aria-hidden="true"></span>
+          <span class="trip-stop-name">
+            ${escapeHtml(stop.stop_name)} (${escapeHtml(stop.platform)})
+            <span class="trip-stop-id">
+              ${escapeHtml(stop.stop_id)}
+              ${stop.first ? " · początek" : stop.last ? " · przyjazd końcowy" : ""}
+            </span>
+          </span>
+        </button>
+      `).join("")}
+    </div>
+  `;
+
+  tripPanelBody.querySelectorAll(".trip-stop-button").forEach(button => {
+    button.addEventListener("click", () => focusTripStop(Number(button.dataset.index)));
+  });
+  activeTripRows = rows;
+  drawSelectedTrip(rows);
+}
+
+function showTripForDeparture(departure, fromStopId) {
+  const line = String(departure.line);
+  if (!/^\d{1,3}$/.test(line) || !fromStopId) return;
+
+  ++tripSelectionToken;
+  const requestToken = tripSelectionToken;
+  activeTripRows = null;
+  tripRouteLayer.clearLayers();
+  closeStopPanel();
+  map.closePopup();
+
+  tripPanelTitle.textContent = `Linia ${line} → ${departure.display_direction}`;
+  tripPanelBody.innerHTML = '<div class="panel-empty">Wczytywanie przebiegu kursu...</div>';
+  tripPanel.classList.add("open");
+
+  Promise.all([
+    loadCourseJson(linesJsonCache, `data/rozklady/linie/${line}.json`),
+    loadCourseJson(tripsJsonCache, `data/trips/${line.padStart(3, "0")}.json`)
+  ]).then(([lineInfo, tripsInfo]) => {
+    if (requestToken !== tripSelectionToken) return;
+
+    const selected = KMMZTripRoute.findTripForDeparture(
+      departure, fromStopId, lineInfo, tripsInfo
+    );
+
+    if (!selected.trip) {
+      tripPanelBody.innerHTML = `<div class="panel-empty">${escapeHtml(selected.error)}</div>`;
+      return;
+    }
+
+    const rows = KMMZTripRoute.getTripStopRows(selected.trip, lineInfo, stopIndex);
+    if (!rows.length) {
+      tripPanelBody.innerHTML = '<div class="panel-empty">Ten kurs nie ma listy przystanków.</div>';
+      return;
+    }
+
+    renderSelectedTrip(selected.trip, departure, rows);
+  }).catch(error => {
+    if (requestToken !== tripSelectionToken) return;
+    console.warn("Błąd wyświetlania przebiegu kursu:", error);
+    tripPanelBody.innerHTML =
+      '<div class="panel-empty">Nie udało się pobrać przebiegu tego kursu. Spróbuj ponownie.</div>';
+  });
+}
+
 function renderNearestDepartures() {
   if (!currentStopDeparturesData) {
     nearestDeparturesBox.innerHTML = '<div class="panel-empty">Brak danych odjazdów dla tego przystanku.</div>';
@@ -320,21 +514,29 @@ function renderNearestDepartures() {
     return;
   }
 
-  nearestDeparturesBox.innerHTML = upcoming.map(item => {
+  nearestDeparturesBox.innerHTML = upcoming.map((item, index) => {
     const countdown = formatDepartureCountdown(item.minutesLeft, item.time);
     const nowClass = item.minutesLeft === 0 ? " now" : "";
 
     return `
-      <div class="departure-card">
+      <button class="departure-card" type="button" data-index="${index}"
+        title="Pokaż przebieg kursu ${escapeHtml(item.line)} o ${escapeHtml(item.time)} na mapie">
         <div class="departure-line">${escapeHtml(item.line)}</div>
         <div>
           <div class="departure-direction">${escapeHtml(item.display_direction)}</div>
           <div class="departure-time">Rozkładowo: ${escapeHtml(item.time)}</div>
         </div>
         <div class="departure-countdown${nowClass}">${escapeHtml(countdown)}</div>
-      </div>
+      </button>
     `;
   }).join("");
+
+  nearestDeparturesBox.querySelectorAll(".departure-card").forEach(button => {
+    button.addEventListener("click", () => {
+      const item = upcoming[Number(button.dataset.index)];
+      if (item) showTripForDeparture(item, currentStopProperties?.stop_id);
+    });
+  });
 }
 
 function getUniqueServedLines(data) {
@@ -416,24 +618,37 @@ function renderLineTimetable(page) {
       <div class="inline-timetable-title">Linia ${escapeHtml(lineInfo.line)} → ${escapeHtml(lineInfo.main_direction)}</div>
       <div class="inline-timetable-day">${escapeHtml(getDayTypeLabel(currentDayType))}</div>
       <div class="inline-time-list">
-        ${items.map(item => {
+        ${items.map((item, index) => {
           const extraDirection = item.display_direction !== lineInfo.main_direction
             ? item.display_direction
             : "";
 
           return `
-            <div class="inline-time-row">
+            <button class="inline-time-row" type="button" data-index="${index}"
+              title="Pokaż przebieg kursu o ${escapeHtml(item.time)} na mapie">
               <div class="inline-time">${escapeHtml(item.time)}</div>
-              <div class="inline-time-direction">${escapeHtml(extraDirection)}</div>
-            </div>
+              <div class="inline-time-direction">${escapeHtml(extraDirection || item.display_direction)}</div>
+            </button>
           `;
         }).join("")}
       </div>
     </div>
   `;
+
+  lineTimetableBox.querySelectorAll(".inline-time-row").forEach(button => {
+    button.addEventListener("click", () => {
+      const item = items[Number(button.dataset.index)];
+      if (item) showTripForDeparture(item, currentStopProperties?.stop_id);
+    });
+  });
 }
 
 function openStopPanel(properties) {
+  // On small screens both sheets occupy the bottom; never overlap them.
+  if (window.matchMedia("(max-width: 700px)").matches) {
+    tripPanel.classList.remove("open");
+  }
+
   currentStopProperties = properties;
   currentStopDeparturesData = null;
 
@@ -734,6 +949,7 @@ const searchItem = {
 
 searchItem.searchText = buildStopSearchText(searchItem);
 allStops.push(searchItem);
+stopIndex.set(searchItem.stop_id, searchItem);
 
     const popupContent = `
   <div style="font-weight:bold;font-size:15px;margin-bottom:4px;">
