@@ -195,6 +195,10 @@
 
     .departure-card {
       display: grid;
+      width: 100%;
+      cursor: pointer;
+      text-align: left;
+      font: inherit;
       grid-template-columns: 48px 1fr auto;
       gap: 9px;
       align-items: center;
@@ -321,6 +325,10 @@
 
     .inline-time-row {
       display: grid;
+      width: 100%;
+      cursor: pointer;
+      text-align: left;
+      font: inherit;
       grid-template-columns: 70px 1fr;
       gap: 8px;
       align-items: center;
@@ -367,6 +375,169 @@
 
     .panel-link:hover {
       background: var(--zone-dark, #003f7d);
+    }
+
+    .departure-card:hover,
+    .inline-time-row:hover {
+      background: #fff8da;
+      border-color: #d8ae00;
+    }
+
+    .departure-card:focus-visible,
+    .inline-time-row:focus-visible,
+    .trip-stop-button:focus-visible {
+      outline: 3px solid #005bbb;
+      outline-offset: 2px;
+    }
+
+    /* Panel pojedynczego kursu, po lewej poniżej wyszukiwarki. */
+    .trip-panel {
+      position: absolute;
+      top: 150px;
+      left: 20px;
+      width: 390px;
+      max-width: calc(100vw - 40px);
+      max-height: calc(100vh - 170px);
+      z-index: 1000;
+      display: flex;
+      flex-direction: column;
+      background: #fff;
+      border: 2px solid #005bbb;
+      border-radius: 20px;
+      box-shadow: 0 18px 45px rgba(0,0,0,.32);
+      overflow: hidden;
+      transform: translateX(-440px);
+      opacity: 0;
+      pointer-events: none;
+      transition: transform .25s ease, opacity .25s ease;
+    }
+
+    .trip-panel.open {
+      transform: translateX(0);
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .trip-panel-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 12px;
+      padding: 15px 16px;
+      color: #fff;
+      background: linear-gradient(130deg, #005bbb, #102a43);
+    }
+
+    .trip-panel-kicker {
+      font-size: 12px;
+      opacity: .84;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .trip-panel-title {
+      font-weight: bold;
+      font-size: 19px;
+      line-height: 1.25;
+    }
+
+    .trip-panel-close {
+      flex: 0 0 34px;
+      width: 34px;
+      height: 34px;
+      border: 0;
+      border-radius: 50%;
+      background: rgba(255,255,255,.2);
+      color: white;
+      font-size: 24px;
+      cursor: pointer;
+    }
+
+    .trip-panel-close:hover {
+      background: rgba(255,255,255,.34);
+    }
+
+    .trip-panel-body {
+      padding: 14px;
+      overflow-y: auto;
+      overscroll-behavior: contain;
+    }
+
+    .trip-panel-meta {
+      color: #425b73;
+      font-size: 12px;
+      line-height: 1.5;
+      margin-bottom: 10px;
+    }
+
+    .trip-panel-note {
+      font-size: 12px;
+      color: #536a7d;
+      padding: 9px 10px;
+      border-radius: 10px;
+      background: #edf5ff;
+      margin-bottom: 12px;
+    }
+
+    .trip-stop-list {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .trip-stop-button {
+      display: grid;
+      grid-template-columns: 62px 14px 1fr;
+      gap: 9px;
+      align-items: center;
+      border: 0;
+      width: 100%;
+      background: transparent;
+      text-align: left;
+      padding: 8px 5px;
+      border-radius: 8px;
+      color: #102a43;
+      cursor: pointer;
+      font: inherit;
+    }
+
+    .trip-stop-button:hover {
+      background: #fff6ce;
+    }
+
+    .trip-stop-time {
+      font-size: 14px;
+      font-weight: bold;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .trip-stop-dot {
+      width: 11px;
+      height: 11px;
+      background: #005bbb;
+      border: 2px solid white;
+      box-shadow: 0 0 0 2px #005bbb;
+      border-radius: 50%;
+    }
+
+    .trip-stop-button.first .trip-stop-dot,
+    .trip-stop-button.last .trip-stop-dot {
+      background: #f5c400;
+      box-shadow: 0 0 0 2px #102a43;
+    }
+
+    .trip-stop-name {
+      font-size: 13px;
+      font-weight: bold;
+      line-height: 1.25;
+    }
+
+    .trip-stop-id {
+      display: block;
+      font-size: 11px;
+      color: #627487;
+      font-weight: normal;
+      margin-top: 3px;
     }
 
     .stop-search {
@@ -479,6 +650,21 @@
 }
 
     @media (max-width: 700px) {
+      .trip-panel {
+        top: auto;
+        bottom: 10px;
+        left: 10px;
+        right: 10px;
+        width: auto;
+        max-width: none;
+        max-height: 63vh;
+        transform: translateY(110%);
+      }
+
+      .trip-panel.open {
+        transform: translateY(0);
+      }
+
       .stop-panel {
         top: auto;
         right: 10px;
@@ -556,10 +742,22 @@
     </div>
   </aside>
 
+  <aside id="trip-panel" class="trip-panel" aria-label="Przebieg wybranego kursu">
+    <div class="trip-panel-header">
+      <div>
+        <div class="trip-panel-kicker">KMMZ · PLANOWANY PRZEBIEG</div>
+        <div id="trip-panel-title" class="trip-panel-title">Trasa kursu</div>
+      </div>
+      <button id="trip-panel-close" class="trip-panel-close" type="button" aria-label="Zamknij przebieg kursu">×</button>
+    </div>
+    <div id="trip-panel-body" class="trip-panel-body" aria-live="polite"></div>
+  </aside>
+
   <!-- Leaflet JS -->
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 
   <!-- Nasz skrypt mapy -->
-  <script src="js/mapa.js?v=20261020-stop-data"></script>
+  <script src="js/trip-route.js?v=20261028"></script>
+  <script src="js/mapa.js?v=20261028-trip-route"></script>
 </body>
 </html>
