@@ -79,7 +79,9 @@ for stop_id in unique_ids:
 map_js = (ROOT / "js/mapa.js").read_text(encoding="utf-8")
 assert map_js.count('fetch(`data/odjazdy/${stopId}.json`, { cache: "no-store" })') == 2
 map_html = (ROOT / "mapa.html").read_text(encoding="utf-8")
-assert '<script src="js/mapa.js?v=20261020-stop-data"></script>' in map_html
+# Query-string asset versions may change when map features are deployed.
+assert re.search(r'<script src="js/mapa\.js\?v=[^"]+"></script>', map_html)
+assert re.search(r'<script src="js/trip-route\.js\?v=[^"]+"></script>', map_html)
 print("OK: line 8 separate terminal 0200 page: no departures and correct direction.")
 print("OK: line 8 stop headings, one highlight, all 15 map stops, 43 departures each.")
 print("OK: map direction breakpoint 0687/0688, cache refresh for stop popup/sidebar.")
