@@ -350,6 +350,13 @@
       line-height: 1.25;
     }
 
+    .panel-hint {
+      color: #536a7d;
+      font-size: 12px;
+      line-height: 1.35;
+      margin: -2px 4px 10px;
+    }
+
     .panel-empty {
       background: white;
       border: 1px dashed #b8c4d2;
@@ -729,11 +736,13 @@
 
       <section id="section-nearest" class="panel-section active">
         <div class="panel-subtitle">Najbliższe odjazdy — 4 godziny</div>
+        <div class="panel-hint">Kliknij odjazd, aby zobaczyć przebieg konkretnego kursu na mapie.</div>
         <div id="nearest-departures"></div>
       </section>
 
       <section id="section-lines" class="panel-section">
         <div class="panel-subtitle">Linie z tego przystanku</div>
+        <div class="panel-hint">Wybierz linię, a następnie godzinę kursu, aby zobaczyć jego trasę.</div>
         <div id="served-lines"></div>
         <div id="line-timetable"></div>
       </section>
