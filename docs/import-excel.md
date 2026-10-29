@@ -383,3 +383,37 @@ Testy `tools/test-line15-import.py` i
 odcisk SHA-256 wszystkich 56 kursów z oryginalnego
 Excela, kompletność 2996 czasów, wygenerowane rozkłady,
 kierunki i wykluczenie sztucznych odjazdów z mapy.
+
+
+## Linia 16 — jednokierunkowa okrężna po Olkuszu
+
+Źródło: `P.A.M. - Linia 16.xlsx`, tylko `Arkusz1` (arkusze 2–3
+są pomocnicze i ignorowane). Łącznie **47 kursów, 752 godziny
+przystankowe, 705 rzeczywistych odjazdów**. Rozkład: dni
+robocze 16 (`R`), soboty 14 (`S`), niedziele 11 (`N`) i
+święta 6 (`SW`). Każdy kurs ma ten sam pełny przebieg 16
+pozycji (15 odjazdów i jeden końcowy przyjazd), czas 23 minuty,
+bez wariantów, skróceń i cofających się godzin.
+
+- Kierunek faktyczny `1`, slug `okrezna`.
+- W pierwszym segmencie, od początkowego `0200 Olkusz
+  Dworzec PKS (0)` **do `0202 Olkusz Wiadukt (1)`
+  włącznie**, kierunek informacyjny `Olkusz Jasna Skrzyżowanie`.
+- **Od `2451 Olkusz Pakuska (1)`** aż po przyjazd
+  końcowy, kierunek informacyjny `Olkusz Dworzec PKS`.
+  Segmenty realizuje standardowe `direction_segments`,
+  bez zmian w kodzie generatora.
+- Przystanek `0200` występuje dwa razy w jednym kursie;
+  początek ma `0200-okrezna.html`, a przyjazd końcowy
+  `0200-okrezna-koniec.html`. Na drugiej stronie
+  brak sztucznych odjazdów.
+- `linie/16.html` używa osobnego odnośnika do końcowego
+  wystąpienia `0200`. Mapa korzysta z 47 faktycznych
+  odjazdów z początkowego `0200` i właściwych nagłówków
+  przed i za `2451`.
+
+Regresja `tools/test-line16-import.py` ponownie importuje
+wszystkie kursy w aktualnym konwerterze. Test
+`tools/check-line16.py` sprawdza odcisk SHA-256 wszystkich
+47 ID i 752 czasów z oryginalnego `Arkusz1`, 16 pozycji,
+osobny przyjazd końcowy, strony i kierunki w danych mapy.
