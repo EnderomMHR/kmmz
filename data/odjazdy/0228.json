@@ -4,6 +4,52 @@
   "platform": "1",
   "departures": [
     {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Zawada Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "holiday",
+      "time": "04:22",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Zawada Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "holiday",
+      "time": "05:57",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "holiday",
+      "time": "07:57",
+      "symbols": []
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Zawada Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "holiday",
+      "time": "09:08",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
       "line": "8",
       "main_direction": "Olkusz Pomorzany Wzniesienie",
       "display_direction": "Olkusz Pomorzany Wzniesienie",
@@ -24,6 +70,16 @@
       "symbols": [
         "P"
       ]
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "holiday",
+      "time": "10:38",
+      "symbols": []
     },
     {
       "line": "11",
@@ -170,6 +226,16 @@
       "symbols": []
     },
     {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "holiday",
+      "time": "15:56",
+      "symbols": []
+    },
+    {
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "display_direction": "Wolbrom Nowa PKS",
@@ -177,6 +243,16 @@
       "page": "rozklady/3/0228-wolbrom.html",
       "day_type": "holiday",
       "time": "16:27",
+      "symbols": []
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "holiday",
+      "time": "17:17",
       "symbols": []
     },
     {
@@ -188,6 +264,40 @@
       "day_type": "holiday",
       "time": "17:49",
       "symbols": []
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "holiday",
+      "time": "18:28",
+      "symbols": []
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Zawada Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "holiday",
+      "time": "19:24",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Zawada Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "saturday",
+      "time": "04:22",
+      "symbols": [
+        "Z"
+      ]
     },
     {
       "line": "11",
@@ -243,6 +353,18 @@
       "symbols": [
         "L",
         "P"
+      ]
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Zawada Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "saturday",
+      "time": "05:57",
+      "symbols": [
+        "Z"
       ]
     },
     {
@@ -311,6 +433,16 @@
       "symbols": []
     },
     {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "saturday",
+      "time": "07:57",
+      "symbols": []
+    },
+    {
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "display_direction": "Wolbrom Nowa PKS",
@@ -340,6 +472,18 @@
       "time": "08:53",
       "symbols": [
         "H"
+      ]
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Zawada Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "saturday",
+      "time": "09:08",
+      "symbols": [
+        "Z"
       ]
     },
     {
@@ -385,6 +529,16 @@
       "symbols": []
     },
     {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "saturday",
+      "time": "10:38",
+      "symbols": []
+    },
+    {
       "line": "11",
       "main_direction": "Tarnawa Podlas",
       "display_direction": "Poręba Laskowska",
@@ -420,6 +574,16 @@
       "symbols": []
     },
     {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "saturday",
+      "time": "11:44",
+      "symbols": []
+    },
+    {
       "line": "11",
       "main_direction": "Tarnawa Podlas",
       "display_direction": "Tarnawa Podlas",
@@ -447,6 +611,16 @@
       "page": "rozklady/8/0228-okrezna.html",
       "day_type": "saturday",
       "time": "12:52",
+      "symbols": []
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "saturday",
+      "time": "13:10",
       "symbols": []
     },
     {
@@ -507,6 +681,18 @@
       "symbols": []
     },
     {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Zawada Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "saturday",
+      "time": "14:16",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
       "line": "8",
       "main_direction": "Olkusz Pomorzany Wzniesienie",
       "display_direction": "Olkusz Pomorzany Wzniesienie",
@@ -539,6 +725,16 @@
       ]
     },
     {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "saturday",
+      "time": "15:51",
+      "symbols": []
+    },
+    {
       "line": "11",
       "main_direction": "Tarnawa Podlas",
       "display_direction": "Tarnawa Podlas",
@@ -566,6 +762,16 @@
       "page": "rozklady/8/0228-okrezna.html",
       "day_type": "saturday",
       "time": "16:52",
+      "symbols": []
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "saturday",
+      "time": "17:17",
       "symbols": []
     },
     {
@@ -607,6 +813,16 @@
       ]
     },
     {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "saturday",
+      "time": "18:28",
+      "symbols": []
+    },
+    {
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "display_direction": "Wolbrom Nowa PKS",
@@ -615,6 +831,18 @@
       "day_type": "saturday",
       "time": "19:23",
       "symbols": []
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Zawada Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "saturday",
+      "time": "19:24",
+      "symbols": [
+        "Z"
+      ]
     },
     {
       "line": "8",
@@ -656,6 +884,18 @@
       "page": "rozklady/11/0228-tarnawa.html",
       "day_type": "saturday",
       "time": "20:19",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Zawada Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "saturday",
+      "time": "21:04",
       "symbols": [
         "Z"
       ]
@@ -705,6 +945,16 @@
       ]
     },
     {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "sunday",
+      "time": "04:32",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Laski Pętla",
       "display_direction": "Laski Pętla",
@@ -723,6 +973,18 @@
       "day_type": "sunday",
       "time": "05:30",
       "symbols": []
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Zawada Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "sunday",
+      "time": "05:46",
+      "symbols": [
+        "Z"
+      ]
     },
     {
       "line": "2",
@@ -771,6 +1033,16 @@
       "symbols": []
     },
     {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "sunday",
+      "time": "07:45",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Laski Pętla",
       "display_direction": "Laski Pętla",
@@ -813,6 +1085,18 @@
       "symbols": []
     },
     {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Zawada Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "sunday",
+      "time": "09:15",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
       "line": "2",
       "main_direction": "Laski Pętla",
       "display_direction": "Laski Pętla",
@@ -845,6 +1129,16 @@
       "symbols": [
         "Z"
       ]
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "sunday",
+      "time": "10:49",
+      "symbols": []
     },
     {
       "line": "11",
@@ -892,6 +1186,16 @@
       "symbols": []
     },
     {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "sunday",
+      "time": "12:08",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Laski Pętla",
       "display_direction": "Laski Pętla",
@@ -921,6 +1225,16 @@
       "page": "rozklady/11/0228-tarnawa.html",
       "day_type": "sunday",
       "time": "13:01",
+      "symbols": []
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "sunday",
+      "time": "13:28",
       "symbols": []
     },
     {
@@ -956,6 +1270,16 @@
       "symbols": []
     },
     {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "sunday",
+      "time": "14:54",
+      "symbols": []
+    },
+    {
       "line": "11",
       "main_direction": "Tarnawa Podlas",
       "display_direction": "Tarnawa Podlas",
@@ -974,6 +1298,18 @@
       "day_type": "sunday",
       "time": "15:40",
       "symbols": []
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Zawada Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "sunday",
+      "time": "16:08",
+      "symbols": [
+        "Z"
+      ]
     },
     {
       "line": "3",
@@ -1019,6 +1355,18 @@
       ]
     },
     {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Zawada Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "sunday",
+      "time": "18:07",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
       "line": "8",
       "main_direction": "Olkusz Pomorzany Wzniesienie",
       "display_direction": "Olkusz Pomorzany Wzniesienie",
@@ -1059,6 +1407,18 @@
       "symbols": []
     },
     {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Zawada Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "sunday",
+      "time": "20:11",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
       "line": "2",
       "main_direction": "Laski Pętla",
       "display_direction": "Laski Pętla",
@@ -1087,6 +1447,18 @@
       "day_type": "sunday",
       "time": "21:54",
       "symbols": []
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Zawada Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "workday",
+      "time": "04:05",
+      "symbols": [
+        "Z"
+      ]
     },
     {
       "line": "11",
@@ -1132,6 +1504,18 @@
       "day_type": "workday",
       "time": "05:11",
       "symbols": []
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Zawada Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "workday",
+      "time": "05:37",
+      "symbols": [
+        "Z"
+      ]
     },
     {
       "line": "8",
@@ -1200,6 +1584,16 @@
       ]
     },
     {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "workday",
+      "time": "07:14",
+      "symbols": []
+    },
+    {
       "line": "8",
       "main_direction": "Olkusz Pomorzany Wzniesienie",
       "display_direction": "Olkusz Pomorzany Wzniesienie",
@@ -1239,6 +1633,16 @@
       "page": "rozklady/3/0228-wolbrom.html",
       "day_type": "workday",
       "time": "08:02",
+      "symbols": []
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "workday",
+      "time": "08:14",
       "symbols": []
     },
     {
@@ -1306,6 +1710,16 @@
       "symbols": []
     },
     {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "workday",
+      "time": "09:35",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Laski Pętla",
       "display_direction": "Laski Pętla",
@@ -1337,6 +1751,18 @@
       "time": "10:32",
       "symbols": [
         "P",
+        "Z"
+      ]
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Zawada Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "workday",
+      "time": "10:38",
+      "symbols": [
         "Z"
       ]
     },
@@ -1401,6 +1827,16 @@
       "page": "rozklady/8/0228-okrezna.html",
       "day_type": "workday",
       "time": "12:00",
+      "symbols": []
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "workday",
+      "time": "12:13",
       "symbols": []
     },
     {
@@ -1469,6 +1905,16 @@
       ]
     },
     {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "workday",
+      "time": "13:35",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Laski Pętla",
       "display_direction": "Bukowno Przymiarki",
@@ -1500,6 +1946,18 @@
       "day_type": "workday",
       "time": "14:31",
       "symbols": []
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Zawada Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "workday",
+      "time": "14:33",
+      "symbols": [
+        "Z"
+      ]
     },
     {
       "line": "2",
@@ -1570,6 +2028,16 @@
       "symbols": []
     },
     {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "workday",
+      "time": "16:08",
+      "symbols": []
+    },
+    {
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "display_direction": "Wolbrom Nowa PKS",
@@ -1613,6 +2081,16 @@
       ]
     },
     {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "workday",
+      "time": "17:07",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Laski Pętla",
       "display_direction": "Laski Pętla",
@@ -1654,6 +2132,18 @@
         "H",
         "L",
         "P",
+        "Z"
+      ]
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Zawada Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "workday",
+      "time": "18:29",
+      "symbols": [
         "Z"
       ]
     },
@@ -1720,6 +2210,16 @@
       "symbols": []
     },
     {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "workday",
+      "time": "20:05",
+      "symbols": []
+    },
+    {
       "line": "11",
       "main_direction": "Tarnawa Podlas",
       "display_direction": "Tarnawa Podlas",
@@ -1765,6 +2265,18 @@
       "symbols": []
     },
     {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Zawada Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "workday",
+      "time": "21:06",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
       "line": "11",
       "main_direction": "Tarnawa Podlas",
       "display_direction": "Tarnawa Podlas",
@@ -1793,6 +2305,16 @@
       "day_type": "workday",
       "time": "21:51",
       "symbols": []
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0228-osiek.html",
+      "day_type": "workday",
+      "time": "22:42",
+      "symbols": []
     }
   ],
   "served_lines": [
@@ -1800,6 +2322,11 @@
       "line": "11",
       "main_direction": "Tarnawa Podlas",
       "page": "rozklady/11/0228-tarnawa.html"
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "page": "rozklady/18/0228-osiek.html"
     },
     {
       "line": "2",
@@ -1821,6 +2348,9 @@
     "11": {
       "P": "do: Poręba Laskowska",
       "Z": "przez: Zagórowa"
+    },
+    "18": {
+      "Z": "do: Zawada Pętla"
     },
     "2": {
       "B": "do: Bukowno Dworzec PKP",

@@ -1,0 +1,541 @@
+{
+  "stop_id": "0536",
+  "stop_name": "Olkusz Szpital",
+  "platform": "1",
+  "departures": [
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Zawada Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "holiday",
+      "time": "04:30",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Zawada Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "holiday",
+      "time": "06:05",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "holiday",
+      "time": "08:05",
+      "symbols": []
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Zawada Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "holiday",
+      "time": "09:16",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "holiday",
+      "time": "10:46",
+      "symbols": []
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "holiday",
+      "time": "16:04",
+      "symbols": []
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "holiday",
+      "time": "17:25",
+      "symbols": []
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "holiday",
+      "time": "18:36",
+      "symbols": []
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Zawada Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "holiday",
+      "time": "19:32",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Zawada Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "saturday",
+      "time": "04:30",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Zawada Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "saturday",
+      "time": "06:05",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "saturday",
+      "time": "08:05",
+      "symbols": []
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Zawada Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "saturday",
+      "time": "09:16",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "saturday",
+      "time": "10:46",
+      "symbols": []
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "saturday",
+      "time": "11:52",
+      "symbols": []
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "saturday",
+      "time": "13:18",
+      "symbols": []
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Zawada Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "saturday",
+      "time": "14:24",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "saturday",
+      "time": "15:59",
+      "symbols": []
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "saturday",
+      "time": "17:25",
+      "symbols": []
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "saturday",
+      "time": "18:36",
+      "symbols": []
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Zawada Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "saturday",
+      "time": "19:32",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Zawada Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "saturday",
+      "time": "21:12",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "sunday",
+      "time": "04:40",
+      "symbols": []
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Zawada Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "sunday",
+      "time": "05:54",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "sunday",
+      "time": "07:53",
+      "symbols": []
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Zawada Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "sunday",
+      "time": "09:23",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "sunday",
+      "time": "10:57",
+      "symbols": []
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "sunday",
+      "time": "12:16",
+      "symbols": []
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "sunday",
+      "time": "13:36",
+      "symbols": []
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "sunday",
+      "time": "15:02",
+      "symbols": []
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Zawada Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "sunday",
+      "time": "16:16",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Zawada Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "sunday",
+      "time": "18:15",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Zawada Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "sunday",
+      "time": "20:19",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Zawada Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "workday",
+      "time": "04:13",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Zawada Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "workday",
+      "time": "05:45",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "workday",
+      "time": "07:22",
+      "symbols": []
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "workday",
+      "time": "08:22",
+      "symbols": []
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "workday",
+      "time": "09:43",
+      "symbols": []
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Zawada Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "workday",
+      "time": "10:46",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "workday",
+      "time": "12:21",
+      "symbols": []
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "workday",
+      "time": "13:43",
+      "symbols": []
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Zawada Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "workday",
+      "time": "14:41",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "workday",
+      "time": "16:16",
+      "symbols": []
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "workday",
+      "time": "17:15",
+      "symbols": []
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Zawada Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "workday",
+      "time": "18:37",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "workday",
+      "time": "20:13",
+      "symbols": []
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Zawada Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "workday",
+      "time": "21:14",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "display_direction": "Osiek Pętla",
+      "direction_slug": "osiek",
+      "page": "rozklady/18/0536-osiek.html",
+      "day_type": "workday",
+      "time": "22:50",
+      "symbols": []
+    }
+  ],
+  "served_lines": [
+    {
+      "line": "18",
+      "main_direction": "Osiek Pętla",
+      "page": "rozklady/18/0536-osiek.html"
+    }
+  ],
+  "legends": {
+    "18": {
+      "Z": "do: Zawada Pętla"
+    }
+  }
+}

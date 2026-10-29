@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KMMZ | Linia 18 | 2076 Zawada Sklep</title>
+
+<style>
+
+*{box-sizing:border-box}
+
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:linear-gradient(135deg,#005bbb,#009966);
+    padding:20px;
+}
+
+.page{
+    max-width:1400px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:330px 1fr;
+    gap:20px;
+}
+
+.panel, .timetable{
+    background:white;
+    border-radius:16px;
+    box-shadow:0 8px 25px rgba(0,0,0,.22);
+}
+
+.panel{
+    padding:15px;
+}
+
+.back{
+    display:block;
+    margin-bottom:15px;
+    color:#005bbb;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+.route-title{
+    text-align:center;
+    padding:12px;
+    background:#f5c400;
+    font-weight:bold;
+    border-radius:10px 10px 0 0;
+}
+
+.route-subtitle{
+    text-align:center;
+    background:#009966;
+    color:white;
+    padding:8px;
+    font-weight:bold;
+}
+
+.stop{
+    display:block;
+    padding:5px 8px;
+    border-bottom:1px dashed #ccc;
+    color:#222;
+    text-decoration:none;
+    font-size:12px;
+}
+
+.stop:hover{
+    background:#eef5ff;
+    color:#005bbb;
+}
+
+.current-stop{
+    background:#fff3c4;
+    font-weight:bold;
+    font-size:12px;
+}
+
+.variant{
+    margin-left:25px;
+    font-style:italic;
+}
+
+.timetable{
+    padding:20px;
+}
+
+.header{
+    display:grid;
+    grid-template-columns:110px 1fr 90px;
+    gap:20px;
+    align-items:center;
+    margin-bottom:25px;
+}
+
+.line-button{
+    background:#f5c400;
+    color:#222;
+    font-size:36px;
+    font-weight:bold;
+    text-align:center;
+    padding:14px;
+    border-radius:12px;
+    text-decoration:none;
+}
+
+.stop-name{
+    font-size:21px;
+    font-weight:bold;
+    color:#005bbb;
+    text-decoration:none;
+}
+
+.stop-code{
+    background:#dcecff;
+    color:#005bbb;
+    padding:6px 10px;
+    border-radius:6px;
+    font-weight:bold;
+    margin-right:8px;
+    font-size:14px;
+}
+
+.direction{
+    margin-top:10px;
+    font-size:15px;
+}
+
+.map-button{
+    text-decoration:none;
+    background:#eaf4ff;
+    border:2px solid #005bbb;
+    color:#005bbb;
+    border-radius:12px;
+    font-size:13px;
+    padding:9px;
+    text-align:center;
+    font-weight:bold;
+}
+
+.map-icon{
+    font-size:26px;
+    display:block;
+}
+
+.section-title{
+    margin-top:14px;
+    padding:7px 10px;
+    font-weight:bold;
+    border-radius:6px;
+    font-size:14px;
+}
+
+.workday{background:#eaf4ff;}
+.saturday{background:#eef7df;}
+.sunday{background:#ffe5e5;}
+.holiday{background:#fff3c4;}
+
+.times{
+    display:grid;
+    grid-template-columns:repeat(8,1fr);
+    gap:0;
+    padding:6px 0 12px 0;
+    border-bottom:1px dashed #ccc;
+}
+
+.time{
+    text-align:center;
+    padding:5px;
+    font-size:14px;
+}
+
+.no-service{
+    padding:9px;
+    color:#777;
+    font-style:italic;
+    font-size:14px;
+}
+
+.legend{
+    margin-top:30px;
+    border:2px solid #ccc;
+    border-radius:14px;
+    overflow:hidden;
+}
+
+.legend-title{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    padding:12px;
+    background:linear-gradient(90deg,#f5c400,#005bbb,#009966);
+    font-size:17px;
+}
+
+.legend-row{
+    padding:8px 15px;
+    border-bottom:1px dashed #ccc;
+}
+
+.legend-row:last-child{
+    border-bottom:none;
+}
+
+.symbol{
+    color:#005bbb;
+    font-weight:bold;
+    display:inline-block;
+    width:35px;
+}
+
+@media(max-width:900px){
+    .page{
+        grid-template-columns:1fr;
+    }
+
+    .header{
+        grid-template-columns:1fr;
+        text-align:center;
+    }
+
+    .times{
+        grid-template-columns:repeat(3,1fr);
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="page">
+
+<div class="panel">
+<a class="back" href="../../linie/18.html">← Powrót do trasy linii 18</a>
+
+<div class="route-title">Kierunek: Olkusz Dworzec PKS</div>
+<div class="route-subtitle">Trasa przejazdu od tego przystanku</div>
+
+<a class="stop variant current-stop" href="../18/2076-olkusz.html">2076 Zawada Sklep (2)</a>
+<a class="stop variant" href="../18/2077-olkusz.html">2077 Zawada OSP (2)</a>
+<a class="stop variant" href="../18/2078-olkusz.html">2078 Zawada Szkoła (2)</a>
+<a class="stop variant" href="../18/2071-olkusz.html">2071 Zimnodół Las (1)</a>
+<a class="stop variant" href="../18/2080-olkusz.html">2080 Zimnodół Skrzyżowanie (2)</a>
+<a class="stop variant" href="../18/2069-olkusz.html">2069 Zimnodół Na Pastwie (1)</a>
+<a class="stop variant" href="../18/2068-olkusz.html">2068 Zimnodół OSP (1)</a>
+<a class="stop variant" href="../18/2083-olkusz.html">2083 Zimnodół Do Baraków (2)</a>
+<a class="stop variant" href="../18/2065-olkusz.html">2065 Osiek Zimnodół (1)</a>
+<a class="stop variant" href="../18/3259-olkusz.html">3259 Osiek Remiza (1)</a>
+<a class="stop variant" href="../18/2049-olkusz.html">2049 Osiek Sklep (2)</a>
+<a class="stop variant" href="../18/2058-olkusz.html">2058 Osiek Wieś (1)</a>
+<a class="stop variant" href="../18/2051-olkusz.html">2051 Osiek Zabudowanie (2)</a>
+<a class="stop variant" href="../18/2056-olkusz.html">2056 Osiek Stara Pętla (1)</a>
+<a class="stop variant" href="../18/2055-olkusz.html">2055 Osiek Leśna (1)</a>
+<a class="stop variant" href="../18/2886-olkusz.html">2886 Osiek Leśniczówka (1)</a>
+<a class="stop" href="../18/2054-olkusz.html">2054 Osiek Pętla (0)</a>
+<a class="stop" href="../18/2889-olkusz.html">2889 Osiek Leśniczówka (2)</a>
+<a class="stop" href="../18/2053-olkusz.html">2053 Osiek Leśna (2)</a>
+<a class="stop" href="../18/2052-olkusz.html">2052 Osiek Stara Pętla (2)</a>
+<a class="stop" href="../18/2057-olkusz.html">2057 Osiek Zabudowanie (1)</a>
+<a class="stop" href="../18/2050-olkusz.html">2050 Osiek Wieś (2)</a>
+<a class="stop" href="../18/2059-olkusz.html">2059 Osiek Sklep (1)</a>
+<a class="stop" href="../18/2048-olkusz.html">2048 Osiek Szkoła (2)</a>
+<a class="stop" href="../18/2047-olkusz.html">2047 Osiek Kościół (1)</a>
+<a class="stop" href="../18/2046-olkusz.html">2046 Osiek Działy (2)</a>
+<a class="stop" href="../18/2062-olkusz.html">2062 Osiek (1)</a>
+<a class="stop" href="../18/2044-olkusz.html">2044 Osiek Skrzyżowanie (2)</a>
+<a class="stop" href="../18/2064-olkusz.html">2064 Osiek Las (1)</a>
+<a class="stop" href="../18/0494-olkusz.html">0494 Olkusz ZUS (2)</a>
+<a class="stop" href="../18/0495-olkusz.html">0495 Olkusz Szpital (2)</a>
+<a class="stop" href="../18/0197-olkusz.html">0197 Olkusz Basen (1)</a>
+<a class="stop" href="../18/0198-olkusz.html">0198 Olkusz Dworek Machnickich (0)</a>
+<a class="stop" href="../18/0199-olkusz.html">0199 Olkusz Skarbek (2)</a>
+<a class="stop" href="../18/0200-olkusz.html">0200 Olkusz Dworzec PKS (0)</a>
+</div>
+
+<div class="timetable">
+
+<div class="header">
+<a class="line-button" href="../../linie/18.html">18</a>
+
+<div>
+<a class="stop-name" href="../../przystanki/2076.html">
+<span class="stop-code">2076</span>Zawada Sklep (2)
+</a>
+<div class="direction">Kierunek: <strong>Olkusz Dworzec PKS</strong></div>
+</div>
+
+<a class="map-button" href="https://enderommhr.github.io/kmmz/mapa.html" target="_blank">
+<span class="map-icon">🗺️</span>
+Mapa
+</a>
+</div>
+
+
+<div class="section-title workday">Dni robocze</div>
+<div class="times">
+<div class="time">04:51</div>
+<div class="time">06:30</div>
+<div class="time">11:26</div>
+<div class="time">15:24</div>
+<div class="time">19:21</div>
+<div class="time">21:56</div>
+</div>
+
+
+<div class="section-title saturday">Soboty</div>
+<div class="times">
+<div class="time">05:09</div>
+<div class="time">06:49</div>
+<div class="time">09:55</div>
+<div class="time">15:03</div>
+<div class="time">20:16</div>
+<div class="time">22:16</div>
+</div>
+
+
+<div class="section-title sunday">Niedziele</div>
+<div class="times">
+<div class="time">06:42</div>
+<div class="time">10:02</div>
+<div class="time">17:04</div>
+<div class="time">18:58</div>
+<div class="time">20:58</div>
+</div>
+
+
+<div class="section-title holiday">Święta</div>
+<div class="times">
+<div class="time">05:09</div>
+<div class="time">06:49</div>
+<div class="time">09:55</div>
+<div class="time">20:26</div>
+</div>
+
+
+
+  
+</div>
+
+</div>
+
+</body>
+</html>
