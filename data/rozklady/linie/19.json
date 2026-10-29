@@ -1,0 +1,2887 @@
+{
+  "line": "19",
+  "map_url": "https://enderommhr.github.io/kmmz/mapa.html",
+  "directions": [
+    {
+      "slug": "psary",
+      "name": "Psary Centrum",
+      "variant_destinations": {
+        "P": "Psary Ostra Góra"
+      },
+      "legend": {
+        "H": "przez: Trzebinia Harcerska Przychodnia",
+        "P": "do: Psary Ostra Góra",
+        "V": "przez: Chrzanów Valeo, z pominięciem: Trzebinia Berezka"
+      },
+      "legend_only_used_symbols": true,
+      "direction_segments": [
+        {
+          "from_stop_id": "1079",
+          "name": "Psary Centrum"
+        },
+        {
+          "from_stop_id": "1168",
+          "name": "Psary Ostra Góra"
+        }
+      ],
+      "route_stops": [
+        {
+          "stop_id": "1079",
+          "stop_name": "Chrzanów Osiedle Młodości Witosa",
+          "platform": "1",
+          "file": "1079-psary.html"
+        },
+        {
+          "stop_id": "1081",
+          "stop_name": "Chrzanów Osiedle Młodości Szarych Szeregów",
+          "platform": "2",
+          "file": "1081-psary.html"
+        },
+        {
+          "stop_id": "0614",
+          "stop_name": "Chrzanów Pogorska Przychodnia",
+          "platform": "2",
+          "file": "0614-psary.html"
+        },
+        {
+          "stop_id": "0615",
+          "stop_name": "Chrzanów Pogorska Szkoła",
+          "platform": "1",
+          "file": "0615-psary.html"
+        },
+        {
+          "stop_id": "0333",
+          "stop_name": "Chrzanów Podwale",
+          "platform": "1",
+          "file": "0333-psary.html"
+        },
+        {
+          "stop_id": "0398",
+          "stop_name": "Chrzanów Trzebińska",
+          "platform": "2",
+          "file": "0398-psary.html"
+        },
+        {
+          "stop_id": "0119",
+          "stop_name": "Chrzanów Valeo",
+          "platform": "1",
+          "file": "0119-psary.html",
+          "variant": true
+        },
+        {
+          "stop_id": "0120",
+          "stop_name": "Trzebinia Berezka",
+          "platform": "1",
+          "file": "0120-psary.html"
+        },
+        {
+          "stop_id": "0121",
+          "stop_name": "Trzebinia Długa",
+          "platform": "2",
+          "file": "0121-psary.html"
+        },
+        {
+          "stop_id": "0122",
+          "stop_name": "Trzebinia Dworzec PKP",
+          "platform": "2",
+          "file": "0122-psary.html"
+        },
+        {
+          "stop_id": "1026",
+          "stop_name": "Trzebinia Harcerska Przychodnia",
+          "platform": "0",
+          "file": "1026-psary.html",
+          "variant": true
+        },
+        {
+          "stop_id": "0123",
+          "stop_name": "Trzebinia Krakowska",
+          "platform": "0",
+          "file": "0123-psary.html"
+        },
+        {
+          "stop_id": "0356",
+          "stop_name": "Trzebinia Os. Widokowe Schody",
+          "platform": "2",
+          "file": "0356-psary.html"
+        },
+        {
+          "stop_id": "0357",
+          "stop_name": "Trzebinia Os. Widokowe Kiosk",
+          "platform": "2",
+          "file": "0357-psary.html"
+        },
+        {
+          "stop_id": "0358",
+          "stop_name": "Trzebinia Os. Widokowe Szkoła",
+          "platform": "1",
+          "file": "0358-psary.html"
+        },
+        {
+          "stop_id": "0125",
+          "stop_name": "Młoszowa",
+          "platform": "2",
+          "file": "0125-psary.html"
+        },
+        {
+          "stop_id": "0126",
+          "stop_name": "Młoszowa Leśniczówka",
+          "platform": "1",
+          "file": "0126-psary.html"
+        },
+        {
+          "stop_id": "0127",
+          "stop_name": "Dulowa",
+          "platform": "1",
+          "file": "0127-psary.html"
+        },
+        {
+          "stop_id": "1195",
+          "stop_name": "Dulowa Paderewskiego",
+          "platform": "1",
+          "file": "1195-psary.html"
+        },
+        {
+          "stop_id": "1194",
+          "stop_name": "Karniowice Kościół",
+          "platform": "1",
+          "file": "1194-psary.html"
+        },
+        {
+          "stop_id": "1192",
+          "stop_name": "Karniowice Poczta",
+          "platform": "1",
+          "file": "1192-psary.html"
+        },
+        {
+          "stop_id": "1171",
+          "stop_name": "Karniowice",
+          "platform": "1",
+          "file": "1171-psary.html"
+        },
+        {
+          "stop_id": "1304",
+          "stop_name": "Psary Ośrodek Zdrowia",
+          "platform": "1",
+          "file": "1304-psary.html"
+        },
+        {
+          "stop_id": "1168",
+          "stop_name": "Psary Centrum",
+          "platform": "0",
+          "file": "1168-psary.html"
+        },
+        {
+          "stop_id": "1166",
+          "stop_name": "Psary Ostra Góra",
+          "platform": "1",
+          "file": "1166-psary.html",
+          "variant": true
+        }
+      ],
+      "timetables": [
+        {
+          "stop_id": "1079",
+          "stop_name": "Chrzanów Osiedle Młodości Witosa",
+          "platform": "1",
+          "file": "1079-psary.html",
+          "departures": {
+            "workday": [
+              "04:10HP",
+              "05:40V",
+              "07:10HV",
+              "09:00P",
+              "10:42",
+              "12:01H",
+              "13:28PV",
+              "15:01HPV",
+              "16:50",
+              "18:15P",
+              "20:05H",
+              "21:31V"
+            ],
+            "saturday": [
+              "04:10H",
+              "05:40V",
+              "07:10PV",
+              "09:57H",
+              "11:23",
+              "12:59PV",
+              "14:33HV",
+              "17:10",
+              "19:18P",
+              "21:09V"
+            ],
+            "sunday": [
+              "04:10H",
+              "05:40V",
+              "07:10PV",
+              "09:57H",
+              "11:23",
+              "12:59PV",
+              "14:33HV",
+              "17:10",
+              "19:18P",
+              "21:09V"
+            ],
+            "holiday": [
+              "04:10H",
+              "05:40V",
+              "07:10PV",
+              "09:57H",
+              "17:10",
+              "19:18P",
+              "21:09V"
+            ]
+          }
+        },
+        {
+          "stop_id": "1081",
+          "stop_name": "Chrzanów Osiedle Młodości Szarych Szeregów",
+          "platform": "2",
+          "file": "1081-psary.html",
+          "departures": {
+            "workday": [
+              "04:12HP",
+              "05:42V",
+              "07:12HV",
+              "09:02P",
+              "10:44",
+              "12:03H",
+              "13:30PV",
+              "15:03HPV",
+              "16:52",
+              "18:17P",
+              "20:07H",
+              "21:33V"
+            ],
+            "saturday": [
+              "04:12H",
+              "05:42V",
+              "07:12PV",
+              "09:59H",
+              "11:25",
+              "13:01PV",
+              "14:35HV",
+              "17:12",
+              "19:20P",
+              "21:11V"
+            ],
+            "sunday": [
+              "04:12H",
+              "05:42V",
+              "07:12PV",
+              "09:59H",
+              "11:25",
+              "13:01PV",
+              "14:35HV",
+              "17:12",
+              "19:20P",
+              "21:11V"
+            ],
+            "holiday": [
+              "04:12H",
+              "05:42V",
+              "07:12PV",
+              "09:59H",
+              "17:12",
+              "19:20P",
+              "21:11V"
+            ]
+          }
+        },
+        {
+          "stop_id": "0614",
+          "stop_name": "Chrzanów Pogorska Przychodnia",
+          "platform": "2",
+          "file": "0614-psary.html",
+          "departures": {
+            "workday": [
+              "04:13HP",
+              "05:43V",
+              "07:13HV",
+              "09:03P",
+              "10:45",
+              "12:04H",
+              "13:31PV",
+              "15:04HPV",
+              "16:53",
+              "18:18P",
+              "20:08H",
+              "21:34V"
+            ],
+            "saturday": [
+              "04:13H",
+              "05:43V",
+              "07:13PV",
+              "10:00H",
+              "11:26",
+              "13:02PV",
+              "14:36HV",
+              "17:13",
+              "19:21P",
+              "21:12V"
+            ],
+            "sunday": [
+              "04:13H",
+              "05:43V",
+              "07:13PV",
+              "10:00H",
+              "11:26",
+              "13:02PV",
+              "14:36HV",
+              "17:13",
+              "19:21P",
+              "21:12V"
+            ],
+            "holiday": [
+              "04:13H",
+              "05:43V",
+              "07:13PV",
+              "10:00H",
+              "17:13",
+              "19:21P",
+              "21:12V"
+            ]
+          }
+        },
+        {
+          "stop_id": "0615",
+          "stop_name": "Chrzanów Pogorska Szkoła",
+          "platform": "1",
+          "file": "0615-psary.html",
+          "departures": {
+            "workday": [
+              "04:14HP",
+              "05:44V",
+              "07:14HV",
+              "09:04P",
+              "10:46",
+              "12:05H",
+              "13:32PV",
+              "15:05HPV",
+              "16:54",
+              "18:19P",
+              "20:09H",
+              "21:35V"
+            ],
+            "saturday": [
+              "04:14H",
+              "05:44V",
+              "07:14PV",
+              "10:01H",
+              "11:27",
+              "13:03PV",
+              "14:37HV",
+              "17:14",
+              "19:22P",
+              "21:13V"
+            ],
+            "sunday": [
+              "04:14H",
+              "05:44V",
+              "07:14PV",
+              "10:01H",
+              "11:27",
+              "13:03PV",
+              "14:37HV",
+              "17:14",
+              "19:22P",
+              "21:13V"
+            ],
+            "holiday": [
+              "04:14H",
+              "05:44V",
+              "07:14PV",
+              "10:01H",
+              "17:14",
+              "19:22P",
+              "21:13V"
+            ]
+          }
+        },
+        {
+          "stop_id": "0333",
+          "stop_name": "Chrzanów Podwale",
+          "platform": "1",
+          "file": "0333-psary.html",
+          "departures": {
+            "workday": [
+              "04:16HP",
+              "05:46V",
+              "07:16HV",
+              "09:06P",
+              "10:48",
+              "12:07H",
+              "13:34PV",
+              "15:07HPV",
+              "16:56",
+              "18:21P",
+              "20:11H",
+              "21:37V"
+            ],
+            "saturday": [
+              "04:16H",
+              "05:46V",
+              "07:16PV",
+              "10:03H",
+              "11:29",
+              "13:05PV",
+              "14:39HV",
+              "17:16",
+              "19:24P",
+              "21:15V"
+            ],
+            "sunday": [
+              "04:16H",
+              "05:46V",
+              "07:16PV",
+              "10:03H",
+              "11:29",
+              "13:05PV",
+              "14:39HV",
+              "17:16",
+              "19:24P",
+              "21:15V"
+            ],
+            "holiday": [
+              "04:16H",
+              "05:46V",
+              "07:16PV",
+              "10:03H",
+              "17:16",
+              "19:24P",
+              "21:15V"
+            ]
+          }
+        },
+        {
+          "stop_id": "0398",
+          "stop_name": "Chrzanów Trzebińska",
+          "platform": "2",
+          "file": "0398-psary.html",
+          "departures": {
+            "workday": [
+              "04:18HP",
+              "05:48V",
+              "07:18HV",
+              "09:08P",
+              "10:50",
+              "12:09H",
+              "13:36PV",
+              "15:09HPV",
+              "16:58",
+              "18:23P",
+              "20:13H",
+              "21:39V"
+            ],
+            "saturday": [
+              "04:18H",
+              "05:48V",
+              "07:18PV",
+              "10:05H",
+              "11:31",
+              "13:07PV",
+              "14:41HV",
+              "17:18",
+              "19:26P",
+              "21:17V"
+            ],
+            "sunday": [
+              "04:18H",
+              "05:48V",
+              "07:18PV",
+              "10:05H",
+              "11:31",
+              "13:07PV",
+              "14:41HV",
+              "17:18",
+              "19:26P",
+              "21:17V"
+            ],
+            "holiday": [
+              "04:18H",
+              "05:48V",
+              "07:18PV",
+              "10:05H",
+              "17:18",
+              "19:26P",
+              "21:17V"
+            ]
+          }
+        },
+        {
+          "stop_id": "0119",
+          "stop_name": "Chrzanów Valeo",
+          "platform": "1",
+          "file": "0119-psary.html",
+          "departures": {
+            "workday": [
+              "05:50",
+              "07:20H",
+              "13:38P",
+              "15:11HP",
+              "21:41"
+            ],
+            "saturday": [
+              "05:50",
+              "07:20P",
+              "13:09P",
+              "14:43H",
+              "21:19"
+            ],
+            "sunday": [
+              "05:50",
+              "07:20P",
+              "13:09P",
+              "14:43H",
+              "21:19"
+            ],
+            "holiday": [
+              "05:50",
+              "07:20P",
+              "21:19"
+            ]
+          }
+        },
+        {
+          "stop_id": "0120",
+          "stop_name": "Trzebinia Berezka",
+          "platform": "1",
+          "file": "0120-psary.html",
+          "departures": {
+            "workday": [
+              "04:21HP",
+              "09:11P",
+              "10:53",
+              "12:12H",
+              "17:01",
+              "18:26P",
+              "20:16H"
+            ],
+            "saturday": [
+              "04:21H",
+              "10:08H",
+              "11:34",
+              "17:21",
+              "19:29P"
+            ],
+            "sunday": [
+              "04:21H",
+              "10:08H",
+              "11:34",
+              "17:21",
+              "19:29P"
+            ],
+            "holiday": [
+              "04:21H",
+              "10:08H",
+              "17:21",
+              "19:29P"
+            ]
+          }
+        },
+        {
+          "stop_id": "0121",
+          "stop_name": "Trzebinia Długa",
+          "platform": "2",
+          "file": "0121-psary.html",
+          "departures": {
+            "workday": [
+              "04:22HP",
+              "05:52",
+              "07:22H",
+              "09:12P",
+              "10:54",
+              "12:13H",
+              "13:40P",
+              "15:13HP",
+              "17:02",
+              "18:27P",
+              "20:17H",
+              "21:43"
+            ],
+            "saturday": [
+              "04:22H",
+              "05:52",
+              "07:22P",
+              "10:09H",
+              "11:35",
+              "13:11P",
+              "14:45H",
+              "17:22",
+              "19:30P",
+              "21:21"
+            ],
+            "sunday": [
+              "04:22H",
+              "05:52",
+              "07:22P",
+              "10:09H",
+              "11:35",
+              "13:11P",
+              "14:45H",
+              "17:22",
+              "19:30P",
+              "21:21"
+            ],
+            "holiday": [
+              "04:22H",
+              "05:52",
+              "07:22P",
+              "10:09H",
+              "17:22",
+              "19:30P",
+              "21:21"
+            ]
+          }
+        },
+        {
+          "stop_id": "0122",
+          "stop_name": "Trzebinia Dworzec PKP",
+          "platform": "2",
+          "file": "0122-psary.html",
+          "departures": {
+            "workday": [
+              "04:24HP",
+              "05:54",
+              "07:24H",
+              "09:14P",
+              "10:56",
+              "12:15H",
+              "13:42P",
+              "15:15HP",
+              "17:04",
+              "18:29P",
+              "20:19H",
+              "21:45"
+            ],
+            "saturday": [
+              "04:24H",
+              "05:54",
+              "07:24P",
+              "10:11H",
+              "11:37",
+              "13:13P",
+              "14:47H",
+              "17:24",
+              "19:32P",
+              "21:23"
+            ],
+            "sunday": [
+              "04:24H",
+              "05:54",
+              "07:24P",
+              "10:11H",
+              "11:37",
+              "13:13P",
+              "14:47H",
+              "17:24",
+              "19:32P",
+              "21:23"
+            ],
+            "holiday": [
+              "04:24H",
+              "05:54",
+              "07:24P",
+              "10:11H",
+              "17:24",
+              "19:32P",
+              "21:23"
+            ]
+          }
+        },
+        {
+          "stop_id": "1026",
+          "stop_name": "Trzebinia Harcerska Przychodnia",
+          "platform": "0",
+          "file": "1026-psary.html",
+          "departures": {
+            "workday": [
+              "04:26P",
+              "07:26",
+              "12:17",
+              "15:17P",
+              "20:21"
+            ],
+            "saturday": [
+              "04:26",
+              "10:13",
+              "14:49"
+            ],
+            "sunday": [
+              "04:26",
+              "10:13",
+              "14:49"
+            ],
+            "holiday": [
+              "04:26",
+              "10:13"
+            ]
+          }
+        },
+        {
+          "stop_id": "0123",
+          "stop_name": "Trzebinia Krakowska",
+          "platform": "0",
+          "file": "0123-psary.html",
+          "departures": {
+            "workday": [
+              "04:28P",
+              "05:57",
+              "07:28",
+              "09:17P",
+              "10:59",
+              "12:19",
+              "13:45P",
+              "15:19P",
+              "17:07",
+              "18:32P",
+              "20:23",
+              "21:48"
+            ],
+            "saturday": [
+              "04:28",
+              "05:57",
+              "07:27P",
+              "10:15",
+              "11:40",
+              "13:16P",
+              "14:51",
+              "17:27",
+              "19:35P",
+              "21:26"
+            ],
+            "sunday": [
+              "04:28",
+              "05:57",
+              "07:27P",
+              "10:15",
+              "11:40",
+              "13:16P",
+              "14:51",
+              "17:27",
+              "19:35P",
+              "21:26"
+            ],
+            "holiday": [
+              "04:28",
+              "05:57",
+              "07:27P",
+              "10:15",
+              "17:27",
+              "19:35P",
+              "21:26"
+            ]
+          }
+        },
+        {
+          "stop_id": "0356",
+          "stop_name": "Trzebinia Os. Widokowe Schody",
+          "platform": "2",
+          "file": "0356-psary.html",
+          "departures": {
+            "workday": [
+              "04:30P",
+              "05:59",
+              "07:30",
+              "09:19P",
+              "11:01",
+              "12:21",
+              "13:47P",
+              "15:21P",
+              "17:09",
+              "18:34P",
+              "20:25",
+              "21:50"
+            ],
+            "saturday": [
+              "04:30",
+              "05:59",
+              "07:29P",
+              "10:17",
+              "11:42",
+              "13:18P",
+              "14:53",
+              "17:29",
+              "19:37P",
+              "21:28"
+            ],
+            "sunday": [
+              "04:30",
+              "05:59",
+              "07:29P",
+              "10:17",
+              "11:42",
+              "13:18P",
+              "14:53",
+              "17:29",
+              "19:37P",
+              "21:28"
+            ],
+            "holiday": [
+              "04:30",
+              "05:59",
+              "07:29P",
+              "10:17",
+              "17:29",
+              "19:37P",
+              "21:28"
+            ]
+          }
+        },
+        {
+          "stop_id": "0357",
+          "stop_name": "Trzebinia Os. Widokowe Kiosk",
+          "platform": "2",
+          "file": "0357-psary.html",
+          "departures": {
+            "workday": [
+              "04:31P",
+              "06:00",
+              "07:31",
+              "09:20P",
+              "11:02",
+              "12:22",
+              "13:48P",
+              "15:22P",
+              "17:10",
+              "18:35P",
+              "20:26",
+              "21:51"
+            ],
+            "saturday": [
+              "04:31",
+              "06:00",
+              "07:30P",
+              "10:18",
+              "11:43",
+              "13:19P",
+              "14:54",
+              "17:30",
+              "19:38P",
+              "21:29"
+            ],
+            "sunday": [
+              "04:31",
+              "06:00",
+              "07:30P",
+              "10:18",
+              "11:43",
+              "13:19P",
+              "14:54",
+              "17:30",
+              "19:38P",
+              "21:29"
+            ],
+            "holiday": [
+              "04:31",
+              "06:00",
+              "07:30P",
+              "10:18",
+              "17:30",
+              "19:38P",
+              "21:29"
+            ]
+          }
+        },
+        {
+          "stop_id": "0358",
+          "stop_name": "Trzebinia Os. Widokowe Szkoła",
+          "platform": "1",
+          "file": "0358-psary.html",
+          "departures": {
+            "workday": [
+              "04:33P",
+              "06:02",
+              "07:33",
+              "09:22P",
+              "11:04",
+              "12:24",
+              "13:50P",
+              "15:24P",
+              "17:12",
+              "18:37P",
+              "20:28",
+              "21:53"
+            ],
+            "saturday": [
+              "04:33",
+              "06:02",
+              "07:32P",
+              "10:20",
+              "11:45",
+              "13:21P",
+              "14:56",
+              "17:32",
+              "19:40P",
+              "21:31"
+            ],
+            "sunday": [
+              "04:33",
+              "06:02",
+              "07:32P",
+              "10:20",
+              "11:45",
+              "13:21P",
+              "14:56",
+              "17:32",
+              "19:40P",
+              "21:31"
+            ],
+            "holiday": [
+              "04:33",
+              "06:02",
+              "07:32P",
+              "10:20",
+              "17:32",
+              "19:40P",
+              "21:31"
+            ]
+          }
+        },
+        {
+          "stop_id": "0125",
+          "stop_name": "Młoszowa",
+          "platform": "2",
+          "file": "0125-psary.html",
+          "departures": {
+            "workday": [
+              "04:35P",
+              "06:04",
+              "07:35",
+              "09:24P",
+              "11:06",
+              "12:26",
+              "13:52P",
+              "15:26P",
+              "17:14",
+              "18:39P",
+              "20:30",
+              "21:55"
+            ],
+            "saturday": [
+              "04:35",
+              "06:04",
+              "07:34P",
+              "10:22",
+              "11:47",
+              "13:23P",
+              "14:58",
+              "17:34",
+              "19:42P",
+              "21:33"
+            ],
+            "sunday": [
+              "04:35",
+              "06:04",
+              "07:34P",
+              "10:22",
+              "11:47",
+              "13:23P",
+              "14:58",
+              "17:34",
+              "19:42P",
+              "21:33"
+            ],
+            "holiday": [
+              "04:35",
+              "06:04",
+              "07:34P",
+              "10:22",
+              "17:34",
+              "19:42P",
+              "21:33"
+            ]
+          }
+        },
+        {
+          "stop_id": "0126",
+          "stop_name": "Młoszowa Leśniczówka",
+          "platform": "1",
+          "file": "0126-psary.html",
+          "departures": {
+            "workday": [
+              "04:37P",
+              "06:06",
+              "07:37",
+              "09:26P",
+              "11:08",
+              "12:28",
+              "13:54P",
+              "15:28P",
+              "17:16",
+              "18:41P",
+              "20:32",
+              "21:57"
+            ],
+            "saturday": [
+              "04:37",
+              "06:06",
+              "07:36P",
+              "10:24",
+              "11:49",
+              "13:25P",
+              "15:00",
+              "17:36",
+              "19:44P",
+              "21:35"
+            ],
+            "sunday": [
+              "04:37",
+              "06:06",
+              "07:36P",
+              "10:24",
+              "11:49",
+              "13:25P",
+              "15:00",
+              "17:36",
+              "19:44P",
+              "21:35"
+            ],
+            "holiday": [
+              "04:37",
+              "06:06",
+              "07:36P",
+              "10:24",
+              "17:36",
+              "19:44P",
+              "21:35"
+            ]
+          }
+        },
+        {
+          "stop_id": "0127",
+          "stop_name": "Dulowa",
+          "platform": "1",
+          "file": "0127-psary.html",
+          "departures": {
+            "workday": [
+              "04:39P",
+              "06:08",
+              "07:39",
+              "09:28P",
+              "11:10",
+              "12:30",
+              "13:56P",
+              "15:30P",
+              "17:18",
+              "18:43P",
+              "20:34",
+              "21:59"
+            ],
+            "saturday": [
+              "04:39",
+              "06:08",
+              "07:38P",
+              "10:26",
+              "11:51",
+              "13:27P",
+              "15:02",
+              "17:38",
+              "19:46P",
+              "21:37"
+            ],
+            "sunday": [
+              "04:39",
+              "06:08",
+              "07:38P",
+              "10:26",
+              "11:51",
+              "13:27P",
+              "15:02",
+              "17:38",
+              "19:46P",
+              "21:37"
+            ],
+            "holiday": [
+              "04:39",
+              "06:08",
+              "07:38P",
+              "10:26",
+              "17:38",
+              "19:46P",
+              "21:37"
+            ]
+          }
+        },
+        {
+          "stop_id": "1195",
+          "stop_name": "Dulowa Paderewskiego",
+          "platform": "1",
+          "file": "1195-psary.html",
+          "departures": {
+            "workday": [
+              "04:40P",
+              "06:09",
+              "07:40",
+              "09:29P",
+              "11:11",
+              "12:31",
+              "13:57P",
+              "15:31P",
+              "17:19",
+              "18:44P",
+              "20:35",
+              "22:00"
+            ],
+            "saturday": [
+              "04:40",
+              "06:09",
+              "07:39P",
+              "10:27",
+              "11:52",
+              "13:28P",
+              "15:03",
+              "17:39",
+              "19:47P",
+              "21:38"
+            ],
+            "sunday": [
+              "04:40",
+              "06:09",
+              "07:39P",
+              "10:27",
+              "11:52",
+              "13:28P",
+              "15:03",
+              "17:39",
+              "19:47P",
+              "21:38"
+            ],
+            "holiday": [
+              "04:40",
+              "06:09",
+              "07:39P",
+              "10:27",
+              "17:39",
+              "19:47P",
+              "21:38"
+            ]
+          }
+        },
+        {
+          "stop_id": "1194",
+          "stop_name": "Karniowice Kościół",
+          "platform": "1",
+          "file": "1194-psary.html",
+          "departures": {
+            "workday": [
+              "04:41P",
+              "06:10",
+              "07:41",
+              "09:30P",
+              "11:12",
+              "12:32",
+              "13:58P",
+              "15:32P",
+              "17:20",
+              "18:45P",
+              "20:36",
+              "22:01"
+            ],
+            "saturday": [
+              "04:41",
+              "06:10",
+              "07:40P",
+              "10:28",
+              "11:53",
+              "13:29P",
+              "15:04",
+              "17:40",
+              "19:48P",
+              "21:39"
+            ],
+            "sunday": [
+              "04:41",
+              "06:10",
+              "07:40P",
+              "10:28",
+              "11:53",
+              "13:29P",
+              "15:04",
+              "17:40",
+              "19:48P",
+              "21:39"
+            ],
+            "holiday": [
+              "04:41",
+              "06:10",
+              "07:40P",
+              "10:28",
+              "17:40",
+              "19:48P",
+              "21:39"
+            ]
+          }
+        },
+        {
+          "stop_id": "1192",
+          "stop_name": "Karniowice Poczta",
+          "platform": "1",
+          "file": "1192-psary.html",
+          "departures": {
+            "workday": [
+              "04:42P",
+              "06:11",
+              "07:42",
+              "09:31P",
+              "11:13",
+              "12:33",
+              "13:59P",
+              "15:33P",
+              "17:21",
+              "18:46P",
+              "20:37",
+              "22:02"
+            ],
+            "saturday": [
+              "04:42",
+              "06:11",
+              "07:41P",
+              "10:29",
+              "11:54",
+              "13:30P",
+              "15:05",
+              "17:41",
+              "19:49P",
+              "21:40"
+            ],
+            "sunday": [
+              "04:42",
+              "06:11",
+              "07:41P",
+              "10:29",
+              "11:54",
+              "13:30P",
+              "15:05",
+              "17:41",
+              "19:49P",
+              "21:40"
+            ],
+            "holiday": [
+              "04:42",
+              "06:11",
+              "07:41P",
+              "10:29",
+              "17:41",
+              "19:49P",
+              "21:40"
+            ]
+          }
+        },
+        {
+          "stop_id": "1171",
+          "stop_name": "Karniowice",
+          "platform": "1",
+          "file": "1171-psary.html",
+          "departures": {
+            "workday": [
+              "04:43P",
+              "06:12",
+              "07:43",
+              "09:32P",
+              "11:14",
+              "12:34",
+              "14:00P",
+              "15:34P",
+              "17:22",
+              "18:47P",
+              "20:38",
+              "22:03"
+            ],
+            "saturday": [
+              "04:43",
+              "06:12",
+              "07:42P",
+              "10:30",
+              "11:55",
+              "13:31P",
+              "15:06",
+              "17:42",
+              "19:50P",
+              "21:41"
+            ],
+            "sunday": [
+              "04:43",
+              "06:12",
+              "07:42P",
+              "10:30",
+              "11:55",
+              "13:31P",
+              "15:06",
+              "17:42",
+              "19:50P",
+              "21:41"
+            ],
+            "holiday": [
+              "04:43",
+              "06:12",
+              "07:42P",
+              "10:30",
+              "17:42",
+              "19:50P",
+              "21:41"
+            ]
+          }
+        },
+        {
+          "stop_id": "1304",
+          "stop_name": "Psary Ośrodek Zdrowia",
+          "platform": "1",
+          "file": "1304-psary.html",
+          "departures": {
+            "workday": [
+              "04:44P",
+              "06:13",
+              "07:44",
+              "09:33P",
+              "11:15",
+              "12:35",
+              "14:01P",
+              "15:35P",
+              "17:23",
+              "18:48P",
+              "20:39",
+              "22:04"
+            ],
+            "saturday": [
+              "04:44",
+              "06:13",
+              "07:43P",
+              "10:31",
+              "11:56",
+              "13:32P",
+              "15:07",
+              "17:43",
+              "19:51P",
+              "21:42"
+            ],
+            "sunday": [
+              "04:44",
+              "06:13",
+              "07:43P",
+              "10:31",
+              "11:56",
+              "13:32P",
+              "15:07",
+              "17:43",
+              "19:51P",
+              "21:42"
+            ],
+            "holiday": [
+              "04:44",
+              "06:13",
+              "07:43P",
+              "10:31",
+              "17:43",
+              "19:51P",
+              "21:42"
+            ]
+          }
+        },
+        {
+          "stop_id": "1168",
+          "stop_name": "Psary Centrum",
+          "platform": "0",
+          "file": "1168-psary.html",
+          "departures": {
+            "workday": [
+              "04:46",
+              "09:35",
+              "14:03",
+              "15:37",
+              "18:50"
+            ],
+            "saturday": [
+              "07:45",
+              "13:34",
+              "19:53"
+            ],
+            "sunday": [
+              "07:45",
+              "13:34",
+              "19:53"
+            ],
+            "holiday": [
+              "07:45",
+              "19:53"
+            ]
+          }
+        },
+        {
+          "stop_id": "1166",
+          "stop_name": "Psary Ostra Góra",
+          "platform": "1",
+          "file": "1166-psary.html",
+          "departures": {},
+          "arrival_only": true
+        }
+      ]
+    },
+    {
+      "slug": "chrzanow",
+      "name": "Chrzanów Osiedle Młodości Witosa",
+      "variant_destinations": {},
+      "legend": {
+        "H": "przez: Trzebinia Harcerska Przychodnia",
+        "V": "przez: Chrzanów Valeo, z pominięciem: Trzebinia Berezka"
+      },
+      "legend_only_used_symbols": true,
+      "route_stops": [
+        {
+          "stop_id": "1165",
+          "stop_name": "Psary Ostra Góra",
+          "platform": "2",
+          "file": "1165-chrzanow.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1167",
+          "stop_name": "Psary Ostra Góra Lewiatan",
+          "platform": "1",
+          "file": "1167-chrzanow.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1168",
+          "stop_name": "Psary Centrum",
+          "platform": "0",
+          "file": "1168-chrzanow.html"
+        },
+        {
+          "stop_id": "1169",
+          "stop_name": "Psary Ośrodek Zdrowia",
+          "platform": "2",
+          "file": "1169-chrzanow.html"
+        },
+        {
+          "stop_id": "1170",
+          "stop_name": "Karniowice",
+          "platform": "2",
+          "file": "1170-chrzanow.html"
+        },
+        {
+          "stop_id": "1193",
+          "stop_name": "Karniowice Poczta",
+          "platform": "2",
+          "file": "1193-chrzanow.html"
+        },
+        {
+          "stop_id": "1191",
+          "stop_name": "Karniowice Kościół",
+          "platform": "2",
+          "file": "1191-chrzanow.html"
+        },
+        {
+          "stop_id": "1190",
+          "stop_name": "Dulowa Paderewskiego",
+          "platform": "2",
+          "file": "1190-chrzanow.html"
+        },
+        {
+          "stop_id": "0076",
+          "stop_name": "Dulowa",
+          "platform": "2",
+          "file": "0076-chrzanow.html"
+        },
+        {
+          "stop_id": "0077",
+          "stop_name": "Młoszowa Leśniczówka",
+          "platform": "2",
+          "file": "0077-chrzanow.html"
+        },
+        {
+          "stop_id": "0086",
+          "stop_name": "Młoszowa",
+          "platform": "1",
+          "file": "0086-chrzanow.html"
+        },
+        {
+          "stop_id": "0353",
+          "stop_name": "Trzebinia Os. Widokowe Szkoła",
+          "platform": "2",
+          "file": "0353-chrzanow.html"
+        },
+        {
+          "stop_id": "0354",
+          "stop_name": "Trzebinia Os. Widokowe Kiosk",
+          "platform": "1",
+          "file": "0354-chrzanow.html"
+        },
+        {
+          "stop_id": "0355",
+          "stop_name": "Trzebinia Os. Widokowe Schody",
+          "platform": "1",
+          "file": "0355-chrzanow.html"
+        },
+        {
+          "stop_id": "0088",
+          "stop_name": "Trzebinia Mały Rynek Kościuszki",
+          "platform": "0",
+          "file": "0088-chrzanow.html"
+        },
+        {
+          "stop_id": "1026",
+          "stop_name": "Trzebinia Harcerska Przychodnia",
+          "platform": "0",
+          "file": "1026-chrzanow.html",
+          "variant": true
+        },
+        {
+          "stop_id": "0089",
+          "stop_name": "Trzebinia Dworzec PKP",
+          "platform": "1",
+          "file": "0089-chrzanow.html"
+        },
+        {
+          "stop_id": "0090",
+          "stop_name": "Trzebinia Długa",
+          "platform": "1",
+          "file": "0090-chrzanow.html"
+        },
+        {
+          "stop_id": "0091",
+          "stop_name": "Trzebinia Berezka",
+          "platform": "2",
+          "file": "0091-chrzanow.html"
+        },
+        {
+          "stop_id": "0092",
+          "stop_name": "Chrzanów Valeo",
+          "platform": "2",
+          "file": "0092-chrzanow.html",
+          "variant": true
+        },
+        {
+          "stop_id": "0397",
+          "stop_name": "Chrzanów Trzebińska",
+          "platform": "1",
+          "file": "0397-chrzanow.html"
+        },
+        {
+          "stop_id": "0567",
+          "stop_name": "Chrzanów Głowackiego",
+          "platform": "1",
+          "file": "0567-chrzanow.html"
+        },
+        {
+          "stop_id": "0568",
+          "stop_name": "Chrzanów Pogorska Szkoła",
+          "platform": "2",
+          "file": "0568-chrzanow.html"
+        },
+        {
+          "stop_id": "0569",
+          "stop_name": "Chrzanów Pogorska Przychodnia",
+          "platform": "1",
+          "file": "0569-chrzanow.html"
+        },
+        {
+          "stop_id": "1080",
+          "stop_name": "Chrzanów Osiedle Młodości Szarych Szeregów",
+          "platform": "1",
+          "file": "1080-chrzanow.html"
+        },
+        {
+          "stop_id": "1082",
+          "stop_name": "Chrzanów Osiedle Młodości Witosa",
+          "platform": "2",
+          "file": "1082-chrzanow.html"
+        }
+      ],
+      "timetables": [
+        {
+          "stop_id": "1165",
+          "stop_name": "Psary Ostra Góra",
+          "platform": "2",
+          "file": "1165-chrzanow.html",
+          "departures": {
+            "workday": [
+              "04:50V",
+              "09:55H",
+              "14:20V",
+              "15:42",
+              "19:11H"
+            ],
+            "saturday": [
+              "08:00",
+              "13:46V",
+              "20:03"
+            ],
+            "sunday": [
+              "08:00",
+              "13:46V",
+              "20:03"
+            ],
+            "holiday": [
+              "08:00",
+              "15:20H",
+              "20:03"
+            ]
+          }
+        },
+        {
+          "stop_id": "1167",
+          "stop_name": "Psary Ostra Góra Lewiatan",
+          "platform": "1",
+          "file": "1167-chrzanow.html",
+          "departures": {
+            "workday": [
+              "04:51V",
+              "09:56H",
+              "14:21V",
+              "15:43",
+              "19:12H"
+            ],
+            "saturday": [
+              "08:01",
+              "13:47V",
+              "20:04"
+            ],
+            "sunday": [
+              "08:01",
+              "13:47V",
+              "20:04"
+            ],
+            "holiday": [
+              "08:01",
+              "15:21H",
+              "20:04"
+            ]
+          }
+        },
+        {
+          "stop_id": "1168",
+          "stop_name": "Psary Centrum",
+          "platform": "0",
+          "file": "1168-chrzanow.html",
+          "departures": {
+            "workday": [
+              "04:52V",
+              "06:20HV",
+              "08:04H",
+              "09:57H",
+              "11:20",
+              "12:50V",
+              "14:22V",
+              "15:44",
+              "17:27H",
+              "19:13H",
+              "20:45H",
+              "22:10V"
+            ],
+            "saturday": [
+              "04:52V",
+              "06:20H",
+              "08:02",
+              "10:38",
+              "12:11H",
+              "13:48V",
+              "15:22H",
+              "18:13",
+              "20:05",
+              "21:48V"
+            ],
+            "sunday": [
+              "04:52V",
+              "06:20H",
+              "08:02",
+              "10:38",
+              "12:11H",
+              "13:48V",
+              "15:22H",
+              "18:13",
+              "20:05",
+              "21:48V"
+            ],
+            "holiday": [
+              "04:52V",
+              "06:20H",
+              "08:02",
+              "10:38",
+              "15:22H",
+              "18:13",
+              "20:05",
+              "21:48V"
+            ]
+          }
+        },
+        {
+          "stop_id": "1169",
+          "stop_name": "Psary Ośrodek Zdrowia",
+          "platform": "2",
+          "file": "1169-chrzanow.html",
+          "departures": {
+            "workday": [
+              "04:54V",
+              "06:22HV",
+              "08:06H",
+              "09:59H",
+              "11:22",
+              "12:52V",
+              "14:24V",
+              "15:46",
+              "17:29H",
+              "19:15H",
+              "20:47H",
+              "22:12V"
+            ],
+            "saturday": [
+              "04:54V",
+              "06:22H",
+              "08:04",
+              "10:40",
+              "12:13H",
+              "13:50V",
+              "15:24H",
+              "18:15",
+              "20:07",
+              "21:50V"
+            ],
+            "sunday": [
+              "04:54V",
+              "06:22H",
+              "08:04",
+              "10:40",
+              "12:13H",
+              "13:50V",
+              "15:24H",
+              "18:15",
+              "20:07",
+              "21:50V"
+            ],
+            "holiday": [
+              "04:54V",
+              "06:22H",
+              "08:04",
+              "10:40",
+              "15:24H",
+              "18:15",
+              "20:07",
+              "21:50V"
+            ]
+          }
+        },
+        {
+          "stop_id": "1170",
+          "stop_name": "Karniowice",
+          "platform": "2",
+          "file": "1170-chrzanow.html",
+          "departures": {
+            "workday": [
+              "04:55V",
+              "06:23HV",
+              "08:07H",
+              "10:00H",
+              "11:23",
+              "12:53V",
+              "14:25V",
+              "15:47",
+              "17:30H",
+              "19:16H",
+              "20:48H",
+              "22:13V"
+            ],
+            "saturday": [
+              "04:55V",
+              "06:23H",
+              "08:05",
+              "10:41",
+              "12:14H",
+              "13:51V",
+              "15:25H",
+              "18:16",
+              "20:08",
+              "21:51V"
+            ],
+            "sunday": [
+              "04:55V",
+              "06:23H",
+              "08:05",
+              "10:41",
+              "12:14H",
+              "13:51V",
+              "15:25H",
+              "18:16",
+              "20:08",
+              "21:51V"
+            ],
+            "holiday": [
+              "04:55V",
+              "06:23H",
+              "08:05",
+              "10:41",
+              "15:25H",
+              "18:16",
+              "20:08",
+              "21:51V"
+            ]
+          }
+        },
+        {
+          "stop_id": "1193",
+          "stop_name": "Karniowice Poczta",
+          "platform": "2",
+          "file": "1193-chrzanow.html",
+          "departures": {
+            "workday": [
+              "04:56V",
+              "06:24HV",
+              "08:08H",
+              "10:01H",
+              "11:24",
+              "12:54V",
+              "14:26V",
+              "15:48",
+              "17:31H",
+              "19:17H",
+              "20:49H",
+              "22:14V"
+            ],
+            "saturday": [
+              "04:56V",
+              "06:24H",
+              "08:06",
+              "10:42",
+              "12:15H",
+              "13:52V",
+              "15:26H",
+              "18:17",
+              "20:09",
+              "21:52V"
+            ],
+            "sunday": [
+              "04:56V",
+              "06:24H",
+              "08:06",
+              "10:42",
+              "12:15H",
+              "13:52V",
+              "15:26H",
+              "18:17",
+              "20:09",
+              "21:52V"
+            ],
+            "holiday": [
+              "04:56V",
+              "06:24H",
+              "08:06",
+              "10:42",
+              "15:26H",
+              "18:17",
+              "20:09",
+              "21:52V"
+            ]
+          }
+        },
+        {
+          "stop_id": "1191",
+          "stop_name": "Karniowice Kościół",
+          "platform": "2",
+          "file": "1191-chrzanow.html",
+          "departures": {
+            "workday": [
+              "04:57V",
+              "06:25HV",
+              "08:09H",
+              "10:02H",
+              "11:25",
+              "12:55V",
+              "14:27V",
+              "15:49",
+              "17:32H",
+              "19:18H",
+              "20:50H",
+              "22:15V"
+            ],
+            "saturday": [
+              "04:57V",
+              "06:25H",
+              "08:07",
+              "10:43",
+              "12:16H",
+              "13:53V",
+              "15:27H",
+              "18:18",
+              "20:10",
+              "21:53V"
+            ],
+            "sunday": [
+              "04:57V",
+              "06:25H",
+              "08:07",
+              "10:43",
+              "12:16H",
+              "13:53V",
+              "15:27H",
+              "18:18",
+              "20:10",
+              "21:53V"
+            ],
+            "holiday": [
+              "04:57V",
+              "06:25H",
+              "08:07",
+              "10:43",
+              "15:27H",
+              "18:18",
+              "20:10",
+              "21:53V"
+            ]
+          }
+        },
+        {
+          "stop_id": "1190",
+          "stop_name": "Dulowa Paderewskiego",
+          "platform": "2",
+          "file": "1190-chrzanow.html",
+          "departures": {
+            "workday": [
+              "04:58V",
+              "06:26HV",
+              "08:10H",
+              "10:03H",
+              "11:26",
+              "12:56V",
+              "14:28V",
+              "15:50",
+              "17:33H",
+              "19:19H",
+              "20:51H",
+              "22:16V"
+            ],
+            "saturday": [
+              "04:58V",
+              "06:26H",
+              "08:08",
+              "10:44",
+              "12:17H",
+              "13:54V",
+              "15:28H",
+              "18:19",
+              "20:11",
+              "21:54V"
+            ],
+            "sunday": [
+              "04:58V",
+              "06:26H",
+              "08:08",
+              "10:44",
+              "12:17H",
+              "13:54V",
+              "15:28H",
+              "18:19",
+              "20:11",
+              "21:54V"
+            ],
+            "holiday": [
+              "04:58V",
+              "06:26H",
+              "08:08",
+              "10:44",
+              "15:28H",
+              "18:19",
+              "20:11",
+              "21:54V"
+            ]
+          }
+        },
+        {
+          "stop_id": "0076",
+          "stop_name": "Dulowa",
+          "platform": "2",
+          "file": "0076-chrzanow.html",
+          "departures": {
+            "workday": [
+              "04:59V",
+              "06:27HV",
+              "08:11H",
+              "10:04H",
+              "11:27",
+              "12:57V",
+              "14:29V",
+              "15:51",
+              "17:34H",
+              "19:20H",
+              "20:52H",
+              "22:17V"
+            ],
+            "saturday": [
+              "04:59V",
+              "06:27H",
+              "08:09",
+              "10:45",
+              "12:18H",
+              "13:55V",
+              "15:29H",
+              "18:20",
+              "20:12",
+              "21:55V"
+            ],
+            "sunday": [
+              "04:59V",
+              "06:27H",
+              "08:09",
+              "10:45",
+              "12:18H",
+              "13:55V",
+              "15:29H",
+              "18:20",
+              "20:12",
+              "21:55V"
+            ],
+            "holiday": [
+              "04:59V",
+              "06:27H",
+              "08:09",
+              "10:45",
+              "15:29H",
+              "18:20",
+              "20:12",
+              "21:55V"
+            ]
+          }
+        },
+        {
+          "stop_id": "0077",
+          "stop_name": "Młoszowa Leśniczówka",
+          "platform": "2",
+          "file": "0077-chrzanow.html",
+          "departures": {
+            "workday": [
+              "05:01V",
+              "06:29HV",
+              "08:13H",
+              "10:06H",
+              "11:29",
+              "12:59V",
+              "14:31V",
+              "15:53",
+              "17:36H",
+              "19:22H",
+              "20:54H",
+              "22:19V"
+            ],
+            "saturday": [
+              "05:01V",
+              "06:29H",
+              "08:11",
+              "10:47",
+              "12:20H",
+              "13:57V",
+              "15:31H",
+              "18:22",
+              "20:14",
+              "21:57V"
+            ],
+            "sunday": [
+              "05:01V",
+              "06:29H",
+              "08:11",
+              "10:47",
+              "12:20H",
+              "13:57V",
+              "15:31H",
+              "18:22",
+              "20:14",
+              "21:57V"
+            ],
+            "holiday": [
+              "05:01V",
+              "06:29H",
+              "08:11",
+              "10:47",
+              "15:31H",
+              "18:22",
+              "20:14",
+              "21:57V"
+            ]
+          }
+        },
+        {
+          "stop_id": "0086",
+          "stop_name": "Młoszowa",
+          "platform": "1",
+          "file": "0086-chrzanow.html",
+          "departures": {
+            "workday": [
+              "05:03V",
+              "06:31HV",
+              "08:15H",
+              "10:08H",
+              "11:31",
+              "13:01V",
+              "14:33V",
+              "15:55",
+              "17:38H",
+              "19:24H",
+              "20:56H",
+              "22:21V"
+            ],
+            "saturday": [
+              "05:03V",
+              "06:31H",
+              "08:13",
+              "10:49",
+              "12:22H",
+              "13:59V",
+              "15:33H",
+              "18:24",
+              "20:16",
+              "21:59V"
+            ],
+            "sunday": [
+              "05:03V",
+              "06:31H",
+              "08:13",
+              "10:49",
+              "12:22H",
+              "13:59V",
+              "15:33H",
+              "18:24",
+              "20:16",
+              "21:59V"
+            ],
+            "holiday": [
+              "05:03V",
+              "06:31H",
+              "08:13",
+              "10:49",
+              "15:33H",
+              "18:24",
+              "20:16",
+              "21:59V"
+            ]
+          }
+        },
+        {
+          "stop_id": "0353",
+          "stop_name": "Trzebinia Os. Widokowe Szkoła",
+          "platform": "2",
+          "file": "0353-chrzanow.html",
+          "departures": {
+            "workday": [
+              "05:05V",
+              "06:33HV",
+              "08:17H",
+              "10:10H",
+              "11:33",
+              "13:03V",
+              "14:35V",
+              "15:57",
+              "17:40H",
+              "19:26H",
+              "20:58H",
+              "22:23V"
+            ],
+            "saturday": [
+              "05:05V",
+              "06:33H",
+              "08:15",
+              "10:51",
+              "12:24H",
+              "14:01V",
+              "15:35H",
+              "18:26",
+              "20:18",
+              "22:01V"
+            ],
+            "sunday": [
+              "05:05V",
+              "06:33H",
+              "08:15",
+              "10:51",
+              "12:24H",
+              "14:01V",
+              "15:35H",
+              "18:26",
+              "20:18",
+              "22:01V"
+            ],
+            "holiday": [
+              "05:05V",
+              "06:33H",
+              "08:15",
+              "10:51",
+              "15:35H",
+              "18:26",
+              "20:18",
+              "22:01V"
+            ]
+          }
+        },
+        {
+          "stop_id": "0354",
+          "stop_name": "Trzebinia Os. Widokowe Kiosk",
+          "platform": "1",
+          "file": "0354-chrzanow.html",
+          "departures": {
+            "workday": [
+              "05:07V",
+              "06:35HV",
+              "08:19H",
+              "10:12H",
+              "11:35",
+              "13:05V",
+              "14:37V",
+              "15:59",
+              "17:42H",
+              "19:28H",
+              "21:00H",
+              "22:25V"
+            ],
+            "saturday": [
+              "05:07V",
+              "06:35H",
+              "08:17",
+              "10:53",
+              "12:26H",
+              "14:03V",
+              "15:37H",
+              "18:28",
+              "20:20",
+              "22:03V"
+            ],
+            "sunday": [
+              "05:07V",
+              "06:35H",
+              "08:17",
+              "10:53",
+              "12:26H",
+              "14:03V",
+              "15:37H",
+              "18:28",
+              "20:20",
+              "22:03V"
+            ],
+            "holiday": [
+              "05:07V",
+              "06:35H",
+              "08:17",
+              "10:53",
+              "15:37H",
+              "18:28",
+              "20:20",
+              "22:03V"
+            ]
+          }
+        },
+        {
+          "stop_id": "0355",
+          "stop_name": "Trzebinia Os. Widokowe Schody",
+          "platform": "1",
+          "file": "0355-chrzanow.html",
+          "departures": {
+            "workday": [
+              "05:08V",
+              "06:36HV",
+              "08:20H",
+              "10:13H",
+              "11:36",
+              "13:06V",
+              "14:38V",
+              "16:00",
+              "17:43H",
+              "19:29H",
+              "21:01H",
+              "22:26V"
+            ],
+            "saturday": [
+              "05:08V",
+              "06:36H",
+              "08:18",
+              "10:54",
+              "12:27H",
+              "14:04V",
+              "15:38H",
+              "18:29",
+              "20:21",
+              "22:04V"
+            ],
+            "sunday": [
+              "05:08V",
+              "06:36H",
+              "08:18",
+              "10:54",
+              "12:27H",
+              "14:04V",
+              "15:38H",
+              "18:29",
+              "20:21",
+              "22:04V"
+            ],
+            "holiday": [
+              "05:08V",
+              "06:36H",
+              "08:18",
+              "10:54",
+              "15:38H",
+              "18:29",
+              "20:21",
+              "22:04V"
+            ]
+          }
+        },
+        {
+          "stop_id": "0088",
+          "stop_name": "Trzebinia Mały Rynek Kościuszki",
+          "platform": "0",
+          "file": "0088-chrzanow.html",
+          "departures": {
+            "workday": [
+              "05:11V",
+              "06:39HV",
+              "08:23H",
+              "10:16H",
+              "11:39",
+              "13:09V",
+              "14:41V",
+              "16:03",
+              "17:46H",
+              "19:32H",
+              "21:04H",
+              "22:29V"
+            ],
+            "saturday": [
+              "05:11V",
+              "06:39H",
+              "08:21",
+              "10:57",
+              "12:30H",
+              "14:07V",
+              "15:41H",
+              "18:32",
+              "20:24",
+              "22:07V"
+            ],
+            "sunday": [
+              "05:11V",
+              "06:39H",
+              "08:21",
+              "10:57",
+              "12:30H",
+              "14:07V",
+              "15:41H",
+              "18:32",
+              "20:24",
+              "22:07V"
+            ],
+            "holiday": [
+              "05:11V",
+              "06:39H",
+              "08:21",
+              "10:57",
+              "15:41H",
+              "18:32",
+              "20:24",
+              "22:07V"
+            ]
+          }
+        },
+        {
+          "stop_id": "1026",
+          "stop_name": "Trzebinia Harcerska Przychodnia",
+          "platform": "0",
+          "file": "1026-chrzanow.html",
+          "departures": {
+            "workday": [
+              "06:40V",
+              "08:24",
+              "10:17",
+              "17:47",
+              "19:33",
+              "21:05"
+            ],
+            "saturday": [
+              "06:40",
+              "12:31",
+              "15:42"
+            ],
+            "sunday": [
+              "06:40",
+              "12:31",
+              "15:42"
+            ],
+            "holiday": [
+              "06:40",
+              "15:42"
+            ]
+          }
+        },
+        {
+          "stop_id": "0089",
+          "stop_name": "Trzebinia Dworzec PKP",
+          "platform": "1",
+          "file": "0089-chrzanow.html",
+          "departures": {
+            "workday": [
+              "05:14V",
+              "06:42V",
+              "08:26",
+              "10:19",
+              "11:42",
+              "13:12V",
+              "14:44V",
+              "16:06",
+              "17:49",
+              "19:35",
+              "21:07",
+              "22:32V"
+            ],
+            "saturday": [
+              "05:14V",
+              "06:42",
+              "08:24",
+              "11:00",
+              "12:33",
+              "14:10V",
+              "15:44",
+              "18:35",
+              "20:27",
+              "22:10V"
+            ],
+            "sunday": [
+              "05:14V",
+              "06:42",
+              "08:24",
+              "11:00",
+              "12:33",
+              "14:10V",
+              "15:44",
+              "18:35",
+              "20:27",
+              "22:10V"
+            ],
+            "holiday": [
+              "05:14V",
+              "06:42",
+              "08:24",
+              "11:00",
+              "15:44",
+              "18:35",
+              "20:27",
+              "22:10V"
+            ]
+          }
+        },
+        {
+          "stop_id": "0090",
+          "stop_name": "Trzebinia Długa",
+          "platform": "1",
+          "file": "0090-chrzanow.html",
+          "departures": {
+            "workday": [
+              "05:16V",
+              "06:44V",
+              "08:28",
+              "10:21",
+              "11:44",
+              "13:14V",
+              "14:46V",
+              "16:08",
+              "17:51",
+              "19:37",
+              "21:09",
+              "22:34V"
+            ],
+            "saturday": [
+              "05:16V",
+              "06:44",
+              "08:26",
+              "11:02",
+              "12:35",
+              "14:12V",
+              "15:46",
+              "18:37",
+              "20:29",
+              "22:12V"
+            ],
+            "sunday": [
+              "05:16V",
+              "06:44",
+              "08:26",
+              "11:02",
+              "12:35",
+              "14:12V",
+              "15:46",
+              "18:37",
+              "20:29",
+              "22:12V"
+            ],
+            "holiday": [
+              "05:16V",
+              "06:44",
+              "08:26",
+              "11:02",
+              "15:46",
+              "18:37",
+              "20:29",
+              "22:12V"
+            ]
+          }
+        },
+        {
+          "stop_id": "0091",
+          "stop_name": "Trzebinia Berezka",
+          "platform": "2",
+          "file": "0091-chrzanow.html",
+          "departures": {
+            "workday": [
+              "08:29",
+              "10:22",
+              "11:45",
+              "16:09",
+              "17:52",
+              "19:38",
+              "21:10"
+            ],
+            "saturday": [
+              "06:45",
+              "08:27",
+              "11:03",
+              "12:36",
+              "15:47",
+              "18:38",
+              "20:30"
+            ],
+            "sunday": [
+              "06:45",
+              "08:27",
+              "11:03",
+              "12:36",
+              "15:47",
+              "18:38",
+              "20:30"
+            ],
+            "holiday": [
+              "06:45",
+              "08:27",
+              "11:03",
+              "15:47",
+              "18:38",
+              "20:30"
+            ]
+          }
+        },
+        {
+          "stop_id": "0092",
+          "stop_name": "Chrzanów Valeo",
+          "platform": "2",
+          "file": "0092-chrzanow.html",
+          "departures": {
+            "workday": [
+              "05:18",
+              "06:46",
+              "13:16",
+              "14:48",
+              "22:36"
+            ],
+            "saturday": [
+              "05:18",
+              "14:14",
+              "22:14"
+            ],
+            "sunday": [
+              "05:18",
+              "14:14",
+              "22:14"
+            ],
+            "holiday": [
+              "05:18",
+              "22:14"
+            ]
+          }
+        },
+        {
+          "stop_id": "0397",
+          "stop_name": "Chrzanów Trzebińska",
+          "platform": "1",
+          "file": "0397-chrzanow.html",
+          "departures": {
+            "workday": [
+              "05:20",
+              "06:48",
+              "08:32",
+              "10:25",
+              "11:48",
+              "13:18",
+              "14:50",
+              "16:12",
+              "17:55",
+              "19:41",
+              "21:13",
+              "22:38"
+            ],
+            "saturday": [
+              "05:20",
+              "06:48",
+              "08:30",
+              "11:06",
+              "12:39",
+              "14:16",
+              "15:50",
+              "18:41",
+              "20:33",
+              "22:16"
+            ],
+            "sunday": [
+              "05:20",
+              "06:48",
+              "08:30",
+              "11:06",
+              "12:39",
+              "14:16",
+              "15:50",
+              "18:41",
+              "20:33",
+              "22:16"
+            ],
+            "holiday": [
+              "05:20",
+              "06:48",
+              "08:30",
+              "11:06",
+              "15:50",
+              "18:41",
+              "20:33",
+              "22:16"
+            ]
+          }
+        },
+        {
+          "stop_id": "0567",
+          "stop_name": "Chrzanów Głowackiego",
+          "platform": "1",
+          "file": "0567-chrzanow.html",
+          "departures": {
+            "workday": [
+              "05:22",
+              "06:50",
+              "08:34",
+              "10:27",
+              "11:50",
+              "13:20",
+              "14:52",
+              "16:14",
+              "17:57",
+              "19:43",
+              "21:15",
+              "22:40"
+            ],
+            "saturday": [
+              "05:22",
+              "06:50",
+              "08:32",
+              "11:08",
+              "12:41",
+              "14:18",
+              "15:52",
+              "18:43",
+              "20:35",
+              "22:18"
+            ],
+            "sunday": [
+              "05:22",
+              "06:50",
+              "08:32",
+              "11:08",
+              "12:41",
+              "14:18",
+              "15:52",
+              "18:43",
+              "20:35",
+              "22:18"
+            ],
+            "holiday": [
+              "05:22",
+              "06:50",
+              "08:32",
+              "11:08",
+              "15:52",
+              "18:43",
+              "20:35",
+              "22:18"
+            ]
+          }
+        },
+        {
+          "stop_id": "0568",
+          "stop_name": "Chrzanów Pogorska Szkoła",
+          "platform": "2",
+          "file": "0568-chrzanow.html",
+          "departures": {
+            "workday": [
+              "05:23",
+              "06:51",
+              "08:35",
+              "10:28",
+              "11:51",
+              "13:21",
+              "14:53",
+              "16:15",
+              "17:58",
+              "19:44",
+              "21:16",
+              "22:41"
+            ],
+            "saturday": [
+              "05:23",
+              "06:51",
+              "08:33",
+              "11:09",
+              "12:42",
+              "14:19",
+              "15:53",
+              "18:44",
+              "20:36",
+              "22:19"
+            ],
+            "sunday": [
+              "05:23",
+              "06:51",
+              "08:33",
+              "11:09",
+              "12:42",
+              "14:19",
+              "15:53",
+              "18:44",
+              "20:36",
+              "22:19"
+            ],
+            "holiday": [
+              "05:23",
+              "06:51",
+              "08:33",
+              "11:09",
+              "15:53",
+              "18:44",
+              "20:36",
+              "22:19"
+            ]
+          }
+        },
+        {
+          "stop_id": "0569",
+          "stop_name": "Chrzanów Pogorska Przychodnia",
+          "platform": "1",
+          "file": "0569-chrzanow.html",
+          "departures": {
+            "workday": [
+              "05:24",
+              "06:52",
+              "08:36",
+              "10:29",
+              "11:52",
+              "13:22",
+              "14:54",
+              "16:16",
+              "17:59",
+              "19:45",
+              "21:17",
+              "22:42"
+            ],
+            "saturday": [
+              "05:24",
+              "06:52",
+              "08:34",
+              "11:10",
+              "12:43",
+              "14:20",
+              "15:54",
+              "18:45",
+              "20:37",
+              "22:20"
+            ],
+            "sunday": [
+              "05:24",
+              "06:52",
+              "08:34",
+              "11:10",
+              "12:43",
+              "14:20",
+              "15:54",
+              "18:45",
+              "20:37",
+              "22:20"
+            ],
+            "holiday": [
+              "05:24",
+              "06:52",
+              "08:34",
+              "11:10",
+              "15:54",
+              "18:45",
+              "20:37",
+              "22:20"
+            ]
+          }
+        },
+        {
+          "stop_id": "1080",
+          "stop_name": "Chrzanów Osiedle Młodości Szarych Szeregów",
+          "platform": "1",
+          "file": "1080-chrzanow.html",
+          "departures": {
+            "workday": [
+              "05:25",
+              "06:53",
+              "08:37",
+              "10:30",
+              "11:53",
+              "13:23",
+              "14:55",
+              "16:17",
+              "18:00",
+              "19:46",
+              "21:18",
+              "22:43"
+            ],
+            "saturday": [
+              "05:25",
+              "06:53",
+              "08:35",
+              "11:11",
+              "12:44",
+              "14:21",
+              "15:55",
+              "18:46",
+              "20:38",
+              "22:21"
+            ],
+            "sunday": [
+              "05:25",
+              "06:53",
+              "08:35",
+              "11:11",
+              "12:44",
+              "14:21",
+              "15:55",
+              "18:46",
+              "20:38",
+              "22:21"
+            ],
+            "holiday": [
+              "05:25",
+              "06:53",
+              "08:35",
+              "11:11",
+              "15:55",
+              "18:46",
+              "20:38",
+              "22:21"
+            ]
+          }
+        },
+        {
+          "stop_id": "1082",
+          "stop_name": "Chrzanów Osiedle Młodości Witosa",
+          "platform": "2",
+          "file": "1082-chrzanow.html",
+          "departures": {},
+          "arrival_only": true
+        }
+      ]
+    }
+  ]
+}
