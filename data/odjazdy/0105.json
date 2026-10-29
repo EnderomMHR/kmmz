@@ -4,6 +4,16 @@
   "platform": "0",
   "departures": [
     {
+      "line": "20",
+      "main_direction": "Bobrek Dom Ludowy",
+      "display_direction": "Bobrek Dom Ludowy",
+      "direction_slug": "bobrek",
+      "page": "rozklady/20/0105-bobrek.html",
+      "day_type": "holiday",
+      "time": "05:10",
+      "symbols": []
+    },
+    {
       "line": "12",
       "main_direction": "Mętków Mały",
       "display_direction": "Mętków Mały",
@@ -281,6 +291,16 @@
         "M",
         "V"
       ]
+    },
+    {
+      "line": "20",
+      "main_direction": "Bobrek Dom Ludowy",
+      "display_direction": "Bobrek Dom Ludowy",
+      "direction_slug": "bobrek",
+      "page": "rozklady/20/0105-bobrek.html",
+      "day_type": "saturday",
+      "time": "05:00",
+      "symbols": []
     },
     {
       "line": "4",
@@ -581,6 +601,16 @@
       ]
     },
     {
+      "line": "20",
+      "main_direction": "Bobrek Dom Ludowy",
+      "display_direction": "Bobrek Dom Ludowy",
+      "direction_slug": "bobrek",
+      "page": "rozklady/20/0105-bobrek.html",
+      "day_type": "saturday",
+      "time": "13:21",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Trzebinia Dworzec PKP",
@@ -642,6 +672,16 @@
       "page": "rozklady/4/0105-trzebinia.html",
       "day_type": "saturday",
       "time": "15:00",
+      "symbols": []
+    },
+    {
+      "line": "20",
+      "main_direction": "Bobrek Dom Ludowy",
+      "display_direction": "Bobrek Dom Ludowy",
+      "direction_slug": "bobrek",
+      "page": "rozklady/20/0105-bobrek.html",
+      "day_type": "saturday",
+      "time": "15:19",
       "symbols": []
     },
     {
@@ -885,6 +925,16 @@
       ]
     },
     {
+      "line": "20",
+      "main_direction": "Bobrek Dom Ludowy",
+      "display_direction": "Bobrek Dom Ludowy",
+      "direction_slug": "bobrek",
+      "page": "rozklady/20/0105-bobrek.html",
+      "day_type": "saturday",
+      "time": "21:30",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Chełmek Młyny",
       "display_direction": "Libiąż Oświęcimska Cmentarz",
@@ -939,6 +989,16 @@
       "symbols": [
         "C"
       ]
+    },
+    {
+      "line": "20",
+      "main_direction": "Bobrek Dom Ludowy",
+      "display_direction": "Bobrek Dom Ludowy",
+      "direction_slug": "bobrek",
+      "page": "rozklady/20/0105-bobrek.html",
+      "day_type": "sunday",
+      "time": "05:10",
+      "symbols": []
     },
     {
       "line": "4",
@@ -1483,6 +1543,16 @@
       ]
     },
     {
+      "line": "20",
+      "main_direction": "Bobrek Dom Ludowy",
+      "display_direction": "Bobrek Dom Ludowy",
+      "direction_slug": "bobrek",
+      "page": "rozklady/20/0105-bobrek.html",
+      "day_type": "workday",
+      "time": "05:00",
+      "symbols": []
+    },
+    {
       "line": "17",
       "main_direction": "Chrzanów Dworzec Autobusowy",
       "display_direction": "Chrzanów Dworzec Autobusowy",
@@ -2024,6 +2094,16 @@
       "symbols": []
     },
     {
+      "line": "20",
+      "main_direction": "Bobrek Dom Ludowy",
+      "display_direction": "Bobrek Dom Ludowy",
+      "direction_slug": "bobrek",
+      "page": "rozklady/20/0105-bobrek.html",
+      "day_type": "workday",
+      "time": "13:46",
+      "symbols": []
+    },
+    {
       "line": "12",
       "main_direction": "Mętków Mały",
       "display_direction": "Mętków Mały",
@@ -2103,6 +2183,16 @@
       "page": "rozklady/4/0105-trzebinia.html",
       "day_type": "workday",
       "time": "14:53",
+      "symbols": []
+    },
+    {
+      "line": "20",
+      "main_direction": "Bobrek Dom Ludowy",
+      "display_direction": "Bobrek Dom Ludowy",
+      "direction_slug": "bobrek",
+      "page": "rozklady/20/0105-bobrek.html",
+      "day_type": "workday",
+      "time": "15:03",
       "symbols": []
     },
     {
@@ -2477,6 +2567,16 @@
       ]
     },
     {
+      "line": "20",
+      "main_direction": "Bobrek Dom Ludowy",
+      "display_direction": "Bobrek Dom Ludowy",
+      "direction_slug": "bobrek",
+      "page": "rozklady/20/0105-bobrek.html",
+      "day_type": "workday",
+      "time": "21:20",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Trzebinia Dworzec PKP",
@@ -2566,6 +2666,11 @@
       "page": "rozklady/17/0105-metkow.html"
     },
     {
+      "line": "20",
+      "main_direction": "Bobrek Dom Ludowy",
+      "page": "rozklady/20/0105-bobrek.html"
+    },
+    {
       "line": "4",
       "main_direction": "Chełmek Młyny",
       "page": "rozklady/4/0105-libiaz.html"
@@ -2586,6 +2691,9 @@
     "17": {
       "J": "przez: Libiąż Kopalnia Janina",
       "K": "do: Żarki Kadetów Koniec"
+    },
+    "20": {
+      "J": "do: Libiąż Kopalnia Janina"
     },
     "4": {
       "C": "do: Chrzanów Dworzec Autobusowy",
