@@ -644,12 +644,19 @@ def get_timetable_direction_name(direction, timetable):
             all_symbols.append(tuple(symbols))
     if all_symbols and len(set(all_symbols)) == 1:
         symbols = all_symbols[0]
-        if len(symbols) == 1 and symbols[0] in variants:
+        if (len(symbols) == 1 and symbols[0] in variants
+                and direction.get("variant_destination_from_segment", base) == base):
             return variants[symbols[0]]
     return base
 
 
 def get_display_direction(direction_name, direction, symbols):
+    # Some circular lines display a midpoint as their destination until the
+    # changeover stop. Keep the variant letter but not its final terminus yet.
+    allowed_segment = direction.get("variant_destination_from_segment")
+    if allowed_segment and direction_name != allowed_segment:
+        return direction_name
+
     variant_destinations = direction.get("variant_destinations", {})
 
     for symbol in symbols:
