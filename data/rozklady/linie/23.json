@@ -1,0 +1,2345 @@
+{
+  "line": "23",
+  "map_url": "https://enderommhr.github.io/kmmz/mapa.html",
+  "directions": [
+    {
+      "slug": "olkusz",
+      "name": "Olkusz Dworzec PKS",
+      "variant_destinations": {},
+      "legend": {},
+      "route_stops": [
+        {
+          "stop_id": "2485",
+          "stop_name": "Imbramowice Dolne",
+          "platform": "1",
+          "file": "2485-olkusz.html"
+        },
+        {
+          "stop_id": "2499",
+          "stop_name": "Imbramowice Szkoła",
+          "platform": "1",
+          "file": "2499-olkusz.html"
+        },
+        {
+          "stop_id": "2507",
+          "stop_name": "Imbramowice Kolonia Dolna II",
+          "platform": "1",
+          "file": "2507-olkusz.html"
+        },
+        {
+          "stop_id": "2505",
+          "stop_name": "Imbramowice Kolonia Dolna I",
+          "platform": "1",
+          "file": "2505-olkusz.html"
+        },
+        {
+          "stop_id": "0775",
+          "stop_name": "Zagórowa Centrum",
+          "platform": "1",
+          "file": "0775-olkusz.html"
+        },
+        {
+          "stop_id": "0773",
+          "stop_name": "Zagórowa",
+          "platform": "1",
+          "file": "0773-olkusz.html"
+        },
+        {
+          "stop_id": "0769",
+          "stop_name": "Milonki II",
+          "platform": "1",
+          "file": "0769-olkusz.html"
+        },
+        {
+          "stop_id": "0767",
+          "stop_name": "Milonki Skrzyżowanie",
+          "platform": "1",
+          "file": "0767-olkusz.html"
+        },
+        {
+          "stop_id": "0778",
+          "stop_name": "Zadroże OSP",
+          "platform": "2",
+          "file": "0778-olkusz.html"
+        },
+        {
+          "stop_id": "0779",
+          "stop_name": "Zadroże Kościół",
+          "platform": "1",
+          "file": "0779-olkusz.html"
+        },
+        {
+          "stop_id": "0781",
+          "stop_name": "Zadroże Skotnica",
+          "platform": "1",
+          "file": "0781-olkusz.html"
+        },
+        {
+          "stop_id": "0783",
+          "stop_name": "Zadroże Studzianki",
+          "platform": "1",
+          "file": "0783-olkusz.html"
+        },
+        {
+          "stop_id": "0786",
+          "stop_name": "Zadroże Gołębia Góra",
+          "platform": "2",
+          "file": "0786-olkusz.html"
+        },
+        {
+          "stop_id": "0264",
+          "stop_name": "Trzyciąż Skrzyżowanie",
+          "platform": "2",
+          "file": "0264-olkusz.html"
+        },
+        {
+          "stop_id": "0265",
+          "stop_name": "Jangrot Źródło Dłubni",
+          "platform": "1",
+          "file": "0265-olkusz.html"
+        },
+        {
+          "stop_id": "0266",
+          "stop_name": "Jangrot Centrum",
+          "platform": "2",
+          "file": "0266-olkusz.html"
+        },
+        {
+          "stop_id": "0267",
+          "stop_name": "Jangrot Kosmolów",
+          "platform": "1",
+          "file": "0267-olkusz.html"
+        },
+        {
+          "stop_id": "0268",
+          "stop_name": "Jangrot Granica",
+          "platform": "2",
+          "file": "0268-olkusz.html"
+        },
+        {
+          "stop_id": "0269",
+          "stop_name": "Michałówka Granica",
+          "platform": "1",
+          "file": "0269-olkusz.html"
+        },
+        {
+          "stop_id": "0270",
+          "stop_name": "Michałówka OSP",
+          "platform": "2",
+          "file": "0270-olkusz.html"
+        },
+        {
+          "stop_id": "0271",
+          "stop_name": "Michałówka",
+          "platform": "2",
+          "file": "0271-olkusz.html"
+        },
+        {
+          "stop_id": "0272",
+          "stop_name": "Braciejówka Granica",
+          "platform": "1",
+          "file": "0272-olkusz.html"
+        },
+        {
+          "stop_id": "0273",
+          "stop_name": "Braciejówka Szkoła",
+          "platform": "1",
+          "file": "0273-olkusz.html"
+        },
+        {
+          "stop_id": "0274",
+          "stop_name": "Braciejówka Zalew",
+          "platform": "2",
+          "file": "0274-olkusz.html"
+        },
+        {
+          "stop_id": "0275",
+          "stop_name": "Braciejówka Cmentarz",
+          "platform": "1",
+          "file": "0275-olkusz.html"
+        },
+        {
+          "stop_id": "0276",
+          "stop_name": "Troks Granica",
+          "platform": "1",
+          "file": "0276-olkusz.html"
+        },
+        {
+          "stop_id": "0277",
+          "stop_name": "Troks Szkoła",
+          "platform": "1",
+          "file": "0277-olkusz.html"
+        },
+        {
+          "stop_id": "0278",
+          "stop_name": "Troks",
+          "platform": "1",
+          "file": "0278-olkusz.html"
+        },
+        {
+          "stop_id": "0279",
+          "stop_name": "Troks Las",
+          "platform": "1",
+          "file": "0279-olkusz.html"
+        },
+        {
+          "stop_id": "0280",
+          "stop_name": "Rabsztyn",
+          "platform": "1",
+          "file": "0280-olkusz.html"
+        },
+        {
+          "stop_id": "0281",
+          "stop_name": "Rabsztyn Ogródki Działkowe",
+          "platform": "1",
+          "file": "0281-olkusz.html"
+        },
+        {
+          "stop_id": "0282",
+          "stop_name": "Olkusz Sikorka",
+          "platform": "1",
+          "file": "0282-olkusz.html"
+        },
+        {
+          "stop_id": "0283",
+          "stop_name": "Olkusz Rabsztyńska",
+          "platform": "1",
+          "file": "0283-olkusz.html"
+        },
+        {
+          "stop_id": "0435",
+          "stop_name": "Olkusz Supersam",
+          "platform": "1",
+          "file": "0435-olkusz.html"
+        },
+        {
+          "stop_id": "2460",
+          "stop_name": "Olkusz Rataja",
+          "platform": "2",
+          "file": "2460-olkusz.html"
+        },
+        {
+          "stop_id": "2454",
+          "stop_name": "Olkusz Rataja Szkoła",
+          "platform": "1",
+          "file": "2454-olkusz.html"
+        },
+        {
+          "stop_id": "2462",
+          "stop_name": "Olkusz Witosa",
+          "platform": "2",
+          "file": "2462-olkusz.html"
+        },
+        {
+          "stop_id": "2452",
+          "stop_name": "Olkusz Pakuska Skrzyżowanie",
+          "platform": "1",
+          "file": "2452-olkusz.html"
+        },
+        {
+          "stop_id": "2464",
+          "stop_name": "Olkusz Pakuska",
+          "platform": "2",
+          "file": "2464-olkusz.html"
+        },
+        {
+          "stop_id": "0226",
+          "stop_name": "Olkusz Wiadukt",
+          "platform": "2",
+          "file": "0226-olkusz.html"
+        },
+        {
+          "stop_id": "0200",
+          "stop_name": "Olkusz Dworzec PKS",
+          "platform": "0",
+          "file": "0200-olkusz.html"
+        }
+      ],
+      "timetables": [
+        {
+          "stop_id": "2485",
+          "stop_name": "Imbramowice Dolne",
+          "platform": "1",
+          "file": "2485-olkusz.html",
+          "departures": {
+            "workday": [
+              "06:40",
+              "08:50",
+              "11:12",
+              "13:37",
+              "15:57",
+              "18:24"
+            ],
+            "saturday": [
+              "07:00",
+              "09:18",
+              "12:00",
+              "14:26",
+              "16:44"
+            ]
+          }
+        },
+        {
+          "stop_id": "2499",
+          "stop_name": "Imbramowice Szkoła",
+          "platform": "1",
+          "file": "2499-olkusz.html",
+          "departures": {
+            "workday": [
+              "06:42",
+              "08:52",
+              "11:14",
+              "13:39",
+              "15:59",
+              "18:26"
+            ],
+            "saturday": [
+              "07:02",
+              "09:20",
+              "12:02",
+              "14:28",
+              "16:46"
+            ]
+          }
+        },
+        {
+          "stop_id": "2507",
+          "stop_name": "Imbramowice Kolonia Dolna II",
+          "platform": "1",
+          "file": "2507-olkusz.html",
+          "departures": {
+            "workday": [
+              "06:44",
+              "08:54",
+              "11:16",
+              "13:41",
+              "16:01",
+              "18:28"
+            ],
+            "saturday": [
+              "07:04",
+              "09:22",
+              "12:04",
+              "14:30",
+              "16:48"
+            ]
+          }
+        },
+        {
+          "stop_id": "2505",
+          "stop_name": "Imbramowice Kolonia Dolna I",
+          "platform": "1",
+          "file": "2505-olkusz.html",
+          "departures": {
+            "workday": [
+              "06:45",
+              "08:55",
+              "11:17",
+              "13:42",
+              "16:02",
+              "18:29"
+            ],
+            "saturday": [
+              "07:05",
+              "09:23",
+              "12:05",
+              "14:31",
+              "16:49"
+            ]
+          }
+        },
+        {
+          "stop_id": "0775",
+          "stop_name": "Zagórowa Centrum",
+          "platform": "1",
+          "file": "0775-olkusz.html",
+          "departures": {
+            "workday": [
+              "06:48",
+              "08:58",
+              "11:20",
+              "13:45",
+              "16:05",
+              "18:32"
+            ],
+            "saturday": [
+              "07:08",
+              "09:26",
+              "12:08",
+              "14:34",
+              "16:52"
+            ]
+          }
+        },
+        {
+          "stop_id": "0773",
+          "stop_name": "Zagórowa",
+          "platform": "1",
+          "file": "0773-olkusz.html",
+          "departures": {
+            "workday": [
+              "06:49",
+              "08:59",
+              "11:21",
+              "13:46",
+              "16:06",
+              "18:33"
+            ],
+            "saturday": [
+              "07:09",
+              "09:27",
+              "12:09",
+              "14:35",
+              "16:53"
+            ]
+          }
+        },
+        {
+          "stop_id": "0769",
+          "stop_name": "Milonki II",
+          "platform": "1",
+          "file": "0769-olkusz.html",
+          "departures": {
+            "workday": [
+              "06:50",
+              "09:00",
+              "11:22",
+              "13:47",
+              "16:07",
+              "18:34"
+            ],
+            "saturday": [
+              "07:10",
+              "09:28",
+              "12:10",
+              "14:36",
+              "16:54"
+            ]
+          }
+        },
+        {
+          "stop_id": "0767",
+          "stop_name": "Milonki Skrzyżowanie",
+          "platform": "1",
+          "file": "0767-olkusz.html",
+          "departures": {
+            "workday": [
+              "06:51",
+              "09:01",
+              "11:23",
+              "13:48",
+              "16:08",
+              "18:35"
+            ],
+            "saturday": [
+              "07:11",
+              "09:29",
+              "12:11",
+              "14:37",
+              "16:55"
+            ]
+          }
+        },
+        {
+          "stop_id": "0778",
+          "stop_name": "Zadroże OSP",
+          "platform": "2",
+          "file": "0778-olkusz.html",
+          "departures": {
+            "workday": [
+              "06:52",
+              "09:02",
+              "11:24",
+              "13:49",
+              "16:09",
+              "18:36"
+            ],
+            "saturday": [
+              "07:12",
+              "09:30",
+              "12:12",
+              "14:38",
+              "16:56"
+            ]
+          }
+        },
+        {
+          "stop_id": "0779",
+          "stop_name": "Zadroże Kościół",
+          "platform": "1",
+          "file": "0779-olkusz.html",
+          "departures": {
+            "workday": [
+              "06:53",
+              "09:03",
+              "11:25",
+              "13:50",
+              "16:10",
+              "18:37"
+            ],
+            "saturday": [
+              "07:13",
+              "09:31",
+              "12:13",
+              "14:39",
+              "16:57"
+            ]
+          }
+        },
+        {
+          "stop_id": "0781",
+          "stop_name": "Zadroże Skotnica",
+          "platform": "1",
+          "file": "0781-olkusz.html",
+          "departures": {
+            "workday": [
+              "06:54",
+              "09:04",
+              "11:26",
+              "13:51",
+              "16:11",
+              "18:38"
+            ],
+            "saturday": [
+              "07:14",
+              "09:32",
+              "12:14",
+              "14:40",
+              "16:58"
+            ]
+          }
+        },
+        {
+          "stop_id": "0783",
+          "stop_name": "Zadroże Studzianki",
+          "platform": "1",
+          "file": "0783-olkusz.html",
+          "departures": {
+            "workday": [
+              "06:55",
+              "09:05",
+              "11:27",
+              "13:52",
+              "16:12",
+              "18:39"
+            ],
+            "saturday": [
+              "07:15",
+              "09:33",
+              "12:15",
+              "14:41",
+              "16:59"
+            ]
+          }
+        },
+        {
+          "stop_id": "0786",
+          "stop_name": "Zadroże Gołębia Góra",
+          "platform": "2",
+          "file": "0786-olkusz.html",
+          "departures": {
+            "workday": [
+              "06:56",
+              "09:06",
+              "11:28",
+              "13:53",
+              "16:13",
+              "18:40"
+            ],
+            "saturday": [
+              "07:16",
+              "09:34",
+              "12:16",
+              "14:42",
+              "17:00"
+            ]
+          }
+        },
+        {
+          "stop_id": "0264",
+          "stop_name": "Trzyciąż Skrzyżowanie",
+          "platform": "2",
+          "file": "0264-olkusz.html",
+          "departures": {
+            "workday": [
+              "06:58",
+              "09:08",
+              "11:30",
+              "13:55",
+              "16:15",
+              "18:42"
+            ],
+            "saturday": [
+              "07:18",
+              "09:36",
+              "12:18",
+              "14:44",
+              "17:02"
+            ]
+          }
+        },
+        {
+          "stop_id": "0265",
+          "stop_name": "Jangrot Źródło Dłubni",
+          "platform": "1",
+          "file": "0265-olkusz.html",
+          "departures": {
+            "workday": [
+              "07:01",
+              "09:11",
+              "11:33",
+              "13:58",
+              "16:18",
+              "18:45"
+            ],
+            "saturday": [
+              "07:21",
+              "09:39",
+              "12:21",
+              "14:47",
+              "17:05"
+            ]
+          }
+        },
+        {
+          "stop_id": "0266",
+          "stop_name": "Jangrot Centrum",
+          "platform": "2",
+          "file": "0266-olkusz.html",
+          "departures": {
+            "workday": [
+              "07:02",
+              "09:12",
+              "11:34",
+              "13:59",
+              "16:19",
+              "18:46"
+            ],
+            "saturday": [
+              "07:22",
+              "09:40",
+              "12:22",
+              "14:48",
+              "17:06"
+            ]
+          }
+        },
+        {
+          "stop_id": "0267",
+          "stop_name": "Jangrot Kosmolów",
+          "platform": "1",
+          "file": "0267-olkusz.html",
+          "departures": {
+            "workday": [
+              "07:03",
+              "09:13",
+              "11:35",
+              "14:00",
+              "16:20",
+              "18:47"
+            ],
+            "saturday": [
+              "07:23",
+              "09:41",
+              "12:23",
+              "14:49",
+              "17:07"
+            ]
+          }
+        },
+        {
+          "stop_id": "0268",
+          "stop_name": "Jangrot Granica",
+          "platform": "2",
+          "file": "0268-olkusz.html",
+          "departures": {
+            "workday": [
+              "07:05",
+              "09:15",
+              "11:37",
+              "14:02",
+              "16:22",
+              "18:49"
+            ],
+            "saturday": [
+              "07:25",
+              "09:43",
+              "12:25",
+              "14:51",
+              "17:09"
+            ]
+          }
+        },
+        {
+          "stop_id": "0269",
+          "stop_name": "Michałówka Granica",
+          "platform": "1",
+          "file": "0269-olkusz.html",
+          "departures": {
+            "workday": [
+              "07:07",
+              "09:17",
+              "11:39",
+              "14:04",
+              "16:24",
+              "18:51"
+            ],
+            "saturday": [
+              "07:27",
+              "09:45",
+              "12:27",
+              "14:53",
+              "17:11"
+            ]
+          }
+        },
+        {
+          "stop_id": "0270",
+          "stop_name": "Michałówka OSP",
+          "platform": "2",
+          "file": "0270-olkusz.html",
+          "departures": {
+            "workday": [
+              "07:09",
+              "09:19",
+              "11:41",
+              "14:06",
+              "16:26",
+              "18:53"
+            ],
+            "saturday": [
+              "07:29",
+              "09:47",
+              "12:29",
+              "14:55",
+              "17:13"
+            ]
+          }
+        },
+        {
+          "stop_id": "0271",
+          "stop_name": "Michałówka",
+          "platform": "2",
+          "file": "0271-olkusz.html",
+          "departures": {
+            "workday": [
+              "07:10",
+              "09:20",
+              "11:42",
+              "14:07",
+              "16:27",
+              "18:54"
+            ],
+            "saturday": [
+              "07:30",
+              "09:48",
+              "12:30",
+              "14:56",
+              "17:14"
+            ]
+          }
+        },
+        {
+          "stop_id": "0272",
+          "stop_name": "Braciejówka Granica",
+          "platform": "1",
+          "file": "0272-olkusz.html",
+          "departures": {
+            "workday": [
+              "07:11",
+              "09:21",
+              "11:43",
+              "14:08",
+              "16:28",
+              "18:55"
+            ],
+            "saturday": [
+              "07:31",
+              "09:49",
+              "12:31",
+              "14:57",
+              "17:15"
+            ]
+          }
+        },
+        {
+          "stop_id": "0273",
+          "stop_name": "Braciejówka Szkoła",
+          "platform": "1",
+          "file": "0273-olkusz.html",
+          "departures": {
+            "workday": [
+              "07:12",
+              "09:22",
+              "11:44",
+              "14:09",
+              "16:29",
+              "18:56"
+            ],
+            "saturday": [
+              "07:32",
+              "09:50",
+              "12:32",
+              "14:58",
+              "17:16"
+            ]
+          }
+        },
+        {
+          "stop_id": "0274",
+          "stop_name": "Braciejówka Zalew",
+          "platform": "2",
+          "file": "0274-olkusz.html",
+          "departures": {
+            "workday": [
+              "07:13",
+              "09:23",
+              "11:45",
+              "14:10",
+              "16:30",
+              "18:57"
+            ],
+            "saturday": [
+              "07:33",
+              "09:51",
+              "12:33",
+              "14:59",
+              "17:17"
+            ]
+          }
+        },
+        {
+          "stop_id": "0275",
+          "stop_name": "Braciejówka Cmentarz",
+          "platform": "1",
+          "file": "0275-olkusz.html",
+          "departures": {
+            "workday": [
+              "07:14",
+              "09:24",
+              "11:46",
+              "14:11",
+              "16:31",
+              "18:58"
+            ],
+            "saturday": [
+              "07:34",
+              "09:52",
+              "12:34",
+              "15:00",
+              "17:18"
+            ]
+          }
+        },
+        {
+          "stop_id": "0276",
+          "stop_name": "Troks Granica",
+          "platform": "1",
+          "file": "0276-olkusz.html",
+          "departures": {
+            "workday": [
+              "07:15",
+              "09:25",
+              "11:47",
+              "14:12",
+              "16:32",
+              "18:59"
+            ],
+            "saturday": [
+              "07:35",
+              "09:53",
+              "12:35",
+              "15:01",
+              "17:19"
+            ]
+          }
+        },
+        {
+          "stop_id": "0277",
+          "stop_name": "Troks Szkoła",
+          "platform": "1",
+          "file": "0277-olkusz.html",
+          "departures": {
+            "workday": [
+              "07:16",
+              "09:26",
+              "11:48",
+              "14:13",
+              "16:33",
+              "19:00"
+            ],
+            "saturday": [
+              "07:36",
+              "09:54",
+              "12:36",
+              "15:02",
+              "17:20"
+            ]
+          }
+        },
+        {
+          "stop_id": "0278",
+          "stop_name": "Troks",
+          "platform": "1",
+          "file": "0278-olkusz.html",
+          "departures": {
+            "workday": [
+              "07:18",
+              "09:28",
+              "11:50",
+              "14:15",
+              "16:35",
+              "19:02"
+            ],
+            "saturday": [
+              "07:38",
+              "09:56",
+              "12:38",
+              "15:04",
+              "17:22"
+            ]
+          }
+        },
+        {
+          "stop_id": "0279",
+          "stop_name": "Troks Las",
+          "platform": "1",
+          "file": "0279-olkusz.html",
+          "departures": {
+            "workday": [
+              "07:20",
+              "09:30",
+              "11:52",
+              "14:17",
+              "16:37",
+              "19:04"
+            ],
+            "saturday": [
+              "07:40",
+              "09:58",
+              "12:40",
+              "15:06",
+              "17:24"
+            ]
+          }
+        },
+        {
+          "stop_id": "0280",
+          "stop_name": "Rabsztyn",
+          "platform": "1",
+          "file": "0280-olkusz.html",
+          "departures": {
+            "workday": [
+              "07:23",
+              "09:33",
+              "11:55",
+              "14:20",
+              "16:40",
+              "19:07"
+            ],
+            "saturday": [
+              "07:43",
+              "10:01",
+              "12:43",
+              "15:09",
+              "17:27"
+            ]
+          }
+        },
+        {
+          "stop_id": "0281",
+          "stop_name": "Rabsztyn Ogródki Działkowe",
+          "platform": "1",
+          "file": "0281-olkusz.html",
+          "departures": {
+            "workday": [
+              "07:24",
+              "09:34",
+              "11:56",
+              "14:21",
+              "16:41",
+              "19:08"
+            ],
+            "saturday": [
+              "07:44",
+              "10:02",
+              "12:44",
+              "15:10",
+              "17:28"
+            ]
+          }
+        },
+        {
+          "stop_id": "0282",
+          "stop_name": "Olkusz Sikorka",
+          "platform": "1",
+          "file": "0282-olkusz.html",
+          "departures": {
+            "workday": [
+              "07:26",
+              "09:36",
+              "11:58",
+              "14:23",
+              "16:43",
+              "19:10"
+            ],
+            "saturday": [
+              "07:46",
+              "10:04",
+              "12:46",
+              "15:12",
+              "17:30"
+            ]
+          }
+        },
+        {
+          "stop_id": "0283",
+          "stop_name": "Olkusz Rabsztyńska",
+          "platform": "1",
+          "file": "0283-olkusz.html",
+          "departures": {
+            "workday": [
+              "07:28",
+              "09:38",
+              "12:00",
+              "14:25",
+              "16:45",
+              "19:12"
+            ],
+            "saturday": [
+              "07:48",
+              "10:06",
+              "12:48",
+              "15:14",
+              "17:32"
+            ]
+          }
+        },
+        {
+          "stop_id": "0435",
+          "stop_name": "Olkusz Supersam",
+          "platform": "1",
+          "file": "0435-olkusz.html",
+          "departures": {
+            "workday": [
+              "07:30",
+              "09:40",
+              "12:02",
+              "14:27",
+              "16:47",
+              "19:14"
+            ],
+            "saturday": [
+              "07:50",
+              "10:08",
+              "12:50",
+              "15:16",
+              "17:34"
+            ]
+          }
+        },
+        {
+          "stop_id": "2460",
+          "stop_name": "Olkusz Rataja",
+          "platform": "2",
+          "file": "2460-olkusz.html",
+          "departures": {
+            "workday": [
+              "07:34",
+              "09:44",
+              "12:06",
+              "14:31",
+              "16:51",
+              "19:18"
+            ],
+            "saturday": [
+              "07:54",
+              "10:12",
+              "12:54",
+              "15:20",
+              "17:38"
+            ]
+          }
+        },
+        {
+          "stop_id": "2454",
+          "stop_name": "Olkusz Rataja Szkoła",
+          "platform": "1",
+          "file": "2454-olkusz.html",
+          "departures": {
+            "workday": [
+              "07:35",
+              "09:45",
+              "12:07",
+              "14:32",
+              "16:52",
+              "19:19"
+            ],
+            "saturday": [
+              "07:55",
+              "10:13",
+              "12:55",
+              "15:21",
+              "17:39"
+            ]
+          }
+        },
+        {
+          "stop_id": "2462",
+          "stop_name": "Olkusz Witosa",
+          "platform": "2",
+          "file": "2462-olkusz.html",
+          "departures": {
+            "workday": [
+              "07:36",
+              "09:46",
+              "12:08",
+              "14:33",
+              "16:53",
+              "19:20"
+            ],
+            "saturday": [
+              "07:56",
+              "10:14",
+              "12:56",
+              "15:22",
+              "17:40"
+            ]
+          }
+        },
+        {
+          "stop_id": "2452",
+          "stop_name": "Olkusz Pakuska Skrzyżowanie",
+          "platform": "1",
+          "file": "2452-olkusz.html",
+          "departures": {
+            "workday": [
+              "07:37",
+              "09:47",
+              "12:09",
+              "14:34",
+              "16:54",
+              "19:21"
+            ],
+            "saturday": [
+              "07:57",
+              "10:15",
+              "12:57",
+              "15:23",
+              "17:41"
+            ]
+          }
+        },
+        {
+          "stop_id": "2464",
+          "stop_name": "Olkusz Pakuska",
+          "platform": "2",
+          "file": "2464-olkusz.html",
+          "departures": {
+            "workday": [
+              "07:38",
+              "09:48",
+              "12:10",
+              "14:35",
+              "16:55",
+              "19:22"
+            ],
+            "saturday": [
+              "07:58",
+              "10:16",
+              "12:58",
+              "15:24",
+              "17:42"
+            ]
+          }
+        },
+        {
+          "stop_id": "0226",
+          "stop_name": "Olkusz Wiadukt",
+          "platform": "2",
+          "file": "0226-olkusz.html",
+          "departures": {
+            "workday": [
+              "07:41",
+              "09:51",
+              "12:13",
+              "14:38",
+              "16:58",
+              "19:25"
+            ],
+            "saturday": [
+              "08:01",
+              "10:19",
+              "13:01",
+              "15:27",
+              "17:45"
+            ]
+          }
+        },
+        {
+          "stop_id": "0200",
+          "stop_name": "Olkusz Dworzec PKS",
+          "platform": "0",
+          "file": "0200-olkusz.html",
+          "departures": {},
+          "arrival_only": true
+        }
+      ]
+    },
+    {
+      "slug": "imbramowice",
+      "name": "Imbramowice Dolne",
+      "variant_destinations": {},
+      "legend": {},
+      "route_stops": [
+        {
+          "stop_id": "0200",
+          "stop_name": "Olkusz Dworzec PKS",
+          "platform": "0",
+          "file": "0200-imbramowice.html"
+        },
+        {
+          "stop_id": "0202",
+          "stop_name": "Olkusz Wiadukt",
+          "platform": "1",
+          "file": "0202-imbramowice.html"
+        },
+        {
+          "stop_id": "2451",
+          "stop_name": "Olkusz Pakuska",
+          "platform": "1",
+          "file": "2451-imbramowice.html"
+        },
+        {
+          "stop_id": "2463",
+          "stop_name": "Olkusz Pakuska Skrzyżowanie",
+          "platform": "2",
+          "file": "2463-imbramowice.html"
+        },
+        {
+          "stop_id": "2453",
+          "stop_name": "Olkusz Witosa",
+          "platform": "1",
+          "file": "2453-imbramowice.html"
+        },
+        {
+          "stop_id": "2461",
+          "stop_name": "Olkusz Rataja Szkoła",
+          "platform": "2",
+          "file": "2461-imbramowice.html"
+        },
+        {
+          "stop_id": "2455",
+          "stop_name": "Olkusz Rataja",
+          "platform": "1",
+          "file": "2455-imbramowice.html"
+        },
+        {
+          "stop_id": "0284",
+          "stop_name": "Olkusz Rabsztyńska Supermarket",
+          "platform": "0",
+          "file": "0284-imbramowice.html"
+        },
+        {
+          "stop_id": "0285",
+          "stop_name": "Olkusz Rabsztyńska",
+          "platform": "2",
+          "file": "0285-imbramowice.html"
+        },
+        {
+          "stop_id": "0286",
+          "stop_name": "Olkusz Sikorka",
+          "platform": "2",
+          "file": "0286-imbramowice.html"
+        },
+        {
+          "stop_id": "0287",
+          "stop_name": "Rabsztyn Ogródki Działkowe",
+          "platform": "2",
+          "file": "0287-imbramowice.html"
+        },
+        {
+          "stop_id": "0288",
+          "stop_name": "Rabsztyn",
+          "platform": "2",
+          "file": "0288-imbramowice.html"
+        },
+        {
+          "stop_id": "0289",
+          "stop_name": "Troks Las",
+          "platform": "2",
+          "file": "0289-imbramowice.html"
+        },
+        {
+          "stop_id": "0290",
+          "stop_name": "Troks",
+          "platform": "2",
+          "file": "0290-imbramowice.html"
+        },
+        {
+          "stop_id": "0291",
+          "stop_name": "Troks Szkoła",
+          "platform": "2",
+          "file": "0291-imbramowice.html"
+        },
+        {
+          "stop_id": "0292",
+          "stop_name": "Troks Granica",
+          "platform": "2",
+          "file": "0292-imbramowice.html"
+        },
+        {
+          "stop_id": "0293",
+          "stop_name": "Braciejówka Cmentarz",
+          "platform": "2",
+          "file": "0293-imbramowice.html"
+        },
+        {
+          "stop_id": "0294",
+          "stop_name": "Braciejówka Zalew",
+          "platform": "1",
+          "file": "0294-imbramowice.html"
+        },
+        {
+          "stop_id": "0295",
+          "stop_name": "Braciejówka Szkoła",
+          "platform": "2",
+          "file": "0295-imbramowice.html"
+        },
+        {
+          "stop_id": "0296",
+          "stop_name": "Braciejówka Granica",
+          "platform": "2",
+          "file": "0296-imbramowice.html"
+        },
+        {
+          "stop_id": "0297",
+          "stop_name": "Michałówka",
+          "platform": "1",
+          "file": "0297-imbramowice.html"
+        },
+        {
+          "stop_id": "0298",
+          "stop_name": "Michałówka OSP",
+          "platform": "1",
+          "file": "0298-imbramowice.html"
+        },
+        {
+          "stop_id": "0299",
+          "stop_name": "Michałówka Granica",
+          "platform": "2",
+          "file": "0299-imbramowice.html"
+        },
+        {
+          "stop_id": "0300",
+          "stop_name": "Jangrot Granica",
+          "platform": "1",
+          "file": "0300-imbramowice.html"
+        },
+        {
+          "stop_id": "0301",
+          "stop_name": "Jangrot Kosmolów",
+          "platform": "2",
+          "file": "0301-imbramowice.html"
+        },
+        {
+          "stop_id": "0302",
+          "stop_name": "Jangrot Centrum",
+          "platform": "1",
+          "file": "0302-imbramowice.html"
+        },
+        {
+          "stop_id": "0303",
+          "stop_name": "Jangrot Źródło Dłubni",
+          "platform": "2",
+          "file": "0303-imbramowice.html"
+        },
+        {
+          "stop_id": "0304",
+          "stop_name": "Trzyciąż Skrzyżowanie",
+          "platform": "1",
+          "file": "0304-imbramowice.html"
+        },
+        {
+          "stop_id": "0785",
+          "stop_name": "Zadroże Gołębia Góra",
+          "platform": "1",
+          "file": "0785-imbramowice.html"
+        },
+        {
+          "stop_id": "0784",
+          "stop_name": "Zadroże Studzianki",
+          "platform": "2",
+          "file": "0784-imbramowice.html"
+        },
+        {
+          "stop_id": "0782",
+          "stop_name": "Zadroże Skotnica",
+          "platform": "2",
+          "file": "0782-imbramowice.html"
+        },
+        {
+          "stop_id": "0780",
+          "stop_name": "Zadroże Kościół",
+          "platform": "2",
+          "file": "0780-imbramowice.html"
+        },
+        {
+          "stop_id": "0777",
+          "stop_name": "Zadroże OSP",
+          "platform": "1",
+          "file": "0777-imbramowice.html"
+        },
+        {
+          "stop_id": "0770",
+          "stop_name": "Milonki II",
+          "platform": "2",
+          "file": "0770-imbramowice.html"
+        },
+        {
+          "stop_id": "0774",
+          "stop_name": "Zagórowa",
+          "platform": "2",
+          "file": "0774-imbramowice.html"
+        },
+        {
+          "stop_id": "0776",
+          "stop_name": "Zagórowa Centrum",
+          "platform": "2",
+          "file": "0776-imbramowice.html"
+        },
+        {
+          "stop_id": "2506",
+          "stop_name": "Imbramowice Kolonia Dolna I",
+          "platform": "2",
+          "file": "2506-imbramowice.html"
+        },
+        {
+          "stop_id": "2508",
+          "stop_name": "Imbramowice Kolonia Dolna II",
+          "platform": "2",
+          "file": "2508-imbramowice.html"
+        },
+        {
+          "stop_id": "2500",
+          "stop_name": "Imbramowice Szkoła",
+          "platform": "2",
+          "file": "2500-imbramowice.html"
+        },
+        {
+          "stop_id": "2488",
+          "stop_name": "Imbramowice Dolne",
+          "platform": "2",
+          "file": "2488-imbramowice.html"
+        }
+      ],
+      "timetables": [
+        {
+          "stop_id": "0200",
+          "stop_name": "Olkusz Dworzec PKS",
+          "platform": "0",
+          "file": "0200-imbramowice.html",
+          "departures": {
+            "workday": [
+              "07:46",
+              "10:06",
+              "12:33",
+              "14:43",
+              "17:05",
+              "19:38"
+            ],
+            "saturday": [
+              "08:07",
+              "10:40",
+              "13:10",
+              "15:35",
+              "17:52"
+            ]
+          }
+        },
+        {
+          "stop_id": "0202",
+          "stop_name": "Olkusz Wiadukt",
+          "platform": "1",
+          "file": "0202-imbramowice.html",
+          "departures": {
+            "workday": [
+              "07:48",
+              "10:08",
+              "12:35",
+              "14:45",
+              "17:07",
+              "19:40"
+            ],
+            "saturday": [
+              "08:09",
+              "10:42",
+              "13:12",
+              "15:37",
+              "17:54"
+            ]
+          }
+        },
+        {
+          "stop_id": "2451",
+          "stop_name": "Olkusz Pakuska",
+          "platform": "1",
+          "file": "2451-imbramowice.html",
+          "departures": {
+            "workday": [
+              "07:50",
+              "10:10",
+              "12:37",
+              "14:47",
+              "17:09",
+              "19:42"
+            ],
+            "saturday": [
+              "08:11",
+              "10:44",
+              "13:14",
+              "15:39",
+              "17:56"
+            ]
+          }
+        },
+        {
+          "stop_id": "2463",
+          "stop_name": "Olkusz Pakuska Skrzyżowanie",
+          "platform": "2",
+          "file": "2463-imbramowice.html",
+          "departures": {
+            "workday": [
+              "07:51",
+              "10:11",
+              "12:38",
+              "14:48",
+              "17:10",
+              "19:43"
+            ],
+            "saturday": [
+              "08:12",
+              "10:45",
+              "13:15",
+              "15:40",
+              "17:57"
+            ]
+          }
+        },
+        {
+          "stop_id": "2453",
+          "stop_name": "Olkusz Witosa",
+          "platform": "1",
+          "file": "2453-imbramowice.html",
+          "departures": {
+            "workday": [
+              "07:52",
+              "10:12",
+              "12:39",
+              "14:49",
+              "17:11",
+              "19:44"
+            ],
+            "saturday": [
+              "08:13",
+              "10:46",
+              "13:16",
+              "15:41",
+              "17:58"
+            ]
+          }
+        },
+        {
+          "stop_id": "2461",
+          "stop_name": "Olkusz Rataja Szkoła",
+          "platform": "2",
+          "file": "2461-imbramowice.html",
+          "departures": {
+            "workday": [
+              "07:53",
+              "10:13",
+              "12:40",
+              "14:50",
+              "17:12",
+              "19:45"
+            ],
+            "saturday": [
+              "08:14",
+              "10:47",
+              "13:17",
+              "15:42",
+              "17:59"
+            ]
+          }
+        },
+        {
+          "stop_id": "2455",
+          "stop_name": "Olkusz Rataja",
+          "platform": "1",
+          "file": "2455-imbramowice.html",
+          "departures": {
+            "workday": [
+              "07:54",
+              "10:14",
+              "12:41",
+              "14:51",
+              "17:13",
+              "19:46"
+            ],
+            "saturday": [
+              "08:15",
+              "10:48",
+              "13:18",
+              "15:43",
+              "18:00"
+            ]
+          }
+        },
+        {
+          "stop_id": "0284",
+          "stop_name": "Olkusz Rabsztyńska Supermarket",
+          "platform": "0",
+          "file": "0284-imbramowice.html",
+          "departures": {
+            "workday": [
+              "07:58",
+              "10:18",
+              "12:45",
+              "14:55",
+              "17:17",
+              "19:50"
+            ],
+            "saturday": [
+              "08:19",
+              "10:52",
+              "13:22",
+              "15:47",
+              "18:04"
+            ]
+          }
+        },
+        {
+          "stop_id": "0285",
+          "stop_name": "Olkusz Rabsztyńska",
+          "platform": "2",
+          "file": "0285-imbramowice.html",
+          "departures": {
+            "workday": [
+              "08:00",
+              "10:20",
+              "12:47",
+              "14:57",
+              "17:19",
+              "19:52"
+            ],
+            "saturday": [
+              "08:21",
+              "10:54",
+              "13:24",
+              "15:49",
+              "18:06"
+            ]
+          }
+        },
+        {
+          "stop_id": "0286",
+          "stop_name": "Olkusz Sikorka",
+          "platform": "2",
+          "file": "0286-imbramowice.html",
+          "departures": {
+            "workday": [
+              "08:01",
+              "10:21",
+              "12:48",
+              "14:58",
+              "17:20",
+              "19:53"
+            ],
+            "saturday": [
+              "08:22",
+              "10:55",
+              "13:25",
+              "15:50",
+              "18:07"
+            ]
+          }
+        },
+        {
+          "stop_id": "0287",
+          "stop_name": "Rabsztyn Ogródki Działkowe",
+          "platform": "2",
+          "file": "0287-imbramowice.html",
+          "departures": {
+            "workday": [
+              "08:03",
+              "10:23",
+              "12:50",
+              "15:00",
+              "17:22",
+              "19:55"
+            ],
+            "saturday": [
+              "08:24",
+              "10:57",
+              "13:27",
+              "15:52",
+              "18:09"
+            ]
+          }
+        },
+        {
+          "stop_id": "0288",
+          "stop_name": "Rabsztyn",
+          "platform": "2",
+          "file": "0288-imbramowice.html",
+          "departures": {
+            "workday": [
+              "08:04",
+              "10:24",
+              "12:51",
+              "15:01",
+              "17:23",
+              "19:56"
+            ],
+            "saturday": [
+              "08:25",
+              "10:58",
+              "13:28",
+              "15:53",
+              "18:10"
+            ]
+          }
+        },
+        {
+          "stop_id": "0289",
+          "stop_name": "Troks Las",
+          "platform": "2",
+          "file": "0289-imbramowice.html",
+          "departures": {
+            "workday": [
+              "08:07",
+              "10:27",
+              "12:54",
+              "15:04",
+              "17:26",
+              "19:59"
+            ],
+            "saturday": [
+              "08:28",
+              "11:01",
+              "13:31",
+              "15:56",
+              "18:13"
+            ]
+          }
+        },
+        {
+          "stop_id": "0290",
+          "stop_name": "Troks",
+          "platform": "2",
+          "file": "0290-imbramowice.html",
+          "departures": {
+            "workday": [
+              "08:09",
+              "10:29",
+              "12:56",
+              "15:06",
+              "17:28",
+              "20:01"
+            ],
+            "saturday": [
+              "08:30",
+              "11:03",
+              "13:33",
+              "15:58",
+              "18:15"
+            ]
+          }
+        },
+        {
+          "stop_id": "0291",
+          "stop_name": "Troks Szkoła",
+          "platform": "2",
+          "file": "0291-imbramowice.html",
+          "departures": {
+            "workday": [
+              "08:11",
+              "10:31",
+              "12:58",
+              "15:08",
+              "17:30",
+              "20:03"
+            ],
+            "saturday": [
+              "08:32",
+              "11:05",
+              "13:35",
+              "16:00",
+              "18:17"
+            ]
+          }
+        },
+        {
+          "stop_id": "0292",
+          "stop_name": "Troks Granica",
+          "platform": "2",
+          "file": "0292-imbramowice.html",
+          "departures": {
+            "workday": [
+              "08:12",
+              "10:32",
+              "12:59",
+              "15:09",
+              "17:31",
+              "20:04"
+            ],
+            "saturday": [
+              "08:33",
+              "11:06",
+              "13:36",
+              "16:01",
+              "18:18"
+            ]
+          }
+        },
+        {
+          "stop_id": "0293",
+          "stop_name": "Braciejówka Cmentarz",
+          "platform": "2",
+          "file": "0293-imbramowice.html",
+          "departures": {
+            "workday": [
+              "08:13",
+              "10:33",
+              "13:00",
+              "15:10",
+              "17:32",
+              "20:05"
+            ],
+            "saturday": [
+              "08:34",
+              "11:07",
+              "13:37",
+              "16:02",
+              "18:19"
+            ]
+          }
+        },
+        {
+          "stop_id": "0294",
+          "stop_name": "Braciejówka Zalew",
+          "platform": "1",
+          "file": "0294-imbramowice.html",
+          "departures": {
+            "workday": [
+              "08:14",
+              "10:34",
+              "13:01",
+              "15:11",
+              "17:33",
+              "20:06"
+            ],
+            "saturday": [
+              "08:35",
+              "11:08",
+              "13:38",
+              "16:03",
+              "18:20"
+            ]
+          }
+        },
+        {
+          "stop_id": "0295",
+          "stop_name": "Braciejówka Szkoła",
+          "platform": "2",
+          "file": "0295-imbramowice.html",
+          "departures": {
+            "workday": [
+              "08:15",
+              "10:35",
+              "13:02",
+              "15:12",
+              "17:34",
+              "20:07"
+            ],
+            "saturday": [
+              "08:36",
+              "11:09",
+              "13:39",
+              "16:04",
+              "18:21"
+            ]
+          }
+        },
+        {
+          "stop_id": "0296",
+          "stop_name": "Braciejówka Granica",
+          "platform": "2",
+          "file": "0296-imbramowice.html",
+          "departures": {
+            "workday": [
+              "08:16",
+              "10:36",
+              "13:03",
+              "15:13",
+              "17:35",
+              "20:08"
+            ],
+            "saturday": [
+              "08:37",
+              "11:10",
+              "13:40",
+              "16:05",
+              "18:22"
+            ]
+          }
+        },
+        {
+          "stop_id": "0297",
+          "stop_name": "Michałówka",
+          "platform": "1",
+          "file": "0297-imbramowice.html",
+          "departures": {
+            "workday": [
+              "08:17",
+              "10:37",
+              "13:04",
+              "15:14",
+              "17:36",
+              "20:09"
+            ],
+            "saturday": [
+              "08:38",
+              "11:11",
+              "13:41",
+              "16:06",
+              "18:23"
+            ]
+          }
+        },
+        {
+          "stop_id": "0298",
+          "stop_name": "Michałówka OSP",
+          "platform": "1",
+          "file": "0298-imbramowice.html",
+          "departures": {
+            "workday": [
+              "08:18",
+              "10:38",
+              "13:05",
+              "15:15",
+              "17:37",
+              "20:10"
+            ],
+            "saturday": [
+              "08:39",
+              "11:12",
+              "13:42",
+              "16:07",
+              "18:24"
+            ]
+          }
+        },
+        {
+          "stop_id": "0299",
+          "stop_name": "Michałówka Granica",
+          "platform": "2",
+          "file": "0299-imbramowice.html",
+          "departures": {
+            "workday": [
+              "08:19",
+              "10:39",
+              "13:06",
+              "15:16",
+              "17:38",
+              "20:11"
+            ],
+            "saturday": [
+              "08:40",
+              "11:13",
+              "13:43",
+              "16:08",
+              "18:25"
+            ]
+          }
+        },
+        {
+          "stop_id": "0300",
+          "stop_name": "Jangrot Granica",
+          "platform": "1",
+          "file": "0300-imbramowice.html",
+          "departures": {
+            "workday": [
+              "08:21",
+              "10:41",
+              "13:08",
+              "15:18",
+              "17:40",
+              "20:13"
+            ],
+            "saturday": [
+              "08:42",
+              "11:15",
+              "13:45",
+              "16:10",
+              "18:27"
+            ]
+          }
+        },
+        {
+          "stop_id": "0301",
+          "stop_name": "Jangrot Kosmolów",
+          "platform": "2",
+          "file": "0301-imbramowice.html",
+          "departures": {
+            "workday": [
+              "08:23",
+              "10:43",
+              "13:10",
+              "15:20",
+              "17:42",
+              "20:15"
+            ],
+            "saturday": [
+              "08:44",
+              "11:17",
+              "13:47",
+              "16:12",
+              "18:29"
+            ]
+          }
+        },
+        {
+          "stop_id": "0302",
+          "stop_name": "Jangrot Centrum",
+          "platform": "1",
+          "file": "0302-imbramowice.html",
+          "departures": {
+            "workday": [
+              "08:24",
+              "10:44",
+              "13:11",
+              "15:21",
+              "17:43",
+              "20:16"
+            ],
+            "saturday": [
+              "08:45",
+              "11:18",
+              "13:48",
+              "16:13",
+              "18:30"
+            ]
+          }
+        },
+        {
+          "stop_id": "0303",
+          "stop_name": "Jangrot Źródło Dłubni",
+          "platform": "2",
+          "file": "0303-imbramowice.html",
+          "departures": {
+            "workday": [
+              "08:25",
+              "10:45",
+              "13:12",
+              "15:22",
+              "17:44",
+              "20:17"
+            ],
+            "saturday": [
+              "08:46",
+              "11:19",
+              "13:49",
+              "16:14",
+              "18:31"
+            ]
+          }
+        },
+        {
+          "stop_id": "0304",
+          "stop_name": "Trzyciąż Skrzyżowanie",
+          "platform": "1",
+          "file": "0304-imbramowice.html",
+          "departures": {
+            "workday": [
+              "08:28",
+              "10:48",
+              "13:15",
+              "15:25",
+              "17:47",
+              "20:20"
+            ],
+            "saturday": [
+              "08:49",
+              "11:22",
+              "13:52",
+              "16:17",
+              "18:34"
+            ]
+          }
+        },
+        {
+          "stop_id": "0785",
+          "stop_name": "Zadroże Gołębia Góra",
+          "platform": "1",
+          "file": "0785-imbramowice.html",
+          "departures": {
+            "workday": [
+              "08:30",
+              "10:50",
+              "13:17",
+              "15:27",
+              "17:49",
+              "20:22"
+            ],
+            "saturday": [
+              "08:51",
+              "11:24",
+              "13:54",
+              "16:19",
+              "18:36"
+            ]
+          }
+        },
+        {
+          "stop_id": "0784",
+          "stop_name": "Zadroże Studzianki",
+          "platform": "2",
+          "file": "0784-imbramowice.html",
+          "departures": {
+            "workday": [
+              "08:31",
+              "10:51",
+              "13:18",
+              "15:28",
+              "17:50",
+              "20:23"
+            ],
+            "saturday": [
+              "08:52",
+              "11:25",
+              "13:55",
+              "16:20",
+              "18:37"
+            ]
+          }
+        },
+        {
+          "stop_id": "0782",
+          "stop_name": "Zadroże Skotnica",
+          "platform": "2",
+          "file": "0782-imbramowice.html",
+          "departures": {
+            "workday": [
+              "08:32",
+              "10:52",
+              "13:19",
+              "15:29",
+              "17:51",
+              "20:24"
+            ],
+            "saturday": [
+              "08:53",
+              "11:26",
+              "13:56",
+              "16:21",
+              "18:38"
+            ]
+          }
+        },
+        {
+          "stop_id": "0780",
+          "stop_name": "Zadroże Kościół",
+          "platform": "2",
+          "file": "0780-imbramowice.html",
+          "departures": {
+            "workday": [
+              "08:33",
+              "10:53",
+              "13:20",
+              "15:30",
+              "17:52",
+              "20:25"
+            ],
+            "saturday": [
+              "08:54",
+              "11:27",
+              "13:57",
+              "16:22",
+              "18:39"
+            ]
+          }
+        },
+        {
+          "stop_id": "0777",
+          "stop_name": "Zadroże OSP",
+          "platform": "1",
+          "file": "0777-imbramowice.html",
+          "departures": {
+            "workday": [
+              "08:34",
+              "10:54",
+              "13:21",
+              "15:31",
+              "17:53",
+              "20:26"
+            ],
+            "saturday": [
+              "08:55",
+              "11:28",
+              "13:58",
+              "16:23",
+              "18:40"
+            ]
+          }
+        },
+        {
+          "stop_id": "0770",
+          "stop_name": "Milonki II",
+          "platform": "2",
+          "file": "0770-imbramowice.html",
+          "departures": {
+            "workday": [
+              "08:36",
+              "10:56",
+              "13:23",
+              "15:33",
+              "17:55",
+              "20:28"
+            ],
+            "saturday": [
+              "08:57",
+              "11:30",
+              "14:00",
+              "16:25",
+              "18:42"
+            ]
+          }
+        },
+        {
+          "stop_id": "0774",
+          "stop_name": "Zagórowa",
+          "platform": "2",
+          "file": "0774-imbramowice.html",
+          "departures": {
+            "workday": [
+              "08:37",
+              "10:57",
+              "13:24",
+              "15:34",
+              "17:56",
+              "20:29"
+            ],
+            "saturday": [
+              "08:58",
+              "11:31",
+              "14:01",
+              "16:26",
+              "18:43"
+            ]
+          }
+        },
+        {
+          "stop_id": "0776",
+          "stop_name": "Zagórowa Centrum",
+          "platform": "2",
+          "file": "0776-imbramowice.html",
+          "departures": {
+            "workday": [
+              "08:38",
+              "10:58",
+              "13:25",
+              "15:35",
+              "17:57",
+              "20:30"
+            ],
+            "saturday": [
+              "08:59",
+              "11:32",
+              "14:02",
+              "16:27",
+              "18:44"
+            ]
+          }
+        },
+        {
+          "stop_id": "2506",
+          "stop_name": "Imbramowice Kolonia Dolna I",
+          "platform": "2",
+          "file": "2506-imbramowice.html",
+          "departures": {
+            "workday": [
+              "08:41",
+              "11:01",
+              "13:28",
+              "15:38",
+              "18:00",
+              "20:33"
+            ],
+            "saturday": [
+              "09:02",
+              "11:35",
+              "14:05",
+              "16:30",
+              "18:47"
+            ]
+          }
+        },
+        {
+          "stop_id": "2508",
+          "stop_name": "Imbramowice Kolonia Dolna II",
+          "platform": "2",
+          "file": "2508-imbramowice.html",
+          "departures": {
+            "workday": [
+              "08:42",
+              "11:02",
+              "13:29",
+              "15:39",
+              "18:01",
+              "20:34"
+            ],
+            "saturday": [
+              "09:03",
+              "11:36",
+              "14:06",
+              "16:31",
+              "18:48"
+            ]
+          }
+        },
+        {
+          "stop_id": "2500",
+          "stop_name": "Imbramowice Szkoła",
+          "platform": "2",
+          "file": "2500-imbramowice.html",
+          "departures": {
+            "workday": [
+              "08:44",
+              "11:04",
+              "13:31",
+              "15:41",
+              "18:03",
+              "20:36"
+            ],
+            "saturday": [
+              "09:05",
+              "11:38",
+              "14:08",
+              "16:33",
+              "18:50"
+            ]
+          }
+        },
+        {
+          "stop_id": "2488",
+          "stop_name": "Imbramowice Dolne",
+          "platform": "2",
+          "file": "2488-imbramowice.html",
+          "departures": {},
+          "arrival_only": true
+        }
+      ]
+    }
+  ]
+}
