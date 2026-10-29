@@ -31,6 +31,9 @@ on:
       - 'tools/test-line16-import.py'
       - 'tools/check-line17.py'
       - 'tools/test-line17-import.py'
+      - 'tools/check-line18.py'
+      - 'tools/test-line18-import.py'
+      - 'linie/18.html'
       - 'linie/17.html'
       - 'linie/16.html'
       - 'linie/15.html'
@@ -92,6 +95,8 @@ jobs:
         run: python tools/test-line16-import.py
       - name: Validate line 17 importer against course data
         run: python tools/test-line17-import.py
+      - name: Validate line 18 importer against course data
+        run: python tools/test-line18-import.py
       - name: Validate line 8 circular route and terminal arrivals
         run: python tools/check-line8.py
       - name: Check terminal arrival filtering
@@ -125,6 +130,8 @@ jobs:
         run: python tools/check-line16.py
       - name: Verify line 17 Excel source, combinations of J/K/L and generated pages
         run: python tools/check-line17.py
+      - name: Verify line 18 Excel source, Zawada extension, map and generated pages
+        run: python tools/check-line18.py
       - name: Verify line 8 generated pages, map directions and stop visibility
         run: python tools/check-line8-pages.py
       - name: Confirm line 5 pages
@@ -138,6 +145,17 @@ jobs:
           test -f data/odjazdy/0633.json
           test -f przystanki/0669.html
           test -f rozklady/7/0684-okrezna.html
+          test -f rozklady/18/0200-osiek.html
+          test -f rozklady/18/2886-osiek.html
+          test -f rozklady/18/2054-osiek.html
+          test -f rozklady/18/2075-osiek.html
+          test -f rozklady/18/2075-olkusz.html
+          test -f rozklady/18/2054-olkusz.html
+          test -f rozklady/18/0200-olkusz.html
+          test -f data/odjazdy/2054.json
+          test -f data/odjazdy/2075.json
+          test -f przystanki/2054.html
+          test -f przystanki/2075.html
           test -f rozklady/17/0311-chrzanow.html
           test -f rozklady/17/0105-chrzanow.html
           test -f rozklady/17/0107-chrzanow.html
