@@ -1,0 +1,18 @@
+{
+  "directions": {
+    "1": {
+      "slug": "okrezna",
+      "name": "Olkusz Dworzec PKS",
+      "direction_segments": [
+        {
+          "from_stop_id": "0200",
+          "name": "Olkusz Jasna Skrzyżowanie"
+        },
+        {
+          "from_stop_id": "2451",
+          "name": "Olkusz Dworzec PKS"
+        }
+      ]
+    }
+  }
+}
