@@ -9,6 +9,7 @@ on:
       - 'tools/import-excel.py'
       - 'tools/check-line5.py'
       - 'tools/check-line6.py'
+      - 'tools/check-line6-legends.py'
       - 'tools/check-line7.py'
       - 'tools/check-line8.py'
       - 'tools/check-line8-pages.py'
@@ -94,6 +95,8 @@ jobs:
           node tools/test-map-trip-route.js
       - name: Generate HTML and stop departures (without committing)
         run: python tools/generate-rozklady.py > /tmp/kmmz-generated.log
+      - name: Verify line 6 generated legend visibility for Z/O variants
+        run: python tools/check-line6-legends.py
       - name: Verify line 9 Excel source and generated timetable pages
         run: python tools/check-line9.py
       - name: Verify line 10 revised Excel source and generated pages
