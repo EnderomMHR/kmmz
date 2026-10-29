@@ -1,0 +1,85 @@
+{
+  "directions": {
+    "1": {
+      "slug": "psary",
+      "name": "Psary Centrum",
+      "direction_segments": [
+        {
+          "from_stop_id": "1079",
+          "name": "Psary Centrum"
+        },
+        {
+          "from_stop_id": "1168",
+          "name": "Psary Ostra Góra"
+        }
+      ],
+      "variant_symbols": {
+        "1": "V",
+        "2": "H",
+        "3": "P",
+        "4": "HP",
+        "5": "HV",
+        "6": "PV",
+        "7": "HPV"
+      },
+      "variant_letter_ends": {
+        "V": {
+          "stop_id": "0119",
+          "occurrence": 1
+        },
+        "H": {
+          "stop_id": "1026",
+          "occurrence": 1
+        },
+        "P": {
+          "stop_id": "1168",
+          "occurrence": 1
+        }
+      },
+      "variant_destinations": {
+        "P": "Psary Ostra Góra"
+      },
+      "legend": {
+        "H": "przez: Trzebinia Harcerska Przychodnia",
+        "P": "do: Psary Ostra Góra",
+        "V": "przez: Chrzanów Valeo, z pominięciem: Trzebinia Berezka"
+      },
+      "legend_only_used_symbols": true,
+      "variant_stops": [
+        "0119",
+        "1026",
+        "1166"
+      ]
+    },
+    "2": {
+      "slug": "chrzanow",
+      "name": "Chrzanów Osiedle Młodości Witosa",
+      "variant_symbols": {
+        "1": "V",
+        "2": "H",
+        "3": "HV"
+      },
+      "variant_letter_ends": {
+        "H": {
+          "stop_id": "1026",
+          "occurrence": 1
+        },
+        "V": {
+          "stop_id": "0092",
+          "occurrence": 1
+        }
+      },
+      "legend": {
+        "H": "przez: Trzebinia Harcerska Przychodnia",
+        "V": "przez: Chrzanów Valeo, z pominięciem: Trzebinia Berezka"
+      },
+      "legend_only_used_symbols": true,
+      "variant_stops": [
+        "1165",
+        "1167",
+        "1026",
+        "0092"
+      ]
+    }
+  }
+}
