@@ -14,6 +14,16 @@
       "symbols": []
     },
     {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Domaniewice Remiza",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/0015-okrezna-1.html",
+      "day_type": "holiday",
+      "time": "11:00",
+      "symbols": []
+    },
+    {
       "line": "9",
       "main_direction": "Jeżówka Świetlica",
       "display_direction": "Jeżówka Świetlica",
@@ -24,6 +34,16 @@
       "symbols": []
     },
     {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Domaniewice Remiza",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/0015-okrezna-1.html",
+      "day_type": "holiday",
+      "time": "16:45",
+      "symbols": []
+    },
+    {
       "line": "9",
       "main_direction": "Jeżówka Świetlica",
       "display_direction": "Jeżówka Świetlica",
@@ -31,6 +51,16 @@
       "page": "rozklady/9/0015-okrezna-1.html",
       "day_type": "saturday",
       "time": "08:00",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Domaniewice Remiza",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/0015-okrezna-1.html",
+      "day_type": "saturday",
+      "time": "12:00",
       "symbols": []
     },
     {
@@ -54,6 +84,16 @@
       "symbols": []
     },
     {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Domaniewice Remiza",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/0015-okrezna-1.html",
+      "day_type": "saturday",
+      "time": "17:20",
+      "symbols": []
+    },
+    {
       "line": "9",
       "main_direction": "Jeżówka Świetlica",
       "display_direction": "Jeżówka Świetlica",
@@ -61,6 +101,16 @@
       "page": "rozklady/9/0015-okrezna-1.html",
       "day_type": "sunday",
       "time": "08:00",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Domaniewice Remiza",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/0015-okrezna-1.html",
+      "day_type": "sunday",
+      "time": "11:00",
       "symbols": []
     },
     {
@@ -81,6 +131,26 @@
       "page": "rozklady/9/0015-okrezna-1.html",
       "day_type": "sunday",
       "time": "13:46",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Domaniewice Remiza",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/0015-okrezna-1.html",
+      "day_type": "sunday",
+      "time": "16:45",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Domaniewice Remiza",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/0015-okrezna-1.html",
+      "day_type": "workday",
+      "time": "06:15",
       "symbols": []
     },
     {
@@ -104,6 +174,16 @@
       "symbols": []
     },
     {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Domaniewice Remiza",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/0015-okrezna-1.html",
+      "day_type": "workday",
+      "time": "11:15",
+      "symbols": []
+    },
+    {
       "line": "9",
       "main_direction": "Jeżówka Świetlica",
       "display_direction": "Jeżówka Świetlica",
@@ -124,6 +204,16 @@
       "symbols": []
     },
     {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Domaniewice Remiza",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/0015-okrezna-1.html",
+      "day_type": "workday",
+      "time": "17:10",
+      "symbols": []
+    },
+    {
       "line": "9",
       "main_direction": "Jeżówka Świetlica",
       "display_direction": "Jeżówka Świetlica",
@@ -132,9 +222,24 @@
       "day_type": "workday",
       "time": "17:42",
       "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Domaniewice Remiza",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/0015-okrezna-1.html",
+      "day_type": "workday",
+      "time": "20:37",
+      "symbols": []
     }
   ],
   "served_lines": [
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "page": "rozklady/22/0015-okrezna-1.html"
+    },
     {
       "line": "9",
       "main_direction": "Jeżówka Świetlica",
@@ -142,6 +247,9 @@
     }
   ],
   "legends": {
+    "22": {
+      "W": "do: Wolbrom Pod Lasem"
+    },
     "9": {
       "W": "do: Wolbrom Pod Lasem"
     }

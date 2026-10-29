@@ -1,0 +1,494 @@
+{
+  "stop_id": "2299",
+  "stop_name": "Dłużec Ośrodek Zdrowia",
+  "platform": "2",
+  "departures": [
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Domaniewice Remiza",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/2299-okrezna-1.html",
+      "day_type": "holiday",
+      "time": "08:52",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Wolbrom Pod Lasem",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/2299-okrezna-2.html",
+      "day_type": "holiday",
+      "time": "09:48",
+      "symbols": [
+        "W"
+      ]
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Domaniewice Remiza",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/2299-okrezna-1.html",
+      "day_type": "holiday",
+      "time": "11:37",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Domaniewice Remiza",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/2299-okrezna-1.html",
+      "day_type": "holiday",
+      "time": "12:52",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Wolbrom Pod Lasem",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/2299-okrezna-2.html",
+      "day_type": "holiday",
+      "time": "15:48",
+      "symbols": [
+        "W"
+      ]
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Domaniewice Remiza",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/2299-okrezna-1.html",
+      "day_type": "holiday",
+      "time": "17:22",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Domaniewice Remiza",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/2299-okrezna-2.html",
+      "day_type": "holiday",
+      "time": "18:58",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Domaniewice Remiza",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/2299-okrezna-2.html",
+      "day_type": "holiday",
+      "time": "20:28",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Domaniewice Remiza",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/2299-okrezna-2.html",
+      "day_type": "saturday",
+      "time": "06:08",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Domaniewice Remiza",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/2299-okrezna-1.html",
+      "day_type": "saturday",
+      "time": "07:22",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Domaniewice Remiza",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/2299-okrezna-1.html",
+      "day_type": "saturday",
+      "time": "08:42",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Domaniewice Remiza",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/2299-okrezna-2.html",
+      "day_type": "saturday",
+      "time": "09:48",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Wolbrom Pod Lasem",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/2299-okrezna-2.html",
+      "day_type": "saturday",
+      "time": "11:01",
+      "symbols": [
+        "W"
+      ]
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Domaniewice Remiza",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/2299-okrezna-1.html",
+      "day_type": "saturday",
+      "time": "12:37",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Domaniewice Remiza",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/2299-okrezna-1.html",
+      "day_type": "saturday",
+      "time": "14:07",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Domaniewice Remiza",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/2299-okrezna-2.html",
+      "day_type": "saturday",
+      "time": "15:08",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Wolbrom Pod Lasem",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/2299-okrezna-2.html",
+      "day_type": "saturday",
+      "time": "16:18",
+      "symbols": [
+        "W"
+      ]
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Domaniewice Remiza",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/2299-okrezna-1.html",
+      "day_type": "saturday",
+      "time": "17:57",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Domaniewice Remiza",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/2299-okrezna-1.html",
+      "day_type": "saturday",
+      "time": "19:17",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Domaniewice Remiza",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/2299-okrezna-2.html",
+      "day_type": "saturday",
+      "time": "20:28",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Domaniewice Remiza",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/2299-okrezna-2.html",
+      "day_type": "sunday",
+      "time": "07:33",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Domaniewice Remiza",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/2299-okrezna-1.html",
+      "day_type": "sunday",
+      "time": "08:52",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Wolbrom Pod Lasem",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/2299-okrezna-2.html",
+      "day_type": "sunday",
+      "time": "09:48",
+      "symbols": [
+        "W"
+      ]
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Domaniewice Remiza",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/2299-okrezna-1.html",
+      "day_type": "sunday",
+      "time": "11:37",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Domaniewice Remiza",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/2299-okrezna-1.html",
+      "day_type": "sunday",
+      "time": "12:52",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Domaniewice Remiza",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/2299-okrezna-1.html",
+      "day_type": "sunday",
+      "time": "14:22",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Wolbrom Pod Lasem",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/2299-okrezna-2.html",
+      "day_type": "sunday",
+      "time": "15:48",
+      "symbols": [
+        "W"
+      ]
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Domaniewice Remiza",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/2299-okrezna-1.html",
+      "day_type": "sunday",
+      "time": "17:22",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Domaniewice Remiza",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/2299-okrezna-2.html",
+      "day_type": "sunday",
+      "time": "18:58",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Domaniewice Remiza",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/2299-okrezna-2.html",
+      "day_type": "sunday",
+      "time": "20:28",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Wolbrom Pod Lasem",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/2299-okrezna-2.html",
+      "day_type": "workday",
+      "time": "05:18",
+      "symbols": [
+        "W"
+      ]
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Domaniewice Remiza",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/2299-okrezna-1.html",
+      "day_type": "workday",
+      "time": "06:52",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Domaniewice Remiza",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/2299-okrezna-1.html",
+      "day_type": "workday",
+      "time": "07:57",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Domaniewice Remiza",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/2299-okrezna-2.html",
+      "day_type": "workday",
+      "time": "08:58",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Wolbrom Pod Lasem",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/2299-okrezna-2.html",
+      "day_type": "workday",
+      "time": "10:18",
+      "symbols": [
+        "W"
+      ]
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Domaniewice Remiza",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/2299-okrezna-1.html",
+      "day_type": "workday",
+      "time": "11:52",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Domaniewice Remiza",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/2299-okrezna-2.html",
+      "day_type": "workday",
+      "time": "12:43",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Domaniewice Remiza",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/2299-okrezna-2.html",
+      "day_type": "workday",
+      "time": "13:48",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Domaniewice Remiza",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/2299-okrezna-1.html",
+      "day_type": "workday",
+      "time": "15:12",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Wolbrom Pod Lasem",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/2299-okrezna-2.html",
+      "day_type": "workday",
+      "time": "16:13",
+      "symbols": [
+        "W"
+      ]
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Domaniewice Remiza",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/2299-okrezna-1.html",
+      "day_type": "workday",
+      "time": "17:47",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Domaniewice Remiza",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/2299-okrezna-1.html",
+      "day_type": "workday",
+      "time": "18:50",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Wolbrom Pod Lasem",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/2299-okrezna-2.html",
+      "day_type": "workday",
+      "time": "19:43",
+      "symbols": [
+        "W"
+      ]
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Domaniewice Remiza",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/2299-okrezna-1.html",
+      "day_type": "workday",
+      "time": "21:14",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "display_direction": "Domaniewice Remiza",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/2299-okrezna-2.html",
+      "day_type": "workday",
+      "time": "22:05",
+      "symbols": []
+    }
+  ],
+  "served_lines": [
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "page": "rozklady/22/2299-okrezna-1.html"
+    },
+    {
+      "line": "22",
+      "main_direction": "Domaniewice Remiza",
+      "page": "rozklady/22/2299-okrezna-2.html"
+    }
+  ],
+  "legends": {
+    "22": {
+      "W": "do: Wolbrom Pod Lasem"
+    }
+  }
+}

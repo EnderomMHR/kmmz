@@ -14,6 +14,16 @@
       "symbols": []
     },
     {
+      "line": "22",
+      "main_direction": "Wolbrom Pod Lasem",
+      "display_direction": "Wolbrom Pod Lasem",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/0029-okrezna-2.html",
+      "day_type": "holiday",
+      "time": "10:34",
+      "symbols": []
+    },
+    {
       "line": "9",
       "main_direction": "Wolbrom Pod Lasem",
       "display_direction": "Wolbrom Pod Lasem",
@@ -41,6 +51,16 @@
       "page": "rozklady/3/0029-olkusz.html",
       "day_type": "holiday",
       "time": "15:19",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Pod Lasem",
+      "display_direction": "Wolbrom Pod Lasem",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/0029-okrezna-2.html",
+      "day_type": "holiday",
+      "time": "16:34",
       "symbols": []
     },
     {
@@ -94,6 +114,16 @@
       "symbols": []
     },
     {
+      "line": "22",
+      "main_direction": "Wolbrom Pod Lasem",
+      "display_direction": "Wolbrom Pod Lasem",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/0029-okrezna-2.html",
+      "day_type": "saturday",
+      "time": "11:47",
+      "symbols": []
+    },
+    {
       "line": "3",
       "main_direction": "Olkusz Dworzec PKS",
       "display_direction": "Olkusz Dworzec PKS",
@@ -121,6 +151,16 @@
       "page": "rozklady/3/0029-olkusz.html",
       "day_type": "saturday",
       "time": "15:19",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Pod Lasem",
+      "display_direction": "Wolbrom Pod Lasem",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/0029-okrezna-2.html",
+      "day_type": "saturday",
+      "time": "17:04",
       "symbols": []
     },
     {
@@ -194,6 +234,16 @@
       "symbols": []
     },
     {
+      "line": "22",
+      "main_direction": "Wolbrom Pod Lasem",
+      "display_direction": "Wolbrom Pod Lasem",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/0029-okrezna-2.html",
+      "day_type": "sunday",
+      "time": "10:34",
+      "symbols": []
+    },
+    {
       "line": "9",
       "main_direction": "Wolbrom Pod Lasem",
       "display_direction": "Wolbrom Pod Lasem",
@@ -231,6 +281,16 @@
       "page": "rozklady/3/0029-olkusz.html",
       "day_type": "sunday",
       "time": "15:19",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Pod Lasem",
+      "display_direction": "Wolbrom Pod Lasem",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/0029-okrezna-2.html",
+      "day_type": "sunday",
+      "time": "16:34",
       "symbols": []
     },
     {
@@ -271,6 +331,16 @@
       "page": "rozklady/3/0029-olkusz.html",
       "day_type": "workday",
       "time": "05:15",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Pod Lasem",
+      "display_direction": "Wolbrom Pod Lasem",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/0029-okrezna-2.html",
+      "day_type": "workday",
+      "time": "06:04",
       "symbols": []
     },
     {
@@ -321,6 +391,16 @@
       "page": "rozklady/9/0029-okrezna-2.html",
       "day_type": "workday",
       "time": "10:51",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Pod Lasem",
+      "display_direction": "Wolbrom Pod Lasem",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/0029-okrezna-2.html",
+      "day_type": "workday",
+      "time": "11:04",
       "symbols": []
     },
     {
@@ -394,6 +474,16 @@
       "symbols": []
     },
     {
+      "line": "22",
+      "main_direction": "Wolbrom Pod Lasem",
+      "display_direction": "Wolbrom Pod Lasem",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/0029-okrezna-2.html",
+      "day_type": "workday",
+      "time": "16:59",
+      "symbols": []
+    },
+    {
       "line": "9",
       "main_direction": "Wolbrom Pod Lasem",
       "display_direction": "Wolbrom Pod Lasem",
@@ -424,6 +514,16 @@
       "symbols": []
     },
     {
+      "line": "22",
+      "main_direction": "Wolbrom Pod Lasem",
+      "display_direction": "Wolbrom Pod Lasem",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/0029-okrezna-2.html",
+      "day_type": "workday",
+      "time": "20:29",
+      "symbols": []
+    },
+    {
       "line": "3",
       "main_direction": "Olkusz Dworzec PKS",
       "display_direction": "Olkusz Dworzec PKS",
@@ -446,6 +546,11 @@
   ],
   "served_lines": [
     {
+      "line": "22",
+      "main_direction": "Wolbrom Pod Lasem",
+      "page": "rozklady/22/0029-okrezna-2.html"
+    },
+    {
       "line": "3",
       "main_direction": "Olkusz Dworzec PKS",
       "page": "rozklady/3/0029-olkusz.html"
@@ -457,6 +562,9 @@
     }
   ],
   "legends": {
+    "22": {
+      "W": "do: Wolbrom Pod Lasem"
+    },
     "3": {},
     "9": {
       "W": "do: Wolbrom Pod Lasem"

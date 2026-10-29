@@ -1,0 +1,494 @@
+{
+  "stop_id": "2295",
+  "stop_name": "Dłużec Granica",
+  "platform": "1",
+  "departures": [
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/2295-okrezna-1.html",
+      "day_type": "holiday",
+      "time": "09:00",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Pod Lasem",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/2295-okrezna-2.html",
+      "day_type": "holiday",
+      "time": "09:56",
+      "symbols": [
+        "W"
+      ]
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/2295-okrezna-1.html",
+      "day_type": "holiday",
+      "time": "11:45",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/2295-okrezna-1.html",
+      "day_type": "holiday",
+      "time": "13:00",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Pod Lasem",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/2295-okrezna-2.html",
+      "day_type": "holiday",
+      "time": "15:56",
+      "symbols": [
+        "W"
+      ]
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/2295-okrezna-1.html",
+      "day_type": "holiday",
+      "time": "17:30",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/2295-okrezna-2.html",
+      "day_type": "holiday",
+      "time": "19:06",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/2295-okrezna-2.html",
+      "day_type": "holiday",
+      "time": "20:36",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/2295-okrezna-2.html",
+      "day_type": "saturday",
+      "time": "06:16",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/2295-okrezna-1.html",
+      "day_type": "saturday",
+      "time": "07:30",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/2295-okrezna-1.html",
+      "day_type": "saturday",
+      "time": "08:50",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/2295-okrezna-2.html",
+      "day_type": "saturday",
+      "time": "09:56",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Pod Lasem",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/2295-okrezna-2.html",
+      "day_type": "saturday",
+      "time": "11:09",
+      "symbols": [
+        "W"
+      ]
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/2295-okrezna-1.html",
+      "day_type": "saturday",
+      "time": "12:45",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/2295-okrezna-1.html",
+      "day_type": "saturday",
+      "time": "14:15",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/2295-okrezna-2.html",
+      "day_type": "saturday",
+      "time": "15:16",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Pod Lasem",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/2295-okrezna-2.html",
+      "day_type": "saturday",
+      "time": "16:26",
+      "symbols": [
+        "W"
+      ]
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/2295-okrezna-1.html",
+      "day_type": "saturday",
+      "time": "18:05",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/2295-okrezna-1.html",
+      "day_type": "saturday",
+      "time": "19:25",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/2295-okrezna-2.html",
+      "day_type": "saturday",
+      "time": "20:36",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/2295-okrezna-2.html",
+      "day_type": "sunday",
+      "time": "07:41",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/2295-okrezna-1.html",
+      "day_type": "sunday",
+      "time": "09:00",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Pod Lasem",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/2295-okrezna-2.html",
+      "day_type": "sunday",
+      "time": "09:56",
+      "symbols": [
+        "W"
+      ]
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/2295-okrezna-1.html",
+      "day_type": "sunday",
+      "time": "11:45",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/2295-okrezna-1.html",
+      "day_type": "sunday",
+      "time": "13:00",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/2295-okrezna-1.html",
+      "day_type": "sunday",
+      "time": "14:30",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Pod Lasem",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/2295-okrezna-2.html",
+      "day_type": "sunday",
+      "time": "15:56",
+      "symbols": [
+        "W"
+      ]
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/2295-okrezna-1.html",
+      "day_type": "sunday",
+      "time": "17:30",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/2295-okrezna-2.html",
+      "day_type": "sunday",
+      "time": "19:06",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/2295-okrezna-2.html",
+      "day_type": "sunday",
+      "time": "20:36",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Pod Lasem",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/2295-okrezna-2.html",
+      "day_type": "workday",
+      "time": "05:26",
+      "symbols": [
+        "W"
+      ]
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/2295-okrezna-1.html",
+      "day_type": "workday",
+      "time": "07:00",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/2295-okrezna-1.html",
+      "day_type": "workday",
+      "time": "08:05",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/2295-okrezna-2.html",
+      "day_type": "workday",
+      "time": "09:06",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Pod Lasem",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/2295-okrezna-2.html",
+      "day_type": "workday",
+      "time": "10:26",
+      "symbols": [
+        "W"
+      ]
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/2295-okrezna-1.html",
+      "day_type": "workday",
+      "time": "12:00",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/2295-okrezna-2.html",
+      "day_type": "workday",
+      "time": "12:51",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/2295-okrezna-2.html",
+      "day_type": "workday",
+      "time": "13:56",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/2295-okrezna-1.html",
+      "day_type": "workday",
+      "time": "15:20",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Pod Lasem",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/2295-okrezna-2.html",
+      "day_type": "workday",
+      "time": "16:21",
+      "symbols": [
+        "W"
+      ]
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/2295-okrezna-1.html",
+      "day_type": "workday",
+      "time": "17:55",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/2295-okrezna-1.html",
+      "day_type": "workday",
+      "time": "18:58",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Pod Lasem",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/2295-okrezna-2.html",
+      "day_type": "workday",
+      "time": "19:51",
+      "symbols": [
+        "W"
+      ]
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/22/2295-okrezna-1.html",
+      "day_type": "workday",
+      "time": "21:22",
+      "symbols": []
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/22/2295-okrezna-2.html",
+      "day_type": "workday",
+      "time": "22:13",
+      "symbols": []
+    }
+  ],
+  "served_lines": [
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Nowa PKS",
+      "page": "rozklady/22/2295-okrezna-1.html"
+    },
+    {
+      "line": "22",
+      "main_direction": "Wolbrom Nowa PKS",
+      "page": "rozklady/22/2295-okrezna-2.html"
+    }
+  ],
+  "legends": {
+    "22": {
+      "W": "do: Wolbrom Pod Lasem"
+    }
+  }
+}
