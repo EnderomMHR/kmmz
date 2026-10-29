@@ -4,6 +4,100 @@
   "platform": "1",
   "departures": [
     {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0127-psary.html",
+      "day_type": "holiday",
+      "time": "04:39",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0127-psary.html",
+      "day_type": "holiday",
+      "time": "06:08",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Ostra Góra",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0127-psary.html",
+      "day_type": "holiday",
+      "time": "07:38",
+      "symbols": [
+        "P"
+      ]
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0127-psary.html",
+      "day_type": "holiday",
+      "time": "10:26",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0127-psary.html",
+      "day_type": "holiday",
+      "time": "17:38",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Ostra Góra",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0127-psary.html",
+      "day_type": "holiday",
+      "time": "19:46",
+      "symbols": [
+        "P"
+      ]
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0127-psary.html",
+      "day_type": "holiday",
+      "time": "21:37",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0127-psary.html",
+      "day_type": "saturday",
+      "time": "04:39",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0127-psary.html",
+      "day_type": "saturday",
+      "time": "06:08",
+      "symbols": []
+    },
+    {
       "line": "1",
       "main_direction": "Miękinia Stawiska",
       "display_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
@@ -13,6 +107,18 @@
       "time": "06:58",
       "symbols": [
         "K"
+      ]
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Ostra Góra",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0127-psary.html",
+      "day_type": "saturday",
+      "time": "07:38",
+      "symbols": [
+        "P"
       ]
     },
     {
@@ -26,6 +132,26 @@
       "symbols": []
     },
     {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0127-psary.html",
+      "day_type": "saturday",
+      "time": "10:26",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0127-psary.html",
+      "day_type": "saturday",
+      "time": "11:51",
+      "symbols": []
+    },
+    {
       "line": "1",
       "main_direction": "Miękinia Stawiska",
       "display_direction": "Miękinia Stawiska",
@@ -33,6 +159,28 @@
       "page": "rozklady/1/0127_miekinia.html",
       "day_type": "saturday",
       "time": "12:51",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Ostra Góra",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0127-psary.html",
+      "day_type": "saturday",
+      "time": "13:27",
+      "symbols": [
+        "P"
+      ]
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0127-psary.html",
+      "day_type": "saturday",
+      "time": "15:02",
       "symbols": []
     },
     {
@@ -48,6 +196,16 @@
       ]
     },
     {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0127-psary.html",
+      "day_type": "saturday",
+      "time": "17:38",
+      "symbols": []
+    },
+    {
       "line": "1",
       "main_direction": "Miękinia Stawiska",
       "display_direction": "Miękinia Stawiska",
@@ -55,6 +213,28 @@
       "page": "rozklady/1/0127_miekinia.html",
       "day_type": "saturday",
       "time": "18:54",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Ostra Góra",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0127-psary.html",
+      "day_type": "saturday",
+      "time": "19:46",
+      "symbols": [
+        "P"
+      ]
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0127-psary.html",
+      "day_type": "saturday",
+      "time": "21:37",
       "symbols": []
     },
     {
@@ -66,6 +246,124 @@
       "day_type": "saturday",
       "time": "21:46",
       "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0127-psary.html",
+      "day_type": "sunday",
+      "time": "04:39",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0127-psary.html",
+      "day_type": "sunday",
+      "time": "06:08",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Ostra Góra",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0127-psary.html",
+      "day_type": "sunday",
+      "time": "07:38",
+      "symbols": [
+        "P"
+      ]
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0127-psary.html",
+      "day_type": "sunday",
+      "time": "10:26",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0127-psary.html",
+      "day_type": "sunday",
+      "time": "11:51",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Ostra Góra",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0127-psary.html",
+      "day_type": "sunday",
+      "time": "13:27",
+      "symbols": [
+        "P"
+      ]
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0127-psary.html",
+      "day_type": "sunday",
+      "time": "15:02",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0127-psary.html",
+      "day_type": "sunday",
+      "time": "17:38",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Ostra Góra",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0127-psary.html",
+      "day_type": "sunday",
+      "time": "19:46",
+      "symbols": [
+        "P"
+      ]
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0127-psary.html",
+      "day_type": "sunday",
+      "time": "21:37",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Ostra Góra",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0127-psary.html",
+      "day_type": "workday",
+      "time": "04:39",
+      "symbols": [
+        "P"
+      ]
     },
     {
       "line": "1",
@@ -80,6 +378,16 @@
       ]
     },
     {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0127-psary.html",
+      "day_type": "workday",
+      "time": "06:08",
+      "symbols": []
+    },
+    {
       "line": "1",
       "main_direction": "Miękinia Stawiska",
       "display_direction": "Miękinia Stawiska",
@@ -87,6 +395,16 @@
       "page": "rozklady/1/0127_miekinia.html",
       "day_type": "workday",
       "time": "06:35",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0127-psary.html",
+      "day_type": "workday",
+      "time": "07:39",
       "symbols": []
     },
     {
@@ -102,6 +420,18 @@
       ]
     },
     {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Ostra Góra",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0127-psary.html",
+      "day_type": "workday",
+      "time": "09:28",
+      "symbols": [
+        "P"
+      ]
+    },
+    {
       "line": "1",
       "main_direction": "Miękinia Stawiska",
       "display_direction": "Miękinia Stawiska",
@@ -112,6 +442,16 @@
       "symbols": []
     },
     {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0127-psary.html",
+      "day_type": "workday",
+      "time": "11:10",
+      "symbols": []
+    },
+    {
       "line": "1",
       "main_direction": "Miękinia Stawiska",
       "display_direction": "Miękinia Stawiska",
@@ -119,6 +459,16 @@
       "page": "rozklady/1/0127_miekinia.html",
       "day_type": "workday",
       "time": "11:24",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0127-psary.html",
+      "day_type": "workday",
+      "time": "12:30",
       "symbols": []
     },
     {
@@ -134,6 +484,18 @@
       ]
     },
     {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Ostra Góra",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0127-psary.html",
+      "day_type": "workday",
+      "time": "13:56",
+      "symbols": [
+        "P"
+      ]
+    },
+    {
       "line": "1",
       "main_direction": "Miękinia Stawiska",
       "display_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
@@ -143,6 +505,18 @@
       "time": "14:12",
       "symbols": [
         "K"
+      ]
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Ostra Góra",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0127-psary.html",
+      "day_type": "workday",
+      "time": "15:30",
+      "symbols": [
+        "P"
       ]
     },
     {
@@ -156,6 +530,16 @@
       "symbols": []
     },
     {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0127-psary.html",
+      "day_type": "workday",
+      "time": "17:18",
+      "symbols": []
+    },
+    {
       "line": "1",
       "main_direction": "Miękinia Stawiska",
       "display_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
@@ -165,6 +549,18 @@
       "time": "17:35",
       "symbols": [
         "K"
+      ]
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Ostra Góra",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0127-psary.html",
+      "day_type": "workday",
+      "time": "18:43",
+      "symbols": [
+        "P"
       ]
     },
     {
@@ -190,6 +586,16 @@
       ]
     },
     {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0127-psary.html",
+      "day_type": "workday",
+      "time": "20:34",
+      "symbols": []
+    },
+    {
       "line": "1",
       "main_direction": "Miękinia Stawiska",
       "display_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
@@ -200,6 +606,16 @@
       "symbols": [
         "K"
       ]
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0127-psary.html",
+      "day_type": "workday",
+      "time": "21:59",
+      "symbols": []
     }
   ],
   "served_lines": [
@@ -207,11 +623,21 @@
       "line": "1",
       "main_direction": "Miękinia Stawiska",
       "page": "rozklady/1/0127_miekinia.html"
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "page": "rozklady/19/0127-psary.html"
     }
   ],
   "legends": {
     "1": {
       "K": "do: Krzeszowice Czatkowice Dolne Kopalnia"
+    },
+    "19": {
+      "H": "przez: Trzebinia Harcerska Przychodnia",
+      "P": "do: Psary Ostra Góra",
+      "V": "przez: Chrzanów Valeo, z pominięciem: Trzebinia Berezka"
     }
   }
 }

@@ -4,6 +4,90 @@
   "platform": "2",
   "departures": [
     {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0356-psary.html",
+      "day_type": "holiday",
+      "time": "04:30",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0356-psary.html",
+      "day_type": "holiday",
+      "time": "05:59",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Ostra Góra",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0356-psary.html",
+      "day_type": "holiday",
+      "time": "07:29",
+      "symbols": [
+        "P"
+      ]
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0356-psary.html",
+      "day_type": "holiday",
+      "time": "10:17",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0356-psary.html",
+      "day_type": "holiday",
+      "time": "17:29",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Ostra Góra",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0356-psary.html",
+      "day_type": "holiday",
+      "time": "19:37",
+      "symbols": [
+        "P"
+      ]
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0356-psary.html",
+      "day_type": "holiday",
+      "time": "21:28",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0356-psary.html",
+      "day_type": "saturday",
+      "time": "04:30",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Młoszowa Florkiewicza",
       "display_direction": "Młoszowa Florkiewicza",
@@ -12,6 +96,28 @@
       "day_type": "saturday",
       "time": "05:00",
       "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0356-psary.html",
+      "day_type": "saturday",
+      "time": "05:59",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Ostra Góra",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0356-psary.html",
+      "day_type": "saturday",
+      "time": "07:29",
+      "symbols": [
+        "P"
+      ]
     },
     {
       "line": "4",
@@ -24,6 +130,38 @@
       "symbols": []
     },
     {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0356-psary.html",
+      "day_type": "saturday",
+      "time": "10:17",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0356-psary.html",
+      "day_type": "saturday",
+      "time": "11:42",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Ostra Góra",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0356-psary.html",
+      "day_type": "saturday",
+      "time": "13:18",
+      "symbols": [
+        "P"
+      ]
+    },
+    {
       "line": "4",
       "main_direction": "Młoszowa Florkiewicza",
       "display_direction": "Młoszowa Florkiewicza",
@@ -31,6 +169,16 @@
       "page": "rozklady/4/0356-trzebinia.html",
       "day_type": "saturday",
       "time": "13:39",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0356-psary.html",
+      "day_type": "saturday",
+      "time": "14:53",
       "symbols": []
     },
     {
@@ -44,6 +192,16 @@
       "symbols": []
     },
     {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0356-psary.html",
+      "day_type": "saturday",
+      "time": "17:29",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Młoszowa Florkiewicza",
       "display_direction": "Młoszowa Florkiewicza",
@@ -54,6 +212,146 @@
       "symbols": []
     },
     {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Ostra Góra",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0356-psary.html",
+      "day_type": "saturday",
+      "time": "19:37",
+      "symbols": [
+        "P"
+      ]
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0356-psary.html",
+      "day_type": "saturday",
+      "time": "21:28",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0356-psary.html",
+      "day_type": "sunday",
+      "time": "04:30",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0356-psary.html",
+      "day_type": "sunday",
+      "time": "05:59",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Ostra Góra",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0356-psary.html",
+      "day_type": "sunday",
+      "time": "07:29",
+      "symbols": [
+        "P"
+      ]
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0356-psary.html",
+      "day_type": "sunday",
+      "time": "10:17",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0356-psary.html",
+      "day_type": "sunday",
+      "time": "11:42",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Ostra Góra",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0356-psary.html",
+      "day_type": "sunday",
+      "time": "13:18",
+      "symbols": [
+        "P"
+      ]
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0356-psary.html",
+      "day_type": "sunday",
+      "time": "14:53",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0356-psary.html",
+      "day_type": "sunday",
+      "time": "17:29",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Ostra Góra",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0356-psary.html",
+      "day_type": "sunday",
+      "time": "19:37",
+      "symbols": [
+        "P"
+      ]
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0356-psary.html",
+      "day_type": "sunday",
+      "time": "21:28",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Ostra Góra",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0356-psary.html",
+      "day_type": "workday",
+      "time": "04:30",
+      "symbols": [
+        "P"
+      ]
+    },
+    {
       "line": "4",
       "main_direction": "Młoszowa Florkiewicza",
       "display_direction": "Młoszowa Florkiewicza",
@@ -61,6 +359,16 @@
       "page": "rozklady/4/0356-trzebinia.html",
       "day_type": "workday",
       "time": "05:42",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0356-psary.html",
+      "day_type": "workday",
+      "time": "05:59",
       "symbols": []
     },
     {
@@ -74,6 +382,28 @@
       "symbols": []
     },
     {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0356-psary.html",
+      "day_type": "workday",
+      "time": "07:30",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Ostra Góra",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0356-psary.html",
+      "day_type": "workday",
+      "time": "09:19",
+      "symbols": [
+        "P"
+      ]
+    },
+    {
       "line": "4",
       "main_direction": "Młoszowa Florkiewicza",
       "display_direction": "Młoszowa Florkiewicza",
@@ -81,6 +411,26 @@
       "page": "rozklady/4/0356-trzebinia.html",
       "day_type": "workday",
       "time": "10:02",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0356-psary.html",
+      "day_type": "workday",
+      "time": "11:01",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0356-psary.html",
+      "day_type": "workday",
+      "time": "12:21",
       "symbols": []
     },
     {
@@ -94,6 +444,30 @@
       "symbols": []
     },
     {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Ostra Góra",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0356-psary.html",
+      "day_type": "workday",
+      "time": "13:47",
+      "symbols": [
+        "P"
+      ]
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Ostra Góra",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0356-psary.html",
+      "day_type": "workday",
+      "time": "15:21",
+      "symbols": [
+        "P"
+      ]
+    },
+    {
       "line": "4",
       "main_direction": "Młoszowa Florkiewicza",
       "display_direction": "Młoszowa Florkiewicza",
@@ -102,6 +476,28 @@
       "day_type": "workday",
       "time": "15:58",
       "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0356-psary.html",
+      "day_type": "workday",
+      "time": "17:09",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Ostra Góra",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0356-psary.html",
+      "day_type": "workday",
+      "time": "18:34",
+      "symbols": [
+        "P"
+      ]
     },
     {
       "line": "4",
@@ -114,6 +510,16 @@
       "symbols": []
     },
     {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0356-psary.html",
+      "day_type": "workday",
+      "time": "20:25",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Młoszowa Florkiewicza",
       "display_direction": "Młoszowa Florkiewicza",
@@ -122,9 +528,24 @@
       "day_type": "workday",
       "time": "21:35",
       "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0356-psary.html",
+      "day_type": "workday",
+      "time": "21:50",
+      "symbols": []
     }
   ],
   "served_lines": [
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "page": "rozklady/19/0356-psary.html"
+    },
     {
       "line": "4",
       "main_direction": "Młoszowa Florkiewicza",
@@ -132,6 +553,11 @@
     }
   ],
   "legends": {
+    "19": {
+      "H": "przez: Trzebinia Harcerska Przychodnia",
+      "P": "do: Psary Ostra Góra",
+      "V": "przez: Chrzanów Valeo, z pominięciem: Trzebinia Berezka"
+    },
     "4": {}
   }
 }

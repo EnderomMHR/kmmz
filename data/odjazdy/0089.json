@@ -4,6 +4,38 @@
   "platform": "1",
   "departures": [
     {
+      "line": "19",
+      "main_direction": "Chrzanów Osiedle Młodości Witosa",
+      "display_direction": "Chrzanów Osiedle Młodości Witosa",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/19/0089-chrzanow.html",
+      "day_type": "holiday",
+      "time": "05:14",
+      "symbols": [
+        "V"
+      ]
+    },
+    {
+      "line": "19",
+      "main_direction": "Chrzanów Osiedle Młodości Witosa",
+      "display_direction": "Chrzanów Osiedle Młodości Witosa",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/19/0089-chrzanow.html",
+      "day_type": "holiday",
+      "time": "06:42",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Chrzanów Osiedle Młodości Witosa",
+      "display_direction": "Chrzanów Osiedle Młodości Witosa",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/19/0089-chrzanow.html",
+      "day_type": "holiday",
+      "time": "08:24",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Oświęcimska Cmentarz",
@@ -26,6 +58,16 @@
       "symbols": [
         "C"
       ]
+    },
+    {
+      "line": "19",
+      "main_direction": "Chrzanów Osiedle Młodości Witosa",
+      "display_direction": "Chrzanów Osiedle Młodości Witosa",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/19/0089-chrzanow.html",
+      "day_type": "holiday",
+      "time": "11:00",
+      "symbols": []
     },
     {
       "line": "4",
@@ -74,6 +116,16 @@
       ]
     },
     {
+      "line": "19",
+      "main_direction": "Chrzanów Osiedle Młodości Witosa",
+      "display_direction": "Chrzanów Osiedle Młodości Witosa",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/19/0089-chrzanow.html",
+      "day_type": "holiday",
+      "time": "15:44",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Chełmek Młyny",
@@ -83,6 +135,50 @@
       "time": "16:15",
       "symbols": [
         "C"
+      ]
+    },
+    {
+      "line": "19",
+      "main_direction": "Chrzanów Osiedle Młodości Witosa",
+      "display_direction": "Chrzanów Osiedle Młodości Witosa",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/19/0089-chrzanow.html",
+      "day_type": "holiday",
+      "time": "18:35",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Chrzanów Osiedle Młodości Witosa",
+      "display_direction": "Chrzanów Osiedle Młodości Witosa",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/19/0089-chrzanow.html",
+      "day_type": "holiday",
+      "time": "20:27",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Chrzanów Osiedle Młodości Witosa",
+      "display_direction": "Chrzanów Osiedle Młodości Witosa",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/19/0089-chrzanow.html",
+      "day_type": "holiday",
+      "time": "22:10",
+      "symbols": [
+        "V"
+      ]
+    },
+    {
+      "line": "19",
+      "main_direction": "Chrzanów Osiedle Młodości Witosa",
+      "display_direction": "Chrzanów Osiedle Młodości Witosa",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/19/0089-chrzanow.html",
+      "day_type": "saturday",
+      "time": "05:14",
+      "symbols": [
+        "V"
       ]
     },
     {
@@ -121,6 +217,16 @@
       ]
     },
     {
+      "line": "19",
+      "main_direction": "Chrzanów Osiedle Młodości Witosa",
+      "display_direction": "Chrzanów Osiedle Młodości Witosa",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/19/0089-chrzanow.html",
+      "day_type": "saturday",
+      "time": "06:42",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Kopalnia Janina",
@@ -138,6 +244,16 @@
       "page": "rozklady/4/0089-libiaz.html",
       "day_type": "saturday",
       "time": "08:20",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Chrzanów Osiedle Młodości Witosa",
+      "display_direction": "Chrzanów Osiedle Młodości Witosa",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/19/0089-chrzanow.html",
+      "day_type": "saturday",
+      "time": "08:24",
       "symbols": []
     },
     {
@@ -175,6 +291,16 @@
       ]
     },
     {
+      "line": "19",
+      "main_direction": "Chrzanów Osiedle Młodości Witosa",
+      "display_direction": "Chrzanów Osiedle Młodości Witosa",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/19/0089-chrzanow.html",
+      "day_type": "saturday",
+      "time": "11:00",
+      "symbols": []
+    },
+    {
       "line": "1",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Kopalnia Janina",
@@ -182,6 +308,16 @@
       "page": "rozklady/1/0089_libiaz.html",
       "day_type": "saturday",
       "time": "11:15",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Chrzanów Osiedle Młodości Witosa",
+      "display_direction": "Chrzanów Osiedle Młodości Witosa",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/19/0089-chrzanow.html",
+      "day_type": "saturday",
+      "time": "12:33",
       "symbols": []
     },
     {
@@ -218,6 +354,18 @@
       ]
     },
     {
+      "line": "19",
+      "main_direction": "Chrzanów Osiedle Młodości Witosa",
+      "display_direction": "Chrzanów Osiedle Młodości Witosa",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/19/0089-chrzanow.html",
+      "day_type": "saturday",
+      "time": "14:10",
+      "symbols": [
+        "V"
+      ]
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Kopalnia Janina",
@@ -239,6 +387,16 @@
         "L",
         "V"
       ]
+    },
+    {
+      "line": "19",
+      "main_direction": "Chrzanów Osiedle Młodości Witosa",
+      "display_direction": "Chrzanów Osiedle Młodości Witosa",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/19/0089-chrzanow.html",
+      "day_type": "saturday",
+      "time": "15:44",
+      "symbols": []
     },
     {
       "line": "4",
@@ -285,6 +443,16 @@
       ]
     },
     {
+      "line": "19",
+      "main_direction": "Chrzanów Osiedle Młodości Witosa",
+      "display_direction": "Chrzanów Osiedle Młodości Witosa",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/19/0089-chrzanow.html",
+      "day_type": "saturday",
+      "time": "18:35",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Chełmek Młyny",
@@ -317,6 +485,16 @@
       "symbols": []
     },
     {
+      "line": "19",
+      "main_direction": "Chrzanów Osiedle Młodości Witosa",
+      "display_direction": "Chrzanów Osiedle Młodości Witosa",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/19/0089-chrzanow.html",
+      "day_type": "saturday",
+      "time": "20:27",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Oświęcimska Cmentarz",
@@ -342,6 +520,18 @@
       ]
     },
     {
+      "line": "19",
+      "main_direction": "Chrzanów Osiedle Młodości Witosa",
+      "display_direction": "Chrzanów Osiedle Młodości Witosa",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/19/0089-chrzanow.html",
+      "day_type": "saturday",
+      "time": "22:10",
+      "symbols": [
+        "V"
+      ]
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Kopalnia Janina",
@@ -360,6 +550,18 @@
       "day_type": "saturday",
       "time": "22:45",
       "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Chrzanów Osiedle Młodości Witosa",
+      "display_direction": "Chrzanów Osiedle Młodości Witosa",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/19/0089-chrzanow.html",
+      "day_type": "sunday",
+      "time": "05:14",
+      "symbols": [
+        "V"
+      ]
     },
     {
       "line": "4",
@@ -385,6 +587,16 @@
       "symbols": []
     },
     {
+      "line": "19",
+      "main_direction": "Chrzanów Osiedle Młodości Witosa",
+      "display_direction": "Chrzanów Osiedle Młodości Witosa",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/19/0089-chrzanow.html",
+      "day_type": "sunday",
+      "time": "06:42",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Kopalnia Janina",
@@ -392,6 +604,16 @@
       "page": "rozklady/4/0089-libiaz.html",
       "day_type": "sunday",
       "time": "08:06",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Chrzanów Osiedle Młodości Witosa",
+      "display_direction": "Chrzanów Osiedle Młodości Witosa",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/19/0089-chrzanow.html",
+      "day_type": "sunday",
+      "time": "08:24",
       "symbols": []
     },
     {
@@ -417,6 +639,16 @@
       ]
     },
     {
+      "line": "19",
+      "main_direction": "Chrzanów Osiedle Młodości Witosa",
+      "display_direction": "Chrzanów Osiedle Młodości Witosa",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/19/0089-chrzanow.html",
+      "day_type": "sunday",
+      "time": "11:00",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Kopalnia Janina",
@@ -437,6 +669,16 @@
       "symbols": [
         "L"
       ]
+    },
+    {
+      "line": "19",
+      "main_direction": "Chrzanów Osiedle Młodości Witosa",
+      "display_direction": "Chrzanów Osiedle Młodości Witosa",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/19/0089-chrzanow.html",
+      "day_type": "sunday",
+      "time": "12:33",
+      "symbols": []
     },
     {
       "line": "4",
@@ -464,6 +706,18 @@
       ]
     },
     {
+      "line": "19",
+      "main_direction": "Chrzanów Osiedle Młodości Witosa",
+      "display_direction": "Chrzanów Osiedle Młodości Witosa",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/19/0089-chrzanow.html",
+      "day_type": "sunday",
+      "time": "14:10",
+      "symbols": [
+        "V"
+      ]
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Kopalnia Janina",
@@ -474,6 +728,16 @@
       "symbols": [
         "V"
       ]
+    },
+    {
+      "line": "19",
+      "main_direction": "Chrzanów Osiedle Młodości Witosa",
+      "display_direction": "Chrzanów Osiedle Młodości Witosa",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/19/0089-chrzanow.html",
+      "day_type": "sunday",
+      "time": "15:44",
+      "symbols": []
     },
     {
       "line": "4",
@@ -508,6 +772,26 @@
       ]
     },
     {
+      "line": "19",
+      "main_direction": "Chrzanów Osiedle Młodości Witosa",
+      "display_direction": "Chrzanów Osiedle Młodości Witosa",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/19/0089-chrzanow.html",
+      "day_type": "sunday",
+      "time": "18:35",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Chrzanów Osiedle Młodości Witosa",
+      "display_direction": "Chrzanów Osiedle Młodości Witosa",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/19/0089-chrzanow.html",
+      "day_type": "sunday",
+      "time": "20:27",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Kopalnia Janina",
@@ -515,6 +799,18 @@
       "page": "rozklady/4/0089-libiaz.html",
       "day_type": "sunday",
       "time": "21:35",
+      "symbols": [
+        "V"
+      ]
+    },
+    {
+      "line": "19",
+      "main_direction": "Chrzanów Osiedle Młodości Witosa",
+      "display_direction": "Chrzanów Osiedle Młodości Witosa",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/19/0089-chrzanow.html",
+      "day_type": "sunday",
+      "time": "22:10",
       "symbols": [
         "V"
       ]
@@ -567,6 +863,18 @@
       ]
     },
     {
+      "line": "19",
+      "main_direction": "Chrzanów Osiedle Młodości Witosa",
+      "display_direction": "Chrzanów Osiedle Młodości Witosa",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/19/0089-chrzanow.html",
+      "day_type": "workday",
+      "time": "05:14",
+      "symbols": [
+        "V"
+      ]
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Chełmek Młyny",
@@ -588,6 +896,18 @@
       "day_type": "workday",
       "time": "06:21",
       "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Chrzanów Osiedle Młodości Witosa",
+      "display_direction": "Chrzanów Osiedle Młodości Witosa",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/19/0089-chrzanow.html",
+      "day_type": "workday",
+      "time": "06:42",
+      "symbols": [
+        "V"
+      ]
     },
     {
       "line": "1",
@@ -633,6 +953,16 @@
       "symbols": []
     },
     {
+      "line": "19",
+      "main_direction": "Chrzanów Osiedle Młodości Witosa",
+      "display_direction": "Chrzanów Osiedle Młodości Witosa",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/19/0089-chrzanow.html",
+      "day_type": "workday",
+      "time": "08:26",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Oświęcimska Cmentarz",
@@ -664,6 +994,16 @@
       "page": "rozklady/1/0089_libiaz.html",
       "day_type": "workday",
       "time": "10:06",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Chrzanów Osiedle Młodości Witosa",
+      "display_direction": "Chrzanów Osiedle Młodości Witosa",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/19/0089-chrzanow.html",
+      "day_type": "workday",
+      "time": "10:19",
       "symbols": []
     },
     {
@@ -709,6 +1049,16 @@
       "symbols": []
     },
     {
+      "line": "19",
+      "main_direction": "Chrzanów Osiedle Młodości Witosa",
+      "display_direction": "Chrzanów Osiedle Młodości Witosa",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/19/0089-chrzanow.html",
+      "day_type": "workday",
+      "time": "11:42",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Chełmek Młyny",
@@ -738,6 +1088,18 @@
       "page": "rozklady/1/0089_libiaz.html",
       "day_type": "workday",
       "time": "12:46",
+      "symbols": [
+        "V"
+      ]
+    },
+    {
+      "line": "19",
+      "main_direction": "Chrzanów Osiedle Młodości Witosa",
+      "display_direction": "Chrzanów Osiedle Młodości Witosa",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/19/0089-chrzanow.html",
+      "day_type": "workday",
+      "time": "13:12",
       "symbols": [
         "V"
       ]
@@ -776,6 +1138,18 @@
       "symbols": []
     },
     {
+      "line": "19",
+      "main_direction": "Chrzanów Osiedle Młodości Witosa",
+      "display_direction": "Chrzanów Osiedle Młodości Witosa",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/19/0089-chrzanow.html",
+      "day_type": "workday",
+      "time": "14:44",
+      "symbols": [
+        "V"
+      ]
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Chełmek Młyny",
@@ -787,6 +1161,16 @@
         "C",
         "V"
       ]
+    },
+    {
+      "line": "19",
+      "main_direction": "Chrzanów Osiedle Młodości Witosa",
+      "display_direction": "Chrzanów Osiedle Młodości Witosa",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/19/0089-chrzanow.html",
+      "day_type": "workday",
+      "time": "16:06",
+      "symbols": []
     },
     {
       "line": "1",
@@ -843,6 +1227,16 @@
       "symbols": []
     },
     {
+      "line": "19",
+      "main_direction": "Chrzanów Osiedle Młodości Witosa",
+      "display_direction": "Chrzanów Osiedle Młodości Witosa",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/19/0089-chrzanow.html",
+      "day_type": "workday",
+      "time": "17:49",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Chełmek Młyny",
@@ -865,6 +1259,16 @@
       "symbols": [
         "C"
       ]
+    },
+    {
+      "line": "19",
+      "main_direction": "Chrzanów Osiedle Młodości Witosa",
+      "display_direction": "Chrzanów Osiedle Młodości Witosa",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/19/0089-chrzanow.html",
+      "day_type": "workday",
+      "time": "19:35",
+      "symbols": []
     },
     {
       "line": "4",
@@ -901,6 +1305,16 @@
       "symbols": []
     },
     {
+      "line": "19",
+      "main_direction": "Chrzanów Osiedle Młodości Witosa",
+      "display_direction": "Chrzanów Osiedle Młodości Witosa",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/19/0089-chrzanow.html",
+      "day_type": "workday",
+      "time": "21:07",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Chełmek Młyny",
@@ -924,6 +1338,18 @@
       "symbols": [
         "V"
       ]
+    },
+    {
+      "line": "19",
+      "main_direction": "Chrzanów Osiedle Młodości Witosa",
+      "display_direction": "Chrzanów Osiedle Młodości Witosa",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/19/0089-chrzanow.html",
+      "day_type": "workday",
+      "time": "22:32",
+      "symbols": [
+        "V"
+      ]
     }
   ],
   "served_lines": [
@@ -931,6 +1357,11 @@
       "line": "1",
       "main_direction": "Libiąż Kopalnia Janina",
       "page": "rozklady/1/0089_libiaz.html"
+    },
+    {
+      "line": "19",
+      "main_direction": "Chrzanów Osiedle Młodości Witosa",
+      "page": "rozklady/19/0089-chrzanow.html"
     },
     {
       "line": "4",
@@ -941,6 +1372,10 @@
   "legends": {
     "1": {
       "C": "do: Chrzanów Dworzec Autobusowy",
+      "V": "przez: Chrzanów Valeo, z pominięciem: Trzebinia Berezka"
+    },
+    "19": {
+      "H": "przez: Trzebinia Harcerska Przychodnia",
       "V": "przez: Chrzanów Valeo, z pominięciem: Trzebinia Berezka"
     },
     "4": {

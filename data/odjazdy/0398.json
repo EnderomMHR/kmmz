@@ -4,6 +4,43 @@
   "platform": "2",
   "departures": [
     {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0398-psary.html",
+      "day_type": "holiday",
+      "time": "04:18",
+      "symbols": [
+        "H"
+      ]
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0398-psary.html",
+      "day_type": "holiday",
+      "time": "05:48",
+      "symbols": [
+        "V"
+      ]
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Ostra Góra",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0398-psary.html",
+      "day_type": "holiday",
+      "time": "07:18",
+      "symbols": [
+        "P",
+        "V"
+      ]
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Trzebinia Dworzec PKP",
@@ -12,6 +49,18 @@
       "day_type": "holiday",
       "time": "09:42",
       "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0398-psary.html",
+      "day_type": "holiday",
+      "time": "10:05",
+      "symbols": [
+        "H"
+      ]
     },
     {
       "line": "4",
@@ -78,6 +127,52 @@
       "symbols": []
     },
     {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0398-psary.html",
+      "day_type": "holiday",
+      "time": "17:18",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Ostra Góra",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0398-psary.html",
+      "day_type": "holiday",
+      "time": "19:26",
+      "symbols": [
+        "P"
+      ]
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0398-psary.html",
+      "day_type": "holiday",
+      "time": "21:17",
+      "symbols": [
+        "V"
+      ]
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0398-psary.html",
+      "day_type": "saturday",
+      "time": "04:18",
+      "symbols": [
+        "H"
+      ]
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Młoszowa Florkiewicza",
@@ -103,6 +198,18 @@
       ]
     },
     {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0398-psary.html",
+      "day_type": "saturday",
+      "time": "05:48",
+      "symbols": [
+        "V"
+      ]
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Trzebinia Dworzec PKP",
@@ -111,6 +218,19 @@
       "day_type": "saturday",
       "time": "06:16",
       "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Ostra Góra",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0398-psary.html",
+      "day_type": "saturday",
+      "time": "07:18",
+      "symbols": [
+        "P",
+        "V"
+      ]
     },
     {
       "line": "4",
@@ -145,6 +265,28 @@
       ]
     },
     {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0398-psary.html",
+      "day_type": "saturday",
+      "time": "10:05",
+      "symbols": [
+        "H"
+      ]
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0398-psary.html",
+      "day_type": "saturday",
+      "time": "11:31",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Trzebinia Dworzec PKP",
@@ -153,6 +295,19 @@
       "day_type": "saturday",
       "time": "11:44",
       "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Ostra Góra",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0398-psary.html",
+      "day_type": "saturday",
+      "time": "13:07",
+      "symbols": [
+        "P",
+        "V"
+      ]
     },
     {
       "line": "4",
@@ -176,6 +331,19 @@
       "day_type": "saturday",
       "time": "13:58",
       "symbols": [
+        "V"
+      ]
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0398-psary.html",
+      "day_type": "saturday",
+      "time": "14:41",
+      "symbols": [
+        "H",
         "V"
       ]
     },
@@ -212,6 +380,16 @@
       ]
     },
     {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0398-psary.html",
+      "day_type": "saturday",
+      "time": "17:18",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Trzebinia Dworzec PKP",
@@ -234,6 +412,18 @@
       ]
     },
     {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Ostra Góra",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0398-psary.html",
+      "day_type": "saturday",
+      "time": "19:26",
+      "symbols": [
+        "P"
+      ]
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Trzebinia Dworzec PKP",
@@ -252,6 +442,18 @@
       "day_type": "saturday",
       "time": "20:59",
       "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0398-psary.html",
+      "day_type": "saturday",
+      "time": "21:17",
+      "symbols": [
+        "V"
+      ]
     },
     {
       "line": "4",
@@ -278,6 +480,18 @@
       ]
     },
     {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0398-psary.html",
+      "day_type": "sunday",
+      "time": "04:18",
+      "symbols": [
+        "H"
+      ]
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Trzebinia Dworzec PKP",
@@ -286,6 +500,31 @@
       "day_type": "sunday",
       "time": "05:41",
       "symbols": [
+        "V"
+      ]
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0398-psary.html",
+      "day_type": "sunday",
+      "time": "05:48",
+      "symbols": [
+        "V"
+      ]
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Ostra Góra",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0398-psary.html",
+      "day_type": "sunday",
+      "time": "07:18",
+      "symbols": [
+        "P",
         "V"
       ]
     },
@@ -320,6 +559,18 @@
       "symbols": []
     },
     {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0398-psary.html",
+      "day_type": "sunday",
+      "time": "10:05",
+      "symbols": [
+        "H"
+      ]
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Trzebinia Dworzec PKP",
@@ -327,6 +578,16 @@
       "page": "rozklady/4/0398-trzebinia.html",
       "day_type": "sunday",
       "time": "10:35",
+      "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0398-psary.html",
+      "day_type": "sunday",
+      "time": "11:31",
       "symbols": []
     },
     {
@@ -350,6 +611,19 @@
       "symbols": []
     },
     {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Ostra Góra",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0398-psary.html",
+      "day_type": "sunday",
+      "time": "13:07",
+      "symbols": [
+        "P",
+        "V"
+      ]
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Trzebinia Dworzec PKP",
@@ -358,6 +632,19 @@
       "day_type": "sunday",
       "time": "13:41",
       "symbols": [
+        "V"
+      ]
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0398-psary.html",
+      "day_type": "sunday",
+      "time": "14:41",
+      "symbols": [
+        "H",
         "V"
       ]
     },
@@ -394,6 +681,16 @@
       "symbols": []
     },
     {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0398-psary.html",
+      "day_type": "sunday",
+      "time": "17:18",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Trzebinia Dworzec PKP",
@@ -412,6 +709,30 @@
       "day_type": "sunday",
       "time": "18:09",
       "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Ostra Góra",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0398-psary.html",
+      "day_type": "sunday",
+      "time": "19:26",
+      "symbols": [
+        "P"
+      ]
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0398-psary.html",
+      "day_type": "sunday",
+      "time": "21:17",
+      "symbols": [
+        "V"
+      ]
     },
     {
       "line": "4",
@@ -435,6 +756,19 @@
       "time": "22:25",
       "symbols": [
         "V"
+      ]
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Ostra Góra",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0398-psary.html",
+      "day_type": "workday",
+      "time": "04:18",
+      "symbols": [
+        "H",
+        "P"
       ]
     },
     {
@@ -462,6 +796,18 @@
       ]
     },
     {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0398-psary.html",
+      "day_type": "workday",
+      "time": "05:48",
+      "symbols": [
+        "V"
+      ]
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Trzebinia Dworzec PKP",
@@ -483,6 +829,19 @@
       "time": "07:02",
       "symbols": [
         "M"
+      ]
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0398-psary.html",
+      "day_type": "workday",
+      "time": "07:18",
+      "symbols": [
+        "H",
+        "V"
       ]
     },
     {
@@ -516,6 +875,18 @@
       "symbols": []
     },
     {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Ostra Góra",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0398-psary.html",
+      "day_type": "workday",
+      "time": "09:08",
+      "symbols": [
+        "P"
+      ]
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Młoszowa Florkiewicza",
@@ -538,6 +909,16 @@
       "symbols": []
     },
     {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0398-psary.html",
+      "day_type": "workday",
+      "time": "10:50",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Trzebinia Dworzec PKP",
@@ -556,6 +937,18 @@
       "day_type": "workday",
       "time": "11:34",
       "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0398-psary.html",
+      "day_type": "workday",
+      "time": "12:09",
+      "symbols": [
+        "H"
+      ]
     },
     {
       "line": "4",
@@ -581,6 +974,19 @@
       ]
     },
     {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Ostra Góra",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0398-psary.html",
+      "day_type": "workday",
+      "time": "13:36",
+      "symbols": [
+        "P",
+        "V"
+      ]
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Trzebinia Dworzec PKP",
@@ -589,6 +995,20 @@
       "day_type": "workday",
       "time": "13:52",
       "symbols": []
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Ostra Góra",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0398-psary.html",
+      "day_type": "workday",
+      "time": "15:09",
+      "symbols": [
+        "H",
+        "P",
+        "V"
+      ]
     },
     {
       "line": "4",
@@ -624,6 +1044,16 @@
       "symbols": []
     },
     {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0398-psary.html",
+      "day_type": "workday",
+      "time": "16:58",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Trzebinia Dworzec PKP",
@@ -644,6 +1074,18 @@
       "symbols": []
     },
     {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Ostra Góra",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0398-psary.html",
+      "day_type": "workday",
+      "time": "18:23",
+      "symbols": [
+        "P"
+      ]
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Młoszowa Florkiewicza",
@@ -653,6 +1095,18 @@
       "time": "19:19",
       "symbols": [
         "M"
+      ]
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0398-psary.html",
+      "day_type": "workday",
+      "time": "20:13",
+      "symbols": [
+        "H"
       ]
     },
     {
@@ -675,6 +1129,18 @@
       "time": "21:24",
       "symbols": [
         "M",
+        "V"
+      ]
+    },
+    {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "display_direction": "Psary Centrum",
+      "direction_slug": "psary",
+      "page": "rozklady/19/0398-psary.html",
+      "day_type": "workday",
+      "time": "21:39",
+      "symbols": [
         "V"
       ]
     },
@@ -703,12 +1169,22 @@
   ],
   "served_lines": [
     {
+      "line": "19",
+      "main_direction": "Psary Centrum",
+      "page": "rozklady/19/0398-psary.html"
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "page": "rozklady/4/0398-trzebinia.html"
     }
   ],
   "legends": {
+    "19": {
+      "H": "przez: Trzebinia Harcerska Przychodnia",
+      "P": "do: Psary Ostra Góra",
+      "V": "przez: Chrzanów Valeo, z pominięciem: Trzebinia Berezka"
+    },
     "4": {
       "M": "do: Młoszowa Florkiewicza",
       "V": "przez: Chrzanów Valeo, z pominięciem: Trzebinia Berezka"
