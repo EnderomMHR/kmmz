@@ -29,6 +29,9 @@ on:
       - 'tools/test-line15-import.py'
       - 'tools/check-line16.py'
       - 'tools/test-line16-import.py'
+      - 'tools/check-line17.py'
+      - 'tools/test-line17-import.py'
+      - 'linie/17.html'
       - 'linie/16.html'
       - 'linie/15.html'
       - 'linie/14.html'
@@ -87,6 +90,8 @@ jobs:
         run: python tools/test-line15-import.py
       - name: Validate line 16 importer against course data
         run: python tools/test-line16-import.py
+      - name: Validate line 17 importer against course data
+        run: python tools/test-line17-import.py
       - name: Validate line 8 circular route and terminal arrivals
         run: python tools/check-line8.py
       - name: Check terminal arrival filtering
@@ -118,6 +123,8 @@ jobs:
         run: python tools/check-line15.py
       - name: Verify line 16 Excel source, loop terminals and generated pages
         run: python tools/check-line16.py
+      - name: Verify line 17 Excel source, combinations of J/K/L and generated pages
+        run: python tools/check-line17.py
       - name: Verify line 8 generated pages, map directions and stop visibility
         run: python tools/check-line8-pages.py
       - name: Confirm line 5 pages
@@ -131,6 +138,18 @@ jobs:
           test -f data/odjazdy/0633.json
           test -f przystanki/0669.html
           test -f rozklady/7/0684-okrezna.html
+          test -f rozklady/17/0311-chrzanow.html
+          test -f rozklady/17/0105-chrzanow.html
+          test -f rozklady/17/0107-chrzanow.html
+          test -f rozklady/17/0334-chrzanow.html
+          test -f rozklady/17/0095-metkow.html
+          test -f rozklady/17/0105-metkow.html
+          test -f rozklady/17/0320-metkow.html
+          test -f rozklady/17/0311-metkow.html
+          test -f data/odjazdy/0311.json
+          test -f data/odjazdy/0320.json
+          test -f data/odjazdy/0107.json
+          test -f przystanki/0105.html
           test -f rozklady/16/0200-okrezna.html
           test -f rozklady/16/0200-okrezna-koniec.html
           test -f rozklady/16/0202-okrezna.html

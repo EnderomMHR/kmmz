@@ -417,3 +417,43 @@ wszystkie kursy w aktualnym konwerterze. Test
 `tools/check-line16.py` sprawdza odcisk SHA-256 wszystkich
 47 ID i 752 czasów z oryginalnego `Arkusz1`, 16 pozycji,
 osobny przyjazd końcowy, strony i kierunki w danych mapy.
+
+
+## Linia 17 — Mętków Mały ↔ Chrzanów Dworzec Autobusowy
+
+Źródło: przesłany `P.A.M. - Linia 17 (done).xlsx`,
+wyłącznie `Arkusz1`; `Arkusz2` i `Arkusz3` są ignorowane.
+**90 kursów** (45 w każdym kierunku), **1898 godzin
+przystankowych**, **1808 rzeczywistych odjazdów** i
+**8 wzorców tras** (`0`, `1`, `2`, `3` w obu kierunkach).
+Dla każdego kierunku 19 kursów `R`, 10 `S`, 9 `N`, 7 `SW`.
+Istnieją też kursy rozpoczynające jazdę w połowie trasy.
+
+Warianty (`0` jest wariantem podstawowym):
+- `1`: **J** – przez Libiąż Kopalnia Janina (0105);
+- `2`: **L** – kurs kończy w Libiąż Dworzec Autobusowy
+  (0107) w stronę Chrzanowa albo **K** – kończy
+  w Żarki Kadetów Koniec (0320) w stronę Mętkowa;
+- `3`: połączenie `1` i `2`: odpowiednio **JL** lub **JK**.
+
+Przyjęte na stronach legendy: `J` = „przez:
+Libiąż Kopalnia Janina”, `L` = „do: Libiąż
+Dworzec Autobusowy”, `K` = „do: Żarki Kadetów Koniec”.
+Symbole `J` znikają od przystanku 0105; symbole `L`
+od 0107 i `K` od 0320. Nie wyświetlamy legendy,
+jeśli symbol nie występuje przy odjazdach danego przystanku
+(`legend_only_used_symbols`). Wszystkie inne godziny,
+kursy i wspólne fragmenty pozostają bez oznaczeń,
+gdy wariant przestaje mieć znaczenie.
+
+Trasa w obu kierunkach obejmuje 29 pozycji: kierunek 1
+`0311 Mętków Mały → 0334 Chrzanów Dworzec Autobusowy`,
+kierunek 2 `0095 Chrzanów Dworzec Autobusowy → 0311 Mętków Mały`.
+Kursy krótsze nie generują fikcyjnych odjazdów ze
+swoich końcowych przystanków.
+
+Kontrole: `tools/test-line17-import.py` odtwarza wszystkie
+90 kursów w produkcyjnym importerze, a `tools/check-line17.py`
+porównuje niezależny SHA-256 oryginalnego `Arkusz1`
+(identyfikatory i wszystkie 1898 godzin), oznaczenia wariantów,
+wygenerowane rozkłady i dane najbliższych odjazdów na mapie.

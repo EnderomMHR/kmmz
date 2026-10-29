@@ -1,0 +1,64 @@
+{
+  "directions": {
+    "1": {
+      "slug": "chrzanow",
+      "name": "Chrzanów Dworzec Autobusowy",
+      "variant_symbols": {
+        "1": "J",
+        "2": "L",
+        "3": "JL"
+      },
+      "variant_letter_ends": {
+        "J": {
+          "stop_id": "0105",
+          "occurrence": 1
+        },
+        "L": {
+          "stop_id": "0107",
+          "occurrence": 1
+        }
+      },
+      "variant_destinations": {
+        "L": "Libiąż Dworzec Autobusowy"
+      },
+      "legend": {
+        "J": "przez: Libiąż Kopalnia Janina",
+        "L": "do: Libiąż Dworzec Autobusowy"
+      },
+      "legend_only_used_symbols": true,
+      "variant_stops": [
+        "0105"
+      ]
+    },
+    "2": {
+      "slug": "metkow",
+      "name": "Mętków Mały",
+      "variant_symbols": {
+        "1": "J",
+        "2": "K",
+        "3": "JK"
+      },
+      "variant_letter_ends": {
+        "J": {
+          "stop_id": "0105",
+          "occurrence": 1
+        },
+        "K": {
+          "stop_id": "0320",
+          "occurrence": 1
+        }
+      },
+      "variant_destinations": {
+        "K": "Żarki Kadetów Koniec"
+      },
+      "legend": {
+        "J": "przez: Libiąż Kopalnia Janina",
+        "K": "do: Żarki Kadetów Koniec"
+      },
+      "legend_only_used_symbols": true,
+      "variant_stops": [
+        "0105"
+      ]
+    }
+  }
+}
