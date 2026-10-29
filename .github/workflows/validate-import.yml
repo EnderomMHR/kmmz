@@ -27,6 +27,9 @@ on:
       - 'tools/test-line14-import.py'
       - 'tools/check-line15.py'
       - 'tools/test-line15-import.py'
+      - 'tools/check-line16.py'
+      - 'tools/test-line16-import.py'
+      - 'linie/16.html'
       - 'linie/15.html'
       - 'linie/14.html'
       - 'linie/13.html'
@@ -82,6 +85,8 @@ jobs:
         run: python tools/test-line14-import.py
       - name: Validate line 15 importer against course data
         run: python tools/test-line15-import.py
+      - name: Validate line 16 importer against course data
+        run: python tools/test-line16-import.py
       - name: Validate line 8 circular route and terminal arrivals
         run: python tools/check-line8.py
       - name: Check terminal arrival filtering
@@ -111,6 +116,8 @@ jobs:
         run: python tools/check-line14.py
       - name: Verify line 15 Excel source, route, and generated pages
         run: python tools/check-line15.py
+      - name: Verify line 16 Excel source, loop terminals and generated pages
+        run: python tools/check-line16.py
       - name: Verify line 8 generated pages, map directions and stop visibility
         run: python tools/check-line8-pages.py
       - name: Confirm line 5 pages
@@ -124,6 +131,14 @@ jobs:
           test -f data/odjazdy/0633.json
           test -f przystanki/0669.html
           test -f rozklady/7/0684-okrezna.html
+          test -f rozklady/16/0200-okrezna.html
+          test -f rozklady/16/0200-okrezna-koniec.html
+          test -f rozklady/16/0202-okrezna.html
+          test -f rozklady/16/2451-okrezna.html
+          test -f rozklady/16/0199-okrezna.html
+          test -f data/odjazdy/0200.json
+          test -f data/odjazdy/2451.json
+          test -f przystanki/0200.html
           test -f rozklady/15/2627-oswiecim.html
           test -f rozklady/15/0879-oswiecim.html
           test -f rozklady/15/0830-jawiszowice.html
