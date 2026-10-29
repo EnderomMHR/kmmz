@@ -497,3 +497,68 @@ odtwarza oryginalne 96 kursów w produkcyjnym importerze.
 `tools/check-line18.py` weryfikuje odcisk SHA-256 oryginalnego
 `Arkusz1` z identyfikatorami, pozycjami i 2682 godzinami oraz
 75 wygenerowanych stron i kierunki w danych mapy.
+
+
+## Linia 19 — Chrzanów Osiedle Młodości ↔ Psary Centrum / Psary Ostra Góra
+
+Źródło: `P.A.M. - Linia 19 (done).xlsx`, wyłącznie
+`Arkusz1`. Łącznie **59 kursów** (29 w stronę Psar,
+30 w stronę Chrzanowa), **1351 godzin przystankowych**
+i **1292 odjazdy przed rozwinięciem usług SN**.
+Rozkłady w obu kierunkach mają kursy `R` (dni robocze),
+`SN` (soboty i niedziele) oraz `SW` (święta).
+Arkusz2 nie jest importowany.
+
+Kody wariantów w oryginalnych ID nie są literami dla
+pasażera. W kierunku 1 są warianty `0–7`, a w kierunku 2
+`0–3`, czyli łącznie 12 wzorców przebiegu.
+
+**Kierunek 1 – Chrzanów → Psary:**
+
+| Kod wariantu | Litery |
+| --- | --- |
+| 0 | brak |
+| 1 | V |
+| 2 | H |
+| 3 | P |
+| 4 | HP |
+| 5 | HV |
+| 6 | PV |
+| 7 | HPV |
+
+`V`: przez Chrzanów Valeo (0119) i z pominięciem
+Trzebinia Berezka (0120); znika od przystanku 0119.
+`H`: przez Trzebinia Harcerska Przychodnia (1026);
+znika od 1026. `P`: do Psary Ostra Góra (1166),
+zamiast kończyć na Psary Centrum (1168); znika od
+1168. Z tego miejsca odjazdy wydłużonych kursów mają
+bezpośredni kierunek „Psary Ostra Góra” (obsługiwany
+przez `direction_segments`), bez litery P.
+
+**Kierunek 2 – Psary → Chrzanów:**
+
+| Kod wariantu | Litery |
+| --- | --- |
+| 0 | brak |
+| 1 | V |
+| 2 | H |
+| 3 | HV |
+
+`H` znika od 1026, `V` znika od 0092 Chrzanów
+Valeo. W obu kierunkach `legend_only_used_symbols`
+pokazuje legendę wyłącznie wtedy, kiedy jej litera
+występuje jeszcze przy rzeczywistych odjazdach.
+
+**Dwa początki kursów w kierunku 2:** 11 kursów
+startuje na 1165 Psary Ostra Góra (2), a 19 na
+1168 Psary Centrum. Ich oryginalne ID nie zostały
+zmienione. Strony przebiegu kierunków mają 25 i
+26 kolejnych pozycji, z uwzględnieniem przystanków
+wariantowych. Przyjazdy końcowe nie są odjazdami.
+
+Testy: `tools/test-line19-import.py` ponownie wykonuje
+import wszystkich 59 kursów przez produkcyjny
+konwerter. `tools/check-line19.py` sprawdza niezależny
+odcisk SHA-256 wszystkich ID, pozycji i godzin
+z oryginalnego Excela, 12 wzorców kursów, 51 stron
+HTML, nazwy kierunków i dane mapy.
