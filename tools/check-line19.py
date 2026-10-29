@@ -128,7 +128,7 @@ assert "H" not in letters(tt(d1,"1026"))
 assert "H" not in letters(tt(d1,"0123"))
 assert "P" in letters(tt(d1,"1304"))
 assert letters(tt(d1,"1168"))==set()
-assert departures(tt(d1,"1168"))==14  # 10 P courses, SN twice on weekends
+assert departures(tt(d1,"1168"))==13  # 10 P courses, 3 SN expanded for both weekend days
 assert departures(tt(d1,"1166"))==0
 assert "H" in letters(tt(d2,"0088"))
 assert "H" not in letters(tt(d2,"1026"))
