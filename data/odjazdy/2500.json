@@ -1,0 +1,127 @@
+{
+  "stop_id": "2500",
+  "stop_name": "Imbramowice Szkoła",
+  "platform": "2",
+  "departures": [
+    {
+      "line": "23",
+      "main_direction": "Imbramowice Dolne",
+      "display_direction": "Imbramowice Dolne",
+      "direction_slug": "imbramowice",
+      "page": "rozklady/23/2500-imbramowice.html",
+      "day_type": "saturday",
+      "time": "09:05",
+      "symbols": []
+    },
+    {
+      "line": "23",
+      "main_direction": "Imbramowice Dolne",
+      "display_direction": "Imbramowice Dolne",
+      "direction_slug": "imbramowice",
+      "page": "rozklady/23/2500-imbramowice.html",
+      "day_type": "saturday",
+      "time": "11:38",
+      "symbols": []
+    },
+    {
+      "line": "23",
+      "main_direction": "Imbramowice Dolne",
+      "display_direction": "Imbramowice Dolne",
+      "direction_slug": "imbramowice",
+      "page": "rozklady/23/2500-imbramowice.html",
+      "day_type": "saturday",
+      "time": "14:08",
+      "symbols": []
+    },
+    {
+      "line": "23",
+      "main_direction": "Imbramowice Dolne",
+      "display_direction": "Imbramowice Dolne",
+      "direction_slug": "imbramowice",
+      "page": "rozklady/23/2500-imbramowice.html",
+      "day_type": "saturday",
+      "time": "16:33",
+      "symbols": []
+    },
+    {
+      "line": "23",
+      "main_direction": "Imbramowice Dolne",
+      "display_direction": "Imbramowice Dolne",
+      "direction_slug": "imbramowice",
+      "page": "rozklady/23/2500-imbramowice.html",
+      "day_type": "saturday",
+      "time": "18:50",
+      "symbols": []
+    },
+    {
+      "line": "23",
+      "main_direction": "Imbramowice Dolne",
+      "display_direction": "Imbramowice Dolne",
+      "direction_slug": "imbramowice",
+      "page": "rozklady/23/2500-imbramowice.html",
+      "day_type": "workday",
+      "time": "08:44",
+      "symbols": []
+    },
+    {
+      "line": "23",
+      "main_direction": "Imbramowice Dolne",
+      "display_direction": "Imbramowice Dolne",
+      "direction_slug": "imbramowice",
+      "page": "rozklady/23/2500-imbramowice.html",
+      "day_type": "workday",
+      "time": "11:04",
+      "symbols": []
+    },
+    {
+      "line": "23",
+      "main_direction": "Imbramowice Dolne",
+      "display_direction": "Imbramowice Dolne",
+      "direction_slug": "imbramowice",
+      "page": "rozklady/23/2500-imbramowice.html",
+      "day_type": "workday",
+      "time": "13:31",
+      "symbols": []
+    },
+    {
+      "line": "23",
+      "main_direction": "Imbramowice Dolne",
+      "display_direction": "Imbramowice Dolne",
+      "direction_slug": "imbramowice",
+      "page": "rozklady/23/2500-imbramowice.html",
+      "day_type": "workday",
+      "time": "15:41",
+      "symbols": []
+    },
+    {
+      "line": "23",
+      "main_direction": "Imbramowice Dolne",
+      "display_direction": "Imbramowice Dolne",
+      "direction_slug": "imbramowice",
+      "page": "rozklady/23/2500-imbramowice.html",
+      "day_type": "workday",
+      "time": "18:03",
+      "symbols": []
+    },
+    {
+      "line": "23",
+      "main_direction": "Imbramowice Dolne",
+      "display_direction": "Imbramowice Dolne",
+      "direction_slug": "imbramowice",
+      "page": "rozklady/23/2500-imbramowice.html",
+      "day_type": "workday",
+      "time": "20:36",
+      "symbols": []
+    }
+  ],
+  "served_lines": [
+    {
+      "line": "23",
+      "main_direction": "Imbramowice Dolne",
+      "page": "rozklady/23/2500-imbramowice.html"
+    }
+  ],
+  "legends": {
+    "23": {}
+  }
+}
