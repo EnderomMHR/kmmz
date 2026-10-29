@@ -1,0 +1,3794 @@
+{
+  "line": "22",
+  "map_url": "https://enderommhr.github.io/kmmz/mapa.html",
+  "directions": [
+    {
+      "slug": "okrezna-1",
+      "name": "Wolbrom Nowa PKS",
+      "variant_destinations": {},
+      "legend": {},
+      "legend_only_used_symbols": true,
+      "direction_segments": [
+        {
+          "from_stop_id": "0015",
+          "name": "Domaniewice Remiza"
+        },
+        {
+          "from_stop_id": "2311",
+          "name": "Wolbrom Nowa PKS"
+        }
+      ],
+      "route_stops": [
+        {
+          "stop_id": "0015",
+          "stop_name": "Wolbrom Pod Lasem",
+          "platform": "1",
+          "file": "0015-okrezna-1.html",
+          "variant": true
+        },
+        {
+          "stop_id": "0016",
+          "stop_name": "Wolbrom Dworzec PKP",
+          "platform": "0",
+          "file": "0016-okrezna-1.html",
+          "variant": true
+        },
+        {
+          "stop_id": "0017",
+          "stop_name": "Wolbrom 1-ego Maja I",
+          "platform": "1",
+          "file": "0017-okrezna-1.html",
+          "variant": true
+        },
+        {
+          "stop_id": "0018",
+          "stop_name": "Wolbrom 1-ego Maja",
+          "platform": "1",
+          "file": "0018-okrezna-1.html",
+          "variant": true
+        },
+        {
+          "stop_id": "0001",
+          "stop_name": "Wolbrom Nowa PKS",
+          "platform": "0",
+          "file": "0001-okrezna-1.html"
+        },
+        {
+          "stop_id": "0022",
+          "stop_name": "Wolbrom Kościuszki",
+          "platform": "1",
+          "file": "0022-okrezna-1.html"
+        },
+        {
+          "stop_id": "0694",
+          "stop_name": "Łobzów Granica",
+          "platform": "1",
+          "file": "0694-okrezna-1.html"
+        },
+        {
+          "stop_id": "0695",
+          "stop_name": "Łobzów OSP",
+          "platform": "1",
+          "file": "0695-okrezna-1.html"
+        },
+        {
+          "stop_id": "0696",
+          "stop_name": "Łobzów Sieradzkie",
+          "platform": "2",
+          "file": "0696-okrezna-1.html"
+        },
+        {
+          "stop_id": "2357",
+          "stop_name": "Poręba Dzierżna Skrzyżowanie",
+          "platform": "2",
+          "file": "2357-okrezna-1.html"
+        },
+        {
+          "stop_id": "3276",
+          "stop_name": "Poręba Dzierżna",
+          "platform": "2",
+          "file": "3276-okrezna-1.html"
+        },
+        {
+          "stop_id": "2384",
+          "stop_name": "Poręba Dzierżna Kościelna",
+          "platform": "1",
+          "file": "2384-okrezna-1.html"
+        },
+        {
+          "stop_id": "2342",
+          "stop_name": "Poręba Dzierżna Cmentarz",
+          "platform": "1",
+          "file": "2342-okrezna-1.html"
+        },
+        {
+          "stop_id": "2348",
+          "stop_name": "Miechówka",
+          "platform": "2",
+          "file": "2348-okrezna-1.html"
+        },
+        {
+          "stop_id": "2340",
+          "stop_name": "Kąpiele Wielkie Góra",
+          "platform": "1",
+          "file": "2340-okrezna-1.html"
+        },
+        {
+          "stop_id": "2354",
+          "stop_name": "Kąpiele Wielkie",
+          "platform": "2",
+          "file": "2354-okrezna-1.html"
+        },
+        {
+          "stop_id": "2355",
+          "stop_name": "Kąpiele Wielkie Remiza",
+          "platform": "2",
+          "file": "2355-okrezna-1.html"
+        },
+        {
+          "stop_id": "2336",
+          "stop_name": "Kąpiele Wielkie Skrzyżowanie",
+          "platform": "1",
+          "file": "2336-okrezna-1.html"
+        },
+        {
+          "stop_id": "2352",
+          "stop_name": "Kąpiele Wielkie Sarnie Doły",
+          "platform": "2",
+          "file": "2352-okrezna-1.html"
+        },
+        {
+          "stop_id": "2351",
+          "stop_name": "Kąpiele Wielkie Domiarki",
+          "platform": "2",
+          "file": "2351-okrezna-1.html"
+        },
+        {
+          "stop_id": "2372",
+          "stop_name": "Dłużec Szkoła",
+          "platform": "1",
+          "file": "2372-okrezna-1.html"
+        },
+        {
+          "stop_id": "2299",
+          "stop_name": "Dłużec Ośrodek Zdrowia",
+          "platform": "2",
+          "file": "2299-okrezna-1.html"
+        },
+        {
+          "stop_id": "2300",
+          "stop_name": "Dłużec Nowa Wieś",
+          "platform": "2",
+          "file": "2300-okrezna-1.html"
+        },
+        {
+          "stop_id": "2296",
+          "stop_name": "Dłużec Niezdara",
+          "platform": "1",
+          "file": "2296-okrezna-1.html"
+        },
+        {
+          "stop_id": "2302",
+          "stop_name": "Dłużec Granica",
+          "platform": "2",
+          "file": "2302-okrezna-1.html"
+        },
+        {
+          "stop_id": "2331",
+          "stop_name": "Domaniewice Skrzyżowanie",
+          "platform": "1",
+          "file": "2331-okrezna-1.html"
+        },
+        {
+          "stop_id": "2310",
+          "stop_name": "Domaniewice Remiza",
+          "platform": "0",
+          "file": "2310-okrezna-1.html"
+        },
+        {
+          "stop_id": "2311",
+          "stop_name": "Domaniewice Skrzyżowanie",
+          "platform": "2",
+          "file": "2311-okrezna-1.html"
+        },
+        {
+          "stop_id": "2295",
+          "stop_name": "Dłużec Granica",
+          "platform": "1",
+          "file": "2295-okrezna-1.html"
+        },
+        {
+          "stop_id": "2301",
+          "stop_name": "Dłużec Niezdara",
+          "platform": "2",
+          "file": "2301-okrezna-1.html"
+        },
+        {
+          "stop_id": "2297",
+          "stop_name": "Dłużec Nowa Wieś",
+          "platform": "1",
+          "file": "2297-okrezna-1.html"
+        },
+        {
+          "stop_id": "2298",
+          "stop_name": "Dłużec Skrzyżowanie",
+          "platform": "1",
+          "file": "2298-okrezna-1.html"
+        },
+        {
+          "stop_id": "2375",
+          "stop_name": "Dłużec Szkoła",
+          "platform": "2",
+          "file": "2375-okrezna-1.html"
+        },
+        {
+          "stop_id": "2338",
+          "stop_name": "Kąpiele Wielkie Domiarki",
+          "platform": "1",
+          "file": "2338-okrezna-1.html"
+        },
+        {
+          "stop_id": "2337",
+          "stop_name": "Kąpiele Wielkie Sarnie Doły",
+          "platform": "1",
+          "file": "2337-okrezna-1.html"
+        },
+        {
+          "stop_id": "2353",
+          "stop_name": "Kąpiele Wielkie Skrzyżowanie",
+          "platform": "2",
+          "file": "2353-okrezna-1.html"
+        },
+        {
+          "stop_id": "2377",
+          "stop_name": "Kąpiele Wielkie Remiza",
+          "platform": "3",
+          "file": "2377-okrezna-1.html"
+        },
+        {
+          "stop_id": "2378",
+          "stop_name": "Kąpiele Wielkie Kąpielska",
+          "platform": "2",
+          "file": "2378-okrezna-1.html"
+        },
+        {
+          "stop_id": "2381",
+          "stop_name": "Łobzów Kolonia Kąpielska",
+          "platform": "2",
+          "file": "2381-okrezna-1.html"
+        },
+        {
+          "stop_id": "2382",
+          "stop_name": "Łobzów Rozdarta Wrona",
+          "platform": "2",
+          "file": "2382-okrezna-1.html"
+        },
+        {
+          "stop_id": "0709",
+          "stop_name": "Łobzów OSP",
+          "platform": "2",
+          "file": "0709-okrezna-1.html"
+        },
+        {
+          "stop_id": "0710",
+          "stop_name": "Łobzów Granica",
+          "platform": "2",
+          "file": "0710-okrezna-1.html"
+        },
+        {
+          "stop_id": "0021",
+          "stop_name": "Wolbrom Kościuszki",
+          "platform": "2",
+          "file": "0021-okrezna-1.html"
+        },
+        {
+          "stop_id": "0001",
+          "stop_name": "Wolbrom Nowa PKS",
+          "platform": "0",
+          "file": "0001-okrezna-1-koniec.html"
+        }
+      ],
+      "timetables": [
+        {
+          "stop_id": "0015",
+          "stop_name": "Wolbrom Pod Lasem",
+          "platform": "1",
+          "file": "0015-okrezna-1.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "06:15",
+              "11:15",
+              "17:10",
+              "20:37"
+            ],
+            "saturday": [
+              "12:00",
+              "17:20"
+            ],
+            "sunday": [
+              "11:00",
+              "16:45"
+            ],
+            "holiday": [
+              "11:00",
+              "16:45"
+            ]
+          }
+        },
+        {
+          "stop_id": "0016",
+          "stop_name": "Wolbrom Dworzec PKP",
+          "platform": "0",
+          "file": "0016-okrezna-1.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "06:19",
+              "11:19",
+              "17:14",
+              "20:41"
+            ],
+            "saturday": [
+              "12:04",
+              "17:24"
+            ],
+            "sunday": [
+              "11:04",
+              "16:49"
+            ],
+            "holiday": [
+              "11:04",
+              "16:49"
+            ]
+          }
+        },
+        {
+          "stop_id": "0017",
+          "stop_name": "Wolbrom 1-ego Maja I",
+          "platform": "1",
+          "file": "0017-okrezna-1.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "06:20",
+              "11:20",
+              "17:15",
+              "20:42"
+            ],
+            "saturday": [
+              "12:05",
+              "17:25"
+            ],
+            "sunday": [
+              "11:05",
+              "16:50"
+            ],
+            "holiday": [
+              "11:05",
+              "16:50"
+            ]
+          }
+        },
+        {
+          "stop_id": "0018",
+          "stop_name": "Wolbrom 1-ego Maja",
+          "platform": "1",
+          "file": "0018-okrezna-1.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "06:21",
+              "11:21",
+              "17:16",
+              "20:43"
+            ],
+            "saturday": [
+              "12:06",
+              "17:26"
+            ],
+            "sunday": [
+              "11:06",
+              "16:51"
+            ],
+            "holiday": [
+              "11:06",
+              "16:51"
+            ]
+          }
+        },
+        {
+          "stop_id": "0001",
+          "stop_name": "Wolbrom Nowa PKS",
+          "platform": "0",
+          "file": "0001-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "06:25",
+              "07:30",
+              "11:25",
+              "14:45",
+              "17:20",
+              "18:23",
+              "20:47"
+            ],
+            "saturday": [
+              "06:55",
+              "08:15",
+              "12:10",
+              "13:40",
+              "17:30",
+              "18:50"
+            ],
+            "sunday": [
+              "08:25",
+              "11:10",
+              "12:25",
+              "13:55",
+              "16:55"
+            ],
+            "holiday": [
+              "08:25",
+              "11:10",
+              "12:25",
+              "16:55"
+            ]
+          }
+        },
+        {
+          "stop_id": "0022",
+          "stop_name": "Wolbrom Kościuszki",
+          "platform": "1",
+          "file": "0022-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "06:27",
+              "07:32",
+              "11:27",
+              "14:47",
+              "17:22",
+              "18:25",
+              "20:49"
+            ],
+            "saturday": [
+              "06:57",
+              "08:17",
+              "12:12",
+              "13:42",
+              "17:32",
+              "18:52"
+            ],
+            "sunday": [
+              "08:27",
+              "11:12",
+              "12:27",
+              "13:57",
+              "16:57"
+            ],
+            "holiday": [
+              "08:27",
+              "11:12",
+              "12:27",
+              "16:57"
+            ]
+          }
+        },
+        {
+          "stop_id": "0694",
+          "stop_name": "Łobzów Granica",
+          "platform": "1",
+          "file": "0694-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "06:28",
+              "07:33",
+              "11:28",
+              "14:48",
+              "17:23",
+              "18:26",
+              "20:50"
+            ],
+            "saturday": [
+              "06:58",
+              "08:18",
+              "12:13",
+              "13:43",
+              "17:33",
+              "18:53"
+            ],
+            "sunday": [
+              "08:28",
+              "11:13",
+              "12:28",
+              "13:58",
+              "16:58"
+            ],
+            "holiday": [
+              "08:28",
+              "11:13",
+              "12:28",
+              "16:58"
+            ]
+          }
+        },
+        {
+          "stop_id": "0695",
+          "stop_name": "Łobzów OSP",
+          "platform": "1",
+          "file": "0695-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "06:30",
+              "07:35",
+              "11:30",
+              "14:50",
+              "17:25",
+              "18:28",
+              "20:52"
+            ],
+            "saturday": [
+              "07:00",
+              "08:20",
+              "12:15",
+              "13:45",
+              "17:35",
+              "18:55"
+            ],
+            "sunday": [
+              "08:30",
+              "11:15",
+              "12:30",
+              "14:00",
+              "17:00"
+            ],
+            "holiday": [
+              "08:30",
+              "11:15",
+              "12:30",
+              "17:00"
+            ]
+          }
+        },
+        {
+          "stop_id": "0696",
+          "stop_name": "Łobzów Sieradzkie",
+          "platform": "2",
+          "file": "0696-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "06:32",
+              "07:37",
+              "11:32",
+              "14:52",
+              "17:27",
+              "18:30",
+              "20:54"
+            ],
+            "saturday": [
+              "07:02",
+              "08:22",
+              "12:17",
+              "13:47",
+              "17:37",
+              "18:57"
+            ],
+            "sunday": [
+              "08:32",
+              "11:17",
+              "12:32",
+              "14:02",
+              "17:02"
+            ],
+            "holiday": [
+              "08:32",
+              "11:17",
+              "12:32",
+              "17:02"
+            ]
+          }
+        },
+        {
+          "stop_id": "2357",
+          "stop_name": "Poręba Dzierżna Skrzyżowanie",
+          "platform": "2",
+          "file": "2357-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "06:33",
+              "07:38",
+              "11:33",
+              "14:53",
+              "17:28",
+              "18:31",
+              "20:55"
+            ],
+            "saturday": [
+              "07:03",
+              "08:23",
+              "12:18",
+              "13:48",
+              "17:38",
+              "18:58"
+            ],
+            "sunday": [
+              "08:33",
+              "11:18",
+              "12:33",
+              "14:03",
+              "17:03"
+            ],
+            "holiday": [
+              "08:33",
+              "11:18",
+              "12:33",
+              "17:03"
+            ]
+          }
+        },
+        {
+          "stop_id": "3276",
+          "stop_name": "Poręba Dzierżna",
+          "platform": "2",
+          "file": "3276-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "06:34",
+              "07:39",
+              "11:34",
+              "14:54",
+              "17:29",
+              "18:32",
+              "20:56"
+            ],
+            "saturday": [
+              "07:04",
+              "08:24",
+              "12:19",
+              "13:49",
+              "17:39",
+              "18:59"
+            ],
+            "sunday": [
+              "08:34",
+              "11:19",
+              "12:34",
+              "14:04",
+              "17:04"
+            ],
+            "holiday": [
+              "08:34",
+              "11:19",
+              "12:34",
+              "17:04"
+            ]
+          }
+        },
+        {
+          "stop_id": "2384",
+          "stop_name": "Poręba Dzierżna Kościelna",
+          "platform": "1",
+          "file": "2384-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "06:36",
+              "07:41",
+              "11:36",
+              "14:56",
+              "17:31",
+              "18:34",
+              "20:58"
+            ],
+            "saturday": [
+              "07:06",
+              "08:26",
+              "12:21",
+              "13:51",
+              "17:41",
+              "19:01"
+            ],
+            "sunday": [
+              "08:36",
+              "11:21",
+              "12:36",
+              "14:06",
+              "17:06"
+            ],
+            "holiday": [
+              "08:36",
+              "11:21",
+              "12:36",
+              "17:06"
+            ]
+          }
+        },
+        {
+          "stop_id": "2342",
+          "stop_name": "Poręba Dzierżna Cmentarz",
+          "platform": "1",
+          "file": "2342-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "06:38",
+              "07:43",
+              "11:38",
+              "14:58",
+              "17:33",
+              "18:36",
+              "21:00"
+            ],
+            "saturday": [
+              "07:08",
+              "08:28",
+              "12:23",
+              "13:53",
+              "17:43",
+              "19:03"
+            ],
+            "sunday": [
+              "08:38",
+              "11:23",
+              "12:38",
+              "14:08",
+              "17:08"
+            ],
+            "holiday": [
+              "08:38",
+              "11:23",
+              "12:38",
+              "17:08"
+            ]
+          }
+        },
+        {
+          "stop_id": "2348",
+          "stop_name": "Miechówka",
+          "platform": "2",
+          "file": "2348-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "06:41",
+              "07:46",
+              "11:41",
+              "15:01",
+              "17:36",
+              "18:39",
+              "21:03"
+            ],
+            "saturday": [
+              "07:11",
+              "08:31",
+              "12:26",
+              "13:56",
+              "17:46",
+              "19:06"
+            ],
+            "sunday": [
+              "08:41",
+              "11:26",
+              "12:41",
+              "14:11",
+              "17:11"
+            ],
+            "holiday": [
+              "08:41",
+              "11:26",
+              "12:41",
+              "17:11"
+            ]
+          }
+        },
+        {
+          "stop_id": "2340",
+          "stop_name": "Kąpiele Wielkie Góra",
+          "platform": "1",
+          "file": "2340-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "06:42",
+              "07:47",
+              "11:42",
+              "15:02",
+              "17:37",
+              "18:40",
+              "21:04"
+            ],
+            "saturday": [
+              "07:12",
+              "08:32",
+              "12:27",
+              "13:57",
+              "17:47",
+              "19:07"
+            ],
+            "sunday": [
+              "08:42",
+              "11:27",
+              "12:42",
+              "14:12",
+              "17:12"
+            ],
+            "holiday": [
+              "08:42",
+              "11:27",
+              "12:42",
+              "17:12"
+            ]
+          }
+        },
+        {
+          "stop_id": "2354",
+          "stop_name": "Kąpiele Wielkie",
+          "platform": "2",
+          "file": "2354-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "06:44",
+              "07:49",
+              "11:44",
+              "15:04",
+              "17:39",
+              "18:42",
+              "21:06"
+            ],
+            "saturday": [
+              "07:14",
+              "08:34",
+              "12:29",
+              "13:59",
+              "17:49",
+              "19:09"
+            ],
+            "sunday": [
+              "08:44",
+              "11:29",
+              "12:44",
+              "14:14",
+              "17:14"
+            ],
+            "holiday": [
+              "08:44",
+              "11:29",
+              "12:44",
+              "17:14"
+            ]
+          }
+        },
+        {
+          "stop_id": "2355",
+          "stop_name": "Kąpiele Wielkie Remiza",
+          "platform": "2",
+          "file": "2355-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "06:46",
+              "07:51",
+              "11:46",
+              "15:06",
+              "17:41",
+              "18:44",
+              "21:08"
+            ],
+            "saturday": [
+              "07:16",
+              "08:36",
+              "12:31",
+              "14:01",
+              "17:51",
+              "19:11"
+            ],
+            "sunday": [
+              "08:46",
+              "11:31",
+              "12:46",
+              "14:16",
+              "17:16"
+            ],
+            "holiday": [
+              "08:46",
+              "11:31",
+              "12:46",
+              "17:16"
+            ]
+          }
+        },
+        {
+          "stop_id": "2336",
+          "stop_name": "Kąpiele Wielkie Skrzyżowanie",
+          "platform": "1",
+          "file": "2336-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "06:47",
+              "07:52",
+              "11:47",
+              "15:07",
+              "17:42",
+              "18:45",
+              "21:09"
+            ],
+            "saturday": [
+              "07:17",
+              "08:37",
+              "12:32",
+              "14:02",
+              "17:52",
+              "19:12"
+            ],
+            "sunday": [
+              "08:47",
+              "11:32",
+              "12:47",
+              "14:17",
+              "17:17"
+            ],
+            "holiday": [
+              "08:47",
+              "11:32",
+              "12:47",
+              "17:17"
+            ]
+          }
+        },
+        {
+          "stop_id": "2352",
+          "stop_name": "Kąpiele Wielkie Sarnie Doły",
+          "platform": "2",
+          "file": "2352-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "06:48",
+              "07:53",
+              "11:48",
+              "15:08",
+              "17:43",
+              "18:46",
+              "21:10"
+            ],
+            "saturday": [
+              "07:18",
+              "08:38",
+              "12:33",
+              "14:03",
+              "17:53",
+              "19:13"
+            ],
+            "sunday": [
+              "08:48",
+              "11:33",
+              "12:48",
+              "14:18",
+              "17:18"
+            ],
+            "holiday": [
+              "08:48",
+              "11:33",
+              "12:48",
+              "17:18"
+            ]
+          }
+        },
+        {
+          "stop_id": "2351",
+          "stop_name": "Kąpiele Wielkie Domiarki",
+          "platform": "2",
+          "file": "2351-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "06:49",
+              "07:54",
+              "11:49",
+              "15:09",
+              "17:44",
+              "18:47",
+              "21:11"
+            ],
+            "saturday": [
+              "07:19",
+              "08:39",
+              "12:34",
+              "14:04",
+              "17:54",
+              "19:14"
+            ],
+            "sunday": [
+              "08:49",
+              "11:34",
+              "12:49",
+              "14:19",
+              "17:19"
+            ],
+            "holiday": [
+              "08:49",
+              "11:34",
+              "12:49",
+              "17:19"
+            ]
+          }
+        },
+        {
+          "stop_id": "2372",
+          "stop_name": "Dłużec Szkoła",
+          "platform": "1",
+          "file": "2372-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "06:51",
+              "07:56",
+              "11:51",
+              "15:11",
+              "17:46",
+              "18:49",
+              "21:13"
+            ],
+            "saturday": [
+              "07:21",
+              "08:41",
+              "12:36",
+              "14:06",
+              "17:56",
+              "19:16"
+            ],
+            "sunday": [
+              "08:51",
+              "11:36",
+              "12:51",
+              "14:21",
+              "17:21"
+            ],
+            "holiday": [
+              "08:51",
+              "11:36",
+              "12:51",
+              "17:21"
+            ]
+          }
+        },
+        {
+          "stop_id": "2299",
+          "stop_name": "Dłużec Ośrodek Zdrowia",
+          "platform": "2",
+          "file": "2299-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "06:52",
+              "07:57",
+              "11:52",
+              "15:12",
+              "17:47",
+              "18:50",
+              "21:14"
+            ],
+            "saturday": [
+              "07:22",
+              "08:42",
+              "12:37",
+              "14:07",
+              "17:57",
+              "19:17"
+            ],
+            "sunday": [
+              "08:52",
+              "11:37",
+              "12:52",
+              "14:22",
+              "17:22"
+            ],
+            "holiday": [
+              "08:52",
+              "11:37",
+              "12:52",
+              "17:22"
+            ]
+          }
+        },
+        {
+          "stop_id": "2300",
+          "stop_name": "Dłużec Nowa Wieś",
+          "platform": "2",
+          "file": "2300-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "06:54",
+              "07:59",
+              "11:54",
+              "15:14",
+              "17:49",
+              "18:52",
+              "21:16"
+            ],
+            "saturday": [
+              "07:24",
+              "08:44",
+              "12:39",
+              "14:09",
+              "17:59",
+              "19:19"
+            ],
+            "sunday": [
+              "08:54",
+              "11:39",
+              "12:54",
+              "14:24",
+              "17:24"
+            ],
+            "holiday": [
+              "08:54",
+              "11:39",
+              "12:54",
+              "17:24"
+            ]
+          }
+        },
+        {
+          "stop_id": "2296",
+          "stop_name": "Dłużec Niezdara",
+          "platform": "1",
+          "file": "2296-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "06:55",
+              "08:00",
+              "11:55",
+              "15:15",
+              "17:50",
+              "18:53",
+              "21:17"
+            ],
+            "saturday": [
+              "07:25",
+              "08:45",
+              "12:40",
+              "14:10",
+              "18:00",
+              "19:20"
+            ],
+            "sunday": [
+              "08:55",
+              "11:40",
+              "12:55",
+              "14:25",
+              "17:25"
+            ],
+            "holiday": [
+              "08:55",
+              "11:40",
+              "12:55",
+              "17:25"
+            ]
+          }
+        },
+        {
+          "stop_id": "2302",
+          "stop_name": "Dłużec Granica",
+          "platform": "2",
+          "file": "2302-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "06:56",
+              "08:01",
+              "11:56",
+              "15:16",
+              "17:51",
+              "18:54",
+              "21:18"
+            ],
+            "saturday": [
+              "07:26",
+              "08:46",
+              "12:41",
+              "14:11",
+              "18:01",
+              "19:21"
+            ],
+            "sunday": [
+              "08:56",
+              "11:41",
+              "12:56",
+              "14:26",
+              "17:26"
+            ],
+            "holiday": [
+              "08:56",
+              "11:41",
+              "12:56",
+              "17:26"
+            ]
+          }
+        },
+        {
+          "stop_id": "2331",
+          "stop_name": "Domaniewice Skrzyżowanie",
+          "platform": "1",
+          "file": "2331-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "06:57",
+              "08:02",
+              "11:57",
+              "15:17",
+              "17:52",
+              "18:55",
+              "21:19"
+            ],
+            "saturday": [
+              "07:27",
+              "08:47",
+              "12:42",
+              "14:12",
+              "18:02",
+              "19:22"
+            ],
+            "sunday": [
+              "08:57",
+              "11:42",
+              "12:57",
+              "14:27",
+              "17:27"
+            ],
+            "holiday": [
+              "08:57",
+              "11:42",
+              "12:57",
+              "17:27"
+            ]
+          }
+        },
+        {
+          "stop_id": "2310",
+          "stop_name": "Domaniewice Remiza",
+          "platform": "0",
+          "file": "2310-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "06:58",
+              "08:03",
+              "11:58",
+              "15:18",
+              "17:53",
+              "18:56",
+              "21:20"
+            ],
+            "saturday": [
+              "07:28",
+              "08:48",
+              "12:43",
+              "14:13",
+              "18:03",
+              "19:23"
+            ],
+            "sunday": [
+              "08:58",
+              "11:43",
+              "12:58",
+              "14:28",
+              "17:28"
+            ],
+            "holiday": [
+              "08:58",
+              "11:43",
+              "12:58",
+              "17:28"
+            ]
+          }
+        },
+        {
+          "stop_id": "2311",
+          "stop_name": "Domaniewice Skrzyżowanie",
+          "platform": "2",
+          "file": "2311-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "06:59",
+              "08:04",
+              "11:59",
+              "15:19",
+              "17:54",
+              "18:57",
+              "21:21"
+            ],
+            "saturday": [
+              "07:29",
+              "08:49",
+              "12:44",
+              "14:14",
+              "18:04",
+              "19:24"
+            ],
+            "sunday": [
+              "08:59",
+              "11:44",
+              "12:59",
+              "14:29",
+              "17:29"
+            ],
+            "holiday": [
+              "08:59",
+              "11:44",
+              "12:59",
+              "17:29"
+            ]
+          }
+        },
+        {
+          "stop_id": "2295",
+          "stop_name": "Dłużec Granica",
+          "platform": "1",
+          "file": "2295-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "07:00",
+              "08:05",
+              "12:00",
+              "15:20",
+              "17:55",
+              "18:58",
+              "21:22"
+            ],
+            "saturday": [
+              "07:30",
+              "08:50",
+              "12:45",
+              "14:15",
+              "18:05",
+              "19:25"
+            ],
+            "sunday": [
+              "09:00",
+              "11:45",
+              "13:00",
+              "14:30",
+              "17:30"
+            ],
+            "holiday": [
+              "09:00",
+              "11:45",
+              "13:00",
+              "17:30"
+            ]
+          }
+        },
+        {
+          "stop_id": "2301",
+          "stop_name": "Dłużec Niezdara",
+          "platform": "2",
+          "file": "2301-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "07:01",
+              "08:06",
+              "12:01",
+              "15:21",
+              "17:56",
+              "18:59",
+              "21:23"
+            ],
+            "saturday": [
+              "07:31",
+              "08:51",
+              "12:46",
+              "14:16",
+              "18:06",
+              "19:26"
+            ],
+            "sunday": [
+              "09:01",
+              "11:46",
+              "13:01",
+              "14:31",
+              "17:31"
+            ],
+            "holiday": [
+              "09:01",
+              "11:46",
+              "13:01",
+              "17:31"
+            ]
+          }
+        },
+        {
+          "stop_id": "2297",
+          "stop_name": "Dłużec Nowa Wieś",
+          "platform": "1",
+          "file": "2297-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "07:02",
+              "08:07",
+              "12:02",
+              "15:22",
+              "17:57",
+              "19:00",
+              "21:24"
+            ],
+            "saturday": [
+              "07:32",
+              "08:52",
+              "12:47",
+              "14:17",
+              "18:07",
+              "19:27"
+            ],
+            "sunday": [
+              "09:02",
+              "11:47",
+              "13:02",
+              "14:32",
+              "17:32"
+            ],
+            "holiday": [
+              "09:02",
+              "11:47",
+              "13:02",
+              "17:32"
+            ]
+          }
+        },
+        {
+          "stop_id": "2298",
+          "stop_name": "Dłużec Skrzyżowanie",
+          "platform": "1",
+          "file": "2298-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "07:05",
+              "08:10",
+              "12:05",
+              "15:25",
+              "18:00",
+              "19:03",
+              "21:27"
+            ],
+            "saturday": [
+              "07:35",
+              "08:55",
+              "12:50",
+              "14:20",
+              "18:10",
+              "19:30"
+            ],
+            "sunday": [
+              "09:05",
+              "11:50",
+              "13:05",
+              "14:35",
+              "17:35"
+            ],
+            "holiday": [
+              "09:05",
+              "11:50",
+              "13:05",
+              "17:35"
+            ]
+          }
+        },
+        {
+          "stop_id": "2375",
+          "stop_name": "Dłużec Szkoła",
+          "platform": "2",
+          "file": "2375-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "07:06",
+              "08:11",
+              "12:06",
+              "15:26",
+              "18:01",
+              "19:04",
+              "21:28"
+            ],
+            "saturday": [
+              "07:36",
+              "08:56",
+              "12:51",
+              "14:21",
+              "18:11",
+              "19:31"
+            ],
+            "sunday": [
+              "09:06",
+              "11:51",
+              "13:06",
+              "14:36",
+              "17:36"
+            ],
+            "holiday": [
+              "09:06",
+              "11:51",
+              "13:06",
+              "17:36"
+            ]
+          }
+        },
+        {
+          "stop_id": "2338",
+          "stop_name": "Kąpiele Wielkie Domiarki",
+          "platform": "1",
+          "file": "2338-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "07:08",
+              "08:13",
+              "12:08",
+              "15:28",
+              "18:03",
+              "19:06",
+              "21:30"
+            ],
+            "saturday": [
+              "07:38",
+              "08:58",
+              "12:53",
+              "14:23",
+              "18:13",
+              "19:33"
+            ],
+            "sunday": [
+              "09:08",
+              "11:53",
+              "13:08",
+              "14:38",
+              "17:38"
+            ],
+            "holiday": [
+              "09:08",
+              "11:53",
+              "13:08",
+              "17:38"
+            ]
+          }
+        },
+        {
+          "stop_id": "2337",
+          "stop_name": "Kąpiele Wielkie Sarnie Doły",
+          "platform": "1",
+          "file": "2337-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "07:09",
+              "08:14",
+              "12:09",
+              "15:29",
+              "18:04",
+              "19:07",
+              "21:31"
+            ],
+            "saturday": [
+              "07:39",
+              "08:59",
+              "12:54",
+              "14:24",
+              "18:14",
+              "19:34"
+            ],
+            "sunday": [
+              "09:09",
+              "11:54",
+              "13:09",
+              "14:39",
+              "17:39"
+            ],
+            "holiday": [
+              "09:09",
+              "11:54",
+              "13:09",
+              "17:39"
+            ]
+          }
+        },
+        {
+          "stop_id": "2353",
+          "stop_name": "Kąpiele Wielkie Skrzyżowanie",
+          "platform": "2",
+          "file": "2353-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "07:10",
+              "08:15",
+              "12:10",
+              "15:30",
+              "18:05",
+              "19:08",
+              "21:32"
+            ],
+            "saturday": [
+              "07:40",
+              "09:00",
+              "12:55",
+              "14:25",
+              "18:15",
+              "19:35"
+            ],
+            "sunday": [
+              "09:10",
+              "11:55",
+              "13:10",
+              "14:40",
+              "17:40"
+            ],
+            "holiday": [
+              "09:10",
+              "11:55",
+              "13:10",
+              "17:40"
+            ]
+          }
+        },
+        {
+          "stop_id": "2377",
+          "stop_name": "Kąpiele Wielkie Remiza",
+          "platform": "3",
+          "file": "2377-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "07:11",
+              "08:16",
+              "12:11",
+              "15:31",
+              "18:06",
+              "19:09",
+              "21:33"
+            ],
+            "saturday": [
+              "07:41",
+              "09:01",
+              "12:56",
+              "14:26",
+              "18:16",
+              "19:36"
+            ],
+            "sunday": [
+              "09:11",
+              "11:56",
+              "13:11",
+              "14:41",
+              "17:41"
+            ],
+            "holiday": [
+              "09:11",
+              "11:56",
+              "13:11",
+              "17:41"
+            ]
+          }
+        },
+        {
+          "stop_id": "2378",
+          "stop_name": "Kąpiele Wielkie Kąpielska",
+          "platform": "2",
+          "file": "2378-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "07:13",
+              "08:18",
+              "12:13",
+              "15:33",
+              "18:08",
+              "19:11",
+              "21:35"
+            ],
+            "saturday": [
+              "07:43",
+              "09:03",
+              "12:58",
+              "14:28",
+              "18:18",
+              "19:38"
+            ],
+            "sunday": [
+              "09:13",
+              "11:58",
+              "13:13",
+              "14:43",
+              "17:43"
+            ],
+            "holiday": [
+              "09:13",
+              "11:58",
+              "13:13",
+              "17:43"
+            ]
+          }
+        },
+        {
+          "stop_id": "2381",
+          "stop_name": "Łobzów Kolonia Kąpielska",
+          "platform": "2",
+          "file": "2381-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "07:14",
+              "08:19",
+              "12:14",
+              "15:34",
+              "18:09",
+              "19:12",
+              "21:36"
+            ],
+            "saturday": [
+              "07:44",
+              "09:04",
+              "12:59",
+              "14:29",
+              "18:19",
+              "19:39"
+            ],
+            "sunday": [
+              "09:14",
+              "11:59",
+              "13:14",
+              "14:44",
+              "17:44"
+            ],
+            "holiday": [
+              "09:14",
+              "11:59",
+              "13:14",
+              "17:44"
+            ]
+          }
+        },
+        {
+          "stop_id": "2382",
+          "stop_name": "Łobzów Rozdarta Wrona",
+          "platform": "2",
+          "file": "2382-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "07:16",
+              "08:21",
+              "12:16",
+              "15:36",
+              "18:11",
+              "19:14",
+              "21:38"
+            ],
+            "saturday": [
+              "07:46",
+              "09:06",
+              "13:01",
+              "14:31",
+              "18:21",
+              "19:41"
+            ],
+            "sunday": [
+              "09:16",
+              "12:01",
+              "13:16",
+              "14:46",
+              "17:46"
+            ],
+            "holiday": [
+              "09:16",
+              "12:01",
+              "13:16",
+              "17:46"
+            ]
+          }
+        },
+        {
+          "stop_id": "0709",
+          "stop_name": "Łobzów OSP",
+          "platform": "2",
+          "file": "0709-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "07:18",
+              "08:23",
+              "12:18",
+              "15:38",
+              "18:13",
+              "19:16",
+              "21:40"
+            ],
+            "saturday": [
+              "07:48",
+              "09:08",
+              "13:03",
+              "14:33",
+              "18:23",
+              "19:43"
+            ],
+            "sunday": [
+              "09:18",
+              "12:03",
+              "13:18",
+              "14:48",
+              "17:48"
+            ],
+            "holiday": [
+              "09:18",
+              "12:03",
+              "13:18",
+              "17:48"
+            ]
+          }
+        },
+        {
+          "stop_id": "0710",
+          "stop_name": "Łobzów Granica",
+          "platform": "2",
+          "file": "0710-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "07:20",
+              "08:25",
+              "12:20",
+              "15:40",
+              "18:15",
+              "19:18",
+              "21:42"
+            ],
+            "saturday": [
+              "07:50",
+              "09:10",
+              "13:05",
+              "14:35",
+              "18:25",
+              "19:45"
+            ],
+            "sunday": [
+              "09:20",
+              "12:05",
+              "13:20",
+              "14:50",
+              "17:50"
+            ],
+            "holiday": [
+              "09:20",
+              "12:05",
+              "13:20",
+              "17:50"
+            ]
+          }
+        },
+        {
+          "stop_id": "0021",
+          "stop_name": "Wolbrom Kościuszki",
+          "platform": "2",
+          "file": "0021-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "07:21",
+              "08:26",
+              "12:21",
+              "15:41",
+              "18:16",
+              "19:19",
+              "21:43"
+            ],
+            "saturday": [
+              "07:51",
+              "09:11",
+              "13:06",
+              "14:36",
+              "18:26",
+              "19:46"
+            ],
+            "sunday": [
+              "09:21",
+              "12:06",
+              "13:21",
+              "14:51",
+              "17:51"
+            ],
+            "holiday": [
+              "09:21",
+              "12:06",
+              "13:21",
+              "17:51"
+            ]
+          }
+        },
+        {
+          "stop_id": "0001",
+          "stop_name": "Wolbrom Nowa PKS",
+          "platform": "0",
+          "file": "0001-okrezna-1-koniec.html",
+          "departures": {},
+          "arrival_only": true,
+          "arrival_direction": "Wolbrom Nowa PKS"
+        }
+      ]
+    },
+    {
+      "slug": "okrezna-2",
+      "name": "Wolbrom Nowa PKS",
+      "variant_destinations": {
+        "W": "Wolbrom Pod Lasem"
+      },
+      "legend": {
+        "W": "do: Wolbrom Pod Lasem"
+      },
+      "legend_only_used_symbols": true,
+      "direction_segments": [
+        {
+          "from_stop_id": "0001",
+          "name": "Domaniewice Remiza"
+        },
+        {
+          "from_stop_id": "2311",
+          "name": "Wolbrom Nowa PKS"
+        }
+      ],
+      "route_stops": [
+        {
+          "stop_id": "0001",
+          "stop_name": "Wolbrom Nowa PKS",
+          "platform": "0",
+          "file": "0001-okrezna-2.html"
+        },
+        {
+          "stop_id": "0022",
+          "stop_name": "Wolbrom Kościuszki",
+          "platform": "1",
+          "file": "0022-okrezna-2.html"
+        },
+        {
+          "stop_id": "0694",
+          "stop_name": "Łobzów Granica",
+          "platform": "1",
+          "file": "0694-okrezna-2.html"
+        },
+        {
+          "stop_id": "0695",
+          "stop_name": "Łobzów OSP",
+          "platform": "1",
+          "file": "0695-okrezna-2.html"
+        },
+        {
+          "stop_id": "2383",
+          "stop_name": "Łobzów Rozdarta Wrona",
+          "platform": "1",
+          "file": "2383-okrezna-2.html"
+        },
+        {
+          "stop_id": "2380",
+          "stop_name": "Łobzów Kolonia Kąpielska",
+          "platform": "1",
+          "file": "2380-okrezna-2.html"
+        },
+        {
+          "stop_id": "2379",
+          "stop_name": "Kąpiele Wielkie Kąpielska",
+          "platform": "1",
+          "file": "2379-okrezna-2.html"
+        },
+        {
+          "stop_id": "2355",
+          "stop_name": "Kąpiele Wielkie Remiza",
+          "platform": "2",
+          "file": "2355-okrezna-2.html"
+        },
+        {
+          "stop_id": "2336",
+          "stop_name": "Kąpiele Wielkie Skrzyżowanie",
+          "platform": "1",
+          "file": "2336-okrezna-2.html"
+        },
+        {
+          "stop_id": "2352",
+          "stop_name": "Kąpiele Wielkie Sarnie Doły",
+          "platform": "2",
+          "file": "2352-okrezna-2.html"
+        },
+        {
+          "stop_id": "2351",
+          "stop_name": "Kąpiele Wielkie Domiarki",
+          "platform": "2",
+          "file": "2351-okrezna-2.html"
+        },
+        {
+          "stop_id": "2372",
+          "stop_name": "Dłużec Szkoła",
+          "platform": "1",
+          "file": "2372-okrezna-2.html"
+        },
+        {
+          "stop_id": "2299",
+          "stop_name": "Dłużec Ośrodek Zdrowia",
+          "platform": "2",
+          "file": "2299-okrezna-2.html"
+        },
+        {
+          "stop_id": "2300",
+          "stop_name": "Dłużec Nowa Wieś",
+          "platform": "2",
+          "file": "2300-okrezna-2.html"
+        },
+        {
+          "stop_id": "2296",
+          "stop_name": "Dłużec Niezdara",
+          "platform": "1",
+          "file": "2296-okrezna-2.html"
+        },
+        {
+          "stop_id": "2302",
+          "stop_name": "Dłużec Granica",
+          "platform": "2",
+          "file": "2302-okrezna-2.html"
+        },
+        {
+          "stop_id": "2331",
+          "stop_name": "Domaniewice Skrzyżowanie",
+          "platform": "1",
+          "file": "2331-okrezna-2.html"
+        },
+        {
+          "stop_id": "2310",
+          "stop_name": "Domaniewice Remiza",
+          "platform": "0",
+          "file": "2310-okrezna-2.html"
+        },
+        {
+          "stop_id": "2311",
+          "stop_name": "Domaniewice Skrzyżowanie",
+          "platform": "2",
+          "file": "2311-okrezna-2.html"
+        },
+        {
+          "stop_id": "2295",
+          "stop_name": "Dłużec Granica",
+          "platform": "1",
+          "file": "2295-okrezna-2.html"
+        },
+        {
+          "stop_id": "2301",
+          "stop_name": "Dłużec Niezdara",
+          "platform": "2",
+          "file": "2301-okrezna-2.html"
+        },
+        {
+          "stop_id": "2297",
+          "stop_name": "Dłużec Nowa Wieś",
+          "platform": "1",
+          "file": "2297-okrezna-2.html"
+        },
+        {
+          "stop_id": "2298",
+          "stop_name": "Dłużec Skrzyżowanie",
+          "platform": "1",
+          "file": "2298-okrezna-2.html"
+        },
+        {
+          "stop_id": "2375",
+          "stop_name": "Dłużec Szkoła",
+          "platform": "2",
+          "file": "2375-okrezna-2.html"
+        },
+        {
+          "stop_id": "2338",
+          "stop_name": "Kąpiele Wielkie Domiarki",
+          "platform": "1",
+          "file": "2338-okrezna-2.html"
+        },
+        {
+          "stop_id": "2337",
+          "stop_name": "Kąpiele Wielkie Sarnie Doły",
+          "platform": "1",
+          "file": "2337-okrezna-2.html"
+        },
+        {
+          "stop_id": "2353",
+          "stop_name": "Kąpiele Wielkie Skrzyżowanie",
+          "platform": "2",
+          "file": "2353-okrezna-2.html"
+        },
+        {
+          "stop_id": "2334",
+          "stop_name": "Kąpiele Wielkie Remiza",
+          "platform": "1",
+          "file": "2334-okrezna-2.html"
+        },
+        {
+          "stop_id": "2335",
+          "stop_name": "Kąpiele Wielkie",
+          "platform": "1",
+          "file": "2335-okrezna-2.html"
+        },
+        {
+          "stop_id": "2349",
+          "stop_name": "Kąpiele Wielkie Góra",
+          "platform": "2",
+          "file": "2349-okrezna-2.html"
+        },
+        {
+          "stop_id": "2341",
+          "stop_name": "Miechówka",
+          "platform": "1",
+          "file": "2341-okrezna-2.html"
+        },
+        {
+          "stop_id": "2347",
+          "stop_name": "Poręba Dzierżna Cmentarz",
+          "platform": "2",
+          "file": "2347-okrezna-2.html"
+        },
+        {
+          "stop_id": "2422",
+          "stop_name": "Poręba Dzierżna Kościelna",
+          "platform": "2",
+          "file": "2422-okrezna-2.html"
+        },
+        {
+          "stop_id": "3275",
+          "stop_name": "Poręba Dzierżna",
+          "platform": "1",
+          "file": "3275-okrezna-2.html"
+        },
+        {
+          "stop_id": "2356",
+          "stop_name": "Poręba Dzierżna Skrzyżowanie",
+          "platform": "1",
+          "file": "2356-okrezna-2.html"
+        },
+        {
+          "stop_id": "0723",
+          "stop_name": "Łobzów Sieradzkie",
+          "platform": "1",
+          "file": "0723-okrezna-2.html"
+        },
+        {
+          "stop_id": "0709",
+          "stop_name": "Łobzów OSP",
+          "platform": "2",
+          "file": "0709-okrezna-2.html"
+        },
+        {
+          "stop_id": "0710",
+          "stop_name": "Łobzów Granica",
+          "platform": "2",
+          "file": "0710-okrezna-2.html"
+        },
+        {
+          "stop_id": "0021",
+          "stop_name": "Wolbrom Kościuszki",
+          "platform": "2",
+          "file": "0021-okrezna-2.html"
+        },
+        {
+          "stop_id": "0001",
+          "stop_name": "Wolbrom Nowa PKS",
+          "platform": "0",
+          "file": "0001-okrezna-2-koniec.html"
+        },
+        {
+          "stop_id": "0029",
+          "stop_name": "Wolbrom 1-ego Maja I",
+          "platform": "2",
+          "file": "0029-okrezna-2.html",
+          "variant": true
+        },
+        {
+          "stop_id": "0016",
+          "stop_name": "Wolbrom Dworzec PKP",
+          "platform": "0",
+          "file": "0016-okrezna-2.html",
+          "variant": true
+        },
+        {
+          "stop_id": "0015",
+          "stop_name": "Wolbrom Pod Lasem",
+          "platform": "1",
+          "file": "0015-okrezna-2.html",
+          "variant": true
+        }
+      ],
+      "timetables": [
+        {
+          "stop_id": "0001",
+          "stop_name": "Wolbrom Nowa PKS",
+          "platform": "0",
+          "file": "0001-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "05:00W",
+              "08:40",
+              "10:00W",
+              "12:25",
+              "13:30",
+              "15:55W",
+              "19:25W",
+              "21:47"
+            ],
+            "saturday": [
+              "05:50",
+              "09:30",
+              "10:43W",
+              "14:50",
+              "16:00W",
+              "20:10"
+            ],
+            "sunday": [
+              "07:15",
+              "09:30W",
+              "15:30W",
+              "18:40",
+              "20:10"
+            ],
+            "holiday": [
+              "09:30W",
+              "15:30W",
+              "18:40",
+              "20:10"
+            ]
+          }
+        },
+        {
+          "stop_id": "0022",
+          "stop_name": "Wolbrom Kościuszki",
+          "platform": "1",
+          "file": "0022-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "05:02W",
+              "08:42",
+              "10:02W",
+              "12:27",
+              "13:32",
+              "15:57W",
+              "19:27W",
+              "21:49"
+            ],
+            "saturday": [
+              "05:52",
+              "09:32",
+              "10:45W",
+              "14:52",
+              "16:02W",
+              "20:12"
+            ],
+            "sunday": [
+              "07:17",
+              "09:32W",
+              "15:32W",
+              "18:42",
+              "20:12"
+            ],
+            "holiday": [
+              "09:32W",
+              "15:32W",
+              "18:42",
+              "20:12"
+            ]
+          }
+        },
+        {
+          "stop_id": "0694",
+          "stop_name": "Łobzów Granica",
+          "platform": "1",
+          "file": "0694-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "05:03W",
+              "08:43",
+              "10:03W",
+              "12:28",
+              "13:33",
+              "15:58W",
+              "19:28W",
+              "21:50"
+            ],
+            "saturday": [
+              "05:53",
+              "09:33",
+              "10:46W",
+              "14:53",
+              "16:03W",
+              "20:13"
+            ],
+            "sunday": [
+              "07:18",
+              "09:33W",
+              "15:33W",
+              "18:43",
+              "20:13"
+            ],
+            "holiday": [
+              "09:33W",
+              "15:33W",
+              "18:43",
+              "20:13"
+            ]
+          }
+        },
+        {
+          "stop_id": "0695",
+          "stop_name": "Łobzów OSP",
+          "platform": "1",
+          "file": "0695-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "05:05W",
+              "08:45",
+              "10:05W",
+              "12:30",
+              "13:35",
+              "16:00W",
+              "19:30W",
+              "21:52"
+            ],
+            "saturday": [
+              "05:55",
+              "09:35",
+              "10:48W",
+              "14:55",
+              "16:05W",
+              "20:15"
+            ],
+            "sunday": [
+              "07:20",
+              "09:35W",
+              "15:35W",
+              "18:45",
+              "20:15"
+            ],
+            "holiday": [
+              "09:35W",
+              "15:35W",
+              "18:45",
+              "20:15"
+            ]
+          }
+        },
+        {
+          "stop_id": "2383",
+          "stop_name": "Łobzów Rozdarta Wrona",
+          "platform": "1",
+          "file": "2383-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "05:07W",
+              "08:47",
+              "10:07W",
+              "12:32",
+              "13:37",
+              "16:02W",
+              "19:32W",
+              "21:54"
+            ],
+            "saturday": [
+              "05:57",
+              "09:37",
+              "10:50W",
+              "14:57",
+              "16:07W",
+              "20:17"
+            ],
+            "sunday": [
+              "07:22",
+              "09:37W",
+              "15:37W",
+              "18:47",
+              "20:17"
+            ],
+            "holiday": [
+              "09:37W",
+              "15:37W",
+              "18:47",
+              "20:17"
+            ]
+          }
+        },
+        {
+          "stop_id": "2380",
+          "stop_name": "Łobzów Kolonia Kąpielska",
+          "platform": "1",
+          "file": "2380-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "05:09W",
+              "08:49",
+              "10:09W",
+              "12:34",
+              "13:39",
+              "16:04W",
+              "19:34W",
+              "21:56"
+            ],
+            "saturday": [
+              "05:59",
+              "09:39",
+              "10:52W",
+              "14:59",
+              "16:09W",
+              "20:19"
+            ],
+            "sunday": [
+              "07:24",
+              "09:39W",
+              "15:39W",
+              "18:49",
+              "20:19"
+            ],
+            "holiday": [
+              "09:39W",
+              "15:39W",
+              "18:49",
+              "20:19"
+            ]
+          }
+        },
+        {
+          "stop_id": "2379",
+          "stop_name": "Kąpiele Wielkie Kąpielska",
+          "platform": "1",
+          "file": "2379-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "05:10W",
+              "08:50",
+              "10:10W",
+              "12:35",
+              "13:40",
+              "16:05W",
+              "19:35W",
+              "21:57"
+            ],
+            "saturday": [
+              "06:00",
+              "09:40",
+              "10:53W",
+              "15:00",
+              "16:10W",
+              "20:20"
+            ],
+            "sunday": [
+              "07:25",
+              "09:40W",
+              "15:40W",
+              "18:50",
+              "20:20"
+            ],
+            "holiday": [
+              "09:40W",
+              "15:40W",
+              "18:50",
+              "20:20"
+            ]
+          }
+        },
+        {
+          "stop_id": "2355",
+          "stop_name": "Kąpiele Wielkie Remiza",
+          "platform": "2",
+          "file": "2355-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "05:12W",
+              "08:52",
+              "10:12W",
+              "12:37",
+              "13:42",
+              "16:07W",
+              "19:37W",
+              "21:59"
+            ],
+            "saturday": [
+              "06:02",
+              "09:42",
+              "10:55W",
+              "15:02",
+              "16:12W",
+              "20:22"
+            ],
+            "sunday": [
+              "07:27",
+              "09:42W",
+              "15:42W",
+              "18:52",
+              "20:22"
+            ],
+            "holiday": [
+              "09:42W",
+              "15:42W",
+              "18:52",
+              "20:22"
+            ]
+          }
+        },
+        {
+          "stop_id": "2336",
+          "stop_name": "Kąpiele Wielkie Skrzyżowanie",
+          "platform": "1",
+          "file": "2336-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "05:13W",
+              "08:53",
+              "10:13W",
+              "12:38",
+              "13:43",
+              "16:08W",
+              "19:38W",
+              "22:00"
+            ],
+            "saturday": [
+              "06:03",
+              "09:43",
+              "10:56W",
+              "15:03",
+              "16:13W",
+              "20:23"
+            ],
+            "sunday": [
+              "07:28",
+              "09:43W",
+              "15:43W",
+              "18:53",
+              "20:23"
+            ],
+            "holiday": [
+              "09:43W",
+              "15:43W",
+              "18:53",
+              "20:23"
+            ]
+          }
+        },
+        {
+          "stop_id": "2352",
+          "stop_name": "Kąpiele Wielkie Sarnie Doły",
+          "platform": "2",
+          "file": "2352-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "05:14W",
+              "08:54",
+              "10:14W",
+              "12:39",
+              "13:44",
+              "16:09W",
+              "19:39W",
+              "22:01"
+            ],
+            "saturday": [
+              "06:04",
+              "09:44",
+              "10:57W",
+              "15:04",
+              "16:14W",
+              "20:24"
+            ],
+            "sunday": [
+              "07:29",
+              "09:44W",
+              "15:44W",
+              "18:54",
+              "20:24"
+            ],
+            "holiday": [
+              "09:44W",
+              "15:44W",
+              "18:54",
+              "20:24"
+            ]
+          }
+        },
+        {
+          "stop_id": "2351",
+          "stop_name": "Kąpiele Wielkie Domiarki",
+          "platform": "2",
+          "file": "2351-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "05:15W",
+              "08:55",
+              "10:15W",
+              "12:40",
+              "13:45",
+              "16:10W",
+              "19:40W",
+              "22:02"
+            ],
+            "saturday": [
+              "06:05",
+              "09:45",
+              "10:58W",
+              "15:05",
+              "16:15W",
+              "20:25"
+            ],
+            "sunday": [
+              "07:30",
+              "09:45W",
+              "15:45W",
+              "18:55",
+              "20:25"
+            ],
+            "holiday": [
+              "09:45W",
+              "15:45W",
+              "18:55",
+              "20:25"
+            ]
+          }
+        },
+        {
+          "stop_id": "2372",
+          "stop_name": "Dłużec Szkoła",
+          "platform": "1",
+          "file": "2372-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "05:17W",
+              "08:57",
+              "10:17W",
+              "12:42",
+              "13:47",
+              "16:12W",
+              "19:42W",
+              "22:04"
+            ],
+            "saturday": [
+              "06:07",
+              "09:47",
+              "11:00W",
+              "15:07",
+              "16:17W",
+              "20:27"
+            ],
+            "sunday": [
+              "07:32",
+              "09:47W",
+              "15:47W",
+              "18:57",
+              "20:27"
+            ],
+            "holiday": [
+              "09:47W",
+              "15:47W",
+              "18:57",
+              "20:27"
+            ]
+          }
+        },
+        {
+          "stop_id": "2299",
+          "stop_name": "Dłużec Ośrodek Zdrowia",
+          "platform": "2",
+          "file": "2299-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "05:18W",
+              "08:58",
+              "10:18W",
+              "12:43",
+              "13:48",
+              "16:13W",
+              "19:43W",
+              "22:05"
+            ],
+            "saturday": [
+              "06:08",
+              "09:48",
+              "11:01W",
+              "15:08",
+              "16:18W",
+              "20:28"
+            ],
+            "sunday": [
+              "07:33",
+              "09:48W",
+              "15:48W",
+              "18:58",
+              "20:28"
+            ],
+            "holiday": [
+              "09:48W",
+              "15:48W",
+              "18:58",
+              "20:28"
+            ]
+          }
+        },
+        {
+          "stop_id": "2300",
+          "stop_name": "Dłużec Nowa Wieś",
+          "platform": "2",
+          "file": "2300-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "05:20W",
+              "09:00",
+              "10:20W",
+              "12:45",
+              "13:50",
+              "16:15W",
+              "19:45W",
+              "22:07"
+            ],
+            "saturday": [
+              "06:10",
+              "09:50",
+              "11:03W",
+              "15:10",
+              "16:20W",
+              "20:30"
+            ],
+            "sunday": [
+              "07:35",
+              "09:50W",
+              "15:50W",
+              "19:00",
+              "20:30"
+            ],
+            "holiday": [
+              "09:50W",
+              "15:50W",
+              "19:00",
+              "20:30"
+            ]
+          }
+        },
+        {
+          "stop_id": "2296",
+          "stop_name": "Dłużec Niezdara",
+          "platform": "1",
+          "file": "2296-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "05:21W",
+              "09:01",
+              "10:21W",
+              "12:46",
+              "13:51",
+              "16:16W",
+              "19:46W",
+              "22:08"
+            ],
+            "saturday": [
+              "06:11",
+              "09:51",
+              "11:04W",
+              "15:11",
+              "16:21W",
+              "20:31"
+            ],
+            "sunday": [
+              "07:36",
+              "09:51W",
+              "15:51W",
+              "19:01",
+              "20:31"
+            ],
+            "holiday": [
+              "09:51W",
+              "15:51W",
+              "19:01",
+              "20:31"
+            ]
+          }
+        },
+        {
+          "stop_id": "2302",
+          "stop_name": "Dłużec Granica",
+          "platform": "2",
+          "file": "2302-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "05:22W",
+              "09:02",
+              "10:22W",
+              "12:47",
+              "13:52",
+              "16:17W",
+              "19:47W",
+              "22:09"
+            ],
+            "saturday": [
+              "06:12",
+              "09:52",
+              "11:05W",
+              "15:12",
+              "16:22W",
+              "20:32"
+            ],
+            "sunday": [
+              "07:37",
+              "09:52W",
+              "15:52W",
+              "19:02",
+              "20:32"
+            ],
+            "holiday": [
+              "09:52W",
+              "15:52W",
+              "19:02",
+              "20:32"
+            ]
+          }
+        },
+        {
+          "stop_id": "2331",
+          "stop_name": "Domaniewice Skrzyżowanie",
+          "platform": "1",
+          "file": "2331-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "05:23W",
+              "09:03",
+              "10:23W",
+              "12:48",
+              "13:53",
+              "16:18W",
+              "19:48W",
+              "22:10"
+            ],
+            "saturday": [
+              "06:13",
+              "09:53",
+              "11:06W",
+              "15:13",
+              "16:23W",
+              "20:33"
+            ],
+            "sunday": [
+              "07:38",
+              "09:53W",
+              "15:53W",
+              "19:03",
+              "20:33"
+            ],
+            "holiday": [
+              "09:53W",
+              "15:53W",
+              "19:03",
+              "20:33"
+            ]
+          }
+        },
+        {
+          "stop_id": "2310",
+          "stop_name": "Domaniewice Remiza",
+          "platform": "0",
+          "file": "2310-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "05:24W",
+              "09:04",
+              "10:24W",
+              "12:49",
+              "13:54",
+              "16:19W",
+              "19:49W",
+              "22:11"
+            ],
+            "saturday": [
+              "06:14",
+              "09:54",
+              "11:07W",
+              "15:14",
+              "16:24W",
+              "20:34"
+            ],
+            "sunday": [
+              "07:39",
+              "09:54W",
+              "15:54W",
+              "19:04",
+              "20:34"
+            ],
+            "holiday": [
+              "09:54W",
+              "15:54W",
+              "19:04",
+              "20:34"
+            ]
+          }
+        },
+        {
+          "stop_id": "2311",
+          "stop_name": "Domaniewice Skrzyżowanie",
+          "platform": "2",
+          "file": "2311-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "05:25W",
+              "09:05",
+              "10:25W",
+              "12:50",
+              "13:55",
+              "16:20W",
+              "19:50W",
+              "22:12"
+            ],
+            "saturday": [
+              "06:15",
+              "09:55",
+              "11:08W",
+              "15:15",
+              "16:25W",
+              "20:35"
+            ],
+            "sunday": [
+              "07:40",
+              "09:55W",
+              "15:55W",
+              "19:05",
+              "20:35"
+            ],
+            "holiday": [
+              "09:55W",
+              "15:55W",
+              "19:05",
+              "20:35"
+            ]
+          }
+        },
+        {
+          "stop_id": "2295",
+          "stop_name": "Dłużec Granica",
+          "platform": "1",
+          "file": "2295-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "05:26W",
+              "09:06",
+              "10:26W",
+              "12:51",
+              "13:56",
+              "16:21W",
+              "19:51W",
+              "22:13"
+            ],
+            "saturday": [
+              "06:16",
+              "09:56",
+              "11:09W",
+              "15:16",
+              "16:26W",
+              "20:36"
+            ],
+            "sunday": [
+              "07:41",
+              "09:56W",
+              "15:56W",
+              "19:06",
+              "20:36"
+            ],
+            "holiday": [
+              "09:56W",
+              "15:56W",
+              "19:06",
+              "20:36"
+            ]
+          }
+        },
+        {
+          "stop_id": "2301",
+          "stop_name": "Dłużec Niezdara",
+          "platform": "2",
+          "file": "2301-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "05:27W",
+              "09:07",
+              "10:27W",
+              "12:52",
+              "13:57",
+              "16:22W",
+              "19:52W",
+              "22:14"
+            ],
+            "saturday": [
+              "06:17",
+              "09:57",
+              "11:10W",
+              "15:17",
+              "16:27W",
+              "20:37"
+            ],
+            "sunday": [
+              "07:42",
+              "09:57W",
+              "15:57W",
+              "19:07",
+              "20:37"
+            ],
+            "holiday": [
+              "09:57W",
+              "15:57W",
+              "19:07",
+              "20:37"
+            ]
+          }
+        },
+        {
+          "stop_id": "2297",
+          "stop_name": "Dłużec Nowa Wieś",
+          "platform": "1",
+          "file": "2297-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "05:28W",
+              "09:08",
+              "10:28W",
+              "12:53",
+              "13:58",
+              "16:23W",
+              "19:53W",
+              "22:15"
+            ],
+            "saturday": [
+              "06:18",
+              "09:58",
+              "11:11W",
+              "15:18",
+              "16:28W",
+              "20:38"
+            ],
+            "sunday": [
+              "07:43",
+              "09:58W",
+              "15:58W",
+              "19:08",
+              "20:38"
+            ],
+            "holiday": [
+              "09:58W",
+              "15:58W",
+              "19:08",
+              "20:38"
+            ]
+          }
+        },
+        {
+          "stop_id": "2298",
+          "stop_name": "Dłużec Skrzyżowanie",
+          "platform": "1",
+          "file": "2298-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "05:31W",
+              "09:11",
+              "10:31W",
+              "12:56",
+              "14:01",
+              "16:26W",
+              "19:56W",
+              "22:18"
+            ],
+            "saturday": [
+              "06:21",
+              "10:01",
+              "11:14W",
+              "15:21",
+              "16:31W",
+              "20:41"
+            ],
+            "sunday": [
+              "07:46",
+              "10:01W",
+              "16:01W",
+              "19:11",
+              "20:41"
+            ],
+            "holiday": [
+              "10:01W",
+              "16:01W",
+              "19:11",
+              "20:41"
+            ]
+          }
+        },
+        {
+          "stop_id": "2375",
+          "stop_name": "Dłużec Szkoła",
+          "platform": "2",
+          "file": "2375-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "05:32W",
+              "09:12",
+              "10:32W",
+              "12:57",
+              "14:02",
+              "16:27W",
+              "19:57W",
+              "22:19"
+            ],
+            "saturday": [
+              "06:22",
+              "10:02",
+              "11:15W",
+              "15:22",
+              "16:32W",
+              "20:42"
+            ],
+            "sunday": [
+              "07:47",
+              "10:02W",
+              "16:02W",
+              "19:12",
+              "20:42"
+            ],
+            "holiday": [
+              "10:02W",
+              "16:02W",
+              "19:12",
+              "20:42"
+            ]
+          }
+        },
+        {
+          "stop_id": "2338",
+          "stop_name": "Kąpiele Wielkie Domiarki",
+          "platform": "1",
+          "file": "2338-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "05:34W",
+              "09:14",
+              "10:34W",
+              "12:59",
+              "14:04",
+              "16:29W",
+              "19:59W",
+              "22:21"
+            ],
+            "saturday": [
+              "06:24",
+              "10:04",
+              "11:17W",
+              "15:24",
+              "16:34W",
+              "20:44"
+            ],
+            "sunday": [
+              "07:49",
+              "10:04W",
+              "16:04W",
+              "19:14",
+              "20:44"
+            ],
+            "holiday": [
+              "10:04W",
+              "16:04W",
+              "19:14",
+              "20:44"
+            ]
+          }
+        },
+        {
+          "stop_id": "2337",
+          "stop_name": "Kąpiele Wielkie Sarnie Doły",
+          "platform": "1",
+          "file": "2337-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "05:35W",
+              "09:15",
+              "10:35W",
+              "13:00",
+              "14:05",
+              "16:30W",
+              "20:00W",
+              "22:22"
+            ],
+            "saturday": [
+              "06:25",
+              "10:05",
+              "11:18W",
+              "15:25",
+              "16:35W",
+              "20:45"
+            ],
+            "sunday": [
+              "07:50",
+              "10:05W",
+              "16:05W",
+              "19:15",
+              "20:45"
+            ],
+            "holiday": [
+              "10:05W",
+              "16:05W",
+              "19:15",
+              "20:45"
+            ]
+          }
+        },
+        {
+          "stop_id": "2353",
+          "stop_name": "Kąpiele Wielkie Skrzyżowanie",
+          "platform": "2",
+          "file": "2353-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "05:36W",
+              "09:16",
+              "10:36W",
+              "13:01",
+              "14:06",
+              "16:31W",
+              "20:01W",
+              "22:23"
+            ],
+            "saturday": [
+              "06:26",
+              "10:06",
+              "11:19W",
+              "15:26",
+              "16:36W",
+              "20:46"
+            ],
+            "sunday": [
+              "07:51",
+              "10:06W",
+              "16:06W",
+              "19:16",
+              "20:46"
+            ],
+            "holiday": [
+              "10:06W",
+              "16:06W",
+              "19:16",
+              "20:46"
+            ]
+          }
+        },
+        {
+          "stop_id": "2334",
+          "stop_name": "Kąpiele Wielkie Remiza",
+          "platform": "1",
+          "file": "2334-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "05:37W",
+              "09:17",
+              "10:37W",
+              "13:02",
+              "14:07",
+              "16:32W",
+              "20:02W",
+              "22:24"
+            ],
+            "saturday": [
+              "06:27",
+              "10:07",
+              "11:20W",
+              "15:27",
+              "16:37W",
+              "20:47"
+            ],
+            "sunday": [
+              "07:52",
+              "10:07W",
+              "16:07W",
+              "19:17",
+              "20:47"
+            ],
+            "holiday": [
+              "10:07W",
+              "16:07W",
+              "19:17",
+              "20:47"
+            ]
+          }
+        },
+        {
+          "stop_id": "2335",
+          "stop_name": "Kąpiele Wielkie",
+          "platform": "1",
+          "file": "2335-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "05:39W",
+              "09:19",
+              "10:39W",
+              "13:04",
+              "14:09",
+              "16:34W",
+              "20:04W",
+              "22:26"
+            ],
+            "saturday": [
+              "06:29",
+              "10:09",
+              "11:22W",
+              "15:29",
+              "16:39W",
+              "20:49"
+            ],
+            "sunday": [
+              "07:54",
+              "10:09W",
+              "16:09W",
+              "19:19",
+              "20:49"
+            ],
+            "holiday": [
+              "10:09W",
+              "16:09W",
+              "19:19",
+              "20:49"
+            ]
+          }
+        },
+        {
+          "stop_id": "2349",
+          "stop_name": "Kąpiele Wielkie Góra",
+          "platform": "2",
+          "file": "2349-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "05:41W",
+              "09:21",
+              "10:41W",
+              "13:06",
+              "14:11",
+              "16:36W",
+              "20:06W",
+              "22:28"
+            ],
+            "saturday": [
+              "06:31",
+              "10:11",
+              "11:24W",
+              "15:31",
+              "16:41W",
+              "20:51"
+            ],
+            "sunday": [
+              "07:56",
+              "10:11W",
+              "16:11W",
+              "19:21",
+              "20:51"
+            ],
+            "holiday": [
+              "10:11W",
+              "16:11W",
+              "19:21",
+              "20:51"
+            ]
+          }
+        },
+        {
+          "stop_id": "2341",
+          "stop_name": "Miechówka",
+          "platform": "1",
+          "file": "2341-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "05:42W",
+              "09:22",
+              "10:42W",
+              "13:07",
+              "14:12",
+              "16:37W",
+              "20:07W",
+              "22:29"
+            ],
+            "saturday": [
+              "06:32",
+              "10:12",
+              "11:25W",
+              "15:32",
+              "16:42W",
+              "20:52"
+            ],
+            "sunday": [
+              "07:57",
+              "10:12W",
+              "16:12W",
+              "19:22",
+              "20:52"
+            ],
+            "holiday": [
+              "10:12W",
+              "16:12W",
+              "19:22",
+              "20:52"
+            ]
+          }
+        },
+        {
+          "stop_id": "2347",
+          "stop_name": "Poręba Dzierżna Cmentarz",
+          "platform": "2",
+          "file": "2347-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "05:45W",
+              "09:25",
+              "10:45W",
+              "13:10",
+              "14:15",
+              "16:40W",
+              "20:10W",
+              "22:32"
+            ],
+            "saturday": [
+              "06:35",
+              "10:15",
+              "11:28W",
+              "15:35",
+              "16:45W",
+              "20:55"
+            ],
+            "sunday": [
+              "08:00",
+              "10:15W",
+              "16:15W",
+              "19:25",
+              "20:55"
+            ],
+            "holiday": [
+              "10:15W",
+              "16:15W",
+              "19:25",
+              "20:55"
+            ]
+          }
+        },
+        {
+          "stop_id": "2422",
+          "stop_name": "Poręba Dzierżna Kościelna",
+          "platform": "2",
+          "file": "2422-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "05:47W",
+              "09:27",
+              "10:47W",
+              "13:12",
+              "14:17",
+              "16:42W",
+              "20:12W",
+              "22:34"
+            ],
+            "saturday": [
+              "06:37",
+              "10:17",
+              "11:30W",
+              "15:37",
+              "16:47W",
+              "20:57"
+            ],
+            "sunday": [
+              "08:02",
+              "10:17W",
+              "16:17W",
+              "19:27",
+              "20:57"
+            ],
+            "holiday": [
+              "10:17W",
+              "16:17W",
+              "19:27",
+              "20:57"
+            ]
+          }
+        },
+        {
+          "stop_id": "3275",
+          "stop_name": "Poręba Dzierżna",
+          "platform": "1",
+          "file": "3275-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "05:49W",
+              "09:29",
+              "10:49W",
+              "13:14",
+              "14:19",
+              "16:44W",
+              "20:14W",
+              "22:36"
+            ],
+            "saturday": [
+              "06:39",
+              "10:19",
+              "11:32W",
+              "15:39",
+              "16:49W",
+              "20:59"
+            ],
+            "sunday": [
+              "08:04",
+              "10:19W",
+              "16:19W",
+              "19:29",
+              "20:59"
+            ],
+            "holiday": [
+              "10:19W",
+              "16:19W",
+              "19:29",
+              "20:59"
+            ]
+          }
+        },
+        {
+          "stop_id": "2356",
+          "stop_name": "Poręba Dzierżna Skrzyżowanie",
+          "platform": "1",
+          "file": "2356-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "05:50W",
+              "09:30",
+              "10:50W",
+              "13:15",
+              "14:20",
+              "16:45W",
+              "20:15W",
+              "22:37"
+            ],
+            "saturday": [
+              "06:40",
+              "10:20",
+              "11:33W",
+              "15:40",
+              "16:50W",
+              "21:00"
+            ],
+            "sunday": [
+              "08:05",
+              "10:20W",
+              "16:20W",
+              "19:30",
+              "21:00"
+            ],
+            "holiday": [
+              "10:20W",
+              "16:20W",
+              "19:30",
+              "21:00"
+            ]
+          }
+        },
+        {
+          "stop_id": "0723",
+          "stop_name": "Łobzów Sieradzkie",
+          "platform": "1",
+          "file": "0723-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "05:52W",
+              "09:32",
+              "10:52W",
+              "13:17",
+              "14:22",
+              "16:47W",
+              "20:17W",
+              "22:39"
+            ],
+            "saturday": [
+              "06:42",
+              "10:22",
+              "11:35W",
+              "15:42",
+              "16:52W",
+              "21:02"
+            ],
+            "sunday": [
+              "08:07",
+              "10:22W",
+              "16:22W",
+              "19:32",
+              "21:02"
+            ],
+            "holiday": [
+              "10:22W",
+              "16:22W",
+              "19:32",
+              "21:02"
+            ]
+          }
+        },
+        {
+          "stop_id": "0709",
+          "stop_name": "Łobzów OSP",
+          "platform": "2",
+          "file": "0709-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "05:54W",
+              "09:34",
+              "10:54W",
+              "13:19",
+              "14:24",
+              "16:49W",
+              "20:19W",
+              "22:41"
+            ],
+            "saturday": [
+              "06:44",
+              "10:24",
+              "11:37W",
+              "15:44",
+              "16:54W",
+              "21:04"
+            ],
+            "sunday": [
+              "08:09",
+              "10:24W",
+              "16:24W",
+              "19:34",
+              "21:04"
+            ],
+            "holiday": [
+              "10:24W",
+              "16:24W",
+              "19:34",
+              "21:04"
+            ]
+          }
+        },
+        {
+          "stop_id": "0710",
+          "stop_name": "Łobzów Granica",
+          "platform": "2",
+          "file": "0710-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "05:56W",
+              "09:36",
+              "10:56W",
+              "13:21",
+              "14:26",
+              "16:51W",
+              "20:21W",
+              "22:43"
+            ],
+            "saturday": [
+              "06:46",
+              "10:26",
+              "11:39W",
+              "15:46",
+              "16:56W",
+              "21:06"
+            ],
+            "sunday": [
+              "08:11",
+              "10:26W",
+              "16:26W",
+              "19:36",
+              "21:06"
+            ],
+            "holiday": [
+              "10:26W",
+              "16:26W",
+              "19:36",
+              "21:06"
+            ]
+          }
+        },
+        {
+          "stop_id": "0021",
+          "stop_name": "Wolbrom Kościuszki",
+          "platform": "2",
+          "file": "0021-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "05:57W",
+              "09:37",
+              "10:57W",
+              "13:22",
+              "14:27",
+              "16:52W",
+              "20:22W",
+              "22:44"
+            ],
+            "saturday": [
+              "06:47",
+              "10:27",
+              "11:40W",
+              "15:47",
+              "16:57W",
+              "21:07"
+            ],
+            "sunday": [
+              "08:12",
+              "10:27W",
+              "16:27W",
+              "19:37",
+              "21:07"
+            ],
+            "holiday": [
+              "10:27W",
+              "16:27W",
+              "19:37",
+              "21:07"
+            ]
+          }
+        },
+        {
+          "stop_id": "0001",
+          "stop_name": "Wolbrom Nowa PKS",
+          "platform": "0",
+          "file": "0001-okrezna-2-koniec.html",
+          "departures": {
+            "workday": [
+              "05:59",
+              "10:59",
+              "16:54",
+              "20:24"
+            ],
+            "saturday": [
+              "11:42",
+              "16:59"
+            ],
+            "sunday": [
+              "10:29",
+              "16:29"
+            ],
+            "holiday": [
+              "10:29",
+              "16:29"
+            ]
+          },
+          "direction_override": "Wolbrom Pod Lasem"
+        },
+        {
+          "stop_id": "0029",
+          "stop_name": "Wolbrom 1-ego Maja I",
+          "platform": "2",
+          "file": "0029-okrezna-2.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "06:04",
+              "11:04",
+              "16:59",
+              "20:29"
+            ],
+            "saturday": [
+              "11:47",
+              "17:04"
+            ],
+            "sunday": [
+              "10:34",
+              "16:34"
+            ],
+            "holiday": [
+              "10:34",
+              "16:34"
+            ]
+          },
+          "direction_override": "Wolbrom Pod Lasem"
+        },
+        {
+          "stop_id": "0016",
+          "stop_name": "Wolbrom Dworzec PKP",
+          "platform": "0",
+          "file": "0016-okrezna-2.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "06:06",
+              "11:06",
+              "17:01",
+              "20:31"
+            ],
+            "saturday": [
+              "11:49",
+              "17:06"
+            ],
+            "sunday": [
+              "10:36",
+              "16:36"
+            ],
+            "holiday": [
+              "10:36",
+              "16:36"
+            ]
+          },
+          "direction_override": "Wolbrom Pod Lasem"
+        },
+        {
+          "stop_id": "0015",
+          "stop_name": "Wolbrom Pod Lasem",
+          "platform": "1",
+          "file": "0015-okrezna-2.html",
+          "variant": true,
+          "departures": {},
+          "arrival_only": true,
+          "arrival_direction": "Wolbrom Pod Lasem"
+        }
+      ]
+    }
+  ]
+}
