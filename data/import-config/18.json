@@ -1,0 +1,76 @@
+{
+  "directions": {
+    "1": {
+      "slug": "osiek",
+      "name": "Osiek Pętla",
+      "direction_segments": [
+        {
+          "from_stop_id": "0200",
+          "name": "Osiek Pętla"
+        },
+        {
+          "from_stop_id": "2054",
+          "name": "Zawada Pętla"
+        }
+      ],
+      "variant_symbols": {
+        "1": "Z"
+      },
+      "variant_letter_ends": {
+        "Z": {
+          "stop_id": "2054",
+          "occurrence": 1
+        }
+      },
+      "variant_destinations": {
+        "Z": "Zawada Pętla"
+      },
+      "legend": {
+        "Z": "do: Zawada Pętla"
+      },
+      "legend_only_used_symbols": true,
+      "variant_stops": [
+        "2889",
+        "2053",
+        "2052",
+        "2057",
+        "2050",
+        "2059",
+        "2048",
+        "2066",
+        "2067",
+        "2082",
+        "2081",
+        "2070",
+        "2079",
+        "2072",
+        "2073",
+        "2074",
+        "2075"
+      ]
+    },
+    "2": {
+      "slug": "olkusz",
+      "name": "Olkusz Dworzec PKS",
+      "variant_stops": [
+        "2075",
+        "2076",
+        "2077",
+        "2078",
+        "2071",
+        "2080",
+        "2069",
+        "2068",
+        "2083",
+        "2065",
+        "3259",
+        "2049",
+        "2058",
+        "2051",
+        "2056",
+        "2055",
+        "2886"
+      ]
+    }
+  }
+}

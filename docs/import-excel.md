@@ -457,3 +457,43 @@ Kontrole: `tools/test-line17-import.py` odtwarza wszystkie
 porównuje niezależny SHA-256 oryginalnego `Arkusz1`
 (identyfikatory i wszystkie 1898 godzin), oznaczenia wariantów,
 wygenerowane rozkłady i dane najbliższych odjazdów na mapie.
+
+
+## Linia 18 — Olkusz Dworzec PKS ↔ Osiek Pętla / Zawada Pętla
+
+Źródło: przesłany `P.A.M. - Linia 18.xlsx`, **tylko Arkusz1**.
+Dwa kierunki po 48 kursów, razem **96 kursów, 2682 godziny
+przystankowe i 2586 rzeczywistych odjazdów**. W każdym kierunku
+15 kursów `R`, 13 `S`, 11 `N`, 9 `SW`.
+
+W kierunku 1 (Olkusz → Osiek/Zawada):
+- `018-1-0-...`: 27 kursów do **2054 Osiek Pętla**, 22 pozycje.
+- `018-1-1-...`: 21 kursów do **2075 Zawada Pętla**, 39 pozycji.
+- Oznaczenie wariantowe **Z** = „do: Zawada Pętla”.
+  Obowiązuje do przystanku **2886 Osiek Leśniczówka (1)**
+  włącznie; od **2054 Osiek Pętla (0)** nie ma już litery,
+  bo stamtąd dalsza jazda dotyczy tylko wydłużonych kursów.
+  Na tych rozkładach nazwa kierunku zmienia się na
+  „Zawada Pętla”, dzięki `direction_segments`.
+- `legend_only_used_symbols` zapobiega wyświetlaniu
+  legendy na stronach bez litery Z.
+- `2054` ma przyjazdy 27 kursów podstawowych oraz odjazdy
+  21 kursów wydłużonych — przyjazdy nie są dopisywane jako
+  kolejne odjazdy. `2075` ma tylko przyjazdy i stronę końcową.
+
+W kierunku 2 (Osiek/Zawada → Olkusz):
+- Wszystkie kursy mają **wariant 0 w oryginalnym ID**
+  i kierunek „Olkusz Dworzec PKS”.
+- 21 kursów startuje z **2075 Zawada Pętla** (36 pozycji),
+  a 27 z **2054 Osiek Pętla** (19 pozycji). Te krótsze kursy
+  są końcowym fragmentem pełnego przebiegu, a nie innym wariantem.
+- Ostatni **0200 Olkusz Dworzec PKS** to wyłącznie przyjazdy.
+  Na pierwszych przystankach w Zawadzie kursów zaczynających
+  dopiero w Osieku nie należy pokazywać.
+
+Trasy w stronach HTML obejmują odpowiednio **39 i 36 pozycji**
+i są zgodne z `linie/18.html`. `tools/test-line18-import.py`
+odtwarza oryginalne 96 kursów w produkcyjnym importerze.
+`tools/check-line18.py` weryfikuje odcisk SHA-256 oryginalnego
+`Arkusz1` z identyfikatorami, pozycjami i 2682 godzinami oraz
+75 wygenerowanych stron i kierunki w danych mapy.
