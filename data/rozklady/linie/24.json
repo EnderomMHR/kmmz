@@ -1138,6 +1138,16 @@
           "departures": {},
           "arrival_only": true
         }
+      ],
+      "direction_segments": [
+        {
+          "from_stop_id": "0684",
+          "name": "Chrzanów Kasztanowa"
+        },
+        {
+          "from_stop_id": "1160",
+          "name": "Chrzanów Dworzec Autobusowy"
+        }
       ]
     }
   ]
