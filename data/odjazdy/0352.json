@@ -4,6 +4,48 @@
   "platform": "1",
   "departures": [
     {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "holiday",
+      "time": "05:07",
+      "symbols": []
+    },
+    {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "holiday",
+      "time": "06:04",
+      "symbols": [
+        "F"
+      ]
+    },
+    {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "holiday",
+      "time": "07:24",
+      "symbols": []
+    },
+    {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "holiday",
+      "time": "08:54",
+      "symbols": []
+    },
+    {
       "line": "14",
       "main_direction": "Grojec Zajezdnia",
       "display_direction": "Grojec Zajezdnia",
@@ -24,6 +66,16 @@
       "symbols": [
         "L"
       ]
+    },
+    {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "holiday",
+      "time": "10:17",
+      "symbols": []
     },
     {
       "line": "4",
@@ -124,6 +176,18 @@
       "symbols": []
     },
     {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "holiday",
+      "time": "15:34",
+      "symbols": [
+        "F"
+      ]
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Oświęcimska Cmentarz",
@@ -160,6 +224,68 @@
       ]
     },
     {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "holiday",
+      "time": "16:41",
+      "symbols": []
+    },
+    {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "holiday",
+      "time": "17:08",
+      "symbols": [
+        "F"
+      ]
+    },
+    {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "holiday",
+      "time": "18:58",
+      "symbols": []
+    },
+    {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "holiday",
+      "time": "20:14",
+      "symbols": []
+    },
+    {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "holiday",
+      "time": "21:32",
+      "symbols": []
+    },
+    {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "saturday",
+      "time": "05:07",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Kopalnia Janina",
@@ -168,6 +294,18 @@
       "day_type": "saturday",
       "time": "05:32",
       "symbols": []
+    },
+    {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "saturday",
+      "time": "06:04",
+      "symbols": [
+        "F"
+      ]
     },
     {
       "line": "4",
@@ -216,6 +354,16 @@
       "symbols": []
     },
     {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "saturday",
+      "time": "07:24",
+      "symbols": []
+    },
+    {
       "line": "7",
       "main_direction": "Chrzanów Fablok",
       "display_direction": "Chrzanów Fablok",
@@ -258,6 +406,16 @@
       "symbols": []
     },
     {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "saturday",
+      "time": "08:54",
+      "symbols": []
+    },
+    {
       "line": "14",
       "main_direction": "Grojec Zajezdnia",
       "display_direction": "Grojec Zajezdnia",
@@ -288,6 +446,16 @@
       "symbols": [
         "L"
       ]
+    },
+    {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "saturday",
+      "time": "10:17",
+      "symbols": []
     },
     {
       "line": "4",
@@ -334,6 +502,16 @@
       "symbols": []
     },
     {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "saturday",
+      "time": "11:19",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Chełmek Młyny",
@@ -376,6 +554,18 @@
       "symbols": []
     },
     {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "saturday",
+      "time": "13:22",
+      "symbols": [
+        "F"
+      ]
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Chełmek Młyny",
@@ -386,6 +576,16 @@
       "symbols": [
         "C"
       ]
+    },
+    {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "saturday",
+      "time": "14:22",
+      "symbols": []
     },
     {
       "line": "4",
@@ -407,6 +607,18 @@
       "time": "14:50",
       "symbols": [
         "S"
+      ]
+    },
+    {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "saturday",
+      "time": "15:34",
+      "symbols": [
+        "F"
       ]
     },
     {
@@ -458,6 +670,28 @@
       ]
     },
     {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "saturday",
+      "time": "16:41",
+      "symbols": []
+    },
+    {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "saturday",
+      "time": "17:08",
+      "symbols": [
+        "F"
+      ]
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Kopalnia Janina",
@@ -500,6 +734,16 @@
       ]
     },
     {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "saturday",
+      "time": "18:58",
+      "symbols": []
+    },
+    {
       "line": "14",
       "main_direction": "Grojec Zajezdnia",
       "display_direction": "Sanka Głuchówki",
@@ -534,6 +778,16 @@
       ]
     },
     {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "saturday",
+      "time": "20:14",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Kopalnia Janina",
@@ -566,6 +820,16 @@
       ]
     },
     {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "saturday",
+      "time": "21:32",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Chełmek Młyny",
@@ -575,6 +839,18 @@
       "time": "22:00",
       "symbols": [
         "C"
+      ]
+    },
+    {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "saturday",
+      "time": "22:27",
+      "symbols": [
+        "F"
       ]
     },
     {
@@ -588,6 +864,16 @@
       "symbols": []
     },
     {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "sunday",
+      "time": "05:07",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Chełmek Młyny",
@@ -597,6 +883,18 @@
       "time": "05:34",
       "symbols": [
         "C"
+      ]
+    },
+    {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "sunday",
+      "time": "06:04",
+      "symbols": [
+        "F"
       ]
     },
     {
@@ -642,6 +940,16 @@
       "symbols": []
     },
     {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "sunday",
+      "time": "08:54",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Kopalnia Janina",
@@ -664,6 +972,16 @@
       ]
     },
     {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "sunday",
+      "time": "10:17",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Chełmek Młyny",
@@ -683,6 +1001,16 @@
       "page": "rozklady/4/0352-libiaz.html",
       "day_type": "sunday",
       "time": "11:14",
+      "symbols": []
+    },
+    {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "sunday",
+      "time": "11:19",
       "symbols": []
     },
     {
@@ -722,6 +1050,18 @@
       ]
     },
     {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "sunday",
+      "time": "13:22",
+      "symbols": [
+        "F"
+      ]
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Chełmek Młyny",
@@ -732,6 +1072,16 @@
       "symbols": [
         "C"
       ]
+    },
+    {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "sunday",
+      "time": "14:22",
+      "symbols": []
     },
     {
       "line": "14",
@@ -754,6 +1104,18 @@
       "symbols": []
     },
     {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "sunday",
+      "time": "15:34",
+      "symbols": [
+        "F"
+      ]
+    },
+    {
       "line": "14",
       "main_direction": "Grojec Zajezdnia",
       "display_direction": "Sanka Głuchówki",
@@ -774,6 +1136,18 @@
       "day_type": "sunday",
       "time": "16:36",
       "symbols": []
+    },
+    {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "sunday",
+      "time": "17:08",
+      "symbols": [
+        "F"
+      ]
     },
     {
       "line": "4",
@@ -808,6 +1182,16 @@
       "symbols": []
     },
     {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "sunday",
+      "time": "18:58",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Chełmek Młyny",
@@ -820,6 +1204,16 @@
       ]
     },
     {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "sunday",
+      "time": "20:14",
+      "symbols": []
+    },
+    {
       "line": "14",
       "main_direction": "Grojec Zajezdnia",
       "display_direction": "Grojec Zajezdnia",
@@ -827,6 +1221,16 @@
       "page": "rozklady/14/0352-grojec.html",
       "day_type": "sunday",
       "time": "20:23",
+      "symbols": []
+    },
+    {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "sunday",
+      "time": "21:32",
       "symbols": []
     },
     {
@@ -862,6 +1266,16 @@
       "symbols": [
         "C"
       ]
+    },
+    {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "workday",
+      "time": "04:19",
+      "symbols": []
     },
     {
       "line": "17",
@@ -906,6 +1320,18 @@
       "day_type": "workday",
       "time": "05:34",
       "symbols": []
+    },
+    {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "workday",
+      "time": "05:46",
+      "symbols": [
+        "F"
+      ]
     },
     {
       "line": "14",
@@ -954,6 +1380,18 @@
       "symbols": []
     },
     {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "workday",
+      "time": "06:37",
+      "symbols": [
+        "F"
+      ]
+    },
+    {
       "line": "17",
       "main_direction": "Mętków Mały",
       "display_direction": "Żarki Kadetów Koniec",
@@ -964,6 +1402,16 @@
       "symbols": [
         "K"
       ]
+    },
+    {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "workday",
+      "time": "07:33",
+      "symbols": []
     },
     {
       "line": "14",
@@ -1045,6 +1493,18 @@
       ]
     },
     {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "workday",
+      "time": "08:59",
+      "symbols": [
+        "F"
+      ]
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Chełmek Młyny",
@@ -1091,6 +1551,18 @@
       "symbols": []
     },
     {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "workday",
+      "time": "09:54",
+      "symbols": [
+        "F"
+      ]
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Kopalnia Janina",
@@ -1111,6 +1583,16 @@
       "symbols": [
         "G"
       ]
+    },
+    {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "workday",
+      "time": "10:49",
+      "symbols": []
     },
     {
       "line": "17",
@@ -1159,6 +1641,18 @@
       "symbols": []
     },
     {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "workday",
+      "time": "11:39",
+      "symbols": [
+        "F"
+      ]
+    },
+    {
       "line": "14",
       "main_direction": "Grojec Zajezdnia",
       "display_direction": "Grojec Zajezdnia",
@@ -1193,6 +1687,16 @@
       "symbols": [
         "J"
       ]
+    },
+    {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "workday",
+      "time": "12:10",
+      "symbols": []
     },
     {
       "line": "4",
@@ -1239,6 +1743,16 @@
       "symbols": [
         "C"
       ]
+    },
+    {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "workday",
+      "time": "13:09",
+      "symbols": []
     },
     {
       "line": "7",
@@ -1302,6 +1816,16 @@
       "page": "rozklady/4/0352-libiaz.html",
       "day_type": "workday",
       "time": "14:35",
+      "symbols": []
+    },
+    {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "workday",
+      "time": "14:44",
       "symbols": []
     },
     {
@@ -1393,6 +1917,16 @@
       "symbols": []
     },
     {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "workday",
+      "time": "16:26",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Oświęcimska Cmentarz",
@@ -1440,6 +1974,16 @@
         "G",
         "S"
       ]
+    },
+    {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "workday",
+      "time": "17:40",
+      "symbols": []
     },
     {
       "line": "4",
@@ -1518,6 +2062,16 @@
       "symbols": []
     },
     {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "workday",
+      "time": "19:55",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Chełmek Młyny",
@@ -1547,6 +2101,16 @@
       "page": "rozklady/4/0352-libiaz.html",
       "day_type": "workday",
       "time": "20:45",
+      "symbols": []
+    },
+    {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "workday",
+      "time": "21:06",
       "symbols": []
     },
     {
@@ -1580,6 +2144,16 @@
       "symbols": [
         "C"
       ]
+    },
+    {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/24/0352-okrezna.html",
+      "day_type": "workday",
+      "time": "22:24",
+      "symbols": []
     }
   ],
   "served_lines": [
@@ -1592,6 +2166,11 @@
       "line": "17",
       "main_direction": "Mętków Mały",
       "page": "rozklady/17/0352-metkow.html"
+    },
+    {
+      "line": "24",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "page": "rozklady/24/0352-okrezna.html"
     },
     {
       "line": "4",
@@ -1612,6 +2191,9 @@
     "17": {
       "J": "przez: Libiąż Kopalnia Janina",
       "K": "do: Żarki Kadetów Koniec"
+    },
+    "24": {
+      "F": "przez: Chrzanów Fablok"
     },
     "4": {
       "C": "do: Chełmek Młyny",
