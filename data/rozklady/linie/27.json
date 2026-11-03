@@ -1,0 +1,2195 @@
+{
+  "line": "27",
+  "map_url": "https://enderommhr.github.io/kmmz/mapa.html",
+  "directions": [
+    {
+      "slug": "alwernia",
+      "name": "Alwernia Skowronek",
+      "legend": {
+        "G": "przez: Grojec Zajezdnia",
+        "Z": "przez: Grojec Szkoła>>Zalas Remiza"
+      },
+      "legend_only_used_symbols": true,
+      "variant_destinations": {},
+      "route_stops": [
+        {
+          "stop_id": "1678",
+          "stop_name": "Krzeszowice Dworzec Autobusowy",
+          "platform": "4",
+          "file": "1678-alwernia.html"
+        },
+        {
+          "stop_id": "0052",
+          "stop_name": "Krzeszowice Rondo Jana Pawła II",
+          "platform": "0",
+          "file": "0052-alwernia.html"
+        },
+        {
+          "stop_id": "1372",
+          "stop_name": "Tenczynek Piaski",
+          "platform": "1",
+          "file": "1372-alwernia.html"
+        },
+        {
+          "stop_id": "1373",
+          "stop_name": "Tenczynek Centrum",
+          "platform": "1",
+          "file": "1373-alwernia.html"
+        },
+        {
+          "stop_id": "1423",
+          "stop_name": "Tenczynek Wilk",
+          "platform": "1",
+          "file": "1423-alwernia.html"
+        },
+        {
+          "stop_id": "1415",
+          "stop_name": "Rudno Leśniczówka",
+          "platform": "1",
+          "file": "1415-alwernia.html"
+        },
+        {
+          "stop_id": "1447",
+          "stop_name": "Rudno Centrum",
+          "platform": "0",
+          "file": "1447-alwernia.html"
+        },
+        {
+          "stop_id": "1414",
+          "stop_name": "Rudno Kowal",
+          "platform": "1",
+          "file": "1414-alwernia.html"
+        },
+        {
+          "stop_id": "1413",
+          "stop_name": "Rudno Skrzyżowanie",
+          "platform": "2",
+          "file": "1413-alwernia.html"
+        },
+        {
+          "stop_id": "1483",
+          "stop_name": "Grojec Szkoła",
+          "platform": "1",
+          "file": "1483-alwernia.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1484",
+          "stop_name": "Grojec Zajezdnia",
+          "platform": "1",
+          "file": "1484-alwernia.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1485",
+          "stop_name": "Grojec Sklep",
+          "platform": "2",
+          "file": "1485-alwernia.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1430",
+          "stop_name": "Zalas Sportowa",
+          "platform": "2",
+          "file": "1430-alwernia.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1431",
+          "stop_name": "Zalas Remiza",
+          "platform": "1",
+          "file": "1431-alwernia.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1528",
+          "stop_name": "Zalas Sportowa",
+          "platform": "1",
+          "file": "1528-alwernia.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1529",
+          "stop_name": "Grojec Sklep",
+          "platform": "1",
+          "file": "1529-alwernia.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1486",
+          "stop_name": "Grojec Zajezdnia",
+          "platform": "2",
+          "file": "1486-alwernia.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1487",
+          "stop_name": "Grojec Szkoła",
+          "platform": "2",
+          "file": "1487-alwernia.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1488",
+          "stop_name": "Grojec II",
+          "platform": "2",
+          "file": "1488-alwernia.html"
+        },
+        {
+          "stop_id": "1480",
+          "stop_name": "Grojec Waga",
+          "platform": "1",
+          "file": "1480-alwernia.html"
+        },
+        {
+          "stop_id": "1354",
+          "stop_name": "Alwernia Garncarska",
+          "platform": "1",
+          "file": "1354-alwernia.html"
+        },
+        {
+          "stop_id": "1346",
+          "stop_name": "Alwernia Szkoła",
+          "platform": "1",
+          "file": "1346-alwernia.html"
+        },
+        {
+          "stop_id": "1347",
+          "stop_name": "Alwernia Osiedle",
+          "platform": "1",
+          "file": "1347-alwernia.html"
+        },
+        {
+          "stop_id": "1361",
+          "stop_name": "Alwernia Skowronek",
+          "platform": "2",
+          "file": "1361-alwernia.html"
+        }
+      ],
+      "timetables": [
+        {
+          "stop_id": "1678",
+          "stop_name": "Krzeszowice Dworzec Autobusowy",
+          "platform": "4",
+          "file": "1678-alwernia.html",
+          "departures": {
+            "workday": [
+              "05:30G",
+              "06:55",
+              "07:25Z",
+              "08:45",
+              "09:10G",
+              "10:25G",
+              "11:45",
+              "13:00",
+              "13:30Z",
+              "14:40G",
+              "15:30G",
+              "16:58",
+              "19:40G",
+              "20:53"
+            ],
+            "saturday": [
+              "05:40G",
+              "07:47",
+              "11:45G",
+              "13:03",
+              "14:14",
+              "15:50Z",
+              "17:10",
+              "18:27G",
+              "19:45Z"
+            ],
+            "sunday": [
+              "07:10G",
+              "09:56",
+              "11:15G",
+              "12:41",
+              "14:04",
+              "16:52",
+              "18:01",
+              "20:37G"
+            ],
+            "holiday": [
+              "07:47",
+              "11:45G"
+            ]
+          }
+        },
+        {
+          "stop_id": "0052",
+          "stop_name": "Krzeszowice Rondo Jana Pawła II",
+          "platform": "0",
+          "file": "0052-alwernia.html",
+          "departures": {
+            "workday": [
+              "05:33G",
+              "06:58",
+              "07:28Z",
+              "08:48",
+              "09:13G",
+              "10:28G",
+              "11:48",
+              "13:03",
+              "13:33Z",
+              "14:43G",
+              "15:33G",
+              "17:01",
+              "19:43G",
+              "20:56"
+            ],
+            "saturday": [
+              "05:43G",
+              "07:50",
+              "11:48G",
+              "13:06",
+              "14:17",
+              "15:53Z",
+              "17:13",
+              "18:30G",
+              "19:48Z"
+            ],
+            "sunday": [
+              "07:13G",
+              "09:59",
+              "11:18G",
+              "12:44",
+              "14:07",
+              "16:55",
+              "18:04",
+              "20:40G"
+            ],
+            "holiday": [
+              "07:50",
+              "11:48G"
+            ]
+          }
+        },
+        {
+          "stop_id": "1372",
+          "stop_name": "Tenczynek Piaski",
+          "platform": "1",
+          "file": "1372-alwernia.html",
+          "departures": {
+            "workday": [
+              "05:36G",
+              "07:01",
+              "07:31Z",
+              "08:51",
+              "09:16G",
+              "10:31G",
+              "11:51",
+              "13:06",
+              "13:36Z",
+              "14:46G",
+              "15:36G",
+              "17:04",
+              "19:46G",
+              "20:59"
+            ],
+            "saturday": [
+              "05:46G",
+              "07:53",
+              "11:51G",
+              "13:09",
+              "14:20",
+              "15:56Z",
+              "17:16",
+              "18:33G",
+              "19:51Z"
+            ],
+            "sunday": [
+              "07:16G",
+              "10:02",
+              "11:21G",
+              "12:47",
+              "14:10",
+              "16:58",
+              "18:07",
+              "20:43G"
+            ],
+            "holiday": [
+              "07:53",
+              "11:51G"
+            ]
+          }
+        },
+        {
+          "stop_id": "1373",
+          "stop_name": "Tenczynek Centrum",
+          "platform": "1",
+          "file": "1373-alwernia.html",
+          "departures": {
+            "workday": [
+              "05:37G",
+              "07:02",
+              "07:32Z",
+              "08:52",
+              "09:17G",
+              "10:32G",
+              "11:52",
+              "13:07",
+              "13:37Z",
+              "14:47G",
+              "15:37G",
+              "17:05",
+              "19:47G",
+              "21:00"
+            ],
+            "saturday": [
+              "05:47G",
+              "07:54",
+              "11:52G",
+              "13:10",
+              "14:21",
+              "15:57Z",
+              "17:17",
+              "18:34G",
+              "19:52Z"
+            ],
+            "sunday": [
+              "07:17G",
+              "10:03",
+              "11:22G",
+              "12:48",
+              "14:11",
+              "16:59",
+              "18:08",
+              "20:44G"
+            ],
+            "holiday": [
+              "07:54",
+              "11:52G"
+            ]
+          }
+        },
+        {
+          "stop_id": "1423",
+          "stop_name": "Tenczynek Wilk",
+          "platform": "1",
+          "file": "1423-alwernia.html",
+          "departures": {
+            "workday": [
+              "05:38G",
+              "07:03",
+              "07:33Z",
+              "08:53",
+              "09:18G",
+              "10:33G",
+              "11:53",
+              "13:08",
+              "13:38Z",
+              "14:48G",
+              "15:38G",
+              "17:06",
+              "19:48G",
+              "21:01"
+            ],
+            "saturday": [
+              "05:48G",
+              "07:55",
+              "11:53G",
+              "13:11",
+              "14:22",
+              "15:58Z",
+              "17:18",
+              "18:35G",
+              "19:53Z"
+            ],
+            "sunday": [
+              "07:18G",
+              "10:04",
+              "11:23G",
+              "12:49",
+              "14:12",
+              "17:00",
+              "18:09",
+              "20:45G"
+            ],
+            "holiday": [
+              "07:55",
+              "11:53G"
+            ]
+          }
+        },
+        {
+          "stop_id": "1415",
+          "stop_name": "Rudno Leśniczówka",
+          "platform": "1",
+          "file": "1415-alwernia.html",
+          "departures": {
+            "workday": [
+              "05:42G",
+              "07:07",
+              "07:37Z",
+              "08:57",
+              "09:22G",
+              "10:37G",
+              "11:57",
+              "13:12",
+              "13:42Z",
+              "14:52G",
+              "15:42G",
+              "17:10",
+              "19:52G",
+              "21:05"
+            ],
+            "saturday": [
+              "05:52G",
+              "07:59",
+              "11:57G",
+              "13:15",
+              "14:26",
+              "16:02Z",
+              "17:22",
+              "18:39G",
+              "19:57Z"
+            ],
+            "sunday": [
+              "07:22G",
+              "10:08",
+              "11:27G",
+              "12:53",
+              "14:16",
+              "17:04",
+              "18:13",
+              "20:49G"
+            ],
+            "holiday": [
+              "07:59",
+              "11:57G"
+            ]
+          }
+        },
+        {
+          "stop_id": "1447",
+          "stop_name": "Rudno Centrum",
+          "platform": "0",
+          "file": "1447-alwernia.html",
+          "departures": {
+            "workday": [
+              "05:43G",
+              "07:08",
+              "07:38Z",
+              "08:58",
+              "09:23G",
+              "10:38G",
+              "11:58",
+              "13:13",
+              "13:43Z",
+              "14:53G",
+              "15:43G",
+              "17:11",
+              "19:53G",
+              "21:06"
+            ],
+            "saturday": [
+              "05:53G",
+              "08:00",
+              "11:58G",
+              "13:16",
+              "14:27",
+              "16:03Z",
+              "17:23",
+              "18:40G",
+              "19:58Z"
+            ],
+            "sunday": [
+              "07:23G",
+              "10:09",
+              "11:28G",
+              "12:54",
+              "14:17",
+              "17:05",
+              "18:14",
+              "20:50G"
+            ],
+            "holiday": [
+              "08:00",
+              "11:58G"
+            ]
+          }
+        },
+        {
+          "stop_id": "1414",
+          "stop_name": "Rudno Kowal",
+          "platform": "1",
+          "file": "1414-alwernia.html",
+          "departures": {
+            "workday": [
+              "05:44G",
+              "07:09",
+              "07:39Z",
+              "08:59",
+              "09:24G",
+              "10:39G",
+              "11:59",
+              "13:14",
+              "13:44Z",
+              "14:54G",
+              "15:44G",
+              "17:12",
+              "19:54G",
+              "21:07"
+            ],
+            "saturday": [
+              "05:54G",
+              "08:01",
+              "11:59G",
+              "13:17",
+              "14:28",
+              "16:04Z",
+              "17:24",
+              "18:41G",
+              "19:59Z"
+            ],
+            "sunday": [
+              "07:24G",
+              "10:10",
+              "11:29G",
+              "12:55",
+              "14:18",
+              "17:06",
+              "18:15",
+              "20:51G"
+            ],
+            "holiday": [
+              "08:01",
+              "11:59G"
+            ]
+          }
+        },
+        {
+          "stop_id": "1413",
+          "stop_name": "Rudno Skrzyżowanie",
+          "platform": "2",
+          "file": "1413-alwernia.html",
+          "departures": {
+            "workday": [
+              "05:46G",
+              "07:11",
+              "07:41Z",
+              "09:01",
+              "09:26G",
+              "10:41G",
+              "12:01",
+              "13:16",
+              "13:46Z",
+              "14:56G",
+              "15:46G",
+              "17:14",
+              "19:56G",
+              "21:09"
+            ],
+            "saturday": [
+              "05:56G",
+              "08:03",
+              "12:01G",
+              "13:19",
+              "14:30",
+              "16:06Z",
+              "17:26",
+              "18:43G",
+              "20:01Z"
+            ],
+            "sunday": [
+              "07:26G",
+              "10:12",
+              "11:31G",
+              "12:57",
+              "14:20",
+              "17:08",
+              "18:17",
+              "20:53G"
+            ],
+            "holiday": [
+              "08:03",
+              "12:01G"
+            ]
+          }
+        },
+        {
+          "stop_id": "1483",
+          "stop_name": "Grojec Szkoła",
+          "platform": "1",
+          "file": "1483-alwernia.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "05:49",
+              "07:44",
+              "09:29",
+              "10:44",
+              "13:49",
+              "14:59",
+              "15:49",
+              "19:59"
+            ],
+            "saturday": [
+              "05:59",
+              "12:04",
+              "16:09",
+              "18:46",
+              "20:04"
+            ],
+            "sunday": [
+              "07:29",
+              "11:34",
+              "20:56"
+            ],
+            "holiday": [
+              "12:04"
+            ]
+          }
+        },
+        {
+          "stop_id": "1484",
+          "stop_name": "Grojec Zajezdnia",
+          "platform": "1",
+          "file": "1484-alwernia.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "05:50",
+              "07:45",
+              "09:30",
+              "10:45",
+              "13:50",
+              "15:00",
+              "15:50",
+              "20:00"
+            ],
+            "saturday": [
+              "06:00",
+              "12:05",
+              "16:10",
+              "18:47",
+              "20:05"
+            ],
+            "sunday": [
+              "07:30",
+              "11:35",
+              "20:57"
+            ],
+            "holiday": [
+              "12:05"
+            ]
+          }
+        },
+        {
+          "stop_id": "1485",
+          "stop_name": "Grojec Sklep",
+          "platform": "2",
+          "file": "1485-alwernia.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "07:46",
+              "13:51"
+            ],
+            "saturday": [
+              "16:11",
+              "20:06"
+            ],
+            "sunday": [],
+            "holiday": []
+          }
+        },
+        {
+          "stop_id": "1430",
+          "stop_name": "Zalas Sportowa",
+          "platform": "2",
+          "file": "1430-alwernia.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "07:48",
+              "13:53"
+            ],
+            "saturday": [
+              "16:13",
+              "20:08"
+            ],
+            "sunday": [],
+            "holiday": []
+          }
+        },
+        {
+          "stop_id": "1431",
+          "stop_name": "Zalas Remiza",
+          "platform": "1",
+          "file": "1431-alwernia.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "07:49",
+              "13:54"
+            ],
+            "saturday": [
+              "16:14",
+              "20:09"
+            ],
+            "sunday": [],
+            "holiday": []
+          }
+        },
+        {
+          "stop_id": "1528",
+          "stop_name": "Zalas Sportowa",
+          "platform": "1",
+          "file": "1528-alwernia.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "07:50",
+              "13:55"
+            ],
+            "saturday": [
+              "16:15",
+              "20:10"
+            ],
+            "sunday": [],
+            "holiday": []
+          }
+        },
+        {
+          "stop_id": "1529",
+          "stop_name": "Grojec Sklep",
+          "platform": "1",
+          "file": "1529-alwernia.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "07:52",
+              "13:57"
+            ],
+            "saturday": [
+              "16:17",
+              "20:12"
+            ],
+            "sunday": [],
+            "holiday": []
+          }
+        },
+        {
+          "stop_id": "1486",
+          "stop_name": "Grojec Zajezdnia",
+          "platform": "2",
+          "file": "1486-alwernia.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "07:53",
+              "13:58"
+            ],
+            "saturday": [
+              "16:18",
+              "20:13"
+            ],
+            "sunday": [],
+            "holiday": []
+          }
+        },
+        {
+          "stop_id": "1487",
+          "stop_name": "Grojec Szkoła",
+          "platform": "2",
+          "file": "1487-alwernia.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "05:51",
+              "07:54",
+              "09:31",
+              "10:46",
+              "13:59",
+              "15:01",
+              "15:51",
+              "20:01"
+            ],
+            "saturday": [
+              "06:01",
+              "12:06",
+              "16:19",
+              "18:48",
+              "20:14"
+            ],
+            "sunday": [
+              "07:31",
+              "11:36",
+              "20:58"
+            ],
+            "holiday": [
+              "12:06"
+            ]
+          }
+        },
+        {
+          "stop_id": "1488",
+          "stop_name": "Grojec II",
+          "platform": "2",
+          "file": "1488-alwernia.html",
+          "departures": {
+            "workday": [
+              "05:52",
+              "07:13",
+              "07:55",
+              "09:03",
+              "09:32",
+              "10:47",
+              "12:03",
+              "13:18",
+              "14:00",
+              "15:02",
+              "15:52",
+              "17:16",
+              "20:02",
+              "21:11"
+            ],
+            "saturday": [
+              "06:02",
+              "08:05",
+              "12:07",
+              "13:21",
+              "14:32",
+              "16:20",
+              "17:28",
+              "18:49",
+              "20:15"
+            ],
+            "sunday": [
+              "07:32",
+              "10:14",
+              "11:37",
+              "12:59",
+              "14:22",
+              "17:10",
+              "18:19",
+              "20:59"
+            ],
+            "holiday": [
+              "08:05",
+              "12:07"
+            ]
+          }
+        },
+        {
+          "stop_id": "1480",
+          "stop_name": "Grojec Waga",
+          "platform": "1",
+          "file": "1480-alwernia.html",
+          "departures": {
+            "workday": [
+              "05:53",
+              "07:14",
+              "07:56",
+              "09:04",
+              "09:33",
+              "10:48",
+              "12:04",
+              "13:19",
+              "14:01",
+              "15:03",
+              "15:53",
+              "17:17",
+              "20:03",
+              "21:12"
+            ],
+            "saturday": [
+              "06:03",
+              "08:06",
+              "12:08",
+              "13:22",
+              "14:33",
+              "16:21",
+              "17:29",
+              "18:50",
+              "20:16"
+            ],
+            "sunday": [
+              "07:33",
+              "10:15",
+              "11:38",
+              "13:00",
+              "14:23",
+              "17:11",
+              "18:20",
+              "21:00"
+            ],
+            "holiday": [
+              "08:06",
+              "12:08"
+            ]
+          }
+        },
+        {
+          "stop_id": "1354",
+          "stop_name": "Alwernia Garncarska",
+          "platform": "1",
+          "file": "1354-alwernia.html",
+          "departures": {
+            "workday": [
+              "05:55",
+              "07:16",
+              "07:58",
+              "09:06",
+              "09:35",
+              "10:50",
+              "12:06",
+              "13:21",
+              "14:03",
+              "15:05",
+              "15:55",
+              "17:19",
+              "20:05",
+              "21:14"
+            ],
+            "saturday": [
+              "06:05",
+              "08:08",
+              "12:10",
+              "13:24",
+              "14:35",
+              "16:23",
+              "17:31",
+              "18:52",
+              "20:18"
+            ],
+            "sunday": [
+              "07:35",
+              "10:17",
+              "11:40",
+              "13:02",
+              "14:25",
+              "17:13",
+              "18:22",
+              "21:02"
+            ],
+            "holiday": [
+              "08:08",
+              "12:10"
+            ]
+          }
+        },
+        {
+          "stop_id": "1346",
+          "stop_name": "Alwernia Szkoła",
+          "platform": "1",
+          "file": "1346-alwernia.html",
+          "departures": {
+            "workday": [
+              "05:56",
+              "07:17",
+              "07:59",
+              "09:07",
+              "09:36",
+              "10:51",
+              "12:07",
+              "13:22",
+              "14:04",
+              "15:06",
+              "15:56",
+              "17:20",
+              "20:06",
+              "21:15"
+            ],
+            "saturday": [
+              "06:06",
+              "08:09",
+              "12:11",
+              "13:25",
+              "14:36",
+              "16:24",
+              "17:32",
+              "18:53",
+              "20:19"
+            ],
+            "sunday": [
+              "07:36",
+              "10:18",
+              "11:41",
+              "13:03",
+              "14:26",
+              "17:14",
+              "18:23",
+              "21:03"
+            ],
+            "holiday": [
+              "08:09",
+              "12:11"
+            ]
+          }
+        },
+        {
+          "stop_id": "1347",
+          "stop_name": "Alwernia Osiedle",
+          "platform": "1",
+          "file": "1347-alwernia.html",
+          "departures": {
+            "workday": [
+              "05:57",
+              "07:18",
+              "08:00",
+              "09:08",
+              "09:37",
+              "10:52",
+              "12:08",
+              "13:23",
+              "14:05",
+              "15:07",
+              "15:57",
+              "17:21",
+              "20:07",
+              "21:16"
+            ],
+            "saturday": [
+              "06:07",
+              "08:10",
+              "12:12",
+              "13:26",
+              "14:37",
+              "16:25",
+              "17:33",
+              "18:54",
+              "20:20"
+            ],
+            "sunday": [
+              "07:37",
+              "10:19",
+              "11:42",
+              "13:04",
+              "14:27",
+              "17:15",
+              "18:24",
+              "21:04"
+            ],
+            "holiday": [
+              "08:10",
+              "12:12"
+            ]
+          }
+        },
+        {
+          "stop_id": "1361",
+          "stop_name": "Alwernia Skowronek",
+          "platform": "2",
+          "file": "1361-alwernia.html",
+          "departures": {},
+          "arrival_only": true
+        }
+      ]
+    },
+    {
+      "slug": "krzeszowice",
+      "name": "Krzeszowice Dworzec Autobusowy",
+      "legend": {
+        "G": "przez: Grojec Zajezdnia",
+        "Z": "przez: Grojec Szkoła>>Zalas Remiza"
+      },
+      "legend_only_used_symbols": true,
+      "variant_destinations": {},
+      "route_stops": [
+        {
+          "stop_id": "1360",
+          "stop_name": "Alwernia Skowronek",
+          "platform": "1",
+          "file": "1360-krzeszowice.html"
+        },
+        {
+          "stop_id": "2885",
+          "stop_name": "Alwernia Osiedle",
+          "platform": "3",
+          "file": "2885-krzeszowice.html"
+        },
+        {
+          "stop_id": "1348",
+          "stop_name": "Alwernia Szkoła",
+          "platform": "2",
+          "file": "1348-krzeszowice.html"
+        },
+        {
+          "stop_id": "1355",
+          "stop_name": "Alwernia Garncarska",
+          "platform": "2",
+          "file": "1355-krzeszowice.html"
+        },
+        {
+          "stop_id": "1481",
+          "stop_name": "Grojec Waga",
+          "platform": "2",
+          "file": "1481-krzeszowice.html"
+        },
+        {
+          "stop_id": "1483",
+          "stop_name": "Grojec Szkoła",
+          "platform": "1",
+          "file": "1483-krzeszowice.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1484",
+          "stop_name": "Grojec Zajezdnia",
+          "platform": "1",
+          "file": "1484-krzeszowice.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1485",
+          "stop_name": "Grojec Sklep",
+          "platform": "2",
+          "file": "1485-krzeszowice.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1430",
+          "stop_name": "Zalas Sportowa",
+          "platform": "2",
+          "file": "1430-krzeszowice.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1431",
+          "stop_name": "Zalas Remiza",
+          "platform": "1",
+          "file": "1431-krzeszowice.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1528",
+          "stop_name": "Zalas Sportowa",
+          "platform": "1",
+          "file": "1528-krzeszowice.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1529",
+          "stop_name": "Grojec Sklep",
+          "platform": "1",
+          "file": "1529-krzeszowice.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1486",
+          "stop_name": "Grojec Zajezdnia",
+          "platform": "2",
+          "file": "1486-krzeszowice.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1487",
+          "stop_name": "Grojec Szkoła",
+          "platform": "2",
+          "file": "1487-krzeszowice.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1482",
+          "stop_name": "Grojec II",
+          "platform": "1",
+          "file": "1482-krzeszowice.html"
+        },
+        {
+          "stop_id": "1418",
+          "stop_name": "Rudno Skrzyżowanie",
+          "platform": "1",
+          "file": "1418-krzeszowice.html"
+        },
+        {
+          "stop_id": "1417",
+          "stop_name": "Rudno Kowal",
+          "platform": "2",
+          "file": "1417-krzeszowice.html"
+        },
+        {
+          "stop_id": "3289",
+          "stop_name": "Rudno Centrum",
+          "platform": "2",
+          "file": "3289-krzeszowice.html"
+        },
+        {
+          "stop_id": "1416",
+          "stop_name": "Rudno Leśniczówka",
+          "platform": "2",
+          "file": "1416-krzeszowice.html"
+        },
+        {
+          "stop_id": "1424",
+          "stop_name": "Tenczynek Wilk",
+          "platform": "2",
+          "file": "1424-krzeszowice.html"
+        },
+        {
+          "stop_id": "1380",
+          "stop_name": "Tenczynek Centrum",
+          "platform": "2",
+          "file": "1380-krzeszowice.html"
+        },
+        {
+          "stop_id": "1381",
+          "stop_name": "Tenczynek Piaski",
+          "platform": "2",
+          "file": "1381-krzeszowice.html"
+        },
+        {
+          "stop_id": "0133",
+          "stop_name": "Krzeszowice Centrum",
+          "platform": "1",
+          "file": "0133-krzeszowice.html"
+        },
+        {
+          "stop_id": "1677",
+          "stop_name": "Krzeszowice Dworzec Autobusowy",
+          "platform": "1",
+          "file": "1677-krzeszowice.html"
+        }
+      ],
+      "timetables": [
+        {
+          "stop_id": "1360",
+          "stop_name": "Alwernia Skowronek",
+          "platform": "1",
+          "file": "1360-krzeszowice.html",
+          "departures": {
+            "workday": [
+              "04:56",
+              "06:06Z",
+              "07:31",
+              "08:10G",
+              "09:23G",
+              "09:47",
+              "11:17",
+              "12:16",
+              "13:46",
+              "14:11Z",
+              "15:23",
+              "16:13Z",
+              "17:34G",
+              "20:18G",
+              "21:27"
+            ],
+            "saturday": [
+              "06:17",
+              "08:25G",
+              "12:26G",
+              "13:37",
+              "14:51Z",
+              "16:36",
+              "17:43",
+              "19:03Z",
+              "20:28G"
+            ],
+            "sunday": [
+              "07:48",
+              "10:29G",
+              "11:54",
+              "13:15Z",
+              "14:43",
+              "17:24",
+              "18:40G",
+              "21:15G"
+            ],
+            "holiday": [
+              "08:25G",
+              "12:26G"
+            ]
+          }
+        },
+        {
+          "stop_id": "2885",
+          "stop_name": "Alwernia Osiedle",
+          "platform": "3",
+          "file": "2885-krzeszowice.html",
+          "departures": {
+            "workday": [
+              "05:00",
+              "06:10Z",
+              "07:35",
+              "08:14G",
+              "09:27G",
+              "09:51",
+              "11:21",
+              "12:20",
+              "13:50",
+              "14:15Z",
+              "15:27",
+              "16:17Z",
+              "17:38G",
+              "20:22G",
+              "21:31"
+            ],
+            "saturday": [
+              "06:21",
+              "08:29G",
+              "12:30G",
+              "13:41",
+              "14:55Z",
+              "16:40",
+              "17:47",
+              "19:07Z",
+              "20:32G"
+            ],
+            "sunday": [
+              "07:52",
+              "10:33G",
+              "11:58",
+              "13:19Z",
+              "14:47",
+              "17:28",
+              "18:44G",
+              "21:19G"
+            ],
+            "holiday": [
+              "08:29G",
+              "12:30G"
+            ]
+          }
+        },
+        {
+          "stop_id": "1348",
+          "stop_name": "Alwernia Szkoła",
+          "platform": "2",
+          "file": "1348-krzeszowice.html",
+          "departures": {
+            "workday": [
+              "05:01",
+              "06:11Z",
+              "07:36",
+              "08:15G",
+              "09:28G",
+              "09:52",
+              "11:22",
+              "12:21",
+              "13:51",
+              "14:16Z",
+              "15:28",
+              "16:18Z",
+              "17:39G",
+              "20:23G",
+              "21:32"
+            ],
+            "saturday": [
+              "06:22",
+              "08:30G",
+              "12:31G",
+              "13:42",
+              "14:56Z",
+              "16:41",
+              "17:48",
+              "19:08Z",
+              "20:33G"
+            ],
+            "sunday": [
+              "07:53",
+              "10:34G",
+              "11:59",
+              "13:20Z",
+              "14:48",
+              "17:29",
+              "18:45G",
+              "21:20G"
+            ],
+            "holiday": [
+              "08:30G",
+              "12:31G"
+            ]
+          }
+        },
+        {
+          "stop_id": "1355",
+          "stop_name": "Alwernia Garncarska",
+          "platform": "2",
+          "file": "1355-krzeszowice.html",
+          "departures": {
+            "workday": [
+              "05:02",
+              "06:12Z",
+              "07:37",
+              "08:16G",
+              "09:29G",
+              "09:53",
+              "11:23",
+              "12:22",
+              "13:52",
+              "14:17Z",
+              "15:29",
+              "16:19Z",
+              "17:40G",
+              "20:24G",
+              "21:33"
+            ],
+            "saturday": [
+              "06:23",
+              "08:31G",
+              "12:32G",
+              "13:43",
+              "14:57Z",
+              "16:42",
+              "17:49",
+              "19:09Z",
+              "20:34G"
+            ],
+            "sunday": [
+              "07:54",
+              "10:35G",
+              "12:00",
+              "13:21Z",
+              "14:49",
+              "17:30",
+              "18:46G",
+              "21:21G"
+            ],
+            "holiday": [
+              "08:31G",
+              "12:32G"
+            ]
+          }
+        },
+        {
+          "stop_id": "1481",
+          "stop_name": "Grojec Waga",
+          "platform": "2",
+          "file": "1481-krzeszowice.html",
+          "departures": {
+            "workday": [
+              "05:04",
+              "06:14Z",
+              "07:39",
+              "08:18G",
+              "09:31G",
+              "09:55",
+              "11:25",
+              "12:24",
+              "13:54",
+              "14:19Z",
+              "15:31",
+              "16:21Z",
+              "17:42G",
+              "20:26G",
+              "21:35"
+            ],
+            "saturday": [
+              "06:25",
+              "08:33G",
+              "12:34G",
+              "13:45",
+              "14:59Z",
+              "16:44",
+              "17:51",
+              "19:11Z",
+              "20:36G"
+            ],
+            "sunday": [
+              "07:56",
+              "10:37G",
+              "12:02",
+              "13:23Z",
+              "14:51",
+              "17:32",
+              "18:48G",
+              "21:23G"
+            ],
+            "holiday": [
+              "08:33G",
+              "12:34G"
+            ]
+          }
+        },
+        {
+          "stop_id": "1483",
+          "stop_name": "Grojec Szkoła",
+          "platform": "1",
+          "file": "1483-krzeszowice.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "06:16",
+              "08:20",
+              "09:33",
+              "14:21",
+              "16:23",
+              "17:44",
+              "20:28"
+            ],
+            "saturday": [
+              "08:35",
+              "12:36",
+              "15:01",
+              "19:13",
+              "20:38"
+            ],
+            "sunday": [
+              "10:39",
+              "13:25",
+              "18:50",
+              "21:25"
+            ],
+            "holiday": [
+              "08:35",
+              "12:36"
+            ]
+          }
+        },
+        {
+          "stop_id": "1484",
+          "stop_name": "Grojec Zajezdnia",
+          "platform": "1",
+          "file": "1484-krzeszowice.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "06:17",
+              "08:21",
+              "09:34",
+              "14:22",
+              "16:24",
+              "17:45",
+              "20:29"
+            ],
+            "saturday": [
+              "08:36",
+              "12:37",
+              "15:02",
+              "19:14",
+              "20:39"
+            ],
+            "sunday": [
+              "10:40",
+              "13:26",
+              "18:51",
+              "21:26"
+            ],
+            "holiday": [
+              "08:36",
+              "12:37"
+            ]
+          }
+        },
+        {
+          "stop_id": "1485",
+          "stop_name": "Grojec Sklep",
+          "platform": "2",
+          "file": "1485-krzeszowice.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "06:18",
+              "14:23",
+              "16:25"
+            ],
+            "saturday": [
+              "15:03",
+              "19:15"
+            ],
+            "sunday": [
+              "13:27"
+            ],
+            "holiday": []
+          }
+        },
+        {
+          "stop_id": "1430",
+          "stop_name": "Zalas Sportowa",
+          "platform": "2",
+          "file": "1430-krzeszowice.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "06:20",
+              "14:25",
+              "16:27"
+            ],
+            "saturday": [
+              "15:05",
+              "19:17"
+            ],
+            "sunday": [
+              "13:29"
+            ],
+            "holiday": []
+          }
+        },
+        {
+          "stop_id": "1431",
+          "stop_name": "Zalas Remiza",
+          "platform": "1",
+          "file": "1431-krzeszowice.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "06:21",
+              "14:26",
+              "16:28"
+            ],
+            "saturday": [
+              "15:06",
+              "19:18"
+            ],
+            "sunday": [
+              "13:30"
+            ],
+            "holiday": []
+          }
+        },
+        {
+          "stop_id": "1528",
+          "stop_name": "Zalas Sportowa",
+          "platform": "1",
+          "file": "1528-krzeszowice.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "06:22",
+              "14:27",
+              "16:29"
+            ],
+            "saturday": [
+              "15:07",
+              "19:19"
+            ],
+            "sunday": [
+              "13:31"
+            ],
+            "holiday": []
+          }
+        },
+        {
+          "stop_id": "1529",
+          "stop_name": "Grojec Sklep",
+          "platform": "1",
+          "file": "1529-krzeszowice.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "06:24",
+              "14:29",
+              "16:31"
+            ],
+            "saturday": [
+              "15:09",
+              "19:21"
+            ],
+            "sunday": [
+              "13:33"
+            ],
+            "holiday": []
+          }
+        },
+        {
+          "stop_id": "1486",
+          "stop_name": "Grojec Zajezdnia",
+          "platform": "2",
+          "file": "1486-krzeszowice.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "06:25",
+              "14:30",
+              "16:32"
+            ],
+            "saturday": [
+              "15:10",
+              "19:22"
+            ],
+            "sunday": [
+              "13:34"
+            ],
+            "holiday": []
+          }
+        },
+        {
+          "stop_id": "1487",
+          "stop_name": "Grojec Szkoła",
+          "platform": "2",
+          "file": "1487-krzeszowice.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "06:26",
+              "08:22",
+              "09:35",
+              "14:31",
+              "16:33",
+              "17:46",
+              "20:30"
+            ],
+            "saturday": [
+              "08:37",
+              "12:38",
+              "15:11",
+              "19:23",
+              "20:40"
+            ],
+            "sunday": [
+              "10:41",
+              "13:35",
+              "18:52",
+              "21:27"
+            ],
+            "holiday": [
+              "08:37",
+              "12:38"
+            ]
+          }
+        },
+        {
+          "stop_id": "1482",
+          "stop_name": "Grojec II",
+          "platform": "1",
+          "file": "1482-krzeszowice.html",
+          "departures": {
+            "workday": [
+              "05:05",
+              "06:27",
+              "07:40",
+              "08:23",
+              "09:36",
+              "09:56",
+              "11:26",
+              "12:25",
+              "13:55",
+              "14:32",
+              "15:32",
+              "16:34",
+              "17:47",
+              "20:31",
+              "21:36"
+            ],
+            "saturday": [
+              "06:26",
+              "08:38",
+              "12:39",
+              "13:46",
+              "15:12",
+              "16:45",
+              "17:52",
+              "19:24",
+              "20:41"
+            ],
+            "sunday": [
+              "07:57",
+              "10:42",
+              "12:03",
+              "13:36",
+              "14:52",
+              "17:33",
+              "18:53",
+              "21:28"
+            ],
+            "holiday": [
+              "08:38",
+              "12:39"
+            ]
+          }
+        },
+        {
+          "stop_id": "1418",
+          "stop_name": "Rudno Skrzyżowanie",
+          "platform": "1",
+          "file": "1418-krzeszowice.html",
+          "departures": {
+            "workday": [
+              "05:07",
+              "06:29",
+              "07:42",
+              "08:25",
+              "09:38",
+              "09:58",
+              "11:28",
+              "12:27",
+              "13:57",
+              "14:34",
+              "15:34",
+              "16:36",
+              "17:49",
+              "20:33",
+              "21:38"
+            ],
+            "saturday": [
+              "06:28",
+              "08:40",
+              "12:41",
+              "13:48",
+              "15:14",
+              "16:47",
+              "17:54",
+              "19:26",
+              "20:43"
+            ],
+            "sunday": [
+              "07:59",
+              "10:44",
+              "12:05",
+              "13:38",
+              "14:54",
+              "17:35",
+              "18:55",
+              "21:30"
+            ],
+            "holiday": [
+              "08:40",
+              "12:41"
+            ]
+          }
+        },
+        {
+          "stop_id": "1417",
+          "stop_name": "Rudno Kowal",
+          "platform": "2",
+          "file": "1417-krzeszowice.html",
+          "departures": {
+            "workday": [
+              "05:09",
+              "06:31",
+              "07:44",
+              "08:27",
+              "09:40",
+              "10:00",
+              "11:30",
+              "12:29",
+              "13:59",
+              "14:36",
+              "15:36",
+              "16:38",
+              "17:51",
+              "20:35",
+              "21:40"
+            ],
+            "saturday": [
+              "06:30",
+              "08:42",
+              "12:43",
+              "13:50",
+              "15:16",
+              "16:49",
+              "17:56",
+              "19:28",
+              "20:45"
+            ],
+            "sunday": [
+              "08:01",
+              "10:46",
+              "12:07",
+              "13:40",
+              "14:56",
+              "17:37",
+              "18:57",
+              "21:32"
+            ],
+            "holiday": [
+              "08:42",
+              "12:43"
+            ]
+          }
+        },
+        {
+          "stop_id": "3289",
+          "stop_name": "Rudno Centrum",
+          "platform": "2",
+          "file": "3289-krzeszowice.html",
+          "departures": {
+            "workday": [
+              "05:10",
+              "06:32",
+              "07:45",
+              "08:28",
+              "09:41",
+              "10:01",
+              "11:31",
+              "12:30",
+              "14:00",
+              "14:37",
+              "15:37",
+              "16:39",
+              "17:52",
+              "20:36",
+              "21:41"
+            ],
+            "saturday": [
+              "06:31",
+              "08:43",
+              "12:44",
+              "13:51",
+              "15:17",
+              "16:50",
+              "17:57",
+              "19:29",
+              "20:46"
+            ],
+            "sunday": [
+              "08:02",
+              "10:47",
+              "12:08",
+              "13:41",
+              "14:57",
+              "17:38",
+              "18:58",
+              "21:33"
+            ],
+            "holiday": [
+              "08:43",
+              "12:44"
+            ]
+          }
+        },
+        {
+          "stop_id": "1416",
+          "stop_name": "Rudno Leśniczówka",
+          "platform": "2",
+          "file": "1416-krzeszowice.html",
+          "departures": {
+            "workday": [
+              "05:11",
+              "06:33",
+              "07:46",
+              "08:29",
+              "09:42",
+              "10:02",
+              "11:32",
+              "12:31",
+              "14:01",
+              "14:38",
+              "15:38",
+              "16:40",
+              "17:53",
+              "20:37",
+              "21:42"
+            ],
+            "saturday": [
+              "06:32",
+              "08:44",
+              "12:45",
+              "13:52",
+              "15:18",
+              "16:51",
+              "17:58",
+              "19:30",
+              "20:47"
+            ],
+            "sunday": [
+              "08:03",
+              "10:48",
+              "12:09",
+              "13:42",
+              "14:58",
+              "17:39",
+              "18:59",
+              "21:34"
+            ],
+            "holiday": [
+              "08:44",
+              "12:45"
+            ]
+          }
+        },
+        {
+          "stop_id": "1424",
+          "stop_name": "Tenczynek Wilk",
+          "platform": "2",
+          "file": "1424-krzeszowice.html",
+          "departures": {
+            "workday": [
+              "05:15",
+              "06:37",
+              "07:50",
+              "08:33",
+              "09:46",
+              "10:06",
+              "11:36",
+              "12:35",
+              "14:05",
+              "14:42",
+              "15:42",
+              "16:44",
+              "17:57",
+              "20:41",
+              "21:46"
+            ],
+            "saturday": [
+              "06:36",
+              "08:48",
+              "12:49",
+              "13:56",
+              "15:22",
+              "16:55",
+              "18:02",
+              "19:34",
+              "20:51"
+            ],
+            "sunday": [
+              "08:07",
+              "10:52",
+              "12:13",
+              "13:46",
+              "15:02",
+              "17:43",
+              "19:03",
+              "21:38"
+            ],
+            "holiday": [
+              "08:48",
+              "12:49"
+            ]
+          }
+        },
+        {
+          "stop_id": "1380",
+          "stop_name": "Tenczynek Centrum",
+          "platform": "2",
+          "file": "1380-krzeszowice.html",
+          "departures": {
+            "workday": [
+              "05:16",
+              "06:38",
+              "07:51",
+              "08:34",
+              "09:47",
+              "10:07",
+              "11:37",
+              "12:36",
+              "14:06",
+              "14:43",
+              "15:43",
+              "16:45",
+              "17:58",
+              "20:42",
+              "21:47"
+            ],
+            "saturday": [
+              "06:37",
+              "08:49",
+              "12:50",
+              "13:57",
+              "15:23",
+              "16:56",
+              "18:03",
+              "19:35",
+              "20:52"
+            ],
+            "sunday": [
+              "08:08",
+              "10:53",
+              "12:14",
+              "13:47",
+              "15:03",
+              "17:44",
+              "19:04",
+              "21:39"
+            ],
+            "holiday": [
+              "08:49",
+              "12:50"
+            ]
+          }
+        },
+        {
+          "stop_id": "1381",
+          "stop_name": "Tenczynek Piaski",
+          "platform": "2",
+          "file": "1381-krzeszowice.html",
+          "departures": {
+            "workday": [
+              "05:17",
+              "06:39",
+              "07:52",
+              "08:35",
+              "09:48",
+              "10:08",
+              "11:38",
+              "12:37",
+              "14:07",
+              "14:44",
+              "15:44",
+              "16:46",
+              "17:59",
+              "20:43",
+              "21:48"
+            ],
+            "saturday": [
+              "06:38",
+              "08:50",
+              "12:51",
+              "13:58",
+              "15:24",
+              "16:57",
+              "18:04",
+              "19:36",
+              "20:53"
+            ],
+            "sunday": [
+              "08:09",
+              "10:54",
+              "12:15",
+              "13:48",
+              "15:04",
+              "17:45",
+              "19:05",
+              "21:40"
+            ],
+            "holiday": [
+              "08:50",
+              "12:51"
+            ]
+          }
+        },
+        {
+          "stop_id": "0133",
+          "stop_name": "Krzeszowice Centrum",
+          "platform": "1",
+          "file": "0133-krzeszowice.html",
+          "departures": {
+            "workday": [
+              "05:21",
+              "06:43",
+              "07:56",
+              "08:39",
+              "09:52",
+              "10:12",
+              "11:42",
+              "12:41",
+              "14:11",
+              "14:48",
+              "15:48",
+              "16:50",
+              "18:03",
+              "20:47",
+              "21:52"
+            ],
+            "saturday": [
+              "06:42",
+              "08:54",
+              "12:55",
+              "14:02",
+              "15:28",
+              "17:01",
+              "18:08",
+              "19:40",
+              "20:57"
+            ],
+            "sunday": [
+              "08:13",
+              "10:58",
+              "12:19",
+              "13:52",
+              "15:08",
+              "17:49",
+              "19:09",
+              "21:44"
+            ],
+            "holiday": [
+              "08:54",
+              "12:55"
+            ]
+          }
+        },
+        {
+          "stop_id": "1677",
+          "stop_name": "Krzeszowice Dworzec Autobusowy",
+          "platform": "1",
+          "file": "1677-krzeszowice.html",
+          "departures": {},
+          "arrival_only": true
+        }
+      ]
+    }
+  ]
+}
