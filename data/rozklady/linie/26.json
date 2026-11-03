@@ -1,0 +1,1228 @@
+{
+  "line": "26",
+  "map_url": "https://enderommhr.github.io/kmmz/mapa.html",
+  "directions": [
+    {
+      "slug": "okrezna",
+      "name": "Rozkochów Cisowa",
+      "legend": {
+        "Z": "przez: Żarki Zagórcze"
+      },
+      "legend_only_used_symbols": true,
+      "variant_destinations": {},
+      "direction_segments": [
+        {
+          "from_stop_id": "1037",
+          "name": "Chrzanów Dworzec Autobusowy"
+        },
+        {
+          "from_stop_id": "0109",
+          "name": "Rozkochów Cisowa"
+        }
+      ],
+      "route_stops": [
+        {
+          "stop_id": "1037",
+          "stop_name": "Rozkochów Cisowa",
+          "platform": "0",
+          "file": "1037-okrezna.html"
+        },
+        {
+          "stop_id": "1500",
+          "stop_name": "Rozkochów Kapliczka",
+          "platform": "2",
+          "file": "1500-okrezna.html"
+        },
+        {
+          "stop_id": "1040",
+          "stop_name": "Babice Włosień",
+          "platform": "2",
+          "file": "1040-okrezna.html"
+        },
+        {
+          "stop_id": "1138",
+          "stop_name": "Babice Podbagnie",
+          "platform": "1",
+          "file": "1138-okrezna.html"
+        },
+        {
+          "stop_id": "0597",
+          "stop_name": "Babice Urząd Gminy",
+          "platform": "2",
+          "file": "0597-okrezna.html"
+        },
+        {
+          "stop_id": "1035",
+          "stop_name": "Wygiełzów Oświęcimska",
+          "platform": "1",
+          "file": "1035-okrezna.html"
+        },
+        {
+          "stop_id": "1090",
+          "stop_name": "Żarki Młyn",
+          "platform": "2",
+          "file": "1090-okrezna.html"
+        },
+        {
+          "stop_id": "1087",
+          "stop_name": "Żarki Szkoła",
+          "platform": "1",
+          "file": "1087-okrezna.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1092",
+          "stop_name": "Żarki Zagórcze Astronautów",
+          "platform": "2",
+          "file": "1092-okrezna.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1093",
+          "stop_name": "Żarki Zagórcze",
+          "platform": "1",
+          "file": "1093-okrezna.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1173",
+          "stop_name": "Libiąż Jaworek",
+          "platform": "2",
+          "file": "1173-okrezna.html",
+          "variant": true
+        },
+        {
+          "stop_id": "2761",
+          "stop_name": "Libiąż Myśliwska",
+          "platform": "1",
+          "file": "2761-okrezna.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1176",
+          "stop_name": "Libiąż Rondo Siedmiu Dróg",
+          "platform": "2",
+          "file": "1176-okrezna.html",
+          "variant": true
+        },
+        {
+          "stop_id": "0323",
+          "stop_name": "Żarki Centrum",
+          "platform": "2",
+          "file": "0323-okrezna.html"
+        },
+        {
+          "stop_id": "0324",
+          "stop_name": "Żarki Kościuszki",
+          "platform": "2",
+          "file": "0324-okrezna.html"
+        },
+        {
+          "stop_id": "0325",
+          "stop_name": "Libiąż Górka Moczydlańska",
+          "platform": "2",
+          "file": "0325-okrezna.html"
+        },
+        {
+          "stop_id": "0326",
+          "stop_name": "Libiąż Krakowska Moczydło",
+          "platform": "2",
+          "file": "0326-okrezna.html"
+        },
+        {
+          "stop_id": "0327",
+          "stop_name": "Libiąż Sikorskiego Moczydło",
+          "platform": "1",
+          "file": "0327-okrezna.html"
+        },
+        {
+          "stop_id": "0328",
+          "stop_name": "Libiąż Skotnica",
+          "platform": "2",
+          "file": "0328-okrezna.html"
+        },
+        {
+          "stop_id": "0329",
+          "stop_name": "Libiąż Makowa",
+          "platform": "2",
+          "file": "0329-okrezna.html"
+        },
+        {
+          "stop_id": "0105",
+          "stop_name": "Libiąż Kopalnia Janina",
+          "platform": "0",
+          "file": "0105-okrezna.html"
+        },
+        {
+          "stop_id": "0107",
+          "stop_name": "Libiąż Dworzec Autobusowy",
+          "platform": "2",
+          "file": "0107-okrezna.html"
+        },
+        {
+          "stop_id": "0108",
+          "stop_name": "Libiąż Chrzanowska Kamieniec",
+          "platform": "1",
+          "file": "0108-okrezna.html"
+        },
+        {
+          "stop_id": "0109",
+          "stop_name": "Chrzanów Fadom",
+          "platform": "1",
+          "file": "0109-okrezna.html"
+        },
+        {
+          "stop_id": "0110",
+          "stop_name": "Chrzanów Kroczymiech",
+          "platform": "2",
+          "file": "0110-okrezna.html"
+        },
+        {
+          "stop_id": "0330",
+          "stop_name": "Chrzanów Osiedle Kopanina",
+          "platform": "1",
+          "file": "0330-okrezna.html"
+        },
+        {
+          "stop_id": "0331",
+          "stop_name": "Chrzanów PZGS",
+          "platform": "1",
+          "file": "0331-okrezna.html"
+        },
+        {
+          "stop_id": "0114",
+          "stop_name": "Chrzanów Księdza Skorupki",
+          "platform": "0",
+          "file": "0114-okrezna.html"
+        },
+        {
+          "stop_id": "0115",
+          "stop_name": "Chrzanów Plac Tysiąclecia",
+          "platform": "2",
+          "file": "0115-okrezna.html"
+        },
+        {
+          "stop_id": "0334",
+          "stop_name": "Chrzanów Dworzec Autobusowy",
+          "platform": "4",
+          "file": "0334-okrezna.html"
+        },
+        {
+          "stop_id": "0093",
+          "stop_name": "Chrzanów Szpital",
+          "platform": "2",
+          "file": "0093-okrezna.html"
+        },
+        {
+          "stop_id": "0094",
+          "stop_name": "Chrzanów Szpitalna",
+          "platform": "1",
+          "file": "0094-okrezna.html"
+        },
+        {
+          "stop_id": "0567",
+          "stop_name": "Chrzanów Głowackiego",
+          "platform": "1",
+          "file": "0567-okrezna.html"
+        },
+        {
+          "stop_id": "0568",
+          "stop_name": "Chrzanów Pogorska Szkoła",
+          "platform": "2",
+          "file": "0568-okrezna.html"
+        },
+        {
+          "stop_id": "0569",
+          "stop_name": "Chrzanów Pogorska Przychodnia",
+          "platform": "1",
+          "file": "0569-okrezna.html"
+        },
+        {
+          "stop_id": "0570",
+          "stop_name": "Chrzanów Pogorska Kościół",
+          "platform": "2",
+          "file": "0570-okrezna.html"
+        },
+        {
+          "stop_id": "0571",
+          "stop_name": "Chrzanów Ciepłownia",
+          "platform": "1",
+          "file": "0571-okrezna.html"
+        },
+        {
+          "stop_id": "0572",
+          "stop_name": "Chrzanów Stella",
+          "platform": "1",
+          "file": "0572-okrezna.html"
+        },
+        {
+          "stop_id": "0573",
+          "stop_name": "Pogorzyce PKP",
+          "platform": "1",
+          "file": "0573-okrezna.html"
+        },
+        {
+          "stop_id": "0574",
+          "stop_name": "Pogorzyce Szkoła",
+          "platform": "1",
+          "file": "0574-okrezna.html"
+        },
+        {
+          "stop_id": "0575",
+          "stop_name": "Pogorzyce Kościół",
+          "platform": "2",
+          "file": "0575-okrezna.html"
+        },
+        {
+          "stop_id": "0576",
+          "stop_name": "Pogorzyce Dwór",
+          "platform": "1",
+          "file": "0576-okrezna.html"
+        },
+        {
+          "stop_id": "0577",
+          "stop_name": "Pogorzyce Starzyny",
+          "platform": "2",
+          "file": "0577-okrezna.html"
+        },
+        {
+          "stop_id": "0578",
+          "stop_name": "Płaza Mazerzyn",
+          "platform": "2",
+          "file": "0578-okrezna.html"
+        },
+        {
+          "stop_id": "0579",
+          "stop_name": "Płaza Syberia",
+          "platform": "1",
+          "file": "0579-okrezna.html"
+        },
+        {
+          "stop_id": "0580",
+          "stop_name": "Płaza Hetmańska",
+          "platform": "2",
+          "file": "0580-okrezna.html"
+        },
+        {
+          "stop_id": "0581",
+          "stop_name": "Płaza Górna Kościół",
+          "platform": "1",
+          "file": "0581-okrezna.html"
+        },
+        {
+          "stop_id": "0582",
+          "stop_name": "Płaza Role",
+          "platform": "1",
+          "file": "0582-okrezna.html"
+        },
+        {
+          "stop_id": "0583",
+          "stop_name": "Płaza Dolna II",
+          "platform": "1",
+          "file": "0583-okrezna.html"
+        },
+        {
+          "stop_id": "0584",
+          "stop_name": "Płaza Dolna I",
+          "platform": "2",
+          "file": "0584-okrezna.html"
+        },
+        {
+          "stop_id": "0585",
+          "stop_name": "Wygiełzów Skansen",
+          "platform": "1",
+          "file": "0585-okrezna.html"
+        },
+        {
+          "stop_id": "0586",
+          "stop_name": "Babice Urząd Gminy",
+          "platform": "1",
+          "file": "0586-okrezna.html"
+        },
+        {
+          "stop_id": "1137",
+          "stop_name": "Babice Podbagnie",
+          "platform": "2",
+          "file": "1137-okrezna.html"
+        },
+        {
+          "stop_id": "1039",
+          "stop_name": "Babice Włosień",
+          "platform": "1",
+          "file": "1039-okrezna.html"
+        },
+        {
+          "stop_id": "1038",
+          "stop_name": "Rozkochów Kapliczka",
+          "platform": "1",
+          "file": "1038-okrezna.html"
+        },
+        {
+          "stop_id": "1037",
+          "stop_name": "Rozkochów Cisowa",
+          "platform": "0",
+          "file": "1037-okrezna-koniec.html"
+        }
+      ],
+      "timetables": [
+        {
+          "stop_id": "1037",
+          "stop_name": "Rozkochów Cisowa",
+          "platform": "0",
+          "file": "1037-okrezna.html",
+          "departures": {
+            "workday": [
+              "04:10Z",
+              "06:07",
+              "07:33",
+              "11:30",
+              "13:30Z",
+              "15:01"
+            ]
+          }
+        },
+        {
+          "stop_id": "1500",
+          "stop_name": "Rozkochów Kapliczka",
+          "platform": "2",
+          "file": "1500-okrezna.html",
+          "departures": {
+            "workday": [
+              "04:11Z",
+              "06:08",
+              "07:34",
+              "11:31",
+              "13:31Z",
+              "15:02"
+            ]
+          }
+        },
+        {
+          "stop_id": "1040",
+          "stop_name": "Babice Włosień",
+          "platform": "2",
+          "file": "1040-okrezna.html",
+          "departures": {
+            "workday": [
+              "04:14Z",
+              "06:11",
+              "07:37",
+              "11:34",
+              "13:34Z",
+              "15:05"
+            ]
+          }
+        },
+        {
+          "stop_id": "1138",
+          "stop_name": "Babice Podbagnie",
+          "platform": "1",
+          "file": "1138-okrezna.html",
+          "departures": {
+            "workday": [
+              "04:16Z",
+              "06:13",
+              "07:39",
+              "11:36",
+              "13:36Z",
+              "15:07"
+            ]
+          }
+        },
+        {
+          "stop_id": "0597",
+          "stop_name": "Babice Urząd Gminy",
+          "platform": "2",
+          "file": "0597-okrezna.html",
+          "departures": {
+            "workday": [
+              "04:18Z",
+              "06:15",
+              "07:41",
+              "11:38",
+              "13:38Z",
+              "15:09"
+            ]
+          }
+        },
+        {
+          "stop_id": "1035",
+          "stop_name": "Wygiełzów Oświęcimska",
+          "platform": "1",
+          "file": "1035-okrezna.html",
+          "departures": {
+            "workday": [
+              "04:19Z",
+              "06:16",
+              "07:42",
+              "11:39",
+              "13:39Z",
+              "15:10"
+            ]
+          }
+        },
+        {
+          "stop_id": "1090",
+          "stop_name": "Żarki Młyn",
+          "platform": "2",
+          "file": "1090-okrezna.html",
+          "departures": {
+            "workday": [
+              "04:24Z",
+              "06:21",
+              "07:47",
+              "11:44",
+              "13:44Z",
+              "15:15"
+            ]
+          }
+        },
+        {
+          "stop_id": "1087",
+          "stop_name": "Żarki Szkoła",
+          "platform": "1",
+          "file": "1087-okrezna.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "04:26",
+              "13:46"
+            ]
+          }
+        },
+        {
+          "stop_id": "1092",
+          "stop_name": "Żarki Zagórcze Astronautów",
+          "platform": "2",
+          "file": "1092-okrezna.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "04:27",
+              "13:47"
+            ]
+          }
+        },
+        {
+          "stop_id": "1093",
+          "stop_name": "Żarki Zagórcze",
+          "platform": "1",
+          "file": "1093-okrezna.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "04:29",
+              "13:49"
+            ]
+          }
+        },
+        {
+          "stop_id": "1173",
+          "stop_name": "Libiąż Jaworek",
+          "platform": "2",
+          "file": "1173-okrezna.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "04:33",
+              "13:53"
+            ]
+          }
+        },
+        {
+          "stop_id": "2761",
+          "stop_name": "Libiąż Myśliwska",
+          "platform": "1",
+          "file": "2761-okrezna.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "04:35",
+              "13:55"
+            ]
+          }
+        },
+        {
+          "stop_id": "1176",
+          "stop_name": "Libiąż Rondo Siedmiu Dróg",
+          "platform": "2",
+          "file": "1176-okrezna.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "04:36",
+              "13:56"
+            ]
+          }
+        },
+        {
+          "stop_id": "0323",
+          "stop_name": "Żarki Centrum",
+          "platform": "2",
+          "file": "0323-okrezna.html",
+          "departures": {
+            "workday": [
+              "06:22",
+              "07:48",
+              "11:45",
+              "15:16"
+            ]
+          }
+        },
+        {
+          "stop_id": "0324",
+          "stop_name": "Żarki Kościuszki",
+          "platform": "2",
+          "file": "0324-okrezna.html",
+          "departures": {
+            "workday": [
+              "06:23",
+              "07:49",
+              "11:46",
+              "15:17"
+            ]
+          }
+        },
+        {
+          "stop_id": "0325",
+          "stop_name": "Libiąż Górka Moczydlańska",
+          "platform": "2",
+          "file": "0325-okrezna.html",
+          "departures": {
+            "workday": [
+              "06:24",
+              "07:50",
+              "11:47",
+              "15:18"
+            ]
+          }
+        },
+        {
+          "stop_id": "0326",
+          "stop_name": "Libiąż Krakowska Moczydło",
+          "platform": "2",
+          "file": "0326-okrezna.html",
+          "departures": {
+            "workday": [
+              "06:25",
+              "07:51",
+              "11:48",
+              "15:19"
+            ]
+          }
+        },
+        {
+          "stop_id": "0327",
+          "stop_name": "Libiąż Sikorskiego Moczydło",
+          "platform": "1",
+          "file": "0327-okrezna.html",
+          "departures": {
+            "workday": [
+              "06:26",
+              "07:52",
+              "11:49",
+              "15:20"
+            ]
+          }
+        },
+        {
+          "stop_id": "0328",
+          "stop_name": "Libiąż Skotnica",
+          "platform": "2",
+          "file": "0328-okrezna.html",
+          "departures": {
+            "workday": [
+              "06:28",
+              "07:54",
+              "11:51",
+              "15:22"
+            ]
+          }
+        },
+        {
+          "stop_id": "0329",
+          "stop_name": "Libiąż Makowa",
+          "platform": "2",
+          "file": "0329-okrezna.html",
+          "departures": {
+            "workday": [
+              "06:29",
+              "07:55",
+              "11:52",
+              "15:23"
+            ]
+          }
+        },
+        {
+          "stop_id": "0105",
+          "stop_name": "Libiąż Kopalnia Janina",
+          "platform": "0",
+          "file": "0105-okrezna.html",
+          "departures": {
+            "workday": [
+              "04:38",
+              "06:31",
+              "07:57",
+              "11:54",
+              "13:58",
+              "15:25"
+            ]
+          }
+        },
+        {
+          "stop_id": "0107",
+          "stop_name": "Libiąż Dworzec Autobusowy",
+          "platform": "2",
+          "file": "0107-okrezna.html",
+          "departures": {
+            "workday": [
+              "04:41",
+              "06:34",
+              "08:00",
+              "11:57",
+              "14:01",
+              "15:28"
+            ]
+          }
+        },
+        {
+          "stop_id": "0108",
+          "stop_name": "Libiąż Chrzanowska Kamieniec",
+          "platform": "1",
+          "file": "0108-okrezna.html",
+          "departures": {
+            "workday": [
+              "04:43",
+              "06:36",
+              "08:02",
+              "11:59",
+              "14:03",
+              "15:30"
+            ]
+          }
+        },
+        {
+          "stop_id": "0109",
+          "stop_name": "Chrzanów Fadom",
+          "platform": "1",
+          "file": "0109-okrezna.html",
+          "departures": {
+            "workday": [
+              "04:46",
+              "06:39",
+              "08:05",
+              "12:02",
+              "14:06",
+              "15:33"
+            ]
+          }
+        },
+        {
+          "stop_id": "0110",
+          "stop_name": "Chrzanów Kroczymiech",
+          "platform": "2",
+          "file": "0110-okrezna.html",
+          "departures": {
+            "workday": [
+              "04:47",
+              "06:40",
+              "08:06",
+              "12:03",
+              "14:07",
+              "15:34"
+            ]
+          }
+        },
+        {
+          "stop_id": "0330",
+          "stop_name": "Chrzanów Osiedle Kopanina",
+          "platform": "1",
+          "file": "0330-okrezna.html",
+          "departures": {
+            "workday": [
+              "04:49",
+              "06:42",
+              "08:08",
+              "12:05",
+              "14:09",
+              "15:36"
+            ]
+          }
+        },
+        {
+          "stop_id": "0331",
+          "stop_name": "Chrzanów PZGS",
+          "platform": "1",
+          "file": "0331-okrezna.html",
+          "departures": {
+            "workday": [
+              "04:51",
+              "06:44",
+              "08:10",
+              "12:07",
+              "14:11",
+              "15:38"
+            ]
+          }
+        },
+        {
+          "stop_id": "0114",
+          "stop_name": "Chrzanów Księdza Skorupki",
+          "platform": "0",
+          "file": "0114-okrezna.html",
+          "departures": {
+            "workday": [
+              "04:54",
+              "06:47",
+              "08:13",
+              "12:10",
+              "14:14",
+              "15:41"
+            ]
+          }
+        },
+        {
+          "stop_id": "0115",
+          "stop_name": "Chrzanów Plac Tysiąclecia",
+          "platform": "2",
+          "file": "0115-okrezna.html",
+          "departures": {
+            "workday": [
+              "04:55",
+              "06:48",
+              "08:14",
+              "12:11",
+              "14:15",
+              "15:42"
+            ]
+          }
+        },
+        {
+          "stop_id": "0334",
+          "stop_name": "Chrzanów Dworzec Autobusowy",
+          "platform": "4",
+          "file": "0334-okrezna.html",
+          "departures": {
+            "workday": [
+              "04:57",
+              "06:50",
+              "08:16",
+              "12:13",
+              "14:17",
+              "15:44"
+            ]
+          }
+        },
+        {
+          "stop_id": "0093",
+          "stop_name": "Chrzanów Szpital",
+          "platform": "2",
+          "file": "0093-okrezna.html",
+          "departures": {
+            "workday": [
+              "05:02",
+              "06:55",
+              "08:21",
+              "12:18",
+              "14:22",
+              "15:49"
+            ]
+          }
+        },
+        {
+          "stop_id": "0094",
+          "stop_name": "Chrzanów Szpitalna",
+          "platform": "1",
+          "file": "0094-okrezna.html",
+          "departures": {
+            "workday": [
+              "05:03",
+              "06:56",
+              "08:22",
+              "12:19",
+              "14:23",
+              "15:50"
+            ]
+          }
+        },
+        {
+          "stop_id": "0567",
+          "stop_name": "Chrzanów Głowackiego",
+          "platform": "1",
+          "file": "0567-okrezna.html",
+          "departures": {
+            "workday": [
+              "05:06",
+              "06:59",
+              "08:25",
+              "12:22",
+              "14:26",
+              "15:53"
+            ]
+          }
+        },
+        {
+          "stop_id": "0568",
+          "stop_name": "Chrzanów Pogorska Szkoła",
+          "platform": "2",
+          "file": "0568-okrezna.html",
+          "departures": {
+            "workday": [
+              "05:07",
+              "07:00",
+              "08:26",
+              "12:23",
+              "14:27",
+              "15:54"
+            ]
+          }
+        },
+        {
+          "stop_id": "0569",
+          "stop_name": "Chrzanów Pogorska Przychodnia",
+          "platform": "1",
+          "file": "0569-okrezna.html",
+          "departures": {
+            "workday": [
+              "05:08",
+              "07:01",
+              "08:27",
+              "12:24",
+              "14:28",
+              "15:55"
+            ]
+          }
+        },
+        {
+          "stop_id": "0570",
+          "stop_name": "Chrzanów Pogorska Kościół",
+          "platform": "2",
+          "file": "0570-okrezna.html",
+          "departures": {
+            "workday": [
+              "05:09",
+              "07:02",
+              "08:28",
+              "12:25",
+              "14:29",
+              "15:56"
+            ]
+          }
+        },
+        {
+          "stop_id": "0571",
+          "stop_name": "Chrzanów Ciepłownia",
+          "platform": "1",
+          "file": "0571-okrezna.html",
+          "departures": {
+            "workday": [
+              "05:10",
+              "07:03",
+              "08:29",
+              "12:26",
+              "14:30",
+              "15:57"
+            ]
+          }
+        },
+        {
+          "stop_id": "0572",
+          "stop_name": "Chrzanów Stella",
+          "platform": "1",
+          "file": "0572-okrezna.html",
+          "departures": {
+            "workday": [
+              "05:11",
+              "07:04",
+              "08:30",
+              "12:27",
+              "14:31",
+              "15:58"
+            ]
+          }
+        },
+        {
+          "stop_id": "0573",
+          "stop_name": "Pogorzyce PKP",
+          "platform": "1",
+          "file": "0573-okrezna.html",
+          "departures": {
+            "workday": [
+              "05:12",
+              "07:05",
+              "08:31",
+              "12:28",
+              "14:32",
+              "15:59"
+            ]
+          }
+        },
+        {
+          "stop_id": "0574",
+          "stop_name": "Pogorzyce Szkoła",
+          "platform": "1",
+          "file": "0574-okrezna.html",
+          "departures": {
+            "workday": [
+              "05:14",
+              "07:07",
+              "08:33",
+              "12:30",
+              "14:34",
+              "16:01"
+            ]
+          }
+        },
+        {
+          "stop_id": "0575",
+          "stop_name": "Pogorzyce Kościół",
+          "platform": "2",
+          "file": "0575-okrezna.html",
+          "departures": {
+            "workday": [
+              "05:15",
+              "07:08",
+              "08:34",
+              "12:31",
+              "14:35",
+              "16:02"
+            ]
+          }
+        },
+        {
+          "stop_id": "0576",
+          "stop_name": "Pogorzyce Dwór",
+          "platform": "1",
+          "file": "0576-okrezna.html",
+          "departures": {
+            "workday": [
+              "05:16",
+              "07:09",
+              "08:35",
+              "12:32",
+              "14:36",
+              "16:03"
+            ]
+          }
+        },
+        {
+          "stop_id": "0577",
+          "stop_name": "Pogorzyce Starzyny",
+          "platform": "2",
+          "file": "0577-okrezna.html",
+          "departures": {
+            "workday": [
+              "05:17",
+              "07:10",
+              "08:36",
+              "12:33",
+              "14:37",
+              "16:04"
+            ]
+          }
+        },
+        {
+          "stop_id": "0578",
+          "stop_name": "Płaza Mazerzyn",
+          "platform": "2",
+          "file": "0578-okrezna.html",
+          "departures": {
+            "workday": [
+              "05:18",
+              "07:11",
+              "08:37",
+              "12:34",
+              "14:38",
+              "16:05"
+            ]
+          }
+        },
+        {
+          "stop_id": "0579",
+          "stop_name": "Płaza Syberia",
+          "platform": "1",
+          "file": "0579-okrezna.html",
+          "departures": {
+            "workday": [
+              "05:20",
+              "07:13",
+              "08:39",
+              "12:36",
+              "14:40",
+              "16:07"
+            ]
+          }
+        },
+        {
+          "stop_id": "0580",
+          "stop_name": "Płaza Hetmańska",
+          "platform": "2",
+          "file": "0580-okrezna.html",
+          "departures": {
+            "workday": [
+              "05:21",
+              "07:14",
+              "08:40",
+              "12:37",
+              "14:41",
+              "16:08"
+            ]
+          }
+        },
+        {
+          "stop_id": "0581",
+          "stop_name": "Płaza Górna Kościół",
+          "platform": "1",
+          "file": "0581-okrezna.html",
+          "departures": {
+            "workday": [
+              "05:22",
+              "07:15",
+              "08:41",
+              "12:38",
+              "14:42",
+              "16:09"
+            ]
+          }
+        },
+        {
+          "stop_id": "0582",
+          "stop_name": "Płaza Role",
+          "platform": "1",
+          "file": "0582-okrezna.html",
+          "departures": {
+            "workday": [
+              "05:23",
+              "07:16",
+              "08:42",
+              "12:39",
+              "14:43",
+              "16:10"
+            ]
+          }
+        },
+        {
+          "stop_id": "0583",
+          "stop_name": "Płaza Dolna II",
+          "platform": "1",
+          "file": "0583-okrezna.html",
+          "departures": {
+            "workday": [
+              "05:24",
+              "07:17",
+              "08:43",
+              "12:40",
+              "14:44",
+              "16:11"
+            ]
+          }
+        },
+        {
+          "stop_id": "0584",
+          "stop_name": "Płaza Dolna I",
+          "platform": "2",
+          "file": "0584-okrezna.html",
+          "departures": {
+            "workday": [
+              "05:26",
+              "07:19",
+              "08:45",
+              "12:42",
+              "14:46",
+              "16:13"
+            ]
+          }
+        },
+        {
+          "stop_id": "0585",
+          "stop_name": "Wygiełzów Skansen",
+          "platform": "1",
+          "file": "0585-okrezna.html",
+          "departures": {
+            "workday": [
+              "05:28",
+              "07:21",
+              "08:47",
+              "12:44",
+              "14:48",
+              "16:15"
+            ]
+          }
+        },
+        {
+          "stop_id": "0586",
+          "stop_name": "Babice Urząd Gminy",
+          "platform": "1",
+          "file": "0586-okrezna.html",
+          "departures": {
+            "workday": [
+              "05:29",
+              "07:22",
+              "08:48",
+              "12:45",
+              "14:49",
+              "16:16"
+            ]
+          }
+        },
+        {
+          "stop_id": "1137",
+          "stop_name": "Babice Podbagnie",
+          "platform": "2",
+          "file": "1137-okrezna.html",
+          "departures": {
+            "workday": [
+              "05:31",
+              "07:24",
+              "08:50",
+              "12:47",
+              "14:51",
+              "16:18"
+            ]
+          }
+        },
+        {
+          "stop_id": "1039",
+          "stop_name": "Babice Włosień",
+          "platform": "1",
+          "file": "1039-okrezna.html",
+          "departures": {
+            "workday": [
+              "05:33",
+              "07:26",
+              "08:52",
+              "12:49",
+              "14:53",
+              "16:20"
+            ]
+          }
+        },
+        {
+          "stop_id": "1038",
+          "stop_name": "Rozkochów Kapliczka",
+          "platform": "1",
+          "file": "1038-okrezna.html",
+          "departures": {
+            "workday": [
+              "05:36",
+              "07:29",
+              "08:55",
+              "12:52",
+              "14:56",
+              "16:23"
+            ]
+          }
+        },
+        {
+          "stop_id": "1037",
+          "stop_name": "Rozkochów Cisowa",
+          "platform": "0",
+          "file": "1037-okrezna-koniec.html",
+          "departures": {},
+          "arrival_only": true,
+          "arrival_direction": "Rozkochów Cisowa"
+        }
+      ]
+    }
+  ]
+}
