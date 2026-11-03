@@ -721,9 +721,13 @@ def render_route_stops(route_stops, current_file):
 
         class_text = " ".join(classes)
         label = f'{stop["stop_id"]} {stop["stop_name"]} ({stop["platform"]})'
+        # Wersja odnośnika pozwala ominąć starą kopię rozkładu w cache
+        # przeglądarki, np. po zmianie legendy linii 26.
+        cache_version = stop.get("cache_version")
+        cache_query = f'?v={escape(str(cache_version), quote=True)}' if cache_version else ""
 
         html.append(
-            f'<a class="{class_text}" href="../{escape(stop["line"])}/{escape(stop["file"])}">'
+            f'<a class="{class_text}" href="../{escape(stop["line"])}/{escape(stop["file"])}{cache_query}">'
             f'{escape(label)}</a>'
         )
 
