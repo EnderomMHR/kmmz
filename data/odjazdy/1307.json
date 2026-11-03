@@ -1,0 +1,562 @@
+{
+  "stop_id": "1307",
+  "stop_name": "Nowa Góra Sikorowskie",
+  "platform": "1",
+  "departures": [
+    {
+      "line": "25",
+      "main_direction": "Chrzanów Szpital",
+      "display_direction": "Chrzanów Szpital",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/25/1307-chrzanow.html",
+      "day_type": "holiday",
+      "time": "08:23",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/25/1307-krzeszowice.html",
+      "day_type": "holiday",
+      "time": "09:41",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Chrzanów Szpital",
+      "display_direction": "Chrzanów Szpital",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/25/1307-chrzanow.html",
+      "day_type": "holiday",
+      "time": "10:43",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/25/1307-krzeszowice.html",
+      "day_type": "holiday",
+      "time": "12:02",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Chrzanów Szpital",
+      "display_direction": "Chrzanów Szpital",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/25/1307-chrzanow.html",
+      "day_type": "holiday",
+      "time": "12:58",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/25/1307-krzeszowice.html",
+      "day_type": "holiday",
+      "time": "14:39",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Chrzanów Szpital",
+      "display_direction": "Chrzanów Szpital",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/25/1307-chrzanow.html",
+      "day_type": "saturday",
+      "time": "06:53",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Chrzanów Szpital",
+      "display_direction": "Chrzanów Szpital",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/25/1307-chrzanow.html",
+      "day_type": "saturday",
+      "time": "08:21",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/25/1307-krzeszowice.html",
+      "day_type": "saturday",
+      "time": "08:29",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/25/1307-krzeszowice.html",
+      "day_type": "saturday",
+      "time": "09:42",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Chrzanów Szpital",
+      "display_direction": "Chrzanów Szpital",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/25/1307-chrzanow.html",
+      "day_type": "saturday",
+      "time": "12:23",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Chrzanów Szpital",
+      "display_direction": "Chrzanów Szpital",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/25/1307-chrzanow.html",
+      "day_type": "saturday",
+      "time": "13:24",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/25/1307-krzeszowice.html",
+      "day_type": "saturday",
+      "time": "13:46",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/25/1307-krzeszowice.html",
+      "day_type": "saturday",
+      "time": "14:44",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Chrzanów Szpital",
+      "display_direction": "Chrzanów Szpital",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/25/1307-chrzanow.html",
+      "day_type": "saturday",
+      "time": "15:28",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/25/1307-krzeszowice.html",
+      "day_type": "saturday",
+      "time": "16:47",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Chrzanów Szpital",
+      "display_direction": "Chrzanów Szpital",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/25/1307-chrzanow.html",
+      "day_type": "saturday",
+      "time": "18:46",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/25/1307-krzeszowice.html",
+      "day_type": "saturday",
+      "time": "20:04",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Chrzanów Szpital",
+      "display_direction": "Chrzanów Szpital",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/25/1307-chrzanow.html",
+      "day_type": "saturday",
+      "time": "20:09",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/25/1307-krzeszowice.html",
+      "day_type": "saturday",
+      "time": "21:29",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Chrzanów Szpital",
+      "display_direction": "Chrzanów Szpital",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/25/1307-chrzanow.html",
+      "day_type": "sunday",
+      "time": "07:20",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/25/1307-krzeszowice.html",
+      "day_type": "sunday",
+      "time": "08:39",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Chrzanów Szpital",
+      "display_direction": "Chrzanów Szpital",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/25/1307-chrzanow.html",
+      "day_type": "sunday",
+      "time": "10:46",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/25/1307-krzeszowice.html",
+      "day_type": "sunday",
+      "time": "12:09",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Chrzanów Szpital",
+      "display_direction": "Chrzanów Szpital",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/25/1307-chrzanow.html",
+      "day_type": "sunday",
+      "time": "12:58",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/25/1307-krzeszowice.html",
+      "day_type": "sunday",
+      "time": "14:17",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Chrzanów Szpital",
+      "display_direction": "Chrzanów Szpital",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/25/1307-chrzanow.html",
+      "day_type": "sunday",
+      "time": "15:08",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/25/1307-krzeszowice.html",
+      "day_type": "sunday",
+      "time": "16:29",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Chrzanów Szpital",
+      "display_direction": "Chrzanów Szpital",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/25/1307-chrzanow.html",
+      "day_type": "sunday",
+      "time": "18:03",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/25/1307-krzeszowice.html",
+      "day_type": "sunday",
+      "time": "19:29",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Chrzanów Szpital",
+      "display_direction": "Chrzanów Szpital",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/25/1307-chrzanow.html",
+      "day_type": "sunday",
+      "time": "19:33",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/25/1307-krzeszowice.html",
+      "day_type": "sunday",
+      "time": "20:59",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Chrzanów Szpital",
+      "display_direction": "Chrzanów Szpital",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/25/1307-chrzanow.html",
+      "day_type": "workday",
+      "time": "04:48",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/25/1307-krzeszowice.html",
+      "day_type": "workday",
+      "time": "06:14",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Chrzanów Szpital",
+      "display_direction": "Chrzanów Szpital",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/25/1307-chrzanow.html",
+      "day_type": "workday",
+      "time": "06:18",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/25/1307-krzeszowice.html",
+      "day_type": "workday",
+      "time": "07:37",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Chrzanów Szpital",
+      "display_direction": "Chrzanów Szpital",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/25/1307-chrzanow.html",
+      "day_type": "workday",
+      "time": "08:23",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Chrzanów Szpital",
+      "display_direction": "Chrzanów Szpital",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/25/1307-chrzanow.html",
+      "day_type": "workday",
+      "time": "09:48",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/25/1307-krzeszowice.html",
+      "day_type": "workday",
+      "time": "09:54",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Chrzanów Szpital",
+      "display_direction": "Chrzanów Szpital",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/25/1307-chrzanow.html",
+      "day_type": "workday",
+      "time": "10:34",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/25/1307-krzeszowice.html",
+      "day_type": "workday",
+      "time": "11:19",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/25/1307-krzeszowice.html",
+      "day_type": "workday",
+      "time": "12:09",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Chrzanów Szpital",
+      "display_direction": "Chrzanów Szpital",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/25/1307-chrzanow.html",
+      "day_type": "workday",
+      "time": "13:01",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/25/1307-krzeszowice.html",
+      "day_type": "workday",
+      "time": "14:25",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Chrzanów Szpital",
+      "display_direction": "Chrzanów Szpital",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/25/1307-chrzanow.html",
+      "day_type": "workday",
+      "time": "15:01",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Chrzanów Szpital",
+      "display_direction": "Chrzanów Szpital",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/25/1307-chrzanow.html",
+      "day_type": "workday",
+      "time": "15:51",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/25/1307-krzeszowice.html",
+      "day_type": "workday",
+      "time": "16:27",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Chrzanów Szpital",
+      "display_direction": "Chrzanów Szpital",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/25/1307-chrzanow.html",
+      "day_type": "workday",
+      "time": "17:13",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/25/1307-krzeszowice.html",
+      "day_type": "workday",
+      "time": "17:14",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/25/1307-krzeszowice.html",
+      "day_type": "workday",
+      "time": "18:31",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Chrzanów Szpital",
+      "display_direction": "Chrzanów Szpital",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/25/1307-chrzanow.html",
+      "day_type": "workday",
+      "time": "19:43",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/25/1307-krzeszowice.html",
+      "day_type": "workday",
+      "time": "21:02",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Chrzanów Szpital",
+      "display_direction": "Chrzanów Szpital",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/25/1307-chrzanow.html",
+      "day_type": "workday",
+      "time": "21:13",
+      "symbols": []
+    },
+    {
+      "line": "25",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/25/1307-krzeszowice.html",
+      "day_type": "workday",
+      "time": "22:39",
+      "symbols": []
+    }
+  ],
+  "served_lines": [
+    {
+      "line": "25",
+      "main_direction": "Chrzanów Szpital",
+      "page": "rozklady/25/1307-chrzanow.html"
+    },
+    {
+      "line": "25",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "page": "rozklady/25/1307-krzeszowice.html"
+    }
+  ],
+  "legends": {
+    "25": {}
+  }
+}
