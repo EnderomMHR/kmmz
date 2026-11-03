@@ -34,6 +34,26 @@
       "symbols": []
     },
     {
+      "line": "27",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/27/1486-krzeszowice.html",
+      "day_type": "saturday",
+      "time": "15:10",
+      "symbols": []
+    },
+    {
+      "line": "27",
+      "main_direction": "Alwernia Skowronek",
+      "display_direction": "Alwernia Skowronek",
+      "direction_slug": "alwernia",
+      "page": "rozklady/27/1486-alwernia.html",
+      "day_type": "saturday",
+      "time": "16:18",
+      "symbols": []
+    },
+    {
       "line": "14",
       "main_direction": "Chrzanów Dworzec Autobusowy",
       "display_direction": "Chrzanów Dworzec Autobusowy",
@@ -41,6 +61,26 @@
       "page": "rozklady/14/1486-chrzanow.html",
       "day_type": "saturday",
       "time": "17:51",
+      "symbols": []
+    },
+    {
+      "line": "27",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/27/1486-krzeszowice.html",
+      "day_type": "saturday",
+      "time": "19:22",
+      "symbols": []
+    },
+    {
+      "line": "27",
+      "main_direction": "Alwernia Skowronek",
+      "display_direction": "Alwernia Skowronek",
+      "direction_slug": "alwernia",
+      "page": "rozklady/27/1486-alwernia.html",
+      "day_type": "saturday",
+      "time": "20:13",
       "symbols": []
     },
     {
@@ -64,6 +104,16 @@
       "symbols": []
     },
     {
+      "line": "27",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/27/1486-krzeszowice.html",
+      "day_type": "sunday",
+      "time": "13:34",
+      "symbols": []
+    },
+    {
       "line": "14",
       "main_direction": "Chrzanów Dworzec Autobusowy",
       "display_direction": "Chrzanów Dworzec Autobusowy",
@@ -81,6 +131,16 @@
       "page": "rozklady/14/1486-chrzanow.html",
       "day_type": "sunday",
       "time": "17:32",
+      "symbols": []
+    },
+    {
+      "line": "27",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/27/1486-krzeszowice.html",
+      "day_type": "workday",
+      "time": "06:25",
       "symbols": []
     },
     {
@@ -103,6 +163,16 @@
       "page": "rozklady/14/1486-chrzanow.html",
       "day_type": "workday",
       "time": "07:26",
+      "symbols": []
+    },
+    {
+      "line": "27",
+      "main_direction": "Alwernia Skowronek",
+      "display_direction": "Alwernia Skowronek",
+      "direction_slug": "alwernia",
+      "page": "rozklady/27/1486-alwernia.html",
+      "day_type": "workday",
+      "time": "07:53",
       "symbols": []
     },
     {
@@ -136,6 +206,16 @@
       "symbols": []
     },
     {
+      "line": "27",
+      "main_direction": "Alwernia Skowronek",
+      "display_direction": "Alwernia Skowronek",
+      "direction_slug": "alwernia",
+      "page": "rozklady/27/1486-alwernia.html",
+      "day_type": "workday",
+      "time": "13:58",
+      "symbols": []
+    },
+    {
       "line": "14",
       "main_direction": "Chrzanów Dworzec Autobusowy",
       "display_direction": "Chrzanów Dworzec Autobusowy",
@@ -143,6 +223,26 @@
       "page": "rozklady/14/1486-chrzanow.html",
       "day_type": "workday",
       "time": "14:16",
+      "symbols": []
+    },
+    {
+      "line": "27",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/27/1486-krzeszowice.html",
+      "day_type": "workday",
+      "time": "14:30",
+      "symbols": []
+    },
+    {
+      "line": "27",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/27/1486-krzeszowice.html",
+      "day_type": "workday",
+      "time": "16:32",
       "symbols": []
     },
     {
@@ -171,11 +271,25 @@
       "line": "14",
       "main_direction": "Chrzanów Dworzec Autobusowy",
       "page": "rozklady/14/1486-chrzanow.html"
+    },
+    {
+      "line": "27",
+      "main_direction": "Alwernia Skowronek",
+      "page": "rozklady/27/1486-alwernia.html"
+    },
+    {
+      "line": "27",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "page": "rozklady/27/1486-krzeszowice.html"
     }
   ],
   "legends": {
     "14": {
       "S": "przez: Chrzanów Szpital"
+    },
+    "27": {
+      "G": "przez: Grojec Zajezdnia",
+      "Z": "przez: Grojec Szkoła>>Zalas Remiza"
     }
   }
 }

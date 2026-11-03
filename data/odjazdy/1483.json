@@ -4,6 +4,16 @@
   "platform": "1",
   "departures": [
     {
+      "line": "27",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/27/1483-krzeszowice.html",
+      "day_type": "holiday",
+      "time": "08:35",
+      "symbols": []
+    },
+    {
       "line": "14",
       "main_direction": "Grojec Zajezdnia",
       "display_direction": "Grojec Zajezdnia",
@@ -24,6 +34,26 @@
       "symbols": [
         "G"
       ]
+    },
+    {
+      "line": "27",
+      "main_direction": "Alwernia Skowronek",
+      "display_direction": "Alwernia Skowronek",
+      "direction_slug": "alwernia",
+      "page": "rozklady/27/1483-alwernia.html",
+      "day_type": "holiday",
+      "time": "12:04",
+      "symbols": []
+    },
+    {
+      "line": "27",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/27/1483-krzeszowice.html",
+      "day_type": "holiday",
+      "time": "12:36",
+      "symbols": []
     },
     {
       "line": "14",
@@ -58,6 +88,16 @@
       ]
     },
     {
+      "line": "27",
+      "main_direction": "Alwernia Skowronek",
+      "display_direction": "Alwernia Skowronek",
+      "direction_slug": "alwernia",
+      "page": "rozklady/27/1483-alwernia.html",
+      "day_type": "saturday",
+      "time": "05:59",
+      "symbols": []
+    },
+    {
       "line": "14",
       "main_direction": "Grojec Zajezdnia",
       "display_direction": "Sanka Głuchówki",
@@ -68,6 +108,16 @@
       "symbols": [
         "G"
       ]
+    },
+    {
+      "line": "27",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/27/1483-krzeszowice.html",
+      "day_type": "saturday",
+      "time": "08:35",
+      "symbols": []
     },
     {
       "line": "14",
@@ -92,6 +142,26 @@
       ]
     },
     {
+      "line": "27",
+      "main_direction": "Alwernia Skowronek",
+      "display_direction": "Alwernia Skowronek",
+      "direction_slug": "alwernia",
+      "page": "rozklady/27/1483-alwernia.html",
+      "day_type": "saturday",
+      "time": "12:04",
+      "symbols": []
+    },
+    {
+      "line": "27",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/27/1483-krzeszowice.html",
+      "day_type": "saturday",
+      "time": "12:36",
+      "symbols": []
+    },
+    {
       "line": "14",
       "main_direction": "Grojec Zajezdnia",
       "display_direction": "Grojec Zajezdnia",
@@ -102,6 +172,16 @@
       "symbols": []
     },
     {
+      "line": "27",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/27/1483-krzeszowice.html",
+      "day_type": "saturday",
+      "time": "15:01",
+      "symbols": []
+    },
+    {
       "line": "14",
       "main_direction": "Grojec Zajezdnia",
       "display_direction": "Grojec Zajezdnia",
@@ -109,6 +189,16 @@
       "page": "rozklady/14/1483-grojec.html",
       "day_type": "saturday",
       "time": "15:34",
+      "symbols": []
+    },
+    {
+      "line": "27",
+      "main_direction": "Alwernia Skowronek",
+      "display_direction": "Alwernia Skowronek",
+      "direction_slug": "alwernia",
+      "page": "rozklady/27/1483-alwernia.html",
+      "day_type": "saturday",
+      "time": "16:09",
       "symbols": []
     },
     {
@@ -124,6 +214,26 @@
       ]
     },
     {
+      "line": "27",
+      "main_direction": "Alwernia Skowronek",
+      "display_direction": "Alwernia Skowronek",
+      "direction_slug": "alwernia",
+      "page": "rozklady/27/1483-alwernia.html",
+      "day_type": "saturday",
+      "time": "18:46",
+      "symbols": []
+    },
+    {
+      "line": "27",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/27/1483-krzeszowice.html",
+      "day_type": "saturday",
+      "time": "19:13",
+      "symbols": []
+    },
+    {
       "line": "14",
       "main_direction": "Grojec Zajezdnia",
       "display_direction": "Sanka Głuchówki",
@@ -136,6 +246,26 @@
       ]
     },
     {
+      "line": "27",
+      "main_direction": "Alwernia Skowronek",
+      "display_direction": "Alwernia Skowronek",
+      "direction_slug": "alwernia",
+      "page": "rozklady/27/1483-alwernia.html",
+      "day_type": "saturday",
+      "time": "20:04",
+      "symbols": []
+    },
+    {
+      "line": "27",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/27/1483-krzeszowice.html",
+      "day_type": "saturday",
+      "time": "20:38",
+      "symbols": []
+    },
+    {
       "line": "14",
       "main_direction": "Grojec Zajezdnia",
       "display_direction": "Grojec Zajezdnia",
@@ -143,6 +273,16 @@
       "page": "rozklady/14/1483-grojec.html",
       "day_type": "saturday",
       "time": "21:57",
+      "symbols": []
+    },
+    {
+      "line": "27",
+      "main_direction": "Alwernia Skowronek",
+      "display_direction": "Alwernia Skowronek",
+      "direction_slug": "alwernia",
+      "page": "rozklady/27/1483-alwernia.html",
+      "day_type": "sunday",
+      "time": "07:29",
       "symbols": []
     },
     {
@@ -168,6 +308,26 @@
       ]
     },
     {
+      "line": "27",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/27/1483-krzeszowice.html",
+      "day_type": "sunday",
+      "time": "10:39",
+      "symbols": []
+    },
+    {
+      "line": "27",
+      "main_direction": "Alwernia Skowronek",
+      "display_direction": "Alwernia Skowronek",
+      "direction_slug": "alwernia",
+      "page": "rozklady/27/1483-alwernia.html",
+      "day_type": "sunday",
+      "time": "11:34",
+      "symbols": []
+    },
+    {
       "line": "14",
       "main_direction": "Grojec Zajezdnia",
       "display_direction": "Sanka Głuchówki",
@@ -178,6 +338,16 @@
       "symbols": [
         "G"
       ]
+    },
+    {
+      "line": "27",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/27/1483-krzeszowice.html",
+      "day_type": "sunday",
+      "time": "13:25",
+      "symbols": []
     },
     {
       "line": "14",
@@ -202,6 +372,16 @@
       ]
     },
     {
+      "line": "27",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/27/1483-krzeszowice.html",
+      "day_type": "sunday",
+      "time": "18:50",
+      "symbols": []
+    },
+    {
       "line": "14",
       "main_direction": "Grojec Zajezdnia",
       "display_direction": "Grojec Zajezdnia",
@@ -212,6 +392,16 @@
       "symbols": []
     },
     {
+      "line": "27",
+      "main_direction": "Alwernia Skowronek",
+      "display_direction": "Alwernia Skowronek",
+      "direction_slug": "alwernia",
+      "page": "rozklady/27/1483-alwernia.html",
+      "day_type": "sunday",
+      "time": "20:56",
+      "symbols": []
+    },
+    {
       "line": "14",
       "main_direction": "Grojec Zajezdnia",
       "display_direction": "Grojec Zajezdnia",
@@ -219,6 +409,36 @@
       "page": "rozklady/14/1483-grojec.html",
       "day_type": "sunday",
       "time": "21:05",
+      "symbols": []
+    },
+    {
+      "line": "27",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/27/1483-krzeszowice.html",
+      "day_type": "sunday",
+      "time": "21:25",
+      "symbols": []
+    },
+    {
+      "line": "27",
+      "main_direction": "Alwernia Skowronek",
+      "display_direction": "Alwernia Skowronek",
+      "direction_slug": "alwernia",
+      "page": "rozklady/27/1483-alwernia.html",
+      "day_type": "workday",
+      "time": "05:49",
+      "symbols": []
+    },
+    {
+      "line": "27",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/27/1483-krzeszowice.html",
+      "day_type": "workday",
+      "time": "06:16",
       "symbols": []
     },
     {
@@ -234,6 +454,16 @@
       ]
     },
     {
+      "line": "27",
+      "main_direction": "Alwernia Skowronek",
+      "display_direction": "Alwernia Skowronek",
+      "direction_slug": "alwernia",
+      "page": "rozklady/27/1483-alwernia.html",
+      "day_type": "workday",
+      "time": "07:44",
+      "symbols": []
+    },
+    {
       "line": "14",
       "main_direction": "Grojec Zajezdnia",
       "display_direction": "Sanka Głuchówki",
@@ -246,6 +476,16 @@
       ]
     },
     {
+      "line": "27",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/27/1483-krzeszowice.html",
+      "day_type": "workday",
+      "time": "08:20",
+      "symbols": []
+    },
+    {
       "line": "14",
       "main_direction": "Grojec Zajezdnia",
       "display_direction": "Grojec Zajezdnia",
@@ -256,6 +496,26 @@
       "symbols": []
     },
     {
+      "line": "27",
+      "main_direction": "Alwernia Skowronek",
+      "display_direction": "Alwernia Skowronek",
+      "direction_slug": "alwernia",
+      "page": "rozklady/27/1483-alwernia.html",
+      "day_type": "workday",
+      "time": "09:29",
+      "symbols": []
+    },
+    {
+      "line": "27",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/27/1483-krzeszowice.html",
+      "day_type": "workday",
+      "time": "09:33",
+      "symbols": []
+    },
+    {
       "line": "14",
       "main_direction": "Grojec Zajezdnia",
       "display_direction": "Grojec Zajezdnia",
@@ -263,6 +523,16 @@
       "page": "rozklady/14/1483-grojec.html",
       "day_type": "workday",
       "time": "10:35",
+      "symbols": []
+    },
+    {
+      "line": "27",
+      "main_direction": "Alwernia Skowronek",
+      "display_direction": "Alwernia Skowronek",
+      "direction_slug": "alwernia",
+      "page": "rozklady/27/1483-alwernia.html",
+      "day_type": "workday",
+      "time": "10:44",
       "symbols": []
     },
     {
@@ -300,6 +570,26 @@
       ]
     },
     {
+      "line": "27",
+      "main_direction": "Alwernia Skowronek",
+      "display_direction": "Alwernia Skowronek",
+      "direction_slug": "alwernia",
+      "page": "rozklady/27/1483-alwernia.html",
+      "day_type": "workday",
+      "time": "13:49",
+      "symbols": []
+    },
+    {
+      "line": "27",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/27/1483-krzeszowice.html",
+      "day_type": "workday",
+      "time": "14:21",
+      "symbols": []
+    },
+    {
       "line": "14",
       "main_direction": "Grojec Zajezdnia",
       "display_direction": "Grojec Zajezdnia",
@@ -307,6 +597,16 @@
       "page": "rozklady/14/1483-grojec.html",
       "day_type": "workday",
       "time": "14:38",
+      "symbols": []
+    },
+    {
+      "line": "27",
+      "main_direction": "Alwernia Skowronek",
+      "display_direction": "Alwernia Skowronek",
+      "direction_slug": "alwernia",
+      "page": "rozklady/27/1483-alwernia.html",
+      "day_type": "workday",
+      "time": "14:59",
       "symbols": []
     },
     {
@@ -322,6 +622,26 @@
       ]
     },
     {
+      "line": "27",
+      "main_direction": "Alwernia Skowronek",
+      "display_direction": "Alwernia Skowronek",
+      "direction_slug": "alwernia",
+      "page": "rozklady/27/1483-alwernia.html",
+      "day_type": "workday",
+      "time": "15:49",
+      "symbols": []
+    },
+    {
+      "line": "27",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/27/1483-krzeszowice.html",
+      "day_type": "workday",
+      "time": "16:23",
+      "symbols": []
+    },
+    {
       "line": "14",
       "main_direction": "Grojec Zajezdnia",
       "display_direction": "Grojec Zajezdnia",
@@ -329,6 +649,16 @@
       "page": "rozklady/14/1483-grojec.html",
       "day_type": "workday",
       "time": "16:26",
+      "symbols": []
+    },
+    {
+      "line": "27",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/27/1483-krzeszowice.html",
+      "day_type": "workday",
+      "time": "17:44",
       "symbols": []
     },
     {
@@ -351,6 +681,26 @@
       "page": "rozklady/14/1483-grojec.html",
       "day_type": "workday",
       "time": "18:47",
+      "symbols": []
+    },
+    {
+      "line": "27",
+      "main_direction": "Alwernia Skowronek",
+      "display_direction": "Alwernia Skowronek",
+      "direction_slug": "alwernia",
+      "page": "rozklady/27/1483-alwernia.html",
+      "day_type": "workday",
+      "time": "19:59",
+      "symbols": []
+    },
+    {
+      "line": "27",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/27/1483-krzeszowice.html",
+      "day_type": "workday",
+      "time": "20:28",
       "symbols": []
     },
     {
@@ -379,12 +729,26 @@
       "line": "14",
       "main_direction": "Grojec Zajezdnia",
       "page": "rozklady/14/1483-grojec.html"
+    },
+    {
+      "line": "27",
+      "main_direction": "Alwernia Skowronek",
+      "page": "rozklady/27/1483-alwernia.html"
+    },
+    {
+      "line": "27",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "page": "rozklady/27/1483-krzeszowice.html"
     }
   ],
   "legends": {
     "14": {
       "G": "do: Sanka Głuchówki",
       "S": "przez: Chrzanów Szpital"
+    },
+    "27": {
+      "G": "przez: Grojec Zajezdnia",
+      "Z": "przez: Grojec Szkoła>>Zalas Remiza"
     }
   }
 }
