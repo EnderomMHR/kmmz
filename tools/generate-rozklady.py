@@ -685,15 +685,18 @@ def render_day_sections_for_line_page(departures):
     html = []
 
     for day_type, label in DAY_LABELS.items():
-        if day_type not in departures:
+        values = departures.get(day_type, [])
+        if not values:
+            # Nie pokazuj pustych sekcji dni (np. niedziel i świąt)
+            # dla których z tego przystanku nie ma kursów danej linii.
             continue
 
         html.append(f"""
 <div class="section-title {escape(day_type)}">{escape(label)}</div>
-{render_times_for_line_page(departures.get(day_type, []))}
+{render_times_for_line_page(values)}
 """)
 
-    return "\n".join(html)
+    return "\n".join(html) if html else '<div class="no-service">Brak kursów</div>'
     
 
 def render_route_stops(route_stops, current_file):
