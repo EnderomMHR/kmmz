@@ -87,6 +87,16 @@
       ]
     },
     {
+      "line": "26",
+      "main_direction": "Rozkochów Cisowa",
+      "display_direction": "Rozkochów Cisowa",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0115-okrezna.html",
+      "day_type": "workday",
+      "time": "04:55",
+      "symbols": []
+    },
+    {
       "line": "1",
       "main_direction": "Miękinia Stawiska",
       "display_direction": "Miękinia Stawiska",
@@ -99,6 +109,16 @@
       ]
     },
     {
+      "line": "26",
+      "main_direction": "Rozkochów Cisowa",
+      "display_direction": "Rozkochów Cisowa",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0115-okrezna.html",
+      "day_type": "workday",
+      "time": "06:48",
+      "symbols": []
+    },
+    {
       "line": "1",
       "main_direction": "Miękinia Stawiska",
       "display_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
@@ -109,6 +129,16 @@
       "symbols": [
         "K"
       ]
+    },
+    {
+      "line": "26",
+      "main_direction": "Rozkochów Cisowa",
+      "display_direction": "Rozkochów Cisowa",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0115-okrezna.html",
+      "day_type": "workday",
+      "time": "08:14",
+      "symbols": []
     },
     {
       "line": "1",
@@ -146,6 +176,16 @@
       ]
     },
     {
+      "line": "26",
+      "main_direction": "Rozkochów Cisowa",
+      "display_direction": "Rozkochów Cisowa",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0115-okrezna.html",
+      "day_type": "workday",
+      "time": "12:11",
+      "symbols": []
+    },
+    {
       "line": "1",
       "main_direction": "Miękinia Stawiska",
       "display_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
@@ -159,6 +199,16 @@
       ]
     },
     {
+      "line": "26",
+      "main_direction": "Rozkochów Cisowa",
+      "display_direction": "Rozkochów Cisowa",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0115-okrezna.html",
+      "day_type": "workday",
+      "time": "14:15",
+      "symbols": []
+    },
+    {
       "line": "1",
       "main_direction": "Miękinia Stawiska",
       "display_direction": "Miękinia Stawiska",
@@ -166,6 +216,16 @@
       "page": "rozklady/1/0115_miekinia.html",
       "day_type": "workday",
       "time": "15:29",
+      "symbols": []
+    },
+    {
+      "line": "26",
+      "main_direction": "Rozkochów Cisowa",
+      "display_direction": "Rozkochów Cisowa",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0115-okrezna.html",
+      "day_type": "workday",
+      "time": "15:42",
       "symbols": []
     },
     {
@@ -211,6 +271,11 @@
       "line": "1",
       "main_direction": "Miękinia Stawiska",
       "page": "rozklady/1/0115_miekinia.html"
+    },
+    {
+      "line": "26",
+      "main_direction": "Rozkochów Cisowa",
+      "page": "rozklady/26/0115-okrezna.html"
     }
   ],
   "legends": {
@@ -218,6 +283,9 @@
       "K": "do: Krzeszowice Czatkowice Dolne Kopalnia",
       "M": "przez: Młoszowa Wzgórze II",
       "V": "przez: Chrzanów Valeo, z pominięciem: Trzebinia Berezka"
+    },
+    "26": {
+      "Z": "przez: Żarki Zagórcze"
     }
   }
 }

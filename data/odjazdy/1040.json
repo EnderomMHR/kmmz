@@ -1,0 +1,83 @@
+{
+  "stop_id": "1040",
+  "stop_name": "Babice Włosień",
+  "platform": "2",
+  "departures": [
+    {
+      "line": "26",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/1040-okrezna.html",
+      "day_type": "workday",
+      "time": "04:14",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "26",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/1040-okrezna.html",
+      "day_type": "workday",
+      "time": "06:11",
+      "symbols": []
+    },
+    {
+      "line": "26",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/1040-okrezna.html",
+      "day_type": "workday",
+      "time": "07:37",
+      "symbols": []
+    },
+    {
+      "line": "26",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/1040-okrezna.html",
+      "day_type": "workday",
+      "time": "11:34",
+      "symbols": []
+    },
+    {
+      "line": "26",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/1040-okrezna.html",
+      "day_type": "workday",
+      "time": "13:34",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
+      "line": "26",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/1040-okrezna.html",
+      "day_type": "workday",
+      "time": "15:05",
+      "symbols": []
+    }
+  ],
+  "served_lines": [
+    {
+      "line": "26",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "page": "rozklady/26/1040-okrezna.html"
+    }
+  ],
+  "legends": {
+    "26": {
+      "Z": "przez: Żarki Zagórcze"
+    }
+  }
+}

@@ -164,6 +164,16 @@
       "symbols": []
     },
     {
+      "line": "26",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/1087-okrezna.html",
+      "day_type": "workday",
+      "time": "04:26",
+      "symbols": []
+    },
+    {
       "line": "12",
       "main_direction": "Jawiszowice Kółko",
       "display_direction": "Jawiszowice Kółko",
@@ -221,6 +231,16 @@
       "page": "rozklady/12/1087-jawiszowice.html",
       "day_type": "workday",
       "time": "13:07",
+      "symbols": []
+    },
+    {
+      "line": "26",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/1087-okrezna.html",
+      "day_type": "workday",
+      "time": "13:46",
       "symbols": []
     },
     {
@@ -289,9 +309,17 @@
       "line": "12",
       "main_direction": "Jawiszowice Kółko",
       "page": "rozklady/12/1087-jawiszowice.html"
+    },
+    {
+      "line": "26",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "page": "rozklady/26/1087-okrezna.html"
     }
   ],
   "legends": {
-    "12": {}
+    "12": {},
+    "26": {
+      "Z": "przez: Żarki Zagórcze"
+    }
   }
 }

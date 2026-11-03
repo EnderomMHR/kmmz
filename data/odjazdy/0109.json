@@ -669,6 +669,16 @@
       ]
     },
     {
+      "line": "26",
+      "main_direction": "Rozkochów Cisowa",
+      "display_direction": "Rozkochów Cisowa",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0109-okrezna.html",
+      "day_type": "workday",
+      "time": "04:46",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Trzebinia Dworzec PKP",
@@ -737,6 +747,16 @@
       "symbols": []
     },
     {
+      "line": "26",
+      "main_direction": "Rozkochów Cisowa",
+      "display_direction": "Rozkochów Cisowa",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0109-okrezna.html",
+      "day_type": "workday",
+      "time": "06:39",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Młoszowa Florkiewicza",
@@ -798,6 +818,16 @@
       "page": "rozklady/4/0109-trzebinia.html",
       "day_type": "workday",
       "time": "07:55",
+      "symbols": []
+    },
+    {
+      "line": "26",
+      "main_direction": "Rozkochów Cisowa",
+      "display_direction": "Rozkochów Cisowa",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0109-okrezna.html",
+      "day_type": "workday",
+      "time": "08:05",
       "symbols": []
     },
     {
@@ -950,6 +980,16 @@
       ]
     },
     {
+      "line": "26",
+      "main_direction": "Rozkochów Cisowa",
+      "display_direction": "Rozkochów Cisowa",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0109-okrezna.html",
+      "day_type": "workday",
+      "time": "12:02",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Trzebinia Dworzec PKP",
@@ -1028,6 +1068,16 @@
       "symbols": []
     },
     {
+      "line": "26",
+      "main_direction": "Rozkochów Cisowa",
+      "display_direction": "Rozkochów Cisowa",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0109-okrezna.html",
+      "day_type": "workday",
+      "time": "14:06",
+      "symbols": []
+    },
+    {
       "line": "17",
       "main_direction": "Chrzanów Dworzec Autobusowy",
       "display_direction": "Chrzanów Dworzec Autobusowy",
@@ -1077,6 +1127,16 @@
       "page": "rozklady/17/0109-chrzanow.html",
       "day_type": "workday",
       "time": "15:23",
+      "symbols": []
+    },
+    {
+      "line": "26",
+      "main_direction": "Rozkochów Cisowa",
+      "display_direction": "Rozkochów Cisowa",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0109-okrezna.html",
+      "day_type": "workday",
+      "time": "15:33",
       "symbols": []
     },
     {
@@ -1273,6 +1333,11 @@
       "page": "rozklady/17/0109-chrzanow.html"
     },
     {
+      "line": "26",
+      "main_direction": "Rozkochów Cisowa",
+      "page": "rozklady/26/0109-okrezna.html"
+    },
+    {
       "line": "4",
       "main_direction": "Trzebinia Dworzec PKP",
       "page": "rozklady/4/0109-trzebinia.html"
@@ -1287,6 +1352,9 @@
     "17": {
       "J": "przez: Libiąż Kopalnia Janina",
       "L": "do: Libiąż Dworzec Autobusowy"
+    },
+    "26": {
+      "Z": "przez: Żarki Zagórcze"
     },
     "4": {
       "C": "do: Chrzanów Dworzec Autobusowy",

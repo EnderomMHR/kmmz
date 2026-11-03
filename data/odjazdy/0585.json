@@ -222,6 +222,16 @@
       "symbols": []
     },
     {
+      "line": "26",
+      "main_direction": "Rozkochów Cisowa",
+      "display_direction": "Rozkochów Cisowa",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0585-okrezna.html",
+      "day_type": "workday",
+      "time": "05:28",
+      "symbols": []
+    },
+    {
       "line": "14",
       "main_direction": "Grojec Zajezdnia",
       "display_direction": "Sanka Głuchówki",
@@ -234,6 +244,16 @@
       ]
     },
     {
+      "line": "26",
+      "main_direction": "Rozkochów Cisowa",
+      "display_direction": "Rozkochów Cisowa",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0585-okrezna.html",
+      "day_type": "workday",
+      "time": "07:21",
+      "symbols": []
+    },
+    {
       "line": "14",
       "main_direction": "Grojec Zajezdnia",
       "display_direction": "Sanka Głuchówki",
@@ -244,6 +264,16 @@
       "symbols": [
         "G"
       ]
+    },
+    {
+      "line": "26",
+      "main_direction": "Rozkochów Cisowa",
+      "display_direction": "Rozkochów Cisowa",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0585-okrezna.html",
+      "day_type": "workday",
+      "time": "08:47",
+      "symbols": []
     },
     {
       "line": "14",
@@ -288,6 +318,16 @@
       "symbols": []
     },
     {
+      "line": "26",
+      "main_direction": "Rozkochów Cisowa",
+      "display_direction": "Rozkochów Cisowa",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0585-okrezna.html",
+      "day_type": "workday",
+      "time": "12:44",
+      "symbols": []
+    },
+    {
       "line": "14",
       "main_direction": "Grojec Zajezdnia",
       "display_direction": "Sanka Głuchówki",
@@ -310,6 +350,16 @@
       "symbols": []
     },
     {
+      "line": "26",
+      "main_direction": "Rozkochów Cisowa",
+      "display_direction": "Rozkochów Cisowa",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0585-okrezna.html",
+      "day_type": "workday",
+      "time": "14:48",
+      "symbols": []
+    },
+    {
       "line": "14",
       "main_direction": "Grojec Zajezdnia",
       "display_direction": "Sanka Głuchówki",
@@ -329,6 +379,16 @@
       "page": "rozklady/14/0585-grojec.html",
       "day_type": "workday",
       "time": "16:09",
+      "symbols": []
+    },
+    {
+      "line": "26",
+      "main_direction": "Rozkochów Cisowa",
+      "display_direction": "Rozkochów Cisowa",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0585-okrezna.html",
+      "day_type": "workday",
+      "time": "16:15",
       "symbols": []
     },
     {
@@ -379,12 +439,20 @@
       "line": "14",
       "main_direction": "Grojec Zajezdnia",
       "page": "rozklady/14/0585-grojec.html"
+    },
+    {
+      "line": "26",
+      "main_direction": "Rozkochów Cisowa",
+      "page": "rozklady/26/0585-okrezna.html"
     }
   ],
   "legends": {
     "14": {
       "G": "do: Sanka Głuchówki",
       "S": "przez: Chrzanów Szpital"
+    },
+    "26": {
+      "Z": "przez: Żarki Zagórcze"
     }
   }
 }

@@ -1,0 +1,79 @@
+{
+  "stop_id": "0576",
+  "stop_name": "Pogorzyce Dwór",
+  "platform": "1",
+  "departures": [
+    {
+      "line": "26",
+      "main_direction": "Rozkochów Cisowa",
+      "display_direction": "Rozkochów Cisowa",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0576-okrezna.html",
+      "day_type": "workday",
+      "time": "05:16",
+      "symbols": []
+    },
+    {
+      "line": "26",
+      "main_direction": "Rozkochów Cisowa",
+      "display_direction": "Rozkochów Cisowa",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0576-okrezna.html",
+      "day_type": "workday",
+      "time": "07:09",
+      "symbols": []
+    },
+    {
+      "line": "26",
+      "main_direction": "Rozkochów Cisowa",
+      "display_direction": "Rozkochów Cisowa",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0576-okrezna.html",
+      "day_type": "workday",
+      "time": "08:35",
+      "symbols": []
+    },
+    {
+      "line": "26",
+      "main_direction": "Rozkochów Cisowa",
+      "display_direction": "Rozkochów Cisowa",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0576-okrezna.html",
+      "day_type": "workday",
+      "time": "12:32",
+      "symbols": []
+    },
+    {
+      "line": "26",
+      "main_direction": "Rozkochów Cisowa",
+      "display_direction": "Rozkochów Cisowa",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0576-okrezna.html",
+      "day_type": "workday",
+      "time": "14:36",
+      "symbols": []
+    },
+    {
+      "line": "26",
+      "main_direction": "Rozkochów Cisowa",
+      "display_direction": "Rozkochów Cisowa",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0576-okrezna.html",
+      "day_type": "workday",
+      "time": "16:03",
+      "symbols": []
+    }
+  ],
+  "served_lines": [
+    {
+      "line": "26",
+      "main_direction": "Rozkochów Cisowa",
+      "page": "rozklady/26/0576-okrezna.html"
+    }
+  ],
+  "legends": {
+    "26": {
+      "Z": "przez: Żarki Zagórcze"
+    }
+  }
+}

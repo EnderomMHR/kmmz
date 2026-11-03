@@ -644,6 +644,16 @@
       "symbols": []
     },
     {
+      "line": "26",
+      "main_direction": "Rozkochów Cisowa",
+      "display_direction": "Rozkochów Cisowa",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0093-okrezna.html",
+      "day_type": "workday",
+      "time": "05:02",
+      "symbols": []
+    },
+    {
       "line": "1",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Kopalnia Janina",
@@ -679,6 +689,16 @@
       "display_direction": "Chrzanów Dworzec Autobusowy",
       "direction_slug": "okrezna",
       "page": "rozklady/24/0093-okrezna.html",
+      "day_type": "workday",
+      "time": "06:55",
+      "symbols": []
+    },
+    {
+      "line": "26",
+      "main_direction": "Rozkochów Cisowa",
+      "display_direction": "Rozkochów Cisowa",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0093-okrezna.html",
       "day_type": "workday",
       "time": "06:55",
       "symbols": []
@@ -743,6 +763,16 @@
       "page": "rozklady/1/0093_libiaz.html",
       "day_type": "workday",
       "time": "08:05",
+      "symbols": []
+    },
+    {
+      "line": "26",
+      "main_direction": "Rozkochów Cisowa",
+      "display_direction": "Rozkochów Cisowa",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0093-okrezna.html",
+      "day_type": "workday",
+      "time": "08:21",
       "symbols": []
     },
     {
@@ -856,6 +886,16 @@
       "symbols": []
     },
     {
+      "line": "26",
+      "main_direction": "Rozkochów Cisowa",
+      "display_direction": "Rozkochów Cisowa",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0093-okrezna.html",
+      "day_type": "workday",
+      "time": "12:18",
+      "symbols": []
+    },
+    {
       "line": "24",
       "main_direction": "Chrzanów Dworzec Autobusowy",
       "display_direction": "Chrzanów Dworzec Autobusowy",
@@ -896,6 +936,16 @@
       "symbols": []
     },
     {
+      "line": "26",
+      "main_direction": "Rozkochów Cisowa",
+      "display_direction": "Rozkochów Cisowa",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0093-okrezna.html",
+      "day_type": "workday",
+      "time": "14:22",
+      "symbols": []
+    },
+    {
       "line": "1",
       "main_direction": "Libiąż Kopalnia Janina",
       "display_direction": "Libiąż Kopalnia Janina",
@@ -933,6 +983,16 @@
       "page": "rozklady/25/0093-krzeszowice.html",
       "day_type": "workday",
       "time": "15:48",
+      "symbols": []
+    },
+    {
+      "line": "26",
+      "main_direction": "Rozkochów Cisowa",
+      "display_direction": "Rozkochów Cisowa",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0093-okrezna.html",
+      "day_type": "workday",
+      "time": "15:49",
       "symbols": []
     },
     {
@@ -1115,6 +1175,11 @@
       "line": "25",
       "main_direction": "Krzeszowice Dworzec Autobusowy",
       "page": "rozklady/25/0093-krzeszowice.html"
+    },
+    {
+      "line": "26",
+      "main_direction": "Rozkochów Cisowa",
+      "page": "rozklady/26/0093-okrezna.html"
     }
   ],
   "legends": {
@@ -1128,6 +1193,9 @@
     "24": {
       "F": "przez: Chrzanów Fablok"
     },
-    "25": {}
+    "25": {},
+    "26": {
+      "Z": "przez: Żarki Zagórcze"
+    }
   }
 }

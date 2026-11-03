@@ -1521,6 +1521,16 @@
       "symbols": []
     },
     {
+      "line": "26",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0105-okrezna.html",
+      "day_type": "workday",
+      "time": "04:38",
+      "symbols": []
+    },
+    {
       "line": "17",
       "main_direction": "Mętków Mały",
       "display_direction": "Mętków Mały",
@@ -1639,6 +1649,16 @@
       "symbols": []
     },
     {
+      "line": "26",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0105-okrezna.html",
+      "day_type": "workday",
+      "time": "06:31",
+      "symbols": []
+    },
+    {
       "line": "4",
       "main_direction": "Chełmek Młyny",
       "display_direction": "Chełmek Młyny",
@@ -1740,6 +1760,16 @@
       "page": "rozklady/4/0105-libiaz.html",
       "day_type": "workday",
       "time": "07:55",
+      "symbols": []
+    },
+    {
+      "line": "26",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0105-okrezna.html",
+      "day_type": "workday",
+      "time": "07:57",
       "symbols": []
     },
     {
@@ -1956,6 +1986,16 @@
       ]
     },
     {
+      "line": "26",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0105-okrezna.html",
+      "day_type": "workday",
+      "time": "11:54",
+      "symbols": []
+    },
+    {
       "line": "12",
       "main_direction": "Jawiszowice Kółko",
       "display_direction": "Jawiszowice Kółko",
@@ -2114,6 +2154,16 @@
       "symbols": []
     },
     {
+      "line": "26",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0105-okrezna.html",
+      "day_type": "workday",
+      "time": "13:58",
+      "symbols": []
+    },
+    {
       "line": "17",
       "main_direction": "Mętków Mały",
       "display_direction": "Mętków Mały",
@@ -2235,6 +2285,16 @@
       "page": "rozklady/12/0105-jawiszowice.html",
       "day_type": "workday",
       "time": "15:23",
+      "symbols": []
+    },
+    {
+      "line": "26",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0105-okrezna.html",
+      "day_type": "workday",
+      "time": "15:25",
       "symbols": []
     },
     {
@@ -2671,6 +2731,11 @@
       "page": "rozklady/20/0105-bobrek.html"
     },
     {
+      "line": "26",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "page": "rozklady/26/0105-okrezna.html"
+    },
+    {
       "line": "4",
       "main_direction": "Chełmek Młyny",
       "page": "rozklady/4/0105-libiaz.html"
@@ -2694,6 +2759,9 @@
     },
     "20": {
       "J": "do: Libiąż Kopalnia Janina"
+    },
+    "26": {
+      "Z": "przez: Żarki Zagórcze"
     },
     "4": {
       "C": "do: Chrzanów Dworzec Autobusowy",

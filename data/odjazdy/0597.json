@@ -196,6 +196,18 @@
       "symbols": []
     },
     {
+      "line": "26",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0597-okrezna.html",
+      "day_type": "workday",
+      "time": "04:18",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
       "line": "14",
       "main_direction": "Chrzanów Dworzec Autobusowy",
       "display_direction": "Chrzanów Dworzec Autobusowy",
@@ -203,6 +215,16 @@
       "page": "rozklady/14/0597-chrzanow.html",
       "day_type": "workday",
       "time": "05:17",
+      "symbols": []
+    },
+    {
+      "line": "26",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0597-okrezna.html",
+      "day_type": "workday",
+      "time": "06:15",
       "symbols": []
     },
     {
@@ -216,6 +238,16 @@
       "symbols": [
         "S"
       ]
+    },
+    {
+      "line": "26",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0597-okrezna.html",
+      "day_type": "workday",
+      "time": "07:41",
+      "symbols": []
     },
     {
       "line": "14",
@@ -260,6 +292,16 @@
       "symbols": []
     },
     {
+      "line": "26",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0597-okrezna.html",
+      "day_type": "workday",
+      "time": "11:38",
+      "symbols": []
+    },
+    {
       "line": "14",
       "main_direction": "Chrzanów Dworzec Autobusowy",
       "display_direction": "Chrzanów Dworzec Autobusowy",
@@ -280,6 +322,18 @@
       "symbols": []
     },
     {
+      "line": "26",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0597-okrezna.html",
+      "day_type": "workday",
+      "time": "13:38",
+      "symbols": [
+        "Z"
+      ]
+    },
+    {
       "line": "14",
       "main_direction": "Chrzanów Dworzec Autobusowy",
       "display_direction": "Chrzanów Dworzec Autobusowy",
@@ -297,6 +351,16 @@
       "page": "rozklady/14/0597-chrzanow.html",
       "day_type": "workday",
       "time": "14:33",
+      "symbols": []
+    },
+    {
+      "line": "26",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0597-okrezna.html",
+      "day_type": "workday",
+      "time": "15:09",
       "symbols": []
     },
     {
@@ -357,11 +421,19 @@
       "line": "14",
       "main_direction": "Chrzanów Dworzec Autobusowy",
       "page": "rozklady/14/0597-chrzanow.html"
+    },
+    {
+      "line": "26",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "page": "rozklady/26/0597-okrezna.html"
     }
   ],
   "legends": {
     "14": {
       "S": "przez: Chrzanów Szpital"
+    },
+    "26": {
+      "Z": "przez: Żarki Zagórcze"
     }
   }
 }

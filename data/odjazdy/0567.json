@@ -284,6 +284,16 @@
       "symbols": []
     },
     {
+      "line": "26",
+      "main_direction": "Rozkochów Cisowa",
+      "display_direction": "Rozkochów Cisowa",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0567-okrezna.html",
+      "day_type": "workday",
+      "time": "05:06",
+      "symbols": []
+    },
+    {
       "line": "19",
       "main_direction": "Chrzanów Osiedle Młodości Witosa",
       "display_direction": "Chrzanów Osiedle Młodości Witosa",
@@ -301,6 +311,26 @@
       "page": "rozklady/19/0567-chrzanow.html",
       "day_type": "workday",
       "time": "06:50",
+      "symbols": []
+    },
+    {
+      "line": "26",
+      "main_direction": "Rozkochów Cisowa",
+      "display_direction": "Rozkochów Cisowa",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0567-okrezna.html",
+      "day_type": "workday",
+      "time": "06:59",
+      "symbols": []
+    },
+    {
+      "line": "26",
+      "main_direction": "Rozkochów Cisowa",
+      "display_direction": "Rozkochów Cisowa",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0567-okrezna.html",
+      "day_type": "workday",
+      "time": "08:25",
       "symbols": []
     },
     {
@@ -334,6 +364,16 @@
       "symbols": []
     },
     {
+      "line": "26",
+      "main_direction": "Rozkochów Cisowa",
+      "display_direction": "Rozkochów Cisowa",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0567-okrezna.html",
+      "day_type": "workday",
+      "time": "12:22",
+      "symbols": []
+    },
+    {
       "line": "19",
       "main_direction": "Chrzanów Osiedle Młodości Witosa",
       "display_direction": "Chrzanów Osiedle Młodości Witosa",
@@ -344,6 +384,16 @@
       "symbols": []
     },
     {
+      "line": "26",
+      "main_direction": "Rozkochów Cisowa",
+      "display_direction": "Rozkochów Cisowa",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0567-okrezna.html",
+      "day_type": "workday",
+      "time": "14:26",
+      "symbols": []
+    },
+    {
       "line": "19",
       "main_direction": "Chrzanów Osiedle Młodości Witosa",
       "display_direction": "Chrzanów Osiedle Młodości Witosa",
@@ -351,6 +401,16 @@
       "page": "rozklady/19/0567-chrzanow.html",
       "day_type": "workday",
       "time": "14:52",
+      "symbols": []
+    },
+    {
+      "line": "26",
+      "main_direction": "Rozkochów Cisowa",
+      "display_direction": "Rozkochów Cisowa",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0567-okrezna.html",
+      "day_type": "workday",
+      "time": "15:53",
       "symbols": []
     },
     {
@@ -409,12 +469,20 @@
       "line": "19",
       "main_direction": "Chrzanów Osiedle Młodości Witosa",
       "page": "rozklady/19/0567-chrzanow.html"
+    },
+    {
+      "line": "26",
+      "main_direction": "Rozkochów Cisowa",
+      "page": "rozklady/26/0567-okrezna.html"
     }
   ],
   "legends": {
     "19": {
       "H": "przez: Trzebinia Harcerska Przychodnia",
       "V": "przez: Chrzanów Valeo, z pominięciem: Trzebinia Berezka"
+    },
+    "26": {
+      "Z": "przez: Żarki Zagórcze"
     }
   }
 }

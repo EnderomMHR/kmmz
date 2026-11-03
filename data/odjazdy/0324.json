@@ -343,6 +343,16 @@
       ]
     },
     {
+      "line": "26",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0324-okrezna.html",
+      "day_type": "workday",
+      "time": "06:23",
+      "symbols": []
+    },
+    {
       "line": "17",
       "main_direction": "Chrzanów Dworzec Autobusowy",
       "display_direction": "Chrzanów Dworzec Autobusowy",
@@ -362,6 +372,16 @@
       "page": "rozklady/17/0324-chrzanow.html",
       "day_type": "workday",
       "time": "07:38",
+      "symbols": []
+    },
+    {
+      "line": "26",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0324-okrezna.html",
+      "day_type": "workday",
+      "time": "07:49",
       "symbols": []
     },
     {
@@ -417,6 +437,16 @@
       "symbols": []
     },
     {
+      "line": "26",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0324-okrezna.html",
+      "day_type": "workday",
+      "time": "11:46",
+      "symbols": []
+    },
+    {
       "line": "17",
       "main_direction": "Chrzanów Dworzec Autobusowy",
       "display_direction": "Chrzanów Dworzec Autobusowy",
@@ -461,6 +491,16 @@
       "symbols": [
         "J"
       ]
+    },
+    {
+      "line": "26",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "okrezna",
+      "page": "rozklady/26/0324-okrezna.html",
+      "day_type": "workday",
+      "time": "15:17",
+      "symbols": []
     },
     {
       "line": "17",
@@ -539,12 +579,20 @@
       "line": "17",
       "main_direction": "Chrzanów Dworzec Autobusowy",
       "page": "rozklady/17/0324-chrzanow.html"
+    },
+    {
+      "line": "26",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "page": "rozklady/26/0324-okrezna.html"
     }
   ],
   "legends": {
     "17": {
       "J": "przez: Libiąż Kopalnia Janina",
       "L": "do: Libiąż Dworzec Autobusowy"
+    },
+    "26": {
+      "Z": "przez: Żarki Zagórcze"
     }
   }
 }
