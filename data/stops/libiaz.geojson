@@ -6,7 +6,7 @@
     {"type":"Feature","properties":{"stop_id":"0105","name":"Libiąż Kopalnia Janina","platform":"0","zone":"Libiąż"},"geometry":{"type":"Point","coordinates":[19.32953,50.09607]}},
     {"type":"Feature","properties":{"stop_id":"0107","name":"Libiąż Dworzec Autobusowy","platform":"2","zone":"Libiąż"},"geometry":{"type":"Point","coordinates":[19.33031,50.10649]}},
     {"type":"Feature","properties":{"stop_id":"0108","name":"Libiąż Chrzanowska Kamieniec","platform":"1","zone":"Libiąż"},"geometry":{"type":"Point","coordinates":[19.33889,50.10998]}},
-    {"type":"Feature","properties":{"stop_id":"0314","name":"Żarki Bębenki","platform":"1","zone":"Libiąż"},"geometry":{"type":"Point","coordinates":[19.35896,50.05204]}},
+    {"type":"Feature","properties":{"stop_id":"0314","name":"Żarki Bębenki Granica","platform":"1","zone":"Libiąż"},"geometry":{"type":"Point","coordinates":[19.35896,50.05204]}},
     {"type":"Feature","properties":{"stop_id":"0315","name":"Żarki Stawy","platform":"1","zone":"Libiąż"},"geometry":{"type":"Point","coordinates":[19.34885,50.06299]}},
     {"type":"Feature","properties":{"stop_id":"0316","name":"Żarki Ziajki","platform":"0","zone":"Libiąż"},"geometry":{"type":"Point","coordinates":[19.34414,50.05655]}},
     {"type":"Feature","properties":{"stop_id":"0317","name":"Żarki Kilińskiego","platform":"1","zone":"Libiąż"},"geometry":{"type":"Point","coordinates":[19.35034,50.07446]}},
@@ -34,7 +34,7 @@
     {"type":"Feature","properties":{"stop_id":"0346","name":"Żarki Krakusa","platform":"2","zone":"Libiąż"},"geometry":{"type":"Point","coordinates":[19.34424,50.07522]}},
     {"type":"Feature","properties":{"stop_id":"0347","name":"Żarki Ks. Jana Mroza Krzyżówka","platform":"2","zone":"Libiąż"},"geometry":{"type":"Point","coordinates":[19.34807,50.07878]}},
     {"type":"Feature","properties":{"stop_id":"0348","name":"Żarki Kilińskiego","platform":"2","zone":"Libiąż"},"geometry":{"type":"Point","coordinates":[19.35002,50.07461]}},
-    {"type":"Feature","properties":{"stop_id":"0349","name":"Żarki Bębenki","platform":"2","zone":"Libiąż"},"geometry":{"type":"Point","coordinates":[19.35871,50.052]}},
+    {"type":"Feature","properties":{"stop_id":"0349","name":"Żarki Bębenki Granica","platform":"2","zone":"Libiąż"},"geometry":{"type":"Point","coordinates":[19.35871,50.052]}},
     {"type":"Feature","properties":{"stop_id":"0359","name":"Libiąż Os. Flagówka Pawilon","platform":"1","zone":"Libiąż"},"geometry":{"type":"Point","coordinates":[19.32896,50.10275]}},
     {"type":"Feature","properties":{"stop_id":"0360","name":"Libiąż Os. Flagówka I","platform":"1","zone":"Libiąż"},"geometry":{"type":"Point","coordinates":[19.3237,50.102]}},
     {"type":"Feature","properties":{"stop_id":"0361","name":"Libiąż Os. Flagówka II","platform":"1","zone":"Libiąż"},"geometry":{"type":"Point","coordinates":[19.31736,50.10181]}},
@@ -124,6 +124,8 @@
     {"type":"Feature","properties":{"stop_id":"1530","name":"Libiąż Gromiecka Moczydło","platform":"1","zone":"Libiąż"},"geometry":{"type":"Point","coordinates":[19.32012,50.08687]}},
     {"type":"Feature","properties":{"stop_id":"2648","name":"Libiąż Beskidzka","platform":"4","zone":"Libiąż"},"geometry":{"type":"Point","coordinates":[19.28898,50.08671]}},
     {"type":"Feature","properties":{"stop_id":"2649","name":"Libiąż Beskidzka","platform":"2","zone":"Libiąż"},"geometry":{"type":"Point","coordinates":[19.28862,50.08591]}},
-    {"type":"Feature","properties":{"stop_id":"2761","name":"Libiąż Myśliwska","platform":"1","zone":"Libiąż"},"geometry":{"type":"Point","coordinates":[19.34334,50.10457]}}
+    {"type":"Feature","properties":{"stop_id":"2761","name":"Libiąż Myśliwska","platform":"1","zone":"Libiąż"},"geometry":{"type":"Point","coordinates":[19.34334,50.10457]}},
+    {"type":"Feature","properties":{"stop_id":"3340","name":"Żarki Bębenki","platform":"1","zone":"Libiąż"},"geometry":{"type":"Point","coordinates":[19.3581,50.05511]}},
+    {"type":"Feature","properties":{"stop_id":"3341","name":"Żarki Bębenki","platform":"2","zone":"Libiąż"},"geometry":{"type":"Point","coordinates":[19.35815,50.05524]}}
   ]
 }
