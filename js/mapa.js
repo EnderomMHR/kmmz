@@ -989,7 +989,7 @@ stopIndex.set(searchItem.stop_id, searchItem);
 // Wczytywanie plików GeoJSON z przystankami.
 Promise.all(
   stopFiles.map(file =>
-    fetch(file)
+    fetch(`${file}?v=20261113-infra`, { cache: "no-store" })
       .then(response => {
         console.log('Wczytywanie pliku:', file);
         console.log('Status:', response.status);
