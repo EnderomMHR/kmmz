@@ -88,7 +88,12 @@
     if (!direction || !Array.isArray(trip.stop_times)) return [];
 
     return trip.stop_times.map((stop, i) => {
-      const routeStop = direction.route_stops?.[Number(stop.stop_sequence) - 1];
+      const numberedStop = direction.route_stops?.[Number(stop.stop_sequence) - 1];
+      // Never assign the next stop's name/platform to an old cached trip
+      // whose stop_sequence no longer matches the updated route definition.
+      const routeStop = String(numberedStop?.stop_id) === String(stop.stop_id)
+        ? numberedStop
+        : direction.route_stops?.find(candidate => String(candidate.stop_id) === String(stop.stop_id));
       const geoStop = stopIndex.get(String(stop.stop_id));
       return {
         stop_id: String(stop.stop_id),
