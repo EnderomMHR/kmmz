@@ -328,7 +328,10 @@ function getUpcomingDepartures(data) {
 // Load trip details only on demand; cache the result for further departures.
 function loadCourseJson(cache, path) {
   if (!cache.has(path)) {
-    const request = fetch(path)
+    // The route JSON can change without its file name changing.
+    // Bypass stale browser/CDN responses; the in-memory Map still avoids
+    // refetching the same file for every selected departure on this page.
+    const request = fetch(path, { cache: "no-store" })
       .then(response => {
         if (!response.ok) throw new Error("Nie można pobrać danych kursu.");
         return response.json();
@@ -476,8 +479,8 @@ function showTripForDeparture(departure, fromStopId) {
   tripPanel.classList.add("open");
 
   Promise.all([
-    loadCourseJson(linesJsonCache, `data/rozklady/linie/${line}.json`),
-    loadCourseJson(tripsJsonCache, `data/trips/${line.padStart(3, "0")}.json`)
+    loadCourseJson(linesJsonCache, `data/rozklady/linie/${line}.json?v=20261116-route-sync`),
+    loadCourseJson(tripsJsonCache, `data/trips/${line.padStart(3, "0")}.json?v=20261116-route-sync`)
   ]).then(([lineInfo, tripsInfo]) => {
     if (requestToken !== tripSelectionToken) return;
 
