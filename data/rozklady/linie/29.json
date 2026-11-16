@@ -1,0 +1,4303 @@
+{
+  "line": "29",
+  "map_url": "https://enderommhr.github.io/kmmz/mapa.html",
+  "directions": [
+    {
+      "slug": "okrezna-1",
+      "name": "Krzeszowice Dworzec Autobusowy",
+      "variant_destinations": {},
+      "legend": {},
+      "legend_only_used_symbols": true,
+      "direction_segments": [
+        {
+          "from_stop_id": "0134",
+          "name": "Olkusz Dworzec PKP"
+        },
+        {
+          "from_stop_id": "0225",
+          "name": "Krzeszowice Dworzec Autobusowy"
+        }
+      ],
+      "route_stops": [
+        {
+          "stop_id": "0134",
+          "stop_name": "Krzeszowice Dworzec Autobusowy",
+          "platform": "3",
+          "file": "0134-okrezna-1.html"
+        },
+        {
+          "stop_id": "0135",
+          "stop_name": "Krzeszowice 3-ego Maja",
+          "platform": "1",
+          "file": "0135-okrezna-1.html"
+        },
+        {
+          "stop_id": "1366",
+          "stop_name": "Krzeszowice Czatkowice Górne",
+          "platform": "2",
+          "file": "1366-okrezna-1.html"
+        },
+        {
+          "stop_id": "1368",
+          "stop_name": "Dębnik Centrum Plac",
+          "platform": "0",
+          "file": "1368-okrezna-1.html"
+        },
+        {
+          "stop_id": "1328",
+          "stop_name": "Paczółtowice Kościół",
+          "platform": "2",
+          "file": "1328-okrezna-1.html"
+        },
+        {
+          "stop_id": "1329",
+          "stop_name": "Paczółtowice Podlipa Pętla",
+          "platform": "2",
+          "file": "1329-okrezna-1.html"
+        },
+        {
+          "stop_id": "1613",
+          "stop_name": "Racławice Na Końcu",
+          "platform": "1",
+          "file": "1613-okrezna-1.html"
+        },
+        {
+          "stop_id": "1611",
+          "stop_name": "Racławice",
+          "platform": "2",
+          "file": "1611-okrezna-1.html"
+        },
+        {
+          "stop_id": "1615",
+          "stop_name": "Racławice Remiza",
+          "platform": "1",
+          "file": "1615-okrezna-1.html"
+        },
+        {
+          "stop_id": "1618",
+          "stop_name": "Racławice Kościół",
+          "platform": "1",
+          "file": "1618-okrezna-1.html"
+        },
+        {
+          "stop_id": "1617",
+          "stop_name": "Racławice Koło Sioły",
+          "platform": "1",
+          "file": "1617-okrezna-1.html"
+        },
+        {
+          "stop_id": "1608",
+          "stop_name": "Czubrowice Rzeka",
+          "platform": "2",
+          "file": "1608-okrezna-1.html"
+        },
+        {
+          "stop_id": "1620",
+          "stop_name": "Czubrowice Szkoła",
+          "platform": "1",
+          "file": "1620-okrezna-1.html"
+        },
+        {
+          "stop_id": "1621",
+          "stop_name": "Czubrowice Remiza",
+          "platform": "1",
+          "file": "1621-okrezna-1.html"
+        },
+        {
+          "stop_id": "1622",
+          "stop_name": "Czubrowice",
+          "platform": "1",
+          "file": "1622-okrezna-1.html"
+        },
+        {
+          "stop_id": "1604",
+          "stop_name": "Przeginia Górka",
+          "platform": "1",
+          "file": "1604-okrezna-1.html"
+        },
+        {
+          "stop_id": "1623",
+          "stop_name": "Przeginia SKR",
+          "platform": "1",
+          "file": "1623-okrezna-1.html"
+        },
+        {
+          "stop_id": "1624",
+          "stop_name": "Przeginia Szkoła",
+          "platform": "1",
+          "file": "1624-okrezna-1.html"
+        },
+        {
+          "stop_id": "1600",
+          "stop_name": "Przeginia Kościół",
+          "platform": "2",
+          "file": "1600-okrezna-1.html"
+        },
+        {
+          "stop_id": "1598",
+          "stop_name": "Zederman",
+          "platform": "2",
+          "file": "1598-okrezna-1.html"
+        },
+        {
+          "stop_id": "1594",
+          "stop_name": "Zederman Kiosk",
+          "platform": "3",
+          "file": "1594-okrezna-1.html"
+        },
+        {
+          "stop_id": "1593",
+          "stop_name": "Zederman Pasieka",
+          "platform": "2",
+          "file": "1593-okrezna-1.html"
+        },
+        {
+          "stop_id": "1591",
+          "stop_name": "Kogutek",
+          "platform": "2",
+          "file": "1591-okrezna-1.html"
+        },
+        {
+          "stop_id": "0224",
+          "stop_name": "Sieniczno",
+          "platform": "2",
+          "file": "0224-okrezna-1.html"
+        },
+        {
+          "stop_id": "0225",
+          "stop_name": "Olkusz Aleja Tysiąclecia",
+          "platform": "2",
+          "file": "0225-okrezna-1.html"
+        },
+        {
+          "stop_id": "0433",
+          "stop_name": "Olkusz Słowiki",
+          "platform": "1",
+          "file": "0433-okrezna-1.html"
+        },
+        {
+          "stop_id": "0174",
+          "stop_name": "Olkusz Supersam",
+          "platform": "0",
+          "file": "0174-okrezna-1.html"
+        },
+        {
+          "stop_id": "0199",
+          "stop_name": "Olkusz Skarbek",
+          "platform": "2",
+          "file": "0199-okrezna-1.html"
+        },
+        {
+          "stop_id": "0201",
+          "stop_name": "Olkusz Dworzec PKP",
+          "platform": "1",
+          "file": "0201-okrezna-1.html"
+        },
+        {
+          "stop_id": "0202",
+          "stop_name": "Olkusz Wiadukt",
+          "platform": "1",
+          "file": "0202-okrezna-1.html"
+        },
+        {
+          "stop_id": "0492",
+          "stop_name": "Olkusz Baza PKS",
+          "platform": "1",
+          "file": "0492-okrezna-1.html"
+        },
+        {
+          "stop_id": "0493",
+          "stop_name": "Olkusz Owent",
+          "platform": "2",
+          "file": "0493-okrezna-1.html"
+        },
+        {
+          "stop_id": "0494",
+          "stop_name": "Olkusz ZUS",
+          "platform": "2",
+          "file": "0494-okrezna-1.html"
+        },
+        {
+          "stop_id": "1589",
+          "stop_name": "Olkusz Biema",
+          "platform": "2",
+          "file": "1589-okrezna-1.html"
+        },
+        {
+          "stop_id": "1587",
+          "stop_name": "Olkusz Kościół",
+          "platform": "1",
+          "file": "1587-okrezna-1.html"
+        },
+        {
+          "stop_id": "1575",
+          "stop_name": "Olkusz Księdza Gajewskiego",
+          "platform": "1",
+          "file": "1575-okrezna-1.html"
+        },
+        {
+          "stop_id": "1577",
+          "stop_name": "Witeradów Zacisze",
+          "platform": "2",
+          "file": "1577-okrezna-1.html"
+        },
+        {
+          "stop_id": "1578",
+          "stop_name": "Witeradów Tartak",
+          "platform": "2",
+          "file": "1578-okrezna-1.html"
+        },
+        {
+          "stop_id": "1579",
+          "stop_name": "Witeradów Wieś",
+          "platform": "2",
+          "file": "1579-okrezna-1.html"
+        },
+        {
+          "stop_id": "1580",
+          "stop_name": "Witeradów",
+          "platform": "2",
+          "file": "1580-okrezna-1.html"
+        },
+        {
+          "stop_id": "1581",
+          "stop_name": "Witeradów Pod Kądzielnią",
+          "platform": "2",
+          "file": "1581-okrezna-1.html"
+        },
+        {
+          "stop_id": "1582",
+          "stop_name": "Gorenice Wilcze Doły",
+          "platform": "2",
+          "file": "1582-okrezna-1.html"
+        },
+        {
+          "stop_id": "1568",
+          "stop_name": "Gorenice Kościół",
+          "platform": "1",
+          "file": "1568-okrezna-1.html"
+        },
+        {
+          "stop_id": "1584",
+          "stop_name": "Gorenice Remiza",
+          "platform": "2",
+          "file": "1584-okrezna-1.html"
+        },
+        {
+          "stop_id": "1566",
+          "stop_name": "Gorenice Szkoła",
+          "platform": "1",
+          "file": "1566-okrezna-1.html"
+        },
+        {
+          "stop_id": "1564",
+          "stop_name": "Gorenice Dołek",
+          "platform": "1",
+          "file": "1564-okrezna-1.html"
+        },
+        {
+          "stop_id": "1562",
+          "stop_name": "Gorenice Wzniesienie",
+          "platform": "1",
+          "file": "1562-okrezna-1.html"
+        },
+        {
+          "stop_id": "1561",
+          "stop_name": "Gorenice",
+          "platform": "1",
+          "file": "1561-okrezna-1.html"
+        },
+        {
+          "stop_id": "1371",
+          "stop_name": "Czerna Las",
+          "platform": "1",
+          "file": "1371-okrezna-1.html"
+        },
+        {
+          "stop_id": "1370",
+          "stop_name": "Czerna Klasztor",
+          "platform": "1",
+          "file": "1370-okrezna-1.html"
+        },
+        {
+          "stop_id": "1322",
+          "stop_name": "Czerna Skrzyżowanie",
+          "platform": "1",
+          "file": "1322-okrezna-1.html"
+        },
+        {
+          "stop_id": "0046",
+          "stop_name": "Krzeszowice Czatkowice Dolne Kopalnia",
+          "platform": "1",
+          "file": "0046-okrezna-1.html"
+        },
+        {
+          "stop_id": "0047",
+          "stop_name": "Krzeszowice Czatkowice Dolne",
+          "platform": "1",
+          "file": "0047-okrezna-1.html"
+        },
+        {
+          "stop_id": "1275",
+          "stop_name": "Krzeszowice Urząd Miejski",
+          "platform": "1",
+          "file": "1275-okrezna-1.html"
+        },
+        {
+          "stop_id": "0133",
+          "stop_name": "Krzeszowice Centrum",
+          "platform": "1",
+          "file": "0133-okrezna-1.html"
+        },
+        {
+          "stop_id": "1677",
+          "stop_name": "Krzeszowice Dworzec Autobusowy",
+          "platform": "1",
+          "file": "1677-okrezna-1.html"
+        }
+      ],
+      "timetables": [
+        {
+          "stop_id": "0134",
+          "stop_name": "Krzeszowice Dworzec Autobusowy",
+          "platform": "3",
+          "file": "0134-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "04:20",
+              "07:47",
+              "11:05",
+              "14:40",
+              "18:05",
+              "21:20"
+            ],
+            "saturday": [
+              "06:00",
+              "09:28",
+              "14:50",
+              "18:28",
+              "21:50"
+            ],
+            "sunday": [
+              "07:30",
+              "09:16",
+              "16:53",
+              "20:17"
+            ],
+            "holiday": [
+              "07:35",
+              "11:13"
+            ]
+          }
+        },
+        {
+          "stop_id": "0135",
+          "stop_name": "Krzeszowice 3-ego Maja",
+          "platform": "1",
+          "file": "0135-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "04:21",
+              "07:48",
+              "11:06",
+              "14:41",
+              "18:06",
+              "21:21"
+            ],
+            "saturday": [
+              "06:01",
+              "09:29",
+              "14:51",
+              "18:29",
+              "21:51"
+            ],
+            "sunday": [
+              "07:31",
+              "09:17",
+              "16:54",
+              "20:18"
+            ],
+            "holiday": [
+              "07:36",
+              "11:14"
+            ]
+          }
+        },
+        {
+          "stop_id": "1366",
+          "stop_name": "Krzeszowice Czatkowice Górne",
+          "platform": "2",
+          "file": "1366-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "04:25",
+              "07:52",
+              "11:10",
+              "14:45",
+              "18:10",
+              "21:25"
+            ],
+            "saturday": [
+              "06:05",
+              "09:33",
+              "14:55",
+              "18:33",
+              "21:55"
+            ],
+            "sunday": [
+              "07:35",
+              "09:21",
+              "16:58",
+              "20:22"
+            ],
+            "holiday": [
+              "07:40",
+              "11:18"
+            ]
+          }
+        },
+        {
+          "stop_id": "1368",
+          "stop_name": "Dębnik Centrum Plac",
+          "platform": "0",
+          "file": "1368-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "04:29",
+              "07:56",
+              "11:14",
+              "14:49",
+              "18:14",
+              "21:29"
+            ],
+            "saturday": [
+              "06:09",
+              "09:37",
+              "14:59",
+              "18:37",
+              "21:59"
+            ],
+            "sunday": [
+              "07:39",
+              "09:25",
+              "17:02",
+              "20:26"
+            ],
+            "holiday": [
+              "07:44",
+              "11:22"
+            ]
+          }
+        },
+        {
+          "stop_id": "1328",
+          "stop_name": "Paczółtowice Kościół",
+          "platform": "2",
+          "file": "1328-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "04:34",
+              "08:01",
+              "11:19",
+              "14:54",
+              "18:19",
+              "21:34"
+            ],
+            "saturday": [
+              "06:14",
+              "09:42",
+              "15:04",
+              "18:42",
+              "22:04"
+            ],
+            "sunday": [
+              "07:44",
+              "09:30",
+              "17:07",
+              "20:31"
+            ],
+            "holiday": [
+              "07:49",
+              "11:27"
+            ]
+          }
+        },
+        {
+          "stop_id": "1329",
+          "stop_name": "Paczółtowice Podlipa Pętla",
+          "platform": "2",
+          "file": "1329-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "04:35",
+              "08:02",
+              "11:20",
+              "14:55",
+              "18:20",
+              "21:35"
+            ],
+            "saturday": [
+              "06:15",
+              "09:43",
+              "15:05",
+              "18:43",
+              "22:05"
+            ],
+            "sunday": [
+              "07:45",
+              "09:31",
+              "17:08",
+              "20:32"
+            ],
+            "holiday": [
+              "07:50",
+              "11:28"
+            ]
+          }
+        },
+        {
+          "stop_id": "1613",
+          "stop_name": "Racławice Na Końcu",
+          "platform": "1",
+          "file": "1613-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "04:38",
+              "08:05",
+              "11:23",
+              "14:58",
+              "18:23",
+              "21:38"
+            ],
+            "saturday": [
+              "06:18",
+              "09:46",
+              "15:08",
+              "18:46",
+              "22:08"
+            ],
+            "sunday": [
+              "07:48",
+              "09:34",
+              "17:11",
+              "20:35"
+            ],
+            "holiday": [
+              "07:53",
+              "11:31"
+            ]
+          }
+        },
+        {
+          "stop_id": "1611",
+          "stop_name": "Racławice",
+          "platform": "2",
+          "file": "1611-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "04:39",
+              "08:06",
+              "11:24",
+              "14:59",
+              "18:24",
+              "21:39"
+            ],
+            "saturday": [
+              "06:19",
+              "09:47",
+              "15:09",
+              "18:47",
+              "22:09"
+            ],
+            "sunday": [
+              "07:49",
+              "09:35",
+              "17:12",
+              "20:36"
+            ],
+            "holiday": [
+              "07:54",
+              "11:32"
+            ]
+          }
+        },
+        {
+          "stop_id": "1615",
+          "stop_name": "Racławice Remiza",
+          "platform": "1",
+          "file": "1615-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "04:40",
+              "08:07",
+              "11:25",
+              "15:00",
+              "18:25",
+              "21:40"
+            ],
+            "saturday": [
+              "06:20",
+              "09:48",
+              "15:10",
+              "18:48",
+              "22:10"
+            ],
+            "sunday": [
+              "07:50",
+              "09:36",
+              "17:13",
+              "20:37"
+            ],
+            "holiday": [
+              "07:55",
+              "11:33"
+            ]
+          }
+        },
+        {
+          "stop_id": "1618",
+          "stop_name": "Racławice Kościół",
+          "platform": "1",
+          "file": "1618-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "04:41",
+              "08:08",
+              "11:26",
+              "15:01",
+              "18:26",
+              "21:41"
+            ],
+            "saturday": [
+              "06:21",
+              "09:49",
+              "15:11",
+              "18:49",
+              "22:11"
+            ],
+            "sunday": [
+              "07:51",
+              "09:37",
+              "17:14",
+              "20:38"
+            ],
+            "holiday": [
+              "07:56",
+              "11:34"
+            ]
+          }
+        },
+        {
+          "stop_id": "1617",
+          "stop_name": "Racławice Koło Sioły",
+          "platform": "1",
+          "file": "1617-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "04:42",
+              "08:09",
+              "11:27",
+              "15:02",
+              "18:27",
+              "21:42"
+            ],
+            "saturday": [
+              "06:22",
+              "09:50",
+              "15:12",
+              "18:50",
+              "22:12"
+            ],
+            "sunday": [
+              "07:52",
+              "09:38",
+              "17:15",
+              "20:39"
+            ],
+            "holiday": [
+              "07:57",
+              "11:35"
+            ]
+          }
+        },
+        {
+          "stop_id": "1608",
+          "stop_name": "Czubrowice Rzeka",
+          "platform": "2",
+          "file": "1608-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "04:44",
+              "08:11",
+              "11:29",
+              "15:04",
+              "18:29",
+              "21:44"
+            ],
+            "saturday": [
+              "06:24",
+              "09:52",
+              "15:14",
+              "18:52",
+              "22:14"
+            ],
+            "sunday": [
+              "07:54",
+              "09:40",
+              "17:17",
+              "20:41"
+            ],
+            "holiday": [
+              "07:59",
+              "11:37"
+            ]
+          }
+        },
+        {
+          "stop_id": "1620",
+          "stop_name": "Czubrowice Szkoła",
+          "platform": "1",
+          "file": "1620-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "04:45",
+              "08:12",
+              "11:30",
+              "15:05",
+              "18:30",
+              "21:45"
+            ],
+            "saturday": [
+              "06:25",
+              "09:53",
+              "15:15",
+              "18:53",
+              "22:15"
+            ],
+            "sunday": [
+              "07:55",
+              "09:41",
+              "17:18",
+              "20:42"
+            ],
+            "holiday": [
+              "08:00",
+              "11:38"
+            ]
+          }
+        },
+        {
+          "stop_id": "1621",
+          "stop_name": "Czubrowice Remiza",
+          "platform": "1",
+          "file": "1621-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "04:46",
+              "08:13",
+              "11:31",
+              "15:06",
+              "18:31",
+              "21:46"
+            ],
+            "saturday": [
+              "06:26",
+              "09:54",
+              "15:16",
+              "18:54",
+              "22:16"
+            ],
+            "sunday": [
+              "07:56",
+              "09:42",
+              "17:19",
+              "20:43"
+            ],
+            "holiday": [
+              "08:01",
+              "11:39"
+            ]
+          }
+        },
+        {
+          "stop_id": "1622",
+          "stop_name": "Czubrowice",
+          "platform": "1",
+          "file": "1622-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "04:47",
+              "08:14",
+              "11:32",
+              "15:07",
+              "18:32",
+              "21:47"
+            ],
+            "saturday": [
+              "06:27",
+              "09:55",
+              "15:17",
+              "18:55",
+              "22:17"
+            ],
+            "sunday": [
+              "07:57",
+              "09:43",
+              "17:20",
+              "20:44"
+            ],
+            "holiday": [
+              "08:02",
+              "11:40"
+            ]
+          }
+        },
+        {
+          "stop_id": "1604",
+          "stop_name": "Przeginia Górka",
+          "platform": "1",
+          "file": "1604-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "04:49",
+              "08:16",
+              "11:34",
+              "15:09",
+              "18:34",
+              "21:49"
+            ],
+            "saturday": [
+              "06:29",
+              "09:57",
+              "15:19",
+              "18:57",
+              "22:19"
+            ],
+            "sunday": [
+              "07:59",
+              "09:45",
+              "17:22",
+              "20:46"
+            ],
+            "holiday": [
+              "08:04",
+              "11:42"
+            ]
+          }
+        },
+        {
+          "stop_id": "1623",
+          "stop_name": "Przeginia SKR",
+          "platform": "1",
+          "file": "1623-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "04:50",
+              "08:17",
+              "11:35",
+              "15:10",
+              "18:35",
+              "21:50"
+            ],
+            "saturday": [
+              "06:30",
+              "09:58",
+              "15:20",
+              "18:58",
+              "22:20"
+            ],
+            "sunday": [
+              "08:00",
+              "09:46",
+              "17:23",
+              "20:47"
+            ],
+            "holiday": [
+              "08:05",
+              "11:43"
+            ]
+          }
+        },
+        {
+          "stop_id": "1624",
+          "stop_name": "Przeginia Szkoła",
+          "platform": "1",
+          "file": "1624-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "04:51",
+              "08:18",
+              "11:36",
+              "15:11",
+              "18:36",
+              "21:51"
+            ],
+            "saturday": [
+              "06:31",
+              "09:59",
+              "15:21",
+              "18:59",
+              "22:21"
+            ],
+            "sunday": [
+              "08:01",
+              "09:47",
+              "17:24",
+              "20:48"
+            ],
+            "holiday": [
+              "08:06",
+              "11:44"
+            ]
+          }
+        },
+        {
+          "stop_id": "1600",
+          "stop_name": "Przeginia Kościół",
+          "platform": "2",
+          "file": "1600-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "04:52",
+              "08:19",
+              "11:37",
+              "15:12",
+              "18:37",
+              "21:52"
+            ],
+            "saturday": [
+              "06:32",
+              "10:00",
+              "15:22",
+              "19:00",
+              "22:22"
+            ],
+            "sunday": [
+              "08:02",
+              "09:48",
+              "17:25",
+              "20:49"
+            ],
+            "holiday": [
+              "08:07",
+              "11:45"
+            ]
+          }
+        },
+        {
+          "stop_id": "1598",
+          "stop_name": "Zederman",
+          "platform": "2",
+          "file": "1598-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "04:54",
+              "08:21",
+              "11:39",
+              "15:14",
+              "18:39",
+              "21:54"
+            ],
+            "saturday": [
+              "06:34",
+              "10:02",
+              "15:24",
+              "19:02",
+              "22:24"
+            ],
+            "sunday": [
+              "08:04",
+              "09:50",
+              "17:27",
+              "20:51"
+            ],
+            "holiday": [
+              "08:09",
+              "11:47"
+            ]
+          }
+        },
+        {
+          "stop_id": "1594",
+          "stop_name": "Zederman Kiosk",
+          "platform": "3",
+          "file": "1594-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "04:55",
+              "08:22",
+              "11:40",
+              "15:15",
+              "18:40",
+              "21:55"
+            ],
+            "saturday": [
+              "06:35",
+              "10:03",
+              "15:25",
+              "19:03",
+              "22:25"
+            ],
+            "sunday": [
+              "08:05",
+              "09:51",
+              "17:28",
+              "20:52"
+            ],
+            "holiday": [
+              "08:10",
+              "11:48"
+            ]
+          }
+        },
+        {
+          "stop_id": "1593",
+          "stop_name": "Zederman Pasieka",
+          "platform": "2",
+          "file": "1593-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "04:56",
+              "08:23",
+              "11:41",
+              "15:16",
+              "18:41",
+              "21:56"
+            ],
+            "saturday": [
+              "06:36",
+              "10:04",
+              "15:26",
+              "19:04",
+              "22:26"
+            ],
+            "sunday": [
+              "08:06",
+              "09:52",
+              "17:29",
+              "20:53"
+            ],
+            "holiday": [
+              "08:11",
+              "11:49"
+            ]
+          }
+        },
+        {
+          "stop_id": "1591",
+          "stop_name": "Kogutek",
+          "platform": "2",
+          "file": "1591-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "04:58",
+              "08:25",
+              "11:43",
+              "15:18",
+              "18:43",
+              "21:58"
+            ],
+            "saturday": [
+              "06:38",
+              "10:06",
+              "15:28",
+              "19:06",
+              "22:28"
+            ],
+            "sunday": [
+              "08:08",
+              "09:54",
+              "17:31",
+              "20:55"
+            ],
+            "holiday": [
+              "08:13",
+              "11:51"
+            ]
+          }
+        },
+        {
+          "stop_id": "0224",
+          "stop_name": "Sieniczno",
+          "platform": "2",
+          "file": "0224-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:01",
+              "08:28",
+              "11:46",
+              "15:21",
+              "18:46",
+              "22:01"
+            ],
+            "saturday": [
+              "06:41",
+              "10:09",
+              "15:31",
+              "19:09",
+              "22:31"
+            ],
+            "sunday": [
+              "08:11",
+              "09:57",
+              "17:34",
+              "20:58"
+            ],
+            "holiday": [
+              "08:16",
+              "11:54"
+            ]
+          }
+        },
+        {
+          "stop_id": "0225",
+          "stop_name": "Olkusz Aleja Tysiąclecia",
+          "platform": "2",
+          "file": "0225-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:04",
+              "08:31",
+              "11:49",
+              "15:24",
+              "18:49",
+              "22:04"
+            ],
+            "saturday": [
+              "06:44",
+              "10:12",
+              "15:34",
+              "19:12",
+              "22:34"
+            ],
+            "sunday": [
+              "08:14",
+              "10:00",
+              "17:37",
+              "21:01"
+            ],
+            "holiday": [
+              "08:19",
+              "11:57"
+            ]
+          }
+        },
+        {
+          "stop_id": "0433",
+          "stop_name": "Olkusz Słowiki",
+          "platform": "1",
+          "file": "0433-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:06",
+              "08:33",
+              "11:51",
+              "15:26",
+              "18:51",
+              "22:06"
+            ],
+            "saturday": [
+              "06:46",
+              "10:14",
+              "15:36",
+              "19:14",
+              "22:36"
+            ],
+            "sunday": [
+              "08:16",
+              "10:02",
+              "17:39",
+              "21:03"
+            ],
+            "holiday": [
+              "08:21",
+              "11:59"
+            ]
+          }
+        },
+        {
+          "stop_id": "0174",
+          "stop_name": "Olkusz Supersam",
+          "platform": "0",
+          "file": "0174-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:09",
+              "08:36",
+              "11:54",
+              "15:29",
+              "18:54",
+              "22:09"
+            ],
+            "saturday": [
+              "06:49",
+              "10:17",
+              "15:39",
+              "19:17",
+              "22:39"
+            ],
+            "sunday": [
+              "08:19",
+              "10:05",
+              "17:42",
+              "21:06"
+            ],
+            "holiday": [
+              "08:24",
+              "12:02"
+            ]
+          }
+        },
+        {
+          "stop_id": "0199",
+          "stop_name": "Olkusz Skarbek",
+          "platform": "2",
+          "file": "0199-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:10",
+              "08:37",
+              "11:55",
+              "15:30",
+              "18:55",
+              "22:10"
+            ],
+            "saturday": [
+              "06:50",
+              "10:18",
+              "15:40",
+              "19:18",
+              "22:40"
+            ],
+            "sunday": [
+              "08:20",
+              "10:06",
+              "17:43",
+              "21:07"
+            ],
+            "holiday": [
+              "08:25",
+              "12:03"
+            ]
+          }
+        },
+        {
+          "stop_id": "0201",
+          "stop_name": "Olkusz Dworzec PKP",
+          "platform": "1",
+          "file": "0201-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:12",
+              "08:39",
+              "11:57",
+              "15:32",
+              "18:57",
+              "22:12"
+            ],
+            "saturday": [
+              "06:52",
+              "10:20",
+              "15:42",
+              "19:20",
+              "22:42"
+            ],
+            "sunday": [
+              "08:22",
+              "10:08",
+              "17:45",
+              "21:09"
+            ],
+            "holiday": [
+              "08:27",
+              "12:05"
+            ]
+          }
+        },
+        {
+          "stop_id": "0202",
+          "stop_name": "Olkusz Wiadukt",
+          "platform": "1",
+          "file": "0202-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:14",
+              "08:41",
+              "11:59",
+              "15:34",
+              "18:59",
+              "22:14"
+            ],
+            "saturday": [
+              "06:54",
+              "10:22",
+              "15:44",
+              "19:22",
+              "22:44"
+            ],
+            "sunday": [
+              "08:24",
+              "10:10",
+              "17:47",
+              "21:11"
+            ],
+            "holiday": [
+              "08:29",
+              "12:07"
+            ]
+          }
+        },
+        {
+          "stop_id": "0492",
+          "stop_name": "Olkusz Baza PKS",
+          "platform": "1",
+          "file": "0492-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:16",
+              "08:43",
+              "12:01",
+              "15:36",
+              "19:01",
+              "22:16"
+            ],
+            "saturday": [
+              "06:56",
+              "10:24",
+              "15:46",
+              "19:24",
+              "22:46"
+            ],
+            "sunday": [
+              "08:26",
+              "10:12",
+              "17:49",
+              "21:13"
+            ],
+            "holiday": [
+              "08:31",
+              "12:09"
+            ]
+          }
+        },
+        {
+          "stop_id": "0493",
+          "stop_name": "Olkusz Owent",
+          "platform": "2",
+          "file": "0493-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:17",
+              "08:44",
+              "12:02",
+              "15:37",
+              "19:02",
+              "22:17"
+            ],
+            "saturday": [
+              "06:57",
+              "10:25",
+              "15:47",
+              "19:25",
+              "22:47"
+            ],
+            "sunday": [
+              "08:27",
+              "10:13",
+              "17:50",
+              "21:14"
+            ],
+            "holiday": [
+              "08:32",
+              "12:10"
+            ]
+          }
+        },
+        {
+          "stop_id": "0494",
+          "stop_name": "Olkusz ZUS",
+          "platform": "2",
+          "file": "0494-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:18",
+              "08:45",
+              "12:03",
+              "15:38",
+              "19:03",
+              "22:18"
+            ],
+            "saturday": [
+              "06:58",
+              "10:26",
+              "15:48",
+              "19:26",
+              "22:48"
+            ],
+            "sunday": [
+              "08:28",
+              "10:14",
+              "17:51",
+              "21:15"
+            ],
+            "holiday": [
+              "08:33",
+              "12:11"
+            ]
+          }
+        },
+        {
+          "stop_id": "1589",
+          "stop_name": "Olkusz Biema",
+          "platform": "2",
+          "file": "1589-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:19",
+              "08:46",
+              "12:04",
+              "15:39",
+              "19:04",
+              "22:19"
+            ],
+            "saturday": [
+              "06:59",
+              "10:27",
+              "15:49",
+              "19:27",
+              "22:49"
+            ],
+            "sunday": [
+              "08:29",
+              "10:15",
+              "17:52",
+              "21:16"
+            ],
+            "holiday": [
+              "08:34",
+              "12:12"
+            ]
+          }
+        },
+        {
+          "stop_id": "1587",
+          "stop_name": "Olkusz Kościół",
+          "platform": "1",
+          "file": "1587-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:20",
+              "08:47",
+              "12:05",
+              "15:40",
+              "19:05",
+              "22:20"
+            ],
+            "saturday": [
+              "07:00",
+              "10:28",
+              "15:50",
+              "19:28",
+              "22:50"
+            ],
+            "sunday": [
+              "08:30",
+              "10:16",
+              "17:53",
+              "21:17"
+            ],
+            "holiday": [
+              "08:35",
+              "12:13"
+            ]
+          }
+        },
+        {
+          "stop_id": "1575",
+          "stop_name": "Olkusz Księdza Gajewskiego",
+          "platform": "1",
+          "file": "1575-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:21",
+              "08:48",
+              "12:06",
+              "15:41",
+              "19:06",
+              "22:21"
+            ],
+            "saturday": [
+              "07:01",
+              "10:29",
+              "15:51",
+              "19:29",
+              "22:51"
+            ],
+            "sunday": [
+              "08:31",
+              "10:17",
+              "17:54",
+              "21:18"
+            ],
+            "holiday": [
+              "08:36",
+              "12:14"
+            ]
+          }
+        },
+        {
+          "stop_id": "1577",
+          "stop_name": "Witeradów Zacisze",
+          "platform": "2",
+          "file": "1577-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:22",
+              "08:49",
+              "12:07",
+              "15:42",
+              "19:07",
+              "22:22"
+            ],
+            "saturday": [
+              "07:02",
+              "10:30",
+              "15:52",
+              "19:30",
+              "22:52"
+            ],
+            "sunday": [
+              "08:32",
+              "10:18",
+              "17:55",
+              "21:19"
+            ],
+            "holiday": [
+              "08:37",
+              "12:15"
+            ]
+          }
+        },
+        {
+          "stop_id": "1578",
+          "stop_name": "Witeradów Tartak",
+          "platform": "2",
+          "file": "1578-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:23",
+              "08:50",
+              "12:08",
+              "15:43",
+              "19:08",
+              "22:23"
+            ],
+            "saturday": [
+              "07:03",
+              "10:31",
+              "15:53",
+              "19:31",
+              "22:53"
+            ],
+            "sunday": [
+              "08:33",
+              "10:19",
+              "17:56",
+              "21:20"
+            ],
+            "holiday": [
+              "08:38",
+              "12:16"
+            ]
+          }
+        },
+        {
+          "stop_id": "1579",
+          "stop_name": "Witeradów Wieś",
+          "platform": "2",
+          "file": "1579-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:24",
+              "08:51",
+              "12:09",
+              "15:44",
+              "19:09",
+              "22:24"
+            ],
+            "saturday": [
+              "07:04",
+              "10:32",
+              "15:54",
+              "19:32",
+              "22:54"
+            ],
+            "sunday": [
+              "08:34",
+              "10:20",
+              "17:57",
+              "21:21"
+            ],
+            "holiday": [
+              "08:39",
+              "12:17"
+            ]
+          }
+        },
+        {
+          "stop_id": "1580",
+          "stop_name": "Witeradów",
+          "platform": "2",
+          "file": "1580-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:25",
+              "08:52",
+              "12:10",
+              "15:45",
+              "19:10",
+              "22:25"
+            ],
+            "saturday": [
+              "07:05",
+              "10:33",
+              "15:55",
+              "19:33",
+              "22:55"
+            ],
+            "sunday": [
+              "08:35",
+              "10:21",
+              "17:58",
+              "21:22"
+            ],
+            "holiday": [
+              "08:40",
+              "12:18"
+            ]
+          }
+        },
+        {
+          "stop_id": "1581",
+          "stop_name": "Witeradów Pod Kądzielnią",
+          "platform": "2",
+          "file": "1581-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:26",
+              "08:53",
+              "12:11",
+              "15:46",
+              "19:11",
+              "22:26"
+            ],
+            "saturday": [
+              "07:06",
+              "10:34",
+              "15:56",
+              "19:34",
+              "22:56"
+            ],
+            "sunday": [
+              "08:36",
+              "10:22",
+              "17:59",
+              "21:23"
+            ],
+            "holiday": [
+              "08:41",
+              "12:19"
+            ]
+          }
+        },
+        {
+          "stop_id": "1582",
+          "stop_name": "Gorenice Wilcze Doły",
+          "platform": "2",
+          "file": "1582-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:28",
+              "08:55",
+              "12:13",
+              "15:48",
+              "19:13",
+              "22:28"
+            ],
+            "saturday": [
+              "07:08",
+              "10:36",
+              "15:58",
+              "19:36",
+              "22:58"
+            ],
+            "sunday": [
+              "08:38",
+              "10:24",
+              "18:01",
+              "21:25"
+            ],
+            "holiday": [
+              "08:43",
+              "12:21"
+            ]
+          }
+        },
+        {
+          "stop_id": "1568",
+          "stop_name": "Gorenice Kościół",
+          "platform": "1",
+          "file": "1568-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:31",
+              "08:58",
+              "12:16",
+              "15:51",
+              "19:16",
+              "22:31"
+            ],
+            "saturday": [
+              "07:11",
+              "10:39",
+              "16:01",
+              "19:39",
+              "23:01"
+            ],
+            "sunday": [
+              "08:41",
+              "10:27",
+              "18:04",
+              "21:28"
+            ],
+            "holiday": [
+              "08:46",
+              "12:24"
+            ]
+          }
+        },
+        {
+          "stop_id": "1584",
+          "stop_name": "Gorenice Remiza",
+          "platform": "2",
+          "file": "1584-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:32",
+              "08:59",
+              "12:17",
+              "15:52",
+              "19:17",
+              "22:32"
+            ],
+            "saturday": [
+              "07:12",
+              "10:40",
+              "16:02",
+              "19:40",
+              "23:02"
+            ],
+            "sunday": [
+              "08:42",
+              "10:28",
+              "18:05",
+              "21:29"
+            ],
+            "holiday": [
+              "08:47",
+              "12:25"
+            ]
+          }
+        },
+        {
+          "stop_id": "1566",
+          "stop_name": "Gorenice Szkoła",
+          "platform": "1",
+          "file": "1566-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:33",
+              "09:00",
+              "12:18",
+              "15:53",
+              "19:18",
+              "22:33"
+            ],
+            "saturday": [
+              "07:13",
+              "10:41",
+              "16:03",
+              "19:41",
+              "23:03"
+            ],
+            "sunday": [
+              "08:43",
+              "10:29",
+              "18:06",
+              "21:30"
+            ],
+            "holiday": [
+              "08:48",
+              "12:26"
+            ]
+          }
+        },
+        {
+          "stop_id": "1564",
+          "stop_name": "Gorenice Dołek",
+          "platform": "1",
+          "file": "1564-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:34",
+              "09:01",
+              "12:19",
+              "15:54",
+              "19:19",
+              "22:34"
+            ],
+            "saturday": [
+              "07:14",
+              "10:42",
+              "16:04",
+              "19:42",
+              "23:04"
+            ],
+            "sunday": [
+              "08:44",
+              "10:30",
+              "18:07",
+              "21:31"
+            ],
+            "holiday": [
+              "08:49",
+              "12:27"
+            ]
+          }
+        },
+        {
+          "stop_id": "1562",
+          "stop_name": "Gorenice Wzniesienie",
+          "platform": "1",
+          "file": "1562-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:35",
+              "09:02",
+              "12:20",
+              "15:55",
+              "19:20",
+              "22:35"
+            ],
+            "saturday": [
+              "07:15",
+              "10:43",
+              "16:05",
+              "19:43",
+              "23:05"
+            ],
+            "sunday": [
+              "08:45",
+              "10:31",
+              "18:08",
+              "21:32"
+            ],
+            "holiday": [
+              "08:50",
+              "12:28"
+            ]
+          }
+        },
+        {
+          "stop_id": "1561",
+          "stop_name": "Gorenice",
+          "platform": "1",
+          "file": "1561-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:36",
+              "09:03",
+              "12:21",
+              "15:56",
+              "19:21",
+              "22:36"
+            ],
+            "saturday": [
+              "07:16",
+              "10:44",
+              "16:06",
+              "19:44",
+              "23:06"
+            ],
+            "sunday": [
+              "08:46",
+              "10:32",
+              "18:09",
+              "21:33"
+            ],
+            "holiday": [
+              "08:51",
+              "12:29"
+            ]
+          }
+        },
+        {
+          "stop_id": "1371",
+          "stop_name": "Czerna Las",
+          "platform": "1",
+          "file": "1371-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:40",
+              "09:07",
+              "12:25",
+              "16:00",
+              "19:25",
+              "22:40"
+            ],
+            "saturday": [
+              "07:20",
+              "10:48",
+              "16:10",
+              "19:48",
+              "23:10"
+            ],
+            "sunday": [
+              "08:50",
+              "10:36",
+              "18:13",
+              "21:37"
+            ],
+            "holiday": [
+              "08:55",
+              "12:33"
+            ]
+          }
+        },
+        {
+          "stop_id": "1370",
+          "stop_name": "Czerna Klasztor",
+          "platform": "1",
+          "file": "1370-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:42",
+              "09:09",
+              "12:27",
+              "16:02",
+              "19:27",
+              "22:42"
+            ],
+            "saturday": [
+              "07:22",
+              "10:50",
+              "16:12",
+              "19:50",
+              "23:12"
+            ],
+            "sunday": [
+              "08:52",
+              "10:38",
+              "18:15",
+              "21:39"
+            ],
+            "holiday": [
+              "08:57",
+              "12:35"
+            ]
+          }
+        },
+        {
+          "stop_id": "1322",
+          "stop_name": "Czerna Skrzyżowanie",
+          "platform": "1",
+          "file": "1322-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:43",
+              "09:10",
+              "12:28",
+              "16:03",
+              "19:28",
+              "22:43"
+            ],
+            "saturday": [
+              "07:23",
+              "10:51",
+              "16:13",
+              "19:51",
+              "23:13"
+            ],
+            "sunday": [
+              "08:53",
+              "10:39",
+              "18:16",
+              "21:40"
+            ],
+            "holiday": [
+              "08:58",
+              "12:36"
+            ]
+          }
+        },
+        {
+          "stop_id": "0046",
+          "stop_name": "Krzeszowice Czatkowice Dolne Kopalnia",
+          "platform": "1",
+          "file": "0046-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:44",
+              "09:11",
+              "12:29",
+              "16:04",
+              "19:29",
+              "22:44"
+            ],
+            "saturday": [
+              "07:24",
+              "10:52",
+              "16:14",
+              "19:52",
+              "23:14"
+            ],
+            "sunday": [
+              "08:54",
+              "10:40",
+              "18:17",
+              "21:41"
+            ],
+            "holiday": [
+              "08:59",
+              "12:37"
+            ]
+          }
+        },
+        {
+          "stop_id": "0047",
+          "stop_name": "Krzeszowice Czatkowice Dolne",
+          "platform": "1",
+          "file": "0047-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:45",
+              "09:12",
+              "12:30",
+              "16:05",
+              "19:30",
+              "22:45"
+            ],
+            "saturday": [
+              "07:25",
+              "10:53",
+              "16:15",
+              "19:53",
+              "23:15"
+            ],
+            "sunday": [
+              "08:55",
+              "10:41",
+              "18:18",
+              "21:42"
+            ],
+            "holiday": [
+              "09:00",
+              "12:38"
+            ]
+          }
+        },
+        {
+          "stop_id": "1275",
+          "stop_name": "Krzeszowice Urząd Miejski",
+          "platform": "1",
+          "file": "1275-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:48",
+              "09:15",
+              "12:33",
+              "16:08",
+              "19:33",
+              "22:48"
+            ],
+            "saturday": [
+              "07:28",
+              "10:56",
+              "16:18",
+              "19:56",
+              "23:18"
+            ],
+            "sunday": [
+              "08:58",
+              "10:44",
+              "18:21",
+              "21:45"
+            ],
+            "holiday": [
+              "09:03",
+              "12:41"
+            ]
+          }
+        },
+        {
+          "stop_id": "0133",
+          "stop_name": "Krzeszowice Centrum",
+          "platform": "1",
+          "file": "0133-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:49",
+              "09:16",
+              "12:34",
+              "16:09",
+              "19:34",
+              "22:49"
+            ],
+            "saturday": [
+              "07:29",
+              "10:57",
+              "16:19",
+              "19:57",
+              "23:19"
+            ],
+            "sunday": [
+              "08:59",
+              "10:45",
+              "18:22",
+              "21:46"
+            ],
+            "holiday": [
+              "09:04",
+              "12:42"
+            ]
+          }
+        },
+        {
+          "stop_id": "1677",
+          "stop_name": "Krzeszowice Dworzec Autobusowy",
+          "platform": "1",
+          "file": "1677-okrezna-1.html",
+          "departures": {},
+          "arrival_only": true
+        }
+      ]
+    },
+    {
+      "slug": "okrezna-2",
+      "name": "Krzeszowice Dworzec Autobusowy",
+      "variant_destinations": {
+        "O": "Olkusz Dworzec PKP"
+      },
+      "legend": {
+        "O": "do: Olkusz Dworzec PKP"
+      },
+      "legend_only_used_symbols": true,
+      "direction_segments": [
+        {
+          "from_stop_id": "0134",
+          "name": "Olkusz Dworzec PKP"
+        },
+        {
+          "from_stop_id": "1576",
+          "name": "Krzeszowice Dworzec Autobusowy"
+        }
+      ],
+      "route_stops": [
+        {
+          "stop_id": "0134",
+          "stop_name": "Krzeszowice Dworzec Autobusowy",
+          "platform": "3",
+          "file": "0134-okrezna-2.html"
+        },
+        {
+          "stop_id": "0052",
+          "stop_name": "Krzeszowice Rondo Jana Pawła II",
+          "platform": "0",
+          "file": "0052-okrezna-2.html"
+        },
+        {
+          "stop_id": "1278",
+          "stop_name": "Krzeszowice Kościół",
+          "platform": "2",
+          "file": "1278-okrezna-2.html"
+        },
+        {
+          "stop_id": "0137",
+          "stop_name": "Krzeszowice Czatkowice EDEN",
+          "platform": "1",
+          "file": "0137-okrezna-2.html"
+        },
+        {
+          "stop_id": "0138",
+          "stop_name": "Krzeszowice Czatkowice Dolne Kopalnia",
+          "platform": "2",
+          "file": "0138-okrezna-2.html"
+        },
+        {
+          "stop_id": "1323",
+          "stop_name": "Czerna Skrzyżowanie",
+          "platform": "2",
+          "file": "1323-okrezna-2.html"
+        },
+        {
+          "stop_id": "1369",
+          "stop_name": "Czerna Klasztor",
+          "platform": "2",
+          "file": "1369-okrezna-2.html"
+        },
+        {
+          "stop_id": "1560",
+          "stop_name": "Gorenice Pętla",
+          "platform": "1",
+          "file": "1560-okrezna-2.html"
+        },
+        {
+          "stop_id": "1563",
+          "stop_name": "Gorenice Wzniesienie",
+          "platform": "2",
+          "file": "1563-okrezna-2.html"
+        },
+        {
+          "stop_id": "1565",
+          "stop_name": "Gorenice Dołek",
+          "platform": "2",
+          "file": "1565-okrezna-2.html"
+        },
+        {
+          "stop_id": "1585",
+          "stop_name": "Gorenice Szkoła",
+          "platform": "2",
+          "file": "1585-okrezna-2.html"
+        },
+        {
+          "stop_id": "1567",
+          "stop_name": "Gorenice Remiza",
+          "platform": "1",
+          "file": "1567-okrezna-2.html"
+        },
+        {
+          "stop_id": "1583",
+          "stop_name": "Gorenice Kościół",
+          "platform": "2",
+          "file": "1583-okrezna-2.html"
+        },
+        {
+          "stop_id": "1569",
+          "stop_name": "Gorenice Wilcze Doły",
+          "platform": "1",
+          "file": "1569-okrezna-2.html"
+        },
+        {
+          "stop_id": "1570",
+          "stop_name": "Witeradów Pod Kądzielnią",
+          "platform": "1",
+          "file": "1570-okrezna-2.html"
+        },
+        {
+          "stop_id": "1571",
+          "stop_name": "Witeradów",
+          "platform": "1",
+          "file": "1571-okrezna-2.html"
+        },
+        {
+          "stop_id": "1572",
+          "stop_name": "Witeradów Wieś",
+          "platform": "1",
+          "file": "1572-okrezna-2.html"
+        },
+        {
+          "stop_id": "1573",
+          "stop_name": "Witeradów Tartak",
+          "platform": "1",
+          "file": "1573-okrezna-2.html"
+        },
+        {
+          "stop_id": "1574",
+          "stop_name": "Witeradów Zacisze",
+          "platform": "1",
+          "file": "1574-okrezna-2.html"
+        },
+        {
+          "stop_id": "1576",
+          "stop_name": "Olkusz Księdza Gajewskiego",
+          "platform": "2",
+          "file": "1576-okrezna-2.html"
+        },
+        {
+          "stop_id": "1586",
+          "stop_name": "Olkusz Kościół",
+          "platform": "2",
+          "file": "1586-okrezna-2.html"
+        },
+        {
+          "stop_id": "1588",
+          "stop_name": "Olkusz Biema",
+          "platform": "1",
+          "file": "1588-okrezna-2.html"
+        },
+        {
+          "stop_id": "0537",
+          "stop_name": "Olkusz ZUS",
+          "platform": "1",
+          "file": "0537-okrezna-2.html"
+        },
+        {
+          "stop_id": "0538",
+          "stop_name": "Olkusz Owent",
+          "platform": "1",
+          "file": "0538-okrezna-2.html"
+        },
+        {
+          "stop_id": "0225",
+          "stop_name": "Olkusz Aleja Tysiąclecia",
+          "platform": "2",
+          "file": "0225-okrezna-2.html"
+        },
+        {
+          "stop_id": "0226",
+          "stop_name": "Olkusz Wiadukt",
+          "platform": "2",
+          "file": "0226-okrezna-2.html"
+        },
+        {
+          "stop_id": "0227",
+          "stop_name": "Olkusz Dworzec PKP",
+          "platform": "2",
+          "file": "0227-okrezna-2.html"
+        },
+        {
+          "stop_id": "0228",
+          "stop_name": "Olkusz Skarbek",
+          "platform": "1",
+          "file": "0228-okrezna-2.html"
+        },
+        {
+          "stop_id": "0435",
+          "stop_name": "Olkusz Supersam",
+          "platform": "1",
+          "file": "0435-okrezna-2.html"
+        },
+        {
+          "stop_id": "0415",
+          "stop_name": "Olkusz Słowiki",
+          "platform": "2",
+          "file": "0415-okrezna-2.html"
+        },
+        {
+          "stop_id": "0203",
+          "stop_name": "Olkusz Aleja Tysiąclecia",
+          "platform": "1",
+          "file": "0203-okrezna-2.html"
+        },
+        {
+          "stop_id": "0204",
+          "stop_name": "Sieniczno",
+          "platform": "1",
+          "file": "0204-okrezna-2.html"
+        },
+        {
+          "stop_id": "1590",
+          "stop_name": "Kogutek",
+          "platform": "1",
+          "file": "1590-okrezna-2.html"
+        },
+        {
+          "stop_id": "1592",
+          "stop_name": "Zederman Pasieka",
+          "platform": "1",
+          "file": "1592-okrezna-2.html"
+        },
+        {
+          "stop_id": "1595",
+          "stop_name": "Zederman Kiosk",
+          "platform": "4",
+          "file": "1595-okrezna-2.html"
+        },
+        {
+          "stop_id": "1599",
+          "stop_name": "Zederman",
+          "platform": "1",
+          "file": "1599-okrezna-2.html"
+        },
+        {
+          "stop_id": "1601",
+          "stop_name": "Przeginia Kościół",
+          "platform": "1",
+          "file": "1601-okrezna-2.html"
+        },
+        {
+          "stop_id": "1602",
+          "stop_name": "Przeginia Szkoła",
+          "platform": "2",
+          "file": "1602-okrezna-2.html"
+        },
+        {
+          "stop_id": "1603",
+          "stop_name": "Przeginia SKR",
+          "platform": "2",
+          "file": "1603-okrezna-2.html"
+        },
+        {
+          "stop_id": "1761",
+          "stop_name": "Przeginia Górka",
+          "platform": "2",
+          "file": "1761-okrezna-2.html"
+        },
+        {
+          "stop_id": "1605",
+          "stop_name": "Czubrowice",
+          "platform": "2",
+          "file": "1605-okrezna-2.html"
+        },
+        {
+          "stop_id": "1606",
+          "stop_name": "Czubrowice Remiza",
+          "platform": "2",
+          "file": "1606-okrezna-2.html"
+        },
+        {
+          "stop_id": "1607",
+          "stop_name": "Czubrowice Szkoła",
+          "platform": "2",
+          "file": "1607-okrezna-2.html"
+        },
+        {
+          "stop_id": "1619",
+          "stop_name": "Czubrowice Rzeka",
+          "platform": "1",
+          "file": "1619-okrezna-2.html"
+        },
+        {
+          "stop_id": "1610",
+          "stop_name": "Racławice Koło Sioły",
+          "platform": "2",
+          "file": "1610-okrezna-2.html"
+        },
+        {
+          "stop_id": "1609",
+          "stop_name": "Racławice Kościół",
+          "platform": "2",
+          "file": "1609-okrezna-2.html"
+        },
+        {
+          "stop_id": "1616",
+          "stop_name": "Racławice Remiza",
+          "platform": "2",
+          "file": "1616-okrezna-2.html"
+        },
+        {
+          "stop_id": "1614",
+          "stop_name": "Racławice",
+          "platform": "1",
+          "file": "1614-okrezna-2.html"
+        },
+        {
+          "stop_id": "1612",
+          "stop_name": "Racławice Na Końcu",
+          "platform": "2",
+          "file": "1612-okrezna-2.html"
+        },
+        {
+          "stop_id": "1330",
+          "stop_name": "Paczółtowice Podlipa Pętla",
+          "platform": "1",
+          "file": "1330-okrezna-2.html"
+        },
+        {
+          "stop_id": "1331",
+          "stop_name": "Paczółtowice Kościół",
+          "platform": "1",
+          "file": "1331-okrezna-2.html"
+        },
+        {
+          "stop_id": "1368",
+          "stop_name": "Dębnik Centrum Plac",
+          "platform": "0",
+          "file": "1368-okrezna-2.html"
+        },
+        {
+          "stop_id": "1367",
+          "stop_name": "Krzeszowice Czatkowice Górne",
+          "platform": "1",
+          "file": "1367-okrezna-2.html"
+        },
+        {
+          "stop_id": "0050",
+          "stop_name": "Krzeszowice Pogotowie Ratunkowe",
+          "platform": "1",
+          "file": "0050-okrezna-2.html"
+        },
+        {
+          "stop_id": "1677",
+          "stop_name": "Krzeszowice Dworzec Autobusowy",
+          "platform": "1",
+          "file": "1677-okrezna-2.html"
+        }
+      ],
+      "timetables": [
+        {
+          "stop_id": "0134",
+          "stop_name": "Krzeszowice Dworzec Autobusowy",
+          "platform": "3",
+          "file": "0134-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "06:10",
+              "09:30",
+              "12:42",
+              "16:15",
+              "19:40",
+              "23:00O"
+            ],
+            "saturday": [
+              "07:45",
+              "11:03",
+              "12:50",
+              "16:50",
+              "20:01"
+            ],
+            "sunday": [
+              "11:07",
+              "12:45",
+              "15:18",
+              "18:34"
+            ],
+            "holiday": [
+              "09:24",
+              "12:50"
+            ]
+          }
+        },
+        {
+          "stop_id": "0052",
+          "stop_name": "Krzeszowice Rondo Jana Pawła II",
+          "platform": "0",
+          "file": "0052-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "06:13",
+              "09:33",
+              "12:45",
+              "16:18",
+              "19:43",
+              "23:03O"
+            ],
+            "saturday": [
+              "07:48",
+              "11:06",
+              "12:53",
+              "16:53",
+              "20:04"
+            ],
+            "sunday": [
+              "11:10",
+              "12:48",
+              "15:21",
+              "18:37"
+            ],
+            "holiday": [
+              "09:27",
+              "12:53"
+            ]
+          }
+        },
+        {
+          "stop_id": "1278",
+          "stop_name": "Krzeszowice Kościół",
+          "platform": "2",
+          "file": "1278-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "06:15",
+              "09:35",
+              "12:47",
+              "16:20",
+              "19:45",
+              "23:05O"
+            ],
+            "saturday": [
+              "07:50",
+              "11:08",
+              "12:55",
+              "16:55",
+              "20:06"
+            ],
+            "sunday": [
+              "11:12",
+              "12:50",
+              "15:23",
+              "18:39"
+            ],
+            "holiday": [
+              "09:29",
+              "12:55"
+            ]
+          }
+        },
+        {
+          "stop_id": "0137",
+          "stop_name": "Krzeszowice Czatkowice EDEN",
+          "platform": "1",
+          "file": "0137-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "06:18",
+              "09:38",
+              "12:50",
+              "16:23",
+              "19:48",
+              "23:08O"
+            ],
+            "saturday": [
+              "07:53",
+              "11:11",
+              "12:58",
+              "16:58",
+              "20:09"
+            ],
+            "sunday": [
+              "11:15",
+              "12:53",
+              "15:26",
+              "18:42"
+            ],
+            "holiday": [
+              "09:32",
+              "12:58"
+            ]
+          }
+        },
+        {
+          "stop_id": "0138",
+          "stop_name": "Krzeszowice Czatkowice Dolne Kopalnia",
+          "platform": "2",
+          "file": "0138-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "06:19",
+              "09:39",
+              "12:51",
+              "16:24",
+              "19:49",
+              "23:09O"
+            ],
+            "saturday": [
+              "07:54",
+              "11:12",
+              "12:59",
+              "16:59",
+              "20:10"
+            ],
+            "sunday": [
+              "11:16",
+              "12:54",
+              "15:27",
+              "18:43"
+            ],
+            "holiday": [
+              "09:33",
+              "12:59"
+            ]
+          }
+        },
+        {
+          "stop_id": "1323",
+          "stop_name": "Czerna Skrzyżowanie",
+          "platform": "2",
+          "file": "1323-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "06:20",
+              "09:40",
+              "12:52",
+              "16:25",
+              "19:50",
+              "23:10O"
+            ],
+            "saturday": [
+              "07:55",
+              "11:13",
+              "13:00",
+              "17:00",
+              "20:11"
+            ],
+            "sunday": [
+              "11:17",
+              "12:55",
+              "15:28",
+              "18:44"
+            ],
+            "holiday": [
+              "09:34",
+              "13:00"
+            ]
+          }
+        },
+        {
+          "stop_id": "1369",
+          "stop_name": "Czerna Klasztor",
+          "platform": "2",
+          "file": "1369-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "06:21",
+              "09:41",
+              "12:53",
+              "16:26",
+              "19:51",
+              "23:11O"
+            ],
+            "saturday": [
+              "07:56",
+              "11:14",
+              "13:01",
+              "17:01",
+              "20:12"
+            ],
+            "sunday": [
+              "11:18",
+              "12:56",
+              "15:29",
+              "18:45"
+            ],
+            "holiday": [
+              "09:35",
+              "13:01"
+            ]
+          }
+        },
+        {
+          "stop_id": "1560",
+          "stop_name": "Gorenice Pętla",
+          "platform": "1",
+          "file": "1560-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "06:27",
+              "09:47",
+              "12:59",
+              "16:32",
+              "19:57",
+              "23:17O"
+            ],
+            "saturday": [
+              "08:02",
+              "11:20",
+              "13:07",
+              "17:07",
+              "20:18"
+            ],
+            "sunday": [
+              "11:24",
+              "13:02",
+              "15:35",
+              "18:51"
+            ],
+            "holiday": [
+              "09:41",
+              "13:07"
+            ]
+          }
+        },
+        {
+          "stop_id": "1563",
+          "stop_name": "Gorenice Wzniesienie",
+          "platform": "2",
+          "file": "1563-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "06:28",
+              "09:48",
+              "13:00",
+              "16:33",
+              "19:58",
+              "23:18O"
+            ],
+            "saturday": [
+              "08:03",
+              "11:21",
+              "13:08",
+              "17:08",
+              "20:19"
+            ],
+            "sunday": [
+              "11:25",
+              "13:03",
+              "15:36",
+              "18:52"
+            ],
+            "holiday": [
+              "09:42",
+              "13:08"
+            ]
+          }
+        },
+        {
+          "stop_id": "1565",
+          "stop_name": "Gorenice Dołek",
+          "platform": "2",
+          "file": "1565-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "06:29",
+              "09:49",
+              "13:01",
+              "16:34",
+              "19:59",
+              "23:19O"
+            ],
+            "saturday": [
+              "08:04",
+              "11:22",
+              "13:09",
+              "17:09",
+              "20:20"
+            ],
+            "sunday": [
+              "11:26",
+              "13:04",
+              "15:37",
+              "18:53"
+            ],
+            "holiday": [
+              "09:43",
+              "13:09"
+            ]
+          }
+        },
+        {
+          "stop_id": "1585",
+          "stop_name": "Gorenice Szkoła",
+          "platform": "2",
+          "file": "1585-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "06:30",
+              "09:50",
+              "13:02",
+              "16:35",
+              "20:00",
+              "23:20O"
+            ],
+            "saturday": [
+              "08:05",
+              "11:23",
+              "13:10",
+              "17:10",
+              "20:21"
+            ],
+            "sunday": [
+              "11:27",
+              "13:05",
+              "15:38",
+              "18:54"
+            ],
+            "holiday": [
+              "09:44",
+              "13:10"
+            ]
+          }
+        },
+        {
+          "stop_id": "1567",
+          "stop_name": "Gorenice Remiza",
+          "platform": "1",
+          "file": "1567-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "06:31",
+              "09:51",
+              "13:03",
+              "16:36",
+              "20:01",
+              "23:21O"
+            ],
+            "saturday": [
+              "08:06",
+              "11:24",
+              "13:11",
+              "17:11",
+              "20:22"
+            ],
+            "sunday": [
+              "11:28",
+              "13:06",
+              "15:39",
+              "18:55"
+            ],
+            "holiday": [
+              "09:45",
+              "13:11"
+            ]
+          }
+        },
+        {
+          "stop_id": "1583",
+          "stop_name": "Gorenice Kościół",
+          "platform": "2",
+          "file": "1583-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "06:32",
+              "09:52",
+              "13:04",
+              "16:37",
+              "20:02",
+              "23:22O"
+            ],
+            "saturday": [
+              "08:07",
+              "11:25",
+              "13:12",
+              "17:12",
+              "20:23"
+            ],
+            "sunday": [
+              "11:29",
+              "13:07",
+              "15:40",
+              "18:56"
+            ],
+            "holiday": [
+              "09:46",
+              "13:12"
+            ]
+          }
+        },
+        {
+          "stop_id": "1569",
+          "stop_name": "Gorenice Wilcze Doły",
+          "platform": "1",
+          "file": "1569-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "06:35",
+              "09:55",
+              "13:07",
+              "16:40",
+              "20:05",
+              "23:25O"
+            ],
+            "saturday": [
+              "08:10",
+              "11:28",
+              "13:15",
+              "17:15",
+              "20:26"
+            ],
+            "sunday": [
+              "11:32",
+              "13:10",
+              "15:43",
+              "18:59"
+            ],
+            "holiday": [
+              "09:49",
+              "13:15"
+            ]
+          }
+        },
+        {
+          "stop_id": "1570",
+          "stop_name": "Witeradów Pod Kądzielnią",
+          "platform": "1",
+          "file": "1570-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "06:37",
+              "09:57",
+              "13:09",
+              "16:42",
+              "20:07",
+              "23:27O"
+            ],
+            "saturday": [
+              "08:12",
+              "11:30",
+              "13:17",
+              "17:17",
+              "20:28"
+            ],
+            "sunday": [
+              "11:34",
+              "13:12",
+              "15:45",
+              "19:01"
+            ],
+            "holiday": [
+              "09:51",
+              "13:17"
+            ]
+          }
+        },
+        {
+          "stop_id": "1571",
+          "stop_name": "Witeradów",
+          "platform": "1",
+          "file": "1571-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "06:38",
+              "09:58",
+              "13:10",
+              "16:43",
+              "20:08",
+              "23:28O"
+            ],
+            "saturday": [
+              "08:13",
+              "11:31",
+              "13:18",
+              "17:18",
+              "20:29"
+            ],
+            "sunday": [
+              "11:35",
+              "13:13",
+              "15:46",
+              "19:02"
+            ],
+            "holiday": [
+              "09:52",
+              "13:18"
+            ]
+          }
+        },
+        {
+          "stop_id": "1572",
+          "stop_name": "Witeradów Wieś",
+          "platform": "1",
+          "file": "1572-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "06:39",
+              "09:59",
+              "13:11",
+              "16:44",
+              "20:09",
+              "23:29O"
+            ],
+            "saturday": [
+              "08:14",
+              "11:32",
+              "13:19",
+              "17:19",
+              "20:30"
+            ],
+            "sunday": [
+              "11:36",
+              "13:14",
+              "15:47",
+              "19:03"
+            ],
+            "holiday": [
+              "09:53",
+              "13:19"
+            ]
+          }
+        },
+        {
+          "stop_id": "1573",
+          "stop_name": "Witeradów Tartak",
+          "platform": "1",
+          "file": "1573-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "06:40",
+              "10:00",
+              "13:12",
+              "16:45",
+              "20:10",
+              "23:30O"
+            ],
+            "saturday": [
+              "08:15",
+              "11:33",
+              "13:20",
+              "17:20",
+              "20:31"
+            ],
+            "sunday": [
+              "11:37",
+              "13:15",
+              "15:48",
+              "19:04"
+            ],
+            "holiday": [
+              "09:54",
+              "13:20"
+            ]
+          }
+        },
+        {
+          "stop_id": "1574",
+          "stop_name": "Witeradów Zacisze",
+          "platform": "1",
+          "file": "1574-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "06:41",
+              "10:01",
+              "13:13",
+              "16:46",
+              "20:11",
+              "23:31O"
+            ],
+            "saturday": [
+              "08:16",
+              "11:34",
+              "13:21",
+              "17:21",
+              "20:32"
+            ],
+            "sunday": [
+              "11:38",
+              "13:16",
+              "15:49",
+              "19:05"
+            ],
+            "holiday": [
+              "09:55",
+              "13:21"
+            ]
+          }
+        },
+        {
+          "stop_id": "1576",
+          "stop_name": "Olkusz Księdza Gajewskiego",
+          "platform": "2",
+          "file": "1576-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "06:42",
+              "10:02",
+              "13:14",
+              "16:47",
+              "20:12",
+              "23:32O"
+            ],
+            "saturday": [
+              "08:17",
+              "11:35",
+              "13:22",
+              "17:22",
+              "20:33"
+            ],
+            "sunday": [
+              "11:39",
+              "13:17",
+              "15:50",
+              "19:06"
+            ],
+            "holiday": [
+              "09:56",
+              "13:22"
+            ]
+          }
+        },
+        {
+          "stop_id": "1586",
+          "stop_name": "Olkusz Kościół",
+          "platform": "2",
+          "file": "1586-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "06:43",
+              "10:03",
+              "13:15",
+              "16:48",
+              "20:13",
+              "23:33O"
+            ],
+            "saturday": [
+              "08:18",
+              "11:36",
+              "13:23",
+              "17:23",
+              "20:34"
+            ],
+            "sunday": [
+              "11:40",
+              "13:18",
+              "15:51",
+              "19:07"
+            ],
+            "holiday": [
+              "09:57",
+              "13:23"
+            ]
+          }
+        },
+        {
+          "stop_id": "1588",
+          "stop_name": "Olkusz Biema",
+          "platform": "1",
+          "file": "1588-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "06:44",
+              "10:04",
+              "13:16",
+              "16:49",
+              "20:14",
+              "23:34O"
+            ],
+            "saturday": [
+              "08:19",
+              "11:37",
+              "13:24",
+              "17:24",
+              "20:35"
+            ],
+            "sunday": [
+              "11:41",
+              "13:19",
+              "15:52",
+              "19:08"
+            ],
+            "holiday": [
+              "09:58",
+              "13:24"
+            ]
+          }
+        },
+        {
+          "stop_id": "0537",
+          "stop_name": "Olkusz ZUS",
+          "platform": "1",
+          "file": "0537-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "06:45",
+              "10:05",
+              "13:17",
+              "16:50",
+              "20:15",
+              "23:35O"
+            ],
+            "saturday": [
+              "08:20",
+              "11:38",
+              "13:25",
+              "17:25",
+              "20:36"
+            ],
+            "sunday": [
+              "11:42",
+              "13:20",
+              "15:53",
+              "19:09"
+            ],
+            "holiday": [
+              "09:59",
+              "13:25"
+            ]
+          }
+        },
+        {
+          "stop_id": "0538",
+          "stop_name": "Olkusz Owent",
+          "platform": "1",
+          "file": "0538-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "06:46",
+              "10:06",
+              "13:18",
+              "16:51",
+              "20:16",
+              "23:36O"
+            ],
+            "saturday": [
+              "08:21",
+              "11:39",
+              "13:26",
+              "17:26",
+              "20:37"
+            ],
+            "sunday": [
+              "11:43",
+              "13:21",
+              "15:54",
+              "19:10"
+            ],
+            "holiday": [
+              "10:00",
+              "13:26"
+            ]
+          }
+        },
+        {
+          "stop_id": "0225",
+          "stop_name": "Olkusz Aleja Tysiąclecia",
+          "platform": "2",
+          "file": "0225-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "06:47",
+              "10:07",
+              "13:19",
+              "16:52",
+              "20:17",
+              "23:37O"
+            ],
+            "saturday": [
+              "08:22",
+              "11:40",
+              "13:27",
+              "17:27",
+              "20:38"
+            ],
+            "sunday": [
+              "11:44",
+              "13:22",
+              "15:55",
+              "19:11"
+            ],
+            "holiday": [
+              "10:01",
+              "13:27"
+            ]
+          }
+        },
+        {
+          "stop_id": "0226",
+          "stop_name": "Olkusz Wiadukt",
+          "platform": "2",
+          "file": "0226-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "06:49",
+              "10:09",
+              "13:21",
+              "16:54",
+              "20:19",
+              "23:39O"
+            ],
+            "saturday": [
+              "08:24",
+              "11:42",
+              "13:29",
+              "17:29",
+              "20:40"
+            ],
+            "sunday": [
+              "11:46",
+              "13:24",
+              "15:57",
+              "19:13"
+            ],
+            "holiday": [
+              "10:03",
+              "13:29"
+            ]
+          }
+        },
+        {
+          "stop_id": "0227",
+          "stop_name": "Olkusz Dworzec PKP",
+          "platform": "2",
+          "file": "0227-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "06:51",
+              "10:11",
+              "13:23",
+              "16:56",
+              "20:21"
+            ],
+            "saturday": [
+              "08:26",
+              "11:44",
+              "13:31",
+              "17:31",
+              "20:42"
+            ],
+            "sunday": [
+              "11:48",
+              "13:26",
+              "15:59",
+              "19:15"
+            ],
+            "holiday": [
+              "10:05",
+              "13:31"
+            ]
+          }
+        },
+        {
+          "stop_id": "0228",
+          "stop_name": "Olkusz Skarbek",
+          "platform": "1",
+          "file": "0228-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "06:53",
+              "10:13",
+              "13:25",
+              "16:58",
+              "20:23"
+            ],
+            "saturday": [
+              "08:28",
+              "11:46",
+              "13:33",
+              "17:33",
+              "20:44"
+            ],
+            "sunday": [
+              "11:50",
+              "13:28",
+              "16:01",
+              "19:17"
+            ],
+            "holiday": [
+              "10:07",
+              "13:33"
+            ]
+          }
+        },
+        {
+          "stop_id": "0435",
+          "stop_name": "Olkusz Supersam",
+          "platform": "1",
+          "file": "0435-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "06:55",
+              "10:15",
+              "13:27",
+              "17:00",
+              "20:25"
+            ],
+            "saturday": [
+              "08:30",
+              "11:48",
+              "13:35",
+              "17:35",
+              "20:46"
+            ],
+            "sunday": [
+              "11:52",
+              "13:30",
+              "16:03",
+              "19:19"
+            ],
+            "holiday": [
+              "10:09",
+              "13:35"
+            ]
+          }
+        },
+        {
+          "stop_id": "0415",
+          "stop_name": "Olkusz Słowiki",
+          "platform": "2",
+          "file": "0415-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "06:57",
+              "10:17",
+              "13:29",
+              "17:02",
+              "20:27"
+            ],
+            "saturday": [
+              "08:32",
+              "11:50",
+              "13:37",
+              "17:37",
+              "20:48"
+            ],
+            "sunday": [
+              "11:54",
+              "13:32",
+              "16:05",
+              "19:21"
+            ],
+            "holiday": [
+              "10:11",
+              "13:37"
+            ]
+          }
+        },
+        {
+          "stop_id": "0203",
+          "stop_name": "Olkusz Aleja Tysiąclecia",
+          "platform": "1",
+          "file": "0203-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "06:59",
+              "10:19",
+              "13:31",
+              "17:04",
+              "20:29"
+            ],
+            "saturday": [
+              "08:34",
+              "11:52",
+              "13:39",
+              "17:39",
+              "20:50"
+            ],
+            "sunday": [
+              "11:56",
+              "13:34",
+              "16:07",
+              "19:23"
+            ],
+            "holiday": [
+              "10:13",
+              "13:39"
+            ]
+          }
+        },
+        {
+          "stop_id": "0204",
+          "stop_name": "Sieniczno",
+          "platform": "1",
+          "file": "0204-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "07:01",
+              "10:21",
+              "13:33",
+              "17:06",
+              "20:31"
+            ],
+            "saturday": [
+              "08:36",
+              "11:54",
+              "13:41",
+              "17:41",
+              "20:52"
+            ],
+            "sunday": [
+              "11:58",
+              "13:36",
+              "16:09",
+              "19:25"
+            ],
+            "holiday": [
+              "10:15",
+              "13:41"
+            ]
+          }
+        },
+        {
+          "stop_id": "1590",
+          "stop_name": "Kogutek",
+          "platform": "1",
+          "file": "1590-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "07:03",
+              "10:23",
+              "13:35",
+              "17:08",
+              "20:33"
+            ],
+            "saturday": [
+              "08:38",
+              "11:56",
+              "13:43",
+              "17:43",
+              "20:54"
+            ],
+            "sunday": [
+              "12:00",
+              "13:38",
+              "16:11",
+              "19:27"
+            ],
+            "holiday": [
+              "10:17",
+              "13:43"
+            ]
+          }
+        },
+        {
+          "stop_id": "1592",
+          "stop_name": "Zederman Pasieka",
+          "platform": "1",
+          "file": "1592-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "07:05",
+              "10:25",
+              "13:37",
+              "17:10",
+              "20:35"
+            ],
+            "saturday": [
+              "08:40",
+              "11:58",
+              "13:45",
+              "17:45",
+              "20:56"
+            ],
+            "sunday": [
+              "12:02",
+              "13:40",
+              "16:13",
+              "19:29"
+            ],
+            "holiday": [
+              "10:19",
+              "13:45"
+            ]
+          }
+        },
+        {
+          "stop_id": "1595",
+          "stop_name": "Zederman Kiosk",
+          "platform": "4",
+          "file": "1595-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "07:06",
+              "10:26",
+              "13:38",
+              "17:11",
+              "20:36"
+            ],
+            "saturday": [
+              "08:41",
+              "11:59",
+              "13:46",
+              "17:46",
+              "20:57"
+            ],
+            "sunday": [
+              "12:03",
+              "13:41",
+              "16:14",
+              "19:30"
+            ],
+            "holiday": [
+              "10:20",
+              "13:46"
+            ]
+          }
+        },
+        {
+          "stop_id": "1599",
+          "stop_name": "Zederman",
+          "platform": "1",
+          "file": "1599-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "07:07",
+              "10:27",
+              "13:39",
+              "17:12",
+              "20:37"
+            ],
+            "saturday": [
+              "08:42",
+              "12:00",
+              "13:47",
+              "17:47",
+              "20:58"
+            ],
+            "sunday": [
+              "12:04",
+              "13:42",
+              "16:15",
+              "19:31"
+            ],
+            "holiday": [
+              "10:21",
+              "13:47"
+            ]
+          }
+        },
+        {
+          "stop_id": "1601",
+          "stop_name": "Przeginia Kościół",
+          "platform": "1",
+          "file": "1601-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "07:09",
+              "10:29",
+              "13:41",
+              "17:14",
+              "20:39"
+            ],
+            "saturday": [
+              "08:44",
+              "12:02",
+              "13:49",
+              "17:49",
+              "21:00"
+            ],
+            "sunday": [
+              "12:06",
+              "13:44",
+              "16:17",
+              "19:33"
+            ],
+            "holiday": [
+              "10:23",
+              "13:49"
+            ]
+          }
+        },
+        {
+          "stop_id": "1602",
+          "stop_name": "Przeginia Szkoła",
+          "platform": "2",
+          "file": "1602-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "07:10",
+              "10:30",
+              "13:42",
+              "17:15",
+              "20:40"
+            ],
+            "saturday": [
+              "08:45",
+              "12:03",
+              "13:50",
+              "17:50",
+              "21:01"
+            ],
+            "sunday": [
+              "12:07",
+              "13:45",
+              "16:18",
+              "19:34"
+            ],
+            "holiday": [
+              "10:24",
+              "13:50"
+            ]
+          }
+        },
+        {
+          "stop_id": "1603",
+          "stop_name": "Przeginia SKR",
+          "platform": "2",
+          "file": "1603-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "07:11",
+              "10:31",
+              "13:43",
+              "17:16",
+              "20:41"
+            ],
+            "saturday": [
+              "08:46",
+              "12:04",
+              "13:51",
+              "17:51",
+              "21:02"
+            ],
+            "sunday": [
+              "12:08",
+              "13:46",
+              "16:19",
+              "19:35"
+            ],
+            "holiday": [
+              "10:25",
+              "13:51"
+            ]
+          }
+        },
+        {
+          "stop_id": "1761",
+          "stop_name": "Przeginia Górka",
+          "platform": "2",
+          "file": "1761-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "07:12",
+              "10:32",
+              "13:44",
+              "17:17",
+              "20:42"
+            ],
+            "saturday": [
+              "08:47",
+              "12:05",
+              "13:52",
+              "17:52",
+              "21:03"
+            ],
+            "sunday": [
+              "12:09",
+              "13:47",
+              "16:20",
+              "19:36"
+            ],
+            "holiday": [
+              "10:26",
+              "13:52"
+            ]
+          }
+        },
+        {
+          "stop_id": "1605",
+          "stop_name": "Czubrowice",
+          "platform": "2",
+          "file": "1605-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "07:14",
+              "10:34",
+              "13:46",
+              "17:19",
+              "20:44"
+            ],
+            "saturday": [
+              "08:49",
+              "12:07",
+              "13:54",
+              "17:54",
+              "21:05"
+            ],
+            "sunday": [
+              "12:11",
+              "13:49",
+              "16:22",
+              "19:38"
+            ],
+            "holiday": [
+              "10:28",
+              "13:54"
+            ]
+          }
+        },
+        {
+          "stop_id": "1606",
+          "stop_name": "Czubrowice Remiza",
+          "platform": "2",
+          "file": "1606-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "07:15",
+              "10:35",
+              "13:47",
+              "17:20",
+              "20:45"
+            ],
+            "saturday": [
+              "08:50",
+              "12:08",
+              "13:55",
+              "17:55",
+              "21:06"
+            ],
+            "sunday": [
+              "12:12",
+              "13:50",
+              "16:23",
+              "19:39"
+            ],
+            "holiday": [
+              "10:29",
+              "13:55"
+            ]
+          }
+        },
+        {
+          "stop_id": "1607",
+          "stop_name": "Czubrowice Szkoła",
+          "platform": "2",
+          "file": "1607-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "07:16",
+              "10:36",
+              "13:48",
+              "17:21",
+              "20:46"
+            ],
+            "saturday": [
+              "08:51",
+              "12:09",
+              "13:56",
+              "17:56",
+              "21:07"
+            ],
+            "sunday": [
+              "12:13",
+              "13:51",
+              "16:24",
+              "19:40"
+            ],
+            "holiday": [
+              "10:30",
+              "13:56"
+            ]
+          }
+        },
+        {
+          "stop_id": "1619",
+          "stop_name": "Czubrowice Rzeka",
+          "platform": "1",
+          "file": "1619-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "07:18",
+              "10:38",
+              "13:50",
+              "17:23",
+              "20:48"
+            ],
+            "saturday": [
+              "08:53",
+              "12:11",
+              "13:58",
+              "17:58",
+              "21:09"
+            ],
+            "sunday": [
+              "12:15",
+              "13:53",
+              "16:26",
+              "19:42"
+            ],
+            "holiday": [
+              "10:32",
+              "13:58"
+            ]
+          }
+        },
+        {
+          "stop_id": "1610",
+          "stop_name": "Racławice Koło Sioły",
+          "platform": "2",
+          "file": "1610-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "07:19",
+              "10:39",
+              "13:51",
+              "17:24",
+              "20:49"
+            ],
+            "saturday": [
+              "08:54",
+              "12:12",
+              "13:59",
+              "17:59",
+              "21:10"
+            ],
+            "sunday": [
+              "12:16",
+              "13:54",
+              "16:27",
+              "19:43"
+            ],
+            "holiday": [
+              "10:33",
+              "13:59"
+            ]
+          }
+        },
+        {
+          "stop_id": "1609",
+          "stop_name": "Racławice Kościół",
+          "platform": "2",
+          "file": "1609-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "07:20",
+              "10:40",
+              "13:52",
+              "17:25",
+              "20:50"
+            ],
+            "saturday": [
+              "08:55",
+              "12:13",
+              "14:00",
+              "18:00",
+              "21:11"
+            ],
+            "sunday": [
+              "12:17",
+              "13:55",
+              "16:28",
+              "19:44"
+            ],
+            "holiday": [
+              "10:34",
+              "14:00"
+            ]
+          }
+        },
+        {
+          "stop_id": "1616",
+          "stop_name": "Racławice Remiza",
+          "platform": "2",
+          "file": "1616-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "07:21",
+              "10:41",
+              "13:53",
+              "17:26",
+              "20:51"
+            ],
+            "saturday": [
+              "08:56",
+              "12:14",
+              "14:01",
+              "18:01",
+              "21:12"
+            ],
+            "sunday": [
+              "12:18",
+              "13:56",
+              "16:29",
+              "19:45"
+            ],
+            "holiday": [
+              "10:35",
+              "14:01"
+            ]
+          }
+        },
+        {
+          "stop_id": "1614",
+          "stop_name": "Racławice",
+          "platform": "1",
+          "file": "1614-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "07:22",
+              "10:42",
+              "13:54",
+              "17:27",
+              "20:52"
+            ],
+            "saturday": [
+              "08:57",
+              "12:15",
+              "14:02",
+              "18:02",
+              "21:13"
+            ],
+            "sunday": [
+              "12:19",
+              "13:57",
+              "16:30",
+              "19:46"
+            ],
+            "holiday": [
+              "10:36",
+              "14:02"
+            ]
+          }
+        },
+        {
+          "stop_id": "1612",
+          "stop_name": "Racławice Na Końcu",
+          "platform": "2",
+          "file": "1612-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "07:24",
+              "10:44",
+              "13:56",
+              "17:29",
+              "20:54"
+            ],
+            "saturday": [
+              "08:59",
+              "12:17",
+              "14:04",
+              "18:04",
+              "21:15"
+            ],
+            "sunday": [
+              "12:21",
+              "13:59",
+              "16:32",
+              "19:48"
+            ],
+            "holiday": [
+              "10:38",
+              "14:04"
+            ]
+          }
+        },
+        {
+          "stop_id": "1330",
+          "stop_name": "Paczółtowice Podlipa Pętla",
+          "platform": "1",
+          "file": "1330-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "07:27",
+              "10:47",
+              "13:59",
+              "17:32",
+              "20:57"
+            ],
+            "saturday": [
+              "09:02",
+              "12:20",
+              "14:07",
+              "18:07",
+              "21:18"
+            ],
+            "sunday": [
+              "12:24",
+              "14:02",
+              "16:35",
+              "19:51"
+            ],
+            "holiday": [
+              "10:41",
+              "14:07"
+            ]
+          }
+        },
+        {
+          "stop_id": "1331",
+          "stop_name": "Paczółtowice Kościół",
+          "platform": "1",
+          "file": "1331-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "07:28",
+              "10:48",
+              "14:00",
+              "17:33",
+              "20:58"
+            ],
+            "saturday": [
+              "09:03",
+              "12:21",
+              "14:08",
+              "18:08",
+              "21:19"
+            ],
+            "sunday": [
+              "12:25",
+              "14:03",
+              "16:36",
+              "19:52"
+            ],
+            "holiday": [
+              "10:42",
+              "14:08"
+            ]
+          }
+        },
+        {
+          "stop_id": "1368",
+          "stop_name": "Dębnik Centrum Plac",
+          "platform": "0",
+          "file": "1368-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "07:33",
+              "10:53",
+              "14:05",
+              "17:38",
+              "21:03"
+            ],
+            "saturday": [
+              "09:08",
+              "12:26",
+              "14:13",
+              "18:13",
+              "21:24"
+            ],
+            "sunday": [
+              "12:30",
+              "14:08",
+              "16:41",
+              "19:57"
+            ],
+            "holiday": [
+              "10:47",
+              "14:13"
+            ]
+          }
+        },
+        {
+          "stop_id": "1367",
+          "stop_name": "Krzeszowice Czatkowice Górne",
+          "platform": "1",
+          "file": "1367-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "07:37",
+              "10:57",
+              "14:09",
+              "17:42",
+              "21:07"
+            ],
+            "saturday": [
+              "09:12",
+              "12:30",
+              "14:17",
+              "18:17",
+              "21:28"
+            ],
+            "sunday": [
+              "12:34",
+              "14:12",
+              "16:45",
+              "20:01"
+            ],
+            "holiday": [
+              "10:51",
+              "14:17"
+            ]
+          }
+        },
+        {
+          "stop_id": "0050",
+          "stop_name": "Krzeszowice Pogotowie Ratunkowe",
+          "platform": "1",
+          "file": "0050-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "07:40",
+              "11:00",
+              "14:12",
+              "17:45",
+              "21:10"
+            ],
+            "saturday": [
+              "09:15",
+              "12:33",
+              "14:20",
+              "18:20",
+              "21:31"
+            ],
+            "sunday": [
+              "12:37",
+              "14:15",
+              "16:48",
+              "20:04"
+            ],
+            "holiday": [
+              "10:54",
+              "14:20"
+            ]
+          }
+        },
+        {
+          "stop_id": "1677",
+          "stop_name": "Krzeszowice Dworzec Autobusowy",
+          "platform": "1",
+          "file": "1677-okrezna-2.html",
+          "departures": {},
+          "arrival_only": true
+        }
+      ]
+    }
+  ]
+}
