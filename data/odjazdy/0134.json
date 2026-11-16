@@ -4,6 +4,16 @@
   "platform": "3",
   "departures": [
     {
+      "line": "29",
+      "main_direction": "Olkusz Dworzec PKP",
+      "display_direction": "Olkusz Dworzec PKP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/29/0134-okrezna-1.html",
+      "day_type": "holiday",
+      "time": "07:35",
+      "symbols": []
+    },
+    {
       "line": "25",
       "main_direction": "Chrzanów Szpital",
       "display_direction": "Chrzanów Szpital",
@@ -11,6 +21,16 @@
       "page": "rozklady/25/0134-chrzanow.html",
       "day_type": "holiday",
       "time": "08:05",
+      "symbols": []
+    },
+    {
+      "line": "29",
+      "main_direction": "Olkusz Dworzec PKP",
+      "display_direction": "Olkusz Dworzec PKP",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/29/0134-okrezna-2.html",
+      "day_type": "holiday",
+      "time": "09:24",
       "symbols": []
     },
     {
@@ -24,6 +44,16 @@
       "symbols": []
     },
     {
+      "line": "29",
+      "main_direction": "Olkusz Dworzec PKP",
+      "display_direction": "Olkusz Dworzec PKP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/29/0134-okrezna-1.html",
+      "day_type": "holiday",
+      "time": "11:13",
+      "symbols": []
+    },
+    {
       "line": "25",
       "main_direction": "Chrzanów Szpital",
       "display_direction": "Chrzanów Szpital",
@@ -31,6 +61,26 @@
       "page": "rozklady/25/0134-chrzanow.html",
       "day_type": "holiday",
       "time": "12:40",
+      "symbols": []
+    },
+    {
+      "line": "29",
+      "main_direction": "Olkusz Dworzec PKP",
+      "display_direction": "Olkusz Dworzec PKP",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/29/0134-okrezna-2.html",
+      "day_type": "holiday",
+      "time": "12:50",
+      "symbols": []
+    },
+    {
+      "line": "29",
+      "main_direction": "Olkusz Dworzec PKP",
+      "display_direction": "Olkusz Dworzec PKP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/29/0134-okrezna-1.html",
+      "day_type": "saturday",
+      "time": "06:00",
       "symbols": []
     },
     {
@@ -54,6 +104,16 @@
       "symbols": []
     },
     {
+      "line": "29",
+      "main_direction": "Olkusz Dworzec PKP",
+      "display_direction": "Olkusz Dworzec PKP",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/29/0134-okrezna-2.html",
+      "day_type": "saturday",
+      "time": "07:45",
+      "symbols": []
+    },
+    {
       "line": "25",
       "main_direction": "Chrzanów Szpital",
       "display_direction": "Chrzanów Szpital",
@@ -61,6 +121,26 @@
       "page": "rozklady/25/0134-chrzanow.html",
       "day_type": "saturday",
       "time": "08:03",
+      "symbols": []
+    },
+    {
+      "line": "29",
+      "main_direction": "Olkusz Dworzec PKP",
+      "display_direction": "Olkusz Dworzec PKP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/29/0134-okrezna-1.html",
+      "day_type": "saturday",
+      "time": "09:28",
+      "symbols": []
+    },
+    {
+      "line": "29",
+      "main_direction": "Olkusz Dworzec PKP",
+      "display_direction": "Olkusz Dworzec PKP",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/29/0134-okrezna-2.html",
+      "day_type": "saturday",
+      "time": "11:03",
       "symbols": []
     },
     {
@@ -74,6 +154,16 @@
       "symbols": []
     },
     {
+      "line": "29",
+      "main_direction": "Olkusz Dworzec PKP",
+      "display_direction": "Olkusz Dworzec PKP",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/29/0134-okrezna-2.html",
+      "day_type": "saturday",
+      "time": "12:50",
+      "symbols": []
+    },
+    {
       "line": "25",
       "main_direction": "Chrzanów Szpital",
       "display_direction": "Chrzanów Szpital",
@@ -81,6 +171,16 @@
       "page": "rozklady/25/0134-chrzanow.html",
       "day_type": "saturday",
       "time": "13:06",
+      "symbols": []
+    },
+    {
+      "line": "29",
+      "main_direction": "Olkusz Dworzec PKP",
+      "display_direction": "Olkusz Dworzec PKP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/29/0134-okrezna-1.html",
+      "day_type": "saturday",
+      "time": "14:50",
       "symbols": []
     },
     {
@@ -104,11 +204,31 @@
       "symbols": []
     },
     {
+      "line": "29",
+      "main_direction": "Olkusz Dworzec PKP",
+      "display_direction": "Olkusz Dworzec PKP",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/29/0134-okrezna-2.html",
+      "day_type": "saturday",
+      "time": "16:50",
+      "symbols": []
+    },
+    {
       "line": "25",
       "main_direction": "Chrzanów Szpital",
       "display_direction": "Chrzanów Szpital",
       "direction_slug": "chrzanow",
       "page": "rozklady/25/0134-chrzanow.html",
+      "day_type": "saturday",
+      "time": "18:28",
+      "symbols": []
+    },
+    {
+      "line": "29",
+      "main_direction": "Olkusz Dworzec PKP",
+      "display_direction": "Olkusz Dworzec PKP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/29/0134-okrezna-1.html",
       "day_type": "saturday",
       "time": "18:28",
       "symbols": []
@@ -124,6 +244,26 @@
       "symbols": []
     },
     {
+      "line": "29",
+      "main_direction": "Olkusz Dworzec PKP",
+      "display_direction": "Olkusz Dworzec PKP",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/29/0134-okrezna-2.html",
+      "day_type": "saturday",
+      "time": "20:01",
+      "symbols": []
+    },
+    {
+      "line": "29",
+      "main_direction": "Olkusz Dworzec PKP",
+      "display_direction": "Olkusz Dworzec PKP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/29/0134-okrezna-1.html",
+      "day_type": "saturday",
+      "time": "21:50",
+      "symbols": []
+    },
+    {
       "line": "25",
       "main_direction": "Chrzanów Szpital",
       "display_direction": "Chrzanów Szpital",
@@ -131,6 +271,26 @@
       "page": "rozklady/25/0134-chrzanow.html",
       "day_type": "sunday",
       "time": "07:02",
+      "symbols": []
+    },
+    {
+      "line": "29",
+      "main_direction": "Olkusz Dworzec PKP",
+      "display_direction": "Olkusz Dworzec PKP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/29/0134-okrezna-1.html",
+      "day_type": "sunday",
+      "time": "07:30",
+      "symbols": []
+    },
+    {
+      "line": "29",
+      "main_direction": "Olkusz Dworzec PKP",
+      "display_direction": "Olkusz Dworzec PKP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/29/0134-okrezna-1.html",
+      "day_type": "sunday",
+      "time": "09:16",
       "symbols": []
     },
     {
@@ -144,6 +304,16 @@
       "symbols": []
     },
     {
+      "line": "29",
+      "main_direction": "Olkusz Dworzec PKP",
+      "display_direction": "Olkusz Dworzec PKP",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/29/0134-okrezna-2.html",
+      "day_type": "sunday",
+      "time": "11:07",
+      "symbols": []
+    },
+    {
       "line": "25",
       "main_direction": "Chrzanów Szpital",
       "display_direction": "Chrzanów Szpital",
@@ -151,6 +321,16 @@
       "page": "rozklady/25/0134-chrzanow.html",
       "day_type": "sunday",
       "time": "12:40",
+      "symbols": []
+    },
+    {
+      "line": "29",
+      "main_direction": "Olkusz Dworzec PKP",
+      "display_direction": "Olkusz Dworzec PKP",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/29/0134-okrezna-2.html",
+      "day_type": "sunday",
+      "time": "12:45",
       "symbols": []
     },
     {
@@ -164,6 +344,26 @@
       "symbols": []
     },
     {
+      "line": "29",
+      "main_direction": "Olkusz Dworzec PKP",
+      "display_direction": "Olkusz Dworzec PKP",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/29/0134-okrezna-2.html",
+      "day_type": "sunday",
+      "time": "15:18",
+      "symbols": []
+    },
+    {
+      "line": "29",
+      "main_direction": "Olkusz Dworzec PKP",
+      "display_direction": "Olkusz Dworzec PKP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/29/0134-okrezna-1.html",
+      "day_type": "sunday",
+      "time": "16:53",
+      "symbols": []
+    },
+    {
       "line": "25",
       "main_direction": "Chrzanów Szpital",
       "display_direction": "Chrzanów Szpital",
@@ -174,6 +374,16 @@
       "symbols": []
     },
     {
+      "line": "29",
+      "main_direction": "Olkusz Dworzec PKP",
+      "display_direction": "Olkusz Dworzec PKP",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/29/0134-okrezna-2.html",
+      "day_type": "sunday",
+      "time": "18:34",
+      "symbols": []
+    },
+    {
       "line": "25",
       "main_direction": "Chrzanów Szpital",
       "display_direction": "Chrzanów Szpital",
@@ -181,6 +391,26 @@
       "page": "rozklady/25/0134-chrzanow.html",
       "day_type": "sunday",
       "time": "19:15",
+      "symbols": []
+    },
+    {
+      "line": "29",
+      "main_direction": "Olkusz Dworzec PKP",
+      "display_direction": "Olkusz Dworzec PKP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/29/0134-okrezna-1.html",
+      "day_type": "sunday",
+      "time": "20:17",
+      "symbols": []
+    },
+    {
+      "line": "29",
+      "main_direction": "Olkusz Dworzec PKP",
+      "display_direction": "Olkusz Dworzec PKP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/29/0134-okrezna-1.html",
+      "day_type": "workday",
+      "time": "04:20",
       "symbols": []
     },
     {
@@ -214,6 +444,26 @@
       "symbols": []
     },
     {
+      "line": "29",
+      "main_direction": "Olkusz Dworzec PKP",
+      "display_direction": "Olkusz Dworzec PKP",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/29/0134-okrezna-2.html",
+      "day_type": "workday",
+      "time": "06:10",
+      "symbols": []
+    },
+    {
+      "line": "29",
+      "main_direction": "Olkusz Dworzec PKP",
+      "display_direction": "Olkusz Dworzec PKP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/29/0134-okrezna-1.html",
+      "day_type": "workday",
+      "time": "07:47",
+      "symbols": []
+    },
+    {
       "line": "25",
       "main_direction": "Chrzanów Szpital",
       "display_direction": "Chrzanów Szpital",
@@ -244,6 +494,16 @@
       "symbols": []
     },
     {
+      "line": "29",
+      "main_direction": "Olkusz Dworzec PKP",
+      "display_direction": "Olkusz Dworzec PKP",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/29/0134-okrezna-2.html",
+      "day_type": "workday",
+      "time": "09:30",
+      "symbols": []
+    },
+    {
       "line": "25",
       "main_direction": "Chrzanów Szpital",
       "display_direction": "Chrzanów Szpital",
@@ -251,6 +511,26 @@
       "page": "rozklady/25/0134-chrzanow.html",
       "day_type": "workday",
       "time": "10:16",
+      "symbols": []
+    },
+    {
+      "line": "29",
+      "main_direction": "Olkusz Dworzec PKP",
+      "display_direction": "Olkusz Dworzec PKP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/29/0134-okrezna-1.html",
+      "day_type": "workday",
+      "time": "11:05",
+      "symbols": []
+    },
+    {
+      "line": "29",
+      "main_direction": "Olkusz Dworzec PKP",
+      "display_direction": "Olkusz Dworzec PKP",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/29/0134-okrezna-2.html",
+      "day_type": "workday",
+      "time": "12:42",
       "symbols": []
     },
     {
@@ -271,6 +551,16 @@
       "page": "rozklady/1/0134_miekinia.html",
       "day_type": "workday",
       "time": "13:09",
+      "symbols": []
+    },
+    {
+      "line": "29",
+      "main_direction": "Olkusz Dworzec PKP",
+      "display_direction": "Olkusz Dworzec PKP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/29/0134-okrezna-1.html",
+      "day_type": "workday",
+      "time": "14:40",
       "symbols": []
     },
     {
@@ -304,6 +594,16 @@
       "symbols": []
     },
     {
+      "line": "29",
+      "main_direction": "Olkusz Dworzec PKP",
+      "display_direction": "Olkusz Dworzec PKP",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/29/0134-okrezna-2.html",
+      "day_type": "workday",
+      "time": "16:15",
+      "symbols": []
+    },
+    {
       "line": "25",
       "main_direction": "Chrzanów Szpital",
       "display_direction": "Chrzanów Szpital",
@@ -311,6 +611,16 @@
       "page": "rozklady/25/0134-chrzanow.html",
       "day_type": "workday",
       "time": "16:55",
+      "symbols": []
+    },
+    {
+      "line": "29",
+      "main_direction": "Olkusz Dworzec PKP",
+      "display_direction": "Olkusz Dworzec PKP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/29/0134-okrezna-1.html",
+      "day_type": "workday",
+      "time": "18:05",
       "symbols": []
     },
     {
@@ -334,6 +644,16 @@
       "symbols": []
     },
     {
+      "line": "29",
+      "main_direction": "Olkusz Dworzec PKP",
+      "display_direction": "Olkusz Dworzec PKP",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/29/0134-okrezna-2.html",
+      "day_type": "workday",
+      "time": "19:40",
+      "symbols": []
+    },
+    {
       "line": "1",
       "main_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
       "display_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
@@ -354,6 +674,16 @@
       "symbols": []
     },
     {
+      "line": "29",
+      "main_direction": "Olkusz Dworzec PKP",
+      "display_direction": "Olkusz Dworzec PKP",
+      "direction_slug": "okrezna-1",
+      "page": "rozklady/29/0134-okrezna-1.html",
+      "day_type": "workday",
+      "time": "21:20",
+      "symbols": []
+    },
+    {
       "line": "1",
       "main_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
       "display_direction": "Krzeszowice Czatkowice Dolne Kopalnia",
@@ -362,6 +692,18 @@
       "day_type": "workday",
       "time": "22:09",
       "symbols": []
+    },
+    {
+      "line": "29",
+      "main_direction": "Olkusz Dworzec PKP",
+      "display_direction": "Olkusz Dworzec PKP",
+      "direction_slug": "okrezna-2",
+      "page": "rozklady/29/0134-okrezna-2.html",
+      "day_type": "workday",
+      "time": "23:00",
+      "symbols": [
+        "O"
+      ]
     }
   ],
   "served_lines": [
@@ -374,10 +716,23 @@
       "line": "25",
       "main_direction": "Chrzanów Szpital",
       "page": "rozklady/25/0134-chrzanow.html"
+    },
+    {
+      "line": "29",
+      "main_direction": "Olkusz Dworzec PKP",
+      "page": "rozklady/29/0134-okrezna-1.html"
+    },
+    {
+      "line": "29",
+      "main_direction": "Olkusz Dworzec PKP",
+      "page": "rozklady/29/0134-okrezna-2.html"
     }
   ],
   "legends": {
     "1": {},
-    "25": {}
+    "25": {},
+    "29": {
+      "O": "do: Olkusz Dworzec PKP"
+    }
   }
 }

@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KMMZ | Linia 29 | 1617 Racławice Koło Sioły</title>
+
+<style>
+
+*{box-sizing:border-box}
+
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:linear-gradient(135deg,#005bbb,#009966);
+    padding:20px;
+}
+
+.page{
+    max-width:1400px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:330px 1fr;
+    gap:20px;
+}
+
+.panel, .timetable{
+    background:white;
+    border-radius:16px;
+    box-shadow:0 8px 25px rgba(0,0,0,.22);
+}
+
+.panel{
+    padding:15px;
+}
+
+.back{
+    display:block;
+    margin-bottom:15px;
+    color:#005bbb;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+.route-title{
+    text-align:center;
+    padding:12px;
+    background:#f5c400;
+    font-weight:bold;
+    border-radius:10px 10px 0 0;
+}
+
+.route-subtitle{
+    text-align:center;
+    background:#009966;
+    color:white;
+    padding:8px;
+    font-weight:bold;
+}
+
+.stop{
+    display:block;
+    padding:5px 8px;
+    border-bottom:1px dashed #ccc;
+    color:#222;
+    text-decoration:none;
+    font-size:12px;
+}
+
+.stop:hover{
+    background:#eef5ff;
+    color:#005bbb;
+}
+
+.current-stop{
+    background:#fff3c4;
+    font-weight:bold;
+    font-size:12px;
+}
+
+.variant{
+    margin-left:25px;
+    font-style:italic;
+}
+
+.timetable{
+    padding:20px;
+}
+
+.header{
+    display:grid;
+    grid-template-columns:110px 1fr 90px;
+    gap:20px;
+    align-items:center;
+    margin-bottom:25px;
+}
+
+.line-button{
+    background:#f5c400;
+    color:#222;
+    font-size:36px;
+    font-weight:bold;
+    text-align:center;
+    padding:14px;
+    border-radius:12px;
+    text-decoration:none;
+}
+
+.stop-name{
+    font-size:21px;
+    font-weight:bold;
+    color:#005bbb;
+    text-decoration:none;
+}
+
+.stop-code{
+    background:#dcecff;
+    color:#005bbb;
+    padding:6px 10px;
+    border-radius:6px;
+    font-weight:bold;
+    margin-right:8px;
+    font-size:14px;
+}
+
+.direction{
+    margin-top:10px;
+    font-size:15px;
+}
+
+.map-button{
+    text-decoration:none;
+    background:#eaf4ff;
+    border:2px solid #005bbb;
+    color:#005bbb;
+    border-radius:12px;
+    font-size:13px;
+    padding:9px;
+    text-align:center;
+    font-weight:bold;
+}
+
+.map-icon{
+    font-size:26px;
+    display:block;
+}
+
+.section-title{
+    margin-top:14px;
+    padding:7px 10px;
+    font-weight:bold;
+    border-radius:6px;
+    font-size:14px;
+}
+
+.workday{background:#eaf4ff;}
+.saturday{background:#eef7df;}
+.sunday{background:#ffe5e5;}
+.holiday{background:#fff3c4;}
+
+.times{
+    display:grid;
+    grid-template-columns:repeat(8,1fr);
+    gap:0;
+    padding:6px 0 12px 0;
+    border-bottom:1px dashed #ccc;
+}
+
+.time{
+    text-align:center;
+    padding:5px;
+    font-size:14px;
+}
+
+.no-service{
+    padding:9px;
+    color:#777;
+    font-style:italic;
+    font-size:14px;
+}
+
+.legend{
+    margin-top:30px;
+    border:2px solid #ccc;
+    border-radius:14px;
+    overflow:hidden;
+}
+
+.legend-title{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    padding:12px;
+    background:linear-gradient(90deg,#f5c400,#005bbb,#009966);
+    font-size:17px;
+}
+
+.legend-row{
+    padding:8px 15px;
+    border-bottom:1px dashed #ccc;
+}
+
+.legend-row:last-child{
+    border-bottom:none;
+}
+
+.symbol{
+    color:#005bbb;
+    font-weight:bold;
+    display:inline-block;
+    width:35px;
+}
+
+@media(max-width:900px){
+    .page{
+        grid-template-columns:1fr;
+    }
+
+    .header{
+        grid-template-columns:1fr;
+        text-align:center;
+    }
+
+    .times{
+        grid-template-columns:repeat(3,1fr);
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="page">
+
+<div class="panel">
+<a class="back" href="../../linie/29.html">← Powrót do trasy linii 29</a>
+
+<div class="route-title">Kierunek: Olkusz Dworzec PKP</div>
+<div class="route-subtitle">Trasa przejazdu od tego przystanku</div>
+
+<a class="stop current-stop" href="../29/1617-okrezna-1.html">1617 Racławice Koło Sioły (1)</a>
+<a class="stop" href="../29/1608-okrezna-1.html">1608 Czubrowice Rzeka (2)</a>
+<a class="stop" href="../29/1620-okrezna-1.html">1620 Czubrowice Szkoła (1)</a>
+<a class="stop" href="../29/1621-okrezna-1.html">1621 Czubrowice Remiza (1)</a>
+<a class="stop" href="../29/1622-okrezna-1.html">1622 Czubrowice (1)</a>
+<a class="stop" href="../29/1604-okrezna-1.html">1604 Przeginia Górka (1)</a>
+<a class="stop" href="../29/1623-okrezna-1.html">1623 Przeginia SKR (1)</a>
+<a class="stop" href="../29/1624-okrezna-1.html">1624 Przeginia Szkoła (1)</a>
+<a class="stop" href="../29/1600-okrezna-1.html">1600 Przeginia Kościół (2)</a>
+<a class="stop" href="../29/1598-okrezna-1.html">1598 Zederman (2)</a>
+<a class="stop" href="../29/1594-okrezna-1.html">1594 Zederman Kiosk (3)</a>
+<a class="stop" href="../29/1593-okrezna-1.html">1593 Zederman Pasieka (2)</a>
+<a class="stop" href="../29/1591-okrezna-1.html">1591 Kogutek (2)</a>
+<a class="stop" href="../29/0224-okrezna-1.html">0224 Sieniczno (2)</a>
+<a class="stop" href="../29/0225-okrezna-1.html">0225 Olkusz Aleja Tysiąclecia (2)</a>
+<a class="stop" href="../29/0433-okrezna-1.html">0433 Olkusz Słowiki (1)</a>
+<a class="stop" href="../29/0174-okrezna-1.html">0174 Olkusz Supersam (0)</a>
+<a class="stop" href="../29/0199-okrezna-1.html">0199 Olkusz Skarbek (2)</a>
+<a class="stop" href="../29/0201-okrezna-1.html">0201 Olkusz Dworzec PKP (1)</a>
+<a class="stop" href="../29/0202-okrezna-1.html">0202 Olkusz Wiadukt (1)</a>
+<a class="stop" href="../29/0492-okrezna-1.html">0492 Olkusz Baza PKS (1)</a>
+<a class="stop" href="../29/0493-okrezna-1.html">0493 Olkusz Owent (2)</a>
+<a class="stop" href="../29/0494-okrezna-1.html">0494 Olkusz ZUS (2)</a>
+<a class="stop" href="../29/1589-okrezna-1.html">1589 Olkusz Biema (2)</a>
+<a class="stop" href="../29/1587-okrezna-1.html">1587 Olkusz Kościół (1)</a>
+<a class="stop" href="../29/1575-okrezna-1.html">1575 Olkusz Księdza Gajewskiego (1)</a>
+<a class="stop" href="../29/1577-okrezna-1.html">1577 Witeradów Zacisze (2)</a>
+<a class="stop" href="../29/1578-okrezna-1.html">1578 Witeradów Tartak (2)</a>
+<a class="stop" href="../29/1579-okrezna-1.html">1579 Witeradów Wieś (2)</a>
+<a class="stop" href="../29/1580-okrezna-1.html">1580 Witeradów (2)</a>
+<a class="stop" href="../29/1581-okrezna-1.html">1581 Witeradów Pod Kądzielnią (2)</a>
+<a class="stop" href="../29/1582-okrezna-1.html">1582 Gorenice Wilcze Doły (2)</a>
+<a class="stop" href="../29/1568-okrezna-1.html">1568 Gorenice Kościół (1)</a>
+<a class="stop" href="../29/1584-okrezna-1.html">1584 Gorenice Remiza (2)</a>
+<a class="stop" href="../29/1566-okrezna-1.html">1566 Gorenice Szkoła (1)</a>
+<a class="stop" href="../29/1564-okrezna-1.html">1564 Gorenice Dołek (1)</a>
+<a class="stop" href="../29/1562-okrezna-1.html">1562 Gorenice Wzniesienie (1)</a>
+<a class="stop" href="../29/1561-okrezna-1.html">1561 Gorenice (1)</a>
+<a class="stop" href="../29/1371-okrezna-1.html">1371 Czerna Las (1)</a>
+<a class="stop" href="../29/1370-okrezna-1.html">1370 Czerna Klasztor (1)</a>
+<a class="stop" href="../29/1322-okrezna-1.html">1322 Czerna Skrzyżowanie (1)</a>
+<a class="stop" href="../29/0046-okrezna-1.html">0046 Krzeszowice Czatkowice Dolne Kopalnia (1)</a>
+<a class="stop" href="../29/0047-okrezna-1.html">0047 Krzeszowice Czatkowice Dolne (1)</a>
+<a class="stop" href="../29/1275-okrezna-1.html">1275 Krzeszowice Urząd Miejski (1)</a>
+<a class="stop" href="../29/0133-okrezna-1.html">0133 Krzeszowice Centrum (1)</a>
+<a class="stop" href="../29/1677-okrezna-1.html">1677 Krzeszowice Dworzec Autobusowy (1)</a>
+</div>
+
+<div class="timetable">
+
+<div class="header">
+<a class="line-button" href="../../linie/29.html">29</a>
+
+<div>
+<a class="stop-name" href="../../przystanki/1617.html">
+<span class="stop-code">1617</span>Racławice Koło Sioły (1)
+</a>
+<div class="direction">Kierunek: <strong>Olkusz Dworzec PKP</strong></div>
+</div>
+
+<a class="map-button" href="https://enderommhr.github.io/kmmz/mapa.html" target="_blank">
+<span class="map-icon">🗺️</span>
+Mapa
+</a>
+</div>
+
+
+<div class="section-title workday">Dni robocze</div>
+<div class="times">
+<div class="time">04:42</div>
+<div class="time">08:09</div>
+<div class="time">11:27</div>
+<div class="time">15:02</div>
+<div class="time">18:27</div>
+<div class="time">21:42</div>
+</div>
+
+
+<div class="section-title saturday">Soboty</div>
+<div class="times">
+<div class="time">06:22</div>
+<div class="time">09:50</div>
+<div class="time">15:12</div>
+<div class="time">18:50</div>
+<div class="time">22:12</div>
+</div>
+
+
+<div class="section-title sunday">Niedziele</div>
+<div class="times">
+<div class="time">07:52</div>
+<div class="time">09:38</div>
+<div class="time">17:15</div>
+<div class="time">20:39</div>
+</div>
+
+
+<div class="section-title holiday">Święta</div>
+<div class="times">
+<div class="time">07:57</div>
+<div class="time">11:35</div>
+</div>
+
+
+
+  
+</div>
+
+</div>
+
+</body>
+</html>
