@@ -1,0 +1,60 @@
+{
+  "line": "29",
+  "description": "Dodatkowy arkusz Excel: wyjątkowe rozkłady na cztery dni w roku. Dane zachowane jako źródło; obecny generator nie publikuje kalendarzy datowych.",
+  "status": "source_only_not_published",
+  "source_sheet": "Arkusz3",
+  "dates": {
+    "12-24": {
+      "name": "Wigilia",
+      "directions": {
+        "1": [
+          "11:12",
+          "14:51"
+        ],
+        "2": [
+          "06:00",
+          "07:36",
+          "09:24",
+          "12:43"
+        ]
+      }
+    },
+    "12-25": {
+      "name": "I dzień świąt",
+      "directions": {
+        "1": [
+          "20:17"
+        ],
+        "2": [
+          "12:45",
+          "15:18",
+          "18:34"
+        ]
+      }
+    },
+    "12-31": {
+      "name": "Sylwester",
+      "directions": {
+        "1": [
+          "14:51",
+          "16:52"
+        ],
+        "2": [
+          "12:43"
+        ]
+      }
+    },
+    "01-01": {
+      "name": "Nowy Rok",
+      "directions": {
+        "1": [
+          "16:53"
+        ],
+        "2": [
+          "15:18"
+        ]
+      }
+    }
+  },
+  "note": "Każdy kurs zachowuje rozkładowe odstępy między przystankami odpowiedniego kierunku z Arkusz1. Są to godziny początkowe z Arkusz3, nie obowiązujące jeszcze odjazdy na stronie."
+}
