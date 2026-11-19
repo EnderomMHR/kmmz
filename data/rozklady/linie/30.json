@@ -1,0 +1,2114 @@
+{
+  "line": "30",
+  "map_url": "https://enderommhr.github.io/kmmz/mapa.html",
+  "directions": [
+    {
+      "slug": "okrezna-1",
+      "name": "Zator Rynek",
+      "variant_destinations": {},
+      "legend": {},
+      "legend_only_used_symbols": true,
+      "route_stops": [
+        {
+          "stop_id": "1679",
+          "stop_name": "Zator Rynek",
+          "platform": "0",
+          "file": "1679-okrezna-1.html"
+        },
+        {
+          "stop_id": "1690",
+          "stop_name": "Zator Podlipki",
+          "platform": "1",
+          "file": "1690-okrezna-1.html"
+        },
+        {
+          "stop_id": "1760",
+          "stop_name": "Zator Dworzec Kolejowy",
+          "platform": "0",
+          "file": "1760-okrezna-1.html"
+        },
+        {
+          "stop_id": "1691",
+          "stop_name": "Zator Podlipki",
+          "platform": "2",
+          "file": "1691-okrezna-1.html"
+        },
+        {
+          "stop_id": "1756",
+          "stop_name": "Zator Słowackiego",
+          "platform": "1",
+          "file": "1756-okrezna-1.html"
+        },
+        {
+          "stop_id": "1682",
+          "stop_name": "Zator Bugajska",
+          "platform": "1",
+          "file": "1682-okrezna-1.html"
+        },
+        {
+          "stop_id": "1683",
+          "stop_name": "Zator Granica",
+          "platform": "1",
+          "file": "1683-okrezna-1.html"
+        },
+        {
+          "stop_id": "1716",
+          "stop_name": "Łowiczki Szkoła",
+          "platform": "1",
+          "file": "1716-okrezna-1.html"
+        },
+        {
+          "stop_id": "1719",
+          "stop_name": "Łowiczki",
+          "platform": "2",
+          "file": "1719-okrezna-1.html"
+        },
+        {
+          "stop_id": "1721",
+          "stop_name": "Łowiczki Granica",
+          "platform": "2",
+          "file": "1721-okrezna-1.html"
+        },
+        {
+          "stop_id": "1758",
+          "stop_name": "Rudze Młyn",
+          "platform": "1",
+          "file": "1758-okrezna-1.html"
+        },
+        {
+          "stop_id": "2906",
+          "stop_name": "Rudze Dworska",
+          "platform": "1",
+          "file": "2906-okrezna-1.html"
+        },
+        {
+          "stop_id": "1744",
+          "stop_name": "Rudze",
+          "platform": "1",
+          "file": "1744-okrezna-1.html"
+        },
+        {
+          "stop_id": "1742",
+          "stop_name": "Graboszyce",
+          "platform": "1",
+          "file": "1742-okrezna-1.html"
+        },
+        {
+          "stop_id": "1738",
+          "stop_name": "Graboszyce Zamek",
+          "platform": "1",
+          "file": "1738-okrezna-1.html"
+        },
+        {
+          "stop_id": "1757",
+          "stop_name": "Graboszyce Szkoła",
+          "platform": "1",
+          "file": "1757-okrezna-1.html"
+        },
+        {
+          "stop_id": "1739",
+          "stop_name": "Graboszyce Zamek",
+          "platform": "2",
+          "file": "1739-okrezna-1.html"
+        },
+        {
+          "stop_id": "1737",
+          "stop_name": "Graboszyce Myto",
+          "platform": "2",
+          "file": "1737-okrezna-1.html"
+        },
+        {
+          "stop_id": "1752",
+          "stop_name": "Grodzisko PKP",
+          "platform": "1",
+          "file": "1752-okrezna-1.html"
+        },
+        {
+          "stop_id": "1715",
+          "stop_name": "Grodzisko Boisko",
+          "platform": "2",
+          "file": "1715-okrezna-1.html"
+        },
+        {
+          "stop_id": "1713",
+          "stop_name": "Trzebieńczyce Centrum",
+          "platform": "2",
+          "file": "1713-okrezna-1.html"
+        },
+        {
+          "stop_id": "1708",
+          "stop_name": "Laskowa",
+          "platform": "1",
+          "file": "1708-okrezna-1.html"
+        },
+        {
+          "stop_id": "3298",
+          "stop_name": "Laskowa Boisko",
+          "platform": "1",
+          "file": "3298-okrezna-1.html"
+        },
+        {
+          "stop_id": "1753",
+          "stop_name": "Laskowa Wiglowice",
+          "platform": "1",
+          "file": "1753-okrezna-1.html"
+        },
+        {
+          "stop_id": "1710",
+          "stop_name": "Zator Zaskawie II",
+          "platform": "1",
+          "file": "1710-okrezna-1.html"
+        },
+        {
+          "stop_id": "1749",
+          "stop_name": "Zator Palczowice",
+          "platform": "1",
+          "file": "1749-okrezna-1.html"
+        },
+        {
+          "stop_id": "1679",
+          "stop_name": "Zator Rynek",
+          "platform": "0",
+          "file": "1679-okrezna-1-koniec.html"
+        }
+      ],
+      "timetables": [
+        {
+          "stop_id": "1679",
+          "stop_name": "Zator Rynek",
+          "platform": "0",
+          "file": "1679-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:00",
+              "08:40",
+              "12:24",
+              "14:54",
+              "17:43",
+              "21:20"
+            ],
+            "saturday": [
+              "06:04",
+              "09:55",
+              "14:44",
+              "17:05",
+              "19:10",
+              "20:06"
+            ],
+            "sunday": [
+              "14:26",
+              "16:50",
+              "17:48",
+              "21:03"
+            ],
+            "holiday": [
+              "09:55"
+            ]
+          }
+        },
+        {
+          "stop_id": "1690",
+          "stop_name": "Zator Podlipki",
+          "platform": "1",
+          "file": "1690-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:01",
+              "08:41",
+              "12:25",
+              "14:55",
+              "17:44",
+              "21:21"
+            ],
+            "saturday": [
+              "06:05",
+              "09:56",
+              "14:45",
+              "17:06",
+              "19:11",
+              "20:07"
+            ],
+            "sunday": [
+              "14:27",
+              "16:51",
+              "17:49",
+              "21:04"
+            ],
+            "holiday": [
+              "09:56"
+            ]
+          }
+        },
+        {
+          "stop_id": "1760",
+          "stop_name": "Zator Dworzec Kolejowy",
+          "platform": "0",
+          "file": "1760-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:02",
+              "08:42",
+              "12:26",
+              "14:56",
+              "17:45",
+              "21:22"
+            ],
+            "saturday": [
+              "06:06",
+              "09:57",
+              "14:46",
+              "17:07",
+              "19:12",
+              "20:08"
+            ],
+            "sunday": [
+              "14:28",
+              "16:52",
+              "17:50",
+              "21:05"
+            ],
+            "holiday": [
+              "09:57"
+            ]
+          }
+        },
+        {
+          "stop_id": "1691",
+          "stop_name": "Zator Podlipki",
+          "platform": "2",
+          "file": "1691-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:03",
+              "08:43",
+              "12:27",
+              "14:57",
+              "17:46",
+              "21:23"
+            ],
+            "saturday": [
+              "06:07",
+              "09:58",
+              "14:47",
+              "17:08",
+              "19:13",
+              "20:09"
+            ],
+            "sunday": [
+              "14:29",
+              "16:53",
+              "17:51",
+              "21:06"
+            ],
+            "holiday": [
+              "09:58"
+            ]
+          }
+        },
+        {
+          "stop_id": "1756",
+          "stop_name": "Zator Słowackiego",
+          "platform": "1",
+          "file": "1756-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:04",
+              "08:44",
+              "12:28",
+              "14:58",
+              "17:47",
+              "21:24"
+            ],
+            "saturday": [
+              "06:08",
+              "09:59",
+              "14:48",
+              "17:09",
+              "19:14",
+              "20:10"
+            ],
+            "sunday": [
+              "14:30",
+              "16:54",
+              "17:52",
+              "21:07"
+            ],
+            "holiday": [
+              "09:59"
+            ]
+          }
+        },
+        {
+          "stop_id": "1682",
+          "stop_name": "Zator Bugajska",
+          "platform": "1",
+          "file": "1682-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:06",
+              "08:46",
+              "12:30",
+              "15:00",
+              "17:49",
+              "21:26"
+            ],
+            "saturday": [
+              "06:10",
+              "10:01",
+              "14:50",
+              "17:11",
+              "19:16",
+              "20:12"
+            ],
+            "sunday": [
+              "14:32",
+              "16:56",
+              "17:54",
+              "21:09"
+            ],
+            "holiday": [
+              "10:01"
+            ]
+          }
+        },
+        {
+          "stop_id": "1683",
+          "stop_name": "Zator Granica",
+          "platform": "1",
+          "file": "1683-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:07",
+              "08:47",
+              "12:31",
+              "15:01",
+              "17:50",
+              "21:27"
+            ],
+            "saturday": [
+              "06:11",
+              "10:02",
+              "14:51",
+              "17:12",
+              "19:17",
+              "20:13"
+            ],
+            "sunday": [
+              "14:33",
+              "16:57",
+              "17:55",
+              "21:10"
+            ],
+            "holiday": [
+              "10:02"
+            ]
+          }
+        },
+        {
+          "stop_id": "1716",
+          "stop_name": "Łowiczki Szkoła",
+          "platform": "1",
+          "file": "1716-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:08",
+              "08:48",
+              "12:32",
+              "15:02",
+              "17:51",
+              "21:28"
+            ],
+            "saturday": [
+              "06:12",
+              "10:03",
+              "14:52",
+              "17:13",
+              "19:18",
+              "20:14"
+            ],
+            "sunday": [
+              "14:34",
+              "16:58",
+              "17:56",
+              "21:11"
+            ],
+            "holiday": [
+              "10:03"
+            ]
+          }
+        },
+        {
+          "stop_id": "1719",
+          "stop_name": "Łowiczki",
+          "platform": "2",
+          "file": "1719-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:09",
+              "08:49",
+              "12:33",
+              "15:03",
+              "17:52",
+              "21:29"
+            ],
+            "saturday": [
+              "06:13",
+              "10:04",
+              "14:53",
+              "17:14",
+              "19:19",
+              "20:15"
+            ],
+            "sunday": [
+              "14:35",
+              "16:59",
+              "17:57",
+              "21:12"
+            ],
+            "holiday": [
+              "10:04"
+            ]
+          }
+        },
+        {
+          "stop_id": "1721",
+          "stop_name": "Łowiczki Granica",
+          "platform": "2",
+          "file": "1721-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:11",
+              "08:51",
+              "12:35",
+              "15:05",
+              "17:54",
+              "21:31"
+            ],
+            "saturday": [
+              "06:15",
+              "10:06",
+              "14:55",
+              "17:16",
+              "19:21",
+              "20:17"
+            ],
+            "sunday": [
+              "14:37",
+              "17:01",
+              "17:59",
+              "21:14"
+            ],
+            "holiday": [
+              "10:06"
+            ]
+          }
+        },
+        {
+          "stop_id": "1758",
+          "stop_name": "Rudze Młyn",
+          "platform": "1",
+          "file": "1758-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:13",
+              "08:53",
+              "12:37",
+              "15:07",
+              "17:56",
+              "21:33"
+            ],
+            "saturday": [
+              "06:17",
+              "10:08",
+              "14:57",
+              "17:18",
+              "19:23",
+              "20:19"
+            ],
+            "sunday": [
+              "14:39",
+              "17:03",
+              "18:01",
+              "21:16"
+            ],
+            "holiday": [
+              "10:08"
+            ]
+          }
+        },
+        {
+          "stop_id": "2906",
+          "stop_name": "Rudze Dworska",
+          "platform": "1",
+          "file": "2906-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:15",
+              "08:55",
+              "12:39",
+              "15:09",
+              "17:58",
+              "21:35"
+            ],
+            "saturday": [
+              "06:19",
+              "10:10",
+              "14:59",
+              "17:20",
+              "19:25",
+              "20:21"
+            ],
+            "sunday": [
+              "14:41",
+              "17:05",
+              "18:03",
+              "21:18"
+            ],
+            "holiday": [
+              "10:10"
+            ]
+          }
+        },
+        {
+          "stop_id": "1744",
+          "stop_name": "Rudze",
+          "platform": "1",
+          "file": "1744-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:17",
+              "08:57",
+              "12:41",
+              "15:11",
+              "18:00",
+              "21:37"
+            ],
+            "saturday": [
+              "06:21",
+              "10:12",
+              "15:01",
+              "17:22",
+              "19:27",
+              "20:23"
+            ],
+            "sunday": [
+              "14:43",
+              "17:07",
+              "18:05",
+              "21:20"
+            ],
+            "holiday": [
+              "10:12"
+            ]
+          }
+        },
+        {
+          "stop_id": "1742",
+          "stop_name": "Graboszyce",
+          "platform": "1",
+          "file": "1742-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:19",
+              "08:59",
+              "12:43",
+              "15:13",
+              "18:02",
+              "21:39"
+            ],
+            "saturday": [
+              "06:23",
+              "10:14",
+              "15:03",
+              "17:24",
+              "19:29",
+              "20:25"
+            ],
+            "sunday": [
+              "14:45",
+              "17:09",
+              "18:07",
+              "21:22"
+            ],
+            "holiday": [
+              "10:14"
+            ]
+          }
+        },
+        {
+          "stop_id": "1738",
+          "stop_name": "Graboszyce Zamek",
+          "platform": "1",
+          "file": "1738-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:21",
+              "09:01",
+              "12:45",
+              "15:15",
+              "18:04",
+              "21:41"
+            ],
+            "saturday": [
+              "06:25",
+              "10:16",
+              "15:05",
+              "17:26",
+              "19:31",
+              "20:27"
+            ],
+            "sunday": [
+              "14:47",
+              "17:11",
+              "18:09",
+              "21:24"
+            ],
+            "holiday": [
+              "10:16"
+            ]
+          }
+        },
+        {
+          "stop_id": "1757",
+          "stop_name": "Graboszyce Szkoła",
+          "platform": "1",
+          "file": "1757-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:21",
+              "09:01",
+              "12:45",
+              "15:15",
+              "18:04",
+              "21:41"
+            ],
+            "saturday": [
+              "06:25",
+              "10:16",
+              "15:05",
+              "17:26",
+              "19:31",
+              "20:27"
+            ],
+            "sunday": [
+              "14:47",
+              "17:11",
+              "18:09",
+              "21:24"
+            ],
+            "holiday": [
+              "10:16"
+            ]
+          }
+        },
+        {
+          "stop_id": "1739",
+          "stop_name": "Graboszyce Zamek",
+          "platform": "2",
+          "file": "1739-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:22",
+              "09:02",
+              "12:46",
+              "15:16",
+              "18:05",
+              "21:42"
+            ],
+            "saturday": [
+              "06:26",
+              "10:17",
+              "15:06",
+              "17:27",
+              "19:32",
+              "20:28"
+            ],
+            "sunday": [
+              "14:48",
+              "17:12",
+              "18:10",
+              "21:25"
+            ],
+            "holiday": [
+              "10:17"
+            ]
+          }
+        },
+        {
+          "stop_id": "1737",
+          "stop_name": "Graboszyce Myto",
+          "platform": "2",
+          "file": "1737-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:24",
+              "09:04",
+              "12:48",
+              "15:18",
+              "18:07",
+              "21:44"
+            ],
+            "saturday": [
+              "06:28",
+              "10:19",
+              "15:08",
+              "17:29",
+              "19:34",
+              "20:30"
+            ],
+            "sunday": [
+              "14:50",
+              "17:14",
+              "18:12",
+              "21:27"
+            ],
+            "holiday": [
+              "10:19"
+            ]
+          }
+        },
+        {
+          "stop_id": "1752",
+          "stop_name": "Grodzisko PKP",
+          "platform": "1",
+          "file": "1752-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:28",
+              "09:08",
+              "12:52",
+              "15:22",
+              "18:11",
+              "21:48"
+            ],
+            "saturday": [
+              "06:32",
+              "10:23",
+              "15:12",
+              "17:33",
+              "19:38",
+              "20:34"
+            ],
+            "sunday": [
+              "14:54",
+              "17:18",
+              "18:16",
+              "21:31"
+            ],
+            "holiday": [
+              "10:23"
+            ]
+          }
+        },
+        {
+          "stop_id": "1715",
+          "stop_name": "Grodzisko Boisko",
+          "platform": "2",
+          "file": "1715-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:30",
+              "09:10",
+              "12:54",
+              "15:24",
+              "18:13",
+              "21:50"
+            ],
+            "saturday": [
+              "06:34",
+              "10:25",
+              "15:14",
+              "17:35",
+              "19:40",
+              "20:36"
+            ],
+            "sunday": [
+              "14:56",
+              "17:20",
+              "18:18",
+              "21:33"
+            ],
+            "holiday": [
+              "10:25"
+            ]
+          }
+        },
+        {
+          "stop_id": "1713",
+          "stop_name": "Trzebieńczyce Centrum",
+          "platform": "2",
+          "file": "1713-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:32",
+              "09:12",
+              "12:56",
+              "15:26",
+              "18:15",
+              "21:52"
+            ],
+            "saturday": [
+              "06:36",
+              "10:27",
+              "15:16",
+              "17:37",
+              "19:42",
+              "20:38"
+            ],
+            "sunday": [
+              "14:58",
+              "17:22",
+              "18:20",
+              "21:35"
+            ],
+            "holiday": [
+              "10:27"
+            ]
+          }
+        },
+        {
+          "stop_id": "1708",
+          "stop_name": "Laskowa",
+          "platform": "1",
+          "file": "1708-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:34",
+              "09:14",
+              "12:58",
+              "15:28",
+              "18:17",
+              "21:54"
+            ],
+            "saturday": [
+              "06:38",
+              "10:29",
+              "15:18",
+              "17:39",
+              "19:44",
+              "20:40"
+            ],
+            "sunday": [
+              "15:00",
+              "17:24",
+              "18:22",
+              "21:37"
+            ],
+            "holiday": [
+              "10:29"
+            ]
+          }
+        },
+        {
+          "stop_id": "3298",
+          "stop_name": "Laskowa Boisko",
+          "platform": "1",
+          "file": "3298-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:36",
+              "09:16",
+              "13:00",
+              "15:30",
+              "18:19",
+              "21:56"
+            ],
+            "saturday": [
+              "06:40",
+              "10:31",
+              "15:20",
+              "17:41",
+              "19:46",
+              "20:42"
+            ],
+            "sunday": [
+              "15:02",
+              "17:26",
+              "18:24",
+              "21:39"
+            ],
+            "holiday": [
+              "10:31"
+            ]
+          }
+        },
+        {
+          "stop_id": "1753",
+          "stop_name": "Laskowa Wiglowice",
+          "platform": "1",
+          "file": "1753-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:38",
+              "09:18",
+              "13:02",
+              "15:32",
+              "18:21",
+              "21:58"
+            ],
+            "saturday": [
+              "06:42",
+              "10:33",
+              "15:22",
+              "17:43",
+              "19:48",
+              "20:44"
+            ],
+            "sunday": [
+              "15:04",
+              "17:28",
+              "18:26",
+              "21:41"
+            ],
+            "holiday": [
+              "10:33"
+            ]
+          }
+        },
+        {
+          "stop_id": "1710",
+          "stop_name": "Zator Zaskawie II",
+          "platform": "1",
+          "file": "1710-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:39",
+              "09:19",
+              "13:03",
+              "15:33",
+              "18:22",
+              "21:59"
+            ],
+            "saturday": [
+              "06:43",
+              "10:34",
+              "15:23",
+              "17:44",
+              "19:49",
+              "20:45"
+            ],
+            "sunday": [
+              "15:05",
+              "17:29",
+              "18:27",
+              "21:42"
+            ],
+            "holiday": [
+              "10:34"
+            ]
+          }
+        },
+        {
+          "stop_id": "1749",
+          "stop_name": "Zator Palczowice",
+          "platform": "1",
+          "file": "1749-okrezna-1.html",
+          "departures": {
+            "workday": [
+              "05:41",
+              "09:21",
+              "13:05",
+              "15:35",
+              "18:24",
+              "22:01"
+            ],
+            "saturday": [
+              "06:45",
+              "10:36",
+              "15:25",
+              "17:46",
+              "19:51",
+              "20:47"
+            ],
+            "sunday": [
+              "15:07",
+              "17:31",
+              "18:29",
+              "21:44"
+            ],
+            "holiday": [
+              "10:36"
+            ]
+          }
+        },
+        {
+          "stop_id": "1679",
+          "stop_name": "Zator Rynek",
+          "platform": "0",
+          "file": "1679-okrezna-1-koniec.html",
+          "departures": {},
+          "arrival_only": true
+        }
+      ]
+    },
+    {
+      "slug": "okrezna-2",
+      "name": "Zator Rynek",
+      "variant_destinations": {},
+      "legend": {},
+      "legend_only_used_symbols": true,
+      "route_stops": [
+        {
+          "stop_id": "1679",
+          "stop_name": "Zator Rynek",
+          "platform": "0",
+          "file": "1679-okrezna-2.html"
+        },
+        {
+          "stop_id": "1748",
+          "stop_name": "Zator Blich",
+          "platform": "0",
+          "file": "1748-okrezna-2.html"
+        },
+        {
+          "stop_id": "1750",
+          "stop_name": "Zator Palczowice",
+          "platform": "2",
+          "file": "1750-okrezna-2.html"
+        },
+        {
+          "stop_id": "1711",
+          "stop_name": "Zator Zaskawie II",
+          "platform": "2",
+          "file": "1711-okrezna-2.html"
+        },
+        {
+          "stop_id": "1754",
+          "stop_name": "Laskowa Wiglowice",
+          "platform": "2",
+          "file": "1754-okrezna-2.html"
+        },
+        {
+          "stop_id": "3297",
+          "stop_name": "Laskowa Boisko",
+          "platform": "2",
+          "file": "3297-okrezna-2.html"
+        },
+        {
+          "stop_id": "1709",
+          "stop_name": "Laskowa",
+          "platform": "2",
+          "file": "1709-okrezna-2.html"
+        },
+        {
+          "stop_id": "1712",
+          "stop_name": "Trzebieńczyce Centrum",
+          "platform": "1",
+          "file": "1712-okrezna-2.html"
+        },
+        {
+          "stop_id": "1714",
+          "stop_name": "Grodzisko Boisko",
+          "platform": "1",
+          "file": "1714-okrezna-2.html"
+        },
+        {
+          "stop_id": "1752",
+          "stop_name": "Grodzisko PKP",
+          "platform": "1",
+          "file": "1752-okrezna-2.html"
+        },
+        {
+          "stop_id": "1736",
+          "stop_name": "Graboszyce Myto",
+          "platform": "1",
+          "file": "1736-okrezna-2.html"
+        },
+        {
+          "stop_id": "1738",
+          "stop_name": "Graboszyce Zamek",
+          "platform": "1",
+          "file": "1738-okrezna-2.html"
+        },
+        {
+          "stop_id": "1757",
+          "stop_name": "Graboszyce Szkoła",
+          "platform": "1",
+          "file": "1757-okrezna-2.html"
+        },
+        {
+          "stop_id": "1739",
+          "stop_name": "Graboszyce Zamek",
+          "platform": "2",
+          "file": "1739-okrezna-2.html"
+        },
+        {
+          "stop_id": "1743",
+          "stop_name": "Graboszyce",
+          "platform": "2",
+          "file": "1743-okrezna-2.html"
+        },
+        {
+          "stop_id": "1740",
+          "stop_name": "Rudze Szkoła",
+          "platform": "0",
+          "file": "1740-okrezna-2.html"
+        },
+        {
+          "stop_id": "2905",
+          "stop_name": "Rudze Dworska",
+          "platform": "2",
+          "file": "2905-okrezna-2.html"
+        },
+        {
+          "stop_id": "1759",
+          "stop_name": "Rudze Młyn",
+          "platform": "2",
+          "file": "1759-okrezna-2.html"
+        },
+        {
+          "stop_id": "1720",
+          "stop_name": "Łowiczki Granica",
+          "platform": "1",
+          "file": "1720-okrezna-2.html"
+        },
+        {
+          "stop_id": "1718",
+          "stop_name": "Łowiczki",
+          "platform": "1",
+          "file": "1718-okrezna-2.html"
+        },
+        {
+          "stop_id": "1717",
+          "stop_name": "Łowiczki Szkoła",
+          "platform": "2",
+          "file": "1717-okrezna-2.html"
+        },
+        {
+          "stop_id": "1697",
+          "stop_name": "Zator Granica",
+          "platform": "2",
+          "file": "1697-okrezna-2.html"
+        },
+        {
+          "stop_id": "1698",
+          "stop_name": "Zator Bugajska",
+          "platform": "2",
+          "file": "1698-okrezna-2.html"
+        },
+        {
+          "stop_id": "1755",
+          "stop_name": "Zator Słowackiego",
+          "platform": "2",
+          "file": "1755-okrezna-2.html"
+        },
+        {
+          "stop_id": "1690",
+          "stop_name": "Zator Podlipki",
+          "platform": "1",
+          "file": "1690-okrezna-2.html"
+        },
+        {
+          "stop_id": "1760",
+          "stop_name": "Zator Dworzec Kolejowy",
+          "platform": "0",
+          "file": "1760-okrezna-2.html"
+        },
+        {
+          "stop_id": "1691",
+          "stop_name": "Zator Podlipki",
+          "platform": "2",
+          "file": "1691-okrezna-2.html"
+        },
+        {
+          "stop_id": "1756",
+          "stop_name": "Zator Słowackiego",
+          "platform": "1",
+          "file": "1756-okrezna-2.html"
+        },
+        {
+          "stop_id": "1741",
+          "stop_name": "Zator Szkoła",
+          "platform": "0",
+          "file": "1741-okrezna-2.html"
+        },
+        {
+          "stop_id": "1679",
+          "stop_name": "Zator Rynek",
+          "platform": "0",
+          "file": "1679-okrezna-2-koniec.html"
+        }
+      ],
+      "timetables": [
+        {
+          "stop_id": "1679",
+          "stop_name": "Zator Rynek",
+          "platform": "0",
+          "file": "1679-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "07:24",
+              "10:13",
+              "13:16",
+              "16:51",
+              "20:03",
+              "22:52"
+            ],
+            "saturday": [
+              "05:00",
+              "10:44",
+              "12:58"
+            ],
+            "sunday": [
+              "07:49",
+              "10:14",
+              "12:47"
+            ],
+            "holiday": [
+              "10:44",
+              "12:58"
+            ]
+          }
+        },
+        {
+          "stop_id": "1748",
+          "stop_name": "Zator Blich",
+          "platform": "0",
+          "file": "1748-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "07:25",
+              "10:14",
+              "13:17",
+              "16:52",
+              "20:04",
+              "22:53"
+            ],
+            "saturday": [
+              "05:01",
+              "10:45",
+              "12:59"
+            ],
+            "sunday": [
+              "07:50",
+              "10:15",
+              "12:48"
+            ],
+            "holiday": [
+              "10:45",
+              "12:59"
+            ]
+          }
+        },
+        {
+          "stop_id": "1750",
+          "stop_name": "Zator Palczowice",
+          "platform": "2",
+          "file": "1750-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "07:26",
+              "10:15",
+              "13:18",
+              "16:53",
+              "20:05",
+              "22:54"
+            ],
+            "saturday": [
+              "05:02",
+              "10:46",
+              "13:00"
+            ],
+            "sunday": [
+              "07:51",
+              "10:16",
+              "12:49"
+            ],
+            "holiday": [
+              "10:46",
+              "13:00"
+            ]
+          }
+        },
+        {
+          "stop_id": "1711",
+          "stop_name": "Zator Zaskawie II",
+          "platform": "2",
+          "file": "1711-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "07:27",
+              "10:16",
+              "13:19",
+              "16:54",
+              "20:06",
+              "22:55"
+            ],
+            "saturday": [
+              "05:03",
+              "10:47",
+              "13:01"
+            ],
+            "sunday": [
+              "07:52",
+              "10:17",
+              "12:50"
+            ],
+            "holiday": [
+              "10:47",
+              "13:01"
+            ]
+          }
+        },
+        {
+          "stop_id": "1754",
+          "stop_name": "Laskowa Wiglowice",
+          "platform": "2",
+          "file": "1754-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "07:28",
+              "10:17",
+              "13:20",
+              "16:55",
+              "20:07",
+              "22:56"
+            ],
+            "saturday": [
+              "05:04",
+              "10:48",
+              "13:02"
+            ],
+            "sunday": [
+              "07:53",
+              "10:18",
+              "12:51"
+            ],
+            "holiday": [
+              "10:48",
+              "13:02"
+            ]
+          }
+        },
+        {
+          "stop_id": "3297",
+          "stop_name": "Laskowa Boisko",
+          "platform": "2",
+          "file": "3297-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "07:30",
+              "10:19",
+              "13:22",
+              "16:57",
+              "20:09",
+              "22:58"
+            ],
+            "saturday": [
+              "05:06",
+              "10:50",
+              "13:04"
+            ],
+            "sunday": [
+              "07:55",
+              "10:20",
+              "12:53"
+            ],
+            "holiday": [
+              "10:50",
+              "13:04"
+            ]
+          }
+        },
+        {
+          "stop_id": "1709",
+          "stop_name": "Laskowa",
+          "platform": "2",
+          "file": "1709-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "07:32",
+              "10:21",
+              "13:24",
+              "16:59",
+              "20:11",
+              "23:00"
+            ],
+            "saturday": [
+              "05:08",
+              "10:52",
+              "13:06"
+            ],
+            "sunday": [
+              "07:57",
+              "10:22",
+              "12:55"
+            ],
+            "holiday": [
+              "10:52",
+              "13:06"
+            ]
+          }
+        },
+        {
+          "stop_id": "1712",
+          "stop_name": "Trzebieńczyce Centrum",
+          "platform": "1",
+          "file": "1712-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "07:34",
+              "10:23",
+              "13:26",
+              "17:01",
+              "20:13",
+              "23:02"
+            ],
+            "saturday": [
+              "05:10",
+              "10:54",
+              "13:08"
+            ],
+            "sunday": [
+              "07:59",
+              "10:24",
+              "12:57"
+            ],
+            "holiday": [
+              "10:54",
+              "13:08"
+            ]
+          }
+        },
+        {
+          "stop_id": "1714",
+          "stop_name": "Grodzisko Boisko",
+          "platform": "1",
+          "file": "1714-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "07:36",
+              "10:25",
+              "13:28",
+              "17:03",
+              "20:15",
+              "23:04"
+            ],
+            "saturday": [
+              "05:12",
+              "10:56",
+              "13:10"
+            ],
+            "sunday": [
+              "08:01",
+              "10:26",
+              "12:59"
+            ],
+            "holiday": [
+              "10:56",
+              "13:10"
+            ]
+          }
+        },
+        {
+          "stop_id": "1752",
+          "stop_name": "Grodzisko PKP",
+          "platform": "1",
+          "file": "1752-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "07:38",
+              "10:27",
+              "13:30",
+              "17:05",
+              "20:17",
+              "23:06"
+            ],
+            "saturday": [
+              "05:14",
+              "10:58",
+              "13:12"
+            ],
+            "sunday": [
+              "08:03",
+              "10:28",
+              "13:01"
+            ],
+            "holiday": [
+              "10:58",
+              "13:12"
+            ]
+          }
+        },
+        {
+          "stop_id": "1736",
+          "stop_name": "Graboszyce Myto",
+          "platform": "1",
+          "file": "1736-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "07:41",
+              "10:30",
+              "13:33",
+              "17:08",
+              "20:20",
+              "23:09"
+            ],
+            "saturday": [
+              "05:17",
+              "11:01",
+              "13:15"
+            ],
+            "sunday": [
+              "08:06",
+              "10:31",
+              "13:04"
+            ],
+            "holiday": [
+              "11:01",
+              "13:15"
+            ]
+          }
+        },
+        {
+          "stop_id": "1738",
+          "stop_name": "Graboszyce Zamek",
+          "platform": "1",
+          "file": "1738-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "07:43",
+              "10:32",
+              "13:35",
+              "17:10",
+              "20:22",
+              "23:11"
+            ],
+            "saturday": [
+              "05:19",
+              "11:03",
+              "13:17"
+            ],
+            "sunday": [
+              "08:08",
+              "10:33",
+              "13:06"
+            ],
+            "holiday": [
+              "11:03",
+              "13:17"
+            ]
+          }
+        },
+        {
+          "stop_id": "1757",
+          "stop_name": "Graboszyce Szkoła",
+          "platform": "1",
+          "file": "1757-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "07:43",
+              "10:32",
+              "13:35",
+              "17:10",
+              "20:22",
+              "23:11"
+            ],
+            "saturday": [
+              "05:19",
+              "11:03",
+              "13:17"
+            ],
+            "sunday": [
+              "08:08",
+              "10:33",
+              "13:06"
+            ],
+            "holiday": [
+              "11:03",
+              "13:17"
+            ]
+          }
+        },
+        {
+          "stop_id": "1739",
+          "stop_name": "Graboszyce Zamek",
+          "platform": "2",
+          "file": "1739-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "07:44",
+              "10:33",
+              "13:36",
+              "17:11",
+              "20:23",
+              "23:12"
+            ],
+            "saturday": [
+              "05:20",
+              "11:04",
+              "13:18"
+            ],
+            "sunday": [
+              "08:09",
+              "10:34",
+              "13:07"
+            ],
+            "holiday": [
+              "11:04",
+              "13:18"
+            ]
+          }
+        },
+        {
+          "stop_id": "1743",
+          "stop_name": "Graboszyce",
+          "platform": "2",
+          "file": "1743-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "07:46",
+              "10:35",
+              "13:38",
+              "17:13",
+              "20:25",
+              "23:14"
+            ],
+            "saturday": [
+              "05:22",
+              "11:06",
+              "13:20"
+            ],
+            "sunday": [
+              "08:11",
+              "10:36",
+              "13:09"
+            ],
+            "holiday": [
+              "11:06",
+              "13:20"
+            ]
+          }
+        },
+        {
+          "stop_id": "1740",
+          "stop_name": "Rudze Szkoła",
+          "platform": "0",
+          "file": "1740-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "07:49",
+              "10:38",
+              "13:41",
+              "17:16",
+              "20:28",
+              "23:17"
+            ],
+            "saturday": [
+              "05:25",
+              "11:09",
+              "13:23"
+            ],
+            "sunday": [
+              "08:14",
+              "10:39",
+              "13:12"
+            ],
+            "holiday": [
+              "11:09",
+              "13:23"
+            ]
+          }
+        },
+        {
+          "stop_id": "2905",
+          "stop_name": "Rudze Dworska",
+          "platform": "2",
+          "file": "2905-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "07:50",
+              "10:39",
+              "13:42",
+              "17:17",
+              "20:29",
+              "23:18"
+            ],
+            "saturday": [
+              "05:26",
+              "11:10",
+              "13:24"
+            ],
+            "sunday": [
+              "08:15",
+              "10:40",
+              "13:13"
+            ],
+            "holiday": [
+              "11:10",
+              "13:24"
+            ]
+          }
+        },
+        {
+          "stop_id": "1759",
+          "stop_name": "Rudze Młyn",
+          "platform": "2",
+          "file": "1759-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "07:52",
+              "10:41",
+              "13:44",
+              "17:19",
+              "20:31",
+              "23:20"
+            ],
+            "saturday": [
+              "05:28",
+              "11:12",
+              "13:26"
+            ],
+            "sunday": [
+              "08:17",
+              "10:42",
+              "13:15"
+            ],
+            "holiday": [
+              "11:12",
+              "13:26"
+            ]
+          }
+        },
+        {
+          "stop_id": "1720",
+          "stop_name": "Łowiczki Granica",
+          "platform": "1",
+          "file": "1720-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "07:54",
+              "10:43",
+              "13:46",
+              "17:21",
+              "20:33",
+              "23:22"
+            ],
+            "saturday": [
+              "05:30",
+              "11:14",
+              "13:28"
+            ],
+            "sunday": [
+              "08:19",
+              "10:44",
+              "13:17"
+            ],
+            "holiday": [
+              "11:14",
+              "13:28"
+            ]
+          }
+        },
+        {
+          "stop_id": "1718",
+          "stop_name": "Łowiczki",
+          "platform": "1",
+          "file": "1718-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "07:56",
+              "10:45",
+              "13:48",
+              "17:23",
+              "20:35",
+              "23:24"
+            ],
+            "saturday": [
+              "05:32",
+              "11:16",
+              "13:30"
+            ],
+            "sunday": [
+              "08:21",
+              "10:46",
+              "13:19"
+            ],
+            "holiday": [
+              "11:16",
+              "13:30"
+            ]
+          }
+        },
+        {
+          "stop_id": "1717",
+          "stop_name": "Łowiczki Szkoła",
+          "platform": "2",
+          "file": "1717-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "07:57",
+              "10:46",
+              "13:49",
+              "17:24",
+              "20:36",
+              "23:25"
+            ],
+            "saturday": [
+              "05:33",
+              "11:17",
+              "13:31"
+            ],
+            "sunday": [
+              "08:22",
+              "10:47",
+              "13:20"
+            ],
+            "holiday": [
+              "11:17",
+              "13:31"
+            ]
+          }
+        },
+        {
+          "stop_id": "1697",
+          "stop_name": "Zator Granica",
+          "platform": "2",
+          "file": "1697-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "07:58",
+              "10:47",
+              "13:50",
+              "17:25",
+              "20:37",
+              "23:26"
+            ],
+            "saturday": [
+              "05:34",
+              "11:18",
+              "13:32"
+            ],
+            "sunday": [
+              "08:23",
+              "10:48",
+              "13:21"
+            ],
+            "holiday": [
+              "11:18",
+              "13:32"
+            ]
+          }
+        },
+        {
+          "stop_id": "1698",
+          "stop_name": "Zator Bugajska",
+          "platform": "2",
+          "file": "1698-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "07:59",
+              "10:48",
+              "13:51",
+              "17:26",
+              "20:38",
+              "23:27"
+            ],
+            "saturday": [
+              "05:35",
+              "11:19",
+              "13:33"
+            ],
+            "sunday": [
+              "08:24",
+              "10:49",
+              "13:22"
+            ],
+            "holiday": [
+              "11:19",
+              "13:33"
+            ]
+          }
+        },
+        {
+          "stop_id": "1755",
+          "stop_name": "Zator Słowackiego",
+          "platform": "2",
+          "file": "1755-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "08:01",
+              "10:50",
+              "13:53",
+              "17:28",
+              "20:40",
+              "23:29"
+            ],
+            "saturday": [
+              "05:37",
+              "11:21",
+              "13:35"
+            ],
+            "sunday": [
+              "08:26",
+              "10:51",
+              "13:24"
+            ],
+            "holiday": [
+              "11:21",
+              "13:35"
+            ]
+          }
+        },
+        {
+          "stop_id": "1690",
+          "stop_name": "Zator Podlipki",
+          "platform": "1",
+          "file": "1690-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "08:02",
+              "10:51",
+              "13:54",
+              "17:29",
+              "20:41",
+              "23:30"
+            ],
+            "saturday": [
+              "05:38",
+              "11:22",
+              "13:36"
+            ],
+            "sunday": [
+              "08:27",
+              "10:52",
+              "13:25"
+            ],
+            "holiday": [
+              "11:22",
+              "13:36"
+            ]
+          }
+        },
+        {
+          "stop_id": "1760",
+          "stop_name": "Zator Dworzec Kolejowy",
+          "platform": "0",
+          "file": "1760-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "08:03",
+              "10:52",
+              "13:55",
+              "17:30",
+              "20:42",
+              "23:31"
+            ],
+            "saturday": [
+              "05:39",
+              "11:23",
+              "13:37"
+            ],
+            "sunday": [
+              "08:28",
+              "10:53",
+              "13:26"
+            ],
+            "holiday": [
+              "11:23",
+              "13:37"
+            ]
+          }
+        },
+        {
+          "stop_id": "1691",
+          "stop_name": "Zator Podlipki",
+          "platform": "2",
+          "file": "1691-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "08:04",
+              "10:53",
+              "13:56",
+              "17:31",
+              "20:43",
+              "23:32"
+            ],
+            "saturday": [
+              "05:40",
+              "11:24",
+              "13:38"
+            ],
+            "sunday": [
+              "08:29",
+              "10:54",
+              "13:27"
+            ],
+            "holiday": [
+              "11:24",
+              "13:38"
+            ]
+          }
+        },
+        {
+          "stop_id": "1756",
+          "stop_name": "Zator Słowackiego",
+          "platform": "1",
+          "file": "1756-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "08:05",
+              "10:54",
+              "13:57",
+              "17:32",
+              "20:44",
+              "23:33"
+            ],
+            "saturday": [
+              "05:41",
+              "11:25",
+              "13:39"
+            ],
+            "sunday": [
+              "08:30",
+              "10:55",
+              "13:28"
+            ],
+            "holiday": [
+              "11:25",
+              "13:39"
+            ]
+          }
+        },
+        {
+          "stop_id": "1741",
+          "stop_name": "Zator Szkoła",
+          "platform": "0",
+          "file": "1741-okrezna-2.html",
+          "departures": {
+            "workday": [
+              "08:06",
+              "10:55",
+              "13:58",
+              "17:33",
+              "20:45",
+              "23:34"
+            ],
+            "saturday": [
+              "05:42",
+              "11:26",
+              "13:40"
+            ],
+            "sunday": [
+              "08:31",
+              "10:56",
+              "13:29"
+            ],
+            "holiday": [
+              "11:26",
+              "13:40"
+            ]
+          }
+        },
+        {
+          "stop_id": "1679",
+          "stop_name": "Zator Rynek",
+          "platform": "0",
+          "file": "1679-okrezna-2-koniec.html",
+          "departures": {},
+          "arrival_only": true
+        }
+      ]
+    }
+  ]
+}
