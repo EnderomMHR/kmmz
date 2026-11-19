@@ -1039,6 +1039,16 @@
           "departures": {},
           "arrival_only": true
         }
+      ],
+      "direction_segments": [
+        {
+          "from_stop_id": "1679",
+          "name": "Graboszyce Szkoła"
+        },
+        {
+          "from_stop_id": "1757",
+          "name": "Zator Rynek"
+        }
       ]
     },
     {
@@ -2107,6 +2117,16 @@
           "file": "1679-okrezna-2-koniec.html",
           "departures": {},
           "arrival_only": true
+        }
+      ],
+      "direction_segments": [
+        {
+          "from_stop_id": "1679",
+          "name": "Graboszyce Szkoła"
+        },
+        {
+          "from_stop_id": "1757",
+          "name": "Zator Rynek"
         }
       ]
     }
