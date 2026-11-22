@@ -2,7 +2,329 @@
   "stop_id": "1022",
   "stop_name": "Trzebinia Rondo Solidarności",
   "platform": "1",
-  "departures": [],
-  "served_lines": [],
-  "legends": {}
+  "departures": [
+    {
+      "line": "33",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/33/1022-chrzanow.html",
+      "day_type": "holiday",
+      "time": "08:57",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Trzebinia Chechło",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/33/1022-chrzanow.html",
+      "day_type": "holiday",
+      "time": "10:30",
+      "symbols": [
+        "C"
+      ]
+    },
+    {
+      "line": "33",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/33/1022-chrzanow.html",
+      "day_type": "holiday",
+      "time": "12:24",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/33/1022-chrzanow.html",
+      "day_type": "holiday",
+      "time": "14:32",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/33/1022-chrzanow.html",
+      "day_type": "holiday",
+      "time": "16:14",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/33/1022-chrzanow.html",
+      "day_type": "saturday",
+      "time": "05:32",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/33/1022-chrzanow.html",
+      "day_type": "saturday",
+      "time": "07:19",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/33/1022-chrzanow.html",
+      "day_type": "saturday",
+      "time": "09:15",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Trzebinia Chechło",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/33/1022-chrzanow.html",
+      "day_type": "saturday",
+      "time": "11:19",
+      "symbols": [
+        "C"
+      ]
+    },
+    {
+      "line": "33",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/33/1022-chrzanow.html",
+      "day_type": "saturday",
+      "time": "12:51",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/33/1022-chrzanow.html",
+      "day_type": "saturday",
+      "time": "14:38",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/33/1022-chrzanow.html",
+      "day_type": "saturday",
+      "time": "16:12",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/33/1022-chrzanow.html",
+      "day_type": "saturday",
+      "time": "18:19",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/33/1022-chrzanow.html",
+      "day_type": "saturday",
+      "time": "19:49",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/33/1022-chrzanow.html",
+      "day_type": "sunday",
+      "time": "08:57",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Trzebinia Chechło",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/33/1022-chrzanow.html",
+      "day_type": "sunday",
+      "time": "10:30",
+      "symbols": [
+        "C"
+      ]
+    },
+    {
+      "line": "33",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/33/1022-chrzanow.html",
+      "day_type": "sunday",
+      "time": "12:24",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/33/1022-chrzanow.html",
+      "day_type": "sunday",
+      "time": "14:32",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/33/1022-chrzanow.html",
+      "day_type": "sunday",
+      "time": "16:14",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/33/1022-chrzanow.html",
+      "day_type": "workday",
+      "time": "06:47",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/33/1022-chrzanow.html",
+      "day_type": "workday",
+      "time": "08:41",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Trzebinia Chechło",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/33/1022-chrzanow.html",
+      "day_type": "workday",
+      "time": "10:13",
+      "symbols": [
+        "C"
+      ]
+    },
+    {
+      "line": "33",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/33/1022-chrzanow.html",
+      "day_type": "workday",
+      "time": "11:38",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/33/1022-chrzanow.html",
+      "day_type": "workday",
+      "time": "13:16",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/33/1022-chrzanow.html",
+      "day_type": "workday",
+      "time": "14:51",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Trzebinia Chechło",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/33/1022-chrzanow.html",
+      "day_type": "workday",
+      "time": "16:43",
+      "symbols": [
+        "C"
+      ]
+    },
+    {
+      "line": "33",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/33/1022-chrzanow.html",
+      "day_type": "workday",
+      "time": "18:00",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/33/1022-chrzanow.html",
+      "day_type": "workday",
+      "time": "19:49",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/33/1022-chrzanow.html",
+      "day_type": "workday",
+      "time": "21:20",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/33/1022-chrzanow.html",
+      "day_type": "workday",
+      "time": "22:46",
+      "symbols": []
+    }
+  ],
+  "served_lines": [
+    {
+      "line": "33",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "page": "rozklady/33/1022-chrzanow.html"
+    }
+  ],
+  "legends": {
+    "33": {
+      "H": "przez: Trzebinia Harcerska Przychodnia",
+      "C": "do: Trzebinia Chechło"
+    }
+  }
 }

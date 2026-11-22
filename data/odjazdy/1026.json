@@ -276,6 +276,16 @@
       "symbols": []
     },
     {
+      "line": "33",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/33/1026-chrzanow.html",
+      "day_type": "workday",
+      "time": "06:35",
+      "symbols": []
+    },
+    {
       "line": "19",
       "main_direction": "Chrzanów Osiedle Młodości Witosa",
       "display_direction": "Chrzanów Osiedle Młodości Witosa",
@@ -298,6 +308,16 @@
       "symbols": []
     },
     {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "display_direction": "Lgota Szkoła",
+      "direction_slug": "lgota",
+      "page": "rozklady/33/1026-lgota.html",
+      "day_type": "workday",
+      "time": "07:52",
+      "symbols": []
+    },
+    {
       "line": "32",
       "main_direction": "Trzebinia KWK Siersza",
       "display_direction": "Trzebinia KWK Siersza",
@@ -315,6 +335,16 @@
       "page": "rozklady/19/1026-chrzanow.html",
       "day_type": "workday",
       "time": "08:24",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/33/1026-chrzanow.html",
+      "day_type": "workday",
+      "time": "08:29",
       "symbols": []
     },
     {
@@ -378,6 +408,26 @@
       "symbols": []
     },
     {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "display_direction": "Lgota Szkoła",
+      "direction_slug": "lgota",
+      "page": "rozklady/33/1026-lgota.html",
+      "day_type": "workday",
+      "time": "14:00",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/33/1026-chrzanow.html",
+      "day_type": "workday",
+      "time": "14:39",
+      "symbols": []
+    },
+    {
       "line": "32",
       "main_direction": "Płaza Cmentarz",
       "display_direction": "Płaza Cmentarz",
@@ -400,6 +450,26 @@
       ]
     },
     {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "display_direction": "Lgota Szkoła",
+      "direction_slug": "lgota",
+      "page": "rozklady/33/1026-lgota.html",
+      "day_type": "workday",
+      "time": "15:45",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "display_direction": "Lgota Szkoła",
+      "direction_slug": "lgota",
+      "page": "rozklady/33/1026-lgota.html",
+      "day_type": "workday",
+      "time": "17:11",
+      "symbols": []
+    },
+    {
       "line": "19",
       "main_direction": "Chrzanów Osiedle Młodości Witosa",
       "display_direction": "Chrzanów Osiedle Młodości Witosa",
@@ -417,6 +487,16 @@
       "page": "rozklady/19/1026-chrzanow.html",
       "day_type": "workday",
       "time": "19:33",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "display_direction": "Chrzanów Dworzec Autobusowy",
+      "direction_slug": "chrzanow",
+      "page": "rozklady/33/1026-chrzanow.html",
+      "day_type": "workday",
+      "time": "19:37",
       "symbols": []
     },
     {
@@ -480,6 +560,16 @@
       "line": "32",
       "main_direction": "Trzebinia KWK Siersza",
       "page": "rozklady/32/1026-trzebinia.html"
+    },
+    {
+      "line": "33",
+      "main_direction": "Chrzanów Dworzec Autobusowy",
+      "page": "rozklady/33/1026-chrzanow.html"
+    },
+    {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "page": "rozklady/33/1026-lgota.html"
     }
   ],
   "legends": {
@@ -489,6 +579,11 @@
     },
     "32": {
       "H": "przez: Trzebinia Harcerska Przychodnia"
+    },
+    "33": {
+      "C": "przez: Trzebinia Chechło, z pominięciem: Piła Kościelecka Folwark",
+      "H": "do: Trzebinia Harcerska Przychodnia",
+      "T": "do: Trzebinia Dworzec PKP"
     }
   }
 }

@@ -2,7 +2,330 @@
   "stop_id": "1023",
   "stop_name": "Trzebinia Rondo Solidarności",
   "platform": "2",
-  "departures": [],
-  "served_lines": [],
-  "legends": {}
+  "departures": [
+    {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "display_direction": "Lgota Szkoła",
+      "direction_slug": "lgota",
+      "page": "rozklady/33/1023-lgota.html",
+      "day_type": "holiday",
+      "time": "09:30",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "display_direction": "Lgota Szkoła",
+      "direction_slug": "lgota",
+      "page": "rozklady/33/1023-lgota.html",
+      "day_type": "holiday",
+      "time": "10:59",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "display_direction": "Lgota Szkoła",
+      "direction_slug": "lgota",
+      "page": "rozklady/33/1023-lgota.html",
+      "day_type": "holiday",
+      "time": "13:07",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "display_direction": "Lgota Szkoła",
+      "direction_slug": "lgota",
+      "page": "rozklady/33/1023-lgota.html",
+      "day_type": "holiday",
+      "time": "15:14",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "display_direction": "Lgota Szkoła",
+      "direction_slug": "lgota",
+      "page": "rozklady/33/1023-lgota.html",
+      "day_type": "holiday",
+      "time": "16:47",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "display_direction": "Lgota Szkoła",
+      "direction_slug": "lgota",
+      "page": "rozklady/33/1023-lgota.html",
+      "day_type": "saturday",
+      "time": "06:09",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "display_direction": "Lgota Szkoła",
+      "direction_slug": "lgota",
+      "page": "rozklady/33/1023-lgota.html",
+      "day_type": "saturday",
+      "time": "08:17",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "display_direction": "Lgota Szkoła",
+      "direction_slug": "lgota",
+      "page": "rozklady/33/1023-lgota.html",
+      "day_type": "saturday",
+      "time": "09:49",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "display_direction": "Lgota Szkoła",
+      "direction_slug": "lgota",
+      "page": "rozklady/33/1023-lgota.html",
+      "day_type": "saturday",
+      "time": "11:38",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "display_direction": "Lgota Szkoła",
+      "direction_slug": "lgota",
+      "page": "rozklady/33/1023-lgota.html",
+      "day_type": "saturday",
+      "time": "13:32",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "display_direction": "Lgota Szkoła",
+      "direction_slug": "lgota",
+      "page": "rozklady/33/1023-lgota.html",
+      "day_type": "saturday",
+      "time": "15:12",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "display_direction": "Lgota Szkoła",
+      "direction_slug": "lgota",
+      "page": "rozklady/33/1023-lgota.html",
+      "day_type": "saturday",
+      "time": "17:14",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "display_direction": "Lgota Szkoła",
+      "direction_slug": "lgota",
+      "page": "rozklady/33/1023-lgota.html",
+      "day_type": "saturday",
+      "time": "18:52",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "display_direction": "Lgota Szkoła",
+      "direction_slug": "lgota",
+      "page": "rozklady/33/1023-lgota.html",
+      "day_type": "saturday",
+      "time": "20:23",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "display_direction": "Lgota Szkoła",
+      "direction_slug": "lgota",
+      "page": "rozklady/33/1023-lgota.html",
+      "day_type": "sunday",
+      "time": "09:30",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "display_direction": "Lgota Szkoła",
+      "direction_slug": "lgota",
+      "page": "rozklady/33/1023-lgota.html",
+      "day_type": "sunday",
+      "time": "10:59",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "display_direction": "Lgota Szkoła",
+      "direction_slug": "lgota",
+      "page": "rozklady/33/1023-lgota.html",
+      "day_type": "sunday",
+      "time": "13:07",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "display_direction": "Lgota Szkoła",
+      "direction_slug": "lgota",
+      "page": "rozklady/33/1023-lgota.html",
+      "day_type": "sunday",
+      "time": "15:14",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "display_direction": "Lgota Szkoła",
+      "direction_slug": "lgota",
+      "page": "rozklady/33/1023-lgota.html",
+      "day_type": "sunday",
+      "time": "16:47",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "display_direction": "Lgota Szkoła",
+      "direction_slug": "lgota",
+      "page": "rozklady/33/1023-lgota.html",
+      "day_type": "workday",
+      "time": "05:44",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "display_direction": "Lgota Szkoła",
+      "direction_slug": "lgota",
+      "page": "rozklady/33/1023-lgota.html",
+      "day_type": "workday",
+      "time": "07:43",
+      "symbols": [
+        "H"
+      ]
+    },
+    {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "display_direction": "Lgota Szkoła",
+      "direction_slug": "lgota",
+      "page": "rozklady/33/1023-lgota.html",
+      "day_type": "workday",
+      "time": "09:13",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "display_direction": "Lgota Szkoła",
+      "direction_slug": "lgota",
+      "page": "rozklady/33/1023-lgota.html",
+      "day_type": "workday",
+      "time": "10:41",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "display_direction": "Lgota Szkoła",
+      "direction_slug": "lgota",
+      "page": "rozklady/33/1023-lgota.html",
+      "day_type": "workday",
+      "time": "12:11",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "display_direction": "Lgota Szkoła",
+      "direction_slug": "lgota",
+      "page": "rozklady/33/1023-lgota.html",
+      "day_type": "workday",
+      "time": "13:51",
+      "symbols": [
+        "H"
+      ]
+    },
+    {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "display_direction": "Lgota Szkoła",
+      "direction_slug": "lgota",
+      "page": "rozklady/33/1023-lgota.html",
+      "day_type": "workday",
+      "time": "15:36",
+      "symbols": [
+        "H"
+      ]
+    },
+    {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "display_direction": "Lgota Szkoła",
+      "direction_slug": "lgota",
+      "page": "rozklady/33/1023-lgota.html",
+      "day_type": "workday",
+      "time": "17:02",
+      "symbols": [
+        "H"
+      ]
+    },
+    {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "display_direction": "Lgota Szkoła",
+      "direction_slug": "lgota",
+      "page": "rozklady/33/1023-lgota.html",
+      "day_type": "workday",
+      "time": "18:39",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "display_direction": "Lgota Szkoła",
+      "direction_slug": "lgota",
+      "page": "rozklady/33/1023-lgota.html",
+      "day_type": "workday",
+      "time": "20:20",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "lgota",
+      "page": "rozklady/33/1023-lgota.html",
+      "day_type": "workday",
+      "time": "22:09",
+      "symbols": [
+        "T"
+      ]
+    }
+  ],
+  "served_lines": [
+    {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "page": "rozklady/33/1023-lgota.html"
+    }
+  ],
+  "legends": {
+    "33": {
+      "C": "przez: Trzebinia Chechło, z pominięciem: Piła Kościelecka Folwark",
+      "H": "do: Trzebinia Harcerska Przychodnia",
+      "T": "do: Trzebinia Dworzec PKP"
+    }
+  }
 }

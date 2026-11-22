@@ -1,0 +1,135 @@
+{
+  "stop_id": "1140",
+  "stop_name": "Trzebinia Chechło",
+  "platform": "0",
+  "departures": [
+    {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "display_direction": "Lgota Szkoła",
+      "direction_slug": "lgota",
+      "page": "rozklady/33/1140-lgota.html",
+      "day_type": "holiday",
+      "time": "10:54",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "display_direction": "Lgota Szkoła",
+      "direction_slug": "lgota",
+      "page": "rozklady/33/1140-lgota.html",
+      "day_type": "holiday",
+      "time": "15:09",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "display_direction": "Lgota Szkoła",
+      "direction_slug": "lgota",
+      "page": "rozklady/33/1140-lgota.html",
+      "day_type": "saturday",
+      "time": "09:44",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "display_direction": "Lgota Szkoła",
+      "direction_slug": "lgota",
+      "page": "rozklady/33/1140-lgota.html",
+      "day_type": "saturday",
+      "time": "11:33",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "display_direction": "Lgota Szkoła",
+      "direction_slug": "lgota",
+      "page": "rozklady/33/1140-lgota.html",
+      "day_type": "saturday",
+      "time": "18:47",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "display_direction": "Lgota Szkoła",
+      "direction_slug": "lgota",
+      "page": "rozklady/33/1140-lgota.html",
+      "day_type": "sunday",
+      "time": "10:54",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "display_direction": "Lgota Szkoła",
+      "direction_slug": "lgota",
+      "page": "rozklady/33/1140-lgota.html",
+      "day_type": "sunday",
+      "time": "15:09",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "display_direction": "Lgota Szkoła",
+      "direction_slug": "lgota",
+      "page": "rozklady/33/1140-lgota.html",
+      "day_type": "workday",
+      "time": "09:08",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "display_direction": "Lgota Szkoła",
+      "direction_slug": "lgota",
+      "page": "rozklady/33/1140-lgota.html",
+      "day_type": "workday",
+      "time": "10:36",
+      "symbols": []
+    },
+    {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "display_direction": "Lgota Szkoła",
+      "direction_slug": "lgota",
+      "page": "rozklady/33/1140-lgota.html",
+      "day_type": "workday",
+      "time": "16:57",
+      "symbols": [
+        "H"
+      ]
+    },
+    {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "display_direction": "Trzebinia Dworzec PKP",
+      "direction_slug": "lgota",
+      "page": "rozklady/33/1140-lgota.html",
+      "day_type": "workday",
+      "time": "22:04",
+      "symbols": [
+        "T"
+      ]
+    }
+  ],
+  "served_lines": [
+    {
+      "line": "33",
+      "main_direction": "Lgota Szkoła",
+      "page": "rozklady/33/1140-lgota.html"
+    }
+  ],
+  "legends": {
+    "33": {
+      "C": "przez: Trzebinia Chechło, z pominięciem: Piła Kościelecka Folwark",
+      "H": "do: Trzebinia Harcerska Przychodnia",
+      "T": "do: Trzebinia Dworzec PKP"
+    }
+  }
+}
