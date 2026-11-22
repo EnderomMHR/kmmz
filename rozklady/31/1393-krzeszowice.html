@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KMMZ | Linia 31 | 1393 Zalas Krzyżówka</title>
+
+<style>
+
+*{box-sizing:border-box}
+
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:linear-gradient(135deg,#005bbb,#009966);
+    padding:20px;
+}
+
+.page{
+    max-width:1400px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:330px 1fr;
+    gap:20px;
+}
+
+.panel, .timetable{
+    background:white;
+    border-radius:16px;
+    box-shadow:0 8px 25px rgba(0,0,0,.22);
+}
+
+.panel{
+    padding:15px;
+}
+
+.back{
+    display:block;
+    margin-bottom:15px;
+    color:#005bbb;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+.route-title{
+    text-align:center;
+    padding:12px;
+    background:#f5c400;
+    font-weight:bold;
+    border-radius:10px 10px 0 0;
+}
+
+.route-subtitle{
+    text-align:center;
+    background:#009966;
+    color:white;
+    padding:8px;
+    font-weight:bold;
+}
+
+.stop{
+    display:block;
+    padding:5px 8px;
+    border-bottom:1px dashed #ccc;
+    color:#222;
+    text-decoration:none;
+    font-size:12px;
+}
+
+.stop:hover{
+    background:#eef5ff;
+    color:#005bbb;
+}
+
+.current-stop{
+    background:#fff3c4;
+    font-weight:bold;
+    font-size:12px;
+}
+
+.variant{
+    margin-left:25px;
+    font-style:italic;
+}
+
+.timetable{
+    padding:20px;
+}
+
+.header{
+    display:grid;
+    grid-template-columns:110px 1fr 90px;
+    gap:20px;
+    align-items:center;
+    margin-bottom:25px;
+}
+
+.line-button{
+    background:#f5c400;
+    color:#222;
+    font-size:36px;
+    font-weight:bold;
+    text-align:center;
+    padding:14px;
+    border-radius:12px;
+    text-decoration:none;
+}
+
+.stop-name{
+    font-size:21px;
+    font-weight:bold;
+    color:#005bbb;
+    text-decoration:none;
+}
+
+.stop-code{
+    background:#dcecff;
+    color:#005bbb;
+    padding:6px 10px;
+    border-radius:6px;
+    font-weight:bold;
+    margin-right:8px;
+    font-size:14px;
+}
+
+.direction{
+    margin-top:10px;
+    font-size:15px;
+}
+
+.map-button{
+    text-decoration:none;
+    background:#eaf4ff;
+    border:2px solid #005bbb;
+    color:#005bbb;
+    border-radius:12px;
+    font-size:13px;
+    padding:9px;
+    text-align:center;
+    font-weight:bold;
+}
+
+.map-icon{
+    font-size:26px;
+    display:block;
+}
+
+.section-title{
+    margin-top:14px;
+    padding:7px 10px;
+    font-weight:bold;
+    border-radius:6px;
+    font-size:14px;
+}
+
+.workday{background:#eaf4ff;}
+.saturday{background:#eef7df;}
+.sunday{background:#ffe5e5;}
+.holiday{background:#fff3c4;}
+
+.times{
+    display:grid;
+    grid-template-columns:repeat(8,1fr);
+    gap:0;
+    padding:6px 0 12px 0;
+    border-bottom:1px dashed #ccc;
+}
+
+.time{
+    text-align:center;
+    padding:5px;
+    font-size:14px;
+}
+
+.no-service{
+    padding:9px;
+    color:#777;
+    font-style:italic;
+    font-size:14px;
+}
+
+.legend{
+    margin-top:30px;
+    border:2px solid #ccc;
+    border-radius:14px;
+    overflow:hidden;
+}
+
+.legend-title{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    padding:12px;
+    background:linear-gradient(90deg,#f5c400,#005bbb,#009966);
+    font-size:17px;
+}
+
+.legend-row{
+    padding:8px 15px;
+    border-bottom:1px dashed #ccc;
+}
+
+.legend-row:last-child{
+    border-bottom:none;
+}
+
+.symbol{
+    color:#005bbb;
+    font-weight:bold;
+    display:inline-block;
+    width:35px;
+}
+
+@media(max-width:900px){
+    .page{
+        grid-template-columns:1fr;
+    }
+
+    .header{
+        grid-template-columns:1fr;
+        text-align:center;
+    }
+
+    .times{
+        grid-template-columns:repeat(3,1fr);
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="page">
+
+<div class="panel">
+<a class="back" href="../../linie/31.html">← Powrót do trasy linii 31</a>
+
+<div class="route-title">Kierunek: Krzeszowice Dworzec Autobusowy</div>
+<div class="route-subtitle">Trasa przejazdu od tego przystanku</div>
+
+<a class="stop current-stop" href="../31/1393-krzeszowice.html">1393 Zalas Krzyżówka (2)</a>
+<a class="stop" href="../31/1394-krzeszowice.html">1394 Zalas Ośrodek Zdrowia (2)</a>
+<a class="stop" href="../31/1390-krzeszowice.html">1390 Zalas Kościół (1)</a>
+<a class="stop" href="../31/1389-krzeszowice.html">1389 Zalas Szkoła (1)</a>
+<a class="stop" href="../31/1387-krzeszowice.html">1387 Zalas Krótka (2)</a>
+<a class="stop" href="../31/1384-krzeszowice.html">1384 Zalas Plac (2)</a>
+<a class="stop" href="../31/1383-krzeszowice.html">1383 Zalas Rondo (4)</a>
+<a class="stop" href="../31/1377-krzeszowice.html">1377 Zalas Podlas (2)</a>
+<a class="stop" href="../31/1378-krzeszowice.html">1378 Zalas Rogatki (2)</a>
+<a class="stop" href="../31/1379-krzeszowice.html">1379 Tenczynek Szkoła (2)</a>
+<a class="stop variant" href="../31/1468-krzeszowice.html">1468 Tenczynek Szkolna (0)</a>
+<a class="stop variant" href="../31/1469-krzeszowice.html">1469 Tenczynek Chłopickiego Sklep (1)</a>
+<a class="stop variant" href="../31/1470-krzeszowice.html">1470 Tenczynek Chłopickiego Skrzyżowanie (1)</a>
+<a class="stop variant" href="../31/1471-krzeszowice.html">1471 Tenczynek Jana III Sobieskiego (2)</a>
+<a class="stop" href="../31/1380-krzeszowice.html">1380 Tenczynek Centrum (2)</a>
+<a class="stop" href="../31/1381-krzeszowice.html">1381 Tenczynek Piaski (2)</a>
+<a class="stop" href="../31/0133-krzeszowice.html">0133 Krzeszowice Centrum (1)</a>
+<a class="stop" href="../31/1677-krzeszowice.html">1677 Krzeszowice Dworzec Autobusowy (1)</a>
+</div>
+
+<div class="timetable">
+
+<div class="header">
+<a class="line-button" href="../../linie/31.html">31</a>
+
+<div>
+<a class="stop-name" href="../../przystanki/1393.html">
+<span class="stop-code">1393</span>Zalas Krzyżówka (2)
+</a>
+<div class="direction">Kierunek: <strong>Krzeszowice Dworzec Autobusowy</strong></div>
+</div>
+
+<a class="map-button" href="https://enderommhr.github.io/kmmz/mapa.html" target="_blank">
+<span class="map-icon">🗺️</span>
+Mapa
+</a>
+</div>
+
+
+<div class="section-title workday">Dni robocze</div>
+<div class="times">
+<div class="time">04:46<sup>T</sup></div>
+<div class="time">06:11</div>
+<div class="time">07:07</div>
+<div class="time">08:18</div>
+<div class="time">09:21</div>
+<div class="time">11:01</div>
+<div class="time">12:01</div>
+<div class="time">13:06</div>
+<div class="time">14:26</div>
+<div class="time">15:32</div>
+<div class="time">16:58<sup>T</sup></div>
+<div class="time">18:15</div>
+<div class="time">19:24</div>
+<div class="time">20:36</div>
+<div class="time">21:37<sup>T</sup></div>
+<div class="time">22:40</div>
+</div>
+
+
+<div class="section-title saturday">Soboty</div>
+<div class="times">
+<div class="time">05:12<sup>T</sup></div>
+<div class="time">06:30</div>
+<div class="time">07:28</div>
+<div class="time">09:01</div>
+<div class="time">10:03</div>
+<div class="time">11:14</div>
+<div class="time">13:06</div>
+<div class="time">14:18</div>
+<div class="time">15:36</div>
+<div class="time">16:53</div>
+<div class="time">18:53</div>
+<div class="time">20:11</div>
+<div class="time">21:12<sup>T</sup></div>
+</div>
+
+
+<div class="section-title sunday">Niedziele</div>
+<div class="times">
+<div class="time">05:42<sup>T</sup></div>
+<div class="time">07:00</div>
+<div class="time">08:12</div>
+<div class="time">09:56</div>
+<div class="time">11:02<sup>T</sup></div>
+<div class="time">14:09</div>
+<div class="time">15:15</div>
+<div class="time">16:27</div>
+<div class="time">18:19</div>
+<div class="time">19:41</div>
+<div class="time">20:43</div>
+</div>
+
+
+<div class="section-title holiday">Święta</div>
+<div class="times">
+<div class="time">07:28</div>
+<div class="time">09:01</div>
+<div class="time">10:03</div>
+<div class="time">11:14</div>
+<div class="time">13:06</div>
+</div>
+
+
+
+<div class="legend">
+<div class="legend-title">Legenda</div>
+<div class="legend-row"><span class="symbol">T</span> - przez: Tenczynek Chłopickiego Skrzyżowanie, z pominięciem: Tenczynek Szkoła</div>
+</div>
+
+  
+</div>
+
+</div>
+
+</body>
+</html>

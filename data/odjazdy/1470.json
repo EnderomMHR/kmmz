@@ -1,0 +1,103 @@
+{
+  "stop_id": "1470",
+  "stop_name": "Tenczynek Chłopickiego Skrzyżowanie",
+  "platform": "1",
+  "departures": [
+    {
+      "line": "31",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/31/1470-krzeszowice.html",
+      "day_type": "saturday",
+      "time": "05:28",
+      "symbols": [
+        "T"
+      ]
+    },
+    {
+      "line": "31",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/31/1470-krzeszowice.html",
+      "day_type": "saturday",
+      "time": "21:28",
+      "symbols": [
+        "T"
+      ]
+    },
+    {
+      "line": "31",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/31/1470-krzeszowice.html",
+      "day_type": "sunday",
+      "time": "05:58",
+      "symbols": [
+        "T"
+      ]
+    },
+    {
+      "line": "31",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/31/1470-krzeszowice.html",
+      "day_type": "sunday",
+      "time": "11:18",
+      "symbols": [
+        "T"
+      ]
+    },
+    {
+      "line": "31",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/31/1470-krzeszowice.html",
+      "day_type": "workday",
+      "time": "05:02",
+      "symbols": [
+        "T"
+      ]
+    },
+    {
+      "line": "31",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/31/1470-krzeszowice.html",
+      "day_type": "workday",
+      "time": "17:14",
+      "symbols": [
+        "T"
+      ]
+    },
+    {
+      "line": "31",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "display_direction": "Krzeszowice Dworzec Autobusowy",
+      "direction_slug": "krzeszowice",
+      "page": "rozklady/31/1470-krzeszowice.html",
+      "day_type": "workday",
+      "time": "21:53",
+      "symbols": [
+        "T"
+      ]
+    }
+  ],
+  "served_lines": [
+    {
+      "line": "31",
+      "main_direction": "Krzeszowice Dworzec Autobusowy",
+      "page": "rozklady/31/1470-krzeszowice.html"
+    }
+  ],
+  "legends": {
+    "31": {
+      "T": "przez: Tenczynek Chłopickiego Skrzyżowanie, z pominięciem: Tenczynek Szkoła"
+    }
+  }
+}
