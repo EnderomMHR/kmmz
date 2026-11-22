@@ -1,0 +1,2274 @@
+{
+  "line": "33",
+  "map_url": "https://enderommhr.github.io/kmmz/mapa.html",
+  "directions": [
+    {
+      "slug": "chrzanow",
+      "name": "Chrzanów Dworzec Autobusowy",
+      "legend": {
+        "H": "przez: Trzebinia Harcerska Przychodnia",
+        "C": "do: Trzebinia Chechło"
+      },
+      "legend_only_used_symbols": true,
+      "variant_destinations": {
+        "C": "Trzebinia Chechło"
+      },
+      "route_stops": [
+        {
+          "stop_id": "0946",
+          "stop_name": "Lgota Szkoła",
+          "platform": "1",
+          "file": "0946-chrzanow.html"
+        },
+        {
+          "stop_id": "0945",
+          "stop_name": "Lgota",
+          "platform": "2",
+          "file": "0945-chrzanow.html"
+        },
+        {
+          "stop_id": "0966",
+          "stop_name": "Ostrężnica Galman",
+          "platform": "1",
+          "file": "0966-chrzanow.html"
+        },
+        {
+          "stop_id": "0930",
+          "stop_name": "Myślachowice Leśniczówka",
+          "platform": "1",
+          "file": "0930-chrzanow.html"
+        },
+        {
+          "stop_id": "0936",
+          "stop_name": "Myślachowice Centrum",
+          "platform": "1",
+          "file": "0936-chrzanow.html"
+        },
+        {
+          "stop_id": "0942",
+          "stop_name": "Trzebinia Zbyszek",
+          "platform": "2",
+          "file": "0942-chrzanow.html"
+        },
+        {
+          "stop_id": "0982",
+          "stop_name": "Trzebinia Piłsudskiego Kościół",
+          "platform": "2",
+          "file": "0982-chrzanow.html"
+        },
+        {
+          "stop_id": "0088",
+          "stop_name": "Trzebinia Mały Rynek Kościuszki",
+          "platform": "0",
+          "file": "0088-chrzanow.html"
+        },
+        {
+          "stop_id": "1026",
+          "stop_name": "Trzebinia Harcerska Przychodnia",
+          "platform": "0",
+          "file": "1026-chrzanow.html",
+          "variant": true
+        },
+        {
+          "stop_id": "0089",
+          "stop_name": "Trzebinia Dworzec PKP",
+          "platform": "1",
+          "file": "0089-chrzanow.html"
+        },
+        {
+          "stop_id": "0123",
+          "stop_name": "Trzebinia Krakowska",
+          "platform": "0",
+          "file": "0123-chrzanow.html"
+        },
+        {
+          "stop_id": "0356",
+          "stop_name": "Trzebinia Os. Widokowe Schody",
+          "platform": "2",
+          "file": "0356-chrzanow.html"
+        },
+        {
+          "stop_id": "0357",
+          "stop_name": "Trzebinia Os. Widokowe Kiosk",
+          "platform": "2",
+          "file": "0357-chrzanow.html"
+        },
+        {
+          "stop_id": "0358",
+          "stop_name": "Trzebinia Os. Widokowe Szkoła",
+          "platform": "1",
+          "file": "0358-chrzanow.html"
+        },
+        {
+          "stop_id": "1022",
+          "stop_name": "Trzebinia Rondo Solidarności",
+          "platform": "1",
+          "file": "1022-chrzanow.html"
+        },
+        {
+          "stop_id": "1024",
+          "stop_name": "Trzebinia Zakłady Tłuszczowe",
+          "platform": "1",
+          "file": "1024-chrzanow.html"
+        },
+        {
+          "stop_id": "1279",
+          "stop_name": "Trzebinia Zakład Karny",
+          "platform": "1",
+          "file": "1279-chrzanow.html"
+        },
+        {
+          "stop_id": "1145",
+          "stop_name": "Piła Kościelecka Skrzyżowanie",
+          "platform": "1",
+          "file": "1145-chrzanow.html"
+        },
+        {
+          "stop_id": "1143",
+          "stop_name": "Piła Kościelecka Folwark",
+          "platform": "1",
+          "file": "1143-chrzanow.html"
+        },
+        {
+          "stop_id": "1140",
+          "stop_name": "Trzebinia Chechło",
+          "platform": "0",
+          "file": "1140-chrzanow.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1141",
+          "stop_name": "Chrzanów Chechło Kąpielisko",
+          "platform": "1",
+          "file": "1141-chrzanow.html"
+        },
+        {
+          "stop_id": "0093",
+          "stop_name": "Chrzanów Szpital",
+          "platform": "2",
+          "file": "0093-chrzanow.html"
+        },
+        {
+          "stop_id": "0094",
+          "stop_name": "Chrzanów Szpitalna",
+          "platform": "1",
+          "file": "0094-chrzanow.html"
+        },
+        {
+          "stop_id": "0334",
+          "stop_name": "Chrzanów Dworzec Autobusowy",
+          "platform": "4",
+          "file": "0334-chrzanow.html"
+        }
+      ],
+      "timetables": [
+        {
+          "stop_id": "0946",
+          "stop_name": "Lgota Szkoła",
+          "platform": "1",
+          "file": "0946-chrzanow.html",
+          "departures": {
+            "workday": [
+              "06:20H",
+              "08:14H",
+              "09:46C",
+              "11:11",
+              "12:49",
+              "14:24H",
+              "16:16C",
+              "17:33",
+              "19:22H",
+              "20:53"
+            ],
+            "saturday": [
+              "05:05",
+              "06:52",
+              "08:48",
+              "10:52C",
+              "12:24",
+              "14:11",
+              "15:45",
+              "17:52",
+              "19:22"
+            ],
+            "sunday": [
+              "08:30",
+              "10:03C",
+              "11:57",
+              "14:05",
+              "15:47"
+            ],
+            "holiday": [
+              "08:30",
+              "10:03C",
+              "11:57",
+              "14:05",
+              "15:47"
+            ]
+          }
+        },
+        {
+          "stop_id": "0945",
+          "stop_name": "Lgota",
+          "platform": "2",
+          "file": "0945-chrzanow.html",
+          "departures": {
+            "workday": [
+              "06:21H",
+              "08:15H",
+              "09:47C",
+              "11:12",
+              "12:50",
+              "14:25H",
+              "16:17C",
+              "17:34",
+              "19:23H",
+              "20:54"
+            ],
+            "saturday": [
+              "05:06",
+              "06:53",
+              "08:49",
+              "10:53C",
+              "12:25",
+              "14:12",
+              "15:46",
+              "17:53",
+              "19:23"
+            ],
+            "sunday": [
+              "08:31",
+              "10:04C",
+              "11:58",
+              "14:06",
+              "15:48"
+            ],
+            "holiday": [
+              "08:31",
+              "10:04C",
+              "11:58",
+              "14:06",
+              "15:48"
+            ]
+          }
+        },
+        {
+          "stop_id": "0966",
+          "stop_name": "Ostrężnica Galman",
+          "platform": "1",
+          "file": "0966-chrzanow.html",
+          "departures": {
+            "workday": [
+              "06:23H",
+              "08:17H",
+              "09:49C",
+              "11:14",
+              "12:52",
+              "14:27H",
+              "16:19C",
+              "17:36",
+              "19:25H",
+              "20:56"
+            ],
+            "saturday": [
+              "05:08",
+              "06:55",
+              "08:51",
+              "10:55C",
+              "12:27",
+              "14:14",
+              "15:48",
+              "17:55",
+              "19:25"
+            ],
+            "sunday": [
+              "08:33",
+              "10:06C",
+              "12:00",
+              "14:08",
+              "15:50"
+            ],
+            "holiday": [
+              "08:33",
+              "10:06C",
+              "12:00",
+              "14:08",
+              "15:50"
+            ]
+          }
+        },
+        {
+          "stop_id": "0930",
+          "stop_name": "Myślachowice Leśniczówka",
+          "platform": "1",
+          "file": "0930-chrzanow.html",
+          "departures": {
+            "workday": [
+              "06:26H",
+              "08:20H",
+              "09:52C",
+              "11:17",
+              "12:55",
+              "14:30H",
+              "16:22C",
+              "17:39",
+              "19:28H",
+              "20:59"
+            ],
+            "saturday": [
+              "05:11",
+              "06:58",
+              "08:54",
+              "10:58C",
+              "12:30",
+              "14:17",
+              "15:51",
+              "17:58",
+              "19:28"
+            ],
+            "sunday": [
+              "08:36",
+              "10:09C",
+              "12:03",
+              "14:11",
+              "15:53"
+            ],
+            "holiday": [
+              "08:36",
+              "10:09C",
+              "12:03",
+              "14:11",
+              "15:53"
+            ]
+          }
+        },
+        {
+          "stop_id": "0936",
+          "stop_name": "Myślachowice Centrum",
+          "platform": "1",
+          "file": "0936-chrzanow.html",
+          "departures": {
+            "workday": [
+              "06:27H",
+              "08:21H",
+              "09:53C",
+              "11:18",
+              "12:56",
+              "14:31H",
+              "16:23C",
+              "17:40",
+              "19:29H",
+              "21:00"
+            ],
+            "saturday": [
+              "05:12",
+              "06:59",
+              "08:55",
+              "10:59C",
+              "12:31",
+              "14:18",
+              "15:52",
+              "17:59",
+              "19:29"
+            ],
+            "sunday": [
+              "08:37",
+              "10:10C",
+              "12:04",
+              "14:12",
+              "15:54"
+            ],
+            "holiday": [
+              "08:37",
+              "10:10C",
+              "12:04",
+              "14:12",
+              "15:54"
+            ]
+          }
+        },
+        {
+          "stop_id": "0942",
+          "stop_name": "Trzebinia Zbyszek",
+          "platform": "2",
+          "file": "0942-chrzanow.html",
+          "departures": {
+            "workday": [
+              "06:29H",
+              "08:23H",
+              "09:55C",
+              "11:20",
+              "12:58",
+              "14:33H",
+              "16:25C",
+              "17:42",
+              "19:31H",
+              "21:02"
+            ],
+            "saturday": [
+              "05:14",
+              "07:01",
+              "08:57",
+              "11:01C",
+              "12:33",
+              "14:20",
+              "15:54",
+              "18:01",
+              "19:31"
+            ],
+            "sunday": [
+              "08:39",
+              "10:12C",
+              "12:06",
+              "14:14",
+              "15:56"
+            ],
+            "holiday": [
+              "08:39",
+              "10:12C",
+              "12:06",
+              "14:14",
+              "15:56"
+            ]
+          }
+        },
+        {
+          "stop_id": "0982",
+          "stop_name": "Trzebinia Piłsudskiego Kościół",
+          "platform": "2",
+          "file": "0982-chrzanow.html",
+          "departures": {
+            "workday": [
+              "06:31H",
+              "08:25H",
+              "09:57C",
+              "11:22",
+              "13:00",
+              "14:35H",
+              "16:27C",
+              "17:44",
+              "19:33H",
+              "21:04"
+            ],
+            "saturday": [
+              "05:16",
+              "07:03",
+              "08:59",
+              "11:03C",
+              "12:35",
+              "14:22",
+              "15:56",
+              "18:03",
+              "19:33"
+            ],
+            "sunday": [
+              "08:41",
+              "10:14C",
+              "12:08",
+              "14:16",
+              "15:58"
+            ],
+            "holiday": [
+              "08:41",
+              "10:14C",
+              "12:08",
+              "14:16",
+              "15:58"
+            ]
+          }
+        },
+        {
+          "stop_id": "0088",
+          "stop_name": "Trzebinia Mały Rynek Kościuszki",
+          "platform": "0",
+          "file": "0088-chrzanow.html",
+          "departures": {
+            "workday": [
+              "06:34H",
+              "08:28H",
+              "10:00C",
+              "11:25",
+              "13:03",
+              "14:38H",
+              "16:30C",
+              "17:47",
+              "19:36H",
+              "21:07"
+            ],
+            "saturday": [
+              "05:19",
+              "07:06",
+              "09:02",
+              "11:06C",
+              "12:38",
+              "14:25",
+              "15:59",
+              "18:06",
+              "19:36"
+            ],
+            "sunday": [
+              "08:44",
+              "10:17C",
+              "12:11",
+              "14:19",
+              "16:01"
+            ],
+            "holiday": [
+              "08:44",
+              "10:17C",
+              "12:11",
+              "14:19",
+              "16:01"
+            ]
+          }
+        },
+        {
+          "stop_id": "1026",
+          "stop_name": "Trzebinia Harcerska Przychodnia",
+          "platform": "0",
+          "file": "1026-chrzanow.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "06:35",
+              "08:29",
+              "14:39",
+              "19:37"
+            ],
+            "saturday": [],
+            "sunday": [],
+            "holiday": []
+          }
+        },
+        {
+          "stop_id": "0089",
+          "stop_name": "Trzebinia Dworzec PKP",
+          "platform": "1",
+          "file": "0089-chrzanow.html",
+          "departures": {
+            "workday": [
+              "06:37",
+              "08:31",
+              "10:03C",
+              "11:28",
+              "13:06",
+              "14:41",
+              "16:33C",
+              "17:50",
+              "19:39",
+              "21:10",
+              "22:36"
+            ],
+            "saturday": [
+              "05:22",
+              "07:09",
+              "09:05",
+              "11:09C",
+              "12:41",
+              "14:28",
+              "16:02",
+              "18:09",
+              "19:39"
+            ],
+            "sunday": [
+              "08:47",
+              "10:20C",
+              "12:14",
+              "14:22",
+              "16:04"
+            ],
+            "holiday": [
+              "08:47",
+              "10:20C",
+              "12:14",
+              "14:22",
+              "16:04"
+            ]
+          }
+        },
+        {
+          "stop_id": "0123",
+          "stop_name": "Trzebinia Krakowska",
+          "platform": "0",
+          "file": "0123-chrzanow.html",
+          "departures": {
+            "workday": [
+              "06:40",
+              "08:34",
+              "10:06C",
+              "11:31",
+              "13:09",
+              "14:44",
+              "16:36C",
+              "17:53",
+              "19:42",
+              "21:13",
+              "22:39"
+            ],
+            "saturday": [
+              "05:25",
+              "07:12",
+              "09:08",
+              "11:12C",
+              "12:44",
+              "14:31",
+              "16:05",
+              "18:12",
+              "19:42"
+            ],
+            "sunday": [
+              "08:50",
+              "10:23C",
+              "12:17",
+              "14:25",
+              "16:07"
+            ],
+            "holiday": [
+              "08:50",
+              "10:23C",
+              "12:17",
+              "14:25",
+              "16:07"
+            ]
+          }
+        },
+        {
+          "stop_id": "0356",
+          "stop_name": "Trzebinia Os. Widokowe Schody",
+          "platform": "2",
+          "file": "0356-chrzanow.html",
+          "departures": {
+            "workday": [
+              "06:42",
+              "08:36",
+              "10:08C",
+              "11:33",
+              "13:11",
+              "14:46",
+              "16:38C",
+              "17:55",
+              "19:44",
+              "21:15",
+              "22:41"
+            ],
+            "saturday": [
+              "05:27",
+              "07:14",
+              "09:10",
+              "11:14C",
+              "12:46",
+              "14:33",
+              "16:07",
+              "18:14",
+              "19:44"
+            ],
+            "sunday": [
+              "08:52",
+              "10:25C",
+              "12:19",
+              "14:27",
+              "16:09"
+            ],
+            "holiday": [
+              "08:52",
+              "10:25C",
+              "12:19",
+              "14:27",
+              "16:09"
+            ]
+          }
+        },
+        {
+          "stop_id": "0357",
+          "stop_name": "Trzebinia Os. Widokowe Kiosk",
+          "platform": "2",
+          "file": "0357-chrzanow.html",
+          "departures": {
+            "workday": [
+              "06:43",
+              "08:37",
+              "10:09C",
+              "11:34",
+              "13:12",
+              "14:47",
+              "16:39C",
+              "17:56",
+              "19:45",
+              "21:16",
+              "22:42"
+            ],
+            "saturday": [
+              "05:28",
+              "07:15",
+              "09:11",
+              "11:15C",
+              "12:47",
+              "14:34",
+              "16:08",
+              "18:15",
+              "19:45"
+            ],
+            "sunday": [
+              "08:53",
+              "10:26C",
+              "12:20",
+              "14:28",
+              "16:10"
+            ],
+            "holiday": [
+              "08:53",
+              "10:26C",
+              "12:20",
+              "14:28",
+              "16:10"
+            ]
+          }
+        },
+        {
+          "stop_id": "0358",
+          "stop_name": "Trzebinia Os. Widokowe Szkoła",
+          "platform": "1",
+          "file": "0358-chrzanow.html",
+          "departures": {
+            "workday": [
+              "06:45",
+              "08:39",
+              "10:11C",
+              "11:36",
+              "13:14",
+              "14:49",
+              "16:41C",
+              "17:58",
+              "19:47",
+              "21:18",
+              "22:44"
+            ],
+            "saturday": [
+              "05:30",
+              "07:17",
+              "09:13",
+              "11:17C",
+              "12:49",
+              "14:36",
+              "16:10",
+              "18:17",
+              "19:47"
+            ],
+            "sunday": [
+              "08:55",
+              "10:28C",
+              "12:22",
+              "14:30",
+              "16:12"
+            ],
+            "holiday": [
+              "08:55",
+              "10:28C",
+              "12:22",
+              "14:30",
+              "16:12"
+            ]
+          }
+        },
+        {
+          "stop_id": "1022",
+          "stop_name": "Trzebinia Rondo Solidarności",
+          "platform": "1",
+          "file": "1022-chrzanow.html",
+          "departures": {
+            "workday": [
+              "06:47",
+              "08:41",
+              "10:13C",
+              "11:38",
+              "13:16",
+              "14:51",
+              "16:43C",
+              "18:00",
+              "19:49",
+              "21:20",
+              "22:46"
+            ],
+            "saturday": [
+              "05:32",
+              "07:19",
+              "09:15",
+              "11:19C",
+              "12:51",
+              "14:38",
+              "16:12",
+              "18:19",
+              "19:49"
+            ],
+            "sunday": [
+              "08:57",
+              "10:30C",
+              "12:24",
+              "14:32",
+              "16:14"
+            ],
+            "holiday": [
+              "08:57",
+              "10:30C",
+              "12:24",
+              "14:32",
+              "16:14"
+            ]
+          }
+        },
+        {
+          "stop_id": "1024",
+          "stop_name": "Trzebinia Zakłady Tłuszczowe",
+          "platform": "1",
+          "file": "1024-chrzanow.html",
+          "departures": {
+            "workday": [
+              "06:48",
+              "08:42",
+              "10:14C",
+              "11:39",
+              "13:17",
+              "14:52",
+              "16:44C",
+              "18:01",
+              "19:50",
+              "21:21",
+              "22:47"
+            ],
+            "saturday": [
+              "05:33",
+              "07:20",
+              "09:16",
+              "11:20C",
+              "12:52",
+              "14:39",
+              "16:13",
+              "18:20",
+              "19:50"
+            ],
+            "sunday": [
+              "08:58",
+              "10:31C",
+              "12:25",
+              "14:33",
+              "16:15"
+            ],
+            "holiday": [
+              "08:58",
+              "10:31C",
+              "12:25",
+              "14:33",
+              "16:15"
+            ]
+          }
+        },
+        {
+          "stop_id": "1279",
+          "stop_name": "Trzebinia Zakład Karny",
+          "platform": "1",
+          "file": "1279-chrzanow.html",
+          "departures": {
+            "workday": [
+              "06:49",
+              "08:43",
+              "10:15C",
+              "11:40",
+              "13:18",
+              "14:53",
+              "16:45C",
+              "18:02",
+              "19:51",
+              "21:22",
+              "22:48"
+            ],
+            "saturday": [
+              "05:34",
+              "07:21",
+              "09:17",
+              "11:21C",
+              "12:53",
+              "14:40",
+              "16:14",
+              "18:21",
+              "19:51"
+            ],
+            "sunday": [
+              "08:59",
+              "10:32C",
+              "12:26",
+              "14:34",
+              "16:16"
+            ],
+            "holiday": [
+              "08:59",
+              "10:32C",
+              "12:26",
+              "14:34",
+              "16:16"
+            ]
+          }
+        },
+        {
+          "stop_id": "1145",
+          "stop_name": "Piła Kościelecka Skrzyżowanie",
+          "platform": "1",
+          "file": "1145-chrzanow.html",
+          "departures": {
+            "workday": [
+              "06:52",
+              "08:46",
+              "10:18C",
+              "11:43",
+              "13:21",
+              "14:56",
+              "16:48C",
+              "18:05",
+              "19:54",
+              "21:25",
+              "22:51"
+            ],
+            "saturday": [
+              "05:37",
+              "07:24",
+              "09:20",
+              "11:24C",
+              "12:56",
+              "14:43",
+              "16:17",
+              "18:24",
+              "19:54"
+            ],
+            "sunday": [
+              "09:02",
+              "10:35C",
+              "12:29",
+              "14:37",
+              "16:19"
+            ],
+            "holiday": [
+              "09:02",
+              "10:35C",
+              "12:29",
+              "14:37",
+              "16:19"
+            ]
+          }
+        },
+        {
+          "stop_id": "1143",
+          "stop_name": "Piła Kościelecka Folwark",
+          "platform": "1",
+          "file": "1143-chrzanow.html",
+          "departures": {
+            "workday": [
+              "06:53",
+              "08:47",
+              "10:19C",
+              "11:44",
+              "13:22",
+              "14:57",
+              "16:49C",
+              "18:06",
+              "19:55",
+              "21:26",
+              "22:52"
+            ],
+            "saturday": [
+              "05:38",
+              "07:25",
+              "09:21",
+              "11:25C",
+              "12:57",
+              "14:44",
+              "16:18",
+              "18:25",
+              "19:55"
+            ],
+            "sunday": [
+              "09:03",
+              "10:36C",
+              "12:30",
+              "14:38",
+              "16:20"
+            ],
+            "holiday": [
+              "09:03",
+              "10:36C",
+              "12:30",
+              "14:38",
+              "16:20"
+            ]
+          }
+        },
+        {
+          "stop_id": "1140",
+          "stop_name": "Trzebinia Chechło",
+          "platform": "0",
+          "file": "1140-chrzanow.html",
+          "variant": true,
+          "departures": {},
+          "arrival_only": true,
+          "arrival_direction": "Trzebinia Chechło"
+        },
+        {
+          "stop_id": "1141",
+          "stop_name": "Chrzanów Chechło Kąpielisko",
+          "platform": "1",
+          "file": "1141-chrzanow.html",
+          "departures": {
+            "workday": [
+              "06:55",
+              "08:49",
+              "11:46",
+              "13:24",
+              "14:59",
+              "18:08",
+              "19:57",
+              "21:28",
+              "22:54"
+            ],
+            "saturday": [
+              "05:40",
+              "07:27",
+              "09:23",
+              "12:59",
+              "14:46",
+              "16:20",
+              "18:27",
+              "19:57"
+            ],
+            "sunday": [
+              "09:05",
+              "12:32",
+              "14:40",
+              "16:22"
+            ],
+            "holiday": [
+              "09:05",
+              "12:32",
+              "14:40",
+              "16:22"
+            ]
+          }
+        },
+        {
+          "stop_id": "0093",
+          "stop_name": "Chrzanów Szpital",
+          "platform": "2",
+          "file": "0093-chrzanow.html",
+          "departures": {
+            "workday": [
+              "06:57",
+              "08:51",
+              "11:48",
+              "13:26",
+              "15:01",
+              "18:10",
+              "19:59",
+              "21:30",
+              "22:56"
+            ],
+            "saturday": [
+              "05:42",
+              "07:29",
+              "09:25",
+              "13:01",
+              "14:48",
+              "16:22",
+              "18:29",
+              "19:59"
+            ],
+            "sunday": [
+              "09:07",
+              "12:34",
+              "14:42",
+              "16:24"
+            ],
+            "holiday": [
+              "09:07",
+              "12:34",
+              "14:42",
+              "16:24"
+            ]
+          }
+        },
+        {
+          "stop_id": "0094",
+          "stop_name": "Chrzanów Szpitalna",
+          "platform": "1",
+          "file": "0094-chrzanow.html",
+          "departures": {
+            "workday": [
+              "06:58",
+              "08:52",
+              "11:49",
+              "13:27",
+              "15:02",
+              "18:11",
+              "20:00",
+              "21:31",
+              "22:57"
+            ],
+            "saturday": [
+              "05:43",
+              "07:30",
+              "09:26",
+              "13:02",
+              "14:49",
+              "16:23",
+              "18:30",
+              "20:00"
+            ],
+            "sunday": [
+              "09:08",
+              "12:35",
+              "14:43",
+              "16:25"
+            ],
+            "holiday": [
+              "09:08",
+              "12:35",
+              "14:43",
+              "16:25"
+            ]
+          }
+        },
+        {
+          "stop_id": "0334",
+          "stop_name": "Chrzanów Dworzec Autobusowy",
+          "platform": "4",
+          "file": "0334-chrzanow.html",
+          "departures": {},
+          "arrival_only": true
+        }
+      ]
+    },
+    {
+      "slug": "lgota",
+      "name": "Lgota Szkoła",
+      "legend": {
+        "C": "przez: Trzebinia Chechło, z pominięciem: Piła Kościelecka Folwark",
+        "H": "do: Trzebinia Harcerska Przychodnia",
+        "T": "do: Trzebinia Dworzec PKP"
+      },
+      "legend_only_used_symbols": true,
+      "variant_destinations": {
+        "T": "Trzebinia Dworzec PKP"
+      },
+      "route_stops": [
+        {
+          "stop_id": "0116",
+          "stop_name": "Chrzanów Dworzec Autobusowy",
+          "platform": "1",
+          "file": "0116-lgota.html"
+        },
+        {
+          "stop_id": "0117",
+          "stop_name": "Chrzanów Szpitalna",
+          "platform": "3",
+          "file": "0117-lgota.html"
+        },
+        {
+          "stop_id": "0118",
+          "stop_name": "Chrzanów Szpital",
+          "platform": "1",
+          "file": "0118-lgota.html"
+        },
+        {
+          "stop_id": "1140",
+          "stop_name": "Trzebinia Chechło",
+          "platform": "0",
+          "file": "1140-lgota.html",
+          "variant": true
+        },
+        {
+          "stop_id": "1142",
+          "stop_name": "Chrzanów Chechło Kąpielisko",
+          "platform": "2",
+          "file": "1142-lgota.html"
+        },
+        {
+          "stop_id": "1144",
+          "stop_name": "Piła Kościelecka Folwark",
+          "platform": "2",
+          "file": "1144-lgota.html"
+        },
+        {
+          "stop_id": "1146",
+          "stop_name": "Piła Kościelecka Skrzyżowanie",
+          "platform": "2",
+          "file": "1146-lgota.html"
+        },
+        {
+          "stop_id": "1280",
+          "stop_name": "Trzebinia Zakład Karny",
+          "platform": "2",
+          "file": "1280-lgota.html"
+        },
+        {
+          "stop_id": "1523",
+          "stop_name": "Trzebinia Zakłady Tłuszczowe",
+          "platform": "3",
+          "file": "1523-lgota.html"
+        },
+        {
+          "stop_id": "1023",
+          "stop_name": "Trzebinia Rondo Solidarności",
+          "platform": "2",
+          "file": "1023-lgota.html"
+        },
+        {
+          "stop_id": "0353",
+          "stop_name": "Trzebinia Os. Widokowe Szkoła",
+          "platform": "2",
+          "file": "0353-lgota.html"
+        },
+        {
+          "stop_id": "0354",
+          "stop_name": "Trzebinia Os. Widokowe Kiosk",
+          "platform": "1",
+          "file": "0354-lgota.html"
+        },
+        {
+          "stop_id": "0355",
+          "stop_name": "Trzebinia Os. Widokowe Schody",
+          "platform": "1",
+          "file": "0355-lgota.html"
+        },
+        {
+          "stop_id": "0088",
+          "stop_name": "Trzebinia Mały Rynek Kościuszki",
+          "platform": "0",
+          "file": "0088-lgota.html"
+        },
+        {
+          "stop_id": "1026",
+          "stop_name": "Trzebinia Harcerska Przychodnia",
+          "platform": "0",
+          "file": "1026-lgota.html",
+          "variant": true
+        },
+        {
+          "stop_id": "0089",
+          "stop_name": "Trzebinia Dworzec PKP",
+          "platform": "1",
+          "file": "0089-lgota.html"
+        },
+        {
+          "stop_id": "3295",
+          "stop_name": "Trzebinia Mały Rynek",
+          "platform": "1",
+          "file": "3295-lgota.html"
+        },
+        {
+          "stop_id": "0983",
+          "stop_name": "Trzebinia Piłsudskiego Kościół",
+          "platform": "1",
+          "file": "0983-lgota.html"
+        },
+        {
+          "stop_id": "0941",
+          "stop_name": "Trzebinia Zbyszek",
+          "platform": "1",
+          "file": "0941-lgota.html"
+        },
+        {
+          "stop_id": "0937",
+          "stop_name": "Myślachowice Centrum",
+          "platform": "2",
+          "file": "0937-lgota.html"
+        },
+        {
+          "stop_id": "0931",
+          "stop_name": "Myślachowice Leśniczówka",
+          "platform": "2",
+          "file": "0931-lgota.html"
+        },
+        {
+          "stop_id": "0967",
+          "stop_name": "Ostrężnica Galman",
+          "platform": "2",
+          "file": "0967-lgota.html"
+        },
+        {
+          "stop_id": "0944",
+          "stop_name": "Lgota",
+          "platform": "1",
+          "file": "0944-lgota.html"
+        },
+        {
+          "stop_id": "0946",
+          "stop_name": "Lgota Szkoła",
+          "platform": "1",
+          "file": "0946-lgota.html"
+        }
+      ],
+      "timetables": [
+        {
+          "stop_id": "0116",
+          "stop_name": "Chrzanów Dworzec Autobusowy",
+          "platform": "1",
+          "file": "0116-lgota.html",
+          "departures": {
+            "workday": [
+              "05:30",
+              "07:29H",
+              "09:00C",
+              "11:57",
+              "13:37H",
+              "15:22H",
+              "18:25",
+              "20:06",
+              "21:56T"
+            ],
+            "saturday": [
+              "05:55",
+              "08:03",
+              "09:36C",
+              "13:18",
+              "14:58",
+              "17:00",
+              "18:39C",
+              "20:09"
+            ],
+            "sunday": [
+              "09:16",
+              "12:53",
+              "15:01C",
+              "16:33"
+            ],
+            "holiday": [
+              "09:16",
+              "12:53",
+              "15:01C",
+              "16:33"
+            ]
+          }
+        },
+        {
+          "stop_id": "0117",
+          "stop_name": "Chrzanów Szpitalna",
+          "platform": "3",
+          "file": "0117-lgota.html",
+          "departures": {
+            "workday": [
+              "05:33",
+              "07:32H",
+              "09:03C",
+              "12:00",
+              "13:40H",
+              "15:25H",
+              "18:28",
+              "20:09",
+              "21:59T"
+            ],
+            "saturday": [
+              "05:58",
+              "08:06",
+              "09:39C",
+              "13:21",
+              "15:01",
+              "17:03",
+              "18:42C",
+              "20:12"
+            ],
+            "sunday": [
+              "09:19",
+              "12:56",
+              "15:04C",
+              "16:36"
+            ],
+            "holiday": [
+              "09:19",
+              "12:56",
+              "15:04C",
+              "16:36"
+            ]
+          }
+        },
+        {
+          "stop_id": "0118",
+          "stop_name": "Chrzanów Szpital",
+          "platform": "1",
+          "file": "0118-lgota.html",
+          "departures": {
+            "workday": [
+              "05:34",
+              "07:33H",
+              "09:04C",
+              "12:01",
+              "13:41H",
+              "15:26H",
+              "18:29",
+              "20:10",
+              "22:00T"
+            ],
+            "saturday": [
+              "05:59",
+              "08:07",
+              "09:40C",
+              "13:22",
+              "15:02",
+              "17:04",
+              "18:43C",
+              "20:13"
+            ],
+            "sunday": [
+              "09:20",
+              "12:57",
+              "15:05C",
+              "16:37"
+            ],
+            "holiday": [
+              "09:20",
+              "12:57",
+              "15:05C",
+              "16:37"
+            ]
+          }
+        },
+        {
+          "stop_id": "1140",
+          "stop_name": "Trzebinia Chechło",
+          "platform": "0",
+          "file": "1140-lgota.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "09:08",
+              "10:36",
+              "16:57H",
+              "22:04T"
+            ],
+            "saturday": [
+              "09:44",
+              "11:33",
+              "18:47"
+            ],
+            "sunday": [
+              "10:54",
+              "15:09"
+            ],
+            "holiday": [
+              "10:54",
+              "15:09"
+            ]
+          }
+        },
+        {
+          "stop_id": "1142",
+          "stop_name": "Chrzanów Chechło Kąpielisko",
+          "platform": "2",
+          "file": "1142-lgota.html",
+          "departures": {
+            "workday": [
+              "05:36",
+              "07:35H",
+              "12:03",
+              "13:43H",
+              "15:28H",
+              "18:31",
+              "20:12"
+            ],
+            "saturday": [
+              "06:01",
+              "08:09",
+              "13:24",
+              "15:04",
+              "17:06",
+              "20:15"
+            ],
+            "sunday": [
+              "09:22",
+              "12:59",
+              "16:39"
+            ],
+            "holiday": [
+              "09:22",
+              "12:59",
+              "16:39"
+            ]
+          }
+        },
+        {
+          "stop_id": "1144",
+          "stop_name": "Piła Kościelecka Folwark",
+          "platform": "2",
+          "file": "1144-lgota.html",
+          "departures": {
+            "workday": [
+              "05:38",
+              "07:37H",
+              "12:05",
+              "13:45H",
+              "15:30H",
+              "18:33",
+              "20:14"
+            ],
+            "saturday": [
+              "06:03",
+              "08:11",
+              "13:26",
+              "15:06",
+              "17:08",
+              "20:17"
+            ],
+            "sunday": [
+              "09:24",
+              "13:01",
+              "16:41"
+            ],
+            "holiday": [
+              "09:24",
+              "13:01",
+              "16:41"
+            ]
+          }
+        },
+        {
+          "stop_id": "1146",
+          "stop_name": "Piła Kościelecka Skrzyżowanie",
+          "platform": "2",
+          "file": "1146-lgota.html",
+          "departures": {
+            "workday": [
+              "05:39",
+              "07:38H",
+              "12:06",
+              "13:46H",
+              "15:31H",
+              "18:34",
+              "20:15"
+            ],
+            "saturday": [
+              "06:04",
+              "08:12",
+              "13:27",
+              "15:07",
+              "17:09",
+              "20:18"
+            ],
+            "sunday": [
+              "09:25",
+              "13:02",
+              "16:42"
+            ],
+            "holiday": [
+              "09:25",
+              "13:02",
+              "16:42"
+            ]
+          }
+        },
+        {
+          "stop_id": "1280",
+          "stop_name": "Trzebinia Zakład Karny",
+          "platform": "2",
+          "file": "1280-lgota.html",
+          "departures": {
+            "workday": [
+              "05:42",
+              "07:41H",
+              "09:11",
+              "10:39",
+              "12:09",
+              "13:49H",
+              "15:34H",
+              "17:00H",
+              "18:37",
+              "20:18",
+              "22:07T"
+            ],
+            "saturday": [
+              "06:07",
+              "08:15",
+              "09:47",
+              "11:36",
+              "13:30",
+              "15:10",
+              "17:12",
+              "18:50",
+              "20:21"
+            ],
+            "sunday": [
+              "09:28",
+              "10:57",
+              "13:05",
+              "15:12",
+              "16:45"
+            ],
+            "holiday": [
+              "09:28",
+              "10:57",
+              "13:05",
+              "15:12",
+              "16:45"
+            ]
+          }
+        },
+        {
+          "stop_id": "1523",
+          "stop_name": "Trzebinia Zakłady Tłuszczowe",
+          "platform": "3",
+          "file": "1523-lgota.html",
+          "departures": {
+            "workday": [
+              "05:43",
+              "07:42H",
+              "09:12",
+              "10:40",
+              "12:10",
+              "13:50H",
+              "15:35H",
+              "17:01H",
+              "18:38",
+              "20:19",
+              "22:08T"
+            ],
+            "saturday": [
+              "06:08",
+              "08:16",
+              "09:48",
+              "11:37",
+              "13:31",
+              "15:11",
+              "17:13",
+              "18:51",
+              "20:22"
+            ],
+            "sunday": [
+              "09:29",
+              "10:58",
+              "13:06",
+              "15:13",
+              "16:46"
+            ],
+            "holiday": [
+              "09:29",
+              "10:58",
+              "13:06",
+              "15:13",
+              "16:46"
+            ]
+          }
+        },
+        {
+          "stop_id": "1023",
+          "stop_name": "Trzebinia Rondo Solidarności",
+          "platform": "2",
+          "file": "1023-lgota.html",
+          "departures": {
+            "workday": [
+              "05:44",
+              "07:43H",
+              "09:13",
+              "10:41",
+              "12:11",
+              "13:51H",
+              "15:36H",
+              "17:02H",
+              "18:39",
+              "20:20",
+              "22:09T"
+            ],
+            "saturday": [
+              "06:09",
+              "08:17",
+              "09:49",
+              "11:38",
+              "13:32",
+              "15:12",
+              "17:14",
+              "18:52",
+              "20:23"
+            ],
+            "sunday": [
+              "09:30",
+              "10:59",
+              "13:07",
+              "15:14",
+              "16:47"
+            ],
+            "holiday": [
+              "09:30",
+              "10:59",
+              "13:07",
+              "15:14",
+              "16:47"
+            ]
+          }
+        },
+        {
+          "stop_id": "0353",
+          "stop_name": "Trzebinia Os. Widokowe Szkoła",
+          "platform": "2",
+          "file": "0353-lgota.html",
+          "departures": {
+            "workday": [
+              "05:46",
+              "07:45H",
+              "09:15",
+              "10:43",
+              "12:13",
+              "13:53H",
+              "15:38H",
+              "17:04H",
+              "18:41",
+              "20:22",
+              "22:11T"
+            ],
+            "saturday": [
+              "06:11",
+              "08:19",
+              "09:51",
+              "11:40",
+              "13:34",
+              "15:14",
+              "17:16",
+              "18:54",
+              "20:25"
+            ],
+            "sunday": [
+              "09:32",
+              "11:01",
+              "13:09",
+              "15:16",
+              "16:49"
+            ],
+            "holiday": [
+              "09:32",
+              "11:01",
+              "13:09",
+              "15:16",
+              "16:49"
+            ]
+          }
+        },
+        {
+          "stop_id": "0354",
+          "stop_name": "Trzebinia Os. Widokowe Kiosk",
+          "platform": "1",
+          "file": "0354-lgota.html",
+          "departures": {
+            "workday": [
+              "05:48",
+              "07:47H",
+              "09:17",
+              "10:45",
+              "12:15",
+              "13:55H",
+              "15:40H",
+              "17:06H",
+              "18:43",
+              "20:24",
+              "22:13T"
+            ],
+            "saturday": [
+              "06:13",
+              "08:21",
+              "09:53",
+              "11:42",
+              "13:36",
+              "15:16",
+              "17:18",
+              "18:56",
+              "20:27"
+            ],
+            "sunday": [
+              "09:34",
+              "11:03",
+              "13:11",
+              "15:18",
+              "16:51"
+            ],
+            "holiday": [
+              "09:34",
+              "11:03",
+              "13:11",
+              "15:18",
+              "16:51"
+            ]
+          }
+        },
+        {
+          "stop_id": "0355",
+          "stop_name": "Trzebinia Os. Widokowe Schody",
+          "platform": "1",
+          "file": "0355-lgota.html",
+          "departures": {
+            "workday": [
+              "05:49",
+              "07:48H",
+              "09:18",
+              "10:46",
+              "12:16",
+              "13:56H",
+              "15:41H",
+              "17:07H",
+              "18:44",
+              "20:25",
+              "22:14T"
+            ],
+            "saturday": [
+              "06:14",
+              "08:22",
+              "09:54",
+              "11:43",
+              "13:37",
+              "15:17",
+              "17:19",
+              "18:57",
+              "20:28"
+            ],
+            "sunday": [
+              "09:35",
+              "11:04",
+              "13:12",
+              "15:19",
+              "16:52"
+            ],
+            "holiday": [
+              "09:35",
+              "11:04",
+              "13:12",
+              "15:19",
+              "16:52"
+            ]
+          }
+        },
+        {
+          "stop_id": "0088",
+          "stop_name": "Trzebinia Mały Rynek Kościuszki",
+          "platform": "0",
+          "file": "0088-lgota.html",
+          "departures": {
+            "workday": [
+              "05:52",
+              "07:51H",
+              "09:21",
+              "10:49",
+              "12:19",
+              "13:59H",
+              "15:44H",
+              "17:10H",
+              "18:47",
+              "20:28",
+              "22:17T"
+            ],
+            "saturday": [
+              "06:17",
+              "08:25",
+              "09:57",
+              "11:46",
+              "13:40",
+              "15:20",
+              "17:22",
+              "19:00",
+              "20:31"
+            ],
+            "sunday": [
+              "09:38",
+              "11:07",
+              "13:15",
+              "15:22",
+              "16:55"
+            ],
+            "holiday": [
+              "09:38",
+              "11:07",
+              "13:15",
+              "15:22",
+              "16:55"
+            ]
+          }
+        },
+        {
+          "stop_id": "1026",
+          "stop_name": "Trzebinia Harcerska Przychodnia",
+          "platform": "0",
+          "file": "1026-lgota.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "07:52",
+              "14:00",
+              "15:45",
+              "17:11"
+            ],
+            "saturday": [],
+            "sunday": [],
+            "holiday": []
+          }
+        },
+        {
+          "stop_id": "0089",
+          "stop_name": "Trzebinia Dworzec PKP",
+          "platform": "1",
+          "file": "0089-lgota.html",
+          "departures": {
+            "workday": [
+              "05:55",
+              "07:54",
+              "09:24",
+              "10:52",
+              "12:22",
+              "14:02",
+              "15:47",
+              "17:13",
+              "18:50",
+              "20:31"
+            ],
+            "saturday": [
+              "06:20",
+              "08:28",
+              "10:00",
+              "11:49",
+              "13:43",
+              "15:23",
+              "17:25",
+              "19:03",
+              "20:34"
+            ],
+            "sunday": [
+              "09:41",
+              "11:10",
+              "13:18",
+              "15:25",
+              "16:58"
+            ],
+            "holiday": [
+              "09:41",
+              "11:10",
+              "13:18",
+              "15:25",
+              "16:58"
+            ]
+          }
+        },
+        {
+          "stop_id": "3295",
+          "stop_name": "Trzebinia Mały Rynek",
+          "platform": "1",
+          "file": "3295-lgota.html",
+          "departures": {
+            "workday": [
+              "05:58",
+              "07:57",
+              "09:27",
+              "10:55",
+              "12:25",
+              "14:05",
+              "15:50",
+              "17:16",
+              "18:53",
+              "20:34"
+            ],
+            "saturday": [
+              "06:23",
+              "08:31",
+              "10:03",
+              "11:52",
+              "13:46",
+              "15:26",
+              "17:28",
+              "19:06",
+              "20:37"
+            ],
+            "sunday": [
+              "09:44",
+              "11:13",
+              "13:21",
+              "15:28",
+              "17:01"
+            ],
+            "holiday": [
+              "09:44",
+              "11:13",
+              "13:21",
+              "15:28",
+              "17:01"
+            ]
+          }
+        },
+        {
+          "stop_id": "0983",
+          "stop_name": "Trzebinia Piłsudskiego Kościół",
+          "platform": "1",
+          "file": "0983-lgota.html",
+          "departures": {
+            "workday": [
+              "06:01",
+              "08:00",
+              "09:30",
+              "10:58",
+              "12:28",
+              "14:08",
+              "15:53",
+              "17:19",
+              "18:56",
+              "20:37"
+            ],
+            "saturday": [
+              "06:26",
+              "08:34",
+              "10:06",
+              "11:55",
+              "13:49",
+              "15:29",
+              "17:31",
+              "19:09",
+              "20:40"
+            ],
+            "sunday": [
+              "09:47",
+              "11:16",
+              "13:24",
+              "15:31",
+              "17:04"
+            ],
+            "holiday": [
+              "09:47",
+              "11:16",
+              "13:24",
+              "15:31",
+              "17:04"
+            ]
+          }
+        },
+        {
+          "stop_id": "0941",
+          "stop_name": "Trzebinia Zbyszek",
+          "platform": "1",
+          "file": "0941-lgota.html",
+          "departures": {
+            "workday": [
+              "06:03",
+              "08:02",
+              "09:32",
+              "11:00",
+              "12:30",
+              "14:10",
+              "15:55",
+              "17:21",
+              "18:58",
+              "20:39"
+            ],
+            "saturday": [
+              "06:28",
+              "08:36",
+              "10:08",
+              "11:57",
+              "13:51",
+              "15:31",
+              "17:33",
+              "19:11",
+              "20:42"
+            ],
+            "sunday": [
+              "09:49",
+              "11:18",
+              "13:26",
+              "15:33",
+              "17:06"
+            ],
+            "holiday": [
+              "09:49",
+              "11:18",
+              "13:26",
+              "15:33",
+              "17:06"
+            ]
+          }
+        },
+        {
+          "stop_id": "0937",
+          "stop_name": "Myślachowice Centrum",
+          "platform": "2",
+          "file": "0937-lgota.html",
+          "departures": {
+            "workday": [
+              "06:05",
+              "08:04",
+              "09:34",
+              "11:02",
+              "12:32",
+              "14:12",
+              "15:57",
+              "17:23",
+              "19:00",
+              "20:41"
+            ],
+            "saturday": [
+              "06:30",
+              "08:38",
+              "10:10",
+              "11:59",
+              "13:53",
+              "15:33",
+              "17:35",
+              "19:13",
+              "20:44"
+            ],
+            "sunday": [
+              "09:51",
+              "11:20",
+              "13:28",
+              "15:35",
+              "17:08"
+            ],
+            "holiday": [
+              "09:51",
+              "11:20",
+              "13:28",
+              "15:35",
+              "17:08"
+            ]
+          }
+        },
+        {
+          "stop_id": "0931",
+          "stop_name": "Myślachowice Leśniczówka",
+          "platform": "2",
+          "file": "0931-lgota.html",
+          "departures": {
+            "workday": [
+              "06:06",
+              "08:05",
+              "09:35",
+              "11:03",
+              "12:33",
+              "14:13",
+              "15:58",
+              "17:24",
+              "19:01",
+              "20:42"
+            ],
+            "saturday": [
+              "06:31",
+              "08:39",
+              "10:11",
+              "12:00",
+              "13:54",
+              "15:34",
+              "17:36",
+              "19:14",
+              "20:45"
+            ],
+            "sunday": [
+              "09:52",
+              "11:21",
+              "13:29",
+              "15:36",
+              "17:09"
+            ],
+            "holiday": [
+              "09:52",
+              "11:21",
+              "13:29",
+              "15:36",
+              "17:09"
+            ]
+          }
+        },
+        {
+          "stop_id": "0967",
+          "stop_name": "Ostrężnica Galman",
+          "platform": "2",
+          "file": "0967-lgota.html",
+          "departures": {
+            "workday": [
+              "06:09",
+              "08:08",
+              "09:38",
+              "11:06",
+              "12:36",
+              "14:16",
+              "16:01",
+              "17:27",
+              "19:04",
+              "20:45"
+            ],
+            "saturday": [
+              "06:34",
+              "08:42",
+              "10:14",
+              "12:03",
+              "13:57",
+              "15:37",
+              "17:39",
+              "19:17",
+              "20:48"
+            ],
+            "sunday": [
+              "09:55",
+              "11:24",
+              "13:32",
+              "15:39",
+              "17:12"
+            ],
+            "holiday": [
+              "09:55",
+              "11:24",
+              "13:32",
+              "15:39",
+              "17:12"
+            ]
+          }
+        },
+        {
+          "stop_id": "0944",
+          "stop_name": "Lgota",
+          "platform": "1",
+          "file": "0944-lgota.html",
+          "departures": {
+            "workday": [
+              "06:11",
+              "08:10",
+              "09:40",
+              "11:08",
+              "12:38",
+              "14:18",
+              "16:03",
+              "17:29",
+              "19:06",
+              "20:47"
+            ],
+            "saturday": [
+              "06:36",
+              "08:44",
+              "10:16",
+              "12:05",
+              "13:59",
+              "15:39",
+              "17:41",
+              "19:19",
+              "20:50"
+            ],
+            "sunday": [
+              "09:57",
+              "11:26",
+              "13:34",
+              "15:41",
+              "17:14"
+            ],
+            "holiday": [
+              "09:57",
+              "11:26",
+              "13:34",
+              "15:41",
+              "17:14"
+            ]
+          }
+        },
+        {
+          "stop_id": "0946",
+          "stop_name": "Lgota Szkoła",
+          "platform": "1",
+          "file": "0946-lgota.html",
+          "departures": {},
+          "arrival_only": true
+        }
+      ]
+    }
+  ]
+}
