@@ -1,0 +1,3867 @@
+{
+  "line": "34",
+  "map_url": "https://enderommhr.github.io/kmmz/mapa.html",
+  "directions": [
+    {
+      "slug": "olkusz",
+      "name": "Olkusz Dworzec PKS",
+      "direction_segments": [
+        {
+          "from_stop_id": "1560",
+          "name": "Olkusz Dworzec PKS"
+        },
+        {
+          "from_stop_id": "0200",
+          "name": "Zadole Kosmolowskie Pętla"
+        }
+      ],
+      "legend": {
+        "Z": "do: Zadole Kosmolowskie Pętla"
+      },
+      "legend_only_used_symbols": true,
+      "variant_destinations": {
+        "Z": "Zadole Kosmolowskie Pętla"
+      },
+      "route_stops": [
+        {
+          "stop_id": "1560",
+          "stop_name": "Gorenice Pętla",
+          "platform": "1",
+          "file": "1560-olkusz.html"
+        },
+        {
+          "stop_id": "1563",
+          "stop_name": "Gorenice Wzniesienie",
+          "platform": "2",
+          "file": "1563-olkusz.html"
+        },
+        {
+          "stop_id": "1565",
+          "stop_name": "Gorenice Dołek",
+          "platform": "2",
+          "file": "1565-olkusz.html"
+        },
+        {
+          "stop_id": "1585",
+          "stop_name": "Gorenice Szkoła",
+          "platform": "2",
+          "file": "1585-olkusz.html"
+        },
+        {
+          "stop_id": "1567",
+          "stop_name": "Gorenice Remiza",
+          "platform": "1",
+          "file": "1567-olkusz.html"
+        },
+        {
+          "stop_id": "2095",
+          "stop_name": "Gorenice Kąty Cmentarz",
+          "platform": "2",
+          "file": "2095-olkusz.html"
+        },
+        {
+          "stop_id": "2096",
+          "stop_name": "Gorenice Kąty Skrzyżowanie",
+          "platform": "1",
+          "file": "2096-olkusz.html"
+        },
+        {
+          "stop_id": "2099",
+          "stop_name": "Gorenice Leśna",
+          "platform": "2",
+          "file": "2099-olkusz.html"
+        },
+        {
+          "stop_id": "2100",
+          "stop_name": "Gorenice Leśna Skrzyżowanie",
+          "platform": "2",
+          "file": "2100-olkusz.html"
+        },
+        {
+          "stop_id": "1569",
+          "stop_name": "Gorenice Wilcze Doły",
+          "platform": "1",
+          "file": "1569-olkusz.html"
+        },
+        {
+          "stop_id": "1570",
+          "stop_name": "Witeradów Pod Kądzielnią",
+          "platform": "1",
+          "file": "1570-olkusz.html"
+        },
+        {
+          "stop_id": "1571",
+          "stop_name": "Witeradów",
+          "platform": "1",
+          "file": "1571-olkusz.html"
+        },
+        {
+          "stop_id": "1572",
+          "stop_name": "Witeradów Wieś",
+          "platform": "1",
+          "file": "1572-olkusz.html"
+        },
+        {
+          "stop_id": "1573",
+          "stop_name": "Witeradów Tartak",
+          "platform": "1",
+          "file": "1573-olkusz.html"
+        },
+        {
+          "stop_id": "1574",
+          "stop_name": "Witeradów Zacisze",
+          "platform": "1",
+          "file": "1574-olkusz.html"
+        },
+        {
+          "stop_id": "1576",
+          "stop_name": "Olkusz Księdza Gajewskiego",
+          "platform": "2",
+          "file": "1576-olkusz.html"
+        },
+        {
+          "stop_id": "1586",
+          "stop_name": "Olkusz Kościół",
+          "platform": "2",
+          "file": "1586-olkusz.html"
+        },
+        {
+          "stop_id": "1588",
+          "stop_name": "Olkusz Biema",
+          "platform": "1",
+          "file": "1588-olkusz.html"
+        },
+        {
+          "stop_id": "0495",
+          "stop_name": "Olkusz Szpital",
+          "platform": "2",
+          "file": "0495-olkusz.html"
+        },
+        {
+          "stop_id": "0197",
+          "stop_name": "Olkusz Basen",
+          "platform": "1",
+          "file": "0197-olkusz.html"
+        },
+        {
+          "stop_id": "0198",
+          "stop_name": "Olkusz Dworek Machnickich",
+          "platform": "0",
+          "file": "0198-olkusz.html"
+        },
+        {
+          "stop_id": "0199",
+          "stop_name": "Olkusz Skarbek",
+          "platform": "2",
+          "file": "0199-olkusz.html"
+        },
+        {
+          "stop_id": "0200",
+          "stop_name": "Olkusz Dworzec PKS",
+          "platform": "0",
+          "file": "0200-olkusz.html"
+        },
+        {
+          "stop_id": "0201",
+          "stop_name": "Olkusz Dworzec PKP",
+          "platform": "1",
+          "file": "0201-olkusz.html",
+          "variant": true
+        },
+        {
+          "stop_id": "0202",
+          "stop_name": "Olkusz Wiadukt",
+          "platform": "1",
+          "file": "0202-olkusz.html",
+          "variant": true
+        },
+        {
+          "stop_id": "0203",
+          "stop_name": "Olkusz Aleja Tysiąclecia",
+          "platform": "1",
+          "file": "0203-olkusz.html",
+          "variant": true
+        },
+        {
+          "stop_id": "2029",
+          "stop_name": "Olkusz Zagaje",
+          "platform": "2",
+          "file": "2029-olkusz.html",
+          "variant": true
+        },
+        {
+          "stop_id": "2030",
+          "stop_name": "Olkusz Zagaje II",
+          "platform": "2",
+          "file": "2030-olkusz.html",
+          "variant": true
+        },
+        {
+          "stop_id": "2040",
+          "stop_name": "Olewin Fabryka Domów",
+          "platform": "1",
+          "file": "2040-olkusz.html",
+          "variant": true
+        },
+        {
+          "stop_id": "2039",
+          "stop_name": "Olewin",
+          "platform": "1",
+          "file": "2039-olkusz.html",
+          "variant": true
+        },
+        {
+          "stop_id": "2038",
+          "stop_name": "Sieniczno Krzyżówka",
+          "platform": "1",
+          "file": "2038-olkusz.html",
+          "variant": true
+        },
+        {
+          "stop_id": "2037",
+          "stop_name": "Sieniczno Orzechówka",
+          "platform": "1",
+          "file": "2037-olkusz.html",
+          "variant": true
+        },
+        {
+          "stop_id": "2035",
+          "stop_name": "Sieniczno Granica",
+          "platform": "2",
+          "file": "2035-olkusz.html",
+          "variant": true
+        },
+        {
+          "stop_id": "0204",
+          "stop_name": "Sieniczno",
+          "platform": "1",
+          "file": "0204-olkusz.html",
+          "variant": true
+        },
+        {
+          "stop_id": "0205",
+          "stop_name": "Sieniczno Ojcowska",
+          "platform": "2",
+          "file": "0205-olkusz.html",
+          "variant": true
+        },
+        {
+          "stop_id": "0206",
+          "stop_name": "Wiśliczka",
+          "platform": "2",
+          "file": "0206-olkusz.html",
+          "variant": true
+        },
+        {
+          "stop_id": "0207",
+          "stop_name": "Kosmolów Las",
+          "platform": "2",
+          "file": "0207-olkusz.html",
+          "variant": true
+        },
+        {
+          "stop_id": "0208",
+          "stop_name": "Kosmolów Szkoła",
+          "platform": "2",
+          "file": "0208-olkusz.html",
+          "variant": true
+        },
+        {
+          "stop_id": "0209",
+          "stop_name": "Kosmolów Sklep",
+          "platform": "2",
+          "file": "0209-olkusz.html",
+          "variant": true
+        },
+        {
+          "stop_id": "0210",
+          "stop_name": "Kosmolów Na Górze",
+          "platform": "2",
+          "file": "0210-olkusz.html",
+          "variant": true
+        },
+        {
+          "stop_id": "0211",
+          "stop_name": "Kosmolów Skrzyżowanie",
+          "platform": "2",
+          "file": "0211-olkusz.html",
+          "variant": true
+        },
+        {
+          "stop_id": "0212",
+          "stop_name": "Zadole Kosmolowskie Początek",
+          "platform": "2",
+          "file": "0212-olkusz.html",
+          "variant": true
+        },
+        {
+          "stop_id": "0213",
+          "stop_name": "Zadole Kosmolowskie",
+          "platform": "2",
+          "file": "0213-olkusz.html",
+          "variant": true
+        },
+        {
+          "stop_id": "0214",
+          "stop_name": "Zadole Kosmolowskie Pętla",
+          "platform": "0",
+          "file": "0214-olkusz.html",
+          "variant": true
+        }
+      ],
+      "timetables": [
+        {
+          "stop_id": "1560",
+          "stop_name": "Gorenice Pętla",
+          "platform": "1",
+          "file": "1560-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:00",
+              "06:10",
+              "07:15Z",
+              "09:40",
+              "10:50",
+              "12:00Z",
+              "14:30",
+              "15:50Z",
+              "18:40",
+              "21:01",
+              "22:05Z"
+            ],
+            "saturday": [
+              "04:45Z",
+              "06:45",
+              "08:30",
+              "10:46",
+              "12:18",
+              "14:05",
+              "15:17",
+              "18:45Z",
+              "21:15Z"
+            ],
+            "sunday": [
+              "06:00",
+              "07:35Z",
+              "09:40",
+              "14:33",
+              "19:40",
+              "21:15"
+            ],
+            "holiday": [
+              "08:30",
+              "10:46",
+              "12:18"
+            ]
+          }
+        },
+        {
+          "stop_id": "1563",
+          "stop_name": "Gorenice Wzniesienie",
+          "platform": "2",
+          "file": "1563-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:01",
+              "06:11",
+              "07:16Z",
+              "09:41",
+              "10:51",
+              "12:01Z",
+              "14:31",
+              "15:51Z",
+              "18:41",
+              "21:02",
+              "22:06Z"
+            ],
+            "saturday": [
+              "04:46Z",
+              "06:46",
+              "08:31",
+              "10:47",
+              "12:19",
+              "14:06",
+              "15:18",
+              "18:46Z",
+              "21:16Z"
+            ],
+            "sunday": [
+              "06:01",
+              "07:36Z",
+              "09:41",
+              "14:34",
+              "19:41",
+              "21:16"
+            ],
+            "holiday": [
+              "08:31",
+              "10:47",
+              "12:19"
+            ]
+          }
+        },
+        {
+          "stop_id": "1565",
+          "stop_name": "Gorenice Dołek",
+          "platform": "2",
+          "file": "1565-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:02",
+              "06:12",
+              "07:17Z",
+              "09:42",
+              "10:52",
+              "12:02Z",
+              "14:32",
+              "15:52Z",
+              "18:42",
+              "21:03",
+              "22:07Z"
+            ],
+            "saturday": [
+              "04:47Z",
+              "06:47",
+              "08:32",
+              "10:48",
+              "12:20",
+              "14:07",
+              "15:19",
+              "18:47Z",
+              "21:17Z"
+            ],
+            "sunday": [
+              "06:02",
+              "07:37Z",
+              "09:42",
+              "14:35",
+              "19:42",
+              "21:17"
+            ],
+            "holiday": [
+              "08:32",
+              "10:48",
+              "12:20"
+            ]
+          }
+        },
+        {
+          "stop_id": "1585",
+          "stop_name": "Gorenice Szkoła",
+          "platform": "2",
+          "file": "1585-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:03",
+              "06:13",
+              "07:18Z",
+              "09:43",
+              "10:53",
+              "12:03Z",
+              "14:33",
+              "15:53Z",
+              "18:43",
+              "21:04",
+              "22:08Z"
+            ],
+            "saturday": [
+              "04:48Z",
+              "06:48",
+              "08:33",
+              "10:49",
+              "12:21",
+              "14:08",
+              "15:20",
+              "18:48Z",
+              "21:18Z"
+            ],
+            "sunday": [
+              "06:03",
+              "07:38Z",
+              "09:43",
+              "14:36",
+              "19:43",
+              "21:18"
+            ],
+            "holiday": [
+              "08:33",
+              "10:49",
+              "12:21"
+            ]
+          }
+        },
+        {
+          "stop_id": "1567",
+          "stop_name": "Gorenice Remiza",
+          "platform": "1",
+          "file": "1567-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:04",
+              "06:14",
+              "07:19Z",
+              "09:44",
+              "10:54",
+              "12:04Z",
+              "14:34",
+              "15:54Z",
+              "18:44",
+              "21:05",
+              "22:09Z"
+            ],
+            "saturday": [
+              "04:49Z",
+              "06:49",
+              "08:34",
+              "10:50",
+              "12:22",
+              "14:09",
+              "15:21",
+              "18:49Z",
+              "21:19Z"
+            ],
+            "sunday": [
+              "06:04",
+              "07:39Z",
+              "09:44",
+              "14:37",
+              "19:44",
+              "21:19"
+            ],
+            "holiday": [
+              "08:34",
+              "10:50",
+              "12:22"
+            ]
+          }
+        },
+        {
+          "stop_id": "2095",
+          "stop_name": "Gorenice Kąty Cmentarz",
+          "platform": "2",
+          "file": "2095-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:06",
+              "06:16",
+              "07:21Z",
+              "09:46",
+              "10:56",
+              "12:06Z",
+              "14:36",
+              "15:56Z",
+              "18:46",
+              "21:07",
+              "22:11Z"
+            ],
+            "saturday": [
+              "04:51Z",
+              "06:51",
+              "08:36",
+              "10:52",
+              "12:24",
+              "14:11",
+              "15:23",
+              "18:51Z",
+              "21:21Z"
+            ],
+            "sunday": [
+              "06:06",
+              "07:41Z",
+              "09:46",
+              "14:39",
+              "19:46",
+              "21:21"
+            ],
+            "holiday": [
+              "08:36",
+              "10:52",
+              "12:24"
+            ]
+          }
+        },
+        {
+          "stop_id": "2096",
+          "stop_name": "Gorenice Kąty Skrzyżowanie",
+          "platform": "1",
+          "file": "2096-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:07",
+              "06:17",
+              "07:22Z",
+              "09:47",
+              "10:57",
+              "12:07Z",
+              "14:37",
+              "15:57Z",
+              "18:47",
+              "21:08",
+              "22:12Z"
+            ],
+            "saturday": [
+              "04:52Z",
+              "06:52",
+              "08:37",
+              "10:53",
+              "12:25",
+              "14:12",
+              "15:24",
+              "18:52Z",
+              "21:22Z"
+            ],
+            "sunday": [
+              "06:07",
+              "07:42Z",
+              "09:47",
+              "14:40",
+              "19:47",
+              "21:22"
+            ],
+            "holiday": [
+              "08:37",
+              "10:53",
+              "12:25"
+            ]
+          }
+        },
+        {
+          "stop_id": "2099",
+          "stop_name": "Gorenice Leśna",
+          "platform": "2",
+          "file": "2099-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:08",
+              "06:18",
+              "07:23Z",
+              "09:48",
+              "10:58",
+              "12:08Z",
+              "14:38",
+              "15:58Z",
+              "18:48",
+              "21:09",
+              "22:13Z"
+            ],
+            "saturday": [
+              "04:53Z",
+              "06:53",
+              "08:38",
+              "10:54",
+              "12:26",
+              "14:13",
+              "15:25",
+              "18:53Z",
+              "21:23Z"
+            ],
+            "sunday": [
+              "06:08",
+              "07:43Z",
+              "09:48",
+              "14:41",
+              "19:48",
+              "21:23"
+            ],
+            "holiday": [
+              "08:38",
+              "10:54",
+              "12:26"
+            ]
+          }
+        },
+        {
+          "stop_id": "2100",
+          "stop_name": "Gorenice Leśna Skrzyżowanie",
+          "platform": "2",
+          "file": "2100-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:09",
+              "06:19",
+              "07:24Z",
+              "09:49",
+              "10:59",
+              "12:09Z",
+              "14:39",
+              "15:59Z",
+              "18:49",
+              "21:10",
+              "22:14Z"
+            ],
+            "saturday": [
+              "04:54Z",
+              "06:54",
+              "08:39",
+              "10:55",
+              "12:27",
+              "14:14",
+              "15:26",
+              "18:54Z",
+              "21:24Z"
+            ],
+            "sunday": [
+              "06:09",
+              "07:44Z",
+              "09:49",
+              "14:42",
+              "19:49",
+              "21:24"
+            ],
+            "holiday": [
+              "08:39",
+              "10:55",
+              "12:27"
+            ]
+          }
+        },
+        {
+          "stop_id": "1569",
+          "stop_name": "Gorenice Wilcze Doły",
+          "platform": "1",
+          "file": "1569-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:12",
+              "06:22",
+              "07:27Z",
+              "09:52",
+              "11:02",
+              "12:12Z",
+              "14:42",
+              "16:02Z",
+              "18:52",
+              "21:13",
+              "22:17Z"
+            ],
+            "saturday": [
+              "04:57Z",
+              "06:57",
+              "08:42",
+              "10:58",
+              "12:30",
+              "14:17",
+              "15:29",
+              "18:57Z",
+              "21:27Z"
+            ],
+            "sunday": [
+              "06:12",
+              "07:47Z",
+              "09:52",
+              "14:45",
+              "19:52",
+              "21:27"
+            ],
+            "holiday": [
+              "08:42",
+              "10:58",
+              "12:30"
+            ]
+          }
+        },
+        {
+          "stop_id": "1570",
+          "stop_name": "Witeradów Pod Kądzielnią",
+          "platform": "1",
+          "file": "1570-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:14",
+              "06:24",
+              "07:29Z",
+              "09:54",
+              "11:04",
+              "12:14Z",
+              "14:44",
+              "16:04Z",
+              "18:54",
+              "21:15",
+              "22:19Z"
+            ],
+            "saturday": [
+              "04:59Z",
+              "06:59",
+              "08:44",
+              "11:00",
+              "12:32",
+              "14:19",
+              "15:31",
+              "18:59Z",
+              "21:29Z"
+            ],
+            "sunday": [
+              "06:14",
+              "07:49Z",
+              "09:54",
+              "14:47",
+              "19:54",
+              "21:29"
+            ],
+            "holiday": [
+              "08:44",
+              "11:00",
+              "12:32"
+            ]
+          }
+        },
+        {
+          "stop_id": "1571",
+          "stop_name": "Witeradów",
+          "platform": "1",
+          "file": "1571-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:15",
+              "06:25",
+              "07:30Z",
+              "09:55",
+              "11:05",
+              "12:15Z",
+              "14:45",
+              "16:05Z",
+              "18:55",
+              "21:16",
+              "22:20Z"
+            ],
+            "saturday": [
+              "05:00Z",
+              "07:00",
+              "08:45",
+              "11:01",
+              "12:33",
+              "14:20",
+              "15:32",
+              "19:00Z",
+              "21:30Z"
+            ],
+            "sunday": [
+              "06:15",
+              "07:50Z",
+              "09:55",
+              "14:48",
+              "19:55",
+              "21:30"
+            ],
+            "holiday": [
+              "08:45",
+              "11:01",
+              "12:33"
+            ]
+          }
+        },
+        {
+          "stop_id": "1572",
+          "stop_name": "Witeradów Wieś",
+          "platform": "1",
+          "file": "1572-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:16",
+              "06:26",
+              "07:31Z",
+              "09:56",
+              "11:06",
+              "12:16Z",
+              "14:46",
+              "16:06Z",
+              "18:56",
+              "21:17",
+              "22:21Z"
+            ],
+            "saturday": [
+              "05:01Z",
+              "07:01",
+              "08:46",
+              "11:02",
+              "12:34",
+              "14:21",
+              "15:33",
+              "19:01Z",
+              "21:31Z"
+            ],
+            "sunday": [
+              "06:16",
+              "07:51Z",
+              "09:56",
+              "14:49",
+              "19:56",
+              "21:31"
+            ],
+            "holiday": [
+              "08:46",
+              "11:02",
+              "12:34"
+            ]
+          }
+        },
+        {
+          "stop_id": "1573",
+          "stop_name": "Witeradów Tartak",
+          "platform": "1",
+          "file": "1573-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:17",
+              "06:27",
+              "07:32Z",
+              "09:57",
+              "11:07",
+              "12:17Z",
+              "14:47",
+              "16:07Z",
+              "18:57",
+              "21:18",
+              "22:22Z"
+            ],
+            "saturday": [
+              "05:02Z",
+              "07:02",
+              "08:47",
+              "11:03",
+              "12:35",
+              "14:22",
+              "15:34",
+              "19:02Z",
+              "21:32Z"
+            ],
+            "sunday": [
+              "06:17",
+              "07:52Z",
+              "09:57",
+              "14:50",
+              "19:57",
+              "21:32"
+            ],
+            "holiday": [
+              "08:47",
+              "11:03",
+              "12:35"
+            ]
+          }
+        },
+        {
+          "stop_id": "1574",
+          "stop_name": "Witeradów Zacisze",
+          "platform": "1",
+          "file": "1574-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:18",
+              "06:28",
+              "07:33Z",
+              "09:58",
+              "11:08",
+              "12:18Z",
+              "14:48",
+              "16:08Z",
+              "18:58",
+              "21:19",
+              "22:23Z"
+            ],
+            "saturday": [
+              "05:03Z",
+              "07:03",
+              "08:48",
+              "11:04",
+              "12:36",
+              "14:23",
+              "15:35",
+              "19:03Z",
+              "21:33Z"
+            ],
+            "sunday": [
+              "06:18",
+              "07:53Z",
+              "09:58",
+              "14:51",
+              "19:58",
+              "21:33"
+            ],
+            "holiday": [
+              "08:48",
+              "11:04",
+              "12:36"
+            ]
+          }
+        },
+        {
+          "stop_id": "1576",
+          "stop_name": "Olkusz Księdza Gajewskiego",
+          "platform": "2",
+          "file": "1576-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:19",
+              "06:29",
+              "07:34Z",
+              "09:59",
+              "11:09",
+              "12:19Z",
+              "14:49",
+              "16:09Z",
+              "18:59",
+              "21:20",
+              "22:24Z"
+            ],
+            "saturday": [
+              "05:04Z",
+              "07:04",
+              "08:49",
+              "11:05",
+              "12:37",
+              "14:24",
+              "15:36",
+              "19:04Z",
+              "21:34Z"
+            ],
+            "sunday": [
+              "06:19",
+              "07:54Z",
+              "09:59",
+              "14:52",
+              "19:59",
+              "21:34"
+            ],
+            "holiday": [
+              "08:49",
+              "11:05",
+              "12:37"
+            ]
+          }
+        },
+        {
+          "stop_id": "1586",
+          "stop_name": "Olkusz Kościół",
+          "platform": "2",
+          "file": "1586-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:20",
+              "06:30",
+              "07:35Z",
+              "10:00",
+              "11:10",
+              "12:20Z",
+              "14:50",
+              "16:10Z",
+              "19:00",
+              "21:21",
+              "22:25Z"
+            ],
+            "saturday": [
+              "05:05Z",
+              "07:05",
+              "08:50",
+              "11:06",
+              "12:38",
+              "14:25",
+              "15:37",
+              "19:05Z",
+              "21:35Z"
+            ],
+            "sunday": [
+              "06:20",
+              "07:55Z",
+              "10:00",
+              "14:53",
+              "20:00",
+              "21:35"
+            ],
+            "holiday": [
+              "08:50",
+              "11:06",
+              "12:38"
+            ]
+          }
+        },
+        {
+          "stop_id": "1588",
+          "stop_name": "Olkusz Biema",
+          "platform": "1",
+          "file": "1588-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:21",
+              "06:31",
+              "07:36Z",
+              "10:01",
+              "11:11",
+              "12:21Z",
+              "14:51",
+              "16:11Z",
+              "19:01",
+              "21:22",
+              "22:26Z"
+            ],
+            "saturday": [
+              "05:06Z",
+              "07:06",
+              "08:51",
+              "11:07",
+              "12:39",
+              "14:26",
+              "15:38",
+              "19:06Z",
+              "21:36Z"
+            ],
+            "sunday": [
+              "06:21",
+              "07:56Z",
+              "10:01",
+              "14:54",
+              "20:01",
+              "21:36"
+            ],
+            "holiday": [
+              "08:51",
+              "11:07",
+              "12:39"
+            ]
+          }
+        },
+        {
+          "stop_id": "0495",
+          "stop_name": "Olkusz Szpital",
+          "platform": "2",
+          "file": "0495-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:22",
+              "06:32",
+              "07:37Z",
+              "10:02",
+              "11:12",
+              "12:22Z",
+              "14:52",
+              "16:12Z",
+              "19:02",
+              "21:23",
+              "22:27Z"
+            ],
+            "saturday": [
+              "05:07Z",
+              "07:07",
+              "08:52",
+              "11:08",
+              "12:40",
+              "14:27",
+              "15:39",
+              "19:07Z",
+              "21:37Z"
+            ],
+            "sunday": [
+              "06:22",
+              "07:57Z",
+              "10:02",
+              "14:55",
+              "20:02",
+              "21:37"
+            ],
+            "holiday": [
+              "08:52",
+              "11:08",
+              "12:40"
+            ]
+          }
+        },
+        {
+          "stop_id": "0197",
+          "stop_name": "Olkusz Basen",
+          "platform": "1",
+          "file": "0197-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:23",
+              "06:33",
+              "07:38Z",
+              "10:03",
+              "11:13",
+              "12:23Z",
+              "14:53",
+              "16:13Z",
+              "19:03",
+              "21:24",
+              "22:28Z"
+            ],
+            "saturday": [
+              "05:08Z",
+              "07:08",
+              "08:53",
+              "11:09",
+              "12:41",
+              "14:28",
+              "15:40",
+              "19:08Z",
+              "21:38Z"
+            ],
+            "sunday": [
+              "06:23",
+              "07:58Z",
+              "10:03",
+              "14:56",
+              "20:03",
+              "21:38"
+            ],
+            "holiday": [
+              "08:53",
+              "11:09",
+              "12:41"
+            ]
+          }
+        },
+        {
+          "stop_id": "0198",
+          "stop_name": "Olkusz Dworek Machnickich",
+          "platform": "0",
+          "file": "0198-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:24",
+              "06:34",
+              "07:39Z",
+              "10:04",
+              "11:14",
+              "12:24Z",
+              "14:54",
+              "16:14Z",
+              "19:04",
+              "21:25",
+              "22:29Z"
+            ],
+            "saturday": [
+              "05:09Z",
+              "07:09",
+              "08:54",
+              "11:10",
+              "12:42",
+              "14:29",
+              "15:41",
+              "19:09Z",
+              "21:39Z"
+            ],
+            "sunday": [
+              "06:24",
+              "07:59Z",
+              "10:04",
+              "14:57",
+              "20:04",
+              "21:39"
+            ],
+            "holiday": [
+              "08:54",
+              "11:10",
+              "12:42"
+            ]
+          }
+        },
+        {
+          "stop_id": "0199",
+          "stop_name": "Olkusz Skarbek",
+          "platform": "2",
+          "file": "0199-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:26",
+              "06:36",
+              "07:41Z",
+              "10:06",
+              "11:16",
+              "12:26Z",
+              "14:56",
+              "16:16Z",
+              "19:06",
+              "21:27",
+              "22:31Z"
+            ],
+            "saturday": [
+              "05:11Z",
+              "07:11",
+              "08:56",
+              "11:12",
+              "12:44",
+              "14:31",
+              "15:43",
+              "19:11Z",
+              "21:41Z"
+            ],
+            "sunday": [
+              "06:26",
+              "08:01Z",
+              "10:06",
+              "14:59",
+              "20:06",
+              "21:41"
+            ],
+            "holiday": [
+              "08:56",
+              "11:12",
+              "12:44"
+            ]
+          }
+        },
+        {
+          "stop_id": "0200",
+          "stop_name": "Olkusz Dworzec PKS",
+          "platform": "0",
+          "file": "0200-olkusz.html",
+          "departures": {
+            "workday": [
+              "19:15"
+            ],
+            "saturday": [
+              "09:15"
+            ],
+            "sunday": [],
+            "holiday": [
+              "09:15"
+            ]
+          }
+        },
+        {
+          "stop_id": "0201",
+          "stop_name": "Olkusz Dworzec PKP",
+          "platform": "1",
+          "file": "0201-olkusz.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "07:43",
+              "12:28",
+              "16:18",
+              "22:33"
+            ],
+            "saturday": [
+              "05:13",
+              "19:13",
+              "21:43"
+            ],
+            "sunday": [
+              "08:03"
+            ],
+            "holiday": []
+          }
+        },
+        {
+          "stop_id": "0202",
+          "stop_name": "Olkusz Wiadukt",
+          "platform": "1",
+          "file": "0202-olkusz.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "07:45",
+              "12:30",
+              "16:20",
+              "19:17",
+              "22:35"
+            ],
+            "saturday": [
+              "05:15",
+              "09:17",
+              "19:15",
+              "21:45"
+            ],
+            "sunday": [
+              "08:05"
+            ],
+            "holiday": [
+              "09:17"
+            ]
+          }
+        },
+        {
+          "stop_id": "0203",
+          "stop_name": "Olkusz Aleja Tysiąclecia",
+          "platform": "1",
+          "file": "0203-olkusz.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "07:47",
+              "12:32",
+              "16:22",
+              "19:19",
+              "22:37"
+            ],
+            "saturday": [
+              "05:17",
+              "09:19",
+              "19:17",
+              "21:47"
+            ],
+            "sunday": [
+              "08:07"
+            ],
+            "holiday": [
+              "09:19"
+            ]
+          }
+        },
+        {
+          "stop_id": "2029",
+          "stop_name": "Olkusz Zagaje",
+          "platform": "2",
+          "file": "2029-olkusz.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "07:48",
+              "12:33",
+              "16:23",
+              "19:20",
+              "22:38"
+            ],
+            "saturday": [
+              "05:18",
+              "09:20",
+              "19:18",
+              "21:48"
+            ],
+            "sunday": [
+              "08:08"
+            ],
+            "holiday": [
+              "09:20"
+            ]
+          }
+        },
+        {
+          "stop_id": "2030",
+          "stop_name": "Olkusz Zagaje II",
+          "platform": "2",
+          "file": "2030-olkusz.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "07:49",
+              "12:34",
+              "16:24",
+              "19:21",
+              "22:39"
+            ],
+            "saturday": [
+              "05:19",
+              "09:21",
+              "19:19",
+              "21:49"
+            ],
+            "sunday": [
+              "08:09"
+            ],
+            "holiday": [
+              "09:21"
+            ]
+          }
+        },
+        {
+          "stop_id": "2040",
+          "stop_name": "Olewin Fabryka Domów",
+          "platform": "1",
+          "file": "2040-olkusz.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "07:51",
+              "12:36",
+              "16:26",
+              "19:23",
+              "22:41"
+            ],
+            "saturday": [
+              "05:21",
+              "09:23",
+              "19:21",
+              "21:51"
+            ],
+            "sunday": [
+              "08:11"
+            ],
+            "holiday": [
+              "09:23"
+            ]
+          }
+        },
+        {
+          "stop_id": "2039",
+          "stop_name": "Olewin",
+          "platform": "1",
+          "file": "2039-olkusz.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "07:52",
+              "12:37",
+              "16:27",
+              "19:24",
+              "22:42"
+            ],
+            "saturday": [
+              "05:22",
+              "09:24",
+              "19:22",
+              "21:52"
+            ],
+            "sunday": [
+              "08:12"
+            ],
+            "holiday": [
+              "09:24"
+            ]
+          }
+        },
+        {
+          "stop_id": "2038",
+          "stop_name": "Sieniczno Krzyżówka",
+          "platform": "1",
+          "file": "2038-olkusz.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "07:53",
+              "12:38",
+              "16:28",
+              "19:25",
+              "22:43"
+            ],
+            "saturday": [
+              "05:23",
+              "09:25",
+              "19:23",
+              "21:53"
+            ],
+            "sunday": [
+              "08:13"
+            ],
+            "holiday": [
+              "09:25"
+            ]
+          }
+        },
+        {
+          "stop_id": "2037",
+          "stop_name": "Sieniczno Orzechówka",
+          "platform": "1",
+          "file": "2037-olkusz.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "07:54",
+              "12:39",
+              "16:29",
+              "19:26",
+              "22:44"
+            ],
+            "saturday": [
+              "05:24",
+              "09:26",
+              "19:24",
+              "21:54"
+            ],
+            "sunday": [
+              "08:14"
+            ],
+            "holiday": [
+              "09:26"
+            ]
+          }
+        },
+        {
+          "stop_id": "2035",
+          "stop_name": "Sieniczno Granica",
+          "platform": "2",
+          "file": "2035-olkusz.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "07:55",
+              "12:40",
+              "16:30",
+              "19:27",
+              "22:45"
+            ],
+            "saturday": [
+              "05:25",
+              "09:27",
+              "19:25",
+              "21:55"
+            ],
+            "sunday": [
+              "08:15"
+            ],
+            "holiday": [
+              "09:27"
+            ]
+          }
+        },
+        {
+          "stop_id": "0204",
+          "stop_name": "Sieniczno",
+          "platform": "1",
+          "file": "0204-olkusz.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "07:57",
+              "12:42",
+              "16:32",
+              "19:29",
+              "22:47"
+            ],
+            "saturday": [
+              "05:27",
+              "09:29",
+              "19:27",
+              "21:57"
+            ],
+            "sunday": [
+              "08:17"
+            ],
+            "holiday": [
+              "09:29"
+            ]
+          }
+        },
+        {
+          "stop_id": "0205",
+          "stop_name": "Sieniczno Ojcowska",
+          "platform": "2",
+          "file": "0205-olkusz.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "07:58",
+              "12:43",
+              "16:33",
+              "19:30",
+              "22:48"
+            ],
+            "saturday": [
+              "05:28",
+              "09:30",
+              "19:28",
+              "21:58"
+            ],
+            "sunday": [
+              "08:18"
+            ],
+            "holiday": [
+              "09:30"
+            ]
+          }
+        },
+        {
+          "stop_id": "0206",
+          "stop_name": "Wiśliczka",
+          "platform": "2",
+          "file": "0206-olkusz.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "07:59",
+              "12:44",
+              "16:34",
+              "19:31",
+              "22:49"
+            ],
+            "saturday": [
+              "05:29",
+              "09:31",
+              "19:29",
+              "21:59"
+            ],
+            "sunday": [
+              "08:19"
+            ],
+            "holiday": [
+              "09:31"
+            ]
+          }
+        },
+        {
+          "stop_id": "0207",
+          "stop_name": "Kosmolów Las",
+          "platform": "2",
+          "file": "0207-olkusz.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "08:00",
+              "12:45",
+              "16:35",
+              "19:32",
+              "22:50"
+            ],
+            "saturday": [
+              "05:30",
+              "09:32",
+              "19:30",
+              "22:00"
+            ],
+            "sunday": [
+              "08:20"
+            ],
+            "holiday": [
+              "09:32"
+            ]
+          }
+        },
+        {
+          "stop_id": "0208",
+          "stop_name": "Kosmolów Szkoła",
+          "platform": "2",
+          "file": "0208-olkusz.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "08:01",
+              "12:46",
+              "16:36",
+              "19:33",
+              "22:51"
+            ],
+            "saturday": [
+              "05:31",
+              "09:33",
+              "19:31",
+              "22:01"
+            ],
+            "sunday": [
+              "08:21"
+            ],
+            "holiday": [
+              "09:33"
+            ]
+          }
+        },
+        {
+          "stop_id": "0209",
+          "stop_name": "Kosmolów Sklep",
+          "platform": "2",
+          "file": "0209-olkusz.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "08:02",
+              "12:47",
+              "16:37",
+              "19:34",
+              "22:52"
+            ],
+            "saturday": [
+              "05:32",
+              "09:34",
+              "19:32",
+              "22:02"
+            ],
+            "sunday": [
+              "08:22"
+            ],
+            "holiday": [
+              "09:34"
+            ]
+          }
+        },
+        {
+          "stop_id": "0210",
+          "stop_name": "Kosmolów Na Górze",
+          "platform": "2",
+          "file": "0210-olkusz.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "08:03",
+              "12:48",
+              "16:38",
+              "19:35",
+              "22:53"
+            ],
+            "saturday": [
+              "05:33",
+              "09:35",
+              "19:33",
+              "22:03"
+            ],
+            "sunday": [
+              "08:23"
+            ],
+            "holiday": [
+              "09:35"
+            ]
+          }
+        },
+        {
+          "stop_id": "0211",
+          "stop_name": "Kosmolów Skrzyżowanie",
+          "platform": "2",
+          "file": "0211-olkusz.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "08:04",
+              "12:49",
+              "16:39",
+              "19:36",
+              "22:54"
+            ],
+            "saturday": [
+              "05:34",
+              "09:36",
+              "19:34",
+              "22:04"
+            ],
+            "sunday": [
+              "08:24"
+            ],
+            "holiday": [
+              "09:36"
+            ]
+          }
+        },
+        {
+          "stop_id": "0212",
+          "stop_name": "Zadole Kosmolowskie Początek",
+          "platform": "2",
+          "file": "0212-olkusz.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "08:06",
+              "12:51",
+              "16:41",
+              "19:38",
+              "22:56"
+            ],
+            "saturday": [
+              "05:36",
+              "09:38",
+              "19:36",
+              "22:06"
+            ],
+            "sunday": [
+              "08:26"
+            ],
+            "holiday": [
+              "09:38"
+            ]
+          }
+        },
+        {
+          "stop_id": "0213",
+          "stop_name": "Zadole Kosmolowskie",
+          "platform": "2",
+          "file": "0213-olkusz.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "08:07",
+              "12:52",
+              "16:42",
+              "19:39",
+              "22:57"
+            ],
+            "saturday": [
+              "05:37",
+              "09:39",
+              "19:37",
+              "22:07"
+            ],
+            "sunday": [
+              "08:27"
+            ],
+            "holiday": [
+              "09:39"
+            ]
+          }
+        },
+        {
+          "stop_id": "0214",
+          "stop_name": "Zadole Kosmolowskie Pętla",
+          "platform": "0",
+          "file": "0214-olkusz.html",
+          "variant": true,
+          "departures": {},
+          "arrival_only": true
+        }
+      ]
+    },
+    {
+      "slug": "gorenice",
+      "name": "Gorenice Pętla",
+      "legend": {
+        "O": "do: Olkusz Dworzec PKS"
+      },
+      "legend_only_used_symbols": true,
+      "variant_destinations": {
+        "O": "Olkusz Dworzec PKS"
+      },
+      "route_stops": [
+        {
+          "stop_id": "0214",
+          "stop_name": "Zadole Kosmolowskie Pętla",
+          "platform": "0",
+          "file": "0214-gorenice.html",
+          "variant": true
+        },
+        {
+          "stop_id": "0215",
+          "stop_name": "Zadole Kosmolowskie",
+          "platform": "1",
+          "file": "0215-gorenice.html",
+          "variant": true
+        },
+        {
+          "stop_id": "0216",
+          "stop_name": "Zadole Kosmolowskie Początek",
+          "platform": "1",
+          "file": "0216-gorenice.html",
+          "variant": true
+        },
+        {
+          "stop_id": "0217",
+          "stop_name": "Kosmolów Skrzyżowanie",
+          "platform": "1",
+          "file": "0217-gorenice.html",
+          "variant": true
+        },
+        {
+          "stop_id": "0218",
+          "stop_name": "Kosmolów Na Górze",
+          "platform": "1",
+          "file": "0218-gorenice.html",
+          "variant": true
+        },
+        {
+          "stop_id": "0219",
+          "stop_name": "Kosmolów Sklep",
+          "platform": "1",
+          "file": "0219-gorenice.html",
+          "variant": true
+        },
+        {
+          "stop_id": "0220",
+          "stop_name": "Kosmolów Szkoła",
+          "platform": "1",
+          "file": "0220-gorenice.html",
+          "variant": true
+        },
+        {
+          "stop_id": "0221",
+          "stop_name": "Kosmolów Las",
+          "platform": "1",
+          "file": "0221-gorenice.html",
+          "variant": true
+        },
+        {
+          "stop_id": "0222",
+          "stop_name": "Wiśliczka",
+          "platform": "1",
+          "file": "0222-gorenice.html",
+          "variant": true
+        },
+        {
+          "stop_id": "0223",
+          "stop_name": "Sieniczno Ojcowska",
+          "platform": "1",
+          "file": "0223-gorenice.html",
+          "variant": true
+        },
+        {
+          "stop_id": "0224",
+          "stop_name": "Sieniczno",
+          "platform": "2",
+          "file": "0224-gorenice.html",
+          "variant": true
+        },
+        {
+          "stop_id": "2036",
+          "stop_name": "Sieniczno Granica",
+          "platform": "1",
+          "file": "2036-gorenice.html",
+          "variant": true
+        },
+        {
+          "stop_id": "2034",
+          "stop_name": "Sieniczno Orzechówka",
+          "platform": "2",
+          "file": "2034-gorenice.html",
+          "variant": true
+        },
+        {
+          "stop_id": "2033",
+          "stop_name": "Sieniczno Krzyżówka",
+          "platform": "2",
+          "file": "2033-gorenice.html",
+          "variant": true
+        },
+        {
+          "stop_id": "2032",
+          "stop_name": "Olewin",
+          "platform": "2",
+          "file": "2032-gorenice.html",
+          "variant": true
+        },
+        {
+          "stop_id": "2031",
+          "stop_name": "Olewin Fabryka Domów",
+          "platform": "2",
+          "file": "2031-gorenice.html",
+          "variant": true
+        },
+        {
+          "stop_id": "2041",
+          "stop_name": "Olkusz Zagaje II",
+          "platform": "1",
+          "file": "2041-gorenice.html",
+          "variant": true
+        },
+        {
+          "stop_id": "2042",
+          "stop_name": "Olkusz Zagaje",
+          "platform": "1",
+          "file": "2042-gorenice.html",
+          "variant": true
+        },
+        {
+          "stop_id": "0225",
+          "stop_name": "Olkusz Aleja Tysiąclecia",
+          "platform": "2",
+          "file": "0225-gorenice.html",
+          "variant": true
+        },
+        {
+          "stop_id": "0226",
+          "stop_name": "Olkusz Wiadukt",
+          "platform": "2",
+          "file": "0226-gorenice.html",
+          "variant": true
+        },
+        {
+          "stop_id": "0227",
+          "stop_name": "Olkusz Dworzec PKP",
+          "platform": "2",
+          "file": "0227-gorenice.html",
+          "variant": true
+        },
+        {
+          "stop_id": "0200",
+          "stop_name": "Olkusz Dworzec PKS",
+          "platform": "0",
+          "file": "0200-gorenice.html"
+        },
+        {
+          "stop_id": "0228",
+          "stop_name": "Olkusz Skarbek",
+          "platform": "1",
+          "file": "0228-gorenice.html"
+        },
+        {
+          "stop_id": "0175",
+          "stop_name": "Olkusz Górnicza",
+          "platform": "1",
+          "file": "0175-gorenice.html"
+        },
+        {
+          "stop_id": "0176",
+          "stop_name": "Olkusz Mickiewicza",
+          "platform": "1",
+          "file": "0176-gorenice.html"
+        },
+        {
+          "stop_id": "0177",
+          "stop_name": "Olkusz Szpitalna",
+          "platform": "2",
+          "file": "0177-gorenice.html"
+        },
+        {
+          "stop_id": "0229",
+          "stop_name": "Olkusz Basen",
+          "platform": "2",
+          "file": "0229-gorenice.html"
+        },
+        {
+          "stop_id": "0536",
+          "stop_name": "Olkusz Szpital",
+          "platform": "1",
+          "file": "0536-gorenice.html"
+        },
+        {
+          "stop_id": "1589",
+          "stop_name": "Olkusz Biema",
+          "platform": "2",
+          "file": "1589-gorenice.html"
+        },
+        {
+          "stop_id": "1587",
+          "stop_name": "Olkusz Kościół",
+          "platform": "1",
+          "file": "1587-gorenice.html"
+        },
+        {
+          "stop_id": "1575",
+          "stop_name": "Olkusz Księdza Gajewskiego",
+          "platform": "1",
+          "file": "1575-gorenice.html"
+        },
+        {
+          "stop_id": "1577",
+          "stop_name": "Witeradów Zacisze",
+          "platform": "2",
+          "file": "1577-gorenice.html"
+        },
+        {
+          "stop_id": "1578",
+          "stop_name": "Witeradów Tartak",
+          "platform": "2",
+          "file": "1578-gorenice.html"
+        },
+        {
+          "stop_id": "1579",
+          "stop_name": "Witeradów Wieś",
+          "platform": "2",
+          "file": "1579-gorenice.html"
+        },
+        {
+          "stop_id": "1580",
+          "stop_name": "Witeradów",
+          "platform": "2",
+          "file": "1580-gorenice.html"
+        },
+        {
+          "stop_id": "1581",
+          "stop_name": "Witeradów Pod Kądzielnią",
+          "platform": "2",
+          "file": "1581-gorenice.html"
+        },
+        {
+          "stop_id": "1582",
+          "stop_name": "Gorenice Wilcze Doły",
+          "platform": "2",
+          "file": "1582-gorenice.html"
+        },
+        {
+          "stop_id": "2101",
+          "stop_name": "Gorenice Leśna Skrzyżowanie",
+          "platform": "1",
+          "file": "2101-gorenice.html"
+        },
+        {
+          "stop_id": "2098",
+          "stop_name": "Gorenice Leśna",
+          "platform": "1",
+          "file": "2098-gorenice.html"
+        },
+        {
+          "stop_id": "2097",
+          "stop_name": "Gorenice Kąty Skrzyżowanie",
+          "platform": "2",
+          "file": "2097-gorenice.html"
+        },
+        {
+          "stop_id": "2094",
+          "stop_name": "Gorenice Kąty Cmentarz",
+          "platform": "1",
+          "file": "2094-gorenice.html"
+        },
+        {
+          "stop_id": "1584",
+          "stop_name": "Gorenice Remiza",
+          "platform": "2",
+          "file": "1584-gorenice.html"
+        },
+        {
+          "stop_id": "1566",
+          "stop_name": "Gorenice Szkoła",
+          "platform": "1",
+          "file": "1566-gorenice.html"
+        },
+        {
+          "stop_id": "1565",
+          "stop_name": "Gorenice Dołek",
+          "platform": "2",
+          "file": "1565-gorenice.html"
+        },
+        {
+          "stop_id": "1562",
+          "stop_name": "Gorenice Wzniesienie",
+          "platform": "1",
+          "file": "1562-gorenice.html"
+        },
+        {
+          "stop_id": "1561",
+          "stop_name": "Gorenice",
+          "platform": "1",
+          "file": "1561-gorenice.html"
+        },
+        {
+          "stop_id": "1560",
+          "stop_name": "Gorenice Pętla",
+          "platform": "1",
+          "file": "1560-gorenice.html"
+        }
+      ],
+      "timetables": [
+        {
+          "stop_id": "0214",
+          "stop_name": "Zadole Kosmolowskie Pętla",
+          "platform": "0",
+          "file": "0214-gorenice.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "08:20",
+              "12:55",
+              "16:44O",
+              "20:00",
+              "23:02O"
+            ],
+            "saturday": [
+              "05:45",
+              "09:44",
+              "19:50O",
+              "22:30O"
+            ],
+            "sunday": [
+              "08:35"
+            ],
+            "holiday": [
+              "09:44"
+            ]
+          }
+        },
+        {
+          "stop_id": "0215",
+          "stop_name": "Zadole Kosmolowskie",
+          "platform": "1",
+          "file": "0215-gorenice.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "08:21",
+              "12:56",
+              "16:45O",
+              "20:01",
+              "23:03O"
+            ],
+            "saturday": [
+              "05:46",
+              "09:45",
+              "19:51O",
+              "22:31O"
+            ],
+            "sunday": [
+              "08:36"
+            ],
+            "holiday": [
+              "09:45"
+            ]
+          }
+        },
+        {
+          "stop_id": "0216",
+          "stop_name": "Zadole Kosmolowskie Początek",
+          "platform": "1",
+          "file": "0216-gorenice.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "08:22",
+              "12:57",
+              "16:46O",
+              "20:02",
+              "23:04O"
+            ],
+            "saturday": [
+              "05:47",
+              "09:46",
+              "19:52O",
+              "22:32O"
+            ],
+            "sunday": [
+              "08:37"
+            ],
+            "holiday": [
+              "09:46"
+            ]
+          }
+        },
+        {
+          "stop_id": "0217",
+          "stop_name": "Kosmolów Skrzyżowanie",
+          "platform": "1",
+          "file": "0217-gorenice.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "08:24",
+              "12:59",
+              "16:48O",
+              "20:04",
+              "23:06O"
+            ],
+            "saturday": [
+              "05:49",
+              "09:48",
+              "19:54O",
+              "22:34O"
+            ],
+            "sunday": [
+              "08:39"
+            ],
+            "holiday": [
+              "09:48"
+            ]
+          }
+        },
+        {
+          "stop_id": "0218",
+          "stop_name": "Kosmolów Na Górze",
+          "platform": "1",
+          "file": "0218-gorenice.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "08:25",
+              "13:00",
+              "16:49O",
+              "20:05",
+              "23:07O"
+            ],
+            "saturday": [
+              "05:50",
+              "09:49",
+              "19:55O",
+              "22:35O"
+            ],
+            "sunday": [
+              "08:40"
+            ],
+            "holiday": [
+              "09:49"
+            ]
+          }
+        },
+        {
+          "stop_id": "0219",
+          "stop_name": "Kosmolów Sklep",
+          "platform": "1",
+          "file": "0219-gorenice.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "08:26",
+              "13:01",
+              "16:50O",
+              "20:06",
+              "23:08O"
+            ],
+            "saturday": [
+              "05:51",
+              "09:50",
+              "19:56O",
+              "22:36O"
+            ],
+            "sunday": [
+              "08:41"
+            ],
+            "holiday": [
+              "09:50"
+            ]
+          }
+        },
+        {
+          "stop_id": "0220",
+          "stop_name": "Kosmolów Szkoła",
+          "platform": "1",
+          "file": "0220-gorenice.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "08:27",
+              "13:02",
+              "16:51O",
+              "20:07",
+              "23:09O"
+            ],
+            "saturday": [
+              "05:52",
+              "09:51",
+              "19:57O",
+              "22:37O"
+            ],
+            "sunday": [
+              "08:42"
+            ],
+            "holiday": [
+              "09:51"
+            ]
+          }
+        },
+        {
+          "stop_id": "0221",
+          "stop_name": "Kosmolów Las",
+          "platform": "1",
+          "file": "0221-gorenice.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "08:28",
+              "13:03",
+              "16:52O",
+              "20:08",
+              "23:10O"
+            ],
+            "saturday": [
+              "05:53",
+              "09:52",
+              "19:58O",
+              "22:38O"
+            ],
+            "sunday": [
+              "08:43"
+            ],
+            "holiday": [
+              "09:52"
+            ]
+          }
+        },
+        {
+          "stop_id": "0222",
+          "stop_name": "Wiśliczka",
+          "platform": "1",
+          "file": "0222-gorenice.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "08:29",
+              "13:04",
+              "16:53O",
+              "20:09",
+              "23:11O"
+            ],
+            "saturday": [
+              "05:54",
+              "09:53",
+              "19:59O",
+              "22:39O"
+            ],
+            "sunday": [
+              "08:44"
+            ],
+            "holiday": [
+              "09:53"
+            ]
+          }
+        },
+        {
+          "stop_id": "0223",
+          "stop_name": "Sieniczno Ojcowska",
+          "platform": "1",
+          "file": "0223-gorenice.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "08:30",
+              "13:05",
+              "16:54O",
+              "20:10",
+              "23:12O"
+            ],
+            "saturday": [
+              "05:55",
+              "09:54",
+              "20:00O",
+              "22:40O"
+            ],
+            "sunday": [
+              "08:45"
+            ],
+            "holiday": [
+              "09:54"
+            ]
+          }
+        },
+        {
+          "stop_id": "0224",
+          "stop_name": "Sieniczno",
+          "platform": "2",
+          "file": "0224-gorenice.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "08:31",
+              "13:06",
+              "16:55O",
+              "20:11",
+              "23:13O"
+            ],
+            "saturday": [
+              "05:56",
+              "09:55",
+              "20:01O",
+              "22:41O"
+            ],
+            "sunday": [
+              "08:46"
+            ],
+            "holiday": [
+              "09:55"
+            ]
+          }
+        },
+        {
+          "stop_id": "2036",
+          "stop_name": "Sieniczno Granica",
+          "platform": "1",
+          "file": "2036-gorenice.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "08:32",
+              "13:07",
+              "16:56O",
+              "20:12",
+              "23:14O"
+            ],
+            "saturday": [
+              "05:57",
+              "09:56",
+              "20:02O",
+              "22:42O"
+            ],
+            "sunday": [
+              "08:47"
+            ],
+            "holiday": [
+              "09:56"
+            ]
+          }
+        },
+        {
+          "stop_id": "2034",
+          "stop_name": "Sieniczno Orzechówka",
+          "platform": "2",
+          "file": "2034-gorenice.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "08:33",
+              "13:08",
+              "16:57O",
+              "20:13",
+              "23:15O"
+            ],
+            "saturday": [
+              "05:58",
+              "09:57",
+              "20:03O",
+              "22:43O"
+            ],
+            "sunday": [
+              "08:48"
+            ],
+            "holiday": [
+              "09:57"
+            ]
+          }
+        },
+        {
+          "stop_id": "2033",
+          "stop_name": "Sieniczno Krzyżówka",
+          "platform": "2",
+          "file": "2033-gorenice.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "08:34",
+              "13:09",
+              "16:58O",
+              "20:14",
+              "23:16O"
+            ],
+            "saturday": [
+              "05:59",
+              "09:58",
+              "20:04O",
+              "22:44O"
+            ],
+            "sunday": [
+              "08:49"
+            ],
+            "holiday": [
+              "09:58"
+            ]
+          }
+        },
+        {
+          "stop_id": "2032",
+          "stop_name": "Olewin",
+          "platform": "2",
+          "file": "2032-gorenice.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "08:35",
+              "13:10",
+              "16:59O",
+              "20:15",
+              "23:17O"
+            ],
+            "saturday": [
+              "06:00",
+              "09:59",
+              "20:05O",
+              "22:45O"
+            ],
+            "sunday": [
+              "08:50"
+            ],
+            "holiday": [
+              "09:59"
+            ]
+          }
+        },
+        {
+          "stop_id": "2031",
+          "stop_name": "Olewin Fabryka Domów",
+          "platform": "2",
+          "file": "2031-gorenice.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "08:36",
+              "13:11",
+              "17:00O",
+              "20:16",
+              "23:18O"
+            ],
+            "saturday": [
+              "06:01",
+              "10:00",
+              "20:06O",
+              "22:46O"
+            ],
+            "sunday": [
+              "08:51"
+            ],
+            "holiday": [
+              "10:00"
+            ]
+          }
+        },
+        {
+          "stop_id": "2041",
+          "stop_name": "Olkusz Zagaje II",
+          "platform": "1",
+          "file": "2041-gorenice.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "08:38",
+              "13:13",
+              "17:02O",
+              "20:18",
+              "23:20O"
+            ],
+            "saturday": [
+              "06:03",
+              "10:02",
+              "20:08O",
+              "22:48O"
+            ],
+            "sunday": [
+              "08:53"
+            ],
+            "holiday": [
+              "10:02"
+            ]
+          }
+        },
+        {
+          "stop_id": "2042",
+          "stop_name": "Olkusz Zagaje",
+          "platform": "1",
+          "file": "2042-gorenice.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "08:39",
+              "13:14",
+              "17:03O",
+              "20:19",
+              "23:21O"
+            ],
+            "saturday": [
+              "06:04",
+              "10:03",
+              "20:09O",
+              "22:49O"
+            ],
+            "sunday": [
+              "08:54"
+            ],
+            "holiday": [
+              "10:03"
+            ]
+          }
+        },
+        {
+          "stop_id": "0225",
+          "stop_name": "Olkusz Aleja Tysiąclecia",
+          "platform": "2",
+          "file": "0225-gorenice.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "08:41",
+              "13:16",
+              "17:05O",
+              "20:21",
+              "23:23O"
+            ],
+            "saturday": [
+              "06:06",
+              "10:05",
+              "20:11O",
+              "22:51O"
+            ],
+            "sunday": [
+              "08:56"
+            ],
+            "holiday": [
+              "10:05"
+            ]
+          }
+        },
+        {
+          "stop_id": "0226",
+          "stop_name": "Olkusz Wiadukt",
+          "platform": "2",
+          "file": "0226-gorenice.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "08:43",
+              "13:18",
+              "17:07O",
+              "20:23",
+              "23:25O"
+            ],
+            "saturday": [
+              "06:08",
+              "10:07",
+              "20:13O",
+              "22:53O"
+            ],
+            "sunday": [
+              "08:58"
+            ],
+            "holiday": [
+              "10:07"
+            ]
+          }
+        },
+        {
+          "stop_id": "0227",
+          "stop_name": "Olkusz Dworzec PKP",
+          "platform": "2",
+          "file": "0227-gorenice.html",
+          "variant": true,
+          "departures": {
+            "workday": [
+              "08:45",
+              "13:20",
+              "20:25"
+            ],
+            "saturday": [
+              "06:10",
+              "10:09"
+            ],
+            "sunday": [
+              "09:00"
+            ],
+            "holiday": [
+              "10:09"
+            ]
+          }
+        },
+        {
+          "stop_id": "0200",
+          "stop_name": "Olkusz Dworzec PKS",
+          "platform": "0",
+          "file": "0200-gorenice.html",
+          "departures": {
+            "workday": [
+              "05:30",
+              "06:40",
+              "10:10",
+              "11:22",
+              "15:11",
+              "18:05",
+              "21:31"
+            ],
+            "saturday": [
+              "07:30",
+              "11:34",
+              "13:00",
+              "14:44",
+              "18:00",
+              "20:30"
+            ],
+            "sunday": [
+              "06:45",
+              "14:00",
+              "19:00",
+              "20:18"
+            ],
+            "holiday": [
+              "07:30",
+              "11:34",
+              "13:00"
+            ]
+          }
+        },
+        {
+          "stop_id": "0228",
+          "stop_name": "Olkusz Skarbek",
+          "platform": "1",
+          "file": "0228-gorenice.html",
+          "departures": {
+            "workday": [
+              "05:32",
+              "06:42",
+              "08:47",
+              "10:12",
+              "11:24",
+              "13:22",
+              "15:13",
+              "18:07",
+              "20:27",
+              "21:33"
+            ],
+            "saturday": [
+              "06:12",
+              "07:32",
+              "10:11",
+              "11:36",
+              "13:02",
+              "14:46",
+              "18:02",
+              "20:32"
+            ],
+            "sunday": [
+              "06:47",
+              "09:02",
+              "14:02",
+              "19:02",
+              "20:20"
+            ],
+            "holiday": [
+              "07:32",
+              "10:11",
+              "11:36",
+              "13:02"
+            ]
+          }
+        },
+        {
+          "stop_id": "0175",
+          "stop_name": "Olkusz Górnicza",
+          "platform": "1",
+          "file": "0175-gorenice.html",
+          "departures": {
+            "workday": [
+              "05:34",
+              "06:44",
+              "08:49",
+              "10:14",
+              "11:26",
+              "13:24",
+              "15:15",
+              "18:09",
+              "20:29",
+              "21:35"
+            ],
+            "saturday": [
+              "06:14",
+              "07:34",
+              "10:13",
+              "11:38",
+              "13:04",
+              "14:48",
+              "18:04",
+              "20:34"
+            ],
+            "sunday": [
+              "06:49",
+              "09:04",
+              "14:04",
+              "19:04",
+              "20:22"
+            ],
+            "holiday": [
+              "07:34",
+              "10:13",
+              "11:38",
+              "13:04"
+            ]
+          }
+        },
+        {
+          "stop_id": "0176",
+          "stop_name": "Olkusz Mickiewicza",
+          "platform": "1",
+          "file": "0176-gorenice.html",
+          "departures": {
+            "workday": [
+              "05:35",
+              "06:45",
+              "08:50",
+              "10:15",
+              "11:27",
+              "13:25",
+              "15:16",
+              "18:10",
+              "20:30",
+              "21:36"
+            ],
+            "saturday": [
+              "06:15",
+              "07:35",
+              "10:14",
+              "11:39",
+              "13:05",
+              "14:49",
+              "18:05",
+              "20:35"
+            ],
+            "sunday": [
+              "06:50",
+              "09:05",
+              "14:05",
+              "19:05",
+              "20:23"
+            ],
+            "holiday": [
+              "07:35",
+              "10:14",
+              "11:39",
+              "13:05"
+            ]
+          }
+        },
+        {
+          "stop_id": "0177",
+          "stop_name": "Olkusz Szpitalna",
+          "platform": "2",
+          "file": "0177-gorenice.html",
+          "departures": {
+            "workday": [
+              "05:36",
+              "06:46",
+              "08:51",
+              "10:16",
+              "11:28",
+              "13:26",
+              "15:17",
+              "18:11",
+              "20:31",
+              "21:37"
+            ],
+            "saturday": [
+              "06:16",
+              "07:36",
+              "10:15",
+              "11:40",
+              "13:06",
+              "14:50",
+              "18:06",
+              "20:36"
+            ],
+            "sunday": [
+              "06:51",
+              "09:06",
+              "14:06",
+              "19:06",
+              "20:24"
+            ],
+            "holiday": [
+              "07:36",
+              "10:15",
+              "11:40",
+              "13:06"
+            ]
+          }
+        },
+        {
+          "stop_id": "0229",
+          "stop_name": "Olkusz Basen",
+          "platform": "2",
+          "file": "0229-gorenice.html",
+          "departures": {
+            "workday": [
+              "05:38",
+              "06:48",
+              "08:53",
+              "10:18",
+              "11:30",
+              "13:28",
+              "15:19",
+              "18:13",
+              "20:33",
+              "21:39"
+            ],
+            "saturday": [
+              "06:18",
+              "07:38",
+              "10:17",
+              "11:42",
+              "13:08",
+              "14:52",
+              "18:08",
+              "20:38"
+            ],
+            "sunday": [
+              "06:53",
+              "09:08",
+              "14:08",
+              "19:08",
+              "20:26"
+            ],
+            "holiday": [
+              "07:38",
+              "10:17",
+              "11:42",
+              "13:08"
+            ]
+          }
+        },
+        {
+          "stop_id": "0536",
+          "stop_name": "Olkusz Szpital",
+          "platform": "1",
+          "file": "0536-gorenice.html",
+          "departures": {
+            "workday": [
+              "05:40",
+              "06:50",
+              "08:55",
+              "10:20",
+              "11:32",
+              "13:30",
+              "15:21",
+              "18:15",
+              "20:35",
+              "21:41"
+            ],
+            "saturday": [
+              "06:20",
+              "07:40",
+              "10:19",
+              "11:44",
+              "13:10",
+              "14:54",
+              "18:10",
+              "20:40"
+            ],
+            "sunday": [
+              "06:55",
+              "09:10",
+              "14:10",
+              "19:10",
+              "20:28"
+            ],
+            "holiday": [
+              "07:40",
+              "10:19",
+              "11:44",
+              "13:10"
+            ]
+          }
+        },
+        {
+          "stop_id": "1589",
+          "stop_name": "Olkusz Biema",
+          "platform": "2",
+          "file": "1589-gorenice.html",
+          "departures": {
+            "workday": [
+              "05:41",
+              "06:51",
+              "08:56",
+              "10:21",
+              "11:33",
+              "13:31",
+              "15:22",
+              "18:16",
+              "20:36",
+              "21:42"
+            ],
+            "saturday": [
+              "06:21",
+              "07:41",
+              "10:20",
+              "11:45",
+              "13:11",
+              "14:55",
+              "18:11",
+              "20:41"
+            ],
+            "sunday": [
+              "06:56",
+              "09:11",
+              "14:11",
+              "19:11",
+              "20:29"
+            ],
+            "holiday": [
+              "07:41",
+              "10:20",
+              "11:45",
+              "13:11"
+            ]
+          }
+        },
+        {
+          "stop_id": "1587",
+          "stop_name": "Olkusz Kościół",
+          "platform": "1",
+          "file": "1587-gorenice.html",
+          "departures": {
+            "workday": [
+              "05:42",
+              "06:52",
+              "08:57",
+              "10:22",
+              "11:34",
+              "13:32",
+              "15:23",
+              "18:17",
+              "20:37",
+              "21:43"
+            ],
+            "saturday": [
+              "06:22",
+              "07:42",
+              "10:21",
+              "11:46",
+              "13:12",
+              "14:56",
+              "18:12",
+              "20:42"
+            ],
+            "sunday": [
+              "06:57",
+              "09:12",
+              "14:12",
+              "19:12",
+              "20:30"
+            ],
+            "holiday": [
+              "07:42",
+              "10:21",
+              "11:46",
+              "13:12"
+            ]
+          }
+        },
+        {
+          "stop_id": "1575",
+          "stop_name": "Olkusz Księdza Gajewskiego",
+          "platform": "1",
+          "file": "1575-gorenice.html",
+          "departures": {
+            "workday": [
+              "05:43",
+              "06:53",
+              "08:58",
+              "10:23",
+              "11:35",
+              "13:33",
+              "15:24",
+              "18:18",
+              "20:38",
+              "21:44"
+            ],
+            "saturday": [
+              "06:23",
+              "07:43",
+              "10:22",
+              "11:47",
+              "13:13",
+              "14:57",
+              "18:13",
+              "20:43"
+            ],
+            "sunday": [
+              "06:58",
+              "09:13",
+              "14:13",
+              "19:13",
+              "20:31"
+            ],
+            "holiday": [
+              "07:43",
+              "10:22",
+              "11:47",
+              "13:13"
+            ]
+          }
+        },
+        {
+          "stop_id": "1577",
+          "stop_name": "Witeradów Zacisze",
+          "platform": "2",
+          "file": "1577-gorenice.html",
+          "departures": {
+            "workday": [
+              "05:44",
+              "06:54",
+              "08:59",
+              "10:24",
+              "11:36",
+              "13:34",
+              "15:25",
+              "18:19",
+              "20:39",
+              "21:45"
+            ],
+            "saturday": [
+              "06:24",
+              "07:44",
+              "10:23",
+              "11:48",
+              "13:14",
+              "14:58",
+              "18:14",
+              "20:44"
+            ],
+            "sunday": [
+              "06:59",
+              "09:14",
+              "14:14",
+              "19:14",
+              "20:32"
+            ],
+            "holiday": [
+              "07:44",
+              "10:23",
+              "11:48",
+              "13:14"
+            ]
+          }
+        },
+        {
+          "stop_id": "1578",
+          "stop_name": "Witeradów Tartak",
+          "platform": "2",
+          "file": "1578-gorenice.html",
+          "departures": {
+            "workday": [
+              "05:45",
+              "06:55",
+              "09:00",
+              "10:25",
+              "11:37",
+              "13:35",
+              "15:26",
+              "18:20",
+              "20:40",
+              "21:46"
+            ],
+            "saturday": [
+              "06:25",
+              "07:45",
+              "10:24",
+              "11:49",
+              "13:15",
+              "14:59",
+              "18:15",
+              "20:45"
+            ],
+            "sunday": [
+              "07:00",
+              "09:15",
+              "14:15",
+              "19:15",
+              "20:33"
+            ],
+            "holiday": [
+              "07:45",
+              "10:24",
+              "11:49",
+              "13:15"
+            ]
+          }
+        },
+        {
+          "stop_id": "1579",
+          "stop_name": "Witeradów Wieś",
+          "platform": "2",
+          "file": "1579-gorenice.html",
+          "departures": {
+            "workday": [
+              "05:46",
+              "06:56",
+              "09:01",
+              "10:26",
+              "11:38",
+              "13:36",
+              "15:27",
+              "18:21",
+              "20:41",
+              "21:47"
+            ],
+            "saturday": [
+              "06:26",
+              "07:46",
+              "10:25",
+              "11:50",
+              "13:16",
+              "15:00",
+              "18:16",
+              "20:46"
+            ],
+            "sunday": [
+              "07:01",
+              "09:16",
+              "14:16",
+              "19:16",
+              "20:34"
+            ],
+            "holiday": [
+              "07:46",
+              "10:25",
+              "11:50",
+              "13:16"
+            ]
+          }
+        },
+        {
+          "stop_id": "1580",
+          "stop_name": "Witeradów",
+          "platform": "2",
+          "file": "1580-gorenice.html",
+          "departures": {
+            "workday": [
+              "05:47",
+              "06:57",
+              "09:02",
+              "10:27",
+              "11:39",
+              "13:37",
+              "15:28",
+              "18:22",
+              "20:42",
+              "21:48"
+            ],
+            "saturday": [
+              "06:27",
+              "07:47",
+              "10:26",
+              "11:51",
+              "13:17",
+              "15:01",
+              "18:17",
+              "20:47"
+            ],
+            "sunday": [
+              "07:02",
+              "09:17",
+              "14:17",
+              "19:17",
+              "20:35"
+            ],
+            "holiday": [
+              "07:47",
+              "10:26",
+              "11:51",
+              "13:17"
+            ]
+          }
+        },
+        {
+          "stop_id": "1581",
+          "stop_name": "Witeradów Pod Kądzielnią",
+          "platform": "2",
+          "file": "1581-gorenice.html",
+          "departures": {
+            "workday": [
+              "05:48",
+              "06:58",
+              "09:03",
+              "10:28",
+              "11:40",
+              "13:38",
+              "15:29",
+              "18:23",
+              "20:43",
+              "21:49"
+            ],
+            "saturday": [
+              "06:28",
+              "07:48",
+              "10:27",
+              "11:52",
+              "13:18",
+              "15:02",
+              "18:18",
+              "20:48"
+            ],
+            "sunday": [
+              "07:03",
+              "09:18",
+              "14:18",
+              "19:18",
+              "20:36"
+            ],
+            "holiday": [
+              "07:48",
+              "10:27",
+              "11:52",
+              "13:18"
+            ]
+          }
+        },
+        {
+          "stop_id": "1582",
+          "stop_name": "Gorenice Wilcze Doły",
+          "platform": "2",
+          "file": "1582-gorenice.html",
+          "departures": {
+            "workday": [
+              "05:50",
+              "07:00",
+              "09:05",
+              "10:30",
+              "11:42",
+              "13:40",
+              "15:31",
+              "18:25",
+              "20:45",
+              "21:51"
+            ],
+            "saturday": [
+              "06:30",
+              "07:50",
+              "10:29",
+              "11:54",
+              "13:20",
+              "15:04",
+              "18:20",
+              "20:50"
+            ],
+            "sunday": [
+              "07:05",
+              "09:20",
+              "14:20",
+              "19:20",
+              "20:38"
+            ],
+            "holiday": [
+              "07:50",
+              "10:29",
+              "11:54",
+              "13:20"
+            ]
+          }
+        },
+        {
+          "stop_id": "2101",
+          "stop_name": "Gorenice Leśna Skrzyżowanie",
+          "platform": "1",
+          "file": "2101-gorenice.html",
+          "departures": {
+            "workday": [
+              "05:53",
+              "07:03",
+              "09:08",
+              "10:33",
+              "11:45",
+              "13:43",
+              "15:34",
+              "18:28",
+              "20:48",
+              "21:54"
+            ],
+            "saturday": [
+              "06:33",
+              "07:53",
+              "10:32",
+              "11:57",
+              "13:23",
+              "15:07",
+              "18:23",
+              "20:53"
+            ],
+            "sunday": [
+              "07:08",
+              "09:23",
+              "14:23",
+              "19:23",
+              "20:41"
+            ],
+            "holiday": [
+              "07:53",
+              "10:32",
+              "11:57",
+              "13:23"
+            ]
+          }
+        },
+        {
+          "stop_id": "2098",
+          "stop_name": "Gorenice Leśna",
+          "platform": "1",
+          "file": "2098-gorenice.html",
+          "departures": {
+            "workday": [
+              "05:54",
+              "07:04",
+              "09:09",
+              "10:34",
+              "11:46",
+              "13:44",
+              "15:35",
+              "18:29",
+              "20:49",
+              "21:55"
+            ],
+            "saturday": [
+              "06:34",
+              "07:54",
+              "10:33",
+              "11:58",
+              "13:24",
+              "15:08",
+              "18:24",
+              "20:54"
+            ],
+            "sunday": [
+              "07:09",
+              "09:24",
+              "14:24",
+              "19:24",
+              "20:42"
+            ],
+            "holiday": [
+              "07:54",
+              "10:33",
+              "11:58",
+              "13:24"
+            ]
+          }
+        },
+        {
+          "stop_id": "2097",
+          "stop_name": "Gorenice Kąty Skrzyżowanie",
+          "platform": "2",
+          "file": "2097-gorenice.html",
+          "departures": {
+            "workday": [
+              "05:55",
+              "07:05",
+              "09:10",
+              "10:35",
+              "11:47",
+              "13:45",
+              "15:36",
+              "18:30",
+              "20:50",
+              "21:56"
+            ],
+            "saturday": [
+              "06:35",
+              "07:55",
+              "10:34",
+              "11:59",
+              "13:25",
+              "15:09",
+              "18:25",
+              "20:55"
+            ],
+            "sunday": [
+              "07:10",
+              "09:25",
+              "14:25",
+              "19:25",
+              "20:43"
+            ],
+            "holiday": [
+              "07:55",
+              "10:34",
+              "11:59",
+              "13:25"
+            ]
+          }
+        },
+        {
+          "stop_id": "2094",
+          "stop_name": "Gorenice Kąty Cmentarz",
+          "platform": "1",
+          "file": "2094-gorenice.html",
+          "departures": {
+            "workday": [
+              "05:56",
+              "07:06",
+              "09:11",
+              "10:36",
+              "11:48",
+              "13:46",
+              "15:37",
+              "18:31",
+              "20:51",
+              "21:57"
+            ],
+            "saturday": [
+              "06:36",
+              "07:56",
+              "10:35",
+              "12:00",
+              "13:26",
+              "15:10",
+              "18:26",
+              "20:56"
+            ],
+            "sunday": [
+              "07:11",
+              "09:26",
+              "14:26",
+              "19:26",
+              "20:44"
+            ],
+            "holiday": [
+              "07:56",
+              "10:35",
+              "12:00",
+              "13:26"
+            ]
+          }
+        },
+        {
+          "stop_id": "1584",
+          "stop_name": "Gorenice Remiza",
+          "platform": "2",
+          "file": "1584-gorenice.html",
+          "departures": {
+            "workday": [
+              "05:57",
+              "07:07",
+              "09:12",
+              "10:37",
+              "11:49",
+              "13:47",
+              "15:38",
+              "18:32",
+              "20:52",
+              "21:58"
+            ],
+            "saturday": [
+              "06:37",
+              "07:57",
+              "10:36",
+              "12:01",
+              "13:27",
+              "15:11",
+              "18:27",
+              "20:57"
+            ],
+            "sunday": [
+              "07:12",
+              "09:27",
+              "14:27",
+              "19:27",
+              "20:45"
+            ],
+            "holiday": [
+              "07:57",
+              "10:36",
+              "12:01",
+              "13:27"
+            ]
+          }
+        },
+        {
+          "stop_id": "1566",
+          "stop_name": "Gorenice Szkoła",
+          "platform": "1",
+          "file": "1566-gorenice.html",
+          "departures": {
+            "workday": [
+              "05:58",
+              "07:08",
+              "09:13",
+              "10:38",
+              "11:50",
+              "13:48",
+              "15:39",
+              "18:33",
+              "20:53",
+              "21:59"
+            ],
+            "saturday": [
+              "06:38",
+              "07:58",
+              "10:37",
+              "12:02",
+              "13:28",
+              "15:12",
+              "18:28",
+              "20:58"
+            ],
+            "sunday": [
+              "07:13",
+              "09:28",
+              "14:28",
+              "19:28",
+              "20:46"
+            ],
+            "holiday": [
+              "07:58",
+              "10:37",
+              "12:02",
+              "13:28"
+            ]
+          }
+        },
+        {
+          "stop_id": "1565",
+          "stop_name": "Gorenice Dołek",
+          "platform": "2",
+          "file": "1565-gorenice.html",
+          "departures": {
+            "workday": [
+              "05:59",
+              "07:09",
+              "09:14",
+              "10:39",
+              "11:51",
+              "13:49",
+              "15:40",
+              "18:34",
+              "20:54",
+              "22:00"
+            ],
+            "saturday": [
+              "06:39",
+              "07:59",
+              "10:38",
+              "12:03",
+              "13:29",
+              "15:13",
+              "18:29",
+              "20:59"
+            ],
+            "sunday": [
+              "07:14",
+              "09:29",
+              "14:29",
+              "19:29",
+              "20:47"
+            ],
+            "holiday": [
+              "07:59",
+              "10:38",
+              "12:03",
+              "13:29"
+            ]
+          }
+        },
+        {
+          "stop_id": "1562",
+          "stop_name": "Gorenice Wzniesienie",
+          "platform": "1",
+          "file": "1562-gorenice.html",
+          "departures": {
+            "workday": [
+              "06:00",
+              "07:10",
+              "09:15",
+              "10:40",
+              "11:52",
+              "13:50",
+              "15:41",
+              "18:35",
+              "20:55",
+              "22:01"
+            ],
+            "saturday": [
+              "06:40",
+              "08:00",
+              "10:39",
+              "12:04",
+              "13:30",
+              "15:14",
+              "18:30",
+              "21:00"
+            ],
+            "sunday": [
+              "07:15",
+              "09:30",
+              "14:30",
+              "19:30",
+              "20:48"
+            ],
+            "holiday": [
+              "08:00",
+              "10:39",
+              "12:04",
+              "13:30"
+            ]
+          }
+        },
+        {
+          "stop_id": "1561",
+          "stop_name": "Gorenice",
+          "platform": "1",
+          "file": "1561-gorenice.html",
+          "departures": {
+            "workday": [
+              "06:01",
+              "07:11",
+              "09:16",
+              "10:41",
+              "11:53",
+              "13:51",
+              "15:42",
+              "18:36",
+              "20:56",
+              "22:02"
+            ],
+            "saturday": [
+              "06:41",
+              "08:01",
+              "10:40",
+              "12:05",
+              "13:31",
+              "15:15",
+              "18:31",
+              "21:01"
+            ],
+            "sunday": [
+              "07:16",
+              "09:31",
+              "14:31",
+              "19:31",
+              "20:49"
+            ],
+            "holiday": [
+              "08:01",
+              "10:40",
+              "12:05",
+              "13:31"
+            ]
+          }
+        },
+        {
+          "stop_id": "1560",
+          "stop_name": "Gorenice Pętla",
+          "platform": "1",
+          "file": "1560-gorenice.html",
+          "departures": {},
+          "arrival_only": true
+        }
+      ]
+    }
+  ]
+}
