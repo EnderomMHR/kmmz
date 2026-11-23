@@ -1,0 +1,129 @@
+{
+  "stop_id": "2030",
+  "stop_name": "Olkusz Zagaje II",
+  "platform": "2",
+  "departures": [
+    {
+      "line": "34",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "olkusz",
+      "page": "rozklady/34/2030-olkusz.html",
+      "day_type": "holiday",
+      "time": "09:21",
+      "symbols": []
+    },
+    {
+      "line": "34",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "olkusz",
+      "page": "rozklady/34/2030-olkusz.html",
+      "day_type": "saturday",
+      "time": "05:19",
+      "symbols": []
+    },
+    {
+      "line": "34",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "olkusz",
+      "page": "rozklady/34/2030-olkusz.html",
+      "day_type": "saturday",
+      "time": "09:21",
+      "symbols": []
+    },
+    {
+      "line": "34",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "olkusz",
+      "page": "rozklady/34/2030-olkusz.html",
+      "day_type": "saturday",
+      "time": "19:19",
+      "symbols": []
+    },
+    {
+      "line": "34",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "olkusz",
+      "page": "rozklady/34/2030-olkusz.html",
+      "day_type": "saturday",
+      "time": "21:49",
+      "symbols": []
+    },
+    {
+      "line": "34",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "olkusz",
+      "page": "rozklady/34/2030-olkusz.html",
+      "day_type": "sunday",
+      "time": "08:09",
+      "symbols": []
+    },
+    {
+      "line": "34",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "olkusz",
+      "page": "rozklady/34/2030-olkusz.html",
+      "day_type": "workday",
+      "time": "07:49",
+      "symbols": []
+    },
+    {
+      "line": "34",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "olkusz",
+      "page": "rozklady/34/2030-olkusz.html",
+      "day_type": "workday",
+      "time": "12:34",
+      "symbols": []
+    },
+    {
+      "line": "34",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "olkusz",
+      "page": "rozklady/34/2030-olkusz.html",
+      "day_type": "workday",
+      "time": "16:24",
+      "symbols": []
+    },
+    {
+      "line": "34",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "olkusz",
+      "page": "rozklady/34/2030-olkusz.html",
+      "day_type": "workday",
+      "time": "19:21",
+      "symbols": []
+    },
+    {
+      "line": "34",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "olkusz",
+      "page": "rozklady/34/2030-olkusz.html",
+      "day_type": "workday",
+      "time": "22:39",
+      "symbols": []
+    }
+  ],
+  "served_lines": [
+    {
+      "line": "34",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "page": "rozklady/34/2030-olkusz.html"
+    }
+  ],
+  "legends": {
+    "34": {
+      "Z": "do: Zadole Kosmolowskie Pętla"
+    }
+  }
+}

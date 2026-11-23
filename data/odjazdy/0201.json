@@ -64,6 +64,16 @@
       "symbols": []
     },
     {
+      "line": "34",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "olkusz",
+      "page": "rozklady/34/0201-olkusz.html",
+      "day_type": "saturday",
+      "time": "05:13",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Zadole Kosmolowskie Pętla",
       "display_direction": "Zadole Kosmolowskie Pętla",
@@ -154,6 +164,16 @@
       "symbols": []
     },
     {
+      "line": "34",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "olkusz",
+      "page": "rozklady/34/0201-olkusz.html",
+      "day_type": "saturday",
+      "time": "19:13",
+      "symbols": []
+    },
+    {
       "line": "29",
       "main_direction": "Krzeszowice Dworzec Autobusowy",
       "display_direction": "Krzeszowice Dworzec Autobusowy",
@@ -174,6 +194,16 @@
       "symbols": []
     },
     {
+      "line": "34",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "olkusz",
+      "page": "rozklady/34/0201-olkusz.html",
+      "day_type": "saturday",
+      "time": "21:43",
+      "symbols": []
+    },
+    {
       "line": "29",
       "main_direction": "Krzeszowice Dworzec Autobusowy",
       "display_direction": "Krzeszowice Dworzec Autobusowy",
@@ -191,6 +221,16 @@
       "page": "rozklady/2/0201-zadole.html",
       "day_type": "sunday",
       "time": "05:24",
+      "symbols": []
+    },
+    {
+      "line": "34",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "olkusz",
+      "page": "rozklady/34/0201-olkusz.html",
+      "day_type": "sunday",
+      "time": "08:03",
       "symbols": []
     },
     {
@@ -324,6 +364,16 @@
       "symbols": []
     },
     {
+      "line": "34",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "olkusz",
+      "page": "rozklady/34/0201-olkusz.html",
+      "day_type": "workday",
+      "time": "07:43",
+      "symbols": []
+    },
+    {
       "line": "29",
       "main_direction": "Krzeszowice Dworzec Autobusowy",
       "display_direction": "Krzeszowice Dworzec Autobusowy",
@@ -374,6 +424,16 @@
       "symbols": []
     },
     {
+      "line": "34",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "olkusz",
+      "page": "rozklady/34/0201-olkusz.html",
+      "day_type": "workday",
+      "time": "12:28",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Zadole Kosmolowskie Pętla",
       "display_direction": "Zadole Kosmolowskie Pętla",
@@ -411,6 +471,16 @@
       "page": "rozklady/29/0201-okrezna-1.html",
       "day_type": "workday",
       "time": "15:32",
+      "symbols": []
+    },
+    {
+      "line": "34",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "olkusz",
+      "page": "rozklady/34/0201-olkusz.html",
+      "day_type": "workday",
+      "time": "16:18",
       "symbols": []
     },
     {
@@ -472,6 +542,16 @@
       "day_type": "workday",
       "time": "22:12",
       "symbols": []
+    },
+    {
+      "line": "34",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "olkusz",
+      "page": "rozklady/34/0201-olkusz.html",
+      "day_type": "workday",
+      "time": "22:33",
+      "symbols": []
     }
   ],
   "served_lines": [
@@ -484,10 +564,18 @@
       "line": "29",
       "main_direction": "Krzeszowice Dworzec Autobusowy",
       "page": "rozklady/29/0201-okrezna-1.html"
+    },
+    {
+      "line": "34",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "page": "rozklady/34/0201-olkusz.html"
     }
   ],
   "legends": {
     "2": {},
-    "29": {}
+    "29": {},
+    "34": {
+      "Z": "do: Zadole Kosmolowskie Pętla"
+    }
   }
 }

@@ -1,0 +1,129 @@
+{
+  "stop_id": "2040",
+  "stop_name": "Olewin Fabryka Domów",
+  "platform": "1",
+  "departures": [
+    {
+      "line": "34",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "olkusz",
+      "page": "rozklady/34/2040-olkusz.html",
+      "day_type": "holiday",
+      "time": "09:23",
+      "symbols": []
+    },
+    {
+      "line": "34",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "olkusz",
+      "page": "rozklady/34/2040-olkusz.html",
+      "day_type": "saturday",
+      "time": "05:21",
+      "symbols": []
+    },
+    {
+      "line": "34",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "olkusz",
+      "page": "rozklady/34/2040-olkusz.html",
+      "day_type": "saturday",
+      "time": "09:23",
+      "symbols": []
+    },
+    {
+      "line": "34",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "olkusz",
+      "page": "rozklady/34/2040-olkusz.html",
+      "day_type": "saturday",
+      "time": "19:21",
+      "symbols": []
+    },
+    {
+      "line": "34",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "olkusz",
+      "page": "rozklady/34/2040-olkusz.html",
+      "day_type": "saturday",
+      "time": "21:51",
+      "symbols": []
+    },
+    {
+      "line": "34",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "olkusz",
+      "page": "rozklady/34/2040-olkusz.html",
+      "day_type": "sunday",
+      "time": "08:11",
+      "symbols": []
+    },
+    {
+      "line": "34",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "olkusz",
+      "page": "rozklady/34/2040-olkusz.html",
+      "day_type": "workday",
+      "time": "07:51",
+      "symbols": []
+    },
+    {
+      "line": "34",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "olkusz",
+      "page": "rozklady/34/2040-olkusz.html",
+      "day_type": "workday",
+      "time": "12:36",
+      "symbols": []
+    },
+    {
+      "line": "34",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "olkusz",
+      "page": "rozklady/34/2040-olkusz.html",
+      "day_type": "workday",
+      "time": "16:26",
+      "symbols": []
+    },
+    {
+      "line": "34",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "olkusz",
+      "page": "rozklady/34/2040-olkusz.html",
+      "day_type": "workday",
+      "time": "19:23",
+      "symbols": []
+    },
+    {
+      "line": "34",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "display_direction": "Zadole Kosmolowskie Pętla",
+      "direction_slug": "olkusz",
+      "page": "rozklady/34/2040-olkusz.html",
+      "day_type": "workday",
+      "time": "22:41",
+      "symbols": []
+    }
+  ],
+  "served_lines": [
+    {
+      "line": "34",
+      "main_direction": "Zadole Kosmolowskie Pętla",
+      "page": "rozklady/34/2040-olkusz.html"
+    }
+  ],
+  "legends": {
+    "34": {
+      "Z": "do: Zadole Kosmolowskie Pętla"
+    }
+  }
+}

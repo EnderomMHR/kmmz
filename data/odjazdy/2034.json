@@ -1,0 +1,137 @@
+{
+  "stop_id": "2034",
+  "stop_name": "Sieniczno Orzechówka",
+  "platform": "2",
+  "departures": [
+    {
+      "line": "34",
+      "main_direction": "Gorenice Pętla",
+      "display_direction": "Gorenice Pętla",
+      "direction_slug": "gorenice",
+      "page": "rozklady/34/2034-gorenice.html",
+      "day_type": "holiday",
+      "time": "09:57",
+      "symbols": []
+    },
+    {
+      "line": "34",
+      "main_direction": "Gorenice Pętla",
+      "display_direction": "Gorenice Pętla",
+      "direction_slug": "gorenice",
+      "page": "rozklady/34/2034-gorenice.html",
+      "day_type": "saturday",
+      "time": "05:58",
+      "symbols": []
+    },
+    {
+      "line": "34",
+      "main_direction": "Gorenice Pętla",
+      "display_direction": "Gorenice Pętla",
+      "direction_slug": "gorenice",
+      "page": "rozklady/34/2034-gorenice.html",
+      "day_type": "saturday",
+      "time": "09:57",
+      "symbols": []
+    },
+    {
+      "line": "34",
+      "main_direction": "Gorenice Pętla",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "gorenice",
+      "page": "rozklady/34/2034-gorenice.html",
+      "day_type": "saturday",
+      "time": "20:03",
+      "symbols": [
+        "O"
+      ]
+    },
+    {
+      "line": "34",
+      "main_direction": "Gorenice Pętla",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "gorenice",
+      "page": "rozklady/34/2034-gorenice.html",
+      "day_type": "saturday",
+      "time": "22:43",
+      "symbols": [
+        "O"
+      ]
+    },
+    {
+      "line": "34",
+      "main_direction": "Gorenice Pętla",
+      "display_direction": "Gorenice Pętla",
+      "direction_slug": "gorenice",
+      "page": "rozklady/34/2034-gorenice.html",
+      "day_type": "sunday",
+      "time": "08:48",
+      "symbols": []
+    },
+    {
+      "line": "34",
+      "main_direction": "Gorenice Pętla",
+      "display_direction": "Gorenice Pętla",
+      "direction_slug": "gorenice",
+      "page": "rozklady/34/2034-gorenice.html",
+      "day_type": "workday",
+      "time": "08:33",
+      "symbols": []
+    },
+    {
+      "line": "34",
+      "main_direction": "Gorenice Pętla",
+      "display_direction": "Gorenice Pętla",
+      "direction_slug": "gorenice",
+      "page": "rozklady/34/2034-gorenice.html",
+      "day_type": "workday",
+      "time": "13:08",
+      "symbols": []
+    },
+    {
+      "line": "34",
+      "main_direction": "Gorenice Pętla",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "gorenice",
+      "page": "rozklady/34/2034-gorenice.html",
+      "day_type": "workday",
+      "time": "16:57",
+      "symbols": [
+        "O"
+      ]
+    },
+    {
+      "line": "34",
+      "main_direction": "Gorenice Pętla",
+      "display_direction": "Gorenice Pętla",
+      "direction_slug": "gorenice",
+      "page": "rozklady/34/2034-gorenice.html",
+      "day_type": "workday",
+      "time": "20:13",
+      "symbols": []
+    },
+    {
+      "line": "34",
+      "main_direction": "Gorenice Pętla",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "gorenice",
+      "page": "rozklady/34/2034-gorenice.html",
+      "day_type": "workday",
+      "time": "23:15",
+      "symbols": [
+        "O"
+      ]
+    }
+  ],
+  "served_lines": [
+    {
+      "line": "34",
+      "main_direction": "Gorenice Pętla",
+      "page": "rozklady/34/2034-gorenice.html"
+    }
+  ],
+  "legends": {
+    "34": {
+      "O": "do: Olkusz Dworzec PKS"
+    }
+  }
+}

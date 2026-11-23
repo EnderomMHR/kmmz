@@ -4,6 +4,16 @@
   "platform": "1",
   "departures": [
     {
+      "line": "34",
+      "main_direction": "Gorenice Pętla",
+      "display_direction": "Gorenice Pętla",
+      "direction_slug": "gorenice",
+      "page": "rozklady/34/0219-gorenice.html",
+      "day_type": "holiday",
+      "time": "09:50",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Laski Pętla",
       "display_direction": "Laski Pętla",
@@ -50,6 +60,16 @@
       "symbols": []
     },
     {
+      "line": "34",
+      "main_direction": "Gorenice Pętla",
+      "display_direction": "Gorenice Pętla",
+      "direction_slug": "gorenice",
+      "page": "rozklady/34/0219-gorenice.html",
+      "day_type": "saturday",
+      "time": "05:51",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Laski Pętla",
       "display_direction": "Laski Pętla",
@@ -72,6 +92,16 @@
       "symbols": [
         "H"
       ]
+    },
+    {
+      "line": "34",
+      "main_direction": "Gorenice Pętla",
+      "display_direction": "Gorenice Pętla",
+      "direction_slug": "gorenice",
+      "page": "rozklady/34/0219-gorenice.html",
+      "day_type": "saturday",
+      "time": "09:50",
+      "symbols": []
     },
     {
       "line": "2",
@@ -124,6 +154,18 @@
       ]
     },
     {
+      "line": "34",
+      "main_direction": "Gorenice Pętla",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "gorenice",
+      "page": "rozklady/34/0219-gorenice.html",
+      "day_type": "saturday",
+      "time": "19:56",
+      "symbols": [
+        "O"
+      ]
+    },
+    {
       "line": "2",
       "main_direction": "Laski Pętla",
       "display_direction": "Laski Pętla",
@@ -133,6 +175,18 @@
       "time": "21:06",
       "symbols": [
         "H"
+      ]
+    },
+    {
+      "line": "34",
+      "main_direction": "Gorenice Pętla",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "gorenice",
+      "page": "rozklady/34/0219-gorenice.html",
+      "day_type": "saturday",
+      "time": "22:36",
+      "symbols": [
+        "O"
       ]
     },
     {
@@ -158,6 +212,16 @@
         "P",
         "Z"
       ]
+    },
+    {
+      "line": "34",
+      "main_direction": "Gorenice Pętla",
+      "display_direction": "Gorenice Pętla",
+      "direction_slug": "gorenice",
+      "page": "rozklady/34/0219-gorenice.html",
+      "day_type": "sunday",
+      "time": "08:41",
+      "symbols": []
     },
     {
       "line": "2",
@@ -252,6 +316,16 @@
       ]
     },
     {
+      "line": "34",
+      "main_direction": "Gorenice Pętla",
+      "display_direction": "Gorenice Pętla",
+      "direction_slug": "gorenice",
+      "page": "rozklady/34/0219-gorenice.html",
+      "day_type": "workday",
+      "time": "08:26",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Laski Pętla",
       "display_direction": "Laski Pętla",
@@ -285,6 +359,16 @@
         "P",
         "Z"
       ]
+    },
+    {
+      "line": "34",
+      "main_direction": "Gorenice Pętla",
+      "display_direction": "Gorenice Pętla",
+      "direction_slug": "gorenice",
+      "page": "rozklady/34/0219-gorenice.html",
+      "day_type": "workday",
+      "time": "13:01",
+      "symbols": []
     },
     {
       "line": "2",
@@ -322,6 +406,18 @@
       "symbols": []
     },
     {
+      "line": "34",
+      "main_direction": "Gorenice Pętla",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "gorenice",
+      "page": "rozklady/34/0219-gorenice.html",
+      "day_type": "workday",
+      "time": "16:50",
+      "symbols": [
+        "O"
+      ]
+    },
+    {
       "line": "2",
       "main_direction": "Laski Pętla",
       "display_direction": "Laski Pętla",
@@ -357,6 +453,16 @@
       "symbols": []
     },
     {
+      "line": "34",
+      "main_direction": "Gorenice Pętla",
+      "display_direction": "Gorenice Pętla",
+      "direction_slug": "gorenice",
+      "page": "rozklady/34/0219-gorenice.html",
+      "day_type": "workday",
+      "time": "20:06",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Laski Pętla",
       "display_direction": "Laski Pętla",
@@ -365,6 +471,18 @@
       "day_type": "workday",
       "time": "21:21",
       "symbols": []
+    },
+    {
+      "line": "34",
+      "main_direction": "Gorenice Pętla",
+      "display_direction": "Olkusz Dworzec PKS",
+      "direction_slug": "gorenice",
+      "page": "rozklady/34/0219-gorenice.html",
+      "day_type": "workday",
+      "time": "23:08",
+      "symbols": [
+        "O"
+      ]
     }
   ],
   "served_lines": [
@@ -372,6 +490,11 @@
       "line": "2",
       "main_direction": "Laski Pętla",
       "page": "rozklady/2/0219-laski.html"
+    },
+    {
+      "line": "34",
+      "main_direction": "Gorenice Pętla",
+      "page": "rozklady/34/0219-gorenice.html"
     }
   ],
   "legends": {
@@ -380,6 +503,9 @@
       "L": "z pominięciem: Bolesław Remiza>>Laski Pętla",
       "P": "do: Bukowno Przymiarki",
       "Z": "z pominięciem: Olkusz Górnicza>>Żurada Pętla>>Olkusz Szpitalna"
+    },
+    "34": {
+      "O": "do: Olkusz Dworzec PKS"
     }
   }
 }
