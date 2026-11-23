@@ -1,0 +1,107 @@
+{
+  "stop_id": "0007",
+  "stop_name": "Lgota Wielka Leśna",
+  "platform": "1",
+  "departures": [
+    {
+      "line": "36",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/36/0007-okrezna.html",
+      "day_type": "saturday",
+      "time": "08:25",
+      "symbols": []
+    },
+    {
+      "line": "36",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/36/0007-okrezna.html",
+      "day_type": "saturday",
+      "time": "11:41",
+      "symbols": []
+    },
+    {
+      "line": "36",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/36/0007-okrezna.html",
+      "day_type": "saturday",
+      "time": "13:29",
+      "symbols": []
+    },
+    {
+      "line": "36",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/36/0007-okrezna.html",
+      "day_type": "workday",
+      "time": "07:26",
+      "symbols": []
+    },
+    {
+      "line": "36",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/36/0007-okrezna.html",
+      "day_type": "workday",
+      "time": "10:06",
+      "symbols": []
+    },
+    {
+      "line": "36",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/36/0007-okrezna.html",
+      "day_type": "workday",
+      "time": "13:36",
+      "symbols": []
+    },
+    {
+      "line": "36",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/36/0007-okrezna.html",
+      "day_type": "workday",
+      "time": "15:27",
+      "symbols": []
+    },
+    {
+      "line": "36",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/36/0007-okrezna.html",
+      "day_type": "workday",
+      "time": "17:56",
+      "symbols": []
+    },
+    {
+      "line": "36",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/36/0007-okrezna.html",
+      "day_type": "workday",
+      "time": "19:32",
+      "symbols": []
+    }
+  ],
+  "served_lines": [
+    {
+      "line": "36",
+      "main_direction": "Wolbrom Nowa PKS",
+      "page": "rozklady/36/0007-okrezna.html"
+    }
+  ],
+  "legends": {
+    "36": {}
+  }
+}

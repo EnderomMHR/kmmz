@@ -94,6 +94,16 @@
       "symbols": []
     },
     {
+      "line": "36",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/36/0017-okrezna.html",
+      "day_type": "saturday",
+      "time": "08:44",
+      "symbols": []
+    },
+    {
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "display_direction": "Wolbrom Nowa PKS",
@@ -101,6 +111,16 @@
       "page": "rozklady/3/0017-wolbrom.html",
       "day_type": "saturday",
       "time": "09:41",
+      "symbols": []
+    },
+    {
+      "line": "36",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/36/0017-okrezna.html",
+      "day_type": "saturday",
+      "time": "12:00",
       "symbols": []
     },
     {
@@ -131,6 +151,16 @@
       "page": "rozklady/3/0017-wolbrom.html",
       "day_type": "saturday",
       "time": "12:40",
+      "symbols": []
+    },
+    {
+      "line": "36",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/36/0017-okrezna.html",
+      "day_type": "saturday",
+      "time": "13:48",
       "symbols": []
     },
     {
@@ -334,6 +364,16 @@
       "symbols": []
     },
     {
+      "line": "36",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/36/0017-okrezna.html",
+      "day_type": "workday",
+      "time": "07:45",
+      "symbols": []
+    },
+    {
       "line": "9",
       "main_direction": "Jeżówka Świetlica",
       "display_direction": "Jeżówka Świetlica",
@@ -361,6 +401,16 @@
       "page": "rozklady/3/0017-wolbrom.html",
       "day_type": "workday",
       "time": "09:39",
+      "symbols": []
+    },
+    {
+      "line": "36",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/36/0017-okrezna.html",
+      "day_type": "workday",
+      "time": "10:25",
       "symbols": []
     },
     {
@@ -404,6 +454,16 @@
       "symbols": []
     },
     {
+      "line": "36",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/36/0017-okrezna.html",
+      "day_type": "workday",
+      "time": "13:55",
+      "symbols": []
+    },
+    {
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "display_direction": "Wolbrom Nowa PKS",
@@ -431,6 +491,16 @@
       "page": "rozklady/3/0017-wolbrom.html",
       "day_type": "workday",
       "time": "15:03",
+      "symbols": []
+    },
+    {
+      "line": "36",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/36/0017-okrezna.html",
+      "day_type": "workday",
+      "time": "15:46",
       "symbols": []
     },
     {
@@ -484,6 +554,16 @@
       "symbols": []
     },
     {
+      "line": "36",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/36/0017-okrezna.html",
+      "day_type": "workday",
+      "time": "18:15",
+      "symbols": []
+    },
+    {
       "line": "3",
       "main_direction": "Wolbrom Nowa PKS",
       "display_direction": "Wolbrom Nowa PKS",
@@ -491,6 +571,16 @@
       "page": "rozklady/3/0017-wolbrom.html",
       "day_type": "workday",
       "time": "18:53",
+      "symbols": []
+    },
+    {
+      "line": "36",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "okrezna",
+      "page": "rozklady/36/0017-okrezna.html",
+      "day_type": "workday",
+      "time": "19:51",
       "symbols": []
     },
     {
@@ -546,6 +636,11 @@
       "page": "rozklady/3/0017-wolbrom.html"
     },
     {
+      "line": "36",
+      "main_direction": "Wolbrom Nowa PKS",
+      "page": "rozklady/36/0017-okrezna.html"
+    },
+    {
       "line": "9",
       "main_direction": "Jeżówka Świetlica",
       "page": "rozklady/9/0017-okrezna-1.html"
@@ -554,6 +649,7 @@
   "legends": {
     "22": {},
     "3": {},
+    "36": {},
     "9": {}
   }
 }
