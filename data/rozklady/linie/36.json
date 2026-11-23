@@ -1,0 +1,610 @@
+{
+  "line": "36",
+  "map_url": "https://enderommhr.github.io/kmmz/mapa.html",
+  "directions": [
+    {
+      "slug": "okrezna",
+      "name": "Wolbrom Nowa PKS",
+      "legend": {},
+      "legend_only_used_symbols": true,
+      "route_stops": [
+        {
+          "stop_id": "0001",
+          "stop_name": "Wolbrom Nowa PKS",
+          "platform": "0",
+          "file": "0001-okrezna.html"
+        },
+        {
+          "stop_id": "0002",
+          "stop_name": "Wolbrom Osiedle Chrobrego",
+          "platform": "1",
+          "file": "0002-okrezna.html"
+        },
+        {
+          "stop_id": "0019",
+          "stop_name": "Wolbrom Ogródki Działkowe",
+          "platform": "1",
+          "file": "0019-okrezna.html"
+        },
+        {
+          "stop_id": "0036",
+          "stop_name": "Brzozówka",
+          "platform": "2",
+          "file": "0036-okrezna.html"
+        },
+        {
+          "stop_id": "0004",
+          "stop_name": "Wierzchowisko Szkoła",
+          "platform": "1",
+          "file": "0004-okrezna.html"
+        },
+        {
+          "stop_id": "0006",
+          "stop_name": "Lgota Wielka Leśna I",
+          "platform": "2",
+          "file": "0006-okrezna.html"
+        },
+        {
+          "stop_id": "0007",
+          "stop_name": "Lgota Wielka Leśna",
+          "platform": "1",
+          "file": "0007-okrezna.html"
+        },
+        {
+          "stop_id": "0008",
+          "stop_name": "Lgota Wielka Skrzyżowanie",
+          "platform": "1",
+          "file": "0008-okrezna.html"
+        },
+        {
+          "stop_id": "0009",
+          "stop_name": "Lgota Wielka Kolonia Leśna",
+          "platform": "1",
+          "file": "0009-okrezna.html"
+        },
+        {
+          "stop_id": "0010",
+          "stop_name": "Wierzchowisko Remiza",
+          "platform": "1",
+          "file": "0010-okrezna.html"
+        },
+        {
+          "stop_id": "0011",
+          "stop_name": "Wierzchowisko Klub",
+          "platform": "1",
+          "file": "0011-okrezna.html"
+        },
+        {
+          "stop_id": "0012",
+          "stop_name": "Brzozówka II",
+          "platform": "1",
+          "file": "0012-okrezna.html"
+        },
+        {
+          "stop_id": "0013",
+          "stop_name": "Brzozówka I",
+          "platform": "2",
+          "file": "0013-okrezna.html"
+        },
+        {
+          "stop_id": "0014",
+          "stop_name": "Wolbrom Brzozowska Rondo",
+          "platform": "2",
+          "file": "0014-okrezna.html"
+        },
+        {
+          "stop_id": "0015",
+          "stop_name": "Wolbrom Pod Lasem",
+          "platform": "1",
+          "file": "0015-okrezna.html"
+        },
+        {
+          "stop_id": "0016",
+          "stop_name": "Wolbrom Dworzec PKP",
+          "platform": "0",
+          "file": "0016-okrezna.html"
+        },
+        {
+          "stop_id": "0017",
+          "stop_name": "Wolbrom 1-ego Maja I",
+          "platform": "1",
+          "file": "0017-okrezna.html"
+        },
+        {
+          "stop_id": "0026",
+          "stop_name": "Wolbrom Skrzyżowanie",
+          "platform": "1",
+          "file": "0026-okrezna.html"
+        },
+        {
+          "stop_id": "0028",
+          "stop_name": "Wolbrom Ośrodek Zdrowia",
+          "platform": "1",
+          "file": "0028-okrezna.html"
+        },
+        {
+          "stop_id": "0027",
+          "stop_name": "Wolbrom Skrzyżowanie",
+          "platform": "2",
+          "file": "0027-okrezna.html"
+        },
+        {
+          "stop_id": "0001",
+          "stop_name": "Wolbrom Nowa PKS",
+          "platform": "0",
+          "file": "0001-okrezna-koniec.html"
+        }
+      ],
+      "timetables": [
+        {
+          "stop_id": "0001",
+          "stop_name": "Wolbrom Nowa PKS",
+          "platform": "0",
+          "file": "0001-okrezna.html",
+          "departures": {
+            "workday": [
+              "07:15",
+              "09:55",
+              "13:25",
+              "15:16",
+              "17:45",
+              "19:21"
+            ],
+            "saturday": [
+              "08:14",
+              "11:30",
+              "13:18"
+            ],
+            "sunday": [],
+            "holiday": []
+          }
+        },
+        {
+          "stop_id": "0002",
+          "stop_name": "Wolbrom Osiedle Chrobrego",
+          "platform": "1",
+          "file": "0002-okrezna.html",
+          "departures": {
+            "workday": [
+              "07:18",
+              "09:58",
+              "13:28",
+              "15:19",
+              "17:48",
+              "19:24"
+            ],
+            "saturday": [
+              "08:17",
+              "11:33",
+              "13:21"
+            ],
+            "sunday": [],
+            "holiday": []
+          }
+        },
+        {
+          "stop_id": "0019",
+          "stop_name": "Wolbrom Ogródki Działkowe",
+          "platform": "1",
+          "file": "0019-okrezna.html",
+          "departures": {
+            "workday": [
+              "07:20",
+              "10:00",
+              "13:30",
+              "15:21",
+              "17:50",
+              "19:26"
+            ],
+            "saturday": [
+              "08:19",
+              "11:35",
+              "13:23"
+            ],
+            "sunday": [],
+            "holiday": []
+          }
+        },
+        {
+          "stop_id": "0036",
+          "stop_name": "Brzozówka",
+          "platform": "2",
+          "file": "0036-okrezna.html",
+          "departures": {
+            "workday": [
+              "07:22",
+              "10:02",
+              "13:32",
+              "15:23",
+              "17:52",
+              "19:28"
+            ],
+            "saturday": [
+              "08:21",
+              "11:37",
+              "13:25"
+            ],
+            "sunday": [],
+            "holiday": []
+          }
+        },
+        {
+          "stop_id": "0004",
+          "stop_name": "Wierzchowisko Szkoła",
+          "platform": "1",
+          "file": "0004-okrezna.html",
+          "departures": {
+            "workday": [
+              "07:23",
+              "10:03",
+              "13:33",
+              "15:24",
+              "17:53",
+              "19:29"
+            ],
+            "saturday": [
+              "08:22",
+              "11:38",
+              "13:26"
+            ],
+            "sunday": [],
+            "holiday": []
+          }
+        },
+        {
+          "stop_id": "0006",
+          "stop_name": "Lgota Wielka Leśna I",
+          "platform": "2",
+          "file": "0006-okrezna.html",
+          "departures": {
+            "workday": [
+              "07:25",
+              "10:05",
+              "13:35",
+              "15:26",
+              "17:55",
+              "19:31"
+            ],
+            "saturday": [
+              "08:24",
+              "11:40",
+              "13:28"
+            ],
+            "sunday": [],
+            "holiday": []
+          }
+        },
+        {
+          "stop_id": "0007",
+          "stop_name": "Lgota Wielka Leśna",
+          "platform": "1",
+          "file": "0007-okrezna.html",
+          "departures": {
+            "workday": [
+              "07:26",
+              "10:06",
+              "13:36",
+              "15:27",
+              "17:56",
+              "19:32"
+            ],
+            "saturday": [
+              "08:25",
+              "11:41",
+              "13:29"
+            ],
+            "sunday": [],
+            "holiday": []
+          }
+        },
+        {
+          "stop_id": "0008",
+          "stop_name": "Lgota Wielka Skrzyżowanie",
+          "platform": "1",
+          "file": "0008-okrezna.html",
+          "departures": {
+            "workday": [
+              "07:28",
+              "10:08",
+              "13:38",
+              "15:29",
+              "17:58",
+              "19:34"
+            ],
+            "saturday": [
+              "08:27",
+              "11:43",
+              "13:31"
+            ],
+            "sunday": [],
+            "holiday": []
+          }
+        },
+        {
+          "stop_id": "0009",
+          "stop_name": "Lgota Wielka Kolonia Leśna",
+          "platform": "1",
+          "file": "0009-okrezna.html",
+          "departures": {
+            "workday": [
+              "07:30",
+              "10:10",
+              "13:40",
+              "15:31",
+              "18:00",
+              "19:36"
+            ],
+            "saturday": [
+              "08:29",
+              "11:45",
+              "13:33"
+            ],
+            "sunday": [],
+            "holiday": []
+          }
+        },
+        {
+          "stop_id": "0010",
+          "stop_name": "Wierzchowisko Remiza",
+          "platform": "1",
+          "file": "0010-okrezna.html",
+          "departures": {
+            "workday": [
+              "07:32",
+              "10:12",
+              "13:42",
+              "15:33",
+              "18:02",
+              "19:38"
+            ],
+            "saturday": [
+              "08:31",
+              "11:47",
+              "13:35"
+            ],
+            "sunday": [],
+            "holiday": []
+          }
+        },
+        {
+          "stop_id": "0011",
+          "stop_name": "Wierzchowisko Klub",
+          "platform": "1",
+          "file": "0011-okrezna.html",
+          "departures": {
+            "workday": [
+              "07:33",
+              "10:13",
+              "13:43",
+              "15:34",
+              "18:03",
+              "19:39"
+            ],
+            "saturday": [
+              "08:32",
+              "11:48",
+              "13:36"
+            ],
+            "sunday": [],
+            "holiday": []
+          }
+        },
+        {
+          "stop_id": "0012",
+          "stop_name": "Brzozówka II",
+          "platform": "1",
+          "file": "0012-okrezna.html",
+          "departures": {
+            "workday": [
+              "07:34",
+              "10:14",
+              "13:44",
+              "15:35",
+              "18:04",
+              "19:40"
+            ],
+            "saturday": [
+              "08:33",
+              "11:49",
+              "13:37"
+            ],
+            "sunday": [],
+            "holiday": []
+          }
+        },
+        {
+          "stop_id": "0013",
+          "stop_name": "Brzozówka I",
+          "platform": "2",
+          "file": "0013-okrezna.html",
+          "departures": {
+            "workday": [
+              "07:35",
+              "10:15",
+              "13:45",
+              "15:36",
+              "18:05",
+              "19:41"
+            ],
+            "saturday": [
+              "08:34",
+              "11:50",
+              "13:38"
+            ],
+            "sunday": [],
+            "holiday": []
+          }
+        },
+        {
+          "stop_id": "0014",
+          "stop_name": "Wolbrom Brzozowska Rondo",
+          "platform": "2",
+          "file": "0014-okrezna.html",
+          "departures": {
+            "workday": [
+              "07:36",
+              "10:16",
+              "13:46",
+              "15:37",
+              "18:06",
+              "19:42"
+            ],
+            "saturday": [
+              "08:35",
+              "11:51",
+              "13:39"
+            ],
+            "sunday": [],
+            "holiday": []
+          }
+        },
+        {
+          "stop_id": "0015",
+          "stop_name": "Wolbrom Pod Lasem",
+          "platform": "1",
+          "file": "0015-okrezna.html",
+          "departures": {
+            "workday": [
+              "07:40",
+              "10:20",
+              "13:50",
+              "15:41",
+              "18:10",
+              "19:46"
+            ],
+            "saturday": [
+              "08:39",
+              "11:55",
+              "13:43"
+            ],
+            "sunday": [],
+            "holiday": []
+          }
+        },
+        {
+          "stop_id": "0016",
+          "stop_name": "Wolbrom Dworzec PKP",
+          "platform": "0",
+          "file": "0016-okrezna.html",
+          "departures": {
+            "workday": [
+              "07:44",
+              "10:24",
+              "13:54",
+              "15:45",
+              "18:14",
+              "19:50"
+            ],
+            "saturday": [
+              "08:43",
+              "11:59",
+              "13:47"
+            ],
+            "sunday": [],
+            "holiday": []
+          }
+        },
+        {
+          "stop_id": "0017",
+          "stop_name": "Wolbrom 1-ego Maja I",
+          "platform": "1",
+          "file": "0017-okrezna.html",
+          "departures": {
+            "workday": [
+              "07:45",
+              "10:25",
+              "13:55",
+              "15:46",
+              "18:15",
+              "19:51"
+            ],
+            "saturday": [
+              "08:44",
+              "12:00",
+              "13:48"
+            ],
+            "sunday": [],
+            "holiday": []
+          }
+        },
+        {
+          "stop_id": "0026",
+          "stop_name": "Wolbrom Skrzyżowanie",
+          "platform": "1",
+          "file": "0026-okrezna.html",
+          "departures": {
+            "workday": [
+              "07:47",
+              "10:27",
+              "13:57",
+              "15:48",
+              "18:17",
+              "19:53"
+            ],
+            "saturday": [
+              "08:46",
+              "12:02",
+              "13:50"
+            ],
+            "sunday": [],
+            "holiday": []
+          }
+        },
+        {
+          "stop_id": "0028",
+          "stop_name": "Wolbrom Ośrodek Zdrowia",
+          "platform": "1",
+          "file": "0028-okrezna.html",
+          "departures": {
+            "workday": [
+              "07:48",
+              "10:28",
+              "13:58",
+              "15:49",
+              "18:18",
+              "19:54"
+            ],
+            "saturday": [
+              "08:47",
+              "12:03",
+              "13:51"
+            ],
+            "sunday": [],
+            "holiday": []
+          }
+        },
+        {
+          "stop_id": "0027",
+          "stop_name": "Wolbrom Skrzyżowanie",
+          "platform": "2",
+          "file": "0027-okrezna.html",
+          "departures": {
+            "workday": [
+              "07:49",
+              "10:29",
+              "13:59",
+              "15:50",
+              "18:19",
+              "19:55"
+            ],
+            "saturday": [
+              "08:48",
+              "12:04",
+              "13:52"
+            ],
+            "sunday": [],
+            "holiday": []
+          }
+        },
+        {
+          "stop_id": "0001",
+          "stop_name": "Wolbrom Nowa PKS",
+          "platform": "0",
+          "file": "0001-okrezna-koniec.html",
+          "departures": {},
+          "arrival_only": true
+        }
+      ]
+    }
+  ]
+}
