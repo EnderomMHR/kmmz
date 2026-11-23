@@ -1,0 +1,6665 @@
+{
+  "line": "35",
+  "map_url": "https://enderommhr.github.io/kmmz/mapa.html",
+  "directions": [
+    {
+      "slug": "slawkow",
+      "name": "Sławków Burki Pętla",
+      "legend": {
+        "B": "z pominięciem: Bukowno Borowska>>Bukowno Bór Biskupi Pętla",
+        "S": "do: Sławków Rynek"
+      },
+      "legend_only_used_symbols": true,
+      "variant_destinations": {
+        "S": "Sławków Rynek"
+      },
+      "route_stops": [
+        {
+          "stop_id": "0001",
+          "stop_name": "Wolbrom Nowa PKS",
+          "platform": "0",
+          "file": "0001-slawkow.html"
+        },
+        {
+          "stop_id": "2289",
+          "stop_name": "Lgota Wolbromska Las",
+          "platform": "1",
+          "file": "2289-slawkow.html"
+        },
+        {
+          "stop_id": "2288",
+          "stop_name": "Lgota Wolbromska Rędziny",
+          "platform": "1",
+          "file": "2288-slawkow.html"
+        },
+        {
+          "stop_id": "2312",
+          "stop_name": "Lgota Wolbromska Skrzyżowanie",
+          "platform": "1",
+          "file": "2312-slawkow.html"
+        },
+        {
+          "stop_id": "2406",
+          "stop_name": "Zarzecze Piastowska",
+          "platform": "1",
+          "file": "2406-slawkow.html"
+        },
+        {
+          "stop_id": "2419",
+          "stop_name": "Zarzecze Szkoła",
+          "platform": "2",
+          "file": "2419-slawkow.html"
+        },
+        {
+          "stop_id": "2418",
+          "stop_name": "Zarzecze",
+          "platform": "2",
+          "file": "2418-slawkow.html"
+        },
+        {
+          "stop_id": "2332",
+          "stop_name": "Zarzecze Zacisze",
+          "platform": "1",
+          "file": "2332-slawkow.html"
+        },
+        {
+          "stop_id": "2411",
+          "stop_name": "Zarzecze Wyzwolenia",
+          "platform": "1",
+          "file": "2411-slawkow.html"
+        },
+        {
+          "stop_id": "2410",
+          "stop_name": "Zarzecze II",
+          "platform": "1",
+          "file": "2410-slawkow.html"
+        },
+        {
+          "stop_id": "2417",
+          "stop_name": "Zarzecze III",
+          "platform": "2",
+          "file": "2417-slawkow.html"
+        },
+        {
+          "stop_id": "2412",
+          "stop_name": "Chrząstowice",
+          "platform": "1",
+          "file": "2412-slawkow.html"
+        },
+        {
+          "stop_id": "3300",
+          "stop_name": "Pazurek Kolonia",
+          "platform": "1",
+          "file": "3300-slawkow.html"
+        },
+        {
+          "stop_id": "3302",
+          "stop_name": "Pazurek Kaplica",
+          "platform": "2",
+          "file": "3302-slawkow.html"
+        },
+        {
+          "stop_id": "3304",
+          "stop_name": "Podlesie Las",
+          "platform": "2",
+          "file": "3304-slawkow.html"
+        },
+        {
+          "stop_id": "2041",
+          "stop_name": "Olkusz Zagaje II",
+          "platform": "1",
+          "file": "2041-slawkow.html"
+        },
+        {
+          "stop_id": "2042",
+          "stop_name": "Olkusz Zagaje",
+          "platform": "1",
+          "file": "2042-slawkow.html"
+        },
+        {
+          "stop_id": "0225",
+          "stop_name": "Olkusz Aleja Tysiąclecia",
+          "platform": "2",
+          "file": "0225-slawkow.html"
+        },
+        {
+          "stop_id": "0226",
+          "stop_name": "Olkusz Wiadukt",
+          "platform": "2",
+          "file": "0226-slawkow.html"
+        },
+        {
+          "stop_id": "0227",
+          "stop_name": "Olkusz Dworzec PKP",
+          "platform": "2",
+          "file": "0227-slawkow.html"
+        },
+        {
+          "stop_id": "0228",
+          "stop_name": "Olkusz Skarbek",
+          "platform": "1",
+          "file": "0228-slawkow.html"
+        },
+        {
+          "stop_id": "0175",
+          "stop_name": "Olkusz Górnicza",
+          "platform": "1",
+          "file": "0175-slawkow.html"
+        },
+        {
+          "stop_id": "0176",
+          "stop_name": "Olkusz Mickiewicza",
+          "platform": "1",
+          "file": "0176-slawkow.html"
+        },
+        {
+          "stop_id": "0178",
+          "stop_name": "Olkusz Szpitalna",
+          "platform": "1",
+          "file": "0178-slawkow.html"
+        },
+        {
+          "stop_id": "0179",
+          "stop_name": "Olkusz Żuradzka",
+          "platform": "2",
+          "file": "0179-slawkow.html"
+        },
+        {
+          "stop_id": "0180",
+          "stop_name": "Olkusz Mazaniec Boczna",
+          "platform": "1",
+          "file": "0180-slawkow.html"
+        },
+        {
+          "stop_id": "0181",
+          "stop_name": "Olkusz Mazaniec",
+          "platform": "1",
+          "file": "0181-slawkow.html"
+        },
+        {
+          "stop_id": "1705",
+          "stop_name": "Bukowno Leśniczówka",
+          "platform": "1",
+          "file": "1705-slawkow.html"
+        },
+        {
+          "stop_id": "1703",
+          "stop_name": "Bukowno Polis",
+          "platform": "1",
+          "file": "1703-slawkow.html"
+        },
+        {
+          "stop_id": "1701",
+          "stop_name": "Bukowno Parking",
+          "platform": "1",
+          "file": "1701-slawkow.html"
+        },
+        {
+          "stop_id": "0727",
+          "stop_name": "Bukowno Stadion",
+          "platform": "1",
+          "file": "0727-slawkow.html"
+        },
+        {
+          "stop_id": "0728",
+          "stop_name": "Bukowno Park",
+          "platform": "2",
+          "file": "0728-slawkow.html"
+        },
+        {
+          "stop_id": "0729",
+          "stop_name": "Bukowno Tunel",
+          "platform": "1",
+          "file": "0729-slawkow.html"
+        },
+        {
+          "stop_id": "0730",
+          "stop_name": "Bukowno Kościół",
+          "platform": "1",
+          "file": "0730-slawkow.html"
+        },
+        {
+          "stop_id": "0731",
+          "stop_name": "Bukowno Skrzyżowanie",
+          "platform": "2",
+          "file": "0731-slawkow.html"
+        },
+        {
+          "stop_id": "0732",
+          "stop_name": "Bukowno Borowska",
+          "platform": "1",
+          "file": "0732-slawkow.html"
+        },
+        {
+          "stop_id": "0733",
+          "stop_name": "Bukowno Bór Biskupi Przeń",
+          "platform": "2",
+          "file": "0733-slawkow.html"
+        },
+        {
+          "stop_id": "0734",
+          "stop_name": "Bukowno Bór Biskupi",
+          "platform": "1",
+          "file": "0734-slawkow.html"
+        },
+        {
+          "stop_id": "0735",
+          "stop_name": "Bukowno Bór Biskupi OSP",
+          "platform": "0",
+          "file": "0735-slawkow.html"
+        },
+        {
+          "stop_id": "0736",
+          "stop_name": "Bukowno Bór Biskupi Pętla",
+          "platform": "0",
+          "file": "0736-slawkow.html"
+        },
+        {
+          "stop_id": "0737",
+          "stop_name": "Bukowno Bór Biskupi",
+          "platform": "2",
+          "file": "0737-slawkow.html"
+        },
+        {
+          "stop_id": "0738",
+          "stop_name": "Bukowno Bór Biskupi Przeń",
+          "platform": "1",
+          "file": "0738-slawkow.html"
+        },
+        {
+          "stop_id": "0739",
+          "stop_name": "Bukowno Borowska",
+          "platform": "2",
+          "file": "0739-slawkow.html"
+        },
+        {
+          "stop_id": "0252",
+          "stop_name": "Bukowno Cmentarz",
+          "platform": "1",
+          "file": "0252-slawkow.html"
+        },
+        {
+          "stop_id": "0253",
+          "stop_name": "Bukowno Remiza",
+          "platform": "0",
+          "file": "0253-slawkow.html"
+        },
+        {
+          "stop_id": "0254",
+          "stop_name": "Bukowno Skotnica",
+          "platform": "1",
+          "file": "0254-slawkow.html"
+        },
+        {
+          "stop_id": "0255",
+          "stop_name": "Bukowno Sklep",
+          "platform": "1",
+          "file": "0255-slawkow.html"
+        },
+        {
+          "stop_id": "2163",
+          "stop_name": "Bukowno Stare Wieś",
+          "platform": "1",
+          "file": "2163-slawkow.html"
+        },
+        {
+          "stop_id": "2165",
+          "stop_name": "Bukowno Świnia Góra",
+          "platform": "1",
+          "file": "2165-slawkow.html"
+        },
+        {
+          "stop_id": "2167",
+          "stop_name": "Bukowno Sławkowska Pętla",
+          "platform": "0",
+          "file": "2167-slawkow.html"
+        },
+        {
+          "stop_id": "2133",
+          "stop_name": "Sławków Walcownia",
+          "platform": "2",
+          "file": "2133-slawkow.html"
+        },
+        {
+          "stop_id": "0485",
+          "stop_name": "Sławków Rynek",
+          "platform": "1",
+          "file": "0485-slawkow.html"
+        },
+        {
+          "stop_id": "0486",
+          "stop_name": "Sławków Poczta",
+          "platform": "1",
+          "file": "0486-slawkow.html"
+        },
+        {
+          "stop_id": "0487",
+          "stop_name": "Sławków Dworzec PKP",
+          "platform": "1",
+          "file": "0487-slawkow.html"
+        },
+        {
+          "stop_id": "0488",
+          "stop_name": "Sławków Kolejowa",
+          "platform": "1",
+          "file": "0488-slawkow.html"
+        },
+        {
+          "stop_id": "0489",
+          "stop_name": "Sławków Owocowa",
+          "platform": "1",
+          "file": "0489-slawkow.html"
+        },
+        {
+          "stop_id": "0490",
+          "stop_name": "Sławków Korzenna",
+          "platform": "2",
+          "file": "0490-slawkow.html"
+        },
+        {
+          "stop_id": "2138",
+          "stop_name": "Sławków Niwa Hrubieszowska",
+          "platform": "1",
+          "file": "2138-slawkow.html"
+        },
+        {
+          "stop_id": "2143",
+          "stop_name": "Sławków Niwa Schronisko",
+          "platform": "2",
+          "file": "2143-slawkow.html"
+        },
+        {
+          "stop_id": "2142",
+          "stop_name": "Sławków Burki",
+          "platform": "2",
+          "file": "2142-slawkow.html"
+        },
+        {
+          "stop_id": "2141",
+          "stop_name": "Sławków Burki Pętla",
+          "platform": "0",
+          "file": "2141-slawkow.html"
+        }
+      ],
+      "timetables": [
+        {
+          "stop_id": "0001",
+          "stop_name": "Wolbrom Nowa PKS",
+          "platform": "0",
+          "file": "0001-slawkow.html",
+          "departures": {
+            "workday": [
+              "04:15",
+              "05:26",
+              "06:49BS",
+              "07:58B",
+              "09:00S",
+              "10:04",
+              "11:40B",
+              "12:57",
+              "13:58S",
+              "15:10",
+              "16:31BS",
+              "17:06",
+              "18:47B",
+              "20:00S",
+              "21:00",
+              "22:20BS"
+            ],
+            "saturday": [
+              "04:15",
+              "05:56",
+              "07:58B",
+              "09:30S",
+              "11:40B",
+              "13:27",
+              "15:10",
+              "17:01S",
+              "18:47B",
+              "20:30S",
+              "22:20BS"
+            ],
+            "sunday": [
+              "04:46",
+              "06:49BS",
+              "08:20S",
+              "10:04S",
+              "12:17",
+              "13:41S",
+              "15:51S",
+              "17:06B",
+              "19:20S",
+              "21:00S"
+            ],
+            "holiday": [
+              "05:55",
+              "10:00S"
+            ]
+          }
+        },
+        {
+          "stop_id": "2289",
+          "stop_name": "Lgota Wolbromska Las",
+          "platform": "1",
+          "file": "2289-slawkow.html",
+          "departures": {
+            "workday": [
+              "04:19",
+              "05:30",
+              "06:53BS",
+              "08:02B",
+              "09:04S",
+              "10:08",
+              "11:44B",
+              "13:01",
+              "14:02S",
+              "15:14",
+              "16:35BS",
+              "17:10",
+              "18:51B",
+              "20:04S",
+              "21:04",
+              "22:24BS"
+            ],
+            "saturday": [
+              "04:19",
+              "06:00",
+              "08:02B",
+              "09:34S",
+              "11:44B",
+              "13:31",
+              "15:14",
+              "17:05S",
+              "18:51B",
+              "20:34S",
+              "22:24BS"
+            ],
+            "sunday": [
+              "04:50",
+              "06:53BS",
+              "08:24S",
+              "10:08S",
+              "12:21",
+              "13:45S",
+              "15:55S",
+              "17:10B",
+              "19:24S",
+              "21:04S"
+            ],
+            "holiday": [
+              "05:59",
+              "10:04S"
+            ]
+          }
+        },
+        {
+          "stop_id": "2288",
+          "stop_name": "Lgota Wolbromska Rędziny",
+          "platform": "1",
+          "file": "2288-slawkow.html",
+          "departures": {
+            "workday": [
+              "04:21",
+              "05:32",
+              "06:55BS",
+              "08:04B",
+              "09:06S",
+              "10:10",
+              "11:46B",
+              "13:03",
+              "14:04S",
+              "15:16",
+              "16:37BS",
+              "17:12",
+              "18:53B",
+              "20:06S",
+              "21:06",
+              "22:26BS"
+            ],
+            "saturday": [
+              "04:21",
+              "06:02",
+              "08:04B",
+              "09:36S",
+              "11:46B",
+              "13:33",
+              "15:16",
+              "17:07S",
+              "18:53B",
+              "20:36S",
+              "22:26BS"
+            ],
+            "sunday": [
+              "04:52",
+              "06:55BS",
+              "08:26S",
+              "10:10S",
+              "12:23",
+              "13:47S",
+              "15:57S",
+              "17:12B",
+              "19:26S",
+              "21:06S"
+            ],
+            "holiday": [
+              "06:01",
+              "10:06S"
+            ]
+          }
+        },
+        {
+          "stop_id": "2312",
+          "stop_name": "Lgota Wolbromska Skrzyżowanie",
+          "platform": "1",
+          "file": "2312-slawkow.html",
+          "departures": {
+            "workday": [
+              "04:22",
+              "05:33",
+              "06:56BS",
+              "08:05B",
+              "09:07S",
+              "10:11",
+              "11:47B",
+              "13:04",
+              "14:05S",
+              "15:17",
+              "16:38BS",
+              "17:13",
+              "18:54B",
+              "20:07S",
+              "21:07",
+              "22:27BS"
+            ],
+            "saturday": [
+              "04:22",
+              "06:03",
+              "08:05B",
+              "09:37S",
+              "11:47B",
+              "13:34",
+              "15:17",
+              "17:08S",
+              "18:54B",
+              "20:37S",
+              "22:27BS"
+            ],
+            "sunday": [
+              "04:53",
+              "06:56BS",
+              "08:27S",
+              "10:11S",
+              "12:24",
+              "13:48S",
+              "15:58S",
+              "17:13B",
+              "19:27S",
+              "21:07S"
+            ],
+            "holiday": [
+              "06:02",
+              "10:07S"
+            ]
+          }
+        },
+        {
+          "stop_id": "2406",
+          "stop_name": "Zarzecze Piastowska",
+          "platform": "1",
+          "file": "2406-slawkow.html",
+          "departures": {
+            "workday": [
+              "04:24",
+              "05:35",
+              "06:58BS",
+              "08:07B",
+              "09:09S",
+              "10:13",
+              "11:49B",
+              "13:06",
+              "14:07S",
+              "15:19",
+              "16:40BS",
+              "17:15",
+              "18:56B",
+              "20:09S",
+              "21:09",
+              "22:29BS"
+            ],
+            "saturday": [
+              "04:24",
+              "06:05",
+              "08:07B",
+              "09:39S",
+              "11:49B",
+              "13:36",
+              "15:19",
+              "17:10S",
+              "18:56B",
+              "20:39S",
+              "22:29BS"
+            ],
+            "sunday": [
+              "04:55",
+              "06:58BS",
+              "08:29S",
+              "10:13S",
+              "12:26",
+              "13:50S",
+              "16:00S",
+              "17:15B",
+              "19:29S",
+              "21:09S"
+            ],
+            "holiday": [
+              "06:04",
+              "10:09S"
+            ]
+          }
+        },
+        {
+          "stop_id": "2419",
+          "stop_name": "Zarzecze Szkoła",
+          "platform": "2",
+          "file": "2419-slawkow.html",
+          "departures": {
+            "workday": [
+              "04:26",
+              "05:37",
+              "07:00BS",
+              "08:09B",
+              "09:11S",
+              "10:15",
+              "11:51B",
+              "13:08",
+              "14:09S",
+              "15:21",
+              "16:42BS",
+              "17:17",
+              "18:58B",
+              "20:11S",
+              "21:11",
+              "22:31BS"
+            ],
+            "saturday": [
+              "04:26",
+              "06:07",
+              "08:09B",
+              "09:41S",
+              "11:51B",
+              "13:38",
+              "15:21",
+              "17:12S",
+              "18:58B",
+              "20:41S",
+              "22:31BS"
+            ],
+            "sunday": [
+              "04:57",
+              "07:00BS",
+              "08:31S",
+              "10:15S",
+              "12:28",
+              "13:52S",
+              "16:02S",
+              "17:17B",
+              "19:31S",
+              "21:11S"
+            ],
+            "holiday": [
+              "06:06",
+              "10:11S"
+            ]
+          }
+        },
+        {
+          "stop_id": "2418",
+          "stop_name": "Zarzecze",
+          "platform": "2",
+          "file": "2418-slawkow.html",
+          "departures": {
+            "workday": [
+              "04:28",
+              "05:39",
+              "07:02BS",
+              "08:11B",
+              "09:13S",
+              "10:17",
+              "11:53B",
+              "13:10",
+              "14:11S",
+              "15:23",
+              "16:44BS",
+              "17:19",
+              "19:00B",
+              "20:13S",
+              "21:13",
+              "22:33BS"
+            ],
+            "saturday": [
+              "04:28",
+              "06:09",
+              "08:11B",
+              "09:43S",
+              "11:53B",
+              "13:40",
+              "15:23",
+              "17:14S",
+              "19:00B",
+              "20:43S",
+              "22:33BS"
+            ],
+            "sunday": [
+              "04:59",
+              "07:02BS",
+              "08:33S",
+              "10:17S",
+              "12:30",
+              "13:54S",
+              "16:04S",
+              "17:19B",
+              "19:33S",
+              "21:13S"
+            ],
+            "holiday": [
+              "06:08",
+              "10:13S"
+            ]
+          }
+        },
+        {
+          "stop_id": "2332",
+          "stop_name": "Zarzecze Zacisze",
+          "platform": "1",
+          "file": "2332-slawkow.html",
+          "departures": {
+            "workday": [
+              "04:29",
+              "05:40",
+              "07:03BS",
+              "08:12B",
+              "09:14S",
+              "10:18",
+              "11:54B",
+              "13:11",
+              "14:12S",
+              "15:24",
+              "16:45BS",
+              "17:20",
+              "19:01B",
+              "20:14S",
+              "21:14",
+              "22:34BS"
+            ],
+            "saturday": [
+              "04:29",
+              "06:10",
+              "08:12B",
+              "09:44S",
+              "11:54B",
+              "13:41",
+              "15:24",
+              "17:15S",
+              "19:01B",
+              "20:44S",
+              "22:34BS"
+            ],
+            "sunday": [
+              "05:00",
+              "07:03BS",
+              "08:34S",
+              "10:18S",
+              "12:31",
+              "13:55S",
+              "16:05S",
+              "17:20B",
+              "19:34S",
+              "21:14S"
+            ],
+            "holiday": [
+              "06:09",
+              "10:14S"
+            ]
+          }
+        },
+        {
+          "stop_id": "2411",
+          "stop_name": "Zarzecze Wyzwolenia",
+          "platform": "1",
+          "file": "2411-slawkow.html",
+          "departures": {
+            "workday": [
+              "04:30",
+              "05:41",
+              "07:04BS",
+              "08:13B",
+              "09:15S",
+              "10:19",
+              "11:55B",
+              "13:12",
+              "14:13S",
+              "15:25",
+              "16:46BS",
+              "17:21",
+              "19:02B",
+              "20:15S",
+              "21:15",
+              "22:35BS"
+            ],
+            "saturday": [
+              "04:30",
+              "06:11",
+              "08:13B",
+              "09:45S",
+              "11:55B",
+              "13:42",
+              "15:25",
+              "17:16S",
+              "19:02B",
+              "20:45S",
+              "22:35BS"
+            ],
+            "sunday": [
+              "05:01",
+              "07:04BS",
+              "08:35S",
+              "10:19S",
+              "12:32",
+              "13:56S",
+              "16:06S",
+              "17:21B",
+              "19:35S",
+              "21:15S"
+            ],
+            "holiday": [
+              "06:10",
+              "10:15S"
+            ]
+          }
+        },
+        {
+          "stop_id": "2410",
+          "stop_name": "Zarzecze II",
+          "platform": "1",
+          "file": "2410-slawkow.html",
+          "departures": {
+            "workday": [
+              "04:31",
+              "05:42",
+              "07:05BS",
+              "08:14B",
+              "09:16S",
+              "10:20",
+              "11:56B",
+              "13:13",
+              "14:14S",
+              "15:26",
+              "16:47BS",
+              "17:22",
+              "19:03B",
+              "20:16S",
+              "21:16",
+              "22:36BS"
+            ],
+            "saturday": [
+              "04:31",
+              "06:12",
+              "08:14B",
+              "09:46S",
+              "11:56B",
+              "13:43",
+              "15:26",
+              "17:17S",
+              "19:03B",
+              "20:46S",
+              "22:36BS"
+            ],
+            "sunday": [
+              "05:02",
+              "07:05BS",
+              "08:36S",
+              "10:20S",
+              "12:33",
+              "13:57S",
+              "16:07S",
+              "17:22B",
+              "19:36S",
+              "21:16S"
+            ],
+            "holiday": [
+              "06:11",
+              "10:16S"
+            ]
+          }
+        },
+        {
+          "stop_id": "2417",
+          "stop_name": "Zarzecze III",
+          "platform": "2",
+          "file": "2417-slawkow.html",
+          "departures": {
+            "workday": [
+              "04:32",
+              "05:43",
+              "07:06BS",
+              "08:15B",
+              "09:17S",
+              "10:21",
+              "11:57B",
+              "13:14",
+              "14:15S",
+              "15:27",
+              "16:48BS",
+              "17:23",
+              "19:04B",
+              "20:17S",
+              "21:17",
+              "22:37BS"
+            ],
+            "saturday": [
+              "04:32",
+              "06:13",
+              "08:15B",
+              "09:47S",
+              "11:57B",
+              "13:44",
+              "15:27",
+              "17:18S",
+              "19:04B",
+              "20:47S",
+              "22:37BS"
+            ],
+            "sunday": [
+              "05:03",
+              "07:06BS",
+              "08:37S",
+              "10:21S",
+              "12:34",
+              "13:58S",
+              "16:08S",
+              "17:23B",
+              "19:37S",
+              "21:17S"
+            ],
+            "holiday": [
+              "06:12",
+              "10:17S"
+            ]
+          }
+        },
+        {
+          "stop_id": "2412",
+          "stop_name": "Chrząstowice",
+          "platform": "1",
+          "file": "2412-slawkow.html",
+          "departures": {
+            "workday": [
+              "04:34",
+              "05:45",
+              "07:08BS",
+              "08:17B",
+              "09:19S",
+              "10:23",
+              "11:59B",
+              "13:16",
+              "14:17S",
+              "15:29",
+              "16:50BS",
+              "17:25",
+              "19:06B",
+              "20:19S",
+              "21:19",
+              "22:39BS"
+            ],
+            "saturday": [
+              "04:34",
+              "06:15",
+              "08:17B",
+              "09:49S",
+              "11:59B",
+              "13:46",
+              "15:29",
+              "17:20S",
+              "19:06B",
+              "20:49S",
+              "22:39BS"
+            ],
+            "sunday": [
+              "05:05",
+              "07:08BS",
+              "08:39S",
+              "10:23S",
+              "12:36",
+              "14:00S",
+              "16:10S",
+              "17:25B",
+              "19:39S",
+              "21:19S"
+            ],
+            "holiday": [
+              "06:14",
+              "10:19S"
+            ]
+          }
+        },
+        {
+          "stop_id": "3300",
+          "stop_name": "Pazurek Kolonia",
+          "platform": "1",
+          "file": "3300-slawkow.html",
+          "departures": {
+            "workday": [
+              "04:38",
+              "05:49",
+              "07:12BS",
+              "08:21B",
+              "09:23S",
+              "10:27",
+              "12:03B",
+              "13:20",
+              "14:21S",
+              "15:33",
+              "16:54BS",
+              "17:29",
+              "19:10B",
+              "20:23S",
+              "21:23",
+              "22:43BS"
+            ],
+            "saturday": [
+              "04:38",
+              "06:19",
+              "08:21B",
+              "09:53S",
+              "12:03B",
+              "13:50",
+              "15:33",
+              "17:24S",
+              "19:10B",
+              "20:53S",
+              "22:43BS"
+            ],
+            "sunday": [
+              "05:09",
+              "07:12BS",
+              "08:43S",
+              "10:27S",
+              "12:40",
+              "14:04S",
+              "16:14S",
+              "17:29B",
+              "19:43S",
+              "21:23S"
+            ],
+            "holiday": [
+              "06:18",
+              "10:23S"
+            ]
+          }
+        },
+        {
+          "stop_id": "3302",
+          "stop_name": "Pazurek Kaplica",
+          "platform": "2",
+          "file": "3302-slawkow.html",
+          "departures": {
+            "workday": [
+              "04:39",
+              "05:50",
+              "07:13BS",
+              "08:22B",
+              "09:24S",
+              "10:28",
+              "12:04B",
+              "13:21",
+              "14:22S",
+              "15:34",
+              "16:55BS",
+              "17:30",
+              "19:11B",
+              "20:24S",
+              "21:24",
+              "22:44BS"
+            ],
+            "saturday": [
+              "04:39",
+              "06:20",
+              "08:22B",
+              "09:54S",
+              "12:04B",
+              "13:51",
+              "15:34",
+              "17:25S",
+              "19:11B",
+              "20:54S",
+              "22:44BS"
+            ],
+            "sunday": [
+              "05:10",
+              "07:13BS",
+              "08:44S",
+              "10:28S",
+              "12:41",
+              "14:05S",
+              "16:15S",
+              "17:30B",
+              "19:44S",
+              "21:24S"
+            ],
+            "holiday": [
+              "06:19",
+              "10:24S"
+            ]
+          }
+        },
+        {
+          "stop_id": "3304",
+          "stop_name": "Podlesie Las",
+          "platform": "2",
+          "file": "3304-slawkow.html",
+          "departures": {
+            "workday": [
+              "04:42",
+              "05:53",
+              "07:16BS",
+              "08:25B",
+              "09:27S",
+              "10:31",
+              "12:07B",
+              "13:24",
+              "14:25S",
+              "15:37",
+              "16:58BS",
+              "17:33",
+              "19:14B",
+              "20:27S",
+              "21:27",
+              "22:47BS"
+            ],
+            "saturday": [
+              "04:42",
+              "06:23",
+              "08:25B",
+              "09:57S",
+              "12:07B",
+              "13:54",
+              "15:37",
+              "17:28S",
+              "19:14B",
+              "20:57S",
+              "22:47BS"
+            ],
+            "sunday": [
+              "05:13",
+              "07:16BS",
+              "08:47S",
+              "10:31S",
+              "12:44",
+              "14:08S",
+              "16:18S",
+              "17:33B",
+              "19:47S",
+              "21:27S"
+            ],
+            "holiday": [
+              "06:22",
+              "10:27S"
+            ]
+          }
+        },
+        {
+          "stop_id": "2041",
+          "stop_name": "Olkusz Zagaje II",
+          "platform": "1",
+          "file": "2041-slawkow.html",
+          "departures": {
+            "workday": [
+              "04:47",
+              "05:58",
+              "07:21BS",
+              "08:30B",
+              "09:32S",
+              "10:36",
+              "12:12B",
+              "13:29",
+              "14:30S",
+              "15:42",
+              "17:03BS",
+              "17:38",
+              "19:19B",
+              "20:32S",
+              "21:32",
+              "22:52BS"
+            ],
+            "saturday": [
+              "04:47",
+              "06:28",
+              "08:30B",
+              "10:02S",
+              "12:12B",
+              "13:59",
+              "15:42",
+              "17:33S",
+              "19:19B",
+              "21:02S",
+              "22:52BS"
+            ],
+            "sunday": [
+              "05:18",
+              "07:21BS",
+              "08:52S",
+              "10:36S",
+              "12:49",
+              "14:13S",
+              "16:23S",
+              "17:38B",
+              "19:52S",
+              "21:32S"
+            ],
+            "holiday": [
+              "06:27",
+              "10:32S"
+            ]
+          }
+        },
+        {
+          "stop_id": "2042",
+          "stop_name": "Olkusz Zagaje",
+          "platform": "1",
+          "file": "2042-slawkow.html",
+          "departures": {
+            "workday": [
+              "04:48",
+              "05:59",
+              "07:22BS",
+              "08:31B",
+              "09:33S",
+              "10:37",
+              "12:13B",
+              "13:30",
+              "14:31S",
+              "15:43",
+              "17:04BS",
+              "17:39",
+              "19:20B",
+              "20:33S",
+              "21:33",
+              "22:53BS"
+            ],
+            "saturday": [
+              "04:48",
+              "06:29",
+              "08:31B",
+              "10:03S",
+              "12:13B",
+              "14:00",
+              "15:43",
+              "17:34S",
+              "19:20B",
+              "21:03S",
+              "22:53BS"
+            ],
+            "sunday": [
+              "05:19",
+              "07:22BS",
+              "08:53S",
+              "10:37S",
+              "12:50",
+              "14:14S",
+              "16:24S",
+              "17:39B",
+              "19:53S",
+              "21:33S"
+            ],
+            "holiday": [
+              "06:28",
+              "10:33S"
+            ]
+          }
+        },
+        {
+          "stop_id": "0225",
+          "stop_name": "Olkusz Aleja Tysiąclecia",
+          "platform": "2",
+          "file": "0225-slawkow.html",
+          "departures": {
+            "workday": [
+              "04:50",
+              "06:01",
+              "07:24BS",
+              "08:33B",
+              "09:35S",
+              "10:39",
+              "12:15B",
+              "13:32",
+              "14:33S",
+              "15:45",
+              "17:06BS",
+              "17:41",
+              "19:22B",
+              "20:35S",
+              "21:35",
+              "22:55BS"
+            ],
+            "saturday": [
+              "04:50",
+              "06:31",
+              "08:33B",
+              "10:05S",
+              "12:15B",
+              "14:02",
+              "15:45",
+              "17:36S",
+              "19:22B",
+              "21:05S",
+              "22:55BS"
+            ],
+            "sunday": [
+              "05:21",
+              "07:24BS",
+              "08:55S",
+              "10:39S",
+              "12:52",
+              "14:16S",
+              "16:26S",
+              "17:41B",
+              "19:55S",
+              "21:35S"
+            ],
+            "holiday": [
+              "06:30",
+              "10:35S"
+            ]
+          }
+        },
+        {
+          "stop_id": "0226",
+          "stop_name": "Olkusz Wiadukt",
+          "platform": "2",
+          "file": "0226-slawkow.html",
+          "departures": {
+            "workday": [
+              "04:52",
+              "06:03",
+              "07:26BS",
+              "08:35B",
+              "09:37S",
+              "10:41",
+              "12:17B",
+              "13:34",
+              "14:35S",
+              "15:47",
+              "17:08BS",
+              "17:43",
+              "19:24B",
+              "20:37S",
+              "21:37",
+              "22:57BS"
+            ],
+            "saturday": [
+              "04:52",
+              "06:33",
+              "08:35B",
+              "10:07S",
+              "12:17B",
+              "14:04",
+              "15:47",
+              "17:38S",
+              "19:24B",
+              "21:07S",
+              "22:57BS"
+            ],
+            "sunday": [
+              "05:23",
+              "07:26BS",
+              "08:57S",
+              "10:41S",
+              "12:54",
+              "14:18S",
+              "16:28S",
+              "17:43B",
+              "19:57S",
+              "21:37S"
+            ],
+            "holiday": [
+              "06:32",
+              "10:37S"
+            ]
+          }
+        },
+        {
+          "stop_id": "0227",
+          "stop_name": "Olkusz Dworzec PKP",
+          "platform": "2",
+          "file": "0227-slawkow.html",
+          "departures": {
+            "workday": [
+              "04:54",
+              "06:05",
+              "07:28BS",
+              "08:37B",
+              "09:39S",
+              "10:43",
+              "12:19B",
+              "13:36",
+              "14:37S",
+              "15:49",
+              "17:10BS",
+              "17:45",
+              "19:26B",
+              "20:39S",
+              "21:39",
+              "22:59BS"
+            ],
+            "saturday": [
+              "04:54",
+              "06:35",
+              "08:37B",
+              "10:09S",
+              "12:19B",
+              "14:06",
+              "15:49",
+              "17:40S",
+              "19:26B",
+              "21:09S",
+              "22:59BS"
+            ],
+            "sunday": [
+              "05:25",
+              "07:28BS",
+              "08:59S",
+              "10:43S",
+              "12:56",
+              "14:20S",
+              "16:30S",
+              "17:45B",
+              "19:59S",
+              "21:39S"
+            ],
+            "holiday": [
+              "06:34",
+              "10:39S"
+            ]
+          }
+        },
+        {
+          "stop_id": "0228",
+          "stop_name": "Olkusz Skarbek",
+          "platform": "1",
+          "file": "0228-slawkow.html",
+          "departures": {
+            "workday": [
+              "04:56",
+              "06:07",
+              "07:30BS",
+              "08:39B",
+              "09:41S",
+              "10:45",
+              "12:21B",
+              "13:38",
+              "14:39S",
+              "15:51",
+              "17:12BS",
+              "17:47",
+              "19:28B",
+              "20:41S",
+              "21:41",
+              "23:01BS"
+            ],
+            "saturday": [
+              "04:56",
+              "06:37",
+              "08:39B",
+              "10:11S",
+              "12:21B",
+              "14:08",
+              "15:51",
+              "17:42S",
+              "19:28B",
+              "21:11S",
+              "23:01BS"
+            ],
+            "sunday": [
+              "05:27",
+              "07:30BS",
+              "09:01S",
+              "10:45S",
+              "12:58",
+              "14:22S",
+              "16:32S",
+              "17:47B",
+              "20:01S",
+              "21:41S"
+            ],
+            "holiday": [
+              "06:36",
+              "10:41S"
+            ]
+          }
+        },
+        {
+          "stop_id": "0175",
+          "stop_name": "Olkusz Górnicza",
+          "platform": "1",
+          "file": "0175-slawkow.html",
+          "departures": {
+            "workday": [
+              "04:58",
+              "06:09",
+              "07:32BS",
+              "08:41B",
+              "09:43S",
+              "10:47",
+              "12:23B",
+              "13:40",
+              "14:41S",
+              "15:53",
+              "17:14BS",
+              "17:49",
+              "19:30B",
+              "20:43S",
+              "21:43",
+              "23:03BS"
+            ],
+            "saturday": [
+              "04:58",
+              "06:39",
+              "08:41B",
+              "10:13S",
+              "12:23B",
+              "14:10",
+              "15:53",
+              "17:44S",
+              "19:30B",
+              "21:13S",
+              "23:03BS"
+            ],
+            "sunday": [
+              "05:29",
+              "07:32BS",
+              "09:03S",
+              "10:47S",
+              "13:00",
+              "14:24S",
+              "16:34S",
+              "17:49B",
+              "20:03S",
+              "21:43S"
+            ],
+            "holiday": [
+              "06:38",
+              "10:43S"
+            ]
+          }
+        },
+        {
+          "stop_id": "0176",
+          "stop_name": "Olkusz Mickiewicza",
+          "platform": "1",
+          "file": "0176-slawkow.html",
+          "departures": {
+            "workday": [
+              "04:59",
+              "06:10",
+              "07:33BS",
+              "08:42B",
+              "09:44S",
+              "10:48",
+              "12:24B",
+              "13:41",
+              "14:42S",
+              "15:54",
+              "17:15BS",
+              "17:50",
+              "19:31B",
+              "20:44S",
+              "21:44",
+              "23:04BS"
+            ],
+            "saturday": [
+              "04:59",
+              "06:40",
+              "08:42B",
+              "10:14S",
+              "12:24B",
+              "14:11",
+              "15:54",
+              "17:45S",
+              "19:31B",
+              "21:14S",
+              "23:04BS"
+            ],
+            "sunday": [
+              "05:30",
+              "07:33BS",
+              "09:04S",
+              "10:48S",
+              "13:01",
+              "14:25S",
+              "16:35S",
+              "17:50B",
+              "20:04S",
+              "21:44S"
+            ],
+            "holiday": [
+              "06:39",
+              "10:44S"
+            ]
+          }
+        },
+        {
+          "stop_id": "0178",
+          "stop_name": "Olkusz Szpitalna",
+          "platform": "1",
+          "file": "0178-slawkow.html",
+          "departures": {
+            "workday": [
+              "05:00",
+              "06:11",
+              "07:34BS",
+              "08:43B",
+              "09:45S",
+              "10:49",
+              "12:25B",
+              "13:42",
+              "14:43S",
+              "15:55",
+              "17:16BS",
+              "17:51",
+              "19:32B",
+              "20:45S",
+              "21:45",
+              "23:05BS"
+            ],
+            "saturday": [
+              "05:00",
+              "06:41",
+              "08:43B",
+              "10:15S",
+              "12:25B",
+              "14:12",
+              "15:55",
+              "17:46S",
+              "19:32B",
+              "21:15S",
+              "23:05BS"
+            ],
+            "sunday": [
+              "05:31",
+              "07:34BS",
+              "09:05S",
+              "10:49S",
+              "13:02",
+              "14:26S",
+              "16:36S",
+              "17:51B",
+              "20:05S",
+              "21:45S"
+            ],
+            "holiday": [
+              "06:40",
+              "10:45S"
+            ]
+          }
+        },
+        {
+          "stop_id": "0179",
+          "stop_name": "Olkusz Żuradzka",
+          "platform": "2",
+          "file": "0179-slawkow.html",
+          "departures": {
+            "workday": [
+              "05:01",
+              "06:12",
+              "07:35BS",
+              "08:44B",
+              "09:46S",
+              "10:50",
+              "12:26B",
+              "13:43",
+              "14:44S",
+              "15:56",
+              "17:17BS",
+              "17:52",
+              "19:33B",
+              "20:46S",
+              "21:46",
+              "23:06BS"
+            ],
+            "saturday": [
+              "05:01",
+              "06:42",
+              "08:44B",
+              "10:16S",
+              "12:26B",
+              "14:13",
+              "15:56",
+              "17:47S",
+              "19:33B",
+              "21:16S",
+              "23:06BS"
+            ],
+            "sunday": [
+              "05:32",
+              "07:35BS",
+              "09:06S",
+              "10:50S",
+              "13:03",
+              "14:27S",
+              "16:37S",
+              "17:52B",
+              "20:06S",
+              "21:46S"
+            ],
+            "holiday": [
+              "06:41",
+              "10:46S"
+            ]
+          }
+        },
+        {
+          "stop_id": "0180",
+          "stop_name": "Olkusz Mazaniec Boczna",
+          "platform": "1",
+          "file": "0180-slawkow.html",
+          "departures": {
+            "workday": [
+              "05:03",
+              "06:14",
+              "07:37BS",
+              "08:46B",
+              "09:48S",
+              "10:52",
+              "12:28B",
+              "13:45",
+              "14:46S",
+              "15:58",
+              "17:19BS",
+              "17:54",
+              "19:35B",
+              "20:48S",
+              "21:48",
+              "23:08BS"
+            ],
+            "saturday": [
+              "05:03",
+              "06:44",
+              "08:46B",
+              "10:18S",
+              "12:28B",
+              "14:15",
+              "15:58",
+              "17:49S",
+              "19:35B",
+              "21:18S",
+              "23:08BS"
+            ],
+            "sunday": [
+              "05:34",
+              "07:37BS",
+              "09:08S",
+              "10:52S",
+              "13:05",
+              "14:29S",
+              "16:39S",
+              "17:54B",
+              "20:08S",
+              "21:48S"
+            ],
+            "holiday": [
+              "06:43",
+              "10:48S"
+            ]
+          }
+        },
+        {
+          "stop_id": "0181",
+          "stop_name": "Olkusz Mazaniec",
+          "platform": "1",
+          "file": "0181-slawkow.html",
+          "departures": {
+            "workday": [
+              "05:04",
+              "06:15",
+              "07:38BS",
+              "08:47B",
+              "09:49S",
+              "10:53",
+              "12:29B",
+              "13:46",
+              "14:47S",
+              "15:59",
+              "17:20BS",
+              "17:55",
+              "19:36B",
+              "20:49S",
+              "21:49",
+              "23:09BS"
+            ],
+            "saturday": [
+              "05:04",
+              "06:45",
+              "08:47B",
+              "10:19S",
+              "12:29B",
+              "14:16",
+              "15:59",
+              "17:50S",
+              "19:36B",
+              "21:19S",
+              "23:09BS"
+            ],
+            "sunday": [
+              "05:35",
+              "07:38BS",
+              "09:09S",
+              "10:53S",
+              "13:06",
+              "14:30S",
+              "16:40S",
+              "17:55B",
+              "20:09S",
+              "21:49S"
+            ],
+            "holiday": [
+              "06:44",
+              "10:49S"
+            ]
+          }
+        },
+        {
+          "stop_id": "1705",
+          "stop_name": "Bukowno Leśniczówka",
+          "platform": "1",
+          "file": "1705-slawkow.html",
+          "departures": {
+            "workday": [
+              "05:08",
+              "06:19",
+              "07:42BS",
+              "08:51B",
+              "09:53S",
+              "10:57",
+              "12:33B",
+              "13:50",
+              "14:51S",
+              "16:03",
+              "17:24BS",
+              "17:59",
+              "19:40B",
+              "20:53S",
+              "21:53",
+              "23:13BS"
+            ],
+            "saturday": [
+              "05:08",
+              "06:49",
+              "08:51B",
+              "10:23S",
+              "12:33B",
+              "14:20",
+              "16:03",
+              "17:54S",
+              "19:40B",
+              "21:23S",
+              "23:13BS"
+            ],
+            "sunday": [
+              "05:39",
+              "07:42BS",
+              "09:13S",
+              "10:57S",
+              "13:10",
+              "14:34S",
+              "16:44S",
+              "17:59B",
+              "20:13S",
+              "21:53S"
+            ],
+            "holiday": [
+              "06:48",
+              "10:53S"
+            ]
+          }
+        },
+        {
+          "stop_id": "1703",
+          "stop_name": "Bukowno Polis",
+          "platform": "1",
+          "file": "1703-slawkow.html",
+          "departures": {
+            "workday": [
+              "05:10",
+              "06:21",
+              "07:44BS",
+              "08:53B",
+              "09:55S",
+              "10:59",
+              "12:35B",
+              "13:52",
+              "14:53S",
+              "16:05",
+              "17:26BS",
+              "18:01",
+              "19:42B",
+              "20:55S",
+              "21:55",
+              "23:15BS"
+            ],
+            "saturday": [
+              "05:10",
+              "06:51",
+              "08:53B",
+              "10:25S",
+              "12:35B",
+              "14:22",
+              "16:05",
+              "17:56S",
+              "19:42B",
+              "21:25S",
+              "23:15BS"
+            ],
+            "sunday": [
+              "05:41",
+              "07:44BS",
+              "09:15S",
+              "10:59S",
+              "13:12",
+              "14:36S",
+              "16:46S",
+              "18:01B",
+              "20:15S",
+              "21:55S"
+            ],
+            "holiday": [
+              "06:50",
+              "10:55S"
+            ]
+          }
+        },
+        {
+          "stop_id": "1701",
+          "stop_name": "Bukowno Parking",
+          "platform": "1",
+          "file": "1701-slawkow.html",
+          "departures": {
+            "workday": [
+              "05:13",
+              "06:24",
+              "07:47BS",
+              "08:56B",
+              "09:58S",
+              "11:02",
+              "12:38B",
+              "13:55",
+              "14:56S",
+              "16:08",
+              "17:29BS",
+              "18:04",
+              "19:45B",
+              "20:58S",
+              "21:58",
+              "23:18BS"
+            ],
+            "saturday": [
+              "05:13",
+              "06:54",
+              "08:56B",
+              "10:28S",
+              "12:38B",
+              "14:25",
+              "16:08",
+              "17:59S",
+              "19:45B",
+              "21:28S",
+              "23:18BS"
+            ],
+            "sunday": [
+              "05:44",
+              "07:47BS",
+              "09:18S",
+              "11:02S",
+              "13:15",
+              "14:39S",
+              "16:49S",
+              "18:04B",
+              "20:18S",
+              "21:58S"
+            ],
+            "holiday": [
+              "06:53",
+              "10:58S"
+            ]
+          }
+        },
+        {
+          "stop_id": "0727",
+          "stop_name": "Bukowno Stadion",
+          "platform": "1",
+          "file": "0727-slawkow.html",
+          "departures": {
+            "workday": [
+              "05:14",
+              "06:25",
+              "07:48BS",
+              "08:57B",
+              "09:59S",
+              "11:03",
+              "12:39B",
+              "13:56",
+              "14:57S",
+              "16:09",
+              "17:30BS",
+              "18:05",
+              "19:46B",
+              "20:59S",
+              "21:59",
+              "23:19BS"
+            ],
+            "saturday": [
+              "05:14",
+              "06:55",
+              "08:57B",
+              "10:29S",
+              "12:39B",
+              "14:26",
+              "16:09",
+              "18:00S",
+              "19:46B",
+              "21:29S",
+              "23:19BS"
+            ],
+            "sunday": [
+              "05:45",
+              "07:48BS",
+              "09:19S",
+              "11:03S",
+              "13:16",
+              "14:40S",
+              "16:50S",
+              "18:05B",
+              "20:19S",
+              "21:59S"
+            ],
+            "holiday": [
+              "06:54",
+              "10:59S"
+            ]
+          }
+        },
+        {
+          "stop_id": "0728",
+          "stop_name": "Bukowno Park",
+          "platform": "2",
+          "file": "0728-slawkow.html",
+          "departures": {
+            "workday": [
+              "05:15",
+              "06:26",
+              "07:49BS",
+              "08:58B",
+              "10:00S",
+              "11:04",
+              "12:40B",
+              "13:57",
+              "14:58S",
+              "16:10",
+              "17:31BS",
+              "18:06",
+              "19:47B",
+              "21:00S",
+              "22:00",
+              "23:20BS"
+            ],
+            "saturday": [
+              "05:15",
+              "06:56",
+              "08:58B",
+              "10:30S",
+              "12:40B",
+              "14:27",
+              "16:10",
+              "18:01S",
+              "19:47B",
+              "21:30S",
+              "23:20BS"
+            ],
+            "sunday": [
+              "05:46",
+              "07:49BS",
+              "09:20S",
+              "11:04S",
+              "13:17",
+              "14:41S",
+              "16:51S",
+              "18:06B",
+              "20:20S",
+              "22:00S"
+            ],
+            "holiday": [
+              "06:55",
+              "11:00S"
+            ]
+          }
+        },
+        {
+          "stop_id": "0729",
+          "stop_name": "Bukowno Tunel",
+          "platform": "1",
+          "file": "0729-slawkow.html",
+          "departures": {
+            "workday": [
+              "05:16",
+              "06:27",
+              "07:50BS",
+              "08:59B",
+              "10:01S",
+              "11:05",
+              "12:41B",
+              "13:58",
+              "14:59S",
+              "16:11",
+              "17:32BS",
+              "18:07",
+              "19:48B",
+              "21:01S",
+              "22:01",
+              "23:21BS"
+            ],
+            "saturday": [
+              "05:16",
+              "06:57",
+              "08:59B",
+              "10:31S",
+              "12:41B",
+              "14:28",
+              "16:11",
+              "18:02S",
+              "19:48B",
+              "21:31S",
+              "23:21BS"
+            ],
+            "sunday": [
+              "05:47",
+              "07:50BS",
+              "09:21S",
+              "11:05S",
+              "13:18",
+              "14:42S",
+              "16:52S",
+              "18:07B",
+              "20:21S",
+              "22:01S"
+            ],
+            "holiday": [
+              "06:56",
+              "11:01S"
+            ]
+          }
+        },
+        {
+          "stop_id": "0730",
+          "stop_name": "Bukowno Kościół",
+          "platform": "1",
+          "file": "0730-slawkow.html",
+          "departures": {
+            "workday": [
+              "05:17",
+              "06:28",
+              "07:51BS",
+              "09:00B",
+              "10:02S",
+              "11:06",
+              "12:42B",
+              "13:59",
+              "15:00S",
+              "16:12",
+              "17:33BS",
+              "18:08",
+              "19:49B",
+              "21:02S",
+              "22:02",
+              "23:22BS"
+            ],
+            "saturday": [
+              "05:17",
+              "06:58",
+              "09:00B",
+              "10:32S",
+              "12:42B",
+              "14:29",
+              "16:12",
+              "18:03S",
+              "19:49B",
+              "21:32S",
+              "23:22BS"
+            ],
+            "sunday": [
+              "05:48",
+              "07:51BS",
+              "09:22S",
+              "11:06S",
+              "13:19",
+              "14:43S",
+              "16:53S",
+              "18:08B",
+              "20:22S",
+              "22:02S"
+            ],
+            "holiday": [
+              "06:57",
+              "11:02S"
+            ]
+          }
+        },
+        {
+          "stop_id": "0731",
+          "stop_name": "Bukowno Skrzyżowanie",
+          "platform": "2",
+          "file": "0731-slawkow.html",
+          "departures": {
+            "workday": [
+              "05:18",
+              "06:29",
+              "07:52BS",
+              "09:01B",
+              "10:03S",
+              "11:07",
+              "12:43B",
+              "14:00",
+              "15:01S",
+              "16:13",
+              "17:34BS",
+              "18:09",
+              "19:50B",
+              "21:03S",
+              "22:03",
+              "23:23BS"
+            ],
+            "saturday": [
+              "05:18",
+              "06:59",
+              "09:01B",
+              "10:33S",
+              "12:43B",
+              "14:30",
+              "16:13",
+              "18:04S",
+              "19:50B",
+              "21:33S",
+              "23:23BS"
+            ],
+            "sunday": [
+              "05:49",
+              "07:52BS",
+              "09:23S",
+              "11:07S",
+              "13:20",
+              "14:44S",
+              "16:54S",
+              "18:09B",
+              "20:23S",
+              "22:03S"
+            ],
+            "holiday": [
+              "06:58",
+              "11:03S"
+            ]
+          }
+        },
+        {
+          "stop_id": "0732",
+          "stop_name": "Bukowno Borowska",
+          "platform": "1",
+          "file": "0732-slawkow.html",
+          "departures": {
+            "workday": [
+              "05:19",
+              "06:30",
+              "10:04S",
+              "11:08",
+              "14:01",
+              "15:02S",
+              "16:14",
+              "18:10",
+              "21:04S",
+              "22:04"
+            ],
+            "saturday": [
+              "05:19",
+              "07:00",
+              "10:34S",
+              "14:31",
+              "16:14",
+              "18:05S",
+              "21:34S"
+            ],
+            "sunday": [
+              "05:50",
+              "09:24S",
+              "11:08S",
+              "13:21",
+              "14:45S",
+              "16:55S",
+              "20:24S",
+              "22:04S"
+            ],
+            "holiday": [
+              "06:59",
+              "11:04S"
+            ]
+          }
+        },
+        {
+          "stop_id": "0733",
+          "stop_name": "Bukowno Bór Biskupi Przeń",
+          "platform": "2",
+          "file": "0733-slawkow.html",
+          "departures": {
+            "workday": [
+              "05:24",
+              "06:35",
+              "10:09S",
+              "11:13",
+              "14:06",
+              "15:07S",
+              "16:19",
+              "18:15",
+              "21:09S",
+              "22:09"
+            ],
+            "saturday": [
+              "05:24",
+              "07:05",
+              "10:39S",
+              "14:36",
+              "16:19",
+              "18:10S",
+              "21:39S"
+            ],
+            "sunday": [
+              "05:55",
+              "09:29S",
+              "11:13S",
+              "13:26",
+              "14:50S",
+              "17:00S",
+              "20:29S",
+              "22:09S"
+            ],
+            "holiday": [
+              "07:04",
+              "11:09S"
+            ]
+          }
+        },
+        {
+          "stop_id": "0734",
+          "stop_name": "Bukowno Bór Biskupi",
+          "platform": "1",
+          "file": "0734-slawkow.html",
+          "departures": {
+            "workday": [
+              "05:25",
+              "06:36",
+              "10:10S",
+              "11:14",
+              "14:07",
+              "15:08S",
+              "16:20",
+              "18:16",
+              "21:10S",
+              "22:10"
+            ],
+            "saturday": [
+              "05:25",
+              "07:06",
+              "10:40S",
+              "14:37",
+              "16:20",
+              "18:11S",
+              "21:40S"
+            ],
+            "sunday": [
+              "05:56",
+              "09:30S",
+              "11:14S",
+              "13:27",
+              "14:51S",
+              "17:01S",
+              "20:30S",
+              "22:10S"
+            ],
+            "holiday": [
+              "07:05",
+              "11:10S"
+            ]
+          }
+        },
+        {
+          "stop_id": "0735",
+          "stop_name": "Bukowno Bór Biskupi OSP",
+          "platform": "0",
+          "file": "0735-slawkow.html",
+          "departures": {
+            "workday": [
+              "05:26",
+              "06:37",
+              "10:11S",
+              "11:15",
+              "14:08",
+              "15:09S",
+              "16:21",
+              "18:17",
+              "21:11S",
+              "22:11"
+            ],
+            "saturday": [
+              "05:26",
+              "07:07",
+              "10:41S",
+              "14:38",
+              "16:21",
+              "18:12S",
+              "21:41S"
+            ],
+            "sunday": [
+              "05:57",
+              "09:31S",
+              "11:15S",
+              "13:28",
+              "14:52S",
+              "17:02S",
+              "20:31S",
+              "22:11S"
+            ],
+            "holiday": [
+              "07:06",
+              "11:11S"
+            ]
+          }
+        },
+        {
+          "stop_id": "0736",
+          "stop_name": "Bukowno Bór Biskupi Pętla",
+          "platform": "0",
+          "file": "0736-slawkow.html",
+          "departures": {
+            "workday": [
+              "05:27",
+              "06:38",
+              "10:12S",
+              "11:16",
+              "14:09",
+              "15:10S",
+              "16:22",
+              "18:18",
+              "21:12S",
+              "22:12"
+            ],
+            "saturday": [
+              "05:27",
+              "07:08",
+              "10:42S",
+              "14:39",
+              "16:22",
+              "18:13S",
+              "21:42S"
+            ],
+            "sunday": [
+              "05:58",
+              "09:32S",
+              "11:16S",
+              "13:29",
+              "14:53S",
+              "17:03S",
+              "20:32S",
+              "22:12S"
+            ],
+            "holiday": [
+              "07:07",
+              "11:12S"
+            ]
+          }
+        },
+        {
+          "stop_id": "0737",
+          "stop_name": "Bukowno Bór Biskupi",
+          "platform": "2",
+          "file": "0737-slawkow.html",
+          "departures": {
+            "workday": [
+              "05:29",
+              "06:40",
+              "10:14S",
+              "11:18",
+              "14:11",
+              "15:12S",
+              "16:24",
+              "18:20",
+              "21:14S",
+              "22:14"
+            ],
+            "saturday": [
+              "05:29",
+              "07:10",
+              "10:44S",
+              "14:41",
+              "16:24",
+              "18:15S",
+              "21:44S"
+            ],
+            "sunday": [
+              "06:00",
+              "09:34S",
+              "11:18S",
+              "13:31",
+              "14:55S",
+              "17:05S",
+              "20:34S",
+              "22:14S"
+            ],
+            "holiday": [
+              "07:09",
+              "11:14S"
+            ]
+          }
+        },
+        {
+          "stop_id": "0738",
+          "stop_name": "Bukowno Bór Biskupi Przeń",
+          "platform": "1",
+          "file": "0738-slawkow.html",
+          "departures": {
+            "workday": [
+              "05:30",
+              "06:41",
+              "10:15S",
+              "11:19",
+              "14:12",
+              "15:13S",
+              "16:25",
+              "18:21",
+              "21:15S",
+              "22:15"
+            ],
+            "saturday": [
+              "05:30",
+              "07:11",
+              "10:45S",
+              "14:42",
+              "16:25",
+              "18:16S",
+              "21:45S"
+            ],
+            "sunday": [
+              "06:01",
+              "09:35S",
+              "11:19S",
+              "13:32",
+              "14:56S",
+              "17:06S",
+              "20:35S",
+              "22:15S"
+            ],
+            "holiday": [
+              "07:10",
+              "11:15S"
+            ]
+          }
+        },
+        {
+          "stop_id": "0739",
+          "stop_name": "Bukowno Borowska",
+          "platform": "2",
+          "file": "0739-slawkow.html",
+          "departures": {
+            "workday": [
+              "05:35",
+              "06:46",
+              "10:20S",
+              "11:24",
+              "14:17",
+              "15:18S",
+              "16:30",
+              "18:26",
+              "21:20S",
+              "22:20"
+            ],
+            "saturday": [
+              "05:35",
+              "07:16",
+              "10:50S",
+              "14:47",
+              "16:30",
+              "18:21S",
+              "21:50S"
+            ],
+            "sunday": [
+              "06:06",
+              "09:40S",
+              "11:24S",
+              "13:37",
+              "15:01S",
+              "17:11S",
+              "20:40S",
+              "22:20S"
+            ],
+            "holiday": [
+              "07:15",
+              "11:20S"
+            ]
+          }
+        },
+        {
+          "stop_id": "0252",
+          "stop_name": "Bukowno Cmentarz",
+          "platform": "1",
+          "file": "0252-slawkow.html",
+          "departures": {
+            "workday": [
+              "05:37",
+              "06:48",
+              "07:55S",
+              "09:04",
+              "10:22S",
+              "11:26",
+              "12:46",
+              "14:19",
+              "15:20S",
+              "16:32",
+              "17:37S",
+              "18:28",
+              "19:53",
+              "21:22S",
+              "22:22",
+              "23:26S"
+            ],
+            "saturday": [
+              "05:37",
+              "07:18",
+              "09:04",
+              "10:52S",
+              "12:46",
+              "14:49",
+              "16:32",
+              "18:23S",
+              "19:53",
+              "21:52S",
+              "23:26S"
+            ],
+            "sunday": [
+              "06:08",
+              "07:55S",
+              "09:42S",
+              "11:26S",
+              "13:39",
+              "15:03S",
+              "17:13S",
+              "18:12",
+              "20:42S",
+              "22:22S"
+            ],
+            "holiday": [
+              "07:17",
+              "11:22S"
+            ]
+          }
+        },
+        {
+          "stop_id": "0253",
+          "stop_name": "Bukowno Remiza",
+          "platform": "0",
+          "file": "0253-slawkow.html",
+          "departures": {
+            "workday": [
+              "05:38",
+              "06:49",
+              "07:56S",
+              "09:05",
+              "10:23S",
+              "11:27",
+              "12:47",
+              "14:20",
+              "15:21S",
+              "16:33",
+              "17:38S",
+              "18:29",
+              "19:54",
+              "21:23S",
+              "22:23",
+              "23:27S"
+            ],
+            "saturday": [
+              "05:38",
+              "07:19",
+              "09:05",
+              "10:53S",
+              "12:47",
+              "14:50",
+              "16:33",
+              "18:24S",
+              "19:54",
+              "21:53S",
+              "23:27S"
+            ],
+            "sunday": [
+              "06:09",
+              "07:56S",
+              "09:43S",
+              "11:27S",
+              "13:40",
+              "15:04S",
+              "17:14S",
+              "18:13",
+              "20:43S",
+              "22:23S"
+            ],
+            "holiday": [
+              "07:18",
+              "11:23S"
+            ]
+          }
+        },
+        {
+          "stop_id": "0254",
+          "stop_name": "Bukowno Skotnica",
+          "platform": "1",
+          "file": "0254-slawkow.html",
+          "departures": {
+            "workday": [
+              "05:39",
+              "06:50",
+              "07:57S",
+              "09:06",
+              "10:24S",
+              "11:28",
+              "12:48",
+              "14:21",
+              "15:22S",
+              "16:34",
+              "17:39S",
+              "18:30",
+              "19:55",
+              "21:24S",
+              "22:24",
+              "23:28S"
+            ],
+            "saturday": [
+              "05:39",
+              "07:20",
+              "09:06",
+              "10:54S",
+              "12:48",
+              "14:51",
+              "16:34",
+              "18:25S",
+              "19:55",
+              "21:54S",
+              "23:28S"
+            ],
+            "sunday": [
+              "06:10",
+              "07:57S",
+              "09:44S",
+              "11:28S",
+              "13:41",
+              "15:05S",
+              "17:15S",
+              "18:14",
+              "20:44S",
+              "22:24S"
+            ],
+            "holiday": [
+              "07:19",
+              "11:24S"
+            ]
+          }
+        },
+        {
+          "stop_id": "0255",
+          "stop_name": "Bukowno Sklep",
+          "platform": "1",
+          "file": "0255-slawkow.html",
+          "departures": {
+            "workday": [
+              "05:40",
+              "06:51",
+              "07:58S",
+              "09:07",
+              "10:25S",
+              "11:29",
+              "12:49",
+              "14:22",
+              "15:23S",
+              "16:35",
+              "17:40S",
+              "18:31",
+              "19:56",
+              "21:25S",
+              "22:25",
+              "23:29S"
+            ],
+            "saturday": [
+              "05:40",
+              "07:21",
+              "09:07",
+              "10:55S",
+              "12:49",
+              "14:52",
+              "16:35",
+              "18:26S",
+              "19:56",
+              "21:55S",
+              "23:29S"
+            ],
+            "sunday": [
+              "06:11",
+              "07:58S",
+              "09:45S",
+              "11:29S",
+              "13:42",
+              "15:06S",
+              "17:16S",
+              "18:15",
+              "20:45S",
+              "22:25S"
+            ],
+            "holiday": [
+              "07:20",
+              "11:25S"
+            ]
+          }
+        },
+        {
+          "stop_id": "2163",
+          "stop_name": "Bukowno Stare Wieś",
+          "platform": "1",
+          "file": "2163-slawkow.html",
+          "departures": {
+            "workday": [
+              "05:41",
+              "06:52",
+              "07:59S",
+              "09:08",
+              "10:26S",
+              "11:30",
+              "12:50",
+              "14:23",
+              "15:24S",
+              "16:36",
+              "17:41S",
+              "18:32",
+              "19:57",
+              "21:26S",
+              "22:26",
+              "23:30S"
+            ],
+            "saturday": [
+              "05:41",
+              "07:22",
+              "09:08",
+              "10:56S",
+              "12:50",
+              "14:53",
+              "16:36",
+              "18:27S",
+              "19:57",
+              "21:56S",
+              "23:30S"
+            ],
+            "sunday": [
+              "06:12",
+              "07:59S",
+              "09:46S",
+              "11:30S",
+              "13:43",
+              "15:07S",
+              "17:17S",
+              "18:16",
+              "20:46S",
+              "22:26S"
+            ],
+            "holiday": [
+              "07:21",
+              "11:26S"
+            ]
+          }
+        },
+        {
+          "stop_id": "2165",
+          "stop_name": "Bukowno Świnia Góra",
+          "platform": "1",
+          "file": "2165-slawkow.html",
+          "departures": {
+            "workday": [
+              "05:42",
+              "06:53",
+              "08:00S",
+              "09:09",
+              "10:27S",
+              "11:31",
+              "12:51",
+              "14:24",
+              "15:25S",
+              "16:37",
+              "17:42S",
+              "18:33",
+              "19:58",
+              "21:27S",
+              "22:27",
+              "23:31S"
+            ],
+            "saturday": [
+              "05:42",
+              "07:23",
+              "09:09",
+              "10:57S",
+              "12:51",
+              "14:54",
+              "16:37",
+              "18:28S",
+              "19:58",
+              "21:57S",
+              "23:31S"
+            ],
+            "sunday": [
+              "06:13",
+              "08:00S",
+              "09:47S",
+              "11:31S",
+              "13:44",
+              "15:08S",
+              "17:18S",
+              "18:17",
+              "20:47S",
+              "22:27S"
+            ],
+            "holiday": [
+              "07:22",
+              "11:27S"
+            ]
+          }
+        },
+        {
+          "stop_id": "2167",
+          "stop_name": "Bukowno Sławkowska Pętla",
+          "platform": "0",
+          "file": "2167-slawkow.html",
+          "departures": {
+            "workday": [
+              "05:43",
+              "06:54",
+              "08:01S",
+              "09:10",
+              "10:28S",
+              "11:32",
+              "12:52",
+              "14:25",
+              "15:26S",
+              "16:38",
+              "17:43S",
+              "18:34",
+              "19:59",
+              "21:28S",
+              "22:28",
+              "23:32S"
+            ],
+            "saturday": [
+              "05:43",
+              "07:24",
+              "09:10",
+              "10:58S",
+              "12:52",
+              "14:55",
+              "16:38",
+              "18:29S",
+              "19:59",
+              "21:58S",
+              "23:32S"
+            ],
+            "sunday": [
+              "06:14",
+              "08:01S",
+              "09:48S",
+              "11:32S",
+              "13:45",
+              "15:09S",
+              "17:19S",
+              "18:18",
+              "20:48S",
+              "22:28S"
+            ],
+            "holiday": [
+              "07:23",
+              "11:28S"
+            ]
+          }
+        },
+        {
+          "stop_id": "2133",
+          "stop_name": "Sławków Walcownia",
+          "platform": "2",
+          "file": "2133-slawkow.html",
+          "departures": {
+            "workday": [
+              "05:46",
+              "06:57",
+              "08:04S",
+              "09:13",
+              "10:31S",
+              "11:35",
+              "12:55",
+              "14:28",
+              "15:29S",
+              "16:41",
+              "17:46S",
+              "18:37",
+              "20:02",
+              "21:31S",
+              "22:31",
+              "23:35S"
+            ],
+            "saturday": [
+              "05:46",
+              "07:27",
+              "09:13",
+              "11:01S",
+              "12:55",
+              "14:58",
+              "16:41",
+              "18:32S",
+              "20:02",
+              "22:01S",
+              "23:35S"
+            ],
+            "sunday": [
+              "06:17",
+              "08:04S",
+              "09:51S",
+              "11:35S",
+              "13:48",
+              "15:12S",
+              "17:22S",
+              "18:21",
+              "20:51S",
+              "22:31S"
+            ],
+            "holiday": [
+              "07:26",
+              "11:31S"
+            ]
+          }
+        },
+        {
+          "stop_id": "0485",
+          "stop_name": "Sławków Rynek",
+          "platform": "1",
+          "file": "0485-slawkow.html",
+          "departures": {
+            "workday": [
+              "05:48",
+              "06:59",
+              "09:15",
+              "11:37",
+              "12:57",
+              "14:30",
+              "16:43",
+              "18:39",
+              "20:04",
+              "22:33"
+            ],
+            "saturday": [
+              "05:48",
+              "07:29",
+              "09:15",
+              "12:57",
+              "15:00",
+              "16:43",
+              "20:04"
+            ],
+            "sunday": [
+              "06:19",
+              "13:50",
+              "18:23"
+            ],
+            "holiday": [
+              "07:28"
+            ]
+          }
+        },
+        {
+          "stop_id": "0486",
+          "stop_name": "Sławków Poczta",
+          "platform": "1",
+          "file": "0486-slawkow.html",
+          "departures": {
+            "workday": [
+              "05:50",
+              "07:01",
+              "09:17",
+              "11:39",
+              "12:59",
+              "14:32",
+              "16:45",
+              "18:41",
+              "20:06",
+              "22:35"
+            ],
+            "saturday": [
+              "05:50",
+              "07:31",
+              "09:17",
+              "12:59",
+              "15:02",
+              "16:45",
+              "20:06"
+            ],
+            "sunday": [
+              "06:21",
+              "13:52",
+              "18:25"
+            ],
+            "holiday": [
+              "07:30"
+            ]
+          }
+        },
+        {
+          "stop_id": "0487",
+          "stop_name": "Sławków Dworzec PKP",
+          "platform": "1",
+          "file": "0487-slawkow.html",
+          "departures": {
+            "workday": [
+              "05:52",
+              "07:03",
+              "09:19",
+              "11:41",
+              "13:01",
+              "14:34",
+              "16:47",
+              "18:43",
+              "20:08",
+              "22:37"
+            ],
+            "saturday": [
+              "05:52",
+              "07:33",
+              "09:19",
+              "13:01",
+              "15:04",
+              "16:47",
+              "20:08"
+            ],
+            "sunday": [
+              "06:23",
+              "13:54",
+              "18:27"
+            ],
+            "holiday": [
+              "07:32"
+            ]
+          }
+        },
+        {
+          "stop_id": "0488",
+          "stop_name": "Sławków Kolejowa",
+          "platform": "1",
+          "file": "0488-slawkow.html",
+          "departures": {
+            "workday": [
+              "05:54",
+              "07:05",
+              "09:21",
+              "11:43",
+              "13:03",
+              "14:36",
+              "16:49",
+              "18:45",
+              "20:10",
+              "22:39"
+            ],
+            "saturday": [
+              "05:54",
+              "07:35",
+              "09:21",
+              "13:03",
+              "15:06",
+              "16:49",
+              "20:10"
+            ],
+            "sunday": [
+              "06:25",
+              "13:56",
+              "18:29"
+            ],
+            "holiday": [
+              "07:34"
+            ]
+          }
+        },
+        {
+          "stop_id": "0489",
+          "stop_name": "Sławków Owocowa",
+          "platform": "1",
+          "file": "0489-slawkow.html",
+          "departures": {
+            "workday": [
+              "05:55",
+              "07:06",
+              "09:22",
+              "11:44",
+              "13:04",
+              "14:37",
+              "16:50",
+              "18:46",
+              "20:11",
+              "22:40"
+            ],
+            "saturday": [
+              "05:55",
+              "07:36",
+              "09:22",
+              "13:04",
+              "15:07",
+              "16:50",
+              "20:11"
+            ],
+            "sunday": [
+              "06:26",
+              "13:57",
+              "18:30"
+            ],
+            "holiday": [
+              "07:35"
+            ]
+          }
+        },
+        {
+          "stop_id": "0490",
+          "stop_name": "Sławków Korzenna",
+          "platform": "2",
+          "file": "0490-slawkow.html",
+          "departures": {
+            "workday": [
+              "05:57",
+              "07:08",
+              "09:24",
+              "11:46",
+              "13:06",
+              "14:39",
+              "16:52",
+              "18:48",
+              "20:13",
+              "22:42"
+            ],
+            "saturday": [
+              "05:57",
+              "07:38",
+              "09:24",
+              "13:06",
+              "15:09",
+              "16:52",
+              "20:13"
+            ],
+            "sunday": [
+              "06:28",
+              "13:59",
+              "18:32"
+            ],
+            "holiday": [
+              "07:37"
+            ]
+          }
+        },
+        {
+          "stop_id": "2138",
+          "stop_name": "Sławków Niwa Hrubieszowska",
+          "platform": "1",
+          "file": "2138-slawkow.html",
+          "departures": {
+            "workday": [
+              "05:58",
+              "07:09",
+              "09:25",
+              "11:47",
+              "13:07",
+              "14:40",
+              "16:53",
+              "18:49",
+              "20:14",
+              "22:43"
+            ],
+            "saturday": [
+              "05:58",
+              "07:39",
+              "09:25",
+              "13:07",
+              "15:10",
+              "16:53",
+              "20:14"
+            ],
+            "sunday": [
+              "06:29",
+              "14:00",
+              "18:33"
+            ],
+            "holiday": [
+              "07:38"
+            ]
+          }
+        },
+        {
+          "stop_id": "2143",
+          "stop_name": "Sławków Niwa Schronisko",
+          "platform": "2",
+          "file": "2143-slawkow.html",
+          "departures": {
+            "workday": [
+              "06:00",
+              "07:11",
+              "09:27",
+              "11:49",
+              "13:09",
+              "14:42",
+              "16:55",
+              "18:51",
+              "20:16",
+              "22:45"
+            ],
+            "saturday": [
+              "06:00",
+              "07:41",
+              "09:27",
+              "13:09",
+              "15:12",
+              "16:55",
+              "20:16"
+            ],
+            "sunday": [
+              "06:31",
+              "14:02",
+              "18:35"
+            ],
+            "holiday": [
+              "07:40"
+            ]
+          }
+        },
+        {
+          "stop_id": "2142",
+          "stop_name": "Sławków Burki",
+          "platform": "2",
+          "file": "2142-slawkow.html",
+          "departures": {
+            "workday": [
+              "06:04",
+              "07:15",
+              "09:31",
+              "11:53",
+              "13:13",
+              "14:46",
+              "16:59",
+              "18:55",
+              "20:20",
+              "22:49"
+            ],
+            "saturday": [
+              "06:04",
+              "07:45",
+              "09:31",
+              "13:13",
+              "15:16",
+              "16:59",
+              "20:20"
+            ],
+            "sunday": [
+              "06:35",
+              "14:06",
+              "18:39"
+            ],
+            "holiday": [
+              "07:44"
+            ]
+          }
+        },
+        {
+          "stop_id": "2141",
+          "stop_name": "Sławków Burki Pętla",
+          "platform": "0",
+          "file": "2141-slawkow.html",
+          "departures": {},
+          "arrival_only": true
+        }
+      ]
+    },
+    {
+      "slug": "wolbrom",
+      "name": "Wolbrom Nowa PKS",
+      "legend": {
+        "A": "do: Bukowno Bór Biskupi Pętla",
+        "B": "z pominięciem: Bukowno Borowska>>Bukowno Bór Biskupi Pętla"
+      },
+      "legend_only_used_symbols": true,
+      "variant_destinations": {
+        "A": "Bukowno Bór Biskupi Pętla"
+      },
+      "route_stops": [
+        {
+          "stop_id": "2141",
+          "stop_name": "Sławków Burki Pętla",
+          "platform": "0",
+          "file": "2141-wolbrom.html"
+        },
+        {
+          "stop_id": "2140",
+          "stop_name": "Sławków Burki",
+          "platform": "1",
+          "file": "2140-wolbrom.html"
+        },
+        {
+          "stop_id": "2139",
+          "stop_name": "Sławków Niwa Schronisko",
+          "platform": "1",
+          "file": "2139-wolbrom.html"
+        },
+        {
+          "stop_id": "2144",
+          "stop_name": "Sławków Niwa Hrubieszowska",
+          "platform": "2",
+          "file": "2144-wolbrom.html"
+        },
+        {
+          "stop_id": "0442",
+          "stop_name": "Sławków Korzenna",
+          "platform": "1",
+          "file": "0442-wolbrom.html"
+        },
+        {
+          "stop_id": "0443",
+          "stop_name": "Sławków Owocowa",
+          "platform": "2",
+          "file": "0443-wolbrom.html"
+        },
+        {
+          "stop_id": "0444",
+          "stop_name": "Sławków Kolejowa",
+          "platform": "2",
+          "file": "0444-wolbrom.html"
+        },
+        {
+          "stop_id": "0445",
+          "stop_name": "Sławków Dworzec PKP",
+          "platform": "2",
+          "file": "0445-wolbrom.html"
+        },
+        {
+          "stop_id": "0446",
+          "stop_name": "Sławków Poczta",
+          "platform": "2",
+          "file": "0446-wolbrom.html"
+        },
+        {
+          "stop_id": "0447",
+          "stop_name": "Sławków Rynek",
+          "platform": "2",
+          "file": "0447-wolbrom.html"
+        },
+        {
+          "stop_id": "2132",
+          "stop_name": "Sławków Walcownia",
+          "platform": "1",
+          "file": "2132-wolbrom.html"
+        },
+        {
+          "stop_id": "2167",
+          "stop_name": "Bukowno Sławkowska Pętla",
+          "platform": "0",
+          "file": "2167-wolbrom.html"
+        },
+        {
+          "stop_id": "2166",
+          "stop_name": "Bukowno Świnia Góra",
+          "platform": "2",
+          "file": "2166-wolbrom.html"
+        },
+        {
+          "stop_id": "2164",
+          "stop_name": "Bukowno Stare Wieś",
+          "platform": "2",
+          "file": "2164-wolbrom.html"
+        },
+        {
+          "stop_id": "0140",
+          "stop_name": "Bukowno Sklep",
+          "platform": "2",
+          "file": "0140-wolbrom.html"
+        },
+        {
+          "stop_id": "0141",
+          "stop_name": "Bukowno Skotnica",
+          "platform": "2",
+          "file": "0141-wolbrom.html"
+        },
+        {
+          "stop_id": "0142",
+          "stop_name": "Bukowno Stare Skrzyżowanie",
+          "platform": "0",
+          "file": "0142-wolbrom.html"
+        },
+        {
+          "stop_id": "0143",
+          "stop_name": "Bukowno Cmentarz",
+          "platform": "2",
+          "file": "0143-wolbrom.html"
+        },
+        {
+          "stop_id": "0732",
+          "stop_name": "Bukowno Borowska",
+          "platform": "1",
+          "file": "0732-wolbrom.html"
+        },
+        {
+          "stop_id": "0733",
+          "stop_name": "Bukowno Bór Biskupi Przeń",
+          "platform": "2",
+          "file": "0733-wolbrom.html"
+        },
+        {
+          "stop_id": "0734",
+          "stop_name": "Bukowno Bór Biskupi",
+          "platform": "1",
+          "file": "0734-wolbrom.html"
+        },
+        {
+          "stop_id": "0735",
+          "stop_name": "Bukowno Bór Biskupi OSP",
+          "platform": "0",
+          "file": "0735-wolbrom.html"
+        },
+        {
+          "stop_id": "0736",
+          "stop_name": "Bukowno Bór Biskupi Pętla",
+          "platform": "0",
+          "file": "0736-wolbrom.html"
+        },
+        {
+          "stop_id": "0737",
+          "stop_name": "Bukowno Bór Biskupi",
+          "platform": "2",
+          "file": "0737-wolbrom.html"
+        },
+        {
+          "stop_id": "0738",
+          "stop_name": "Bukowno Bór Biskupi Przeń",
+          "platform": "1",
+          "file": "0738-wolbrom.html"
+        },
+        {
+          "stop_id": "0739",
+          "stop_name": "Bukowno Borowska",
+          "platform": "2",
+          "file": "0739-wolbrom.html"
+        },
+        {
+          "stop_id": "0740",
+          "stop_name": "Bukowno Skrzyżowanie",
+          "platform": "1",
+          "file": "0740-wolbrom.html"
+        },
+        {
+          "stop_id": "0741",
+          "stop_name": "Bukowno Kościół",
+          "platform": "2",
+          "file": "0741-wolbrom.html"
+        },
+        {
+          "stop_id": "0742",
+          "stop_name": "Bukowno Tunel",
+          "platform": "2",
+          "file": "0742-wolbrom.html"
+        },
+        {
+          "stop_id": "0743",
+          "stop_name": "Bukowno Park",
+          "platform": "1",
+          "file": "0743-wolbrom.html"
+        },
+        {
+          "stop_id": "0744",
+          "stop_name": "Bukowno Stadion",
+          "platform": "2",
+          "file": "0744-wolbrom.html"
+        },
+        {
+          "stop_id": "1702",
+          "stop_name": "Bukowno Parking",
+          "platform": "2",
+          "file": "1702-wolbrom.html"
+        },
+        {
+          "stop_id": "1704",
+          "stop_name": "Bukowno Polis",
+          "platform": "2",
+          "file": "1704-wolbrom.html"
+        },
+        {
+          "stop_id": "1706",
+          "stop_name": "Bukowno Leśniczówka",
+          "platform": "2",
+          "file": "1706-wolbrom.html"
+        },
+        {
+          "stop_id": "0235",
+          "stop_name": "Olkusz Mazaniec",
+          "platform": "2",
+          "file": "0235-wolbrom.html"
+        },
+        {
+          "stop_id": "0236",
+          "stop_name": "Olkusz Mazaniec Boczna",
+          "platform": "2",
+          "file": "0236-wolbrom.html"
+        },
+        {
+          "stop_id": "0237",
+          "stop_name": "Olkusz Żuradzka",
+          "platform": "1",
+          "file": "0237-wolbrom.html"
+        },
+        {
+          "stop_id": "0177",
+          "stop_name": "Olkusz Szpitalna",
+          "platform": "2",
+          "file": "0177-wolbrom.html"
+        },
+        {
+          "stop_id": "0199",
+          "stop_name": "Olkusz Skarbek",
+          "platform": "2",
+          "file": "0199-wolbrom.html"
+        },
+        {
+          "stop_id": "0201",
+          "stop_name": "Olkusz Dworzec PKP",
+          "platform": "1",
+          "file": "0201-wolbrom.html"
+        },
+        {
+          "stop_id": "0202",
+          "stop_name": "Olkusz Wiadukt",
+          "platform": "1",
+          "file": "0202-wolbrom.html"
+        },
+        {
+          "stop_id": "0203",
+          "stop_name": "Olkusz Aleja Tysiąclecia",
+          "platform": "1",
+          "file": "0203-wolbrom.html"
+        },
+        {
+          "stop_id": "2029",
+          "stop_name": "Olkusz Zagaje",
+          "platform": "2",
+          "file": "2029-wolbrom.html"
+        },
+        {
+          "stop_id": "2030",
+          "stop_name": "Olkusz Zagaje II",
+          "platform": "2",
+          "file": "2030-wolbrom.html"
+        },
+        {
+          "stop_id": "3303",
+          "stop_name": "Podlesie Las",
+          "platform": "1",
+          "file": "3303-wolbrom.html"
+        },
+        {
+          "stop_id": "3301",
+          "stop_name": "Pazurek Kaplica",
+          "platform": "1",
+          "file": "3301-wolbrom.html"
+        },
+        {
+          "stop_id": "3299",
+          "stop_name": "Pazurek Kolonia",
+          "platform": "2",
+          "file": "3299-wolbrom.html"
+        },
+        {
+          "stop_id": "3294",
+          "stop_name": "Chrząstowice",
+          "platform": "2",
+          "file": "3294-wolbrom.html"
+        },
+        {
+          "stop_id": "2409",
+          "stop_name": "Zarzecze III",
+          "platform": "1",
+          "file": "2409-wolbrom.html"
+        },
+        {
+          "stop_id": "2416",
+          "stop_name": "Zarzecze II",
+          "platform": "2",
+          "file": "2416-wolbrom.html"
+        },
+        {
+          "stop_id": "2415",
+          "stop_name": "Zarzecze Wyzwolenia",
+          "platform": "2",
+          "file": "2415-wolbrom.html"
+        },
+        {
+          "stop_id": "2333",
+          "stop_name": "Zarzecze Zacisze",
+          "platform": "2",
+          "file": "2333-wolbrom.html"
+        },
+        {
+          "stop_id": "2408",
+          "stop_name": "Zarzecze",
+          "platform": "1",
+          "file": "2408-wolbrom.html"
+        },
+        {
+          "stop_id": "2407",
+          "stop_name": "Zarzecze Szkoła",
+          "platform": "1",
+          "file": "2407-wolbrom.html"
+        },
+        {
+          "stop_id": "2420",
+          "stop_name": "Zarzecze Piastowska",
+          "platform": "2",
+          "file": "2420-wolbrom.html"
+        },
+        {
+          "stop_id": "2405",
+          "stop_name": "Lgota Wolbromska Skrzyżowanie",
+          "platform": "2",
+          "file": "2405-wolbrom.html"
+        },
+        {
+          "stop_id": "2309",
+          "stop_name": "Lgota Wolbromska Rędziny",
+          "platform": "2",
+          "file": "2309-wolbrom.html"
+        },
+        {
+          "stop_id": "2308",
+          "stop_name": "Lgota Wolbromska Las",
+          "platform": "2",
+          "file": "2308-wolbrom.html"
+        },
+        {
+          "stop_id": "0001",
+          "stop_name": "Wolbrom Nowa PKS",
+          "platform": "0",
+          "file": "0001-wolbrom.html"
+        }
+      ],
+      "timetables": [
+        {
+          "stop_id": "2141",
+          "stop_name": "Sławków Burki Pętla",
+          "platform": "0",
+          "file": "2141-wolbrom.html",
+          "departures": {
+            "workday": [
+              "04:39",
+              "06:10",
+              "07:17B",
+              "09:50B",
+              "11:55",
+              "13:16",
+              "14:48B",
+              "17:02",
+              "19:17B",
+              "20:30",
+              "22:51A"
+            ],
+            "saturday": [
+              "06:10",
+              "07:47B",
+              "09:50B",
+              "13:16",
+              "15:18B",
+              "17:02",
+              "20:30"
+            ],
+            "sunday": [
+              "04:39",
+              "06:37B",
+              "14:08B",
+              "19:00B"
+            ],
+            "holiday": [
+              "08:00"
+            ]
+          }
+        },
+        {
+          "stop_id": "2140",
+          "stop_name": "Sławków Burki",
+          "platform": "1",
+          "file": "2140-wolbrom.html",
+          "departures": {
+            "workday": [
+              "04:40",
+              "06:11",
+              "07:18B",
+              "09:51B",
+              "11:56",
+              "13:17",
+              "14:49B",
+              "17:03",
+              "19:18B",
+              "20:31",
+              "22:52A"
+            ],
+            "saturday": [
+              "06:11",
+              "07:48B",
+              "09:51B",
+              "13:17",
+              "15:19B",
+              "17:03",
+              "20:31"
+            ],
+            "sunday": [
+              "04:40",
+              "06:38B",
+              "14:09B",
+              "19:01B"
+            ],
+            "holiday": [
+              "08:01"
+            ]
+          }
+        },
+        {
+          "stop_id": "2139",
+          "stop_name": "Sławków Niwa Schronisko",
+          "platform": "1",
+          "file": "2139-wolbrom.html",
+          "departures": {
+            "workday": [
+              "04:44",
+              "06:15",
+              "07:22B",
+              "09:55B",
+              "12:00",
+              "13:21",
+              "14:53B",
+              "17:07",
+              "19:22B",
+              "20:35",
+              "22:56A"
+            ],
+            "saturday": [
+              "06:15",
+              "07:52B",
+              "09:55B",
+              "13:21",
+              "15:23B",
+              "17:07",
+              "20:35"
+            ],
+            "sunday": [
+              "04:44",
+              "06:42B",
+              "14:13B",
+              "19:05B"
+            ],
+            "holiday": [
+              "08:05"
+            ]
+          }
+        },
+        {
+          "stop_id": "2144",
+          "stop_name": "Sławków Niwa Hrubieszowska",
+          "platform": "2",
+          "file": "2144-wolbrom.html",
+          "departures": {
+            "workday": [
+              "04:46",
+              "06:17",
+              "07:24B",
+              "09:57B",
+              "12:02",
+              "13:23",
+              "14:55B",
+              "17:09",
+              "19:24B",
+              "20:37",
+              "22:58A"
+            ],
+            "saturday": [
+              "06:17",
+              "07:54B",
+              "09:57B",
+              "13:23",
+              "15:25B",
+              "17:09",
+              "20:37"
+            ],
+            "sunday": [
+              "04:46",
+              "06:44B",
+              "14:15B",
+              "19:07B"
+            ],
+            "holiday": [
+              "08:07"
+            ]
+          }
+        },
+        {
+          "stop_id": "0442",
+          "stop_name": "Sławków Korzenna",
+          "platform": "1",
+          "file": "0442-wolbrom.html",
+          "departures": {
+            "workday": [
+              "04:47",
+              "06:18",
+              "07:25B",
+              "09:58B",
+              "12:03",
+              "13:24",
+              "14:56B",
+              "17:10",
+              "19:25B",
+              "20:38",
+              "22:59A"
+            ],
+            "saturday": [
+              "06:18",
+              "07:55B",
+              "09:58B",
+              "13:24",
+              "15:26B",
+              "17:10",
+              "20:38"
+            ],
+            "sunday": [
+              "04:47",
+              "06:45B",
+              "14:16B",
+              "19:08B"
+            ],
+            "holiday": [
+              "08:08"
+            ]
+          }
+        },
+        {
+          "stop_id": "0443",
+          "stop_name": "Sławków Owocowa",
+          "platform": "2",
+          "file": "0443-wolbrom.html",
+          "departures": {
+            "workday": [
+              "04:49",
+              "06:20",
+              "07:27B",
+              "10:00B",
+              "12:05",
+              "13:26",
+              "14:58B",
+              "17:12",
+              "19:27B",
+              "20:40",
+              "23:01A"
+            ],
+            "saturday": [
+              "06:20",
+              "07:57B",
+              "10:00B",
+              "13:26",
+              "15:28B",
+              "17:12",
+              "20:40"
+            ],
+            "sunday": [
+              "04:49",
+              "06:47B",
+              "14:18B",
+              "19:10B"
+            ],
+            "holiday": [
+              "08:10"
+            ]
+          }
+        },
+        {
+          "stop_id": "0444",
+          "stop_name": "Sławków Kolejowa",
+          "platform": "2",
+          "file": "0444-wolbrom.html",
+          "departures": {
+            "workday": [
+              "04:50",
+              "06:21",
+              "07:28B",
+              "10:01B",
+              "12:06",
+              "13:27",
+              "14:59B",
+              "17:13",
+              "19:28B",
+              "20:41",
+              "23:02A"
+            ],
+            "saturday": [
+              "06:21",
+              "07:58B",
+              "10:01B",
+              "13:27",
+              "15:29B",
+              "17:13",
+              "20:41"
+            ],
+            "sunday": [
+              "04:50",
+              "06:48B",
+              "14:19B",
+              "19:11B"
+            ],
+            "holiday": [
+              "08:11"
+            ]
+          }
+        },
+        {
+          "stop_id": "0445",
+          "stop_name": "Sławków Dworzec PKP",
+          "platform": "2",
+          "file": "0445-wolbrom.html",
+          "departures": {
+            "workday": [
+              "04:52",
+              "06:23",
+              "07:30B",
+              "10:03B",
+              "12:08",
+              "13:29",
+              "15:01B",
+              "17:15",
+              "19:30B",
+              "20:43",
+              "23:04A"
+            ],
+            "saturday": [
+              "06:23",
+              "08:00B",
+              "10:03B",
+              "13:29",
+              "15:31B",
+              "17:15",
+              "20:43"
+            ],
+            "sunday": [
+              "04:52",
+              "06:50B",
+              "14:21B",
+              "19:13B"
+            ],
+            "holiday": [
+              "08:13"
+            ]
+          }
+        },
+        {
+          "stop_id": "0446",
+          "stop_name": "Sławków Poczta",
+          "platform": "2",
+          "file": "0446-wolbrom.html",
+          "departures": {
+            "workday": [
+              "04:53",
+              "06:24",
+              "07:31B",
+              "10:04B",
+              "12:09",
+              "13:30",
+              "15:02B",
+              "17:16",
+              "19:31B",
+              "20:44",
+              "23:05A"
+            ],
+            "saturday": [
+              "06:24",
+              "08:01B",
+              "10:04B",
+              "13:30",
+              "15:32B",
+              "17:16",
+              "20:44"
+            ],
+            "sunday": [
+              "04:53",
+              "06:51B",
+              "14:22B",
+              "19:14B"
+            ],
+            "holiday": [
+              "08:14"
+            ]
+          }
+        },
+        {
+          "stop_id": "0447",
+          "stop_name": "Sławków Rynek",
+          "platform": "2",
+          "file": "0447-wolbrom.html",
+          "departures": {
+            "workday": [
+              "04:55",
+              "06:26",
+              "07:33B",
+              "08:33",
+              "10:06B",
+              "10:49B",
+              "12:11",
+              "13:32",
+              "15:04B",
+              "15:34",
+              "17:18",
+              "18:25",
+              "19:33B",
+              "20:46",
+              "21:56",
+              "23:07A"
+            ],
+            "saturday": [
+              "06:26",
+              "08:03B",
+              "10:06B",
+              "11:19B",
+              "13:32",
+              "15:34B",
+              "17:18",
+              "18:55",
+              "20:46",
+              "22:18"
+            ],
+            "sunday": [
+              "04:55",
+              "06:53B",
+              "08:33",
+              "10:09B",
+              "11:49",
+              "14:24B",
+              "15:34",
+              "17:45",
+              "19:16B",
+              "21:16"
+            ],
+            "holiday": [
+              "08:16",
+              "11:45B"
+            ]
+          }
+        },
+        {
+          "stop_id": "2132",
+          "stop_name": "Sławków Walcownia",
+          "platform": "1",
+          "file": "2132-wolbrom.html",
+          "departures": {
+            "workday": [
+              "04:57",
+              "06:28",
+              "07:35B",
+              "08:35",
+              "10:08B",
+              "10:51B",
+              "12:13",
+              "13:34",
+              "15:06B",
+              "15:36",
+              "17:20",
+              "18:27",
+              "19:35B",
+              "20:48",
+              "21:58",
+              "23:09A"
+            ],
+            "saturday": [
+              "06:28",
+              "08:05B",
+              "10:08B",
+              "11:21B",
+              "13:34",
+              "15:36B",
+              "17:20",
+              "18:57",
+              "20:48",
+              "22:20"
+            ],
+            "sunday": [
+              "04:57",
+              "06:55B",
+              "08:35",
+              "10:11B",
+              "11:51",
+              "14:26B",
+              "15:36",
+              "17:47",
+              "19:18B",
+              "21:18"
+            ],
+            "holiday": [
+              "08:18",
+              "11:47B"
+            ]
+          }
+        },
+        {
+          "stop_id": "2167",
+          "stop_name": "Bukowno Sławkowska Pętla",
+          "platform": "0",
+          "file": "2167-wolbrom.html",
+          "departures": {
+            "workday": [
+              "05:00",
+              "06:31",
+              "07:38B",
+              "08:38",
+              "10:11B",
+              "10:54B",
+              "12:16",
+              "13:37",
+              "15:09B",
+              "15:39",
+              "17:23",
+              "18:30",
+              "19:38B",
+              "20:51",
+              "22:01",
+              "23:12A"
+            ],
+            "saturday": [
+              "06:31",
+              "08:08B",
+              "10:11B",
+              "11:24B",
+              "13:37",
+              "15:39B",
+              "17:23",
+              "19:00",
+              "20:51",
+              "22:23"
+            ],
+            "sunday": [
+              "05:00",
+              "06:58B",
+              "08:38",
+              "10:14B",
+              "11:54",
+              "14:29B",
+              "15:39",
+              "17:50",
+              "19:21B",
+              "21:21"
+            ],
+            "holiday": [
+              "08:21",
+              "11:50B"
+            ]
+          }
+        },
+        {
+          "stop_id": "2166",
+          "stop_name": "Bukowno Świnia Góra",
+          "platform": "2",
+          "file": "2166-wolbrom.html",
+          "departures": {
+            "workday": [
+              "05:01",
+              "06:32",
+              "07:39B",
+              "08:39",
+              "10:12B",
+              "10:55B",
+              "12:17",
+              "13:38",
+              "15:10B",
+              "15:40",
+              "17:24",
+              "18:31",
+              "19:39B",
+              "20:52",
+              "22:02",
+              "23:13A"
+            ],
+            "saturday": [
+              "06:32",
+              "08:09B",
+              "10:12B",
+              "11:25B",
+              "13:38",
+              "15:40B",
+              "17:24",
+              "19:01",
+              "20:52",
+              "22:24"
+            ],
+            "sunday": [
+              "05:01",
+              "06:59B",
+              "08:39",
+              "10:15B",
+              "11:55",
+              "14:30B",
+              "15:40",
+              "17:51",
+              "19:22B",
+              "21:22"
+            ],
+            "holiday": [
+              "08:22",
+              "11:51B"
+            ]
+          }
+        },
+        {
+          "stop_id": "2164",
+          "stop_name": "Bukowno Stare Wieś",
+          "platform": "2",
+          "file": "2164-wolbrom.html",
+          "departures": {
+            "workday": [
+              "05:02",
+              "06:33",
+              "07:40B",
+              "08:40",
+              "10:13B",
+              "10:56B",
+              "12:18",
+              "13:39",
+              "15:11B",
+              "15:41",
+              "17:25",
+              "18:32",
+              "19:40B",
+              "20:53",
+              "22:03",
+              "23:14A"
+            ],
+            "saturday": [
+              "06:33",
+              "08:10B",
+              "10:13B",
+              "11:26B",
+              "13:39",
+              "15:41B",
+              "17:25",
+              "19:02",
+              "20:53",
+              "22:25"
+            ],
+            "sunday": [
+              "05:02",
+              "07:00B",
+              "08:40",
+              "10:16B",
+              "11:56",
+              "14:31B",
+              "15:41",
+              "17:52",
+              "19:23B",
+              "21:23"
+            ],
+            "holiday": [
+              "08:23",
+              "11:52B"
+            ]
+          }
+        },
+        {
+          "stop_id": "0140",
+          "stop_name": "Bukowno Sklep",
+          "platform": "2",
+          "file": "0140-wolbrom.html",
+          "departures": {
+            "workday": [
+              "05:03",
+              "06:34",
+              "07:41B",
+              "08:41",
+              "10:14B",
+              "10:57B",
+              "12:19",
+              "13:40",
+              "15:12B",
+              "15:42",
+              "17:26",
+              "18:33",
+              "19:41B",
+              "20:54",
+              "22:04",
+              "23:15A"
+            ],
+            "saturday": [
+              "06:34",
+              "08:11B",
+              "10:14B",
+              "11:27B",
+              "13:40",
+              "15:42B",
+              "17:26",
+              "19:03",
+              "20:54",
+              "22:26"
+            ],
+            "sunday": [
+              "05:03",
+              "07:01B",
+              "08:41",
+              "10:17B",
+              "11:57",
+              "14:32B",
+              "15:42",
+              "17:53",
+              "19:24B",
+              "21:24"
+            ],
+            "holiday": [
+              "08:24",
+              "11:53B"
+            ]
+          }
+        },
+        {
+          "stop_id": "0141",
+          "stop_name": "Bukowno Skotnica",
+          "platform": "2",
+          "file": "0141-wolbrom.html",
+          "departures": {
+            "workday": [
+              "05:04",
+              "06:35",
+              "07:42B",
+              "08:42",
+              "10:15B",
+              "10:58B",
+              "12:20",
+              "13:41",
+              "15:13B",
+              "15:43",
+              "17:27",
+              "18:34",
+              "19:42B",
+              "20:55",
+              "22:05",
+              "23:16A"
+            ],
+            "saturday": [
+              "06:35",
+              "08:12B",
+              "10:15B",
+              "11:28B",
+              "13:41",
+              "15:43B",
+              "17:27",
+              "19:04",
+              "20:55",
+              "22:27"
+            ],
+            "sunday": [
+              "05:04",
+              "07:02B",
+              "08:42",
+              "10:18B",
+              "11:58",
+              "14:33B",
+              "15:43",
+              "17:54",
+              "19:25B",
+              "21:25"
+            ],
+            "holiday": [
+              "08:25",
+              "11:54B"
+            ]
+          }
+        },
+        {
+          "stop_id": "0142",
+          "stop_name": "Bukowno Stare Skrzyżowanie",
+          "platform": "0",
+          "file": "0142-wolbrom.html",
+          "departures": {
+            "workday": [
+              "05:05",
+              "06:36",
+              "07:43B",
+              "08:43",
+              "10:16B",
+              "10:59B",
+              "12:21",
+              "13:42",
+              "15:14B",
+              "15:44",
+              "17:28",
+              "18:35",
+              "19:43B",
+              "20:56",
+              "22:06",
+              "23:17A"
+            ],
+            "saturday": [
+              "06:36",
+              "08:13B",
+              "10:16B",
+              "11:29B",
+              "13:42",
+              "15:44B",
+              "17:28",
+              "19:05",
+              "20:56",
+              "22:28"
+            ],
+            "sunday": [
+              "05:05",
+              "07:03B",
+              "08:43",
+              "10:19B",
+              "11:59",
+              "14:34B",
+              "15:44",
+              "17:55",
+              "19:26B",
+              "21:26"
+            ],
+            "holiday": [
+              "08:26",
+              "11:55B"
+            ]
+          }
+        },
+        {
+          "stop_id": "0143",
+          "stop_name": "Bukowno Cmentarz",
+          "platform": "2",
+          "file": "0143-wolbrom.html",
+          "departures": {
+            "workday": [
+              "05:06",
+              "06:37",
+              "07:44B",
+              "08:44",
+              "10:17B",
+              "11:00B",
+              "12:22",
+              "13:43",
+              "15:15B",
+              "15:45",
+              "17:29",
+              "18:36",
+              "19:44B",
+              "20:57",
+              "22:07",
+              "23:18A"
+            ],
+            "saturday": [
+              "06:37",
+              "08:14B",
+              "10:17B",
+              "11:30B",
+              "13:43",
+              "15:45B",
+              "17:29",
+              "19:06",
+              "20:57",
+              "22:29"
+            ],
+            "sunday": [
+              "05:06",
+              "07:04B",
+              "08:44",
+              "10:20B",
+              "12:00",
+              "14:35B",
+              "15:45",
+              "17:56",
+              "19:27B",
+              "21:27"
+            ],
+            "holiday": [
+              "08:27",
+              "11:56B"
+            ]
+          }
+        },
+        {
+          "stop_id": "0732",
+          "stop_name": "Bukowno Borowska",
+          "platform": "1",
+          "file": "0732-wolbrom.html",
+          "departures": {
+            "workday": [
+              "05:08",
+              "06:39",
+              "08:46",
+              "12:24",
+              "13:45",
+              "15:47",
+              "17:31",
+              "18:38",
+              "20:59",
+              "22:09",
+              "23:20A"
+            ],
+            "saturday": [
+              "06:39",
+              "13:45",
+              "17:31",
+              "19:08",
+              "20:59",
+              "22:31"
+            ],
+            "sunday": [
+              "05:08",
+              "08:46",
+              "12:02",
+              "15:47",
+              "17:58",
+              "21:29"
+            ],
+            "holiday": [
+              "08:29"
+            ]
+          }
+        },
+        {
+          "stop_id": "0733",
+          "stop_name": "Bukowno Bór Biskupi Przeń",
+          "platform": "2",
+          "file": "0733-wolbrom.html",
+          "departures": {
+            "workday": [
+              "05:13",
+              "06:44",
+              "08:51",
+              "12:29",
+              "13:50",
+              "15:52",
+              "17:36",
+              "18:43",
+              "21:04",
+              "22:14",
+              "23:25A"
+            ],
+            "saturday": [
+              "06:44",
+              "13:50",
+              "17:36",
+              "19:13",
+              "21:04",
+              "22:36"
+            ],
+            "sunday": [
+              "05:13",
+              "08:51",
+              "12:07",
+              "15:52",
+              "18:03",
+              "21:34"
+            ],
+            "holiday": [
+              "08:34"
+            ]
+          }
+        },
+        {
+          "stop_id": "0734",
+          "stop_name": "Bukowno Bór Biskupi",
+          "platform": "1",
+          "file": "0734-wolbrom.html",
+          "departures": {
+            "workday": [
+              "05:14",
+              "06:45",
+              "08:52",
+              "12:30",
+              "13:51",
+              "15:53",
+              "17:37",
+              "18:44",
+              "21:05",
+              "22:15",
+              "23:26A"
+            ],
+            "saturday": [
+              "06:45",
+              "13:51",
+              "17:37",
+              "19:14",
+              "21:05",
+              "22:37"
+            ],
+            "sunday": [
+              "05:14",
+              "08:52",
+              "12:08",
+              "15:53",
+              "18:04",
+              "21:35"
+            ],
+            "holiday": [
+              "08:35"
+            ]
+          }
+        },
+        {
+          "stop_id": "0735",
+          "stop_name": "Bukowno Bór Biskupi OSP",
+          "platform": "0",
+          "file": "0735-wolbrom.html",
+          "departures": {
+            "workday": [
+              "05:15",
+              "06:46",
+              "08:53",
+              "12:31",
+              "13:52",
+              "15:54",
+              "17:38",
+              "18:45",
+              "21:06",
+              "22:16",
+              "23:27A"
+            ],
+            "saturday": [
+              "06:46",
+              "13:52",
+              "17:38",
+              "19:15",
+              "21:06",
+              "22:38"
+            ],
+            "sunday": [
+              "05:15",
+              "08:53",
+              "12:09",
+              "15:54",
+              "18:05",
+              "21:36"
+            ],
+            "holiday": [
+              "08:36"
+            ]
+          }
+        },
+        {
+          "stop_id": "0736",
+          "stop_name": "Bukowno Bór Biskupi Pętla",
+          "platform": "0",
+          "file": "0736-wolbrom.html",
+          "departures": {
+            "workday": [
+              "05:16",
+              "06:47",
+              "08:54",
+              "12:32",
+              "13:53",
+              "15:55",
+              "17:39",
+              "18:46",
+              "21:07",
+              "22:17"
+            ],
+            "saturday": [
+              "06:47",
+              "13:53",
+              "17:39",
+              "19:16",
+              "21:07",
+              "22:39"
+            ],
+            "sunday": [
+              "05:16",
+              "08:54",
+              "12:10",
+              "15:55",
+              "18:06",
+              "21:37"
+            ],
+            "holiday": [
+              "08:37"
+            ]
+          }
+        },
+        {
+          "stop_id": "0737",
+          "stop_name": "Bukowno Bór Biskupi",
+          "platform": "2",
+          "file": "0737-wolbrom.html",
+          "departures": {
+            "workday": [
+              "05:18",
+              "06:49",
+              "08:56",
+              "12:34",
+              "13:55",
+              "15:57",
+              "17:41",
+              "18:48",
+              "21:09",
+              "22:19"
+            ],
+            "saturday": [
+              "06:49",
+              "13:55",
+              "17:41",
+              "19:18",
+              "21:09",
+              "22:41"
+            ],
+            "sunday": [
+              "05:18",
+              "08:56",
+              "12:12",
+              "15:57",
+              "18:08",
+              "21:39"
+            ],
+            "holiday": [
+              "08:39"
+            ]
+          }
+        },
+        {
+          "stop_id": "0738",
+          "stop_name": "Bukowno Bór Biskupi Przeń",
+          "platform": "1",
+          "file": "0738-wolbrom.html",
+          "departures": {
+            "workday": [
+              "05:19",
+              "06:50",
+              "08:57",
+              "12:35",
+              "13:56",
+              "15:58",
+              "17:42",
+              "18:49",
+              "21:10",
+              "22:20"
+            ],
+            "saturday": [
+              "06:50",
+              "13:56",
+              "17:42",
+              "19:19",
+              "21:10",
+              "22:42"
+            ],
+            "sunday": [
+              "05:19",
+              "08:57",
+              "12:13",
+              "15:58",
+              "18:09",
+              "21:40"
+            ],
+            "holiday": [
+              "08:40"
+            ]
+          }
+        },
+        {
+          "stop_id": "0739",
+          "stop_name": "Bukowno Borowska",
+          "platform": "2",
+          "file": "0739-wolbrom.html",
+          "departures": {
+            "workday": [
+              "05:24",
+              "06:55",
+              "09:02",
+              "12:40",
+              "14:01",
+              "16:03",
+              "17:47",
+              "18:54",
+              "21:15",
+              "22:25"
+            ],
+            "saturday": [
+              "06:55",
+              "14:01",
+              "17:47",
+              "19:24",
+              "21:15",
+              "22:47"
+            ],
+            "sunday": [
+              "05:24",
+              "09:02",
+              "12:18",
+              "16:03",
+              "18:14",
+              "21:45"
+            ],
+            "holiday": [
+              "08:45"
+            ]
+          }
+        },
+        {
+          "stop_id": "0740",
+          "stop_name": "Bukowno Skrzyżowanie",
+          "platform": "1",
+          "file": "0740-wolbrom.html",
+          "departures": {
+            "workday": [
+              "05:25",
+              "06:56",
+              "07:47",
+              "09:03",
+              "10:20",
+              "11:03",
+              "12:41",
+              "14:02",
+              "15:18",
+              "16:04",
+              "17:48",
+              "18:55",
+              "19:47",
+              "21:16",
+              "22:26"
+            ],
+            "saturday": [
+              "06:56",
+              "08:17",
+              "10:20",
+              "11:33",
+              "14:02",
+              "15:48",
+              "17:48",
+              "19:25",
+              "21:16",
+              "22:48"
+            ],
+            "sunday": [
+              "05:25",
+              "07:07",
+              "09:03",
+              "10:23",
+              "12:19",
+              "14:38",
+              "16:04",
+              "18:15",
+              "19:30",
+              "21:46"
+            ],
+            "holiday": [
+              "08:46",
+              "11:59"
+            ]
+          }
+        },
+        {
+          "stop_id": "0741",
+          "stop_name": "Bukowno Kościół",
+          "platform": "2",
+          "file": "0741-wolbrom.html",
+          "departures": {
+            "workday": [
+              "05:26",
+              "06:57",
+              "07:48",
+              "09:04",
+              "10:21",
+              "11:04",
+              "12:42",
+              "14:03",
+              "15:19",
+              "16:05",
+              "17:49",
+              "18:56",
+              "19:48",
+              "21:17",
+              "22:27"
+            ],
+            "saturday": [
+              "06:57",
+              "08:18",
+              "10:21",
+              "11:34",
+              "14:03",
+              "15:49",
+              "17:49",
+              "19:26",
+              "21:17",
+              "22:49"
+            ],
+            "sunday": [
+              "05:26",
+              "07:08",
+              "09:04",
+              "10:24",
+              "12:20",
+              "14:39",
+              "16:05",
+              "18:16",
+              "19:31",
+              "21:47"
+            ],
+            "holiday": [
+              "08:47",
+              "12:00"
+            ]
+          }
+        },
+        {
+          "stop_id": "0742",
+          "stop_name": "Bukowno Tunel",
+          "platform": "2",
+          "file": "0742-wolbrom.html",
+          "departures": {
+            "workday": [
+              "05:27",
+              "06:58",
+              "07:49",
+              "09:05",
+              "10:22",
+              "11:05",
+              "12:43",
+              "14:04",
+              "15:20",
+              "16:06",
+              "17:50",
+              "18:57",
+              "19:49",
+              "21:18",
+              "22:28"
+            ],
+            "saturday": [
+              "06:58",
+              "08:19",
+              "10:22",
+              "11:35",
+              "14:04",
+              "15:50",
+              "17:50",
+              "19:27",
+              "21:18",
+              "22:50"
+            ],
+            "sunday": [
+              "05:27",
+              "07:09",
+              "09:05",
+              "10:25",
+              "12:21",
+              "14:40",
+              "16:06",
+              "18:17",
+              "19:32",
+              "21:48"
+            ],
+            "holiday": [
+              "08:48",
+              "12:01"
+            ]
+          }
+        },
+        {
+          "stop_id": "0743",
+          "stop_name": "Bukowno Park",
+          "platform": "1",
+          "file": "0743-wolbrom.html",
+          "departures": {
+            "workday": [
+              "05:28",
+              "06:59",
+              "07:50",
+              "09:06",
+              "10:23",
+              "11:06",
+              "12:44",
+              "14:05",
+              "15:21",
+              "16:07",
+              "17:51",
+              "18:58",
+              "19:50",
+              "21:19",
+              "22:29"
+            ],
+            "saturday": [
+              "06:59",
+              "08:20",
+              "10:23",
+              "11:36",
+              "14:05",
+              "15:51",
+              "17:51",
+              "19:28",
+              "21:19",
+              "22:51"
+            ],
+            "sunday": [
+              "05:28",
+              "07:10",
+              "09:06",
+              "10:26",
+              "12:22",
+              "14:41",
+              "16:07",
+              "18:18",
+              "19:33",
+              "21:49"
+            ],
+            "holiday": [
+              "08:49",
+              "12:02"
+            ]
+          }
+        },
+        {
+          "stop_id": "0744",
+          "stop_name": "Bukowno Stadion",
+          "platform": "2",
+          "file": "0744-wolbrom.html",
+          "departures": {
+            "workday": [
+              "05:29",
+              "07:00",
+              "07:51",
+              "09:07",
+              "10:24",
+              "11:07",
+              "12:45",
+              "14:06",
+              "15:22",
+              "16:08",
+              "17:52",
+              "18:59",
+              "19:51",
+              "21:20",
+              "22:30"
+            ],
+            "saturday": [
+              "07:00",
+              "08:21",
+              "10:24",
+              "11:37",
+              "14:06",
+              "15:52",
+              "17:52",
+              "19:29",
+              "21:20",
+              "22:52"
+            ],
+            "sunday": [
+              "05:29",
+              "07:11",
+              "09:07",
+              "10:27",
+              "12:23",
+              "14:42",
+              "16:08",
+              "18:19",
+              "19:34",
+              "21:50"
+            ],
+            "holiday": [
+              "08:50",
+              "12:03"
+            ]
+          }
+        },
+        {
+          "stop_id": "1702",
+          "stop_name": "Bukowno Parking",
+          "platform": "2",
+          "file": "1702-wolbrom.html",
+          "departures": {
+            "workday": [
+              "05:30",
+              "07:01",
+              "07:52",
+              "09:08",
+              "10:25",
+              "11:08",
+              "12:46",
+              "14:07",
+              "15:23",
+              "16:09",
+              "17:53",
+              "19:00",
+              "19:52",
+              "21:21",
+              "22:31"
+            ],
+            "saturday": [
+              "07:01",
+              "08:22",
+              "10:25",
+              "11:38",
+              "14:07",
+              "15:53",
+              "17:53",
+              "19:30",
+              "21:21",
+              "22:53"
+            ],
+            "sunday": [
+              "05:30",
+              "07:12",
+              "09:08",
+              "10:28",
+              "12:24",
+              "14:43",
+              "16:09",
+              "18:20",
+              "19:35",
+              "21:51"
+            ],
+            "holiday": [
+              "08:51",
+              "12:04"
+            ]
+          }
+        },
+        {
+          "stop_id": "1704",
+          "stop_name": "Bukowno Polis",
+          "platform": "2",
+          "file": "1704-wolbrom.html",
+          "departures": {
+            "workday": [
+              "05:32",
+              "07:03",
+              "07:54",
+              "09:10",
+              "10:27",
+              "11:10",
+              "12:48",
+              "14:09",
+              "15:25",
+              "16:11",
+              "17:55",
+              "19:02",
+              "19:54",
+              "21:23",
+              "22:33"
+            ],
+            "saturday": [
+              "07:03",
+              "08:24",
+              "10:27",
+              "11:40",
+              "14:09",
+              "15:55",
+              "17:55",
+              "19:32",
+              "21:23",
+              "22:55"
+            ],
+            "sunday": [
+              "05:32",
+              "07:14",
+              "09:10",
+              "10:30",
+              "12:26",
+              "14:45",
+              "16:11",
+              "18:22",
+              "19:37",
+              "21:53"
+            ],
+            "holiday": [
+              "08:53",
+              "12:06"
+            ]
+          }
+        },
+        {
+          "stop_id": "1706",
+          "stop_name": "Bukowno Leśniczówka",
+          "platform": "2",
+          "file": "1706-wolbrom.html",
+          "departures": {
+            "workday": [
+              "05:34",
+              "07:05",
+              "07:56",
+              "09:12",
+              "10:29",
+              "11:12",
+              "12:50",
+              "14:11",
+              "15:27",
+              "16:13",
+              "17:57",
+              "19:04",
+              "19:56",
+              "21:25",
+              "22:35"
+            ],
+            "saturday": [
+              "07:05",
+              "08:26",
+              "10:29",
+              "11:42",
+              "14:11",
+              "15:57",
+              "17:57",
+              "19:34",
+              "21:25",
+              "22:57"
+            ],
+            "sunday": [
+              "05:34",
+              "07:16",
+              "09:12",
+              "10:32",
+              "12:28",
+              "14:47",
+              "16:13",
+              "18:24",
+              "19:39",
+              "21:55"
+            ],
+            "holiday": [
+              "08:55",
+              "12:08"
+            ]
+          }
+        },
+        {
+          "stop_id": "0235",
+          "stop_name": "Olkusz Mazaniec",
+          "platform": "2",
+          "file": "0235-wolbrom.html",
+          "departures": {
+            "workday": [
+              "05:38",
+              "07:09",
+              "08:00",
+              "09:16",
+              "10:33",
+              "11:16",
+              "12:54",
+              "14:15",
+              "15:31",
+              "16:17",
+              "18:01",
+              "19:08",
+              "20:00",
+              "21:29",
+              "22:39"
+            ],
+            "saturday": [
+              "07:09",
+              "08:30",
+              "10:33",
+              "11:46",
+              "14:15",
+              "16:01",
+              "18:01",
+              "19:38",
+              "21:29",
+              "23:01"
+            ],
+            "sunday": [
+              "05:38",
+              "07:20",
+              "09:16",
+              "10:36",
+              "12:32",
+              "14:51",
+              "16:17",
+              "18:28",
+              "19:43",
+              "21:59"
+            ],
+            "holiday": [
+              "08:59",
+              "12:12"
+            ]
+          }
+        },
+        {
+          "stop_id": "0236",
+          "stop_name": "Olkusz Mazaniec Boczna",
+          "platform": "2",
+          "file": "0236-wolbrom.html",
+          "departures": {
+            "workday": [
+              "05:39",
+              "07:10",
+              "08:01",
+              "09:17",
+              "10:34",
+              "11:17",
+              "12:55",
+              "14:16",
+              "15:32",
+              "16:18",
+              "18:02",
+              "19:09",
+              "20:01",
+              "21:30",
+              "22:40"
+            ],
+            "saturday": [
+              "07:10",
+              "08:31",
+              "10:34",
+              "11:47",
+              "14:16",
+              "16:02",
+              "18:02",
+              "19:39",
+              "21:30",
+              "23:02"
+            ],
+            "sunday": [
+              "05:39",
+              "07:21",
+              "09:17",
+              "10:37",
+              "12:33",
+              "14:52",
+              "16:18",
+              "18:29",
+              "19:44",
+              "22:00"
+            ],
+            "holiday": [
+              "09:00",
+              "12:13"
+            ]
+          }
+        },
+        {
+          "stop_id": "0237",
+          "stop_name": "Olkusz Żuradzka",
+          "platform": "1",
+          "file": "0237-wolbrom.html",
+          "departures": {
+            "workday": [
+              "05:41",
+              "07:12",
+              "08:03",
+              "09:19",
+              "10:36",
+              "11:19",
+              "12:57",
+              "14:18",
+              "15:34",
+              "16:20",
+              "18:04",
+              "19:11",
+              "20:03",
+              "21:32",
+              "22:42"
+            ],
+            "saturday": [
+              "07:12",
+              "08:33",
+              "10:36",
+              "11:49",
+              "14:18",
+              "16:04",
+              "18:04",
+              "19:41",
+              "21:32",
+              "23:04"
+            ],
+            "sunday": [
+              "05:41",
+              "07:23",
+              "09:19",
+              "10:39",
+              "12:35",
+              "14:54",
+              "16:20",
+              "18:31",
+              "19:46",
+              "22:02"
+            ],
+            "holiday": [
+              "09:02",
+              "12:15"
+            ]
+          }
+        },
+        {
+          "stop_id": "0177",
+          "stop_name": "Olkusz Szpitalna",
+          "platform": "2",
+          "file": "0177-wolbrom.html",
+          "departures": {
+            "workday": [
+              "05:42",
+              "07:13",
+              "08:04",
+              "09:20",
+              "10:37",
+              "11:20",
+              "12:58",
+              "14:19",
+              "15:35",
+              "16:21",
+              "18:05",
+              "19:12",
+              "20:04",
+              "21:33",
+              "22:43"
+            ],
+            "saturday": [
+              "07:13",
+              "08:34",
+              "10:37",
+              "11:50",
+              "14:19",
+              "16:05",
+              "18:05",
+              "19:42",
+              "21:33",
+              "23:05"
+            ],
+            "sunday": [
+              "05:42",
+              "07:24",
+              "09:20",
+              "10:40",
+              "12:36",
+              "14:55",
+              "16:21",
+              "18:32",
+              "19:47",
+              "22:03"
+            ],
+            "holiday": [
+              "09:03",
+              "12:16"
+            ]
+          }
+        },
+        {
+          "stop_id": "0199",
+          "stop_name": "Olkusz Skarbek",
+          "platform": "2",
+          "file": "0199-wolbrom.html",
+          "departures": {
+            "workday": [
+              "05:43",
+              "07:14",
+              "08:05",
+              "09:21",
+              "10:38",
+              "11:21",
+              "12:59",
+              "14:20",
+              "15:36",
+              "16:22",
+              "18:06",
+              "19:13",
+              "20:05",
+              "21:34",
+              "22:44"
+            ],
+            "saturday": [
+              "07:14",
+              "08:35",
+              "10:38",
+              "11:51",
+              "14:20",
+              "16:06",
+              "18:06",
+              "19:43",
+              "21:34",
+              "23:06"
+            ],
+            "sunday": [
+              "05:43",
+              "07:25",
+              "09:21",
+              "10:41",
+              "12:37",
+              "14:56",
+              "16:22",
+              "18:33",
+              "19:48",
+              "22:04"
+            ],
+            "holiday": [
+              "09:04",
+              "12:17"
+            ]
+          }
+        },
+        {
+          "stop_id": "0201",
+          "stop_name": "Olkusz Dworzec PKP",
+          "platform": "1",
+          "file": "0201-wolbrom.html",
+          "departures": {
+            "workday": [
+              "05:45",
+              "07:16",
+              "08:07",
+              "09:23",
+              "10:40",
+              "11:23",
+              "13:01",
+              "14:22",
+              "15:38",
+              "16:24",
+              "18:08",
+              "19:15",
+              "20:07",
+              "21:36",
+              "22:46"
+            ],
+            "saturday": [
+              "07:16",
+              "08:37",
+              "10:40",
+              "11:53",
+              "14:22",
+              "16:08",
+              "18:08",
+              "19:45",
+              "21:36",
+              "23:08"
+            ],
+            "sunday": [
+              "05:45",
+              "07:27",
+              "09:23",
+              "10:43",
+              "12:39",
+              "14:58",
+              "16:24",
+              "18:35",
+              "19:50",
+              "22:06"
+            ],
+            "holiday": [
+              "09:06",
+              "12:19"
+            ]
+          }
+        },
+        {
+          "stop_id": "0202",
+          "stop_name": "Olkusz Wiadukt",
+          "platform": "1",
+          "file": "0202-wolbrom.html",
+          "departures": {
+            "workday": [
+              "05:47",
+              "07:18",
+              "08:09",
+              "09:25",
+              "10:42",
+              "11:25",
+              "13:03",
+              "14:24",
+              "15:40",
+              "16:26",
+              "18:10",
+              "19:17",
+              "20:09",
+              "21:38",
+              "22:48"
+            ],
+            "saturday": [
+              "07:18",
+              "08:39",
+              "10:42",
+              "11:55",
+              "14:24",
+              "16:10",
+              "18:10",
+              "19:47",
+              "21:38",
+              "23:10"
+            ],
+            "sunday": [
+              "05:47",
+              "07:29",
+              "09:25",
+              "10:45",
+              "12:41",
+              "15:00",
+              "16:26",
+              "18:37",
+              "19:52",
+              "22:08"
+            ],
+            "holiday": [
+              "09:08",
+              "12:21"
+            ]
+          }
+        },
+        {
+          "stop_id": "0203",
+          "stop_name": "Olkusz Aleja Tysiąclecia",
+          "platform": "1",
+          "file": "0203-wolbrom.html",
+          "departures": {
+            "workday": [
+              "05:49",
+              "07:20",
+              "08:11",
+              "09:27",
+              "10:44",
+              "11:27",
+              "13:05",
+              "14:26",
+              "15:42",
+              "16:28",
+              "18:12",
+              "19:19",
+              "20:11",
+              "21:40",
+              "22:50"
+            ],
+            "saturday": [
+              "07:20",
+              "08:41",
+              "10:44",
+              "11:57",
+              "14:26",
+              "16:12",
+              "18:12",
+              "19:49",
+              "21:40",
+              "23:12"
+            ],
+            "sunday": [
+              "05:49",
+              "07:31",
+              "09:27",
+              "10:47",
+              "12:43",
+              "15:02",
+              "16:28",
+              "18:39",
+              "19:54",
+              "22:10"
+            ],
+            "holiday": [
+              "09:10",
+              "12:23"
+            ]
+          }
+        },
+        {
+          "stop_id": "2029",
+          "stop_name": "Olkusz Zagaje",
+          "platform": "2",
+          "file": "2029-wolbrom.html",
+          "departures": {
+            "workday": [
+              "05:50",
+              "07:21",
+              "08:12",
+              "09:28",
+              "10:45",
+              "11:28",
+              "13:06",
+              "14:27",
+              "15:43",
+              "16:29",
+              "18:13",
+              "19:20",
+              "20:12",
+              "21:41",
+              "22:51"
+            ],
+            "saturday": [
+              "07:21",
+              "08:42",
+              "10:45",
+              "11:58",
+              "14:27",
+              "16:13",
+              "18:13",
+              "19:50",
+              "21:41",
+              "23:13"
+            ],
+            "sunday": [
+              "05:50",
+              "07:32",
+              "09:28",
+              "10:48",
+              "12:44",
+              "15:03",
+              "16:29",
+              "18:40",
+              "19:55",
+              "22:11"
+            ],
+            "holiday": [
+              "09:11",
+              "12:24"
+            ]
+          }
+        },
+        {
+          "stop_id": "2030",
+          "stop_name": "Olkusz Zagaje II",
+          "platform": "2",
+          "file": "2030-wolbrom.html",
+          "departures": {
+            "workday": [
+              "05:51",
+              "07:22",
+              "08:13",
+              "09:29",
+              "10:46",
+              "11:29",
+              "13:07",
+              "14:28",
+              "15:44",
+              "16:30",
+              "18:14",
+              "19:21",
+              "20:13",
+              "21:42",
+              "22:52"
+            ],
+            "saturday": [
+              "07:22",
+              "08:43",
+              "10:46",
+              "11:59",
+              "14:28",
+              "16:14",
+              "18:14",
+              "19:51",
+              "21:42",
+              "23:14"
+            ],
+            "sunday": [
+              "05:51",
+              "07:33",
+              "09:29",
+              "10:49",
+              "12:45",
+              "15:04",
+              "16:30",
+              "18:41",
+              "19:56",
+              "22:12"
+            ],
+            "holiday": [
+              "09:12",
+              "12:25"
+            ]
+          }
+        },
+        {
+          "stop_id": "3303",
+          "stop_name": "Podlesie Las",
+          "platform": "1",
+          "file": "3303-wolbrom.html",
+          "departures": {
+            "workday": [
+              "05:56",
+              "07:27",
+              "08:18",
+              "09:34",
+              "10:51",
+              "11:34",
+              "13:12",
+              "14:33",
+              "15:49",
+              "16:35",
+              "18:19",
+              "19:26",
+              "20:18",
+              "21:47",
+              "22:57"
+            ],
+            "saturday": [
+              "07:27",
+              "08:48",
+              "10:51",
+              "12:04",
+              "14:33",
+              "16:19",
+              "18:19",
+              "19:56",
+              "21:47",
+              "23:19"
+            ],
+            "sunday": [
+              "05:56",
+              "07:38",
+              "09:34",
+              "10:54",
+              "12:50",
+              "15:09",
+              "16:35",
+              "18:46",
+              "20:01",
+              "22:17"
+            ],
+            "holiday": [
+              "09:17",
+              "12:30"
+            ]
+          }
+        },
+        {
+          "stop_id": "3301",
+          "stop_name": "Pazurek Kaplica",
+          "platform": "1",
+          "file": "3301-wolbrom.html",
+          "departures": {
+            "workday": [
+              "05:59",
+              "07:30",
+              "08:21",
+              "09:37",
+              "10:54",
+              "11:37",
+              "13:15",
+              "14:36",
+              "15:52",
+              "16:38",
+              "18:22",
+              "19:29",
+              "20:21",
+              "21:50",
+              "23:00"
+            ],
+            "saturday": [
+              "07:30",
+              "08:51",
+              "10:54",
+              "12:07",
+              "14:36",
+              "16:22",
+              "18:22",
+              "19:59",
+              "21:50",
+              "23:22"
+            ],
+            "sunday": [
+              "05:59",
+              "07:41",
+              "09:37",
+              "10:57",
+              "12:53",
+              "15:12",
+              "16:38",
+              "18:49",
+              "20:04",
+              "22:20"
+            ],
+            "holiday": [
+              "09:20",
+              "12:33"
+            ]
+          }
+        },
+        {
+          "stop_id": "3299",
+          "stop_name": "Pazurek Kolonia",
+          "platform": "2",
+          "file": "3299-wolbrom.html",
+          "departures": {
+            "workday": [
+              "06:00",
+              "07:31",
+              "08:22",
+              "09:38",
+              "10:55",
+              "11:38",
+              "13:16",
+              "14:37",
+              "15:53",
+              "16:39",
+              "18:23",
+              "19:30",
+              "20:22",
+              "21:51",
+              "23:01"
+            ],
+            "saturday": [
+              "07:31",
+              "08:52",
+              "10:55",
+              "12:08",
+              "14:37",
+              "16:23",
+              "18:23",
+              "20:00",
+              "21:51",
+              "23:23"
+            ],
+            "sunday": [
+              "06:00",
+              "07:42",
+              "09:38",
+              "10:58",
+              "12:54",
+              "15:13",
+              "16:39",
+              "18:50",
+              "20:05",
+              "22:21"
+            ],
+            "holiday": [
+              "09:21",
+              "12:34"
+            ]
+          }
+        },
+        {
+          "stop_id": "3294",
+          "stop_name": "Chrząstowice",
+          "platform": "2",
+          "file": "3294-wolbrom.html",
+          "departures": {
+            "workday": [
+              "06:04",
+              "07:35",
+              "08:26",
+              "09:42",
+              "10:59",
+              "11:42",
+              "13:20",
+              "14:41",
+              "15:57",
+              "16:43",
+              "18:27",
+              "19:34",
+              "20:26",
+              "21:55",
+              "23:05"
+            ],
+            "saturday": [
+              "07:35",
+              "08:56",
+              "10:59",
+              "12:12",
+              "14:41",
+              "16:27",
+              "18:27",
+              "20:04",
+              "21:55",
+              "23:27"
+            ],
+            "sunday": [
+              "06:04",
+              "07:46",
+              "09:42",
+              "11:02",
+              "12:58",
+              "15:17",
+              "16:43",
+              "18:54",
+              "20:09",
+              "22:25"
+            ],
+            "holiday": [
+              "09:25",
+              "12:38"
+            ]
+          }
+        },
+        {
+          "stop_id": "2409",
+          "stop_name": "Zarzecze III",
+          "platform": "1",
+          "file": "2409-wolbrom.html",
+          "departures": {
+            "workday": [
+              "06:06",
+              "07:37",
+              "08:28",
+              "09:44",
+              "11:01",
+              "11:44",
+              "13:22",
+              "14:43",
+              "15:59",
+              "16:45",
+              "18:29",
+              "19:36",
+              "20:28",
+              "21:57",
+              "23:07"
+            ],
+            "saturday": [
+              "07:37",
+              "08:58",
+              "11:01",
+              "12:14",
+              "14:43",
+              "16:29",
+              "18:29",
+              "20:06",
+              "21:57",
+              "23:29"
+            ],
+            "sunday": [
+              "06:06",
+              "07:48",
+              "09:44",
+              "11:04",
+              "13:00",
+              "15:19",
+              "16:45",
+              "18:56",
+              "20:11",
+              "22:27"
+            ],
+            "holiday": [
+              "09:27",
+              "12:40"
+            ]
+          }
+        },
+        {
+          "stop_id": "2416",
+          "stop_name": "Zarzecze II",
+          "platform": "2",
+          "file": "2416-wolbrom.html",
+          "departures": {
+            "workday": [
+              "06:07",
+              "07:38",
+              "08:29",
+              "09:45",
+              "11:02",
+              "11:45",
+              "13:23",
+              "14:44",
+              "16:00",
+              "16:46",
+              "18:30",
+              "19:37",
+              "20:29",
+              "21:58",
+              "23:08"
+            ],
+            "saturday": [
+              "07:38",
+              "08:59",
+              "11:02",
+              "12:15",
+              "14:44",
+              "16:30",
+              "18:30",
+              "20:07",
+              "21:58",
+              "23:30"
+            ],
+            "sunday": [
+              "06:07",
+              "07:49",
+              "09:45",
+              "11:05",
+              "13:01",
+              "15:20",
+              "16:46",
+              "18:57",
+              "20:12",
+              "22:28"
+            ],
+            "holiday": [
+              "09:28",
+              "12:41"
+            ]
+          }
+        },
+        {
+          "stop_id": "2415",
+          "stop_name": "Zarzecze Wyzwolenia",
+          "platform": "2",
+          "file": "2415-wolbrom.html",
+          "departures": {
+            "workday": [
+              "06:08",
+              "07:39",
+              "08:30",
+              "09:46",
+              "11:03",
+              "11:46",
+              "13:24",
+              "14:45",
+              "16:01",
+              "16:47",
+              "18:31",
+              "19:38",
+              "20:30",
+              "21:59",
+              "23:09"
+            ],
+            "saturday": [
+              "07:39",
+              "09:00",
+              "11:03",
+              "12:16",
+              "14:45",
+              "16:31",
+              "18:31",
+              "20:08",
+              "21:59",
+              "23:31"
+            ],
+            "sunday": [
+              "06:08",
+              "07:50",
+              "09:46",
+              "11:06",
+              "13:02",
+              "15:21",
+              "16:47",
+              "18:58",
+              "20:13",
+              "22:29"
+            ],
+            "holiday": [
+              "09:29",
+              "12:42"
+            ]
+          }
+        },
+        {
+          "stop_id": "2333",
+          "stop_name": "Zarzecze Zacisze",
+          "platform": "2",
+          "file": "2333-wolbrom.html",
+          "departures": {
+            "workday": [
+              "06:09",
+              "07:40",
+              "08:31",
+              "09:47",
+              "11:04",
+              "11:47",
+              "13:25",
+              "14:46",
+              "16:02",
+              "16:48",
+              "18:32",
+              "19:39",
+              "20:31",
+              "22:00",
+              "23:10"
+            ],
+            "saturday": [
+              "07:40",
+              "09:01",
+              "11:04",
+              "12:17",
+              "14:46",
+              "16:32",
+              "18:32",
+              "20:09",
+              "22:00",
+              "23:32"
+            ],
+            "sunday": [
+              "06:09",
+              "07:51",
+              "09:47",
+              "11:07",
+              "13:03",
+              "15:22",
+              "16:48",
+              "18:59",
+              "20:14",
+              "22:30"
+            ],
+            "holiday": [
+              "09:30",
+              "12:43"
+            ]
+          }
+        },
+        {
+          "stop_id": "2408",
+          "stop_name": "Zarzecze",
+          "platform": "1",
+          "file": "2408-wolbrom.html",
+          "departures": {
+            "workday": [
+              "06:10",
+              "07:41",
+              "08:32",
+              "09:48",
+              "11:05",
+              "11:48",
+              "13:26",
+              "14:47",
+              "16:03",
+              "16:49",
+              "18:33",
+              "19:40",
+              "20:32",
+              "22:01",
+              "23:11"
+            ],
+            "saturday": [
+              "07:41",
+              "09:02",
+              "11:05",
+              "12:18",
+              "14:47",
+              "16:33",
+              "18:33",
+              "20:10",
+              "22:01",
+              "23:33"
+            ],
+            "sunday": [
+              "06:10",
+              "07:52",
+              "09:48",
+              "11:08",
+              "13:04",
+              "15:23",
+              "16:49",
+              "19:00",
+              "20:15",
+              "22:31"
+            ],
+            "holiday": [
+              "09:31",
+              "12:44"
+            ]
+          }
+        },
+        {
+          "stop_id": "2407",
+          "stop_name": "Zarzecze Szkoła",
+          "platform": "1",
+          "file": "2407-wolbrom.html",
+          "departures": {
+            "workday": [
+              "06:12",
+              "07:43",
+              "08:34",
+              "09:50",
+              "11:07",
+              "11:50",
+              "13:28",
+              "14:49",
+              "16:05",
+              "16:51",
+              "18:35",
+              "19:42",
+              "20:34",
+              "22:03",
+              "23:13"
+            ],
+            "saturday": [
+              "07:43",
+              "09:04",
+              "11:07",
+              "12:20",
+              "14:49",
+              "16:35",
+              "18:35",
+              "20:12",
+              "22:03",
+              "23:35"
+            ],
+            "sunday": [
+              "06:12",
+              "07:54",
+              "09:50",
+              "11:10",
+              "13:06",
+              "15:25",
+              "16:51",
+              "19:02",
+              "20:17",
+              "22:33"
+            ],
+            "holiday": [
+              "09:33",
+              "12:46"
+            ]
+          }
+        },
+        {
+          "stop_id": "2420",
+          "stop_name": "Zarzecze Piastowska",
+          "platform": "2",
+          "file": "2420-wolbrom.html",
+          "departures": {
+            "workday": [
+              "06:14",
+              "07:45",
+              "08:36",
+              "09:52",
+              "11:09",
+              "11:52",
+              "13:30",
+              "14:51",
+              "16:07",
+              "16:53",
+              "18:37",
+              "19:44",
+              "20:36",
+              "22:05",
+              "23:15"
+            ],
+            "saturday": [
+              "07:45",
+              "09:06",
+              "11:09",
+              "12:22",
+              "14:51",
+              "16:37",
+              "18:37",
+              "20:14",
+              "22:05",
+              "23:37"
+            ],
+            "sunday": [
+              "06:14",
+              "07:56",
+              "09:52",
+              "11:12",
+              "13:08",
+              "15:27",
+              "16:53",
+              "19:04",
+              "20:19",
+              "22:35"
+            ],
+            "holiday": [
+              "09:35",
+              "12:48"
+            ]
+          }
+        },
+        {
+          "stop_id": "2405",
+          "stop_name": "Lgota Wolbromska Skrzyżowanie",
+          "platform": "2",
+          "file": "2405-wolbrom.html",
+          "departures": {
+            "workday": [
+              "06:16",
+              "07:47",
+              "08:38",
+              "09:54",
+              "11:11",
+              "11:54",
+              "13:32",
+              "14:53",
+              "16:09",
+              "16:55",
+              "18:39",
+              "19:46",
+              "20:38",
+              "22:07",
+              "23:17"
+            ],
+            "saturday": [
+              "07:47",
+              "09:08",
+              "11:11",
+              "12:24",
+              "14:53",
+              "16:39",
+              "18:39",
+              "20:16",
+              "22:07",
+              "23:39"
+            ],
+            "sunday": [
+              "06:16",
+              "07:58",
+              "09:54",
+              "11:14",
+              "13:10",
+              "15:29",
+              "16:55",
+              "19:06",
+              "20:21",
+              "22:37"
+            ],
+            "holiday": [
+              "09:37",
+              "12:50"
+            ]
+          }
+        },
+        {
+          "stop_id": "2309",
+          "stop_name": "Lgota Wolbromska Rędziny",
+          "platform": "2",
+          "file": "2309-wolbrom.html",
+          "departures": {
+            "workday": [
+              "06:17",
+              "07:48",
+              "08:39",
+              "09:55",
+              "11:12",
+              "11:55",
+              "13:33",
+              "14:54",
+              "16:10",
+              "16:56",
+              "18:40",
+              "19:47",
+              "20:39",
+              "22:08",
+              "23:18"
+            ],
+            "saturday": [
+              "07:48",
+              "09:09",
+              "11:12",
+              "12:25",
+              "14:54",
+              "16:40",
+              "18:40",
+              "20:17",
+              "22:08",
+              "23:40"
+            ],
+            "sunday": [
+              "06:17",
+              "07:59",
+              "09:55",
+              "11:15",
+              "13:11",
+              "15:30",
+              "16:56",
+              "19:07",
+              "20:22",
+              "22:38"
+            ],
+            "holiday": [
+              "09:38",
+              "12:51"
+            ]
+          }
+        },
+        {
+          "stop_id": "2308",
+          "stop_name": "Lgota Wolbromska Las",
+          "platform": "2",
+          "file": "2308-wolbrom.html",
+          "departures": {
+            "workday": [
+              "06:19",
+              "07:50",
+              "08:41",
+              "09:57",
+              "11:14",
+              "11:57",
+              "13:35",
+              "14:56",
+              "16:12",
+              "16:58",
+              "18:42",
+              "19:49",
+              "20:41",
+              "22:10",
+              "23:20"
+            ],
+            "saturday": [
+              "07:50",
+              "09:11",
+              "11:14",
+              "12:27",
+              "14:56",
+              "16:42",
+              "18:42",
+              "20:19",
+              "22:10",
+              "23:42"
+            ],
+            "sunday": [
+              "06:19",
+              "08:01",
+              "09:57",
+              "11:17",
+              "13:13",
+              "15:32",
+              "16:58",
+              "19:09",
+              "20:24",
+              "22:40"
+            ],
+            "holiday": [
+              "09:40",
+              "12:53"
+            ]
+          }
+        },
+        {
+          "stop_id": "0001",
+          "stop_name": "Wolbrom Nowa PKS",
+          "platform": "0",
+          "file": "0001-wolbrom.html",
+          "departures": {},
+          "arrival_only": true
+        }
+      ]
+    }
+  ]
+}
