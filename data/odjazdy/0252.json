@@ -4,6 +4,16 @@
   "platform": "1",
   "departures": [
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0252-slawkow.html",
+      "day_type": "holiday",
+      "time": "07:17",
+      "symbols": []
+    },
+    {
       "line": "10",
       "main_direction": "Bukowno Przymiarki",
       "display_direction": "Bukowno Przymiarki",
@@ -24,6 +34,18 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0252-slawkow.html",
+      "day_type": "holiday",
+      "time": "11:22",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
       "line": "10",
       "main_direction": "Bukowno Dworzec PKP",
       "display_direction": "Bukowno Dworzec PKP",
@@ -31,6 +53,16 @@
       "page": "rozklady/10/0252-okrezna-1.html",
       "day_type": "holiday",
       "time": "11:23",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0252-slawkow.html",
+      "day_type": "saturday",
+      "time": "05:37",
       "symbols": []
     },
     {
@@ -44,6 +76,26 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0252-slawkow.html",
+      "day_type": "saturday",
+      "time": "07:18",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0252-slawkow.html",
+      "day_type": "saturday",
+      "time": "09:04",
+      "symbols": []
+    },
+    {
       "line": "10",
       "main_direction": "Bukowno Przymiarki",
       "display_direction": "Bukowno Przymiarki",
@@ -52,6 +104,18 @@
       "day_type": "saturday",
       "time": "09:25",
       "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0252-slawkow.html",
+      "day_type": "saturday",
+      "time": "10:52",
+      "symbols": [
+        "S"
+      ]
     },
     {
       "line": "2",
@@ -74,6 +138,36 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0252-slawkow.html",
+      "day_type": "saturday",
+      "time": "12:46",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0252-slawkow.html",
+      "day_type": "saturday",
+      "time": "14:49",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0252-slawkow.html",
+      "day_type": "saturday",
+      "time": "16:32",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Bukowno Przymiarki",
       "display_direction": "Bukowno Przymiarki",
@@ -81,6 +175,28 @@
       "page": "rozklady/2/0252-laski.html",
       "day_type": "saturday",
       "time": "18:09",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0252-slawkow.html",
+      "day_type": "saturday",
+      "time": "18:23",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0252-slawkow.html",
+      "day_type": "saturday",
+      "time": "19:53",
       "symbols": []
     },
     {
@@ -94,6 +210,40 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0252-slawkow.html",
+      "day_type": "saturday",
+      "time": "21:52",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0252-slawkow.html",
+      "day_type": "saturday",
+      "time": "23:26",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0252-slawkow.html",
+      "day_type": "sunday",
+      "time": "06:08",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Bukowno Przymiarki",
       "display_direction": "Bukowno Przymiarki",
@@ -102,6 +252,18 @@
       "day_type": "sunday",
       "time": "06:41",
       "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0252-slawkow.html",
+      "day_type": "sunday",
+      "time": "07:55",
+      "symbols": [
+        "S"
+      ]
     },
     {
       "line": "10",
@@ -114,6 +276,30 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0252-slawkow.html",
+      "day_type": "sunday",
+      "time": "09:42",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0252-slawkow.html",
+      "day_type": "sunday",
+      "time": "11:26",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
       "line": "10",
       "main_direction": "Bukowno Dworzec PKP",
       "display_direction": "Bukowno Dworzec PKP",
@@ -124,6 +310,28 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0252-slawkow.html",
+      "day_type": "sunday",
+      "time": "13:39",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0252-slawkow.html",
+      "day_type": "sunday",
+      "time": "15:03",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
       "line": "2",
       "main_direction": "Bukowno Przymiarki",
       "display_direction": "Bukowno Przymiarki",
@@ -131,6 +339,72 @@
       "page": "rozklady/2/0252-laski.html",
       "day_type": "sunday",
       "time": "15:10",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0252-slawkow.html",
+      "day_type": "sunday",
+      "time": "17:13",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0252-slawkow.html",
+      "day_type": "sunday",
+      "time": "18:12",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0252-slawkow.html",
+      "day_type": "sunday",
+      "time": "20:42",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0252-slawkow.html",
+      "day_type": "sunday",
+      "time": "22:22",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0252-slawkow.html",
+      "day_type": "workday",
+      "time": "05:37",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0252-slawkow.html",
+      "day_type": "workday",
+      "time": "06:48",
       "symbols": []
     },
     {
@@ -144,6 +418,18 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0252-slawkow.html",
+      "day_type": "workday",
+      "time": "07:55",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
       "line": "10",
       "main_direction": "Bukowno Przymiarki",
       "display_direction": "Bukowno Przymiarki",
@@ -151,6 +437,16 @@
       "page": "rozklady/10/0252-okrezna-2.html",
       "day_type": "workday",
       "time": "08:13",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0252-slawkow.html",
+      "day_type": "workday",
+      "time": "09:04",
       "symbols": []
     },
     {
@@ -184,6 +480,18 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0252-slawkow.html",
+      "day_type": "workday",
+      "time": "10:22",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
       "line": "10",
       "main_direction": "Bukowno Dworzec PKP",
       "display_direction": "Bukowno Dworzec PKP",
@@ -191,6 +499,16 @@
       "page": "rozklady/10/0252-okrezna-1.html",
       "day_type": "workday",
       "time": "11:10",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0252-slawkow.html",
+      "day_type": "workday",
+      "time": "11:26",
       "symbols": []
     },
     {
@@ -204,6 +522,26 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0252-slawkow.html",
+      "day_type": "workday",
+      "time": "12:46",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0252-slawkow.html",
+      "day_type": "workday",
+      "time": "14:19",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Bukowno Przymiarki",
       "display_direction": "Bukowno Przymiarki",
@@ -214,6 +552,18 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0252-slawkow.html",
+      "day_type": "workday",
+      "time": "15:20",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
       "line": "2",
       "main_direction": "Bukowno Przymiarki",
       "display_direction": "Bukowno Przymiarki",
@@ -221,6 +571,38 @@
       "page": "rozklady/2/0252-laski.html",
       "day_type": "workday",
       "time": "15:32",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0252-slawkow.html",
+      "day_type": "workday",
+      "time": "16:32",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0252-slawkow.html",
+      "day_type": "workday",
+      "time": "17:37",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0252-slawkow.html",
+      "day_type": "workday",
+      "time": "18:28",
       "symbols": []
     },
     {
@@ -244,6 +626,28 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0252-slawkow.html",
+      "day_type": "workday",
+      "time": "19:53",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0252-slawkow.html",
+      "day_type": "workday",
+      "time": "21:22",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
       "line": "2",
       "main_direction": "Bukowno Przymiarki",
       "display_direction": "Bukowno Przymiarki",
@@ -252,6 +656,28 @@
       "day_type": "workday",
       "time": "21:38",
       "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0252-slawkow.html",
+      "day_type": "workday",
+      "time": "22:22",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0252-slawkow.html",
+      "day_type": "workday",
+      "time": "23:26",
+      "symbols": [
+        "S"
+      ]
     }
   ],
   "served_lines": [
@@ -269,10 +695,19 @@
       "line": "2",
       "main_direction": "Bukowno Przymiarki",
       "page": "rozklady/2/0252-laski.html"
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "page": "rozklady/35/0252-slawkow.html"
     }
   ],
   "legends": {
     "10": {},
-    "2": {}
+    "2": {},
+    "35": {
+      "B": "z pominięciem: Bukowno Borowska>>Bukowno Bór Biskupi Pętla",
+      "S": "do: Sławków Rynek"
+    }
   }
 }

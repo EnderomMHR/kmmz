@@ -4,6 +4,26 @@
   "platform": "2",
   "departures": [
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0739-slawkow.html",
+      "day_type": "holiday",
+      "time": "07:15",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0739-wolbrom.html",
+      "day_type": "holiday",
+      "time": "08:45",
+      "symbols": []
+    },
+    {
       "line": "10",
       "main_direction": "Bukowno Dworzec PKP",
       "display_direction": "Bukowno Dworzec PKP",
@@ -14,6 +34,18 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0739-slawkow.html",
+      "day_type": "holiday",
+      "time": "11:20",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
       "line": "10",
       "main_direction": "Bukowno Dworzec PKP",
       "display_direction": "Bukowno Dworzec PKP",
@@ -21,6 +53,36 @@
       "page": "rozklady/10/0739-okrezna-1.html",
       "day_type": "holiday",
       "time": "11:21",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0739-slawkow.html",
+      "day_type": "saturday",
+      "time": "05:35",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0739-wolbrom.html",
+      "day_type": "saturday",
+      "time": "06:55",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0739-slawkow.html",
+      "day_type": "saturday",
+      "time": "07:16",
       "symbols": []
     },
     {
@@ -34,6 +96,18 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0739-slawkow.html",
+      "day_type": "saturday",
+      "time": "10:50",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
       "line": "10",
       "main_direction": "Bukowno Dworzec PKP",
       "display_direction": "Bukowno Dworzec PKP",
@@ -41,6 +115,68 @@
       "page": "rozklady/10/0739-okrezna-1.html",
       "day_type": "saturday",
       "time": "11:21",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0739-wolbrom.html",
+      "day_type": "saturday",
+      "time": "14:01",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0739-slawkow.html",
+      "day_type": "saturday",
+      "time": "14:47",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0739-slawkow.html",
+      "day_type": "saturday",
+      "time": "16:30",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0739-wolbrom.html",
+      "day_type": "saturday",
+      "time": "17:47",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0739-slawkow.html",
+      "day_type": "saturday",
+      "time": "18:21",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0739-wolbrom.html",
+      "day_type": "saturday",
+      "time": "19:24",
       "symbols": []
     },
     {
@@ -54,6 +190,80 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0739-wolbrom.html",
+      "day_type": "saturday",
+      "time": "21:15",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0739-slawkow.html",
+      "day_type": "saturday",
+      "time": "21:50",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0739-wolbrom.html",
+      "day_type": "saturday",
+      "time": "22:47",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0739-wolbrom.html",
+      "day_type": "sunday",
+      "time": "05:24",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0739-slawkow.html",
+      "day_type": "sunday",
+      "time": "06:06",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0739-wolbrom.html",
+      "day_type": "sunday",
+      "time": "09:02",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0739-slawkow.html",
+      "day_type": "sunday",
+      "time": "09:40",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
       "line": "10",
       "main_direction": "Bukowno Dworzec PKP",
       "display_direction": "Bukowno Dworzec PKP",
@@ -62,6 +272,18 @@
       "day_type": "sunday",
       "time": "10:20",
       "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0739-slawkow.html",
+      "day_type": "sunday",
+      "time": "11:24",
+      "symbols": [
+        "S"
+      ]
     },
     {
       "line": "10",
@@ -74,6 +296,144 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0739-wolbrom.html",
+      "day_type": "sunday",
+      "time": "12:18",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0739-slawkow.html",
+      "day_type": "sunday",
+      "time": "13:37",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0739-slawkow.html",
+      "day_type": "sunday",
+      "time": "15:01",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0739-wolbrom.html",
+      "day_type": "sunday",
+      "time": "16:03",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0739-slawkow.html",
+      "day_type": "sunday",
+      "time": "17:11",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0739-wolbrom.html",
+      "day_type": "sunday",
+      "time": "18:14",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0739-slawkow.html",
+      "day_type": "sunday",
+      "time": "20:40",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0739-wolbrom.html",
+      "day_type": "sunday",
+      "time": "21:45",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0739-slawkow.html",
+      "day_type": "sunday",
+      "time": "22:20",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0739-wolbrom.html",
+      "day_type": "workday",
+      "time": "05:24",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0739-slawkow.html",
+      "day_type": "workday",
+      "time": "05:35",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0739-slawkow.html",
+      "day_type": "workday",
+      "time": "06:46",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0739-wolbrom.html",
+      "day_type": "workday",
+      "time": "06:55",
+      "symbols": []
+    },
+    {
       "line": "10",
       "main_direction": "Bukowno Dworzec PKP",
       "display_direction": "Bukowno Dworzec PKP",
@@ -81,6 +441,16 @@
       "page": "rozklady/10/0739-okrezna-2.html",
       "day_type": "workday",
       "time": "08:52",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0739-wolbrom.html",
+      "day_type": "workday",
+      "time": "09:02",
       "symbols": []
     },
     {
@@ -104,6 +474,18 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0739-slawkow.html",
+      "day_type": "workday",
+      "time": "10:20",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
       "line": "10",
       "main_direction": "Bukowno Dworzec PKP",
       "display_direction": "Bukowno Dworzec PKP",
@@ -111,6 +493,88 @@
       "page": "rozklady/10/0739-okrezna-1.html",
       "day_type": "workday",
       "time": "11:08",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0739-slawkow.html",
+      "day_type": "workday",
+      "time": "11:24",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0739-wolbrom.html",
+      "day_type": "workday",
+      "time": "12:40",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0739-wolbrom.html",
+      "day_type": "workday",
+      "time": "14:01",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0739-slawkow.html",
+      "day_type": "workday",
+      "time": "14:17",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0739-slawkow.html",
+      "day_type": "workday",
+      "time": "15:18",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0739-wolbrom.html",
+      "day_type": "workday",
+      "time": "16:03",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0739-slawkow.html",
+      "day_type": "workday",
+      "time": "16:30",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0739-wolbrom.html",
+      "day_type": "workday",
+      "time": "17:47",
       "symbols": []
     },
     {
@@ -124,6 +588,16 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0739-slawkow.html",
+      "day_type": "workday",
+      "time": "18:26",
+      "symbols": []
+    },
+    {
       "line": "10",
       "main_direction": "Bukowno Dworzec PKP",
       "display_direction": "Bukowno Dworzec PKP",
@@ -131,6 +605,58 @@
       "page": "rozklady/10/0739-okrezna-1.html",
       "day_type": "workday",
       "time": "18:37",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0739-wolbrom.html",
+      "day_type": "workday",
+      "time": "18:54",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0739-wolbrom.html",
+      "day_type": "workday",
+      "time": "21:15",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0739-slawkow.html",
+      "day_type": "workday",
+      "time": "21:20",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0739-slawkow.html",
+      "day_type": "workday",
+      "time": "22:20",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0739-wolbrom.html",
+      "day_type": "workday",
+      "time": "22:25",
       "symbols": []
     }
   ],
@@ -144,9 +670,23 @@
       "line": "10",
       "main_direction": "Bukowno Dworzec PKP",
       "page": "rozklady/10/0739-okrezna-2.html"
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "page": "rozklady/35/0739-slawkow.html"
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "page": "rozklady/35/0739-wolbrom.html"
     }
   ],
   "legends": {
-    "10": {}
+    "10": {},
+    "35": {
+      "A": "do: Bukowno Bór Biskupi Pętla",
+      "B": "z pominięciem: Bukowno Borowska>>Bukowno Bór Biskupi Pętla"
+    }
   }
 }

@@ -4,6 +4,16 @@
   "platform": "2",
   "departures": [
     {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0446-wolbrom.html",
+      "day_type": "holiday",
+      "time": "08:14",
+      "symbols": []
+    },
+    {
       "line": "5",
       "main_direction": "Olkusz Dworzec PKS",
       "display_direction": "Olkusz Dworzec PKS",
@@ -130,6 +140,16 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0446-wolbrom.html",
+      "day_type": "saturday",
+      "time": "06:24",
+      "symbols": []
+    },
+    {
       "line": "5",
       "main_direction": "Olkusz Dworzec PKS",
       "display_direction": "Olkusz Dworzec PKS",
@@ -148,6 +168,18 @@
       "day_type": "saturday",
       "time": "07:26",
       "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0446-wolbrom.html",
+      "day_type": "saturday",
+      "time": "08:01",
+      "symbols": [
+        "B"
+      ]
     },
     {
       "line": "13",
@@ -182,6 +214,18 @@
       ]
     },
     {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0446-wolbrom.html",
+      "day_type": "saturday",
+      "time": "10:04",
+      "symbols": [
+        "B"
+      ]
+    },
+    {
       "line": "13",
       "main_direction": "Sławków ZWM",
       "display_direction": "Hutki Pętla",
@@ -201,6 +245,16 @@
       "page": "rozklady/5/0446-olkusz.html",
       "day_type": "saturday",
       "time": "11:55",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0446-wolbrom.html",
+      "day_type": "saturday",
+      "time": "13:30",
       "symbols": []
     },
     {
@@ -234,6 +288,18 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0446-wolbrom.html",
+      "day_type": "saturday",
+      "time": "15:32",
+      "symbols": [
+        "B"
+      ]
+    },
+    {
       "line": "13",
       "main_direction": "Sławków ZWM",
       "display_direction": "Sławków ZWM",
@@ -264,6 +330,16 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0446-wolbrom.html",
+      "day_type": "saturday",
+      "time": "17:16",
+      "symbols": []
+    },
+    {
       "line": "13",
       "main_direction": "Sławków ZWM",
       "display_direction": "Sławków ZWM",
@@ -284,6 +360,16 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0446-wolbrom.html",
+      "day_type": "saturday",
+      "time": "20:44",
+      "symbols": []
+    },
+    {
       "line": "5",
       "main_direction": "Olkusz Dworzec PKS",
       "display_direction": "Olkusz Dworzec PKS",
@@ -292,6 +378,28 @@
       "day_type": "sunday",
       "time": "04:40",
       "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0446-wolbrom.html",
+      "day_type": "sunday",
+      "time": "04:53",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0446-wolbrom.html",
+      "day_type": "sunday",
+      "time": "06:51",
+      "symbols": [
+        "B"
+      ]
     },
     {
       "line": "5",
@@ -386,6 +494,18 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0446-wolbrom.html",
+      "day_type": "sunday",
+      "time": "14:22",
+      "symbols": [
+        "B"
+      ]
+    },
+    {
       "line": "5",
       "main_direction": "Olkusz Dworzec PKS",
       "display_direction": "Olkusz Dworzec PKS",
@@ -426,6 +546,18 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0446-wolbrom.html",
+      "day_type": "sunday",
+      "time": "19:14",
+      "symbols": [
+        "B"
+      ]
+    },
+    {
       "line": "5",
       "main_direction": "Olkusz Dworzec PKS",
       "display_direction": "Olkusz Dworzec PKS",
@@ -458,6 +590,16 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0446-wolbrom.html",
+      "day_type": "workday",
+      "time": "04:53",
+      "symbols": []
+    },
+    {
       "line": "13",
       "main_direction": "Sławków ZWM",
       "display_direction": "Hutki Pętla",
@@ -470,6 +612,16 @@
       ]
     },
     {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0446-wolbrom.html",
+      "day_type": "workday",
+      "time": "06:24",
+      "symbols": []
+    },
+    {
       "line": "5",
       "main_direction": "Olkusz Dworzec PKS",
       "display_direction": "Olkusz Dworzec PKS",
@@ -478,6 +630,18 @@
       "day_type": "workday",
       "time": "06:30",
       "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0446-wolbrom.html",
+      "day_type": "workday",
+      "time": "07:31",
+      "symbols": [
+        "B"
+      ]
     },
     {
       "line": "13",
@@ -522,6 +686,18 @@
       ]
     },
     {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0446-wolbrom.html",
+      "day_type": "workday",
+      "time": "10:04",
+      "symbols": [
+        "B"
+      ]
+    },
+    {
       "line": "5",
       "main_direction": "Olkusz Dworzec PKS",
       "display_direction": "Olkusz Dworzec PKS",
@@ -542,6 +718,16 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0446-wolbrom.html",
+      "day_type": "workday",
+      "time": "12:09",
+      "symbols": []
+    },
+    {
       "line": "13",
       "main_direction": "Sławków ZWM",
       "display_direction": "Hutki Pętla",
@@ -552,6 +738,16 @@
       "symbols": [
         "H"
       ]
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0446-wolbrom.html",
+      "day_type": "workday",
+      "time": "13:30",
+      "symbols": []
     },
     {
       "line": "5",
@@ -572,6 +768,18 @@
       "day_type": "workday",
       "time": "14:11",
       "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0446-wolbrom.html",
+      "day_type": "workday",
+      "time": "15:02",
+      "symbols": [
+        "B"
+      ]
     },
     {
       "line": "13",
@@ -614,6 +822,16 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0446-wolbrom.html",
+      "day_type": "workday",
+      "time": "17:16",
+      "symbols": []
+    },
+    {
       "line": "13",
       "main_direction": "Sławków ZWM",
       "display_direction": "Sławków ZWM",
@@ -646,6 +864,18 @@
       ]
     },
     {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0446-wolbrom.html",
+      "day_type": "workday",
+      "time": "19:31",
+      "symbols": [
+        "B"
+      ]
+    },
+    {
       "line": "5",
       "main_direction": "Olkusz Dworzec PKS",
       "display_direction": "Olkusz Dworzec PKS",
@@ -654,6 +884,28 @@
       "day_type": "workday",
       "time": "20:30",
       "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0446-wolbrom.html",
+      "day_type": "workday",
+      "time": "20:44",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Bukowno Bór Biskupi Pętla",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0446-wolbrom.html",
+      "day_type": "workday",
+      "time": "23:05",
+      "symbols": [
+        "A"
+      ]
     }
   ],
   "served_lines": [
@@ -661,6 +913,11 @@
       "line": "13",
       "main_direction": "Sławków ZWM",
       "page": "rozklady/13/0446-zwm.html"
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "page": "rozklady/35/0446-wolbrom.html"
     },
     {
       "line": "5",
@@ -671,6 +928,10 @@
   "legends": {
     "13": {
       "H": "do: Hutki Pętla"
+    },
+    "35": {
+      "A": "do: Bukowno Bór Biskupi Pętla",
+      "B": "z pominięciem: Bukowno Borowska>>Bukowno Bór Biskupi Pętla"
     },
     "5": {}
   }

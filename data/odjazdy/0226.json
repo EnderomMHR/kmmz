@@ -4,6 +4,16 @@
   "platform": "2",
   "departures": [
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0226-slawkow.html",
+      "day_type": "holiday",
+      "time": "06:32",
+      "symbols": []
+    },
+    {
       "line": "29",
       "main_direction": "Krzeszowice Dworzec Autobusowy",
       "display_direction": "Krzeszowice Dworzec Autobusowy",
@@ -32,6 +42,18 @@
       "day_type": "holiday",
       "time": "10:07",
       "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0226-slawkow.html",
+      "day_type": "holiday",
+      "time": "10:37",
+      "symbols": [
+        "S"
+      ]
     },
     {
       "line": "2",
@@ -100,6 +122,16 @@
       ]
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0226-slawkow.html",
+      "day_type": "saturday",
+      "time": "04:52",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Laski Pętla",
       "display_direction": "Laski Pętla",
@@ -127,6 +159,16 @@
       "page": "rozklady/34/0226-gorenice.html",
       "day_type": "saturday",
       "time": "06:08",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0226-slawkow.html",
+      "day_type": "saturday",
+      "time": "06:33",
       "symbols": []
     },
     {
@@ -172,6 +214,18 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0226-slawkow.html",
+      "day_type": "saturday",
+      "time": "08:35",
+      "symbols": [
+        "B"
+      ]
+    },
+    {
       "line": "2",
       "main_direction": "Laski Pętla",
       "display_direction": "Laski Pętla",
@@ -204,6 +258,18 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0226-slawkow.html",
+      "day_type": "saturday",
+      "time": "10:07",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
       "line": "23",
       "main_direction": "Olkusz Dworzec PKS",
       "display_direction": "Olkusz Dworzec PKS",
@@ -234,6 +300,18 @@
       "day_type": "saturday",
       "time": "11:42",
       "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0226-slawkow.html",
+      "day_type": "saturday",
+      "time": "12:17",
+      "symbols": [
+        "B"
+      ]
     },
     {
       "line": "5",
@@ -278,6 +356,16 @@
       ]
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0226-slawkow.html",
+      "day_type": "saturday",
+      "time": "14:04",
+      "symbols": []
+    },
+    {
       "line": "5",
       "main_direction": "Olkusz Dworzec PKS",
       "display_direction": "Olkusz Dworzec PKS",
@@ -310,6 +398,16 @@
       ]
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0226-slawkow.html",
+      "day_type": "saturday",
+      "time": "15:47",
+      "symbols": []
+    },
+    {
       "line": "29",
       "main_direction": "Krzeszowice Dworzec Autobusowy",
       "display_direction": "Krzeszowice Dworzec Autobusowy",
@@ -334,6 +432,18 @@
       ]
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0226-slawkow.html",
+      "day_type": "saturday",
+      "time": "17:38",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
       "line": "23",
       "main_direction": "Olkusz Dworzec PKS",
       "display_direction": "Olkusz Dworzec PKS",
@@ -352,6 +462,18 @@
       "day_type": "saturday",
       "time": "18:04",
       "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0226-slawkow.html",
+      "day_type": "saturday",
+      "time": "19:24",
+      "symbols": [
+        "B"
+      ]
     },
     {
       "line": "34",
@@ -386,6 +508,18 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0226-slawkow.html",
+      "day_type": "saturday",
+      "time": "21:07",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
       "line": "2",
       "main_direction": "Laski Pętla",
       "display_direction": "Laski Pętla",
@@ -410,6 +544,19 @@
       ]
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0226-slawkow.html",
+      "day_type": "saturday",
+      "time": "22:57",
+      "symbols": [
+        "B",
+        "S"
+      ]
+    },
+    {
       "line": "2",
       "main_direction": "Laski Pętla",
       "display_direction": "Laski Pętla",
@@ -417,6 +564,16 @@
       "page": "rozklady/2/0226-laski.html",
       "day_type": "sunday",
       "time": "05:21",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0226-slawkow.html",
+      "day_type": "sunday",
+      "time": "05:23",
       "symbols": []
     },
     {
@@ -444,6 +601,19 @@
       ]
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0226-slawkow.html",
+      "day_type": "sunday",
+      "time": "07:26",
+      "symbols": [
+        "B",
+        "S"
+      ]
+    },
+    {
       "line": "5",
       "main_direction": "Olkusz Dworzec PKS",
       "display_direction": "Olkusz Dworzec PKS",
@@ -452,6 +622,18 @@
       "day_type": "sunday",
       "time": "07:44",
       "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0226-slawkow.html",
+      "day_type": "sunday",
+      "time": "08:57",
+      "symbols": [
+        "S"
+      ]
     },
     {
       "line": "34",
@@ -498,6 +680,18 @@
       ]
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0226-slawkow.html",
+      "day_type": "sunday",
+      "time": "10:41",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
       "line": "29",
       "main_direction": "Krzeszowice Dworzec Autobusowy",
       "display_direction": "Krzeszowice Dworzec Autobusowy",
@@ -530,6 +724,16 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0226-slawkow.html",
+      "day_type": "sunday",
+      "time": "12:54",
+      "symbols": []
+    },
+    {
       "line": "29",
       "main_direction": "Krzeszowice Dworzec Autobusowy",
       "display_direction": "Krzeszowice Dworzec Autobusowy",
@@ -538,6 +742,18 @@
       "day_type": "sunday",
       "time": "13:24",
       "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0226-slawkow.html",
+      "day_type": "sunday",
+      "time": "14:18",
+      "symbols": [
+        "S"
+      ]
     },
     {
       "line": "5",
@@ -560,6 +776,18 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0226-slawkow.html",
+      "day_type": "sunday",
+      "time": "16:28",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
       "line": "2",
       "main_direction": "Laski Pętla",
       "display_direction": "Laski Pętla",
@@ -568,6 +796,18 @@
       "day_type": "sunday",
       "time": "16:46",
       "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0226-slawkow.html",
+      "day_type": "sunday",
+      "time": "17:43",
+      "symbols": [
+        "B"
+      ]
     },
     {
       "line": "5",
@@ -590,6 +830,18 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0226-slawkow.html",
+      "day_type": "sunday",
+      "time": "19:57",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
       "line": "2",
       "main_direction": "Laski Pętla",
       "display_direction": "Laski Pętla",
@@ -610,6 +862,18 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0226-slawkow.html",
+      "day_type": "sunday",
+      "time": "21:37",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
       "line": "2",
       "main_direction": "Laski Pętla",
       "display_direction": "Laski Pętla",
@@ -620,6 +884,16 @@
       "symbols": [
         "H"
       ]
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0226-slawkow.html",
+      "day_type": "workday",
+      "time": "04:52",
+      "symbols": []
     },
     {
       "line": "5",
@@ -642,6 +916,16 @@
       "symbols": [
         "P"
       ]
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0226-slawkow.html",
+      "day_type": "workday",
+      "time": "06:03",
+      "symbols": []
     },
     {
       "line": "29",
@@ -676,6 +960,19 @@
       ]
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0226-slawkow.html",
+      "day_type": "workday",
+      "time": "07:26",
+      "symbols": [
+        "B",
+        "S"
+      ]
+    },
+    {
       "line": "23",
       "main_direction": "Olkusz Dworzec PKS",
       "display_direction": "Olkusz Dworzec PKS",
@@ -686,6 +983,18 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0226-slawkow.html",
+      "day_type": "workday",
+      "time": "08:35",
+      "symbols": [
+        "B"
+      ]
+    },
+    {
       "line": "34",
       "main_direction": "Gorenice Pętla",
       "display_direction": "Gorenice Pętla",
@@ -694,6 +1003,18 @@
       "day_type": "workday",
       "time": "08:43",
       "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0226-slawkow.html",
+      "day_type": "workday",
+      "time": "09:37",
+      "symbols": [
+        "S"
+      ]
     },
     {
       "line": "5",
@@ -735,6 +1056,16 @@
       "page": "rozklady/29/0226-okrezna-2.html",
       "day_type": "workday",
       "time": "10:09",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0226-slawkow.html",
+      "day_type": "workday",
+      "time": "10:41",
       "symbols": []
     },
     {
@@ -781,6 +1112,18 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0226-slawkow.html",
+      "day_type": "workday",
+      "time": "12:17",
+      "symbols": [
+        "B"
+      ]
+    },
+    {
       "line": "34",
       "main_direction": "Gorenice Pętla",
       "display_direction": "Gorenice Pętla",
@@ -813,6 +1156,16 @@
       ]
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0226-slawkow.html",
+      "day_type": "workday",
+      "time": "13:34",
+      "symbols": []
+    },
+    {
       "line": "5",
       "main_direction": "Olkusz Dworzec PKS",
       "display_direction": "Olkusz Dworzec PKS",
@@ -836,6 +1189,18 @@
       ]
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0226-slawkow.html",
+      "day_type": "workday",
+      "time": "14:35",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
       "line": "23",
       "main_direction": "Olkusz Dworzec PKS",
       "display_direction": "Olkusz Dworzec PKS",
@@ -853,6 +1218,16 @@
       "page": "rozklady/2/0226-laski.html",
       "day_type": "workday",
       "time": "15:41",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0226-slawkow.html",
+      "day_type": "workday",
+      "time": "15:47",
       "symbols": []
     },
     {
@@ -898,6 +1273,19 @@
       ]
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0226-slawkow.html",
+      "day_type": "workday",
+      "time": "17:08",
+      "symbols": [
+        "B",
+        "S"
+      ]
+    },
+    {
       "line": "2",
       "main_direction": "Laski Pętla",
       "display_direction": "Laski Pętla",
@@ -905,6 +1293,16 @@
       "page": "rozklady/2/0226-laski.html",
       "day_type": "workday",
       "time": "17:18",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0226-slawkow.html",
+      "day_type": "workday",
+      "time": "17:43",
       "symbols": []
     },
     {
@@ -931,6 +1329,18 @@
       "day_type": "workday",
       "time": "19:04",
       "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0226-slawkow.html",
+      "day_type": "workday",
+      "time": "19:24",
+      "symbols": [
+        "B"
+      ]
     },
     {
       "line": "23",
@@ -973,6 +1383,18 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0226-slawkow.html",
+      "day_type": "workday",
+      "time": "20:37",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
       "line": "5",
       "main_direction": "Olkusz Dworzec PKS",
       "display_direction": "Olkusz Dworzec PKS",
@@ -991,6 +1413,29 @@
       "day_type": "workday",
       "time": "21:31",
       "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0226-slawkow.html",
+      "day_type": "workday",
+      "time": "21:37",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0226-slawkow.html",
+      "day_type": "workday",
+      "time": "22:57",
+      "symbols": [
+        "B",
+        "S"
+      ]
     },
     {
       "line": "34",
@@ -1039,6 +1484,11 @@
       "page": "rozklady/34/0226-gorenice.html"
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "page": "rozklady/35/0226-slawkow.html"
+    },
+    {
       "line": "5",
       "main_direction": "Olkusz Dworzec PKS",
       "page": "rozklady/5/0226-olkusz.html"
@@ -1057,6 +1507,10 @@
     },
     "34": {
       "O": "do: Olkusz Dworzec PKS"
+    },
+    "35": {
+      "B": "z pominięciem: Bukowno Borowska>>Bukowno Bór Biskupi Pętla",
+      "S": "do: Sławków Rynek"
     },
     "5": {}
   }

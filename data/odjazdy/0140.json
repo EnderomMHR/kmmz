@@ -4,6 +4,16 @@
   "platform": "2",
   "departures": [
     {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0140-wolbrom.html",
+      "day_type": "holiday",
+      "time": "08:24",
+      "symbols": []
+    },
+    {
       "line": "10",
       "main_direction": "Bukowno Dworzec PKP",
       "display_direction": "Bukowno Dworzec PKP",
@@ -31,6 +41,28 @@
       "page": "rozklady/10/0140-okrezna-1.html",
       "day_type": "holiday",
       "time": "11:41",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0140-wolbrom.html",
+      "day_type": "holiday",
+      "time": "11:53",
+      "symbols": [
+        "B"
+      ]
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0140-wolbrom.html",
+      "day_type": "saturday",
+      "time": "06:34",
       "symbols": []
     },
     {
@@ -44,6 +76,18 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0140-wolbrom.html",
+      "day_type": "saturday",
+      "time": "08:11",
+      "symbols": [
+        "B"
+      ]
+    },
+    {
       "line": "10",
       "main_direction": "Bukowno Dworzec PKP",
       "display_direction": "Bukowno Dworzec PKP",
@@ -52,6 +96,30 @@
       "day_type": "saturday",
       "time": "09:43",
       "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0140-wolbrom.html",
+      "day_type": "saturday",
+      "time": "10:14",
+      "symbols": [
+        "B"
+      ]
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0140-wolbrom.html",
+      "day_type": "saturday",
+      "time": "11:27",
+      "symbols": [
+        "B"
+      ]
     },
     {
       "line": "2",
@@ -71,6 +139,38 @@
       "page": "rozklady/10/0140-okrezna-1.html",
       "day_type": "saturday",
       "time": "11:41",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0140-wolbrom.html",
+      "day_type": "saturday",
+      "time": "13:40",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0140-wolbrom.html",
+      "day_type": "saturday",
+      "time": "15:42",
+      "symbols": [
+        "B"
+      ]
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0140-wolbrom.html",
+      "day_type": "saturday",
+      "time": "17:26",
       "symbols": []
     },
     {
@@ -86,6 +186,16 @@
       ]
     },
     {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0140-wolbrom.html",
+      "day_type": "saturday",
+      "time": "19:03",
+      "symbols": []
+    },
+    {
       "line": "10",
       "main_direction": "Bukowno Dworzec PKP",
       "display_direction": "Bukowno Dworzec PKP",
@@ -96,6 +206,48 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0140-wolbrom.html",
+      "day_type": "saturday",
+      "time": "20:54",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0140-wolbrom.html",
+      "day_type": "saturday",
+      "time": "22:26",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0140-wolbrom.html",
+      "day_type": "sunday",
+      "time": "05:03",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0140-wolbrom.html",
+      "day_type": "sunday",
+      "time": "07:01",
+      "symbols": [
+        "B"
+      ]
+    },
+    {
       "line": "2",
       "main_direction": "Zadole Kosmolowskie Pętla",
       "display_direction": "Zadole Kosmolowskie Pętla",
@@ -103,6 +255,16 @@
       "page": "rozklady/2/0140-zadole.html",
       "day_type": "sunday",
       "time": "07:09",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0140-wolbrom.html",
+      "day_type": "sunday",
+      "time": "08:41",
       "symbols": []
     },
     {
@@ -116,6 +278,18 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0140-wolbrom.html",
+      "day_type": "sunday",
+      "time": "10:17",
+      "symbols": [
+        "B"
+      ]
+    },
+    {
       "line": "10",
       "main_direction": "Bukowno Dworzec PKP",
       "display_direction": "Bukowno Dworzec PKP",
@@ -123,6 +297,38 @@
       "page": "rozklady/10/0140-okrezna-1.html",
       "day_type": "sunday",
       "time": "11:47",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0140-wolbrom.html",
+      "day_type": "sunday",
+      "time": "11:57",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0140-wolbrom.html",
+      "day_type": "sunday",
+      "time": "14:32",
+      "symbols": [
+        "B"
+      ]
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0140-wolbrom.html",
+      "day_type": "sunday",
+      "time": "15:42",
       "symbols": []
     },
     {
@@ -138,6 +344,58 @@
       ]
     },
     {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0140-wolbrom.html",
+      "day_type": "sunday",
+      "time": "17:53",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0140-wolbrom.html",
+      "day_type": "sunday",
+      "time": "19:24",
+      "symbols": [
+        "B"
+      ]
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0140-wolbrom.html",
+      "day_type": "sunday",
+      "time": "21:24",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0140-wolbrom.html",
+      "day_type": "workday",
+      "time": "05:03",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0140-wolbrom.html",
+      "day_type": "workday",
+      "time": "06:34",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Zadole Kosmolowskie Pętla",
       "display_direction": "Olkusz Dworzec PKS",
@@ -151,6 +409,18 @@
       ]
     },
     {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0140-wolbrom.html",
+      "day_type": "workday",
+      "time": "07:41",
+      "symbols": [
+        "B"
+      ]
+    },
+    {
       "line": "10",
       "main_direction": "Bukowno Dworzec PKP",
       "display_direction": "Bukowno Dworzec PKP",
@@ -158,6 +428,16 @@
       "page": "rozklady/10/0140-okrezna-2.html",
       "day_type": "workday",
       "time": "08:31",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0140-wolbrom.html",
+      "day_type": "workday",
+      "time": "08:41",
       "symbols": []
     },
     {
@@ -183,6 +463,18 @@
       ]
     },
     {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0140-wolbrom.html",
+      "day_type": "workday",
+      "time": "10:14",
+      "symbols": [
+        "B"
+      ]
+    },
+    {
       "line": "10",
       "main_direction": "Bukowno Dworzec PKP",
       "display_direction": "Bukowno Dworzec PKP",
@@ -193,6 +485,18 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0140-wolbrom.html",
+      "day_type": "workday",
+      "time": "10:57",
+      "symbols": [
+        "B"
+      ]
+    },
+    {
       "line": "10",
       "main_direction": "Bukowno Dworzec PKP",
       "display_direction": "Bukowno Dworzec PKP",
@@ -200,6 +504,16 @@
       "page": "rozklady/10/0140-okrezna-1.html",
       "day_type": "workday",
       "time": "11:28",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0140-wolbrom.html",
+      "day_type": "workday",
+      "time": "12:19",
       "symbols": []
     },
     {
@@ -215,6 +529,28 @@
       ]
     },
     {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0140-wolbrom.html",
+      "day_type": "workday",
+      "time": "13:40",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0140-wolbrom.html",
+      "day_type": "workday",
+      "time": "15:12",
+      "symbols": [
+        "B"
+      ]
+    },
+    {
       "line": "2",
       "main_direction": "Zadole Kosmolowskie Pętla",
       "display_direction": "Zadole Kosmolowskie Pętla",
@@ -222,6 +558,16 @@
       "page": "rozklady/2/0140-zadole.html",
       "day_type": "workday",
       "time": "15:26",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0140-wolbrom.html",
+      "day_type": "workday",
+      "time": "15:42",
       "symbols": []
     },
     {
@@ -239,6 +585,16 @@
       ]
     },
     {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0140-wolbrom.html",
+      "day_type": "workday",
+      "time": "17:26",
+      "symbols": []
+    },
+    {
       "line": "10",
       "main_direction": "Bukowno Dworzec PKP",
       "display_direction": "Bukowno Dworzec PKP",
@@ -246,6 +602,16 @@
       "page": "rozklady/10/0140-okrezna-2.html",
       "day_type": "workday",
       "time": "17:27",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0140-wolbrom.html",
+      "day_type": "workday",
+      "time": "18:33",
       "symbols": []
     },
     {
@@ -257,6 +623,18 @@
       "day_type": "workday",
       "time": "18:57",
       "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0140-wolbrom.html",
+      "day_type": "workday",
+      "time": "19:41",
+      "symbols": [
+        "B"
+      ]
     },
     {
       "line": "2",
@@ -271,6 +649,16 @@
       ]
     },
     {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0140-wolbrom.html",
+      "day_type": "workday",
+      "time": "20:54",
+      "symbols": []
+    },
+    {
       "line": "2",
       "main_direction": "Zadole Kosmolowskie Pętla",
       "display_direction": "Olkusz Dworzec PKS",
@@ -282,6 +670,28 @@
         "H",
         "O",
         "Z"
+      ]
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Wolbrom Nowa PKS",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0140-wolbrom.html",
+      "day_type": "workday",
+      "time": "22:04",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "display_direction": "Bukowno Bór Biskupi Pętla",
+      "direction_slug": "wolbrom",
+      "page": "rozklady/35/0140-wolbrom.html",
+      "day_type": "workday",
+      "time": "23:15",
+      "symbols": [
+        "A"
       ]
     }
   ],
@@ -300,6 +710,11 @@
       "line": "2",
       "main_direction": "Zadole Kosmolowskie Pętla",
       "page": "rozklady/2/0140-zadole.html"
+    },
+    {
+      "line": "35",
+      "main_direction": "Wolbrom Nowa PKS",
+      "page": "rozklady/35/0140-wolbrom.html"
     }
   ],
   "legends": {
@@ -309,6 +724,10 @@
       "L": "z pominięciem: Bolesław Remiza>>Laski Pętla",
       "O": "do: Olkusz Dworzec PKS",
       "Z": "z pominięciem: Olkusz Górnicza>>Olkusz Dworek Machnickich"
+    },
+    "35": {
+      "A": "do: Bukowno Bór Biskupi Pętla",
+      "B": "z pominięciem: Bukowno Borowska>>Bukowno Bór Biskupi Pętla"
     }
   }
 }

@@ -4,6 +4,28 @@
   "platform": "2",
   "departures": [
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0728-slawkow.html",
+      "day_type": "holiday",
+      "time": "06:55",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0728-slawkow.html",
+      "day_type": "holiday",
+      "time": "11:00",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
       "line": "10",
       "main_direction": "Bukowno Bór Biskupi OSP",
       "display_direction": "Bukowno Bór Biskupi OSP",
@@ -64,6 +86,50 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0728-slawkow.html",
+      "day_type": "saturday",
+      "time": "05:15",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0728-slawkow.html",
+      "day_type": "saturday",
+      "time": "06:56",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0728-slawkow.html",
+      "day_type": "saturday",
+      "time": "08:58",
+      "symbols": [
+        "B"
+      ]
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0728-slawkow.html",
+      "day_type": "saturday",
+      "time": "10:30",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
       "line": "10",
       "main_direction": "Bukowno Bór Biskupi OSP",
       "display_direction": "Bukowno Bór Biskupi OSP",
@@ -84,6 +150,18 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0728-slawkow.html",
+      "day_type": "saturday",
+      "time": "12:40",
+      "symbols": [
+        "B"
+      ]
+    },
+    {
       "line": "21",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Trzebinia Dworzec PKP",
@@ -91,6 +169,16 @@
       "page": "rozklady/21/0728-trzebinia.html",
       "day_type": "saturday",
       "time": "13:34",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0728-slawkow.html",
+      "day_type": "saturday",
+      "time": "14:27",
       "symbols": []
     },
     {
@@ -104,6 +192,16 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0728-slawkow.html",
+      "day_type": "saturday",
+      "time": "16:10",
+      "symbols": []
+    },
+    {
       "line": "21",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Trzebinia Dworzec PKP",
@@ -112,6 +210,18 @@
       "day_type": "saturday",
       "time": "16:46",
       "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0728-slawkow.html",
+      "day_type": "saturday",
+      "time": "18:01",
+      "symbols": [
+        "S"
+      ]
     },
     {
       "line": "21",
@@ -124,6 +234,18 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0728-slawkow.html",
+      "day_type": "saturday",
+      "time": "19:47",
+      "symbols": [
+        "B"
+      ]
+    },
+    {
       "line": "21",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Trzebinia Dworzec PKP",
@@ -132,6 +254,78 @@
       "day_type": "saturday",
       "time": "20:31",
       "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0728-slawkow.html",
+      "day_type": "saturday",
+      "time": "21:30",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0728-slawkow.html",
+      "day_type": "saturday",
+      "time": "23:20",
+      "symbols": [
+        "B",
+        "S"
+      ]
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0728-slawkow.html",
+      "day_type": "sunday",
+      "time": "05:46",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0728-slawkow.html",
+      "day_type": "sunday",
+      "time": "07:49",
+      "symbols": [
+        "B",
+        "S"
+      ]
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0728-slawkow.html",
+      "day_type": "sunday",
+      "time": "09:20",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0728-slawkow.html",
+      "day_type": "sunday",
+      "time": "11:04",
+      "symbols": [
+        "S"
+      ]
     },
     {
       "line": "10",
@@ -154,6 +348,16 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0728-slawkow.html",
+      "day_type": "sunday",
+      "time": "13:17",
+      "symbols": []
+    },
+    {
       "line": "21",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Trzebinia Dworzec PKP",
@@ -162,6 +366,18 @@
       "day_type": "sunday",
       "time": "13:34",
       "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0728-slawkow.html",
+      "day_type": "sunday",
+      "time": "14:41",
+      "symbols": [
+        "S"
+      ]
     },
     {
       "line": "21",
@@ -184,6 +400,30 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0728-slawkow.html",
+      "day_type": "sunday",
+      "time": "16:51",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0728-slawkow.html",
+      "day_type": "sunday",
+      "time": "18:06",
+      "symbols": [
+        "B"
+      ]
+    },
+    {
       "line": "21",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Trzebinia Dworzec PKP",
@@ -194,6 +434,18 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0728-slawkow.html",
+      "day_type": "sunday",
+      "time": "20:20",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
       "line": "21",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Trzebinia Dworzec PKP",
@@ -201,6 +453,28 @@
       "page": "rozklady/21/0728-trzebinia.html",
       "day_type": "sunday",
       "time": "20:31",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0728-slawkow.html",
+      "day_type": "sunday",
+      "time": "22:00",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0728-slawkow.html",
+      "day_type": "workday",
+      "time": "05:15",
       "symbols": []
     },
     {
@@ -214,6 +488,16 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0728-slawkow.html",
+      "day_type": "workday",
+      "time": "06:26",
+      "symbols": []
+    },
+    {
       "line": "21",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Trzebinia Dworzec PKP",
@@ -222,6 +506,31 @@
       "day_type": "workday",
       "time": "07:49",
       "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0728-slawkow.html",
+      "day_type": "workday",
+      "time": "07:49",
+      "symbols": [
+        "B",
+        "S"
+      ]
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0728-slawkow.html",
+      "day_type": "workday",
+      "time": "08:58",
+      "symbols": [
+        "B"
+      ]
     },
     {
       "line": "10",
@@ -244,6 +553,18 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0728-slawkow.html",
+      "day_type": "workday",
+      "time": "10:00",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
       "line": "10",
       "main_direction": "Bukowno Bór Biskupi OSP",
       "display_direction": "Bukowno Bór Biskupi OSP",
@@ -251,6 +572,16 @@
       "page": "rozklady/10/0728-okrezna-1.html",
       "day_type": "workday",
       "time": "10:48",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0728-slawkow.html",
+      "day_type": "workday",
+      "time": "11:04",
       "symbols": []
     },
     {
@@ -264,6 +595,18 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0728-slawkow.html",
+      "day_type": "workday",
+      "time": "12:40",
+      "symbols": [
+        "B"
+      ]
+    },
+    {
       "line": "21",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Trzebinia Dworzec PKP",
@@ -272,6 +615,28 @@
       "day_type": "workday",
       "time": "13:34",
       "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0728-slawkow.html",
+      "day_type": "workday",
+      "time": "13:57",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0728-slawkow.html",
+      "day_type": "workday",
+      "time": "14:58",
+      "symbols": [
+        "S"
+      ]
     },
     {
       "line": "21",
@@ -284,6 +649,16 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0728-slawkow.html",
+      "day_type": "workday",
+      "time": "16:10",
+      "symbols": []
+    },
+    {
       "line": "21",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Trzebinia Dworzec PKP",
@@ -291,6 +666,29 @@
       "page": "rozklady/21/0728-trzebinia.html",
       "day_type": "workday",
       "time": "16:46",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0728-slawkow.html",
+      "day_type": "workday",
+      "time": "17:31",
+      "symbols": [
+        "B",
+        "S"
+      ]
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0728-slawkow.html",
+      "day_type": "workday",
+      "time": "18:06",
       "symbols": []
     },
     {
@@ -314,6 +712,18 @@
       "symbols": []
     },
     {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0728-slawkow.html",
+      "day_type": "workday",
+      "time": "19:47",
+      "symbols": [
+        "B"
+      ]
+    },
+    {
       "line": "21",
       "main_direction": "Trzebinia Dworzec PKP",
       "display_direction": "Trzebinia Dworzec PKP",
@@ -321,6 +731,28 @@
       "page": "rozklady/21/0728-trzebinia.html",
       "day_type": "workday",
       "time": "20:31",
+      "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0728-slawkow.html",
+      "day_type": "workday",
+      "time": "21:00",
+      "symbols": [
+        "S"
+      ]
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Burki Pętla",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0728-slawkow.html",
+      "day_type": "workday",
+      "time": "22:00",
       "symbols": []
     },
     {
@@ -332,6 +764,19 @@
       "day_type": "workday",
       "time": "22:10",
       "symbols": []
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "display_direction": "Sławków Rynek",
+      "direction_slug": "slawkow",
+      "page": "rozklady/35/0728-slawkow.html",
+      "day_type": "workday",
+      "time": "23:20",
+      "symbols": [
+        "B",
+        "S"
+      ]
     }
   ],
   "served_lines": [
@@ -344,10 +789,19 @@
       "line": "21",
       "main_direction": "Trzebinia Dworzec PKP",
       "page": "rozklady/21/0728-trzebinia.html"
+    },
+    {
+      "line": "35",
+      "main_direction": "Sławków Burki Pętla",
+      "page": "rozklady/35/0728-slawkow.html"
     }
   ],
   "legends": {
     "10": {},
-    "21": {}
+    "21": {},
+    "35": {
+      "B": "z pominięciem: Bukowno Borowska>>Bukowno Bór Biskupi Pętla",
+      "S": "do: Sławków Rynek"
+    }
   }
 }
