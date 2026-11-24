@@ -2104,6 +2104,16 @@
           "departures": {},
           "arrival_only": true
         }
+      ],
+      "direction_segments": [
+        {
+          "from_stop_id": "1510",
+          "name": "Chrzanów Dworzec Autobusowy"
+        },
+        {
+          "from_stop_id": "0116",
+          "name": "Trzebinia Parkowa Boisko"
+        }
       ]
     }
   ]
