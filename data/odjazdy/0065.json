@@ -23,7 +23,9 @@
       "page": "rozklady/1/0065_miekinia.html",
       "day_type": "saturday",
       "time": "07:14",
-      "symbols": []
+      "symbols": [
+        "K"
+      ]
     },
     {
       "line": "1",
@@ -65,7 +67,9 @@
       "page": "rozklady/1/0065_miekinia.html",
       "day_type": "saturday",
       "time": "15:45",
-      "symbols": []
+      "symbols": [
+        "K"
+      ]
     },
     {
       "line": "1",
@@ -119,7 +123,9 @@
       "page": "rozklady/1/0065_miekinia.html",
       "day_type": "workday",
       "time": "05:16",
-      "symbols": []
+      "symbols": [
+        "K"
+      ]
     },
     {
       "line": "1",
@@ -151,7 +157,9 @@
       "page": "rozklady/1/0065_miekinia.html",
       "day_type": "workday",
       "time": "08:30",
-      "symbols": []
+      "symbols": [
+        "K"
+      ]
     },
     {
       "line": "1",
@@ -195,7 +203,9 @@
       "page": "rozklady/1/0065_miekinia.html",
       "day_type": "workday",
       "time": "12:50",
-      "symbols": []
+      "symbols": [
+        "K"
+      ]
     },
     {
       "line": "1",
@@ -217,7 +227,9 @@
       "page": "rozklady/1/0065_miekinia.html",
       "day_type": "workday",
       "time": "14:28",
-      "symbols": []
+      "symbols": [
+        "K"
+      ]
     },
     {
       "line": "1",
@@ -249,7 +261,9 @@
       "page": "rozklady/1/0065_miekinia.html",
       "day_type": "workday",
       "time": "17:51",
-      "symbols": []
+      "symbols": [
+        "K"
+      ]
     },
     {
       "line": "1",
@@ -283,7 +297,9 @@
       "page": "rozklady/1/0065_miekinia.html",
       "day_type": "workday",
       "time": "20:34",
-      "symbols": []
+      "symbols": [
+        "K"
+      ]
     },
     {
       "line": "1",
@@ -293,7 +309,9 @@
       "page": "rozklady/1/0065_miekinia.html",
       "day_type": "workday",
       "time": "21:50",
-      "symbols": []
+      "symbols": [
+        "K"
+      ]
     },
     {
       "line": "1",
@@ -321,6 +339,10 @@
     }
   ],
   "legends": {
-    "1": {}
+    "1": {
+      "K": "do: Krzeszowice Czatkowice Dolne Kopalnia",
+      "M": "przez: Młoszowa Wzgórze II",
+      "V": "przez: Chrzanów Valeo, z pominięciem: Trzebinia Berezka"
+    }
   }
 }
