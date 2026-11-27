@@ -8,453 +8,1960 @@
       "variant_destinations": {},
       "legend": {},
       "route_stops": [
-        {"stop_id":"0001","stop_name":"Wolbrom Nowa PKS","platform":"0","file":"0001-olkusz.html"},
-        {"stop_id":"0029","stop_name":"Wolbrom 1-ego Maja I","platform":"2","file":"0029-olkusz.html"},
-        {"stop_id":"0016","stop_name":"Wolbrom Dworzec PKP","platform":"0","file":"0016-olkusz.html"},
-        {"stop_id":"0030","stop_name":"Wolbrom Brzozowska Rondo","platform":"1","file":"0030-olkusz.html"},
-        {"stop_id":"0031","stop_name":"Brzozówka I","platform":"1","file":"0031-olkusz.html"},
-        {"stop_id":"0032","stop_name":"Brzozówka II","platform":"2","file":"0032-olkusz.html"},
-        {"stop_id":"0033","stop_name":"Wierzchowisko Klub","platform":"2","file":"0033-olkusz.html"},
-        {"stop_id":"0034","stop_name":"Wierzchowisko Remiza","platform":"2","file":"0034-olkusz.html"},
-        {"stop_id":"0005","stop_name":"Lgota Wielka Kolonia Leśna","platform":"2","file":"0005-olkusz.html"},
-        {"stop_id":"0257","stop_name":"Lgota Wielka Skrzyżowanie","platform":"2","file":"0257-olkusz.html"},
-        {"stop_id":"0258","stop_name":"Lgota Wielka Kawkazy","platform":"2","file":"0258-olkusz.html"},
-        {"stop_id":"0259","stop_name":"Porąbka Parcela","platform":"1","file":"0259-olkusz.html"},
-        {"stop_id":"0260","stop_name":"Porąbka Stara Wieś","platform":"2","file":"0260-olkusz.html"},
-        {"stop_id":"0261","stop_name":"Porąbka Studnia","platform":"1","file":"0261-olkusz.html"},
-        {"stop_id":"0262","stop_name":"Porąbka","platform":"2","file":"0262-olkusz.html"},
-        {"stop_id":"0264","stop_name":"Trzyciąż Skrzyżowanie","platform":"2","file":"0264-olkusz.html"},
-        {"stop_id":"0265","stop_name":"Jangrot Źródło Dłubni","platform":"1","file":"0265-olkusz.html"},
-        {"stop_id":"0266","stop_name":"Jangrot Centrum","platform":"2","file":"0266-olkusz.html"},
-        {"stop_id":"0267","stop_name":"Jangrot Kosmolów","platform":"1","file":"0267-olkusz.html"},
-        {"stop_id":"0268","stop_name":"Jangrot Granica","platform":"2","file":"0268-olkusz.html"},
-        {"stop_id":"0269","stop_name":"Michałówka Granica","platform":"1","file":"0269-olkusz.html"},
-        {"stop_id":"0270","stop_name":"Michałówka OSP","platform":"2","file":"0270-olkusz.html"},
-        {"stop_id":"0271","stop_name":"Michałówka","platform":"2","file":"0271-olkusz.html"},
-        {"stop_id":"0272","stop_name":"Braciejówka Granica","platform":"1","file":"0272-olkusz.html"},
-        {"stop_id":"0273","stop_name":"Braciejówka Szkoła","platform":"1","file":"0273-olkusz.html"},
-        {"stop_id":"0274","stop_name":"Braciejówka Zalew","platform":"2","file":"0274-olkusz.html"},
-        {"stop_id":"0275","stop_name":"Braciejówka Cmentarz","platform":"1","file":"0275-olkusz.html"},
-        {"stop_id":"0276","stop_name":"Troks Granica","platform":"1","file":"0276-olkusz.html"},
-        {"stop_id":"0277","stop_name":"Troks Szkoła","platform":"1","file":"0277-olkusz.html"},
-        {"stop_id":"0278","stop_name":"Troks","platform":"1","file":"0278-olkusz.html"},
-        {"stop_id":"0279","stop_name":"Troks Las","platform":"1","file":"0279-olkusz.html"},
-        {"stop_id":"0280","stop_name":"Rabsztyn","platform":"1","file":"0280-olkusz.html"},
-        {"stop_id":"0281","stop_name":"Rabsztyn Ogródki Działkowe","platform":"1","file":"0281-olkusz.html"},
-        {"stop_id":"0282","stop_name":"Olkusz Sikorka","platform":"1","file":"0282-olkusz.html"},
-        {"stop_id":"0283","stop_name":"Olkusz Rabsztyńska","platform":"1","file":"0283-olkusz.html"},
-        {"stop_id":"0174","stop_name":"Olkusz Supersam","platform":"0","file":"0174-olkusz.html"},
-        {"stop_id":"0199","stop_name":"Olkusz Skarbek","platform":"2","file":"0199-olkusz.html"},
-        {"stop_id":"0200","stop_name":"Olkusz Dworzec PKS","platform":"0","file":"0200-olkusz.html"}
+        {
+          "stop_id": "0001",
+          "stop_name": "Wolbrom Nowa PKS",
+          "platform": "0",
+          "file": "0001-olkusz.html"
+        },
+        {
+          "stop_id": "0029",
+          "stop_name": "Wolbrom 1-ego Maja I",
+          "platform": "2",
+          "file": "0029-olkusz.html"
+        },
+        {
+          "stop_id": "0016",
+          "stop_name": "Wolbrom Dworzec PKP",
+          "platform": "0",
+          "file": "0016-olkusz.html"
+        },
+        {
+          "stop_id": "0030",
+          "stop_name": "Wolbrom Brzozowska Rondo",
+          "platform": "1",
+          "file": "0030-olkusz.html"
+        },
+        {
+          "stop_id": "0031",
+          "stop_name": "Brzozówka I",
+          "platform": "1",
+          "file": "0031-olkusz.html"
+        },
+        {
+          "stop_id": "0032",
+          "stop_name": "Brzozówka II",
+          "platform": "2",
+          "file": "0032-olkusz.html"
+        },
+        {
+          "stop_id": "0033",
+          "stop_name": "Wierzchowisko Klub",
+          "platform": "2",
+          "file": "0033-olkusz.html"
+        },
+        {
+          "stop_id": "0034",
+          "stop_name": "Wierzchowisko Remiza",
+          "platform": "2",
+          "file": "0034-olkusz.html"
+        },
+        {
+          "stop_id": "0005",
+          "stop_name": "Lgota Wielka Kolonia Leśna",
+          "platform": "2",
+          "file": "0005-olkusz.html"
+        },
+        {
+          "stop_id": "0257",
+          "stop_name": "Lgota Wielka Skrzyżowanie",
+          "platform": "2",
+          "file": "0257-olkusz.html"
+        },
+        {
+          "stop_id": "0258",
+          "stop_name": "Lgota Wielka Kawkazy",
+          "platform": "2",
+          "file": "0258-olkusz.html"
+        },
+        {
+          "stop_id": "3342",
+          "stop_name": "Budzyń Remiza",
+          "platform": "1",
+          "file": "3342-olkusz.html"
+        },
+        {
+          "stop_id": "0259",
+          "stop_name": "Porąbka Parcela",
+          "platform": "1",
+          "file": "0259-olkusz.html"
+        },
+        {
+          "stop_id": "0260",
+          "stop_name": "Porąbka Stara Wieś",
+          "platform": "2",
+          "file": "0260-olkusz.html"
+        },
+        {
+          "stop_id": "0261",
+          "stop_name": "Porąbka Studnia",
+          "platform": "1",
+          "file": "0261-olkusz.html"
+        },
+        {
+          "stop_id": "0262",
+          "stop_name": "Porąbka",
+          "platform": "2",
+          "file": "0262-olkusz.html"
+        },
+        {
+          "stop_id": "0264",
+          "stop_name": "Trzyciąż Skrzyżowanie",
+          "platform": "2",
+          "file": "0264-olkusz.html"
+        },
+        {
+          "stop_id": "0265",
+          "stop_name": "Jangrot Źródło Dłubni",
+          "platform": "1",
+          "file": "0265-olkusz.html"
+        },
+        {
+          "stop_id": "0266",
+          "stop_name": "Jangrot Centrum",
+          "platform": "2",
+          "file": "0266-olkusz.html"
+        },
+        {
+          "stop_id": "0267",
+          "stop_name": "Jangrot Kosmolów",
+          "platform": "1",
+          "file": "0267-olkusz.html"
+        },
+        {
+          "stop_id": "0268",
+          "stop_name": "Jangrot Granica",
+          "platform": "2",
+          "file": "0268-olkusz.html"
+        },
+        {
+          "stop_id": "0269",
+          "stop_name": "Michałówka Granica",
+          "platform": "1",
+          "file": "0269-olkusz.html"
+        },
+        {
+          "stop_id": "0270",
+          "stop_name": "Michałówka OSP",
+          "platform": "2",
+          "file": "0270-olkusz.html"
+        },
+        {
+          "stop_id": "0271",
+          "stop_name": "Michałówka",
+          "platform": "2",
+          "file": "0271-olkusz.html"
+        },
+        {
+          "stop_id": "0272",
+          "stop_name": "Braciejówka Granica",
+          "platform": "1",
+          "file": "0272-olkusz.html"
+        },
+        {
+          "stop_id": "0273",
+          "stop_name": "Braciejówka Szkoła",
+          "platform": "1",
+          "file": "0273-olkusz.html"
+        },
+        {
+          "stop_id": "0274",
+          "stop_name": "Braciejówka Zalew",
+          "platform": "2",
+          "file": "0274-olkusz.html"
+        },
+        {
+          "stop_id": "0275",
+          "stop_name": "Braciejówka Cmentarz",
+          "platform": "1",
+          "file": "0275-olkusz.html"
+        },
+        {
+          "stop_id": "0276",
+          "stop_name": "Troks Granica",
+          "platform": "1",
+          "file": "0276-olkusz.html"
+        },
+        {
+          "stop_id": "0277",
+          "stop_name": "Troks Szkoła",
+          "platform": "1",
+          "file": "0277-olkusz.html"
+        },
+        {
+          "stop_id": "0278",
+          "stop_name": "Troks",
+          "platform": "1",
+          "file": "0278-olkusz.html"
+        },
+        {
+          "stop_id": "0279",
+          "stop_name": "Troks Las",
+          "platform": "1",
+          "file": "0279-olkusz.html"
+        },
+        {
+          "stop_id": "0280",
+          "stop_name": "Rabsztyn",
+          "platform": "1",
+          "file": "0280-olkusz.html"
+        },
+        {
+          "stop_id": "0281",
+          "stop_name": "Rabsztyn Ogródki Działkowe",
+          "platform": "1",
+          "file": "0281-olkusz.html"
+        },
+        {
+          "stop_id": "0282",
+          "stop_name": "Olkusz Sikorka",
+          "platform": "1",
+          "file": "0282-olkusz.html"
+        },
+        {
+          "stop_id": "0283",
+          "stop_name": "Olkusz Rabsztyńska",
+          "platform": "1",
+          "file": "0283-olkusz.html"
+        },
+        {
+          "stop_id": "0174",
+          "stop_name": "Olkusz Supersam",
+          "platform": "0",
+          "file": "0174-olkusz.html"
+        },
+        {
+          "stop_id": "0199",
+          "stop_name": "Olkusz Skarbek",
+          "platform": "2",
+          "file": "0199-olkusz.html"
+        },
+        {
+          "stop_id": "0200",
+          "stop_name": "Olkusz Dworzec PKS",
+          "platform": "0",
+          "file": "0200-olkusz.html"
+        }
       ],
       "timetables": [
-                  {
-  "stop_id": "0001",
-  "stop_name": "Wolbrom Nowa PKS",
-  "platform": "0",
-  "file": "0001-olkusz.html",
-  "departures": {
-    "workday": ["05:10", "07:29", "09:09", "10:25", "11:44", "12:55", "14:27", "15:12", "16:42", "17:31", "19:06", "20:31"],
-    "weekend": ["05:10", "07:30", "10:27", "12:57", "15:14", "17:33", "20:33"],
-    "holiday": ["10:27", "12:57", "15:14"]
-  }
-},
-             {
-  "stop_id": "0029",
-  "stop_name": "Wolbrom 1-ego Maja I",
-  "platform": "2",
-  "file": "0029-olkusz.html",
-  "departures": {
-    "workday": ["05:15", "07:34", "09:14", "10:30", "11:49", "13:00", "14:32", "15:17", "16:47", "17:36", "19:11", "20:36"],
-    "weekend": ["05:15", "07:35", "10:32", "13:02", "15:19", "17:38", "20:38"],
-    "holiday": ["10:32", "13:02", "15:19"]
-  }
-},
-           {
-  "stop_id": "0016",
-  "stop_name": "Wolbrom Dworzec PKP",
-  "platform": "0",
-  "file": "0016-olkusz.html",
-  "departures": {
-    "workday": ["05:17", "07:36", "09:16", "10:32", "11:51", "13:02", "14:34", "15:19", "16:49", "17:38", "19:13", "20:38"],
-    "weekend": ["05:17", "07:37", "10:34", "13:04", "15:21", "17:40", "20:40"],
-    "holiday": ["10:34", "13:04", "15:21"]
-  }
-},
-          {
-  "stop_id": "0030",
-  "stop_name": "Wolbrom Brzozowska Rondo",
-  "platform": "1",
-  "file": "0030-olkusz.html",
-  "departures": {
-    "workday": ["05:20", "07:39", "09:19", "10:35", "11:54", "13:05", "14:37", "15:22", "16:52", "17:41", "19:16", "20:41"],
-    "weekend": ["05:20", "07:40", "10:37", "13:07", "15:24", "17:43", "20:43"],
-    "holiday": ["10:37", "13:07", "15:24"]
-  }
-},
-            {
-  "stop_id": "0031",
-  "stop_name": "Brzozówka I",
-  "platform": "1",
-  "file": "0031-olkusz.html",
-  "departures": {
-    "workday": ["05:21", "07:40", "09:20", "10:36", "11:55", "13:06", "14:38", "15:23", "16:53", "17:42", "19:17", "20:42"],
-    "weekend": ["05:21", "07:41", "10:38", "13:08", "15:25", "17:44", "20:44"],
-    "holiday": ["10:38", "13:08", "15:25"]
-  }
-},
-         {
-  "stop_id": "0032",
-  "stop_name": "Brzozówka II",
-  "platform": "2",
-  "file": "0032-olkusz.html",
-  "departures": {
-    "workday": ["05:22", "07:41", "09:21", "10:37", "11:56", "13:07", "14:39", "15:24", "16:54", "17:43", "19:18", "20:43"],
-    "weekend": ["05:22", "07:42", "10:39", "13:09", "15:26", "17:45", "20:45"],
-    "holiday": ["10:39", "13:09", "15:26"]
-  }
-},
-   {
-  "stop_id": "0033",
-  "stop_name": "Wierzchowisko Klub",
-  "platform": "2",
-  "file": "0033-olkusz.html",
-  "departures": {
-    "workday": ["05:23", "07:42", "09:22", "10:38", "11:57", "13:08", "14:40", "15:25", "16:55", "17:44", "19:19", "20:44"],
-    "weekend": ["05:23", "07:43", "10:40", "13:10", "15:27", "17:46", "20:46"],
-    "holiday": ["10:40", "13:10", "15:27"]
-  }
-},
-          {
-  "stop_id": "0034",
-  "stop_name": "Wierzchowisko Remiza",
-  "platform": "2",
-  "file": "0034-olkusz.html",
-  "departures": {
-    "workday": ["05:24", "07:43", "09:23", "10:39", "11:58", "13:09", "14:41", "15:26", "16:56", "17:45", "19:20", "20:45"],
-    "weekend": ["05:24", "07:44", "10:41", "13:11", "15:28", "17:47", "20:47"],
-    "holiday": ["10:41", "13:11", "15:28"]
-  }
-},
-              {
-  "stop_id": "0005",
-  "stop_name": "Lgota Wielka Kolonia Leśna",
-  "platform": "2",
-  "file": "0005-olkusz.html",
-  "departures": {
-    "workday": ["05:26", "07:45", "09:25", "10:41", "12:00", "13:11", "14:43", "15:28", "16:58", "17:47", "19:22", "20:47"],
-    "weekend": ["05:26", "07:46", "10:43", "13:13", "15:30", "17:49", "20:49"],
-    "holiday": ["10:43", "13:13", "15:30"]
-  }
-},
-         {
-  "stop_id": "0257",
-  "stop_name": "Lgota Wielka Skrzyżowanie",
-  "platform": "2",
-  "file": "0257-olkusz.html",
-  "departures": {
-    "workday": ["05:28", "07:47", "09:27", "10:43", "12:02", "13:13", "14:45", "15:30", "17:00", "17:49", "19:24", "20:49"],
-    "weekend": ["05:28", "07:48", "10:45", "13:15", "15:32", "17:51", "20:51"],
-    "holiday": ["10:45", "13:15", "15:32"]
-  }
-},
         {
-  "stop_id": "0258",
-  "stop_name": "Lgota Wielka Kawkazy",
-  "platform": "2",
-  "file": "0258-olkusz.html",
-  "departures": {
-    "workday": ["05:30", "07:49", "09:29", "10:45", "12:04", "13:15", "14:47", "15:32", "17:02", "17:51", "19:26", "20:51"],
-    "weekend": ["05:30", "07:50", "10:47", "13:17", "15:34", "17:53", "20:53"],
-    "holiday": ["10:47", "13:17", "15:34"]
-  }
-},
-            {
-  "stop_id": "0259",
-  "stop_name": "Porąbka Parcela",
-  "platform": "1",
-  "file": "0259-olkusz.html",
-  "departures": {
-    "workday": ["05:34", "07:53", "09:33", "10:49", "12:08", "13:19", "14:51", "15:36", "17:06", "17:55", "19:30", "20:55"],
-    "weekend": ["05:34", "07:54", "10:51", "13:21", "15:38", "17:57", "20:57"],
-    "holiday": ["10:51", "13:21", "15:38"]
-  }
-},
-         {
-  "stop_id": "0260",
-  "stop_name": "Porąbka Stara Wieś",
-  "platform": "2",
-  "file": "0260-olkusz.html",
-  "departures": {
-    "workday": ["05:35", "07:54", "09:34", "10:50", "12:09", "13:20", "14:52", "15:37", "17:07", "17:56", "19:31", "20:56"],
-    "weekend": ["05:35", "07:55", "10:52", "13:22", "15:39", "17:58", "20:58"],
-    "holiday": ["10:52", "13:22", "15:39"]
-  }
-},
-         {
-  "stop_id": "0261",
-  "stop_name": "Porąbka Studnia",
-  "platform": "1",
-  "file": "0261-olkusz.html",
-  "departures": {
-    "workday": ["05:36", "07:55", "09:35", "10:51", "12:10", "13:21", "14:53", "15:38", "17:08", "17:57", "19:32", "20:57"],
-    "weekend": ["05:36", "07:56", "10:53", "13:23", "15:40", "17:59", "20:59"],
-    "holiday": ["10:53", "13:23", "15:40"]
-  }
-},
-         {
-  "stop_id": "0262",
-  "stop_name": "Porąbka",
-  "platform": "2",
-  "file": "0262-olkusz.html",
-  "departures": {
-    "workday": ["05:37", "07:56", "09:36", "10:52", "12:11", "13:22", "14:54", "15:39", "17:09", "17:58", "19:33", "20:58"],
-    "weekend": ["05:37", "07:57", "10:54", "13:24", "15:41", "18:00", "21:00"],
-    "holiday": ["10:54", "13:24", "15:41"]
-  }
-},
+          "stop_id": "0001",
+          "stop_name": "Wolbrom Nowa PKS",
+          "platform": "0",
+          "file": "0001-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:10",
+              "07:29",
+              "09:09",
+              "10:25",
+              "11:44",
+              "12:55",
+              "14:27",
+              "15:12",
+              "16:42",
+              "17:31",
+              "19:06",
+              "20:31"
+            ],
+            "saturday": [
+              "05:10",
+              "07:30",
+              "10:27",
+              "12:57",
+              "15:14",
+              "17:33",
+              "20:33"
+            ],
+            "sunday": [
+              "05:10",
+              "07:30",
+              "10:27",
+              "12:57",
+              "15:14",
+              "17:33",
+              "20:33"
+            ],
+            "holiday": [
+              "10:27",
+              "12:57",
+              "15:14"
+            ]
+          }
+        },
         {
-  "stop_id": "0264",
-  "stop_name": "Trzyciąż Skrzyżowanie",
-  "platform": "2",
-  "file": "0264-olkusz.html",
-  "departures": {
-    "workday": ["05:42", "08:01", "09:41", "10:57", "12:16", "13:27", "14:59", "15:44", "17:14", "18:03", "19:38", "21:03"],
-    "weekend": ["05:42", "08:02", "10:59", "13:29", "15:46", "18:05", "21:05"],
-    "holiday": ["10:59", "13:29", "15:46"]
-  }
-},
-  {
-  "stop_id": "0265",
-  "stop_name": "Jangrot Źródło Dłubni",
-  "platform": "1",
-  "file": "0265-olkusz.html",
-  "departures": {
-    "workday": ["05:45", "08:04", "09:44", "11:00", "12:19", "13:30", "15:02", "15:47", "17:17", "18:06", "19:41", "21:06"],
-    "weekend": ["05:45", "08:05", "11:02", "13:32", "15:49", "18:08", "21:08"],
-    "holiday": ["11:02", "13:32", "15:49"]
-  }
-},
-          {
-  "stop_id": "0266",
-  "stop_name": "Jangrot Centrum",
-  "platform": "2",
-  "file": "0266-olkusz.html",
-  "departures": {
-    "workday": ["05:46", "08:05", "09:45", "11:01", "12:20", "13:31", "15:03", "15:48", "17:18", "18:07", "19:42", "21:07"],
-    "weekend": ["05:46", "08:06", "11:03", "13:33", "15:50", "18:09", "21:09"],
-    "holiday": ["11:03", "13:33", "15:50"]
-  }
-},
-         {
-  "stop_id": "0267",
-  "stop_name": "Jangrot Kosmolów",
-  "platform": "1",
-  "file": "0267-olkusz.html",
-  "departures": {
-    "workday": ["05:47", "08:06", "09:46", "11:02", "12:21", "13:32", "15:04", "15:49", "17:19", "18:08", "19:43", "21:08"],
-    "weekend": ["05:47", "08:07", "11:04", "13:34", "15:51", "18:10", "21:10"],
-    "holiday": ["11:04", "13:34", "15:51"]
-  }
-},
+          "stop_id": "0029",
+          "stop_name": "Wolbrom 1-ego Maja I",
+          "platform": "2",
+          "file": "0029-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:15",
+              "07:34",
+              "09:14",
+              "10:30",
+              "11:49",
+              "13:00",
+              "14:32",
+              "15:17",
+              "16:47",
+              "17:36",
+              "19:11",
+              "20:36"
+            ],
+            "saturday": [
+              "05:15",
+              "07:35",
+              "10:32",
+              "13:02",
+              "15:19",
+              "17:38",
+              "20:38"
+            ],
+            "sunday": [
+              "05:15",
+              "07:35",
+              "10:32",
+              "13:02",
+              "15:19",
+              "17:38",
+              "20:38"
+            ],
+            "holiday": [
+              "10:32",
+              "13:02",
+              "15:19"
+            ]
+          }
+        },
         {
-  "stop_id": "0268",
-  "stop_name": "Jangrot Granica",
-  "platform": "2",
-  "file": "0268-olkusz.html",
-  "departures": {
-    "workday": ["05:49", "08:08", "09:48", "11:04", "12:23", "13:34", "15:06", "15:51", "17:21", "18:10", "19:45", "21:10"],
-    "weekend": ["05:49", "08:09", "11:06", "13:36", "15:53", "18:12", "21:12"],
-    "holiday": ["11:06", "13:36", "15:53"]
-  }
-},
+          "stop_id": "0016",
+          "stop_name": "Wolbrom Dworzec PKP",
+          "platform": "0",
+          "file": "0016-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:17",
+              "07:36",
+              "09:16",
+              "10:32",
+              "11:51",
+              "13:02",
+              "14:34",
+              "15:19",
+              "16:49",
+              "17:38",
+              "19:13",
+              "20:38"
+            ],
+            "saturday": [
+              "05:17",
+              "07:37",
+              "10:34",
+              "13:04",
+              "15:21",
+              "17:40",
+              "20:40"
+            ],
+            "sunday": [
+              "05:17",
+              "07:37",
+              "10:34",
+              "13:04",
+              "15:21",
+              "17:40",
+              "20:40"
+            ],
+            "holiday": [
+              "10:34",
+              "13:04",
+              "15:21"
+            ]
+          }
+        },
         {
-  "stop_id": "0269",
-  "stop_name": "Michałówka Granica",
-  "platform": "1",
-  "file": "0269-olkusz.html",
-  "departures": {
-    "workday": ["05:51", "08:10", "09:50", "11:06", "12:25", "13:36", "15:08", "15:53", "17:23", "18:12", "19:47", "21:12"],
-    "weekend": ["05:51", "08:11", "11:08", "13:38", "15:55", "18:14", "21:14"],
-    "holiday": ["11:08", "13:38", "15:55"]
-  }
-},
+          "stop_id": "0030",
+          "stop_name": "Wolbrom Brzozowska Rondo",
+          "platform": "1",
+          "file": "0030-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:20",
+              "07:39",
+              "09:19",
+              "10:35",
+              "11:54",
+              "13:05",
+              "14:37",
+              "15:22",
+              "16:52",
+              "17:41",
+              "19:16",
+              "20:41"
+            ],
+            "saturday": [
+              "05:20",
+              "07:40",
+              "10:37",
+              "13:07",
+              "15:24",
+              "17:43",
+              "20:43"
+            ],
+            "sunday": [
+              "05:20",
+              "07:40",
+              "10:37",
+              "13:07",
+              "15:24",
+              "17:43",
+              "20:43"
+            ],
+            "holiday": [
+              "10:37",
+              "13:07",
+              "15:24"
+            ]
+          }
+        },
         {
-  "stop_id": "0270",
-  "stop_name": "Michałówka OSP",
-  "platform": "2",
-  "file": "0270-olkusz.html",
-  "departures": {
-    "workday": ["05:53", "08:12", "09:52", "11:08", "12:27", "13:38", "15:10", "15:55", "17:25", "18:14", "19:49", "21:14"],
-    "weekend": ["05:53", "08:13", "11:10", "13:40", "15:57", "18:16", "21:16"],
-    "holiday": ["11:10", "13:40", "15:57"]
-  }
-},
-           {
-  "stop_id": "0271",
-  "stop_name": "Michałówka",
-  "platform": "2",
-  "file": "0271-olkusz.html",
-  "departures": {
-    "workday": ["05:54", "08:13", "09:53", "11:09", "12:28", "13:39", "15:11", "15:56", "17:26", "18:15", "19:50", "21:15"],
-    "weekend": ["05:54", "08:14", "11:11", "13:41", "15:58", "18:17", "21:17"],
-    "holiday": ["11:11", "13:41", "15:58"]
-  }
-},
-          {
-  "stop_id": "0272",
-  "stop_name": "Braciejówka Granica",
-  "platform": "1",
-  "file": "0272-olkusz.html",
-  "departures": {
-    "workday": ["05:55", "08:14", "09:54", "11:10", "12:29", "13:40", "15:12", "15:57", "17:27", "18:16", "19:51", "21:16"],
-    "weekend": ["05:55", "08:15", "11:12", "13:42", "15:59", "18:18", "21:18"],
-    "holiday": ["11:12", "13:42", "15:59"]
-  }
-},
-           {
-  "stop_id": "0273",
-  "stop_name": "Braciejówka Szkoła",
-  "platform": "1",
-  "file": "0273-olkusz.html",
-  "departures": {
-    "workday": ["05:56", "08:15", "09:55", "11:11", "12:30", "13:41", "15:13", "15:58", "17:28", "18:17", "19:52", "21:17"],
-    "weekend": ["05:56", "08:16", "11:13", "13:43", "16:00", "18:19", "21:19"],
-    "holiday": ["11:13", "13:43", "16:00"]
-  }
-},
-           {
-  "stop_id": "0274",
-  "stop_name": "Braciejówka Zalew",
-  "platform": "2",
-  "file": "0274-olkusz.html",
-  "departures": {
-    "workday": ["05:57", "08:16", "09:56", "11:12", "12:31", "13:42", "15:14", "15:59", "17:29", "18:18", "19:53", "21:18"],
-    "weekend": ["05:57", "08:17", "11:14", "13:44", "16:01", "18:20", "21:20"],
-    "holiday": ["11:14", "13:44", "16:01"]
-  }
-},
-          {
-  "stop_id": "0275",
-  "stop_name": "Braciejówka Cmentarz",
-  "platform": "1",
-  "file": "0275-olkusz.html",
-  "departures": {
-    "workday": ["05:58", "08:17", "09:57", "11:13", "12:32", "13:43", "15:15", "16:00", "17:30", "18:19", "19:54", "21:19"],
-    "weekend": ["05:58", "08:18", "11:15", "13:45", "16:02", "18:21", "21:21"],
-    "holiday": ["11:15", "13:45", "16:02"]
-  }
-},
-           {
-  "stop_id": "0276",
-  "stop_name": "Troks Granica",
-  "platform": "1",
-  "file": "0276-olkusz.html",
-  "departures": {
-    "workday": ["05:59", "08:18", "09:58", "11:14", "12:33", "13:44", "15:16", "16:01", "17:31", "18:20", "19:55", "21:20"],
-    "weekend": ["05:59", "08:19", "11:16", "13:46", "16:03", "18:22", "21:22"],
-    "holiday": ["11:16", "13:46", "16:03"]
-  }
-},
-           {
-  "stop_id": "0277",
-  "stop_name": "Troks Szkoła",
-  "platform": "1",
-  "file": "0277-olkusz.html",
-  "departures": {
-    "workday": ["06:00", "08:19", "09:59", "11:15", "12:34", "13:45", "15:17", "16:02", "17:32", "18:21", "19:56", "21:21"],
-    "weekend": ["06:00", "08:20", "11:17", "13:47", "16:04", "18:23", "21:23"],
-    "holiday": ["11:17", "13:47", "16:04"]
-  }
-},
-         {
-  "stop_id": "0278",
-  "stop_name": "Troks",
-  "platform": "1",
-  "file": "0278-olkusz.html",
-  "departures": {
-    "workday": ["06:02", "08:21", "10:01", "11:17", "12:36", "13:47", "15:19", "16:04", "17:34", "18:23", "19:58", "21:23"],
-    "weekend": ["06:02", "08:22", "11:19", "13:49", "16:06", "18:25", "21:25"],
-    "holiday": ["11:19", "13:49", "16:06"]
-  }
-},
-          {
-  "stop_id": "0279",
-  "stop_name": "Troks Las",
-  "platform": "1",
-  "file": "0279-olkusz.html",
-  "departures": {
-    "workday": ["06:04", "08:23", "10:03", "11:19", "12:38", "13:49", "15:21", "16:06", "17:36", "18:25", "20:00", "21:25"],
-    "weekend": ["06:04", "08:24", "11:21", "13:51", "16:08", "18:27", "21:27"],
-    "holiday": ["11:21", "13:51", "16:08"]
-  }
-},
-         {
-  "stop_id": "0280",
-  "stop_name": "Rabsztyn",
-  "platform": "1",
-  "file": "0280-olkusz.html",
-  "departures": {
-    "workday": ["06:07", "08:26", "10:06", "11:22", "12:41", "13:52", "15:24", "16:09", "17:39", "18:28", "20:03", "21:28"],
-    "weekend": ["06:07", "08:27", "11:24", "13:54", "16:11", "18:30", "21:30"],
-    "holiday": ["11:24", "13:54", "16:11"]
-  }
-},
-          {
-  "stop_id": "0281",
-  "stop_name": "Rabsztyn Ogródki Działkowe",
-  "platform": "1",
-  "file": "0281-olkusz.html",
-  "departures": {
-    "workday": ["06:08", "08:27", "10:07", "11:23", "12:42", "13:53", "15:25", "16:10", "17:40", "18:29", "20:04", "21:29"],
-    "weekend": ["06:08", "08:28", "11:25", "13:55", "16:12", "18:31", "21:31"],
-    "holiday": ["11:25", "13:55", "16:12"]
-  }
-},
-      {
-  "stop_id": "0282",
-  "stop_name": "Olkusz Sikorka",
-  "platform": "1",
-  "file": "0282-olkusz.html",
-  "departures": {
-    "workday": ["06:10", "08:29", "10:09", "11:25", "12:44", "13:55", "15:27", "16:12", "17:42", "18:31", "20:06", "21:31"],
-    "weekend": ["06:10", "08:30", "11:27", "13:57", "16:14", "18:33", "21:33"],
-    "holiday": ["11:27", "13:57", "16:14"]
-  }
-},
-         {
-  "stop_id": "0283",
-  "stop_name": "Olkusz Rabsztyńska",
-  "platform": "1",
-  "file": "0283-olkusz.html",
-  "departures": {
-    "workday": ["06:12", "08:31", "10:11", "11:27", "12:46", "13:57", "15:29", "16:14", "17:44", "18:33", "20:08", "21:33"],
-    "weekend": ["06:12", "08:32", "11:29", "13:59", "16:16", "18:35", "21:35"],
-    "holiday": ["11:29", "13:59", "16:16"]
-  }
-},
-         {
-  "stop_id": "0174",
-  "stop_name": "Olkusz Supersam",
-  "platform": "0",
-  "file": "0174-olkusz.html",
-  "departures": {
-    "workday": ["06:14", "08:33", "10:13", "11:29", "12:48", "13:59", "15:31", "16:16", "17:46", "18:35", "20:10", "21:35"],
-    "weekend": ["06:14", "08:34", "11:31", "14:01", "16:18", "18:37", "21:37"],
-    "holiday": ["11:31", "14:01", "16:18"]
-  }
-},
-          {
-  "stop_id": "0199",
-  "stop_name": "Olkusz Skarbek",
-  "platform": "2",
-  "file": "0199-olkusz.html",
-  "departures": {
-    "workday": ["06:15", "08:34", "10:14", "11:30", "12:49", "14:00", "15:32", "16:17", "17:47", "18:36", "20:11", "21:36"],
-    "weekend": ["06:15", "08:35", "11:32", "14:02", "16:19", "18:38", "21:38"],
-    "holiday": ["11:32", "14:02", "16:19"]
-  }
-}
+          "stop_id": "0031",
+          "stop_name": "Brzozówka I",
+          "platform": "1",
+          "file": "0031-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:21",
+              "07:40",
+              "09:20",
+              "10:36",
+              "11:55",
+              "13:06",
+              "14:38",
+              "15:23",
+              "16:53",
+              "17:42",
+              "19:17",
+              "20:42"
+            ],
+            "saturday": [
+              "05:21",
+              "07:41",
+              "10:38",
+              "13:08",
+              "15:25",
+              "17:44",
+              "20:44"
+            ],
+            "sunday": [
+              "05:21",
+              "07:41",
+              "10:38",
+              "13:08",
+              "15:25",
+              "17:44",
+              "20:44"
+            ],
+            "holiday": [
+              "10:38",
+              "13:08",
+              "15:25"
+            ]
+          }
+        },
+        {
+          "stop_id": "0032",
+          "stop_name": "Brzozówka II",
+          "platform": "2",
+          "file": "0032-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:22",
+              "07:41",
+              "09:21",
+              "10:37",
+              "11:56",
+              "13:07",
+              "14:39",
+              "15:24",
+              "16:54",
+              "17:43",
+              "19:18",
+              "20:43"
+            ],
+            "saturday": [
+              "05:22",
+              "07:42",
+              "10:39",
+              "13:09",
+              "15:26",
+              "17:45",
+              "20:45"
+            ],
+            "sunday": [
+              "05:22",
+              "07:42",
+              "10:39",
+              "13:09",
+              "15:26",
+              "17:45",
+              "20:45"
+            ],
+            "holiday": [
+              "10:39",
+              "13:09",
+              "15:26"
+            ]
+          }
+        },
+        {
+          "stop_id": "0033",
+          "stop_name": "Wierzchowisko Klub",
+          "platform": "2",
+          "file": "0033-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:23",
+              "07:42",
+              "09:22",
+              "10:38",
+              "11:57",
+              "13:08",
+              "14:40",
+              "15:25",
+              "16:55",
+              "17:44",
+              "19:19",
+              "20:44"
+            ],
+            "saturday": [
+              "05:23",
+              "07:43",
+              "10:40",
+              "13:10",
+              "15:27",
+              "17:46",
+              "20:46"
+            ],
+            "sunday": [
+              "05:23",
+              "07:43",
+              "10:40",
+              "13:10",
+              "15:27",
+              "17:46",
+              "20:46"
+            ],
+            "holiday": [
+              "10:40",
+              "13:10",
+              "15:27"
+            ]
+          }
+        },
+        {
+          "stop_id": "0034",
+          "stop_name": "Wierzchowisko Remiza",
+          "platform": "2",
+          "file": "0034-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:24",
+              "07:43",
+              "09:23",
+              "10:39",
+              "11:58",
+              "13:09",
+              "14:41",
+              "15:26",
+              "16:56",
+              "17:45",
+              "19:20",
+              "20:45"
+            ],
+            "saturday": [
+              "05:24",
+              "07:44",
+              "10:41",
+              "13:11",
+              "15:28",
+              "17:47",
+              "20:47"
+            ],
+            "sunday": [
+              "05:24",
+              "07:44",
+              "10:41",
+              "13:11",
+              "15:28",
+              "17:47",
+              "20:47"
+            ],
+            "holiday": [
+              "10:41",
+              "13:11",
+              "15:28"
+            ]
+          }
+        },
+        {
+          "stop_id": "0005",
+          "stop_name": "Lgota Wielka Kolonia Leśna",
+          "platform": "2",
+          "file": "0005-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:26",
+              "07:45",
+              "09:25",
+              "10:41",
+              "12:00",
+              "13:11",
+              "14:43",
+              "15:28",
+              "16:58",
+              "17:47",
+              "19:22",
+              "20:47"
+            ],
+            "saturday": [
+              "05:26",
+              "07:46",
+              "10:43",
+              "13:13",
+              "15:30",
+              "17:49",
+              "20:49"
+            ],
+            "sunday": [
+              "05:26",
+              "07:46",
+              "10:43",
+              "13:13",
+              "15:30",
+              "17:49",
+              "20:49"
+            ],
+            "holiday": [
+              "10:43",
+              "13:13",
+              "15:30"
+            ]
+          }
+        },
+        {
+          "stop_id": "0257",
+          "stop_name": "Lgota Wielka Skrzyżowanie",
+          "platform": "2",
+          "file": "0257-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:28",
+              "07:47",
+              "09:27",
+              "10:43",
+              "12:02",
+              "13:13",
+              "14:45",
+              "15:30",
+              "17:00",
+              "17:49",
+              "19:24",
+              "20:49"
+            ],
+            "saturday": [
+              "05:28",
+              "07:48",
+              "10:45",
+              "13:15",
+              "15:32",
+              "17:51",
+              "20:51"
+            ],
+            "sunday": [
+              "05:28",
+              "07:48",
+              "10:45",
+              "13:15",
+              "15:32",
+              "17:51",
+              "20:51"
+            ],
+            "holiday": [
+              "10:45",
+              "13:15",
+              "15:32"
+            ]
+          }
+        },
+        {
+          "stop_id": "0258",
+          "stop_name": "Lgota Wielka Kawkazy",
+          "platform": "2",
+          "file": "0258-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:30",
+              "07:49",
+              "09:29",
+              "10:45",
+              "12:04",
+              "13:15",
+              "14:47",
+              "15:32",
+              "17:02",
+              "17:51",
+              "19:26",
+              "20:51"
+            ],
+            "saturday": [
+              "05:30",
+              "07:50",
+              "10:47",
+              "13:17",
+              "15:34",
+              "17:53",
+              "20:53"
+            ],
+            "sunday": [
+              "05:30",
+              "07:50",
+              "10:47",
+              "13:17",
+              "15:34",
+              "17:53",
+              "20:53"
+            ],
+            "holiday": [
+              "10:47",
+              "13:17",
+              "15:34"
+            ]
+          }
+        },
+        {
+          "stop_id": "3342",
+          "stop_name": "Budzyń Remiza",
+          "platform": "1",
+          "file": "3342-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:32",
+              "07:51",
+              "09:31",
+              "10:47",
+              "12:06",
+              "13:17",
+              "14:49",
+              "15:34",
+              "17:04",
+              "17:53",
+              "19:28",
+              "20:53"
+            ],
+            "saturday": [
+              "05:32",
+              "07:52",
+              "10:49",
+              "13:19",
+              "15:36",
+              "17:55",
+              "20:55"
+            ],
+            "sunday": [
+              "05:32",
+              "07:52",
+              "10:49",
+              "13:19",
+              "15:36",
+              "17:55",
+              "20:55"
+            ],
+            "holiday": [
+              "10:49",
+              "13:19",
+              "15:36"
+            ]
+          }
+        },
+        {
+          "stop_id": "0259",
+          "stop_name": "Porąbka Parcela",
+          "platform": "1",
+          "file": "0259-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:34",
+              "07:53",
+              "09:33",
+              "10:49",
+              "12:08",
+              "13:19",
+              "14:51",
+              "15:36",
+              "17:06",
+              "17:55",
+              "19:30",
+              "20:55"
+            ],
+            "saturday": [
+              "05:34",
+              "07:54",
+              "10:51",
+              "13:21",
+              "15:38",
+              "17:57",
+              "20:57"
+            ],
+            "sunday": [
+              "05:34",
+              "07:54",
+              "10:51",
+              "13:21",
+              "15:38",
+              "17:57",
+              "20:57"
+            ],
+            "holiday": [
+              "10:51",
+              "13:21",
+              "15:38"
+            ]
+          }
+        },
+        {
+          "stop_id": "0260",
+          "stop_name": "Porąbka Stara Wieś",
+          "platform": "2",
+          "file": "0260-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:35",
+              "07:54",
+              "09:34",
+              "10:50",
+              "12:09",
+              "13:20",
+              "14:52",
+              "15:37",
+              "17:07",
+              "17:56",
+              "19:31",
+              "20:56"
+            ],
+            "saturday": [
+              "05:35",
+              "07:55",
+              "10:52",
+              "13:22",
+              "15:39",
+              "17:58",
+              "20:58"
+            ],
+            "sunday": [
+              "05:35",
+              "07:55",
+              "10:52",
+              "13:22",
+              "15:39",
+              "17:58",
+              "20:58"
+            ],
+            "holiday": [
+              "10:52",
+              "13:22",
+              "15:39"
+            ]
+          }
+        },
+        {
+          "stop_id": "0261",
+          "stop_name": "Porąbka Studnia",
+          "platform": "1",
+          "file": "0261-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:36",
+              "07:55",
+              "09:35",
+              "10:51",
+              "12:10",
+              "13:21",
+              "14:53",
+              "15:38",
+              "17:08",
+              "17:57",
+              "19:32",
+              "20:57"
+            ],
+            "saturday": [
+              "05:36",
+              "07:56",
+              "10:53",
+              "13:23",
+              "15:40",
+              "17:59",
+              "20:59"
+            ],
+            "sunday": [
+              "05:36",
+              "07:56",
+              "10:53",
+              "13:23",
+              "15:40",
+              "17:59",
+              "20:59"
+            ],
+            "holiday": [
+              "10:53",
+              "13:23",
+              "15:40"
+            ]
+          }
+        },
+        {
+          "stop_id": "0262",
+          "stop_name": "Porąbka",
+          "platform": "2",
+          "file": "0262-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:37",
+              "07:56",
+              "09:36",
+              "10:52",
+              "12:11",
+              "13:22",
+              "14:54",
+              "15:39",
+              "17:09",
+              "17:58",
+              "19:33",
+              "20:58"
+            ],
+            "saturday": [
+              "05:37",
+              "07:57",
+              "10:54",
+              "13:24",
+              "15:41",
+              "18:00",
+              "21:00"
+            ],
+            "sunday": [
+              "05:37",
+              "07:57",
+              "10:54",
+              "13:24",
+              "15:41",
+              "18:00",
+              "21:00"
+            ],
+            "holiday": [
+              "10:54",
+              "13:24",
+              "15:41"
+            ]
+          }
+        },
+        {
+          "stop_id": "0264",
+          "stop_name": "Trzyciąż Skrzyżowanie",
+          "platform": "2",
+          "file": "0264-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:42",
+              "08:01",
+              "09:41",
+              "10:57",
+              "12:16",
+              "13:27",
+              "14:59",
+              "15:44",
+              "17:14",
+              "18:03",
+              "19:38",
+              "21:03"
+            ],
+            "saturday": [
+              "05:42",
+              "08:02",
+              "10:59",
+              "13:29",
+              "15:46",
+              "18:05",
+              "21:05"
+            ],
+            "sunday": [
+              "05:42",
+              "08:02",
+              "10:59",
+              "13:29",
+              "15:46",
+              "18:05",
+              "21:05"
+            ],
+            "holiday": [
+              "10:59",
+              "13:29",
+              "15:46"
+            ]
+          }
+        },
+        {
+          "stop_id": "0265",
+          "stop_name": "Jangrot Źródło Dłubni",
+          "platform": "1",
+          "file": "0265-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:45",
+              "08:04",
+              "09:44",
+              "11:00",
+              "12:19",
+              "13:30",
+              "15:02",
+              "15:47",
+              "17:17",
+              "18:06",
+              "19:41",
+              "21:06"
+            ],
+            "saturday": [
+              "05:45",
+              "08:05",
+              "11:02",
+              "13:32",
+              "15:49",
+              "18:08",
+              "21:08"
+            ],
+            "sunday": [
+              "05:45",
+              "08:05",
+              "11:02",
+              "13:32",
+              "15:49",
+              "18:08",
+              "21:08"
+            ],
+            "holiday": [
+              "11:02",
+              "13:32",
+              "15:49"
+            ]
+          }
+        },
+        {
+          "stop_id": "0266",
+          "stop_name": "Jangrot Centrum",
+          "platform": "2",
+          "file": "0266-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:46",
+              "08:05",
+              "09:45",
+              "11:01",
+              "12:20",
+              "13:31",
+              "15:03",
+              "15:48",
+              "17:18",
+              "18:07",
+              "19:42",
+              "21:07"
+            ],
+            "saturday": [
+              "05:46",
+              "08:06",
+              "11:03",
+              "13:33",
+              "15:50",
+              "18:09",
+              "21:09"
+            ],
+            "sunday": [
+              "05:46",
+              "08:06",
+              "11:03",
+              "13:33",
+              "15:50",
+              "18:09",
+              "21:09"
+            ],
+            "holiday": [
+              "11:03",
+              "13:33",
+              "15:50"
+            ]
+          }
+        },
+        {
+          "stop_id": "0267",
+          "stop_name": "Jangrot Kosmolów",
+          "platform": "1",
+          "file": "0267-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:47",
+              "08:06",
+              "09:46",
+              "11:02",
+              "12:21",
+              "13:32",
+              "15:04",
+              "15:49",
+              "17:19",
+              "18:08",
+              "19:43",
+              "21:08"
+            ],
+            "saturday": [
+              "05:47",
+              "08:07",
+              "11:04",
+              "13:34",
+              "15:51",
+              "18:10",
+              "21:10"
+            ],
+            "sunday": [
+              "05:47",
+              "08:07",
+              "11:04",
+              "13:34",
+              "15:51",
+              "18:10",
+              "21:10"
+            ],
+            "holiday": [
+              "11:04",
+              "13:34",
+              "15:51"
+            ]
+          }
+        },
+        {
+          "stop_id": "0268",
+          "stop_name": "Jangrot Granica",
+          "platform": "2",
+          "file": "0268-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:49",
+              "08:08",
+              "09:48",
+              "11:04",
+              "12:23",
+              "13:34",
+              "15:06",
+              "15:51",
+              "17:21",
+              "18:10",
+              "19:45",
+              "21:10"
+            ],
+            "saturday": [
+              "05:49",
+              "08:09",
+              "11:06",
+              "13:36",
+              "15:53",
+              "18:12",
+              "21:12"
+            ],
+            "sunday": [
+              "05:49",
+              "08:09",
+              "11:06",
+              "13:36",
+              "15:53",
+              "18:12",
+              "21:12"
+            ],
+            "holiday": [
+              "11:06",
+              "13:36",
+              "15:53"
+            ]
+          }
+        },
+        {
+          "stop_id": "0269",
+          "stop_name": "Michałówka Granica",
+          "platform": "1",
+          "file": "0269-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:51",
+              "08:10",
+              "09:50",
+              "11:06",
+              "12:25",
+              "13:36",
+              "15:08",
+              "15:53",
+              "17:23",
+              "18:12",
+              "19:47",
+              "21:12"
+            ],
+            "saturday": [
+              "05:51",
+              "08:11",
+              "11:08",
+              "13:38",
+              "15:55",
+              "18:14",
+              "21:14"
+            ],
+            "sunday": [
+              "05:51",
+              "08:11",
+              "11:08",
+              "13:38",
+              "15:55",
+              "18:14",
+              "21:14"
+            ],
+            "holiday": [
+              "11:08",
+              "13:38",
+              "15:55"
+            ]
+          }
+        },
+        {
+          "stop_id": "0270",
+          "stop_name": "Michałówka OSP",
+          "platform": "2",
+          "file": "0270-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:53",
+              "08:12",
+              "09:52",
+              "11:08",
+              "12:27",
+              "13:38",
+              "15:10",
+              "15:55",
+              "17:25",
+              "18:14",
+              "19:49",
+              "21:14"
+            ],
+            "saturday": [
+              "05:53",
+              "08:13",
+              "11:10",
+              "13:40",
+              "15:57",
+              "18:16",
+              "21:16"
+            ],
+            "sunday": [
+              "05:53",
+              "08:13",
+              "11:10",
+              "13:40",
+              "15:57",
+              "18:16",
+              "21:16"
+            ],
+            "holiday": [
+              "11:10",
+              "13:40",
+              "15:57"
+            ]
+          }
+        },
+        {
+          "stop_id": "0271",
+          "stop_name": "Michałówka",
+          "platform": "2",
+          "file": "0271-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:54",
+              "08:13",
+              "09:53",
+              "11:09",
+              "12:28",
+              "13:39",
+              "15:11",
+              "15:56",
+              "17:26",
+              "18:15",
+              "19:50",
+              "21:15"
+            ],
+            "saturday": [
+              "05:54",
+              "08:14",
+              "11:11",
+              "13:41",
+              "15:58",
+              "18:17",
+              "21:17"
+            ],
+            "sunday": [
+              "05:54",
+              "08:14",
+              "11:11",
+              "13:41",
+              "15:58",
+              "18:17",
+              "21:17"
+            ],
+            "holiday": [
+              "11:11",
+              "13:41",
+              "15:58"
+            ]
+          }
+        },
+        {
+          "stop_id": "0272",
+          "stop_name": "Braciejówka Granica",
+          "platform": "1",
+          "file": "0272-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:55",
+              "08:14",
+              "09:54",
+              "11:10",
+              "12:29",
+              "13:40",
+              "15:12",
+              "15:57",
+              "17:27",
+              "18:16",
+              "19:51",
+              "21:16"
+            ],
+            "saturday": [
+              "05:55",
+              "08:15",
+              "11:12",
+              "13:42",
+              "15:59",
+              "18:18",
+              "21:18"
+            ],
+            "sunday": [
+              "05:55",
+              "08:15",
+              "11:12",
+              "13:42",
+              "15:59",
+              "18:18",
+              "21:18"
+            ],
+            "holiday": [
+              "11:12",
+              "13:42",
+              "15:59"
+            ]
+          }
+        },
+        {
+          "stop_id": "0273",
+          "stop_name": "Braciejówka Szkoła",
+          "platform": "1",
+          "file": "0273-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:56",
+              "08:15",
+              "09:55",
+              "11:11",
+              "12:30",
+              "13:41",
+              "15:13",
+              "15:58",
+              "17:28",
+              "18:17",
+              "19:52",
+              "21:17"
+            ],
+            "saturday": [
+              "05:56",
+              "08:16",
+              "11:13",
+              "13:43",
+              "16:00",
+              "18:19",
+              "21:19"
+            ],
+            "sunday": [
+              "05:56",
+              "08:16",
+              "11:13",
+              "13:43",
+              "16:00",
+              "18:19",
+              "21:19"
+            ],
+            "holiday": [
+              "11:13",
+              "13:43",
+              "16:00"
+            ]
+          }
+        },
+        {
+          "stop_id": "0274",
+          "stop_name": "Braciejówka Zalew",
+          "platform": "2",
+          "file": "0274-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:57",
+              "08:16",
+              "09:56",
+              "11:12",
+              "12:31",
+              "13:42",
+              "15:14",
+              "15:59",
+              "17:29",
+              "18:18",
+              "19:53",
+              "21:18"
+            ],
+            "saturday": [
+              "05:57",
+              "08:17",
+              "11:14",
+              "13:44",
+              "16:01",
+              "18:20",
+              "21:20"
+            ],
+            "sunday": [
+              "05:57",
+              "08:17",
+              "11:14",
+              "13:44",
+              "16:01",
+              "18:20",
+              "21:20"
+            ],
+            "holiday": [
+              "11:14",
+              "13:44",
+              "16:01"
+            ]
+          }
+        },
+        {
+          "stop_id": "0275",
+          "stop_name": "Braciejówka Cmentarz",
+          "platform": "1",
+          "file": "0275-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:58",
+              "08:17",
+              "09:57",
+              "11:13",
+              "12:32",
+              "13:43",
+              "15:15",
+              "16:00",
+              "17:30",
+              "18:19",
+              "19:54",
+              "21:19"
+            ],
+            "saturday": [
+              "05:58",
+              "08:18",
+              "11:15",
+              "13:45",
+              "16:02",
+              "18:21",
+              "21:21"
+            ],
+            "sunday": [
+              "05:58",
+              "08:18",
+              "11:15",
+              "13:45",
+              "16:02",
+              "18:21",
+              "21:21"
+            ],
+            "holiday": [
+              "11:15",
+              "13:45",
+              "16:02"
+            ]
+          }
+        },
+        {
+          "stop_id": "0276",
+          "stop_name": "Troks Granica",
+          "platform": "1",
+          "file": "0276-olkusz.html",
+          "departures": {
+            "workday": [
+              "05:59",
+              "08:18",
+              "09:58",
+              "11:14",
+              "12:33",
+              "13:44",
+              "15:16",
+              "16:01",
+              "17:31",
+              "18:20",
+              "19:55",
+              "21:20"
+            ],
+            "saturday": [
+              "05:59",
+              "08:19",
+              "11:16",
+              "13:46",
+              "16:03",
+              "18:22",
+              "21:22"
+            ],
+            "sunday": [
+              "05:59",
+              "08:19",
+              "11:16",
+              "13:46",
+              "16:03",
+              "18:22",
+              "21:22"
+            ],
+            "holiday": [
+              "11:16",
+              "13:46",
+              "16:03"
+            ]
+          }
+        },
+        {
+          "stop_id": "0277",
+          "stop_name": "Troks Szkoła",
+          "platform": "1",
+          "file": "0277-olkusz.html",
+          "departures": {
+            "workday": [
+              "06:00",
+              "08:19",
+              "09:59",
+              "11:15",
+              "12:34",
+              "13:45",
+              "15:17",
+              "16:02",
+              "17:32",
+              "18:21",
+              "19:56",
+              "21:21"
+            ],
+            "saturday": [
+              "06:00",
+              "08:20",
+              "11:17",
+              "13:47",
+              "16:04",
+              "18:23",
+              "21:23"
+            ],
+            "sunday": [
+              "06:00",
+              "08:20",
+              "11:17",
+              "13:47",
+              "16:04",
+              "18:23",
+              "21:23"
+            ],
+            "holiday": [
+              "11:17",
+              "13:47",
+              "16:04"
+            ]
+          }
+        },
+        {
+          "stop_id": "0278",
+          "stop_name": "Troks",
+          "platform": "1",
+          "file": "0278-olkusz.html",
+          "departures": {
+            "workday": [
+              "06:02",
+              "08:21",
+              "10:01",
+              "11:17",
+              "12:36",
+              "13:47",
+              "15:19",
+              "16:04",
+              "17:34",
+              "18:23",
+              "19:58",
+              "21:23"
+            ],
+            "saturday": [
+              "06:02",
+              "08:22",
+              "11:19",
+              "13:49",
+              "16:06",
+              "18:25",
+              "21:25"
+            ],
+            "sunday": [
+              "06:02",
+              "08:22",
+              "11:19",
+              "13:49",
+              "16:06",
+              "18:25",
+              "21:25"
+            ],
+            "holiday": [
+              "11:19",
+              "13:49",
+              "16:06"
+            ]
+          }
+        },
+        {
+          "stop_id": "0279",
+          "stop_name": "Troks Las",
+          "platform": "1",
+          "file": "0279-olkusz.html",
+          "departures": {
+            "workday": [
+              "06:04",
+              "08:23",
+              "10:03",
+              "11:19",
+              "12:38",
+              "13:49",
+              "15:21",
+              "16:06",
+              "17:36",
+              "18:25",
+              "20:00",
+              "21:25"
+            ],
+            "saturday": [
+              "06:04",
+              "08:24",
+              "11:21",
+              "13:51",
+              "16:08",
+              "18:27",
+              "21:27"
+            ],
+            "sunday": [
+              "06:04",
+              "08:24",
+              "11:21",
+              "13:51",
+              "16:08",
+              "18:27",
+              "21:27"
+            ],
+            "holiday": [
+              "11:21",
+              "13:51",
+              "16:08"
+            ]
+          }
+        },
+        {
+          "stop_id": "0280",
+          "stop_name": "Rabsztyn",
+          "platform": "1",
+          "file": "0280-olkusz.html",
+          "departures": {
+            "workday": [
+              "06:07",
+              "08:26",
+              "10:06",
+              "11:22",
+              "12:41",
+              "13:52",
+              "15:24",
+              "16:09",
+              "17:39",
+              "18:28",
+              "20:03",
+              "21:28"
+            ],
+            "saturday": [
+              "06:07",
+              "08:27",
+              "11:24",
+              "13:54",
+              "16:11",
+              "18:30",
+              "21:30"
+            ],
+            "sunday": [
+              "06:07",
+              "08:27",
+              "11:24",
+              "13:54",
+              "16:11",
+              "18:30",
+              "21:30"
+            ],
+            "holiday": [
+              "11:24",
+              "13:54",
+              "16:11"
+            ]
+          }
+        },
+        {
+          "stop_id": "0281",
+          "stop_name": "Rabsztyn Ogródki Działkowe",
+          "platform": "1",
+          "file": "0281-olkusz.html",
+          "departures": {
+            "workday": [
+              "06:08",
+              "08:27",
+              "10:07",
+              "11:23",
+              "12:42",
+              "13:53",
+              "15:25",
+              "16:10",
+              "17:40",
+              "18:29",
+              "20:04",
+              "21:29"
+            ],
+            "saturday": [
+              "06:08",
+              "08:28",
+              "11:25",
+              "13:55",
+              "16:12",
+              "18:31",
+              "21:31"
+            ],
+            "sunday": [
+              "06:08",
+              "08:28",
+              "11:25",
+              "13:55",
+              "16:12",
+              "18:31",
+              "21:31"
+            ],
+            "holiday": [
+              "11:25",
+              "13:55",
+              "16:12"
+            ]
+          }
+        },
+        {
+          "stop_id": "0282",
+          "stop_name": "Olkusz Sikorka",
+          "platform": "1",
+          "file": "0282-olkusz.html",
+          "departures": {
+            "workday": [
+              "06:10",
+              "08:29",
+              "10:09",
+              "11:25",
+              "12:44",
+              "13:55",
+              "15:27",
+              "16:12",
+              "17:42",
+              "18:31",
+              "20:06",
+              "21:31"
+            ],
+            "saturday": [
+              "06:10",
+              "08:30",
+              "11:27",
+              "13:57",
+              "16:14",
+              "18:33",
+              "21:33"
+            ],
+            "sunday": [
+              "06:10",
+              "08:30",
+              "11:27",
+              "13:57",
+              "16:14",
+              "18:33",
+              "21:33"
+            ],
+            "holiday": [
+              "11:27",
+              "13:57",
+              "16:14"
+            ]
+          }
+        },
+        {
+          "stop_id": "0283",
+          "stop_name": "Olkusz Rabsztyńska",
+          "platform": "1",
+          "file": "0283-olkusz.html",
+          "departures": {
+            "workday": [
+              "06:12",
+              "08:31",
+              "10:11",
+              "11:27",
+              "12:46",
+              "13:57",
+              "15:29",
+              "16:14",
+              "17:44",
+              "18:33",
+              "20:08",
+              "21:33"
+            ],
+            "saturday": [
+              "06:12",
+              "08:32",
+              "11:29",
+              "13:59",
+              "16:16",
+              "18:35",
+              "21:35"
+            ],
+            "sunday": [
+              "06:12",
+              "08:32",
+              "11:29",
+              "13:59",
+              "16:16",
+              "18:35",
+              "21:35"
+            ],
+            "holiday": [
+              "11:29",
+              "13:59",
+              "16:16"
+            ]
+          }
+        },
+        {
+          "stop_id": "0174",
+          "stop_name": "Olkusz Supersam",
+          "platform": "0",
+          "file": "0174-olkusz.html",
+          "departures": {
+            "workday": [
+              "06:14",
+              "08:33",
+              "10:13",
+              "11:29",
+              "12:48",
+              "13:59",
+              "15:31",
+              "16:16",
+              "17:46",
+              "18:35",
+              "20:10",
+              "21:35"
+            ],
+            "saturday": [
+              "06:14",
+              "08:34",
+              "11:31",
+              "14:01",
+              "16:18",
+              "18:37",
+              "21:37"
+            ],
+            "sunday": [
+              "06:14",
+              "08:34",
+              "11:31",
+              "14:01",
+              "16:18",
+              "18:37",
+              "21:37"
+            ],
+            "holiday": [
+              "11:31",
+              "14:01",
+              "16:18"
+            ]
+          }
+        },
+        {
+          "stop_id": "0199",
+          "stop_name": "Olkusz Skarbek",
+          "platform": "2",
+          "file": "0199-olkusz.html",
+          "departures": {
+            "workday": [
+              "06:15",
+              "08:34",
+              "10:14",
+              "11:30",
+              "12:49",
+              "14:00",
+              "15:32",
+              "16:17",
+              "17:47",
+              "18:36",
+              "20:11",
+              "21:36"
+            ],
+            "saturday": [
+              "06:15",
+              "08:35",
+              "11:32",
+              "14:02",
+              "16:19",
+              "18:38",
+              "21:38"
+            ],
+            "sunday": [
+              "06:15",
+              "08:35",
+              "11:32",
+              "14:02",
+              "16:19",
+              "18:38",
+              "21:38"
+            ],
+            "holiday": [
+              "11:32",
+              "14:02",
+              "16:19"
+            ]
+          }
+        },
+        {
+          "stop_id": "0200",
+          "stop_name": "Olkusz Dworzec PKS",
+          "platform": "0",
+          "file": "0200-olkusz.html",
+          "departures": {},
+          "arrival_only": true
+        }
       ]
     },
     {
@@ -463,466 +1970,2050 @@
       "variant_destinations": {},
       "legend": {},
       "route_stops": [
-        {"stop_id":"0200","stop_name":"Olkusz Dworzec PKS","platform":"0","file":"0200-wolbrom.html"},
-        {"stop_id":"0228","stop_name":"Olkusz Skarbek","platform":"1","file":"0228-wolbrom.html"},
-        {"stop_id":"0284","stop_name":"Olkusz Rabsztyńska Supermarket","platform":"0","file":"0284-wolbrom.html"},
-        {"stop_id":"0285","stop_name":"Olkusz Rabsztyńska","platform":"2","file":"0285-wolbrom.html"},
-        {"stop_id":"0286","stop_name":"Olkusz Sikorka","platform":"2","file":"0286-wolbrom.html"},
-        {"stop_id":"0287","stop_name":"Rabsztyn Ogródki Działkowe","platform":"2","file":"0287-wolbrom.html"},
-        {"stop_id":"0288","stop_name":"Rabsztyn","platform":"2","file":"0288-wolbrom.html"},
-        {"stop_id":"0289","stop_name":"Troks Las","platform":"2","file":"0289-wolbrom.html"},
-        {"stop_id":"0290","stop_name":"Troks","platform":"2","file":"0290-wolbrom.html"},
-        {"stop_id":"0291","stop_name":"Troks Szkoła","platform":"2","file":"0291-wolbrom.html"},
-        {"stop_id":"0292","stop_name":"Troks Granica","platform":"2","file":"0292-wolbrom.html"},
-        {"stop_id":"0293","stop_name":"Braciejówka Cmentarz","platform":"2","file":"0293-wolbrom.html"},
-        {"stop_id":"0294","stop_name":"Braciejówka Zalew","platform":"1","file":"0294-wolbrom.html"},
-        {"stop_id":"0295","stop_name":"Braciejówka Szkoła","platform":"2","file":"0295-wolbrom.html"},
-        {"stop_id":"0296","stop_name":"Braciejówka Granica","platform":"2","file":"0296-wolbrom.html"},
-        {"stop_id":"0297","stop_name":"Michałówka","platform":"1","file":"0297-wolbrom.html"},
-        {"stop_id":"0298","stop_name":"Michałówka OSP","platform":"1","file":"0298-wolbrom.html"},
-        {"stop_id":"0299","stop_name":"Michałówka Granica","platform":"2","file":"0299-wolbrom.html"},
-        {"stop_id":"0300","stop_name":"Jangrot Granica","platform":"1","file":"0300-wolbrom.html"},
-        {"stop_id":"0301","stop_name":"Jangrot Kosmolów","platform":"2","file":"0301-wolbrom.html"},
-        {"stop_id":"0302","stop_name":"Jangrot Centrum","platform":"1","file":"0302-wolbrom.html"},
-        {"stop_id":"0303","stop_name":"Jangrot Źródło Dłubni","platform":"2","file":"0303-wolbrom.html"},
-        {"stop_id":"0305","stop_name":"Trzyciąż Skrzyżowanie","platform":"4","file":"0305-wolbrom.html"},
-        {"stop_id":"0306","stop_name":"Porąbka","platform":"1","file":"0306-wolbrom.html"},
-        {"stop_id":"0307","stop_name":"Porąbka Studnia","platform":"2","file":"0307-wolbrom.html"},
-        {"stop_id":"0308","stop_name":"Porąbka Stara Wieś","platform":"1","file":"0308-wolbrom.html"},
-        {"stop_id":"0309","stop_name":"Porąbka Parcela","platform":"2","file":"0309-wolbrom.html"},
-        {"stop_id":"0310","stop_name":"Lgota Wielka Kawkazy","platform":"1","file":"0310-wolbrom.html"},
-        {"stop_id":"0008","stop_name":"Lgota Wielka Skrzyżowanie","platform":"1","file":"0008-wolbrom.html"},
-        {"stop_id":"0009","stop_name":"Lgota Wielka Kolonia Leśna","platform":"1","file":"0009-wolbrom.html"},
-        {"stop_id":"0010","stop_name":"Wierzchowisko Remiza","platform":"1","file":"0010-wolbrom.html"},
-        {"stop_id":"0011","stop_name":"Wierzchowisko Klub","platform":"1","file":"0011-wolbrom.html"},
-        {"stop_id":"0012","stop_name":"Brzozówka II","platform":"1","file":"0012-wolbrom.html"},
-        {"stop_id":"0013","stop_name":"Brzozówka I","platform":"2","file":"0013-wolbrom.html"},
-        {"stop_id":"0014","stop_name":"Wolbrom Brzozowska Rondo","platform":"2","file":"0014-wolbrom.html"},
-        {"stop_id":"0016","stop_name":"Wolbrom Dworzec PKP","platform":"0","file":"0016-wolbrom.html"},
-        {"stop_id":"0017","stop_name":"Wolbrom 1-ego Maja I","platform":"1","file":"0017-wolbrom.html"},
-        {"stop_id":"0018","stop_name":"Wolbrom 1-ego Maja","platform":"1","file":"0018-wolbrom.html"},
-        {"stop_id":"0001","stop_name":"Wolbrom Nowa PKS","platform":"0","file":"0001-wolbrom.html"}
+        {
+          "stop_id": "0200",
+          "stop_name": "Olkusz Dworzec PKS",
+          "platform": "0",
+          "file": "0200-wolbrom.html"
+        },
+        {
+          "stop_id": "0228",
+          "stop_name": "Olkusz Skarbek",
+          "platform": "1",
+          "file": "0228-wolbrom.html"
+        },
+        {
+          "stop_id": "0284",
+          "stop_name": "Olkusz Rabsztyńska Supermarket",
+          "platform": "0",
+          "file": "0284-wolbrom.html"
+        },
+        {
+          "stop_id": "0285",
+          "stop_name": "Olkusz Rabsztyńska",
+          "platform": "2",
+          "file": "0285-wolbrom.html"
+        },
+        {
+          "stop_id": "0286",
+          "stop_name": "Olkusz Sikorka",
+          "platform": "2",
+          "file": "0286-wolbrom.html"
+        },
+        {
+          "stop_id": "0287",
+          "stop_name": "Rabsztyn Ogródki Działkowe",
+          "platform": "2",
+          "file": "0287-wolbrom.html"
+        },
+        {
+          "stop_id": "0288",
+          "stop_name": "Rabsztyn",
+          "platform": "2",
+          "file": "0288-wolbrom.html"
+        },
+        {
+          "stop_id": "0289",
+          "stop_name": "Troks Las",
+          "platform": "2",
+          "file": "0289-wolbrom.html"
+        },
+        {
+          "stop_id": "0290",
+          "stop_name": "Troks",
+          "platform": "2",
+          "file": "0290-wolbrom.html"
+        },
+        {
+          "stop_id": "0291",
+          "stop_name": "Troks Szkoła",
+          "platform": "2",
+          "file": "0291-wolbrom.html"
+        },
+        {
+          "stop_id": "0292",
+          "stop_name": "Troks Granica",
+          "platform": "2",
+          "file": "0292-wolbrom.html"
+        },
+        {
+          "stop_id": "0293",
+          "stop_name": "Braciejówka Cmentarz",
+          "platform": "2",
+          "file": "0293-wolbrom.html"
+        },
+        {
+          "stop_id": "0294",
+          "stop_name": "Braciejówka Zalew",
+          "platform": "1",
+          "file": "0294-wolbrom.html"
+        },
+        {
+          "stop_id": "0295",
+          "stop_name": "Braciejówka Szkoła",
+          "platform": "2",
+          "file": "0295-wolbrom.html"
+        },
+        {
+          "stop_id": "0296",
+          "stop_name": "Braciejówka Granica",
+          "platform": "2",
+          "file": "0296-wolbrom.html"
+        },
+        {
+          "stop_id": "0297",
+          "stop_name": "Michałówka",
+          "platform": "1",
+          "file": "0297-wolbrom.html"
+        },
+        {
+          "stop_id": "0298",
+          "stop_name": "Michałówka OSP",
+          "platform": "1",
+          "file": "0298-wolbrom.html"
+        },
+        {
+          "stop_id": "0299",
+          "stop_name": "Michałówka Granica",
+          "platform": "2",
+          "file": "0299-wolbrom.html"
+        },
+        {
+          "stop_id": "0300",
+          "stop_name": "Jangrot Granica",
+          "platform": "1",
+          "file": "0300-wolbrom.html"
+        },
+        {
+          "stop_id": "0301",
+          "stop_name": "Jangrot Kosmolów",
+          "platform": "2",
+          "file": "0301-wolbrom.html"
+        },
+        {
+          "stop_id": "0302",
+          "stop_name": "Jangrot Centrum",
+          "platform": "1",
+          "file": "0302-wolbrom.html"
+        },
+        {
+          "stop_id": "0303",
+          "stop_name": "Jangrot Źródło Dłubni",
+          "platform": "2",
+          "file": "0303-wolbrom.html"
+        },
+        {
+          "stop_id": "0305",
+          "stop_name": "Trzyciąż Skrzyżowanie",
+          "platform": "4",
+          "file": "0305-wolbrom.html"
+        },
+        {
+          "stop_id": "0306",
+          "stop_name": "Porąbka",
+          "platform": "1",
+          "file": "0306-wolbrom.html"
+        },
+        {
+          "stop_id": "0307",
+          "stop_name": "Porąbka Studnia",
+          "platform": "2",
+          "file": "0307-wolbrom.html"
+        },
+        {
+          "stop_id": "0308",
+          "stop_name": "Porąbka Stara Wieś",
+          "platform": "1",
+          "file": "0308-wolbrom.html"
+        },
+        {
+          "stop_id": "0309",
+          "stop_name": "Porąbka Parcela",
+          "platform": "2",
+          "file": "0309-wolbrom.html"
+        },
+        {
+          "stop_id": "3342",
+          "stop_name": "Budzyń Remiza",
+          "platform": "1",
+          "file": "3342-wolbrom.html"
+        },
+        {
+          "stop_id": "0310",
+          "stop_name": "Lgota Wielka Kawkazy",
+          "platform": "1",
+          "file": "0310-wolbrom.html"
+        },
+        {
+          "stop_id": "0008",
+          "stop_name": "Lgota Wielka Skrzyżowanie",
+          "platform": "1",
+          "file": "0008-wolbrom.html"
+        },
+        {
+          "stop_id": "0009",
+          "stop_name": "Lgota Wielka Kolonia Leśna",
+          "platform": "1",
+          "file": "0009-wolbrom.html"
+        },
+        {
+          "stop_id": "0010",
+          "stop_name": "Wierzchowisko Remiza",
+          "platform": "1",
+          "file": "0010-wolbrom.html"
+        },
+        {
+          "stop_id": "0011",
+          "stop_name": "Wierzchowisko Klub",
+          "platform": "1",
+          "file": "0011-wolbrom.html"
+        },
+        {
+          "stop_id": "0012",
+          "stop_name": "Brzozówka II",
+          "platform": "1",
+          "file": "0012-wolbrom.html"
+        },
+        {
+          "stop_id": "0013",
+          "stop_name": "Brzozówka I",
+          "platform": "2",
+          "file": "0013-wolbrom.html"
+        },
+        {
+          "stop_id": "0014",
+          "stop_name": "Wolbrom Brzozowska Rondo",
+          "platform": "2",
+          "file": "0014-wolbrom.html"
+        },
+        {
+          "stop_id": "0016",
+          "stop_name": "Wolbrom Dworzec PKP",
+          "platform": "0",
+          "file": "0016-wolbrom.html"
+        },
+        {
+          "stop_id": "0017",
+          "stop_name": "Wolbrom 1-ego Maja I",
+          "platform": "1",
+          "file": "0017-wolbrom.html"
+        },
+        {
+          "stop_id": "0018",
+          "stop_name": "Wolbrom 1-ego Maja",
+          "platform": "1",
+          "file": "0018-wolbrom.html"
+        },
+        {
+          "stop_id": "0001",
+          "stop_name": "Wolbrom Nowa PKS",
+          "platform": "0",
+          "file": "0001-wolbrom.html"
+        }
       ],
       "timetables": [
-            {
-  "stop_id": "0200",
-  "stop_name": "Olkusz Dworzec PKS",
-  "platform": "0",
-  "file": "0200-wolbrom.html",
-  "departures": {
-    "workday": ["06:21", "08:00", "08:40", "10:24", "11:40", "13:07", "14:04", "15:36", "16:23", "17:54", "19:19", "20:29", "21:49"],
-    "weekend": ["06:21", "08:42", "11:41", "14:06", "16:25", "19:21", "21:52"],
-    "holiday": ["11:41", "14:06", "16:25"]
-  }
-},
         {
-  "stop_id": "0228",
-  "stop_name": "Olkusz Skarbek",
-  "platform": "1",
-  "file": "0228-wolbrom.html",
-  "departures": {
-    "workday": ["06:23", "08:02", "08:42", "10:26", "11:42", "13:09", "14:06", "15:38", "16:25", "17:56", "19:21", "20:31", "21:51"],
-    "weekend": ["06:23", "08:44", "11:43", "14:08", "16:27", "19:23", "21:54"],
-    "holiday": ["11:43", "14:08", "16:27"]
-  }
-},
-         {
-  "stop_id": "0284",
-  "stop_name": "Olkusz Rabsztyńska Supermarket",
-  "platform": "0",
-  "file": "0284-wolbrom.html",
-  "departures": {
-    "workday": ["06:25", "08:04", "08:44", "10:28", "11:44", "13:11", "14:08", "15:40", "16:27", "17:58", "19:23", "20:33", "21:53"],
-    "weekend": ["06:25", "08:46", "11:45", "14:10", "16:29", "19:25", "21:56"],
-    "holiday": ["11:45", "14:10", "16:29"]
-  }
-},
-         {
-  "stop_id": "0285",
-  "stop_name": "Olkusz Rabsztyńska",
-  "platform": "2",
-  "file": "0285-wolbrom.html",
-  "departures": {
-    "workday": ["06:27", "08:06", "08:46", "10:30", "11:46", "13:13", "14:10", "15:42", "16:29", "18:00", "19:25", "20:35", "21:55"],
-    "weekend": ["06:27", "08:48", "11:47", "14:12", "16:31", "19:27", "21:58"],
-    "holiday": ["11:47", "14:12", "16:31"]
-  }
-},
-          {
-  "stop_id": "0286",
-  "stop_name": "Olkusz Sikorka",
-  "platform": "2",
-  "file": "0286-wolbrom.html",
-  "departures": {
-    "workday": ["06:28", "08:07", "08:47", "10:31", "11:47", "13:14", "14:11", "15:43", "16:30", "18:01", "19:26", "20:36", "21:56"],
-    "weekend": ["06:28", "08:49", "11:48", "14:13", "16:32", "19:28", "21:59"],
-    "holiday": ["11:48", "14:13", "16:32"]
-  }
-},
-          {
-  "stop_id": "0287",
-  "stop_name": "Rabsztyn Ogródki Działkowe",
-  "platform": "2",
-  "file": "0287-wolbrom.html",
-  "departures": {
-    "workday": ["06:30", "08:09", "08:49", "10:33", "11:49", "13:16", "14:13", "15:45", "16:32", "18:03", "19:28", "20:38", "21:58"],
-    "weekend": ["06:30", "08:51", "11:50", "14:15", "16:34", "19:30", "22:01"],
-    "holiday": ["11:50", "14:15", "16:34"]
-  }
-},
-         {
-  "stop_id": "0288",
-  "stop_name": "Rabsztyn",
-  "platform": "2",
-  "file": "0288-wolbrom.html",
-  "departures": {
-    "workday": ["06:31", "08:10", "08:50", "10:34", "11:50", "13:17", "14:14", "15:46", "16:33", "18:04", "19:29", "20:39", "21:59"],
-    "weekend": ["06:31", "08:52", "11:51", "14:16", "16:35", "19:31", "22:02"],
-    "holiday": ["11:51", "14:16", "16:35"]
-  }
-},
-          {
-  "stop_id": "0289",
-  "stop_name": "Troks Las",
-  "platform": "2",
-  "file": "0289-wolbrom.html",
-  "departures": {
-    "workday": ["06:34", "08:13", "08:53", "10:37", "11:53", "13:20", "14:17", "15:49", "16:36", "18:07", "19:32", "20:42", "22:02"],
-    "weekend": ["06:34", "08:55", "11:54", "14:19", "16:38", "19:34", "22:05"],
-    "holiday": ["11:54", "14:19", "16:38"]
-  }
-},
-         {
-  "stop_id": "0290",
-  "stop_name": "Troks",
-  "platform": "2",
-  "file": "0290-wolbrom.html",
-  "departures": {
-    "workday": ["06:36", "08:15", "08:55", "10:39", "11:55", "13:22", "14:19", "15:51", "16:38", "18:09", "19:34", "20:44", "22:04"],
-    "weekend": ["06:36", "08:57", "11:56", "14:21", "16:40", "19:36", "22:07"],
-    "holiday": ["11:56", "14:21", "16:40"]
-  }
-},
-         {
-  "stop_id": "0291",
-  "stop_name": "Troks Szkoła",
-  "platform": "2",
-  "file": "0291-wolbrom.html",
-  "departures": {
-    "workday": ["06:38", "08:17", "08:57", "10:41", "11:57", "13:24", "14:21", "15:53", "16:40", "18:11", "19:36", "20:46", "22:06"],
-    "weekend": ["06:38", "08:59", "11:58", "14:23", "16:42", "19:38", "22:09"],
-    "holiday": ["11:58", "14:23", "16:42"]
-  }
-},
-          {
-  "stop_id": "0292",
-  "stop_name": "Troks Granica",
-  "platform": "2",
-  "file": "0292-wolbrom.html",
-  "departures": {
-    "workday": ["06:39", "08:18", "08:58", "10:42", "11:58", "13:25", "14:22", "15:54", "16:41", "18:12", "19:37", "20:47", "22:07"],
-    "weekend": ["06:39", "09:00", "11:59", "14:24", "16:43", "19:39", "22:10"],
-    "holiday": ["11:59", "14:24", "16:43"]
-  }
-},
-         {
-  "stop_id": "0293",
-  "stop_name": "Braciejówka Cmentarz",
-  "platform": "2",
-  "file": "0293-wolbrom.html",
-  "departures": {
-    "workday": ["06:40", "08:19", "08:59", "10:43", "11:59", "13:26", "14:23", "15:55", "16:42", "18:13", "19:38", "20:48", "22:08"],
-    "weekend": ["06:40", "09:01", "12:00", "14:25", "16:44", "19:40", "22:11"],
-    "holiday": ["12:00", "14:25", "16:44"]
-  }
-},
+          "stop_id": "0200",
+          "stop_name": "Olkusz Dworzec PKS",
+          "platform": "0",
+          "file": "0200-wolbrom.html",
+          "departures": {
+            "workday": [
+              "06:21",
+              "08:00",
+              "08:40",
+              "10:24",
+              "11:40",
+              "13:07",
+              "14:04",
+              "15:36",
+              "16:23",
+              "17:54",
+              "19:19",
+              "20:29",
+              "21:49"
+            ],
+            "saturday": [
+              "06:21",
+              "08:42",
+              "11:41",
+              "14:06",
+              "16:25",
+              "19:21",
+              "21:52"
+            ],
+            "sunday": [
+              "06:21",
+              "08:42",
+              "11:41",
+              "14:06",
+              "16:25",
+              "19:21",
+              "21:52"
+            ],
+            "holiday": [
+              "11:41",
+              "14:06",
+              "16:25"
+            ]
+          }
+        },
         {
-  "stop_id": "0294",
-  "stop_name": "Braciejówka Zalew",
-  "platform": "1",
-  "file": "0294-wolbrom.html",
-  "departures": {
-    "workday": ["06:41", "08:20", "09:00", "10:44", "12:00", "13:27", "14:24", "15:56", "16:43", "18:14", "19:39", "20:49", "22:09"],
-    "weekend": ["06:41", "09:02", "12:01", "14:26", "16:45", "19:41", "22:12"],
-    "holiday": ["12:01", "14:26", "16:45"]
-  }
-},
-         {
-  "stop_id": "0295",
-  "stop_name": "Braciejówka Szkoła",
-  "platform": "2",
-  "file": "0295-wolbrom.html",
-  "departures": {
-    "workday": ["06:42", "08:21", "09:01", "10:45", "12:01", "13:28", "14:25", "15:57", "16:44", "18:15", "19:40", "20:50", "22:10"],
-    "weekend": ["06:42", "09:03", "12:02", "14:27", "16:46", "19:42", "22:13"],
-    "holiday": ["12:02", "14:27", "16:46"]
-  }
-},
-         {
-  "stop_id": "0296",
-  "stop_name": "Braciejówka Granica",
-  "platform": "2",
-  "file": "0296-wolbrom.html",
-  "departures": {
-    "workday": ["06:43", "08:22", "09:02", "10:46", "12:02", "13:29", "14:26", "15:58", "16:45", "18:16", "19:41", "20:51", "22:11"],
-    "weekend": ["06:43", "09:04", "12:03", "14:28", "16:47", "19:43", "22:14"],
-    "holiday": ["12:03", "14:28", "16:47"]
-  }
-},
-             {
-  "stop_id": "0297",
-  "stop_name": "Michałówka",
-  "platform": "1",
-  "file": "0297-wolbrom.html",
-  "departures": {
-    "workday": ["06:44", "08:23", "09:03", "10:47", "12:03", "13:30", "14:27", "15:59", "16:46", "18:17", "19:42", "20:52", "22:12"],
-    "weekend": ["06:44", "09:05", "12:04", "14:29", "16:48", "19:44", "22:15"],
-    "holiday": ["12:04", "14:29", "16:48"]
-  }
-},
-            
+          "stop_id": "0228",
+          "stop_name": "Olkusz Skarbek",
+          "platform": "1",
+          "file": "0228-wolbrom.html",
+          "departures": {
+            "workday": [
+              "06:23",
+              "08:02",
+              "08:42",
+              "10:26",
+              "11:42",
+              "13:09",
+              "14:06",
+              "15:38",
+              "16:25",
+              "17:56",
+              "19:21",
+              "20:31",
+              "21:51"
+            ],
+            "saturday": [
+              "06:23",
+              "08:44",
+              "11:43",
+              "14:08",
+              "16:27",
+              "19:23",
+              "21:54"
+            ],
+            "sunday": [
+              "06:23",
+              "08:44",
+              "11:43",
+              "14:08",
+              "16:27",
+              "19:23",
+              "21:54"
+            ],
+            "holiday": [
+              "11:43",
+              "14:08",
+              "16:27"
+            ]
+          }
+        },
         {
-  "stop_id": "0298",
-  "stop_name": "Michałówka OSP",
-  "platform": "1",
-  "file": "0298-wolbrom.html",
-  "departures": {
-    "workday": ["06:45", "08:24", "09:04", "10:48", "12:04", "13:31", "14:28", "16:00", "16:47", "18:18", "19:43", "20:53", "22:13"],
-    "weekend": ["06:45", "09:06", "12:05", "14:30", "16:49", "19:45", "22:16"],
-    "holiday": ["12:05", "14:30", "16:49"]
-  }
-},
-         {
-  "stop_id": "0299",
-  "stop_name": "Michałówka Granica",
-  "platform": "2",
-  "file": "0299-wolbrom.html",
-  "departures": {
-    "workday": ["06:46", "08:25", "09:05", "10:49", "12:05", "13:32", "14:29", "16:01", "16:48", "18:19", "19:44", "20:54", "22:14"],
-    "weekend": ["06:46", "09:07", "12:06", "14:31", "16:50", "19:46", "22:17"],
-    "holiday": ["12:06", "14:31", "16:50"]
-  }
-},
+          "stop_id": "0284",
+          "stop_name": "Olkusz Rabsztyńska Supermarket",
+          "platform": "0",
+          "file": "0284-wolbrom.html",
+          "departures": {
+            "workday": [
+              "06:25",
+              "08:04",
+              "08:44",
+              "10:28",
+              "11:44",
+              "13:11",
+              "14:08",
+              "15:40",
+              "16:27",
+              "17:58",
+              "19:23",
+              "20:33",
+              "21:53"
+            ],
+            "saturday": [
+              "06:25",
+              "08:46",
+              "11:45",
+              "14:10",
+              "16:29",
+              "19:25",
+              "21:56"
+            ],
+            "sunday": [
+              "06:25",
+              "08:46",
+              "11:45",
+              "14:10",
+              "16:29",
+              "19:25",
+              "21:56"
+            ],
+            "holiday": [
+              "11:45",
+              "14:10",
+              "16:29"
+            ]
+          }
+        },
         {
-  "stop_id": "0300",
-  "stop_name": "Jangrot Granica",
-  "platform": "1",
-  "file": "0300-wolbrom.html",
-  "departures": {
-    "workday": ["06:48", "08:27", "09:07", "10:51", "12:07", "13:34", "14:31", "16:03", "16:50", "18:21", "19:46", "20:56", "22:16"],
-    "weekend": ["06:48", "09:09", "12:08", "14:33", "16:52", "19:48", "22:19"],
-    "holiday": ["12:08", "14:33", "16:52"]
-  }
-},
-           {
-  "stop_id": "0301",
-  "stop_name": "Jangrot Kosmolów",
-  "platform": "2",
-  "file": "0301-wolbrom.html",
-  "departures": {
-    "workday": ["06:50", "08:29", "09:09", "10:53", "12:09", "13:36", "14:33", "16:05", "16:52", "18:23", "19:48", "20:58", "22:18"],
-    "weekend": ["06:50", "09:11", "12:10", "14:35", "16:54", "19:50", "22:21"],
-    "holiday": ["12:10", "14:35", "16:54"]
-  }
-},
-         {
-  "stop_id": "0302",
-  "stop_name": "Jangrot Centrum",
-  "platform": "1",
-  "file": "0302-wolbrom.html",
-  "departures": {
-    "workday": ["06:51", "08:30", "09:10", "10:54", "12:10", "13:37", "14:34", "16:06", "16:53", "18:24", "19:49", "20:59", "22:19"],
-    "weekend": ["06:51", "09:12", "12:11", "14:36", "16:55", "19:51", "22:22"],
-    "holiday": ["12:11", "14:36", "16:55"]
-  }
-},
-         {
-  "stop_id": "0303",
-  "stop_name": "Jangrot Źródło Dłubni",
-  "platform": "2",
-  "file": "0303-wolbrom.html",
-  "departures": {
-    "workday": ["06:52", "08:31", "09:11", "10:55", "12:11", "13:38", "14:35", "16:07", "16:54", "18:25", "19:50", "21:00", "22:20"],
-    "weekend": ["06:52", "09:13", "12:12", "14:37", "16:56", "19:52", "22:23"],
-    "holiday": ["12:12", "14:37", "16:56"]
-  }
-},
-           {
-  "stop_id": "0305",
-  "stop_name": "Trzyciąż Skrzyżowanie",
-  "platform": "4",
-  "file": "0305-wolbrom.html",
-  "departures": {
-    "workday": ["06:55", "08:34", "09:14", "10:58", "12:14", "13:41", "14:38", "16:10", "16:57", "18:28", "19:53", "21:03", "22:23"],
-    "weekend": ["06:55", "09:16", "12:15", "14:40", "16:59", "19:55", "22:26"],
-    "holiday": ["12:15", "14:40", "16:59"]
-  }
-},
-           {
-  "stop_id": "0306",
-  "stop_name": "Porąbka",
-  "platform": "1",
-  "file": "0306-wolbrom.html",
-  "departures": {
-    "workday": ["07:00", "08:39", "09:19", "11:03", "12:19", "13:46", "14:43", "16:15", "17:02", "18:33", "19:58", "21:08", "22:28"],
-    "weekend": ["07:00", "09:21", "12:20", "14:45", "17:04", "20:00", "22:31"],
-    "holiday": ["12:20", "14:45", "17:04"]
-  }
-},
-           {
-  "stop_id": "0307",
-  "stop_name": "Porąbka Studnia",
-  "platform": "2",
-  "file": "0307-wolbrom.html",
-  "departures": {
-    "workday": ["07:01", "08:40", "09:20", "11:04", "12:20", "13:47", "14:44", "16:16", "17:03", "18:34", "19:59", "21:09", "22:29"],
-    "weekend": ["07:01", "09:22", "12:21", "14:46", "17:05", "20:01", "22:32"],
-    "holiday": ["12:21", "14:46", "17:05"]
-  }
-},
-         {
-  "stop_id": "0308",
-  "stop_name": "Porąbka Stara Wieś",
-  "platform": "1",
-  "file": "0308-wolbrom.html",
-  "departures": {
-    "workday": ["07:02", "08:41", "09:21", "11:05", "12:21", "13:48", "14:45", "16:17", "17:04", "18:35", "20:00", "21:10", "22:30"],
-    "weekend": ["07:02", "09:23", "12:22", "14:47", "17:06", "20:02", "22:33"],
-    "holiday": ["12:22", "14:47", "17:06"]
-  }
-},
+          "stop_id": "0285",
+          "stop_name": "Olkusz Rabsztyńska",
+          "platform": "2",
+          "file": "0285-wolbrom.html",
+          "departures": {
+            "workday": [
+              "06:27",
+              "08:06",
+              "08:46",
+              "10:30",
+              "11:46",
+              "13:13",
+              "14:10",
+              "15:42",
+              "16:29",
+              "18:00",
+              "19:25",
+              "20:35",
+              "21:55"
+            ],
+            "saturday": [
+              "06:27",
+              "08:48",
+              "11:47",
+              "14:12",
+              "16:31",
+              "19:27",
+              "21:58"
+            ],
+            "sunday": [
+              "06:27",
+              "08:48",
+              "11:47",
+              "14:12",
+              "16:31",
+              "19:27",
+              "21:58"
+            ],
+            "holiday": [
+              "11:47",
+              "14:12",
+              "16:31"
+            ]
+          }
+        },
         {
-  "stop_id": "0309",
-  "stop_name": "Porąbka Parcela",
-  "platform": "2",
-  "file": "0309-wolbrom.html",
-  "departures": {
-    "workday": ["07:03", "08:42", "09:22", "11:06", "12:22", "13:49", "14:46", "16:18", "17:05", "18:36", "20:01", "21:11", "22:31"],
-    "weekend": ["07:03", "09:24", "12:23", "14:48", "17:07", "20:03", "22:34"],
-    "holiday": ["12:23", "14:48", "17:07"]
-  }
-},
-           {
-  "stop_id": "0310",
-  "stop_name": "Lgota Wielka Kawkazy",
-  "platform": "1",
-  "file": "0310-wolbrom.html",
-  "departures": {
-    "workday": ["07:07", "08:46", "09:26", "11:10", "12:26", "13:53", "14:50", "16:22", "17:09", "18:40", "20:05", "21:15", "22:35"],
-    "weekend": ["07:07", "09:28", "12:27", "14:52", "17:11", "20:07", "22:38"],
-    "holiday": ["12:27", "14:52", "17:11"]
-  }
-},
-          {
-  "stop_id": "0008",
-  "stop_name": "Lgota Wielka Skrzyżowanie",
-  "platform": "1",
-  "file": "0008-wolbrom.html",
-  "departures": {
-    "workday": ["07:09", "08:48", "09:28", "11:12", "12:28", "13:55", "14:52", "16:24", "17:11", "18:42", "20:07", "21:17", "22:37"],
-    "weekend": ["07:09", "09:30", "12:29", "14:54", "17:13", "20:09", "22:40"],
-    "holiday": ["12:29", "14:54", "17:13"]
-  }
-},
-         {
-  "stop_id": "0009",
-  "stop_name": "Lgota Wielka Kolonia Leśna",
-  "platform": "1",
-  "file": "0009-wolbrom.html",
-  "departures": {
-    "workday": ["07:11", "08:50", "09:30", "11:14", "12:30", "13:57", "14:54", "16:26", "17:13", "18:44", "20:09", "21:19", "22:39"],
-    "weekend": ["07:11", "09:32", "12:31", "14:56", "17:15", "20:11", "22:42"],
-    "holiday": ["12:31", "14:56", "17:15"]
-  }
-},
-          {
-  "stop_id": "0010",
-  "stop_name": "Wierzchowisko Remiza",
-  "platform": "1",
-  "file": "0010-wolbrom.html",
-  "departures": {
-    "workday": ["07:13", "08:52", "09:32", "11:16", "12:32", "13:59", "14:56", "16:28", "17:15", "18:46", "20:11", "21:21", "22:41"],
-    "weekend": ["07:13", "09:34", "12:33", "14:58", "17:17", "20:13", "22:44"],
-    "holiday": ["12:33", "14:58", "17:17"]
-  }
-},
-         {
-  "stop_id": "0011",
-  "stop_name": "Wierzchowisko Klub",
-  "platform": "1",
-  "file": "0011-wolbrom.html",
-  "departures": {
-    "workday": ["07:14", "08:53", "09:33", "11:17", "12:33", "14:00", "14:57", "16:29", "17:16", "18:47", "20:12", "21:22", "22:42"],
-    "weekend": ["07:14", "09:35", "12:34", "14:59", "17:18", "20:14", "22:45"],
-    "holiday": ["12:34", "14:59", "17:18"]
-  }
-},
-         {
-  "stop_id": "0012",
-  "stop_name": "Brzozówka II",
-  "platform": "1",
-  "file": "0012-wolbrom.html",
-  "departures": {
-    "workday": ["07:15", "08:54", "09:34", "11:18", "12:34", "14:01", "14:58", "16:30", "17:17", "18:48", "20:13", "21:23", "22:43"],
-    "weekend": ["07:15", "09:36", "12:35", "15:00", "17:19", "20:15", "22:46"],
-    "holiday": ["12:35", "15:00", "17:19"]
-  }
-},
-         {
-  "stop_id": "0013",
-  "stop_name": "Brzozówka I",
-  "platform": "2",
-  "file": "0013-wolbrom.html",
-  "departures": {
-    "workday": ["07:16", "08:55", "09:35", "11:19", "12:35", "14:02", "14:59", "16:31", "17:18", "18:49", "20:14", "21:24", "22:44"],
-    "weekend": ["07:16", "09:37", "12:36", "15:01", "17:20", "20:16", "22:47"],
-    "holiday": ["12:36", "15:01", "17:20"]
-  }
-},
-         {
-  "stop_id": "0014",
-  "stop_name": "Wolbrom Brzozowska Rondo",
-  "platform": "2",
-  "file": "0014-wolbrom.html",
-  "departures": {
-    "workday": ["07:17", "08:56", "09:36", "11:20", "12:36", "14:03", "15:00", "16:32", "17:19", "18:50", "20:15", "21:25", "22:45"],
-    "weekend": ["07:17", "09:38", "12:37", "15:02", "17:21", "20:17", "22:48"],
-    "holiday": ["12:37", "15:02", "17:21"]
-  }
-},
-         {
-  "stop_id": "0016",
-  "stop_name": "Wolbrom Dworzec PKP",
-  "platform": "0",
-  "file": "0016-wolbrom.html",
-  "departures": {
-    "workday": ["07:19", "08:58", "09:38", "11:22", "12:38", "14:05", "15:02", "16:34", "17:21", "18:52", "20:17", "21:27", "22:47"],
-    "weekend": ["07:19", "09:40", "12:39", "15:04", "17:23", "20:19", "22:50"],
-    "holiday": ["12:39", "15:04", "17:23"]
-  }
-},
-          {
-  "stop_id": "0017",
-  "stop_name": "Wolbrom 1-ego Maja I",
-  "platform": "1",
-  "file": "0017-wolbrom.html",
-  "departures": {
-    "workday": ["07:20", "08:59", "09:39", "11:23", "12:39", "14:06", "15:03", "16:35", "17:22", "18:53", "20:18", "21:28", "22:48"],
-    "weekend": ["07:20", "09:41", "12:40", "15:05", "17:24", "20:20", "22:51"],
-    "holiday": ["12:40", "15:05", "17:24"]
-  }
-},
-         {
-  "stop_id": "0018",
-  "stop_name": "Wolbrom 1-ego Maja",
-  "platform": "1",
-  "file": "0018-wolbrom.html",
-  "departures": {
-    "workday": ["07:21", "09:00", "09:40", "11:24", "12:40", "14:07", "15:04", "16:36", "17:23", "18:54", "20:19", "21:29", "22:49"],
-    "weekend": ["07:21", "09:42", "12:41", "15:06", "17:25", "20:21", "22:52"],
-    "holiday": ["12:41", "15:06", "17:25"]
-  }
-}
+          "stop_id": "0286",
+          "stop_name": "Olkusz Sikorka",
+          "platform": "2",
+          "file": "0286-wolbrom.html",
+          "departures": {
+            "workday": [
+              "06:28",
+              "08:07",
+              "08:47",
+              "10:31",
+              "11:47",
+              "13:14",
+              "14:11",
+              "15:43",
+              "16:30",
+              "18:01",
+              "19:26",
+              "20:36",
+              "21:56"
+            ],
+            "saturday": [
+              "06:28",
+              "08:49",
+              "11:48",
+              "14:13",
+              "16:32",
+              "19:28",
+              "21:59"
+            ],
+            "sunday": [
+              "06:28",
+              "08:49",
+              "11:48",
+              "14:13",
+              "16:32",
+              "19:28",
+              "21:59"
+            ],
+            "holiday": [
+              "11:48",
+              "14:13",
+              "16:32"
+            ]
+          }
+        },
+        {
+          "stop_id": "0287",
+          "stop_name": "Rabsztyn Ogródki Działkowe",
+          "platform": "2",
+          "file": "0287-wolbrom.html",
+          "departures": {
+            "workday": [
+              "06:30",
+              "08:09",
+              "08:49",
+              "10:33",
+              "11:49",
+              "13:16",
+              "14:13",
+              "15:45",
+              "16:32",
+              "18:03",
+              "19:28",
+              "20:38",
+              "21:58"
+            ],
+            "saturday": [
+              "06:30",
+              "08:51",
+              "11:50",
+              "14:15",
+              "16:34",
+              "19:30",
+              "22:01"
+            ],
+            "sunday": [
+              "06:30",
+              "08:51",
+              "11:50",
+              "14:15",
+              "16:34",
+              "19:30",
+              "22:01"
+            ],
+            "holiday": [
+              "11:50",
+              "14:15",
+              "16:34"
+            ]
+          }
+        },
+        {
+          "stop_id": "0288",
+          "stop_name": "Rabsztyn",
+          "platform": "2",
+          "file": "0288-wolbrom.html",
+          "departures": {
+            "workday": [
+              "06:31",
+              "08:10",
+              "08:50",
+              "10:34",
+              "11:50",
+              "13:17",
+              "14:14",
+              "15:46",
+              "16:33",
+              "18:04",
+              "19:29",
+              "20:39",
+              "21:59"
+            ],
+            "saturday": [
+              "06:31",
+              "08:52",
+              "11:51",
+              "14:16",
+              "16:35",
+              "19:31",
+              "22:02"
+            ],
+            "sunday": [
+              "06:31",
+              "08:52",
+              "11:51",
+              "14:16",
+              "16:35",
+              "19:31",
+              "22:02"
+            ],
+            "holiday": [
+              "11:51",
+              "14:16",
+              "16:35"
+            ]
+          }
+        },
+        {
+          "stop_id": "0289",
+          "stop_name": "Troks Las",
+          "platform": "2",
+          "file": "0289-wolbrom.html",
+          "departures": {
+            "workday": [
+              "06:34",
+              "08:13",
+              "08:53",
+              "10:37",
+              "11:53",
+              "13:20",
+              "14:17",
+              "15:49",
+              "16:36",
+              "18:07",
+              "19:32",
+              "20:42",
+              "22:02"
+            ],
+            "saturday": [
+              "06:34",
+              "08:55",
+              "11:54",
+              "14:19",
+              "16:38",
+              "19:34",
+              "22:05"
+            ],
+            "sunday": [
+              "06:34",
+              "08:55",
+              "11:54",
+              "14:19",
+              "16:38",
+              "19:34",
+              "22:05"
+            ],
+            "holiday": [
+              "11:54",
+              "14:19",
+              "16:38"
+            ]
+          }
+        },
+        {
+          "stop_id": "0290",
+          "stop_name": "Troks",
+          "platform": "2",
+          "file": "0290-wolbrom.html",
+          "departures": {
+            "workday": [
+              "06:36",
+              "08:15",
+              "08:55",
+              "10:39",
+              "11:55",
+              "13:22",
+              "14:19",
+              "15:51",
+              "16:38",
+              "18:09",
+              "19:34",
+              "20:44",
+              "22:04"
+            ],
+            "saturday": [
+              "06:36",
+              "08:57",
+              "11:56",
+              "14:21",
+              "16:40",
+              "19:36",
+              "22:07"
+            ],
+            "sunday": [
+              "06:36",
+              "08:57",
+              "11:56",
+              "14:21",
+              "16:40",
+              "19:36",
+              "22:07"
+            ],
+            "holiday": [
+              "11:56",
+              "14:21",
+              "16:40"
+            ]
+          }
+        },
+        {
+          "stop_id": "0291",
+          "stop_name": "Troks Szkoła",
+          "platform": "2",
+          "file": "0291-wolbrom.html",
+          "departures": {
+            "workday": [
+              "06:38",
+              "08:17",
+              "08:57",
+              "10:41",
+              "11:57",
+              "13:24",
+              "14:21",
+              "15:53",
+              "16:40",
+              "18:11",
+              "19:36",
+              "20:46",
+              "22:06"
+            ],
+            "saturday": [
+              "06:38",
+              "08:59",
+              "11:58",
+              "14:23",
+              "16:42",
+              "19:38",
+              "22:09"
+            ],
+            "sunday": [
+              "06:38",
+              "08:59",
+              "11:58",
+              "14:23",
+              "16:42",
+              "19:38",
+              "22:09"
+            ],
+            "holiday": [
+              "11:58",
+              "14:23",
+              "16:42"
+            ]
+          }
+        },
+        {
+          "stop_id": "0292",
+          "stop_name": "Troks Granica",
+          "platform": "2",
+          "file": "0292-wolbrom.html",
+          "departures": {
+            "workday": [
+              "06:39",
+              "08:18",
+              "08:58",
+              "10:42",
+              "11:58",
+              "13:25",
+              "14:22",
+              "15:54",
+              "16:41",
+              "18:12",
+              "19:37",
+              "20:47",
+              "22:07"
+            ],
+            "saturday": [
+              "06:39",
+              "09:00",
+              "11:59",
+              "14:24",
+              "16:43",
+              "19:39",
+              "22:10"
+            ],
+            "sunday": [
+              "06:39",
+              "09:00",
+              "11:59",
+              "14:24",
+              "16:43",
+              "19:39",
+              "22:10"
+            ],
+            "holiday": [
+              "11:59",
+              "14:24",
+              "16:43"
+            ]
+          }
+        },
+        {
+          "stop_id": "0293",
+          "stop_name": "Braciejówka Cmentarz",
+          "platform": "2",
+          "file": "0293-wolbrom.html",
+          "departures": {
+            "workday": [
+              "06:40",
+              "08:19",
+              "08:59",
+              "10:43",
+              "11:59",
+              "13:26",
+              "14:23",
+              "15:55",
+              "16:42",
+              "18:13",
+              "19:38",
+              "20:48",
+              "22:08"
+            ],
+            "saturday": [
+              "06:40",
+              "09:01",
+              "12:00",
+              "14:25",
+              "16:44",
+              "19:40",
+              "22:11"
+            ],
+            "sunday": [
+              "06:40",
+              "09:01",
+              "12:00",
+              "14:25",
+              "16:44",
+              "19:40",
+              "22:11"
+            ],
+            "holiday": [
+              "12:00",
+              "14:25",
+              "16:44"
+            ]
+          }
+        },
+        {
+          "stop_id": "0294",
+          "stop_name": "Braciejówka Zalew",
+          "platform": "1",
+          "file": "0294-wolbrom.html",
+          "departures": {
+            "workday": [
+              "06:41",
+              "08:20",
+              "09:00",
+              "10:44",
+              "12:00",
+              "13:27",
+              "14:24",
+              "15:56",
+              "16:43",
+              "18:14",
+              "19:39",
+              "20:49",
+              "22:09"
+            ],
+            "saturday": [
+              "06:41",
+              "09:02",
+              "12:01",
+              "14:26",
+              "16:45",
+              "19:41",
+              "22:12"
+            ],
+            "sunday": [
+              "06:41",
+              "09:02",
+              "12:01",
+              "14:26",
+              "16:45",
+              "19:41",
+              "22:12"
+            ],
+            "holiday": [
+              "12:01",
+              "14:26",
+              "16:45"
+            ]
+          }
+        },
+        {
+          "stop_id": "0295",
+          "stop_name": "Braciejówka Szkoła",
+          "platform": "2",
+          "file": "0295-wolbrom.html",
+          "departures": {
+            "workday": [
+              "06:42",
+              "08:21",
+              "09:01",
+              "10:45",
+              "12:01",
+              "13:28",
+              "14:25",
+              "15:57",
+              "16:44",
+              "18:15",
+              "19:40",
+              "20:50",
+              "22:10"
+            ],
+            "saturday": [
+              "06:42",
+              "09:03",
+              "12:02",
+              "14:27",
+              "16:46",
+              "19:42",
+              "22:13"
+            ],
+            "sunday": [
+              "06:42",
+              "09:03",
+              "12:02",
+              "14:27",
+              "16:46",
+              "19:42",
+              "22:13"
+            ],
+            "holiday": [
+              "12:02",
+              "14:27",
+              "16:46"
+            ]
+          }
+        },
+        {
+          "stop_id": "0296",
+          "stop_name": "Braciejówka Granica",
+          "platform": "2",
+          "file": "0296-wolbrom.html",
+          "departures": {
+            "workday": [
+              "06:43",
+              "08:22",
+              "09:02",
+              "10:46",
+              "12:02",
+              "13:29",
+              "14:26",
+              "15:58",
+              "16:45",
+              "18:16",
+              "19:41",
+              "20:51",
+              "22:11"
+            ],
+            "saturday": [
+              "06:43",
+              "09:04",
+              "12:03",
+              "14:28",
+              "16:47",
+              "19:43",
+              "22:14"
+            ],
+            "sunday": [
+              "06:43",
+              "09:04",
+              "12:03",
+              "14:28",
+              "16:47",
+              "19:43",
+              "22:14"
+            ],
+            "holiday": [
+              "12:03",
+              "14:28",
+              "16:47"
+            ]
+          }
+        },
+        {
+          "stop_id": "0297",
+          "stop_name": "Michałówka",
+          "platform": "1",
+          "file": "0297-wolbrom.html",
+          "departures": {
+            "workday": [
+              "06:44",
+              "08:23",
+              "09:03",
+              "10:47",
+              "12:03",
+              "13:30",
+              "14:27",
+              "15:59",
+              "16:46",
+              "18:17",
+              "19:42",
+              "20:52",
+              "22:12"
+            ],
+            "saturday": [
+              "06:44",
+              "09:05",
+              "12:04",
+              "14:29",
+              "16:48",
+              "19:44",
+              "22:15"
+            ],
+            "sunday": [
+              "06:44",
+              "09:05",
+              "12:04",
+              "14:29",
+              "16:48",
+              "19:44",
+              "22:15"
+            ],
+            "holiday": [
+              "12:04",
+              "14:29",
+              "16:48"
+            ]
+          }
+        },
+        {
+          "stop_id": "0298",
+          "stop_name": "Michałówka OSP",
+          "platform": "1",
+          "file": "0298-wolbrom.html",
+          "departures": {
+            "workday": [
+              "06:45",
+              "08:24",
+              "09:04",
+              "10:48",
+              "12:04",
+              "13:31",
+              "14:28",
+              "16:00",
+              "16:47",
+              "18:18",
+              "19:43",
+              "20:53",
+              "22:13"
+            ],
+            "saturday": [
+              "06:45",
+              "09:06",
+              "12:05",
+              "14:30",
+              "16:49",
+              "19:45",
+              "22:16"
+            ],
+            "sunday": [
+              "06:45",
+              "09:06",
+              "12:05",
+              "14:30",
+              "16:49",
+              "19:45",
+              "22:16"
+            ],
+            "holiday": [
+              "12:05",
+              "14:30",
+              "16:49"
+            ]
+          }
+        },
+        {
+          "stop_id": "0299",
+          "stop_name": "Michałówka Granica",
+          "platform": "2",
+          "file": "0299-wolbrom.html",
+          "departures": {
+            "workday": [
+              "06:46",
+              "08:25",
+              "09:05",
+              "10:49",
+              "12:05",
+              "13:32",
+              "14:29",
+              "16:01",
+              "16:48",
+              "18:19",
+              "19:44",
+              "20:54",
+              "22:14"
+            ],
+            "saturday": [
+              "06:46",
+              "09:07",
+              "12:06",
+              "14:31",
+              "16:50",
+              "19:46",
+              "22:17"
+            ],
+            "sunday": [
+              "06:46",
+              "09:07",
+              "12:06",
+              "14:31",
+              "16:50",
+              "19:46",
+              "22:17"
+            ],
+            "holiday": [
+              "12:06",
+              "14:31",
+              "16:50"
+            ]
+          }
+        },
+        {
+          "stop_id": "0300",
+          "stop_name": "Jangrot Granica",
+          "platform": "1",
+          "file": "0300-wolbrom.html",
+          "departures": {
+            "workday": [
+              "06:48",
+              "08:27",
+              "09:07",
+              "10:51",
+              "12:07",
+              "13:34",
+              "14:31",
+              "16:03",
+              "16:50",
+              "18:21",
+              "19:46",
+              "20:56",
+              "22:16"
+            ],
+            "saturday": [
+              "06:48",
+              "09:09",
+              "12:08",
+              "14:33",
+              "16:52",
+              "19:48",
+              "22:19"
+            ],
+            "sunday": [
+              "06:48",
+              "09:09",
+              "12:08",
+              "14:33",
+              "16:52",
+              "19:48",
+              "22:19"
+            ],
+            "holiday": [
+              "12:08",
+              "14:33",
+              "16:52"
+            ]
+          }
+        },
+        {
+          "stop_id": "0301",
+          "stop_name": "Jangrot Kosmolów",
+          "platform": "2",
+          "file": "0301-wolbrom.html",
+          "departures": {
+            "workday": [
+              "06:50",
+              "08:29",
+              "09:09",
+              "10:53",
+              "12:09",
+              "13:36",
+              "14:33",
+              "16:05",
+              "16:52",
+              "18:23",
+              "19:48",
+              "20:58",
+              "22:18"
+            ],
+            "saturday": [
+              "06:50",
+              "09:11",
+              "12:10",
+              "14:35",
+              "16:54",
+              "19:50",
+              "22:21"
+            ],
+            "sunday": [
+              "06:50",
+              "09:11",
+              "12:10",
+              "14:35",
+              "16:54",
+              "19:50",
+              "22:21"
+            ],
+            "holiday": [
+              "12:10",
+              "14:35",
+              "16:54"
+            ]
+          }
+        },
+        {
+          "stop_id": "0302",
+          "stop_name": "Jangrot Centrum",
+          "platform": "1",
+          "file": "0302-wolbrom.html",
+          "departures": {
+            "workday": [
+              "06:51",
+              "08:30",
+              "09:10",
+              "10:54",
+              "12:10",
+              "13:37",
+              "14:34",
+              "16:06",
+              "16:53",
+              "18:24",
+              "19:49",
+              "20:59",
+              "22:19"
+            ],
+            "saturday": [
+              "06:51",
+              "09:12",
+              "12:11",
+              "14:36",
+              "16:55",
+              "19:51",
+              "22:22"
+            ],
+            "sunday": [
+              "06:51",
+              "09:12",
+              "12:11",
+              "14:36",
+              "16:55",
+              "19:51",
+              "22:22"
+            ],
+            "holiday": [
+              "12:11",
+              "14:36",
+              "16:55"
+            ]
+          }
+        },
+        {
+          "stop_id": "0303",
+          "stop_name": "Jangrot Źródło Dłubni",
+          "platform": "2",
+          "file": "0303-wolbrom.html",
+          "departures": {
+            "workday": [
+              "06:52",
+              "08:31",
+              "09:11",
+              "10:55",
+              "12:11",
+              "13:38",
+              "14:35",
+              "16:07",
+              "16:54",
+              "18:25",
+              "19:50",
+              "21:00",
+              "22:20"
+            ],
+            "saturday": [
+              "06:52",
+              "09:13",
+              "12:12",
+              "14:37",
+              "16:56",
+              "19:52",
+              "22:23"
+            ],
+            "sunday": [
+              "06:52",
+              "09:13",
+              "12:12",
+              "14:37",
+              "16:56",
+              "19:52",
+              "22:23"
+            ],
+            "holiday": [
+              "12:12",
+              "14:37",
+              "16:56"
+            ]
+          }
+        },
+        {
+          "stop_id": "0305",
+          "stop_name": "Trzyciąż Skrzyżowanie",
+          "platform": "4",
+          "file": "0305-wolbrom.html",
+          "departures": {
+            "workday": [
+              "06:55",
+              "08:34",
+              "09:14",
+              "10:58",
+              "12:14",
+              "13:41",
+              "14:38",
+              "16:10",
+              "16:57",
+              "18:28",
+              "19:53",
+              "21:03",
+              "22:23"
+            ],
+            "saturday": [
+              "06:55",
+              "09:16",
+              "12:15",
+              "14:40",
+              "16:59",
+              "19:55",
+              "22:26"
+            ],
+            "sunday": [
+              "06:55",
+              "09:16",
+              "12:15",
+              "14:40",
+              "16:59",
+              "19:55",
+              "22:26"
+            ],
+            "holiday": [
+              "12:15",
+              "14:40",
+              "16:59"
+            ]
+          }
+        },
+        {
+          "stop_id": "0306",
+          "stop_name": "Porąbka",
+          "platform": "1",
+          "file": "0306-wolbrom.html",
+          "departures": {
+            "workday": [
+              "07:00",
+              "08:39",
+              "09:19",
+              "11:03",
+              "12:19",
+              "13:46",
+              "14:43",
+              "16:15",
+              "17:02",
+              "18:33",
+              "19:58",
+              "21:08",
+              "22:28"
+            ],
+            "saturday": [
+              "07:00",
+              "09:21",
+              "12:20",
+              "14:45",
+              "17:04",
+              "20:00",
+              "22:31"
+            ],
+            "sunday": [
+              "07:00",
+              "09:21",
+              "12:20",
+              "14:45",
+              "17:04",
+              "20:00",
+              "22:31"
+            ],
+            "holiday": [
+              "12:20",
+              "14:45",
+              "17:04"
+            ]
+          }
+        },
+        {
+          "stop_id": "0307",
+          "stop_name": "Porąbka Studnia",
+          "platform": "2",
+          "file": "0307-wolbrom.html",
+          "departures": {
+            "workday": [
+              "07:01",
+              "08:40",
+              "09:20",
+              "11:04",
+              "12:20",
+              "13:47",
+              "14:44",
+              "16:16",
+              "17:03",
+              "18:34",
+              "19:59",
+              "21:09",
+              "22:29"
+            ],
+            "saturday": [
+              "07:01",
+              "09:22",
+              "12:21",
+              "14:46",
+              "17:05",
+              "20:01",
+              "22:32"
+            ],
+            "sunday": [
+              "07:01",
+              "09:22",
+              "12:21",
+              "14:46",
+              "17:05",
+              "20:01",
+              "22:32"
+            ],
+            "holiday": [
+              "12:21",
+              "14:46",
+              "17:05"
+            ]
+          }
+        },
+        {
+          "stop_id": "0308",
+          "stop_name": "Porąbka Stara Wieś",
+          "platform": "1",
+          "file": "0308-wolbrom.html",
+          "departures": {
+            "workday": [
+              "07:01",
+              "08:40",
+              "09:20",
+              "11:04",
+              "12:20",
+              "13:47",
+              "14:44",
+              "16:16",
+              "17:03",
+              "18:34",
+              "19:59",
+              "21:09",
+              "22:29"
+            ],
+            "saturday": [
+              "07:01",
+              "09:22",
+              "12:21",
+              "14:46",
+              "17:05",
+              "20:01",
+              "22:32"
+            ],
+            "sunday": [
+              "07:01",
+              "09:22",
+              "12:21",
+              "14:46",
+              "17:05",
+              "20:01",
+              "22:32"
+            ],
+            "holiday": [
+              "12:21",
+              "14:46",
+              "17:05"
+            ]
+          }
+        },
+        {
+          "stop_id": "0309",
+          "stop_name": "Porąbka Parcela",
+          "platform": "2",
+          "file": "0309-wolbrom.html",
+          "departures": {
+            "workday": [
+              "07:02",
+              "08:41",
+              "09:21",
+              "11:05",
+              "12:21",
+              "13:48",
+              "14:45",
+              "16:17",
+              "17:04",
+              "18:35",
+              "20:00",
+              "21:10",
+              "22:30"
+            ],
+            "saturday": [
+              "07:02",
+              "09:23",
+              "12:22",
+              "14:47",
+              "17:06",
+              "20:02",
+              "22:33"
+            ],
+            "sunday": [
+              "07:02",
+              "09:23",
+              "12:22",
+              "14:47",
+              "17:06",
+              "20:02",
+              "22:33"
+            ],
+            "holiday": [
+              "12:22",
+              "14:47",
+              "17:06"
+            ]
+          }
+        },
+        {
+          "stop_id": "3342",
+          "stop_name": "Budzyń Remiza",
+          "platform": "1",
+          "file": "3342-wolbrom.html",
+          "departures": {
+            "workday": [
+              "07:04",
+              "08:43",
+              "09:23",
+              "11:07",
+              "12:23",
+              "13:50",
+              "14:47",
+              "16:19",
+              "17:06",
+              "18:37",
+              "20:02",
+              "21:12",
+              "22:32"
+            ],
+            "saturday": [
+              "07:04",
+              "09:25",
+              "12:24",
+              "14:49",
+              "17:08",
+              "20:04",
+              "22:35"
+            ],
+            "sunday": [
+              "07:04",
+              "09:25",
+              "12:24",
+              "14:49",
+              "17:08",
+              "20:04",
+              "22:35"
+            ],
+            "holiday": [
+              "12:24",
+              "14:49",
+              "17:08"
+            ]
+          }
+        },
+        {
+          "stop_id": "0310",
+          "stop_name": "Lgota Wielka Kawkazy",
+          "platform": "1",
+          "file": "0310-wolbrom.html",
+          "departures": {
+            "workday": [
+              "07:06",
+              "08:45",
+              "09:25",
+              "11:09",
+              "12:25",
+              "13:52",
+              "14:49",
+              "16:21",
+              "17:08",
+              "18:39",
+              "20:04",
+              "21:14",
+              "22:34"
+            ],
+            "saturday": [
+              "07:06",
+              "09:27",
+              "12:26",
+              "14:51",
+              "17:10",
+              "20:06",
+              "22:37"
+            ],
+            "sunday": [
+              "07:06",
+              "09:27",
+              "12:26",
+              "14:51",
+              "17:10",
+              "20:06",
+              "22:37"
+            ],
+            "holiday": [
+              "12:26",
+              "14:51",
+              "17:10"
+            ]
+          }
+        },
+        {
+          "stop_id": "0008",
+          "stop_name": "Lgota Wielka Skrzyżowanie",
+          "platform": "1",
+          "file": "0008-wolbrom.html",
+          "departures": {
+            "workday": [
+              "07:08",
+              "08:47",
+              "09:27",
+              "11:11",
+              "12:27",
+              "13:54",
+              "14:51",
+              "16:23",
+              "17:10",
+              "18:41",
+              "20:06",
+              "21:16",
+              "22:36"
+            ],
+            "saturday": [
+              "07:08",
+              "09:29",
+              "12:28",
+              "14:53",
+              "17:12",
+              "20:08",
+              "22:39"
+            ],
+            "sunday": [
+              "07:08",
+              "09:29",
+              "12:28",
+              "14:53",
+              "17:12",
+              "20:08",
+              "22:39"
+            ],
+            "holiday": [
+              "12:28",
+              "14:53",
+              "17:12"
+            ]
+          }
+        },
+        {
+          "stop_id": "0009",
+          "stop_name": "Lgota Wielka Kolonia Leśna",
+          "platform": "1",
+          "file": "0009-wolbrom.html",
+          "departures": {
+            "workday": [
+              "07:10",
+              "08:49",
+              "09:29",
+              "11:13",
+              "12:29",
+              "13:56",
+              "14:53",
+              "16:25",
+              "17:12",
+              "18:43",
+              "20:08",
+              "21:18",
+              "22:38"
+            ],
+            "saturday": [
+              "07:10",
+              "09:31",
+              "12:30",
+              "14:55",
+              "17:14",
+              "20:10",
+              "22:41"
+            ],
+            "sunday": [
+              "07:10",
+              "09:31",
+              "12:30",
+              "14:55",
+              "17:14",
+              "20:10",
+              "22:41"
+            ],
+            "holiday": [
+              "12:30",
+              "14:55",
+              "17:14"
+            ]
+          }
+        },
+        {
+          "stop_id": "0010",
+          "stop_name": "Wierzchowisko Remiza",
+          "platform": "1",
+          "file": "0010-wolbrom.html",
+          "departures": {
+            "workday": [
+              "07:12",
+              "08:51",
+              "09:31",
+              "11:15",
+              "12:31",
+              "13:58",
+              "14:55",
+              "16:27",
+              "17:14",
+              "18:45",
+              "20:10",
+              "21:20",
+              "22:40"
+            ],
+            "saturday": [
+              "07:12",
+              "09:33",
+              "12:32",
+              "14:57",
+              "17:16",
+              "20:12",
+              "22:43"
+            ],
+            "sunday": [
+              "07:12",
+              "09:33",
+              "12:32",
+              "14:57",
+              "17:16",
+              "20:12",
+              "22:43"
+            ],
+            "holiday": [
+              "12:32",
+              "14:57",
+              "17:16"
+            ]
+          }
+        },
+        {
+          "stop_id": "0011",
+          "stop_name": "Wierzchowisko Klub",
+          "platform": "1",
+          "file": "0011-wolbrom.html",
+          "departures": {
+            "workday": [
+              "07:13",
+              "08:52",
+              "09:32",
+              "11:16",
+              "12:32",
+              "13:59",
+              "14:56",
+              "16:28",
+              "17:15",
+              "18:46",
+              "20:11",
+              "21:21",
+              "22:41"
+            ],
+            "saturday": [
+              "07:13",
+              "09:34",
+              "12:33",
+              "14:58",
+              "17:17",
+              "20:13",
+              "22:44"
+            ],
+            "sunday": [
+              "07:13",
+              "09:34",
+              "12:33",
+              "14:58",
+              "17:17",
+              "20:13",
+              "22:44"
+            ],
+            "holiday": [
+              "12:33",
+              "14:58",
+              "17:17"
+            ]
+          }
+        },
+        {
+          "stop_id": "0012",
+          "stop_name": "Brzozówka II",
+          "platform": "1",
+          "file": "0012-wolbrom.html",
+          "departures": {
+            "workday": [
+              "07:14",
+              "08:53",
+              "09:33",
+              "11:17",
+              "12:33",
+              "14:00",
+              "14:57",
+              "16:29",
+              "17:16",
+              "18:47",
+              "20:12",
+              "21:22",
+              "22:42"
+            ],
+            "saturday": [
+              "07:14",
+              "09:35",
+              "12:34",
+              "14:59",
+              "17:18",
+              "20:14",
+              "22:45"
+            ],
+            "sunday": [
+              "07:14",
+              "09:35",
+              "12:34",
+              "14:59",
+              "17:18",
+              "20:14",
+              "22:45"
+            ],
+            "holiday": [
+              "12:34",
+              "14:59",
+              "17:18"
+            ]
+          }
+        },
+        {
+          "stop_id": "0013",
+          "stop_name": "Brzozówka I",
+          "platform": "2",
+          "file": "0013-wolbrom.html",
+          "departures": {
+            "workday": [
+              "07:15",
+              "08:54",
+              "09:34",
+              "11:18",
+              "12:34",
+              "14:01",
+              "14:58",
+              "16:30",
+              "17:17",
+              "18:48",
+              "20:13",
+              "21:23",
+              "22:43"
+            ],
+            "saturday": [
+              "07:15",
+              "09:36",
+              "12:35",
+              "15:00",
+              "17:19",
+              "20:15",
+              "22:46"
+            ],
+            "sunday": [
+              "07:15",
+              "09:36",
+              "12:35",
+              "15:00",
+              "17:19",
+              "20:15",
+              "22:46"
+            ],
+            "holiday": [
+              "12:35",
+              "15:00",
+              "17:19"
+            ]
+          }
+        },
+        {
+          "stop_id": "0014",
+          "stop_name": "Wolbrom Brzozowska Rondo",
+          "platform": "2",
+          "file": "0014-wolbrom.html",
+          "departures": {
+            "workday": [
+              "07:16",
+              "08:55",
+              "09:35",
+              "11:19",
+              "12:35",
+              "14:02",
+              "14:59",
+              "16:31",
+              "17:18",
+              "18:49",
+              "20:14",
+              "21:24",
+              "22:44"
+            ],
+            "saturday": [
+              "07:16",
+              "09:37",
+              "12:36",
+              "15:01",
+              "17:20",
+              "20:16",
+              "22:47"
+            ],
+            "sunday": [
+              "07:16",
+              "09:37",
+              "12:36",
+              "15:01",
+              "17:20",
+              "20:16",
+              "22:47"
+            ],
+            "holiday": [
+              "12:36",
+              "15:01",
+              "17:20"
+            ]
+          }
+        },
+        {
+          "stop_id": "0016",
+          "stop_name": "Wolbrom Dworzec PKP",
+          "platform": "0",
+          "file": "0016-wolbrom.html",
+          "departures": {
+            "workday": [
+              "07:18",
+              "08:57",
+              "09:37",
+              "11:21",
+              "12:37",
+              "14:04",
+              "15:01",
+              "16:33",
+              "17:20",
+              "18:51",
+              "20:16",
+              "21:26",
+              "22:46"
+            ],
+            "saturday": [
+              "07:18",
+              "09:39",
+              "12:38",
+              "15:03",
+              "17:22",
+              "20:18",
+              "22:49"
+            ],
+            "sunday": [
+              "07:18",
+              "09:39",
+              "12:38",
+              "15:03",
+              "17:22",
+              "20:18",
+              "22:49"
+            ],
+            "holiday": [
+              "12:38",
+              "15:03",
+              "17:22"
+            ]
+          }
+        },
+        {
+          "stop_id": "0017",
+          "stop_name": "Wolbrom 1-ego Maja I",
+          "platform": "1",
+          "file": "0017-wolbrom.html",
+          "departures": {
+            "workday": [
+              "07:19",
+              "08:58",
+              "09:38",
+              "11:22",
+              "12:38",
+              "14:05",
+              "15:02",
+              "16:34",
+              "17:21",
+              "18:52",
+              "20:17",
+              "21:27",
+              "22:47"
+            ],
+            "saturday": [
+              "07:19",
+              "09:40",
+              "12:39",
+              "15:04",
+              "17:23",
+              "20:19",
+              "22:50"
+            ],
+            "sunday": [
+              "07:19",
+              "09:40",
+              "12:39",
+              "15:04",
+              "17:23",
+              "20:19",
+              "22:50"
+            ],
+            "holiday": [
+              "12:39",
+              "15:04",
+              "17:23"
+            ]
+          }
+        },
+        {
+          "stop_id": "0018",
+          "stop_name": "Wolbrom 1-ego Maja",
+          "platform": "1",
+          "file": "0018-wolbrom.html",
+          "departures": {
+            "workday": [
+              "07:20",
+              "08:59",
+              "09:39",
+              "11:23",
+              "12:39",
+              "14:06",
+              "15:03",
+              "16:35",
+              "17:22",
+              "18:53",
+              "20:18",
+              "21:28",
+              "22:48"
+            ],
+            "saturday": [
+              "07:20",
+              "09:41",
+              "12:40",
+              "15:05",
+              "17:24",
+              "20:20",
+              "22:51"
+            ],
+            "sunday": [
+              "07:20",
+              "09:41",
+              "12:40",
+              "15:05",
+              "17:24",
+              "20:20",
+              "22:51"
+            ],
+            "holiday": [
+              "12:40",
+              "15:05",
+              "17:24"
+            ]
+          }
+        },
+        {
+          "stop_id": "0001",
+          "stop_name": "Wolbrom Nowa PKS",
+          "platform": "0",
+          "file": "0001-wolbrom.html",
+          "departures": {},
+          "arrival_only": true
+        }
       ]
     }
   ]
